@@ -1,0 +1,4280 @@
+{
+ "company": {
+  "cik": "0000021344",
+  "ticker": "KO",
+  "legal_name": "The Coca-Cola Company",
+  "common_name": "Coca-Cola",
+  "exchange": "New York Stock Exchange",
+  "listed_since_year": 1970,
+  "state_of_incorporation": "Delaware",
+  "incorporated": "September 1919 (Delaware), succeeding a Georgia corporation of the same name organized in 1892",
+  "classified_board": false,
+  "notes": "CIK verified in the EDGAR submissions JSON (name COCA COLA CO, ticker KO, exchange NYSE, state of incorporation DE). listed_since_year is a placeholder. No filing reviewed states the year the common stock was first listed on the NYSE. The earliest 10-K on EDGAR (FY1993, filed 1994-03-14) says the stock is listed and traded on the NYSE, and it reports a year-end market price for every year back to 1983. That establishes public trading well before 1990, so 1970 is used per convention. It is not the actual listing year. Evidence: e001-e004.",
+  "evidence_refs": [
+   "e001",
+   "e002",
+   "e003",
+   "e004"
+  ]
+ },
+ "as_of": "2026-10-04",
+ "sources_reviewed_through": "2026-09-28 (latest filing in the EDGAR submissions feed fetched 2026-10-04 local / 2026-10-05 UTC)",
+ "people": [
+  {
+   "key": "herb-allen",
+   "full_name": "Herbert A. Allen III",
+   "aliases": [
+    "Herb Allen",
+    "Allen Herbert A III"
+   ],
+   "sec_cik": "0001295077",
+   "bio_other_public_boards": [
+    {
+     "company": "Grupo Televisa, S.A.B.",
+     "status": "current",
+     "years": "since 2002 (2024 proxy says since 2003)",
+     "source_ref": "e013",
+     "public_company_stated_in_source": true,
+     "note": "alternate director, as stated"
+    },
+    {
+     "company": "Coca-Cola FEMSA, S.A.B. de C.V.",
+     "status": "former",
+     "years": "2000 to 2022",
+     "source_ref": "e013",
+     "public_company_stated_in_source": true,
+     "note": "alternate director, as stated"
+    }
+   ]
+  },
+  {
+   "key": "bela-bajaria",
+   "full_name": "Bela Bajaria",
+   "aliases": [
+    "Bajaria Bela"
+   ],
+   "sec_cik": "0002041274",
+   "bio_other_public_boards": []
+  },
+  {
+   "key": "ana-botin",
+   "full_name": "Ana Botín",
+   "aliases": [
+    "Ana Botin",
+    "BOTIN ANA",
+    "Botin Ana"
+   ],
+   "sec_cik": "0001581491",
+   "bio_other_public_boards": [
+    {
+     "company": "Banco Santander, S.A.",
+     "status": "current",
+     "years": "since 1989",
+     "source_ref": "e032",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Santander Holdings USA, Inc.",
+     "status": "current",
+     "years": "since 2019",
+     "source_ref": "e032",
+     "public_company_stated_in_source": true,
+     "note": "described as a wholly owned subsidiary of Banco Santander, S.A."
+    },
+    {
+     "company": "Santander UK plc",
+     "status": "former",
+     "years": "2010 to 2021",
+     "source_ref": "e032",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Santander UK Group Holdings plc",
+     "status": "former",
+     "years": "2014 to 2021",
+     "source_ref": "e032",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "henrique-braun",
+   "full_name": "Henrique Braun",
+   "aliases": [
+    "Braun Henrique"
+   ],
+   "sec_cik": "0001827313",
+   "bio_other_public_boards": []
+  },
+  {
+   "key": "christopher-c-davis",
+   "full_name": "Christopher C. Davis",
+   "aliases": [
+    "Christopher Davis",
+    "Davis Christopher C"
+   ],
+   "sec_cik": "0001350384",
+   "bio_other_public_boards": [
+    {
+     "company": "Berkshire Hathaway Inc.",
+     "status": "current",
+     "years": "since 2021",
+     "source_ref": "e055",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Graham Holdings Company",
+     "status": "current",
+     "years": "since 2006",
+     "source_ref": "e055",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "carolyn-everson",
+   "full_name": "Carolyn Everson",
+   "aliases": [
+    "Everson Carolyn"
+   ],
+   "sec_cik": "0001577369",
+   "bio_other_public_boards": [
+    {
+     "company": "Under Armour, Inc.",
+     "status": "current",
+     "years": "since 2023",
+     "source_ref": "e063",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "The Walt Disney Company",
+     "status": "current",
+     "years": "since 2022",
+     "source_ref": "e063",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "thomas-s-gayner",
+   "full_name": "Thomas S. Gayner",
+   "aliases": [
+    "Thomas Gayner",
+    "GAYNER THOMAS SINNICKSON",
+    "Gayner Thomas Sinnickson"
+   ],
+   "sec_cik": "0001159015",
+   "bio_other_public_boards": [
+    {
+     "company": "Markel Group Inc.",
+     "status": "current",
+     "years": "since 2016",
+     "source_ref": "e072",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Graham Holdings Company",
+     "status": "current",
+     "years": "since 2007",
+     "source_ref": "e072",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Cable One, Inc.",
+     "status": "former",
+     "years": "2015 to 2023",
+     "source_ref": "e072",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Colfax Corporation",
+     "status": "former",
+     "years": "2008 to 2022",
+     "source_ref": "e072",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "max-levchin",
+   "full_name": "Max Levchin",
+   "aliases": [
+    "Levchin Max R",
+    "Max R. Levchin"
+   ],
+   "sec_cik": "0001539853",
+   "bio_other_public_boards": [
+    {
+     "company": "Affirm Holdings, Inc.",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e082",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "amity-millhiser",
+   "full_name": "Amity Millhiser",
+   "aliases": [
+    "Millhiser Amity",
+    "Amity Milhiser"
+   ],
+   "sec_cik": "0001981727",
+   "bio_other_public_boards": []
+  },
+  {
+   "key": "james-quincey",
+   "full_name": "James Quincey",
+   "aliases": [
+    "Quincey James"
+   ],
+   "sec_cik": "0001561264",
+   "bio_other_public_boards": [
+    {
+     "company": "Pfizer Inc.",
+     "status": "current",
+     "years": "since 2020",
+     "source_ref": "e110",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "caroline-j-tsay",
+   "full_name": "Caroline J. Tsay",
+   "aliases": [
+    "Caroline Tsay",
+    "TSAY CAROLINE J",
+    "Tsay Caroline J"
+   ],
+   "sec_cik": "0001628434",
+   "bio_other_public_boards": [
+    {
+     "company": "Morningstar, Inc.",
+     "status": "current",
+     "years": "since 2017",
+     "source_ref": "e057",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "NICE Ltd.",
+     "status": "current",
+     "years": "since 2025",
+     "source_ref": "e057",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Semrush Holdings, Inc.",
+     "status": "current",
+     "years": "since 2025",
+     "source_ref": "e057",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "david-b-weinberg",
+   "full_name": "David B. Weinberg",
+   "aliases": [
+    "David Weinberg",
+    "WEINBERG DAVID B",
+    "Weinberg David B"
+   ],
+   "sec_cik": "0001633270",
+   "bio_other_public_boards": []
+  },
+  {
+   "key": "ronald-w-allen",
+   "full_name": "Ronald W. Allen",
+   "aliases": [
+    "Ronald Allen",
+    "ALLEN RONALD W",
+    "Allen Ronald W"
+   ],
+   "sec_cik": "0001196048",
+   "bio_other_public_boards": [
+    {
+     "company": "Aircastle Limited",
+     "status": "current",
+     "years": "since 2006 (as of the 2019 proxy)",
+     "source_ref": "e155",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Forward Air Corporation",
+     "status": "current",
+     "years": "2011-2013 and since 2014 (as of the 2019 proxy)",
+     "source_ref": "e155",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Aaron's, Inc.",
+     "status": "former",
+     "years": "1997-August 2014",
+     "source_ref": "e155",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Guided Therapeutics Inc.",
+     "status": "former",
+     "years": "2008-January 2014",
+     "source_ref": "e155",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "herbert-a-allen",
+   "full_name": "Herbert A. Allen",
+   "aliases": [
+    "ALLEN HERBERT A",
+    "Allen Herbert A"
+   ],
+   "sec_cik": "0001131947",
+   "bio_other_public_boards": []
+  },
+  {
+   "key": "robert-a-kotick",
+   "full_name": "Robert A. Kotick",
+   "aliases": [
+    "Robert Kotick",
+    "KOTICK ROBERT A",
+    "Kotick Robert A"
+   ],
+   "sec_cik": "0001091423",
+   "bio_other_public_boards": [
+    {
+     "company": "Activision Blizzard, Inc.",
+     "status": "current",
+     "years": "since 1991 (as of the 2021 proxy)",
+     "source_ref": "e174",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "barry-diller",
+   "full_name": "Barry Diller",
+   "aliases": [
+    "DILLER BARRY",
+    "Diller Barry"
+   ],
+   "sec_cik": "0000927067",
+   "bio_other_public_boards": [
+    {
+     "company": "MGM Resorts International",
+     "status": "current",
+     "years": "since 2020 (as of the 2024 proxy)",
+     "source_ref": "e185",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Expedia Group, Inc.",
+     "status": "current",
+     "years": "since 2005 (as of the 2024 proxy)",
+     "source_ref": "e185",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "IAC Inc.",
+     "status": "current",
+     "years": "since 1995 (as of the 2024 proxy)",
+     "source_ref": "e185",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "alexis-m-herman",
+   "full_name": "Alexis M. Herman",
+   "aliases": [
+    "Alexis Herman",
+    "HERMAN ALEXIS M",
+    "Herman Alexis M"
+   ],
+   "sec_cik": "0001198691",
+   "bio_other_public_boards": [
+    {
+     "company": "MGM Resorts International",
+     "status": "current",
+     "years": "since 2002 (as of the 2024 proxy)",
+     "source_ref": "e188",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Cummins Inc.",
+     "status": "former",
+     "years": "2001 to 2022",
+     "source_ref": "e188",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Entergy Corporation",
+     "status": "former",
+     "years": "2003 to 2023",
+     "source_ref": "e188",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "marc-bolland",
+   "full_name": "Marc Bolland",
+   "aliases": [
+    "BOLLAND MARC J",
+    "Bolland Marc J",
+    "Marc J. Bolland"
+   ],
+   "sec_cik": "0001299262",
+   "bio_other_public_boards": [
+    {
+     "company": "Exor N.V.",
+     "status": "current",
+     "years": "since 2016 (as of the 2024 proxy)",
+     "source_ref": "e190",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "International Consolidated Airlines Group, S.A.",
+     "status": "former",
+     "years": "2016 to 2020",
+     "source_ref": "e190",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "helene-d-gayle",
+   "full_name": "Helene D. Gayle",
+   "aliases": [
+    "Helene Gayle",
+    "Gayle Helene D"
+   ],
+   "sec_cik": "0001487047",
+   "bio_other_public_boards": [
+    {
+     "company": "Palo Alto Networks, Inc.",
+     "status": "current",
+     "years": "since 2021 (as of the 2024 proxy)",
+     "source_ref": "e205",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Organon & Co.",
+     "status": "current",
+     "years": "since 2021 (as of the 2024 proxy)",
+     "source_ref": "e205",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "GoHealth, Inc.",
+     "status": "former",
+     "years": "2020 to 2022",
+     "source_ref": "e206",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Colgate-Palmolive Company",
+     "status": "former",
+     "years": "2010 to 2021",
+     "source_ref": "e206",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "maria-elena-lagomasino",
+   "full_name": "Maria Elena Lagomasino",
+   "aliases": [
+    "LAGOMASINO MARIA ELENA",
+    "Lagomasino Maria Elena"
+   ],
+   "sec_cik": "0001224543",
+   "bio_other_public_boards": [
+    {
+     "company": "The Walt Disney Company",
+     "status": "current",
+     "years": "since 2015 (as of the 2025 proxy)",
+     "source_ref": "e216",
+     "public_company_stated_in_source": true
+    }
+   ]
+  }
+ ],
+ "memberships": [
+  {
+   "person_key": "herb-allen",
+   "start_date": "2021-12-17",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 election date (Form 3 period of report agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e010",
+    "e301",
+    "e012",
+    "e230",
+    "e302",
+    "e015"
+   ],
+   "board_class": null,
+   "notes": "Herbert A. Allen III; the company calls him Herb Allen. A different person (different SEC CIK) from Herbert A. Allen, who retired 2021-08-18. Re-elected each year through 2026. Directors are elected annually (no classes)."
+  },
+  {
+   "person_key": "bela-bajaria",
+   "start_date": "2024-10-17",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 election date, effective immediately (Form 3 agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e020",
+    "e303",
+    "e022",
+    "e304"
+   ],
+   "board_class": null,
+   "notes": "Elected by the board between meetings; re-elected 2025 and 2026. Directors are elected annually (no classes)."
+  },
+  {
+   "person_key": "ana-botin",
+   "start_date": "2013-07-18",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 election date (Form 3 period of report agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e030",
+    "e305",
+    "e031",
+    "e306"
+   ],
+   "board_class": null,
+   "notes": "Proxy 'Director since 2013'. Directors are elected annually (no classes)."
+  },
+  {
+   "person_key": "henrique-braun",
+   "start_date": "2026-04-29",
+   "start_date_precision": "day",
+   "start_date_basis": "Elected at the 2026 annual meeting as a first-time nominee (Item 5.07 results; proxy says he was nominated, not appointed earlier)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e041",
+    "e042",
+    "e044",
+    "e045",
+    "e046",
+    "e233",
+    "e235",
+    "e307"
+   ],
+   "board_class": null,
+   "notes": "CEO since 2026-03-31, about a month before he joined the board. His only Form 3/4 on file is an officer filing (2020); no director Form 4 through 2026-09-28. Directors are elected annually (no classes)."
+  },
+  {
+   "person_key": "christopher-c-davis",
+   "start_date": "2018-04-25",
+   "start_date_precision": "day",
+   "start_date_basis": "Elected at the 2018 annual meeting as a first-time nominee (2018 proxy + Item 5.07; Form 3 period of report agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e050",
+    "e051",
+    "e052",
+    "e308",
+    "e054",
+    "e309"
+   ],
+   "board_class": null,
+   "notes": "Proxy 'Director since 2018'. Directors are elected annually (no classes)."
+  },
+  {
+   "person_key": "carolyn-everson",
+   "start_date": "2022-07-19",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 election date (Form 3 agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e060",
+    "e310",
+    "e062",
+    "e311"
+   ],
+   "board_class": null,
+   "notes": "Elected by the board between meetings. Directors are elected annually (no classes)."
+  },
+  {
+   "person_key": "thomas-s-gayner",
+   "start_date": "2023-07-19",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 election date, effective immediately (Form 3 agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e070",
+    "e312",
+    "e071",
+    "e313"
+   ],
+   "board_class": null,
+   "notes": "Elected by the board between meetings. Directors are elected annually (no classes)."
+  },
+  {
+   "person_key": "max-levchin",
+   "start_date": "2025-10-16",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 election date, effective immediately (Form 3 and 2026 proxy agree)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e080",
+    "e083",
+    "e314",
+    "e081",
+    "e315"
+   ],
+   "board_class": null,
+   "notes": "Elected by the board between meetings; first stood for election 2026-04-29. Directors are elected annually (no classes)."
+  },
+  {
+   "person_key": "amity-millhiser",
+   "start_date": "2023-07-01",
+   "start_date_precision": "day",
+   "start_date_basis": "Elected at the 2023-04-25 annual meeting with her term commencing 2023-07-01 (Item 5.07; Form 3 period of report agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e090",
+    "e091",
+    "e234",
+    "e316",
+    "e092",
+    "e317"
+   ],
+   "board_class": null,
+   "notes": "Elected 2023-04-25 but service began 2023-07-01, after her retirement from her prior role. Directors are elected annually (no classes)."
+  },
+  {
+   "person_key": "james-quincey",
+   "start_date": "2017-04-26",
+   "start_date_precision": "day",
+   "start_date_basis": "Elected at the 2017 annual meeting as a first-time nominee (2017 proxy + Item 5.07)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e100",
+    "e102",
+    "e103",
+    "e104",
+    "e109",
+    "e318",
+    "e231"
+   ],
+   "board_class": null,
+   "notes": "Proxy 'Director since 2017'. CEO 2017-05-01 to 2026-03-31; Chairman since 2019-04-24; Executive Chairman since 2026-03-31. Directors are elected annually (no classes)."
+  },
+  {
+   "person_key": "caroline-j-tsay",
+   "start_date": "2018-04-25",
+   "start_date_precision": "day",
+   "start_date_basis": "Elected at the 2018 annual meeting as a first-time nominee (2018 proxy + Item 5.07; Form 3 period of report agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e050",
+    "e051",
+    "e053",
+    "e319",
+    "e056",
+    "e320"
+   ],
+   "board_class": null,
+   "notes": "Proxy 'Director since 2018'. Directors are elected annually (no classes)."
+  },
+  {
+   "person_key": "david-b-weinberg",
+   "start_date": "2015-02-18",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 election (board acted 2014-12-11, effective 2015-02-18; Form 3 agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e120",
+    "e321",
+    "e121",
+    "e322",
+    "e232"
+   ],
+   "board_class": null,
+   "notes": "Proxy 'Director since 2015'. Lead Independent Director since 2024. Directors are elected annually (no classes)."
+  },
+  {
+   "person_key": "ronald-w-allen",
+   "start_date": "1991",
+   "start_date_precision": "year",
+   "start_date_basis": "Proxy 'Director since: 1991' (pre-EDGAR; no exact date found)",
+   "end_date": "2020-04-22",
+   "end_date_precision": "day",
+   "end_reason": "did_not_stand",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e154",
+    "e150",
+    "e151",
+    "e153",
+    "e323"
+   ],
+   "board_class": null,
+   "notes": "Gave notice 2020-01-14 that he would not stand for re-election; left at the 2020 annual meeting (2020-04-22)."
+  },
+  {
+   "person_key": "herbert-a-allen",
+   "start_date": "1982",
+   "start_date_precision": "year",
+   "start_date_basis": "Proxy 'Director since: 1982' (pre-EDGAR; no exact date found)",
+   "end_date": "2021-08-18",
+   "end_date_precision": "day",
+   "end_reason": "retired",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e161",
+    "e160",
+    "e324",
+    "e015"
+   ],
+   "board_class": null,
+   "notes": "Retired mid-term, effective 2021-08-18 (8-K). Not determined independent in any proxy reviewed (2013, 2019-2021). Different person from Herb Allen (Herbert A. Allen III)."
+  },
+  {
+   "person_key": "robert-a-kotick",
+   "start_date": "2012-02-16",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 election date (Form 3 period of report agrees)",
+   "end_date": "2022-04-26",
+   "end_date_precision": "day",
+   "end_reason": "did_not_stand",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e170",
+    "e325",
+    "e171",
+    "e172",
+    "e173",
+    "e326",
+    "e174"
+   ],
+   "board_class": null,
+   "notes": "Gave notice 2022-03-01 that he would not stand for re-election; director until the 2022 annual meeting (2022-04-26)."
+  },
+  {
+   "person_key": "barry-diller",
+   "start_date": "2002-04-17",
+   "start_date_precision": "day",
+   "start_date_basis": "Elected at the 2002 annual meeting as a first-time nominee (2002 proxy; Q1 2002 10-Q Item 4 results)",
+   "end_date": "2024-08-01",
+   "end_date_precision": "day",
+   "end_reason": "retired",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e181",
+    "e182",
+    "e183",
+    "e184",
+    "e180",
+    "e191",
+    "e327"
+   ],
+   "board_class": null,
+   "notes": "Proxy 'Director since 2002'. Retired effective 2024-08-01 (notice given 2024-07-22)."
+  },
+  {
+   "person_key": "alexis-m-herman",
+   "start_date": "2007-10-18",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 election date, effective immediately (Form 3 agrees)",
+   "end_date": "2024-08-01",
+   "end_date_precision": "day",
+   "end_reason": "retired",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e186",
+    "e328",
+    "e187",
+    "e180",
+    "e191",
+    "e329"
+   ],
+   "board_class": null,
+   "notes": "Retired effective 2024-08-01 (notice given 2024-07-19)."
+  },
+  {
+   "person_key": "marc-bolland",
+   "start_date": "2015-02-18",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 election (board acted 2014-12-11, effective 2015-02-18; Form 3 agrees)",
+   "end_date": "2024-08-01",
+   "end_date_precision": "day",
+   "end_reason": "retired",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e120",
+    "e330",
+    "e189",
+    "e180",
+    "e191",
+    "e331"
+   ],
+   "board_class": null,
+   "notes": "Retired effective 2024-08-01 (notice given 2024-07-19)."
+  },
+  {
+   "person_key": "helene-d-gayle",
+   "start_date": "2013-04-24",
+   "start_date_precision": "day",
+   "start_date_basis": "Elected at the 2013 annual meeting as a first-time nominee (2013 proxy + Item 5.07; Form 3 period of report agrees)",
+   "end_date": "2024-12-13",
+   "end_date_precision": "day",
+   "end_reason": "retired",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e200",
+    "e201",
+    "e202",
+    "e332",
+    "e204",
+    "e203",
+    "e191",
+    "e333"
+   ],
+   "board_class": null,
+   "notes": "Retired effective 2024-12-13, the day she gave notice (8-K)."
+  },
+  {
+   "person_key": "maria-elena-lagomasino",
+   "start_date": "2008-10-16",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 election date (current stint; proxies 'Director since 2008')",
+   "end_date": "2026-04-29",
+   "end_date_precision": "day",
+   "end_reason": "retired",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e210",
+    "e214",
+    "e211",
+    "e141",
+    "e045",
+    "e136",
+    "e334"
+   ],
+   "board_class": null,
+   "notes": "Not renominated in 2026 because she reached 76 (age guideline); her term ended at the 2026 annual meeting (2026-04-29). Lead Independent Director 2019-04-24 to 2024. She had an earlier, separate stint on the board (2003 to 2006, per the 2025 proxy). That stint ended before 2020, so it is out of scope and not recorded here (e215)."
+  }
+ ],
+ "roles": [
+  {
+   "person_key": "herb-allen",
+   "role": "independent_director",
+   "start_date": "2021-12-17",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e144",
+    "e149",
+    "e143",
+    "e142",
+    "e140"
+   ],
+   "notes": "Found independent in every determination reviewed (2022-2026 proxies). Start aligned to board start; the filings don't date independence on its own."
+  },
+  {
+   "person_key": "bela-bajaria",
+   "role": "independent_director",
+   "start_date": "2024-10-17",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e142",
+    "e140"
+   ],
+   "notes": "Found independent in every determination reviewed (2025-2026 proxies). Start aligned to board start; the filings don't date independence on its own."
+  },
+  {
+   "person_key": "ana-botin",
+   "role": "independent_director",
+   "start_date": "2013-07-18",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e144",
+    "e143",
+    "e142",
+    "e140"
+   ],
+   "notes": "Found independent in every determination reviewed (2019-2026 proxies). Start aligned to board start; the filings don't date independence on its own."
+  },
+  {
+   "person_key": "henrique-braun",
+   "role": "ceo_director",
+   "start_date": "2026-04-29",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e040",
+    "e043",
+    "e045",
+    "e046"
+   ],
+   "notes": "CEO since 2026-03-31; this role starts when he joined the board (2026-04-29)."
+  },
+  {
+   "person_key": "henrique-braun",
+   "role": "non_independent_director",
+   "start_date": "2026-04-29",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e043"
+   ],
+   "notes": "Excluded from the independent nominees in the 2026 proxy (employee)."
+  },
+  {
+   "person_key": "christopher-c-davis",
+   "role": "independent_director",
+   "start_date": "2018-04-25",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e144",
+    "e143",
+    "e142",
+    "e140"
+   ],
+   "notes": "Found independent in every determination reviewed (2019-2026 proxies). Start aligned to board start; the filings don't date independence on its own."
+  },
+  {
+   "person_key": "carolyn-everson",
+   "role": "independent_director",
+   "start_date": "2022-07-19",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e149",
+    "e143",
+    "e142",
+    "e140"
+   ],
+   "notes": "Found independent in every determination reviewed (2023-2026 proxies). Start aligned to board start; the filings don't date independence on its own."
+  },
+  {
+   "person_key": "thomas-s-gayner",
+   "role": "independent_director",
+   "start_date": "2023-07-19",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e143",
+    "e142",
+    "e140"
+   ],
+   "notes": "Found independent in every determination reviewed (2024-2026 proxies). Start aligned to board start; the filings don't date independence on its own."
+  },
+  {
+   "person_key": "max-levchin",
+   "role": "independent_director",
+   "start_date": "2025-10-16",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e140"
+   ],
+   "notes": "Found independent in every determination reviewed (2026 proxy). Start aligned to board start; the filings don't date independence on its own."
+  },
+  {
+   "person_key": "amity-millhiser",
+   "role": "independent_director",
+   "start_date": "2023-07-01",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e149",
+    "e143",
+    "e142",
+    "e140"
+   ],
+   "notes": "Found independent in every determination reviewed (2023-2026 proxies). Start aligned to board start; the filings don't date independence on its own."
+  },
+  {
+   "person_key": "james-quincey",
+   "role": "executive_director",
+   "start_date": "2017-04-26",
+   "end_date": "2017-05-01",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e102",
+    "e103",
+    "e101"
+   ],
+   "officer_title": "President and Chief Operating Officer",
+   "notes": "President and Chief Operating Officer when elected to the board; became CEO 2017-05-01."
+  },
+  {
+   "person_key": "james-quincey",
+   "role": "ceo_director",
+   "start_date": "2017-05-01",
+   "end_date": "2026-03-31",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e101",
+    "e040",
+    "e047"
+   ],
+   "notes": "CEO 2017-05-01 to 2026-03-31, when Braun succeeded him."
+  },
+  {
+   "person_key": "james-quincey",
+   "role": "chair",
+   "start_date": "2019-04-24",
+   "end_date": "2026-03-31",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e105",
+    "e106",
+    "e107",
+    "e108",
+    "e109"
+   ],
+   "notes": "Combined Chairman and CEO. Elected 2018-12-06 to succeed Kent, contingent on re-election at the 2019 annual meeting, when Kent left the chair. Proxy: 'Chairman since 2019'."
+  },
+  {
+   "person_key": "james-quincey",
+   "role": "executive_chair",
+   "start_date": "2026-03-31",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e040",
+    "e047",
+    "e048",
+    "e318"
+   ],
+   "officer_title": "Executive Chairman",
+   "notes": "Executive Chairman after the Chairman/CEO split on 2026-03-31. Form 4s through 2026-07-30 still show him as a director with title 'Chairman'."
+  },
+  {
+   "person_key": "james-quincey",
+   "role": "non_independent_director",
+   "start_date": "2017-04-26",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e148",
+    "e111",
+    "e043"
+   ],
+   "notes": "Employee director; excluded from independent nominees in every proxy reviewed."
+  },
+  {
+   "person_key": "caroline-j-tsay",
+   "role": "independent_director",
+   "start_date": "2018-04-25",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e144",
+    "e143",
+    "e142",
+    "e140"
+   ],
+   "notes": "Found independent in every determination reviewed (2019-2026 proxies). Start aligned to board start; the filings don't date independence on its own."
+  },
+  {
+   "person_key": "david-b-weinberg",
+   "role": "independent_director",
+   "start_date": "2015-02-18",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e144",
+    "e143",
+    "e142",
+    "e140"
+   ],
+   "notes": "Found independent in every determination reviewed (2019-2026 proxies). Start aligned to board start; the filings don't date independence on its own."
+  },
+  {
+   "person_key": "david-b-weinberg",
+   "role": "lead_independent_director",
+   "start_date": "2024",
+   "end_date": null,
+   "precision": "year",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e121",
+    "e123",
+    "e122",
+    "e049"
+   ],
+   "notes": "Proxy: 'Lead Independent Director since 2024'. He succeeded Lagomasino; no filing gives the day. The 2025 proxy pro-rates both directors' 2024 LID fees, but no handover date is stated."
+  },
+  {
+   "person_key": "ronald-w-allen",
+   "role": "independent_director",
+   "start_date": "2013",
+   "end_date": "2020-04-22",
+   "precision": "year",
+   "end_precision": "day",
+   "confidence": "medium",
+   "evidence_refs": [
+    "e147",
+    "e146"
+   ],
+   "notes": "Independent in the 2013 and 2019-2021 proxies. Starts at 2013, the earliest determination reviewed; his status before 2013 was not reviewed."
+  },
+  {
+   "person_key": "herbert-a-allen",
+   "role": "non_independent_director",
+   "start_date": "2013",
+   "end_date": "2021-08-18",
+   "precision": "year",
+   "end_precision": "day",
+   "confidence": "medium",
+   "evidence_refs": [
+    "e147",
+    "e148",
+    "e145"
+   ],
+   "notes": "Not determined independent in the 2013 and 2019-2021 proxies. Starts at 2013, the earliest determination reviewed; his status 1982-2012 was not reviewed."
+  },
+  {
+   "person_key": "robert-a-kotick",
+   "role": "independent_director",
+   "start_date": "2013",
+   "end_date": "2022-04-26",
+   "precision": "year",
+   "end_precision": "day",
+   "confidence": "medium",
+   "evidence_refs": [
+    "e147",
+    "e144"
+   ],
+   "notes": "Independent in the 2013 and 2019-2022 proxies. Starts at 2013, the earliest determination reviewed; it does not cover 2012-02-16 to the 2013 proxy."
+  },
+  {
+   "person_key": "barry-diller",
+   "role": "independent_director",
+   "start_date": "2013",
+   "end_date": "2024-08-01",
+   "precision": "year",
+   "end_precision": "day",
+   "confidence": "medium",
+   "evidence_refs": [
+    "e147",
+    "e143",
+    "e192"
+   ],
+   "notes": "Independent in the 2013 and 2019-2025 proxies. Starts at 2013, the earliest determination reviewed."
+  },
+  {
+   "person_key": "alexis-m-herman",
+   "role": "independent_director",
+   "start_date": "2013",
+   "end_date": "2024-08-01",
+   "precision": "year",
+   "end_precision": "day",
+   "confidence": "medium",
+   "evidence_refs": [
+    "e147",
+    "e143",
+    "e192"
+   ],
+   "notes": "Independent in the 2013 and 2019-2025 proxies. Starts at 2013, the earliest determination reviewed."
+  },
+  {
+   "person_key": "marc-bolland",
+   "role": "independent_director",
+   "start_date": "2015-02-18",
+   "end_date": "2024-08-01",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "medium",
+   "evidence_refs": [
+    "e144",
+    "e143",
+    "e192"
+   ],
+   "notes": "Found independent in every determination reviewed (2019-2025 proxies). Start aligned to board start; the filings don't date independence on its own."
+  },
+  {
+   "person_key": "helene-d-gayle",
+   "role": "independent_director",
+   "start_date": "2013-04-24",
+   "end_date": "2024-12-13",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "medium",
+   "evidence_refs": [
+    "e147",
+    "e143",
+    "e192"
+   ],
+   "notes": "Found independent in every determination reviewed (2013 and 2019-2025 proxies). Start aligned to board start; the filings don't date independence on its own."
+  },
+  {
+   "person_key": "maria-elena-lagomasino",
+   "role": "independent_director",
+   "start_date": "2013",
+   "end_date": "2026-04-29",
+   "precision": "year",
+   "end_precision": "day",
+   "confidence": "medium",
+   "evidence_refs": [
+    "e147",
+    "e143",
+    "e142",
+    "e141"
+   ],
+   "notes": "Independent in the 2013 and 2019-2026 proxies. Starts at 2013, the earliest determination reviewed."
+  },
+  {
+   "person_key": "maria-elena-lagomasino",
+   "role": "lead_independent_director",
+   "start_date": "2019-04-24",
+   "end_date": "2024",
+   "precision": "day",
+   "end_precision": "year",
+   "confidence": "high",
+   "evidence_refs": [
+    "e212",
+    "e107",
+    "e217",
+    "e213",
+    "e214",
+    "e122"
+   ],
+   "notes": "Elected 2018-12-06 to succeed Sam Nunn, contingent on re-election at the 2019 annual meeting (2019-04-24). Weinberg succeeded her in 2024; the day is not disclosed."
+  }
+ ],
+ "committees": [
+  {
+   "person_key": "amity-millhiser",
+   "committee": "audit",
+   "role": "chair",
+   "as_of_filing": "0001104659-26-028215",
+   "as_of_date": "2025-12-31",
+   "evidence_refs": [
+    "e131",
+    "e130",
+    "e092",
+    "e226"
+   ]
+  },
+  {
+   "person_key": "christopher-c-davis",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001104659-26-028215",
+   "as_of_date": "2025-12-31",
+   "evidence_refs": [
+    "e131",
+    "e054"
+   ]
+  },
+  {
+   "person_key": "caroline-j-tsay",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001104659-26-028215",
+   "as_of_date": "2025-12-31",
+   "evidence_refs": [
+    "e131",
+    "e056"
+   ]
+  },
+  {
+   "person_key": "david-b-weinberg",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001104659-26-028215",
+   "as_of_date": "2025-12-31",
+   "evidence_refs": [
+    "e131",
+    "e121"
+   ]
+  },
+  {
+   "person_key": "carolyn-everson",
+   "committee": "compensation",
+   "role": "chair",
+   "as_of_filing": "0001104659-26-028215",
+   "as_of_date": "2025-12-31",
+   "evidence_refs": [
+    "e132",
+    "e062",
+    "e061",
+    "e227"
+   ],
+   "notes": "Talent and Compensation Committee"
+  },
+  {
+   "person_key": "bela-bajaria",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001104659-26-028215",
+   "as_of_date": "2025-12-31",
+   "evidence_refs": [
+    "e132",
+    "e022",
+    "e021",
+    "e227"
+   ],
+   "notes": "Talent and Compensation Committee"
+  },
+  {
+   "person_key": "maria-elena-lagomasino",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001104659-26-028215",
+   "as_of_date": "2025-12-31",
+   "evidence_refs": [
+    "e132",
+    "e136"
+   ],
+   "membership_end_date": "2026-04-29",
+   "notes": "Talent and Compensation Committee; served until the 2026 annual meeting."
+  },
+  {
+   "person_key": "max-levchin",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001104659-26-028215",
+   "as_of_date": "2025-12-31",
+   "evidence_refs": [
+    "e132",
+    "e137",
+    "e081"
+   ],
+   "effective_date": "2025-10-16",
+   "notes": "Talent and Compensation Committee"
+  },
+  {
+   "person_key": "herb-allen",
+   "committee": "nominating_governance",
+   "role": "chair",
+   "as_of_filing": "0001104659-26-028215",
+   "as_of_date": "2025-12-31",
+   "evidence_refs": [
+    "e133",
+    "e012"
+   ],
+   "notes": "Corporate Governance and Sustainability Committee"
+  },
+  {
+   "person_key": "ana-botin",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001104659-26-028215",
+   "as_of_date": "2025-12-31",
+   "evidence_refs": [
+    "e133",
+    "e031"
+   ],
+   "notes": "Corporate Governance and Sustainability Committee"
+  },
+  {
+   "person_key": "maria-elena-lagomasino",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001104659-26-028215",
+   "as_of_date": "2025-12-31",
+   "evidence_refs": [
+    "e133",
+    "e136"
+   ],
+   "membership_end_date": "2026-04-29",
+   "notes": "Corporate Governance and Sustainability Committee; served until the 2026 annual meeting."
+  },
+  {
+   "person_key": "david-b-weinberg",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001104659-26-028215",
+   "as_of_date": "2025-12-31",
+   "evidence_refs": [
+    "e133",
+    "e121"
+   ],
+   "notes": "Corporate Governance and Sustainability Committee"
+  },
+  {
+   "person_key": "christopher-c-davis",
+   "committee": "finance",
+   "role": "chair",
+   "as_of_filing": "0001104659-26-028215",
+   "as_of_date": "2025-12-31",
+   "evidence_refs": [
+    "e134",
+    "e054"
+   ],
+   "notes": "Finance Committee"
+  },
+  {
+   "person_key": "herb-allen",
+   "committee": "finance",
+   "role": "member",
+   "as_of_filing": "0001104659-26-028215",
+   "as_of_date": "2025-12-31",
+   "evidence_refs": [
+    "e134",
+    "e012",
+    "e011"
+   ],
+   "notes": "Finance Committee"
+  },
+  {
+   "person_key": "ana-botin",
+   "committee": "finance",
+   "role": "member",
+   "as_of_filing": "0001104659-26-028215",
+   "as_of_date": "2025-12-31",
+   "evidence_refs": [
+    "e134",
+    "e031"
+   ],
+   "notes": "Finance Committee"
+  },
+  {
+   "person_key": "carolyn-everson",
+   "committee": "finance",
+   "role": "member",
+   "as_of_filing": "0001104659-26-028215",
+   "as_of_date": "2025-12-31",
+   "evidence_refs": [
+    "e134",
+    "e062"
+   ],
+   "notes": "Finance Committee"
+  },
+  {
+   "person_key": "thomas-s-gayner",
+   "committee": "finance",
+   "role": "member",
+   "as_of_filing": "0001104659-26-028215",
+   "as_of_date": "2025-12-31",
+   "evidence_refs": [
+    "e134",
+    "e071"
+   ],
+   "notes": "Finance Committee"
+  },
+  {
+   "person_key": "james-quincey",
+   "committee": "executive",
+   "role": "chair",
+   "as_of_filing": "0001104659-26-028215",
+   "as_of_date": "2025-12-31",
+   "evidence_refs": [
+    "e135",
+    "e109"
+   ],
+   "notes": "Executive Committee"
+  },
+  {
+   "person_key": "christopher-c-davis",
+   "committee": "executive",
+   "role": "member",
+   "as_of_filing": "0001104659-26-028215",
+   "as_of_date": "2025-12-31",
+   "evidence_refs": [
+    "e135",
+    "e054"
+   ],
+   "notes": "Executive Committee"
+  },
+  {
+   "person_key": "david-b-weinberg",
+   "committee": "executive",
+   "role": "member",
+   "as_of_filing": "0001104659-26-028215",
+   "as_of_date": "2025-12-31",
+   "evidence_refs": [
+    "e135",
+    "e121"
+   ],
+   "notes": "Executive Committee"
+  },
+  {
+   "person_key": "marc-bolland",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001558370-24-003468",
+   "as_of_date": "2023-12-31",
+   "evidence_refs": [
+    "e221",
+    "e220",
+    "e189"
+   ]
+  },
+  {
+   "person_key": "helene-d-gayle",
+   "committee": "compensation",
+   "role": "chair",
+   "as_of_filing": "0001558370-24-003468",
+   "as_of_date": "2023-12-31",
+   "evidence_refs": [
+    "e222",
+    "e220",
+    "e204",
+    "e227"
+   ],
+   "notes": "Talent and Compensation Committee. Everson became chair 2024-08-01 (e227); Gayle retired 2024-12-13."
+  },
+  {
+   "person_key": "alexis-m-herman",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001558370-24-003468",
+   "as_of_date": "2023-12-31",
+   "evidence_refs": [
+    "e222",
+    "e187"
+   ],
+   "notes": "Talent and Compensation Committee"
+  },
+  {
+   "person_key": "alexis-m-herman",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001558370-24-003468",
+   "as_of_date": "2023-12-31",
+   "evidence_refs": [
+    "e223",
+    "e187"
+   ],
+   "notes": "Corporate Governance and Sustainability Committee"
+  },
+  {
+   "person_key": "barry-diller",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001558370-24-003468",
+   "as_of_date": "2023-12-31",
+   "evidence_refs": [
+    "e223",
+    "e184"
+   ],
+   "notes": "Corporate Governance and Sustainability Committee"
+  },
+  {
+   "person_key": "barry-diller",
+   "committee": "finance",
+   "role": "chair",
+   "as_of_filing": "0001558370-24-003468",
+   "as_of_date": "2023-12-31",
+   "evidence_refs": [
+    "e224",
+    "e184"
+   ],
+   "notes": "Finance Committee"
+  },
+  {
+   "person_key": "barry-diller",
+   "committee": "executive",
+   "role": "member",
+   "as_of_filing": "0001558370-24-003468",
+   "as_of_date": "2023-12-31",
+   "evidence_refs": [
+    "e225",
+    "e184"
+   ],
+   "notes": "Executive Committee"
+  },
+  {
+   "person_key": "robert-a-kotick",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001206774-22-000669",
+   "as_of_date": "2021-12-31",
+   "evidence_refs": [
+    "e175",
+    "e177",
+    "e178"
+   ],
+   "effective_date": "2021-04-21",
+   "notes": "Committee on Directors and Corporate Governance (Lagomasino chair); through the 2022 annual meeting."
+  },
+  {
+   "person_key": "robert-a-kotick",
+   "committee": "finance",
+   "role": "member",
+   "as_of_filing": "0001206774-22-000669",
+   "as_of_date": "2021-12-31",
+   "evidence_refs": [
+    "e176",
+    "e178"
+   ],
+   "notes": "Finance Committee (Diller chair); through the 2022 annual meeting."
+  },
+  {
+   "person_key": "herbert-a-allen",
+   "committee": "finance",
+   "role": "member",
+   "as_of_filing": "0001206774-21-000597",
+   "as_of_date": "2020-12-31",
+   "evidence_refs": [
+    "e165",
+    "e161",
+    "e162"
+   ],
+   "notes": "Finance Committee"
+  },
+  {
+   "person_key": "herbert-a-allen",
+   "committee": "management_development",
+   "role": "chair",
+   "as_of_filing": "0001206774-21-000597",
+   "as_of_date": "2020-12-31",
+   "evidence_refs": [
+    "e163",
+    "e161",
+    "e162"
+   ],
+   "notes": "Management Development Committee (its duties moved to the Committee on Directors and Corporate Governance on 2021-04-21, per e177)."
+  },
+  {
+   "person_key": "herbert-a-allen",
+   "committee": "executive",
+   "role": "member",
+   "as_of_filing": "0001206774-21-000597",
+   "as_of_date": "2020-12-31",
+   "evidence_refs": [
+    "e164",
+    "e161",
+    "e162"
+   ],
+   "notes": "Executive Committee"
+  },
+  {
+   "person_key": "ronald-w-allen",
+   "committee": "audit",
+   "role": "chair",
+   "as_of_filing": "0001206774-20-000704",
+   "as_of_date": "2020-03-05",
+   "evidence_refs": [
+    "e156",
+    "e157",
+    "e154"
+   ],
+   "membership_end_date": "2020-04-22",
+   "notes": "Audit chair through the 2020 annual meeting (2020-04-22)."
+  }
+ ],
+ "events": [
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "herbert-a-allen",
+   "event_date": "1982",
+   "announced_date": null,
+   "evidence_refs": [
+    "e161"
+   ],
+   "summary": "Herbert A. Allen joins the board (proxy 'Director since 1982').",
+   "event_date_precision": "year"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "ronald-w-allen",
+   "event_date": "1991",
+   "announced_date": null,
+   "evidence_refs": [
+    "e154"
+   ],
+   "summary": "Ronald W. Allen joins the board (proxy 'Director since 1991').",
+   "event_date_precision": "year"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "barry-diller",
+   "event_date": "2002-04-17",
+   "announced_date": null,
+   "evidence_refs": [
+    "e181",
+    "e182",
+    "e183"
+   ],
+   "summary": "Barry Diller elected at the 2002 annual meeting.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "alexis-m-herman",
+   "event_date": "2007-10-18",
+   "announced_date": "2007-10-24",
+   "evidence_refs": [
+    "e186",
+    "e328"
+   ],
+   "summary": "Alexis M. Herman elected by the board, effective immediately.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "maria-elena-lagomasino",
+   "event_date": "2008-10-16",
+   "announced_date": "2008-10-21",
+   "evidence_refs": [
+    "e210"
+   ],
+   "summary": "Maria Elena Lagomasino elected by the board (her second stint).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "robert-a-kotick",
+   "event_date": "2012-02-16",
+   "announced_date": "2012-02-21",
+   "evidence_refs": [
+    "e170",
+    "e325"
+   ],
+   "summary": "Robert A. Kotick elected by the board.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "helene-d-gayle",
+   "event_date": "2013-04-24",
+   "announced_date": null,
+   "evidence_refs": [
+    "e200",
+    "e201",
+    "e202"
+   ],
+   "summary": "Helene D. Gayle elected at the 2013 annual meeting.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "ana-botin",
+   "event_date": "2013-07-18",
+   "announced_date": "2013-07-19",
+   "evidence_refs": [
+    "e030",
+    "e305"
+   ],
+   "summary": "Ana Botín elected by the board.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "marc-bolland",
+   "event_date": "2015-02-18",
+   "announced_date": "2014-12-11",
+   "evidence_refs": [
+    "e120",
+    "e330"
+   ],
+   "summary": "Marc Bolland joins (elected 2014-12-11, effective 2015-02-18).",
+   "event_date_precision": "day",
+   "decision_date": "2014-12-11"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "david-b-weinberg",
+   "event_date": "2015-02-18",
+   "announced_date": "2014-12-11",
+   "evidence_refs": [
+    "e120",
+    "e321"
+   ],
+   "summary": "David B. Weinberg joins (elected 2014-12-11, effective 2015-02-18).",
+   "event_date_precision": "day",
+   "decision_date": "2014-12-11"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "james-quincey",
+   "event_date": "2017-04-26",
+   "announced_date": "2016-12-09",
+   "evidence_refs": [
+    "e100",
+    "e102",
+    "e103",
+    "e104"
+   ],
+   "summary": "James Quincey (President and COO) elected at the 2017 annual meeting.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "james-quincey",
+   "event_date": "2017-05-01",
+   "announced_date": "2016-12-09",
+   "evidence_refs": [
+    "e101"
+   ],
+   "summary": "Quincey becomes CEO.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "christopher-c-davis",
+   "event_date": "2018-04-25",
+   "announced_date": null,
+   "evidence_refs": [
+    "e050",
+    "e051",
+    "e052"
+   ],
+   "summary": "Christopher C. Davis elected at the 2018 annual meeting.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "caroline-j-tsay",
+   "event_date": "2018-04-25",
+   "announced_date": null,
+   "evidence_refs": [
+    "e050",
+    "e051",
+    "e053"
+   ],
+   "summary": "Caroline J. Tsay elected at the 2018 annual meeting.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "james-quincey",
+   "event_date": "2019-04-24",
+   "announced_date": "2018-12-06",
+   "evidence_refs": [
+    "e105",
+    "e106",
+    "e107",
+    "e108"
+   ],
+   "summary": "Quincey becomes Chairman when Muhtar Kent leaves the chair and the board at the 2019 annual meeting.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "maria-elena-lagomasino",
+   "event_date": "2019-04-24",
+   "announced_date": "2018-12-06",
+   "evidence_refs": [
+    "e212",
+    "e107",
+    "e217"
+   ],
+   "summary": "Lagomasino becomes Lead Independent Director, succeeding Sam Nunn.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "ronald-w-allen",
+   "event_date": "2020-04-22",
+   "announced_date": "2020-01-14",
+   "evidence_refs": [
+    "e150",
+    "e151",
+    "e153"
+   ],
+   "summary": "Ronald W. Allen leaves at the 2020 annual meeting (did not stand).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_SIZE_CHANGE",
+   "person_key": null,
+   "event_date": "2020-04-22",
+   "announced_date": "2020-03-05",
+   "evidence_refs": [
+    "e151",
+    "e152",
+    "e153"
+   ],
+   "summary": "Board reduced from 13 to 12 at the 2020 annual meeting.",
+   "event_date_precision": "day",
+   "from_size": 13,
+   "to_size": 12
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "herbert-a-allen",
+   "event_date": "2021-08-18",
+   "announced_date": "2021-08-24",
+   "evidence_refs": [
+    "e160"
+   ],
+   "summary": "Herbert A. Allen retires from the board, effective immediately.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_SIZE_CHANGE",
+   "person_key": null,
+   "event_date": "2021-12-17",
+   "announced_date": "2021-12-20",
+   "evidence_refs": [
+    "e010"
+   ],
+   "summary": "Board increased to 12 to seat Herb Allen. The prior authorized size is not stated.",
+   "event_date_precision": "day",
+   "to_size": 12
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "herb-allen",
+   "event_date": "2021-12-17",
+   "announced_date": "2021-12-20",
+   "evidence_refs": [
+    "e010",
+    "e301"
+   ],
+   "summary": "Herbert A. Allen III (Herb Allen) elected by the board.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "robert-a-kotick",
+   "event_date": "2022-04-26",
+   "announced_date": "2022-03-04",
+   "evidence_refs": [
+    "e171",
+    "e172",
+    "e173"
+   ],
+   "summary": "Robert A. Kotick leaves at the 2022 annual meeting (did not stand).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_SIZE_CHANGE",
+   "person_key": null,
+   "event_date": "2022-04-26",
+   "announced_date": "2022-03-11",
+   "evidence_refs": [
+    "e172",
+    "e173"
+   ],
+   "summary": "Board reduced from 12 to 11 at the 2022 annual meeting.",
+   "event_date_precision": "day",
+   "from_size": 12,
+   "to_size": 11
+  },
+  {
+   "type": "BOARD_SIZE_CHANGE",
+   "person_key": null,
+   "event_date": "2022-07-19",
+   "announced_date": "2022-07-21",
+   "evidence_refs": [
+    "e060"
+   ],
+   "summary": "Board increased to 12 to seat Carolyn Everson.",
+   "event_date_precision": "day",
+   "from_size": 11,
+   "to_size": 12
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "carolyn-everson",
+   "event_date": "2022-07-19",
+   "announced_date": "2022-07-21",
+   "evidence_refs": [
+    "e060",
+    "e310"
+   ],
+   "summary": "Carolyn Everson elected by the board.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "amity-millhiser",
+   "event_date": "2023-07-01",
+   "announced_date": "2023-03-10",
+   "evidence_refs": [
+    "e090",
+    "e091",
+    "e316"
+   ],
+   "summary": "Amity Millhiser's term begins (elected 2023-04-25 with term commencing 2023-07-01).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_SIZE_CHANGE",
+   "person_key": null,
+   "event_date": "2023-07-19",
+   "announced_date": "2023-07-19",
+   "evidence_refs": [
+    "e070"
+   ],
+   "summary": "Board increased to 14 to seat Thomas S. Gayner. The prior size is not stated; 13 were elected in 2023.",
+   "event_date_precision": "day",
+   "to_size": 14
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "thomas-s-gayner",
+   "event_date": "2023-07-19",
+   "announced_date": "2023-07-19",
+   "evidence_refs": [
+    "e070",
+    "e312"
+   ],
+   "summary": "Thomas S. Gayner elected by the board, effective immediately.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "david-b-weinberg",
+   "event_date": "2024",
+   "announced_date": null,
+   "evidence_refs": [
+    "e121",
+    "e123",
+    "e122",
+    "e213",
+    "e214"
+   ],
+   "summary": "Weinberg succeeds Lagomasino as Lead Independent Director (year only).",
+   "event_date_precision": "year"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "barry-diller",
+   "event_date": "2024-08-01",
+   "announced_date": "2024-07-23",
+   "evidence_refs": [
+    "e180",
+    "e191"
+   ],
+   "summary": "Barry Diller retires from the board.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "alexis-m-herman",
+   "event_date": "2024-08-01",
+   "announced_date": "2024-07-23",
+   "evidence_refs": [
+    "e180",
+    "e191"
+   ],
+   "summary": "Alexis M. Herman retires from the board.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "marc-bolland",
+   "event_date": "2024-08-01",
+   "announced_date": "2024-07-23",
+   "evidence_refs": [
+    "e180",
+    "e191"
+   ],
+   "summary": "Marc Bolland retires from the board.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_SIZE_CHANGE",
+   "person_key": null,
+   "event_date": "2024-10-17",
+   "announced_date": "2024-10-17",
+   "evidence_refs": [
+    "e020"
+   ],
+   "summary": "Board increased to 12 to seat Bela Bajaria. The prior authorized size is not stated.",
+   "event_date_precision": "day",
+   "to_size": 12
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "bela-bajaria",
+   "event_date": "2024-10-17",
+   "announced_date": "2024-10-17",
+   "evidence_refs": [
+    "e020",
+    "e303"
+   ],
+   "summary": "Bela Bajaria elected by the board, effective immediately.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "helene-d-gayle",
+   "event_date": "2024-12-13",
+   "announced_date": "2024-12-16",
+   "evidence_refs": [
+    "e203",
+    "e191"
+   ],
+   "summary": "Helene D. Gayle retires from the board, effective the day she gave notice.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "max-levchin",
+   "event_date": "2025-10-16",
+   "announced_date": "2025-10-16",
+   "evidence_refs": [
+    "e080",
+    "e314"
+   ],
+   "summary": "Max Levchin elected by the board, effective immediately.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "james-quincey",
+   "event_date": "2026-03-31",
+   "announced_date": "2025-12-10",
+   "evidence_refs": [
+    "e040",
+    "e047",
+    "e048"
+   ],
+   "summary": "Chairman and CEO roles split: Braun becomes CEO and Quincey becomes Executive Chairman.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "maria-elena-lagomasino",
+   "event_date": "2026-04-29",
+   "announced_date": "2026-03-16",
+   "evidence_refs": [
+    "e211",
+    "e141",
+    "e045"
+   ],
+   "summary": "Maria Elena Lagomasino's term ends at the 2026 annual meeting (not renominated under the age-76 guideline).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "henrique-braun",
+   "event_date": "2026-04-29",
+   "announced_date": "2025-12-10",
+   "evidence_refs": [
+    "e041",
+    "e042",
+    "e045",
+    "e046"
+   ],
+   "summary": "Henrique Braun (CEO) elected at the 2026 annual meeting.",
+   "event_date_precision": "day"
+  }
+ ],
+ "evidence": [
+  {
+   "id": "e001",
+   "form": "10-K",
+   "accession": "0001628280-26-010047",
+   "filing_date": "2026-02-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000162828026010047/ko-20251231.htm",
+   "quote": "The Coca-Cola Company was incorporated in September 1919 under the laws of the State of Delaware and succeeded to the business of a Georgia corporation with the same name that had been organized in 1892.",
+   "supports": "Incorporated in Delaware, September 1919 (succeeded an 1892 Georgia corporation)."
+  },
+  {
+   "id": "e002",
+   "form": "10-K",
+   "accession": "0001628280-26-010047",
+   "filing_date": "2026-02-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000162828026010047/ko-20251231.htm",
+   "quote": "The principal United States market in which the Company's common stock is listed and traded is the New York Stock Exchange and the corresponding trading symbol is \"KO.\"",
+   "supports": "Common stock listed on the NYSE under KO (FY2025 10-K)."
+  },
+  {
+   "id": "e003",
+   "form": "10-K",
+   "accession": "0000950144-94-000600",
+   "filing_date": "1994-03-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000095014494000600/0000950144-94-000600.txt",
+   "quote": "Common stock of The Coca-Cola Company is listed and traded on the New York Stock Exchange, which is the principal market for the common stock",
+   "supports": "Earliest 10-K on EDGAR (FY1993, filed 1994-03-14): common stock listed and traded on the NYSE."
+  },
+  {
+   "id": "e004",
+   "form": "10-K",
+   "accession": "0000950144-94-000600",
+   "filing_date": "1994-03-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000095014494000600/0000950144-94-000600.txt",
+   "quote": "40.13 23.25 19.31 11.16 9.53 9.44 7.04 5.20 4.46",
+   "supports": "FY1993 10-K selected financial data: 'Market price at December 31' row for 1991 back to 1983 (columns 1991, 1990, ... 1983), i.e. the stock had a public market price at year-end 1983. Does not by itself name the exchange for those years.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e010",
+   "form": "8-K",
+   "accession": "0001552781-21-000856",
+   "filing_date": "2021-12-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000155278121000856/e21666_ko-8k.htm",
+   "quote": "On December 17, 2021, the Board of Directors of The Coca-Cola Company (the \"Company\") increased the size of the Board to 12 members and elected Herbert A. Allen III as a Director of the Company.",
+   "supports": "Herb Allen (Herbert A. Allen III) elected director 2021-12-17; board size increased to 12."
+  },
+  {
+   "id": "e011",
+   "form": "8-K",
+   "accession": "0001552781-21-000856",
+   "filing_date": "2021-12-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000155278121000856/e21666_ko-8k.htm",
+   "quote": "Mr. Allen was appointed to the Finance Committee, effective immediately following his election.",
+   "supports": "Herb Allen appointed to the Finance Committee on election."
+  },
+  {
+   "id": "e012",
+   "form": "DEF 14A",
+   "accession": "0001104659-26-028215",
+   "filing_date": "2026-03-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000110465926028215/ko-20260429xdef14a.htm",
+   "quote": "HERB ALLEN AGE: 58 | INDEPENDENT DIRECTOR SINCE: 2021 COMMITTEES: Corporate Governance and Sustainability (Chair); Finance",
+   "supports": "Herb Allen: independent, Director since 2021; CGS Committee chair, Finance member (2026 proxy)."
+  },
+  {
+   "id": "e013",
+   "form": "DEF 14A",
+   "accession": "0001104659-26-028215",
+   "filing_date": "2026-03-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000110465926028215/ko-20260429xdef14a.htm",
+   "quote": "Current Public Company Boards: ● Grupo Televisa, S.A.B. (Alternate) (since 2002) Previous Public Company Boards (Past Five Years): ● Coca-Cola FEMSA, S.A.B. de C.V. (Alternate) (2000 to 2022)",
+   "supports": "Herb Allen other public boards (2026 proxy bio)."
+  },
+  {
+   "id": "e014",
+   "form": "DEF 14A",
+   "accession": "0001558370-24-003468",
+   "filing_date": "2024-03-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000155837024003468/ko-20240501xdef14a.htm",
+   "quote": "Current Public Company Boards: ● Grupo Televisa, S.A.B. (Alternate) (since 2003)",
+   "supports": "Herb Allen: 2024 proxy gives Grupo Televisa alternate seat 'since 2003' (2026 proxy says 2002)."
+  },
+  {
+   "id": "e015",
+   "form": "DEF 14A",
+   "accession": "0001206774-22-000669",
+   "filing_date": "2022-03-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000120677422000669/ko3966431-def14a.htm",
+   "quote": "Mr. Herbert A. Allen served on the Committee until his retirement on August 18, 2021. Mr. Herb Allen was appointed to the Committee effective December 17, 2021.",
+   "supports": "Distinguishes Herbert A. Allen (retired 2021-08-18) from Herb Allen (joined Finance Committee 2021-12-17)."
+  },
+  {
+   "id": "e020",
+   "form": "8-K",
+   "accession": "0000021344-24-000051",
+   "filing_date": "2024-10-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134424000051/ko-20241017.htm",
+   "quote": "On October 17, 2024, the Board of Directors (the \"Board\") of The Coca-Cola Company (the \"Company\") increased the size of the Board to 12 members and elected Bela Bajaria as a Director of the Company, effective immediately.",
+   "supports": "Bela Bajaria elected director effective 2024-10-17; board size increased to 12."
+  },
+  {
+   "id": "e021",
+   "form": "8-K",
+   "accession": "0000021344-24-000051",
+   "filing_date": "2024-10-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134424000051/ko-20241017.htm",
+   "quote": "Ms. Bajaria was also appointed to the Board's Talent and Compensation Committee.",
+   "supports": "Bajaria appointed to Talent and Compensation Committee on election."
+  },
+  {
+   "id": "e022",
+   "form": "DEF 14A",
+   "accession": "0001104659-26-028215",
+   "filing_date": "2026-03-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000110465926028215/ko-20260429xdef14a.htm",
+   "quote": "BELA BAJARIA AGE: 55 | INDEPENDENT DIRECTOR SINCE: 2024 COMMITTEES: Talent and Compensation",
+   "supports": "Bajaria: independent, Director since 2024, Talent and Compensation (2026 proxy)."
+  },
+  {
+   "id": "e030",
+   "form": "8-K",
+   "accession": "0001104659-13-055320",
+   "filing_date": "2013-07-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000110465913055320/a13-16816_18k.htm",
+   "quote": "On July 18, 2013, the Board of Directors of The Coca-Cola Company (the \"Company\") increased the size of the Board to 17 members and elected Ana Botín as a Director of the Company.",
+   "supports": "Ana Botín elected director 2013-07-18."
+  },
+  {
+   "id": "e031",
+   "form": "DEF 14A",
+   "accession": "0001104659-26-028215",
+   "filing_date": "2026-03-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000110465926028215/ko-20260429xdef14a.htm",
+   "quote": "ANA BOTÍN AGE: 65 | INDEPENDENT DIRECTOR SINCE: 2013 COMMITTEES: Corporate Governance and Sustainability; Finance",
+   "supports": "Botín: independent, Director since 2013; CGS and Finance (2026 proxy)."
+  },
+  {
+   "id": "e032",
+   "form": "DEF 14A",
+   "accession": "0001104659-26-028215",
+   "filing_date": "2026-03-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000110465926028215/ko-20260429xdef14a.htm",
+   "quote": "Current Public Company Boards: ● Banco Santander, S.A. (since 1989) ● Santander Holdings USA, Inc., a wholly owned subsidiary of Banco Santander, S.A. (since 2019) Previous Public Company Boards (Past Five Years): ● Santander UK plc (2010 to 2021) ● Santander UK Group Holdings plc (2014 to 2021)",
+   "supports": "Botín other public boards (2026 proxy bio)."
+  },
+  {
+   "id": "e040",
+   "form": "8-K",
+   "accession": "0001552781-25-000454",
+   "filing_date": "2025-12-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000155278125000454/e25454_ko-8k.htm",
+   "quote": "On December 10, 2025, the Board of Directors (the \"Board\") of The Coca-Cola Company (the \"Company\") elected Henrique Braun, Executive Vice President and Chief Operating Officer, as Chief Executive Officer of the Company, effective March 31, 2026, on which date James Quincey, the Company's current Chief Executive Officer, will transition to Executive Chairman.",
+   "supports": "Braun elected CEO effective 2026-03-31; Quincey to become Executive Chairman that date."
+  },
+  {
+   "id": "e041",
+   "form": "8-K",
+   "accession": "0001552781-25-000454",
+   "filing_date": "2025-12-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000155278125000454/e25454_ko-8k.htm",
+   "quote": "The Board also intends to nominate Mr. Braun to stand for election as a director at the 2026 Annual Meeting of Shareowners.",
+   "supports": "Braun to be nominated for election as director at 2026 annual meeting (not appointed to the board before it)."
+  },
+  {
+   "id": "e042",
+   "form": "DEF 14A",
+   "accession": "0001104659-26-028215",
+   "filing_date": "2026-03-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000110465926028215/ko-20260429xdef14a.htm",
+   "quote": "Each of the Director nominees was elected by shareowners at the 2025 Annual Meeting of Shareowners, other than Messrs. Levchin and Braun.",
+   "supports": "Braun and Levchin are the only 2026 nominees not elected in 2025."
+  },
+  {
+   "id": "e043",
+   "form": "DEF 14A",
+   "accession": "0001104659-26-028215",
+   "filing_date": "2026-03-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000110465926028215/ko-20260429xdef14a.htm",
+   "quote": "All nominees are independent under the New York Stock Exchange (\"NYSE\") corporate governance rules, except for James Quincey, our Chairman and Chief Executive Officer, and Henrique Braun, our Executive Vice President and Chief Operating Officer",
+   "supports": "2026 independence: all nominees independent except Quincey and Braun."
+  },
+  {
+   "id": "e044",
+   "form": "DEF 14A",
+   "accession": "0001104659-26-028215",
+   "filing_date": "2026-03-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000110465926028215/ko-20260429xdef14a.htm",
+   "quote": "HENRIQUE BRAUN AGE: 57 DIRECTOR NOMINEE COMMITTEES: None",
+   "supports": "Braun: director nominee, no committees (2026 proxy)."
+  },
+  {
+   "id": "e045",
+   "form": "8-K",
+   "accession": "0001628280-26-029230",
+   "filing_date": "2026-05-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000162828026029230/ko-20260429.htm",
+   "quote": "The 2026 Annual Meeting of Shareowners of The Coca-Cola Company (the \"Company\") was held on Wednesday, April 29, 2026.",
+   "supports": "2026 annual meeting date: 2026-04-29."
+  },
+  {
+   "id": "e046",
+   "form": "8-K",
+   "accession": "0001628280-26-029230",
+   "filing_date": "2026-05-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000162828026029230/ko-20260429.htm",
+   "quote": "Henrique Braun 3,203,953,804 99.84",
+   "supports": "Braun elected director at 2026 annual meeting.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e047",
+   "form": "8-K",
+   "accession": "0001628280-26-010052",
+   "filing_date": "2026-02-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000162828026010052/ko-20260219.htm",
+   "quote": "James Quincey, the Company's current Chairman of the Board of Directors (the \"Board\") and Chief Executive Officer, will continue as Executive Chairman of the Board following Mr. Braun's appointment to the position of Chief Executive Officer.",
+   "supports": "Quincey continues as Executive Chairman after Braun becomes CEO (effective 2026-03-31)."
+  },
+  {
+   "id": "e048",
+   "form": "DEF 14A",
+   "accession": "0001104659-26-028215",
+   "filing_date": "2026-03-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000110465926028215/ko-20260429xdef14a.htm",
+   "quote": "In December 2025, the Board determined that the roles of Chairman of the Board and CEO would be separated upon Henrique Braun's succession to CEO, effective March 31, 2026. In connection with this transition, Mr. Quincey will continue to serve as Executive Chairman of the Board and Mr. Braun has been nominated for election as a Director at the 2026 Annual Meeting.",
+   "supports": "Chair/CEO split effective 2026-03-31; Quincey continues as Executive Chairman; Braun nominated for election in 2026."
+  },
+  {
+   "id": "e049",
+   "form": "DEF 14A",
+   "accession": "0001104659-26-028215",
+   "filing_date": "2026-03-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000110465926028215/ko-20260429xdef14a.htm",
+   "quote": "David B. Weinberg will continue to serve as the Lead Independent Director.",
+   "supports": "Weinberg remains Lead Independent Director after the CEO transition."
+  },
+  {
+   "id": "e050",
+   "form": "DEF 14A",
+   "accession": "0001308179-18-000022",
+   "filing_date": "2018-03-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000130817918000022/lko2018_def14a.htm",
+   "quote": "Each of the Director nominees currently serves on the Board and was elected by the shareowners at the 2017 Annual Meeting of Shareowners, except for Ms. Tsay and Mr. Davis, each of whom was nominated by the Board in February 2018 to stand for election at the 2018 Annual Meeting of Shareowners.",
+   "supports": "Davis and Tsay were first-time nominees at the 2018 annual meeting."
+  },
+  {
+   "id": "e051",
+   "form": "8-K",
+   "accession": "0001552781-18-000176",
+   "filing_date": "2018-04-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000155278118000176/e18194_ko-8k.htm",
+   "quote": "The Annual Meeting of Shareowners of the Company was held on Wednesday, April 25, 2018, in Atlanta, Georgia.",
+   "supports": "2018 annual meeting date: 2018-04-25."
+  },
+  {
+   "id": "e052",
+   "form": "8-K",
+   "accession": "0001552781-18-000176",
+   "filing_date": "2018-04-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000155278118000176/e18194_ko-8k.htm",
+   "quote": "Christopher C. Davis 3,045,032,335 97.76",
+   "supports": "Davis elected at 2018 annual meeting.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e053",
+   "form": "8-K",
+   "accession": "0001552781-18-000176",
+   "filing_date": "2018-04-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000155278118000176/e18194_ko-8k.htm",
+   "quote": "Caroline J. Tsay 3,074,697,842 98.71",
+   "supports": "Tsay elected at 2018 annual meeting.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e054",
+   "form": "DEF 14A",
+   "accession": "0001104659-26-028215",
+   "filing_date": "2026-03-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000110465926028215/ko-20260429xdef14a.htm",
+   "quote": "CHRISTOPHER C. DAVIS AGE: 60 | INDEPENDENT DIRECTOR SINCE: 2018 COMMITTEES: Audit; Finance (Chair); Executive",
+   "supports": "Davis: independent, Director since 2018; Audit, Finance (chair), Executive (2026 proxy)."
+  },
+  {
+   "id": "e055",
+   "form": "DEF 14A",
+   "accession": "0001104659-26-028215",
+   "filing_date": "2026-03-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000110465926028215/ko-20260429xdef14a.htm",
+   "quote": "Current Public Company Boards: ● Berkshire Hathaway Inc. (since 2021) ● Graham Holdings Company (since 2006) Current Boards for Registered Companies (Investment Company Act of 1940):",
+   "supports": "Davis other public boards (2026 proxy bio); fund boards listed separately as registered investment companies."
+  },
+  {
+   "id": "e056",
+   "form": "DEF 14A",
+   "accession": "0001104659-26-028215",
+   "filing_date": "2026-03-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000110465926028215/ko-20260429xdef14a.htm",
+   "quote": "CAROLINE J. TSAY AGE: 44 | INDEPENDENT DIRECTOR SINCE: 2018 COMMITTEES: Audit",
+   "supports": "Tsay: independent, Director since 2018; Audit (2026 proxy)."
+  },
+  {
+   "id": "e057",
+   "form": "DEF 14A",
+   "accession": "0001104659-26-028215",
+   "filing_date": "2026-03-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000110465926028215/ko-20260429xdef14a.htm",
+   "quote": "Current Public Company Boards: ● Morningstar, Inc. (since 2017) ● NICE Ltd. (since 2025) ● Semrush Holdings, Inc. (since 2025) Previous Public Company Boards (Past Five Years): ● None",
+   "supports": "Tsay other public boards (2026 proxy bio)."
+  },
+  {
+   "id": "e060",
+   "form": "8-K",
+   "accession": "0001552781-22-000509",
+   "filing_date": "2022-07-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000155278122000509/e22375_ko-8k.htm",
+   "quote": "On July 19, 2022, the Board increased the size of the Board to 12 members and elected Carolyn Everson as a Director of the Company.",
+   "supports": "Carolyn Everson elected director 2022-07-19; board size increased to 12."
+  },
+  {
+   "id": "e061",
+   "form": "8-K",
+   "accession": "0001552781-22-000509",
+   "filing_date": "2022-07-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000155278122000509/e22375_ko-8k.htm",
+   "quote": "Ms. Everson was also appointed to the Talent and Compensation Committee, effective immediately following her election.",
+   "supports": "Everson appointed to Talent and Compensation Committee."
+  },
+  {
+   "id": "e062",
+   "form": "DEF 14A",
+   "accession": "0001104659-26-028215",
+   "filing_date": "2026-03-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000110465926028215/ko-20260429xdef14a.htm",
+   "quote": "CAROLYN EVERSON AGE: 54 | INDEPENDENT DIRECTOR SINCE: 2022 COMMITTEES: Talent and Compensation (Chair); Finance",
+   "supports": "Everson: independent, Director since 2022; T&C chair, Finance (2026 proxy)."
+  },
+  {
+   "id": "e063",
+   "form": "DEF 14A",
+   "accession": "0001104659-26-028215",
+   "filing_date": "2026-03-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000110465926028215/ko-20260429xdef14a.htm",
+   "quote": "Current Public Company Boards: ● Under Armour, Inc. (since 2023) ● The Walt Disney Company (since 2022) Previous Public Company Boards (Past Five Years): ● None",
+   "supports": "Everson other public boards (2026 proxy bio)."
+  },
+  {
+   "id": "e070",
+   "form": "8-K",
+   "accession": "0000021344-23-000041",
+   "filing_date": "2023-07-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134423000041/ko-20230719.htm",
+   "quote": "On July 19, 2023, the Board of Directors of The Coca-Cola Company (the \"Company\") increased the size of the Board to 14 members and elected Thomas S. Gayner as a Director of the Company, effective immediately.",
+   "supports": "Thomas S. Gayner elected director 2023-07-19; board size increased to 14."
+  },
+  {
+   "id": "e071",
+   "form": "DEF 14A",
+   "accession": "0001104659-26-028215",
+   "filing_date": "2026-03-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000110465926028215/ko-20260429xdef14a.htm",
+   "quote": "THOMAS S. GAYNER AGE: 64 | INDEPENDENT DIRECTOR SINCE: 2023 COMMITTEES: Finance",
+   "supports": "Gayner: independent, Director since 2023; Finance (2026 proxy)."
+  },
+  {
+   "id": "e072",
+   "form": "DEF 14A",
+   "accession": "0001104659-26-028215",
+   "filing_date": "2026-03-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000110465926028215/ko-20260429xdef14a.htm",
+   "quote": "Current Public Company Boards: ● Markel Group Inc. (since 2016) ● Graham Holdings Company (since 2007) Previous Public Company Boards (Past Five Years): ● Cable One, Inc. (2015 to 2023) ● Colfax Corporation (2008 to 2022)",
+   "supports": "Gayner other public boards (2026 proxy bio)."
+  },
+  {
+   "id": "e080",
+   "form": "8-K",
+   "accession": "0001628280-25-045223",
+   "filing_date": "2025-10-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000162828025045223/ko-20251016.htm",
+   "quote": "On October 16, 2025, the Board of Directors (the \"Board\") of The Coca-Cola Company (the \"Company\") elected Max Levchin as a Director of the Company, effective immediately, and also appointed Mr. Levchin to the Board's Talent and Compensation Committee.",
+   "supports": "Max Levchin elected director 2025-10-16; appointed to Talent and Compensation Committee."
+  },
+  {
+   "id": "e081",
+   "form": "DEF 14A",
+   "accession": "0001104659-26-028215",
+   "filing_date": "2026-03-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000110465926028215/ko-20260429xdef14a.htm",
+   "quote": "MAX LEVCHIN AGE: 50 | INDEPENDENT DIRECTOR SINCE: 2025 COMMITTEES: Talent and Compensation",
+   "supports": "Levchin: independent, Director since 2025; T&C (2026 proxy)."
+  },
+  {
+   "id": "e082",
+   "form": "DEF 14A",
+   "accession": "0001104659-26-028215",
+   "filing_date": "2026-03-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000110465926028215/ko-20260429xdef14a.htm",
+   "quote": "Current Public Company Boards: ● Affirm Holdings, Inc. Previous Public Company Boards (Past Five Years): ● None",
+   "supports": "Levchin other public boards (2026 proxy bio; years not stated)."
+  },
+  {
+   "id": "e083",
+   "form": "DEF 14A",
+   "accession": "0001104659-26-028215",
+   "filing_date": "2026-03-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000110465926028215/ko-20260429xdef14a.htm",
+   "quote": "Mr. Levchin was identified and recommended as a potential Director by the Corporate Governance and Sustainability Committee, which determined that he was qualified under the Committee's criteria, and joined the Board effective October 16, 2025.",
+   "supports": "Levchin joined effective 2025-10-16 (proxy confirms)."
+  },
+  {
+   "id": "e090",
+   "form": "DEF 14A",
+   "accession": "0001308179-23-000117",
+   "filing_date": "2023-03-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000130817923000117/ko4104401-def14a.htm",
+   "quote": "Ms. Everson joined the Board in July 2022, and Ms. Millhiser, subject to election at the 2023 Annual Meeting, will join the Board effective July 1, 2023, after her retirement from her current role.",
+   "supports": "Millhiser's board service to begin 2023-07-01, subject to election at the 2023 annual meeting."
+  },
+  {
+   "id": "e091",
+   "form": "8-K",
+   "accession": "0000021344-23-000026",
+   "filing_date": "2023-04-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134423000026/ko-20230425.htm",
+   "quote": "Shareowners elected each of the persons named below as Directors for a term expiring in 2024 as follows (with Ms. Millhiser's term commencing July 1, 2023)",
+   "supports": "Millhiser elected at 2023-04-25 annual meeting with term commencing 2023-07-01."
+  },
+  {
+   "id": "e092",
+   "form": "DEF 14A",
+   "accession": "0001104659-26-028215",
+   "filing_date": "2026-03-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000110465926028215/ko-20260429xdef14a.htm",
+   "quote": "AMITY MILLHISER AGE: 62 | INDEPENDENT DIRECTOR SINCE: 2023 COMMITTEES: Audit (Chair)",
+   "supports": "Millhiser: independent, Director since 2023; Audit chair (2026 proxy)."
+  },
+  {
+   "id": "e093",
+   "form": "8-K",
+   "accession": "0001552781-24-000261",
+   "filing_date": "2024-05-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000155278124000261/e24215_ko-8k.htm",
+   "quote": "Amity Milhiser 2,973,139,033 99.68",
+   "supports": "2024 vote results spell her name 'Milhiser' (alias).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e100",
+   "form": "8-K",
+   "accession": "0001123292-16-003050",
+   "filing_date": "2016-12-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000112329216003050/cocacolaco8k-12092016.htm",
+   "quote": "The Company also announced that the Board of Directors intends to nominate Mr. Quincey to stand for election as a director at the 2017 Annual Meeting of Shareowners.",
+   "supports": "Quincey to be nominated at the 2017 annual meeting."
+  },
+  {
+   "id": "e101",
+   "form": "8-K",
+   "accession": "0001123292-16-003050",
+   "filing_date": "2016-12-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000112329216003050/cocacolaco8k-12092016.htm",
+   "quote": "On December 9, 2016, The Coca-Cola Company (the \"Company\") announced that James Quincey, President and Chief Operating Officer, was elected Chief Executive Officer of the Company, effective May 1, 2017.",
+   "supports": "Quincey CEO effective 2017-05-01."
+  },
+  {
+   "id": "e102",
+   "form": "DEF 14A",
+   "accession": "0001308179-17-000027",
+   "filing_date": "2017-03-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000130817917000027/lko2017_def14a.htm",
+   "quote": "except for Mr. Quincey, currently the President and Chief Operating Officer of the Company, who was nominated by the Board in February 2017 to stand for election at the meeting.",
+   "supports": "Quincey a first-time nominee at the 2017 annual meeting."
+  },
+  {
+   "id": "e103",
+   "form": "8-K",
+   "accession": "0001552781-17-000271",
+   "filing_date": "2017-04-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000155278117000271/e17241_ko-8k.htm",
+   "quote": "Annual Meeting of Shareowners of the Company was held on Wednesday, April 26, 2017, in Atlanta, Georgia.",
+   "supports": "2017 annual meeting date: 2017-04-26."
+  },
+  {
+   "id": "e104",
+   "form": "8-K",
+   "accession": "0001552781-17-000271",
+   "filing_date": "2017-04-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000155278117000271/e17241_ko-8k.htm",
+   "quote": "James Quincey 3,160,829,815 99.50",
+   "supports": "Quincey elected director at the 2017 annual meeting.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e105",
+   "form": "8-K",
+   "accession": "0001552781-18-000517",
+   "filing_date": "2018-12-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000155278118000517/e18450_ko-8k.htm",
+   "quote": "On December 6, 2018, the Board elected James Quincey, who currently serves as the Company's President and Chief Executive Officer, to serve as Chairman of the Board following Mr. Kent's retirement, contingent on Mr. Quincey's re-election as a Director at the 2019 Annual Meeting.",
+   "supports": "Quincey to become Chairman following Kent's retirement at the 2019 annual meeting."
+  },
+  {
+   "id": "e106",
+   "form": "8-K",
+   "accession": "0001552781-18-000517",
+   "filing_date": "2018-12-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000155278118000517/e18450_ko-8k.htm",
+   "quote": "On December 4, 2018, Muhtar Kent provided notice to The Coca-Cola Company (the \"Company\") of his intention not to stand for re-election at the Company's 2019 Annual Meeting of Shareowners (the \"2019 Annual Meeting\") and to resign from Chairman of the Board of Directors (the \"Board\") on that same date.",
+   "supports": "Kent left the chair on the 2019 annual meeting date."
+  },
+  {
+   "id": "e107",
+   "form": "8-K",
+   "accession": "0001552781-19-000204",
+   "filing_date": "2019-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000155278119000204/e19244_ko-8k.htm",
+   "quote": "The Annual Meeting of Shareowners of the Company was held on Wednesday, April 24, 2019, in Atlanta, Georgia.",
+   "supports": "2019 annual meeting date: 2019-04-24."
+  },
+  {
+   "id": "e108",
+   "form": "8-K",
+   "accession": "0001552781-19-000204",
+   "filing_date": "2019-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000155278119000204/e19244_ko-8k.htm",
+   "quote": "James Quincey 3,072,056,636 97.53",
+   "supports": "Quincey re-elected at 2019 annual meeting (condition for becoming Chairman).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e109",
+   "form": "DEF 14A",
+   "accession": "0001104659-26-028215",
+   "filing_date": "2026-03-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000110465926028215/ko-20260429xdef14a.htm",
+   "quote": "JAMES QUINCEY AGE: 61 | CHAIRMAN DIRECTOR SINCE: 2017 CHAIRMAN SINCE: 2019 COMMITTEES: Executive (Chair)",
+   "supports": "Quincey: Director since 2017, Chairman since 2019; Executive Committee chair (2026 proxy)."
+  },
+  {
+   "id": "e110",
+   "form": "DEF 14A",
+   "accession": "0001104659-26-028215",
+   "filing_date": "2026-03-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000110465926028215/ko-20260429xdef14a.htm",
+   "quote": "Current Public Company Boards: ● Pfizer Inc. (since 2020) Previous Public Company Boards (Past Five Years): ● None",
+   "supports": "Quincey other public boards (2026 proxy bio)."
+  },
+  {
+   "id": "e111",
+   "form": "DEF 14A",
+   "accession": "0001206774-22-000669",
+   "filing_date": "2022-03-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000120677422000669/ko3966431-def14a.htm",
+   "quote": "All nominees are independent under the New York Stock Exchange (the \"NYSE\") corporate governance rules, except for James Quincey",
+   "supports": "2022: all nominees independent except Quincey (Herb Allen independent)."
+  },
+  {
+   "id": "e120",
+   "form": "8-K",
+   "accession": "0001104659-14-086151",
+   "filing_date": "2014-12-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000110465914086151/a14-26002_18k.htm",
+   "quote": "On December 11, 2014, the Board of Directors of The Coca-Cola Company (the \"Company\") increased the size of the Board to 17 members and elected Marc Bolland and David B. Weinberg as Directors of the Company, in each case effective February 18, 2015.",
+   "supports": "Bolland and Weinberg elected directors effective 2015-02-18."
+  },
+  {
+   "id": "e121",
+   "form": "DEF 14A",
+   "accession": "0001104659-26-028215",
+   "filing_date": "2026-03-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000110465926028215/ko-20260429xdef14a.htm",
+   "quote": "DAVID B. WEINBERG AGE: 74 | INDEPENDENT DIRECTOR SINCE: 2015 LEAD INDEPENDENT DIRECTOR SINCE: 2024 COMMITTEES: Audit; Corporate Governance and Sustainability; Executive",
+   "supports": "Weinberg: independent, Director since 2015, Lead Independent Director since 2024; Audit, CGS, Executive (2026 proxy)."
+  },
+  {
+   "id": "e122",
+   "form": "DEF 14A",
+   "accession": "0001558370-25-003056",
+   "filing_date": "2025-03-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000155837025003056/ko-20250430xdef14a.htm",
+   "quote": "Mr. Weinberg received an additional $18,000, representing a prorated fee for a partial year's service as Audit Committee Chair, and an additional $12,000, representing a prorated fee for a partial year's service as Lead Independent Director; (ii) Ms. Lagomasino received an additional $18,000, representing a prorated fee for a partial year's service as Lead Independent Director",
+   "supports": "Both Weinberg and Lagomasino served part of 2024 as Lead Independent Director (handover day not stated)."
+  },
+  {
+   "id": "e123",
+   "form": "DEF 14A",
+   "accession": "0001558370-25-003056",
+   "filing_date": "2025-03-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000155837025003056/ko-20250430xdef14a.htm",
+   "quote": "in 2024, the Board appointed four new Committee Chairs and a new Lead Independent Director",
+   "supports": "New Lead Independent Director appointed in 2024."
+  },
+  {
+   "id": "e130",
+   "form": "DEF 14A",
+   "accession": "0001104659-26-028215",
+   "filing_date": "2026-03-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000110465926028215/ko-20260429xdef14a.htm",
+   "quote": "Information about each committee, including membership information, as of December 31, 2025, is provided below.",
+   "supports": "2026 proxy committee rosters are as of 2025-12-31."
+  },
+  {
+   "id": "e131",
+   "form": "DEF 14A",
+   "accession": "0001104659-26-028215",
+   "filing_date": "2026-03-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000110465926028215/ko-20260429xdef14a.htm",
+   "quote": "AMITY MILLHISER Chair CHRISTOPHER C. DAVIS CAROLINE J. TSAY David B. Weinberg",
+   "supports": "Audit Committee: Millhiser (chair), Davis, Tsay, Weinberg.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e132",
+   "form": "DEF 14A",
+   "accession": "0001104659-26-028215",
+   "filing_date": "2026-03-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000110465926028215/ko-20260429xdef14a.htm",
+   "quote": "CAROLYN EVERSON Chair BELA BAJARIA Maria Elena Lagomasino(2) MAX LEVCHIN(3)",
+   "supports": "Talent and Compensation Committee: Everson (chair), Bajaria, Lagomasino, Levchin.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e133",
+   "form": "DEF 14A",
+   "accession": "0001104659-26-028215",
+   "filing_date": "2026-03-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000110465926028215/ko-20260429xdef14a.htm",
+   "quote": "HERB ALLEN Chair ANA BOTÍN Maria Elena Lagomasino(2) David B. Weinberg",
+   "supports": "Corporate Governance and Sustainability Committee: Herb Allen (chair), Botín, Lagomasino, Weinberg.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e134",
+   "form": "DEF 14A",
+   "accession": "0001104659-26-028215",
+   "filing_date": "2026-03-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000110465926028215/ko-20260429xdef14a.htm",
+   "quote": "CHRISTOPHER C. DAVIS Chair HERB ALLEN ANA BOTÍN CAROLYN EVERSON THOMAS S. GAYNER",
+   "supports": "Finance Committee: Davis (chair), Herb Allen, Botín, Everson, Gayner.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e135",
+   "form": "DEF 14A",
+   "accession": "0001104659-26-028215",
+   "filing_date": "2026-03-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000110465926028215/ko-20260429xdef14a.htm",
+   "quote": "James Quincey Chair CHRISTOPHER C. DAVIS DAVID B. WEINBERG",
+   "supports": "Executive Committee: Quincey (chair), Davis, Weinberg.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e136",
+   "form": "DEF 14A",
+   "accession": "0001104659-26-028215",
+   "filing_date": "2026-03-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000110465926028215/ko-20260429xdef14a.htm",
+   "quote": "Ms. Lagomasino will serve on the Committee until the 2026 Annual Meeting.",
+   "supports": "Lagomasino's committee service ends at the 2026 annual meeting."
+  },
+  {
+   "id": "e137",
+   "form": "DEF 14A",
+   "accession": "0001104659-26-028215",
+   "filing_date": "2026-03-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000110465926028215/ko-20260429xdef14a.htm",
+   "quote": "Mr. Levchin was appointed to the Committee effective October 16, 2025.",
+   "supports": "Levchin on T&C from 2025-10-16."
+  },
+  {
+   "id": "e140",
+   "form": "DEF 14A",
+   "accession": "0001104659-26-028215",
+   "filing_date": "2026-03-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000110465926028215/ko-20260429xdef14a.htm",
+   "quote": "As a result of its annual review, the Board has determined that none of the following Director nominees has a material relationship with the Company and, as a result, such Director nominees are independent: Herb Allen, Bela Bajaria, Ana Botín, Christopher C. Davis, Carolyn Everson, Thomas S. Gayner, Max Levchin, Amity Millhiser, Caroline J. Tsay and David B. Weinberg.",
+   "supports": "2026 independence determinations for the ten independent nominees."
+  },
+  {
+   "id": "e141",
+   "form": "DEF 14A",
+   "accession": "0001104659-26-028215",
+   "filing_date": "2026-03-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000110465926028215/ko-20260429xdef14a.htm",
+   "quote": "In addition, the Board determined that Maria Elena Lagomasino, who will serve as a Director until the 2026 Annual Meeting, is independent.",
+   "supports": "Lagomasino independent; serves until the 2026 annual meeting."
+  },
+  {
+   "id": "e142",
+   "form": "DEF 14A",
+   "accession": "0001558370-25-003056",
+   "filing_date": "2025-03-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000155837025003056/ko-20250430xdef14a.htm",
+   "quote": "such Director nominees are independent: Herb Allen, Bela Bajaria, Ana Botín, Christopher C. Davis, Carolyn Everson, Thomas S. Gayner, Maria Elena Lagomasino, Amity Millhiser, Caroline J. Tsay and David B. Weinberg.",
+   "supports": "2025 independence determinations."
+  },
+  {
+   "id": "e143",
+   "form": "DEF 14A",
+   "accession": "0001558370-24-003468",
+   "filing_date": "2024-03-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000155837024003468/ko-20240501xdef14a.htm",
+   "quote": "such Director nominees are independent: Herb Allen, Marc Bolland, Ana Botín, Christopher C. Davis, Barry Diller, Carolyn Everson, Helene D. Gayle, Thomas S. Gayner, Alexis M. Herman, Maria Elena Lagomasino, Amity Millhiser, Caroline J. Tsay and David B. Weinberg.",
+   "supports": "2024 independence determinations (incl. Bolland, Diller, Gayle, Herman)."
+  },
+  {
+   "id": "e144",
+   "form": "DEF 14A",
+   "accession": "0001206774-22-000669",
+   "filing_date": "2022-03-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000120677422000669/ko3966431-def14a.htm",
+   "quote": "such Director nominees are independent: Herb Allen, Marc Bolland, Ana Botín, Christopher C. Davis, Barry Diller, Helene D. Gayle, Alexis M. Herman, Maria Elena Lagomasino, Caroline J. Tsay and David B. Weinberg. In addition, the Board determined that Robert A. Kotick, who will serve as a Director through the 2022 Annual Meeting, is independent.",
+   "supports": "2022 independence determinations (first for Herb Allen; Kotick independent through 2022 annual meeting)."
+  },
+  {
+   "id": "e145",
+   "form": "DEF 14A",
+   "accession": "0001206774-21-000597",
+   "filing_date": "2021-03-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000120677421000597/ko3821491-def14a.htm",
+   "quote": "Even though Herbert A. Allen is not currently determined to be independent, he contributes greatly to the Board and the Company through his wealth of experience, expertise and judgment.",
+   "supports": "Herbert A. Allen not independent (2021 proxy)."
+  },
+  {
+   "id": "e146",
+   "form": "DEF 14A",
+   "accession": "0001206774-20-000704",
+   "filing_date": "2020-03-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000120677420000704/ko3621041-def14a.htm",
+   "quote": "In addition, the Board determined that Ronald W. Allen, who will serve as a Director until the 2020 Annual Meeting, is independent.",
+   "supports": "Ronald W. Allen independent; serves until the 2020 annual meeting."
+  },
+  {
+   "id": "e147",
+   "form": "DEF 14A",
+   "accession": "0001308179-13-000057",
+   "filing_date": "2013-03-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000130817913000057/lcocacola2013_def14a.htm",
+   "quote": "All of the nominees are independent under New York Stock Exchange (\"NYSE\") corporate governance rules, except Herbert A. Allen and Muhtar Kent.",
+   "supports": "2013: earliest independence determination reviewed; Herbert A. Allen not independent."
+  },
+  {
+   "id": "e148",
+   "form": "DEF 14A",
+   "accession": "0001206774-20-000704",
+   "filing_date": "2020-03-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000120677420000704/ko3621041-def14a.htm",
+   "quote": "All nominees are independent under the New York Stock Exchange (\"NYSE\") corporate governance rules, except Herbert A. Allen and James Quincey",
+   "supports": "2020: all nominees independent except Herbert A. Allen and Quincey."
+  },
+  {
+   "id": "e149",
+   "form": "DEF 14A",
+   "accession": "0001308179-23-000117",
+   "filing_date": "2023-03-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000130817923000117/ko4104401-def14a.htm",
+   "quote": "such Director nominees are independent: Herb Allen, Marc Bolland, Ana Botín, Christopher C. Davis, Barry Diller, Carolyn Everson, Helene D. Gayle, Alexis M. Herman, Maria Elena Lagomasino, Amity Millhiser, Caroline J. Tsay and David B. Weinberg.",
+   "supports": "2023 independence determinations (first for Everson and Millhiser)."
+  },
+  {
+   "id": "e150",
+   "form": "8-K",
+   "accession": "0001552781-20-000076",
+   "filing_date": "2020-01-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000155278120000076/e20034_ko-8k.htm",
+   "quote": "On January 14, 2020, Ronald W. Allen provided notice to The Coca-Cola Company (the \"Company\") of his intention not to stand for reelection at the Company's 2020 Annual Meeting of Shareowners (the \"2020 Annual Meeting\").",
+   "supports": "Ronald W. Allen will not stand for re-election in 2020."
+  },
+  {
+   "id": "e151",
+   "form": "DEF 14A",
+   "accession": "0001206774-20-000704",
+   "filing_date": "2020-03-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000120677420000704/ko3621041-def14a.htm",
+   "quote": "Ronald W. Allen is not standing for reelection and will retire from the Board immediately following the 2020 Annual Meeting of Shareowners (the \"2020 Annual Meeting\"), at which time the size of the Board will be reduced to 12 members.",
+   "supports": "R.W. Allen leaves at the 2020 annual meeting; board reduced from 13 to 12."
+  },
+  {
+   "id": "e152",
+   "form": "DEF 14A",
+   "accession": "0001206774-20-000704",
+   "filing_date": "2020-03-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000120677420000704/ko3621041-def14a.htm",
+   "quote": "The Board of Directors (the \"Board\") currently has 13 members.",
+   "supports": "Board size 13 before the 2020 annual meeting."
+  },
+  {
+   "id": "e153",
+   "form": "8-K",
+   "accession": "0001552781-20-000277",
+   "filing_date": "2020-04-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000155278120000277/e20266_ko-8k.htm",
+   "quote": "The Annual Meeting of Shareowners of the Company was held on Wednesday, April 22, 2020.",
+   "supports": "2020 annual meeting date: 2020-04-22."
+  },
+  {
+   "id": "e154",
+   "form": "DEF 14A",
+   "accession": "0001206774-19-000735",
+   "filing_date": "2019-03-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000120677419000735/ko3422831-def14a.htm",
+   "quote": "Ronald W. Allen Independent Age: 77 Director since: 1991 Committees: Audit (Chair)",
+   "supports": "R.W. Allen: Director since 1991; Audit chair (2019 proxy, his last nominee bio)."
+  },
+  {
+   "id": "e155",
+   "form": "DEF 14A",
+   "accession": "0001206774-19-000735",
+   "filing_date": "2019-03-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000120677419000735/ko3422831-def14a.htm",
+   "quote": "Other Public Company Boards: Aircastle Limited (since 2006); Forward Air Corporation (2011-2013 and since 2014) ►Previous Public Company Boards (Past Five Years): Aaron's, Inc. (1997-August 2014); Guided Therapeutics Inc. (2008-January 2014)",
+   "supports": "R.W. Allen other public boards (2019 proxy bio)."
+  },
+  {
+   "id": "e156",
+   "form": "DEF 14A",
+   "accession": "0001206774-20-000704",
+   "filing_date": "2020-03-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000120677420000704/ko3621041-def14a.htm",
+   "quote": "Ronald W. Allen will remain as Audit Committee Chair through the 2020 Annual Meeting.",
+   "supports": "R.W. Allen Audit Committee chair through the 2020 annual meeting (2020 proxy)."
+  },
+  {
+   "id": "e157",
+   "form": "DEF 14A",
+   "accession": "0001206774-21-000597",
+   "filing_date": "2021-03-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000120677421000597/ko3821491-def14a.htm",
+   "quote": "Mr. Ronald Allen served as Chair of the Committee until April 22, 2020.",
+   "supports": "R.W. Allen Audit chair until 2020-04-22."
+  },
+  {
+   "id": "e160",
+   "form": "8-K",
+   "accession": "0001552781-21-000687",
+   "filing_date": "2021-08-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000155278121000687/e21534_ko-8k.htm",
+   "quote": "On August 18, 2021, Herbert A. Allen notified The Coca-Cola Company (\"Company\") of his decision to retire from the Board of Directors, effective August 18, 2021.",
+   "supports": "Herbert A. Allen retired from the board effective 2021-08-18."
+  },
+  {
+   "id": "e161",
+   "form": "DEF 14A",
+   "accession": "0001206774-21-000597",
+   "filing_date": "2021-03-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000120677421000597/ko3821491-def14a.htm",
+   "quote": "Herbert A. Allen Age: 80 Director since: 1982 Committees: • Finance • Management Development (Chair) • Executive PUBLIC BOARD MEMBERSHIPS Current Public Company Boards: None Previous Public Company Boards (Past Five Years): None",
+   "supports": "Herbert A. Allen: Director since 1982; Finance, Management Development (chair), Executive; no other public boards (2021 proxy)."
+  },
+  {
+   "id": "e162",
+   "form": "DEF 14A",
+   "accession": "0001206774-21-000597",
+   "filing_date": "2021-03-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000120677421000597/ko3821491-def14a.htm",
+   "quote": "Membership of each committee is as of December 31, 2020.",
+   "supports": "2021 proxy committee rosters as of 2020-12-31."
+  },
+  {
+   "id": "e163",
+   "form": "DEF 14A",
+   "accession": "0001206774-21-000597",
+   "filing_date": "2021-03-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000120677421000597/ko3821491-def14a.htm",
+   "quote": "Management Development Committee Members: Herbert A. Allen Barry Diller Robert A. Kotick Maria Elena Lagomasino David B. Weinberg CHAIR",
+   "supports": "Management Development Committee roster (chair listed first).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e164",
+   "form": "DEF 14A",
+   "accession": "0001206774-21-000597",
+   "filing_date": "2021-03-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000120677421000597/ko3821491-def14a.htm",
+   "quote": "Executive Committee Members: James Quincey Herbert A. Allen Barry Diller CHAIR",
+   "supports": "Executive Committee roster as of 2020-12-31.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e165",
+   "form": "DEF 14A",
+   "accession": "0001206774-21-000597",
+   "filing_date": "2021-03-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000120677421000597/ko3821491-def14a.htm",
+   "quote": "Finance Committee Members: Barry Diller Herbert A. Allen Ana Botín Christopher C. Davis Robert A. Kotick CHAIR",
+   "supports": "Finance Committee roster as of 2020-12-31.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e170",
+   "form": "8-K",
+   "accession": "0000021344-12-000002",
+   "filing_date": "2012-02-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134412000002/robertkotick8-k.htm",
+   "quote": "On February 16, 2012, the Board of Directors of The Coca-Cola Company (the \"Company\") increased the size of the Board to 17 members and elected Robert A. Kotick as a Director of the Company.",
+   "supports": "Robert A. Kotick elected director 2012-02-16."
+  },
+  {
+   "id": "e171",
+   "form": "8-K",
+   "accession": "0001552781-22-000236",
+   "filing_date": "2022-03-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000155278122000236/e22121_ko-8k.htm",
+   "quote": "On March 1, 2022, Robert A. Kotick provided notice to The Coca-Cola Company (the \"Company\") of his intention not to stand for reelection at the Company's 2022 Annual Meeting of Shareowners (the \"2022 Annual Meeting\"). Mr. Kotick will remain a director until the 2022 Annual Meeting.",
+   "supports": "Kotick not standing in 2022; director until the 2022 annual meeting."
+  },
+  {
+   "id": "e172",
+   "form": "DEF 14A",
+   "accession": "0001206774-22-000669",
+   "filing_date": "2022-03-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000120677422000669/ko3966431-def14a.htm",
+   "quote": "The Board currently has 12 members. Robert A. Kotick is not standing for reelection and will retire from the Board immediately following the 2022 Annual Meeting of Shareowners, at which time the size of the Board will be reduced to 11 members.",
+   "supports": "Board 12 -> 11 at the 2022 annual meeting when Kotick leaves."
+  },
+  {
+   "id": "e173",
+   "form": "8-K",
+   "accession": "0001552781-22-000366",
+   "filing_date": "2022-04-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000155278122000366/e22265_ko-8k.htm",
+   "quote": "The Annual Meeting of Shareowners of the Company was held on Tuesday, April 26, 2022.",
+   "supports": "2022 annual meeting date: 2022-04-26."
+  },
+  {
+   "id": "e174",
+   "form": "DEF 14A",
+   "accession": "0001206774-21-000597",
+   "filing_date": "2021-03-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000120677421000597/ko3821491-def14a.htm",
+   "quote": "Robert A. Kotick INDEPENDENT Age: 58 Director since: 2012 Committees: • Finance • Management Development PUBLIC BOARD MEMBERSHIPS Current Public Company Boards: Activision Blizzard, Inc. (since 1991) Previous Public Company Boards (Past Five Years): None",
+   "supports": "Kotick: Director since 2012; other public board Activision Blizzard (2021 proxy, his last nominee bio)."
+  },
+  {
+   "id": "e175",
+   "form": "DEF 14A",
+   "accession": "0001206774-22-000669",
+   "filing_date": "2022-03-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000120677422000669/ko3966431-def14a.htm",
+   "quote": "Maria Elena Lagomasino Ana Botín Barry Diller Robert A. Kotick David B. Weinberg PRIMARY RESPONSIBILITIES",
+   "supports": "Committee on Directors and Corporate Governance roster in 2022 proxy (Lagomasino chair).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e176",
+   "form": "DEF 14A",
+   "accession": "0001206774-22-000669",
+   "filing_date": "2022-03-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000120677422000669/ko3966431-def14a.htm",
+   "quote": "Barry Diller Herb Allen Ana Botín Christopher C. Davis Robert A. Kotick PRIMARY RESPONSIBILITIES",
+   "supports": "Finance Committee roster in 2022 proxy (Diller chair).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e177",
+   "form": "DEF 14A",
+   "accession": "0001206774-22-000669",
+   "filing_date": "2022-03-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000120677422000669/ko3966431-def14a.htm",
+   "quote": "Mr. Kotick and Mr. Weinberg were appointed to the Committee effective April 21, 2021 in connection with the Committee assuming the responsibilities of the Management Development Committee. Mr. Kotick will serve on the Committee through the 2022 Annual Meeting.",
+   "supports": "Kotick on the Committee on Directors and Corporate Governance from 2021-04-21 through the 2022 annual meeting."
+  },
+  {
+   "id": "e180",
+   "form": "8-K",
+   "accession": "0000021344-24-000040",
+   "filing_date": "2024-07-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134424000040/ko-20240719.htm",
+   "quote": "Barry Diller, Alexis Herman and Marc Bolland, three members of the Board of Directors (the \"Board\") of The Coca-Cola Company (the \"Company\"), each notified the Company of his or her decision to retire from the Board, effective August 1, 2024. The Company received notice from Marc Bolland and Alexis Herman on July 19, 2024 and from Barry Diller on July 22, 2024.",
+   "supports": "Diller, Herman and Bolland retired effective 2024-08-01."
+  },
+  {
+   "id": "e181",
+   "form": "DEF 14A",
+   "accession": "0000950144-02-001998",
+   "filing_date": "2002-03-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000095014402001998/g74097def14a.txt",
+   "quote": "The Board of Directors has nominated Barry Diller and Robert L. Nardelli to stand for election at the meeting",
+   "supports": "Diller a first-time nominee at the 2002 annual meeting."
+  },
+  {
+   "id": "e182",
+   "form": "10-Q",
+   "accession": "0000021344-02-000017",
+   "filing_date": "2002-05-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134402000017/koq331.txt",
+   "quote": "The Annual Meeting of Share Owners was held on Wednesday, April 17, 2002, in New York, New York",
+   "supports": "2002 annual meeting date: 2002-04-17."
+  },
+  {
+   "id": "e183",
+   "form": "10-Q",
+   "accession": "0000021344-02-000017",
+   "filing_date": "2002-05-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134402000017/koq331.txt",
+   "quote": "Term expiring in 2004 FOR WITHHELD --------------------- ------------- ---------- Barry Diller 2,143,510,275 23,981,216",
+   "supports": "Diller elected at the 2002 annual meeting (term to 2004).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e184",
+   "form": "DEF 14A",
+   "accession": "0001558370-24-003468",
+   "filing_date": "2024-03-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000155837024003468/ko-20240501xdef14a.htm",
+   "quote": "BARRY DILLER KEY QUALIFICATIONS AND EXPERIENCES Independent Age: 82 Director Since: 2002 Committees: Corporate Governance and Sustainability, Finance, Executive",
+   "supports": "Diller: Director since 2002; CGS, Finance, Executive (2024 proxy)."
+  },
+  {
+   "id": "e185",
+   "form": "DEF 14A",
+   "accession": "0001558370-24-003468",
+   "filing_date": "2024-03-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000155837024003468/ko-20240501xdef14a.htm",
+   "quote": "Current Public Company Boards: ● MGM Resorts International (since 2020) ● Expedia Group, Inc. (since 2005) ● IAC Inc. (since 1995) Previous Public Company Boards (Past Five Years): ● None",
+   "supports": "Diller other public boards (2024 proxy bio)."
+  },
+  {
+   "id": "e186",
+   "form": "8-K",
+   "accession": "0000021344-07-000146",
+   "filing_date": "2007-10-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134407000146/ko8k1024.htm",
+   "quote": "On October 18, 2007, the Board of Directors of The Coca-Cola Company (the \"Company\") increased the size of the Board to 12 members and elected Alexis M. Herman, former U.S. Secretary of Labor, as a Director of the Company, effective immediately.",
+   "supports": "Alexis M. Herman elected director 2007-10-18."
+  },
+  {
+   "id": "e187",
+   "form": "DEF 14A",
+   "accession": "0001558370-24-003468",
+   "filing_date": "2024-03-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000155837024003468/ko-20240501xdef14a.htm",
+   "quote": "ALEXIS M. HERMAN KEY QUALIFICATIONS AND EXPERIENCES Independent Age: 76 Director Since: 2007 Committees: Talent and Compensation, Corporate Governance and Sustainability",
+   "supports": "Herman: Director since 2007; T&C, CGS (2024 proxy)."
+  },
+  {
+   "id": "e188",
+   "form": "DEF 14A",
+   "accession": "0001558370-24-003468",
+   "filing_date": "2024-03-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000155837024003468/ko-20240501xdef14a.htm",
+   "quote": "Current Public Company Boards: ● MGM Resorts International (since 2002) Previous Public Company Boards (Past Five Years): ● Cummins Inc. (2001 to 2022) ● Entergy Corporation (2003 to 2023)",
+   "supports": "Herman other public boards (2024 proxy bio)."
+  },
+  {
+   "id": "e189",
+   "form": "DEF 14A",
+   "accession": "0001558370-24-003468",
+   "filing_date": "2024-03-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000155837024003468/ko-20240501xdef14a.htm",
+   "quote": "Marc bolland KEY QUALIFICATIONS AND EXPERIENCES Independent Age: 64 Director Since: 2015 Committees: Audit",
+   "supports": "Bolland: Director since 2015; Audit (2024 proxy)."
+  },
+  {
+   "id": "e190",
+   "form": "DEF 14A",
+   "accession": "0001558370-24-003468",
+   "filing_date": "2024-03-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000155837024003468/ko-20240501xdef14a.htm",
+   "quote": "Current Public Company Boards: ● Exor N.V. (since 2016) Previous Public Company Boards (Past Five Years): ● International Consolidated Airlines Group, S.A. (2016 to 2020)",
+   "supports": "Bolland other public boards (2024 proxy bio)."
+  },
+  {
+   "id": "e191",
+   "form": "DEF 14A",
+   "accession": "0001558370-25-003056",
+   "filing_date": "2025-03-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000155837025003056/ko-20250430xdef14a.htm",
+   "quote": "Ms. Herman and Messrs. Bolland and Diller retired from the Board effective August 1, 2024. Ms. Gayle retired from the Board effective December 13, 2024.",
+   "supports": "2025 proxy confirms the 2024 retirement dates."
+  },
+  {
+   "id": "e192",
+   "form": "DEF 14A",
+   "accession": "0001558370-25-003056",
+   "filing_date": "2025-03-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000155837025003056/ko-20250430xdef14a.htm",
+   "quote": "In addition, the Board determined that Marc Bolland, Barry Diller, Helene D. Gayle and Alexis M. Herman, who served as Directors for a portion of 2024, were independent.",
+   "supports": "Bolland, Diller, Gayle and Herman independent through their 2024 departures."
+  },
+  {
+   "id": "e178",
+   "form": "DEF 14A",
+   "accession": "0001206774-22-000669",
+   "filing_date": "2022-03-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000120677422000669/ko3966431-def14a.htm",
+   "quote": "Membership of each committee is as of December 31, 2021.",
+   "supports": "2022 proxy committee rosters are as of 2021-12-31."
+  },
+  {
+   "id": "e200",
+   "form": "DEF 14A",
+   "accession": "0001308179-13-000057",
+   "filing_date": "2013-03-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000130817913000057/lcocacola2013_def14a.htm",
+   "quote": "Each of the Director nominees currently serves on the Board and was elected by the shareowners at the 2012 Annual Meeting of Shareowners, except for Dr. Gayle who was nominated by the Board in February 2013 to stand for election at the meeting.",
+   "supports": "Gayle a first-time nominee at the 2013 annual meeting."
+  },
+  {
+   "id": "e201",
+   "form": "8-K",
+   "accession": "0001104659-13-033461",
+   "filing_date": "2013-04-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000110465913033461/a13-10848_18k.htm",
+   "quote": "The Annual Meeting of Shareowners of the Company was held on Wednesday, April 24, 2013, in Atlanta, Georgia.",
+   "supports": "2013 annual meeting date: 2013-04-24."
+  },
+  {
+   "id": "e202",
+   "form": "8-K",
+   "accession": "0001104659-13-033461",
+   "filing_date": "2013-04-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000110465913033461/a13-10848_18k.htm",
+   "quote": "Helene D. Gayle 3,089,636,345 32,845,773",
+   "supports": "Gayle elected at the 2013 annual meeting.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e203",
+   "form": "8-K",
+   "accession": "0001552781-24-000634",
+   "filing_date": "2024-12-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000155278124000634/e24475_ko-8k.htm",
+   "quote": "On December 13, 2024, Helene D. Gayle notified The Coca-Cola Company (\"Company\") of her decision to retire from the Board of Directors, effective December 13, 2024.",
+   "supports": "Gayle retired effective 2024-12-13."
+  },
+  {
+   "id": "e204",
+   "form": "DEF 14A",
+   "accession": "0001558370-24-003468",
+   "filing_date": "2024-03-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000155837024003468/ko-20240501xdef14a.htm",
+   "quote": "HELENE D. GAYLE KEY QUALIFICATIONS AND EXPERIENCES Independent Age: 68 Director Since: 2013 Committees: Talent and Compensation",
+   "supports": "Gayle: Director since 2013; T&C (2024 proxy)."
+  },
+  {
+   "id": "e205",
+   "form": "DEF 14A",
+   "accession": "0001558370-24-003468",
+   "filing_date": "2024-03-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000155837024003468/ko-20240501xdef14a.htm",
+   "quote": "Current Public Company Boards: ● Palo Alto Networks, Inc. (since 2021) ● Organon & Co. (since 2021)",
+   "supports": "Gayle current other public boards (2024 proxy bio)."
+  },
+  {
+   "id": "e206",
+   "form": "DEF 14A",
+   "accession": "0001558370-24-003468",
+   "filing_date": "2024-03-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000155837024003468/ko-20240501xdef14a.htm",
+   "quote": "Previous Public Company Boards (Past Five Years): ● GoHealth, Inc. (2020 to 2022) ● Colgate-Palmolive Company (2010 to 2021)",
+   "supports": "Gayle former other public boards (2024 proxy bio)."
+  },
+  {
+   "id": "e210",
+   "form": "8-K",
+   "accession": "0000021344-08-000140",
+   "filing_date": "2008-10-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134408000140/ko8k101608.htm",
+   "quote": "On October 16, 2008, the Board of Directors of The Coca-Cola Company (the \"Company\") increased the size of the Board to 15 members and elected Maria Elena Lagomasino, Chief Executive Officer of GenSpring Family Offices, LLC, as a Director of the Company.",
+   "supports": "Lagomasino elected director 2008-10-16 (current stint)."
+  },
+  {
+   "id": "e211",
+   "form": "DEF 14A",
+   "accession": "0001104659-26-028215",
+   "filing_date": "2026-03-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000110465926028215/ko-20260429xdef14a.htm",
+   "quote": "Maria Elena Lagomasino has reached the age of 76 and therefore has not been renominated for election as a Director at the 2026 Annual Meeting.",
+   "supports": "Lagomasino not renominated (age 76 guideline); term ends at the 2026 annual meeting."
+  },
+  {
+   "id": "e212",
+   "form": "8-K",
+   "accession": "0001552781-18-000517",
+   "filing_date": "2018-12-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000155278118000517/e18450_ko-8k.htm",
+   "quote": "On December 6, 2018, the Board also elected Maria Elena Lagomasino to replace Mr. Nunn as Lead Independent Director, contingent on her re-election as a Director at the 2019 Annual Meeting.",
+   "supports": "Lagomasino Lead Independent Director from the 2019 annual meeting."
+  },
+  {
+   "id": "e213",
+   "form": "DEF 14A",
+   "accession": "0001558370-24-003468",
+   "filing_date": "2024-03-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000155837024003468/ko-20240501xdef14a.htm",
+   "quote": "MARIA ELENA LAGOMASINO KEY QUALIFICATIONS AND EXPERIENCES Independent Age: 74 Director Since: 2008 Committees: Talent and Compensation, Corporate Governance and Sustainability, Executive Lead Independent Director Since: 2019",
+   "supports": "Lagomasino: Director since 2008, Lead Independent Director since 2019 (2024 proxy)."
+  },
+  {
+   "id": "e214",
+   "form": "DEF 14A",
+   "accession": "0001558370-25-003056",
+   "filing_date": "2025-03-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000155837025003056/ko-20250430xdef14a.htm",
+   "quote": "MARIA ELENA LAGOMASINO AGE: 75 | INDEPENDENT DIRECTOR SINCE: 2008 COMMITTEES: Talent and Compensation; Corporate Governance and Sustainability",
+   "supports": "Lagomasino in 2025 proxy: no longer listed as Lead Independent Director."
+  },
+  {
+   "id": "e215",
+   "form": "DEF 14A",
+   "accession": "0001558370-25-003056",
+   "filing_date": "2025-03-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000155837025003056/ko-20250430xdef14a.htm",
+   "quote": "The Coca-Cola Company ● Prior service as Director (2003 to 2006)",
+   "supports": "Lagomasino had an earlier, separate stint as a KO director (2003 to 2006)."
+  },
+  {
+   "id": "e216",
+   "form": "DEF 14A",
+   "accession": "0001558370-25-003056",
+   "filing_date": "2025-03-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000155837025003056/ko-20250430xdef14a.htm",
+   "quote": "Current Public Company Boards: ● The Walt Disney Company (since 2015) Previous Public Company Boards (Past Five Years): ● None",
+   "supports": "Lagomasino other public boards (2025 proxy bio, her last)."
+  },
+  {
+   "id": "e217",
+   "form": "8-K",
+   "accession": "0001552781-19-000204",
+   "filing_date": "2019-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000155278119000204/e19244_ko-8k.htm",
+   "quote": "Maria Elena Lagomasino 3,107,613,322 98.38",
+   "supports": "Lagomasino re-elected at the 2019 annual meeting (condition for becoming Lead Independent Director).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e220",
+   "form": "DEF 14A",
+   "accession": "0001558370-24-003468",
+   "filing_date": "2024-03-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000155837024003468/ko-20240501xdef14a.htm",
+   "quote": "Information about each committee, including membership information, as of December 31, 2023, is provided below.",
+   "supports": "2024 proxy committee rosters are as of 2023-12-31."
+  },
+  {
+   "id": "e221",
+   "form": "DEF 14A",
+   "accession": "0001558370-24-003468",
+   "filing_date": "2024-03-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000155837024003468/ko-20240501xdef14a.htm",
+   "quote": "David B. Weinberg Chair MARC BOLLAND CHRISTOPHER C. DAVIS AMITY MILLHISER(1) CAROLINE J. TSAY",
+   "supports": "Audit Committee (2023-12-31): Weinberg (chair), Bolland, Davis, Millhiser, Tsay.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e222",
+   "form": "DEF 14A",
+   "accession": "0001558370-24-003468",
+   "filing_date": "2024-03-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000155837024003468/ko-20240501xdef14a.htm",
+   "quote": "Helene D. Gayle Chair CAROLYN EVERSON ALEXIS M. HERMAN MARIA ELENA LAGOMASINO",
+   "supports": "Talent and Compensation Committee (2023-12-31): Gayle (chair), Everson, Herman, Lagomasino.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e223",
+   "form": "DEF 14A",
+   "accession": "0001558370-24-003468",
+   "filing_date": "2024-03-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000155837024003468/ko-20240501xdef14a.htm",
+   "quote": "Maria Elena Lagomasino Chair HERB ALLEN(1) ANA BOTÍN BARRY DILLER ALEXIS M. HERMAN(1) DAVID B. WEINBERG",
+   "supports": "CGS Committee (2023-12-31): Lagomasino (chair), Herb Allen, Botín, Diller, Herman, Weinberg.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e224",
+   "form": "DEF 14A",
+   "accession": "0001558370-24-003468",
+   "filing_date": "2024-03-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000155837024003468/ko-20240501xdef14a.htm",
+   "quote": "Barry Diller Chair HERB ALLEN ANA BOTÍN CHRISTOPHER C. DAVIS THOMAS S. GAYNER(1)",
+   "supports": "Finance Committee (2023-12-31): Diller (chair), Herb Allen, Botín, Davis, Gayner.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e225",
+   "form": "DEF 14A",
+   "accession": "0001558370-24-003468",
+   "filing_date": "2024-03-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000155837024003468/ko-20240501xdef14a.htm",
+   "quote": "James Quincey Chair BARRY DILLER MARIA ELENA LAGOMASINO",
+   "supports": "Executive Committee (2023-12-31): Quincey (chair), Diller, Lagomasino.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e226",
+   "form": "DEF 14A",
+   "accession": "0001558370-25-003056",
+   "filing_date": "2025-03-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000155837025003056/ko-20250430xdef14a.htm",
+   "quote": "Ms. Millhiser was appointed Chair of the Committee effective August 1, 2024.",
+   "supports": "Audit chair passed from Weinberg to Millhiser 2024-08-01."
+  },
+  {
+   "id": "e227",
+   "form": "DEF 14A",
+   "accession": "0001558370-25-003056",
+   "filing_date": "2025-03-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000155837025003056/ko-20250430xdef14a.htm",
+   "quote": "Ms. Everson was appointed Chair of the Committee effective August 1, 2024, and Ms. Bajaria was appointed to the Committee effective October 17, 2024.",
+   "supports": "T&C chair passed to Everson 2024-08-01."
+  },
+  {
+   "id": "e230",
+   "form": "8-K",
+   "accession": "0001628280-26-029230",
+   "filing_date": "2026-05-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000162828026029230/ko-20260429.htm",
+   "quote": "Herb Allen 3,070,951,760 95.76",
+   "supports": "Herb Allen re-elected 2026-04-29.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e231",
+   "form": "8-K",
+   "accession": "0001628280-26-029230",
+   "filing_date": "2026-05-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000162828026029230/ko-20260429.htm",
+   "quote": "James Quincey 3,144,443,152 98.00",
+   "supports": "Quincey re-elected 2026-04-29.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e232",
+   "form": "8-K",
+   "accession": "0001628280-26-029230",
+   "filing_date": "2026-05-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000162828026029230/ko-20260429.htm",
+   "quote": "David B. Weinberg 3,105,146,920 96.77",
+   "supports": "Weinberg re-elected 2026-04-29.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e233",
+   "form": "8-K",
+   "accession": "0001628280-26-029230",
+   "filing_date": "2026-05-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000162828026029230/ko-20260429.htm",
+   "quote": "Shareowners elected each of the persons named below as Directors, to serve until the 2027 Annual Meeting of Shareowners, as follows:",
+   "supports": "2026 annual meeting elected 12 directors for one-year terms (list in table)."
+  },
+  {
+   "id": "e234",
+   "form": "8-K",
+   "accession": "0000021344-23-000026",
+   "filing_date": "2023-04-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134423000026/ko-20230425.htm",
+   "quote": "The Annual Meeting of Shareowners of the Company was held on Tuesday, April 25, 2023.",
+   "supports": "2023 annual meeting date: 2023-04-25."
+  },
+  {
+   "id": "e235",
+   "form": "DEF 14A",
+   "accession": "0001104659-26-028215",
+   "filing_date": "2026-03-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000110465926028215/ko-20260429xdef14a.htm",
+   "quote": "has nominated the following 12 individuals for election to the Board for a one-year term.",
+   "supports": "12 nominees in 2026 (annual elections, no classes)."
+  },
+  {
+   "id": "e240",
+   "form": "8-K",
+   "accession": "0001552781-26-000366",
+   "filing_date": "2026-06-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000155278126000366/e26287_ko-8k.htm",
+   "quote": "announced that Jennifer Mann, Executive Vice President and President, North America Operating Unit, will be departing the Company.",
+   "supports": "Only Item 5.02 8-K after the 2026 proxy and annual meeting: an officer change, not a board change."
+  },
+  {
+   "id": "e301",
+   "form": "3",
+   "accession": "0001127602-21-031824",
+   "filing_date": "2021-12-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000112760221031824/form3.xml",
+   "quote": "Allen Herbert A III",
+   "supports": "Form 3 (initial statement) for Allen Herbert A III; reporting-owner CIK. Period of report 2021-12-17.",
+   "xml_fields": {
+    "rptOwnerCik": "0001295077",
+    "rptOwnerName": "Allen Herbert A III",
+    "periodOfReport": "2021-12-17"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e302",
+   "form": "4",
+   "accession": "0000021344-26-000104",
+   "filing_date": "2026-04-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134426000104/form4.xml",
+   "quote": "Allen Herbert A III",
+   "supports": "Form 4 for Allen Herbert A III; reporting-owner CIK; filed as a director. Period of report 2026-04-01.",
+   "xml_fields": {
+    "rptOwnerCik": "0001295077",
+    "rptOwnerName": "Allen Herbert A III",
+    "periodOfReport": "2026-04-01"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e303",
+   "form": "3",
+   "accession": "0001127602-24-025792",
+   "filing_date": "2024-10-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000112760224025792/form3.xml",
+   "quote": "Bajaria Bela",
+   "supports": "Form 3 (initial statement) for Bajaria Bela; reporting-owner CIK. Period of report 2024-10-17.",
+   "xml_fields": {
+    "rptOwnerCik": "0002041274",
+    "rptOwnerName": "Bajaria Bela",
+    "periodOfReport": "2024-10-17"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e304",
+   "form": "4",
+   "accession": "0000021344-26-000111",
+   "filing_date": "2026-04-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134426000111/form4.xml",
+   "quote": "Bajaria Bela",
+   "supports": "Form 4 for Bajaria Bela; reporting-owner CIK; filed as a director. Period of report 2026-04-01.",
+   "xml_fields": {
+    "rptOwnerCik": "0002041274",
+    "rptOwnerName": "Bajaria Bela",
+    "periodOfReport": "2026-04-01"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e305",
+   "form": "3",
+   "accession": "0001127602-13-023186",
+   "filing_date": "2013-07-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000112760213023186/form3.xml",
+   "quote": "BOTIN ANA",
+   "supports": "Form 3 (initial statement) for BOTIN ANA; reporting-owner CIK. Period of report 2013-07-18.",
+   "xml_fields": {
+    "rptOwnerCik": "0001581491",
+    "rptOwnerName": "BOTIN ANA",
+    "periodOfReport": "2013-07-18"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e306",
+   "form": "4",
+   "accession": "0000021344-26-000118",
+   "filing_date": "2026-04-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134426000118/form4.xml",
+   "quote": "BOTIN ANA",
+   "supports": "Form 4 for BOTIN ANA; reporting-owner CIK; filed as a director. Period of report 2026-04-01.",
+   "xml_fields": {
+    "rptOwnerCik": "0001581491",
+    "rptOwnerName": "BOTIN ANA",
+    "periodOfReport": "2026-04-01"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e307",
+   "form": "3",
+   "accession": "0001127602-20-026710",
+   "filing_date": "2020-10-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000112760220026710/form3.xml",
+   "quote": "Braun Henrique",
+   "supports": "Form 3 for Henrique Braun as an officer (Operating Unit President), not a director; reporting-owner CIK.",
+   "xml_fields": {
+    "rptOwnerCik": "0001827313",
+    "rptOwnerName": "Braun Henrique",
+    "periodOfReport": "2020-10-01"
+   },
+   "xml_relationship": {
+    "isDirector": false,
+    "otherText": "Operating Unit President"
+   }
+  },
+  {
+   "id": "e308",
+   "form": "3",
+   "accession": "0001127602-18-015313",
+   "filing_date": "2018-04-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000112760218015313/form3.xml",
+   "quote": "Davis Christopher C",
+   "supports": "Form 3 (initial statement) for Davis Christopher C; reporting-owner CIK. Period of report 2018-04-25.",
+   "xml_fields": {
+    "rptOwnerCik": "0001350384",
+    "rptOwnerName": "Davis Christopher C",
+    "periodOfReport": "2018-04-25"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e309",
+   "form": "4",
+   "accession": "0000021344-26-000105",
+   "filing_date": "2026-04-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134426000105/form4.xml",
+   "quote": "Davis Christopher C",
+   "supports": "Form 4 for Davis Christopher C; reporting-owner CIK; filed as a director. Period of report 2026-04-01.",
+   "xml_fields": {
+    "rptOwnerCik": "0001350384",
+    "rptOwnerName": "Davis Christopher C",
+    "periodOfReport": "2026-04-01"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e310",
+   "form": "3",
+   "accession": "0001127602-22-019440",
+   "filing_date": "2022-07-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000112760222019440/form3.xml",
+   "quote": "Everson Carolyn",
+   "supports": "Form 3 (initial statement) for Everson Carolyn; reporting-owner CIK. Period of report 2022-07-19.",
+   "xml_fields": {
+    "rptOwnerCik": "0001577369",
+    "rptOwnerName": "Everson Carolyn",
+    "periodOfReport": "2022-07-19"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e311",
+   "form": "4",
+   "accession": "0000021344-26-000109",
+   "filing_date": "2026-04-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134426000109/form4.xml",
+   "quote": "Everson Carolyn",
+   "supports": "Form 4 for Everson Carolyn; reporting-owner CIK; filed as a director. Period of report 2026-04-01.",
+   "xml_fields": {
+    "rptOwnerCik": "0001577369",
+    "rptOwnerName": "Everson Carolyn",
+    "periodOfReport": "2026-04-01"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e312",
+   "form": "3",
+   "accession": "0001127602-23-021125",
+   "filing_date": "2023-07-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000112760223021125/form3.xml",
+   "quote": "GAYNER THOMAS SINNICKSON",
+   "supports": "Form 3 (initial statement) for GAYNER THOMAS SINNICKSON; reporting-owner CIK. Period of report 2023-07-19.",
+   "xml_fields": {
+    "rptOwnerCik": "0001159015",
+    "rptOwnerName": "GAYNER THOMAS SINNICKSON",
+    "periodOfReport": "2023-07-19"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e313",
+   "form": "4",
+   "accession": "0000021344-26-000116",
+   "filing_date": "2026-04-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134426000116/form4.xml",
+   "quote": "GAYNER THOMAS SINNICKSON",
+   "supports": "Form 4 for GAYNER THOMAS SINNICKSON; reporting-owner CIK; filed as a director. Period of report 2026-04-01.",
+   "xml_fields": {
+    "rptOwnerCik": "0001159015",
+    "rptOwnerName": "GAYNER THOMAS SINNICKSON",
+    "periodOfReport": "2026-04-01"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e314",
+   "form": "3",
+   "accession": "0000021344-25-000072",
+   "filing_date": "2025-10-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134425000072/form3.xml",
+   "quote": "Levchin Max R",
+   "supports": "Form 3 (initial statement) for Levchin Max R; reporting-owner CIK. Period of report 2025-10-16.",
+   "xml_fields": {
+    "rptOwnerCik": "0001539853",
+    "rptOwnerName": "Levchin Max R",
+    "periodOfReport": "2025-10-16"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e315",
+   "form": "4",
+   "accession": "0000021344-26-000107",
+   "filing_date": "2026-04-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134426000107/form4.xml",
+   "quote": "Levchin Max R",
+   "supports": "Form 4 for Levchin Max R; reporting-owner CIK; filed as a director. Period of report 2026-04-01.",
+   "xml_fields": {
+    "rptOwnerCik": "0001539853",
+    "rptOwnerName": "Levchin Max R",
+    "periodOfReport": "2026-04-01"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e316",
+   "form": "3",
+   "accession": "0001127602-23-019825",
+   "filing_date": "2023-07-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000112760223019825/form3.xml",
+   "quote": "Millhiser Amity",
+   "supports": "Form 3 (initial statement) for Millhiser Amity; reporting-owner CIK. Period of report 2023-07-01.",
+   "xml_fields": {
+    "rptOwnerCik": "0001981727",
+    "rptOwnerName": "Millhiser Amity",
+    "periodOfReport": "2023-07-01"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e317",
+   "form": "4",
+   "accession": "0000021344-26-000122",
+   "filing_date": "2026-04-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134426000122/form4.xml",
+   "quote": "Millhiser Amity",
+   "supports": "Form 4 for Millhiser Amity; reporting-owner CIK; filed as a director. Period of report 2026-04-01.",
+   "xml_fields": {
+    "rptOwnerCik": "0001981727",
+    "rptOwnerName": "Millhiser Amity",
+    "periodOfReport": "2026-04-01"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e318",
+   "form": "4",
+   "accession": "0000021344-26-000156",
+   "filing_date": "2026-07-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134426000156/form4.xml",
+   "quote": "Quincey James",
+   "supports": "Form 4 for James Quincey after the 2026-03-31 transition: still a director, officer title 'Chairman'; reporting-owner CIK.",
+   "xml_fields": {
+    "rptOwnerCik": "0001561264",
+    "rptOwnerName": "Quincey James",
+    "periodOfReport": "2026-07-28",
+    "officerTitle": "Chairman"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": "Chairman"
+   }
+  },
+  {
+   "id": "e319",
+   "form": "3",
+   "accession": "0001127602-18-015312",
+   "filing_date": "2018-04-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000112760218015312/form3.xml",
+   "quote": "TSAY CAROLINE J",
+   "supports": "Form 3 (initial statement) for TSAY CAROLINE J; reporting-owner CIK. Period of report 2018-04-25.",
+   "xml_fields": {
+    "rptOwnerCik": "0001628434",
+    "rptOwnerName": "TSAY CAROLINE J",
+    "periodOfReport": "2018-04-25"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e320",
+   "form": "4",
+   "accession": "0000021344-26-000114",
+   "filing_date": "2026-04-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134426000114/form4.xml",
+   "quote": "TSAY CAROLINE J",
+   "supports": "Form 4 for TSAY CAROLINE J; reporting-owner CIK; filed as a director. Period of report 2026-04-01.",
+   "xml_fields": {
+    "rptOwnerCik": "0001628434",
+    "rptOwnerName": "TSAY CAROLINE J",
+    "periodOfReport": "2026-04-01"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e321",
+   "form": "3",
+   "accession": "0001127602-15-007388",
+   "filing_date": "2015-02-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000112760215007388/form3.xml",
+   "quote": "WEINBERG DAVID B",
+   "supports": "Form 3 (initial statement) for WEINBERG DAVID B; reporting-owner CIK. Period of report 2015-02-18.",
+   "xml_fields": {
+    "rptOwnerCik": "0001633270",
+    "rptOwnerName": "WEINBERG DAVID B",
+    "periodOfReport": "2015-02-18"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e322",
+   "form": "4",
+   "accession": "0000021344-26-000113",
+   "filing_date": "2026-04-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134426000113/form4.xml",
+   "quote": "WEINBERG DAVID B",
+   "supports": "Form 4 for WEINBERG DAVID B; reporting-owner CIK; filed as a director. Period of report 2026-04-01.",
+   "xml_fields": {
+    "rptOwnerCik": "0001633270",
+    "rptOwnerName": "WEINBERG DAVID B",
+    "periodOfReport": "2026-04-01"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e323",
+   "form": "4",
+   "accession": "0001127602-20-013001",
+   "filing_date": "2020-04-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000112760220013001/form4.xml",
+   "quote": "ALLEN RONALD W",
+   "supports": "Form 4 for ALLEN RONALD W; reporting-owner CIK; filed as a director. Period of report 2020-04-01.",
+   "xml_fields": {
+    "rptOwnerCik": "0001196048",
+    "rptOwnerName": "ALLEN RONALD W",
+    "periodOfReport": "2020-04-01"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e324",
+   "form": "4",
+   "accession": "0001127602-21-013147",
+   "filing_date": "2021-04-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000112760221013147/form4.xml",
+   "quote": "ALLEN HERBERT A",
+   "supports": "Form 4 for ALLEN HERBERT A; reporting-owner CIK; filed as a director. Period of report 2021-04-01.",
+   "xml_fields": {
+    "rptOwnerCik": "0001131947",
+    "rptOwnerName": "ALLEN HERBERT A",
+    "periodOfReport": "2021-04-01"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e325",
+   "form": "3",
+   "accession": "0001127602-12-006661",
+   "filing_date": "2012-02-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000112760212006661/form3.xml",
+   "quote": "KOTICK ROBERT A",
+   "supports": "Form 3 (initial statement) for KOTICK ROBERT A; reporting-owner CIK. Period of report 2012-02-16.",
+   "xml_fields": {
+    "rptOwnerCik": "0001091423",
+    "rptOwnerName": "KOTICK ROBERT A",
+    "periodOfReport": "2012-02-16"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e326",
+   "form": "4",
+   "accession": "0001127602-22-011483",
+   "filing_date": "2022-04-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000112760222011483/form4.xml",
+   "quote": "KOTICK ROBERT A",
+   "supports": "Form 4 for KOTICK ROBERT A; reporting-owner CIK; filed as a director. Period of report 2022-04-01.",
+   "xml_fields": {
+    "rptOwnerCik": "0001091423",
+    "rptOwnerName": "KOTICK ROBERT A",
+    "periodOfReport": "2022-04-01"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e327",
+   "form": "4",
+   "accession": "0001127602-24-012139",
+   "filing_date": "2024-04-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000112760224012139/form4.xml",
+   "quote": "Diller Barry",
+   "supports": "Form 4 for Diller Barry; reporting-owner CIK; filed as a director. Period of report 2024-04-01.",
+   "xml_fields": {
+    "rptOwnerCik": "0000927067",
+    "rptOwnerName": "Diller Barry",
+    "periodOfReport": "2024-04-01"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e328",
+   "form": "3",
+   "accession": "0000021344-07-000143",
+   "filing_date": "2007-10-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134407000143/her316.xml",
+   "quote": "HERMAN ALEXIS M",
+   "supports": "Form 3 (initial statement) for HERMAN ALEXIS M; reporting-owner CIK. Period of report 2007-10-18.",
+   "xml_fields": {
+    "rptOwnerCik": "0001198691",
+    "rptOwnerName": "HERMAN ALEXIS M",
+    "periodOfReport": "2007-10-18"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e329",
+   "form": "4",
+   "accession": "0001127602-24-012136",
+   "filing_date": "2024-04-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000112760224012136/form4.xml",
+   "quote": "HERMAN ALEXIS M",
+   "supports": "Form 4 for HERMAN ALEXIS M; reporting-owner CIK; filed as a director. Period of report 2024-04-01.",
+   "xml_fields": {
+    "rptOwnerCik": "0001198691",
+    "rptOwnerName": "HERMAN ALEXIS M",
+    "periodOfReport": "2024-04-01"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e330",
+   "form": "3",
+   "accession": "0001127602-15-007383",
+   "filing_date": "2015-02-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000112760215007383/form3.xml",
+   "quote": "BOLLAND MARC J",
+   "supports": "Form 3 (initial statement) for BOLLAND MARC J; reporting-owner CIK. Period of report 2015-02-18.",
+   "xml_fields": {
+    "rptOwnerCik": "0001299262",
+    "rptOwnerName": "BOLLAND MARC J",
+    "periodOfReport": "2015-02-18"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e331",
+   "form": "4",
+   "accession": "0001127602-24-012131",
+   "filing_date": "2024-04-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000112760224012131/form4.xml",
+   "quote": "BOLLAND MARC J",
+   "supports": "Form 4 for BOLLAND MARC J; reporting-owner CIK; filed as a director. Period of report 2024-04-01.",
+   "xml_fields": {
+    "rptOwnerCik": "0001299262",
+    "rptOwnerName": "BOLLAND MARC J",
+    "periodOfReport": "2024-04-01"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e332",
+   "form": "3",
+   "accession": "0001127602-13-014665",
+   "filing_date": "2013-04-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000112760213014665/form3.xml",
+   "quote": "Gayle Helene D",
+   "supports": "Form 3 (initial statement) for Gayle Helene D; reporting-owner CIK. Period of report 2013-04-24.",
+   "xml_fields": {
+    "rptOwnerCik": "0001487047",
+    "rptOwnerName": "Gayle Helene D",
+    "periodOfReport": "2013-04-24"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e333",
+   "form": "4",
+   "accession": "0001127602-24-012078",
+   "filing_date": "2024-04-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000112760224012078/form4.xml",
+   "quote": "Gayle Helene D",
+   "supports": "Form 4 for Gayle Helene D; reporting-owner CIK; filed as a director. Period of report 2024-04-01.",
+   "xml_fields": {
+    "rptOwnerCik": "0001487047",
+    "rptOwnerName": "Gayle Helene D",
+    "periodOfReport": "2024-04-01"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e334",
+   "form": "4",
+   "accession": "0000021344-26-000120",
+   "filing_date": "2026-04-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134426000120/form4.xml",
+   "quote": "LAGOMASINO MARIA ELENA",
+   "supports": "Last Form 4 for Lagomasino before her term ended (director); reporting-owner CIK.",
+   "xml_fields": {
+    "rptOwnerCik": "0001224543",
+    "rptOwnerName": "LAGOMASINO MARIA ELENA",
+    "periodOfReport": "2026-04-01"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  }
+ ],
+ "conflicts": [
+  {
+   "description": "Lagomasino's tenure has two stints. Every proxy gives 'Director since 2008', matching her 2008-10-16 election, but the 2025 proxy also lists 'Prior service as Director (2003 to 2006)'. Only the 2008-2026 stint is recorded; the earlier stint ended before 2020 and is out of scope.",
+   "evidence_refs": [
+    "e210",
+    "e213",
+    "e215"
+   ]
+  },
+  {
+   "description": "Herb Allen's Grupo Televisa alternate-director seat is dated 'since 2003' in the 2024 proxy and 'since 2002' in the 2026 proxy. The bio entry keeps the 2026 wording and flags the difference.",
+   "evidence_refs": [
+    "e013",
+    "e014"
+   ]
+  },
+  {
+   "description": "Board-size bookkeeping has gaps. After Herbert A. Allen retired (2021-08-18), and again after the 2024-08-01 retirements, no filing states a reduction in the authorized size. The later 8-Ks say the board was 'increased' to 12 (2021-12-17, 2024-10-17). Seating Millhiser on 2023-07-01 and Levchin on 2025-10-16 came with no stated size change. Only disclosed changes are recorded as BOARD_SIZE_CHANGE events.",
+   "evidence_refs": [
+    "e160",
+    "e010",
+    "e180",
+    "e020",
+    "e091",
+    "e070",
+    "e080"
+   ]
+  },
+  {
+   "description": "Millhiser was elected at the 2023-04-25 annual meeting, but her term began 2023-07-01. Her start date is 2023-07-01; proxies give 'Director since 2023'. The 2024 vote results spell her name 'Milhiser'.",
+   "evidence_refs": [
+    "e091",
+    "e090",
+    "e093"
+   ]
+  },
+  {
+   "description": "Two different directors named Herbert A. Allen. Herbert A. Allen (CIK 0001131947, director since 1982) retired 2021-08-18. Herbert A. Allen III (CIK 0001295077), whom the company calls 'Herb Allen', was elected 2021-12-17. The 2022 proxy distinguishes 'Mr. Herbert A. Allen' from 'Mr. Herb Allen'. No filing reviewed states how they are related, so no relationship is recorded.",
+   "evidence_refs": [
+    "e015",
+    "e160",
+    "e010",
+    "e324",
+    "e301"
+   ]
+  }
+ ],
+ "open_questions": [
+  "Day Weinberg succeeded Lagomasino as Lead Independent Director in 2024: the proxies give only the year. The 2025 proxy pro-rates both directors' 2024 LID fees but states no handover date.",
+  "Committee assignments after the 2026 annual meeting: the 2026 proxy rosters are as of 2025-12-31, and Lagomasino's Talent and Compensation and Corporate Governance seats ended 2026-04-29. No 8-K discloses any reassignment, and Braun has no committee.",
+  "Current authorized board size is not stated. Twelve directors were elected on 2026-04-29 and none have left since.",
+  "Herbert A. Allen (1982) and Ronald W. Allen (1991) joined before EDGAR, so only the year is known.",
+  "Lagomasino's first stint (2003 to 2006) was not researched beyond the 2025 proxy line because it is out of scope.",
+  "Independence before 2013 was not reviewed. Spans for directors who joined earlier (R.W. Allen, Herbert A. Allen, Diller, Herman, Kotick, Lagomasino) start at 2013, the earliest determination reviewed.",
+  "Braun has no Form 4 as a director through 2026-09-28. His SEC CIK comes from his 2020 officer Form 3.",
+  "Listing year: no filing reviewed states when the common stock was first listed on the NYSE. 1970 is the placeholder for 'well before 1990' (see company.notes).",
+  "Other-board lists come from KO's own proxy bios as of each filing and are not checked against other issuers' filings. Fund boards Davis and Gayner list under 'Registered Companies (Investment Company Act of 1940)' are excluded."
+ ],
+ "coverage": [
+  {
+   "scope": "current_board",
+   "period_start": "2026-10-04",
+   "period_end": "2026-10-04",
+   "level": "complete",
+   "method": "Roster checked against the 2026 DEF 14A (filed 2026-03-16) and the 2026 Item 5.07 results (meeting 2026-04-29). Every 8-K filed after the DEF 14A was checked: the only Item 5.02 8-K (2026-06-25) is an officer change. Forms 3/4 through 2026-09-28 show no new director Form 3 and continued director Form 4s."
+  },
+  {
+   "scope": "board_history",
+   "period_start": "2020-01-01",
+   "period_end": "2026-10-04",
+   "level": "complete",
+   "method": "Every DEF 14A from 2019 to 2026 and every 8-K with Item 5.02, 5.03 or 5.07 filed 2018-2026 was reviewed, and the elected-director lists were compared across annual meetings. Departures are dated from 8-K effective dates or annual-meeting dates."
+  },
+  {
+   "scope": "board_history",
+   "period_start": "2002-01-01",
+   "period_end": "2019-12-31",
+   "level": "partial",
+   "method": "Start dates of directors who served on or after 2020-01-01 come from 8-K Item 5.02 filings (2006-2018), proxies (2002, 2013, 2017, 2018) and annual-meeting results. Departures before 2020 are not recorded."
+  }
+ ]
+}
