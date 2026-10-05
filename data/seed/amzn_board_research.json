@@ -1,0 +1,2840 @@
+{
+ "company": {
+  "cik": "0001018724",
+  "ticker": "AMZN",
+  "legal_name": "Amazon.com, Inc.",
+  "common_name": "Amazon",
+  "exchange": "Nasdaq Global Select Market (The Nasdaq Stock Market LLC)",
+  "ipo_date": "1997-05-15",
+  "state_of_incorporation": "Delaware",
+  "incorporated": "July 1994 in Washington; reincorporated in Delaware in 1996",
+  "classified_board": false,
+  "evidence_refs": [
+   "e001",
+   "e002",
+   "e003",
+   "e004",
+   "e005",
+   "e006",
+   "e007",
+   "e008"
+  ],
+  "notes": "IPO of 3,000,000 shares completed 1997-05-15 (registration effective 1997-05-14; 424B1 prospectus dated 1997-05-15). Board is declassified: all directors elected annually. Founder Jeff Bezos was Chair and CEO until July 2021 and has been Executive Chair since; Andy Jassy has been President and CEO since 2021-07-05."
+ },
+ "as_of": "2026-10-04",
+ "sources_reviewed_through": "2026-09-24 (latest filing in EDGAR submissions feed fetched 2026-10-04)",
+ "people": [
+  {
+   "key": "jeff-bezos",
+   "full_name": "Jeffrey P. Bezos",
+   "aliases": [
+    "Jeff Bezos",
+    "BEZOS JEFFREY P"
+   ],
+   "sec_cik": "0001043298",
+   "bio_other_public_boards": []
+  },
+  {
+   "key": "andy-jassy",
+   "full_name": "Andrew R. Jassy",
+   "aliases": [
+    "Andy Jassy",
+    "Jassy Andrew R"
+   ],
+   "sec_cik": "0001374545",
+   "bio_other_public_boards": []
+  },
+  {
+   "key": "edith-cooper",
+   "full_name": "Edith W. Cooper",
+   "aliases": [
+    "Edith Cooper",
+    "COOPER EDITH W"
+   ],
+   "sec_cik": "0001517276",
+   "bio_other_public_boards": [
+    {
+     "company": "PepsiCo, Inc.",
+     "status": "current",
+     "years": "since September 2021",
+     "source_ref": "e043",
+     "public_company_stated_in_source": true,
+     "corroborating_refs": [
+      "e042"
+     ]
+    },
+    {
+     "company": "MSD Acquisition Corp.",
+     "status": "former",
+     "years": "March 2021 to March 2023",
+     "source_ref": "e043",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "EQT AB",
+     "status": "former",
+     "years": "October 2018 to June 2022",
+     "source_ref": "e043",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Etsy, Inc.",
+     "status": "former",
+     "years": "April 2018 to September 2021",
+     "source_ref": "e043",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Slack Technologies, Inc.",
+     "status": "former",
+     "years": "January 2018 to July 2021",
+     "source_ref": "e043",
+     "public_company_stated_in_source": false
+    }
+   ]
+  },
+  {
+   "key": "jamie-gorelick",
+   "full_name": "Jamie S. Gorelick",
+   "aliases": [
+    "Jamie Gorelick",
+    "GORELICK JAMIE S"
+   ],
+   "sec_cik": "0001184176",
+   "bio_other_public_boards": [
+    {
+     "company": "VeriSign, Inc.",
+     "status": "current",
+     "years": "since January 2015",
+     "source_ref": "e053",
+     "public_company_stated_in_source": true,
+     "corroborating_refs": [
+      "e052"
+     ],
+     "note": "chairs VeriSign's Corporate Governance and Nominating Committee"
+    },
+    {
+     "company": "United Technologies Corporation",
+     "status": "former",
+     "years": "February 2000 to December 2014",
+     "source_ref": "e053",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Schlumberger Limited",
+     "status": "former",
+     "years": "April 2002 to June 2010",
+     "source_ref": "e053",
+     "public_company_stated_in_source": false
+    }
+   ]
+  },
+  {
+   "key": "daniel-huttenlocher",
+   "full_name": "Daniel P. Huttenlocher",
+   "aliases": [
+    "Dan Huttenlocher",
+    "Huttenlocher Daniel P"
+   ],
+   "sec_cik": "0001630567",
+   "bio_other_public_boards": [
+    {
+     "company": "Corning Incorporated",
+     "status": "current",
+     "years": "since February 2015",
+     "source_ref": "e063",
+     "public_company_stated_in_source": true,
+     "corroborating_refs": [
+      "e062"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "andrew-ng",
+   "full_name": "Andrew Y. Ng",
+   "aliases": [
+    "Andrew Ng",
+    "Ng Andrew Y."
+   ],
+   "sec_cik": "0001851101",
+   "bio_other_public_boards": [
+    {
+     "company": "Coursera, Inc.",
+     "status": "current",
+     "years": "Chairman since 2014 (co-founder)",
+     "source_ref": "e073",
+     "public_company_stated_in_source": true,
+     "corroborating_refs": [
+      "e072"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "indra-nooyi",
+   "full_name": "Indra K. Nooyi",
+   "aliases": [
+    "Indra Nooyi",
+    "NOOYI INDRA K"
+   ],
+   "sec_cik": "0001183818",
+   "bio_other_public_boards": [
+    {
+     "company": "Honeywell International Inc.",
+     "status": "current",
+     "years": "since January 2026",
+     "source_ref": "e083",
+     "public_company_stated_in_source": true,
+     "corroborating_refs": [
+      "e082"
+     ]
+    },
+    {
+     "company": "Royal Philips",
+     "status": "current",
+     "years": "since May 2021",
+     "source_ref": "e083",
+     "public_company_stated_in_source": true,
+     "corroborating_refs": [
+      "e082"
+     ]
+    },
+    {
+     "company": "Schlumberger Limited",
+     "status": "former",
+     "years": "April 2015 to April 2020",
+     "source_ref": "e083",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "PepsiCo, Inc.",
+     "status": "former",
+     "years": "board chair May 2007 to February 2019 (on board from 2001)",
+     "source_ref": "e084",
+     "public_company_stated_in_source": false,
+     "note": "also CEO 2006-2018"
+    }
+   ]
+  },
+  {
+   "key": "jonathan-rubinstein",
+   "full_name": "Jonathan J. Rubinstein",
+   "aliases": [
+    "Jon Rubinstein",
+    "Jonathan Rubinstein",
+    "RUBINSTEIN JONATHAN"
+   ],
+   "sec_cik": "0001209522",
+   "bio_other_public_boards": [
+    {
+     "company": "Robinhood Markets, Inc.",
+     "status": "current",
+     "years": "lead director since May 2021",
+     "source_ref": "e093",
+     "public_company_stated_in_source": true,
+     "corroborating_refs": [
+      "e092"
+     ]
+    },
+    {
+     "company": "Qualcomm Incorporated",
+     "status": "former",
+     "years": "May 2013 to May 2016",
+     "source_ref": "e093",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Palm, Inc.",
+     "status": "former",
+     "years": "Chair October 2007 to July 2010 (acquired by HP)",
+     "source_ref": "e094",
+     "public_company_stated_in_source": false
+    }
+   ]
+  },
+  {
+   "key": "brad-smith",
+   "full_name": "Brad D. Smith",
+   "aliases": [
+    "Brad Smith",
+    "SMITH BRAD D"
+   ],
+   "sec_cik": "0001284323",
+   "bio_other_public_boards": [
+    {
+     "company": "JPMorgan Chase & Co.",
+     "status": "current",
+     "years": "since January 2025",
+     "source_ref": "e103",
+     "public_company_stated_in_source": true,
+     "corroborating_refs": [
+      "e102"
+     ]
+    },
+    {
+     "company": "Humana Inc.",
+     "status": "former",
+     "years": "September 2022 to April 2025",
+     "source_ref": "e103",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Nordstrom, Inc.",
+     "status": "former",
+     "years": "January 2013 to May 2022",
+     "source_ref": "e103",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Momentive Global Inc. (formerly SVMK Inc.)",
+     "status": "former",
+     "years": "May 2017 to February 2022",
+     "source_ref": "e103",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Intuit Inc.",
+     "status": "former",
+     "years": "Chairman January 2016 to January 2019; Executive Chairman January 2019 to January 2022",
+     "source_ref": "e104",
+     "public_company_stated_in_source": false,
+     "note": "also CEO 2008-2018"
+    }
+   ]
+  },
+  {
+   "key": "patricia-stonesifer",
+   "full_name": "Patricia Q. Stonesifer",
+   "aliases": [
+    "Patty Stonesifer",
+    "STONESIFER PATRICIA Q"
+   ],
+   "sec_cik": "0001184756",
+   "bio_other_public_boards": []
+  },
+  {
+   "key": "wendell-weeks",
+   "full_name": "Wendell P. Weeks",
+   "aliases": [
+    "Wendell Weeks",
+    "WEEKS WENDELL P"
+   ],
+   "sec_cik": "0001206158",
+   "bio_other_public_boards": [
+    {
+     "company": "Corning Incorporated",
+     "status": "current",
+     "years": "Chairman since April 2007",
+     "source_ref": "e124",
+     "public_company_stated_in_source": true,
+     "corroborating_refs": [
+      "e122"
+     ],
+     "note": "also CEO since April 2005"
+    },
+    {
+     "company": "Merck & Co., Inc.",
+     "status": "former",
+     "years": "February 2004 to May 2020",
+     "source_ref": "e123",
+     "public_company_stated_in_source": false
+    }
+   ]
+  },
+  {
+   "key": "kevin-mandia",
+   "full_name": "Kevin R. Mandia",
+   "aliases": [
+    "Kevin Mandia",
+    "Mandia Kevin R."
+   ],
+   "sec_cik": "0001595602",
+   "bio_other_public_boards": [
+    {
+     "company": "Mandiant, Inc.",
+     "status": "former",
+     "years": "February 2016 to September 2022",
+     "source_ref": "e132",
+     "public_company_stated_in_source": false,
+     "note": "from the 2026-09-09 8-K bio; no proxy covers him yet. Also Mandiant CEO June 2016 - July 2024."
+    }
+   ]
+  },
+  {
+   "key": "keith-alexander",
+   "full_name": "Keith B. Alexander",
+   "aliases": [
+    "General (Ret.) Keith B. Alexander",
+    "Gen. Keith Alexander",
+    "Alexander Keith Brian"
+   ],
+   "sec_cik": "0001659719",
+   "bio_other_public_boards": [
+    {
+     "company": "IronNet, Inc.",
+     "status": "former",
+     "years": "director and Chair 2014 to February 2024",
+     "source_ref": "e143",
+     "public_company_stated_in_source": false,
+     "corroborating_refs": [
+      "e145"
+     ],
+     "note": "listed as an 'other current public company board' in the 2022-2023 proxies"
+    },
+    {
+     "company": "CSRA, Inc.",
+     "status": "former",
+     "years": "November 2015 to April 2018",
+     "source_ref": "e144",
+     "public_company_stated_in_source": false
+    }
+   ]
+  },
+  {
+   "key": "judith-mcgrath",
+   "full_name": "Judith A. McGrath",
+   "aliases": [
+    "Judy McGrath",
+    "McGrath Judith A"
+   ],
+   "sec_cik": "0001612243",
+   "bio_other_public_boards": []
+  },
+  {
+   "key": "thomas-ryder",
+   "full_name": "Thomas O. Ryder",
+   "aliases": [
+    "Tom Ryder",
+    "RYDER THOMAS O"
+   ],
+   "sec_cik": "0001137819",
+   "bio_other_public_boards": [
+    {
+     "company": "ILG, Inc.",
+     "status": "former",
+     "years": "May 2016 to September 2018",
+     "source_ref": "e166",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "RPX Corporation",
+     "status": "former",
+     "years": "December 2009 to June 2017",
+     "source_ref": "e166",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Quad/Graphics, Inc.",
+     "status": "former",
+     "years": "July 2010 to May 2017",
+     "source_ref": "e166",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Starwood Hotels & Resorts Worldwide, Inc.",
+     "status": "former",
+     "years": "April 2001 to September 2016",
+     "source_ref": "e166",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Virgin Mobile USA, Inc.",
+     "status": "former",
+     "years": "Chair October 2007 to November 2009",
+     "source_ref": "e166",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "The Reader's Digest Association, Inc.",
+     "status": "former",
+     "years": "Chair April 1998 to December 2006",
+     "source_ref": "e169",
+     "public_company_stated_in_source": false,
+     "note": "also CEO April 1998 - December 2005"
+    }
+   ]
+  },
+  {
+   "key": "rosalind-brewer",
+   "full_name": "Rosalind G. Brewer",
+   "aliases": [
+    "Roz Brewer",
+    "BREWER ROSALIND G"
+   ],
+   "sec_cik": "0001357855",
+   "bio_other_public_boards": [
+    {
+     "company": "Starbucks Corporation",
+     "status": "current",
+     "years": "since March 2017 (as of the 2020 proxy)",
+     "source_ref": "e176",
+     "public_company_stated_in_source": true,
+     "corroborating_refs": [
+      "e175"
+     ],
+     "note": "status as of her last Amazon proxy (2020-04-16); not tracked after she left Amazon"
+    },
+    {
+     "company": "Lockheed Martin Corporation",
+     "status": "former",
+     "years": "April 2011 to October 2017",
+     "source_ref": "e177",
+     "public_company_stated_in_source": false
+    }
+   ]
+  }
+ ],
+ "memberships": [
+  {
+   "person_key": "jeff-bezos",
+   "start_date": "1994-07",
+   "start_date_precision": "month",
+   "start_date_basis": "proxy 'Director since: July 1994' (founder; company incorporated July 1994)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e011",
+    "e010",
+    "e005",
+    "e015",
+    "e023"
+   ],
+   "board_class": null,
+   "notes": "Founder. Chair since founding; CEO May 1996 to 2021-07-04; Executive Chair since July 2021. Pre-IPO and pre-2001, so no 8-K or Form 3 gives a day. Re-elected 2026-05-20. Board is declassified (all directors elected annually), so no director class."
+  },
+  {
+   "person_key": "andy-jassy",
+   "start_date": "2021-07-05",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02: elected director effective on becoming President and CEO on 2021-07-05; 2022 proxy 'effective July 5, 2021'",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e030",
+    "e031",
+    "e033",
+    "e034",
+    "e023"
+   ],
+   "board_class": null,
+   "notes": "Joined the board as CEO-director. No Form 3 accompanies the board election in the filing index. Board is declassified (all directors elected annually), so no director class."
+  },
+  {
+   "person_key": "edith-cooper",
+   "start_date": "2021-09-20",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 election date (Form 3 event date agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e040",
+    "e041",
+    "e031",
+    "e042",
+    "e023"
+   ],
+   "board_class": null,
+   "notes": "Board is declassified (all directors elected annually), so no director class."
+  },
+  {
+   "person_key": "jamie-gorelick",
+   "start_date": "2012-02-09",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 election date (Form 3 event date agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e050",
+    "e051",
+    "e052",
+    "e023"
+   ],
+   "board_class": null,
+   "notes": "Lead independent director since sometime between 2023-04-13 and 2024-04-11 (see open questions). Board is declassified (all directors elected annually), so no director class."
+  },
+  {
+   "person_key": "daniel-huttenlocher",
+   "start_date": "2016-09-07",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 election date (Form 3 event date agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e060",
+    "e061",
+    "e062",
+    "e023"
+   ],
+   "board_class": null,
+   "notes": "Board is declassified (all directors elected annually), so no director class."
+  },
+  {
+   "person_key": "andrew-ng",
+   "start_date": "2024-04-09",
+   "start_date_precision": "day",
+   "start_date_basis": "2024 proxy 'elected ... effective April 9, 2024' (Form 3 event date agrees; no 8-K 5.02 was filed)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e070",
+    "e071",
+    "e072",
+    "e023"
+   ],
+   "board_class": null,
+   "notes": "Board is declassified (all directors elected annually), so no director class."
+  },
+  {
+   "person_key": "indra-nooyi",
+   "start_date": "2019-02-25",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 election date (Form 3 event date agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e080",
+    "e081",
+    "e082",
+    "e023"
+   ],
+   "board_class": null,
+   "notes": "Board is declassified (all directors elected annually), so no director class."
+  },
+  {
+   "person_key": "jonathan-rubinstein",
+   "start_date": "2010-12-16",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 election date (Form 3 event date agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e090",
+    "e091",
+    "e092",
+    "e023",
+    "e095",
+    "e096",
+    "e056"
+   ],
+   "board_class": null,
+   "notes": "Was the board's lead director: first named in the 2018 proxy (filed 2018-04-18), last in the 2023 proxy (filed 2023-04-13). Neither boundary is dated, so the role is not in roles[]. Board is declassified (all directors elected annually), so no director class."
+  },
+  {
+   "person_key": "brad-smith",
+   "start_date": "2023-09-13",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 election date (Form 3 event date agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e100",
+    "e101",
+    "e192",
+    "e102",
+    "e023"
+   ],
+   "board_class": null,
+   "notes": "Board is declassified (all directors elected annually), so no director class."
+  },
+  {
+   "person_key": "patricia-stonesifer",
+   "start_date": "1997-02",
+   "start_date_precision": "month",
+   "start_date_basis": "IPO prospectus 'director of the Company since February 1997'; proxies 'Director since: February 1997'",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e110",
+    "e111",
+    "e112",
+    "e024",
+    "e113",
+    "e114",
+    "e115"
+   ],
+   "board_class": null,
+   "notes": "Pre-IPO director; no filing gives the day. Was the lead director: first named in the 2015 proxy (filed 2015-04-24; Alberg in 2014), last in the 2017 proxy (filed 2017-04-12). Undated, so not in roles[]. Board is declassified (all directors elected annually), so no director class."
+  },
+  {
+   "person_key": "wendell-weeks",
+   "start_date": "2016-02-10",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 election date (Form 3 event date agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e120",
+    "e121",
+    "e122",
+    "e024"
+   ],
+   "board_class": null,
+   "notes": "Board is declassified (all directors elected annually), so no director class."
+  },
+  {
+   "person_key": "kevin-mandia",
+   "start_date": "2026-09-08",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 election date (Form 3 event date agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e130",
+    "e131",
+    "e133"
+   ],
+   "board_class": null,
+   "notes": "Elected between annual meetings. No proxy has covered him yet, so no independence determination has been filed. 8-K also discloses that his sister-in-law is an Amazon employee. Board is declassified (all directors elected annually), so no director class."
+  },
+  {
+   "person_key": "keith-alexander",
+   "start_date": "2020-09-09",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 election date (Form 3 event date agrees; 2021 proxy confirms)",
+   "end_date": "2026-05-20",
+   "end_date_precision": "day",
+   "end_reason": "did_not_stand",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e140",
+    "e141",
+    "e146",
+    "e022",
+    "e026",
+    "e023"
+   ],
+   "board_class": null,
+   "notes": "Told the company on 2026-04-07 he would not stand for re-election; his term ended at the 2026-05-20 annual meeting (8-K Item 5.07 lists the eleven nominees elected, without him). Committees: Audit (2021-2023 proxies), Security chair (2024-2025 proxies); the 2026 proxy committee table marks him as a Security member (icon only). Board is declassified (all directors elected annually), so no director class."
+  },
+  {
+   "person_key": "judith-mcgrath",
+   "start_date": "2014-07-31",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 election date 2014-07-31 (Form 3 event date agrees; proxies 'July 2014')",
+   "end_date": "2024-05-22",
+   "end_date_precision": "day",
+   "end_reason": "did_not_stand",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e150",
+    "e151",
+    "e155",
+    "e152",
+    "e153",
+    "e154"
+   ],
+   "board_class": null,
+   "notes": "Did not stand for re-election at the 2024-05-22 annual meeting; the 2025 proxy says she served 'until May 22, 2024'. The 2014 8-K's 'effective as of October 1, 2014' wording is ambiguous (see conflicts). Board is declassified (all directors elected annually), so no director class."
+  },
+  {
+   "person_key": "thomas-ryder",
+   "start_date": "2002-11",
+   "start_date_precision": "month",
+   "start_date_basis": "proxies 'Director since: November 2002'; 2002-11-06 press release says he 'has been elected' (day not stated)",
+   "end_date": "2021-12-31",
+   "end_date_precision": "day",
+   "end_reason": "retired",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e162",
+    "e183",
+    "e160",
+    "e161",
+    "e163",
+    "e164",
+    "e167"
+   ],
+   "board_class": null,
+   "notes": "Retirement announced 2021-11-10. Chaired Audit per the 2020 proxy; LD&C member per the 2021 proxy. Board is declassified (all directors elected annually), so no director class."
+  },
+  {
+   "person_key": "rosalind-brewer",
+   "start_date": "2019-02-04",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 election date (Form 3 event date agrees)",
+   "end_date": "2021-02-16",
+   "end_date_precision": "day",
+   "end_reason": "resigned",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e170",
+    "e171",
+    "e175",
+    "e172",
+    "e173"
+   ],
+   "board_class": null,
+   "notes": "Resignation given 2021-01-26, effective 2021-02-16 (8-K Item 5.02; 2021 proxy confirms). Board is declassified (all directors elected annually), so no director class."
+  }
+ ],
+ "roles": [
+  {
+   "person_key": "jeff-bezos",
+   "role": "chair",
+   "start_date": "1994-07",
+   "end_date": "2021-07",
+   "precision": "month",
+   "end_precision": "month",
+   "confidence": "high",
+   "evidence_refs": [
+    "e010",
+    "e016",
+    "e005",
+    "e011"
+   ],
+   "notes": "Chair of the Board since founding (July 1994) while also President/CEO; became Executive Chair in July 2021 (day not stated)."
+  },
+  {
+   "person_key": "jeff-bezos",
+   "role": "executive_chair",
+   "start_date": "2021-07",
+   "end_date": null,
+   "precision": "month",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e010",
+    "e012",
+    "e013",
+    "e015"
+   ],
+   "notes": "Announced 2021-02-02 for Q3 2021. Proxies say only 'July 2021'; he was CEO through 2021-07-04 and Jassy CEO from 2021-07-05, but no filing states the Executive Chair start day."
+  },
+  {
+   "person_key": "jeff-bezos",
+   "role": "executive_director",
+   "start_date": "1994-07",
+   "end_date": "1996-05",
+   "precision": "month",
+   "end_precision": "month",
+   "confidence": "high",
+   "evidence_refs": [
+    "e010",
+    "e016"
+   ],
+   "notes": "Founder-employee director as President before becoming CEO in May 1996.",
+   "officer_title": "President"
+  },
+  {
+   "person_key": "jeff-bezos",
+   "role": "ceo_director",
+   "start_date": "1996-05",
+   "end_date": "2021-07-05",
+   "precision": "month",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e016",
+    "e010",
+    "e014"
+   ],
+   "notes": "CEO from May 1996; principal executive officer through 2021-07-04, succeeded by Jassy on 2021-07-05."
+  },
+  {
+   "person_key": "jeff-bezos",
+   "role": "non_independent_director",
+   "start_date": "1994-07",
+   "end_date": null,
+   "precision": "month",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e020",
+    "e181"
+   ],
+   "notes": "Founder and employee; never listed as independent in any proxy reviewed."
+  },
+  {
+   "person_key": "andy-jassy",
+   "role": "ceo_director",
+   "start_date": "2021-07-05",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e030",
+    "e014",
+    "e032",
+    "e034"
+   ],
+   "notes": "President and CEO since 2021-07-05."
+  },
+  {
+   "person_key": "andy-jassy",
+   "role": "non_independent_director",
+   "start_date": "2021-07-05",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e020",
+    "e030"
+   ],
+   "notes": "CEO; not listed as independent."
+  },
+  {
+   "person_key": "jamie-gorelick",
+   "role": "lead_independent_director",
+   "start_date": null,
+   "end_date": null,
+   "precision": "unknown",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e021",
+    "e054",
+    "e055",
+    "e056",
+    "e057"
+   ],
+   "notes": "Start not dated: Rubinstein was lead director per the 2023 proxy (2023-04-13), Gorelick per the 2024 proxy (2024-04-11). Titled 'lead director' in 2024-2025 proxies and 'lead independent director' in 2026."
+  },
+  {
+   "person_key": "edith-cooper",
+   "role": "independent_director",
+   "start_date": "2021-09-20",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e020",
+    "e189",
+    "e190",
+    "e191"
+   ],
+   "notes": "Found independent in every proxy determination reviewed (2020-2026). Start aligned to board start; the filings don't date independence on its own."
+  },
+  {
+   "person_key": "jamie-gorelick",
+   "role": "independent_director",
+   "start_date": "2012-02-09",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e020",
+    "e181",
+    "e191"
+   ],
+   "notes": "Found independent in every proxy determination reviewed (2020-2026). Start aligned to board start; the filings don't date independence on its own."
+  },
+  {
+   "person_key": "daniel-huttenlocher",
+   "role": "independent_director",
+   "start_date": "2016-09-07",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e020",
+    "e181",
+    "e191"
+   ],
+   "notes": "Found independent in every proxy determination reviewed (2020-2026). Start aligned to board start; the filings don't date independence on its own."
+  },
+  {
+   "person_key": "andrew-ng",
+   "role": "independent_director",
+   "start_date": "2024-04-09",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e020",
+    "e156",
+    "e191"
+   ],
+   "notes": "Found independent in every proxy determination reviewed (2020-2026). Start aligned to board start; the filings don't date independence on its own."
+  },
+  {
+   "person_key": "indra-nooyi",
+   "role": "independent_director",
+   "start_date": "2019-02-25",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e020",
+    "e181",
+    "e191"
+   ],
+   "notes": "Found independent in every proxy determination reviewed (2020-2026). Start aligned to board start; the filings don't date independence on its own."
+  },
+  {
+   "person_key": "jonathan-rubinstein",
+   "role": "independent_director",
+   "start_date": "2010-12-16",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e020",
+    "e181",
+    "e191"
+   ],
+   "notes": "Found independent in every proxy determination reviewed (2020-2026). Start aligned to board start; the filings don't date independence on its own."
+  },
+  {
+   "person_key": "brad-smith",
+   "role": "independent_director",
+   "start_date": "2023-09-13",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e020",
+    "e156",
+    "e191"
+   ],
+   "notes": "Found independent in every proxy determination reviewed (2020-2026). Start aligned to board start; the filings don't date independence on its own."
+  },
+  {
+   "person_key": "patricia-stonesifer",
+   "role": "independent_director",
+   "start_date": "1997-02",
+   "end_date": null,
+   "precision": "month",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e020",
+    "e181",
+    "e191"
+   ],
+   "notes": "Found independent in every proxy determination reviewed (2020-2026). Start aligned to board start; the filings don't date independence on its own."
+  },
+  {
+   "person_key": "wendell-weeks",
+   "role": "independent_director",
+   "start_date": "2016-02-10",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e020",
+    "e181",
+    "e191"
+   ],
+   "notes": "Found independent in every proxy determination reviewed (2020-2026). Start aligned to board start; the filings don't date independence on its own."
+  },
+  {
+   "person_key": "keith-alexander",
+   "role": "independent_director",
+   "start_date": "2020-09-09",
+   "end_date": "2026-05-20",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "medium",
+   "evidence_refs": [
+    "e020",
+    "e168",
+    "e189",
+    "e191"
+   ],
+   "notes": "Found independent in every proxy from 2021 to 2026."
+  },
+  {
+   "person_key": "judith-mcgrath",
+   "role": "independent_director",
+   "start_date": "2014-07-31",
+   "end_date": "2024-05-22",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e154",
+    "e156",
+    "e181"
+   ],
+   "notes": "2025 proxy: independent during the time she served."
+  },
+  {
+   "person_key": "thomas-ryder",
+   "role": "independent_director",
+   "start_date": "2002-11",
+   "end_date": "2021-12-31",
+   "precision": "month",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e165",
+    "e168",
+    "e181"
+   ],
+   "notes": "2022 proxy: independent during the time he served (through 2021-12-31)."
+  },
+  {
+   "person_key": "rosalind-brewer",
+   "role": "independent_director",
+   "start_date": "2019-02-04",
+   "end_date": "2021-02-16",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e174",
+    "e165",
+    "e181"
+   ],
+   "notes": "2021 proxy: independent during the time she served."
+  }
+ ],
+ "committees": [
+  {
+   "person_key": "edith-cooper",
+   "committee": "compensation",
+   "role": "chair",
+   "as_of_filing": "0001104659-26-041026",
+   "as_of_date": "2026-04-09",
+   "evidence_refs": [
+    "e042"
+   ]
+  },
+  {
+   "person_key": "jamie-gorelick",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001104659-26-041026",
+   "as_of_date": "2026-04-09",
+   "evidence_refs": [
+    "e052"
+   ]
+  },
+  {
+   "person_key": "daniel-huttenlocher",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001104659-26-041026",
+   "as_of_date": "2026-04-09",
+   "evidence_refs": [
+    "e062"
+   ]
+  },
+  {
+   "person_key": "daniel-huttenlocher",
+   "committee": "security",
+   "role": "chair",
+   "as_of_filing": "0001104659-26-041026",
+   "as_of_date": "2026-04-09",
+   "evidence_refs": [
+    "e062"
+   ]
+  },
+  {
+   "person_key": "andrew-ng",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001104659-26-041026",
+   "as_of_date": "2026-04-09",
+   "evidence_refs": [
+    "e072"
+   ]
+  },
+  {
+   "person_key": "indra-nooyi",
+   "committee": "audit",
+   "role": "chair",
+   "as_of_filing": "0001104659-26-041026",
+   "as_of_date": "2026-04-09",
+   "evidence_refs": [
+    "e082"
+   ]
+  },
+  {
+   "person_key": "jonathan-rubinstein",
+   "committee": "nominating_governance",
+   "role": "chair",
+   "as_of_filing": "0001104659-26-041026",
+   "as_of_date": "2026-04-09",
+   "evidence_refs": [
+    "e092"
+   ]
+  },
+  {
+   "person_key": "jonathan-rubinstein",
+   "committee": "security",
+   "role": "member",
+   "as_of_filing": "0001104659-26-041026",
+   "as_of_date": "2026-04-09",
+   "evidence_refs": [
+    "e092"
+   ]
+  },
+  {
+   "person_key": "brad-smith",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001104659-26-041026",
+   "as_of_date": "2026-04-09",
+   "evidence_refs": [
+    "e102"
+   ]
+  },
+  {
+   "person_key": "patricia-stonesifer",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001104659-26-041026",
+   "as_of_date": "2026-04-09",
+   "evidence_refs": [
+    "e111"
+   ]
+  },
+  {
+   "person_key": "wendell-weeks",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001104659-26-041026",
+   "as_of_date": "2026-04-09",
+   "evidence_refs": [
+    "e122"
+   ]
+  },
+  {
+   "person_key": "kevin-mandia",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001018724-26-000036",
+   "as_of_date": "2026-09-08",
+   "evidence_refs": [
+    "e130"
+   ]
+  },
+  {
+   "person_key": "kevin-mandia",
+   "committee": "security",
+   "role": "member",
+   "as_of_filing": "0001018724-26-000036",
+   "as_of_date": "2026-09-08",
+   "evidence_refs": [
+    "e130"
+   ]
+  },
+  {
+   "person_key": "keith-alexander",
+   "committee": "security",
+   "role": "chair",
+   "as_of_filing": "0001104659-25-033442",
+   "as_of_date": "2025-04-10",
+   "evidence_refs": [
+    "e142"
+   ]
+  },
+  {
+   "person_key": "judith-mcgrath",
+   "committee": "compensation",
+   "role": "chair",
+   "as_of_filing": "0001104659-23-044708",
+   "as_of_date": "2023-04-13",
+   "evidence_refs": [
+    "e155"
+   ]
+  },
+  {
+   "person_key": "thomas-ryder",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001104659-21-050333",
+   "as_of_date": "2021-04-15",
+   "evidence_refs": [
+    "e162"
+   ]
+  },
+  {
+   "person_key": "rosalind-brewer",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001193125-20-108422",
+   "as_of_date": "2020-04-16",
+   "evidence_refs": [
+    "e175"
+   ]
+  }
+ ],
+ "events": [
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "jeff-bezos",
+   "event_date": "1994-07",
+   "announced_date": null,
+   "evidence_refs": [
+    "e011",
+    "e005"
+   ],
+   "summary": "Jeff Bezos on the board since founding (proxy 'Director since' July 1994).",
+   "event_date_precision": "month"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "patricia-stonesifer",
+   "event_date": "1997-02",
+   "announced_date": null,
+   "evidence_refs": [
+    "e110",
+    "e111"
+   ],
+   "summary": "Patricia Stonesifer joins the board (pre-IPO).",
+   "event_date_precision": "month"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "thomas-ryder",
+   "event_date": "2002-11",
+   "announced_date": "2002-11-06",
+   "evidence_refs": [
+    "e160",
+    "e161",
+    "e162"
+   ],
+   "summary": "Thomas Ryder elected to the board (announced 2002-11-06).",
+   "event_date_precision": "month"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "jonathan-rubinstein",
+   "event_date": "2010-12-16",
+   "announced_date": "2010-12-17",
+   "evidence_refs": [
+    "e090",
+    "e091"
+   ],
+   "summary": "Jonathan Rubinstein elected director.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "jamie-gorelick",
+   "event_date": "2012-02-09",
+   "announced_date": "2012-02-10",
+   "evidence_refs": [
+    "e050",
+    "e051"
+   ],
+   "summary": "Jamie Gorelick elected director.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "judith-mcgrath",
+   "event_date": "2014-07-31",
+   "announced_date": "2014-08-01",
+   "evidence_refs": [
+    "e150",
+    "e151"
+   ],
+   "summary": "Judith McGrath elected director.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "wendell-weeks",
+   "event_date": "2016-02-10",
+   "announced_date": "2016-02-10",
+   "evidence_refs": [
+    "e120",
+    "e121"
+   ],
+   "summary": "Wendell Weeks elected director.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "daniel-huttenlocher",
+   "event_date": "2016-09-07",
+   "announced_date": "2016-09-08",
+   "evidence_refs": [
+    "e060",
+    "e061"
+   ],
+   "summary": "Daniel Huttenlocher elected director.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "rosalind-brewer",
+   "event_date": "2019-02-04",
+   "announced_date": "2019-02-04",
+   "evidence_refs": [
+    "e170",
+    "e171"
+   ],
+   "summary": "Rosalind Brewer elected director.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "indra-nooyi",
+   "event_date": "2019-02-25",
+   "announced_date": "2019-02-25",
+   "evidence_refs": [
+    "e080",
+    "e081"
+   ],
+   "summary": "Indra Nooyi elected director.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "keith-alexander",
+   "event_date": "2020-09-09",
+   "announced_date": "2020-09-09",
+   "evidence_refs": [
+    "e140",
+    "e141"
+   ],
+   "summary": "Keith Alexander elected director.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "rosalind-brewer",
+   "event_date": "2021-02-16",
+   "announced_date": "2021-01-26",
+   "evidence_refs": [
+    "e172",
+    "e173"
+   ],
+   "summary": "Rosalind Brewer resigns, effective 2021-02-16.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "jeff-bezos",
+   "event_date": "2021-07",
+   "announced_date": "2021-02-02",
+   "evidence_refs": [
+    "e013",
+    "e010",
+    "e014"
+   ],
+   "summary": "Bezos moves from CEO to Executive Chair (CEO through 2021-07-04; Executive Chair from July 2021, day not stated).",
+   "event_date_precision": "month"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "andy-jassy",
+   "event_date": "2021-07-05",
+   "announced_date": "2021-07-02",
+   "evidence_refs": [
+    "e030",
+    "e031"
+   ],
+   "summary": "Andy Jassy joins the board on becoming President and CEO.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "andy-jassy",
+   "event_date": "2021-07-05",
+   "announced_date": "2021-02-02",
+   "evidence_refs": [
+    "e014",
+    "e030",
+    "e013"
+   ],
+   "summary": "Jassy becomes CEO (CEO-director).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "edith-cooper",
+   "event_date": "2021-09-20",
+   "announced_date": "2021-09-20",
+   "evidence_refs": [
+    "e040",
+    "e041"
+   ],
+   "summary": "Edith Cooper elected director.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "thomas-ryder",
+   "event_date": "2021-12-31",
+   "announced_date": "2021-11-10",
+   "evidence_refs": [
+    "e163",
+    "e164"
+   ],
+   "summary": "Thomas Ryder retires from the board.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "brad-smith",
+   "event_date": "2023-09-13",
+   "announced_date": "2023-09-13",
+   "evidence_refs": [
+    "e100",
+    "e101"
+   ],
+   "summary": "Brad Smith elected director.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "jamie-gorelick",
+   "event_date": null,
+   "announced_date": null,
+   "evidence_refs": [
+    "e056",
+    "e055"
+   ],
+   "summary": "Lead director passes from Rubinstein to Gorelick at an undisclosed date between the 2023 proxy (2023-04-13) and the 2024 proxy (2024-04-11).",
+   "event_date_precision": "unknown"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "andrew-ng",
+   "event_date": "2024-04-09",
+   "announced_date": "2024-04-11",
+   "evidence_refs": [
+    "e070",
+    "e071"
+   ],
+   "summary": "Andrew Ng elected director (disclosed in the 2024 proxy).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "judith-mcgrath",
+   "event_date": "2024-05-22",
+   "announced_date": "2024-04-11",
+   "evidence_refs": [
+    "e152",
+    "e153",
+    "e154"
+   ],
+   "summary": "Judith McGrath does not stand for re-election; leaves at the 2024 annual meeting.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "keith-alexander",
+   "event_date": "2026-05-20",
+   "announced_date": "2026-04-09",
+   "evidence_refs": [
+    "e022",
+    "e023"
+   ],
+   "summary": "Keith Alexander does not stand for re-election; leaves at the 2026 annual meeting.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "kevin-mandia",
+   "event_date": "2026-09-08",
+   "announced_date": "2026-09-09",
+   "evidence_refs": [
+    "e130",
+    "e131"
+   ],
+   "summary": "Kevin Mandia elected director.",
+   "event_date_precision": "day"
+  }
+ ],
+ "evidence": [
+  {
+   "id": "e001",
+   "form": "424B1",
+   "accession": "0000891020-97-000868",
+   "filing_date": "1997-05-15",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000089102097000868/0000891020-97-000868.txt",
+   "quote": "The date of this Prospectus is May 15, 1997.",
+   "supports": "IPO final prospectus (424B1) dated May 15, 1997."
+  },
+  {
+   "id": "e002",
+   "form": "424B1",
+   "accession": "0000891020-97-000868",
+   "filing_date": "1997-05-15",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000089102097000868/0000891020-97-000868.txt",
+   "quote": "Prior to this offering, there has been no public market for the Common Stock.",
+   "supports": "No public market for the common stock before the May 1997 IPO."
+  },
+  {
+   "id": "e003",
+   "form": "10-K405",
+   "accession": "0000891020-98-000448",
+   "filing_date": "1998-03-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000089102098000448/0000891020-98-000448.txt",
+   "quote": "became effective on May 14, 1997.",
+   "supports": "IPO registration statement effective May 14, 1997 (1997 10-K, Use of Proceeds)."
+  },
+  {
+   "id": "e004",
+   "form": "10-K405",
+   "accession": "0000891020-98-000448",
+   "filing_date": "1998-03-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000089102098000448/0000891020-98-000448.txt",
+   "quote": "On May 15, 1997, the Company completed an initial public offering of 3,000,000 shares of its common stock.",
+   "supports": "IPO completed May 15, 1997 (taken as the IPO / first trading date; the filing does not literally say 'began trading')."
+  },
+  {
+   "id": "e005",
+   "form": "424B1",
+   "accession": "0000891020-97-000868",
+   "filing_date": "1997-05-15",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000089102097000868/0000891020-97-000868.txt",
+   "quote": "The Company was incorporated in Washington in July 1994 and reincorporated in Delaware in June 1996.",
+   "supports": "Founded/incorporated July 1994 (Washington); Delaware since 1996. Anchors Bezos's 'since founding' chair start to July 1994."
+  },
+  {
+   "id": "e006",
+   "form": "8-K",
+   "accession": "0001018724-26-000036",
+   "filing_date": "2026-09-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000036/amzn-20260908.htm",
+   "quote": "Common Stock, par value $.01 per share AMZN The Nasdaq Stock Market LLC",
+   "supports": "Common stock (AMZN) listed on The Nasdaq Stock Market LLC (8-K cover, Sept 2026).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e008",
+   "form": "10-K",
+   "accession": "0001018724-26-000004",
+   "filing_date": "2026-02-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+   "quote": "Our common stock is traded on the Nasdaq Global Select Market under the symbol \"AMZN.\"",
+   "supports": "Exchange tier: Nasdaq Global Select Market (2025 10-K)."
+  },
+  {
+   "id": "e007",
+   "form": "DEF 14A",
+   "accession": "0001104659-26-041026",
+   "filing_date": "2026-04-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926041026/tm261382-1_def14a.htm",
+   "quote": "We have a declassified board, meaning all of our directors are elected annually.",
+   "supports": "Board is not classified; all directors elected annually."
+  },
+  {
+   "id": "e010",
+   "form": "DEF 14A",
+   "accession": "0001104659-26-041026",
+   "filing_date": "2026-04-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926041026/tm261382-1_def14a.htm",
+   "quote": "Mr. Bezos has been Chair of the Board since founding the Company in 1994. Prior to becoming Executive Chair in July 2021, he served as Chief Executive Officer from May 1996 to July 2021 and as President from founding until June 1999 and again from October 2000 to July 2021.",
+   "supports": "Bezos: Chair since founding (1994); Executive Chair since July 2021; CEO May 1996 - July 2021; President from founding to June 1999 and Oct 2000 - July 2021."
+  },
+  {
+   "id": "e011",
+   "form": "DEF 14A",
+   "accession": "0001104659-26-041026",
+   "filing_date": "2026-04-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926041026/tm261382-1_def14a.htm",
+   "quote": "Age: 62 Director since: July 1994 Board committees: None Other current public company boards: None",
+   "supports": "Bezos 'Director since' July 1994; no committees; no other public boards (2026 proxy).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e012",
+   "form": "DEF 14A",
+   "accession": "0001104659-26-041026",
+   "filing_date": "2026-04-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926041026/tm261382-1_def14a.htm",
+   "quote": "The Chair of the Board is selected by the Board, and Jeff Bezos, our founder, currently serves as Executive Chair.",
+   "supports": "Bezos is current Executive Chair (2026 proxy)."
+  },
+  {
+   "id": "e013",
+   "form": "8-K",
+   "accession": "0001018724-21-000002",
+   "filing_date": "2021-02-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872421000002/amzn-20210202.htm",
+   "quote": "On February 2, 2021, Amazon.com, Inc. announced that Jeffrey P. Bezos plans to transition to the role of Executive Chair in the third quarter of 2021 and continue to serve as a director of Amazon.com, Inc.",
+   "supports": "Announcement (2021-02-02) of Bezos's move from CEO to Executive Chair in Q3 2021."
+  },
+  {
+   "id": "e014",
+   "form": "DEF 14A",
+   "accession": "0001104659-26-041026",
+   "filing_date": "2026-04-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926041026/tm261382-1_def14a.htm",
+   "quote": "Jeffrey P. Bezos, who served as our principal executive officer from January 1, 2021 through July 4, 2021 (the \"First CEO\"), (2) Andrew R. Jassy, who has served as our principal executive officer since July 5, 2021",
+   "supports": "Bezos was CEO (principal executive officer) through 2021-07-04; Jassy CEO since 2021-07-05."
+  },
+  {
+   "id": "e015",
+   "form": "4",
+   "accession": "0001043298-26-000002",
+   "filing_date": "2026-08-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000104329826000002/wk-form4_1787862279.xml",
+   "quote": "BEZOS JEFFREY P",
+   "supports": "Bezos reporting-owner CIK; director and officer (Executive Chair) on Form 4 for 2026-08-25.",
+   "xml_fields": {
+    "rptOwnerCik": "0001043298",
+    "rptOwnerName": "BEZOS JEFFREY P",
+    "officerTitle": "Executive Chair"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": "Executive Chair"
+   }
+  },
+  {
+   "id": "e016",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-108422",
+   "filing_date": "2020-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000119312520108422/d897711ddef14a.htm",
+   "quote": "Mr. Bezos has been Chairman of the Board since founding the Company in 1994 and Chief Executive Officer since May 1996.",
+   "supports": "2020 proxy: Bezos Chairman since founding, CEO since May 1996."
+  },
+  {
+   "id": "e020",
+   "form": "DEF 14A",
+   "accession": "0001104659-26-041026",
+   "filing_date": "2026-04-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926041026/tm261382-1_def14a.htm",
+   "quote": "The Board has determined that the following directors are independent as defined by Nasdaq rules: Gen. Alexander, Ms. Cooper, Ms. Gorelick, Dr. Huttenlocher, Dr. Ng, Mrs. Nooyi, Mr. Rubinstein, Mr. Smith, Ms. Stonesifer, and Mr. Weeks.",
+   "supports": "2026 proxy independence determination: ten independent directors (Bezos and Jassy not listed)."
+  },
+  {
+   "id": "e021",
+   "form": "DEF 14A",
+   "accession": "0001104659-26-041026",
+   "filing_date": "2026-04-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926041026/tm261382-1_def14a.htm",
+   "quote": "In addition, the independent directors on the Board have appointed a lead independent director from the Board's independent directors, currently Jamie S. Gorelick, in order to promote independent leadership of the Board.",
+   "supports": "Gorelick is the current lead independent director (2026 proxy)."
+  },
+  {
+   "id": "e022",
+   "form": "DEF 14A",
+   "accession": "0001104659-26-041026",
+   "filing_date": "2026-04-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926041026/tm261382-1_def14a.htm",
+   "quote": "On April 7, 2026, Keith B. Alexander informed the Company that he would not stand for re-election at the Annual Meeting.",
+   "supports": "Alexander did not stand for re-election at the 2026 annual meeting."
+  },
+  {
+   "id": "e023",
+   "form": "8-K",
+   "accession": "0001104659-26-065717",
+   "filing_date": "2026-05-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926065717/tm2614288d1_8k.htm",
+   "quote": "On May 20, 2026, Amazon.com, Inc. (the \"Company\") held its Annual Meeting of Shareholders. The following nominees were elected as directors, each to hold office until the next Annual Meeting of Shareholders or until his or her successor is elected and qualified",
+   "supports": "2026 annual meeting held 2026-05-20; eleven nominees elected (Bezos, Jassy, Cooper, Gorelick, Huttenlocher, Ng, Nooyi, Rubinstein, Smith, Stonesifer, Weeks) - Alexander not among them."
+  },
+  {
+   "id": "e024",
+   "form": "8-K",
+   "accession": "0001104659-26-065717",
+   "filing_date": "2026-05-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926065717/tm2614288d1_8k.htm",
+   "quote": "Patricia Q. Stonesifer 7,347,480,399 516,023,466 24,855,499 1,064,491,660 Wendell P. Weeks 7,751,614,351",
+   "supports": "2026 vote table (last rows): Stonesifer and Weeks re-elected 2026-05-20; table lists only the eleven nominees.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e026",
+   "form": "DEF 14A",
+   "accession": "0001104659-26-041026",
+   "filing_date": "2026-04-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926041026/tm261382-1_def14a.htm",
+   "quote": "Gen. Alexander is not standing for re-election at the Annual Meeting.",
+   "supports": "Committee-table footnote: Alexander not standing in 2026."
+  },
+  {
+   "id": "e030",
+   "form": "8-K",
+   "accession": "0001018724-21-000016",
+   "filing_date": "2021-07-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872421000016/amzn-20210628.htm",
+   "quote": "In connection with Andrew R. Jassy's promotion to President and Chief Executive Officer of Amazon.com, Inc. (the \"Company\"), which will occur on July 5, 2021, the Board of Directors elected Mr. Jassy as a director of the Company effective as of the date he becomes President and Chief Executive Officer.",
+   "supports": "Jassy elected director effective on becoming President and CEO, which occurred 2021-07-05."
+  },
+  {
+   "id": "e031",
+   "form": "DEF 14A",
+   "accession": "0001104659-22-045572",
+   "filing_date": "2022-04-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465922045572/tm223357-5_def14a.htm",
+   "quote": "Andrew R. Jassy and Edith W. Cooper were elected as directors by the Board of Directors effective July 5, 2021 and September 20, 2021, respectively",
+   "supports": "Jassy director effective 2021-07-05; Cooper effective 2021-09-20 (2022 proxy)."
+  },
+  {
+   "id": "e032",
+   "form": "DEF 14A",
+   "accession": "0001104659-26-041026",
+   "filing_date": "2026-04-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926041026/tm261382-1_def14a.htm",
+   "quote": "Mr. Jassy has been President and Chief Executive Officer of the Company since July 2021.",
+   "supports": "Jassy CEO since July 2021."
+  },
+  {
+   "id": "e033",
+   "form": "DEF 14A",
+   "accession": "0001104659-26-041026",
+   "filing_date": "2026-04-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926041026/tm261382-1_def14a.htm",
+   "quote": "Age: 58 Director since: July 2021 Board committees: None Other current public company boards: None",
+   "supports": "Jassy 'Director since' July 2021; no committees; no other public boards.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e034",
+   "form": "4",
+   "accession": "0001374545-26-000010",
+   "filing_date": "2026-08-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000137454526000010/wk-form4_1787692115.xml",
+   "quote": "Jassy Andrew R",
+   "supports": "Jassy reporting-owner CIK; director and President and CEO (Form 4, 2026-08-21).",
+   "xml_fields": {
+    "rptOwnerCik": "0001374545",
+    "rptOwnerName": "Jassy Andrew R",
+    "officerTitle": "President and CEO"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": "President and CEO"
+   }
+  },
+  {
+   "id": "e040",
+   "form": "8-K",
+   "accession": "0001018724-21-000022",
+   "filing_date": "2021-09-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872421000022/amzn-20210920.htm",
+   "quote": "On September 20, 2021, the Board of Directors of Amazon.com, Inc. (the \"Company\") elected Edith W. Cooper as a director of the Company, and also appointed her to the Leadership Development and Compensation Committee of the Board.",
+   "supports": "Cooper elected director 2021-09-20 (8-K Item 5.02)."
+  },
+  {
+   "id": "e041",
+   "form": "3",
+   "accession": "0000899243-21-036610",
+   "filing_date": "2021-09-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000089924321036610/doc3.xml",
+   "quote": "COOPER EDITH W",
+   "supports": "Cooper reporting-owner CIK; Form 3 event date 2021-09-20 (director).",
+   "xml_fields": {
+    "rptOwnerCik": "0001517276",
+    "rptOwnerName": "COOPER EDITH W",
+    "periodOfReport": "2021-09-20"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e042",
+   "form": "DEF 14A",
+   "accession": "0001104659-26-041026",
+   "filing_date": "2026-04-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926041026/tm261382-1_def14a.htm",
+   "quote": "Age: 64 Director since: September 2021 Board committees: Leadership Development and Compensation (Chair) Other current public company boards: PepsiCo, Inc.",
+   "supports": "Cooper: director since Sept 2021; chairs LD&C; other public board PepsiCo (2026 proxy).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e043",
+   "form": "DEF 14A",
+   "accession": "0001104659-26-041026",
+   "filing_date": "2026-04-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926041026/tm261382-1_def14a.htm",
+   "quote": "Director of PepsiCo, Inc. since September 2021; director of MSD Acquisition Corp. from March 2021 to March 2023; director of EQT AB from October 2018 to June 2022; director of Etsy, Inc. from April 2018 to September 2021; and director of Slack Technologies, Inc. from January 2018 to July 2021",
+   "supports": "Cooper's other boards (2026 proxy bio)."
+  },
+  {
+   "id": "e050",
+   "form": "8-K",
+   "accession": "0001193125-12-050110",
+   "filing_date": "2012-02-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000119312512050110/d295964d8k.htm",
+   "quote": "On February 9, 2012, the Board of Directors of Amazon.com, Inc. (the \"Company\") elected Jamie S. Gorelick as a director of the Company, and also appointed her to the Leadership Development and Compensation Committee of the Board.",
+   "supports": "Gorelick elected director 2012-02-09 (8-K Item 5.02)."
+  },
+  {
+   "id": "e051",
+   "form": "3",
+   "accession": "0001359804-12-000004",
+   "filing_date": "2012-02-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000135980412000004/edgar.xml",
+   "quote": "GORELICK JAMIE S",
+   "supports": "Gorelick reporting-owner CIK; Form 3 event date 2012-02-09 (director).",
+   "xml_fields": {
+    "rptOwnerCik": "0001184176",
+    "rptOwnerName": "GORELICK JAMIE S",
+    "periodOfReport": "2012-02-09"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e052",
+   "form": "DEF 14A",
+   "accession": "0001104659-26-041026",
+   "filing_date": "2026-04-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926041026/tm261382-1_def14a.htm",
+   "quote": "Age: 75 Director since: February 2012 Board committees: Nominating and Corporate Governance Other current public company boards: VeriSign, Inc.",
+   "supports": "Gorelick: director since Feb 2012; NCG member; other public board VeriSign (2026 proxy).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e053",
+   "form": "DEF 14A",
+   "accession": "0001104659-26-041026",
+   "filing_date": "2026-04-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926041026/tm261382-1_def14a.htm",
+   "quote": "Director of VeriSign, Inc. since January 2015, where she chairs the Corporate Governance and Nominating Committee; director of United Technologies Corporation from February 2000 to December 2014; and director of Schlumberger Limited from April 2002 to June 2010",
+   "supports": "Gorelick's other boards (2026 proxy bio)."
+  },
+  {
+   "id": "e054",
+   "form": "DEF 14A",
+   "accession": "0001104659-26-041026",
+   "filing_date": "2026-04-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926041026/tm261382-1_def14a.htm",
+   "quote": "Jamie S. Gorelick Lead Independent Director of Amazon",
+   "supports": "Gorelick bio header: Lead Independent Director (2026 proxy)."
+  },
+  {
+   "id": "e055",
+   "form": "DEF 14A",
+   "accession": "0001104659-24-045910",
+   "filing_date": "2024-04-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465924045910/tm2329302d4_def14a.htm",
+   "quote": "the independent directors on the Board have appointed a lead director from the Board's independent directors, currently Jamie S. Gorelick",
+   "supports": "2024 proxy (filed 2024-04-11): Gorelick is lead director - first proxy naming her."
+  },
+  {
+   "id": "e056",
+   "form": "DEF 14A",
+   "accession": "0001104659-23-044708",
+   "filing_date": "2023-04-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465923044708/tm233694d2_def14a.htm",
+   "quote": "the independent directors on the Board have appointed a lead director from the Board's independent directors, currently Jonathan J. Rubinstein",
+   "supports": "2023 proxy (filed 2023-04-13): Rubinstein still lead director - last proxy naming him."
+  },
+  {
+   "id": "e057",
+   "form": "DEF 14A",
+   "accession": "0001104659-23-044708",
+   "filing_date": "2023-04-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465923044708/tm233694d2_def14a.htm",
+   "quote": "Age: 72 Director since: February 2012 Board committees: Nominating and Corporate Governance (Chair)",
+   "supports": "2023 proxy: Gorelick chaired NCG before becoming lead director.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e060",
+   "form": "8-K",
+   "accession": "0001018724-16-000312",
+   "filing_date": "2016-09-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872416000312/amzn-20160908x8k.htm",
+   "quote": "On September 7, 2016, the Board of Directors of Amazon.com, Inc. (the \"Company\") elected Daniel P. Huttenlocher as a director of the Company, and also appointed him to the Leadership Development and Compensation Committee of the Board, effective as of September 7, 2016.",
+   "supports": "Huttenlocher elected director 2016-09-07 (8-K Item 5.02)."
+  },
+  {
+   "id": "e061",
+   "form": "3",
+   "accession": "0001018724-16-000313",
+   "filing_date": "2016-09-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872416000313/wf-form3_147336848150154.xml",
+   "quote": "Huttenlocher Daniel P",
+   "supports": "Huttenlocher reporting-owner CIK; Form 3 event date 2016-09-07 (director).",
+   "xml_fields": {
+    "rptOwnerCik": "0001630567",
+    "rptOwnerName": "Huttenlocher Daniel P",
+    "periodOfReport": "2016-09-07"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e062",
+   "form": "DEF 14A",
+   "accession": "0001104659-26-041026",
+   "filing_date": "2026-04-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926041026/tm261382-1_def14a.htm",
+   "quote": "Age: 67 Director since: September 2016 Board committees: Leadership Development and Compensation Security (Chair) Other current public company boards: Corning Incorporated",
+   "supports": "Huttenlocher: director since Sept 2016; LD&C member; Security chair; other public board Corning (2026 proxy).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e063",
+   "form": "DEF 14A",
+   "accession": "0001104659-26-041026",
+   "filing_date": "2026-04-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926041026/tm261382-1_def14a.htm",
+   "quote": "Director of Corning Incorporated since February 2015",
+   "supports": "Huttenlocher's other public board (2026 proxy bio)."
+  },
+  {
+   "id": "e070",
+   "form": "DEF 14A",
+   "accession": "0001104659-24-045910",
+   "filing_date": "2024-04-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465924045910/tm2329302d4_def14a.htm",
+   "quote": "Andrew Y. Ng was elected as a director by the Board of Directors effective April 9, 2024",
+   "supports": "Ng elected director effective 2024-04-09 (2024 proxy)."
+  },
+  {
+   "id": "e071",
+   "form": "3",
+   "accession": "0001018724-24-000075",
+   "filing_date": "2024-04-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872424000075/wk-form3_1712955993.xml",
+   "quote": "Ng Andrew Y.",
+   "supports": "Ng reporting-owner CIK; Form 3 event date 2024-04-09 (director).",
+   "xml_fields": {
+    "rptOwnerCik": "0001851101",
+    "rptOwnerName": "Ng Andrew Y.",
+    "periodOfReport": "2024-04-09"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e072",
+   "form": "DEF 14A",
+   "accession": "0001104659-26-041026",
+   "filing_date": "2026-04-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926041026/tm261382-1_def14a.htm",
+   "quote": "Age: 49 Director since: April 2024 Board committees: Nominating and Corporate Governance Other current public company boards: Coursera, Inc.",
+   "supports": "Ng: director since April 2024; NCG member; other public board Coursera (2026 proxy).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e073",
+   "form": "DEF 14A",
+   "accession": "0001104659-26-041026",
+   "filing_date": "2026-04-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926041026/tm261382-1_def14a.htm",
+   "quote": "Dr. Ng co-founded and served as co-Chief Executive Officer of Coursera, an open online course provider, from January 2012 until April 2014; he has also served as Chairman of the company since 2014.",
+   "supports": "Ng: Coursera chairman since 2014 (2026 proxy bio)."
+  },
+  {
+   "id": "e080",
+   "form": "8-K",
+   "accession": "0001193125-19-049914",
+   "filing_date": "2019-02-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000119312519049914/d662168d8k.htm",
+   "quote": "On February 25, 2019, the Board of Directors of Amazon.com, Inc. (the \"Company\") elected Indra K. Nooyi as a director of the Company, and also appointed her to the Audit Committee of the Board.",
+   "supports": "Nooyi elected director 2019-02-25 (8-K Item 5.02)."
+  },
+  {
+   "id": "e081",
+   "form": "3",
+   "accession": "0001018724-19-000035",
+   "filing_date": "2019-02-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872419000035/wf-form3_155113355912822.xml",
+   "quote": "NOOYI INDRA K",
+   "supports": "Nooyi reporting-owner CIK; Form 3 event date 2019-02-25 (director).",
+   "xml_fields": {
+    "rptOwnerCik": "0001183818",
+    "rptOwnerName": "NOOYI INDRA K",
+    "periodOfReport": "2019-02-25"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e082",
+   "form": "DEF 14A",
+   "accession": "0001104659-26-041026",
+   "filing_date": "2026-04-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926041026/tm261382-1_def14a.htm",
+   "quote": "Age: 70 Director since: February 2019 Board committees: Audit (Chair) Other current public company boards: Honeywell International Royal Philips",
+   "supports": "Nooyi: director since Feb 2019; Audit chair; other public boards Honeywell and Royal Philips (2026 proxy).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e083",
+   "form": "DEF 14A",
+   "accession": "0001104659-26-041026",
+   "filing_date": "2026-04-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926041026/tm261382-1_def14a.htm",
+   "quote": "Director of Honeywell International Inc. since January 2026; director of Royal Philips since May 2021; director of Schlumberger Limited from April 2015 to April 2020",
+   "supports": "Nooyi's other boards (2026 proxy bio)."
+  },
+  {
+   "id": "e084",
+   "form": "DEF 14A",
+   "accession": "0001104659-26-041026",
+   "filing_date": "2026-04-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926041026/tm261382-1_def14a.htm",
+   "quote": "Mrs. Nooyi was the Chief Executive Officer of PepsiCo, a multinational food, snack, and beverage company, from October 2006 to October 2018, where she also served as the Chair of its board of directors from May 2007 to February 2019.",
+   "supports": "Nooyi: former PepsiCo CEO and board chair (2026 proxy bio)."
+  },
+  {
+   "id": "e090",
+   "form": "8-K",
+   "accession": "0001193125-10-282886",
+   "filing_date": "2010-12-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000119312510282886/d8k.htm",
+   "quote": "On December 16, 2010, the Board of Directors of Amazon.com, Inc. (the \"Company\") elected Jonathan Rubinstein as a director of the Company.",
+   "supports": "Rubinstein elected director 2010-12-16 (8-K Item 5.02)."
+  },
+  {
+   "id": "e091",
+   "form": "3",
+   "accession": "0001359804-10-000095",
+   "filing_date": "2010-12-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000135980410000095/edgar.xml",
+   "quote": "RUBINSTEIN JONATHAN",
+   "supports": "Rubinstein reporting-owner CIK; Form 3 event date 2010-12-16 (director).",
+   "xml_fields": {
+    "rptOwnerCik": "0001209522",
+    "rptOwnerName": "RUBINSTEIN JONATHAN",
+    "periodOfReport": "2010-12-16"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e092",
+   "form": "DEF 14A",
+   "accession": "0001104659-26-041026",
+   "filing_date": "2026-04-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926041026/tm261382-1_def14a.htm",
+   "quote": "Age: 69 Director since: December 2010 Board committees: Nominating and Corporate Governance (Chair) Security Other current public company boards: Robinhood Markets, Inc.",
+   "supports": "Rubinstein: director since Dec 2010; NCG chair; Security member; other public board Robinhood (2026 proxy).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e093",
+   "form": "DEF 14A",
+   "accession": "0001104659-26-041026",
+   "filing_date": "2026-04-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926041026/tm261382-1_def14a.htm",
+   "quote": "Lead director of Robinhood Markets, Inc. since May 2021; director of Qualcomm Incorporated, from May 2013 to May 2016",
+   "supports": "Rubinstein's other boards (2026 proxy bio)."
+  },
+  {
+   "id": "e094",
+   "form": "DEF 14A",
+   "accession": "0001104659-26-041026",
+   "filing_date": "2026-04-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926041026/tm261382-1_def14a.htm",
+   "quote": "Mr. Rubinstein was Chief Executive Officer and President of Palm, Inc., a smartphone manufacturer, from June 2009 until its acquisition by Hewlett-Packard in July 2010, and Chair of the Board of Palm, Inc. from October 2007 through the acquisition.",
+   "supports": "Rubinstein: former Palm chair Oct 2007 - July 2010 (2026 proxy bio)."
+  },
+  {
+   "id": "e095",
+   "form": "DEF 14A",
+   "accession": "0001193125-18-121077",
+   "filing_date": "2018-04-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000119312518121077/d514607ddef14a.htm",
+   "quote": "currently Jonathan J. Rubinstein, in order to promote independent leadership of the Board.",
+   "supports": "2018 proxy (filed 2018-04-18): first proxy naming Rubinstein as lead director."
+  },
+  {
+   "id": "e096",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-108422",
+   "filing_date": "2020-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000119312520108422/d897711ddef14a.htm",
+   "quote": "appointed a lead director from the Board's independent directors, currently Jonathan J. Rubinstein",
+   "supports": "2020 proxy: Rubinstein lead director."
+  },
+  {
+   "id": "e100",
+   "form": "8-K",
+   "accession": "0001018724-23-000014",
+   "filing_date": "2023-09-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872423000014/amzn-20230913.htm",
+   "quote": "On September 13, 2023, the Board of Directors of Amazon.com, Inc. (the \"Company\") elected Brad D. Smith as a director of the Company, and also appointed him to the Audit Committee of the Board.",
+   "supports": "Smith elected director 2023-09-13 (8-K Item 5.02)."
+  },
+  {
+   "id": "e101",
+   "form": "3",
+   "accession": "0001104659-23-100532",
+   "filing_date": "2023-09-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465923100532/tm2325971-1_3seq1.xml",
+   "quote": "SMITH BRAD D",
+   "supports": "Smith reporting-owner CIK; Form 3 event date 2023-09-13 (director).",
+   "xml_fields": {
+    "rptOwnerCik": "0001284323",
+    "rptOwnerName": "SMITH BRAD D",
+    "periodOfReport": "2023-09-13"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e102",
+   "form": "DEF 14A",
+   "accession": "0001104659-26-041026",
+   "filing_date": "2026-04-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926041026/tm261382-1_def14a.htm",
+   "quote": "Age: 62 Director since: September 2023 Board committees: Audit Other current public company boards: JPMorgan Chase & Co.",
+   "supports": "Smith: director since Sept 2023; Audit member; other public board JPMorgan Chase (2026 proxy).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e103",
+   "form": "DEF 14A",
+   "accession": "0001104659-26-041026",
+   "filing_date": "2026-04-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926041026/tm261382-1_def14a.htm",
+   "quote": "Director of JPMorgan Chase & Co. since January 2025; director of Humana Inc. from September 2022 to April 2025; director of Nordstrom, Inc. from January 2013 to May 2022; and director of Momentive Global Inc. (formerly SVMK Inc.) from May 2017 to February 2022",
+   "supports": "Smith's other boards (2026 proxy bio)."
+  },
+  {
+   "id": "e104",
+   "form": "DEF 14A",
+   "accession": "0001104659-26-041026",
+   "filing_date": "2026-04-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926041026/tm261382-1_def14a.htm",
+   "quote": "Mr. Smith served as Executive Chairman of Intuit, a business software company, from January 2019 to January 2022, President and Chief Executive Officer of Intuit from January 2008 to December 2018, and Chairman of the board of directors of Intuit from January 2016 to January 2019.",
+   "supports": "Smith: former Intuit chairman (2016-2019) and executive chairman (2019-2022) (2026 proxy bio)."
+  },
+  {
+   "id": "e105",
+   "form": "8-K",
+   "accession": "0001018724-23-000014",
+   "filing_date": "2023-09-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872423000014/amzn-20230913.htm",
+   "quote": "President and Chief Executive Officer of Intuit from January 2008 to January 2019",
+   "supports": "2023 8-K gives Smith's Intuit CEO tenure as ending January 2019 (2026 proxy says December 2018)."
+  },
+  {
+   "id": "e110",
+   "form": "424B1",
+   "accession": "0000891020-97-000868",
+   "filing_date": "1997-05-15",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000089102097000868/0000891020-97-000868.txt",
+   "quote": "Ms. Stonesifer has been a director of the Company since February 1997.",
+   "supports": "Stonesifer director since February 1997 (IPO prospectus)."
+  },
+  {
+   "id": "e111",
+   "form": "DEF 14A",
+   "accession": "0001104659-26-041026",
+   "filing_date": "2026-04-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926041026/tm261382-1_def14a.htm",
+   "quote": "Age: 69 Director since: February 1997 Board committees: Leadership Development and Compensation Other current public company boards: None",
+   "supports": "Stonesifer: director since Feb 1997; LD&C member; no other public boards (2026 proxy).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e112",
+   "form": "4",
+   "accession": "0001184756-25-000004",
+   "filing_date": "2025-11-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000118475625000004/wk-form4_1763509357.xml",
+   "quote": "STONESIFER PATRICIA Q",
+   "supports": "Stonesifer reporting-owner CIK (Form 4, 2025-11-15; director).",
+   "xml_fields": {
+    "rptOwnerCik": "0001184756",
+    "rptOwnerName": "STONESIFER PATRICIA Q"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e113",
+   "form": "DEF 14A",
+   "accession": "0001193125-15-144712",
+   "filing_date": "2015-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000119312515144712/d834161ddef14a.htm",
+   "quote": "appointed a lead director from the Board's independent directors, currently Patricia Q. Stonesifer.",
+   "supports": "2015 proxy (filed 2015-04-24): Stonesifer lead director - first proxy naming her."
+  },
+  {
+   "id": "e114",
+   "form": "DEF 14A",
+   "accession": "0001193125-17-120195",
+   "filing_date": "2017-04-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000119312517120195/d334778ddef14a.htm",
+   "quote": "appointed a lead director from the Board's independent directors, currently Patricia Q. Stonesifer, in order to promote independent leadership",
+   "supports": "2017 proxy (filed 2017-04-12): Stonesifer lead director - last proxy naming her."
+  },
+  {
+   "id": "e115",
+   "form": "DEF 14A",
+   "accession": "0001193125-14-137728",
+   "filing_date": "2014-04-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000119312514137728/d658395ddef14a.htm",
+   "quote": "appointed a lead director from the Board's independent directors, currently Mr. Alberg.",
+   "supports": "2014 proxy (filed 2014-04-10): Tom Alberg was lead director, bounding Stonesifer's start."
+  },
+  {
+   "id": "e120",
+   "form": "8-K",
+   "accession": "0001018724-16-000176",
+   "filing_date": "2016-02-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872416000176/amzn-20160210x8k.htm",
+   "quote": "On February 10, 2016, the Board of Directors of Amazon.com, Inc. (the \"Company\") elected Wendell P. Weeks as a director of the Company, and also appointed him to the Audit Committee of the Board, effective as of February 10, 2016.",
+   "supports": "Weeks elected director 2016-02-10 (8-K Item 5.02)."
+  },
+  {
+   "id": "e121",
+   "form": "3",
+   "accession": "0001018724-16-000179",
+   "filing_date": "2016-02-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872416000179/wf-form3_145515044918674.xml",
+   "quote": "WEEKS WENDELL P",
+   "supports": "Weeks reporting-owner CIK; Form 3 event date 2016-02-10 (director).",
+   "xml_fields": {
+    "rptOwnerCik": "0001206158",
+    "rptOwnerName": "WEEKS WENDELL P",
+    "periodOfReport": "2016-02-10"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e122",
+   "form": "DEF 14A",
+   "accession": "0001104659-26-041026",
+   "filing_date": "2026-04-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926041026/tm261382-1_def14a.htm",
+   "quote": "Age: 66 Director since: February 2016 Board committees: Audit Other current public company boards: Corning Incorporated",
+   "supports": "Weeks: director since Feb 2016; Audit member; other public board Corning (2026 proxy).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e123",
+   "form": "DEF 14A",
+   "accession": "0001104659-26-041026",
+   "filing_date": "2026-04-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926041026/tm261382-1_def14a.htm",
+   "quote": "Director of Merck & Co., Inc. from February 2004 to May 2020",
+   "supports": "Weeks: former Merck director (2026 proxy bio)."
+  },
+  {
+   "id": "e124",
+   "form": "DEF 14A",
+   "accession": "0001104659-26-041026",
+   "filing_date": "2026-04-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926041026/tm261382-1_def14a.htm",
+   "quote": "Mr. Weeks has been the Chief Executive Officer of Corning, a leading glass and materials science innovator, since April 2005, Chairman of the board of directors since April 2007, and President since October 2025.",
+   "supports": "Weeks: Corning CEO and chairman (2026 proxy bio)."
+  },
+  {
+   "id": "e130",
+   "form": "8-K",
+   "accession": "0001018724-26-000036",
+   "filing_date": "2026-09-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000036/amzn-20260908.htm",
+   "quote": "On September 8, 2026, the Board of Directors of Amazon.com, Inc. (the \"Company\") elected Kevin R. Mandia as a director of the Company and also appointed him to the Audit Committee and Security Committee of the Board.",
+   "supports": "Mandia elected director 2026-09-08 and appointed to Audit and Security committees (8-K Item 5.02)."
+  },
+  {
+   "id": "e131",
+   "form": "3",
+   "accession": "0001595602-26-000005",
+   "filing_date": "2026-09-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000159560226000005/wk-form3_1788986593.xml",
+   "quote": "Mandia Kevin R.",
+   "supports": "Mandia reporting-owner CIK; Form 3 event date 2026-09-08 (director).",
+   "xml_fields": {
+    "rptOwnerCik": "0001595602",
+    "rptOwnerName": "Mandia Kevin R.",
+    "periodOfReport": "2026-09-08"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e132",
+   "form": "8-K",
+   "accession": "0001018724-26-000036",
+   "filing_date": "2026-09-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000036/amzn-20260908.htm",
+   "quote": "He served as Chief Executive Officer of Mandiant, Inc., a cybersecurity firm acquired by Google LLC in September 2022, from June 2016 to July 2024 and as a director from February 2016 to September 2022.",
+   "supports": "Mandia: former Mandiant director Feb 2016 - Sept 2022 (8-K bio)."
+  },
+  {
+   "id": "e133",
+   "form": "8-K",
+   "accession": "0001018724-26-000036",
+   "filing_date": "2026-09-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000036/amzn-20260908.htm",
+   "quote": "Kristin Mandia, an employee of the Company, is the sister-in-law of Mr. Mandia.",
+   "supports": "Mandia related-person disclosure (sister-in-law employed by Amazon)."
+  },
+  {
+   "id": "e140",
+   "form": "8-K",
+   "accession": "0001018724-20-000026",
+   "filing_date": "2020-09-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872420000026/amzn-20200909.htm",
+   "quote": "On September 9, 2020, the Board of Directors of Amazon.com, Inc. (the \"Company\") elected General (Ret.) Keith B. Alexander as a director of the Company, and also appointed him to the Audit Committee of the Board.",
+   "supports": "Alexander elected director 2020-09-09 (8-K Item 5.02)."
+  },
+  {
+   "id": "e141",
+   "form": "3",
+   "accession": "0000899243-20-024784",
+   "filing_date": "2020-09-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000089924320024784/doc3.xml",
+   "quote": "Alexander Keith Brian",
+   "supports": "Alexander reporting-owner CIK; Form 3 event date 2020-09-09 (director).",
+   "xml_fields": {
+    "rptOwnerCik": "0001659719",
+    "rptOwnerName": "Alexander Keith Brian",
+    "periodOfReport": "2020-09-09"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e142",
+   "form": "DEF 14A",
+   "accession": "0001104659-25-033442",
+   "filing_date": "2025-04-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465925033442/tm252295-1_def14a.htm",
+   "quote": "Age: 73 Director since: September 2020 Board committees: Security (Chair) Other current public company boards: None",
+   "supports": "Alexander: director since Sept 2020; Security chair (2025 proxy, his last bio).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e143",
+   "form": "DEF 14A",
+   "accession": "0001104659-25-033442",
+   "filing_date": "2025-04-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465925033442/tm252295-1_def14a.htm",
+   "quote": "General (Ret.) Keith B. Alexander was Chief Executive Officer and President of IronNet, a cybersecurity technology company he founded, from 2014 to July 2023, and also served as a director and Chair from 2014 to February 2024.",
+   "supports": "Alexander: IronNet director and chair 2014 - Feb 2024 (2025 proxy bio)."
+  },
+  {
+   "id": "e144",
+   "form": "DEF 14A",
+   "accession": "0001104659-25-033442",
+   "filing_date": "2025-04-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465925033442/tm252295-1_def14a.htm",
+   "quote": "Director of CSRA, Inc. from November 2015 to April 2018",
+   "supports": "Alexander: former CSRA director (2025 proxy bio)."
+  },
+  {
+   "id": "e145",
+   "form": "DEF 14A",
+   "accession": "0001104659-23-044708",
+   "filing_date": "2023-04-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465923044708/tm233694d2_def14a.htm",
+   "quote": "Age: 71 Director since: September 2020 Board committees: Audit Other current public company boards: IronNet, Inc.",
+   "supports": "2023 proxy lists IronNet, Inc. as Alexander's other current public company board.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e146",
+   "form": "DEF 14A",
+   "accession": "0001104659-21-050333",
+   "filing_date": "2021-04-15",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465921050333/tm2035374-1_def14a.htm",
+   "quote": "Keith B. Alexander was elected as a director by the Board of Directors on September 9, 2020",
+   "supports": "2021 proxy confirms Alexander's election date 2020-09-09."
+  },
+  {
+   "id": "e150",
+   "form": "8-K",
+   "accession": "0001018724-14-000028",
+   "filing_date": "2014-08-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872414000028/amzn-2014julyx8k.htm",
+   "quote": "On July 31, 2014, the Board of Directors of Amazon.com, Inc. (the \"Company\") elected Judith A. McGrath as a director of the Company, and also appointed her to the Leadership Development and Compensation Committee of the Board, effective as of October 1, 2014.",
+   "supports": "McGrath elected 2014-07-31; 'effective as of October 1, 2014' is ambiguous (see conflicts)."
+  },
+  {
+   "id": "e151",
+   "form": "3",
+   "accession": "0001359804-14-000032",
+   "filing_date": "2014-08-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000135980414000032/edgar.xml",
+   "quote": "McGrath Judith A",
+   "supports": "McGrath reporting-owner CIK; Form 3 event date 2014-07-31 (director).",
+   "xml_fields": {
+    "rptOwnerCik": "0001612243",
+    "rptOwnerName": "McGrath Judith A",
+    "periodOfReport": "2014-07-31"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e152",
+   "form": "DEF 14A",
+   "accession": "0001104659-24-045910",
+   "filing_date": "2024-04-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465924045910/tm2329302d4_def14a.htm",
+   "quote": "On April 9, 2024, Judith A. McGrath informed the Company that she would not stand for re-election at the Annual Meeting.",
+   "supports": "McGrath did not stand for re-election at the 2024 annual meeting."
+  },
+  {
+   "id": "e153",
+   "form": "8-K",
+   "accession": "0001104659-24-065117",
+   "filing_date": "2024-05-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465924065117/tm2414140d1_8k.htm",
+   "quote": "On May 22, 2024, Amazon.com, Inc. (the \"Company\") held its Annual Meeting of Shareholders.",
+   "supports": "2024 annual meeting date (2024-05-22); McGrath not among the elected nominees."
+  },
+  {
+   "id": "e154",
+   "form": "DEF 14A",
+   "accession": "0001104659-25-033442",
+   "filing_date": "2025-04-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465925033442/tm252295-1_def14a.htm",
+   "quote": "In addition, the Board determined that Judith A. McGrath, who served as a director until May 22, 2024, was independent during the time she served as a director.",
+   "supports": "McGrath served until 2024-05-22 and was independent throughout."
+  },
+  {
+   "id": "e155",
+   "form": "DEF 14A",
+   "accession": "0001104659-23-044708",
+   "filing_date": "2023-04-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465923044708/tm233694d2_def14a.htm",
+   "quote": "Age: 70 Director since: July 2014 Board committees: Leadership Development and Compensation (Chair) Other current public company boards: None",
+   "supports": "McGrath: director since July 2014; LD&C chair; no other public boards (2023 proxy, her last bio).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e156",
+   "form": "DEF 14A",
+   "accession": "0001104659-24-045910",
+   "filing_date": "2024-04-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465924045910/tm2329302d4_def14a.htm",
+   "quote": "The Board has determined that the following directors are independent as defined by Nasdaq rules: Gen. Alexander, Ms. Cooper, Ms. Gorelick, Dr. Huttenlocher, Ms. McGrath, Dr. Ng, Mrs. Nooyi, Mr. Rubinstein, Mr. Smith, Ms. Stonesifer, and Mr. Weeks.",
+   "supports": "2024 proxy independence determination."
+  },
+  {
+   "id": "e160",
+   "form": "8-K",
+   "accession": "0001032210-02-001533",
+   "filing_date": "2002-11-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000103221002001533/dex991.htm",
+   "quote": "Thomas O. Ryder, 58 chairman and CEO of the Reader's Digest Association, Inc., (NYSE: RDA, RDB), has been elected to serve on Amazon.com's (NASDAQ: AMZN) board of directors.",
+   "supports": "Press release dated 2002-11-06: Ryder has been elected (day of election not stated)."
+  },
+  {
+   "id": "e161",
+   "form": "8-K",
+   "accession": "0001032210-02-001533",
+   "filing_date": "2002-11-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000103221002001533/d8k.htm",
+   "quote": "On November 6, 2002, Amazon.com, Inc. announced that Thomas O. Ryder, Chairman and CEO of the Reader's Digest Association, was elected to the Amazon.com Board of Directors.",
+   "supports": "8-K (Item 9): Ryder's election announced 2002-11-06."
+  },
+  {
+   "id": "e162",
+   "form": "DEF 14A",
+   "accession": "0001104659-21-050333",
+   "filing_date": "2021-04-15",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465921050333/tm2035374-1_def14a.htm",
+   "quote": "Age: 76 Director since: November 2002 Board committees: Leadership Development and Compensation Other current public company boards: None",
+   "supports": "Ryder: director since Nov 2002; LD&C member (2021 proxy, his last).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e163",
+   "form": "8-K",
+   "accession": "0001018724-21-000030",
+   "filing_date": "2021-11-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872421000030/amzn-20211110.htm",
+   "quote": "On November 10, 2021, Thomas O. Ryder informed Amazon.com, Inc. of his decision to retire from the Board of Directors effective December 31, 2021.",
+   "supports": "Ryder retired effective 2021-12-31 (8-K Item 5.02)."
+  },
+  {
+   "id": "e164",
+   "form": "DEF 14A",
+   "accession": "0001104659-22-045572",
+   "filing_date": "2022-04-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465922045572/tm223357-5_def14a.htm",
+   "quote": "Thomas O. Ryder retired from the Board of Directors effective December 31, 2021.",
+   "supports": "2022 proxy confirms Ryder's retirement date."
+  },
+  {
+   "id": "e165",
+   "form": "DEF 14A",
+   "accession": "0001104659-22-045572",
+   "filing_date": "2022-04-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465922045572/tm223357-5_def14a.htm",
+   "quote": "In addition, the Board determined that Rosalind G. Brewer and Mr. Ryder, who served as directors until February 16, 2021 and December 31, 2021, respectively, were independent during the time they served as directors.",
+   "supports": "Brewer (to 2021-02-16) and Ryder (to 2021-12-31) were independent throughout."
+  },
+  {
+   "id": "e166",
+   "form": "DEF 14A",
+   "accession": "0001104659-21-050333",
+   "filing_date": "2021-04-15",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465921050333/tm2035374-1_def14a.htm",
+   "quote": "Mr. Ryder served as a director of ILG, Inc. from May 2016 to September 2018, a director of RPX Corporation from December 2009 to June 2017, a director of Quad/Graphics, Inc. from July 2010 to May 2017, a director of Starwood Hotels & Resorts Worldwide, Inc. from April 2001 to September 2016, and Chair of the Board of Directors at Virgin Mobile USA, Inc. from October 2007 to November 2009.",
+   "supports": "Ryder's former other boards (2021 proxy bio)."
+  },
+  {
+   "id": "e167",
+   "form": "4",
+   "accession": "0001127602-19-034283",
+   "filing_date": "2019-12-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000112760219034283/form4.xml",
+   "quote": "RYDER THOMAS O",
+   "supports": "Ryder reporting-owner CIK (Form 4, 2019-12-02; director).",
+   "xml_fields": {
+    "rptOwnerCik": "0001137819",
+    "rptOwnerName": "RYDER THOMAS O"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e168",
+   "form": "DEF 14A",
+   "accession": "0001104659-21-050333",
+   "filing_date": "2021-04-15",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465921050333/tm2035374-1_def14a.htm",
+   "quote": "The Board has determined that the following directors are independent as defined by Nasdaq rules: Gen. Alexander, Ms. Gorelick, Mr. Huttenlocher, Ms. McGrath, Mrs. Nooyi, Mr. Rubinstein, Mr. Ryder, Ms. Stonesifer, and Mr. Weeks.",
+   "supports": "2021 proxy independence determination."
+  },
+  {
+   "id": "e169",
+   "form": "DEF 14A",
+   "accession": "0001104659-21-050333",
+   "filing_date": "2021-04-15",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465921050333/tm2035374-1_def14a.htm",
+   "quote": "Mr. Ryder was Chair of the Reader's Digest Association, Inc. from April 1998 to December 2006, and was Chief Executive Officer from April 1998 to December 2005.",
+   "supports": "Ryder: former Reader's Digest chair (2021 proxy bio)."
+  },
+  {
+   "id": "e170",
+   "form": "8-K",
+   "accession": "0001018724-19-000008",
+   "filing_date": "2019-02-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872419000008/amzn-201902048k.htm",
+   "quote": "On February 4, 2019, the Board of Directors of Amazon.com, Inc. (the \"Company\") elected Rosalind G. Brewer as a director of the Company, and also appointed her to the Leadership Development and Compensation Committee of the Board.",
+   "supports": "Brewer elected director 2019-02-04 (8-K Item 5.02)."
+  },
+  {
+   "id": "e171",
+   "form": "3",
+   "accession": "0001018724-19-000012",
+   "filing_date": "2019-02-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872419000012/wf-form3_154931803375491.xml",
+   "quote": "BREWER ROSALIND G",
+   "supports": "Brewer reporting-owner CIK; Form 3 event date 2019-02-04 (director).",
+   "xml_fields": {
+    "rptOwnerCik": "0001357855",
+    "rptOwnerName": "BREWER ROSALIND G",
+    "periodOfReport": "2019-02-04"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e172",
+   "form": "8-K",
+   "accession": "0001193125-21-018066",
+   "filing_date": "2021-01-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000119312521018066/d30366d8k.htm",
+   "quote": "On January 26, 2021, Rosalind G. Brewer informed Amazon.com, Inc. that she is resigning from the Board of Directors effective February 16, 2021.",
+   "supports": "Brewer resigned effective 2021-02-16 (8-K Item 5.02)."
+  },
+  {
+   "id": "e173",
+   "form": "DEF 14A",
+   "accession": "0001104659-21-050333",
+   "filing_date": "2021-04-15",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465921050333/tm2035374-1_def14a.htm",
+   "quote": "Rosalind G. Brewer resigned from the Board of Directors effective February 16, 2021.",
+   "supports": "2021 proxy confirms Brewer's resignation date."
+  },
+  {
+   "id": "e174",
+   "form": "DEF 14A",
+   "accession": "0001104659-21-050333",
+   "filing_date": "2021-04-15",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465921050333/tm2035374-1_def14a.htm",
+   "quote": "In addition, the Board determined that Ms. Brewer, who served as a director until February 16, 2021, was independent during the time she served as a director.",
+   "supports": "Brewer independent throughout her service."
+  },
+  {
+   "id": "e175",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-108422",
+   "filing_date": "2020-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000119312520108422/d897711ddef14a.htm",
+   "quote": "Age: Director since: Board committees: Other current public company boards: 57 February 2019 Leadership Development and Compensation Starbucks Corporation",
+   "supports": "Brewer: director since Feb 2019; LD&C member; other public board Starbucks (2020 proxy, her last).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e176",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-108422",
+   "filing_date": "2020-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000119312520108422/d897711ddef14a.htm",
+   "quote": "where she has also served as a director since March 2017.",
+   "supports": "Brewer: Starbucks director since March 2017 (2020 proxy bio)."
+  },
+  {
+   "id": "e177",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-108422",
+   "filing_date": "2020-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000119312520108422/d897711ddef14a.htm",
+   "quote": "She served as a director of Lockheed Martin Corporation from April 2011 to October 2017.",
+   "supports": "Brewer: former Lockheed Martin director (2020 proxy bio)."
+  },
+  {
+   "id": "e181",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-108422",
+   "filing_date": "2020-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000119312520108422/d897711ddef14a.htm",
+   "quote": "The Board has determined that the following directors are independent as defined by Nasdaq rules: Ms. Brewer, Ms. Gorelick, Mr. Huttenlocher, Ms. McGrath, Mrs. Nooyi, Mr. Rubinstein, Mr. Ryder, Ms. Stonesifer, and Mr. Weeks.",
+   "supports": "2020 proxy independence determination (nine of ten; Bezos not independent)."
+  },
+  {
+   "id": "e183",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-108422",
+   "filing_date": "2020-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000119312520108422/d897711ddef14a.htm",
+   "quote": "Age: Director since: Board committees: Other current public company boards: 75 November 2002 Audit (Chair) None",
+   "supports": "2020 proxy: Ryder director since Nov 2002; Audit chair then.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e189",
+   "form": "DEF 14A",
+   "accession": "0001104659-22-045572",
+   "filing_date": "2022-04-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465922045572/tm223357-5_def14a.htm",
+   "quote": "The Board has determined that the following directors are independent as defined by Nasdaq rules: Gen. Alexander, Ms. Cooper, Ms. Gorelick, Mr. Huttenlocher, Ms. McGrath, Mrs. Nooyi, Mr. Rubinstein, Ms. Stonesifer, and Mr. Weeks.",
+   "supports": "2022 proxy independence determination."
+  },
+  {
+   "id": "e190",
+   "form": "DEF 14A",
+   "accession": "0001104659-23-044708",
+   "filing_date": "2023-04-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465923044708/tm233694d2_def14a.htm",
+   "quote": "The Board has determined that the following directors are independent as defined by Nasdaq rules: Gen. Alexander, Ms. Cooper, Ms. Gorelick, Mr. Huttenlocher, Ms. McGrath, Mrs. Nooyi, Mr. Rubinstein, Ms. Stonesifer, and Mr. Weeks.",
+   "supports": "2023 proxy independence determination."
+  },
+  {
+   "id": "e191",
+   "form": "DEF 14A",
+   "accession": "0001104659-25-033442",
+   "filing_date": "2025-04-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465925033442/tm252295-1_def14a.htm",
+   "quote": "The Board has determined that the following directors are independent as defined by Nasdaq rules: Gen. Alexander, Ms. Cooper, Ms. Gorelick, Dr. Huttenlocher, Dr. Ng, Mrs. Nooyi, Mr. Rubinstein, Mr. Smith, Ms. Stonesifer, and Mr. Weeks.",
+   "supports": "2025 proxy independence determination."
+  },
+  {
+   "id": "e192",
+   "form": "DEF 14A",
+   "accession": "0001104659-24-045910",
+   "filing_date": "2024-04-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465924045910/tm2329302d4_def14a.htm",
+   "quote": "Brad D. Smith was elected as a director by the Board of Directors effective September 13, 2023",
+   "supports": "2024 proxy confirms Smith's election date 2023-09-13."
+  }
+ ],
+ "conflicts": [
+  {
+   "description": "McGrath's start date. The 2014-08-01 8-K says the Board 'On July 31, 2014' elected her and appointed her to the LD&C Committee, 'effective as of October 1, 2014'. It is unclear whether 'effective' covers the election or only the committee seat. Her Form 3 event date is 2014-07-31 and every proxy says 'Director since: July 2014', so the start is recorded as 2014-07-31.",
+   "evidence_refs": [
+    "e150",
+    "e151",
+    "e155"
+   ]
+  },
+  {
+   "description": "Brad Smith's Intuit CEO tenure: the 2023-09-13 8-K says 'January 2008 to January 2019', the 2026 proxy says 'January 2008 to December 2018'. Bio detail only; it doesn't affect his Amazon dates.",
+   "evidence_refs": [
+    "e105",
+    "e104"
+   ]
+  }
+ ],
+ "open_questions": [
+  "When Jamie Gorelick became lead (independent) director, and when Rubinstein's lead-director tenure ended, is not disclosed. The 2023 proxy (2023-04-13) names Rubinstein, the 2024 proxy (2024-04-11) Gorelick. Her role is recorded with an unknown start. Rubinstein's past lead-director span (first named 2018-04-18) and Stonesifer's (proxies of 2015-04-24 to 2017-04-12) are undated, so they appear only in membership notes.",
+  "Bezos's Executive Chair start day. Filings say 'July 2021' and that he was CEO through 2021-07-04 (Jassy from 2021-07-05). Day precision would be inference, so the role is recorded at month precision.",
+  "Kevin Mandia (elected 2026-09-08): no independence determination yet; the 2027 proxy should give it. He sits on the Audit and Security committees, and the 8-K discloses that his sister-in-law is an Amazon employee.",
+  "Exact days for pre-2001 or announcement-only starts: Bezos (July 1994, founder), Stonesifer (February 1997, pre-IPO) and Ryder (November 2002; the 2002-11-06 press release says only that he 'has been elected').",
+  "Board size: Amazon's filings reviewed state nominee counts (10 in 2020-2021, 11 in 2022-2023, 12 in 2024-2025, 11 in 2026), not an authorized board size. With Mandia, 12 directors are seated as of 2026-10-04. No BOARD_SIZE_CHANGE events are recorded.",
+  "Committee seats in the 2024-2026 proxy tables are icons, not text. Alexander's 2026 Security membership (no longer chair) and McGrath's 2024 LD&C membership (Cooper chairing) are visible only as icons. Their committees[] rows use their last text bios (2025 and 2023 proxies).",
+  "IPO date: the 1997 10-K and Q2 1997 10-Q say the IPO was 'completed' on May 15, 1997, the 424B1 prospectus is dated May 15, 1997 and the registration went effective May 14, 1997. No filing literally says trading began May 15, 1997. ipo_date is set to 1997-05-15 on that basis.",
+  "Other-board lists come from Amazon's own bios as of each filing and are not checked against other issuers' filings. Former boards are often named without saying the company is public (public_company_stated_in_source=false)."
+ ],
+ "coverage": [
+  {
+   "scope": "current_board",
+   "period_start": "2026-10-04",
+   "period_end": "2026-10-04",
+   "level": "complete",
+   "method": "Roster from the 2026 DEF 14A (filed 2026-04-09) and the 2026-05-22 8-K Item 5.07 (eleven elected; Alexander did not stand). Checked against every filing in the EDGAR submissions feed from 2026-04-09 through 2026-09-24 (latest): the only Item 5.02 8-K is the 2026-09-09 Mandia election; Forms 3/4 (Mandia's Form 3) and both 2026 10-Qs (Item 5) show no other changes."
+  },
+  {
+   "scope": "board_history",
+   "period_start": "2020-01-01",
+   "period_end": "2026-10-04",
+   "level": "complete",
+   "method": "Every DEF 14A 2019-2026, every 8-K with Item 5.02 (2019-02-04 through 2026-09-09) and every 8-K Item 5.07 (2019-2026) reviewed; departures dated from 8-K 5.02 effective dates or annual-meeting dates. Board on 2020-01-01 = the ten elected at the 2019-05-22 meeting (no Item 5.02 board changes between then and the 2020 proxy)."
+  },
+  {
+   "scope": "board_history",
+   "period_start": "1994-07-01",
+   "period_end": "2019-12-31",
+   "level": "partial",
+   "method": "Only start dates of directors who served on or after 2020-01-01 (from 8-Ks, Forms 3, proxies and the 1997 IPO prospectus). Directors who left before 2020 (e.g., Alberg, Krikorian, Cook, Doerr) are not recorded."
+  }
+ ]
+}
