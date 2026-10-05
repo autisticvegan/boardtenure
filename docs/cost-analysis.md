@@ -6,15 +6,20 @@ list prices: Opus 5.5 $4/$20 and Sonnet 5.5 $2/$10 per million input/output toke
 API at 50% off. Infrastructure assumes AWS on-demand list prices and moderate traffic (≤ 1M page
 views a month at the larger tiers).
 
+Freshness target: data may lag by up to a week (historical focus; see architecture.md). That rules out
+real-time and same-day feed costs, allows weekly bulk pulls and lower API-quota tiers, and lets the CDN
+absorb nearly all traffic with day-long caching. It does **not** remove display-licensing fees, which
+vendors charge for historical data too.
+
 ## Run-rate by scale
 
 | Component | 20 cos | 100 | 1,000 | 5,000 | 10,000+ |
 |---|---|---|---|---|---|
-| **EOD price data with display rights** | $250 | $250–500 | $500–1,000 | $1,000–2,500 | $1,250–2,500+ |
+| **Historical daily prices (≤ 1-week lag) with display rights** | $250 | $250–500 | $500–1,000 | $1,000–2,500 | $1,250–2,500+ |
 | SEC data | $0 | $0 | $0 | $0 | $0 |
 | LLM extraction (ongoing, batch) | <$1 | ~$1 | ~$5 | ~$25 | ~$45 |
 | Database (RDS Postgres) | $15–30 | $30 | $60–80 | $150 | $200–400 |
-| Compute: web (Fargate) + daily job | $20–40 | $40 | $60 | $100 | $150–250 |
+| Compute: web (Fargate) + weekly refresh job | $20–40 | $40 | $60 | $100 | $150–250 |
 | Raw store (S3) | <$1 | ~$1 | ~$3 | ~$12 | ~$25 |
 | CDN + WAF (+ Bot Control) | $15–30 | $30 | $40–60 | $60–100 | $100–200 |
 | Search | $0 (Postgres) | $0 | $0 | $0 | $0–150 (OpenSearch only if needed) |
@@ -64,5 +69,5 @@ that scales with mistakes. Review time is.
 
 - Server-side aggregation and downsampled charts, so no raw-price bulk endpoint exists to scrape.
 - Pages cached at the CDN for an hour. Most traffic never reaches the origin.
-- An append-only total-return index, so the daily job touches only new rows.
+- An append-only total-return index, so each refresh touches only new rows.
 - SEC filings cached forever in the raw store. Re-extraction never re-downloads.

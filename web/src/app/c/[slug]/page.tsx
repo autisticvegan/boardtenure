@@ -4,14 +4,15 @@ import { notFound } from "next/navigation";
 import { BoardTimeline, type TimelineRow } from "@/components/board-timeline";
 import { ReturnChart, type Marker } from "@/components/return-chart";
 import { Annualized, Badge, Card, Confidence, Disclaimer, Relative, Stat, TenureReturn } from "@/components/ui";
-import { compactMoney, daysBetween, fmtDate, money, pct, tenureLength, todayIso, toneClass, years } from "@/lib/format";
+import { compactMoney, daysBetween, fmtDate, pct, tenureLength, todayIso, toneClass, years } from "@/lib/format";
 import {
   getBoard, getBoardEvents, getCompany, getCoverage, getDefaultBenchmark, getReturnSeries, type Membership,
 } from "@/lib/queries";
 import { END_REASON, primaryRole, shortTag } from "@/lib/roles";
 import { median } from "@/lib/track-record";
 
-export const revalidate = 3600;
+// Data refreshes weekly (historical focus), so a day-long cache is always fresh enough.
+export const revalidate = 86400;
 
 export async function generateMetadata({ params }: PageProps<"/c/[slug]">): Promise<Metadata> {
   const c = await getCompany((await params).slug);
@@ -46,7 +47,6 @@ export default async function CompanyPage({ params }: PageProps<"/c/[slug]">) {
   const tenures = current.map(approxStart).filter((d): d is string => d != null).map((d) => daysBetween(d, todayIso()));
   const avgTenure = tenures.length ? tenures.reduce((a, b) => a + b, 0) / tenures.length : null;
   const anyImprecise = current.some((m) => m.start_precision !== "day");
-  const dayChange = company.last_close && company.prev_close ? company.last_close / company.prev_close - 1 : null;
   const sinceIpo = series.length ? series[series.length - 1] : null;
   // Older listings start where our stored history starts, not at the IPO.
   const fromListing = !!(company.ipo_date && series[0] && daysBetween(company.ipo_date, series[0].d) <= 7);
@@ -96,16 +96,12 @@ export default async function CompanyPage({ params }: PageProps<"/c/[slug]">) {
             )}
           </p>
         </div>
-        {company.last_close != null && (
-          <div className="sm:text-right">
-            <div className="text-[28px] font-semibold tracking-tight leading-none">{money(company.last_close)}</div>
-            <div className="text-[12px] text-ink-3 mt-1.5">
-              <span className={`num ${toneClass(dayChange)}`}>{pct(dayChange, 2)}</span> · Close {fmtDate(company.last_date)}
-            </div>
-            {company.shares != null && (
-              <div className="text-[12px] text-ink-3 mt-0.5"
-                   title={`${company.shares.toLocaleString("en-US")} shares outstanding as of ${fmtDate(company.shares_as_of)} (10-K/10-Q cover)${company.share_classes > 1 ? ", all share classes valued at the primary listing's price" : ""}`}>
-                Market cap {company.share_classes > 1 ? "≈ " : ""}<span className="text-ink-2 num">{compactMoney(company.shares * company.last_close)}</span>
+        {company.last_date && (
+          <div className="sm:text-right text-[12px] text-ink-3 space-y-0.5">
+            <div>Prices through <span className="text-ink-2">{fmtDate(company.last_date)}</span></div>
+            {company.shares != null && company.last_close != null && (
+              <div title={`${company.shares.toLocaleString("en-US")} shares outstanding as of ${fmtDate(company.shares_as_of)} (10-K/10-Q cover)${company.share_classes > 1 ? ", all share classes valued at the primary listing's price" : ""}`}>
+                Market cap {company.share_classes > 1 ? "≈ " : ""}<span className="text-ink-2 num">{compactMoney(company.shares * company.last_close)}</span> at that close
               </div>
             )}
           </div>
@@ -147,7 +143,8 @@ export default async function CompanyPage({ params }: PageProps<"/c/[slug]">) {
         </Card>
       </div>
 
-      <Card title={`Current board · ${current.length}`} action={bench ? `Benchmark: ${bench.name}` : undefined} pad={false}>
+      <Card title={`Current board · ${current.length}`}
+            action={`Returns through ${fmtDate(asOf)}${bench ? ` · vs ${bench.name}` : ""}`} pad={false}>
         <BoardTable rows={current} companySlug={company.slug} mode="current" />
         <div className="px-4 sm:px-5 py-3 border-t border-line"><Disclaimer /></div>
       </Card>

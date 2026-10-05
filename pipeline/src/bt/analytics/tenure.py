@@ -28,7 +28,7 @@ def _values(r: TenureResult) -> list:
 
 def recompute(conn: psycopg.Connection, company_ids: Iterable[int] | None = None) -> int:
     """Recompute every membership of the given companies (all companies if None)
-    against every benchmark. Cheap enough to run for all open tenures daily."""
+    against every benchmark. Cheap enough to rerun for every open tenure on each refresh."""
     benchmarks = [(b["id"], load_series(conn, b["security_id"]))
                   for b in conn.execute("SELECT id, security_id FROM benchmark ORDER BY id")]
     if company_ids is None:

@@ -69,7 +69,7 @@ export function api<C>(handler: Handler<C>, opts: { cost?: number; maxAge?: numb
       const body = await handler(req, ctx);
       return NextResponse.json(body, {
         headers: {
-          "Cache-Control": `public, max-age=60, s-maxage=${opts.maxAge ?? 3600}, stale-while-revalidate=86400`,
+          "Cache-Control": `public, max-age=60, s-maxage=${opts.maxAge ?? 86400}, stale-while-revalidate=86400`,
           "X-RateLimit-Remaining": String(limit.remaining),
           "X-Robots-Tag": "noindex",
         },

@@ -8,7 +8,8 @@ import { getCareer, getDefaultBenchmark, getOtherBoards, getPerson } from "@/lib
 import { primaryRole } from "@/lib/roles";
 import { trackRecord } from "@/lib/track-record";
 
-export const revalidate = 3600;
+// Data refreshes weekly (historical focus), so a day-long cache is always fresh enough.
+export const revalidate = 86400;
 
 export async function generateMetadata({ params }: PageProps<"/d/[person]">): Promise<Metadata> {
   const p = await getPerson((await params).person);

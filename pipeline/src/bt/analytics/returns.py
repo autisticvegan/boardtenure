@@ -51,7 +51,7 @@ def build_indexes(
     The value of one share held at the previous close, measured at today's close, is
     split_ratio * (close + cash). An action dated on a non-trading day applies to the
     next session. With `seed` (the last stored point) only bars after it are processed,
-    so a daily update extends the series without rewriting history.
+    so an incremental refresh extends the series without rewriting history.
     """
     bars = sorted(bars, key=lambda b: b.day)
     if seed is not None:

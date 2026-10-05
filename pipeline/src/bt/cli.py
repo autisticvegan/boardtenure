@@ -128,11 +128,11 @@ def cmd_sec_shares(args: argparse.Namespace) -> None:
             conn.commit()
 
 
-def cmd_daily(args: argparse.Namespace) -> None:
-    from bt.jobs import daily
+def cmd_refresh(args: argparse.Namespace) -> None:
+    from bt.jobs import refresh
 
-    with db.session("pipeline:daily") as conn:
-        stats = daily.run(conn, skip_prices=args.skip_prices, skip_sec=args.skip_sec)
+    with db.session("pipeline:refresh") as conn:
+        stats = refresh.run(conn, skip_prices=args.skip_prices, skip_sec=args.skip_sec)
     print(json.dumps(stats, indent=1, default=str))
 
 
@@ -243,10 +243,10 @@ def build_parser() -> argparse.ArgumentParser:
     sp.add_parser("shares", help="refresh shares outstanding from latest 10-K/10-Q covers").set_defaults(
         fn=cmd_sec_shares)
 
-    dp = sub.add_parser("daily", help="run the full daily update")
+    dp = sub.add_parser("refresh", help="run the scheduled (weekly) refresh: prices, filings, analytics, checks")
     dp.add_argument("--skip-prices", action="store_true")
     dp.add_argument("--skip-sec", action="store_true")
-    dp.set_defaults(fn=cmd_daily)
+    dp.set_defaults(fn=cmd_refresh)
 
     an = sub.add_parser("analytics").add_subparsers(required=True)
     rc = an.add_parser("recompute", help="recompute tenure performance")

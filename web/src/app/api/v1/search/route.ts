@@ -7,4 +7,4 @@ export const GET = api(async (req: NextRequest) => {
   if (q.length > 80) throw new ApiError(400, "query too long");
   const results = (await search(q)).map(({ kind, slug, label, sublabel }) => ({ kind, slug, label, sublabel }));
   return { query: q, results };
-}, { maxAge: 600 });
+}, { maxAge: 3600 });

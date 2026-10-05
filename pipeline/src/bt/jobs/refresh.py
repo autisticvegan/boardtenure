@@ -1,7 +1,9 @@
-"""The daily update: incremental prices, new SEC filings, analytics, validation.
+"""The refresh job: incremental prices, new SEC filings, analytics, validation.
 
-Each stage commits on its own so one failure doesn't discard the others; the job_run row
-records per-stage stats and ends 'partial' if any stage or item failed.
+Scheduled weekly (the product's freshness target is "no more than a week behind";
+see config.FRESHNESS_DAYS). Every stage is incremental, so running it more often only
+costs a few requests. Each stage commits on its own so one failure doesn't discard the
+others; the job_run row records per-stage stats and ends 'partial' if anything failed.
 """
 
 from __future__ import annotations
@@ -79,7 +81,7 @@ def update_sec(conn: psycopg.Connection) -> dict:
 
 def run(conn: psycopg.Connection, *, skip_prices: bool = False, skip_sec: bool = False) -> dict:
     job_id = conn.execute(
-        "INSERT INTO job_run (job_name, status, params) VALUES ('daily', 'running', %s) RETURNING id",
+        "INSERT INTO job_run (job_name, status, params) VALUES ('refresh', 'running', %s) RETURNING id",
         (json.dumps({"skip_prices": skip_prices, "skip_sec": skip_sec}),),
     ).fetchone()["id"]
     conn.commit()

@@ -3,7 +3,8 @@ import Link from "next/link";
 import { Card } from "@/components/ui";
 import { listCompanies } from "@/lib/queries";
 
-export const revalidate = 3600;
+// Data refreshes weekly (historical focus), so a day-long cache is always fresh enough.
+export const revalidate = 86400;
 export const metadata: Metadata = { title: "Companies" };
 
 export default async function CompaniesPage() {

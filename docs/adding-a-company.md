@@ -41,8 +41,8 @@ uv --directory pipeline run bt seed verify ../data/seed/<ticker>_board_research.
 
 ## 2. Prices
 
-Production uses the licensed EOD feed (`TIINGO_API_KEY`). `bt daily` backfills a new security from
-1990 on its first run. Locally, the prototype CSVs go in `data/seed/prices/<SYMBOL>.csv` (raw
+Production uses a licensed historical EOD feed (`TIINGO_API_KEY`). `bt refresh` backfills a new
+security from 1990 on its first run. Locally, the prototype CSVs go in `data/seed/prices/<SYMBOL>.csv` (raw
 as-traded closes) and `<SYMBOL>_actions.csv` (splits and dividends). See
 `docs/research/price-data-verification*.md`.
 
@@ -65,5 +65,5 @@ Then:
 - Add a reference test like `pipeline/tests/test_lyft_reference.py` if the company has unusual
   corporate actions.
 
-From then on, `bt daily` watches the company's filings. New Forms 3/4, 8-K 5.02/5.07 and proxies
+From then on, the weekly `bt refresh` watches the company's filings. New Forms 3/4, 8-K 5.02/5.07 and proxies
 land in the admin review queue.

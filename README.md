@@ -1,6 +1,7 @@
 # BoardTenure
 
-How did a company's stock perform while each director sat on its board? BoardTenure
+How did a company's stock perform while each director sat on its board? A historical tool:
+prices refresh weekly, and the site shows no live quotes. BoardTenure
 measures every director's tenure return against the S&P 500 (via SPY total return). Each
 board date cites the SEC filing it came from.
 

@@ -59,8 +59,9 @@ trading day:
   offer price, since public investors could not trade at it. The actual join date is still
   displayed.
 * **Left before the stock listed.** There is no measurable tenure (`no_price_history`).
-* **Current directors.** The end anchor is the latest available close (`latest_close`),
-  shown with its date ("through Oct 2, 2026").
+* **Current directors.** The end anchor is the latest stored close (`latest_close`), shown with
+  its date ("through Oct 2, 2026"). Prices refresh weekly, so this close is at most about a
+  week old. The site reports history, not live quotes.
 * **Left after the stock stopped trading** (acquisition, delisting). The end anchor is the
   last trading day (`last_trade`). Acquisition consideration is not yet modeled.
 

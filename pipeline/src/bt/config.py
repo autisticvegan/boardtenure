@@ -8,6 +8,11 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[3]
 
+# Freshness target: the product shows historical performance, so stored prices and filings
+# may lag by up to a week. Refresh runs weekly; staleness alarms allow a weekend/holiday margin.
+FRESHNESS_DAYS = 7
+STALE_AFTER_DAYS = FRESHNESS_DAYS + 3
+
 
 def _load_dotenv(path: Path) -> None:
     if not path.exists():

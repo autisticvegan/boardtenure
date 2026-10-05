@@ -14,6 +14,8 @@ from dataclasses import dataclass
 import psycopg
 from psycopg.rows import tuple_row
 
+from bt.config import STALE_AFTER_DAYS
+
 # Shared SQL fragment: priority tier of a membership row aliased `m`.
 PRIORITY = """CASE WHEN m.status = 'current' THEN 1
                    WHEN m.end_date >= current_date - interval '5 years' THEN 2 ELSE 3 END"""
@@ -154,20 +156,21 @@ CHECKS: list[Check] = [
                json_build_object('first_missing', min(m.trade_date), 'count', count(*))
         FROM missing m JOIN security s ON s.id = m.security_id GROUP BY m.security_id, s.company_id, s.symbol"""),
 
-    Check("stale_prices", "warning", """
+    Check("stale_prices", "warning", f"""
         WITH latest AS (SELECT security_id, max(trade_date) AS d FROM price_daily GROUP BY security_id),
         bench AS (SELECT max(trade_date) AS d FROM price_daily
                   WHERE security_id = (SELECT security_id FROM benchmark WHERE is_default))
         SELECT s.id::text, 1, s.company_id, NULL::bigint, 'company', s.company_id,
-               s.symbol || ' prices end ' || l.d || ', behind the benchmark (' || b.d || ')', '{}'::json
+               s.symbol || ' prices end ' || l.d || ', more than {STALE_AFTER_DAYS} days behind the benchmark (' || b.d || ')',
+               '{{}}'::json
         FROM security s JOIN latest l ON l.security_id = s.id, bench b
-        WHERE s.is_primary AND s.last_trade_date IS NULL AND l.d < b.d"""),
+        WHERE s.is_primary AND s.last_trade_date IS NULL AND l.d < b.d - {STALE_AFTER_DAYS}"""),
 
-    Check("stale_benchmark", "warning", """
+    Check("stale_benchmark", "warning", f"""
         SELECT 'bench', 1, NULL::bigint, NULL::bigint, 'company', NULL::bigint,
-               'Benchmark prices are more than 4 days old (latest ' || max(trade_date) || ')', '{}'::json
+               'Benchmark prices are more than {STALE_AFTER_DAYS} days old (latest ' || max(trade_date) || ')', '{{}}'::json
         FROM price_daily WHERE security_id = (SELECT security_id FROM benchmark WHERE is_default)
-        HAVING max(trade_date) < current_date - 4"""),
+        HAVING max(trade_date) < current_date - {STALE_AFTER_DAYS}"""),
 
     Check("stale_tenure_analytics", "warning", """
         SELECT tp.company_id::text, 1, tp.company_id, NULL::bigint, 'company', tp.company_id,

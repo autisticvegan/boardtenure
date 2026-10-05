@@ -4,7 +4,8 @@ import { Badge, Card } from "@/components/ui";
 import { fmtDate } from "@/lib/format";
 import { getDataThrough, getRecentEvents, listCompanies } from "@/lib/queries";
 
-export const revalidate = 3600;
+// Data refreshes weekly (historical focus), so a day-long cache is always fresh enough.
+export const revalidate = 86400;
 
 export default async function Home() {
   const [companies, events, through] = await Promise.all([listCompanies(), getRecentEvents(), getDataThrough()]);
