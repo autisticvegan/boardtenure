@@ -1,0 +1,158 @@
+@import "tailwindcss";
+
+/* Dark mode follows data-theme on <html> (set before paint by the inline script in layout.tsx). */
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+/*
+ * Design tokens. Values come from the dataviz reference palette (validated for CVD
+ * separation and contrast on these exact surfaces); dark mode is its own selected set.
+ */
+:root {
+  color-scheme: light;
+  --bg: #f9f9f7;
+  --surface: #fcfcfb;
+  --surface-2: #f2f1ed;
+  --surface-3: #e9e8e3;
+  --ink: #0b0b0b;
+  --ink-2: #52514e;
+  --ink-3: #898781;
+  --line: #e1e0d9;
+  --line-strong: #c3c2b7;
+  --ring: rgba(11, 11, 11, 0.1);
+  --accent: #2a78d6;
+  --accent-ink: #1c5cab;
+  --accent-wash: rgba(42, 120, 214, 0.1);
+  --band: rgba(42, 120, 214, 0.07);
+  --bench: #898781;
+  --pos: #006300;
+  --neg: #c22f2f;
+  --warn: #9a6200;
+  --warn-wash: rgba(250, 178, 25, 0.16);
+  --shadow: 0 1px 2px rgba(11, 11, 11, 0.04), 0 8px 24px -12px rgba(11, 11, 11, 0.12);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --bg: #0d0d0d;
+    --surface: #1a1a19;
+    --surface-2: #222220;
+    --surface-3: #2c2c2a;
+    --ink: #ffffff;
+    --ink-2: #c3c2b7;
+    --ink-3: #898781;
+    --line: #2c2c2a;
+    --line-strong: #383835;
+    --ring: rgba(255, 255, 255, 0.1);
+    --accent: #3987e5;
+    --accent-ink: #86b6ef;
+    --accent-wash: rgba(57, 135, 229, 0.16);
+    --band: rgba(57, 135, 229, 0.1);
+    --bench: #898781;
+    --pos: #0ca30c;
+    --neg: #e66767;
+    --warn: #fab219;
+    --warn-wash: rgba(250, 178, 25, 0.12);
+    --shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 8px 24px -12px rgba(0, 0, 0, 0.6);
+  }
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #0d0d0d;
+  --surface: #1a1a19;
+  --surface-2: #222220;
+  --surface-3: #2c2c2a;
+  --ink: #ffffff;
+  --ink-2: #c3c2b7;
+  --ink-3: #898781;
+  --line: #2c2c2a;
+  --line-strong: #383835;
+  --ring: rgba(255, 255, 255, 0.1);
+  --accent: #3987e5;
+  --accent-ink: #86b6ef;
+  --accent-wash: rgba(57, 135, 229, 0.16);
+  --band: rgba(57, 135, 229, 0.1);
+  --bench: #898781;
+  --pos: #0ca30c;
+  --neg: #e66767;
+  --warn: #fab219;
+  --warn-wash: rgba(250, 178, 25, 0.12);
+  --shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 8px 24px -12px rgba(0, 0, 0, 0.6);
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-surface-3: var(--surface-3);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-ink-3: var(--ink-3);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+  --color-accent: var(--accent);
+  --color-accent-ink: var(--accent-ink);
+  --color-accent-wash: var(--accent-wash);
+  --color-pos: var(--pos);
+  --color-neg: var(--neg);
+  --color-warn: var(--warn);
+  --color-warn-wash: var(--warn-wash);
+  --font-sans: var(--font-inter), system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: var(--font-mono-face), ui-monospace, "SF Mono", Menlo, monospace;
+  --shadow-card: var(--shadow);
+}
+
+html {
+  background: var(--bg);
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-feature-settings: "cv11", "ss01";
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--accent-wash);
+}
+
+/* Numbers that align in columns or axes. Large standalone figures keep proportional digits. */
+.num {
+  font-variant-numeric: tabular-nums;
+}
+
+.skeleton {
+  background: linear-gradient(90deg, var(--surface-2) 0%, var(--surface-3) 50%, var(--surface-2) 100%);
+  background-size: 200% 100%;
+  animation: shimmer 1.4s ease-in-out infinite;
+  border-radius: 6px;
+}
+
+@keyframes shimmer {
+  0% { background-position: 100% 0; }
+  100% { background-position: -100% 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .skeleton { animation: none; }
+  * { transition-duration: 0ms !important; animation-duration: 0ms !important; }
+}
+
+/* Long-form documents (methodology, sources, terms). */
+.doc { color: var(--ink-2); font-size: 14px; line-height: 1.7; }
+.doc h1 { color: var(--ink); font-size: 28px; font-weight: 600; letter-spacing: -0.02em; margin: 0 0 0.5rem; }
+.doc h2 { color: var(--ink); font-size: 18px; font-weight: 600; letter-spacing: -0.01em; margin: 2.25rem 0 0.75rem; }
+.doc h3 { color: var(--ink); font-size: 15px; font-weight: 600; margin: 1.5rem 0 0.5rem; }
+.doc p, .doc ul, .doc ol { margin: 0.75rem 0; }
+.doc ul { list-style: disc; padding-left: 1.25rem; }
+.doc ol { list-style: decimal; padding-left: 1.25rem; }
+.doc li { margin: 0.3rem 0; }
+.doc strong { color: var(--ink); font-weight: 600; }
+.doc a { color: var(--accent-ink); text-decoration: underline; text-underline-offset: 2px; }
+.doc code { font-family: var(--font-mono); font-size: 12.5px; background: var(--surface-2); border: 1px solid var(--line); border-radius: 4px; padding: 0 4px; color: var(--ink); }
+.doc table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 13px; display: block; overflow-x: auto; }
+.doc th { text-align: left; font-weight: 500; color: var(--ink-3); border-bottom: 1px solid var(--line-strong); padding: 6px 12px 6px 0; }
+.doc td { border-bottom: 1px solid var(--line); padding: 6px 12px 6px 0; vertical-align: top; }

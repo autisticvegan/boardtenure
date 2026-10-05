@@ -1,0 +1,5050 @@
+{
+ "company": {
+  "cik": "0001759509",
+  "ticker": "LYFT",
+  "legal_name": "Lyft, Inc.",
+  "exchange": "Nasdaq Global Select Market",
+  "ipo_pricing_date": "2019-03-28",
+  "ipo_date": "2019-03-29",
+  "state_of_incorporation": "Delaware",
+  "incorporated": "2007 (as Bounder Web, Inc.; renamed Zimride, Inc. in 2008)",
+  "dual_class": "Class B (20 votes/share, held by founders) converted into Class A on 2025-08-15; charter references removed 2026-06-03",
+  "classified_board": true
+ },
+ "as_of": "2026-10-04",
+ "sources_reviewed_through": "2026-10-02 (latest filing in EDGAR submissions feed fetched 2026-10-04)",
+ "people": [
+  {
+   "key": "sean-aggarwal",
+   "full_name": "Prashant (Sean) Aggarwal",
+   "aliases": [
+    "Sean Aggarwal",
+    "Prashant Aggarwal",
+    "Aggarwal Prashant"
+   ],
+   "sec_cik": "0001558267",
+   "bio_other_public_boards": [
+    {
+     "company": "Arlo Technologies, Inc.",
+     "status": "current",
+     "years": "not stated (listed since IPO prospectus)",
+     "source_ref": "e174",
+     "public_company_stated_in_source": false,
+     "corroborating_refs": [
+      "e021",
+      "e126"
+     ]
+    },
+    {
+     "company": "Sonder Holdings Inc.",
+     "status": "former",
+     "years": "not stated (listed as current in 2023-2025 proxies; 'in the past five years' in 2026 proxy)",
+     "source_ref": "e174",
+     "public_company_stated_in_source": false,
+     "corroborating_refs": [
+      "e126"
+     ]
+    },
+    {
+     "company": "Yatra Online, Inc.",
+     "status": "former",
+     "years": "not stated (current at IPO; former by 2022 proxy)",
+     "source_ref": "e174",
+     "public_company_stated_in_source": false,
+     "corroborating_refs": [
+      "e021"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "david-risher",
+   "full_name": "John David Risher",
+   "aliases": [
+    "David Risher",
+    "Risher John David"
+   ],
+   "sec_cik": "0001869638",
+   "bio_other_public_boards": []
+  },
+  {
+   "key": "david-lawee",
+   "full_name": "David Lawee",
+   "aliases": [
+    "Lawee David"
+   ],
+   "sec_cik": "0001760864",
+   "bio_other_public_boards": []
+  },
+  {
+   "key": "dave-stephenson",
+   "full_name": "David E. Stephenson",
+   "aliases": [
+    "Dave Stephenson",
+    "David Stephenson",
+    "Stephenson Dave"
+   ],
+   "sec_cik": "0001834164",
+   "bio_other_public_boards": [
+    {
+     "company": "SiriusXM Holdings, Inc.",
+     "status": "current",
+     "years": "since September 2025",
+     "source_ref": "e173",
+     "public_company_stated_in_source": false
+    }
+   ]
+  },
+  {
+   "key": "janey-whiteside",
+   "full_name": "Janey Whiteside",
+   "aliases": [
+    "Whiteside Janey"
+   ],
+   "sec_cik": "0001973495",
+   "bio_other_public_boards": [
+    {
+     "company": "LendingClub Corporation",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e179",
+     "public_company_stated_in_source": true,
+     "note": "described as 'a publicly traded bank'"
+    }
+   ]
+  },
+  {
+   "key": "betsey-stevenson",
+   "full_name": "Betsey Stevenson",
+   "aliases": [
+    "Stevenson Betsey"
+   ],
+   "sec_cik": "0002000921",
+   "bio_other_public_boards": []
+  },
+  {
+   "key": "jill-beggs",
+   "full_name": "Jill Beggs",
+   "aliases": [
+    "Beggs Jill"
+   ],
+   "sec_cik": "0002006278",
+   "bio_other_public_boards": []
+  },
+  {
+   "key": "deborah-hersman",
+   "full_name": "Deborah A.P. Hersman",
+   "aliases": [
+    "Deborah Hersman",
+    "Hersman Deborah"
+   ],
+   "sec_cik": "0001778660",
+   "bio_other_public_boards": [
+    {
+     "company": "ONE Gas, Inc.",
+     "status": "current",
+     "years": "since June 2023 (Chair starting May 2026, as stated)",
+     "source_ref": "e171",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "NiSource Inc.",
+     "status": "current",
+     "years": "since June 2019",
+     "source_ref": "e171",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Velodyne Lidar, Inc.",
+     "status": "former",
+     "years": "within the past five years (dates not stated)",
+     "source_ref": "e172",
+     "public_company_stated_in_source": false
+    }
+   ]
+  },
+  {
+   "key": "ben-minicucci",
+   "full_name": "Ben Minicucci",
+   "aliases": [
+    "Benito Minicucci",
+    "MINICUCCI BENITO"
+   ],
+   "sec_cik": "0001451455",
+   "bio_other_public_boards": [
+    {
+     "company": "Alaska Air Group, Inc.",
+     "status": "current",
+     "years": "since 2020",
+     "source_ref": "e195",
+     "public_company_stated_in_source": false,
+     "note": "also CEO and President of Air Group"
+    },
+    {
+     "company": "PG&E Corporation",
+     "status": "former",
+     "years": "2018 to 2019",
+     "source_ref": "e195",
+     "public_company_stated_in_source": false
+    }
+   ]
+  },
+  {
+   "key": "logan-green",
+   "full_name": "Logan Green",
+   "aliases": [
+    "Green Logan"
+   ],
+   "sec_cik": "0001677874",
+   "bio_other_public_boards": [
+    {
+     "company": "eBay Inc.",
+     "status": "current",
+     "years": "not stated (listed from IPO prospectus through 2025 proxy)",
+     "source_ref": "e133",
+     "public_company_stated_in_source": false,
+     "corroborating_refs": [
+      "e020"
+     ],
+     "note": "status as of 2025-04-24 proxy, his last Lyft proxy"
+    }
+   ]
+  },
+  {
+   "key": "john-zimmer",
+   "full_name": "John Patrick Zimmer",
+   "aliases": [
+    "John Zimmer",
+    "Zimmer John Patrick"
+   ],
+   "sec_cik": "0001766269",
+   "bio_other_public_boards": []
+  },
+  {
+   "key": "ariel-cohen",
+   "full_name": "Ariel M. Cohen",
+   "aliases": [
+    "Ariel Cohen",
+    "Cohen Ariel M."
+   ],
+   "sec_cik": "0001853730",
+   "bio_other_public_boards": []
+  },
+  {
+   "key": "valerie-jarrett",
+   "full_name": "Valerie B. Jarrett",
+   "aliases": [
+    "Valerie Jarrett",
+    "JARRETT VALERIE B"
+   ],
+   "sec_cik": "0001208575",
+   "bio_other_public_boards": [
+    {
+     "company": "Ralph Lauren Corporation",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e107",
+     "public_company_stated_in_source": false,
+     "note": "status as of 2023-05-01 proxy, her last Lyft proxy"
+    },
+    {
+     "company": "Walgreens Boots Alliance, Inc.",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e107",
+     "public_company_stated_in_source": false,
+     "note": "status as of 2023-05-01 proxy"
+    },
+    {
+     "company": "Sweetgreen, Inc.",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e107",
+     "public_company_stated_in_source": false,
+     "note": "status as of 2023-05-01 proxy"
+    },
+    {
+     "company": "2U, Inc.",
+     "status": "former",
+     "years": "not stated (current at IPO; 'in the past five years' by 2022/2023 proxies)",
+     "source_ref": "e108",
+     "public_company_stated_in_source": false,
+     "corroborating_refs": [
+      "e023"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "maggie-wilderotter",
+   "full_name": "Mary Agnes (Maggie) Wilderotter",
+   "aliases": [
+    "Maggie Wilderotter",
+    "Mary Agnes Wilderotter",
+    "Wilderotter Mary Agnes"
+   ],
+   "sec_cik": "0001180610",
+   "bio_other_public_boards": [
+    {
+     "company": "Costco Wholesale Corporation",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e105",
+     "public_company_stated_in_source": true,
+     "note": "status as of 2023-05-01 proxy"
+    },
+    {
+     "company": "DocuSign, Inc.",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e105",
+     "public_company_stated_in_source": true,
+     "note": "status as of 2023-05-01 proxy"
+    },
+    {
+     "company": "Sana Biotechnology, Inc.",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e105",
+     "public_company_stated_in_source": true,
+     "note": "status as of 2023-05-01 proxy"
+    },
+    {
+     "company": "Cadence Design Systems, Inc.",
+     "status": "former",
+     "years": "through April 2020",
+     "source_ref": "e063",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Juno Therapeutics, Inc.",
+     "status": "former",
+     "years": "within five years before 2023 proxy",
+     "source_ref": "e106",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Hewlett Packard Enterprise Company",
+     "status": "former",
+     "years": "not stated (current at IPO)",
+     "source_ref": "e106",
+     "public_company_stated_in_source": true,
+     "corroborating_refs": [
+      "e024"
+     ]
+    },
+    {
+     "company": "Xerox Corporation",
+     "status": "former",
+     "years": "within five years before IPO prospectus",
+     "source_ref": "e025",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "DreamWorks Animation SKG, Inc.",
+     "status": "former",
+     "years": "within five years before IPO prospectus",
+     "source_ref": "e025",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "The Procter & Gamble Company",
+     "status": "former",
+     "years": "within five years before IPO prospectus",
+     "source_ref": "e025",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Frontier Communications Corporation",
+     "status": "former",
+     "years": "director 2004-2006 as President/CEO; Executive Chairman April 2015 to April 2016",
+     "source_ref": "e029",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "ann-miura-ko",
+   "full_name": "R. Ann Miura-Ko",
+   "aliases": [
+    "Ann Miura-Ko",
+    "Miura-Ko R. Ann"
+   ],
+   "sec_cik": "0001760220",
+   "bio_other_public_boards": []
+  },
+  {
+   "key": "ben-horowitz",
+   "full_name": "Benjamin A. Horowitz",
+   "aliases": [
+    "Ben Horowitz",
+    "HOROWITZ BENJAMIN A"
+   ],
+   "sec_cik": "0001166586",
+   "bio_other_public_boards": [
+    {
+     "company": "Okta, Inc.",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e022",
+     "public_company_stated_in_source": false,
+     "note": "status as of IPO prospectus / 2020 proxy"
+    }
+   ]
+  },
+  {
+   "key": "hiroshi-mikitani",
+   "full_name": "Hiroshi Mikitani",
+   "aliases": [
+    "Hiroshi “Mickey” Mikitani",
+    "Mickey Mikitani",
+    "Mikitani Hiroshi"
+   ],
+   "sec_cik": "0001760624",
+   "bio_other_public_boards": [
+    {
+     "company": "Rakuten, Inc.",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e028",
+     "public_company_stated_in_source": false,
+     "note": "filing states he is 'founder, Chairman and Chief Executive Officer' of Rakuten; it does not call Rakuten public or describe a board seat beyond the Chairman title"
+    }
+   ]
+  },
+  {
+   "key": "jonathan-christodoro",
+   "full_name": "Jonathan Christodoro",
+   "aliases": [],
+   "sec_cik": null,
+   "bio_other_public_boards": [
+    {
+     "company": "PayPal Holdings, Inc.",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e026",
+     "public_company_stated_in_source": false,
+     "note": "status as of 2019-03-28 prospectus"
+    },
+    {
+     "company": "Herbalife Nutrition Ltd.",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e026",
+     "public_company_stated_in_source": false,
+     "note": "status as of 2019-03-28 prospectus"
+    },
+    {
+     "company": "Enzon Pharmaceuticals, Inc.",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e026",
+     "public_company_stated_in_source": false,
+     "note": "status as of 2019-03-28 prospectus"
+    },
+    {
+     "company": "SandRidge Energy, Inc.",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e026",
+     "public_company_stated_in_source": false,
+     "note": "status as of 2019-03-28 prospectus"
+    },
+    {
+     "company": "Xerox Corporation",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e026",
+     "public_company_stated_in_source": false,
+     "note": "status as of 2019-03-28 prospectus"
+    },
+    {
+     "company": "eBay Inc.",
+     "status": "former",
+     "years": "not stated",
+     "source_ref": "e027",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Cheniere Energy, Inc.",
+     "status": "former",
+     "years": "not stated",
+     "source_ref": "e027",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "American Railcar Industries, Inc.",
+     "status": "former",
+     "years": "not stated",
+     "source_ref": "e027",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Hologic, Inc.",
+     "status": "former",
+     "years": "not stated",
+     "source_ref": "e027",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Talisman Energy Inc.",
+     "status": "former",
+     "years": "not stated",
+     "source_ref": "e027",
+     "public_company_stated_in_source": false
+    }
+   ]
+  }
+ ],
+ "memberships": [
+  {
+   "person_key": "sean-aggarwal",
+   "start_date": "2016-02",
+   "start_date_precision": "month",
+   "start_date_basis": "prospectus/proxy bio 'member of our board of directors since February 2016'",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e005",
+    "e015",
+    "e223",
+    "e163",
+    "e188",
+    "e042",
+    "e200",
+    "e215"
+   ],
+   "board_class": "III",
+   "notes": "Pre-IPO director (Series B preferred designee per prospectus). Class III; re-elected 2022 and 2025 (term to 2028). Form 3 date (2019-03-28) is the IPO date, not his start."
+  },
+  {
+   "person_key": "david-risher",
+   "start_date": "2021-07-09",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 appointment date (Form 3 event date agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e075",
+    "e051",
+    "e080",
+    "e170",
+    "e183",
+    "e192",
+    "e193"
+   ],
+   "board_class": "I",
+   "notes": "Joined as independent director; CEO since 2023-04-17. Class I; re-elected 2023 and 2026 (term to 2029)."
+  },
+  {
+   "person_key": "david-lawee",
+   "start_date": "2017-11",
+   "start_date_precision": "month",
+   "start_date_basis": "prospectus/proxy bio 'since November 2017'",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e008",
+    "e014",
+    "e227",
+    "e177",
+    "e186",
+    "e045",
+    "e201",
+    "e216"
+   ],
+   "board_class": "II",
+   "notes": "Pre-IPO director (Series H designee per prospectus). Class II; re-elected 2021 and 2024 (term to 2027)."
+  },
+  {
+   "person_key": "dave-stephenson",
+   "start_date": "2023-02-01",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 appointment date (Form 3 event date agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e090",
+    "e052",
+    "e181",
+    "e185",
+    "e192",
+    "e205"
+   ],
+   "board_class": "I",
+   "notes": "Class I; elected 2023, re-elected 2026 (term to 2029)."
+  },
+  {
+   "person_key": "janey-whiteside",
+   "start_date": "2023-07-31",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 effective date (board action 2023-07-24; Form 3 event date 2023-07-31)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e111",
+    "e053",
+    "e178",
+    "e187",
+    "e203",
+    "e216"
+   ],
+   "board_class": "II",
+   "notes": "Class II; elected 2024 (term to 2027)."
+  },
+  {
+   "person_key": "betsey-stevenson",
+   "start_date": "2023-11-16",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 appointment date (Form 3 event date agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e115",
+    "e054",
+    "e176",
+    "e190",
+    "e204",
+    "e215"
+   ],
+   "board_class": "III",
+   "notes": "Class III; elected 2025 (term to 2028)."
+  },
+  {
+   "person_key": "jill-beggs",
+   "start_date": "2023-12-31",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 appointment date (Form 3 event date agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e117",
+    "e055",
+    "e175",
+    "e189",
+    "e202",
+    "e215"
+   ],
+   "board_class": "III",
+   "notes": "Class III; elected 2025 (term to 2028). 8-K filed 2024-01-03."
+  },
+  {
+   "person_key": "deborah-hersman",
+   "start_date": "2026-01-25",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 appointment date (Form 3 event date agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e160",
+    "e056",
+    "e182",
+    "e184",
+    "e192",
+    "e193",
+    "e206"
+   ],
+   "board_class": "I",
+   "notes": "Class I; elected 2026 (term to 2029)."
+  },
+  {
+   "person_key": "ben-minicucci",
+   "start_date": "2026-07-23",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 appointment date (Form 3 event date agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e194",
+    "e057",
+    "e207"
+   ],
+   "board_class": "II",
+   "notes": "Class II (term to 2027). Appointed after the 2026 proxy; committee assignments and independence determination not yet disclosed."
+  },
+  {
+   "person_key": "logan-green",
+   "start_date": "2007",
+   "start_date_precision": "year",
+   "start_date_basis": "proxy 'Director Since' 2007 and bio 'since our founding' (company incorporated 2007)",
+   "end_date": "2025-08-14",
+   "end_date_precision": "day",
+   "end_reason": "resigned",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e003",
+    "e001",
+    "e013",
+    "e228",
+    "e062",
+    "e140",
+    "e040",
+    "e149"
+   ],
+   "board_class": "I",
+   "notes": "Co-founder; CEO-director from founding to 2023-04-17, then Chair to 2025-08-14. Class I. Only the year of joining is disclosed."
+  },
+  {
+   "person_key": "john-zimmer",
+   "start_date": "2010-06",
+   "start_date_precision": "month",
+   "start_date_basis": "prospectus/proxy bio 'member of our board of directors since June 2010'",
+   "end_date": "2025-08-14",
+   "end_date_precision": "day",
+   "end_reason": "resigned",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e004",
+    "e014",
+    "e228",
+    "e134",
+    "e141",
+    "e041",
+    "e149"
+   ],
+   "board_class": "II",
+   "notes": "Co-founder; Vice Chair from January 2019; President until 2023-06-30. Class II."
+  },
+  {
+   "person_key": "ariel-cohen",
+   "start_date": "2021-03-29",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 appointment date (Form 3 event date agrees)",
+   "end_date": "2025-05-22",
+   "end_date_precision": "day",
+   "end_reason": "resigned",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e070",
+    "e050",
+    "e076",
+    "e135",
+    "e142",
+    "e145",
+    "e147",
+    "e180"
+   ],
+   "board_class": "III",
+   "notes": "Class III. Resigned two weeks before the 2025 meeting, where he had been a company nominee; nomination withdrawn."
+  },
+  {
+   "person_key": "maggie-wilderotter",
+   "start_date": "2018-05",
+   "start_date_precision": "month",
+   "start_date_basis": "prospectus/proxy bio 'since May 2018'",
+   "end_date": "2023-10-12",
+   "end_date_precision": "day",
+   "end_reason": "resigned",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e011",
+    "e015",
+    "e226",
+    "e212",
+    "e048",
+    "e113"
+   ],
+   "board_class": "III",
+   "notes": "Pre-IPO director (Series F designee per prospectus). Class III."
+  },
+  {
+   "person_key": "valerie-jarrett",
+   "start_date": "2017-07",
+   "start_date_precision": "month",
+   "start_date_basis": "prospectus/proxy bio 'since July 2017'",
+   "end_date": "2023-10-12",
+   "end_date_precision": "day",
+   "end_reason": "resigned",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e007",
+    "e014",
+    "e229",
+    "e213",
+    "e044",
+    "e113"
+   ],
+   "board_class": "II",
+   "notes": "Pre-IPO director (common + preferred designee per prospectus). Class II."
+  },
+  {
+   "person_key": "ann-miura-ko",
+   "start_date": "2016-06",
+   "start_date_precision": "month",
+   "start_date_basis": "prospectus/proxy bio 'rejoined ... since June 2016'",
+   "end_date": "2023-06-15",
+   "end_date_precision": "day",
+   "end_reason": "did_not_stand",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e010",
+    "e013",
+    "e228",
+    "e210",
+    "e211",
+    "e047",
+    "e097",
+    "e109",
+    "e110"
+   ],
+   "board_class": "I",
+   "notes": "Second stint. Class I. Did not stand for re-election; term ended at the 2023-06-15 annual meeting (date taken from the 8-K Item 5.07)."
+  },
+  {
+   "person_key": "hiroshi-mikitani",
+   "start_date": "2015-03",
+   "start_date_precision": "month",
+   "start_date_basis": "prospectus/proxy bio 'since March 2015'",
+   "end_date": "2020-08-31",
+   "end_date_precision": "day",
+   "end_reason": "resigned",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e009",
+    "e015",
+    "e225",
+    "e209",
+    "e046",
+    "e208",
+    "e067"
+   ],
+   "board_class": "III",
+   "notes": "Pre-IPO director (Series E designee per prospectus). Class III."
+  },
+  {
+   "person_key": "ben-horowitz",
+   "start_date": "2016-06",
+   "start_date_precision": "month",
+   "start_date_basis": "prospectus/proxy bio 'since June 2016'",
+   "end_date": "2020-06-19",
+   "end_date_precision": "day",
+   "end_reason": "did_not_stand",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e006",
+    "e013",
+    "e224",
+    "e214",
+    "e043",
+    "e060",
+    "e065",
+    "e066"
+   ],
+   "board_class": "I",
+   "notes": "Pre-IPO director (Series C designee per prospectus). Class I. Did not stand; term ended at the 2020-06-19 annual meeting (date taken from the 8-K Item 5.07)."
+  },
+  {
+   "person_key": "ann-miura-ko",
+   "start_date": "2010-06",
+   "start_date_precision": "month",
+   "start_date_basis": "prospectus/proxy bio 'from June 2010 to May 2013'",
+   "end_date": "2013-05",
+   "end_date_precision": "month",
+   "end_reason": null,
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e010",
+    "e210"
+   ],
+   "board_class": null,
+   "notes": "First stint, entirely pre-IPO. Reason for the 2013 departure is not disclosed."
+  },
+  {
+   "person_key": "jonathan-christodoro",
+   "start_date": "2015-05",
+   "start_date_precision": "month",
+   "start_date_basis": "S-1/prospectus bio 'from May 2015'",
+   "end_date": "2019-03",
+   "end_date_precision": "month",
+   "end_reason": "resigned",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e030",
+    "e031",
+    "e012"
+   ],
+   "board_class": null,
+   "notes": "Left BEFORE the IPO: listed as a current director in the S-1 filed 2019-03-01, shown as resigned in the S-1/A filed 2019-03-18, so the resignation fell between those dates. Not a public-company director of Lyft; no Lyft Form 3."
+  }
+ ],
+ "roles": [
+  {
+   "person_key": "sean-aggarwal",
+   "role": "chair",
+   "start_date": "2019-01",
+   "end_date": "2023-04-17",
+   "precision": "month",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e005",
+    "e094",
+    "e163"
+   ],
+   "notes": "Independent chair (pre-IPO start)."
+  },
+  {
+   "person_key": "sean-aggarwal",
+   "role": "lead_independent_director",
+   "start_date": "2023-04-17",
+   "end_date": "2025-08",
+   "precision": "day",
+   "end_precision": "month",
+   "confidence": "high",
+   "evidence_refs": [
+    "e094",
+    "e163"
+   ],
+   "notes": "End = his appointment as Chair in August 2025; filings do not give the day (see conflicts)."
+  },
+  {
+   "person_key": "sean-aggarwal",
+   "role": "chair",
+   "start_date": "2025-08",
+   "end_date": null,
+   "precision": "month",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e151",
+    "e153",
+    "e163",
+    "e164",
+    "e154",
+    "e188"
+   ],
+   "notes": "Independent chair. Succeeded Green, whose resignation was effective 2025-08-14; the 8-K and press release are dated 2025-08-14 but the appointment day is not stated."
+  },
+  {
+   "person_key": "sean-aggarwal",
+   "role": "independent_director",
+   "start_date": "2016-02",
+   "end_date": null,
+   "precision": "month",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e016",
+    "e222",
+    "e219",
+    "e081",
+    "e217",
+    "e218",
+    "e136",
+    "e165"
+   ],
+   "notes": "Found independent in every disclosed determination (IPO prospectus, then each proxy). Start aligned to board start; the filings don't date independence on its own."
+  },
+  {
+   "person_key": "logan-green",
+   "role": "ceo_director",
+   "start_date": "2007",
+   "end_date": "2023-04-17",
+   "precision": "year",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e003",
+    "e093",
+    "e132"
+   ]
+  },
+  {
+   "person_key": "logan-green",
+   "role": "chair",
+   "start_date": "2023-04-17",
+   "end_date": "2025-08-14",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e094",
+    "e132",
+    "e149"
+   ],
+   "notes": "Non-independent chair."
+  },
+  {
+   "person_key": "logan-green",
+   "role": "non_independent_director",
+   "start_date": "2023-04-17",
+   "end_date": "2025-08-14",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "medium",
+   "evidence_refs": [
+    "e094",
+    "e136"
+   ],
+   "notes": "Non-employee, non-independent after leaving the CEO role (served one year as non-employee advisor)."
+  },
+  {
+   "person_key": "john-zimmer",
+   "role": "executive_director",
+   "start_date": "2010-06",
+   "end_date": "2023-06-30",
+   "precision": "month",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e004",
+    "e093",
+    "e096",
+    "e134"
+   ],
+   "notes": "Employee-director (COO 2008-2013, President March 2013 to 2023-06-30)."
+  },
+  {
+   "person_key": "john-zimmer",
+   "role": "vice_chair",
+   "start_date": "2019-01",
+   "end_date": "2025-08-14",
+   "precision": "month",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e004",
+    "e094",
+    "e134",
+    "e149"
+   ]
+  },
+  {
+   "person_key": "john-zimmer",
+   "role": "non_independent_director",
+   "start_date": "2023-06-30",
+   "end_date": "2025-08-14",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "medium",
+   "evidence_refs": [
+    "e096",
+    "e136"
+   ],
+   "notes": "Non-employee, non-independent director after leaving the President role."
+  },
+  {
+   "person_key": "david-risher",
+   "role": "independent_director",
+   "start_date": "2021-07-09",
+   "end_date": "2023-04-17",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "medium",
+   "evidence_refs": [
+    "e075",
+    "e081",
+    "e092",
+    "e100"
+   ],
+   "notes": "Found independent in the 2022 proxy. Filings don't date when this ended: he left the NCG in March 2023 when his CEO appointment was announced (2023-03-27), and he became CEO on 2023-04-17."
+  },
+  {
+   "person_key": "david-risher",
+   "role": "ceo_director",
+   "start_date": "2023-04-17",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e092",
+    "e170",
+    "e183"
+   ],
+   "notes": "The 2023-03-27 8-K said he would also become President on 2023-07-01; the 2023-04-26 8-K reversed this and Kristin Sverchek became President instead."
+  },
+  {
+   "person_key": "david-lawee",
+   "role": "independent_director",
+   "start_date": "2017-11",
+   "end_date": null,
+   "precision": "month",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e016",
+    "e222",
+    "e219",
+    "e081",
+    "e217",
+    "e218",
+    "e136",
+    "e165"
+   ],
+   "notes": "Start aligned to board start (see aggarwal note)."
+  },
+  {
+   "person_key": "dave-stephenson",
+   "role": "independent_director",
+   "start_date": "2023-02-01",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e217",
+    "e218",
+    "e136",
+    "e165"
+   ],
+   "notes": "First disclosed determination: 2023 proxy. Start aligned to appointment date."
+  },
+  {
+   "person_key": "janey-whiteside",
+   "role": "independent_director",
+   "start_date": "2023-07-31",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e218",
+    "e136",
+    "e165"
+   ],
+   "notes": "First disclosed determination: 2024 proxy. Start aligned to appointment date."
+  },
+  {
+   "person_key": "betsey-stevenson",
+   "role": "independent_director",
+   "start_date": "2023-11-16",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e218",
+    "e136",
+    "e165"
+   ],
+   "notes": "First disclosed determination: 2024 proxy. Start aligned to appointment date."
+  },
+  {
+   "person_key": "jill-beggs",
+   "role": "independent_director",
+   "start_date": "2023-12-31",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e218",
+    "e136",
+    "e165"
+   ],
+   "notes": "First disclosed determination: 2024 proxy. Start aligned to appointment date."
+  },
+  {
+   "person_key": "deborah-hersman",
+   "role": "independent_director",
+   "start_date": "2026-01-25",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e165"
+   ],
+   "notes": "First disclosed determination: 2026 proxy. Start aligned to appointment date."
+  },
+  {
+   "person_key": "ben-minicucci",
+   "role": "non_employee_director",
+   "start_date": "2026-07-23",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e194",
+    "e196"
+   ],
+   "notes": "No independence determination disclosed yet. The 8-K reports a Lyft-Alaska Airlines partnership (he is CEO of Alaska Air Group)."
+  },
+  {
+   "person_key": "ariel-cohen",
+   "role": "independent_director",
+   "start_date": "2021-03-29",
+   "end_date": "2025-05-22",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "medium",
+   "evidence_refs": [
+    "e219",
+    "e081",
+    "e217",
+    "e218",
+    "e136"
+   ]
+  },
+  {
+   "person_key": "maggie-wilderotter",
+   "role": "independent_director",
+   "start_date": "2018-05",
+   "end_date": "2023-10-12",
+   "precision": "month",
+   "end_precision": "day",
+   "confidence": "medium",
+   "evidence_refs": [
+    "e016",
+    "e222",
+    "e219",
+    "e081",
+    "e217"
+   ]
+  },
+  {
+   "person_key": "valerie-jarrett",
+   "role": "independent_director",
+   "start_date": "2017-07",
+   "end_date": "2023-10-12",
+   "precision": "month",
+   "end_precision": "day",
+   "confidence": "medium",
+   "evidence_refs": [
+    "e016",
+    "e222",
+    "e219",
+    "e081",
+    "e217"
+   ]
+  },
+  {
+   "person_key": "ann-miura-ko",
+   "role": "independent_director",
+   "start_date": "2016-06",
+   "end_date": "2023-06-15",
+   "precision": "month",
+   "end_precision": "day",
+   "confidence": "medium",
+   "evidence_refs": [
+    "e016",
+    "e222",
+    "e219",
+    "e081",
+    "e217"
+   ]
+  },
+  {
+   "person_key": "hiroshi-mikitani",
+   "role": "independent_director",
+   "start_date": "2015-03",
+   "end_date": "2020-08-31",
+   "precision": "month",
+   "end_precision": "day",
+   "confidence": "medium",
+   "evidence_refs": [
+    "e016",
+    "e222"
+   ]
+  },
+  {
+   "person_key": "ben-horowitz",
+   "role": "independent_director",
+   "start_date": "2016-06",
+   "end_date": "2020-06-19",
+   "precision": "month",
+   "end_precision": "day",
+   "confidence": "medium",
+   "evidence_refs": [
+    "e016",
+    "e222"
+   ]
+  }
+ ],
+ "committees": [
+  {
+   "person_key": "maggie-wilderotter",
+   "committee": "audit",
+   "role": "chair",
+   "as_of_filing": "0001193125-19-091446",
+   "as_of_date": "2019-03-29",
+   "evidence_refs": [
+    "e017"
+   ]
+  },
+  {
+   "person_key": "valerie-jarrett",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001193125-19-091446",
+   "as_of_date": "2019-03-29",
+   "evidence_refs": [
+    "e017"
+   ]
+  },
+  {
+   "person_key": "sean-aggarwal",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001193125-19-091446",
+   "as_of_date": "2019-03-29",
+   "evidence_refs": [
+    "e017"
+   ]
+  },
+  {
+   "person_key": "sean-aggarwal",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001193125-19-091446",
+   "as_of_date": "2019-03-29",
+   "evidence_refs": [
+    "e018"
+   ]
+  },
+  {
+   "person_key": "ben-horowitz",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001193125-19-091446",
+   "as_of_date": "2019-03-29",
+   "evidence_refs": [
+    "e018"
+   ]
+  },
+  {
+   "person_key": "david-lawee",
+   "committee": "compensation",
+   "role": "chair",
+   "as_of_filing": "0001193125-19-091446",
+   "as_of_date": "2019-03-29",
+   "evidence_refs": [
+    "e018"
+   ]
+  },
+  {
+   "person_key": "ann-miura-ko",
+   "committee": "nominating_governance",
+   "role": "chair",
+   "as_of_filing": "0001193125-19-091446",
+   "as_of_date": "2019-03-29",
+   "evidence_refs": [
+    "e019"
+   ]
+  },
+  {
+   "person_key": "valerie-jarrett",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001193125-19-091446",
+   "as_of_date": "2019-03-29",
+   "evidence_refs": [
+    "e019"
+   ]
+  },
+  {
+   "person_key": "david-lawee",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001193125-19-091446",
+   "as_of_date": "2019-03-29",
+   "evidence_refs": [
+    "e019"
+   ]
+  },
+  {
+   "person_key": "maggie-wilderotter",
+   "committee": "audit",
+   "role": "chair",
+   "as_of_filing": "0001193125-20-120957",
+   "as_of_date": "2020-04-27",
+   "evidence_refs": [
+    "e068"
+   ]
+  },
+  {
+   "person_key": "valerie-jarrett",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001193125-20-120957",
+   "as_of_date": "2020-04-27",
+   "evidence_refs": [
+    "e068"
+   ]
+  },
+  {
+   "person_key": "sean-aggarwal",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001193125-20-120957",
+   "as_of_date": "2020-04-27",
+   "evidence_refs": [
+    "e068"
+   ]
+  },
+  {
+   "person_key": "sean-aggarwal",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001193125-20-120957",
+   "as_of_date": "2020-04-27",
+   "evidence_refs": [
+    "e064"
+   ]
+  },
+  {
+   "person_key": "ben-horowitz",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001193125-20-120957",
+   "as_of_date": "2020-04-27",
+   "evidence_refs": [
+    "e064"
+   ]
+  },
+  {
+   "person_key": "david-lawee",
+   "committee": "compensation",
+   "role": "chair",
+   "as_of_filing": "0001193125-20-120957",
+   "as_of_date": "2020-04-27",
+   "evidence_refs": [
+    "e064"
+   ]
+  },
+  {
+   "person_key": "ann-miura-ko",
+   "committee": "nominating_governance",
+   "role": "chair",
+   "as_of_filing": "0001193125-20-120957",
+   "as_of_date": "2020-04-27",
+   "evidence_refs": [
+    "e069"
+   ]
+  },
+  {
+   "person_key": "valerie-jarrett",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001193125-20-120957",
+   "as_of_date": "2020-04-27",
+   "evidence_refs": [
+    "e069"
+   ]
+  },
+  {
+   "person_key": "david-lawee",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001193125-20-120957",
+   "as_of_date": "2020-04-27",
+   "evidence_refs": [
+    "e069"
+   ]
+  },
+  {
+   "person_key": "maggie-wilderotter",
+   "committee": "audit",
+   "role": "chair",
+   "as_of_filing": "0001759509-21-000026",
+   "as_of_date": "2021-04-28",
+   "evidence_refs": [
+    "e072"
+   ]
+  },
+  {
+   "person_key": "valerie-jarrett",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001759509-21-000026",
+   "as_of_date": "2021-04-28",
+   "evidence_refs": [
+    "e072"
+   ]
+  },
+  {
+   "person_key": "sean-aggarwal",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001759509-21-000026",
+   "as_of_date": "2021-04-28",
+   "evidence_refs": [
+    "e072"
+   ]
+  },
+  {
+   "person_key": "sean-aggarwal",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001759509-21-000026",
+   "as_of_date": "2021-04-28",
+   "evidence_refs": [
+    "e073"
+   ]
+  },
+  {
+   "person_key": "david-lawee",
+   "committee": "compensation",
+   "role": "chair",
+   "as_of_filing": "0001759509-21-000026",
+   "as_of_date": "2021-04-28",
+   "evidence_refs": [
+    "e073"
+   ]
+  },
+  {
+   "person_key": "ariel-cohen",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001759509-21-000026",
+   "as_of_date": "2021-04-28",
+   "evidence_refs": [
+    "e073"
+   ]
+  },
+  {
+   "person_key": "ann-miura-ko",
+   "committee": "nominating_governance",
+   "role": "chair",
+   "as_of_filing": "0001759509-21-000026",
+   "as_of_date": "2021-04-28",
+   "evidence_refs": [
+    "e074"
+   ]
+  },
+  {
+   "person_key": "valerie-jarrett",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001759509-21-000026",
+   "as_of_date": "2021-04-28",
+   "evidence_refs": [
+    "e074"
+   ]
+  },
+  {
+   "person_key": "david-lawee",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001759509-21-000026",
+   "as_of_date": "2021-04-28",
+   "evidence_refs": [
+    "e074"
+   ]
+  },
+  {
+   "person_key": "maggie-wilderotter",
+   "committee": "audit",
+   "role": "chair",
+   "as_of_filing": "0001759509-22-000034",
+   "as_of_date": "2022-04-29",
+   "evidence_refs": [
+    "e084"
+   ]
+  },
+  {
+   "person_key": "valerie-jarrett",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001759509-22-000034",
+   "as_of_date": "2022-04-29",
+   "evidence_refs": [
+    "e084"
+   ]
+  },
+  {
+   "person_key": "sean-aggarwal",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001759509-22-000034",
+   "as_of_date": "2022-04-29",
+   "evidence_refs": [
+    "e084"
+   ]
+  },
+  {
+   "person_key": "sean-aggarwal",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001759509-22-000034",
+   "as_of_date": "2022-04-29",
+   "evidence_refs": [
+    "e085"
+   ]
+  },
+  {
+   "person_key": "david-lawee",
+   "committee": "compensation",
+   "role": "chair",
+   "as_of_filing": "0001759509-22-000034",
+   "as_of_date": "2022-04-29",
+   "evidence_refs": [
+    "e085"
+   ]
+  },
+  {
+   "person_key": "ariel-cohen",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001759509-22-000034",
+   "as_of_date": "2022-04-29",
+   "evidence_refs": [
+    "e085"
+   ]
+  },
+  {
+   "person_key": "ann-miura-ko",
+   "committee": "nominating_governance",
+   "role": "chair",
+   "as_of_filing": "0001759509-22-000034",
+   "as_of_date": "2022-04-29",
+   "evidence_refs": [
+    "e082"
+   ]
+  },
+  {
+   "person_key": "valerie-jarrett",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001759509-22-000034",
+   "as_of_date": "2022-04-29",
+   "evidence_refs": [
+    "e082"
+   ]
+  },
+  {
+   "person_key": "david-risher",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001759509-22-000034",
+   "as_of_date": "2022-04-29",
+   "evidence_refs": [
+    "e082"
+   ]
+  },
+  {
+   "person_key": "valerie-jarrett",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001759509-23-000049",
+   "as_of_date": "2023-05-01",
+   "evidence_refs": [
+    "e102"
+   ]
+  },
+  {
+   "person_key": "sean-aggarwal",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001759509-23-000049",
+   "as_of_date": "2023-05-01",
+   "evidence_refs": [
+    "e102"
+   ]
+  },
+  {
+   "person_key": "dave-stephenson",
+   "committee": "audit",
+   "role": "chair",
+   "as_of_filing": "0001759509-23-000049",
+   "as_of_date": "2023-05-01",
+   "evidence_refs": [
+    "e102"
+   ]
+  },
+  {
+   "person_key": "sean-aggarwal",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001759509-23-000049",
+   "as_of_date": "2023-05-01",
+   "evidence_refs": [
+    "e103"
+   ]
+  },
+  {
+   "person_key": "ariel-cohen",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001759509-23-000049",
+   "as_of_date": "2023-05-01",
+   "evidence_refs": [
+    "e103"
+   ]
+  },
+  {
+   "person_key": "david-lawee",
+   "committee": "compensation",
+   "role": "chair",
+   "as_of_filing": "0001759509-23-000049",
+   "as_of_date": "2023-05-01",
+   "evidence_refs": [
+    "e103"
+   ]
+  },
+  {
+   "person_key": "ann-miura-ko",
+   "committee": "nominating_governance",
+   "role": "chair",
+   "as_of_filing": "0001759509-23-000049",
+   "as_of_date": "2023-05-01",
+   "evidence_refs": [
+    "e104"
+   ]
+  },
+  {
+   "person_key": "valerie-jarrett",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001759509-23-000049",
+   "as_of_date": "2023-05-01",
+   "evidence_refs": [
+    "e104"
+   ]
+  },
+  {
+   "person_key": "maggie-wilderotter",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001759509-23-000049",
+   "as_of_date": "2023-05-01",
+   "evidence_refs": [
+    "e104"
+   ]
+  },
+  {
+   "person_key": "jill-beggs",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001759509-24-000055",
+   "as_of_date": "2024-04-25",
+   "evidence_refs": [
+    "e122"
+   ]
+  },
+  {
+   "person_key": "sean-aggarwal",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001759509-24-000055",
+   "as_of_date": "2024-04-25",
+   "evidence_refs": [
+    "e122"
+   ]
+  },
+  {
+   "person_key": "david-lawee",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001759509-24-000055",
+   "as_of_date": "2024-04-25",
+   "evidence_refs": [
+    "e122"
+   ]
+  },
+  {
+   "person_key": "dave-stephenson",
+   "committee": "audit",
+   "role": "chair",
+   "as_of_filing": "0001759509-24-000055",
+   "as_of_date": "2024-04-25",
+   "evidence_refs": [
+    "e122"
+   ]
+  },
+  {
+   "person_key": "janey-whiteside",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001759509-24-000055",
+   "as_of_date": "2024-04-25",
+   "evidence_refs": [
+    "e123"
+   ]
+  },
+  {
+   "person_key": "sean-aggarwal",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001759509-24-000055",
+   "as_of_date": "2024-04-25",
+   "evidence_refs": [
+    "e123"
+   ]
+  },
+  {
+   "person_key": "ariel-cohen",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001759509-24-000055",
+   "as_of_date": "2024-04-25",
+   "evidence_refs": [
+    "e123"
+   ]
+  },
+  {
+   "person_key": "david-lawee",
+   "committee": "compensation",
+   "role": "chair",
+   "as_of_filing": "0001759509-24-000055",
+   "as_of_date": "2024-04-25",
+   "evidence_refs": [
+    "e123"
+   ]
+  },
+  {
+   "person_key": "sean-aggarwal",
+   "committee": "nominating_governance",
+   "role": "chair",
+   "as_of_filing": "0001759509-24-000055",
+   "as_of_date": "2024-04-25",
+   "evidence_refs": [
+    "e124"
+   ]
+  },
+  {
+   "person_key": "betsey-stevenson",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001759509-24-000055",
+   "as_of_date": "2024-04-25",
+   "evidence_refs": [
+    "e124"
+   ]
+  },
+  {
+   "person_key": "janey-whiteside",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001759509-24-000055",
+   "as_of_date": "2024-04-25",
+   "evidence_refs": [
+    "e124"
+   ]
+  },
+  {
+   "person_key": "jill-beggs",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001759509-25-000069",
+   "as_of_date": "2025-04-24",
+   "evidence_refs": [
+    "e137"
+   ]
+  },
+  {
+   "person_key": "sean-aggarwal",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001759509-25-000069",
+   "as_of_date": "2025-04-24",
+   "evidence_refs": [
+    "e137"
+   ]
+  },
+  {
+   "person_key": "david-lawee",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001759509-25-000069",
+   "as_of_date": "2025-04-24",
+   "evidence_refs": [
+    "e137"
+   ]
+  },
+  {
+   "person_key": "dave-stephenson",
+   "committee": "audit",
+   "role": "chair",
+   "as_of_filing": "0001759509-25-000069",
+   "as_of_date": "2025-04-24",
+   "evidence_refs": [
+    "e137"
+   ]
+  },
+  {
+   "person_key": "janey-whiteside",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001759509-25-000069",
+   "as_of_date": "2025-04-24",
+   "evidence_refs": [
+    "e138"
+   ]
+  },
+  {
+   "person_key": "sean-aggarwal",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001759509-25-000069",
+   "as_of_date": "2025-04-24",
+   "evidence_refs": [
+    "e138"
+   ]
+  },
+  {
+   "person_key": "ariel-cohen",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001759509-25-000069",
+   "as_of_date": "2025-04-24",
+   "evidence_refs": [
+    "e138"
+   ]
+  },
+  {
+   "person_key": "david-lawee",
+   "committee": "compensation",
+   "role": "chair",
+   "as_of_filing": "0001759509-25-000069",
+   "as_of_date": "2025-04-24",
+   "evidence_refs": [
+    "e138"
+   ]
+  },
+  {
+   "person_key": "sean-aggarwal",
+   "committee": "nominating_governance",
+   "role": "chair",
+   "as_of_filing": "0001759509-25-000069",
+   "as_of_date": "2025-04-24",
+   "evidence_refs": [
+    "e139"
+   ]
+  },
+  {
+   "person_key": "betsey-stevenson",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001759509-25-000069",
+   "as_of_date": "2025-04-24",
+   "evidence_refs": [
+    "e139"
+   ]
+  },
+  {
+   "person_key": "janey-whiteside",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001759509-25-000069",
+   "as_of_date": "2025-04-24",
+   "evidence_refs": [
+    "e139"
+   ]
+  },
+  {
+   "person_key": "jill-beggs",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001628280-26-024680",
+   "as_of_date": "2026-04-10",
+   "evidence_refs": [
+    "e166"
+   ]
+  },
+  {
+   "person_key": "betsey-stevenson",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001628280-26-024680",
+   "as_of_date": "2026-04-10",
+   "evidence_refs": [
+    "e166"
+   ]
+  },
+  {
+   "person_key": "sean-aggarwal",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001628280-26-024680",
+   "as_of_date": "2026-04-10",
+   "evidence_refs": [
+    "e166"
+   ]
+  },
+  {
+   "person_key": "dave-stephenson",
+   "committee": "audit",
+   "role": "chair",
+   "as_of_filing": "0001628280-26-024680",
+   "as_of_date": "2026-04-10",
+   "evidence_refs": [
+    "e166"
+   ]
+  },
+  {
+   "person_key": "janey-whiteside",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001628280-26-024680",
+   "as_of_date": "2026-04-10",
+   "evidence_refs": [
+    "e168"
+   ]
+  },
+  {
+   "person_key": "sean-aggarwal",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001628280-26-024680",
+   "as_of_date": "2026-04-10",
+   "evidence_refs": [
+    "e168"
+   ]
+  },
+  {
+   "person_key": "david-lawee",
+   "committee": "compensation",
+   "role": "chair",
+   "as_of_filing": "0001628280-26-024680",
+   "as_of_date": "2026-04-10",
+   "evidence_refs": [
+    "e168"
+   ]
+  },
+  {
+   "person_key": "sean-aggarwal",
+   "committee": "nominating_governance",
+   "role": "chair",
+   "as_of_filing": "0001628280-26-024680",
+   "as_of_date": "2026-04-10",
+   "evidence_refs": [
+    "e169"
+   ]
+  },
+  {
+   "person_key": "deborah-hersman",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001628280-26-024680",
+   "as_of_date": "2026-04-10",
+   "evidence_refs": [
+    "e169"
+   ]
+  },
+  {
+   "person_key": "betsey-stevenson",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001628280-26-024680",
+   "as_of_date": "2026-04-10",
+   "evidence_refs": [
+    "e169"
+   ]
+  },
+  {
+   "person_key": "janey-whiteside",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001628280-26-024680",
+   "as_of_date": "2026-04-10",
+   "evidence_refs": [
+    "e169"
+   ]
+  },
+  {
+   "person_key": "ariel-cohen",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001759509-21-000018",
+   "as_of_date": "2021-03-30",
+   "effective_date": "2021-03-29",
+   "evidence_refs": [
+    "e070"
+   ],
+   "notes": "appointed with board seat"
+  },
+  {
+   "person_key": "david-risher",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001759509-21-000039",
+   "as_of_date": "2021-07-13",
+   "effective_date": "2021-07-09",
+   "evidence_refs": [
+    "e075"
+   ],
+   "notes": "appointed with board seat; Lawee left NCG at that time (e083)"
+  },
+  {
+   "person_key": "david-lawee",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001759509-22-000034",
+   "as_of_date": "2022-04-29",
+   "membership_end_date": "2021-07",
+   "evidence_refs": [
+    "e083"
+   ],
+   "notes": "left NCG when Risher joined (month precision)"
+  },
+  {
+   "person_key": "maggie-wilderotter",
+   "committee": "nominating_governance",
+   "role": "chair",
+   "as_of_filing": "0001759509-23-000049",
+   "as_of_date": "2023-05-01",
+   "effective_date": "2023-06-15",
+   "evidence_refs": [
+    "e101"
+   ],
+   "notes": "proxy states she becomes chair as of the 2023 annual meeting date"
+  },
+  {
+   "person_key": "david-lawee",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001759509-24-000055",
+   "as_of_date": "2024-04-25",
+   "effective_date": "2023-10",
+   "evidence_refs": [
+    "e121"
+   ],
+   "notes": "replaced Jarrett (month precision)"
+  },
+  {
+   "person_key": "betsey-stevenson",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001628280-26-024680",
+   "as_of_date": "2026-04-10",
+   "effective_date": "2025-08",
+   "evidence_refs": [
+    "e167"
+   ],
+   "notes": "replaced Lawee on audit (month precision)"
+  },
+  {
+   "person_key": "david-lawee",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001628280-26-024680",
+   "as_of_date": "2026-04-10",
+   "membership_end_date": "2025-08",
+   "evidence_refs": [
+    "e167"
+   ],
+   "notes": "replaced by Stevenson (month precision)"
+  },
+  {
+   "person_key": "dave-stephenson",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001759509-23-000008",
+   "as_of_date": "2023-02-03",
+   "effective_date": "2023-02-01",
+   "evidence_refs": [
+    "e091"
+   ],
+   "notes": "appointed with board seat; chair from April 2023 (e099)"
+  },
+  {
+   "person_key": "janey-whiteside",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001759509-23-000086",
+   "as_of_date": "2023-07-28",
+   "effective_date": "2023-07-31",
+   "evidence_refs": [
+    "e112"
+   ]
+  },
+  {
+   "person_key": "sean-aggarwal",
+   "committee": "nominating_governance",
+   "role": "chair",
+   "as_of_filing": "0001759509-23-000099",
+   "as_of_date": "2023-10-13",
+   "effective_date": "2023-10-12",
+   "evidence_refs": [
+    "e114"
+   ],
+   "notes": "after Wilderotter/Jarrett resignations"
+  },
+  {
+   "person_key": "janey-whiteside",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001759509-23-000099",
+   "as_of_date": "2023-10-13",
+   "effective_date": "2023-10-12",
+   "evidence_refs": [
+    "e114"
+   ]
+  },
+  {
+   "person_key": "betsey-stevenson",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001759509-23-000120",
+   "as_of_date": "2023-11-16",
+   "effective_date": "2023-11-16",
+   "evidence_refs": [
+    "e116"
+   ]
+  },
+  {
+   "person_key": "jill-beggs",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001759509-24-000006",
+   "as_of_date": "2024-01-03",
+   "effective_date": "2023-12-31",
+   "evidence_refs": [
+    "e118"
+   ]
+  },
+  {
+   "person_key": "deborah-hersman",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001628280-26-003601",
+   "as_of_date": "2026-01-27",
+   "effective_date": "2026-01-25",
+   "evidence_refs": [
+    "e161"
+   ]
+  }
+ ],
+ "events": [
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "logan-green",
+   "event_date": "2007",
+   "announced_date": null,
+   "evidence_refs": [
+    "e003",
+    "e062"
+   ],
+   "summary": "Logan Green on the board since founding (proxy 'Director Since' 2007).",
+   "event_date_precision": "year"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "john-zimmer",
+   "event_date": "2010-06",
+   "announced_date": null,
+   "evidence_refs": [
+    "e004"
+   ],
+   "summary": "John Zimmer joins board.",
+   "event_date_precision": "month"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "ann-miura-ko",
+   "event_date": "2010-06",
+   "announced_date": null,
+   "evidence_refs": [
+    "e010"
+   ],
+   "summary": "Ann Miura-Ko first stint begins.",
+   "event_date_precision": "month"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "ann-miura-ko",
+   "event_date": "2013-05",
+   "announced_date": null,
+   "evidence_refs": [
+    "e010"
+   ],
+   "summary": "Ann Miura-Ko first stint ends (reason not disclosed).",
+   "event_date_precision": "month"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "hiroshi-mikitani",
+   "event_date": "2015-03",
+   "announced_date": null,
+   "evidence_refs": [
+    "e009"
+   ],
+   "summary": "Hiroshi Mikitani joins board.",
+   "event_date_precision": "month"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "jonathan-christodoro",
+   "event_date": "2015-05",
+   "announced_date": null,
+   "evidence_refs": [
+    "e012"
+   ],
+   "summary": "Jonathan Christodoro joins board.",
+   "event_date_precision": "month"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "sean-aggarwal",
+   "event_date": "2016-02",
+   "announced_date": null,
+   "evidence_refs": [
+    "e005"
+   ],
+   "summary": "Sean Aggarwal joins board.",
+   "event_date_precision": "month"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "ben-horowitz",
+   "event_date": "2016-06",
+   "announced_date": null,
+   "evidence_refs": [
+    "e006"
+   ],
+   "summary": "Ben Horowitz joins board.",
+   "event_date_precision": "month"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "ann-miura-ko",
+   "event_date": "2016-06",
+   "announced_date": null,
+   "evidence_refs": [
+    "e010"
+   ],
+   "summary": "Ann Miura-Ko rejoins board.",
+   "event_date_precision": "month"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "valerie-jarrett",
+   "event_date": "2017-07",
+   "announced_date": null,
+   "evidence_refs": [
+    "e007"
+   ],
+   "summary": "Valerie Jarrett joins board.",
+   "event_date_precision": "month"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "david-lawee",
+   "event_date": "2017-11",
+   "announced_date": null,
+   "evidence_refs": [
+    "e008"
+   ],
+   "summary": "David Lawee joins board.",
+   "event_date_precision": "month"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "maggie-wilderotter",
+   "event_date": "2018-05",
+   "announced_date": null,
+   "evidence_refs": [
+    "e011"
+   ],
+   "summary": "Maggie Wilderotter joins board.",
+   "event_date_precision": "month"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "sean-aggarwal",
+   "event_date": "2019-01",
+   "announced_date": null,
+   "evidence_refs": [
+    "e005"
+   ],
+   "summary": "Aggarwal becomes Chairman.",
+   "event_date_precision": "month"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "john-zimmer",
+   "event_date": "2019-01",
+   "announced_date": null,
+   "evidence_refs": [
+    "e004"
+   ],
+   "summary": "Zimmer becomes Vice Chairman.",
+   "event_date_precision": "month"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "jonathan-christodoro",
+   "event_date": "2019-03",
+   "announced_date": "2019-03-18",
+   "evidence_refs": [
+    "e030",
+    "e031"
+   ],
+   "summary": "Christodoro resigns before the IPO (between the 2019-03-01 S-1 and the 2019-03-18 S-1/A).",
+   "event_date_precision": "month"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "ben-horowitz",
+   "event_date": "2020-06-19",
+   "announced_date": "2020-04-27",
+   "evidence_refs": [
+    "e060",
+    "e065",
+    "e066"
+   ],
+   "summary": "Horowitz does not stand for re-election; term ends at 2020 annual meeting.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_SIZE_CHANGE",
+   "person_key": null,
+   "event_date": "2020-06-19",
+   "announced_date": "2020-04-27",
+   "evidence_refs": [
+    "e061"
+   ],
+   "summary": "Authorized directors expected to decrease 9 -> 8 after the 2020 annual meeting (proxy says 'anticipated').",
+   "event_date_precision": "day",
+   "from_size": 9,
+   "to_size": 8
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "hiroshi-mikitani",
+   "event_date": "2020-08-31",
+   "announced_date": "2020-08-31",
+   "evidence_refs": [
+    "e208",
+    "e067"
+   ],
+   "summary": "Mikitani resigns, effective immediately.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "ariel-cohen",
+   "event_date": "2021-03-29",
+   "announced_date": "2021-03-30",
+   "evidence_refs": [
+    "e070",
+    "e050"
+   ],
+   "summary": "Ariel Cohen appointed (Class III; compensation committee).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "david-risher",
+   "event_date": "2021-07-09",
+   "announced_date": "2021-07-13",
+   "evidence_refs": [
+    "e075",
+    "e051"
+   ],
+   "summary": "David Risher appointed as independent director (NCG).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "dave-stephenson",
+   "event_date": "2023-02-01",
+   "announced_date": "2023-02-03",
+   "evidence_refs": [
+    "e090",
+    "e052"
+   ],
+   "summary": "Dave Stephenson appointed (Class I; audit).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "david-risher",
+   "event_date": "2023-04-17",
+   "announced_date": "2023-03-27",
+   "evidence_refs": [
+    "e092"
+   ],
+   "summary": "Risher becomes CEO (CEO-director).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "logan-green",
+   "event_date": "2023-04-17",
+   "announced_date": "2023-03-27",
+   "evidence_refs": [
+    "e093",
+    "e094"
+   ],
+   "summary": "Green moves from CEO to Board Chair.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "sean-aggarwal",
+   "event_date": "2023-04-17",
+   "announced_date": "2023-03-27",
+   "evidence_refs": [
+    "e094"
+   ],
+   "summary": "Aggarwal moves from Chair to Lead Independent Director.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "dave-stephenson",
+   "event_date": "2023-04",
+   "announced_date": null,
+   "evidence_refs": [
+    "e099"
+   ],
+   "summary": "Stephenson becomes audit committee chair, replacing Wilderotter.",
+   "event_date_precision": "month"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "ann-miura-ko",
+   "event_date": "2023-06-15",
+   "announced_date": "2023-05-01",
+   "evidence_refs": [
+    "e097",
+    "e109",
+    "e110"
+   ],
+   "summary": "Miura-Ko does not stand for re-election; term ends at 2023 annual meeting.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_SIZE_CHANGE",
+   "person_key": null,
+   "event_date": "2023-06-15",
+   "announced_date": "2023-05-01",
+   "evidence_refs": [
+    "e098"
+   ],
+   "summary": "Authorized directors to decrease 10 -> 9 after the 2023 annual meeting.",
+   "event_date_precision": "day",
+   "from_size": 10,
+   "to_size": 9
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "john-zimmer",
+   "event_date": "2023-06-30",
+   "announced_date": "2023-03-27",
+   "evidence_refs": [
+    "e093",
+    "e096"
+   ],
+   "summary": "Zimmer leaves the President role and becomes a non-employee director; stays Vice Chair.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "janey-whiteside",
+   "event_date": "2023-07-31",
+   "announced_date": "2023-07-28",
+   "evidence_refs": [
+    "e111",
+    "e053"
+   ],
+   "summary": "Janey Whiteside appointed (board action 2023-07-24; effective 2023-07-31; Class II; compensation).",
+   "event_date_precision": "day",
+   "decision_date": "2023-07-24"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "maggie-wilderotter",
+   "event_date": "2023-10-12",
+   "announced_date": "2023-10-13",
+   "evidence_refs": [
+    "e113"
+   ],
+   "summary": "Wilderotter resigns, effective immediately.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "valerie-jarrett",
+   "event_date": "2023-10-12",
+   "announced_date": "2023-10-13",
+   "evidence_refs": [
+    "e113"
+   ],
+   "summary": "Jarrett resigns, effective immediately.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_SIZE_CHANGE",
+   "person_key": null,
+   "event_date": "2023-10-12",
+   "announced_date": "2023-10-13",
+   "evidence_refs": [
+    "e114"
+   ],
+   "summary": "Authorized directors decreased 10 -> 8.",
+   "event_date_precision": "day",
+   "from_size": 10,
+   "to_size": 8
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "sean-aggarwal",
+   "event_date": "2023-10-12",
+   "announced_date": "2023-10-13",
+   "evidence_refs": [
+    "e114"
+   ],
+   "summary": "Aggarwal becomes NCG chair.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "betsey-stevenson",
+   "event_date": "2023-11-16",
+   "announced_date": "2023-11-16",
+   "evidence_refs": [
+    "e115",
+    "e054"
+   ],
+   "summary": "Betsey Stevenson appointed (Class III; NCG).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "jill-beggs",
+   "event_date": "2023-12-31",
+   "announced_date": "2024-01-03",
+   "evidence_refs": [
+    "e117",
+    "e055"
+   ],
+   "summary": "Jill Beggs appointed (Class III; audit).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "ariel-cohen",
+   "event_date": "2025-05-22",
+   "announced_date": "2025-05-23",
+   "evidence_refs": [
+    "e145",
+    "e147"
+   ],
+   "summary": "Cohen resigns effective immediately; withdrawn as a 2025 nominee.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_SIZE_CHANGE",
+   "person_key": null,
+   "event_date": "2025-05-22",
+   "announced_date": "2025-05-23",
+   "evidence_refs": [
+    "e146"
+   ],
+   "summary": "Board 'intends to' decrease authorized directors 10 -> 9.",
+   "event_date_precision": "day",
+   "from_size": 10,
+   "to_size": 9
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "logan-green",
+   "event_date": "2025-08-14",
+   "announced_date": "2025-08-14",
+   "evidence_refs": [
+    "e149"
+   ],
+   "summary": "Green (Chair) resigns.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "john-zimmer",
+   "event_date": "2025-08-14",
+   "announced_date": "2025-08-14",
+   "evidence_refs": [
+    "e149"
+   ],
+   "summary": "Zimmer (Vice Chair) resigns.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_SIZE_CHANGE",
+   "person_key": null,
+   "event_date": "2025-08-14",
+   "announced_date": "2025-08-14",
+   "evidence_refs": [
+    "e150",
+    "e153"
+   ],
+   "summary": "Authorized directors decreased 9 -> 7.",
+   "event_date_precision": "day",
+   "from_size": 9,
+   "to_size": 7
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "sean-aggarwal",
+   "event_date": "2025-08",
+   "announced_date": "2025-08-14",
+   "evidence_refs": [
+    "e151",
+    "e163",
+    "e164"
+   ],
+   "summary": "Aggarwal moves from Lead Independent Director to Board Chair (day of appointment not stated).",
+   "event_date_precision": "month"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "deborah-hersman",
+   "event_date": "2026-01-25",
+   "announced_date": "2026-01-27",
+   "evidence_refs": [
+    "e160",
+    "e056"
+   ],
+   "summary": "Deborah Hersman appointed (Class I; NCG).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "ben-minicucci",
+   "event_date": "2026-07-23",
+   "announced_date": "2026-07-27",
+   "evidence_refs": [
+    "e194",
+    "e057"
+   ],
+   "summary": "Ben Minicucci appointed (Class II).",
+   "event_date_precision": "day"
+  }
+ ],
+ "context_events": [
+  {
+   "type": "IPO",
+   "event_date": "2019-03-29",
+   "announced_date": "2019-03-28",
+   "evidence_refs": [
+    "e002",
+    "e013",
+    "e014",
+    "e015",
+    "e016"
+   ],
+   "summary": "IPO priced 2019-03-28, first trade 2019-03-29. Nine directors at IPO, classified into Class I/II/III; seven found independent."
+  },
+  {
+   "type": "BOARD_SIZE_SNAPSHOT",
+   "event_date": "2019-03-28",
+   "board_size": 9,
+   "evidence_refs": [
+    "e002"
+   ],
+   "summary": "Prospectus: nine directors."
+  },
+  {
+   "type": "BOARD_SIZE_SNAPSHOT",
+   "event_date": "2020-04-27",
+   "board_size": 9,
+   "evidence_refs": [
+    "e220"
+   ],
+   "summary": "2020 proxy: nine directors (seven independent)."
+  },
+  {
+   "type": "BOARD_SIZE_SNAPSHOT",
+   "event_date": "2021-04-28",
+   "board_size": 8,
+   "evidence_refs": [
+    "e071"
+   ],
+   "summary": "2021 proxy: eight directors (six independent)."
+  },
+  {
+   "type": "BOARD_SIZE_SNAPSHOT",
+   "event_date": "2022-04-29",
+   "board_size": 9,
+   "evidence_refs": [
+    "e086"
+   ],
+   "summary": "2022 proxy: nine directors (seven independent)."
+  },
+  {
+   "type": "BOARD_SIZE_SNAPSHOT",
+   "event_date": "2023-05-01",
+   "board_size": 10,
+   "evidence_refs": [
+    "e221"
+   ],
+   "summary": "2023 proxy: ten directors (seven independent)."
+  },
+  {
+   "type": "BOARD_SIZE_SNAPSHOT",
+   "event_date": "2024-04-25",
+   "board_size": 10,
+   "evidence_refs": [
+    "e120"
+   ],
+   "summary": "2024 proxy: ten directors (seven independent)."
+  },
+  {
+   "type": "BOARD_SIZE_SNAPSHOT",
+   "event_date": "2025-04-24",
+   "board_size": 10,
+   "evidence_refs": [
+    "e131"
+   ],
+   "summary": "2025 proxy: ten directors (seven independent)."
+  },
+  {
+   "type": "BOARD_SIZE_SNAPSHOT",
+   "event_date": "2026-04-10",
+   "board_size": 8,
+   "evidence_refs": [
+    "e162"
+   ],
+   "summary": "2026 proxy: eight directors (seven independent). Minicucci joined later (2026-07-23), so nine is implied; not stated."
+  },
+  {
+   "type": "ANNUAL_MEETING",
+   "event_date": "2020-06-19",
+   "evidence_refs": [
+    "e065",
+    "e066"
+   ],
+   "summary": "Class I: Green, Miura-Ko elected to 2023."
+  },
+  {
+   "type": "ANNUAL_MEETING",
+   "event_date": "2023-06-15",
+   "evidence_refs": [
+    "e109",
+    "e110"
+   ],
+   "summary": "Class I: Green, Risher, Stephenson elected to 2026."
+  },
+  {
+   "type": "ANNUAL_MEETING",
+   "event_date": "2024-06-13",
+   "evidence_refs": [
+    "e125",
+    "e216"
+   ],
+   "summary": "Class II: Zimmer, Lawee, Whiteside elected to 2027."
+  },
+  {
+   "type": "PROXY_CONTEST",
+   "event_date": "2025-05-08",
+   "announced_date": "2025-05-09",
+   "evidence_refs": [
+    "e130",
+    "e143",
+    "e144"
+   ],
+   "summary": "Engine Capital nominated Alan L. Bazaar and Daniel B. Silvers, then withdrew them after Lyft's 2025-05-08 buyback announcement. No settlement or cooperation agreement and no directors added."
+  },
+  {
+   "type": "ANNUAL_MEETING",
+   "event_date": "2025-06-05",
+   "evidence_refs": [
+    "e148",
+    "e215"
+   ],
+   "summary": "Class III: Aggarwal, Beggs, Stevenson elected to 2028."
+  },
+  {
+   "type": "DUAL_CLASS_COLLAPSE",
+   "event_date": "2025-08-15",
+   "announced_date": "2025-08-14",
+   "evidence_refs": [
+    "e152",
+    "e153"
+   ],
+   "summary": "Founders elected to convert all Class B (20 votes/share) into Class A at 5:00 p.m. ET on 2025-08-15, the day after they left the board."
+  },
+  {
+   "type": "ANNUAL_MEETING",
+   "event_date": "2026-06-03",
+   "evidence_refs": [
+    "e191",
+    "e192",
+    "e193"
+   ],
+   "summary": "Class I: Risher, Hersman, Stephenson elected to 2029; charter amended to remove Class B references."
+  },
+  {
+   "type": "OFFICER_CHANGE_NOT_BOARD",
+   "event_date": "2026-09-28",
+   "announced_date": "2026-09-09",
+   "evidence_refs": [
+    "e197",
+    "e058"
+   ],
+   "summary": "Michael Brous replaces Erin Brewer as CFO. Neither is a director; listed only to show the latest 5.02 8-K and Form 3 are not board changes."
+  }
+ ],
+ "evidence": [
+  {
+   "id": "e001",
+   "form": "424B4",
+   "accession": "0001193125-19-091446",
+   "filing_date": "2019-03-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312519091446/d721841d424b4.htm",
+   "quote": "We were incorporated in 2007 as Bounder Web, Inc., a Delaware corporation.",
+   "supports": "Company incorporation year (2007); context for Logan Green's 'since our founding' board start."
+  },
+  {
+   "id": "e002",
+   "form": "424B4",
+   "accession": "0001193125-19-091446",
+   "filing_date": "2019-03-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312519091446/d721841d424b4.htm",
+   "quote": "Our board of directors currently consists of nine directors.",
+   "supports": "Board size at IPO: nine directors."
+  },
+  {
+   "id": "e003",
+   "form": "424B4",
+   "accession": "0001193125-19-091446",
+   "filing_date": "2019-03-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312519091446/d721841d424b4.htm",
+   "quote": "Mr. Green is a co-founder of Lyft and has served as our Chief Executive Officer and as a member of our board of directors since our founding.",
+   "supports": "Logan Green: co-founder, CEO and director since founding."
+  },
+  {
+   "id": "e004",
+   "form": "424B4",
+   "accession": "0001193125-19-091446",
+   "filing_date": "2019-03-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312519091446/d721841d424b4.htm",
+   "quote": "Mr. Zimmer is a co-founder of Lyft and has served as our President since March 2013, our Vice Chairman since January 2019 and as a member of our board of directors since June 2010",
+   "supports": "John Zimmer: director since June 2010; Vice Chairman since January 2019; President since March 2013."
+  },
+  {
+   "id": "e005",
+   "form": "424B4",
+   "accession": "0001193125-19-091446",
+   "filing_date": "2019-03-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312519091446/d721841d424b4.htm",
+   "quote": "Mr. Aggarwal has served as our Chairman since January 2019 and as a member of our board of directors since February 2016.",
+   "supports": "Sean Aggarwal: director since February 2016; Chairman since January 2019."
+  },
+  {
+   "id": "e006",
+   "form": "424B4",
+   "accession": "0001193125-19-091446",
+   "filing_date": "2019-03-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312519091446/d721841d424b4.htm",
+   "quote": "Mr. Horowitz has served as a member of our board of directors since June 2016.",
+   "supports": "Ben Horowitz: director since June 2016."
+  },
+  {
+   "id": "e007",
+   "form": "424B4",
+   "accession": "0001193125-19-091446",
+   "filing_date": "2019-03-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312519091446/d721841d424b4.htm",
+   "quote": "Ms. Jarrett has served as a member of our board of directors since July 2017.",
+   "supports": "Valerie Jarrett: director since July 2017."
+  },
+  {
+   "id": "e008",
+   "form": "424B4",
+   "accession": "0001193125-19-091446",
+   "filing_date": "2019-03-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312519091446/d721841d424b4.htm",
+   "quote": "Mr. Lawee has served as a member of our board of directors since November 2017.",
+   "supports": "David Lawee: director since November 2017."
+  },
+  {
+   "id": "e009",
+   "form": "424B4",
+   "accession": "0001193125-19-091446",
+   "filing_date": "2019-03-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312519091446/d721841d424b4.htm",
+   "quote": "Mr. Mikitani has served as a member of our board of directors since March 2015.",
+   "supports": "Hiroshi Mikitani: director since March 2015."
+  },
+  {
+   "id": "e010",
+   "form": "424B4",
+   "accession": "0001193125-19-091446",
+   "filing_date": "2019-03-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312519091446/d721841d424b4.htm",
+   "quote": "Dr. Miura-Ko served as a member of our board of directors from June 2010 to May 2013 and has rejoined and served as a member of our board of directors since June 2016.",
+   "supports": "Ann Miura-Ko: two stints, June 2010-May 2013 and since June 2016."
+  },
+  {
+   "id": "e011",
+   "form": "424B4",
+   "accession": "0001193125-19-091446",
+   "filing_date": "2019-03-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312519091446/d721841d424b4.htm",
+   "quote": "Ms. Wilderotter has served as a member of our board of directors since May 2018.",
+   "supports": "Maggie Wilderotter: director since May 2018."
+  },
+  {
+   "id": "e012",
+   "form": "424B4",
+   "accession": "0001193125-19-091446",
+   "filing_date": "2019-03-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312519091446/d721841d424b4.htm",
+   "quote": "Mr. Christodoro served as a member of our board of directors from May 2015 to March 2019.",
+   "supports": "Jonathan Christodoro: director May 2015-March 2019 (left before the IPO)."
+  },
+  {
+   "id": "e013",
+   "form": "424B4",
+   "accession": "0001193125-19-091446",
+   "filing_date": "2019-03-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312519091446/d721841d424b4.htm",
+   "quote": "the Class I directors will be Dr. Miura-Ko and Messrs. Green and Horowitz, and their terms will expire at the annual meeting of stockholders to be held in 2020",
+   "supports": "IPO class assignment: Class I = Miura-Ko, Green, Horowitz (term to 2020 meeting)."
+  },
+  {
+   "id": "e014",
+   "form": "424B4",
+   "accession": "0001193125-19-091446",
+   "filing_date": "2019-03-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312519091446/d721841d424b4.htm",
+   "quote": "the Class II directors will be Ms. Jarrett and Messrs. Lawee and Zimmer, and their terms will expire at the annual meeting of stockholders to be held in 2021",
+   "supports": "IPO class assignment: Class II = Jarrett, Lawee, Zimmer (term to 2021 meeting)."
+  },
+  {
+   "id": "e015",
+   "form": "424B4",
+   "accession": "0001193125-19-091446",
+   "filing_date": "2019-03-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312519091446/d721841d424b4.htm",
+   "quote": "the Class III directors will be Ms. Wilderotter and Messrs. Aggarwal and Mikitani, and their terms will expire at the annual meeting of stockholders to be held in 2022",
+   "supports": "IPO class assignment: Class III = Wilderotter, Aggarwal, Mikitani (term to 2022 meeting)."
+  },
+  {
+   "id": "e016",
+   "form": "424B4",
+   "accession": "0001193125-19-091446",
+   "filing_date": "2019-03-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312519091446/d721841d424b4.htm",
+   "quote": "our board of directors has determined that Messrs. Aggarwal, Horowitz, Lawee and Mikitani, Mses. Jarrett and Wilderotter and Dr. Miura-Ko do not have a relationship that would interfere with the exercise of independent judgment",
+   "supports": "IPO independence determination: Aggarwal, Horowitz, Lawee, Mikitani, Jarrett, Wilderotter, Miura-Ko independent (Green, Zimmer not)."
+  },
+  {
+   "id": "e017",
+   "form": "424B4",
+   "accession": "0001193125-19-091446",
+   "filing_date": "2019-03-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312519091446/d721841d424b4.htm",
+   "quote": "Our audit committee consists of Mses. Wilderotter and Jarrett and Mr. Aggarwal, with Ms. Wilderotter serving as Chairperson",
+   "supports": "Audit committee at IPO."
+  },
+  {
+   "id": "e018",
+   "form": "424B4",
+   "accession": "0001193125-19-091446",
+   "filing_date": "2019-03-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312519091446/d721841d424b4.htm",
+   "quote": "Our compensation committee consists of Messrs. Aggarwal, Horowitz and Lawee, with Mr. Lawee serving as Chairperson",
+   "supports": "Compensation committee at IPO."
+  },
+  {
+   "id": "e019",
+   "form": "424B4",
+   "accession": "0001193125-19-091446",
+   "filing_date": "2019-03-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312519091446/d721841d424b4.htm",
+   "quote": "Our nominating and corporate governance committee consists of Dr. Miura-Ko, Ms. Jarrett and Mr. Lawee, with Dr. Miura-Ko serving as Chairperson",
+   "supports": "Nominating and corporate governance committee at IPO."
+  },
+  {
+   "id": "e020",
+   "form": "424B4",
+   "accession": "0001193125-19-091446",
+   "filing_date": "2019-03-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312519091446/d721841d424b4.htm",
+   "quote": "Mr. Green currently serves as a member of the board of directors of eBay Inc., an online marketplace and payments company.",
+   "supports": "Logan Green other public board (as of IPO): eBay Inc."
+  },
+  {
+   "id": "e021",
+   "form": "424B4",
+   "accession": "0001193125-19-091446",
+   "filing_date": "2019-03-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312519091446/d721841d424b4.htm",
+   "quote": "Mr. Aggarwal currently serves as a member of the board of directors of Arlo Technologies, Inc., a home security company, and Yatra Online, Inc., an online travel company.",
+   "supports": "Sean Aggarwal other boards (as of IPO): Arlo Technologies, Yatra Online."
+  },
+  {
+   "id": "e022",
+   "form": "424B4",
+   "accession": "0001193125-19-091446",
+   "filing_date": "2019-03-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312519091446/d721841d424b4.htm",
+   "quote": "Mr. Horowitz currently serves on the boards of directors of Okta, Inc., a software company, and several privately-held companies.",
+   "supports": "Ben Horowitz other board (as of IPO): Okta, Inc."
+  },
+  {
+   "id": "e023",
+   "form": "424B4",
+   "accession": "0001193125-19-091446",
+   "filing_date": "2019-03-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312519091446/d721841d424b4.htm",
+   "quote": "serves on the boards of directors of 2U, Inc., an education technology company, and Ariel Investments, LLC, a private investment company.",
+   "supports": "Valerie Jarrett other boards (as of IPO): 2U, Inc. (Ariel Investments is private)."
+  },
+  {
+   "id": "e024",
+   "form": "424B4",
+   "accession": "0001193125-19-091446",
+   "filing_date": "2019-03-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312519091446/d721841d424b4.htm",
+   "quote": "Ms. Wilderotter currently serves on the board of directors of Costco Wholesale Corporation, a wholesale retailer, Cadence Design Systems, Inc., an electronic design automation software and engineering services company, Hewlett Packard Enterprise Company, an enterprise information technology company, and DocuSign, Inc.",
+   "supports": "Maggie Wilderotter current boards (as of IPO): Costco, Cadence, HPE, DocuSign."
+  },
+  {
+   "id": "e025",
+   "form": "424B4",
+   "accession": "0001193125-19-091446",
+   "filing_date": "2019-03-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312519091446/d721841d424b4.htm",
+   "quote": "in the past five years, was a director of Xerox Corporation, DreamWorks Animation SKG, Inc., an entertainment company, Juno Therapeutics, Inc., a biopharmaceutical company, and The Procter & Gamble Company, a consumer goods company.",
+   "supports": "Maggie Wilderotter former boards (as of IPO): Xerox, DreamWorks Animation, Juno Therapeutics, Procter & Gamble."
+  },
+  {
+   "id": "e026",
+   "form": "424B4",
+   "accession": "0001193125-19-091446",
+   "filing_date": "2019-03-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312519091446/d721841d424b4.htm",
+   "quote": "Mr. Christodoro currently serves on the boards of directors of PayPal Holdings, Inc., Herbalife Nutrition Ltd., a nutrition company, Enzon Pharmaceuticals, Inc., a pharmaceutical company, SandRidge Energy, Inc., an oil and gas company, and Xerox Corporation",
+   "supports": "Jonathan Christodoro current boards (as of IPO prospectus)."
+  },
+  {
+   "id": "e027",
+   "form": "424B4",
+   "accession": "0001193125-19-091446",
+   "filing_date": "2019-03-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312519091446/d721841d424b4.htm",
+   "quote": "Mr. Christodoro was previously a director of eBay Inc., Cheniere Energy, Inc., a developer of natural gas liquefaction and export facilities and related pipelines, American Railcar Industries, Inc., a railcar manufacturing company, Hologic, Inc., a medical devices company, and Talisman Energy Inc.",
+   "supports": "Jonathan Christodoro former boards (as of IPO prospectus)."
+  },
+  {
+   "id": "e028",
+   "form": "424B4",
+   "accession": "0001193125-19-091446",
+   "filing_date": "2019-03-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312519091446/d721841d424b4.htm",
+   "quote": "Mr. Mikitani is the founder, Chairman and Chief Executive Officer of Rakuten, Inc., one of the world",
+   "supports": "Hiroshi Mikitani: founder, Chairman and CEO of Rakuten, Inc. (public-company status not stated in the filing)."
+  },
+  {
+   "id": "e029",
+   "form": "424B4",
+   "accession": "0001193125-19-091446",
+   "filing_date": "2019-03-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312519091446/d721841d424b4.htm",
+   "quote": "Ms. Wilderotter served in a number of roles at Frontier Communications Corporation, a public telecommunications company, including as Executive Chairman of the board of directors from April 2015 to April 2016",
+   "supports": "Maggie Wilderotter former public board: Frontier Communications (Executive Chairman Apr 2015-Apr 2016; director from 2004)."
+  },
+  {
+   "id": "e030",
+   "form": "S-1",
+   "accession": "0001193125-19-059849",
+   "filing_date": "2019-03-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312519059849/d633517ds1.htm",
+   "quote": "Mr. Christodoro has served as a member of our board of directors since May 2015.",
+   "supports": "As of the original S-1 (filed 2019-03-01) Christodoro was still a director."
+  },
+  {
+   "id": "e031",
+   "form": "S-1/A",
+   "accession": "0001193125-19-077391",
+   "filing_date": "2019-03-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312519077391/d633517ds1a.htm",
+   "quote": "Mr. Christodoro resigned from our board of directors in March 2019.",
+   "supports": "By S-1/A No.1 (filed 2019-03-18) Christodoro had resigned (March 2019)."
+  },
+  {
+   "id": "e040",
+   "form": "3",
+   "accession": "0000899243-19-009144",
+   "filing_date": "2019-03-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000089924319009144/doc3.xml",
+   "quote": "Green Logan",
+   "supports": "Logan Green reporting-owner CIK; director + officer (CEO). IPO-date Form 3 (event = registration effective 2019-03-28); NOT the board start date.",
+   "xml_fields": {
+    "rptOwnerCik": "0001677874",
+    "rptOwnerName": "Green Logan",
+    "periodOfReport": "2019-03-28"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": "Chief Executive Officer"
+   }
+  },
+  {
+   "id": "e041",
+   "form": "3",
+   "accession": "0000899243-19-009145",
+   "filing_date": "2019-03-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000089924319009145/doc3.xml",
+   "quote": "Zimmer John Patrick",
+   "supports": "John Zimmer reporting-owner CIK; director + officer (President). IPO-date Form 3 (event = registration effective 2019-03-28); NOT the board start date.",
+   "xml_fields": {
+    "rptOwnerCik": "0001766269",
+    "rptOwnerName": "Zimmer John Patrick",
+    "periodOfReport": "2019-03-28"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": "President"
+   }
+  },
+  {
+   "id": "e042",
+   "form": "3",
+   "accession": "0000899243-19-009158",
+   "filing_date": "2019-03-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000089924319009158/doc3.xml",
+   "quote": "Aggarwal Prashant",
+   "supports": "Sean Aggarwal reporting-owner CIK; director. IPO-date Form 3 (event = registration effective 2019-03-28); NOT the board start date.",
+   "xml_fields": {
+    "rptOwnerCik": "0001558267",
+    "rptOwnerName": "Aggarwal Prashant",
+    "periodOfReport": "2019-03-28"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": null
+   }
+  },
+  {
+   "id": "e043",
+   "form": "3",
+   "accession": "0000899243-19-009159",
+   "filing_date": "2019-03-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000089924319009159/doc3.xml",
+   "quote": "HOROWITZ BENJAMIN A",
+   "supports": "Ben Horowitz reporting-owner CIK; director. IPO-date Form 3 (event = registration effective 2019-03-28); NOT the board start date.",
+   "xml_fields": {
+    "rptOwnerCik": "0001166586",
+    "rptOwnerName": "HOROWITZ BENJAMIN A",
+    "periodOfReport": "2019-03-28"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": null
+   }
+  },
+  {
+   "id": "e044",
+   "form": "3",
+   "accession": "0000899243-19-009146",
+   "filing_date": "2019-03-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000089924319009146/doc3.xml",
+   "quote": "JARRETT VALERIE B",
+   "supports": "Valerie Jarrett reporting-owner CIK; director. IPO-date Form 3 (event = registration effective 2019-03-28); NOT the board start date.",
+   "xml_fields": {
+    "rptOwnerCik": "0001208575",
+    "rptOwnerName": "JARRETT VALERIE B",
+    "periodOfReport": "2019-03-28"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": null
+   }
+  },
+  {
+   "id": "e045",
+   "form": "3",
+   "accession": "0000899243-19-009154",
+   "filing_date": "2019-03-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000089924319009154/doc3.xml",
+   "quote": "Lawee David",
+   "supports": "David Lawee reporting-owner CIK; director. IPO-date Form 3 (event = registration effective 2019-03-28); NOT the board start date.",
+   "xml_fields": {
+    "rptOwnerCik": "0001760864",
+    "rptOwnerName": "Lawee David",
+    "periodOfReport": "2019-03-28"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": null
+   }
+  },
+  {
+   "id": "e046",
+   "form": "3",
+   "accession": "0000899243-19-009152",
+   "filing_date": "2019-03-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000089924319009152/doc3.xml",
+   "quote": "Mikitani Hiroshi",
+   "supports": "Hiroshi Mikitani reporting-owner CIK; director (also flagged 10% owner). IPO-date Form 3 (event = registration effective 2019-03-28); NOT the board start date.",
+   "xml_fields": {
+    "rptOwnerCik": "0001760624",
+    "rptOwnerName": "Mikitani Hiroshi",
+    "periodOfReport": "2019-03-28"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": null
+   }
+  },
+  {
+   "id": "e047",
+   "form": "3",
+   "accession": "0000899243-19-009162",
+   "filing_date": "2019-03-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000089924319009162/doc3.xml",
+   "quote": "Miura-Ko R. Ann",
+   "supports": "Ann Miura-Ko reporting-owner CIK; director. IPO-date Form 3 (event = registration effective 2019-03-28); NOT the board start date.",
+   "xml_fields": {
+    "rptOwnerCik": "0001760220",
+    "rptOwnerName": "Miura-Ko R. Ann",
+    "periodOfReport": "2019-03-28"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": null
+   }
+  },
+  {
+   "id": "e048",
+   "form": "3",
+   "accession": "0000899243-19-009149",
+   "filing_date": "2019-03-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000089924319009149/doc3.xml",
+   "quote": "Wilderotter Mary Agnes",
+   "supports": "Maggie Wilderotter reporting-owner CIK; director. IPO-date Form 3 (event = registration effective 2019-03-28); NOT the board start date.",
+   "xml_fields": {
+    "rptOwnerCik": "0001180610",
+    "rptOwnerName": "Wilderotter Mary Agnes",
+    "periodOfReport": "2019-03-28"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": null
+   }
+  },
+  {
+   "id": "e050",
+   "form": "3",
+   "accession": "0001209191-21-023879",
+   "filing_date": "2021-03-31",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000120919121023879/doc3.xml",
+   "quote": "Cohen Ariel M.",
+   "supports": "Ariel Cohen reporting-owner CIK; Form 3 event date 2021-03-29 (matches 8-K appointment date).",
+   "xml_fields": {
+    "rptOwnerCik": "0001853730",
+    "rptOwnerName": "Cohen Ariel M.",
+    "periodOfReport": "2021-03-29"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": null
+   }
+  },
+  {
+   "id": "e051",
+   "form": "3",
+   "accession": "0001209191-21-046585",
+   "filing_date": "2021-07-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000120919121046585/doc3.xml",
+   "quote": "Risher John David",
+   "supports": "David Risher reporting-owner CIK; Form 3 event date 2021-07-09 (matches 8-K appointment date).",
+   "xml_fields": {
+    "rptOwnerCik": "0001869638",
+    "rptOwnerName": "Risher John David",
+    "periodOfReport": "2021-07-09"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": null
+   }
+  },
+  {
+   "id": "e052",
+   "form": "3",
+   "accession": "0001209191-23-007172",
+   "filing_date": "2023-02-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000120919123007172/doc3.xml",
+   "quote": "Stephenson Dave",
+   "supports": "Dave Stephenson reporting-owner CIK; Form 3 event date 2023-02-01 (matches 8-K).",
+   "xml_fields": {
+    "rptOwnerCik": "0001834164",
+    "rptOwnerName": "Stephenson Dave",
+    "periodOfReport": "2023-02-01"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": null
+   }
+  },
+  {
+   "id": "e053",
+   "form": "3",
+   "accession": "0001209191-23-044305",
+   "filing_date": "2023-08-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000120919123044305/doc3.xml",
+   "quote": "Whiteside Janey",
+   "supports": "Janey Whiteside reporting-owner CIK; Form 3 event date 2023-07-31 (= appointment effective date).",
+   "xml_fields": {
+    "rptOwnerCik": "0001973495",
+    "rptOwnerName": "Whiteside Janey",
+    "periodOfReport": "2023-07-31"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": null
+   }
+  },
+  {
+   "id": "e054",
+   "form": "3",
+   "accession": "0001209191-23-055891",
+   "filing_date": "2023-11-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000120919123055891/doc3.xml",
+   "quote": "Stevenson Betsey",
+   "supports": "Betsey Stevenson reporting-owner CIK; Form 3 event date 2023-11-16 (matches 8-K).",
+   "xml_fields": {
+    "rptOwnerCik": "0002000921",
+    "rptOwnerName": "Stevenson Betsey",
+    "periodOfReport": "2023-11-16"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": null
+   }
+  },
+  {
+   "id": "e055",
+   "form": "3",
+   "accession": "0001209191-24-000607",
+   "filing_date": "2024-01-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000120919124000607/doc3.xml",
+   "quote": "Beggs Jill",
+   "supports": "Jill Beggs reporting-owner CIK; Form 3 event date 2023-12-31 (matches 8-K).",
+   "xml_fields": {
+    "rptOwnerCik": "0002006278",
+    "rptOwnerName": "Beggs Jill",
+    "periodOfReport": "2023-12-31"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": null
+   }
+  },
+  {
+   "id": "e056",
+   "form": "3",
+   "accession": "0001778660-26-000002",
+   "filing_date": "2026-01-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000177866026000002/form3-01272026_100132.xml",
+   "quote": "Hersman Deborah",
+   "supports": "Deborah Hersman reporting-owner CIK; Form 3 event date 2026-01-25 (matches 8-K).",
+   "xml_fields": {
+    "rptOwnerCik": "0001778660",
+    "rptOwnerName": "Hersman Deborah",
+    "periodOfReport": "2026-01-25"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": null
+   }
+  },
+  {
+   "id": "e057",
+   "form": "3",
+   "accession": "0001451455-26-000008",
+   "filing_date": "2026-07-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000145145526000008/form3-07272026_090710.xml",
+   "quote": "MINICUCCI BENITO",
+   "supports": "Ben Minicucci reporting-owner CIK; Form 3 event date 2026-07-23 (matches 8-K).",
+   "xml_fields": {
+    "rptOwnerCik": "0001451455",
+    "rptOwnerName": "MINICUCCI BENITO",
+    "periodOfReport": "2026-07-23"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": null
+   }
+  },
+  {
+   "id": "e058",
+   "form": "3",
+   "accession": "0002157445-26-000001",
+   "filing_date": "2026-10-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000215744526000001/form3-10032026_121047.xml",
+   "quote": "Brous Michael Zachary",
+   "supports": "Most recent Form 3 (filed 2026-10-02) is an officer (CFO), not a director: no new director since Minicucci.",
+   "xml_fields": {
+    "rptOwnerCik": "0002157445",
+    "rptOwnerName": "Brous Michael Zachary",
+    "periodOfReport": "2026-09-28"
+   },
+   "xml_relationship": {
+    "isDirector": false,
+    "officerTitle": "CHIEF FINANCIAL OFFICER"
+   }
+  },
+  {
+   "id": "e060",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-120957",
+   "filing_date": "2020-04-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312520120957/d920070ddef14a.htm",
+   "quote": "Ben Horowitz, who is currently serving as one of our Class I directors, is not standing for re-election.",
+   "supports": "Horowitz did not stand for re-election at the 2020 annual meeting (term expired then)."
+  },
+  {
+   "id": "e061",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-120957",
+   "filing_date": "2020-04-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312520120957/d920070ddef14a.htm",
+   "quote": "Following the Annual Meeting, our board of directors will include eight members, and it is anticipated that the number of authorized directors will be decreased to eight members",
+   "supports": "Board size: 9 -> 8 anticipated after the 2020 annual meeting."
+  },
+  {
+   "id": "e062",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-120957",
+   "filing_date": "2020-04-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312520120957/d920070ddef14a.htm",
+   "quote": "Logan Green I 36 Chief Executive Officer, Co-Founder and Director 2007 2020 2023",
+   "supports": "Logan Green 'Director Since' 2007; Class I; term expiring 2020, nominated to 2023.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e063",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-120957",
+   "filing_date": "2020-04-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312520120957/d920070ddef14a.htm",
+   "quote": "was a director of Cadence Design Systems, Inc., an electronic design automation software and engineering services company, through April 2020",
+   "supports": "Maggie Wilderotter left the Cadence board in April 2020."
+  },
+  {
+   "id": "e064",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-120957",
+   "filing_date": "2020-04-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312520120957/d920070ddef14a.htm",
+   "quote": "Our compensation committee consists of Messrs. Aggarwal, Horowitz and Lawee, with Mr. Lawee serving as Chairperson",
+   "supports": "Compensation committee per 2020 proxy."
+  },
+  {
+   "id": "e065",
+   "form": "8-K",
+   "accession": "0001193125-20-176537",
+   "filing_date": "2020-06-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312520176537/d921014d8k.htm",
+   "quote": "On June 19, 2020, Lyft, Inc. (the “Company”) held its annual meeting of stockholders",
+   "supports": "2020 annual meeting date (end of Horowitz's term; Green and Miura-Ko re-elected)."
+  },
+  {
+   "id": "e066",
+   "form": "8-K",
+   "accession": "0001193125-20-176537",
+   "filing_date": "2020-06-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312520176537/d921014d8k.htm",
+   "quote": "Logan Green 361,866,472 19,275,470 45,950,524 Ann Miura-Ko 351,910,063 29,231,879 45,950,524",
+   "supports": "2020 meeting: only Green and Miura-Ko elected (Horowitz not a nominee).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e067",
+   "form": "8-K",
+   "accession": "0001193125-20-235624",
+   "filing_date": "2020-08-31",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312520235624/d59177d8k.htm",
+   "quote": "Mr. Mikitani’s resignation from the Board is effective as of August 31, 2020 and is not due to any disagreement with the Company",
+   "supports": "Hiroshi Mikitani resigned effective 2020-08-31."
+  },
+  {
+   "id": "e068",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-120957",
+   "filing_date": "2020-04-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312520120957/d920070ddef14a.htm",
+   "quote": "Our audit committee consists of Mses. Wilderotter and Jarrett and Mr. Aggarwal, with Ms. Wilderotter serving as Chairperson",
+   "supports": "Audit committee per 2020 proxy."
+  },
+  {
+   "id": "e069",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-120957",
+   "filing_date": "2020-04-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312520120957/d920070ddef14a.htm",
+   "quote": "Our nominating and corporate governance committee consists of Dr. Miura-Ko, Ms. Jarrett and Mr. Lawee, with Dr. Miura-Ko serving as Chairperson",
+   "supports": "Nominating and corporate governance committee per 2020 proxy."
+  },
+  {
+   "id": "e070",
+   "form": "8-K",
+   "accession": "0001759509-21-000018",
+   "filing_date": "2021-03-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950921000018/lyft-20210329.htm",
+   "quote": "On March 29, 2021, the Board of Directors (the “Board”) of Lyft, Inc. (the “Company”) appointed Ariel Cohen to serve as a member of the Board and as a member of the Compensation Committee of the Board.",
+   "supports": "Ariel Cohen appointed director and compensation committee member on 2021-03-29."
+  },
+  {
+   "id": "e071",
+   "form": "DEF 14A",
+   "accession": "0001759509-21-000026",
+   "filing_date": "2021-04-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950921000026/a2021proxystatement.htm",
+   "quote": "Our board of directors consists of eight directors, six of whom qualify as “independent”",
+   "supports": "Board size per 2021 proxy: eight."
+  },
+  {
+   "id": "e072",
+   "form": "DEF 14A",
+   "accession": "0001759509-21-000026",
+   "filing_date": "2021-04-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950921000026/a2021proxystatement.htm",
+   "quote": "Our audit committee consists of Mses. Wilderotter and Jarrett and Mr. Aggarwal, with Ms. Wilderotter serving as Chairperson",
+   "supports": "Audit committee per 2021 proxy."
+  },
+  {
+   "id": "e073",
+   "form": "DEF 14A",
+   "accession": "0001759509-21-000026",
+   "filing_date": "2021-04-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950921000026/a2021proxystatement.htm",
+   "quote": "Our compensation committee consists of Messrs. Aggarwal, Lawee, and Cohen, with Mr. Lawee serving as Chairperson",
+   "supports": "Compensation committee per 2021 proxy."
+  },
+  {
+   "id": "e074",
+   "form": "DEF 14A",
+   "accession": "0001759509-21-000026",
+   "filing_date": "2021-04-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950921000026/a2021proxystatement.htm",
+   "quote": "Our nominating and corporate governance committee consists of Dr. Miura-Ko, Ms. Jarrett and Mr. Lawee, with Dr. Miura-Ko serving as Chairperson",
+   "supports": "Nominating and corporate governance committee per 2021 proxy."
+  },
+  {
+   "id": "e075",
+   "form": "8-K",
+   "accession": "0001759509-21-000039",
+   "filing_date": "2021-07-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950921000039/lyft-20210709.htm",
+   "quote": "On July 9, 2021, the Board of Directors (the “Board”) of Lyft, Inc. (the “Company”) appointed John David Risher to serve as a member of the Board. Mr. Risher is also being appointed as a member of the Nominating and Corporate Governance Committee of the Board.",
+   "supports": "David Risher appointed director (and NCG member) on 2021-07-09."
+  },
+  {
+   "id": "e076",
+   "form": "DEF 14A",
+   "accession": "0001759509-21-000026",
+   "filing_date": "2021-04-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950921000026/a2021proxystatement.htm",
+   "quote": "Ariel Cohen(2) III 45 Director 2021 2022",
+   "supports": "Ariel Cohen assigned to Class III (term to 2022).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e080",
+   "form": "DEF 14A",
+   "accession": "0001759509-22-000034",
+   "filing_date": "2022-04-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950922000034/a2022proxystatement.htm",
+   "quote": "David Risher(3) I 56 Director 2021 2023",
+   "supports": "David Risher: Class I, director since 2021, term to 2023.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e081",
+   "form": "DEF 14A",
+   "accession": "0001759509-22-000034",
+   "filing_date": "2022-04-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950922000034/a2022proxystatement.htm",
+   "quote": "our board of directors has determined that Messrs. Aggarwal, Lawee, Cohen, and Risher, Mses. Jarrett and Wilderotter, and Dr. Miura-Ko do not have a relationship that would interfere",
+   "supports": "2022 independence determination (Risher independent before becoming CEO)."
+  },
+  {
+   "id": "e082",
+   "form": "DEF 14A",
+   "accession": "0001759509-22-000034",
+   "filing_date": "2022-04-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950922000034/a2022proxystatement.htm",
+   "quote": "Our nominating and corporate governance committee consists of Dr. Miura-Ko, Ms. Jarrett and Mr. Risher with Dr. Miura-Ko serving as Chairperson",
+   "supports": "Nominating and corporate governance committee per 2022 proxy."
+  },
+  {
+   "id": "e083",
+   "form": "DEF 14A",
+   "accession": "0001759509-22-000034",
+   "filing_date": "2022-04-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950922000034/a2022proxystatement.htm",
+   "quote": "Mr. Risher was appointed to the nominating and corporate governance committee in connection with his appointment to the board of directors in July 2021, at which time Mr. Lawee resigned from the committee.",
+   "supports": "NCG change July 2021: Risher joins, Lawee leaves."
+  },
+  {
+   "id": "e084",
+   "form": "DEF 14A",
+   "accession": "0001759509-22-000034",
+   "filing_date": "2022-04-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950922000034/a2022proxystatement.htm",
+   "quote": "Our audit committee consists of Mses. Wilderotter and Jarrett and Mr. Aggarwal, with Ms. Wilderotter serving as Chairperson",
+   "supports": "Audit committee per 2022 proxy."
+  },
+  {
+   "id": "e085",
+   "form": "DEF 14A",
+   "accession": "0001759509-22-000034",
+   "filing_date": "2022-04-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950922000034/a2022proxystatement.htm",
+   "quote": "Our compensation committee consists of Messrs. Aggarwal, Lawee, and Cohen, with Mr. Lawee serving as Chairperson",
+   "supports": "Compensation committee per 2022 proxy."
+  },
+  {
+   "id": "e086",
+   "form": "DEF 14A",
+   "accession": "0001759509-22-000034",
+   "filing_date": "2022-04-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950922000034/a2022proxystatement.htm",
+   "quote": "Our board of directors consists of nine directors, seven of whom qualify as “independent”",
+   "supports": "Board size per 2022 proxy: nine."
+  },
+  {
+   "id": "e090",
+   "form": "8-K",
+   "accession": "0001759509-23-000008",
+   "filing_date": "2023-02-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950923000008/lyft-20230201.htm",
+   "quote": "On February 1, 2023, the Board of Directors (the “Board”) of Lyft, Inc. (the “Company”) appointed David E. Stephenson to serve as a member of the Board as a Class I director",
+   "supports": "Dave Stephenson appointed Class I director on 2023-02-01."
+  },
+  {
+   "id": "e091",
+   "form": "8-K",
+   "accession": "0001759509-23-000008",
+   "filing_date": "2023-02-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950923000008/lyft-20230201.htm",
+   "quote": "Mr. Stephenson has also been appointed as a member of the Audit Committee of the Board.",
+   "supports": "Stephenson joined the audit committee on appointment (2023-02-01)."
+  },
+  {
+   "id": "e092",
+   "form": "8-K",
+   "accession": "0001193125-23-080628",
+   "filing_date": "2023-03-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312523080628/d467235d8k.htm",
+   "quote": "the Company’s board of directors (the “Board”) appointed David Risher, a member of the Board since July 2021, to serve as CEO, effective as of April 17, 2023",
+   "supports": "Risher becomes CEO effective 2023-04-17 (announced 2023-03-27)."
+  },
+  {
+   "id": "e093",
+   "form": "8-K",
+   "accession": "0001193125-23-080628",
+   "filing_date": "2023-03-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312523080628/d467235d8k.htm",
+   "quote": "Logan Green, its co-founder and Chief Executive Officer (“CEO”), has decided to transition from his role as CEO, effective as of April 17, 2023, and John Zimmer, its co-founder and President, has decided to transition from his role as President, effective as of June 30, 2023.",
+   "supports": "Green ceases CEO role 2023-04-17; Zimmer ceases President role 2023-06-30."
+  },
+  {
+   "id": "e094",
+   "form": "8-K",
+   "accession": "0001193125-23-080628",
+   "filing_date": "2023-03-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312523080628/d467235d8k.htm",
+   "quote": "Mr. Green has been appointed as Chair of the Board, and Sean Aggarwal, the Company’s current Board Chair, has been appointed as Lead Independent Director, each effective as of April 17, 2023. Mr. Zimmer will continue to serve as Vice Chair of the Board.",
+   "supports": "Chair passes Aggarwal -> Green; Aggarwal becomes Lead Independent Director, both effective 2023-04-17; Zimmer remains Vice Chair."
+  },
+  {
+   "id": "e095",
+   "form": "8-K",
+   "accession": "0001193125-23-080628",
+   "filing_date": "2023-03-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312523080628/d467235dex991.htm",
+   "quote": "into non-executive roles as chair and vice chair of the Lyft board, effective April 17, 2023 and June 30, 2023, respectively.",
+   "supports": "Press release wording on founders' transition dates (see conflicts re: Zimmer's Vice Chair start)."
+  },
+  {
+   "id": "e096",
+   "form": "8-K",
+   "accession": "0001759509-23-000040",
+   "filing_date": "2023-04-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950923000040/lyft-20230426.htm",
+   "quote": "who, as previously announced, will transition to a non-employee advisor and director role on June 30, 2023.",
+   "supports": "Zimmer becomes a non-employee director on 2023-06-30."
+  },
+  {
+   "id": "e097",
+   "form": "DEF 14A",
+   "accession": "0001759509-23-000049",
+   "filing_date": "2023-05-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950923000049/lyft-20230501.htm",
+   "quote": "Ann Miura-Ko, who is currently serving as one of our Class I directors, is not standing for re-election.",
+   "supports": "Miura-Ko did not stand for re-election at the 2023 annual meeting."
+  },
+  {
+   "id": "e098",
+   "form": "DEF 14A",
+   "accession": "0001759509-23-000049",
+   "filing_date": "2023-05-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950923000049/lyft-20230501.htm",
+   "quote": "Following the Annual Meeting, the number of authorized directors will be decreased to nine and our board of directors will include nine members",
+   "supports": "Board size: 10 -> 9 after the 2023 annual meeting."
+  },
+  {
+   "id": "e099",
+   "form": "DEF 14A",
+   "accession": "0001759509-23-000049",
+   "filing_date": "2023-05-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950923000049/lyft-20230501.htm",
+   "quote": "He was appointed Chairperson of the audit committee in April 2023, replacing Ms. Wilderotter who resigned from the committee following her appointment to the nominating and corporate governance committee.",
+   "supports": "Stephenson audit chair from April 2023; Wilderotter left audit committee."
+  },
+  {
+   "id": "e100",
+   "form": "DEF 14A",
+   "accession": "0001759509-23-000049",
+   "filing_date": "2023-05-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950923000049/lyft-20230501.htm",
+   "quote": "Ms. Wilderotter was appointed to the nominating and corporate governance committee in March 2023, replacing Mr. Risher who resigned from the committee in connection with the announcement of his appointment as our chief executive officer",
+   "supports": "NCG change March 2023: Wilderotter joins, Risher leaves (on CEO announcement)."
+  },
+  {
+   "id": "e101",
+   "form": "DEF 14A",
+   "accession": "0001759509-23-000049",
+   "filing_date": "2023-05-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950923000049/lyft-20230501.htm",
+   "quote": "effective as of the date of the Annual Meeting, Ms. Wilderotter will serve as Chairperson of the committee.",
+   "supports": "Wilderotter to become NCG chair as of the 2023 annual meeting (2023-06-15)."
+  },
+  {
+   "id": "e102",
+   "form": "DEF 14A",
+   "accession": "0001759509-23-000049",
+   "filing_date": "2023-05-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950923000049/lyft-20230501.htm",
+   "quote": "Our audit committee consists of Ms. Jarrett and Messrs. Aggarwal and Stephenson, with Mr. Stephenson serving as Chairperson",
+   "supports": "Audit committee per 2023 proxy."
+  },
+  {
+   "id": "e103",
+   "form": "DEF 14A",
+   "accession": "0001759509-23-000049",
+   "filing_date": "2023-05-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950923000049/lyft-20230501.htm",
+   "quote": "Our compensation committee consists of Messrs. Aggarwal, Cohen and Lawee, with Mr. Lawee serving as Chairperson",
+   "supports": "Compensation committee per 2023 proxy."
+  },
+  {
+   "id": "e104",
+   "form": "DEF 14A",
+   "accession": "0001759509-23-000049",
+   "filing_date": "2023-05-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950923000049/lyft-20230501.htm",
+   "quote": "Our nominating and corporate governance committee consists of Dr. Miura-Ko and Mses. Jarrett and Wilderotter, with Dr. Miura-Ko serving as Chairperson",
+   "supports": "Nominating and corporate governance committee per 2023 proxy."
+  },
+  {
+   "id": "e105",
+   "form": "DEF 14A",
+   "accession": "0001759509-23-000049",
+   "filing_date": "2023-05-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950923000049/lyft-20230501.htm",
+   "quote": "Ms. Wilderotter currently serves on the public board of directors of Costco Wholesale Corporation, a wholesale retailer, DocuSign, Inc., and Sana Biotechnology, Inc., a biotechnology company.",
+   "supports": "Maggie Wilderotter current public boards (as of 2023 proxy)."
+  },
+  {
+   "id": "e106",
+   "form": "DEF 14A",
+   "accession": "0001759509-23-000049",
+   "filing_date": "2023-05-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950923000049/lyft-20230501.htm",
+   "quote": "was a public director of Cadence Design Systems, Inc., an electronic design automation software and engineering services company, Juno Therapeutics, Inc., a biopharmaceutical company, and Hewlett Packard Enterprise Company (HPE)",
+   "supports": "Maggie Wilderotter former public boards (as of 2023 proxy)."
+  },
+  {
+   "id": "e107",
+   "form": "DEF 14A",
+   "accession": "0001759509-23-000049",
+   "filing_date": "2023-05-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950923000049/lyft-20230501.htm",
+   "quote": "serves on the boards of directors of Ralph Lauren Corporation, a premium lifestyle products company, Walgreens Boots Alliance, Inc., a retail and wholesale pharmacy company, Sweetgreen, Inc., a retail restaurant business",
+   "supports": "Valerie Jarrett current boards (as of 2023 proxy)."
+  },
+  {
+   "id": "e108",
+   "form": "DEF 14A",
+   "accession": "0001759509-23-000049",
+   "filing_date": "2023-05-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950923000049/lyft-20230501.htm",
+   "quote": "In addition, in the past five years, she served on the board of directors of 2U, Inc., an education technology company.",
+   "supports": "Valerie Jarrett former board: 2U, Inc. (as of 2023 proxy)."
+  },
+  {
+   "id": "e109",
+   "form": "8-K",
+   "accession": "0001759509-23-000082",
+   "filing_date": "2023-06-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950923000082/lyft-20230615.htm",
+   "quote": "On June 15, 2023, Lyft, Inc. (the “Company”) held its annual meeting of stockholders",
+   "supports": "2023 annual meeting date (end of Miura-Ko's term)."
+  },
+  {
+   "id": "e110",
+   "form": "8-K",
+   "accession": "0001759509-23-000082",
+   "filing_date": "2023-06-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950923000082/lyft-20230615.htm",
+   "quote": "Logan Green 344,094,211 48,463,033 48,022,737 David Risher 352,023,004 40,534,240 48,022,737 Dave Stephenson 385,911,372 6,645,872 48,022,737",
+   "supports": "2023 meeting: Green, Risher, Stephenson elected Class I to 2026 (Miura-Ko not a nominee).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e111",
+   "form": "8-K",
+   "accession": "0001759509-23-000086",
+   "filing_date": "2023-07-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950923000086/lyft-20230724.htm",
+   "quote": "On July 24, 2023, the Board of Directors (the “Board”) of Lyft, Inc. (the “Company”) appointed Janey Whiteside to serve as a member of the Board, effective July 31, 2023 as a Class II director",
+   "supports": "Janey Whiteside: board decision 2023-07-24, effective 2023-07-31, Class II."
+  },
+  {
+   "id": "e112",
+   "form": "8-K",
+   "accession": "0001759509-23-000086",
+   "filing_date": "2023-07-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950923000086/lyft-20230724.htm",
+   "quote": "Ms. Whiteside has also been appointed as a member of the Compensation Committee of the Board, effective July 31, 2023.",
+   "supports": "Whiteside joins compensation committee 2023-07-31."
+  },
+  {
+   "id": "e113",
+   "form": "8-K",
+   "accession": "0001759509-23-000099",
+   "filing_date": "2023-10-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950923000099/lyft-20231012.htm",
+   "quote": "On October 12, 2023, each of Mary Agnes (Maggie) Wilderotter and Valerie Jarrett informed Lyft, Inc. (the “Company”) of their respective resignations from the Company’s board of directors (the “Board”), effective immediately.",
+   "supports": "Wilderotter and Jarrett resigned effective 2023-10-12."
+  },
+  {
+   "id": "e114",
+   "form": "8-K",
+   "accession": "0001759509-23-000099",
+   "filing_date": "2023-10-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950923000099/lyft-20231012.htm",
+   "quote": "the Board appointed Prashant (Sean) Aggarwal as Chair of the Nominating and Corporate Governance Committee of the Board (the “Nominating Committee”) and appointed Janey Whiteside as a member of the Nominating Committee. The Board has also decreased the number of authorized directors from ten to eight.",
+   "supports": "Aggarwal NCG chair; Whiteside NCG member; authorized directors 10 -> 8 (2023-10-12)."
+  },
+  {
+   "id": "e115",
+   "form": "8-K",
+   "accession": "0001759509-23-000120",
+   "filing_date": "2023-11-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950923000120/lyft-20231116.htm",
+   "quote": "On November 16, 2023, the Board of Directors (the “Board”) of Lyft, Inc. (the “Company”) appointed Betsey Stevenson to serve as a member of the Board, effective immediately. She will serve as a Class III director",
+   "supports": "Betsey Stevenson appointed Class III director 2023-11-16."
+  },
+  {
+   "id": "e116",
+   "form": "8-K",
+   "accession": "0001759509-23-000120",
+   "filing_date": "2023-11-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950923000120/lyft-20231116.htm",
+   "quote": "Ms. Stevenson has also been appointed as a member of the Nominating and Corporate Governance Committee of the Board, effective November 16, 2023.",
+   "supports": "Stevenson joins NCG 2023-11-16."
+  },
+  {
+   "id": "e117",
+   "form": "8-K",
+   "accession": "0001759509-24-000006",
+   "filing_date": "2024-01-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950924000006/lyft-20231231.htm",
+   "quote": "On December 31, 2023, the Board of Directors (the “Board”) of Lyft, Inc. (the “Company”) appointed Jill Beggs to serve as a member of the Board, effective immediately. She will serve as a Class III director",
+   "supports": "Jill Beggs appointed Class III director 2023-12-31."
+  },
+  {
+   "id": "e118",
+   "form": "8-K",
+   "accession": "0001759509-24-000006",
+   "filing_date": "2024-01-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950924000006/lyft-20231231.htm",
+   "quote": "Ms. Beggs has also been appointed as a member of the Audit Committee of the Board, effective immediately.",
+   "supports": "Beggs joins audit committee 2023-12-31."
+  },
+  {
+   "id": "e120",
+   "form": "DEF 14A",
+   "accession": "0001759509-24-000055",
+   "filing_date": "2024-04-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950924000055/lyft-20240425.htm",
+   "quote": "Our board of directors consists of ten directors, seven of whom qualify as “independent”",
+   "supports": "Board size per 2024 proxy: ten."
+  },
+  {
+   "id": "e121",
+   "form": "DEF 14A",
+   "accession": "0001759509-24-000055",
+   "filing_date": "2024-04-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950924000055/lyft-20240425.htm",
+   "quote": "Mr. Lawee was appointed to the audit committee in October 2023, replacing Valerie Jarrett who resigned from the board of directors in October 2023.",
+   "supports": "Lawee joins audit committee October 2023."
+  },
+  {
+   "id": "e122",
+   "form": "DEF 14A",
+   "accession": "0001759509-24-000055",
+   "filing_date": "2024-04-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950924000055/lyft-20240425.htm",
+   "quote": "Our audit committee consists of Ms. Beggs and Messrs. Aggarwal, Lawee and Stephenson, with Mr. Stephenson serving as Chairperson",
+   "supports": "Audit committee per 2024 proxy."
+  },
+  {
+   "id": "e123",
+   "form": "DEF 14A",
+   "accession": "0001759509-24-000055",
+   "filing_date": "2024-04-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950924000055/lyft-20240425.htm",
+   "quote": "Our compensation committee consists of Ms. Whiteside and Messrs. Aggarwal, Cohen and Lawee, with Mr. Lawee serving as Chairperson",
+   "supports": "Compensation committee per 2024 proxy."
+  },
+  {
+   "id": "e124",
+   "form": "DEF 14A",
+   "accession": "0001759509-24-000055",
+   "filing_date": "2024-04-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950924000055/lyft-20240425.htm",
+   "quote": "Our nominating and corporate governance committee consists of Mr. Aggarwal and Mses. Stevenson and Whiteside, with Mr. Aggarwal serving as Chairperson",
+   "supports": "Nominating and corporate governance committee per 2024 proxy."
+  },
+  {
+   "id": "e125",
+   "form": "8-K",
+   "accession": "0001759509-24-000091",
+   "filing_date": "2024-06-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950924000091/lyft-20240613.htm",
+   "quote": "On June 13, 2024, Lyft, Inc. (the “Company”) held its annual meeting of stockholders",
+   "supports": "2024 annual meeting date (Zimmer, Lawee, Whiteside re-elected Class II to 2027)."
+  },
+  {
+   "id": "e126",
+   "form": "DEF 14A",
+   "accession": "0001759509-24-000055",
+   "filing_date": "2024-04-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950924000055/lyft-20240425.htm",
+   "quote": "Mr. Aggarwal currently serves as a member of the board of directors of Arlo Technologies, Inc., a home security company, and Sonder Holdings Inc., a hospitality company.",
+   "supports": "Sean Aggarwal current boards (as of 2024 proxy): Arlo, Sonder."
+  },
+  {
+   "id": "e130",
+   "form": "DEFC14A",
+   "accession": "0001759509-25-000069",
+   "filing_date": "2025-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950925000069/lyft-20250424.htm",
+   "quote": "Engine Capital LP (together with its affiliates, “Engine Capital”), which owns less than 1% of our capital stock, has provided notice that it intends to nominate two candidates for election as directors at the Annual Meeting",
+   "supports": "2025 proxy contest: Engine Capital noticed two nominees."
+  },
+  {
+   "id": "e131",
+   "form": "DEFC14A",
+   "accession": "0001759509-25-000069",
+   "filing_date": "2025-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950925000069/lyft-20250424.htm",
+   "quote": "Our board of directors consists of ten directors, seven of whom qualify as “independent”",
+   "supports": "Board size per 2025 proxy: ten."
+  },
+  {
+   "id": "e132",
+   "form": "DEFC14A",
+   "accession": "0001759509-25-000069",
+   "filing_date": "2025-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950925000069/lyft-20250424.htm",
+   "quote": "Mr. Green was appointed Board Chair in April 2023. He served as our Chief Executive Officer from our founding until April 2023.",
+   "supports": "Logan Green: CEO from founding to April 2023; Board Chair from April 2023."
+  },
+  {
+   "id": "e133",
+   "form": "DEFC14A",
+   "accession": "0001759509-25-000069",
+   "filing_date": "2025-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950925000069/lyft-20250424.htm",
+   "quote": "Mr. Green is currently a Venture Partner at Autotech Ventures, an early-stage venture capital firm, and serves as a member of the board of directors of eBay, an online marketplace and payments company.",
+   "supports": "Logan Green other public board (as of 2025 proxy): eBay."
+  },
+  {
+   "id": "e134",
+   "form": "DEFC14A",
+   "accession": "0001759509-25-000069",
+   "filing_date": "2025-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950925000069/lyft-20250424.htm",
+   "quote": "Mr. Zimmer is a co-founder of Lyft and has served as our Vice Chair since January 2019 and as a member of our board of directors since June 2010. He previously served as our President from March 2013 until June 2023",
+   "supports": "John Zimmer: Vice Chair since January 2019; director since June 2010; President until June 2023."
+  },
+  {
+   "id": "e135",
+   "form": "DEFC14A",
+   "accession": "0001759509-25-000069",
+   "filing_date": "2025-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950925000069/lyft-20250424.htm",
+   "quote": "Mr. Cohen has served as a member of our board of directors since March 2021.",
+   "supports": "Ariel Cohen: director since March 2021."
+  },
+  {
+   "id": "e136",
+   "form": "DEFC14A",
+   "accession": "0001759509-25-000069",
+   "filing_date": "2025-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950925000069/lyft-20250424.htm",
+   "quote": "our board of directors has determined that Messrs. Aggarwal, Cohen, Lawee, and Stephenson and Mses. Beggs, Stevenson and Whiteside do not have a relationship that would interfere",
+   "supports": "2025 independence determination."
+  },
+  {
+   "id": "e137",
+   "form": "DEFC14A",
+   "accession": "0001759509-25-000069",
+   "filing_date": "2025-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950925000069/lyft-20250424.htm",
+   "quote": "Our audit committee consists of Ms. Beggs and Messrs. Aggarwal, Lawee and Stephenson, with Mr. Stephenson serving as Chairperson",
+   "supports": "Audit committee per 2025 proxy."
+  },
+  {
+   "id": "e138",
+   "form": "DEFC14A",
+   "accession": "0001759509-25-000069",
+   "filing_date": "2025-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950925000069/lyft-20250424.htm",
+   "quote": "Our compensation committee consists of Ms. Whiteside and Messrs. Aggarwal, Cohen and Lawee, with Mr. Lawee serving as Chairperson",
+   "supports": "Compensation committee per 2025 proxy."
+  },
+  {
+   "id": "e139",
+   "form": "DEFC14A",
+   "accession": "0001759509-25-000069",
+   "filing_date": "2025-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950925000069/lyft-20250424.htm",
+   "quote": "Our nominating and corporate governance committee consists of Mr. Aggarwal and Mses. Stevenson and Whiteside, with Mr. Aggarwal serving as Chairperson",
+   "supports": "Nominating and corporate governance committee per 2025 proxy."
+  },
+  {
+   "id": "e140",
+   "form": "DEFC14A",
+   "accession": "0001759509-25-000069",
+   "filing_date": "2025-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950925000069/lyft-20250424.htm",
+   "quote": "Logan Green I 41 Co-Founder and Board Chair 2007 2026",
+   "supports": "Logan Green 'Director Since' 2007; Class I; term to 2026 (2025 proxy).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e141",
+   "form": "DEFC14A",
+   "accession": "0001759509-25-000069",
+   "filing_date": "2025-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950925000069/lyft-20250424.htm",
+   "quote": "John Zimmer II 41 Co-Founder and Vice Chair 2010 2027",
+   "supports": "John Zimmer 'Director Since' 2010; Class II; term to 2027 (2025 proxy).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e142",
+   "form": "DEFC14A",
+   "accession": "0001759509-25-000069",
+   "filing_date": "2025-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950925000069/lyft-20250424.htm",
+   "quote": "Ariel Cohen(2) III 49 Director 2021 2025 2028",
+   "supports": "Ariel Cohen Class III, nominated for term to 2028 (2025 proxy).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e143",
+   "form": "PREC14A",
+   "accession": "0001193805-25-000506",
+   "filing_date": "2025-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119380525000506/prec14a09488050_04162025.htm",
+   "quote": "To elect Engine Capital’s two (2) director nominees, Alan L. Bazaar and Daniel B. Silvers",
+   "supports": "Engine Capital's nominees were Alan L. Bazaar and Daniel B. Silvers (never seated)."
+  },
+  {
+   "id": "e144",
+   "form": "DFAN14A",
+   "accession": "0000921895-25-001361",
+   "filing_date": "2025-05-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000092189525001361/dfan14a09488050_05092025.htm",
+   "quote": "Engine withdrew its slate of nominees for election to the Board of Directors of the Company at the Annual Meeting.",
+   "supports": "Engine Capital withdrew its nominees (after Lyft's 2025-05-08 buyback announcement); no settlement directors added."
+  },
+  {
+   "id": "e145",
+   "form": "8-K",
+   "accession": "0001759509-25-000094",
+   "filing_date": "2025-05-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950925000094/lyft-20250522.htm",
+   "quote": "On May 22, 2025, Ariel Cohen informed Lyft, Inc. (the “Company”) of his resignation from the Company’s board of directors (the “Board”), effective immediately.",
+   "supports": "Ariel Cohen resigned effective 2025-05-22."
+  },
+  {
+   "id": "e146",
+   "form": "8-K",
+   "accession": "0001759509-25-000094",
+   "filing_date": "2025-05-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950925000094/lyft-20250522.htm",
+   "quote": "The Board intends to decrease the number of authorized directors from ten to nine.",
+   "supports": "Board size: 10 -> 9 (intended) after Cohen's resignation."
+  },
+  {
+   "id": "e147",
+   "form": "DEFR14A",
+   "accession": "0001759509-25-000096",
+   "filing_date": "2025-05-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950925000096/a2025-05x23schedule14a.htm",
+   "quote": "As a result of Mr. Cohen’s resignation, his name has been withdrawn from nomination, and will not be presented, for election to the Board as a Class III director at the Annual Meeting.",
+   "supports": "Cohen withdrawn as a 2025 nominee."
+  },
+  {
+   "id": "e148",
+   "form": "8-K",
+   "accession": "0001759509-25-000107",
+   "filing_date": "2025-06-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950925000107/lyft-20250605.htm",
+   "quote": "On June 5, 2025, Lyft, Inc. (the “Company”) held its annual meeting of stockholders",
+   "supports": "2025 annual meeting date (Aggarwal, Beggs, Stevenson elected Class III to 2028)."
+  },
+  {
+   "id": "e149",
+   "form": "8-K",
+   "accession": "0001759509-25-000134",
+   "filing_date": "2025-08-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950925000134/lyft-20250813.htm",
+   "quote": "On August 14, 2025, the Company announced that Logan Green, Chair of the Board of Directors of the Company (the “Board”), and John Zimmer, Vice Chair of the Board, had resigned from the Board effective August 14, 2025",
+   "supports": "Green (Chair) and Zimmer (Vice Chair) resigned effective 2025-08-14."
+  },
+  {
+   "id": "e150",
+   "form": "8-K",
+   "accession": "0001759509-25-000134",
+   "filing_date": "2025-08-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950925000134/lyft-20250813.htm",
+   "quote": "The Board has decreased the number of authorized directors from nine to seven.",
+   "supports": "Board size: 9 -> 7 (2025-08-14)."
+  },
+  {
+   "id": "e151",
+   "form": "8-K",
+   "accession": "0001759509-25-000134",
+   "filing_date": "2025-08-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950925000134/lyft-20250813.htm",
+   "quote": "In connection with Mr. Green’s departure from the Board, the Board appointed Sean Aggarwal as Chair of the Board to succeed Mr. Green.",
+   "supports": "Aggarwal appointed Chair succeeding Green (August 2025)."
+  },
+  {
+   "id": "e152",
+   "form": "8-K",
+   "accession": "0001759509-25-000134",
+   "filing_date": "2025-08-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950925000134/lyft-20250813.htm",
+   "quote": "each outstanding share of Class B common stock, par value $0.00001 per share of the Company (the “Class B Common Stock”), will automatically convert into one share of Class A common stock",
+   "supports": "Dual-class collapse: all Class B converted to Class A at 5:00 p.m. ET on 2025-08-15."
+  },
+  {
+   "id": "e153",
+   "form": "8-K",
+   "accession": "0001759509-25-000134",
+   "filing_date": "2025-08-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950925000134/ex991-pressrelease81425.htm",
+   "quote": "With these changes, the Board will reduce its size to seven members, six of whom are independent.",
+   "supports": "Post-departure board: seven members, six independent."
+  },
+  {
+   "id": "e154",
+   "form": "10-Q",
+   "accession": "0001628280-25-049701",
+   "filing_date": "2025-11-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000162828025049701/lyft-20250930.htm",
+   "quote": "Prashant Aggarwal, Chair of our board of directors",
+   "supports": "Q3 2025 10-Q (filed 2025-11-05) refers to Aggarwal as Chair (as of 2025-09-04 plan adoption)."
+  },
+  {
+   "id": "e160",
+   "form": "8-K",
+   "accession": "0001628280-26-003601",
+   "filing_date": "2026-01-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000162828026003601/lyft-20260125.htm",
+   "quote": "On January 25, 2026, the Board of Directors (the “Board”) of Lyft, Inc. (the “Company”) appointed Deborah Hersman to serve as a member of the Board, effective immediately. She will serve as a Class I director",
+   "supports": "Deborah Hersman appointed Class I director 2026-01-25."
+  },
+  {
+   "id": "e161",
+   "form": "8-K",
+   "accession": "0001628280-26-003601",
+   "filing_date": "2026-01-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000162828026003601/lyft-20260125.htm",
+   "quote": "Ms. Hersman has also been appointed as a member of the Nominating and Corporate Governance Committee of the Board, effective immediately.",
+   "supports": "Hersman joins NCG 2026-01-25."
+  },
+  {
+   "id": "e162",
+   "form": "DEF 14A",
+   "accession": "0001628280-26-024680",
+   "filing_date": "2026-04-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000162828026024680/lyft-20260410.htm",
+   "quote": "Our board of directors consists of eight directors, seven of whom qualify as “independent”",
+   "supports": "Board size per 2026 proxy (as of 2026-03-31/04-10): eight, seven independent."
+  },
+  {
+   "id": "e163",
+   "form": "DEF 14A",
+   "accession": "0001628280-26-024680",
+   "filing_date": "2026-04-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000162828026024680/lyft-20260410.htm",
+   "quote": "Mr. Aggarwal has served as a member of our board of directors since February 2016 and was appointed as our Board Chair in August 2025. Mr. Aggarwal previously served as our Lead Independent Director from April 2023 to August 2025, and as our Board Chair from January 2019 to April 2023.",
+   "supports": "Sean Aggarwal: director since Feb 2016; Chair Jan 2019-Apr 2023; LID Apr 2023-Aug 2025; Chair again since Aug 2025."
+  },
+  {
+   "id": "e164",
+   "form": "DEF 14A",
+   "accession": "0001628280-26-024680",
+   "filing_date": "2026-04-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000162828026024680/lyft-20260410.htm",
+   "quote": "Mr. Aggarwal was appointed our Board Chair in August 2025, in connection with Logan Green, one of our co-founders and the previous Board Chair, stepping down from our board of directors.",
+   "supports": "Chair succession Green -> Aggarwal, August 2025."
+  },
+  {
+   "id": "e165",
+   "form": "DEF 14A",
+   "accession": "0001628280-26-024680",
+   "filing_date": "2026-04-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000162828026024680/lyft-20260410.htm",
+   "quote": "our board of directors has determined that Messrs. Aggarwal, Lawee, and Stephenson and Mses. Beggs, Hersman, Stevenson and Whiteside do not have a relationship that would interfere",
+   "supports": "2026 independence determination (Risher, as CEO, not independent)."
+  },
+  {
+   "id": "e166",
+   "form": "DEF 14A",
+   "accession": "0001628280-26-024680",
+   "filing_date": "2026-04-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000162828026024680/lyft-20260410.htm",
+   "quote": "Our audit committee consists of Mses. Beggs and Stevenson and Messrs. Aggarwal and Stephenson, with Mr. Stephenson serving as Chairperson",
+   "supports": "Audit committee per 2026 proxy."
+  },
+  {
+   "id": "e167",
+   "form": "DEF 14A",
+   "accession": "0001628280-26-024680",
+   "filing_date": "2026-04-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000162828026024680/lyft-20260410.htm",
+   "quote": "Ms. Stevenson was appointed to the audit committee in August 2025, replacing Mr. Lawee.",
+   "supports": "Audit committee change August 2025: Stevenson in, Lawee out."
+  },
+  {
+   "id": "e168",
+   "form": "DEF 14A",
+   "accession": "0001628280-26-024680",
+   "filing_date": "2026-04-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000162828026024680/lyft-20260410.htm",
+   "quote": "Our compensation committee consists of Ms. Whiteside and Messrs. Aggarwal and Lawee, with Mr. Lawee serving as Chairperson",
+   "supports": "Compensation committee per 2026 proxy."
+  },
+  {
+   "id": "e169",
+   "form": "DEF 14A",
+   "accession": "0001628280-26-024680",
+   "filing_date": "2026-04-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000162828026024680/lyft-20260410.htm",
+   "quote": "Our nominating and corporate governance committee consists of Mr. Aggarwal and Mses. Hersman, Stevenson and Whiteside, with Mr. Aggarwal serving as Chairperson",
+   "supports": "Nominating and corporate governance committee per 2026 proxy."
+  },
+  {
+   "id": "e170",
+   "form": "DEF 14A",
+   "accession": "0001628280-26-024680",
+   "filing_date": "2026-04-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000162828026024680/lyft-20260410.htm",
+   "quote": "Mr. Risher has served as our Chief Executive Officer since April 2023 and as a member of our board of directors since July 2021.",
+   "supports": "David Risher: director since July 2021; CEO since April 2023."
+  },
+  {
+   "id": "e171",
+   "form": "DEF 14A",
+   "accession": "0001628280-26-024680",
+   "filing_date": "2026-04-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000162828026024680/lyft-20260410.htm",
+   "quote": "Ms. Hersman has served as a member of the board of directors of ONE Gas, Inc., a natural gas utility company, since June 2023 and will serve as Chair starting in May 2026, and NiSource Inc., an electric and gas utility company, since June 2019.",
+   "supports": "Deborah Hersman current other boards: ONE Gas (since June 2023), NiSource (since June 2019)."
+  },
+  {
+   "id": "e172",
+   "form": "DEF 14A",
+   "accession": "0001628280-26-024680",
+   "filing_date": "2026-04-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000162828026024680/lyft-20260410.htm",
+   "quote": "In the past five years, she also served as a member of the board of directors of Velodyne Lidar, Inc., a lidar technology company.",
+   "supports": "Deborah Hersman former board: Velodyne Lidar."
+  },
+  {
+   "id": "e173",
+   "form": "DEF 14A",
+   "accession": "0001628280-26-024680",
+   "filing_date": "2026-04-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000162828026024680/lyft-20260410.htm",
+   "quote": "Since September 2025, Mr. Stephenson currently serves as a member of the board of directors of SiriusXM Holdings, Inc., a North American audio entertainment company.",
+   "supports": "Dave Stephenson other board: SiriusXM Holdings since September 2025."
+  },
+  {
+   "id": "e174",
+   "form": "DEF 14A",
+   "accession": "0001628280-26-024680",
+   "filing_date": "2026-04-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000162828026024680/lyft-20260410.htm",
+   "quote": "Mr. Aggarwal currently serves as a member of the board of directors of Arlo Technologies, Inc., a home security company. In addition, in the past five years, he served on the board of directors of Sonder Holdings Inc., a hospitality company, and Yatra Online, Inc., an online travel company.",
+   "supports": "Sean Aggarwal: Arlo current; Sonder and Yatra former (as of 2026 proxy)."
+  },
+  {
+   "id": "e175",
+   "form": "DEF 14A",
+   "accession": "0001628280-26-024680",
+   "filing_date": "2026-04-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000162828026024680/lyft-20260410.htm",
+   "quote": "Ms. Beggs has served as a member of our board of directors since December 2023.",
+   "supports": "Jill Beggs: director since December 2023."
+  },
+  {
+   "id": "e176",
+   "form": "DEF 14A",
+   "accession": "0001628280-26-024680",
+   "filing_date": "2026-04-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000162828026024680/lyft-20260410.htm",
+   "quote": "Ms. Stevenson has served as a member of our board of directors since November 2023.",
+   "supports": "Betsey Stevenson: director since November 2023."
+  },
+  {
+   "id": "e177",
+   "form": "DEF 14A",
+   "accession": "0001628280-26-024680",
+   "filing_date": "2026-04-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000162828026024680/lyft-20260410.htm",
+   "quote": "Mr. Lawee has served as a member of our board of directors since November 2017.",
+   "supports": "David Lawee: director since November 2017 (2026 proxy)."
+  },
+  {
+   "id": "e178",
+   "form": "DEF 14A",
+   "accession": "0001628280-26-024680",
+   "filing_date": "2026-04-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000162828026024680/lyft-20260410.htm",
+   "quote": "Ms. Whiteside has served as a member of our board of directors since July 2023.",
+   "supports": "Janey Whiteside: director since July 2023."
+  },
+  {
+   "id": "e179",
+   "form": "DEF 14A",
+   "accession": "0001628280-26-024680",
+   "filing_date": "2026-04-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000162828026024680/lyft-20260410.htm",
+   "quote": "Ms. Whiteside serves as a member of the Board of Directors of LendingClub Corporation, a publicly traded bank",
+   "supports": "Janey Whiteside other public board: LendingClub."
+  },
+  {
+   "id": "e180",
+   "form": "DEF 14A",
+   "accession": "0001628280-26-024680",
+   "filing_date": "2026-04-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000162828026024680/lyft-20260410.htm",
+   "quote": "Represents a partial year of the board of directors and committee cash compensation for Mr. Cohen, who resigned from our board of directors in May 2025.",
+   "supports": "2026 proxy corroborates Cohen's May 2025 resignation."
+  },
+  {
+   "id": "e181",
+   "form": "DEF 14A",
+   "accession": "0001628280-26-024680",
+   "filing_date": "2026-04-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000162828026024680/lyft-20260410.htm",
+   "quote": "Mr. Stephenson has served as a member of our board of directors since February 2023.",
+   "supports": "Dave Stephenson: director since February 2023."
+  },
+  {
+   "id": "e182",
+   "form": "DEF 14A",
+   "accession": "0001628280-26-024680",
+   "filing_date": "2026-04-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000162828026024680/lyft-20260410.htm",
+   "quote": "Ms. Hersman has served as a member of our board of directors since January 2026.",
+   "supports": "Deborah Hersman: director since January 2026."
+  },
+  {
+   "id": "e183",
+   "form": "DEF 14A",
+   "accession": "0001628280-26-024680",
+   "filing_date": "2026-04-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000162828026024680/lyft-20260410.htm",
+   "quote": "David Risher I 60 Chief Executive Officer and Director 2021 2026 2029",
+   "supports": "Risher: Class I, nominated to 2029.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e184",
+   "form": "DEF 14A",
+   "accession": "0001628280-26-024680",
+   "filing_date": "2026-04-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000162828026024680/lyft-20260410.htm",
+   "quote": "Deborah Hersman(3) I 55 Director 2026 2026 2029",
+   "supports": "Hersman: Class I, nominated to 2029.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e185",
+   "form": "DEF 14A",
+   "accession": "0001628280-26-024680",
+   "filing_date": "2026-04-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000162828026024680/lyft-20260410.htm",
+   "quote": "Dave Stephenson(1) I 58 Director 2023 2026 2029",
+   "supports": "Stephenson: Class I, nominated to 2029.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e186",
+   "form": "DEF 14A",
+   "accession": "0001628280-26-024680",
+   "filing_date": "2026-04-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000162828026024680/lyft-20260410.htm",
+   "quote": "David Lawee(2) II 60 Director 2017 2027",
+   "supports": "Lawee: Class II, term to 2027.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e187",
+   "form": "DEF 14A",
+   "accession": "0001628280-26-024680",
+   "filing_date": "2026-04-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000162828026024680/lyft-20260410.htm",
+   "quote": "Janey Whiteside(2)(3) II 54 Director 2023 2027",
+   "supports": "Whiteside: Class II, term to 2027.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e188",
+   "form": "DEF 14A",
+   "accession": "0001628280-26-024680",
+   "filing_date": "2026-04-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000162828026024680/lyft-20260410.htm",
+   "quote": "Prashant (Sean) Aggarwal(1)(2)(3) III 60 Board Chair 2016 2028",
+   "supports": "Aggarwal: Class III, Board Chair, term to 2028.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e189",
+   "form": "DEF 14A",
+   "accession": "0001628280-26-024680",
+   "filing_date": "2026-04-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000162828026024680/lyft-20260410.htm",
+   "quote": "Jill Beggs(1) III 55 Director 2023 2028",
+   "supports": "Beggs: Class III, term to 2028.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e190",
+   "form": "DEF 14A",
+   "accession": "0001628280-26-024680",
+   "filing_date": "2026-04-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000162828026024680/lyft-20260410.htm",
+   "quote": "Betsey Stevenson(1)(3) III 54 Director 2023 2028",
+   "supports": "Stevenson: Class III, term to 2028.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e191",
+   "form": "8-K",
+   "accession": "0001628280-26-040783",
+   "filing_date": "2026-06-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000162828026040783/lyft-20260603.htm",
+   "quote": "On June 3, 2026, the Company held its annual meeting of stockholders",
+   "supports": "2026 annual meeting date."
+  },
+  {
+   "id": "e192",
+   "form": "8-K",
+   "accession": "0001628280-26-040783",
+   "filing_date": "2026-06-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000162828026040783/lyft-20260603.htm",
+   "quote": "each director nominee was duly elected to serve until the 2029 annual meeting of stockholders",
+   "supports": "Risher, Hersman, Stephenson re-elected Class I to 2029 at the 2026 meeting."
+  },
+  {
+   "id": "e193",
+   "form": "8-K",
+   "accession": "0001628280-26-040783",
+   "filing_date": "2026-06-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000162828026040783/lyft-20260603.htm",
+   "quote": "David Risher 260,786,797 3,359,214 41,487,226 Deborah Hersman 262,965,316 1,180,695 41,487,226 Dave Stephenson 255,311,965 8,834,046 41,487,226",
+   "supports": "2026 meeting vote results for the three Class I nominees.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e194",
+   "form": "8-K",
+   "accession": "0001628280-26-049801",
+   "filing_date": "2026-07-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000162828026049801/lyft-20260723.htm",
+   "quote": "On July 23, 2026, the Board of Directors (the “Board”) of Lyft, Inc. (the “Company”) appointed Ben Minicucci to serve as a member of the Board, effective immediately. He will serve as a Class II director with a term of office expiring at the Company’s 2027 Annual Meeting of Stockholders.",
+   "supports": "Ben Minicucci appointed Class II director 2026-07-23 (term to 2027). No committee assignment disclosed."
+  },
+  {
+   "id": "e195",
+   "form": "8-K",
+   "accession": "0001628280-26-049801",
+   "filing_date": "2026-07-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000162828026049801/lyft-20260723.htm",
+   "quote": "Mr. Minicucci has served as a member of the board of directors of Air Group since 2020. Mr. Minicucci served on the board of PG&E Corporation, an energy-based holding company from 2018 to 2019.",
+   "supports": "Ben Minicucci other boards: Alaska Air Group (since 2020, current); PG&E Corporation (2018-2019, former)."
+  },
+  {
+   "id": "e196",
+   "form": "8-K",
+   "accession": "0001628280-26-049801",
+   "filing_date": "2026-07-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000162828026049801/lyft-20260723.htm",
+   "quote": "Pursuant to the Partnership Agreement, riders on the Lyft platform are able to earn Atmos Rewards miles on eligible rides.",
+   "supports": "Related-party disclosure: Lyft-Alaska Airlines partnership (relevant to the not-yet-disclosed independence determination)."
+  },
+  {
+   "id": "e197",
+   "form": "8-K",
+   "accession": "0001628280-26-061020",
+   "filing_date": "2026-09-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000162828026061020/lyft-20260906.htm",
+   "quote": "On September 9, 2026, Lyft, Inc. (the “Company”) announced the appointment of Michael Brous as the Chief Financial Officer",
+   "supports": "Latest Item 5.02 8-K (2026-09-09) is an officer change only; no board change."
+  },
+  {
+   "id": "e200",
+   "form": "4",
+   "accession": "0001558267-26-000001",
+   "filing_date": "2026-06-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000155826726000001/form4-06062026_120653.xml",
+   "quote": "Aggarwal Prashant",
+   "supports": "Aggarwal files as director (annual RSU grant at 2026 meeting).",
+   "xml_fields": {
+    "rptOwnerCik": "0001558267",
+    "rptOwnerName": "Aggarwal Prashant",
+    "periodOfReport": "2026-06-03"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e201",
+   "form": "4",
+   "accession": "0001760864-26-000003",
+   "filing_date": "2026-08-31",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000176086426000003/form4-09012026_120910.xml",
+   "quote": "Lawee David",
+   "supports": "Lawee files as director as of 2026-08-27.",
+   "xml_fields": {
+    "rptOwnerCik": "0001760864",
+    "rptOwnerName": "Lawee David",
+    "periodOfReport": "2026-08-27"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e202",
+   "form": "4",
+   "accession": "0002006278-26-000004",
+   "filing_date": "2026-08-31",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000200627826000004/form4-09012026_120934.xml",
+   "quote": "Beggs Jill",
+   "supports": "Beggs files as director as of 2026-08-27.",
+   "xml_fields": {
+    "rptOwnerCik": "0002006278",
+    "rptOwnerName": "Beggs Jill",
+    "periodOfReport": "2026-08-27"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e203",
+   "form": "4",
+   "accession": "0001973495-26-000006",
+   "filing_date": "2026-08-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000197349526000006/form4-08282026_120821.xml",
+   "quote": "Whiteside Janey",
+   "supports": "Whiteside files as director as of 2026-08-25.",
+   "xml_fields": {
+    "rptOwnerCik": "0001973495",
+    "rptOwnerName": "Whiteside Janey",
+    "periodOfReport": "2026-08-25"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e204",
+   "form": "4",
+   "accession": "0002000921-26-000001",
+   "filing_date": "2026-06-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000200092126000001/form4-06062026_120644.xml",
+   "quote": "Stevenson Betsey",
+   "supports": "Stevenson files as director (annual RSU grant at 2026 meeting).",
+   "xml_fields": {
+    "rptOwnerCik": "0002000921",
+    "rptOwnerName": "Stevenson Betsey",
+    "periodOfReport": "2026-06-03"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e205",
+   "form": "4",
+   "accession": "0001834164-26-000004",
+   "filing_date": "2026-07-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000183416426000004/form4-07232026_120710.xml",
+   "quote": "Stephenson Dave",
+   "supports": "Stephenson files as director as of 2026-07-20.",
+   "xml_fields": {
+    "rptOwnerCik": "0001834164",
+    "rptOwnerName": "Stephenson Dave",
+    "periodOfReport": "2026-07-20"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e206",
+   "form": "4",
+   "accession": "0001778660-26-000004",
+   "filing_date": "2026-06-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000177866026000004/form4-06062026_120601.xml",
+   "quote": "Hersman Deborah",
+   "supports": "Hersman files as director (annual RSU grant at 2026 meeting).",
+   "xml_fields": {
+    "rptOwnerCik": "0001778660",
+    "rptOwnerName": "Hersman Deborah",
+    "periodOfReport": "2026-06-03"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e207",
+   "form": "4",
+   "accession": "0001451455-26-000009",
+   "filing_date": "2026-07-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000145145526000009/form4-07272026_090728.xml",
+   "quote": "MINICUCCI BENITO",
+   "supports": "Minicucci files as director (initial RSU grant on appointment).",
+   "xml_fields": {
+    "rptOwnerCik": "0001451455",
+    "rptOwnerName": "MINICUCCI BENITO",
+    "periodOfReport": "2026-07-23"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e208",
+   "form": "8-K",
+   "accession": "0001193125-20-235624",
+   "filing_date": "2020-08-31",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312520235624/d59177d8k.htm",
+   "quote": "Mickey” Mikitani informed Lyft, Inc. (the “Company”) of his resignation from the Company’s board of directors",
+   "supports": "Mikitani informed the company of his resignation on 2020-08-31."
+  },
+  {
+   "id": "e209",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-120957",
+   "filing_date": "2020-04-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312520120957/d920070ddef14a.htm",
+   "quote": "Hiroshi Mikitani III 55 Director 2015 2022",
+   "supports": "Mikitani: Class III, director since 2015 (2020 proxy).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e210",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-120957",
+   "filing_date": "2020-04-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312520120957/d920070ddef14a.htm",
+   "quote": "Ann Miura-Ko(2) I 43 Director 2010-2013, 2016 2020 2023",
+   "supports": "Miura-Ko 'Director Since' 2010-2013, 2016 (2020 proxy).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e211",
+   "form": "DEF 14A",
+   "accession": "0001759509-23-000049",
+   "filing_date": "2023-05-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950923000049/lyft-20230501.htm",
+   "quote": "Ann Miura-Ko(2) I 46 Director 2010-2013, 2016 2023",
+   "supports": "Miura-Ko listed as non-continuing Class I director (2023 proxy).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e212",
+   "form": "DEF 14A",
+   "accession": "0001759509-22-000034",
+   "filing_date": "2022-04-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950922000034/a2022proxystatement.htm",
+   "quote": "Mary Agnes (Maggie) Wilderotter(1) III 67 Director 2018 2022 2025",
+   "supports": "Wilderotter: Class III, director since 2018, nominated to 2025 (2022 proxy).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e213",
+   "form": "DEF 14A",
+   "accession": "0001759509-22-000034",
+   "filing_date": "2022-04-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950922000034/a2022proxystatement.htm",
+   "quote": "Valerie Jarrett(1)(3) II 65 Director 2017 2024",
+   "supports": "Jarrett: Class II, director since 2017, term to 2024 (2022 proxy).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e214",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-120957",
+   "filing_date": "2020-04-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312520120957/d920070ddef14a.htm",
+   "quote": "Ben Horowitz(1) I 53 Director 2016 2020",
+   "supports": "Horowitz listed as non-continuing Class I director, director since 2016 (2020 proxy).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e215",
+   "form": "8-K",
+   "accession": "0001759509-25-000107",
+   "filing_date": "2025-06-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950925000107/lyft-20250605.htm",
+   "quote": "Sean Aggarwal 337,724,297 88,533,385 45,028,385 Jill Beggs 415,982,242 10,275,440 45,028,385 Betsey Stevenson 373,999,374 52,258,308 45,028,385",
+   "supports": "2025 meeting vote results: Aggarwal, Beggs, Stevenson elected Class III to 2028.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e216",
+   "form": "8-K",
+   "accession": "0001759509-24-000091",
+   "filing_date": "2024-06-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950924000091/lyft-20240613.htm",
+   "quote": "John Zimmer 412,482,163 9,204,730 41,693,529 David Lawee 385,397,301 36,289,592 41,693,529 Janey Whiteside 413,549,379 8,137,514 41,693,529",
+   "supports": "2024 meeting vote results: Zimmer, Lawee, Whiteside elected Class II to 2027.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e219",
+   "form": "DEF 14A",
+   "accession": "0001759509-21-000026",
+   "filing_date": "2021-04-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950921000026/a2021proxystatement.htm",
+   "quote": "our board of directors has determined that Messrs. Aggarwal, Lawee, and Cohen, Mses. Jarrett and Wilderotter, and Dr. Miura-Ko do not have a relationship that would interfere",
+   "supports": "2021 independence determination."
+  },
+  {
+   "id": "e217",
+   "form": "DEF 14A",
+   "accession": "0001759509-23-000049",
+   "filing_date": "2023-05-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950923000049/lyft-20230501.htm",
+   "quote": "our board of directors has determined that Messrs. Aggarwal, Lawee, Cohen, and Stephenson and Mses. Jarrett and Wilderotter, and Dr. Miura-Ko do not have a relationship that would interfere",
+   "supports": "2023 independence determination (Green, Zimmer, Risher not independent)."
+  },
+  {
+   "id": "e218",
+   "form": "DEF 14A",
+   "accession": "0001759509-24-000055",
+   "filing_date": "2024-04-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950924000055/lyft-20240425.htm",
+   "quote": "our board of directors has determined that Messrs. Aggarwal, Cohen, Lawee, and Stephenson and Mses. Beggs, Stevenson and Whiteside do not have a relationship that would interfere",
+   "supports": "2024 independence determination."
+  },
+  {
+   "id": "e220",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-120957",
+   "filing_date": "2020-04-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312520120957/d920070ddef14a.htm",
+   "quote": "Our board of directors consists of nine directors, seven of whom qualify as “independent”",
+   "supports": "Board size per 2020 proxy: nine."
+  },
+  {
+   "id": "e221",
+   "form": "DEF 14A",
+   "accession": "0001759509-23-000049",
+   "filing_date": "2023-05-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950923000049/lyft-20230501.htm",
+   "quote": "Our board of directors consists of ten directors, seven of whom qualify as “independent”",
+   "supports": "Board size per 2023 proxy: ten."
+  },
+  {
+   "id": "e222",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-120957",
+   "filing_date": "2020-04-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312520120957/d920070ddef14a.htm",
+   "quote": "our board of directors has determined that Messrs. Aggarwal, Horowitz, Lawee and Mikitani, Mses. Jarrett and Wilderotter and Dr. Miura-Ko do not have a relationship that would interfere",
+   "supports": "2020 independence determination."
+  },
+  {
+   "id": "e223",
+   "form": "424B4",
+   "accession": "0001193125-19-091446",
+   "filing_date": "2019-03-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312519091446/d721841d424b4.htm",
+   "quote": "Mr. Aggarwal was elected as a designee nominated by holders of our Series B redeemable convertible preferred stock",
+   "supports": "Pre-IPO seat basis: Aggarwal was the Series B preferred designee (voting agreement ended at IPO)."
+  },
+  {
+   "id": "e224",
+   "form": "424B4",
+   "accession": "0001193125-19-091446",
+   "filing_date": "2019-03-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312519091446/d721841d424b4.htm",
+   "quote": "Mr. Horowitz was elected as a designee nominated by holders of our Series C redeemable convertible preferred stock",
+   "supports": "Pre-IPO seat basis: Horowitz was the Series C preferred designee."
+  },
+  {
+   "id": "e225",
+   "form": "424B4",
+   "accession": "0001193125-19-091446",
+   "filing_date": "2019-03-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312519091446/d721841d424b4.htm",
+   "quote": "Mr. Mikitani was elected as a designee nominated by holders of our Series E redeemable convertible preferred stock",
+   "supports": "Pre-IPO seat basis: Mikitani was the Series E preferred designee."
+  },
+  {
+   "id": "e226",
+   "form": "424B4",
+   "accession": "0001193125-19-091446",
+   "filing_date": "2019-03-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312519091446/d721841d424b4.htm",
+   "quote": "Ms. Wilderotter was elected as a designee nominated by holders of our Series F redeemable convertible preferred stock",
+   "supports": "Pre-IPO seat basis: Wilderotter was the Series F preferred designee."
+  },
+  {
+   "id": "e227",
+   "form": "424B4",
+   "accession": "0001193125-19-091446",
+   "filing_date": "2019-03-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312519091446/d721841d424b4.htm",
+   "quote": "Mr. Lawee was elected as a designee nominated by holders of our Series H redeemable convertible preferred stock.",
+   "supports": "Pre-IPO seat basis: Lawee was the Series H preferred designee."
+  },
+  {
+   "id": "e228",
+   "form": "424B4",
+   "accession": "0001193125-19-091446",
+   "filing_date": "2019-03-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312519091446/d721841d424b4.htm",
+   "quote": "Messrs. Green and Zimmer and Dr. Miura-Ko were elected as designees nominated by holders of our common stock",
+   "supports": "Pre-IPO seat basis: Green, Zimmer, Miura-Ko were common-stock designees."
+  },
+  {
+   "id": "e229",
+   "form": "424B4",
+   "accession": "0001193125-19-091446",
+   "filing_date": "2019-03-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312519091446/d721841d424b4.htm",
+   "quote": "Ms. Jarrett was elected as a designee nominated by holders of our common stock and redeemable convertible preferred stock",
+   "supports": "Pre-IPO seat basis: Jarrett was a common + preferred designee."
+  }
+ ],
+ "conflicts": [
+  {
+   "description": "Aggarwal's second chair start day is ambiguous. The 8-K cover gives the 'earliest event reported' as 2025-08-13. Green's resignation was effective 2025-08-14, and the 8-K Item 5.02 and press release are dated 2025-08-14. The 2026 proxy says only 'August 2025'. Recorded at month precision.",
+   "evidence_refs": [
+    "e149",
+    "e151",
+    "e163"
+   ]
+  },
+  {
+   "description": "The 2023-03-27 press release says the founders move into 'non-executive roles as chair and vice chair ... effective April 17, 2023 and June 30, 2023, respectively'. That reads as if Zimmer's Vice Chair role began 2023-06-30, but the prospectus and every proxy say he had been Vice Chair since January 2019, and the 8-K says he 'will continue to serve as Vice Chair'. June 30, 2023 is when he stopped being an executive.",
+   "evidence_refs": [
+    "e095",
+    "e094",
+    "e004",
+    "e134"
+   ]
+  },
+  {
+   "description": "Founding year: proxies give Logan Green 'Director Since 2007' and the company was incorporated in 2007 (as Bounder Web, Inc.), but the 2025-08-14 press release's boilerplate says Lyft was 'Founded in 2012' (the Lyft brand launch). Green's board start is kept at 2007, year precision, per the proxy table.",
+   "evidence_refs": [
+    "e062",
+    "e001",
+    "e153"
+   ]
+  },
+  {
+   "description": "Board-size bookkeeping has gaps. The 2023 proxy says the board would be nine after the 2023 meeting, yet the October 2023 8-K reduces authorized directors 'from ten to eight'. That implies an undisclosed increase to ten when Whiteside joined (2023-07-31). Likewise no filing states the increases for Cohen, Risher, Stephenson, Stevenson, Beggs, Hersman or Minicucci. Only disclosed changes are recorded as BOARD_SIZE_CHANGE events.",
+   "evidence_refs": [
+    "e098",
+    "e114",
+    "e111"
+   ]
+  }
+ ],
+ "open_questions": [
+  "Ben Minicucci (appointed 2026-07-23): no committee assignment and no independence determination in any filing through 2026-10-04. The next proxy (expected ~April 2027) should settle both. His 8-K reports the Lyft-Alaska Airlines partnership as an Item 404 transaction.",
+  "Current authorized board size after Minicucci's appointment is not stated. The 2026 proxy gives eight directors, so nine is implied, but no filing says so.",
+  "Exact day of Aggarwal's August 2025 appointment as Chair (2025-08-13 vs 2025-08-14). See conflicts.",
+  "Exact day of Christodoro's March 2019 resignation (between 2019-03-01 and 2019-03-18). He was never a director of the public company.",
+  "Pre-IPO start dates are disclosed only to the month (or, for Logan Green, the year). No filing gives a day.",
+  "When Risher stopped being independent is not dated: he left the NCG in March 2023 and became CEO on 2023-04-17.",
+  "Independence roles are aligned to board tenure. The filings give point-in-time determinations only (IPO prospectus and each proxy).",
+  "Why Ann Miura-Ko's first stint ended (May 2013) is not disclosed.",
+  "Other-board lists come from Lyft's own bios as of each filing and are not checked against other issuers' filings. Many bios name a company without saying it is public (flagged with public_company_stated_in_source=false).",
+  "Committee membership is captured at proxy snapshots plus changes disclosed in 8-Ks and proxies. Changes between filings may exist without a disclosed date (e.g., when Cohen left the compensation committee is not separately disclosed; he resigned 2025-05-22)."
+ ],
+ "coverage": [
+  {
+   "scope": "current_board",
+   "period_start": "2026-10-04",
+   "period_end": "2026-10-04",
+   "level": "complete",
+   "method": "Current roster checked against the 2026 DEF 14A and every 8-K, 10-Q and Form 3/4 filed through 2026-10-02."
+  },
+  {
+   "scope": "board_history",
+   "period_start": "2019-03-29",
+   "period_end": "2026-10-04",
+   "level": "complete",
+   "method": "Every DEF 14A/DEFC14A, every 8-K with Item 5.02 or 5.07, and the IPO prospectus reviewed; departures dated from 8-Ks."
+  },
+  {
+   "scope": "board_history",
+   "period_start": "2007-01-01",
+   "period_end": "2019-03-28",
+   "level": "partial",
+   "method": "Pre-IPO seats reconstructed from the IPO prospectus and later proxy biographies only; pre-2019 departures appear only where those documents mention them."
+  }
+ ]
+}
