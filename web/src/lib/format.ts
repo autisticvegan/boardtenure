@@ -9,8 +9,10 @@ const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "
 export function pct(x: number | null | undefined, digits = 1, signed = true): string {
   if (x == null || !Number.isFinite(x)) return "—";
   const v = x * 100;
-  const s = Math.abs(v).toLocaleString("en-US", { minimumFractionDigits: digits, maximumFractionDigits: digits });
-  if (s === (0).toFixed(digits)) return `${s}%`;
+  // At 1,000% and above, decimals are noise: "+623,398%".
+  const d = Math.abs(v) >= 1000 ? 0 : digits;
+  const s = Math.abs(v).toLocaleString("en-US", { minimumFractionDigits: d, maximumFractionDigits: d });
+  if (s === (0).toFixed(d)) return `${s}%`;
   return `${v < 0 ? MINUS : signed ? "+" : ""}${s}%`;
 }
 

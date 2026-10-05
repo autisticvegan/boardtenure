@@ -1,4 +1,5 @@
 import type { ReactNode } from "react";
+import { FOOTER_DISCLAIMER } from "@/lib/copy";
 import { pct, pp, toneClass } from "@/lib/format";
 import type { Perf } from "@/lib/queries";
 
@@ -103,7 +104,7 @@ export function Annualized({ perf }: { perf: Perf | null }) {
 export function Disclaimer({ children }: { children?: ReactNode }) {
   return (
     <p className="text-[12px] text-ink-3 leading-relaxed">
-      {children ?? "Returns describe how the stock performed while each director served. They do not imply that a director caused that performance."}
+      {children ?? FOOTER_DISCLAIMER}
     </p>
   );
 }
