@@ -398,3 +398,384 @@ export const getOtherBoards = cache(async (personId: number): Promise<OtherBoard
     WHERE x.fact_type = 'other_board_disclosed' AND x.resolved_person_id = ${personId} AND x.status <> 'rejected'
     ORDER BY lower(x.payload->>'company'), x.created_at DESC`;
 });
+
+// ---------------------------------------------------------------------------
+// Rankings. Eligibility and scores live in the SQL views (seat_ranking, director_scorecard);
+// ranks always come from SQL rank(), never from TypeScript. See docs/design/rankings-ui.md.
+// ---------------------------------------------------------------------------
+
+/** "independent" is the internal name of the UI's "Non-exec seats" scope. */
+export type RankScope = "all" | "independent";
+
+export type SeatRef = {
+  membership_id: number;
+  company_slug: string;
+  company_name: string;
+  symbol: string | null;
+  seat_status: "current" | "former";
+  perf_status: Perf["status"];
+  executive_seat: boolean;
+  executive_title: string | null;
+  rank_eligible: boolean; // scored (>= 1 year, exact) — independent of scope
+  in_scope: boolean; // counts toward the active scope's score
+  annualized_excess: number | null;
+  total_return: number | null;
+  bench_total_return: number | null;
+  relative_return_pp: number | null;
+  calendar_days: number | null;
+  max_drawdown: number | null;
+  mdd_peak_date: string | null;
+  mdd_trough_date: string | null;
+  start_anchor_reason: string | null;
+  start_anchor_date: string | null;
+  end_anchor_date: string | null;
+  start_date: string | null;
+  start_precision: Precision;
+  end_date: string | null;
+  end_precision: Precision | null;
+  return_low: number | null;
+  return_high: number | null;
+};
+
+// JSON for one seat_ranking row `sr` joined to company `c` and security `sec`.
+const seatRefJson = (scope: RankScope) => sql`json_build_object(
+  'membership_id', sr.membership_id, 'company_slug', c.slug, 'company_name', c.common_name, 'symbol', sec.symbol,
+  'seat_status', sr.seat_status, 'perf_status', sr.status, 'executive_seat', sr.executive_seat,
+  'executive_title', sr.executive_title, 'rank_eligible', sr.rank_eligible,
+  'in_scope', sr.rank_eligible ${scope === "independent" ? sql`AND NOT sr.executive_seat` : sql``},
+  'annualized_excess', sr.annualized_excess, 'total_return', sr.total_return,
+  'bench_total_return', sr.bench_total_return, 'relative_return_pp', sr.relative_return_pp,
+  'calendar_days', sr.calendar_days, 'max_drawdown', sr.max_drawdown, 'mdd_peak_date', sr.mdd_peak_date,
+  'mdd_trough_date', sr.mdd_trough_date, 'start_anchor_reason', sr.start_anchor_reason,
+  'start_anchor_date', sr.start_anchor_date, 'end_anchor_date', sr.end_anchor_date,
+  'start_date', sr.start_date, 'start_precision', sr.start_precision, 'end_date', sr.end_date,
+  'end_precision', sr.end_precision, 'return_low', sr.return_low, 'return_high', sr.return_high)`;
+
+const inScope = (scope: RankScope) =>
+  scope === "independent" ? sql`sr.rank_eligible AND NOT sr.executive_seat` : sql`sr.rank_eligible`;
+
+export type ScopedDirector = {
+  person_id: number;
+  slug: string;
+  full_name: string;
+  rank: number;
+  of: number;
+  tie: boolean;
+  score: number;
+  scored_seats: number;
+  scored_years: number;
+  beat_seats: number;
+  scored_boards: number;
+  best_seat_excess: number | null;
+  worst_seat_excess: number | null;
+  seats: number;
+  current_seats: number;
+  has_current_scored: boolean;
+  scored_executive_seat: boolean;
+  companies: SeatRef[]; // every seat, best scored first; `in_scope` marks the ones in this score
+};
+/** @deprecated use ScopedDirector */
+export type DirectorRank = ScopedDirector;
+
+/** All rank-eligible directors for a scope, best first, ranks and ties from SQL. */
+export const getDirectorRankings = cache(async (scope: RankScope): Promise<ScopedDirector[]> => {
+  const ind = scope === "independent";
+  const col = (name: string) => sql.unsafe(ind ? `d.independent_${name}` : `d.${name}`);
+  return sql<ScopedDirector[]>`
+    WITH ranked AS (
+      SELECT d.person_id, d.slug, d.full_name, d.seats, d.current_seats, d.scored_executive_seat,
+             ${col("score")} AS score, ${col("scored_seats")} AS scored_seats, ${col("scored_years")} AS scored_years,
+             ${col("beat_seats")} AS beat_seats, ${col("scored_boards")} AS scored_boards,
+             ${col("best_seat_excess")} AS best_seat_excess, ${col("worst_seat_excess")} AS worst_seat_excess
+      FROM director_scorecard d
+      WHERE ${ind ? sql`d.independent_rank_eligible` : sql`d.rank_eligible`}),
+    numbered AS (
+      SELECT r.*, (rank() OVER (ORDER BY r.score DESC))::int AS rank, (count(*) OVER ())::int AS of FROM ranked r)
+    SELECT n.*, (count(*) OVER (PARTITION BY n.rank) > 1) AS tie,
+           EXISTS (SELECT 1 FROM seat_ranking sr WHERE sr.person_id = n.person_id AND sr.seat_status = 'current'
+                     AND ${inScope(scope)}) AS has_current_scored,
+           (SELECT json_agg(${seatRefJson(scope)} ORDER BY (${inScope(scope)}) DESC, sr.annualized_excess DESC NULLS LAST)
+            FROM seat_ranking sr JOIN company c ON c.id = sr.company_id
+            LEFT JOIN security sec ON sec.company_id = c.id AND sec.is_primary
+            WHERE sr.person_id = n.person_id) AS companies
+    FROM numbered n
+    ORDER BY n.rank, n.full_name`;
+});
+
+export type SeatRank = {
+  membership_id: number;
+  rank: number;
+  of: number;
+  tie: boolean;
+  person_slug: string;
+  full_name: string;
+  company_slug: string;
+  company_name: string;
+  symbol: string | null;
+  seat_status: "current" | "former";
+  executive_seat: boolean;
+  executive_title: string | null;
+  start_anchor_date: string;
+  start_anchor_reason: string;
+  end_anchor_date: string;
+  calendar_days: number;
+  total_return: number;
+  bench_total_return: number;
+  relative_return_pp: number;
+  annualized_excess: number;
+  max_drawdown: number | null;
+  mdd_peak_date: string | null;
+  mdd_trough_date: string | null;
+  start_date: string | null;
+  start_precision: Precision;
+};
+
+/** Scored seats in a scope, best first. */
+export const getSeatRankings = cache(async (scope: RankScope): Promise<SeatRank[]> => {
+  return sql<SeatRank[]>`
+    WITH numbered AS (
+      SELECT sr.*, (rank() OVER (ORDER BY sr.annualized_excess DESC))::int AS rank, (count(*) OVER ())::int AS of
+      FROM seat_ranking sr WHERE ${inScope(scope)})
+    SELECT sr.membership_id, sr.rank, sr.of, (count(*) OVER (PARTITION BY sr.rank) > 1) AS tie,
+           p.slug AS person_slug, p.full_name, c.slug AS company_slug, c.common_name AS company_name,
+           sec.symbol, sr.seat_status, sr.executive_seat, sr.executive_title, sr.start_anchor_date,
+           sr.start_anchor_reason, sr.end_anchor_date, sr.calendar_days, sr.total_return, sr.bench_total_return,
+           sr.relative_return_pp, sr.annualized_excess, sr.max_drawdown, sr.mdd_peak_date, sr.mdd_trough_date,
+           sr.start_date, sr.start_precision
+    FROM numbered sr
+    JOIN person p ON p.id = sr.person_id
+    JOIN company c ON c.id = sr.company_id
+    LEFT JOIN security sec ON sec.company_id = c.id AND sec.is_primary
+    ORDER BY sr.rank, p.full_name`;
+});
+
+export type LeaderboardStats = {
+  companies: number;
+  ranked_directors: number;
+  scored_seats: number;
+  beat_seats: number;
+  directors_beating: number;
+  median_score: number | null;
+  median_seat_excess: number | null;
+  single_seat_ranked: number;
+  multi_board_people: number;
+  unranked_people: number;
+  people: number;
+  seats: number;
+  data_through: string | null;
+};
+
+export const getLeaderboardStats = cache(async (scope: RankScope): Promise<LeaderboardStats> => {
+  const ind = scope === "independent";
+  const eligible = ind ? sql`d.independent_rank_eligible` : sql`d.rank_eligible`;
+  const score = ind ? sql`d.independent_score` : sql`d.score`;
+  const seatsCol = ind ? sql`d.independent_scored_seats` : sql`d.scored_seats`;
+  const [r] = await sql<LeaderboardStats[]>`
+    SELECT (SELECT count(*) FROM company)::int AS companies,
+           (SELECT count(*) FROM director_scorecard d WHERE ${eligible})::int AS ranked_directors,
+           (SELECT count(*) FROM seat_ranking sr WHERE ${inScope(scope)})::int AS scored_seats,
+           (SELECT count(*) FROM seat_ranking sr WHERE ${inScope(scope)} AND sr.relative_return_pp > 0)::int AS beat_seats,
+           (SELECT count(*) FROM director_scorecard d WHERE ${eligible} AND ${score} > 0)::int AS directors_beating,
+           (SELECT percentile_cont(0.5) WITHIN GROUP (ORDER BY ${score}) FROM director_scorecard d WHERE ${eligible})
+             AS median_score,
+           (SELECT percentile_cont(0.5) WITHIN GROUP (ORDER BY sr.annualized_excess) FROM seat_ranking sr
+             WHERE ${inScope(scope)}) AS median_seat_excess,
+           (SELECT count(*) FROM director_scorecard d WHERE ${eligible} AND ${seatsCol} = 1)::int AS single_seat_ranked,
+           (SELECT count(*) FROM (SELECT person_id FROM seat_ranking GROUP BY person_id
+                                  HAVING count(DISTINCT company_id) > 1) x)::int AS multi_board_people,
+           (SELECT count(*) FROM director_scorecard d WHERE NOT ${eligible})::int AS unranked_people,
+           (SELECT count(*) FROM director_scorecard)::int AS people,
+           (SELECT count(*) FROM seat_ranking)::int AS seats,
+           (SELECT max(data_through) FROM seat_ranking) AS data_through`;
+  return r;
+});
+
+export type UnrankedPerson = { slug: string; full_name: string; scored_years: number; scored_seats: number; seats: SeatRef[] };
+
+/** People who are not rank-eligible in the scope, with every seat (reasons are derived in standings.ts). */
+export const getUnranked = cache(async (scope: RankScope): Promise<UnrankedPerson[]> => {
+  const ind = scope === "independent";
+  return sql<UnrankedPerson[]>`
+    SELECT d.slug, d.full_name,
+           ${ind ? sql`d.independent_scored_years` : sql`d.scored_years`} AS scored_years,
+           ${ind ? sql`d.independent_scored_seats` : sql`d.scored_seats`} AS scored_seats,
+           (SELECT json_agg(${seatRefJson(scope)} ORDER BY sr.start_anchor_date NULLS LAST)
+            FROM seat_ranking sr JOIN company c ON c.id = sr.company_id
+            LEFT JOIN security sec ON sec.company_id = c.id AND sec.is_primary
+            WHERE sr.person_id = d.person_id) AS seats
+    FROM director_scorecard d
+    WHERE NOT ${ind ? sql`d.independent_rank_eligible` : sql`d.rank_eligible`}
+    ORDER BY scored_years DESC, d.full_name`;
+});
+
+export type StripSeat = {
+  membership_id: number;
+  person_slug: string;
+  full_name: string;
+  annualized_excess: number;
+  executive_seat: boolean;
+  start_anchor_date: string;
+  end_anchor_date: string;
+  seat_status: "current" | "former";
+  total_return: number;
+  bench_total_return: number;
+};
+export type BoardStripRow = {
+  slug: string;
+  symbol: string | null;
+  common_name: string;
+  created_at: string;
+  scored: number;
+  beat: number;
+  median_excess: number | null;
+  seats: StripSeat[];
+};
+
+/** One row per company: its scored seats in the scope, sorted by median seat (desc, empty boards last). */
+export const getBoardStrips = cache(async (scope: RankScope): Promise<BoardStripRow[]> => {
+  return sql<BoardStripRow[]>`
+    SELECT c.slug, sec.symbol, c.common_name, c.created_at::text,
+           count(sr.membership_id)::int AS scored,
+           count(*) FILTER (WHERE sr.relative_return_pp > 0)::int AS beat,
+           percentile_cont(0.5) WITHIN GROUP (ORDER BY sr.annualized_excess) AS median_excess,
+           coalesce(json_agg(json_build_object(
+             'membership_id', sr.membership_id, 'person_slug', p.slug, 'full_name', p.full_name,
+             'annualized_excess', sr.annualized_excess, 'executive_seat', sr.executive_seat,
+             'start_anchor_date', sr.start_anchor_date, 'end_anchor_date', sr.end_anchor_date,
+             'seat_status', sr.seat_status, 'total_return', sr.total_return,
+             'bench_total_return', sr.bench_total_return) ORDER BY sr.annualized_excess)
+             FILTER (WHERE sr.membership_id IS NOT NULL), '[]') AS seats
+    FROM company c
+    LEFT JOIN security sec ON sec.company_id = c.id AND sec.is_primary
+    LEFT JOIN seat_ranking sr ON sr.company_id = c.id AND ${inScope(scope)}
+    LEFT JOIN person p ON p.id = sr.person_id
+    GROUP BY c.id, sec.symbol
+    ORDER BY count(sr.membership_id) = 0, median_excess DESC NULLS LAST, c.common_name`;
+});
+
+export type RecordSeat = {
+  membership_id: number;
+  person_slug: string;
+  full_name: string;
+  company_slug: string;
+  symbol: string | null;
+  calendar_days: number;
+  annualized_excess: number;
+  max_drawdown: number | null;
+  mdd_peak_date: string | null;
+  mdd_trough_date: string | null;
+  tie_count: number; // seats sharing this record value (1 = no tie)
+};
+export type SpreadRecord = {
+  person_slug: string;
+  full_name: string;
+  spread: number;
+  tie_count: number;
+  seats: { symbol: string | null; company_slug: string; annualized_excess: number }[];
+};
+export type Records = { longest: RecordSeat[]; whiteKnuckle: RecordSeat[]; steepestLag: RecordSeat[]; widestSpread: SpreadRecord[] };
+
+/** The dashboard's record tiles: top 3 candidates each, so the page can de-duplicate and show ties. */
+export const getRecords = cache(async (scope: RankScope): Promise<Records> => {
+  // `value` is the record's own column (referencing alias sr), used to count ties.
+  const base = (orderAndFilter: ReturnType<typeof sql>, value: string) => sql<RecordSeat[]>`
+    WITH s AS (
+      SELECT sr.*, (count(*) OVER (PARTITION BY ${sql.unsafe(value)}))::int AS tie_count
+      FROM seat_ranking sr WHERE ${inScope(scope)})
+    SELECT s.membership_id, p.slug AS person_slug, p.full_name, c.slug AS company_slug, sec.symbol, s.calendar_days,
+           s.annualized_excess, s.max_drawdown, s.mdd_peak_date, s.mdd_trough_date, s.tie_count
+    FROM s JOIN person p ON p.id = s.person_id JOIN company c ON c.id = s.company_id
+    LEFT JOIN security sec ON sec.company_id = c.id AND sec.is_primary
+    ${orderAndFilter} LIMIT 3`;
+  const [longest, whiteKnuckle, steepestLag, widestSpread] = await Promise.all([
+    base(sql`ORDER BY s.calendar_days DESC, p.full_name`, "sr.calendar_days"),
+    base(sql`WHERE s.relative_return_pp > 0 AND s.max_drawdown IS NOT NULL ORDER BY s.max_drawdown ASC, p.full_name`,
+      "round(sr.max_drawdown::numeric, 6), (sr.relative_return_pp > 0)"),
+    base(sql`WHERE s.calendar_days >= 1826 ORDER BY s.annualized_excess ASC, p.full_name`,
+      "round(sr.annualized_excess::numeric, 9), (sr.calendar_days >= 1826)"),
+    sql<SpreadRecord[]>`
+      WITH per AS (
+        SELECT sr.person_id, max(sr.annualized_excess) - min(sr.annualized_excess) AS spread,
+               count(DISTINCT sr.company_id) AS boards
+        FROM seat_ranking sr WHERE ${inScope(scope)} GROUP BY sr.person_id HAVING count(DISTINCT sr.company_id) >= 2),
+      tied AS (SELECT per.*, (count(*) OVER (PARTITION BY round(per.spread::numeric, 9)))::int AS tie_count FROM per)
+      SELECT p.slug AS person_slug, p.full_name, t.spread, t.tie_count,
+             (SELECT json_agg(json_build_object('symbol', sec.symbol, 'company_slug', c.slug,
+                       'annualized_excess', sr.annualized_excess) ORDER BY sr.annualized_excess DESC)
+              FROM seat_ranking sr JOIN company c ON c.id = sr.company_id
+              LEFT JOIN security sec ON sec.company_id = c.id AND sec.is_primary
+              WHERE sr.person_id = t.person_id AND ${inScope(scope)}) AS seats
+      FROM tied t JOIN person p ON p.id = t.person_id
+      ORDER BY t.spread DESC, p.full_name LIMIT 3`,
+  ]);
+  return { longest, whiteKnuckle, steepestLag, widestSpread };
+});
+
+export type MultiBoardPerson = {
+  slug: string;
+  full_name: string;
+  boards: number;
+  spread: number | null; // best - worst in-scope seat excess
+  seats: SeatRef[];
+};
+
+/** People with seats on 2+ tracked companies (any seat status), with every seat. */
+export const getMultiBoard = cache(async (scope: RankScope): Promise<MultiBoardPerson[]> => {
+  return sql<MultiBoardPerson[]>`
+    WITH multi AS (
+      SELECT person_id, count(DISTINCT company_id)::int AS boards FROM seat_ranking
+      GROUP BY person_id HAVING count(DISTINCT company_id) > 1)
+    SELECT p.slug, p.full_name, m.boards,
+           (SELECT max(sr.annualized_excess) - min(sr.annualized_excess) FROM seat_ranking sr
+             WHERE sr.person_id = m.person_id AND ${inScope(scope)}
+             HAVING count(DISTINCT sr.company_id) >= 2) AS spread,
+           (SELECT json_agg(${seatRefJson(scope)} ORDER BY sr.annualized_excess DESC NULLS LAST)
+            FROM seat_ranking sr JOIN company c ON c.id = sr.company_id
+            LEFT JOIN security sec ON sec.company_id = c.id AND sec.is_primary
+            WHERE sr.person_id = m.person_id) AS seats
+    FROM multi m JOIN person p ON p.id = m.person_id
+    ORDER BY spread DESC NULLS LAST, m.boards DESC, p.full_name`;
+});
+
+/** One director's standing in both scopes (null when not ranked there). */
+export const getDirectorRank = cache(async (personId: number) => {
+  const [all, independent] = await Promise.all([getDirectorRankings("all"), getDirectorRankings("independent")]);
+  return {
+    all: all.find((d) => d.person_id === personId) ?? null,
+    independent: independent.find((d) => d.person_id === personId) ?? null,
+  };
+});
+
+export type CompanySeat = SeatRef & {
+  person_slug: string;
+  full_name: string;
+  global_rank: number | null; // seat rank among all scored seats in the scope
+  of: number;
+  tie: boolean;
+};
+
+/** A company's seats for its Board standings: scope-scored seats first (best first), then the rest. */
+export const getCompanyLeaderboard = cache(async (companyId: number, scope: RankScope): Promise<CompanySeat[]> => {
+  return sql<CompanySeat[]>`
+    WITH ranked AS (
+      SELECT sr.membership_id, (rank() OVER (ORDER BY sr.annualized_excess DESC))::int AS global_rank,
+             (count(*) OVER ())::int AS of
+      FROM seat_ranking sr WHERE ${inScope(scope)}),
+    tied AS (SELECT r.*, (count(*) OVER (PARTITION BY r.global_rank) > 1) AS tie FROM ranked r)
+    SELECT (${seatRefJson(scope)})::jsonb || jsonb_build_object(
+             'person_slug', p.slug, 'full_name', p.full_name, 'global_rank', t.global_rank,
+             'of', coalesce(t.of, (SELECT count(*) FROM ranked)), 'tie', coalesce(t.tie, false)) AS row
+    FROM seat_ranking sr
+    JOIN person p ON p.id = sr.person_id
+    JOIN company c ON c.id = sr.company_id
+    LEFT JOIN security sec ON sec.company_id = c.id AND sec.is_primary
+    LEFT JOIN tied t ON t.membership_id = sr.membership_id
+    WHERE sr.company_id = ${companyId}
+    ORDER BY (t.global_rank IS NULL), sr.annualized_excess DESC NULLS LAST, p.full_name`
+    .then((rows) => rows.map((r) => (r as unknown as { row: CompanySeat }).row));
+});
+
+/** A seat's standing in a scope (null if not scored there). */
+export const getSeatRank = cache(async (membershipId: number, scope: RankScope) => {
+  return (await getSeatRankings(scope)).find((s) => s.membership_id === membershipId) ?? null;
+});

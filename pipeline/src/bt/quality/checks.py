@@ -166,6 +166,18 @@ CHECKS: list[Check] = [
         FROM security s JOIN latest l ON l.security_id = s.id, bench b
         WHERE s.is_primary AND s.last_trade_date IS NULL AND l.d < b.d - {STALE_AFTER_DAYS}"""),
 
+    Check("scorecard_scope_inconsistent", "error", """
+        SELECT d.person_id::text, 1, NULL::bigint, d.person_id, 'person', d.person_id,
+               d.full_name || ': non-exec scorecard columns disagree with seat_ranking', '{}'::json
+        FROM director_scorecard d LEFT JOIN LATERAL (
+          SELECT count(*) n, coalesce(sum(calendar_days), 0) / 365.25 y,
+                 count(*) FILTER (WHERE relative_return_pp > 0) b, max(annualized_excess) mx,
+                 min(annualized_excess) mn, count(DISTINCT company_id) nb
+          FROM seat_ranking s WHERE s.person_id = d.person_id AND s.rank_eligible AND NOT s.executive_seat) x ON true
+        WHERE d.independent_scored_seats <> x.n OR abs(d.independent_scored_years - x.y) > 1e-9
+           OR d.independent_beat_seats <> x.b OR d.independent_best_seat_excess IS DISTINCT FROM x.mx
+           OR d.independent_worst_seat_excess IS DISTINCT FROM x.mn OR d.independent_scored_boards <> x.nb"""),
+
     Check("company_without_prices", "warning", """
         SELECT c.id::text, 1, c.id, NULL::bigint, 'company', c.id,
                c.common_name || ' has board data but no stored prices; tenure returns show as incomplete', '{}'::json
