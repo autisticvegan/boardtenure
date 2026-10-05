@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import { BoardTimeline, type TimelineRow } from "@/components/board-timeline";
 import { ReturnChart, type Marker } from "@/components/return-chart";
 import { Annualized, Badge, Card, Confidence, Disclaimer, Relative, Stat, TenureReturn } from "@/components/ui";
-import { daysBetween, fmtDate, money, pct, tenureLength, todayIso, toneClass, years } from "@/lib/format";
+import { compactMoney, daysBetween, fmtDate, money, pct, tenureLength, todayIso, toneClass, years } from "@/lib/format";
 import {
   getBoard, getBoardEvents, getCompany, getCoverage, getDefaultBenchmark, getReturnSeries, type Membership,
 } from "@/lib/queries";
@@ -102,6 +102,12 @@ export default async function CompanyPage({ params }: PageProps<"/c/[slug]">) {
             <div className="text-[12px] text-ink-3 mt-1.5">
               <span className={`num ${toneClass(dayChange)}`}>{pct(dayChange, 2)}</span> · Close {fmtDate(company.last_date)}
             </div>
+            {company.shares != null && (
+              <div className="text-[12px] text-ink-3 mt-0.5"
+                   title={`${company.shares.toLocaleString("en-US")} shares outstanding as of ${fmtDate(company.shares_as_of)} (10-K/10-Q cover)${company.share_classes > 1 ? ", all share classes valued at the primary listing's price" : ""}`}>
+                Market cap {company.share_classes > 1 ? "≈ " : ""}<span className="text-ink-2 num">{compactMoney(company.shares * company.last_close)}</span>
+              </div>
+            )}
           </div>
         )}
       </div>
@@ -128,7 +134,9 @@ export default async function CompanyPage({ params }: PageProps<"/c/[slug]">) {
             <Stat label={`Avg tenure${anyImprecise ? " (≈)" : ""}`} value={years(avgTenure)} />
             <Stat label={`Median tenure${anyImprecise ? " (≈)" : ""}`} value={years(median(tenures))} />
             <Stat label="Independent" value={`${current.filter((m) => m.is_independent).length} / ${current.length}`}
-                  sub="per latest proxy" />
+                  sub={current.some((m) => m.is_independent == null)
+                    ? `${current.filter((m) => m.is_independent == null).length} not yet determined`
+                    : "per latest proxy"} />
           </div>
           <div className="mt-5 pt-4 border-t border-line space-y-3 text-[13px]">
             <MiniList title="Recent appointments" empty="None in the last two years"

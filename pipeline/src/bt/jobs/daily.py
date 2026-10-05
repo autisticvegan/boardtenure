@@ -61,10 +61,14 @@ def update_sec(conn: psycopg.Connection) -> dict:
     from bt.jobs.sec_sync import sync_company
 
     edgar = Edgar(settings().require_sec_user_agent())
+    from bt.ingest import shares
+
     out: dict = {}
     for c in conn.execute("SELECT id, slug, cik FROM company WHERE cik IS NOT NULL AND status = 'public'").fetchall():
         try:
             out[c["slug"]] = sync_company(conn, edgar, c["id"], c["cik"])
+            if out[c["slug"]].get("new"):
+                shares.update_company(conn, edgar, c["id"], c["cik"])  # a new 10-Q/10-K may change the count
             conn.commit()
         except Exception as e:
             conn.rollback()

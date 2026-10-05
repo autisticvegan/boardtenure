@@ -116,6 +116,18 @@ def cmd_sec_sync(args: argparse.Namespace) -> None:
             print(c["slug"], json.dumps(sync_company(conn, edgar, c["id"], c["cik"])))
 
 
+def cmd_sec_shares(args: argparse.Namespace) -> None:
+    from bt.config import settings
+    from bt.ingest import shares
+    from bt.sources.sec import Edgar
+
+    edgar = Edgar(settings().require_sec_user_agent())
+    with db.session("pipeline:sec-shares") as conn:
+        for c in conn.execute("SELECT id, slug, cik FROM company WHERE cik IS NOT NULL ORDER BY slug").fetchall():
+            print(c["slug"], shares.update_company(conn, edgar, c["id"], c["cik"]))
+            conn.commit()
+
+
 def cmd_daily(args: argparse.Namespace) -> None:
     from bt.jobs import daily
 
@@ -227,6 +239,9 @@ def build_parser() -> argparse.ArgumentParser:
     ss = sp.add_parser("sync", help="discover and process new EDGAR filings")
     ss.add_argument("--company")
     ss.set_defaults(fn=cmd_sec_sync)
+
+    sp.add_parser("shares", help="refresh shares outstanding from latest 10-K/10-Q covers").set_defaults(
+        fn=cmd_sec_shares)
 
     dp = sub.add_parser("daily", help="run the full daily update")
     dp.add_argument("--skip-prices", action="store_true")

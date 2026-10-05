@@ -81,6 +81,9 @@ export type CompanyHeader = {
   last_close: number | null;
   last_date: string | null;
   prev_close: number | null;
+  shares: number | null;
+  shares_as_of: string | null;
+  share_classes: number;
 };
 
 const PERF_JSON = sql`
@@ -121,9 +124,15 @@ const MEMBERSHIP_JOINS = sql`
       AND (m.status = 'former' OR bs.as_of_date = (SELECT max(as_of_date) FROM board_snapshot WHERE company_id = m.company_id))
     ORDER BY bs.as_of_date DESC LIMIT 1) snap ON true
   -- Independence: the open determination for current seats, the last one for former seats.
+  -- A current seat counts only an open determination (a current executive seat is never independent);
+  -- a former seat takes its last one. Otherwise unknown.
   LEFT JOIN LATERAL (
-    SELECT bi.is_independent FROM board_independence bi WHERE bi.membership_id = m.id
-    ORDER BY (bi.end_date IS NULL) DESC, bi.end_date DESC NULLS LAST LIMIT 1) ind ON true
+    SELECT coalesce(
+      (SELECT bi.is_independent FROM board_independence bi WHERE bi.membership_id = m.id
+         AND (m.status = 'former' OR bi.end_date IS NULL)
+       ORDER BY (bi.end_date IS NULL) DESC, bi.end_date DESC NULLS LAST LIMIT 1),
+      CASE WHEN EXISTS (SELECT 1 FROM board_role r WHERE r.membership_id = m.id AND r.role = 'executive_director'
+                          AND (r.is_current OR m.status = 'former')) THEN false END) AS is_independent) ind ON true
   LEFT JOIN tenure_performance tp
     ON tp.membership_id = m.id AND tp.benchmark_id = (SELECT id FROM benchmark WHERE is_default)`;
 
@@ -131,13 +140,16 @@ export const getCompany = cache(async (slug: string): Promise<CompanyHeader | nu
   const [row] = await sql<CompanyHeader[]>`
     SELECT c.id, c.slug, c.cik, c.legal_name, c.common_name, c.status, c.ipo_date, c.sector, c.industry,
            c.website, s.id AS security_id, s.symbol, s.exchange,
-           lp.close AS last_close, lp.trade_date AS last_date, pp.close AS prev_close
+           lp.close AS last_close, lp.trade_date AS last_date, pp.close AS prev_close,
+           so.shares, so.as_of_date AS shares_as_of, coalesce(jsonb_array_length(so.class_breakdown), 0) AS share_classes
     FROM company c
     LEFT JOIN security s ON s.company_id = c.id AND s.is_primary
     LEFT JOIN LATERAL (SELECT close, trade_date FROM price_daily WHERE security_id = s.id
                        ORDER BY trade_date DESC LIMIT 1) lp ON true
     LEFT JOIN LATERAL (SELECT close FROM price_daily WHERE security_id = s.id AND trade_date < lp.trade_date
                        ORDER BY trade_date DESC LIMIT 1) pp ON true
+    LEFT JOIN LATERAL (SELECT shares, as_of_date, class_breakdown FROM shares_outstanding
+                       WHERE company_id = c.id ORDER BY as_of_date DESC LIMIT 1) so ON true
     WHERE c.slug = ${slug.toLowerCase()}`;
   return row ?? null;
 });
