@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import { RelativeBars, type RelBar } from "@/components/relative-bars";
 import { Annualized, Badge, Card, Confidence, Disclaimer, Relative, Stat, TenureReturn } from "@/components/ui";
 import { fmtDate, pct, pp, tenureLength, toneClass } from "@/lib/format";
-import { getCareer, getDefaultBenchmark, getPerson } from "@/lib/queries";
+import { getCareer, getDefaultBenchmark, getOtherBoards, getPerson } from "@/lib/queries";
 import { primaryRole } from "@/lib/roles";
 import { trackRecord } from "@/lib/track-record";
 
@@ -18,7 +18,11 @@ export async function generateMetadata({ params }: PageProps<"/d/[person]">): Pr
 export default async function DirectorPage({ params }: PageProps<"/d/[person]">) {
   const person = await getPerson((await params).person);
   if (!person) notFound();
-  const [career, bench] = await Promise.all([getCareer(person.id), getDefaultBenchmark()]);
+  const [career, bench, otherBoards] = await Promise.all([
+    getCareer(person.id), getDefaultBenchmark(), getOtherBoards(person.id),
+  ]);
+  const trackedSlugs = new Set(career.map((s) => s.company_slug));
+  const untracked = otherBoards.filter((b) => !b.tracked_slug || !trackedSlugs.has(b.tracked_slug));
   const tr = trackRecord(career);
   const benchName = bench?.name ?? "S&P 500 (SPY)";
   const currentAff = person.affiliations.find((a) => a.is_current);
@@ -113,6 +117,20 @@ export default async function DirectorPage({ params }: PageProps<"/d/[person]">)
       {bars.length > 0 && (
         <Card title={`Each tenure vs ${benchName}`} action="percentage points">
           <RelativeBars rows={bars} benchName={benchName} />
+        </Card>
+      )}
+
+      {untracked.length > 0 && (
+        <Card title="Other public boards named in proxy biographies" action="not yet tracked · unverified">
+          <ul className="divide-y divide-line text-[13px]">
+            {untracked.map((b) => (
+              <li key={b.company} className="py-2 flex flex-wrap justify-between gap-3">
+                <span className="text-ink">{b.company}</span>
+                <span className="text-ink-3">{b.status === "current" ? "Current" : "Former"}{b.years && !b.years.startsWith("not stated") ? ` · ${b.years}` : ""} · per {b.source_company} proxy</span>
+              </li>
+            ))}
+          </ul>
+          <p className="mt-3 text-[12px] text-ink-3">Listed as disclosed in the company&rsquo;s proxy statement. These seats aren&rsquo;t in the track record until we verify them from that company&rsquo;s own filings.</p>
         </Card>
       )}
 

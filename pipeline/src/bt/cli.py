@@ -94,6 +94,94 @@ def cmd_seed_board(args: argparse.Namespace) -> None:
               file=sys.stderr)
 
 
+def cmd_quality_run(args: argparse.Namespace) -> None:
+    from bt.quality import checks
+
+    with db.session("pipeline:quality") as conn:
+        counts = checks.run(conn)
+    print(json.dumps({k: v for k, v in counts.items() if v}, indent=1))
+
+
+def cmd_sec_sync(args: argparse.Namespace) -> None:
+    from bt.config import settings
+    from bt.jobs.sec_sync import sync_company
+    from bt.sources.sec import Edgar
+
+    edgar = Edgar(settings().require_sec_user_agent())
+    with db.session("pipeline:sec-sync") as conn:
+        rows = conn.execute(
+            "SELECT id, slug, cik FROM company WHERE cik IS NOT NULL AND (%s::text IS NULL OR slug = %s)",
+            (args.company, args.company)).fetchall()
+        for c in rows:
+            print(c["slug"], json.dumps(sync_company(conn, edgar, c["id"], c["cik"])))
+
+
+def cmd_daily(args: argparse.Namespace) -> None:
+    from bt.jobs import daily
+
+    with db.session("pipeline:daily") as conn:
+        stats = daily.run(conn, skip_prices=args.skip_prices, skip_sec=args.skip_sec)
+    print(json.dumps(stats, indent=1, default=str))
+
+
+def cmd_seed_all(args: argparse.Namespace) -> None:
+    """Load every researched board file and prototype price file, then recompute and validate."""
+    from bt.analytics import tenure
+    from bt.ingest import prices, reference, seed_board
+    from bt.quality import checks
+
+    seed_dir = Path(args.dir)
+    with db.session("pipeline:seed-all") as conn:
+        reference.ensure_sources(conn)
+        reference.ensure_benchmarks(conn)
+        conn.commit()
+        for path in sorted(seed_dir.glob("*_board_research.json")):
+            failures = seed_board.verify_file(path)
+            if failures:
+                print(f"SKIP {path.name}: {len(failures)} verification problem(s), first: {failures[0]}")
+                continue
+            st = seed_board.load(conn, path)
+            conn.commit()
+            print(f"{path.name}: {st.people} people, {st.memberships} seats, "
+                  f"{st.verified}/{st.evidence} quotes verified")
+        src = reference.source_ids(conn)
+        for csv_path in sorted((seed_dir / "prices").glob("*.csv")):
+            if csv_path.stem.endswith("_actions"):
+                continue
+            symbol = csv_path.stem
+            row = conn.execute(
+                """SELECT id FROM security WHERE upper(symbol) = %s AND (is_primary OR kind = 'etf')
+                   ORDER BY is_primary DESC LIMIT 1""", (symbol.upper(),)).fetchone()
+            if not row:
+                print(f"skip prices {symbol}: no tracked security")
+                continue
+            bars = prices.read_bars_csv(csv_path)
+            prices.upsert_bars(conn, row["id"], bars, src["prototype_keyless"])
+            actions_path = csv_path.with_name(f"{symbol}_actions.csv")
+            n_actions = 0
+            if actions_path.exists():
+                action_src = src["ssga"] if symbol.upper() == "SPY" else src["prototype_keyless"]
+                n_actions = prices.upsert_actions(conn, row["id"], prices.read_actions_csv(actions_path), action_src,
+                                                  "high" if symbol.upper() == "SPY" else "medium")
+            prices.reindex(conn, row["id"], full=True)
+            conn.commit()
+            print(f"prices {symbol}: {len(bars)} bars {bars[0].day if bars else ''}..{bars[-1].day if bars else ''}, "
+                  f"{n_actions} actions new/changed")
+        print("tenure rows:", tenure.recompute(conn))
+        issues = {k: v for k, v in checks.run(conn).items() if v}
+        print("quality:", json.dumps(issues))
+
+
+def cmd_seed_verify(args: argparse.Namespace) -> None:
+    from bt.ingest import seed_board
+
+    failures = seed_board.verify_file(Path(args.path))
+    for f in failures:
+        print(f)
+    print(f"{len(failures)} problem(s)")
+    sys.exit(1 if failures else 0)
+
+
 def build_parser() -> argparse.ArgumentParser:
     p = argparse.ArgumentParser(prog="bt", description=__doc__)
     sub = p.add_subparsers(required=True)
@@ -125,6 +213,25 @@ def build_parser() -> argparse.ArgumentParser:
     sb = sd.add_parser("board", help="load a researched board JSON file")
     sb.add_argument("path")
     sb.set_defaults(fn=cmd_seed_board)
+    sa = sd.add_parser("all", help="load every board file and prototype price file, recompute, validate")
+    sa.add_argument("--dir", default=str(Path(__file__).resolve().parents[3] / "data" / "seed"))
+    sa.set_defaults(fn=cmd_seed_all)
+    sv = sd.add_parser("verify", help="verify a board JSON file's quotes against cached filings (no DB)")
+    sv.add_argument("path")
+    sv.set_defaults(fn=cmd_seed_verify)
+
+    qp = sub.add_parser("quality").add_subparsers(required=True)
+    qp.add_parser("run", help="run data-quality checks").set_defaults(fn=cmd_quality_run)
+
+    sp = sub.add_parser("sec").add_subparsers(required=True)
+    ss = sp.add_parser("sync", help="discover and process new EDGAR filings")
+    ss.add_argument("--company")
+    ss.set_defaults(fn=cmd_sec_sync)
+
+    dp = sub.add_parser("daily", help="run the full daily update")
+    dp.add_argument("--skip-prices", action="store_true")
+    dp.add_argument("--skip-sec", action="store_true")
+    dp.set_defaults(fn=cmd_daily)
 
     an = sub.add_parser("analytics").add_subparsers(required=True)
     rc = an.add_parser("recompute", help="recompute tenure performance")

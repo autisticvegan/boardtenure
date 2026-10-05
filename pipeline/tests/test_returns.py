@@ -157,3 +157,14 @@ def test_left_in_listing_month_before_first_trade():
     r = tenure_performance(s, start=date(2015, 5, 1), start_precision="month",
                            end=date(2019, 3, 1), end_precision="month", is_open=False)
     assert r.status == "no_price_history"
+
+
+def test_start_before_stored_history_of_listed_stock_is_a_gap():
+    # Listed in 1980, but we only hold prices from 2016: a 2005 join can't be measured yet.
+    s = series([100, 101, 102], start=date(2016, 1, 4))
+    r = tenure_performance(s, start=date(2005, 3, 1), start_precision="day",
+                           end=None, end_precision=None, is_open=True, listing_date=date(1980, 12, 12))
+    assert r.status == "history_gap" and r.total_return is None
+    ok = tenure_performance(s, start=date(2005, 3, 1), start_precision="day",
+                            end=None, end_precision=None, is_open=True, listing_date=date(2016, 1, 4))
+    assert ok.status == "ok" and ok.start_anchor_reason == "first_trade"

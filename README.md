@@ -28,7 +28,7 @@ cp .env.example .env            # set SEC_USER_AGENT to a real contact address
 cd pipeline && uv sync
 uv run bt db migrate && uv run bt ref init
 uv run bt seed board ../data/seed/lyft_board_research.json
-# prices: see docs/runbooks/prices.md (licensed feed in production; prototype files locally)
+# prices: licensed feed in production; prototype CSVs locally (see docs/adding-a-company.md)
 uv run bt analytics recompute
 cd ../web && npm install && npm run dev
 ```

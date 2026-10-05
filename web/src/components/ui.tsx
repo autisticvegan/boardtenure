@@ -82,6 +82,7 @@ export function TenureReturn({ perf, className = "" }: { perf: Perf | null; clas
     too_short: "Too short to measure",
     no_price_history: "Before listing",
     unknown_dates: "Dates unknown",
+    history_gap: "Price history incomplete",
   }[perf.status];
   return <span className="text-ink-3 text-[12px]">{why}</span>;
 }

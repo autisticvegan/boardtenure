@@ -39,8 +39,8 @@ export default async function CompanyPage({ params }: PageProps<"/c/[slug]">) {
     .filter((m) => m.status === "former")
     .sort((a, b) => (b.end_date ?? "").localeCompare(a.end_date ?? ""));
   const asOf = company.last_date ?? todayIso();
-  const series = company.security_id && company.ipo_date
-    ? await getReturnSeries(company.security_id, bench?.security_id ?? null, company.ipo_date, asOf)
+  const series = company.security_id
+    ? await getReturnSeries(company.security_id, bench?.security_id ?? null, company.ipo_date ?? "1900-01-01", asOf)
     : [];
 
   const tenures = current.map(approxStart).filter((d): d is string => d != null).map((d) => daysBetween(d, todayIso()));
@@ -48,11 +48,13 @@ export default async function CompanyPage({ params }: PageProps<"/c/[slug]">) {
   const anyImprecise = current.some((m) => m.start_precision !== "day");
   const dayChange = company.last_close && company.prev_close ? company.last_close / company.prev_close - 1 : null;
   const sinceIpo = series.length ? series[series.length - 1] : null;
+  // Older listings start where our stored history starts, not at the IPO.
+  const fromListing = !!(company.ipo_date && series[0] && daysBetween(company.ipo_date, series[0].d) <= 7);
   const twoYearsAgo = `${Number(todayIso().slice(0, 4)) - 2}${todayIso().slice(4)}`;
   const recentJoins = board.filter((m) => m.start_precision === "day" && m.start_date && m.start_date >= twoYearsAgo);
   const recentLeaves = former.filter((m) => m.end_date && m.end_date >= twoYearsAgo);
 
-  const markers: Marker[] = company.ipo_date ? [{ d: company.ipo_date, label: "IPO", kind: "ipo" }] : [];
+  const markers: Marker[] = company.ipo_date && fromListing ? [{ d: company.ipo_date, label: "IPO", kind: "ipo" }] : [];
   const timeline: TimelineRow[] = [...board]
     .sort((a, b) => (a.start_date ?? "9999").localeCompare(b.start_date ?? "9999"))
     .map((m) => ({
@@ -86,7 +88,7 @@ export default async function CompanyPage({ params }: PageProps<"/c/[slug]">) {
           </div>
           <p className="text-ink-2 mt-1 text-[13px]">
             {company.legal_name}
-            {company.ipo_date && <> · Listed {fmtDate(company.ipo_date)}</>}
+            {company.ipo_date && company.ipo_date.slice(5) !== "01-01" && <> · Listed {fmtDate(company.ipo_date)}</>}
             {company.cik && (
               <> · <a className="hover:text-ink underline decoration-line-strong underline-offset-2"
                       href={`https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=${company.cik}`}
@@ -108,8 +110,8 @@ export default async function CompanyPage({ params }: PageProps<"/c/[slug]">) {
 
       <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_300px]">
         <Card
-          title={`${company.symbol} since listing vs ${bench?.name ?? "benchmark"}`}
-          action={sinceIpo ? <span className="num">Since IPO <span className={toneClass(sinceIpo.s)}>{pct(sinceIpo.s)}</span></span> : null}
+          title={`${company.symbol} ${fromListing ? "since listing" : "total return"} vs ${bench?.name ?? "benchmark"}`}
+          action={sinceIpo ? <span className="num">{fromListing ? "Since IPO" : `Since ${fmtDate(series[0].d)}`} <span className={toneClass(sinceIpo.s)}>{pct(sinceIpo.s)}</span></span> : null}
         >
           <ReturnChart
             points={series}
@@ -117,7 +119,7 @@ export default async function CompanyPage({ params }: PageProps<"/c/[slug]">) {
             benchLabel={bench?.name ?? null}
             markers={markers}
             height={300}
-            baseCaption={company.ipo_date ? `Rebased to 0% at the first close, ${fmtDate(series[0]?.d)}` : undefined}
+            baseCaption={series[0] ? `Rebased to 0% at the ${fromListing ? "first close" : "earliest stored close"}, ${fmtDate(series[0].d)}` : undefined}
           />
         </Card>
         <Card title="Board overview">

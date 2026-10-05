@@ -17,6 +17,9 @@ SOURCES = [
     ("company_ir", "Company investor-relations website", "company_website", None, "medium", None),
     ("nasdaq_com", "Nasdaq.com historical quotes", "market_data", "https://www.nasdaq.com", "medium",
      "Keyless public endpoint used for the local prototype only; not licensed for redistribution."),
+    ("prototype_keyless", "Keyless public price sources (cross-verified)", "market_data", None, "medium",
+     "Merged from several keyless public endpoints for the local prototype; see docs/research/price-data-*.md. "
+     "Not licensed for redistribution."),
     ("ssga", "State Street Global Advisors (SPY distributions)", "market_data",
      "https://www.ssga.com", "high", "Fund sponsor's published distribution history."),
 ]

@@ -38,5 +38,9 @@ target-version = "py312"
 [tool.ruff.lint]
 select = ["E", "F", "W", "I", "B", "UP", "SIM"]
 
+[tool.ruff.lint.per-file-ignores]
+# Long SQL literals read better unwrapped.
+"src/bt/quality/checks.py" = ["E501"]
+
 [tool.pytest.ini_options]
 testpaths = ["tests"]

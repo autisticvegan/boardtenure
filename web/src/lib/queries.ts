@@ -5,7 +5,7 @@ import type { Precision } from "./format";
 import { normalizeAndAlign, type ChartPoint } from "./series";
 
 export type Perf = {
-  status: "ok" | "approximate" | "too_short" | "no_price_history" | "unknown_dates";
+  status: "ok" | "approximate" | "too_short" | "no_price_history" | "unknown_dates" | "history_gap";
   is_open: boolean;
   start_anchor_date: string | null;
   start_anchor_reason: "join_date" | "first_trade" | "join_window" | null;
@@ -366,4 +366,23 @@ export const getRecentEvents = cache(async (limit = 8): Promise<RecentEvent[]> =
     LEFT JOIN person p ON p.id = e.person_id
     WHERE e.event_type IN ('BOARD_JOIN', 'BOARD_LEAVE') AND e.event_date_precision = 'day'
     ORDER BY e.event_date DESC LIMIT ${limit}`;
+});
+
+export type OtherBoard = { company: string; status: string; years: string | null; tracked_slug: string | null; source_company: string };
+
+/** Other public boards named in proxy bios: staged facts, shown as unverified context. */
+export const getOtherBoards = cache(async (personId: number): Promise<OtherBoard[]> => {
+  return sql<OtherBoard[]>`
+    SELECT DISTINCT ON (lower(x.payload->>'company'))
+           x.payload->>'company' AS company, x.payload->>'status' AS status, x.payload->>'years' AS years,
+           tc.slug AS tracked_slug, src.common_name AS source_company
+    FROM extracted_fact x
+    JOIN company src ON src.id = x.company_id
+    LEFT JOIN LATERAL (
+      SELECT c.slug FROM company c
+      WHERE word_similarity(bt_normalize(c.common_name), bt_normalize(x.payload->>'company')) > 0.9
+        AND EXISTS (SELECT 1 FROM board_membership m WHERE m.company_id = c.id AND m.person_id = x.resolved_person_id)
+      LIMIT 1) tc ON true
+    WHERE x.fact_type = 'other_board_disclosed' AND x.resolved_person_id = ${personId} AND x.status <> 'rejected'
+    ORDER BY lower(x.payload->>'company'), x.created_at DESC`;
 });

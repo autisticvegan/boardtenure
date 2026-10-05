@@ -114,7 +114,7 @@ def asof_index(days: Sequence[date], d: date) -> int | None:
 
 @dataclass
 class TenureResult:
-    status: Literal["ok", "approximate", "too_short", "no_price_history", "unknown_dates"]
+    status: Literal["ok", "approximate", "too_short", "no_price_history", "unknown_dates", "history_gap"]
     is_open: bool
     start_anchor: date | None = None
     start_anchor_reason: str | None = None
@@ -187,8 +187,13 @@ def tenure_performance(
     end_precision: Precision | None,
     is_open: bool,
     benchmark: Sequence[IndexPoint] = (),
+    listing_date: date | None = None,
 ) -> TenureResult:
-    """Return statistics for one board tenure. See docs/methodology.md for the rules."""
+    """Return statistics for one board tenure. See docs/methodology.md for the rules.
+
+    `listing_date` is the security's first trade date. When stored prices begin later than
+    that, a tenure starting before them is a gap in our data (`history_gap`), not a
+    pre-listing join, and must not be measured from the first stored close."""
     res = TenureResult(status="ok", is_open=is_open)
     if not series:
         res.status = "no_price_history"
@@ -199,6 +204,10 @@ def tenure_performance(
     sw = to_window(start, start_precision)
     if sw is None:
         res.status = "unknown_dates"
+        return res
+    has_gap = listing_date is not None and (days[0] - listing_date).days > 7
+    if has_gap and sw.first < days[0]:
+        res.status = "history_gap"
         return res
 
     if is_open:

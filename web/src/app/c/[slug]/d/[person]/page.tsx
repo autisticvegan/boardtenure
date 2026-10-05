@@ -201,6 +201,7 @@ function Summary({ m, company, sym, benchName }: { m: Membership; company: strin
   if (!p) return <>Performance has not been computed for this tenure yet.</>;
   if (p.status === "no_price_history") return <>{name} left the board before {company} stock began trading, so there is no tenure return to measure.</>;
   if (p.status === "unknown_dates") return <>We have not established when {name} joined{m.status === "former" ? " or left" : ""} the board, so no return is shown.</>;
+  if (p.status === "history_gap") return <>{name} joined before the earliest {sym} price history we hold, so the tenure return can&rsquo;t be measured yet.</>;
   if (p.status === "too_short") return <>{name}&rsquo;s tenure spans less than one full trading session; no return is shown.</>;
   if (p.status === "approximate") {
     return <>Because a tenure date is known only to the {m.start_precision === "day" ? "month or year" : m.start_precision}, {sym}&rsquo;s return during {name}&rsquo;s tenure is shown as a range: between <b className="num">{pct(p.return_low)}</b> and <b className="num">{pct(p.return_high)}</b>.</>;

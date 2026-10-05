@@ -22,7 +22,7 @@ from bt.ingest import reference
 from bt.text import document_text, find_quote
 
 EXTRACTOR = "manual_research"
-EXCHANGES = {"nasdaq": "XNAS", "new york stock exchange": "XNYS", "nyse": "XNYS"}
+EXCHANGES = {"nasdaq": "XNAS", "new york stock exchange": "XNYS", "nyse": "XNYS", "cboe": "BATS"}
 LEADERSHIP_ROLES = {"chair", "executive_chair", "vice_chair", "lead_independent_director", "executive_director"}
 INDEPENDENCE_ROLES = {"independent_director": True, "non_independent_director": False}
 
@@ -93,7 +93,10 @@ def load(conn: psycopg.Connection, path: Path) -> Stats:
     company_id, _ = reference.ensure_company(conn, reference.CompanySpec(
         slug=c["ticker"].lower(), cik=c["cik"], legal_name=c["legal_name"],
         common_name=c.get("common_name") or re.sub(r",? Inc\.?$", "", c["legal_name"]),
-        symbol=c["ticker"], exchange=exchange or "", ipo_date=date.fromisoformat(c["ipo_date"]),
+        symbol=c["ticker"], exchange=exchange or "",
+        # Long-listed issuers have no IPO in range; the listing year still bounds price-history gaps.
+        ipo_date=(date.fromisoformat(c["ipo_date"]) if c.get("ipo_date")
+                  else date(int(c["listed_since_year"]), 1, 1) if c.get("listed_since_year") else None),
         state_of_incorporation=c.get("state_of_incorporation"),
     ))
     cik = c["cik"]
@@ -105,7 +108,8 @@ def load(conn: psycopg.Connection, path: Path) -> Stats:
     doc_by_accession: dict[str, int] = {}
     for e in data["evidence"]:
         filename = e["url"].rsplit("/", 1)[-1]
-        key = rawstore.sec_key(cik, e["accession"], filename)
+        folder = re.search(r"/Archives/edgar/data/(\d+)/", e["url"])
+        key = rawstore.sec_key(folder.group(1) if folder else cik, e["accession"], filename)
         if not rawstore.exists(key):
             raise SystemExit(f"{e['id']}: cached filing missing at {key}; fetch it before loading")
         obj = rawstore.describe(key)
@@ -158,12 +162,13 @@ def load(conn: psycopg.Connection, path: Path) -> Stats:
     # -- people --------------------------------------------------------------------
     person_id: dict[str, int] = {}
     for p in data["people"]:
-        pid = conn.execute(
-            """INSERT INTO person (slug, full_name) VALUES (%s, %s)
-               ON CONFLICT (slug) DO UPDATE SET full_name = EXCLUDED.full_name RETURNING id""",
-            (p["key"], p["full_name"]),
-        ).fetchone()["id"]
+        pid = _resolve_person(conn, p)
         person_id[p["key"]] = pid
+        conn.execute(
+            """INSERT INTO person_alias (person_id, alias, alias_type) VALUES (%s, %s, 'other')
+               ON CONFLICT (person_id, normalized_alias) DO NOTHING""",
+            (pid, p["full_name"]),
+        )
         for alias in p.get("aliases", []):
             conformed = alias.split()[0].lower() == p["full_name"].split()[-1].lower()
             conn.execute(
@@ -360,6 +365,61 @@ def load(conn: psycopg.Connection, path: Path) -> Stats:
                  datetime.fromisoformat(data["as_of"]).replace(tzinfo=UTC), f"research:{path.name}"),
             )
     return st
+
+
+def _resolve_person(conn: psycopg.Connection, p: dict) -> int:
+    """The same director appears in several companies' files: match on SEC CIK first, then
+    on slug unless that slug belongs to someone with a different CIK (a namesake)."""
+    if p.get("sec_cik"):
+        row = conn.execute("SELECT person_id FROM person_identifier WHERE scheme = 'sec_cik' AND value = %s",
+                           (p["sec_cik"],)).fetchone()
+        if row:
+            return row["person_id"]
+    slug = p["key"]
+    for n in range(2, 50):
+        row = conn.execute(
+            """SELECT p.id, pi.value AS cik FROM person p
+               LEFT JOIN person_identifier pi ON pi.person_id = p.id AND pi.scheme = 'sec_cik'
+               WHERE p.slug = %s""", (slug,)).fetchone()
+        if row is None:
+            return conn.execute("INSERT INTO person (slug, full_name) VALUES (%s, %s) RETURNING id",
+                                (slug, p["full_name"])).fetchone()["id"]
+        if not p.get("sec_cik") or row["cik"] in (None, p["sec_cik"]):
+            return row["id"]
+        slug = f"{p['key']}-{n}"
+    raise SystemExit(f"could not allocate a slug for {p['key']}")
+
+
+def verify_file(path: Path) -> list[str]:
+    """Check every evidence quote against the cached filing without touching the database.
+    Returns a list of failures (empty when everything verifies)."""
+    data = json.loads(path.read_text())
+    texts = _TextCache()
+    cik = data["company"]["cik"]
+    failures = []
+    ids = {e["id"] for e in data["evidence"]}
+    for e in data["evidence"]:
+        filename = e["url"].rsplit("/", 1)[-1]
+        m = re.search(r"/Archives/edgar/data/(\d+)/", e["url"])
+        key = rawstore.sec_key(m.group(1) if m else cik, e["accession"], filename)
+        if not rawstore.exists(key):
+            failures.append(f"{e['id']}: not cached at {key} (fetch with scripts/sec_fetch.py)")
+            continue
+        if find_quote(texts.get(key, filename), e["quote"]) < 0:
+            failures.append(f"{e['id']}: quote not found verbatim in {key}: {e['quote'][:80]!r}")
+        elif e.get("xml_fields") and not _verify_xml_fields(rawstore.read(key), e["xml_fields"]):
+            failures.append(f"{e['id']}: xml_fields mismatch in {key}")
+    for section in ("memberships", "roles", "events", "committees"):
+        for i, row in enumerate(data.get(section, [])):
+            for r in row.get("evidence_refs", []):
+                if r not in ids:
+                    failures.append(f"{section}[{i}]: unknown evidence ref {r}")
+    keys = {p["key"] for p in data["people"]}
+    for section in ("memberships", "roles", "committees"):
+        for i, row in enumerate(data.get(section, [])):
+            if row.get("person_key") not in keys:
+                failures.append(f"{section}[{i}]: unknown person_key {row.get('person_key')}")
+    return failures
 
 
 def ev_doc(conn: psycopg.Connection, evidence_id: int) -> int:

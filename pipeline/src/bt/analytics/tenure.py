@@ -42,8 +42,10 @@ def recompute(conn: psycopg.Connection, company_ids: Iterable[int] | None = None
           computed_at = now(), {", ".join(f"{c} = EXCLUDED.{c}" for c in _COLUMNS)}"""
     n = 0
     for company_id in company_ids:
-        sec = conn.execute("SELECT id FROM security WHERE company_id = %s AND is_primary",
-                           (company_id,)).fetchone()
+        sec = conn.execute(
+            """SELECT s.id, coalesce(s.first_trade_date, c.ipo_date) AS listed FROM security s
+               JOIN company c ON c.id = s.company_id WHERE s.company_id = %s AND s.is_primary""",
+            (company_id,)).fetchone()
         series = load_series(conn, sec["id"]) if sec else []
         members = conn.execute(
             """SELECT id, person_id, status, start_date, start_precision, end_date, end_precision
@@ -58,6 +60,7 @@ def recompute(conn: psycopg.Connection, company_ids: Iterable[int] | None = None
                     start=m["start_date"], start_precision=m["start_precision"],
                     end=m["end_date"], end_precision=m["end_precision"],
                     is_open=m["status"] == "current", benchmark=bench_series,
+                    listing_date=sec["listed"] if sec else None,
                 )
                 rows.append([m["id"], bench_id, company_id, m["person_id"], sec["id"] if sec else None,
                              METHODOLOGY_VERSION, *_values(r)])
