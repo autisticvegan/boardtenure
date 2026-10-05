@@ -375,8 +375,10 @@ def _resolve_person(conn: psycopg.Connection, p: dict) -> int:
                            (p["sec_cik"],)).fetchone()
         if row:
             return row["person_id"]
-    slug = p["key"]
-    for n in range(2, 50):
+    # Namesakes: fall back to the full legal name ("bradford-l-smith"), then a numeric suffix.
+    full = re.sub(r"[^a-z0-9]+", "-", p["full_name"].lower()).strip("-")
+    candidates = [p["key"]] + ([full] if full != p["key"] else []) + [f"{p['key']}-{n}" for n in range(2, 50)]
+    for slug in candidates:
         row = conn.execute(
             """SELECT p.id, pi.value AS cik FROM person p
                LEFT JOIN person_identifier pi ON pi.person_id = p.id AND pi.scheme = 'sec_cik'
@@ -386,7 +388,6 @@ def _resolve_person(conn: psycopg.Connection, p: dict) -> int:
                                 (slug, p["full_name"])).fetchone()["id"]
         if not p.get("sec_cik") or row["cik"] in (None, p["sec_cik"]):
             return row["id"]
-        slug = f"{p['key']}-{n}"
     raise SystemExit(f"could not allocate a slug for {p['key']}")
 
 

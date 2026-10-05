@@ -1,0 +1,2634 @@
+{
+ "company": {
+  "cik": "0001652044",
+  "ticker": "GOOGL",
+  "legal_name": "Alphabet Inc.",
+  "common_name": "Alphabet",
+  "exchange": "Nasdaq Global Select Market",
+  "ipo_pricing_date": "2004-08-18",
+  "ipo_date": "2004-08-19",
+  "state_of_incorporation": "Delaware",
+  "notes": "Alphabet Inc. became the holding company of Google Inc. (CIK 0001288776) on 2015-10-02; Google directors became Alphabet directors and their Google service carries over. Google Inc. was incorporated in California in September 1998 and reincorporated in Delaware in August 2003. IPO priced 2004-08-18 ($85.00, auction), first trade 2004-08-19 on Nasdaq as GOOG (Class A). On 2014-04-02 Class C capital stock was distributed as a dividend to Class A and Class B holders (described as a two-for-one split effected as a stock dividend); from 2014-04-03 Class A trades as GOOGL and Class C as GOOG, which matters for Class A total-return calculations. 20-for-one split: record 2022-07-01, distributed after close 2022-07-15, split-adjusted trading from 2022-07-18 (as announced). Class B carries ten votes per share. Board is not classified: all directors are elected annually.",
+  "classified_board": false
+ },
+ "as_of": "2026-10-04",
+ "sources_reviewed_through": "2026-10-02 (latest filing in the EDGAR submissions feed fetched 2026-10-04)",
+ "people": [
+  {
+   "key": "larry-page",
+   "full_name": "Larry Page",
+   "aliases": [
+    "Lawrence Page",
+    "Page Lawrence"
+   ],
+   "sec_cik": "0001295231",
+   "bio_other_public_boards": []
+  },
+  {
+   "key": "sergey-brin",
+   "full_name": "Sergey Brin",
+   "aliases": [
+    "Brin Sergey"
+   ],
+   "sec_cik": "0001295032",
+   "bio_other_public_boards": []
+  },
+  {
+   "key": "sundar-pichai",
+   "full_name": "Sundar Pichai",
+   "aliases": [
+    "Pichai Sundar"
+   ],
+   "sec_cik": "0001534753",
+   "bio_other_public_boards": []
+  },
+  {
+   "key": "john-l-hennessy",
+   "full_name": "John L. Hennessy",
+   "aliases": [
+    "John Hennessy",
+    "Hennessy John L."
+   ],
+   "sec_cik": "0001198046",
+   "bio_other_public_boards": []
+  },
+  {
+   "key": "frances-h-arnold",
+   "full_name": "Frances H. Arnold",
+   "aliases": [
+    "Frances Arnold",
+    "Arnold Frances"
+   ],
+   "sec_cik": "0001665419",
+   "bio_other_public_boards": [
+    {
+     "company": "Generate Biomedicines",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e066",
+     "public_company_stated_in_source": true,
+     "note": "listed under 'Other Public Company Directorships'"
+    },
+    {
+     "company": "Illumina, Inc.",
+     "status": "current",
+     "years": "since 2016 (per 2019 8-K); proxy says she will not stand for re-election and intends to resign effective at the close of Illumina's 2026 annual meeting (May 21, 2026)",
+     "source_ref": "e066",
+     "public_company_stated_in_source": true,
+     "corroborating_refs": [
+      "e067",
+      "e064"
+     ],
+     "note": "current as of the 2026 proxy (bios as of 2026-04-06); scheduled to end 2026-05-21 per the proxy, not verified against Illumina filings"
+    }
+   ]
+  },
+  {
+   "key": "r-martin-chavez",
+   "full_name": "R. Martin Chávez",
+   "aliases": [
+    "Marty Chávez",
+    "R. Martin Chavez",
+    "Marty Chavez",
+    "CHAVEZ R. MARTIN"
+   ],
+   "sec_cik": "0001157983",
+   "bio_other_public_boards": [
+    {
+     "company": "Banco Santander, S.A.",
+     "status": "former",
+     "years": "October 2020 to June 2022 (per 2022 8-K)",
+     "source_ref": "e073",
+     "public_company_stated_in_source": true,
+     "corroborating_refs": [
+      "e070"
+     ]
+    },
+    {
+     "company": "Recursion Pharmaceuticals, Inc.",
+     "status": "former",
+     "years": "since April 2020 (per 2022 8-K); end not stated ('in the Past Five Years' in 2026 proxy)",
+     "source_ref": "e073",
+     "public_company_stated_in_source": true,
+     "corroborating_refs": [
+      "e070"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "l-john-doerr",
+   "full_name": "L. John Doerr",
+   "aliases": [
+    "John Doerr",
+    "DOERR L JOHN"
+   ],
+   "sec_cik": "0001032455",
+   "bio_other_public_boards": [
+    {
+     "company": "DoorDash, Inc.",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e045",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Amyris, Inc.",
+     "status": "former",
+     "years": "not stated (within past five years)",
+     "source_ref": "e046",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Bloom Energy Corporation",
+     "status": "former",
+     "years": "not stated (within past five years)",
+     "source_ref": "e046",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Coursera, Inc.",
+     "status": "former",
+     "years": "not stated (within past five years)",
+     "source_ref": "e046",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "QuantumScape Corporation",
+     "status": "former",
+     "years": "not stated (within past five years)",
+     "source_ref": "e046",
+     "public_company_stated_in_source": true,
+     "note": "spelled 'Quantumscape Corporation' in the proxy"
+    }
+   ]
+  },
+  {
+   "key": "roger-w-ferguson-jr",
+   "full_name": "Roger W. Ferguson Jr.",
+   "aliases": [
+    "Roger Ferguson",
+    "Roger W. Ferguson, Jr.",
+    "Ferguson Roger W. Jr."
+   ],
+   "sec_cik": "0001487637",
+   "bio_other_public_boards": [
+    {
+     "company": "Corning Incorporated",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e054",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Klarna",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e054",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Blend Labs, Inc.",
+     "status": "former",
+     "years": "not stated (within past five years)",
+     "source_ref": "e055",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "General Mills, Inc.",
+     "status": "former",
+     "years": "since December 2015 (per 2016 8-K); end not stated",
+     "source_ref": "e055",
+     "public_company_stated_in_source": true,
+     "corroborating_refs": [
+      "e052"
+     ]
+    },
+    {
+     "company": "International Flavors & Fragrances, Inc.",
+     "status": "former",
+     "years": "since April 2010 (per 2016 8-K); end not stated",
+     "source_ref": "e055",
+     "public_company_stated_in_source": true,
+     "corroborating_refs": [
+      "e052"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "k-ram-shriram",
+   "full_name": "K. Ram Shriram",
+   "aliases": [
+    "Ram Shriram",
+    "Kavitark Ram Shriram",
+    "Shriram Kavitark Ram"
+   ],
+   "sec_cik": "0001295084",
+   "bio_other_public_boards": [
+    {
+     "company": "Yubico AB",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e049",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "robin-l-washington",
+   "full_name": "Robin L. Washington",
+   "aliases": [
+    "Robin Washington",
+    "Washington Robin L"
+   ],
+   "sec_cik": "0001327145",
+   "bio_other_public_boards": [
+    {
+     "company": "Salesforce, Inc.",
+     "status": "current",
+     "years": "since September 2013 (per 2019 8-K)",
+     "source_ref": "e060",
+     "public_company_stated_in_source": true,
+     "corroborating_refs": [
+      "e058"
+     ]
+    },
+    {
+     "company": "Honeywell International, Inc.",
+     "status": "former",
+     "years": "since April 2013 (per 2019 8-K); end not stated",
+     "source_ref": "e061",
+     "public_company_stated_in_source": true,
+     "corroborating_refs": [
+      "e058"
+     ]
+    },
+    {
+     "company": "Vertiv Holdings Co.",
+     "status": "former",
+     "years": "not stated (within past five years)",
+     "source_ref": "e061",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "ann-mather",
+   "full_name": "Ann Mather",
+   "aliases": [
+    "MATHER ANN"
+   ],
+   "sec_cik": "0001244892",
+   "bio_other_public_boards": [
+    {
+     "company": "Blend Labs, Inc.",
+     "status": "current",
+     "years": "not stated (as of 2023 proxy)",
+     "source_ref": "e080",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Bumble Inc.",
+     "status": "current",
+     "years": "not stated (as of 2023 proxy)",
+     "source_ref": "e080",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Netflix, Inc.",
+     "status": "current",
+     "years": "not stated (as of 2023 proxy)",
+     "source_ref": "e080",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Airbnb, Inc.",
+     "status": "former",
+     "years": "not stated (within five years before 2023 proxy)",
+     "source_ref": "e081",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Arista Networks, Inc.",
+     "status": "former",
+     "years": "not stated (within five years before 2023 proxy)",
+     "source_ref": "e081",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Glu Mobile, Inc.",
+     "status": "former",
+     "years": "not stated (within five years before 2023 proxy)",
+     "source_ref": "e081",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Planet Labs Inc.",
+     "status": "former",
+     "years": "not stated (within five years before 2023 proxy)",
+     "source_ref": "e081",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Shutterfly, Inc.",
+     "status": "former",
+     "years": "not stated (within five years before 2023 proxy)",
+     "source_ref": "e081",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "alan-r-mulally",
+   "full_name": "Alan R. Mulally",
+   "aliases": [
+    "Alan Mulally",
+    "MULALLY ALAN R"
+   ],
+   "sec_cik": "0001182057",
+   "bio_other_public_boards": [
+    {
+     "company": "Ford Motor Company",
+     "status": "former",
+     "years": "September 2006 through June 2014",
+     "source_ref": "e087",
+     "public_company_stated_in_source": false,
+     "corroborating_refs": [
+      "e085"
+     ]
+    }
+   ]
+  }
+ ],
+ "memberships": [
+  {
+   "person_key": "larry-page",
+   "start_date": "1998-09",
+   "start_date_precision": "month",
+   "start_date_basis": "IPO prospectus and 8-K12B: director 'since our inception in September 1998'; proxy 'Director since 1998'",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e011",
+    "e012",
+    "e015",
+    "e018",
+    "e017",
+    "e030"
+   ],
+   "board_class": null,
+   "notes": "Co-founder. Google Inc. service carries over to Alphabet (2015-10-02). No filing gives a day. Re-elected 2026-06-05."
+  },
+  {
+   "person_key": "sergey-brin",
+   "start_date": "1998-09",
+   "start_date_precision": "month",
+   "start_date_basis": "IPO prospectus and 8-K12B: director 'since our inception in September 1998'; proxy 'Director since 1998'",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e019",
+    "e020",
+    "e021",
+    "e026",
+    "e025",
+    "e030"
+   ],
+   "board_class": null,
+   "notes": "Co-founder. Google Inc. service carries over. No filing gives a day. Re-elected 2026-06-05; Form 4 as director filed 2026-08-11."
+  },
+  {
+   "person_key": "k-ram-shriram",
+   "start_date": "1998-09",
+   "start_date_precision": "month",
+   "start_date_basis": "IPO prospectus: 'member of our board of directors since September 1998'; proxy 'Director since 1998'",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e048",
+    "e004",
+    "e049",
+    "e050",
+    "e107"
+   ],
+   "board_class": null,
+   "notes": "Pre-IPO director (elected by the common holders per the IPO prospectus). No filing gives a day."
+  },
+  {
+   "person_key": "l-john-doerr",
+   "start_date": "1999-05",
+   "start_date_precision": "month",
+   "start_date_basis": "IPO prospectus: 'member of our board of directors since May 1999'; proxy 'Director since 1999'",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e044",
+    "e003",
+    "e045",
+    "e047",
+    "e107"
+   ],
+   "board_class": null,
+   "notes": "Pre-IPO director (elected by the preferred holders per the IPO prospectus). No filing gives a day."
+  },
+  {
+   "person_key": "john-l-hennessy",
+   "start_date": "2004-04",
+   "start_date_precision": "month",
+   "start_date_basis": "IPO prospectus: 'member of our board of directors since April 2004'; 2018 8-K repeats April 2004",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e037",
+    "e004",
+    "e039",
+    "e040",
+    "e043",
+    "e107"
+   ],
+   "board_class": null,
+   "notes": "Joined pre-IPO (April 2004), appointed to fill a vacancy from a board-size increase. No filing gives a day: the S-1 and IPO prospectus say only April 2004."
+  },
+  {
+   "person_key": "roger-w-ferguson-jr",
+   "start_date": "2016-06-24",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 appointment date (Form 3 event date agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e051",
+    "e053",
+    "e054",
+    "e056",
+    "e107"
+   ],
+   "board_class": null,
+   "notes": "Joined as independent director and Audit Committee member."
+  },
+  {
+   "person_key": "sundar-pichai",
+   "start_date": "2017-07-19",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 appointment date",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e032",
+    "e034",
+    "e036",
+    "e107"
+   ],
+   "board_class": null,
+   "notes": "Joined as employee director while CEO of subsidiary Google; Alphabet CEO since 2019-12-03. No Form 3 was filed for his board seat (Alphabet Form 3 list checked); the 8-K appointment date is the basis."
+  },
+  {
+   "person_key": "robin-l-washington",
+   "start_date": "2019-04-25",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02/8.01: appointed 2019-04-24 'effective April 25, 2019' (Form 3 event date 2019-04-25 agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e057",
+    "e059",
+    "e060",
+    "e062",
+    "e107"
+   ],
+   "board_class": null,
+   "notes": "Board decision 2019-04-24; seat effective 2019-04-25."
+  },
+  {
+   "person_key": "frances-h-arnold",
+   "start_date": "2019-12-07",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 appointment date, effective immediately (Form 3 event date agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e063",
+    "e065",
+    "e066",
+    "e068",
+    "e107"
+   ],
+   "board_class": null,
+   "notes": "Joined as independent director and NCGC member."
+  },
+  {
+   "person_key": "r-martin-chavez",
+   "start_date": "2022-07-11",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 appointment date, effective immediately (Form 3 event date and 2023 proxy agree)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e069",
+    "e071",
+    "e075",
+    "e072",
+    "e074",
+    "e107"
+   ],
+   "board_class": null,
+   "notes": "Joined as independent director and Audit and Compliance Committee member."
+  },
+  {
+   "person_key": "ann-mather",
+   "start_date": "2005-11-22",
+   "start_date_precision": "day",
+   "start_date_basis": "Google Inc. 8-K Item 5.02: 'Effective November 22, 2005, Ann Mather was elected to the Board'",
+   "end_date": "2023-10-31",
+   "end_date_precision": "day",
+   "end_reason": "resigned",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e076",
+    "e080",
+    "e077",
+    "e078",
+    "e083"
+   ],
+   "board_class": null,
+   "notes": "Audit Committee chair at her 2005 election and in the 2022 and 2023 proxies; Ferguson succeeded her as chair effective 2023-10-31. Resignation notice given 2023-10-18; no disagreement."
+  },
+  {
+   "person_key": "alan-r-mulally",
+   "start_date": "2014-07-09",
+   "start_date_precision": "day",
+   "start_date_basis": "Google Inc. 8-K Item 5.02 appointment date",
+   "end_date": "2022-06-01",
+   "end_date_precision": "day",
+   "end_reason": "did_not_stand",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e084",
+    "e086",
+    "e088",
+    "e089",
+    "e090",
+    "e091",
+    "e095"
+   ],
+   "board_class": null,
+   "notes": "Not a nominee in 2022; term ended at the 2022 annual meeting (2022-06-01 per the Item 5.07 8-K). The 2023 proxy says 2022-06-02; see conflicts."
+  }
+ ],
+ "roles": [
+  {
+   "person_key": "larry-page",
+   "role": "ceo_director",
+   "start_date": "1998-09",
+   "end_date": "2001-07",
+   "precision": "month",
+   "end_precision": "month",
+   "confidence": "high",
+   "evidence_refs": [
+    "e011",
+    "e016"
+   ],
+   "notes": "Google CEO from inception to July 2001 (pre-IPO)."
+  },
+  {
+   "person_key": "larry-page",
+   "role": "executive_director",
+   "start_date": "2001-07",
+   "end_date": "2011-04-04",
+   "precision": "month",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e011",
+    "e016"
+   ],
+   "officer_title": "President, Products",
+   "notes": "Employee-director as Google's President, Products; ends when he became CEO."
+  },
+  {
+   "person_key": "larry-page",
+   "role": "ceo_director",
+   "start_date": "2011-04-04",
+   "end_date": "2019-12-03",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e014",
+    "e012",
+    "e013",
+    "e016",
+    "e028",
+    "e031"
+   ],
+   "notes": "Google CEO from 2011-04-04 (8-K effective date; proxies say April 2011), continuing as Alphabet CEO from the 2015-10-02 reorganization until 2019-12-03."
+  },
+  {
+   "person_key": "larry-page",
+   "role": "executive_director",
+   "start_date": "2019-12-03",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e030",
+    "e114",
+    "e098",
+    "e099"
+   ],
+   "officer_title": "Co-Founder (employee director, $1 salary)",
+   "notes": "Remained an employee director after leaving the CEO role (every proxy 2020-2026)."
+  },
+  {
+   "person_key": "larry-page",
+   "role": "non_independent_director",
+   "start_date": "1998-09",
+   "end_date": null,
+   "precision": "month",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e113",
+    "e097",
+    "e094"
+   ],
+   "notes": "Excluded from every independence determination checked; employee throughout."
+  },
+  {
+   "person_key": "sergey-brin",
+   "role": "chair",
+   "start_date": "1998-09",
+   "end_date": "2001-07",
+   "precision": "month",
+   "end_precision": "month",
+   "confidence": "medium",
+   "evidence_refs": [
+    "e023",
+    "e020"
+   ],
+   "notes": "Stated in the 2015 8-K12B and 2026 proxy; the IPO prospectus says Schmidt was Chairman from March 2001 and does not call Brin chairman. See conflicts."
+  },
+  {
+   "person_key": "sergey-brin",
+   "role": "executive_director",
+   "start_date": "1998-09",
+   "end_date": null,
+   "precision": "month",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e019",
+    "e020",
+    "e013",
+    "e022",
+    "e028",
+    "e114",
+    "e098",
+    "e099"
+   ],
+   "officer_title": "President (1998-2001); President, Technology (2001-2011); Alphabet President (2015-10-02 to 2019-12-03); Co-Founder employee director since",
+   "notes": "Employee-director throughout; titles changed over time. Medium because the filings don't cover every interval (e.g. April-May 2011) with a stated employment title."
+  },
+  {
+   "person_key": "sergey-brin",
+   "role": "non_independent_director",
+   "start_date": "1998-09",
+   "end_date": null,
+   "precision": "month",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e113",
+    "e097",
+    "e094"
+   ],
+   "notes": "Excluded from every independence determination checked; employee throughout."
+  },
+  {
+   "person_key": "sundar-pichai",
+   "role": "executive_director",
+   "start_date": "2017-07-19",
+   "end_date": "2019-12-03",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e032",
+    "e033"
+   ],
+   "officer_title": "Chief Executive Officer, Google (subsidiary)",
+   "notes": "Employee-director while CEO of the Google subsidiary."
+  },
+  {
+   "person_key": "sundar-pichai",
+   "role": "ceo_director",
+   "start_date": "2019-12-03",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e029",
+    "e031",
+    "e035",
+    "e042",
+    "e034",
+    "e036"
+   ],
+   "notes": "Alphabet CEO 'effective immediately' per the 8-K announced 2019-12-03; the 8-K cover's earliest-event date is 2019-12-02 (see conflicts)."
+  },
+  {
+   "person_key": "sundar-pichai",
+   "role": "non_independent_director",
+   "start_date": "2017-07-19",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e113",
+    "e097"
+   ],
+   "notes": "Excluded from every independence determination checked; employee director."
+  },
+  {
+   "person_key": "john-l-hennessy",
+   "role": "lead_independent_director",
+   "start_date": "2007-04",
+   "end_date": "2018-01",
+   "precision": "month",
+   "end_precision": "month",
+   "confidence": "high",
+   "evidence_refs": [
+    "e038",
+    "e039",
+    "e041"
+   ],
+   "notes": "Proxy: LID 'from April 2007 to January 2018'; became Chair 2018-01-31."
+  },
+  {
+   "person_key": "john-l-hennessy",
+   "role": "chair",
+   "start_date": "2018-01-31",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e039",
+    "e041",
+    "e042",
+    "e040"
+   ],
+   "notes": "Independent, non-executive Chair."
+  },
+  {
+   "person_key": "john-l-hennessy",
+   "role": "independent_director",
+   "start_date": "2004-04",
+   "end_date": null,
+   "precision": "month",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e040",
+    "e113",
+    "e097"
+   ],
+   "notes": "Found independent in every determination during tenure in the 2020-2026 proxies (each excludes only Larry, Sergey and Sundar). Start aligned to board start; the filings don't date independence on its own, and pre-2020 Google-era determinations were not checked one by one."
+  },
+  {
+   "person_key": "l-john-doerr",
+   "role": "independent_director",
+   "start_date": "1999-05",
+   "end_date": null,
+   "precision": "month",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e045",
+    "e113",
+    "e097"
+   ],
+   "notes": "Found independent in every determination during tenure in the 2020-2026 proxies (each excludes only Larry, Sergey and Sundar). Start aligned to board start; the filings don't date independence on its own, and pre-2020 Google-era determinations were not checked one by one."
+  },
+  {
+   "person_key": "k-ram-shriram",
+   "role": "independent_director",
+   "start_date": "1998-09",
+   "end_date": null,
+   "precision": "month",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e049",
+    "e113",
+    "e097"
+   ],
+   "notes": "Found independent in every determination during tenure in the 2020-2026 proxies (each excludes only Larry, Sergey and Sundar). Start aligned to board start; the filings don't date independence on its own, and pre-2020 Google-era determinations were not checked one by one."
+  },
+  {
+   "person_key": "roger-w-ferguson-jr",
+   "role": "independent_director",
+   "start_date": "2016-06-24",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e054",
+    "e113",
+    "e097"
+   ],
+   "notes": "Found independent in every determination during tenure in the 2020-2026 proxies (each excludes only Larry, Sergey and Sundar). Start aligned to board start; the filings don't date independence on its own, and pre-2020 Google-era determinations were not checked one by one."
+  },
+  {
+   "person_key": "robin-l-washington",
+   "role": "independent_director",
+   "start_date": "2019-04-25",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e060",
+    "e113",
+    "e097"
+   ],
+   "notes": "Found independent in every determination during tenure in the 2020-2026 proxies (each excludes only Larry, Sergey and Sundar). Start aligned to board start; the filings don't date independence on its own, and pre-2020 Google-era determinations were not checked one by one."
+  },
+  {
+   "person_key": "frances-h-arnold",
+   "role": "independent_director",
+   "start_date": "2019-12-07",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e066",
+    "e113",
+    "e097"
+   ],
+   "notes": "Found independent in every determination during tenure in the 2020-2026 proxies (each excludes only Larry, Sergey and Sundar). Start aligned to board start; the filings don't date independence on its own, and pre-2020 Google-era determinations were not checked one by one."
+  },
+  {
+   "person_key": "r-martin-chavez",
+   "role": "independent_director",
+   "start_date": "2022-07-11",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e072",
+    "e115",
+    "e097"
+   ],
+   "notes": "Found independent in every determination during tenure in the 2020-2026 proxies (each excludes only Larry, Sergey and Sundar). Start aligned to board start; the filings don't date independence on its own, and pre-2020 Google-era determinations were not checked one by one."
+  },
+  {
+   "person_key": "ann-mather",
+   "role": "independent_director",
+   "start_date": "2005-11-22",
+   "end_date": "2023-10-31",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "medium",
+   "evidence_refs": [
+    "e080",
+    "e113",
+    "e115"
+   ],
+   "notes": "Found independent in every determination during tenure in the 2020-2026 proxies (each excludes only Larry, Sergey and Sundar). Start aligned to board start; the filings don't date independence on its own, and pre-2020 Google-era determinations were not checked one by one."
+  },
+  {
+   "person_key": "alan-r-mulally",
+   "role": "independent_director",
+   "start_date": "2014-07-09",
+   "end_date": "2022-06-01",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "medium",
+   "evidence_refs": [
+    "e094",
+    "e092",
+    "e113"
+   ],
+   "notes": "Found independent in every determination during tenure in the 2020-2026 proxies (each excludes only Larry, Sergey and Sundar). Start aligned to board start; the filings don't date independence on its own, and pre-2020 Google-era determinations were not checked one by one."
+  }
+ ],
+ "committees": [
+  {
+   "person_key": "roger-w-ferguson-jr",
+   "committee": "audit",
+   "role": "chair",
+   "as_of_filing": "0001308179-26-000342",
+   "as_of_date": "2026-04-24",
+   "evidence_refs": [
+    "e100",
+    "e054"
+   ]
+  },
+  {
+   "person_key": "r-martin-chavez",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001308179-26-000342",
+   "as_of_date": "2026-04-24",
+   "evidence_refs": [
+    "e100",
+    "e072"
+   ]
+  },
+  {
+   "person_key": "robin-l-washington",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001308179-26-000342",
+   "as_of_date": "2026-04-24",
+   "evidence_refs": [
+    "e100",
+    "e060"
+   ]
+  },
+  {
+   "person_key": "roger-w-ferguson-jr",
+   "committee": "risk_and_compliance",
+   "role": "chair",
+   "as_of_filing": "0001308179-26-000342",
+   "as_of_date": "2026-04-24",
+   "evidence_refs": [
+    "e101",
+    "e054"
+   ]
+  },
+  {
+   "person_key": "r-martin-chavez",
+   "committee": "risk_and_compliance",
+   "role": "member",
+   "as_of_filing": "0001308179-26-000342",
+   "as_of_date": "2026-04-24",
+   "evidence_refs": [
+    "e101",
+    "e072"
+   ]
+  },
+  {
+   "person_key": "robin-l-washington",
+   "committee": "risk_and_compliance",
+   "role": "member",
+   "as_of_filing": "0001308179-26-000342",
+   "as_of_date": "2026-04-24",
+   "evidence_refs": [
+    "e101",
+    "e060"
+   ]
+  },
+  {
+   "person_key": "robin-l-washington",
+   "committee": "compensation",
+   "role": "chair",
+   "as_of_filing": "0001308179-26-000342",
+   "as_of_date": "2026-04-24",
+   "evidence_refs": [
+    "e103",
+    "e060"
+   ]
+  },
+  {
+   "person_key": "l-john-doerr",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001308179-26-000342",
+   "as_of_date": "2026-04-24",
+   "evidence_refs": [
+    "e103",
+    "e045"
+   ]
+  },
+  {
+   "person_key": "k-ram-shriram",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001308179-26-000342",
+   "as_of_date": "2026-04-24",
+   "evidence_refs": [
+    "e103",
+    "e049"
+   ]
+  },
+  {
+   "person_key": "john-l-hennessy",
+   "committee": "nominating_governance",
+   "role": "chair",
+   "as_of_filing": "0001308179-26-000342",
+   "as_of_date": "2026-04-24",
+   "evidence_refs": [
+    "e104",
+    "e040"
+   ]
+  },
+  {
+   "person_key": "frances-h-arnold",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001308179-26-000342",
+   "as_of_date": "2026-04-24",
+   "evidence_refs": [
+    "e104",
+    "e066"
+   ]
+  },
+  {
+   "person_key": "larry-page",
+   "committee": "executive",
+   "role": "chair",
+   "as_of_filing": "0001308179-26-000342",
+   "as_of_date": "2026-04-24",
+   "evidence_refs": [
+    "e105",
+    "e015"
+   ]
+  },
+  {
+   "person_key": "sergey-brin",
+   "committee": "executive",
+   "role": "member",
+   "as_of_filing": "0001308179-26-000342",
+   "as_of_date": "2026-04-24",
+   "evidence_refs": [
+    "e105",
+    "e021"
+   ]
+  },
+  {
+   "person_key": "sundar-pichai",
+   "committee": "executive",
+   "role": "member",
+   "as_of_filing": "0001308179-26-000342",
+   "as_of_date": "2026-04-24",
+   "evidence_refs": [
+    "e105",
+    "e034"
+   ]
+  },
+  {
+   "person_key": "alan-r-mulally",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001308179-22-000262",
+   "as_of_date": "2022-04-22",
+   "evidence_refs": [
+    "e093",
+    "e086"
+   ]
+  },
+  {
+   "person_key": "ann-mather",
+   "committee": "audit",
+   "role": "chair",
+   "as_of_filing": "0001308179-23-000736",
+   "as_of_date": "2023-04-21",
+   "evidence_refs": [
+    "e082",
+    "e080"
+   ]
+  }
+ ],
+ "events": [
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "larry-page",
+   "event_date": "1998-09",
+   "event_date_precision": "month",
+   "announced_date": null,
+   "evidence_refs": [
+    "e011",
+    "e012"
+   ],
+   "summary": "Larry Page on Google's board from inception (September 1998)."
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "sergey-brin",
+   "event_date": "1998-09",
+   "event_date_precision": "month",
+   "announced_date": null,
+   "evidence_refs": [
+    "e019",
+    "e020"
+   ],
+   "summary": "Sergey Brin on Google's board from inception (September 1998)."
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "k-ram-shriram",
+   "event_date": "1998-09",
+   "event_date_precision": "month",
+   "announced_date": null,
+   "evidence_refs": [
+    "e048"
+   ],
+   "summary": "K. Ram Shriram joins Google's board."
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "l-john-doerr",
+   "event_date": "1999-05",
+   "event_date_precision": "month",
+   "announced_date": null,
+   "evidence_refs": [
+    "e044"
+   ],
+   "summary": "L. John Doerr joins Google's board."
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "john-l-hennessy",
+   "event_date": "2004-04",
+   "event_date_precision": "month",
+   "announced_date": null,
+   "evidence_refs": [
+    "e037",
+    "e039"
+   ],
+   "summary": "John L. Hennessy joins Google's board (pre-IPO)."
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "ann-mather",
+   "event_date": "2005-11-22",
+   "event_date_precision": "day",
+   "announced_date": "2005-11-29",
+   "evidence_refs": [
+    "e076"
+   ],
+   "summary": "Ann Mather elected to Google's board; board size increased to eleven."
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "john-l-hennessy",
+   "event_date": "2007-04",
+   "event_date_precision": "month",
+   "announced_date": null,
+   "evidence_refs": [
+    "e038"
+   ],
+   "summary": "Hennessy appointed Lead Independent Director."
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "larry-page",
+   "event_date": "2011-04-04",
+   "event_date_precision": "day",
+   "announced_date": "2011-01-20",
+   "evidence_refs": [
+    "e014",
+    "e016"
+   ],
+   "summary": "Page becomes Google CEO."
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "alan-r-mulally",
+   "event_date": "2014-07-09",
+   "event_date_precision": "day",
+   "announced_date": "2014-07-15",
+   "evidence_refs": [
+    "e084"
+   ],
+   "summary": "Alan R. Mulally appointed to Google's board."
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "roger-w-ferguson-jr",
+   "event_date": "2016-06-24",
+   "event_date_precision": "day",
+   "announced_date": "2016-06-29",
+   "evidence_refs": [
+    "e051",
+    "e053"
+   ],
+   "summary": "Roger W. Ferguson Jr. appointed to Alphabet's board."
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "sundar-pichai",
+   "event_date": "2017-07-19",
+   "event_date_precision": "day",
+   "announced_date": "2017-07-24",
+   "evidence_refs": [
+    "e032"
+   ],
+   "summary": "Sundar Pichai appointed to Alphabet's board (employee director)."
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "john-l-hennessy",
+   "event_date": "2018-01-31",
+   "event_date_precision": "day",
+   "announced_date": "2018-02-01",
+   "evidence_refs": [
+    "e039"
+   ],
+   "summary": "Hennessy appointed Chair of the Board."
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "robin-l-washington",
+   "event_date": "2019-04-25",
+   "event_date_precision": "day",
+   "announced_date": "2019-04-30",
+   "evidence_refs": [
+    "e057",
+    "e059"
+   ],
+   "summary": "Robin L. Washington joins Alphabet's board (appointed 2019-04-24, effective 2019-04-25).",
+   "decision_date": "2019-04-24"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "sundar-pichai",
+   "event_date": "2019-12-03",
+   "event_date_precision": "day",
+   "announced_date": "2019-12-03",
+   "evidence_refs": [
+    "e029",
+    "e031"
+   ],
+   "summary": "Pichai becomes Alphabet CEO, effective immediately."
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "larry-page",
+   "event_date": "2019-12-03",
+   "event_date_precision": "day",
+   "announced_date": "2019-12-03",
+   "evidence_refs": [
+    "e028",
+    "e030"
+   ],
+   "summary": "Page leaves the CEO role; remains an (employee) director."
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "frances-h-arnold",
+   "event_date": "2019-12-07",
+   "event_date_precision": "day",
+   "announced_date": "2019-12-09",
+   "evidence_refs": [
+    "e063",
+    "e065"
+   ],
+   "summary": "Frances H. Arnold appointed to Alphabet's board."
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "alan-r-mulally",
+   "event_date": "2022-06-01",
+   "event_date_precision": "day",
+   "announced_date": "2022-04-22",
+   "evidence_refs": [
+    "e088",
+    "e090",
+    "e091"
+   ],
+   "summary": "Mulally does not stand for re-election; term ends at the 2022 annual meeting."
+  },
+  {
+   "type": "BOARD_SIZE_CHANGE",
+   "person_key": null,
+   "event_date": "2022-06-01",
+   "event_date_precision": "day",
+   "announced_date": "2022-04-22",
+   "evidence_refs": [
+    "e108",
+    "e109"
+   ],
+   "summary": "Directors 11 -> 10 at the 2022 annual meeting (ten elected; Mulally not a nominee).",
+   "from_size": 11,
+   "to_size": 10
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "r-martin-chavez",
+   "event_date": "2022-07-11",
+   "event_date_precision": "day",
+   "announced_date": "2022-07-14",
+   "evidence_refs": [
+    "e069",
+    "e071"
+   ],
+   "summary": "R. Martin Chávez appointed to Alphabet's board."
+  },
+  {
+   "type": "BOARD_SIZE_CHANGE",
+   "person_key": null,
+   "event_date": "2022-07-11",
+   "event_date_precision": "day",
+   "announced_date": "2022-07-14",
+   "evidence_refs": [
+    "e069",
+    "e110"
+   ],
+   "summary": "Directors 10 -> 11 with Chávez's appointment (2023 proxy: eleven directors). Authorized-size resolution not disclosed.",
+   "from_size": 10,
+   "to_size": 11
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "ann-mather",
+   "event_date": "2023-10-31",
+   "event_date_precision": "day",
+   "announced_date": "2023-10-24",
+   "evidence_refs": [
+    "e077"
+   ],
+   "summary": "Ann Mather resigns from the board and Audit Committee.",
+   "decision_date": "2023-10-18"
+  },
+  {
+   "type": "BOARD_SIZE_CHANGE",
+   "person_key": null,
+   "event_date": "2023-10-31",
+   "event_date_precision": "day",
+   "announced_date": "2023-10-24",
+   "evidence_refs": [
+    "e077",
+    "e111"
+   ],
+   "summary": "Directors 11 -> 10 on Mather's resignation (2024 proxy: ten directors).",
+   "from_size": 11,
+   "to_size": 10
+  }
+ ],
+ "evidence": [
+  {
+   "id": "e001",
+   "form": "10-K",
+   "accession": "0001193125-05-065298",
+   "filing_date": "2005-03-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1288776/000119312505065298/d10k.htm",
+   "quote": "Our Class A common stock has been quoted on The Nasdaq National Market under the symbol \"GOOG\" since August 19, 2004. Prior to that time, there was no public market for our stock.",
+   "supports": "IPO first trading day 2004-08-19 (Class A, then symbol GOOG)."
+  },
+  {
+   "id": "e002",
+   "form": "424B4",
+   "accession": "0001193125-04-143377",
+   "filing_date": "2004-08-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/1288776/000119312504143377/d424b4.htm",
+   "quote": "This is our initial public offering and no public market currently exists for our shares. The initial public offering price is $85.00 per share.",
+   "supports": "IPO price $85.00 (prospectus dated August 18, 2004)."
+  },
+  {
+   "id": "e003",
+   "form": "424B4",
+   "accession": "0001193125-04-143377",
+   "filing_date": "2004-08-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/1288776/000119312504143377/d424b4.htm",
+   "quote": "The holders of a majority of our preferred stock, voting as a single class, elected L. John Doerr and Michael Moritz to the board of directors",
+   "supports": "Doerr was elected to the pre-IPO board by the preferred holders."
+  },
+  {
+   "id": "e004",
+   "form": "424B4",
+   "accession": "0001193125-04-143377",
+   "filing_date": "2004-08-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/1288776/000119312504143377/d424b4.htm",
+   "quote": "majority of our common stock, voting as a single class, elected Sergey Brin, Larry Page and K. Ram Shriram to the board of directors. John Hennessy, Arthur Levinson and Paul Otellini were appointed by the board of directors to fill vacancies created by the increase in the size of the board of directors.",
+   "supports": "Brin, Page, Shriram elected by common holders; Hennessy appointed to fill a vacancy from a board-size increase (pre-IPO)."
+  },
+  {
+   "id": "e005",
+   "form": "424B4",
+   "accession": "0001193125-04-143377",
+   "filing_date": "2004-08-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/1288776/000119312504143377/d424b4.htm",
+   "quote": "Our bylaws provide that the authorized size of our board of directors, which is currently nine (9) members",
+   "supports": "Board size at IPO: nine."
+  },
+  {
+   "id": "e006",
+   "form": "10-K",
+   "accession": "0001288776-15-000008",
+   "filing_date": "2015-02-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1288776/000128877615000008/goog2014123110-k.htm",
+   "quote": "Our Class A common stock has been listed on the Nasdaq Global Select Market under the symbol \"GOOG\" since August 19, 2004 and under the symbol \"GOOGL\" since April 3, 2014.",
+   "supports": "Class A ticker history: GOOG from IPO, GOOGL since 2014-04-03; listed on Nasdaq Global Select Market."
+  },
+  {
+   "id": "e007",
+   "form": "10-K",
+   "accession": "0001288776-15-000008",
+   "filing_date": "2015-02-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1288776/000128877615000008/goog2014123110-k.htm",
+   "quote": "On April 2, 2014, we completed a two-for-one stock split effected in the form of a stock dividend (the Stock Split).",
+   "supports": "2014-04-02 Class C capital stock distribution (described as a two-for-one split effected as a stock dividend)."
+  },
+  {
+   "id": "e008",
+   "form": "8-K",
+   "accession": "0001193125-22-167375",
+   "filing_date": "2022-06-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312522167375/d294315d8k.htm",
+   "quote": "each Alphabet stockholder of record at the close of business on July 1, 2022 (the \"Stock Split Record Date\") will receive, after the close of business on July 15, 2022, 19 additional shares for every one share held as of the Stock Split Record Date. Trading is expected to begin on a split-adjusted basis on July 18, 2022.",
+   "supports": "20-for-one stock split: record date 2022-07-01, distributed after close 2022-07-15, split-adjusted trading expected 2022-07-18."
+  },
+  {
+   "id": "e009",
+   "form": "8-K12B",
+   "accession": "0001193125-15-336577",
+   "filing_date": "2015-10-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312515336577/d82837d8k12b.htm",
+   "quote": "The directors of Alphabet are the same as the directors of Google upon consummation of the Alphabet Merger.",
+   "supports": "Alphabet holding-company reorganization (2015-10-02): Google Inc. directors became Alphabet directors; service carries over."
+  },
+  {
+   "id": "e010",
+   "form": "DEF 14A",
+   "accession": "0001308179-26-000342",
+   "filing_date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000130817926000342/goog-20260424.htm",
+   "quote": "Annual election for all directors",
+   "supports": "Board is not classified (all directors elected annually)."
+  },
+  {
+   "id": "e011",
+   "form": "424B4",
+   "accession": "0001193125-04-143377",
+   "filing_date": "2004-08-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/1288776/000119312504143377/d424b4.htm",
+   "quote": "Larry Page, one of our founders, has served as a member of our board of directors since our inception in September 1998 and as our President of Products since July 2001. From September 1998 to July 2001, Larry served as our Chief Executive Officer",
+   "supports": "Page director since September 1998 (inception); CEO Sept 1998 - July 2001; President of Products from July 2001."
+  },
+  {
+   "id": "e012",
+   "form": "8-K12B",
+   "accession": "0001193125-15-336577",
+   "filing_date": "2015-10-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312515336577/d82837d8k12b.htm",
+   "quote": "Larry Page, the Chief Executive Officer of Alphabet, was one of Google's founders and has served as a member of Google's Board of Directors since its inception in September 1998, and as Google's Chief Executive Officer since April 2011.",
+   "supports": "Page director since September 1998; Google CEO since April 2011; Alphabet CEO at the 2015-10-02 reorganization."
+  },
+  {
+   "id": "e013",
+   "form": "8-K12B",
+   "accession": "0001193125-15-336577",
+   "filing_date": "2015-10-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312515336577/d82837d8k12b.htm",
+   "quote": "Larry Page 42 Chief Executive Officer Sergey Brin 42 President",
+   "supports": "At the 2015-10-02 reorganization Page became Alphabet CEO and Brin Alphabet President.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e014",
+   "form": "8-K",
+   "accession": "0001193125-11-011026",
+   "filing_date": "2011-01-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/1288776/000119312511011026/d8k.htm",
+   "quote": "Larry Page, Google's Co-Founder and President of Products, will become Google's Chief Executive Officer, effective April 4, 2011.",
+   "supports": "Page becomes Google CEO effective 2011-04-04 (announced 2011-01-20)."
+  },
+  {
+   "id": "e015",
+   "form": "DEF 14A",
+   "accession": "0001308179-26-000342",
+   "filing_date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000130817926000342/goog-20260424.htm",
+   "quote": "Larry Page Co-Founder Director since 1998 | Executive Committee (Chair)",
+   "supports": "Page: director since 1998; Executive Committee chair (2026 proxy)."
+  },
+  {
+   "id": "e016",
+   "form": "DEF 14A",
+   "accession": "0001308179-26-000342",
+   "filing_date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000130817926000342/goog-20260424.htm",
+   "quote": "Larry Page, 53, one of Google's Co-Founders, previously served as Google's Chief Executive Officer from April 2011 to October 2015, and as Alphabet's Chief Executive Officer from October 2015 to December 2019. From July 2001 to April 2011, Larry served as Google's President, Products.",
+   "supports": "Page CEO April 2011 - December 2019 (Google then Alphabet); President, Products July 2001 - April 2011."
+  },
+  {
+   "id": "e017",
+   "form": "4",
+   "accession": "0001209191-22-025250",
+   "filing_date": "2022-04-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000120919122025250/doc4.xml",
+   "quote": "Page Lawrence",
+   "supports": "Larry Page reporting-owner CIK (Form 4, isDirector=1, 10% owner).",
+   "xml_fields": {
+    "rptOwnerCik": "0001295231",
+    "rptOwnerName": "Page Lawrence",
+    "periodOfReport": "2022-04-19"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "isTenPercentOwner": true
+   }
+  },
+  {
+   "id": "e018",
+   "form": "8-K",
+   "accession": "0001193125-26-267578",
+   "filing_date": "2026-06-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526267578/d57679d8k.htm",
+   "quote": "Larry Page 12,104,689,848 253,760,809 11,977,407 580,489,723",
+   "supports": "Page re-elected at the 2026-06-05 annual meeting.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e019",
+   "form": "424B4",
+   "accession": "0001193125-04-143377",
+   "filing_date": "2004-08-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/1288776/000119312504143377/d424b4.htm",
+   "quote": "Sergey Brin, one of our founders, has served as a member of our board of directors since our inception in September 1998 and as our President of Technology since July 2001. From September 1998 to July 2001, Sergey served as our President.",
+   "supports": "Brin director since September 1998; President Sept 1998 - July 2001; President of Technology from July 2001. (No chairman role stated here.)"
+  },
+  {
+   "id": "e020",
+   "form": "8-K12B",
+   "accession": "0001193125-15-336577",
+   "filing_date": "2015-10-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312515336577/d82837d8k12b.htm",
+   "quote": "Sergey Brin, President of Alphabet, was one of Google's founders and has served as a member of Google's Board of Directors since our inception in September 1998. From July 2001 to April 2011, Sergey served as Google's President, Technology. In addition, from September 1998 to July 2001, Sergey served as Google's President and chairman of Google's Board of Directors.",
+   "supports": "Brin director since September 1998; chairman Sept 1998 - July 2001 (as stated); Alphabet President at reorganization."
+  },
+  {
+   "id": "e021",
+   "form": "DEF 14A",
+   "accession": "0001308179-26-000342",
+   "filing_date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000130817926000342/goog-20260424.htm",
+   "quote": "Sergey Brin Co-Founder Director since 1998 | Executive Committee",
+   "supports": "Brin: director since 1998; Executive Committee member (2026 proxy)."
+  },
+  {
+   "id": "e022",
+   "form": "DEF 14A",
+   "accession": "0001308179-26-000342",
+   "filing_date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000130817926000342/goog-20260424.htm",
+   "quote": "Sergey Brin, 52, one of Google's Co-Founders, previously served as Google's President from May 2011 to October 2015, and as Alphabet's President from October 2015 to December 2019.",
+   "supports": "Brin officer roles to December 2019."
+  },
+  {
+   "id": "e023",
+   "form": "DEF 14A",
+   "accession": "0001308179-26-000342",
+   "filing_date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000130817926000342/goog-20260424.htm",
+   "quote": "In addition, from September 1998 to July 2001, Sergey served as Google's President and Chairman of Google's Board of Directors.",
+   "supports": "Brin Chairman of Google's board Sept 1998 - July 2001 (as stated in 2026 proxy)."
+  },
+  {
+   "id": "e024",
+   "form": "424B4",
+   "accession": "0001193125-04-143377",
+   "filing_date": "2004-08-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/1288776/000119312504143377/d424b4.htm",
+   "quote": "Eric Schmidt has served as our Chief Executive Officer since July 2001 and served as Chairman of our board of directors from March 2001 to April 2004.",
+   "supports": "Conflict: IPO prospectus says Schmidt was Chairman from March 2001, overlapping the proxy's Brin-chair end of July 2001."
+  },
+  {
+   "id": "e025",
+   "form": "4",
+   "accession": "0001193125-26-345383",
+   "filing_date": "2026-08-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526345383/ownership.xml",
+   "quote": "Sergey Brin",
+   "supports": "Sergey Brin reporting-owner CIK (Form 4 filed 2026-08-11, isDirector=true); still a director after the 2026 annual meeting.",
+   "xml_fields": {
+    "rptOwnerCik": "0001295032",
+    "rptOwnerName": "Sergey Brin",
+    "periodOfReport": "2026-08-07"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "isTenPercentOwner": true
+   }
+  },
+  {
+   "id": "e026",
+   "form": "8-K",
+   "accession": "0001193125-26-267578",
+   "filing_date": "2026-06-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526267578/d57679d8k.htm",
+   "quote": "Sergey Brin 12,126,817,980 231,787,871 11,822,213 580,489,723",
+   "supports": "Brin re-elected at the 2026-06-05 annual meeting.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e027",
+   "form": "8-K",
+   "accession": "0001193125-19-305505",
+   "filing_date": "2019-12-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312519305505/d843403d8k.htm",
+   "quote": "Date of Report (Date of earliest event reported) December 2, 2019",
+   "supports": "8-K cover date of earliest event: 2019-12-02."
+  },
+  {
+   "id": "e028",
+   "form": "8-K",
+   "accession": "0001193125-19-305505",
+   "filing_date": "2019-12-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312519305505/d843403d8k.htm",
+   "quote": "On December 3, 2019, Alphabet Inc. (\"Alphabet\") announced that Larry Page and Sergey Brin have decided to transition from their roles as Alphabet's Chief Executive Officer and President, respectively.",
+   "supports": "Page leaves Alphabet CEO role and Brin leaves President role (announced 2019-12-03)."
+  },
+  {
+   "id": "e029",
+   "form": "8-K",
+   "accession": "0001193125-19-305505",
+   "filing_date": "2019-12-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312519305505/d843403d8k.htm",
+   "quote": "The Board of Directors of Alphabet has approved the appointment of Sundar Pichai, Chief Executive Officer of Google LLC (\"Google\"), as Alphabet's Chief Executive Officer, effective immediately.",
+   "supports": "Pichai becomes Alphabet CEO, effective immediately."
+  },
+  {
+   "id": "e030",
+   "form": "8-K",
+   "accession": "0001193125-19-305505",
+   "filing_date": "2019-12-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312519305505/d843403d8k.htm",
+   "quote": "Mr. Page and Mr. Brin will continue to remain active as co-founders, stockholders, and board members of Alphabet.",
+   "supports": "Page and Brin remain directors after 2019-12-03."
+  },
+  {
+   "id": "e031",
+   "form": "8-K",
+   "accession": "0001193125-19-305505",
+   "filing_date": "2019-12-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312519305505/d843403dex991.htm",
+   "quote": "MOUNTAIN VIEW, Calif. (December 3, 2019) - Alphabet Inc. (NASDAQ: GOOG, GOOGL) today announced a management change. The change is effective immediately.",
+   "supports": "CEO transition effective 2019-12-03 (press release date)."
+  },
+  {
+   "id": "e032",
+   "form": "8-K",
+   "accession": "0001652044-17-000024",
+   "filing_date": "2017-07-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204417000024/goog8-kq22017.htm",
+   "quote": "On July 19, 2017, the Board of Directors (the \"Board\") of Alphabet appointed Sundar Pichai to serve as a member of the Board. Mr. Pichai has served as the Chief Executive Officer of Google Inc., a wholly owned subsidiary of Alphabet, since October 2015.",
+   "supports": "Pichai appointed director 2017-07-19 (then CEO of subsidiary Google)."
+  },
+  {
+   "id": "e033",
+   "form": "8-K",
+   "accession": "0001652044-17-000024",
+   "filing_date": "2017-07-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204417000024/goog8-kq22017.htm",
+   "quote": "As an employee director, Mr. Pichai will not receive any compensation for his service as a member of the Board.",
+   "supports": "Pichai joined as an employee director."
+  },
+  {
+   "id": "e034",
+   "form": "DEF 14A",
+   "accession": "0001308179-26-000342",
+   "filing_date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000130817926000342/goog-20260424.htm",
+   "quote": "Sundar Pichai Chief Executive Officer, Alphabet and Google Director since 2017 | Executive Committee",
+   "supports": "Pichai: CEO; director since 2017; Executive Committee member (2026 proxy)."
+  },
+  {
+   "id": "e035",
+   "form": "DEF 14A",
+   "accession": "0001308179-26-000342",
+   "filing_date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000130817926000342/goog-20260424.htm",
+   "quote": "Sundar Pichai, 53, joined Google in 2004 and was named the Chief Executive Officer of Google in October 2015 and of Alphabet in December 2019.",
+   "supports": "Pichai Alphabet CEO since December 2019."
+  },
+  {
+   "id": "e036",
+   "form": "4",
+   "accession": "0001193125-26-393483",
+   "filing_date": "2026-09-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526393483/ownership.xml",
+   "quote": "Pichai Sundar",
+   "supports": "Sundar Pichai reporting-owner CIK (Form 4 filed 2026-09-16, director and CEO).",
+   "xml_fields": {
+    "rptOwnerCik": "0001534753",
+    "rptOwnerName": "Pichai Sundar",
+    "periodOfReport": "2026-09-14"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": "Chief Executive Officer"
+   }
+  },
+  {
+   "id": "e037",
+   "form": "424B4",
+   "accession": "0001193125-04-143377",
+   "filing_date": "2004-08-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/1288776/000119312504143377/d424b4.htm",
+   "quote": "John L. Hennessy has served as a member of our board of directors since April 2004.",
+   "supports": "Hennessy director since April 2004."
+  },
+  {
+   "id": "e038",
+   "form": "DEF 14A",
+   "accession": "0001193125-08-064574",
+   "filing_date": "2008-03-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1288776/000119312508064574/ddef14a.htm",
+   "quote": "In April 2007, our board of directors appointed John L. Hennessy as our Lead Independent Director.",
+   "supports": "Hennessy Lead Independent Director from April 2007."
+  },
+  {
+   "id": "e039",
+   "form": "8-K",
+   "accession": "0001652044-18-000004",
+   "filing_date": "2018-02-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204418000004/goog8-kq42017.htm",
+   "quote": "On January 31, 2018, the Board of Directors (the \"Board\") of Alphabet appointed John L. Hennessy to serve as Chair of Alphabet's Board. Mr. Hennessy has served as a member of the Board since April 2004 and Lead Independent Director since April 2007.",
+   "supports": "Hennessy appointed Chair 2018-01-31; director since April 2004; LID since April 2007."
+  },
+  {
+   "id": "e040",
+   "form": "DEF 14A",
+   "accession": "0001308179-26-000342",
+   "filing_date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000130817926000342/goog-20260424.htm",
+   "quote": "John L. Hennessy Chair of the Board Independent Director since 2004 | Nominating and Corporate Governance Committee (Chair)",
+   "supports": "Hennessy: Chair; independent; director since 2004; NCGC chair (2026 proxy)."
+  },
+  {
+   "id": "e041",
+   "form": "DEF 14A",
+   "accession": "0001308179-26-000342",
+   "filing_date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000130817926000342/goog-20260424.htm",
+   "quote": "John L. Hennessy, 73, has served as Chair of our Board since January 2018. John previously served as our Lead Independent Director from April 2007 to January 2018.",
+   "supports": "Hennessy Chair since January 2018; LID April 2007 - January 2018."
+  },
+  {
+   "id": "e042",
+   "form": "DEF 14A",
+   "accession": "0001308179-26-000342",
+   "filing_date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000130817926000342/goog-20260424.htm",
+   "quote": "In January 2018, John L. Hennessy, the then Lead Independent Director, was appointed to serve as Alphabet's Chair of the Board. In December 2019, Sundar became the Chief Executive Officer of Alphabet.",
+   "supports": "Board leadership: independent Chair (Hennessy) since January 2018; Pichai CEO since December 2019."
+  },
+  {
+   "id": "e043",
+   "form": "4",
+   "accession": "0001193125-26-393511",
+   "filing_date": "2026-09-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526393511/ownership.xml",
+   "quote": "Hennessy John L.",
+   "supports": "John L. Hennessy reporting-owner CIK (Form 4 filed 2026-09-16, isDirector=true).",
+   "xml_fields": {
+    "rptOwnerCik": "0001198046",
+    "rptOwnerName": "Hennessy John L.",
+    "periodOfReport": "2026-09-14"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e044",
+   "form": "424B4",
+   "accession": "0001193125-04-143377",
+   "filing_date": "2004-08-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/1288776/000119312504143377/d424b4.htm",
+   "quote": "L. John Doerr has served as a member of our board of directors since May 1999.",
+   "supports": "Doerr director since May 1999."
+  },
+  {
+   "id": "e045",
+   "form": "DEF 14A",
+   "accession": "0001308179-26-000342",
+   "filing_date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000130817926000342/goog-20260424.htm",
+   "quote": "L. John Doerr Independent Director since 1999 | Leadership Development, Inclusion and Compensation Committee Other Public Company Directorship: •DoorDash, Inc.",
+   "supports": "Doerr: independent; director since 1999; LDICC member; other public board DoorDash (2026 proxy)."
+  },
+  {
+   "id": "e046",
+   "form": "DEF 14A",
+   "accession": "0001308179-26-000342",
+   "filing_date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000130817926000342/goog-20260424.htm",
+   "quote": "Former Public Company Directorships in the Past Five Years: •Amyris, Inc. •Bloom Energy Corporation •Coursera, Inc. •Quantumscape Corporation",
+   "supports": "Doerr former public boards (past five years)."
+  },
+  {
+   "id": "e047",
+   "form": "4",
+   "accession": "0001193125-26-393509",
+   "filing_date": "2026-09-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526393509/ownership.xml",
+   "quote": "DOERR L JOHN",
+   "supports": "L. John Doerr reporting-owner CIK (Form 4 filed 2026-09-16, isDirector=true).",
+   "xml_fields": {
+    "rptOwnerCik": "0001032455",
+    "rptOwnerName": "DOERR L JOHN",
+    "periodOfReport": "2026-09-14"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e048",
+   "form": "424B4",
+   "accession": "0001193125-04-143377",
+   "filing_date": "2004-08-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/1288776/000119312504143377/d424b4.htm",
+   "quote": "K. Ram Shriram has served as a member of our board of directors since September 1998.",
+   "supports": "Shriram director since September 1998."
+  },
+  {
+   "id": "e049",
+   "form": "DEF 14A",
+   "accession": "0001308179-26-000342",
+   "filing_date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000130817926000342/goog-20260424.htm",
+   "quote": "K. Ram Shriram Independent Director since 1998 | Leadership Development, Inclusion and Compensation Committee Other Public Company Directorship: •Yubico AB",
+   "supports": "Shriram: independent; director since 1998; LDICC member; other public board Yubico AB (2026 proxy)."
+  },
+  {
+   "id": "e050",
+   "form": "4",
+   "accession": "0001193125-26-393513",
+   "filing_date": "2026-09-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526393513/ownership.xml",
+   "quote": "Shriram Kavitark Ram",
+   "supports": "K. Ram Shriram reporting-owner CIK (Form 4 filed 2026-09-16, isDirector=true).",
+   "xml_fields": {
+    "rptOwnerCik": "0001295084",
+    "rptOwnerName": "Shriram Kavitark Ram",
+    "periodOfReport": "2026-09-14"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e051",
+   "form": "8-K",
+   "accession": "0001193125-16-635647",
+   "filing_date": "2016-06-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312516635647/d205204d8k.htm",
+   "quote": "On June 24, 2016, the Board of Directors (the \"Board\") of Alphabet Inc. (the \"Company\") appointed Roger W. Ferguson, Jr. to serve as a member of the Board and the Audit Committee of the Board (the \"Audit Committee\").",
+   "supports": "Ferguson appointed director 2016-06-24."
+  },
+  {
+   "id": "e052",
+   "form": "8-K",
+   "accession": "0001193125-16-635647",
+   "filing_date": "2016-06-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312516635647/d205204d8k.htm",
+   "quote": "Mr. Ferguson has been a member of the board of directors of General Mills, Inc., a manufacturer and marketer of branded consumer foods, since December 2015, and serves on its corporate governance committee and finance committee; and International Flavors & Fragrances, Inc., a creator of flavors and fragrances, since April 2010",
+   "supports": "Ferguson's General Mills (since Dec 2015) and IFF (since April 2010) board start dates."
+  },
+  {
+   "id": "e053",
+   "form": "3",
+   "accession": "0001127602-16-056467",
+   "filing_date": "2016-06-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000112760216056467/form3.xml",
+   "quote": "Ferguson Roger W. Jr.",
+   "supports": "Roger W. Ferguson Jr. reporting-owner CIK; Form 3 event date 2016-06-24 = appointment date.",
+   "xml_fields": {
+    "rptOwnerCik": "0001487637",
+    "rptOwnerName": "Ferguson Roger W. Jr.",
+    "periodOfReport": "2016-06-24"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e054",
+   "form": "DEF 14A",
+   "accession": "0001308179-26-000342",
+   "filing_date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000130817926000342/goog-20260424.htm",
+   "quote": "Roger W. Ferguson Jr. Independent Director since 2016 | Audit Committee (Chair); Risk and Compliance Committee (Chair) Other Public Company Directorships: •Corning Incorporated •Klarna",
+   "supports": "Ferguson: independent; director since 2016; Audit and Risk committee chair; other public boards Corning, Klarna (2026 proxy)."
+  },
+  {
+   "id": "e055",
+   "form": "DEF 14A",
+   "accession": "0001308179-26-000342",
+   "filing_date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000130817926000342/goog-20260424.htm",
+   "quote": "Former Public Company Directorships in the Past Five Years: •Blend Labs, Inc. •General Mills, Inc. •International Flavors & Fragrances, Inc.",
+   "supports": "Ferguson former public boards (past five years)."
+  },
+  {
+   "id": "e056",
+   "form": "4",
+   "accession": "0001193125-26-393506",
+   "filing_date": "2026-09-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526393506/ownership.xml",
+   "quote": "Ferguson Roger W. Jr.",
+   "supports": "Ferguson still reporting as a director (Form 4 filed 2026-09-16).",
+   "xml_fields": {
+    "rptOwnerCik": "0001487637",
+    "rptOwnerName": "Ferguson Roger W. Jr.",
+    "periodOfReport": "2026-09-14"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e057",
+   "form": "8-K",
+   "accession": "0001193125-19-129411",
+   "filing_date": "2019-04-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312519129411/d739839d8k.htm",
+   "quote": "On April 24, 2019, the Board of Directors (the \"Board\") of Alphabet Inc. (the \"Company\") appointed Robin L. Washington to serve as a member of the Board and the Leadership Development and Compensation Committee of the Board, effective April 25, 2019.",
+   "supports": "Washington appointed 2019-04-24, effective 2019-04-25."
+  },
+  {
+   "id": "e058",
+   "form": "8-K",
+   "accession": "0001193125-19-129411",
+   "filing_date": "2019-04-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312519129411/d739839d8k.htm",
+   "quote": "Ms. Washington has also been a member of the board of directors of Honeywell International, Inc., a diversified technology and manufacturing company, since April 2013; and salesforce.com, inc., a provider of cloud-based customer relationship management platform, since September 2013.",
+   "supports": "Washington's Honeywell (since April 2013) and Salesforce (since September 2013) board start dates."
+  },
+  {
+   "id": "e059",
+   "form": "3",
+   "accession": "0001209191-19-027412",
+   "filing_date": "2019-05-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000120919119027412/doc3.xml",
+   "quote": "Washington Robin L",
+   "supports": "Robin L. Washington reporting-owner CIK; Form 3 event date 2019-04-25 = effective appointment date.",
+   "xml_fields": {
+    "rptOwnerCik": "0001327145",
+    "rptOwnerName": "Washington Robin L",
+    "periodOfReport": "2019-04-25"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e060",
+   "form": "DEF 14A",
+   "accession": "0001308179-26-000342",
+   "filing_date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000130817926000342/goog-20260424.htm",
+   "quote": "Robin L. Washington Independent Director since 2019 Leadership Development, Inclusion and Compensation Committee (Chair); Audit Committee; Risk and Compliance Committee Other Public Company Directorship: •Salesforce, Inc.",
+   "supports": "Washington: independent; director since 2019; LDICC chair, Audit and Risk member; other public board Salesforce (2026 proxy)."
+  },
+  {
+   "id": "e061",
+   "form": "DEF 14A",
+   "accession": "0001308179-26-000342",
+   "filing_date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000130817926000342/goog-20260424.htm",
+   "quote": "Former Public Company Directorships in the Past Five Years: •Honeywell International, Inc. •Vertiv Holdings Co.",
+   "supports": "Washington former public boards (past five years)."
+  },
+  {
+   "id": "e062",
+   "form": "4",
+   "accession": "0001193125-26-393515",
+   "filing_date": "2026-09-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526393515/ownership.xml",
+   "quote": "Washington Robin L",
+   "supports": "Washington still reporting as a director (Form 4 filed 2026-09-16).",
+   "xml_fields": {
+    "rptOwnerCik": "0001327145",
+    "rptOwnerName": "Washington Robin L",
+    "periodOfReport": "2026-09-14"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e063",
+   "form": "8-K",
+   "accession": "0001652044-19-000040",
+   "filing_date": "2019-12-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204419000040/arnold8-k.htm",
+   "quote": "On December 7, 2019, the Board of Directors (the \"Board\") of Alphabet Inc. (the \"Company\") appointed Frances Arnold to serve as a member of the Board and the Nominating and Corporate Governance Committee of the Board, effective immediately.",
+   "supports": "Arnold appointed director 2019-12-07, effective immediately."
+  },
+  {
+   "id": "e064",
+   "form": "8-K",
+   "accession": "0001652044-19-000040",
+   "filing_date": "2019-12-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204419000040/arnold8-k.htm",
+   "quote": "Ms. Arnold serves as a director of Illumina, Inc., a provider of integrated systems for the analysis of genetic variation and biological function, since 2016",
+   "supports": "Arnold's Illumina board start (2016)."
+  },
+  {
+   "id": "e065",
+   "form": "3",
+   "accession": "0001209191-19-060249",
+   "filing_date": "2019-12-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000120919119060249/doc3.xml",
+   "quote": "ARNOLD FRANCES",
+   "supports": "Frances Arnold reporting-owner CIK; Form 3 event date 2019-12-07 = appointment date.",
+   "xml_fields": {
+    "rptOwnerCik": "0001665419",
+    "rptOwnerName": "ARNOLD FRANCES",
+    "periodOfReport": "2019-12-07"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e066",
+   "form": "DEF 14A",
+   "accession": "0001308179-26-000342",
+   "filing_date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000130817926000342/goog-20260424.htm",
+   "quote": "Frances H. Arnold Independent Director since 2019 | Nominating and Corporate Governance Committee Other Public Company Directorships: •Generate Biomedicines •Illumina, Inc.(1)",
+   "supports": "Arnold: independent; director since 2019; NCGC member; other public boards Generate Biomedicines, Illumina (2026 proxy)."
+  },
+  {
+   "id": "e067",
+   "form": "DEF 14A",
+   "accession": "0001308179-26-000342",
+   "filing_date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000130817926000342/goog-20260424.htm",
+   "quote": "On April 2, 2026, Ilumina announced that Frances will not stand for re-election as a director at the end of her current term and intends to resign from its board of directors, effective as of the close of IIumina's 2026 annual meeting of shareholders on May 21, 2026.",
+   "supports": "Arnold's Illumina seat scheduled to end at Illumina's 2026-05-21 annual meeting (as stated; typos are the filing's)."
+  },
+  {
+   "id": "e068",
+   "form": "4",
+   "accession": "0001193125-26-393517",
+   "filing_date": "2026-09-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526393517/ownership.xml",
+   "quote": "ARNOLD FRANCES",
+   "supports": "Arnold still reporting as a director (Form 4 filed 2026-09-16).",
+   "xml_fields": {
+    "rptOwnerCik": "0001665419",
+    "rptOwnerName": "ARNOLD FRANCES",
+    "periodOfReport": "2026-09-14"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e069",
+   "form": "8-K",
+   "accession": "0001193125-22-193655",
+   "filing_date": "2022-07-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312522193655/d336210d8k.htm",
+   "quote": "On July 11, 2022, the Board of Directors (the \"Board\") of Alphabet Inc. (the \"Company\") appointed R. Martin Chávez to serve as a member of the Board and the Audit and Compliance Committee of the Board (the \"Audit and Compliance Committee\"), effective immediately.",
+   "supports": "Chavez appointed director 2022-07-11, effective immediately."
+  },
+  {
+   "id": "e070",
+   "form": "8-K",
+   "accession": "0001193125-22-193655",
+   "filing_date": "2022-07-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312522193655/d336210d8k.htm",
+   "quote": "Mr. Chávez has been a member of the board of directors of Recursion Pharmaceuticals, Inc., a digital biology company, since April 2020, and serves as its chair and a member of its audit committee. Mr. Chávez was previously a director of Banco Santander, S.A., a financial services company, from October 2020 to June 2022, and served on its nomination committee.",
+   "supports": "Chavez's Recursion (since April 2020) and Banco Santander (Oct 2020 - June 2022) board dates."
+  },
+  {
+   "id": "e071",
+   "form": "3",
+   "accession": "0001209191-22-042615",
+   "filing_date": "2022-07-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000120919122042615/doc3.xml",
+   "quote": "CHAVEZ R. MARTIN",
+   "supports": "R. Martin Chavez reporting-owner CIK; Form 3 event date 2022-07-11 = appointment date.",
+   "xml_fields": {
+    "rptOwnerCik": "0001157983",
+    "rptOwnerName": "CHAVEZ R. MARTIN",
+    "periodOfReport": "2022-07-11"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e072",
+   "form": "DEF 14A",
+   "accession": "0001308179-26-000342",
+   "filing_date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000130817926000342/goog-20260424.htm",
+   "quote": "R. Martin \"Marty\" Chávez Independent Director since 2022 | Audit Committee; Risk and Compliance Committee",
+   "supports": "Chavez: independent; director since 2022; Audit and Risk committee member (2026 proxy)."
+  },
+  {
+   "id": "e073",
+   "form": "DEF 14A",
+   "accession": "0001308179-26-000342",
+   "filing_date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000130817926000342/goog-20260424.htm",
+   "quote": "Former Public Company Directorships in the Past Five Years: •Banco Santander, S.A. •Recursion Pharmaceuticals, Inc.",
+   "supports": "Chavez former public boards (past five years)."
+  },
+  {
+   "id": "e074",
+   "form": "4",
+   "accession": "0001193125-26-393503",
+   "filing_date": "2026-09-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526393503/ownership.xml",
+   "quote": "CHAVEZ R. MARTIN",
+   "supports": "Chavez still reporting as a director (Form 4 filed 2026-09-16).",
+   "xml_fields": {
+    "rptOwnerCik": "0001157983",
+    "rptOwnerName": "CHAVEZ R. MARTIN",
+    "periodOfReport": "2026-09-14"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e075",
+   "form": "DEF 14A",
+   "accession": "0001308179-23-000736",
+   "filing_date": "2023-04-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000130817923000736/lgoog2023_def14a.htm",
+   "quote": "Marty was appointed to serve as a member of our Board and the Audit Committee effective July 11, 2022.",
+   "supports": "Chavez appointment effective 2022-07-11 (2023 proxy)."
+  },
+  {
+   "id": "e076",
+   "form": "8-K",
+   "accession": "0001193125-05-233338",
+   "filing_date": "2005-11-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1288776/000119312505233338/d8k.htm",
+   "quote": "Effective November 22, 2005, Ann Mather was elected to the Board. The size of the Board was increased to eleven in connection with the election. Ms. Mather was concurrently appointed to serve as Chairperson of the Board's Audit Committee.",
+   "supports": "Mather elected to Google's board effective 2005-11-22; Audit Committee chair from appointment."
+  },
+  {
+   "id": "e077",
+   "form": "8-K",
+   "accession": "0001652044-23-000088",
+   "filing_date": "2023-10-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204423000088/goog-20231018.htm",
+   "quote": "On October 18, 2023, Ann Mather informed the Board of Directors of Alphabet (the \"Board\") that she will be resigning as a member of the Board and its Audit and Compliance Committee (the \"Audit Committee\"), effective October 31, 2023. Her resignation did not result from any disagreement between the Company and Ms. Mather.",
+   "supports": "Mather resigns effective 2023-10-31 (notice 2023-10-18); no disagreement."
+  },
+  {
+   "id": "e078",
+   "form": "8-K",
+   "accession": "0001652044-23-000088",
+   "filing_date": "2023-10-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204423000088/goog-20231018.htm",
+   "quote": "Ms. Mather has made tremendous contributions to the Company during her nearly 18 years on the Board.",
+   "supports": "Mather service counted from 2005 (Google board)."
+  },
+  {
+   "id": "e079",
+   "form": "8-K",
+   "accession": "0001652044-23-000088",
+   "filing_date": "2023-10-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204423000088/goog-20231018.htm",
+   "quote": "the appointment of Robin L. Washington to serve as a member of the Audit Committee and Roger W. Ferguson Jr. to serve as the Chair of the Audit Committee, both effective October 31, 2023.",
+   "supports": "Audit Committee changes on Mather's departure: Ferguson chair, Washington member, effective 2023-10-31."
+  },
+  {
+   "id": "e080",
+   "form": "DEF 14A",
+   "accession": "0001308179-23-000736",
+   "filing_date": "2023-04-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000130817923000736/lgoog2023_def14a.htm",
+   "quote": "ANN MATHER Independent Director since 2005 | Audit and Compliance Committee (Chair) Other Public Company Directorships: ● Blend Labs, Inc. ● Bumble Inc. ● Netflix, Inc.",
+   "supports": "Mather (2023 proxy, her last): independent; director since 2005; Audit and Compliance Committee chair; current other public boards Blend Labs, Bumble, Netflix."
+  },
+  {
+   "id": "e081",
+   "form": "DEF 14A",
+   "accession": "0001308179-23-000736",
+   "filing_date": "2023-04-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000130817923000736/lgoog2023_def14a.htm",
+   "quote": "Former Public Company Directorships in the Past Five Years: ● Airbnb, Inc. ● Arista Networks, Inc. ● Glu Mobile, Inc. ● Planet Labs Inc. ● Shutterfly, Inc.",
+   "supports": "Mather former public boards (past five years), 2023 proxy."
+  },
+  {
+   "id": "e082",
+   "form": "DEF 14A",
+   "accession": "0001308179-23-000736",
+   "filing_date": "2023-04-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000130817923000736/lgoog2023_def14a.htm",
+   "quote": "The Audit Committee currently comprises Ann (Chair), Roger, and Marty, each of whom is a non-employee member of our Board.",
+   "supports": "2023 proxy Audit Committee: Mather (Chair), Ferguson, Chavez."
+  },
+  {
+   "id": "e083",
+   "form": "4",
+   "accession": "0001209191-23-053712",
+   "filing_date": "2023-10-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000120919123053712/doc4.xml",
+   "quote": "MATHER ANN",
+   "supports": "Ann Mather reporting-owner CIK (Form 4, isDirector=1).",
+   "xml_fields": {
+    "rptOwnerCik": "0001244892",
+    "rptOwnerName": "MATHER ANN",
+    "periodOfReport": "2023-10-25"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e084",
+   "form": "8-K",
+   "accession": "0001288776-14-000050",
+   "filing_date": "2014-07-15",
+   "url": "https://www.sec.gov/Archives/edgar/data/1288776/000128877614000050/a8-kmulally.htm",
+   "quote": "On July 9, 2014, the Board of Directors (the \"Board\") of Google Inc. (\"Google\") appointed Alan R. Mulally to serve as a member of the Board and the Audit Committee of the Board (the \"Audit Committee\").",
+   "supports": "Mulally appointed to Google's board 2014-07-09."
+  },
+  {
+   "id": "e085",
+   "form": "8-K",
+   "accession": "0001288776-14-000050",
+   "filing_date": "2014-07-15",
+   "url": "https://www.sec.gov/Archives/edgar/data/1288776/000128877614000050/a8-kmulally.htm",
+   "quote": "Mr. Mulally was previously member of the board of directors of Ford and served on its finance committee from September 2006 through June 2014.",
+   "supports": "Mulally's Ford board service Sept 2006 - June 2014."
+  },
+  {
+   "id": "e086",
+   "form": "DEF 14A",
+   "accession": "0001308179-22-000262",
+   "filing_date": "2022-04-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000130817922000262/lgoog2022_def14a.htm",
+   "quote": "ALAN R. MULALLY(1) Director since 2014 | Audit and Compliance Committee",
+   "supports": "Mulally (2022 proxy, his last): director since 2014; Audit and Compliance Committee member."
+  },
+  {
+   "id": "e087",
+   "form": "DEF 14A",
+   "accession": "0001308179-22-000262",
+   "filing_date": "2022-04-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000130817922000262/lgoog2022_def14a.htm",
+   "quote": "Alan was previously a director of Ford and served on its finance committee from September 2006 through June 2014.",
+   "supports": "Mulally's former Ford board seat (2022 proxy bio)."
+  },
+  {
+   "id": "e088",
+   "form": "DEF 14A",
+   "accession": "0001308179-22-000262",
+   "filing_date": "2022-04-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000130817922000262/lgoog2022_def14a.htm",
+   "quote": "Alan R. Mulally, who is currently serving on our Board and as a member of our Audit and Compliance Committee, is not a nominee for election at the Annual Meeting and his term as a director will end at the Annual Meeting.",
+   "supports": "Mulally did not stand for re-election; term ends at the 2022 annual meeting."
+  },
+  {
+   "id": "e089",
+   "form": "DEF 14A",
+   "accession": "0001308179-22-000262",
+   "filing_date": "2022-04-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000130817922000262/lgoog2022_def14a.htm",
+   "quote": "I would like to thank Alan Mulally, who is not seeking re-election to our Board at this Annual Meeting",
+   "supports": "Mulally not seeking re-election (chair's letter)."
+  },
+  {
+   "id": "e090",
+   "form": "8-K",
+   "accession": "0001193125-22-167375",
+   "filing_date": "2022-06-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312522167375/d294315d8k.htm",
+   "quote": "At the Annual Meeting of Stockholders of Alphabet Inc. (\"Alphabet\") held on June 1, 2022 (the \"2022 Annual Meeting\")",
+   "supports": "2022 annual meeting held 2022-06-01 (Item 5.07); Mulally not among the ten directors elected."
+  },
+  {
+   "id": "e091",
+   "form": "DEF 14A",
+   "accession": "0001308179-23-000736",
+   "filing_date": "2023-04-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000130817923000736/lgoog2023_def14a.htm",
+   "quote": "Alan's term as a member of our Board and the Audit Committee ended on June 2, 2022.",
+   "supports": "Conflict: 2023 proxy dates Mulally's term end as 2022-06-02, one day after the 2022-06-01 annual meeting."
+  },
+  {
+   "id": "e092",
+   "form": "DEF 14A",
+   "accession": "0001308179-23-000736",
+   "filing_date": "2023-04-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000130817923000736/lgoog2023_def14a.htm",
+   "quote": "Our Board has determined that Alan Mulally, who served as a member of our Board and the Audit Committee until June 2, 2022,",
+   "supports": "Conflict (second statement): Mulally served until 2022-06-02 per 2023 proxy; Mulally determined independent."
+  },
+  {
+   "id": "e093",
+   "form": "DEF 14A",
+   "accession": "0001308179-22-000262",
+   "filing_date": "2022-04-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000130817922000262/lgoog2022_def14a.htm",
+   "quote": "The Audit Committee currently comprises Ann (Chair), Roger, and Alan, each of whom is a non-employee member of our Board.",
+   "supports": "2022 proxy Audit and Compliance Committee: Mather (Chair), Ferguson, Mulally."
+  },
+  {
+   "id": "e094",
+   "form": "DEF 14A",
+   "accession": "0001308179-22-000262",
+   "filing_date": "2022-04-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000130817922000262/lgoog2022_def14a.htm",
+   "quote": "Our Board has determined that Alan Mulally and each of the director nominees standing for election, except Larry, Sergey, and Sundar, is an independent director under these standards.",
+   "supports": "2022 independence: all except Page, Brin, Pichai (and Mulally) independent."
+  },
+  {
+   "id": "e095",
+   "form": "4",
+   "accession": "0001209191-21-046111",
+   "filing_date": "2021-07-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000120919121046111/doc4.xml",
+   "quote": "MULALLY ALAN R",
+   "supports": "Alan R. Mulally reporting-owner CIK (Form 4, isDirector=1).",
+   "xml_fields": {
+    "rptOwnerCik": "0001182057",
+    "rptOwnerName": "MULALLY ALAN R",
+    "periodOfReport": "2021-07-07"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e096",
+   "form": "DEF 14A",
+   "accession": "0001308179-26-000342",
+   "filing_date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000130817926000342/goog-20260424.htm",
+   "quote": "Our Board is currently composed of ten directors.",
+   "supports": "Board size at 2026 proxy: ten directors."
+  },
+  {
+   "id": "e097",
+   "form": "DEF 14A",
+   "accession": "0001308179-26-000342",
+   "filing_date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000130817926000342/goog-20260424.htm",
+   "quote": "Our Board has determined that each of the director nominees standing for election, except Larry, Sergey, and Sundar, are independent directors under these standards.",
+   "supports": "2026 independence: all nominees except Page, Brin, Pichai are independent."
+  },
+  {
+   "id": "e098",
+   "form": "DEF 14A",
+   "accession": "0001308179-26-000342",
+   "filing_date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000130817926000342/goog-20260424.htm",
+   "quote": "During 2025, Larry, Sergey, and Sundar served as our employee directors and did not receive any compensation for their services as members of our Board.",
+   "supports": "Page, Brin, Pichai are employee directors."
+  },
+  {
+   "id": "e099",
+   "form": "DEF 14A",
+   "accession": "0001308179-26-000342",
+   "filing_date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000130817926000342/goog-20260424.htm",
+   "quote": "Co-Founders Larry and Sergey serve as employee directors and do not receive any compensation for their services as members of our Board. Their \"All Other Compensation\" reflects an annual employee salary of $1.",
+   "supports": "Page and Brin are employee directors ($1 salary)."
+  },
+  {
+   "id": "e100",
+   "form": "DEF 14A",
+   "accession": "0001308179-26-000342",
+   "filing_date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000130817926000342/goog-20260424.htm",
+   "quote": "The Audit Committee currently comprises Roger (Chair), Marty, and Robin, each of whom is a non-employee member of our Board.",
+   "supports": "2026 Audit Committee: Ferguson (Chair), Chavez, Washington."
+  },
+  {
+   "id": "e101",
+   "form": "DEF 14A",
+   "accession": "0001308179-26-000342",
+   "filing_date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000130817926000342/goog-20260424.htm",
+   "quote": "The Risk Committee currently comprises Roger (Chair), Marty, and Robin, each of whom is a non-employee member of our Board.",
+   "supports": "2026 Risk and Compliance Committee: Ferguson (Chair), Chavez, Washington."
+  },
+  {
+   "id": "e102",
+   "form": "DEF 14A",
+   "accession": "0001308179-26-000342",
+   "filing_date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000130817926000342/goog-20260424.htm",
+   "quote": "The Risk and Compliance Committee of the Alphabet Board was established in October 2025.",
+   "supports": "Risk and Compliance Committee established October 2025."
+  },
+  {
+   "id": "e103",
+   "form": "DEF 14A",
+   "accession": "0001308179-26-000342",
+   "filing_date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000130817926000342/goog-20260424.htm",
+   "quote": "The Compensation Committee currently comprises Robin (Chair), L. John Doerr, and Ram, each of whom is a non-employee member of our Board.",
+   "supports": "2026 Leadership Development, Inclusion and Compensation Committee: Washington (Chair), Doerr, Shriram."
+  },
+  {
+   "id": "e104",
+   "form": "DEF 14A",
+   "accession": "0001308179-26-000342",
+   "filing_date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000130817926000342/goog-20260424.htm",
+   "quote": "The Governance Committee currently comprises John L. Hennessy (Chair) and Frances, each of whom is a non-employee member of our Board.",
+   "supports": "2026 Nominating and Corporate Governance Committee: Hennessy (Chair), Arnold."
+  },
+  {
+   "id": "e105",
+   "form": "DEF 14A",
+   "accession": "0001308179-26-000342",
+   "filing_date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000130817926000342/goog-20260424.htm",
+   "quote": "The Executive Committee currently comprises Larry (Chair), Sergey, and Sundar.",
+   "supports": "2026 Executive Committee: Page (Chair), Brin, Pichai."
+  },
+  {
+   "id": "e106",
+   "form": "8-K",
+   "accession": "0001193125-26-267578",
+   "filing_date": "2026-06-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526267578/d57679d8k.htm",
+   "quote": "At the Annual Meeting of Shareholders of Alphabet Inc. (\"Alphabet\") held on June 5, 2026 (the \"2026 Annual Meeting\")",
+   "supports": "2026 annual meeting held 2026-06-05."
+  },
+  {
+   "id": "e107",
+   "form": "8-K",
+   "accession": "0001193125-26-267578",
+   "filing_date": "2026-06-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526267578/d57679d8k.htm",
+   "quote": "1. The individuals listed below were elected at the 2026 Annual Meeting to serve as directors of Alphabet until the next annual meeting of shareholders or until their respective successors have been duly elected and qualified:",
+   "supports": "All ten 2026 nominees (the full current board) were elected at the 2026-06-05 meeting."
+  },
+  {
+   "id": "e108",
+   "form": "DEF 14A",
+   "accession": "0001308179-22-000262",
+   "filing_date": "2022-04-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000130817922000262/lgoog2022_def14a.htm",
+   "quote": "Our Board is currently composed of eleven directors.",
+   "supports": "Board size at 2022 proxy (April 2022): eleven."
+  },
+  {
+   "id": "e109",
+   "form": "DEF 14A",
+   "accession": "0001308179-22-000262",
+   "filing_date": "2022-04-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000130817922000262/lgoog2022_def14a.htm",
+   "quote": "At the Annual Meeting, ten directors will be elected to our Board. Alan R. Mulally, who is currently serving on our Board, is not a nominee for election at the Annual Meeting and his term as a director will end at the Annual Meeting.",
+   "supports": "Board goes from eleven to ten directors at the 2022 annual meeting."
+  },
+  {
+   "id": "e110",
+   "form": "DEF 14A",
+   "accession": "0001308179-23-000736",
+   "filing_date": "2023-04-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000130817923000736/lgoog2023_def14a.htm",
+   "quote": "Our Board is currently composed of eleven directors.",
+   "supports": "Board size at 2023 proxy (after Chavez joined): eleven."
+  },
+  {
+   "id": "e111",
+   "form": "DEF 14A",
+   "accession": "0001308179-24-000612",
+   "filing_date": "2024-04-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000130817924000612/lgoog2024_def14a.htm",
+   "quote": "Our Board is currently composed of ten directors.",
+   "supports": "Board size at 2024 proxy (after Mather left): ten."
+  },
+  {
+   "id": "e112",
+   "form": "DEF 14A",
+   "accession": "0001308179-20-000203",
+   "filing_date": "2020-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000130817920000203/lgoog2020_def14a.htm",
+   "quote": "Our Board of Directors is currently composed of eleven directors.",
+   "supports": "Board size at 2020 proxy: eleven."
+  },
+  {
+   "id": "e113",
+   "form": "DEF 14A",
+   "accession": "0001308179-20-000203",
+   "filing_date": "2020-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000130817920000203/lgoog2020_def14a.htm",
+   "quote": "Board of Directors has determined that each of the director nominees standing for election, except Larry, Sergey, and Sundar, is an independent director under these standards.",
+   "supports": "2020 independence: all nominees except Page, Brin, Pichai."
+  },
+  {
+   "id": "e114",
+   "form": "DEF 14A",
+   "accession": "0001308179-20-000203",
+   "filing_date": "2020-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000130817920000203/lgoog2020_def14a.htm",
+   "quote": "During 2019, Larry, Sergey, Sundar, and Eric served as our employee directors and did not receive any compensation for their services as members of our Board of Directors.",
+   "supports": "Page, Brin, Pichai employee directors in 2019."
+  },
+  {
+   "id": "e115",
+   "form": "DEF 14A",
+   "accession": "0001308179-23-000736",
+   "filing_date": "2023-04-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000130817923000736/lgoog2023_def14a.htm",
+   "quote": "and each of the director nominees standing for election, except Larry, Sergey, and Sundar are independent directors under these standards.",
+   "supports": "2023 independence: all nominees except Page, Brin, Pichai."
+  }
+ ],
+ "conflicts": [
+  {
+   "description": "Mulally's departure day. The 2022 proxy says his term 'will end at the Annual Meeting', and the Item 5.07 8-K says that meeting was held on 2022-06-01. The 2023 proxy twice says he served 'until June 2, 2022' (the same proxy says Washington joined the Audit Committee on June 1, 2022). Recorded 2022-06-01 per the annual-meeting rule.",
+   "evidence_refs": [
+    "e088",
+    "e090",
+    "e091",
+    "e092"
+   ]
+  },
+  {
+   "description": "Brin as Chairman. The 2015 8-K12B and 2026 proxy say Brin was 'President and Chairman' of Google's board from September 1998 to July 2001. The IPO prospectus calls him only President for that period, and says Eric Schmidt was Chairman from March 2001 to April 2004, which overlaps March-July 2001. Recorded the chair span as stated in the later filings at medium confidence.",
+   "evidence_refs": [
+    "e023",
+    "e020",
+    "e019",
+    "e024"
+   ]
+  },
+  {
+   "description": "Pichai's CEO start day. The 8-K cover gives 2019-12-02 as the date of earliest event; the 8-K body and press release announce the change on 2019-12-03 'effective immediately'. Recorded 2019-12-03.",
+   "evidence_refs": [
+    "e027",
+    "e028",
+    "e029",
+    "e031"
+   ]
+  }
+ ],
+ "open_questions": [
+  "Pre-IPO start days are not disclosed: Page, Brin and Shriram (September 1998), Doerr (May 1999), Hennessy (April 2004) are month-precision. An EDGAR full-text search ('Hennessy' + 'April 2004', Google filings 2004-2006) returned the S-1/424B4 family and proxies; the S-1 and 424B4 give only the month.",
+  "Hennessy's Lead Independent Director start is disclosed only as April 2007 and its end as January 2018 (he became Chair 2018-01-31).",
+  "Page's 2011 CEO start uses the effective date announced in the 2011-01-20 8-K (April 4, 2011); later filings say only 'April 2011'.",
+  "Brin's employment titles between April 2011 and May 2011 are not stated (2015 8-K12B: President, Technology to April 2011; 2026 proxy: President from May 2011). His employee-director span is recorded as continuous at medium confidence.",
+  "Independence spans are aligned to board tenure from point-in-time determinations (every 2020-2026 proxy excludes only Page, Brin and Pichai). Earlier Google-era determinations were not reviewed individually.",
+  "Authorized board size is never stated after the IPO prospectus (nine). Size changes are recorded from the director counts in proxies ('currently composed of') and appointments/departures.",
+  "Arnold's Illumina seat was scheduled to end on 2026-05-21 per the 2026 proxy; kept as 'current' because that is how the proxy lists it, and Illumina's own filings were not checked.",
+  "Other-board lists come from Alphabet's own bios and 8-Ks, not from the other issuers' filings. 2026 proxy entries give no years; years shown come from the directors' appointment 8-Ks where available.",
+  "Committee assignments are point-in-time from the 2026 proxy (current board) and the 2022/2023 proxies (Mulally, Mather). Committee history between proxies is not captured."
+ ],
+ "coverage": [
+  {
+   "scope": "current_board",
+   "period_start": "2026-10-04",
+   "period_end": "2026-10-04",
+   "level": "complete",
+   "method": "Roster from the 2026 DEF 14A (ten nominees) and the 2026-06-11 Item 5.07 8-K (all ten elected 2026-06-05); every 8-K with Item 5.02 filed after the proxy (2026-06-05, 2026-06-11) reviewed (PAO appointment; stock-plan amendment with the Item 5.07 results); every Form 3 filed in 2026 checked (none for a director); Forms 4 filed July-Sept 2026 show nine of the ten as directors. Submissions feed fetched 2026-10-04, latest filing 2026-10-02."
+  },
+  {
+   "scope": "board_history",
+   "period_start": "2020-01-01",
+   "period_end": "2026-10-04",
+   "level": "complete",
+   "method": "Every Alphabet DEF 14A 2020-2026 and every 8-K with Item 5.02 or 5.07 filed 2019-12-01 to 2026-10-02 reviewed; Forms 3 2016-2026 checked. Departures since 2020: Mulally (2022-06-01) and Mather (2023-10-31) only."
+  },
+  {
+   "scope": "board_history",
+   "period_start": "1998-09-01",
+   "period_end": "2019-12-31",
+   "level": "partial",
+   "method": "Start dates of directors still serving (or serving into 2020) taken from the Google IPO prospectus, Google/Alphabet 8-Ks and proxies. Departures before 2020 (e.g. Schmidt, Greene, Tilghman, Otellini, Moritz, Levinson) were out of scope and are not recorded."
+  }
+ ]
+}

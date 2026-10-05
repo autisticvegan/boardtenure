@@ -1,0 +1,3393 @@
+{
+ "company": {
+  "cik": "0000019617",
+  "ticker": "JPM",
+  "legal_name": "JPMorgan Chase & Co.",
+  "common_name": "JPMorgan Chase",
+  "exchange": "New York Stock Exchange",
+  "listed_since_year": 1988,
+  "state_of_incorporation": "Delaware",
+  "notes": "Long-listed issuer, no IPO in range. listed_since_year=1988 is the earliest year EDGAR filings support for trading in this registrant's common stock. The 1994 proxy performance graph measures common-stock total return from 1988-12-31, and the FY1993 10-K says the stock is listed and traded on the NYSE. No filing reviewed establishes trading before 1988, and the field only marks that the listing predates available price history. The registrant (CIK 19617) was organized in Delaware in 1968 (FY1993 10-K). Its SEC header shows the former name Chemical New York Corp, changed 1988-05-08. EDGAR's name history for the CIK runs Chemical Banking Corp, then Chase Manhattan Corp /DE/ (1996), J P Morgan Chase & Co (2001) and JPMorgan Chase & Co. Bank One Corporation merged into the company effective 2004-07-01 (8-K). Proxies call Bank One, First Chicago Corp. and J.P. Morgan & Co. Incorporated 'heritage' companies. Board service at those predecessors is recorded in notes and not counted in tenure. All directors are elected annually (no classified board).",
+  "evidence_refs": [
+   "e001",
+   "e002",
+   "e003",
+   "e004",
+   "e006",
+   "e005",
+   "e048"
+  ]
+ },
+ "as_of": "2026-10-04",
+ "sources_reviewed_through": "2026-10-02 (latest filing in EDGAR submissions feed fetched 2026-10-04)",
+ "people": [
+  {
+   "key": "stephen-b-burke",
+   "full_name": "Stephen B. Burke",
+   "aliases": [
+    "Steve Burke",
+    "BURKE STEPHEN B"
+   ],
+   "sec_cik": "0001203694",
+   "bio_other_public_boards": [
+    {
+     "company": "Berkshire Hathaway Inc.",
+     "status": "current",
+     "years": "since 2009",
+     "source_ref": "e038",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Snowflake Inc.",
+     "status": "former",
+     "years": "2023-2024",
+     "source_ref": "e038",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "linda-b-bammann",
+   "full_name": "Linda B. Bammann",
+   "aliases": [
+    "Linda Bammann",
+    "BAMMANN LINDA"
+   ],
+   "sec_cik": "0001195342",
+   "bio_other_public_boards": []
+  },
+  {
+   "key": "michele-g-buck",
+   "full_name": "Michele G. Buck",
+   "aliases": [
+    "Michele Buck",
+    "Buck Michele"
+   ],
+   "sec_cik": "0001323734",
+   "bio_other_public_boards": [
+    {
+     "company": "The Hershey Company",
+     "status": "former",
+     "years": "2017-2025",
+     "source_ref": "e039",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "alicia-boler-davis",
+   "full_name": "Alicia Boler Davis",
+   "aliases": [
+    "Alicia Davis",
+    "Boler-Davis Alicia S",
+    "Davis Alicia Boler"
+   ],
+   "sec_cik": "0001677195",
+   "bio_other_public_boards": [
+    {
+     "company": "General Mills, Inc.",
+     "status": "former",
+     "years": "not stated in 2026 proxy (2016 - 2019 per 2023 proxy)",
+     "source_ref": "e040",
+     "public_company_stated_in_source": false,
+     "note": "2026 bio lists it under 'Other Experience' as 'Former Board Member'; the 2023 proxy listed it as an other public company directorship",
+     "corroborating_refs": [
+      "e047"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "jamie-dimon",
+   "full_name": "James Dimon",
+   "aliases": [
+    "Jamie Dimon",
+    "DIMON JAMES"
+   ],
+   "sec_cik": "0001195345",
+   "bio_other_public_boards": []
+  },
+  {
+   "key": "alex-gorsky",
+   "full_name": "Alex Gorsky",
+   "aliases": [
+    "Gorsky Alex"
+   ],
+   "sec_cik": "0001453149",
+   "bio_other_public_boards": [
+    {
+     "company": "Apple Inc.",
+     "status": "current",
+     "years": "since 2021",
+     "source_ref": "e041",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "International Business Machines Corporation (IBM)",
+     "status": "current",
+     "years": "since 2014",
+     "source_ref": "e041",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Johnson & Johnson",
+     "status": "former",
+     "years": "2012-2022",
+     "source_ref": "e041",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "mellody-hobson",
+   "full_name": "Mellody Hobson",
+   "aliases": [
+    "HOBSON MELLODY L"
+   ],
+   "sec_cik": "0001169896",
+   "bio_other_public_boards": [
+    {
+     "company": "Starbucks Corporation",
+     "status": "former",
+     "years": "2005-2025",
+     "source_ref": "e042",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "phebe-n-novakovic",
+   "full_name": "Phebe N. Novakovic",
+   "aliases": [
+    "Phebe Novakovic",
+    "NOVAKOVIC PHEBE N"
+   ],
+   "sec_cik": "0001222195",
+   "bio_other_public_boards": [
+    {
+     "company": "General Dynamics Corporation",
+     "status": "current",
+     "years": "member since 2012; Chairman since 2013",
+     "source_ref": "e043",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Abbott Laboratories",
+     "status": "former",
+     "years": "2010-2021",
+     "source_ref": "e043",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "virginia-m-rometty",
+   "full_name": "Virginia M. Rometty",
+   "aliases": [
+    "Ginni Rometty",
+    "Rometty Virginia M"
+   ],
+   "sec_cik": "0001333712",
+   "bio_other_public_boards": []
+  },
+  {
+   "key": "brad-d-smith",
+   "full_name": "Brad D. Smith",
+   "aliases": [
+    "Brad Smith",
+    "SMITH BRAD D"
+   ],
+   "sec_cik": "0001284323",
+   "bio_other_public_boards": [
+    {
+     "company": "Amazon.com, Inc.",
+     "status": "current",
+     "years": "since 2023",
+     "source_ref": "e044",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Humana Inc.",
+     "status": "former",
+     "years": "2022-2025",
+     "source_ref": "e044",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "SurveyMonkey (formerly Momentive Global Inc. and SVMK Inc.)",
+     "status": "former",
+     "years": "2017-2022",
+     "source_ref": "e044",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Nordstrom, Inc.",
+     "status": "former",
+     "years": "2013-2022",
+     "source_ref": "e044",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Intuit Inc.",
+     "status": "former",
+     "years": "2008-2022",
+     "source_ref": "e044",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "mark-a-weinberger",
+   "full_name": "Mark A. Weinberger",
+   "aliases": [
+    "Mark Weinberger",
+    "WEINBERGER MARK A"
+   ],
+   "sec_cik": "0001785997",
+   "bio_other_public_boards": [
+    {
+     "company": "Johnson & Johnson",
+     "status": "current",
+     "years": "since 2019",
+     "source_ref": "e045",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "MetLife, Inc.",
+     "status": "current",
+     "years": "since 2019",
+     "source_ref": "e045",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Accelerate Acquisition Corp.",
+     "status": "former",
+     "years": "2021-2022",
+     "source_ref": "e045",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Saudi Arabian Oil Co. (Saudi Aramco)",
+     "status": "current",
+     "years": "since 2019",
+     "source_ref": "e045",
+     "public_company_stated_in_source": true,
+     "note": "listed under 'Non-U.S.-Listed Public Company Directorships'"
+    }
+   ]
+  },
+  {
+   "key": "todd-a-combs",
+   "full_name": "Todd A. Combs",
+   "aliases": [
+    "Todd Combs",
+    "Combs Todd A."
+   ],
+   "sec_cik": "0001685281",
+   "bio_other_public_boards": []
+  },
+  {
+   "key": "james-s-crown",
+   "full_name": "James S. Crown",
+   "aliases": [
+    "Jim Crown",
+    "CROWN JAMES S"
+   ],
+   "sec_cik": "0001185064",
+   "bio_other_public_boards": [
+    {
+     "company": "General Dynamics Corporation",
+     "status": "current",
+     "years": "since 1987 (Lead Director since 2010)",
+     "source_ref": "e094",
+     "public_company_stated_in_source": true,
+     "note": "status as of the 2023 proxy (filed 2023-04-04); he died 2023-06-25"
+    }
+   ]
+  },
+  {
+   "key": "timothy-p-flynn",
+   "full_name": "Timothy P. Flynn",
+   "aliases": [
+    "Timothy Flynn",
+    "FLYNN TIMOTHY PATRICK"
+   ],
+   "sec_cik": "0001550322",
+   "bio_other_public_boards": [
+    {
+     "company": "UnitedHealth Group Inc.",
+     "status": "current",
+     "years": "since 2017",
+     "source_ref": "e109",
+     "public_company_stated_in_source": true,
+     "note": "status as of the 2023 proxy, his last bio"
+    },
+    {
+     "company": "Wal-Mart Stores, Inc.",
+     "status": "current",
+     "years": "since 2012",
+     "source_ref": "e109",
+     "public_company_stated_in_source": true,
+     "note": "status as of the 2023 proxy, his last bio"
+    },
+    {
+     "company": "Alcoa Corporation",
+     "status": "former",
+     "years": "2016-2021",
+     "source_ref": "e109",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "michael-a-neal",
+   "full_name": "Michael A. Neal",
+   "aliases": [
+    "Michael Neal",
+    "NEAL MICHAEL A"
+   ],
+   "sec_cik": "0001233167",
+   "bio_other_public_boards": []
+  },
+  {
+   "key": "lee-r-raymond",
+   "full_name": "Lee R. Raymond",
+   "aliases": [
+    "Lee Raymond",
+    "RAYMOND LEE R"
+   ],
+   "sec_cik": "0001198809",
+   "bio_other_public_boards": []
+  },
+  {
+   "key": "james-a-bell",
+   "full_name": "James A. Bell",
+   "aliases": [
+    "James Bell",
+    "BELL JAMES A"
+   ],
+   "sec_cik": "0001182047",
+   "bio_other_public_boards": [
+    {
+     "company": "Apple Inc.",
+     "status": "current",
+     "years": "since 2015",
+     "source_ref": "e087",
+     "public_company_stated_in_source": true,
+     "note": "status as of the 2019 proxy, his last bio"
+    },
+    {
+     "company": "CDW Corporation",
+     "status": "current",
+     "years": "since 2005",
+     "source_ref": "e087",
+     "public_company_stated_in_source": true,
+     "note": "status as of the 2019 proxy, his last bio"
+    },
+    {
+     "company": "DowDuPont Inc. (formerly The Dow Chemical Company)",
+     "status": "current",
+     "years": "since 2005",
+     "source_ref": "e087",
+     "public_company_stated_in_source": true,
+     "note": "status as of the 2019 proxy, his last bio; proxy writes 'Dow DuPont Inc. (formerly Dow Chemical Company Inc.)'"
+    }
+   ]
+  },
+  {
+   "key": "laban-p-jackson-jr",
+   "full_name": "Laban P. Jackson, Jr.",
+   "aliases": [
+    "Laban Jackson",
+    "JACKSON LABAN"
+   ],
+   "sec_cik": "0001202252",
+   "bio_other_public_boards": [
+    {
+     "company": "The Home Depot",
+     "status": "former",
+     "years": "2004-2008",
+     "source_ref": "e089",
+     "public_company_stated_in_source": true
+    }
+   ]
+  }
+ ],
+ "memberships": [
+  {
+   "person_key": "stephen-b-burke",
+   "start_date": "2004-07-01",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K (2004-07-01) board list effective July 1, 2004 on the Bank One merger; Form 3 event date agrees; proxies 'Director since 2004'",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e048",
+    "e116",
+    "e015",
+    "e008",
+    "e140",
+    "e066"
+   ],
+   "board_class": null,
+   "notes": "Joined from Bank One at the merger. Bank One director 2003-2004 (predecessor service, not counted in JPM 'Director since 2004'). Lead Independent Director since 2021-01-01."
+  },
+  {
+   "person_key": "linda-b-bammann",
+   "start_date": "2013-09-16",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02(d) effective date (Form 3 event date agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e049",
+    "e117",
+    "e016",
+    "e141"
+   ],
+   "board_class": null,
+   "notes": "Former JPM Deputy Head of Risk Management (2004-2005; retired 2005). Her 2004 Form 3 was as an officer, not a director."
+  },
+  {
+   "person_key": "michele-g-buck",
+   "start_date": "2025-03-17",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02(d) effective date (Form 3 event date agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e059",
+    "e118",
+    "e017"
+   ],
+   "board_class": null,
+   "notes": "Election announced 2024-12-12, effective 2025-03-17."
+  },
+  {
+   "person_key": "alicia-boler-davis",
+   "start_date": "2023-03-20",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02(d) effective date (Form 3 event date agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e056",
+    "e119",
+    "e018"
+   ],
+   "board_class": null,
+   "notes": "Election announced 2023-01-17, effective 2023-03-20."
+  },
+  {
+   "person_key": "jamie-dimon",
+   "start_date": "2004-07-01",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K (2004-07-01) board list effective July 1, 2004 on the Bank One merger; Form 3 event date agrees; proxies 'Director since 2004'",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e048",
+    "e120",
+    "e019",
+    "e030",
+    "e037",
+    "e008",
+    "e143"
+   ],
+   "board_class": null,
+   "notes": "Bank One Chairman & CEO 2000-2004 (predecessor service, not counted). President & COO from July 2004, CEO from 2005-12-31, Chairman from 2006-12-31."
+  },
+  {
+   "person_key": "alex-gorsky",
+   "start_date": "2022-07-19",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02(d) effective date (Form 3 event date agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e055",
+    "e122",
+    "e020"
+   ],
+   "board_class": null,
+   "notes": null
+  },
+  {
+   "person_key": "mellody-hobson",
+   "start_date": "2018-03-21",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02(d) effective date (Form 3 event date agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e050",
+    "e123",
+    "e021"
+   ],
+   "board_class": null,
+   "notes": null
+  },
+  {
+   "person_key": "phebe-n-novakovic",
+   "start_date": "2020-12-07",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02(d) effective date (Form 3 event date agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e051",
+    "e124",
+    "e022"
+   ],
+   "board_class": null,
+   "notes": "Election announced 2020-10-28, effective 2020-12-07."
+  },
+  {
+   "person_key": "virginia-m-rometty",
+   "start_date": "2020-05-19",
+   "start_date_precision": "day",
+   "start_date_basis": "elected at the 2020 annual meeting (8-K Items 5.02/5.07; meeting date 2020-05-19); Form 3 event date agrees",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e052",
+    "e053",
+    "e054",
+    "e125",
+    "e023"
+   ],
+   "board_class": null,
+   "notes": null
+  },
+  {
+   "person_key": "brad-d-smith",
+   "start_date": "2025-01-21",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02(d) effective date (Form 3 event date agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e058",
+    "e126",
+    "e024"
+   ],
+   "board_class": null,
+   "notes": "Election announced 2024-10-17, effective 2025-01-21."
+  },
+  {
+   "person_key": "mark-a-weinberger",
+   "start_date": "2024-01-16",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02(d) effective date (Form 3 event date agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e057",
+    "e127",
+    "e025"
+   ],
+   "board_class": null,
+   "notes": null
+  },
+  {
+   "person_key": "todd-a-combs",
+   "start_date": "2016-09-19",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02(d) effective date (Form 3 event date agrees)",
+   "end_date": "2025-12-07",
+   "end_date_precision": "day",
+   "end_reason": "resigned",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e111",
+    "e128",
+    "e112",
+    "e129",
+    "e011",
+    "e113"
+   ],
+   "board_class": null,
+   "notes": "End: 8-K Item 5.02(b) resignation effective 2025-12-07 (no disagreement). Joined the Firm as head of the Strategic Investment Group in its Security and Resiliency Initiative."
+  },
+  {
+   "person_key": "james-s-crown",
+   "start_date": "2004-07-01",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K (2004-07-01) board list effective July 1, 2004 on the Bank One merger; Form 3 event date agrees; proxies 'Director since 2004'",
+   "end_date": "2023-06-25",
+   "end_date_precision": "day",
+   "end_reason": "died",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e048",
+    "e130",
+    "e092",
+    "e090",
+    "e091",
+    "e071",
+    "e096"
+   ],
+   "board_class": null,
+   "notes": "End: died 2023-06-25 while a director (8-K Item 8.01, not 5.02). Bank One / First Chicago predecessor service (1991-2004) not counted; see conflicts for how filings describe it."
+  },
+  {
+   "person_key": "timothy-p-flynn",
+   "start_date": "2012-05-15",
+   "start_date_precision": "day",
+   "start_date_basis": "elected at the 2012 annual meeting (8-K 5.02 nomination + 5.07 meeting date 2012-05-15); Form 3 event date agrees",
+   "end_date": "2024-05-21",
+   "end_date_precision": "day",
+   "end_reason": "retired",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e097",
+    "e098",
+    "e131",
+    "e100",
+    "e101",
+    "e102",
+    "e103",
+    "e132"
+   ],
+   "board_class": null,
+   "notes": "End: did not stand for re-election ('retire ... when their terms expire on the eve of the 2024 Annual Meeting'); recorded as the 2024 annual-meeting date (2024-05-21) per convention. Filings say the term expired on the eve; his no-transaction exit Form 4 is dated 2024-05-20. See conflicts."
+  },
+  {
+   "person_key": "michael-a-neal",
+   "start_date": "2014-01-03",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02(d) effective date (Form 3 event date agrees)",
+   "end_date": "2024-05-21",
+   "end_date_precision": "day",
+   "end_reason": "retired",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e099",
+    "e133",
+    "e142",
+    "e100",
+    "e101",
+    "e102",
+    "e103",
+    "e134"
+   ],
+   "board_class": null,
+   "notes": "End: did not stand for re-election; recorded as the 2024 annual-meeting date (2024-05-21) per convention. Filings say the term expired on the eve; his no-transaction exit Form 4 is dated 2024-05-20. See conflicts."
+  },
+  {
+   "person_key": "lee-r-raymond",
+   "start_date": "2001",
+   "start_date_precision": "year",
+   "start_date_basis": "proxies 'Director since 2001' (2014, 2019, 2020); no filing reviewed gives the day",
+   "end_date": "2020-12-31",
+   "end_date_precision": "day",
+   "end_reason": "resigned",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e070",
+    "e073",
+    "e074",
+    "e071",
+    "e048",
+    "e075",
+    "e135",
+    "e076"
+   ],
+   "board_class": null,
+   "notes": "End: 8-K Item 5.02 resignation effective 2020-12-31 (2021 proxy calls it retirement). Predecessor service: J.P. Morgan & Co. Incorporated director 1987-2000, not counted in 'Director since 2001'. Lead Independent Director to 2020-12-31."
+  },
+  {
+   "person_key": "james-a-bell",
+   "start_date": "2011-11-08",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02(d) effective date (Form 3 event date agrees)",
+   "end_date": "2020-05-19",
+   "end_date_precision": "day",
+   "end_reason": "retired",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e078",
+    "e136",
+    "e079",
+    "e080",
+    "e053",
+    "e082",
+    "e137"
+   ],
+   "board_class": null,
+   "notes": "End: did not stand for re-election ('retired from the Board on the eve of the 2020 annual meeting'); recorded as the 2020 annual-meeting date (2020-05-19) per convention. His no-transaction exit Form 4 is dated 2020-05-18. See conflicts."
+  },
+  {
+   "person_key": "laban-p-jackson-jr",
+   "start_date": "2004-07-01",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K (2004-07-01) board list effective July 1, 2004 on the Bank One merger; Form 3 event date agrees; proxies 'director since 2004'",
+   "end_date": "2020-05-19",
+   "end_date_precision": "day",
+   "end_reason": "retired",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e048",
+    "e138",
+    "e086",
+    "e079",
+    "e080",
+    "e053",
+    "e082",
+    "e139"
+   ],
+   "board_class": null,
+   "notes": "End: did not stand for re-election; recorded as the 2020 annual-meeting date (2020-05-19) per convention. His no-transaction exit Form 4 is dated 2020-05-18. Bank One director 1993-2004 (predecessor service, not counted)."
+  }
+ ],
+ "roles": [
+  {
+   "person_key": "jamie-dimon",
+   "role": "chair",
+   "start_date": "2006-12-31",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e063",
+    "e037",
+    "e030",
+    "e121"
+   ],
+   "notes": "Chairman of the Board (combined with CEO) since 2006-12-31."
+  },
+  {
+   "person_key": "jamie-dimon",
+   "role": "ceo_director",
+   "start_date": "2005-12-31",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e062",
+    "e037",
+    "e121"
+   ],
+   "notes": "CEO since 2005-12-31 (succeeded William B. Harrison, Jr.)."
+  },
+  {
+   "person_key": "jamie-dimon",
+   "role": "executive_director",
+   "start_date": "2004-07-01",
+   "end_date": "2005-12-31",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e062",
+    "e120",
+    "e037"
+   ],
+   "notes": "President and Chief Operating Officer from July 2004 until he became CEO on 2005-12-31 (he remained President to 2018).",
+   "officer_title": "President and Chief Operating Officer"
+  },
+  {
+   "person_key": "jamie-dimon",
+   "role": "non_independent_director",
+   "start_date": "2004-07-01",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e007",
+    "e120"
+   ],
+   "notes": "Employee director throughout; 'All are independent other than our CEO.'"
+  },
+  {
+   "person_key": "stephen-b-burke",
+   "role": "lead_independent_director",
+   "start_date": "2021-01-01",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e065",
+    "e066",
+    "e067",
+    "e026",
+    "e012"
+   ],
+   "notes": "Appointed 2020-09-15, effective 2021-01-01, succeeding Lee R. Raymond; re-appointed annually (latest March 2026)."
+  },
+  {
+   "person_key": "stephen-b-burke",
+   "role": "independent_director",
+   "start_date": "2004-07-01",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e009",
+    "e085",
+    "e115"
+   ],
+   "notes": "Found independent in every disclosed determination reviewed; start aligned to board start; the filings don't date independence on its own."
+  },
+  {
+   "person_key": "linda-b-bammann",
+   "role": "independent_director",
+   "start_date": "2013-09-16",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e009",
+    "e085"
+   ],
+   "notes": "Found independent in every disclosed determination reviewed; start aligned to board start; the filings don't date independence on its own. Former JPM executive (retired 2005)."
+  },
+  {
+   "person_key": "michele-g-buck",
+   "role": "independent_director",
+   "start_date": "2025-03-17",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e009",
+    "e114"
+   ],
+   "notes": "Found independent in every disclosed determination reviewed; start aligned to board start; the filings don't date independence on its own."
+  },
+  {
+   "person_key": "alicia-boler-davis",
+   "role": "independent_director",
+   "start_date": "2023-03-20",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e009",
+    "e105"
+   ],
+   "notes": "Found independent in every disclosed determination reviewed; start aligned to board start; the filings don't date independence on its own."
+  },
+  {
+   "person_key": "alex-gorsky",
+   "role": "independent_director",
+   "start_date": "2022-07-19",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e009",
+    "e095"
+   ],
+   "notes": "Found independent in every disclosed determination reviewed; start aligned to board start; the filings don't date independence on its own."
+  },
+  {
+   "person_key": "mellody-hobson",
+   "role": "independent_director",
+   "start_date": "2018-03-21",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e009",
+    "e085"
+   ],
+   "notes": "Found independent in every disclosed determination reviewed; start aligned to board start; the filings don't date independence on its own."
+  },
+  {
+   "person_key": "phebe-n-novakovic",
+   "role": "independent_director",
+   "start_date": "2020-12-07",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e009",
+    "e115"
+   ],
+   "notes": "Found independent in every disclosed determination reviewed; start aligned to board start; the filings don't date independence on its own."
+  },
+  {
+   "person_key": "virginia-m-rometty",
+   "role": "independent_director",
+   "start_date": "2020-05-19",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e009",
+    "e085"
+   ],
+   "notes": "Found independent in every disclosed determination reviewed; start aligned to board start; the filings don't date independence on its own."
+  },
+  {
+   "person_key": "brad-d-smith",
+   "role": "independent_director",
+   "start_date": "2025-01-21",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e009",
+    "e114"
+   ],
+   "notes": "Found independent in every disclosed determination reviewed; start aligned to board start; the filings don't date independence on its own."
+  },
+  {
+   "person_key": "mark-a-weinberger",
+   "role": "independent_director",
+   "start_date": "2024-01-16",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e009",
+    "e105"
+   ],
+   "notes": "Found independent in every disclosed determination reviewed; start aligned to board start; the filings don't date independence on its own."
+  },
+  {
+   "person_key": "todd-a-combs",
+   "role": "independent_director",
+   "start_date": "2016-09-19",
+   "end_date": "2025-12-07",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e010",
+    "e114",
+    "e085"
+   ],
+   "notes": "2026 proxy states he was an independent director during the term of his service."
+  },
+  {
+   "person_key": "james-s-crown",
+   "role": "independent_director",
+   "start_date": "2004-07-01",
+   "end_date": "2023-06-25",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "medium",
+   "evidence_refs": [
+    "e095",
+    "e085"
+   ],
+   "notes": "Found independent in every disclosed determination reviewed; start aligned to board start; the filings don't date independence on its own."
+  },
+  {
+   "person_key": "timothy-p-flynn",
+   "role": "independent_director",
+   "start_date": "2012-05-15",
+   "end_date": "2024-05-21",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "medium",
+   "evidence_refs": [
+    "e106",
+    "e105",
+    "e085"
+   ],
+   "notes": "2025 proxy states he was an independent director (retired May 2024); earlier proxies found him independent each year. Span aligned to board tenure."
+  },
+  {
+   "person_key": "michael-a-neal",
+   "role": "independent_director",
+   "start_date": "2014-01-03",
+   "end_date": "2024-05-21",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "medium",
+   "evidence_refs": [
+    "e106",
+    "e105",
+    "e085"
+   ],
+   "notes": "2025 proxy states he was an independent director (retired May 2024); earlier proxies found him independent each year. Span aligned to board tenure."
+  },
+  {
+   "person_key": "lee-r-raymond",
+   "role": "lead_independent_director",
+   "start_date": "2013-09",
+   "end_date": "2020-12-31",
+   "precision": "month",
+   "end_precision": "day",
+   "confidence": "medium",
+   "evidence_refs": [
+    "e068",
+    "e069",
+    "e070",
+    "e072",
+    "e066",
+    "e075"
+   ],
+   "notes": "LID role established September 2013 (Raymond had been Presiding Director, a rotating role created December 2006); by-laws requiring a LID amended 2013-09-17. Exact effective day not stated. Succeeded by Burke 2021-01-01."
+  },
+  {
+   "person_key": "lee-r-raymond",
+   "role": "independent_director",
+   "start_date": "2001",
+   "end_date": "2020-12-31",
+   "precision": "year",
+   "end_precision": "day",
+   "confidence": "medium",
+   "evidence_refs": [
+    "e076",
+    "e085"
+   ],
+   "notes": "2021 proxy states he was an independent director; the 2020 proxy also found him independent. Span aligned to board tenure."
+  },
+  {
+   "person_key": "james-a-bell",
+   "role": "independent_director",
+   "start_date": "2011-11-08",
+   "end_date": "2020-05-19",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "medium",
+   "evidence_refs": [
+    "e076",
+    "e085"
+   ],
+   "notes": "2021 proxy states he was an independent director; the 2020 proxy also found him independent. Span aligned to board tenure."
+  },
+  {
+   "person_key": "laban-p-jackson-jr",
+   "role": "independent_director",
+   "start_date": "2004-07-01",
+   "end_date": "2020-05-19",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "medium",
+   "evidence_refs": [
+    "e076",
+    "e085"
+   ],
+   "notes": "2021 proxy states he was an independent director; the 2020 proxy also found him independent. Span aligned to board tenure."
+  }
+ ],
+ "committees": [
+  {
+   "person_key": "stephen-b-burke",
+   "committee": "compensation",
+   "role": "chair",
+   "as_of_filing": "0000019617-26-000096",
+   "as_of_date": "2026-04-06",
+   "evidence_refs": [
+    "e015",
+    "e026"
+   ]
+  },
+  {
+   "person_key": "stephen-b-burke",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0000019617-26-000096",
+   "as_of_date": "2026-04-06",
+   "evidence_refs": [
+    "e015",
+    "e026"
+   ]
+  },
+  {
+   "person_key": "linda-b-bammann",
+   "committee": "risk",
+   "role": "chair",
+   "as_of_filing": "0000019617-26-000096",
+   "as_of_date": "2026-04-06",
+   "evidence_refs": [
+    "e016",
+    "e027"
+   ]
+  },
+  {
+   "person_key": "linda-b-bammann",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0000019617-26-000096",
+   "as_of_date": "2026-04-06",
+   "evidence_refs": [
+    "e016",
+    "e027"
+   ]
+  },
+  {
+   "person_key": "michele-g-buck",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0000019617-26-000096",
+   "as_of_date": "2026-04-06",
+   "evidence_refs": [
+    "e017",
+    "e028"
+   ]
+  },
+  {
+   "person_key": "michele-g-buck",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0000019617-26-000096",
+   "as_of_date": "2026-04-06",
+   "evidence_refs": [
+    "e017",
+    "e028"
+   ]
+  },
+  {
+   "person_key": "alicia-boler-davis",
+   "committee": "public_responsibility",
+   "role": "member",
+   "as_of_filing": "0000019617-26-000096",
+   "as_of_date": "2026-04-06",
+   "evidence_refs": [
+    "e018",
+    "e029"
+   ]
+  },
+  {
+   "person_key": "alicia-boler-davis",
+   "committee": "risk",
+   "role": "member",
+   "as_of_filing": "0000019617-26-000096",
+   "as_of_date": "2026-04-06",
+   "evidence_refs": [
+    "e018",
+    "e029"
+   ]
+  },
+  {
+   "person_key": "alex-gorsky",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0000019617-26-000096",
+   "as_of_date": "2026-04-06",
+   "evidence_refs": [
+    "e020",
+    "e031"
+   ]
+  },
+  {
+   "person_key": "alex-gorsky",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0000019617-26-000096",
+   "as_of_date": "2026-04-06",
+   "evidence_refs": [
+    "e020",
+    "e031"
+   ]
+  },
+  {
+   "person_key": "mellody-hobson",
+   "committee": "public_responsibility",
+   "role": "chair",
+   "as_of_filing": "0000019617-26-000096",
+   "as_of_date": "2026-04-06",
+   "evidence_refs": [
+    "e021",
+    "e032"
+   ]
+  },
+  {
+   "person_key": "mellody-hobson",
+   "committee": "risk",
+   "role": "member",
+   "as_of_filing": "0000019617-26-000096",
+   "as_of_date": "2026-04-06",
+   "evidence_refs": [
+    "e021",
+    "e032"
+   ]
+  },
+  {
+   "person_key": "phebe-n-novakovic",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0000019617-26-000096",
+   "as_of_date": "2026-04-06",
+   "evidence_refs": [
+    "e022",
+    "e033"
+   ]
+  },
+  {
+   "person_key": "phebe-n-novakovic",
+   "committee": "public_responsibility",
+   "role": "member",
+   "as_of_filing": "0000019617-26-000096",
+   "as_of_date": "2026-04-06",
+   "evidence_refs": [
+    "e022",
+    "e033"
+   ]
+  },
+  {
+   "person_key": "virginia-m-rometty",
+   "committee": "nominating_governance",
+   "role": "chair",
+   "as_of_filing": "0000019617-26-000096",
+   "as_of_date": "2026-04-06",
+   "evidence_refs": [
+    "e023",
+    "e034"
+   ]
+  },
+  {
+   "person_key": "virginia-m-rometty",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0000019617-26-000096",
+   "as_of_date": "2026-04-06",
+   "evidence_refs": [
+    "e023",
+    "e034"
+   ]
+  },
+  {
+   "person_key": "brad-d-smith",
+   "committee": "public_responsibility",
+   "role": "member",
+   "as_of_filing": "0000019617-26-000096",
+   "as_of_date": "2026-04-06",
+   "evidence_refs": [
+    "e024",
+    "e035"
+   ]
+  },
+  {
+   "person_key": "brad-d-smith",
+   "committee": "risk",
+   "role": "member",
+   "as_of_filing": "0000019617-26-000096",
+   "as_of_date": "2026-04-06",
+   "evidence_refs": [
+    "e024",
+    "e035"
+   ]
+  },
+  {
+   "person_key": "mark-a-weinberger",
+   "committee": "audit",
+   "role": "chair",
+   "as_of_filing": "0000019617-26-000096",
+   "as_of_date": "2026-04-06",
+   "evidence_refs": [
+    "e025",
+    "e036"
+   ]
+  },
+  {
+   "person_key": "todd-a-combs",
+   "committee": "nominating_governance",
+   "role": "chair",
+   "as_of_filing": "0000019617-25-000321",
+   "as_of_date": "2025-04-07",
+   "evidence_refs": [
+    "e113"
+   ]
+  },
+  {
+   "person_key": "todd-a-combs",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0000019617-25-000321",
+   "as_of_date": "2025-04-07",
+   "evidence_refs": [
+    "e113"
+   ]
+  },
+  {
+   "person_key": "timothy-p-flynn",
+   "committee": "audit",
+   "role": "chair",
+   "as_of_filing": "0000019617-24-000273",
+   "as_of_date": "2024-04-08",
+   "evidence_refs": [
+    "e104"
+   ]
+  },
+  {
+   "person_key": "michael-a-neal",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0000019617-24-000273",
+   "as_of_date": "2024-04-08",
+   "evidence_refs": [
+    "e104"
+   ]
+  },
+  {
+   "person_key": "michael-a-neal",
+   "committee": "public_responsibility",
+   "role": "member",
+   "as_of_filing": "0000019617-23-000281",
+   "as_of_date": "2023-04-04",
+   "evidence_refs": [
+    "e108"
+   ]
+  },
+  {
+   "person_key": "james-s-crown",
+   "committee": "public_responsibility",
+   "role": "chair",
+   "as_of_filing": "0000019617-23-000281",
+   "as_of_date": "2023-04-04",
+   "evidence_refs": [
+    "e092",
+    "e093"
+   ]
+  },
+  {
+   "person_key": "james-s-crown",
+   "committee": "risk",
+   "role": "member",
+   "as_of_filing": "0000019617-23-000281",
+   "as_of_date": "2023-04-04",
+   "evidence_refs": [
+    "e092",
+    "e093"
+   ]
+  },
+  {
+   "person_key": "lee-r-raymond",
+   "committee": "compensation",
+   "role": "chair",
+   "as_of_filing": "0001193125-20-098865",
+   "as_of_date": "2020-04-06",
+   "evidence_refs": [
+    "e070"
+   ]
+  },
+  {
+   "person_key": "lee-r-raymond",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001193125-20-098865",
+   "as_of_date": "2020-04-06",
+   "evidence_refs": [
+    "e070"
+   ]
+  },
+  {
+   "person_key": "james-a-bell",
+   "committee": "audit",
+   "role": "chair",
+   "as_of_filing": "0001193125-20-098865",
+   "as_of_date": "2020-04-06",
+   "evidence_refs": [
+    "e083",
+    "e081"
+   ]
+  },
+  {
+   "person_key": "laban-p-jackson-jr",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001193125-20-098865",
+   "as_of_date": "2020-04-06",
+   "evidence_refs": [
+    "e084"
+   ]
+  }
+ ],
+ "events": [
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "lee-r-raymond",
+   "event_date": "2001",
+   "announced_date": null,
+   "evidence_refs": [
+    "e070",
+    "e073"
+   ],
+   "summary": "Lee R. Raymond on the board (proxy 'Director since 2001'; J.P. Morgan & Co. director 1987-2000).",
+   "event_date_precision": "year"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "stephen-b-burke",
+   "event_date": "2004-07-01",
+   "announced_date": null,
+   "evidence_refs": [
+    "e048",
+    "e116"
+   ],
+   "summary": "Stephen B. Burke joins the board on completion of the Bank One merger.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "jamie-dimon",
+   "event_date": "2004-07-01",
+   "announced_date": null,
+   "evidence_refs": [
+    "e048",
+    "e120"
+   ],
+   "summary": "James Dimon joins the board (and becomes President & COO) on completion of the Bank One merger.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "james-s-crown",
+   "event_date": "2004-07-01",
+   "announced_date": null,
+   "evidence_refs": [
+    "e048",
+    "e130"
+   ],
+   "summary": "James S. Crown joins the board on completion of the Bank One merger.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "laban-p-jackson-jr",
+   "event_date": "2004-07-01",
+   "announced_date": null,
+   "evidence_refs": [
+    "e048",
+    "e138"
+   ],
+   "summary": "Laban P. Jackson, Jr. joins the board on completion of the Bank One merger.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "jamie-dimon",
+   "event_date": "2005-12-31",
+   "announced_date": null,
+   "evidence_refs": [
+    "e062"
+   ],
+   "summary": "Dimon becomes CEO, succeeding William B. Harrison, Jr.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "jamie-dimon",
+   "event_date": "2006-12-31",
+   "announced_date": "2006-12-12",
+   "evidence_refs": [
+    "e063",
+    "e064"
+   ],
+   "summary": "Dimon becomes Chairman of the Board (combined Chairman/CEO).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "james-a-bell",
+   "event_date": "2011-11-08",
+   "announced_date": "2011-11-08",
+   "evidence_refs": [
+    "e078",
+    "e136"
+   ],
+   "summary": "James A. Bell elected director.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "timothy-p-flynn",
+   "event_date": "2012-05-15",
+   "announced_date": "2012-03-27",
+   "evidence_refs": [
+    "e097",
+    "e098",
+    "e131"
+   ],
+   "summary": "Timothy P. Flynn elected at the 2012 annual meeting.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "linda-b-bammann",
+   "event_date": "2013-09-16",
+   "announced_date": null,
+   "evidence_refs": [
+    "e049",
+    "e117"
+   ],
+   "summary": "Linda B. Bammann elected director.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "lee-r-raymond",
+   "event_date": "2013-09",
+   "announced_date": "2013-09-09",
+   "evidence_refs": [
+    "e068",
+    "e069"
+   ],
+   "summary": "Lead Independent Director role established; Raymond (formerly Presiding Director) continues as LID.",
+   "event_date_precision": "month"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "michael-a-neal",
+   "event_date": "2014-01-03",
+   "announced_date": "2014-01-03",
+   "evidence_refs": [
+    "e099",
+    "e133"
+   ],
+   "summary": "Michael A. Neal elected director.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "todd-a-combs",
+   "event_date": "2016-09-19",
+   "announced_date": "2016-09-20",
+   "evidence_refs": [
+    "e111",
+    "e128"
+   ],
+   "summary": "Todd A. Combs elected director.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "mellody-hobson",
+   "event_date": "2018-03-21",
+   "announced_date": "2018-03-20",
+   "evidence_refs": [
+    "e050",
+    "e123"
+   ],
+   "summary": "Mellody Hobson elected director.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "james-a-bell",
+   "event_date": "2020-05-19",
+   "announced_date": "2020-03-19",
+   "evidence_refs": [
+    "e079",
+    "e080",
+    "e053"
+   ],
+   "summary": "James A. Bell retires at the 2020 annual meeting (term expired on the eve of the meeting).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "laban-p-jackson-jr",
+   "event_date": "2020-05-19",
+   "announced_date": "2020-03-19",
+   "evidence_refs": [
+    "e079",
+    "e080",
+    "e053"
+   ],
+   "summary": "Laban P. Jackson, Jr. retires at the 2020 annual meeting (term expired on the eve of the meeting).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "virginia-m-rometty",
+   "event_date": "2020-05-19",
+   "announced_date": "2020-04-06",
+   "evidence_refs": [
+    "e052",
+    "e053",
+    "e054",
+    "e125"
+   ],
+   "summary": "Virginia M. Rometty elected at the 2020 annual meeting (nominated in the 2020-04-06 proxy).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "phebe-n-novakovic",
+   "event_date": "2020-12-07",
+   "announced_date": "2020-10-28",
+   "evidence_refs": [
+    "e051",
+    "e124"
+   ],
+   "summary": "Phebe N. Novakovic elected director.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "lee-r-raymond",
+   "event_date": "2020-12-31",
+   "announced_date": "2020-12-18",
+   "evidence_refs": [
+    "e075"
+   ],
+   "summary": "Lee R. Raymond resigns (effective 2020-12-31); also ends his Lead Independent Director role.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "stephen-b-burke",
+   "event_date": "2021-01-01",
+   "announced_date": "2020-09-15",
+   "evidence_refs": [
+    "e065",
+    "e066",
+    "e067"
+   ],
+   "summary": "Stephen B. Burke becomes Lead Independent Director, succeeding Lee R. Raymond.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "alex-gorsky",
+   "event_date": "2022-07-19",
+   "announced_date": "2022-07-19",
+   "evidence_refs": [
+    "e055",
+    "e122"
+   ],
+   "summary": "Alex Gorsky elected director.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "alicia-boler-davis",
+   "event_date": "2023-03-20",
+   "announced_date": "2023-01-17",
+   "evidence_refs": [
+    "e056",
+    "e119"
+   ],
+   "summary": "Alicia Boler Davis elected director.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "james-s-crown",
+   "event_date": "2023-06-25",
+   "announced_date": "2023-06-26",
+   "evidence_refs": [
+    "e090",
+    "e091"
+   ],
+   "summary": "James S. Crown dies while a director.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "mark-a-weinberger",
+   "event_date": "2024-01-16",
+   "announced_date": "2024-01-16",
+   "evidence_refs": [
+    "e057",
+    "e127"
+   ],
+   "summary": "Mark A. Weinberger elected director (and to the Audit Committee).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "timothy-p-flynn",
+   "event_date": "2024-05-21",
+   "announced_date": "2024-04-08",
+   "evidence_refs": [
+    "e100",
+    "e101",
+    "e102"
+   ],
+   "summary": "Timothy P. Flynn retires at the 2024 annual meeting (term expired on the eve of the meeting).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "michael-a-neal",
+   "event_date": "2024-05-21",
+   "announced_date": "2024-04-08",
+   "evidence_refs": [
+    "e100",
+    "e101",
+    "e102"
+   ],
+   "summary": "Michael A. Neal retires at the 2024 annual meeting (term expired on the eve of the meeting).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "brad-d-smith",
+   "event_date": "2025-01-21",
+   "announced_date": "2024-10-17",
+   "evidence_refs": [
+    "e058",
+    "e126"
+   ],
+   "summary": "Brad D. Smith elected director.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "michele-g-buck",
+   "event_date": "2025-03-17",
+   "announced_date": "2024-12-12",
+   "evidence_refs": [
+    "e059",
+    "e118"
+   ],
+   "summary": "Michele G. Buck elected director.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "todd-a-combs",
+   "event_date": "2025-12-07",
+   "announced_date": "2025-12-08",
+   "evidence_refs": [
+    "e112",
+    "e011"
+   ],
+   "summary": "Todd A. Combs resigns to join the Firm as an employee.",
+   "event_date_precision": "day"
+  }
+ ],
+ "evidence": [
+  {
+   "id": "e001",
+   "form": "8-K",
+   "accession": "0000019617-26-000241",
+   "filing_date": "2026-06-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000241/jpm-20260624.htm",
+   "quote": "JPMorgan Chase & Co. (Exact name of registrant as specified in its charter) Delaware",
+   "supports": "Legal name JPMorgan Chase & Co.; state of incorporation Delaware (8-K cover, June 2026)."
+  },
+  {
+   "id": "e002",
+   "form": "8-K",
+   "accession": "0000019617-26-000241",
+   "filing_date": "2026-06-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000241/jpm-20260624.htm",
+   "quote": "Common stock JPM The New York Stock Exchange",
+   "supports": "Common stock trades on the NYSE under JPM (8-K cover, June 2026).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e003",
+   "form": "10-K",
+   "accession": "0000950123-94-000607",
+   "filing_date": "1994-03-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000095012394000607/0000950123-94-000607.txt",
+   "quote": "Chemical Banking Corporation (the \"Corporation\") is a bank holding company organized under the laws of Delaware in 1968",
+   "supports": "This registrant (CIK 19617, then Chemical Banking Corporation; renamed The Chase Manhattan Corporation and later J.P. Morgan Chase & Co.) was organized in Delaware in 1968."
+  },
+  {
+   "id": "e004",
+   "form": "10-K",
+   "accession": "0000950123-94-000607",
+   "filing_date": "1994-03-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000095012394000607/0000950123-94-000607.txt",
+   "quote": "(a) The Corporation's common stock is listed and traded on the New York Stock Exchange and the International Stock Exchange of the United Kingdom and Republic of Ireland. The high, low and closing prices of the Corporation's common stock are from the New York Stock Exchange Composite Transaction Tape.",
+   "supports": "FY1993 10-K: registrant's common stock listed and traded on the NYSE; footnote to a table of 1993 and 1992 quarterly NYSE prices."
+  },
+  {
+   "id": "e005",
+   "form": "DEF 14A",
+   "accession": "0000950123-94-000714",
+   "filing_date": "1994-04-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000095012394000714/0000950123-94-000714.txt",
+   "quote": "FORMER CONFORMED NAME: CHEMICAL NEW YORK CORP DATE OF NAME CHANGE: 19880508",
+   "supports": "SEC header: registrant's former name Chemical New York Corp, changed 1988-05-08."
+  },
+  {
+   "id": "e006",
+   "form": "DEF 14A",
+   "accession": "0000950123-94-000714",
+   "filing_date": "1994-04-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000095012394000714/0000950123-94-000714.txt",
+   "quote": "Set forth below is a line graph comparing the yearly percentage change in the cumulative total stockholder return of the Corporation's Common Stock against the cumulative total return of the S&P 500 Index and the KBW 50 and KBW Money Center Banks indices for the period of five years commencing December 31, 1988 and ended December 31, 1993.",
+   "supports": "1994 proxy performance graph measures the Corporation's common-stock total return from December 31, 1988, i.e. the stock was trading by year-end 1988 (earliest support found in EDGAR)."
+  },
+  {
+   "id": "e007",
+   "form": "DEF 14A",
+   "accession": "0000019617-26-000096",
+   "filing_date": "2026-04-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000096/jpm-20260402.htm",
+   "quote": "The Board of Directors has nominated the 11 individuals listed below. All are independent other than our CEO.",
+   "supports": "2026 proxy: 11 nominees; all independent except the CEO (Dimon)."
+  },
+  {
+   "id": "e008",
+   "form": "DEF 14A",
+   "accession": "0000019617-26-000096",
+   "filing_date": "2026-04-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000096/jpm-20260402.htm",
+   "quote": "1Director of a heritage company of the Firm as follows: Bank One Corporation: Mr. Burke (2003–2004), Mr. Dimon, Chairman of the Board (2000–2004)",
+   "supports": "Predecessor (Bank One) board service counted outside JPM 'Director since': Burke 2003-2004; Dimon Bank One Chairman 2000-2004."
+  },
+  {
+   "id": "e009",
+   "form": "DEF 14A",
+   "accession": "0000019617-26-000096",
+   "filing_date": "2026-04-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000096/jpm-20260402.htm",
+   "quote": "that each non-management director (Linda B. Bammann, Michele G. Buck, Stephen B. Burke, Alicia Boler Davis, Alex Gorsky, Mellody Hobson, Phebe N. Novakovic, Virginia M. Rometty, Brad D. Smith, and Mark A. Weinberger) had only immaterial relationships with JPMorganChase and accordingly is independent.",
+   "supports": "2026 independence determination for all ten non-management directors."
+  },
+  {
+   "id": "e010",
+   "form": "DEF 14A",
+   "accession": "0000019617-26-000096",
+   "filing_date": "2026-04-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000096/jpm-20260402.htm",
+   "quote": "Todd A. Combs, who resigned from the Board in December 2025, had only immaterial relationships with JPMorganChase while a member of the Board and accordingly, was an independent director during the term of his service.",
+   "supports": "Combs resigned December 2025 and was independent throughout his service."
+  },
+  {
+   "id": "e011",
+   "form": "DEF 14A",
+   "accession": "0000019617-26-000096",
+   "filing_date": "2026-04-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000096/jpm-20260402.htm",
+   "quote": "On December 8, 2025, JPMorganChase announced that Todd A. Combs had resigned from the Firm's Board of Directors and would join the Firm as the head of the Strategic Investment Group within the Firm’s Security and Resiliency Initiative (\"SRI\").",
+   "supports": "Combs resigned from the Board (announced 2025-12-08) to join the Firm as an employee."
+  },
+  {
+   "id": "e012",
+   "form": "DEF 14A",
+   "accession": "0000019617-26-000096",
+   "filing_date": "2026-04-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000096/jpm-20260402.htm",
+   "quote": "Following its review, the Governance Committee recommended that the Board continue its current leadership structure and that Stephen B. Burke be re-appointed as Lead Independent Director.",
+   "supports": "March 2026 annual review: Burke re-appointed Lead Independent Director."
+  },
+  {
+   "id": "e013",
+   "form": "DEF 14A",
+   "accession": "0000019617-26-000096",
+   "filing_date": "2026-04-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000096/jpm-20260402.htm",
+   "quote": "All 12 directors serving on our Board at the time of the 2025 annual meeting",
+   "supports": "Board had 12 directors at the 2025 annual meeting (before Combs' December 2025 resignation)."
+  },
+  {
+   "id": "e014",
+   "form": "DEF 14A",
+   "accession": "0000019617-26-000096",
+   "filing_date": "2026-04-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000096/jpm-20260402.htm",
+   "quote": "Earlier this year, we made several committee changes based on these factors: Ginni Rometty now serves as Chair of the Corporate Governance & Nominating Committee (\"CGNC\"), Alex Gorsky and Michele Buck have joined CGNC, and Brad Smith and Alicia Boler Davis have joined the Public Responsibility Committee.",
+   "supports": "Early-2026 committee changes: Rometty chairs Governance; Gorsky and Buck join Governance; Smith and Boler Davis join PRC."
+  },
+  {
+   "id": "e015",
+   "form": "DEF 14A",
+   "accession": "0000019617-26-000096",
+   "filing_date": "2026-04-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000096/jpm-20260402.htm",
+   "quote": "Stephen B. Burke Lead Independent Director Director since 2004 67 Retired Chairman and Chief Executive Officer of NBCUniversal, LLC 1 Compensation & Management Development (Chair); Corporate Governance & Nominating",
+   "supports": "2026 nominee table row for stephen-b-burke: 'Director since' year and principal standing committee memberships (as of 2026-04-06).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e016",
+   "form": "DEF 14A",
+   "accession": "0000019617-26-000096",
+   "filing_date": "2026-04-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000096/jpm-20260402.htm",
+   "quote": "Linda B. Bammann Director since 2013 70 Retired Deputy Head of Risk Management of JPMorgan Chase & Co.3 0 Risk (Chair); Compensation & Management Development",
+   "supports": "2026 nominee table row for linda-b-bammann: 'Director since' year and principal standing committee memberships (as of 2026-04-06).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e017",
+   "form": "DEF 14A",
+   "accession": "0000019617-26-000096",
+   "filing_date": "2026-04-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000096/jpm-20260402.htm",
+   "quote": "Michele G. Buck Director since 2025 64 Retired Chairman, President and Chief Executive Officer of The Hershey Company 0 Audit; Corporate Governance & Nominating",
+   "supports": "2026 nominee table row for michele-g-buck: 'Director since' year and principal standing committee memberships (as of 2026-04-06).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e018",
+   "form": "DEF 14A",
+   "accession": "0000019617-26-000096",
+   "filing_date": "2026-04-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000096/jpm-20260402.htm",
+   "quote": "Alicia Boler Davis Director since 2023 57 President of Ford Pro, Ford Motor Company 0 Public Responsibility; Risk",
+   "supports": "2026 nominee table row for alicia-boler-davis: 'Director since' year and principal standing committee memberships (as of 2026-04-06).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e019",
+   "form": "DEF 14A",
+   "accession": "0000019617-26-000096",
+   "filing_date": "2026-04-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000096/jpm-20260402.htm",
+   "quote": "James Dimon Director since 2004 70 Chairman and Chief Executive Officer of JPMorgan Chase & Co. 0",
+   "supports": "2026 nominee table row for jamie-dimon: 'Director since' year and principal standing committee memberships (as of 2026-04-06).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e020",
+   "form": "DEF 14A",
+   "accession": "0000019617-26-000096",
+   "filing_date": "2026-04-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000096/jpm-20260402.htm",
+   "quote": "Alex Gorsky Director since 2022 65 Retired Chairman and Chief Executive Officer of Johnson & Johnson 2 Audit; Corporate Governance & Nominating",
+   "supports": "2026 nominee table row for alex-gorsky: 'Director since' year and principal standing committee memberships (as of 2026-04-06).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e021",
+   "form": "DEF 14A",
+   "accession": "0000019617-26-000096",
+   "filing_date": "2026-04-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000096/jpm-20260402.htm",
+   "quote": "Mellody Hobson Director since 2018 57 Co-Chief Executive Officer and President of Ariel Investments, LLC 0 Public Responsibility (Chair); Risk",
+   "supports": "2026 nominee table row for mellody-hobson: 'Director since' year and principal standing committee memberships (as of 2026-04-06).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e022",
+   "form": "DEF 14A",
+   "accession": "0000019617-26-000096",
+   "filing_date": "2026-04-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000096/jpm-20260402.htm",
+   "quote": "Phebe N. Novakovic Director since 2020 68 Chairman and Chief Executive Officer of General Dynamics Corporation 1 Audit; Public Responsibility",
+   "supports": "2026 nominee table row for phebe-n-novakovic: 'Director since' year and principal standing committee memberships (as of 2026-04-06).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e023",
+   "form": "DEF 14A",
+   "accession": "0000019617-26-000096",
+   "filing_date": "2026-04-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000096/jpm-20260402.htm",
+   "quote": "Virginia M. Rometty Director since 2020 68 Retired Executive Chairman, President and Chief Executive Officer of International Business Machines Corporation (“IBM”) 0 Corporate Governance & Nominating (Chair); Compensation & Management Development",
+   "supports": "2026 nominee table row for virginia-m-rometty: 'Director since' year and principal standing committee memberships (as of 2026-04-06).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e024",
+   "form": "DEF 14A",
+   "accession": "0000019617-26-000096",
+   "filing_date": "2026-04-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000096/jpm-20260402.htm",
+   "quote": "Brad D. Smith Director since 2025 62 President of Marshall University and Retired Executive Chairman, President and Chief Executive Officer of Intuit Inc. 1 Public Responsibility; Risk",
+   "supports": "2026 nominee table row for brad-d-smith: 'Director since' year and principal standing committee memberships (as of 2026-04-06).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e025",
+   "form": "DEF 14A",
+   "accession": "0000019617-26-000096",
+   "filing_date": "2026-04-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000096/jpm-20260402.htm",
+   "quote": "Mark A. Weinberger Director since 2024 64 Retired Global Chairman and Chief Executive Officer of Ernst & Young LLP 2 Audit (Chair)",
+   "supports": "2026 nominee table row for mark-a-weinberger: 'Director since' year and principal standing committee memberships (as of 2026-04-06).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e026",
+   "form": "DEF 14A",
+   "accession": "0000019617-26-000096",
+   "filing_date": "2026-04-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000096/jpm-20260402.htm",
+   "quote": "Stephen B. Burke Retired Chairman and Chief Executive Officer of NBCUniversal, LLC Lead Independent Director since 2021 Age: 67 Director since: 2004 Committees: Compensation & Management Development Committee (Chair) Corporate Governance & Nominating Committee",
+   "supports": "2026 proxy biography header for stephen-b-burke: director-since and committees."
+  },
+  {
+   "id": "e027",
+   "form": "DEF 14A",
+   "accession": "0000019617-26-000096",
+   "filing_date": "2026-04-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000096/jpm-20260402.htm",
+   "quote": "Linda B. Bammann Retired Deputy Head of Risk Management of JPMorgan Chase & Co. Age: 70 Director since: 2013 Committees: Risk Committee (Chair) Compensation & Management Development Committee",
+   "supports": "2026 proxy biography header for linda-b-bammann: director-since and committees."
+  },
+  {
+   "id": "e028",
+   "form": "DEF 14A",
+   "accession": "0000019617-26-000096",
+   "filing_date": "2026-04-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000096/jpm-20260402.htm",
+   "quote": "Michele G. Buck Retired Chairman, President and Chief Executive Officer of The Hershey Company Age: 64 Director since: 2025 Committees: Audit Committee Corporate Governance & Nominating Committee",
+   "supports": "2026 proxy biography header for michele-g-buck: director-since and committees."
+  },
+  {
+   "id": "e029",
+   "form": "DEF 14A",
+   "accession": "0000019617-26-000096",
+   "filing_date": "2026-04-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000096/jpm-20260402.htm",
+   "quote": "Alicia Boler Davis President of Ford Pro, Ford Motor Company Age: 57 Director since: 2023 Committees: Public Responsibility Committee Risk Committee",
+   "supports": "2026 proxy biography header for alicia-boler-davis: director-since and committees."
+  },
+  {
+   "id": "e030",
+   "form": "DEF 14A",
+   "accession": "0000019617-26-000096",
+   "filing_date": "2026-04-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000096/jpm-20260402.htm",
+   "quote": "James Dimon Chairman and Chief Executive Officer of JPMorgan Chase & Co. Age: 70 Director since: 2004 and Chairman of the Board since 2006",
+   "supports": "2026 proxy biography header for jamie-dimon: director-since and committees."
+  },
+  {
+   "id": "e031",
+   "form": "DEF 14A",
+   "accession": "0000019617-26-000096",
+   "filing_date": "2026-04-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000096/jpm-20260402.htm",
+   "quote": "Alex Gorsky Retired Chairman and Chief Executive Officer of Johnson & Johnson Age: 65 Director since: 2022 Committees: Audit Committee Corporate Governance & Nominating Committee",
+   "supports": "2026 proxy biography header for alex-gorsky: director-since and committees."
+  },
+  {
+   "id": "e032",
+   "form": "DEF 14A",
+   "accession": "0000019617-26-000096",
+   "filing_date": "2026-04-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000096/jpm-20260402.htm",
+   "quote": "Mellody Hobson Co-Chief Executive Officer and President of Ariel Investments, LLC Age: 57 Director since: 2018 Committees: Public Responsibility Committee (Chair) Risk Committee",
+   "supports": "2026 proxy biography header for mellody-hobson: director-since and committees."
+  },
+  {
+   "id": "e033",
+   "form": "DEF 14A",
+   "accession": "0000019617-26-000096",
+   "filing_date": "2026-04-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000096/jpm-20260402.htm",
+   "quote": "Phebe N. Novakovic Chairman and Chief Executive Officer of General Dynamics Corporation Age: 68 Director since: 2020 Committees: Audit Committee Public Responsibility Committee",
+   "supports": "2026 proxy biography header for phebe-n-novakovic: director-since and committees."
+  },
+  {
+   "id": "e034",
+   "form": "DEF 14A",
+   "accession": "0000019617-26-000096",
+   "filing_date": "2026-04-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000096/jpm-20260402.htm",
+   "quote": "Virginia M. Rometty Retired Executive Chairman, President and Chief Executive Officer of IBM Age: 68 Director since: 2020 Committees: Corporate Governance & Nominating Committee (Chair) Compensation & Management Development Committee",
+   "supports": "2026 proxy biography header for virginia-m-rometty: director-since and committees."
+  },
+  {
+   "id": "e035",
+   "form": "DEF 14A",
+   "accession": "0000019617-26-000096",
+   "filing_date": "2026-04-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000096/jpm-20260402.htm",
+   "quote": "Brad D. Smith President of Marshall University and Retired Executive Chairman, President and Chief Executive Officer of Intuit Inc. Age: 62 Director since: 2025 Committees: Public Responsibility Committee Risk Committee",
+   "supports": "2026 proxy biography header for brad-d-smith: director-since and committees."
+  },
+  {
+   "id": "e036",
+   "form": "DEF 14A",
+   "accession": "0000019617-26-000096",
+   "filing_date": "2026-04-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000096/jpm-20260402.htm",
+   "quote": "Mark A. Weinberger Retired Global Chairman and Chief Executive Officer of Ernst & Young LLP (“EY”) Age: 64 Director since: 2024 Committees: Audit Committee (Chair)",
+   "supports": "2026 proxy biography header for mark-a-weinberger: director-since and committees."
+  },
+  {
+   "id": "e037",
+   "form": "DEF 14A",
+   "accession": "0000019617-26-000096",
+   "filing_date": "2026-04-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000096/jpm-20260402.htm",
+   "quote": "JPMorgan Chase & Co. (merged with Bank One Corporation in 2004) •Chairman of the Board (since 2006) and Director (since 2004); Chief Executive Officer (since 2005) •President (2004-2018) •Chief Operating Officer (2004-2005) •Chairman and Chief Executive Officer at Bank One Corporation (2000-2004)",
+   "supports": "Dimon: Chairman since 2006, director since 2004, CEO since 2005; President 2004-2018; COO 2004-2005; Bank One Chairman & CEO 2000-2004."
+  },
+  {
+   "id": "e038",
+   "form": "DEF 14A",
+   "accession": "0000019617-26-000096",
+   "filing_date": "2026-04-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000096/jpm-20260402.htm",
+   "quote": "Other U.S.-Listed Public Company Directorships Within the Past Five Years •Berkshire Hathaway Inc. (since 2009) •Snowflake Inc. (2023-2024) Other Experience •Former Chairman, Children’s Hospital of Philadelphia Stephen B. Burke",
+   "supports": "Burke other public boards (2026 bio): Berkshire Hathaway (since 2009); Snowflake (2023-2024)."
+  },
+  {
+   "id": "e039",
+   "form": "DEF 14A",
+   "accession": "0000019617-26-000096",
+   "filing_date": "2026-04-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000096/jpm-20260402.htm",
+   "quote": "Other U.S.-Listed Public Company Directorships Within the Past Five Years •The Hershey Company (2017-2025)",
+   "supports": "Buck other public boards (2026 bio): The Hershey Company (2017-2025)."
+  },
+  {
+   "id": "e040",
+   "form": "DEF 14A",
+   "accession": "0000019617-26-000096",
+   "filing_date": "2026-04-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000096/jpm-20260402.htm",
+   "quote": "Other U.S.-Listed Public Company Directorships Within the Past Five Years •None Other Experience •Trustee, Northwestern University •Former Board Member, General Mills, Inc. •Former Board Member, Beaumont Health Systems •Former Board Member, CARE House of Oakland County Alicia Boler Davis",
+   "supports": "Boler Davis 2026 bio: no other U.S.-listed public boards in past five years; 'Former Board Member, General Mills, Inc.' under Other Experience."
+  },
+  {
+   "id": "e041",
+   "form": "DEF 14A",
+   "accession": "0000019617-26-000096",
+   "filing_date": "2026-04-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000096/jpm-20260402.htm",
+   "quote": "Other U.S.-Listed Public Company Directorships Within the Past Five Years •Apple Inc. (since 2021) •IBM (since 2014) •Johnson & Johnson (2012-2022)",
+   "supports": "Gorsky other public boards (2026 bio): Apple (since 2021); IBM (since 2014); Johnson & Johnson (2012-2022)."
+  },
+  {
+   "id": "e042",
+   "form": "DEF 14A",
+   "accession": "0000019617-26-000096",
+   "filing_date": "2026-04-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000096/jpm-20260402.htm",
+   "quote": "Other U.S.-Listed Public Company Directorships Within the Past Five Years •Starbucks Corporation (2005-2025) Other Experience",
+   "supports": "Hobson other public boards (2026 bio): Starbucks (2005-2025)."
+  },
+  {
+   "id": "e043",
+   "form": "DEF 14A",
+   "accession": "0000019617-26-000096",
+   "filing_date": "2026-04-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000096/jpm-20260402.htm",
+   "quote": "Other U.S.-Listed Public Company Directorships Within the Past Five Years •General Dynamics Corporation — Chairman (since 2013); member (since 2012) •Abbott Laboratories (2010-2021)",
+   "supports": "Novakovic other public boards (2026 bio): General Dynamics (Chairman since 2013; member since 2012); Abbott Laboratories (2010-2021)."
+  },
+  {
+   "id": "e044",
+   "form": "DEF 14A",
+   "accession": "0000019617-26-000096",
+   "filing_date": "2026-04-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000096/jpm-20260402.htm",
+   "quote": "Other U.S.-Listed Public Company Directorships Within the Past Five Years •Amazon.com, Inc. (since 2023) •Humana Inc. (2022-2025) •SurveyMonkey, formerly Momentive Global Inc. and SVMK Inc. (2017-2022) •Nordstrom, Inc. (2013-2022) •Intuit Inc. (2008-2022) Other Experience •Co-Founder, Wing 2 Wing Foundation Brad D. Smith",
+   "supports": "Smith other public boards (2026 bio): Amazon.com (since 2023); Humana (2022-2025); SurveyMonkey/Momentive/SVMK (2017-2022); Nordstrom (2013-2022); Intuit (2008-2022)."
+  },
+  {
+   "id": "e045",
+   "form": "DEF 14A",
+   "accession": "0000019617-26-000096",
+   "filing_date": "2026-04-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000096/jpm-20260402.htm",
+   "quote": "Other U.S.-Listed Public Company Directorships Within the Past Five Years •Johnson & Johnson (since 2019) •MetLife, Inc. (since 2019) •Accelerate Acquisition Corp. (2021-2022) Non-U.S.-Listed Public Company Directorships Within the Past Five Years •Saudi Arabian Oil Co. (Saudi Aramco) (since 2019)",
+   "supports": "Weinberger other public boards (2026 bio): Johnson & Johnson (since 2019); MetLife (since 2019); Accelerate Acquisition Corp. (2021-2022); Saudi Aramco (non-U.S.-listed, since 2019)."
+  },
+  {
+   "id": "e046",
+   "form": "DEF 14A",
+   "accession": "0000019617-26-000096",
+   "filing_date": "2026-04-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000096/jpm-20260402.htm",
+   "quote": "Other U.S.-Listed Public Company Directorships Within the Past Five Years •None",
+   "supports": "Bammann 2026 bio: no other U.S.-listed public company directorships in the past five years."
+  },
+  {
+   "id": "e047",
+   "form": "DEF 14A",
+   "accession": "0000019617-23-000281",
+   "filing_date": "2023-04-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961723000281/jpm-20230403.htm",
+   "quote": "Other Public Company Directorships Within the Past Five Years •General Mills, Inc. (2016 - 2019)",
+   "supports": "2023 proxy (Boler Davis bio): General Mills, Inc. (2016 - 2019)."
+  },
+  {
+   "id": "e048",
+   "form": "8-K",
+   "accession": "0001193125-04-112906",
+   "filing_date": "2004-07-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000119312504112906/d8k.htm",
+   "quote": "Effective July 1, 2004, the current directors are as follows: Hans W. Becherer, John H. Biggs, Lawrence A. Bossidy, Stephen B. Burke, James S. Crown, James Dimon, Ellen V. Futter, William H. Gray, III, William B. Harrison, Jr., Laban P. Jackson, Jr., John W. Kessler, Robert I. Lipp, Richard A. Manoogian, David C. Novak, Lee R. Raymond, and John R. Stafford.",
+   "supports": "Board composition effective 2004-07-01 on completion of the Bank One merger: includes Burke, Crown, Dimon, Jackson (joining from Bank One) and Raymond (continuing)."
+  },
+  {
+   "id": "e049",
+   "form": "8-K",
+   "accession": "0000019617-13-000380",
+   "filing_date": "2013-09-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961713000380/jpmc8-kseptember2013.htm",
+   "quote": "elected Linda B. Bammann as a director, effective September 16, 2013.",
+   "supports": "Bammann elected director effective 2013-09-16 (8-K Item 5.02(d))."
+  },
+  {
+   "id": "e050",
+   "form": "8-K",
+   "accession": "0000019617-18-000064",
+   "filing_date": "2018-03-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961718000064/a8-kdocumenthobson.htm",
+   "quote": "elected Ms. Mellody Hobson as a director, effective March 21, 2018.",
+   "supports": "Hobson elected director effective 2018-03-21 (8-K Item 5.02(d))."
+  },
+  {
+   "id": "e051",
+   "form": "8-K",
+   "accession": "0000019617-20-000431",
+   "filing_date": "2020-10-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961720000431/jpm-20201028.htm",
+   "quote": "elected Phebe N. Novakovic as a director, effective December 7, 2020.",
+   "supports": "Novakovic elected director effective 2020-12-07 (8-K Item 5.02(d), filed 2020-10-28)."
+  },
+  {
+   "id": "e052",
+   "form": "8-K",
+   "accession": "0000019617-20-000339",
+   "filing_date": "2020-05-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961720000339/ots8k05202020agm.htm",
+   "quote": "Virginia M. Rometty was elected as a director at the Firm’s 2020 Annual Meeting.",
+   "supports": "Rometty elected at the 2020 annual meeting."
+  },
+  {
+   "id": "e053",
+   "form": "8-K",
+   "accession": "0000019617-20-000339",
+   "filing_date": "2020-05-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961720000339/ots8k05202020agm.htm",
+   "quote": "Registrant held its Annual Meeting of Shareholders on Tuesday, May 19, 2020",
+   "supports": "2020 annual meeting date: 2020-05-19."
+  },
+  {
+   "id": "e054",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-098865",
+   "filing_date": "2020-04-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000119312520098865/d822689ddef14a.htm",
+   "quote": "Virginia M. Rometty is a new nominee who, if elected, will join the Board following the annual meeting on May 19, 2020.",
+   "supports": "Rometty would join the Board following the 2020-05-19 annual meeting."
+  },
+  {
+   "id": "e055",
+   "form": "8-K",
+   "accession": "0000019617-22-000414",
+   "filing_date": "2022-07-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961722000414/jpm-20220719.htm",
+   "quote": "JPMorgan Chase & Co. elected Alex Gorsky as a director, effective July 19, 2022.",
+   "supports": "Gorsky elected director effective 2022-07-19 (8-K Item 5.02(d))."
+  },
+  {
+   "id": "e056",
+   "form": "8-K",
+   "accession": "0000019617-23-000082",
+   "filing_date": "2023-01-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961723000082/jpm-20230117.htm",
+   "quote": "elected Alicia Boler Davis as a director, effective March 20, 2023.",
+   "supports": "Boler Davis elected director effective 2023-03-20 (8-K Item 5.02(d), filed 2023-01-17)."
+  },
+  {
+   "id": "e057",
+   "form": "8-K",
+   "accession": "0000019617-24-000079",
+   "filing_date": "2024-01-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000079/jpm-20240116.htm",
+   "quote": "JPMorgan Chase & Co. elected Mark Weinberger as a director, effective January 16, 2024, and the Board of Directors appointed him as a member of the Audit Committee.",
+   "supports": "Weinberger elected director effective 2024-01-16 and appointed to the Audit Committee."
+  },
+  {
+   "id": "e058",
+   "form": "8-K",
+   "accession": "0000019617-24-000595",
+   "filing_date": "2024-10-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000595/jpm-20241015.htm",
+   "quote": "JPMorgan Chase & Co. elected Brad Smith as a director, effective January 21, 2025.",
+   "supports": "Smith elected director effective 2025-01-21 (8-K Item 5.02(d), filed 2024-10-17)."
+  },
+  {
+   "id": "e059",
+   "form": "8-K",
+   "accession": "0000019617-24-000660",
+   "filing_date": "2024-12-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000660/jpm-20241209.htm",
+   "quote": "JPMorgan Chase & Co. elected Michele G. Buck as a director, effective March 17, 2025.",
+   "supports": "Buck elected director effective 2025-03-17 (8-K Item 5.02(d), filed 2024-12-12)."
+  },
+  {
+   "id": "e060",
+   "form": "8-K",
+   "accession": "0000019617-26-000228",
+   "filing_date": "2026-05-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000228/jpm-20260519.htm",
+   "quote": "Registrant held its Annual Meeting of Shareholders on Tuesday, May 19, 2026",
+   "supports": "2026 annual meeting date: 2026-05-19."
+  },
+  {
+   "id": "e061",
+   "form": "8-K",
+   "accession": "0000019617-26-000228",
+   "filing_date": "2026-05-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000228/jpm-20260519.htm",
+   "quote": "Proposal 1 - Shareholders elected the 11 director nominees named in the Proxy Statement.",
+   "supports": "All 11 nominees elected at the 2026 annual meeting."
+  },
+  {
+   "id": "e062",
+   "form": "8-K",
+   "accession": "0000019617-06-000007",
+   "filing_date": "2006-01-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961706000007/dimon8k.htm",
+   "quote": "James Dimon has succeeded Mr. Harrison as Chief Executive Officer, effective December 31, 2005. Mr. Dimon also retains the position of President. Mr. Dimon, 49, has been President and Chief Operating Officer of Registrant since July 2004.",
+   "supports": "Dimon CEO effective 2005-12-31; President and COO since July 2004."
+  },
+  {
+   "id": "e063",
+   "form": "8-K",
+   "accession": "0000019617-07-000012",
+   "filing_date": "2007-01-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961707000012/form8klr.htm",
+   "quote": "As previously announced, effective December 31, 2006, William B. Harrison, Jr. retired as Chairman of the Board of the Registrant and James Dimon became Chairman of the Board in addition to his position as Chief Executive Officer of the Registrant.",
+   "supports": "Dimon became Chairman of the Board effective 2006-12-31."
+  },
+  {
+   "id": "e064",
+   "form": "8-K",
+   "accession": "0000019617-06-000633",
+   "filing_date": "2006-12-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961706000633/jd8k.htm",
+   "quote": "announced the election of Jamie Dimon to the position of Chairman of the Board, effective December 31, 2006",
+   "supports": "Company also refers to James Dimon as 'Jamie Dimon'."
+  },
+  {
+   "id": "e065",
+   "form": "8-K",
+   "accession": "0000019617-20-000422",
+   "filing_date": "2020-09-15",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961720000422/ots8k09152020.htm",
+   "quote": "On September 15, 2020, JPMorgan Chase & Co. issued a press release announcing that the independent directors of the Board of Directors have appointed Stephen B. Burke as Lead Independent Director, effective January 1, 2021.",
+   "supports": "Burke appointed Lead Independent Director effective 2021-01-01 (announced 2020-09-15)."
+  },
+  {
+   "id": "e066",
+   "form": "8-K",
+   "accession": "0000019617-20-000422",
+   "filing_date": "2020-09-15",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961720000422/jpmcappointlid2020915.htm",
+   "quote": "The Board of Directors of JPMorgan Chase & Co. today announced that the independent directors of the Board have appointed Stephen B. Burke as Lead Independent Director, effective January 1, 2021, succeeding Lee Raymond in that role.",
+   "supports": "Press release: Burke succeeds Lee Raymond as Lead Independent Director effective 2021-01-01."
+  },
+  {
+   "id": "e067",
+   "form": "DEF 14A",
+   "accession": "0000019617-21-000275",
+   "filing_date": "2021-04-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961721000275/a2021proxystatement.htm",
+   "quote": "In September 2020, the independent directors of the Board unanimously elected Stephen B. Burke as Lead Independent Director, succeeding Lee R. Raymond, effective January 1, 2021.",
+   "supports": "2021 proxy: Burke LID effective 2021-01-01, succeeding Raymond."
+  },
+  {
+   "id": "e068",
+   "form": "8-K",
+   "accession": "0001193125-13-362724",
+   "filing_date": "2013-09-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000119312513362724/d595480dex991.htm",
+   "quote": "Establishment of a Lead Independent Director role Lee R. Raymond, formerly Presiding Director, continues as Lead Independent Director",
+   "supports": "September 9, 2013 presentation (8-K Ex. 99.1): Lead Independent Director role established; Raymond, formerly Presiding Director, continues as LID."
+  },
+  {
+   "id": "e069",
+   "form": "8-K",
+   "accession": "0000019617-13-000380",
+   "filing_date": "2013-09-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961713000380/jpmc8-kseptember2013.htm",
+   "quote": "On September 17, 2013, the Board of Directors of the Company approved conforming amendments to the Bylaws of the Company, as follows: Sections 2.03 and 2.05 were amended to require a Lead Independent Director when the same person serves as Chairman of the Board and Chief Executive Officer",
+   "supports": "By-laws amended 2013-09-17 to require a Lead Independent Director when Chairman and CEO roles are combined."
+  },
+  {
+   "id": "e070",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-098865",
+   "filing_date": "2020-04-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000119312520098865/d822689ddef14a.htm",
+   "quote": "Lee R. Raymond (Lead Independent Director) Director since 2001 81 Retired Chairman and Chief Executive Officer of Exxon Mobil Corporation 0 Compensation & Management Development (Chair); Corporate Governance & Nominating",
+   "supports": "2020 nominee table: Raymond (Lead Independent Director), Director since 2001, CMDC (Chair); Governance.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e071",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-098865",
+   "filing_date": "2020-04-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000119312520098865/d822689ddef14a.htm",
+   "quote": "Director of a heritage company of the Firm as follows: Bank One Corporation: Mr. Burke (2003–2004), Mr. Crown (1996–2004), Mr. Dimon, Chairman of the Board (2000–2004); First Chicago Corp.: Mr. Crown (1991–1996); and J.P. Morgan & Co. Incorporated: Mr. Raymond (1987–2000)",
+   "supports": "Heritage-company board service (2020 proxy): Burke Bank One 2003-2004; Crown Bank One 1996-2004 and First Chicago 1991-1996; Dimon Bank One Chairman 2000-2004; Raymond J.P. Morgan & Co. 1987-2000."
+  },
+  {
+   "id": "e072",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-098865",
+   "filing_date": "2020-04-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000119312520098865/d822689ddef14a.htm",
+   "quote": "and elected Mr. Raymond to continue to serve as Lead Independent Director.",
+   "supports": "2020 proxy: Raymond continues as Lead Independent Director."
+  },
+  {
+   "id": "e073",
+   "form": "DEF 14A",
+   "accession": "0000019617-14-000321",
+   "filing_date": "2014-04-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961714000321/jpm2014definitiveproxy.htm",
+   "quote": "Lee R. Raymond, 75 (Lead Independent Director) Director since 2001 and Director of J.P. Morgan & Co. Incorporated from 1987 to 2000",
+   "supports": "Raymond: JPM director since 2001; J.P. Morgan & Co. Incorporated director 1987-2000 (predecessor)."
+  },
+  {
+   "id": "e074",
+   "form": "DEF 14A",
+   "accession": "0000950123-01-002886",
+   "filing_date": "2001-03-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000095012301002886/y45106def14a.txt",
+   "quote": "LEE R. RAYMOND (AGE 62) Chairman of the Board and Chief Executive Officer of Exxon Mobil Corporation (oil and gas). Mr. Raymond has been a director of the Firm or a predecessor institution since 1987.",
+   "supports": "2001 proxy: Raymond a director of the Firm or a predecessor institution since 1987 (counts J.P. Morgan & Co. service)."
+  },
+  {
+   "id": "e075",
+   "form": "8-K",
+   "accession": "0000019617-20-000532",
+   "filing_date": "2020-12-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961720000532/jpm-20201218.htm",
+   "quote": "On December 15, 2020 Lee R. Raymond notified the Company of his intention to resign as a member of the Board of Directors, effective December 31, 2020.",
+   "supports": "Raymond resigned effective 2020-12-31 (8-K Item 5.02)."
+  },
+  {
+   "id": "e076",
+   "form": "DEF 14A",
+   "accession": "0000019617-21-000275",
+   "filing_date": "2021-04-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961721000275/a2021proxystatement.htm",
+   "quote": "James A. Bell and Laban P. Jackson, Jr., who retired in May 2020, and Lee R. Raymond who retired in December 2020, had only immaterial relationships with JPMorgan Chase and accordingly were independent directors.",
+   "supports": "2021 proxy: Bell and Jackson retired May 2020; Raymond retired December 2020; all independent during service."
+  },
+  {
+   "id": "e077",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-098865",
+   "filing_date": "2020-04-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000119312520098865/d822689ddef14a.htm",
+   "quote": "• Chairman and Chief Executive Officer of ExxonMobil (1999–2005) • Chairman and Chief Executive Officer of Exxon Corporation (1993–1999) Other Public Company Directorships • None",
+   "supports": "Raymond 2020 bio (his last): career at ExxonMobil/Exxon; other public company directorships: None."
+  },
+  {
+   "id": "e078",
+   "form": "8-K",
+   "accession": "0001193125-11-302087",
+   "filing_date": "2011-11-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000119312511302087/d253733d8k.htm",
+   "quote": "elected James A. Bell as a director, effective November 8, 2011.",
+   "supports": "Bell elected director effective 2011-11-08 (8-K Item 5.02(d))."
+  },
+  {
+   "id": "e079",
+   "form": "8-K",
+   "accession": "0000019617-20-000268",
+   "filing_date": "2020-03-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961720000268/ots8k03192020.htm",
+   "quote": "two of its directors, James A. Bell and Laban P. Jackson, Jr., have decided to retire from the Board of Directors of the Firm (the “Board”) when their terms expire on the eve of the 2020 Annual Meeting of Shareholders.",
+   "supports": "Bell and Jackson to retire when terms expire on the eve of the 2020 annual meeting (8-K 2020-03-19)."
+  },
+  {
+   "id": "e080",
+   "form": "8-K",
+   "accession": "0000019617-20-000339",
+   "filing_date": "2020-05-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961720000339/ots8k05202020agm.htm",
+   "quote": "Messrs. James A. Bell and Laban P. Jackson, Jr., who served as directors of the Firm since 2011 and 2004 respectively, retired from the Board on the eve of the 2020 annual meeting.",
+   "supports": "Bell (director since 2011) and Jackson (since 2004) retired on the eve of the 2020 annual meeting (8-K Item 5.02(b))."
+  },
+  {
+   "id": "e081",
+   "form": "8-K",
+   "accession": "0000019617-20-000339",
+   "filing_date": "2020-05-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961720000339/ots8k05202020agm.htm",
+   "quote": "the Board of Directors appointed Timothy P. Flynn as Chair of the Audit Committee, succeeding Mr. Bell, and appointed Todd A. Combs and Michael A. Neal as members of the Audit Committee. Messrs. Combs and Neal stepped down from the Public Responsibility Committee and Risk Committee, respectively. James S. Crown was appointed as Chair of the Public Responsibility Committee, succeeding Mr. Flynn.",
+   "supports": "Post-2020 annual meeting committee changes: Flynn succeeds Bell as Audit Chair; Combs and Neal join Audit; Crown becomes PRC Chair."
+  },
+  {
+   "id": "e082",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-098865",
+   "filing_date": "2020-04-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000119312520098865/d822689ddef14a.htm",
+   "quote": "James A. Bell, who has served as a director of the Firm since 2011, and Laban P. Jackson, Jr., who has served as a director of the Firm since 2004, have decided to retire from the Board and are not standing for re-election when their terms expire on the eve of this year’s annual meeting.",
+   "supports": "2020 proxy: Bell (since 2011) and Jackson (since 2004) not standing for re-election; terms expire on the eve of the annual meeting."
+  },
+  {
+   "id": "e083",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-098865",
+   "filing_date": "2020-04-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000119312520098865/d822689ddef14a.htm",
+   "quote": "Mr. Bell is not standing for re-election when his term expires on the eve of this year’s annual meeting. A new Chair of the Audit Committee will be elected by the Board following the annual meeting.",
+   "supports": "Bell was Audit Committee Chair as of the 2020 proxy."
+  },
+  {
+   "id": "e084",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-098865",
+   "filing_date": "2020-04-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000119312520098865/d822689ddef14a.htm",
+   "quote": "Mr. Jackson is not standing for re-election when his term expires on the eve of this year’s annual meeting. A new member of the Audit Committee will be appointed by the Board following the annual meeting.",
+   "supports": "Jackson was an Audit Committee member as of the 2020 proxy."
+  },
+  {
+   "id": "e085",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-098865",
+   "filing_date": "2020-04-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000119312520098865/d822689ddef14a.htm",
+   "quote": "that each non-management director and nominee (Linda B. Bammann, James A. Bell, Stephen B. Burke, Todd A. Combs, James S. Crown, Timothy P. Flynn, Mellody Hobson, Laban P. Jackson, Jr., Michael A. Neal, Lee R. Raymond and Virginia M. Rometty) had only immaterial relationships with JPMorgan Chase and accordingly is independent.",
+   "supports": "2020 independence determination incl. Bell, Jackson, Raymond, Crown, Flynn, Neal, Combs, Hobson, Burke, Bammann, Rometty."
+  },
+  {
+   "id": "e086",
+   "form": "DEF 14A",
+   "accession": "0000019617-14-000321",
+   "filing_date": "2014-04-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961714000321/jpm2014definitiveproxy.htm",
+   "quote": "Laban P. Jackson, Jr., 71 Director since 2004 and Director of Bank One Corporation from 1993 to 2004",
+   "supports": "Jackson: JPM director since 2004; Bank One director 1993-2004 (predecessor)."
+  },
+  {
+   "id": "e087",
+   "form": "DEF 14A",
+   "accession": "0001193125-19-098338",
+   "filing_date": "2019-04-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000119312519098338/d695908ddef14a.htm",
+   "quote": "Other Public Company Directorships ◾Apple Inc. (since 2015) ◾CDW Corporation (since 2005) ◾Dow DuPont Inc. (formerly Dow Chemical Company Inc.) (since 2005)",
+   "supports": "Bell other public boards (2019 bio, his last): Apple (since 2015); CDW (since 2005); DowDuPont (since 2005)."
+  },
+  {
+   "id": "e088",
+   "form": "DEF 14A",
+   "accession": "0001193125-19-098338",
+   "filing_date": "2019-04-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000119312519098338/d695908ddef14a.htm",
+   "quote": "Age: 70 Director since: 2011 Committees: Audit Committee (Chair)",
+   "supports": "Bell 2019 bio: director since 2011; Audit Committee Chair."
+  },
+  {
+   "id": "e089",
+   "form": "DEF 14A",
+   "accession": "0001193125-19-098338",
+   "filing_date": "2019-04-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000119312519098338/d695908ddef14a.htm",
+   "quote": "Clear Creek Properties, Inc., a real estate development company ◾Chairman and Chief Executive Officer (since 1989) Other Public Company Directorships ◾The Home Depot (2004–2008)",
+   "supports": "Jackson other public boards (2019 bio, his last): The Home Depot (2004-2008)."
+  },
+  {
+   "id": "e090",
+   "form": "8-K",
+   "accession": "0000019617-23-000408",
+   "filing_date": "2023-06-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961723000408/jpm-20230625.htm",
+   "quote": "James S. Crown, a member of the Board of Directors of JPMorgan Chase & Co. since 2004, passed away on June 25, 2023.",
+   "supports": "Crown died 2023-06-25 while a director (8-K Item 8.01)."
+  },
+  {
+   "id": "e091",
+   "form": "8-K",
+   "accession": "0000019617-23-000408",
+   "filing_date": "2023-06-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961723000408/rememberingjimcrown.htm",
+   "quote": "A member of our Board of Directors since 2004, Jim was a director of Bank One Corporation from 1991 to 2004.",
+   "supports": "Crown ('Jim'): JPM director since 2004; Bank One director 1991-2004 (predecessor)."
+  },
+  {
+   "id": "e092",
+   "form": "DEF 14A",
+   "accession": "0000019617-23-000281",
+   "filing_date": "2023-04-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961723000281/jpm-20230403.htm",
+   "quote": "Director since: 2004 Committees: •Public Responsibility Committee (Chair) •Risk Committee James S. Crown",
+   "supports": "Crown 2023 bio (his last proxy): director since 2004; PRC (Chair); Risk."
+  },
+  {
+   "id": "e093",
+   "form": "DEF 14A",
+   "accession": "0000019617-23-000281",
+   "filing_date": "2023-04-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961723000281/jpm-20230403.htm",
+   "quote": "James S. Crown Director since 2004 69 Chairman and Chief Executive Officer of Henry Crown and Company 1 Public Responsibility (Chair); Risk",
+   "supports": "2023 nominee table: Crown, Director since 2004; PRC (Chair); Risk.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e094",
+   "form": "DEF 14A",
+   "accession": "0000019617-23-000281",
+   "filing_date": "2023-04-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961723000281/jpm-20230403.htm",
+   "quote": "Other Public Company Directorships Within the Past Five Years •General Dynamics Corporation (since 1987) — Lead Director since 2010",
+   "supports": "Crown other public boards (2023 bio): General Dynamics (since 1987; Lead Director since 2010)."
+  },
+  {
+   "id": "e095",
+   "form": "DEF 14A",
+   "accession": "0000019617-23-000281",
+   "filing_date": "2023-04-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961723000281/jpm-20230403.htm",
+   "quote": "that each non-management director (Linda B. Bammann, Stephen B. Burke, Todd A. Combs, James S. Crown, Alicia Boler Davis, Timothy P. Flynn, Alex Gorsky, Mellody Hobson, Michael A. Neal, Phebe N. Novakovic and Virginia M. Rometty) had only immaterial relationships with JPMorgan Chase and accordingly is independent.",
+   "supports": "2023 independence determination incl. Crown, Flynn, Neal, Combs."
+  },
+  {
+   "id": "e096",
+   "form": "DEF 14A",
+   "accession": "0000019617-24-000273",
+   "filing_date": "2024-04-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000273/jpm-20240406.htm",
+   "quote": "Mr. Crown passed away in June 2023.",
+   "supports": "2024 proxy confirms Crown died June 2023."
+  },
+  {
+   "id": "e097",
+   "form": "8-K",
+   "accession": "0000019617-12-000169",
+   "filing_date": "2012-03-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961712000169/flynnnomination.htm",
+   "quote": "its Board of Directors nominated Timothy P. Flynn, retired Chairman of KPMG International, for election as a director at the Firm's annual meeting of shareholders on May 15, 2012.",
+   "supports": "Flynn nominated for election at the 2012-05-15 annual meeting."
+  },
+  {
+   "id": "e098",
+   "form": "8-K",
+   "accession": "0000019617-12-000243",
+   "filing_date": "2012-05-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961712000243/annualmeetingvoteresults.htm",
+   "quote": "Registrant held its Annual Meeting of Shareholders on Tuesday, May 15, 2012",
+   "supports": "2012 annual meeting date: 2012-05-15 (Flynn among the 11 elected nominees)."
+  },
+  {
+   "id": "e099",
+   "form": "8-K",
+   "accession": "0000019617-14-000002",
+   "filing_date": "2014-01-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961714000002/a8-kdocumentneal.htm",
+   "quote": "elected Michael A. Neal as a director, effective January 3, 2014.",
+   "supports": "Neal elected director effective 2014-01-03 (8-K Item 5.02(d))."
+  },
+  {
+   "id": "e100",
+   "form": "8-K",
+   "accession": "0000019617-24-000275",
+   "filing_date": "2024-04-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000275/jpm-20240408.htm",
+   "quote": "two of its directors, Timothy P. Flynn and Michael A. Neal, have decided to retire from the Board of Directors of the Firm (the \"Board\") when their terms expire on the eve of the 2024 Annual Meeting of Shareholders.",
+   "supports": "Flynn and Neal to retire when terms expire on the eve of the 2024 annual meeting (8-K 2024-04-08)."
+  },
+  {
+   "id": "e101",
+   "form": "8-K",
+   "accession": "0000019617-24-000411",
+   "filing_date": "2024-05-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000411/jpm-20240521.htm",
+   "quote": "Timothy P. Flynn and Michael A. Neal, who served as directors of the Firm since 2012 and 2014, respectively, retired from the Board.",
+   "supports": "Flynn (since 2012) and Neal (since 2014) retired at the 2024 annual meeting (8-K Item 5.02(b))."
+  },
+  {
+   "id": "e102",
+   "form": "8-K",
+   "accession": "0000019617-24-000411",
+   "filing_date": "2024-05-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000411/jpm-20240521.htm",
+   "quote": "Registrant held its Annual Meeting of Shareholders on Tuesday, May 21, 2024",
+   "supports": "2024 annual meeting date: 2024-05-21."
+  },
+  {
+   "id": "e103",
+   "form": "DEF 14A",
+   "accession": "0000019617-24-000273",
+   "filing_date": "2024-04-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000273/jpm-20240406.htm",
+   "quote": "Timothy P. Flynn, who has served as a director of the Firm since 2012, and Michael A. Neal, who has served as a director of the Firm since 2014, have decided to retire from the Board and are not standing for re-election when their terms expire on the eve of this year's annual meeting.",
+   "supports": "2024 proxy: Flynn (since 2012) and Neal (since 2014) not standing for re-election."
+  },
+  {
+   "id": "e104",
+   "form": "DEF 14A",
+   "accession": "0000019617-24-000273",
+   "filing_date": "2024-04-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000273/jpm-20240406.htm",
+   "quote": "Audit Committee Timothy P. Flynn (Chair) Michael A. Neal Phebe N. Novakovic Mark A. Weinberger",
+   "supports": "2024 proxy Audit Committee report: Flynn (Chair), Neal, Novakovic, Weinberger."
+  },
+  {
+   "id": "e105",
+   "form": "DEF 14A",
+   "accession": "0000019617-24-000273",
+   "filing_date": "2024-04-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000273/jpm-20240406.htm",
+   "quote": "that each non-management director (Linda B. Bammann, Stephen B. Burke, Todd A. Combs, Alicia Boler Davis, Timothy P. Flynn, Alex Gorsky, Mellody Hobson, Michael A. Neal, Phebe N. Novakovic, Virginia M. Rometty, and Mark A. Weinberger) had only immaterial relationships with JPMorgan Chase and accordingly is independent.",
+   "supports": "2024 independence determination incl. Flynn, Neal, Combs."
+  },
+  {
+   "id": "e106",
+   "form": "DEF 14A",
+   "accession": "0000019617-25-000321",
+   "filing_date": "2025-04-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000321/jpm-20250405.htm",
+   "quote": "Timothy P. Flynn and Michael A. Neal, each of whom retired in May 2024, had only immaterial relationships with JPMorganChase and accordingly were independent directors.",
+   "supports": "2025 proxy: Flynn and Neal retired May 2024 and were independent."
+  },
+  {
+   "id": "e107",
+   "form": "DEF 14A",
+   "accession": "0000019617-23-000281",
+   "filing_date": "2023-04-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961723000281/jpm-20230403.htm",
+   "quote": "Director since: 2012 Committees: •Audit Committee (Chair) Timothy P. Flynn",
+   "supports": "Flynn 2023 bio: director since 2012; Audit Committee (Chair)."
+  },
+  {
+   "id": "e108",
+   "form": "DEF 14A",
+   "accession": "0000019617-23-000281",
+   "filing_date": "2023-04-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961723000281/jpm-20230403.htm",
+   "quote": "Director since: 2014 Committees: •Audit Committee •Public Responsibility Committee Michael A. Neal",
+   "supports": "Neal 2023 bio: director since 2014; Audit; Public Responsibility."
+  },
+  {
+   "id": "e109",
+   "form": "DEF 14A",
+   "accession": "0000019617-23-000281",
+   "filing_date": "2023-04-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961723000281/jpm-20230403.htm",
+   "quote": "•Vice Chairman, Audit and Risk Advisory Services, KPMG LLP (2001–2005) Other Public Company Directorships Within the Past Five Years •UnitedHealth Group Inc. (since 2017) •Wal-Mart Stores, Inc. (since 2012) •Alcoa Corporation (2016–2021)",
+   "supports": "Flynn other public boards (2023 bio, his last): UnitedHealth Group (since 2017); Wal-Mart Stores (since 2012); Alcoa (2016-2021)."
+  },
+  {
+   "id": "e110",
+   "form": "DEF 14A",
+   "accession": "0000019617-23-000281",
+   "filing_date": "2023-04-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961723000281/jpm-20230403.htm",
+   "quote": "•Chairman and Chief Executive Officer, GE Capital (2007–2013) Other Public Company Directorships Within the Past Five Years •None",
+   "supports": "Neal 2023 bio: no other public company directorships in the past five years."
+  },
+  {
+   "id": "e111",
+   "form": "8-K",
+   "accession": "0000019617-16-001127",
+   "filing_date": "2016-09-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961716001127/a8-kdocumentcombs.htm",
+   "quote": "elected Todd A. Combs as a director, effective September 19, 2016.",
+   "supports": "Combs elected director effective 2016-09-19 (8-K Item 5.02(d))."
+  },
+  {
+   "id": "e112",
+   "form": "8-K",
+   "accession": "0000019617-25-001100",
+   "filing_date": "2025-12-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961725001100/jpm-20251207.htm",
+   "quote": "On December 7, 2025, Todd A. Combs notified JPMorgan Chase & Co. (the \"Company\") of his intention to resign as a member of the Board of Directors, effective December 7, 2025.",
+   "supports": "Combs resigned effective 2025-12-07 (8-K Item 5.02(b))."
+  },
+  {
+   "id": "e113",
+   "form": "DEF 14A",
+   "accession": "0000019617-25-000321",
+   "filing_date": "2025-04-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000321/jpm-20250405.htm",
+   "quote": "Todd A. Combs Chairman, President and Chief Executive Officer of GEICO and Investment Officer at Berkshire Hathaway Inc. Age: 54 Director since: 2016 Committees: Corporate Governance & Nominating Committee (Chair) Compensation & Management Development Committee",
+   "supports": "Combs 2025 bio header (his last proxy): director since 2016; Governance (Chair); CMDC."
+  },
+  {
+   "id": "e114",
+   "form": "DEF 14A",
+   "accession": "0000019617-25-000321",
+   "filing_date": "2025-04-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000321/jpm-20250405.htm",
+   "quote": "that each non-management director (Linda B. Bammann, Michele G. Buck, Stephen B. Burke, Todd A. Combs, Alicia Boler Davis, Alex Gorsky, Mellody Hobson, Phebe N. Novakovic, Virginia M. Rometty, Brad D. Smith, and Mark A. Weinberger) had only immaterial relationships with JPMorganChase and accordingly is independent.",
+   "supports": "2025 independence determination incl. Combs."
+  },
+  {
+   "id": "e115",
+   "form": "DEF 14A",
+   "accession": "0000019617-21-000275",
+   "filing_date": "2021-04-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961721000275/a2021proxystatement.htm",
+   "quote": "that each non-management director (Linda B. Bammann, Stephen B. Burke, Todd A. Combs, James S. Crown, Timothy P. Flynn, Mellody Hobson, Michael A. Neal, Phebe N. Novakovic and Virginia M. Rometty) had only immaterial relationships with JPMorgan Chase and accordingly is independent.",
+   "supports": "2021 independence determination."
+  },
+  {
+   "id": "e116",
+   "form": "3",
+   "accession": "0000019617-04-000267",
+   "filing_date": "2004-07-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/1203694/000001961704000267/primary_doc.xml",
+   "quote": "BURKE STEPHEN B",
+   "supports": "Burke reporting-owner CIK; Form 3 as JPM director, event date 2004-07-01 (Bank One merger date).",
+   "xml_fields": {
+    "issuerCik": "0000019617",
+    "rptOwnerCik": "0001203694",
+    "rptOwnerName": "BURKE STEPHEN B",
+    "periodOfReport": "2004-07-01"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e117",
+   "form": "3",
+   "accession": "0001225208-13-020451",
+   "filing_date": "2013-09-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1195342/000122520813020451/doc3.xml",
+   "quote": "BAMMANN LINDA",
+   "supports": "Bammann reporting-owner CIK; director Form 3, event date 2013-09-16 = appointment date. (Same CIK filed as a JPM officer in 2004.)",
+   "xml_fields": {
+    "issuerCik": "0000019617",
+    "rptOwnerCik": "0001195342",
+    "rptOwnerName": "BAMMANN LINDA",
+    "periodOfReport": "2013-09-16"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e118",
+   "form": "3",
+   "accession": "0001225208-25-003433",
+   "filing_date": "2025-03-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1323734/000122520825003433/doc3.xml",
+   "quote": "Buck Michele",
+   "supports": "Buck reporting-owner CIK; director Form 3, event date 2025-03-17 = appointment date.",
+   "xml_fields": {
+    "issuerCik": "0000019617",
+    "rptOwnerCik": "0001323734",
+    "rptOwnerName": "Buck Michele",
+    "periodOfReport": "2025-03-17"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e119",
+   "form": "3",
+   "accession": "0001225208-23-004261",
+   "filing_date": "2023-03-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1677195/000122520823004261/doc3.xml",
+   "quote": "Boler-Davis Alicia S",
+   "supports": "Boler Davis reporting-owner CIK; director Form 3, event date 2023-03-20 = appointment date.",
+   "xml_fields": {
+    "issuerCik": "0000019617",
+    "rptOwnerCik": "0001677195",
+    "rptOwnerName": "Boler-Davis Alicia S",
+    "periodOfReport": "2023-03-20"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e120",
+   "form": "3",
+   "accession": "0000019617-04-000278",
+   "filing_date": "2004-07-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/1195345/000001961704000278/primary_doc.xml",
+   "quote": "DIMON JAMES",
+   "supports": "Dimon reporting-owner CIK; Form 3 as director and officer (President), event date 2004-07-01 (Bank One merger date).",
+   "xml_fields": {
+    "issuerCik": "0000019617",
+    "rptOwnerCik": "0001195345",
+    "rptOwnerName": "DIMON JAMES",
+    "periodOfReport": "2004-07-01"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": "President"
+   }
+  },
+  {
+   "id": "e121",
+   "form": "4",
+   "accession": "0001225208-26-004520",
+   "filing_date": "2026-04-15",
+   "url": "https://www.sec.gov/Archives/edgar/data/1195345/000122520826004520/doc4.xml",
+   "quote": "DIMON JAMES",
+   "supports": "Dimon current Form 4: director and officer, title Chairman & CEO.",
+   "xml_fields": {
+    "issuerCik": "0000019617",
+    "rptOwnerCik": "0001195345",
+    "rptOwnerName": "DIMON JAMES",
+    "periodOfReport": "2026-04-15"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": "Chairman & CEO"
+   }
+  },
+  {
+   "id": "e122",
+   "form": "3",
+   "accession": "0001225208-22-008903",
+   "filing_date": "2022-07-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1453149/000122520822008903/doc3.xml",
+   "quote": "Gorsky Alex",
+   "supports": "Gorsky reporting-owner CIK; director Form 3, event date 2022-07-19 = appointment date.",
+   "xml_fields": {
+    "issuerCik": "0000019617",
+    "rptOwnerCik": "0001453149",
+    "rptOwnerName": "Gorsky Alex",
+    "periodOfReport": "2022-07-19"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e123",
+   "form": "3",
+   "accession": "0001225208-18-006790",
+   "filing_date": "2018-03-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1169896/000122520818006790/doc3.xml",
+   "quote": "HOBSON MELLODY L",
+   "supports": "Hobson reporting-owner CIK; director Form 3, event date 2018-03-21 = appointment date.",
+   "xml_fields": {
+    "issuerCik": "0000019617",
+    "rptOwnerCik": "0001169896",
+    "rptOwnerName": "HOBSON MELLODY L",
+    "periodOfReport": "2018-03-21"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e124",
+   "form": "3",
+   "accession": "0001225208-20-014293",
+   "filing_date": "2020-12-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/1222195/000122520820014293/doc3.xml",
+   "quote": "NOVAKOVIC PHEBE N",
+   "supports": "Novakovic reporting-owner CIK; director Form 3, event date 2020-12-07 = appointment date.",
+   "xml_fields": {
+    "issuerCik": "0000019617",
+    "rptOwnerCik": "0001222195",
+    "rptOwnerName": "NOVAKOVIC PHEBE N",
+    "periodOfReport": "2020-12-07"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e125",
+   "form": "3",
+   "accession": "0001225208-20-008142",
+   "filing_date": "2020-05-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1333712/000122520820008142/doc3.xml",
+   "quote": "Rometty Virginia M",
+   "supports": "Rometty reporting-owner CIK; director Form 3, event date 2020-05-19 = 2020 annual meeting.",
+   "xml_fields": {
+    "issuerCik": "0000019617",
+    "rptOwnerCik": "0001333712",
+    "rptOwnerName": "Rometty Virginia M",
+    "periodOfReport": "2020-05-19"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e126",
+   "form": "3",
+   "accession": "0001225208-25-000726",
+   "filing_date": "2025-01-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/1284323/000122520825000726/doc3.xml",
+   "quote": "SMITH BRAD D",
+   "supports": "Smith reporting-owner CIK; director Form 3, event date 2025-01-21 = appointment date.",
+   "xml_fields": {
+    "issuerCik": "0000019617",
+    "rptOwnerCik": "0001284323",
+    "rptOwnerName": "SMITH BRAD D",
+    "periodOfReport": "2025-01-21"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e127",
+   "form": "3",
+   "accession": "0001225208-24-000928",
+   "filing_date": "2024-01-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1785997/000122520824000928/doc3.xml",
+   "quote": "WEINBERGER MARK A",
+   "supports": "Weinberger reporting-owner CIK; director Form 3, event date 2024-01-16 = appointment date.",
+   "xml_fields": {
+    "issuerCik": "0000019617",
+    "rptOwnerCik": "0001785997",
+    "rptOwnerName": "WEINBERGER MARK A",
+    "periodOfReport": "2024-01-16"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e128",
+   "form": "3",
+   "accession": "0001225208-16-039739",
+   "filing_date": "2016-09-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1685281/000122520816039739/doc3.xml",
+   "quote": "Combs Todd A.",
+   "supports": "Combs reporting-owner CIK; director Form 3, event date 2016-09-19 = appointment date.",
+   "xml_fields": {
+    "issuerCik": "0000019617",
+    "rptOwnerCik": "0001685281",
+    "rptOwnerName": "Combs Todd A.",
+    "periodOfReport": "2016-09-19"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e129",
+   "form": "4",
+   "accession": "0001225208-25-009782",
+   "filing_date": "2025-12-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1685281/000122520825009782/doc4.xml",
+   "quote": "Combs Todd A.",
+   "supports": "Combs exit Form 4: no transactions, box checked as no longer subject to Section 16; period 2025-12-07 = resignation date.",
+   "xml_fields": {
+    "issuerCik": "0000019617",
+    "rptOwnerCik": "0001685281",
+    "rptOwnerName": "Combs Todd A.",
+    "periodOfReport": "2025-12-07",
+    "notSubjectToSection16": "1"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e130",
+   "form": "3",
+   "accession": "0000019617-04-000268",
+   "filing_date": "2004-07-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/1185064/000001961704000268/primary_doc.xml",
+   "quote": "CROWN JAMES S",
+   "supports": "Crown reporting-owner CIK; Form 3 as JPM director, event date 2004-07-01 (Bank One merger date).",
+   "xml_fields": {
+    "issuerCik": "0000019617",
+    "rptOwnerCik": "0001185064",
+    "rptOwnerName": "CROWN JAMES S",
+    "periodOfReport": "2004-07-01"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e131",
+   "form": "3",
+   "accession": "0001225208-12-012810",
+   "filing_date": "2012-05-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/1550322/000122520812012810/doc3.xml",
+   "quote": "FLYNN TIMOTHY PATRICK",
+   "supports": "Flynn reporting-owner CIK; director Form 3, event date 2012-05-15 = 2012 annual meeting.",
+   "xml_fields": {
+    "issuerCik": "0000019617",
+    "rptOwnerCik": "0001550322",
+    "rptOwnerName": "FLYNN TIMOTHY PATRICK",
+    "periodOfReport": "2012-05-15"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e132",
+   "form": "4",
+   "accession": "0001225208-24-006284",
+   "filing_date": "2024-05-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/1550322/000122520824006284/doc4.xml",
+   "quote": "FLYNN TIMOTHY PATRICK",
+   "supports": "Flynn exit Form 4: no transactions, box checked as no longer subject to Section 16; period 2024-05-20, the day before the 2024 annual meeting.",
+   "xml_fields": {
+    "issuerCik": "0000019617",
+    "rptOwnerCik": "0001550322",
+    "rptOwnerName": "FLYNN TIMOTHY PATRICK",
+    "periodOfReport": "2024-05-20",
+    "notSubjectToSection16": "1"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e133",
+   "form": "3",
+   "accession": "0001225208-14-001422",
+   "filing_date": "2014-01-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1233167/000122520814001422/doc3.xml",
+   "quote": "NEAL MICHAEL A",
+   "supports": "Neal reporting-owner CIK; director Form 3, event date 2014-01-03 = appointment date.",
+   "xml_fields": {
+    "issuerCik": "0000019617",
+    "rptOwnerCik": "0001233167",
+    "rptOwnerName": "NEAL MICHAEL A",
+    "periodOfReport": "2014-01-03"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e134",
+   "form": "4",
+   "accession": "0001225208-24-006285",
+   "filing_date": "2024-05-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/1233167/000122520824006285/doc4.xml",
+   "quote": "NEAL MICHAEL A",
+   "supports": "Neal exit Form 4: no transactions, box checked as no longer subject to Section 16; period 2024-05-20, the day before the 2024 annual meeting.",
+   "xml_fields": {
+    "issuerCik": "0000019617",
+    "rptOwnerCik": "0001233167",
+    "rptOwnerName": "NEAL MICHAEL A",
+    "periodOfReport": "2024-05-20",
+    "notSubjectToSection16": "1"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e135",
+   "form": "4",
+   "accession": "0001225208-21-000052",
+   "filing_date": "2021-01-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/1198809/000122520821000052/doc4.xml",
+   "quote": "RAYMOND LEE R",
+   "supports": "Raymond reporting-owner CIK; director Form 4 with period 2020-12-31 (his resignation date).",
+   "xml_fields": {
+    "issuerCik": "0000019617",
+    "rptOwnerCik": "0001198809",
+    "rptOwnerName": "RAYMOND LEE R",
+    "periodOfReport": "2020-12-31"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e136",
+   "form": "3",
+   "accession": "0001225208-11-024666",
+   "filing_date": "2011-11-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1182047/000122520811024666/doc3.xml",
+   "quote": "BELL JAMES A",
+   "supports": "Bell reporting-owner CIK; director Form 3, event date 2011-11-08 = appointment date.",
+   "xml_fields": {
+    "issuerCik": "0000019617",
+    "rptOwnerCik": "0001182047",
+    "rptOwnerName": "BELL JAMES A",
+    "periodOfReport": "2011-11-08"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e137",
+   "form": "4",
+   "accession": "0001225208-20-008143",
+   "filing_date": "2020-05-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1182047/000122520820008143/doc4.xml",
+   "quote": "BELL JAMES A",
+   "supports": "Bell exit Form 4: no transactions, box checked as no longer subject to Section 16; period 2020-05-18, the day before the 2020 annual meeting.",
+   "xml_fields": {
+    "issuerCik": "0000019617",
+    "rptOwnerCik": "0001182047",
+    "rptOwnerName": "BELL JAMES A",
+    "periodOfReport": "2020-05-18",
+    "notSubjectToSection16": "1"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e138",
+   "form": "3",
+   "accession": "0000019617-04-000269",
+   "filing_date": "2004-07-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/1202252/000001961704000269/primary_doc.xml",
+   "quote": "JACKSON LABAN",
+   "supports": "Jackson reporting-owner CIK; Form 3 as JPM director, event date 2004-07-01 (Bank One merger date).",
+   "xml_fields": {
+    "issuerCik": "0000019617",
+    "rptOwnerCik": "0001202252",
+    "rptOwnerName": "JACKSON LABAN",
+    "periodOfReport": "2004-07-01"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e139",
+   "form": "4",
+   "accession": "0001225208-20-008144",
+   "filing_date": "2020-05-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1202252/000122520820008144/doc4.xml",
+   "quote": "JACKSON LABAN",
+   "supports": "Jackson exit Form 4: no transactions, box checked as no longer subject to Section 16; period 2020-05-18, the day before the 2020 annual meeting.",
+   "xml_fields": {
+    "issuerCik": "0000019617",
+    "rptOwnerCik": "0001202252",
+    "rptOwnerName": "JACKSON LABAN",
+    "periodOfReport": "2020-05-18",
+    "notSubjectToSection16": "1"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e140",
+   "form": "DEF 14A",
+   "accession": "0000019617-14-000321",
+   "filing_date": "2014-04-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961714000321/jpm2014definitiveproxy.htm",
+   "quote": "Stephen B. Burke, 55 Director since 2004 and Director of Bank One Corporation from 2003 to 2004",
+   "supports": "Burke: JPM director since 2004; Bank One director 2003-2004 (predecessor)."
+  },
+  {
+   "id": "e141",
+   "form": "DEF 14A",
+   "accession": "0000019617-14-000321",
+   "filing_date": "2014-04-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961714000321/jpm2014definitiveproxy.htm",
+   "quote": "Linda B. Bammann, 58 Director since September 2013",
+   "supports": "Bammann: director since September 2013."
+  },
+  {
+   "id": "e142",
+   "form": "DEF 14A",
+   "accession": "0000019617-14-000321",
+   "filing_date": "2014-04-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961714000321/jpm2014definitiveproxy.htm",
+   "quote": "Michael A. Neal, 61 Director since January 2014",
+   "supports": "Neal: director since January 2014."
+  },
+  {
+   "id": "e143",
+   "form": "DEF 14A",
+   "accession": "0000019617-14-000321",
+   "filing_date": "2014-04-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961714000321/jpm2014definitiveproxy.htm",
+   "quote": "James Dimon, 58 Director since 2004 and Chairman of the Board of Bank One Corporation from 2000 to 2004",
+   "supports": "Dimon: JPM director since 2004; Bank One Chairman 2000-2004 (predecessor)."
+  }
+ ],
+ "conflicts": [
+  {
+   "description": "Departure day for directors who did not stand for re-election (Bell, Jackson in 2020; Flynn, Neal in 2024). Per the research convention these are recorded as the annual-meeting dates from the 8-K Item 5.07 (2020-05-19, 2024-05-21). But JPM's filings say their terms expired 'on the eve of' the annual meeting, and each director's final Form 4 is dated the day before (Bell and Jackson 2020-05-18; Flynn and Neal 2024-05-20, both no-transaction exit filings). Their last day of service may therefore be the day before the meeting.",
+   "evidence_refs": [
+    "e080",
+    "e079",
+    "e053",
+    "e137",
+    "e139",
+    "e100",
+    "e102",
+    "e132",
+    "e134"
+   ]
+  },
+  {
+   "description": "How the filings describe Crown's predecessor service. The 2014 proxy and the 2023 internal memo (8-K Ex. 99.1) say 'Director of Bank One Corporation from 1991 to 2004'. The 2020 proxy footnote splits it into Bank One (1996-2004) and First Chicago Corp. (1991-1996). His JPM start (2004-07-01) is the same either way.",
+   "evidence_refs": [
+    "e091",
+    "e071"
+   ]
+  },
+  {
+   "description": "Raymond's start. The 2001 proxy says he had been 'a director of the Firm or a predecessor institution since 1987'. Later proxies say 'Director since 2001' plus J.P. Morgan & Co. Incorporated director 1987-2000. Recorded as 2001 (year precision); the 1987-2000 J.P. Morgan & Co. service is predecessor service and not counted.",
+   "evidence_refs": [
+    "e074",
+    "e073",
+    "e070"
+   ]
+  },
+  {
+   "description": "Raymond's exit: the 8-K Item 5.02 says he resigned effective 2020-12-31; the 2021 proxy says he 'retired in December 2020'. Recorded as resigned, 2020-12-31.",
+   "evidence_refs": [
+    "e075",
+    "e076"
+   ]
+  }
+ ],
+ "open_questions": [
+  "Lee R. Raymond's exact 2001 start day is not given in any filing reviewed (year precision only).",
+  "Raymond's Lead Independent Director start: the role was 'established' in September 2013 (he had been Presiding Director, a rotating role created December 2006). Recorded as 2013-09 (month); no effective day is stated.",
+  "Bell, Jackson, Flynn and Neal: last day of service may be the eve of the annual meeting rather than the meeting date (see conflicts).",
+  "Authorized board size: no filing reviewed for 2020-2026 states a board-size resolution. Only nominee counts are given (10 in 2020-2022, 12 in 2023, 10 in 2024, 12 in 2025, 11 in 2026), so no BOARD_SIZE_CHANGE events are recorded.",
+  "Committee membership is captured at proxy snapshots (2026 for current directors; each departed director's last proxy). Mid-year changes are only partly disclosed. For example, the early-2026 changes (Rometty to Governance Chair; Gorsky and Buck to Governance; Smith and Boler Davis to PRC) are not dated. Specific Purpose Committee memberships (e.g., Markets Compliance, Omnibus) are not captured because the text tables lose their columns.",
+  "Independence spans for current directors are aligned to board tenure from point-in-time proxy determinations (medium confidence). Departed directors' independence is stated retrospectively in later proxies.",
+  "Listing: the earliest EDGAR support for common-stock trading is the 1994 proxy performance graph, measured from 1988-12-31, together with the FY1993 10-K's NYSE listing statement. The registrant was organized in 1968 (then Chemical New York Corp), but no filing reviewed dates the start of its listing. Predecessor J.P. Morgan & Co. Incorporated was a different registrant and is not used.",
+  "Other-board lists come from JPM's own bios as of each filing and are not checked against the other issuers' filings. Departed directors' entries reflect status as of their last bio (2019 for Bell and Jackson, 2023 for Crown, Flynn and Neal, 2025 for Combs)."
+ ],
+ "coverage": [
+  {
+   "scope": "current_board",
+   "period_start": "2026-10-04",
+   "period_end": "2026-10-04",
+   "level": "complete",
+   "method": "Current roster taken from the 2026 DEF 14A (filed 2026-04-06) and the 2026-05-19 annual-meeting 8-K (Item 5.07). Checked against every 8-K filed 2026-04-06 to 2026-10-02 (all items, including the 5.02 of 2026-06-25, which covers officers only, and the 5.03 by-law changes), plus the EDGAR Form 3 list through 2026-10-02. No director joins or leaves after the proxy."
+  },
+  {
+   "scope": "board_history",
+   "period_start": "2020-01-01",
+   "period_end": "2026-10-04",
+   "level": "complete",
+   "method": "Every DEF 14A from 2020 to 2026 and every 8-K/8-K/A with Item 5.02 or 5.07 filed 2019-12 to 2026-10 reviewed from the EDGAR submissions feed. Nominee counts were reconciled year by year. EDGAR full-text search was run over 2020-2026 8-Ks for director deaths, resignations and elections; this found the Crown death 8-K (Item 8.01) and the 2020 LID 8-K (Item 8.01). Pre-2020 start dates come from the original 8-Ks and Forms 3."
+  }
+ ]
+}

@@ -1,0 +1,3134 @@
+{
+ "company": {
+  "cik": "0001065280",
+  "ticker": "NFLX",
+  "legal_name": "Netflix, Inc.",
+  "common_name": "Netflix",
+  "exchange": "Nasdaq Global Select Market",
+  "ipo_date": "2002-05-23",
+  "state_of_incorporation": "Delaware",
+  "incorporated": "August 1997 (inception 1997-08-29) as NetFlix.com, Inc.; renamed Netflix, Inc. in March 2002",
+  "classified_board": false,
+  "notes": "IPO prospectus dated 2002-05-22; first trade 2002-05-23 on the Nasdaq National Market (10-K: 'since our initial public offering on May 23, 2002'). Board classified at IPO; declassification approved 2022-06-02, one-year terms from the 2023 meeting, whole board annual from 2025. Ten-for-one stock split effective 2025-11-14. Co-CEO structure since 2020-07-14 (Sarandos with Hastings, then with Peters from 2023-01-13)."
+ },
+ "as_of": "2026-10-04",
+ "sources_reviewed_through": "2026-10-02 (latest filing in EDGAR submissions feed fetched 2026-10-04)",
+ "people": [
+  {
+   "key": "reed-hastings",
+   "full_name": "Reed Hastings",
+   "aliases": [
+    "Hastings Reed",
+    "HASTINGS REED"
+   ],
+   "sec_cik": "0001033331",
+   "bio_other_public_boards": [
+    {
+     "company": "Facebook, Inc.",
+     "status": "former",
+     "years": "2011 to 2019",
+     "source_ref": "e023",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Microsoft Corporation",
+     "status": "former",
+     "years": "2007 to 2012",
+     "source_ref": "e023",
+     "public_company_stated_in_source": false
+    }
+   ],
+   "notes": "2026 proxy lists 'Other Public Company Boards: None'; it also names Bloomberg LP and Anthropic PBC boards, not recorded here as public-company boards."
+  },
+  {
+   "key": "jay-hoag",
+   "full_name": "Jay C. Hoag",
+   "aliases": [
+    "Jay Hoag",
+    "Hoag Jay C"
+   ],
+   "sec_cik": "0001082906",
+   "bio_other_public_boards": [
+    {
+     "company": "Peloton Interactive, Inc.",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e037",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Zillow Group, Inc.",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e037",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Tripadvisor, Inc.",
+     "status": "former",
+     "years": "2018 to 2025",
+     "source_ref": "e038",
+     "public_company_stated_in_source": false,
+     "note": "bio lists it among 'other public and private companies'"
+    },
+    {
+     "company": "Electronic Arts",
+     "status": "former",
+     "years": "2011 to 2021",
+     "source_ref": "e038",
+     "public_company_stated_in_source": false,
+     "note": "bio lists it among 'other public and private companies'"
+    },
+    {
+     "company": "Prodege",
+     "status": "former",
+     "years": "2014 to 2021",
+     "source_ref": "e038",
+     "public_company_stated_in_source": false,
+     "note": "bio lists it among 'other public and private companies'"
+    },
+    {
+     "company": "TCV Acquisition Corp.",
+     "status": "former",
+     "years": "2021 to 2023",
+     "source_ref": "e038",
+     "public_company_stated_in_source": false,
+     "note": "bio lists it among 'other public and private companies'"
+    }
+   ]
+  },
+  {
+   "key": "richard-barton",
+   "full_name": "Richard N. Barton",
+   "aliases": [
+    "Richard Barton",
+    "BARTON RICHARD N"
+   ],
+   "sec_cik": "0001184230",
+   "bio_other_public_boards": [
+    {
+     "company": "QVC Group, Inc. (formerly Qurate Retail, Inc.)",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e046",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Zillow Group, Inc.",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e046",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Altimeter Growth Corp.",
+     "status": "former",
+     "years": "2020 to 2021",
+     "source_ref": "e047",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Altimeter Growth Corp. 2",
+     "status": "former",
+     "years": "2021 to 2022",
+     "source_ref": "e047",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "leslie-kilgore",
+   "full_name": "Leslie J. Kilgore",
+   "aliases": [
+    "Leslie Kilgore",
+    "KILGORE LESLIE J"
+   ],
+   "sec_cik": "0001218352",
+   "bio_other_public_boards": [
+    {
+     "company": "Pinterest, Inc.",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e068",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "LinkedIn Corp.",
+     "status": "former",
+     "years": "not stated",
+     "source_ref": "e069",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Medallia, Inc.",
+     "status": "former",
+     "years": "2015 to 2021",
+     "source_ref": "e069",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Nextdoor Holdings, Inc.",
+     "status": "former",
+     "years": "2015 to 2023",
+     "source_ref": "e069",
+     "public_company_stated_in_source": false
+    }
+   ]
+  },
+  {
+   "key": "ann-mather",
+   "full_name": "Ann Mather",
+   "aliases": [
+    "MATHER ANN",
+    "Anne Mather"
+   ],
+   "sec_cik": "0001244892",
+   "bio_other_public_boards": [
+    {
+     "company": "Bumble Inc.",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e060",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Pattern Group Inc.",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e060",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Shutterfly, Inc.",
+     "status": "former",
+     "years": "2013 to 2019",
+     "source_ref": "e061",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Glu Mobile Inc.",
+     "status": "former",
+     "years": "2005 to 2021",
+     "source_ref": "e061",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Airbnb, Inc.",
+     "status": "former",
+     "years": "2018 to 2021",
+     "source_ref": "e061",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Arista Networks, Inc.",
+     "status": "former",
+     "years": "2013 to 2022",
+     "source_ref": "e061",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Alphabet Inc.",
+     "status": "former",
+     "years": "2005 to 2023",
+     "source_ref": "e062",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Blend Labs, Inc.",
+     "status": "former",
+     "years": "2019 to 2024",
+     "source_ref": "e062",
+     "public_company_stated_in_source": false
+    }
+   ],
+   "notes": "The 2022 Item 5.07 8-K spells her name 'Anne Mather'."
+  },
+  {
+   "key": "brad-smith",
+   "full_name": "Bradford L. Smith",
+   "aliases": [
+    "Brad Smith",
+    "SMITH BRADFORD L"
+   ],
+   "sec_cik": "0001193119",
+   "bio_other_public_boards": []
+  },
+  {
+   "key": "anne-sweeney",
+   "full_name": "Anne M. Sweeney",
+   "aliases": [
+    "Anne Sweeney",
+    "Sweeney Anne M"
+   ],
+   "sec_cik": "0001638276",
+   "bio_other_public_boards": []
+  },
+  {
+   "key": "mathias-dopfner",
+   "full_name": "Mathias Döpfner",
+   "aliases": [
+    "Mathias Dopfner",
+    "Dopfner Mathias",
+    "Dr. Mathias Döpfner"
+   ],
+   "sec_cik": "0001370931",
+   "bio_other_public_boards": [
+    {
+     "company": "Warner Music Group Corp.",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e104",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Vodafone Group plc",
+     "status": "former",
+     "years": "2015 to 2018",
+     "source_ref": "e105",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Time Warner Inc.",
+     "status": "former",
+     "years": "2006 to 2018",
+     "source_ref": "e105",
+     "public_company_stated_in_source": false
+    }
+   ]
+  },
+  {
+   "key": "susan-rice",
+   "full_name": "Susan E. Rice",
+   "aliases": [
+    "Ambassador Susan Rice",
+    "Susan Rice",
+    "RICE SUSAN E"
+   ],
+   "sec_cik": "0001735710",
+   "bio_other_public_boards": []
+  },
+  {
+   "key": "ted-sarandos",
+   "full_name": "Theodore A. Sarandos",
+   "aliases": [
+    "Ted Sarandos",
+    "SARANDOS THEODORE A"
+   ],
+   "sec_cik": "0001393838",
+   "bio_other_public_boards": [
+    {
+     "company": "Spotify Technology S.A.",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e110",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "strive-masiyiwa",
+   "full_name": "Strive Masiyiwa",
+   "aliases": [
+    "Masiyiwa Strive"
+   ],
+   "sec_cik": "0001837857",
+   "bio_other_public_boards": [
+    {
+     "company": "Unilever Plc",
+     "status": "former",
+     "years": "2016 to 2024",
+     "source_ref": "e116",
+     "public_company_stated_in_source": false
+    }
+   ]
+  },
+  {
+   "key": "greg-peters",
+   "full_name": "Gregory K. Peters",
+   "aliases": [
+    "Greg Peters",
+    "Peters Gregory K"
+   ],
+   "sec_cik": "0001583109",
+   "bio_other_public_boards": [
+    {
+     "company": "DoorDash, Inc.",
+     "status": "former",
+     "years": "2022 to 2024",
+     "source_ref": "e122",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Highland Transcend Partners I Corp.",
+     "status": "former",
+     "years": "2020 to 2022",
+     "source_ref": "e122",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "2U, Inc.",
+     "status": "former",
+     "years": "2018 to 2023",
+     "source_ref": "e122",
+     "public_company_stated_in_source": false
+    }
+   ]
+  },
+  {
+   "key": "elinor-mertz",
+   "full_name": "Elinor Mertz",
+   "aliases": [
+    "Mertz Elinor"
+   ],
+   "sec_cik": "0001938411",
+   "bio_other_public_boards": [
+    {
+     "company": "DoorDash, Inc.",
+     "status": "current",
+     "years": "since July 2022",
+     "source_ref": "e126",
+     "public_company_stated_in_source": true,
+     "note": "described as 'a publicly-held food-delivery and local logistics platform'"
+    }
+   ]
+  },
+  {
+   "key": "timothy-haley",
+   "full_name": "Timothy M. Haley",
+   "aliases": [
+    "Timothy Haley",
+    "HALEY TIMOTHY M"
+   ],
+   "sec_cik": "0001201583",
+   "bio_other_public_boards": [
+    {
+     "company": "ThredUp, Inc.",
+     "status": "current",
+     "years": "not stated (as of 2025 proxy)",
+     "source_ref": "e055",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Zuora, Inc.",
+     "status": "current",
+     "years": "not stated (as of 2025 proxy)",
+     "source_ref": "e055",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "rodolphe-belmer",
+   "full_name": "Rodolphe Belmer",
+   "aliases": [
+    "Belmer Rodolphe"
+   ],
+   "sec_cik": "0001729146",
+   "bio_other_public_boards": [],
+   "notes": "2022 proxy lists 'Other Public Company Boards: None' (career snapshot names CEO-and-director roles at Atos SE and Eutelsat; not recorded as other public boards)."
+  }
+ ],
+ "memberships": [
+  {
+   "person_key": "reed-hastings",
+   "start_date": "1997",
+   "start_date_precision": "year",
+   "start_date_basis": "proxy 'Director and Chairman since 1997' / 'Director and Chairperson since 1997'; prospectus 'Chairman of the Board since inception'",
+   "end_date": "2026-06-04",
+   "end_date_precision": "day",
+   "end_reason": "did_not_stand",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e020",
+    "e021",
+    "e018",
+    "e019",
+    "e001",
+    "e028",
+    "e029",
+    "e009",
+    "e030"
+   ],
+   "board_class": null,
+   "notes": "Co-founder. Did not stand for re-election; term ended at the 2026-06-04 annual meeting. Class III at IPO and through the 2020-2023 term; one-year terms after 2023. The prospectus implies an August 29, 1997 start ('since inception') but only the year is stated directly."
+  },
+  {
+   "person_key": "timothy-haley",
+   "start_date": "1998-06",
+   "start_date_precision": "month",
+   "start_date_basis": "IPO prospectus 'one of our directors since June 1998'",
+   "end_date": "2025-06-05",
+   "end_date_precision": "day",
+   "end_reason": "did_not_stand",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e049",
+    "e050",
+    "e051",
+    "e052",
+    "e053",
+    "e054",
+    "e057"
+   ],
+   "board_class": "II",
+   "notes": "Pre-IPO venture investor director. Elected Class II in 2022 for a term to the 2025 meeting; did not stand in 2025."
+  },
+  {
+   "person_key": "jay-hoag",
+   "start_date": "1999-06",
+   "start_date_precision": "month",
+   "start_date_basis": "IPO prospectus 'one of our directors since June 1999'",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e031",
+    "e032",
+    "e037",
+    "e006",
+    "e039",
+    "e040",
+    "e041"
+   ],
+   "board_class": null,
+   "notes": "Pre-IPO director. Failed a majority vote in 2025; Board rejected his resignation 2025-06-22, so service is continuous. Re-elected 2026 to 2027. Board declassified (one-year terms from 2023; whole board annual from 2025), so no current class."
+  },
+  {
+   "person_key": "richard-barton",
+   "start_date": "2002-05",
+   "start_date_precision": "month",
+   "start_date_basis": "IPO prospectus 'one of our directors since May 2002' (S-1/A management table as of 2002-05-02 already lists him)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e042",
+    "e044",
+    "e043",
+    "e045",
+    "e046",
+    "e006",
+    "e048"
+   ],
+   "board_class": null,
+   "notes": "Joined weeks before the 2002-05-23 IPO (between 2002-05-01 and 2002-05-02 per the S-1/A table date). Board declassified (one-year terms from 2023; whole board annual from 2025), so no current class."
+  },
+  {
+   "person_key": "ann-mather",
+   "start_date": "2010-07-01",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 effective date (appointed 2010-06-10); Form 3 event date agrees",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e058",
+    "e063",
+    "e059",
+    "e060",
+    "e006",
+    "e064"
+   ],
+   "board_class": null,
+   "notes": "Appointed Class II. Board declassified (one-year terms from 2023; whole board annual from 2025), so no current class."
+  },
+  {
+   "person_key": "leslie-kilgore",
+   "start_date": "2012-01-20",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 effective date (appointed 2012-01-19)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e066",
+    "e065",
+    "e067",
+    "e068",
+    "e006",
+    "e071"
+   ],
+   "board_class": null,
+   "notes": "Former CMO; joined the board while still CMO (CMO through 2012-02-02). Independent since 2015. Board declassified (one-year terms from 2023; whole board annual from 2025), so no current class."
+  },
+  {
+   "person_key": "brad-smith",
+   "start_date": "2015-03-30",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 effective date (appointed 2015-03-26); Form 3 event date agrees",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e072",
+    "e078",
+    "e073",
+    "e075",
+    "e006",
+    "e079"
+   ],
+   "board_class": null,
+   "notes": "Appointed Class I. Board declassified (one-year terms from 2023; whole board annual from 2025), so no current class."
+  },
+  {
+   "person_key": "anne-sweeney",
+   "start_date": "2015-03-30",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 effective date (appointed 2015-03-26); Form 3 event date agrees",
+   "end_date": "2026-07-26",
+   "end_date_precision": "day",
+   "end_reason": "resigned",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e072",
+    "e080",
+    "e074",
+    "e076",
+    "e077",
+    "e081"
+   ],
+   "board_class": null,
+   "notes": "Re-elected 2026-06-04, then resigned effective 2026-07-26 ('not due to any disagreement'). Class I until one-year terms began."
+  },
+  {
+   "person_key": "rodolphe-belmer",
+   "start_date": "2018-01-23",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 effective date (appointed 2018-01-21); Form 3 event date agrees",
+   "end_date": "2022-10-27",
+   "end_date_precision": "day",
+   "end_reason": "resigned",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e082",
+    "e089",
+    "e083",
+    "e087",
+    "e084",
+    "e085",
+    "e090"
+   ],
+   "board_class": "I",
+   "notes": "Class I (re-elected 2021 for a term to 2024). Resigned effective 2022-10-27, notified 2022-10-19."
+  },
+  {
+   "person_key": "susan-rice",
+   "start_date": "2018-03-26",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 effective date (appointed 2018-03-24); Form 3 event date agrees",
+   "end_date": "2021-01-20",
+   "end_date_precision": "day",
+   "end_reason": "resigned",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e091",
+    "e099",
+    "e092",
+    "e094",
+    "e095",
+    "e097"
+   ],
+   "board_class": "II",
+   "notes": "First stint. Class II (term to 2022). Resigned effective 2021-01-20 (notified 2020-12-09)."
+  },
+  {
+   "person_key": "mathias-dopfner",
+   "start_date": "2018-09-18",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 effective date (appointed 2018-09-12); Form 3 event date agrees",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e102",
+    "e106",
+    "e103",
+    "e104",
+    "e006",
+    "e107"
+   ],
+   "board_class": null,
+   "notes": "Appointed Class III. Board declassified (one-year terms from 2023; whole board annual from 2025), so no current class."
+  },
+  {
+   "person_key": "ted-sarandos",
+   "start_date": "2020-07-14",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 effective date (appointed 2020-07-13)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e109",
+    "e108",
+    "e110",
+    "e006",
+    "e111"
+   ],
+   "board_class": null,
+   "notes": "Joined as co-CEO and Class III director. Board declassified (one-year terms from 2023; whole board annual from 2025), so no current class."
+  },
+  {
+   "person_key": "strive-masiyiwa",
+   "start_date": "2020-12-16",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 appointment 'effective immediately'; press release same date",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e112",
+    "e113",
+    "e114",
+    "e117",
+    "e115",
+    "e006",
+    "e118"
+   ],
+   "board_class": null,
+   "notes": "Appointed Class II. Form 3 gives an event date of 2020-12-24 (see conflicts). Board declassified (one-year terms from 2023; whole board annual from 2025), so no current class."
+  },
+  {
+   "person_key": "greg-peters",
+   "start_date": "2023-01-13",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 effective date",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e120",
+    "e119",
+    "e121",
+    "e006",
+    "e123"
+   ],
+   "board_class": null,
+   "notes": "Joined as co-CEO and Class I director. Board declassified (one-year terms from 2023; whole board annual from 2025), so no current class."
+  },
+  {
+   "person_key": "susan-rice",
+   "start_date": "2023-09-06",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 appointment 'effective immediately'; Form 3 event date agrees",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e096",
+    "e100",
+    "e098",
+    "e097",
+    "e006",
+    "e101"
+   ],
+   "board_class": null,
+   "notes": "Second stint (first was 2018-03-26 to 2021-01-20). Appointed Class I. Board declassified (one-year terms from 2023; whole board annual from 2025), so no current class."
+  },
+  {
+   "person_key": "elinor-mertz",
+   "start_date": "2025-06-22",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 appointment 'effective immediately'; Form 3 event date agrees",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e124",
+    "e127",
+    "e125",
+    "e006",
+    "e128"
+   ],
+   "board_class": null,
+   "notes": "Former Netflix VP Finance/IR (2006-2013). Board declassified (one-year terms from 2023; whole board annual from 2025), so no current class."
+  }
+ ],
+ "roles": [
+  {
+   "person_key": "reed-hastings",
+   "role": "chair",
+   "start_date": "1997",
+   "end_date": "2023-01-13",
+   "precision": "year",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e018",
+    "e020",
+    "e021",
+    "e025"
+   ],
+   "notes": "Chairman since inception; combined with CEO from 1998-09. Became Executive Chairman 2023-01-13."
+  },
+  {
+   "person_key": "reed-hastings",
+   "role": "ceo_director",
+   "start_date": "1998-09",
+   "end_date": "2023-01-13",
+   "precision": "month",
+   "end_precision": "day",
+   "confidence": "medium",
+   "evidence_refs": [
+    "e018",
+    "e024",
+    "e025",
+    "e022"
+   ],
+   "officer_title": "Chief Executive Officer",
+   "notes": "Prospectus: CEO since September 1998 (2026 proxy says 1999; see conflicts). Co-CEO with Sarandos from 2020-07-14. Resigned as co-CEO 2023-01-13."
+  },
+  {
+   "person_key": "reed-hastings",
+   "role": "executive_chair",
+   "start_date": "2023-01-13",
+   "end_date": "2025-04-17",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e025",
+    "e026",
+    "e027"
+   ]
+  },
+  {
+   "person_key": "reed-hastings",
+   "role": "chair",
+   "start_date": "2025-04-17",
+   "end_date": "2026-06-04",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e026",
+    "e027",
+    "e028",
+    "e029"
+   ],
+   "notes": "Non-executive Chairman until the 2026 annual meeting."
+  },
+  {
+   "person_key": "reed-hastings",
+   "role": "non_independent_director",
+   "start_date": "1997",
+   "end_date": "2026-06-04",
+   "precision": "year",
+   "end_precision": "day",
+   "confidence": "medium",
+   "evidence_refs": [
+    "e020",
+    "e012",
+    "e028"
+   ],
+   "notes": "Employee until 2025-04-17; never in any proxy's independence list (2026 proxy excludes him)."
+  },
+  {
+   "person_key": "jay-hoag",
+   "role": "lead_independent_director",
+   "start_date": "2012",
+   "end_date": "2026-06-04",
+   "precision": "year",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e035",
+    "e033",
+    "e034",
+    "e032",
+    "e132",
+    "e036"
+   ],
+   "notes": "'Since 2012' per the 2026 8-K; the 2012 proxy (filed 2012-04-20) says none had been appointed, the 2013 proxy says 'recently created'. Role ended when he became Chair."
+  },
+  {
+   "person_key": "jay-hoag",
+   "role": "chair",
+   "start_date": "2026-06-04",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e035",
+    "e036",
+    "e041"
+   ],
+   "notes": "Independent Chairman effective at the conclusion of the 2026-06-04 annual meeting (Board acted 2026-05-29)."
+  },
+  {
+   "person_key": "jay-hoag",
+   "role": "independent_director",
+   "start_date": "1999-06",
+   "end_date": null,
+   "precision": "month",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e032",
+    "e014",
+    "e012",
+    "e036"
+   ],
+   "notes": "Proxy 'Independent Director since 1999'; independent in every determination reviewed."
+  },
+  {
+   "person_key": "richard-barton",
+   "role": "independent_director",
+   "start_date": "2002-05",
+   "end_date": null,
+   "precision": "month",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e045",
+    "e014",
+    "e012"
+   ],
+   "notes": "Proxy 'Independent Director since 2002'."
+  },
+  {
+   "person_key": "timothy-haley",
+   "role": "independent_director",
+   "start_date": "1998-06",
+   "end_date": "2025-06-05",
+   "precision": "month",
+   "end_precision": "day",
+   "confidence": "medium",
+   "evidence_refs": [
+    "e050",
+    "e013",
+    "e016"
+   ]
+  },
+  {
+   "person_key": "ann-mather",
+   "role": "independent_director",
+   "start_date": "2010-07-01",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e059",
+    "e014",
+    "e012"
+   ]
+  },
+  {
+   "person_key": "leslie-kilgore",
+   "role": "executive_director",
+   "start_date": "2012-01-20",
+   "end_date": "2012-02-02",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e066",
+    "e065"
+   ],
+   "officer_title": "Chief Marketing Officer",
+   "notes": "Director while still Chief Marketing Officer, until her CMO resignation took effect."
+  },
+  {
+   "person_key": "leslie-kilgore",
+   "role": "non_independent_director",
+   "start_date": "2012-01-20",
+   "end_date": "2015",
+   "precision": "day",
+   "end_precision": "year",
+   "confidence": "medium",
+   "evidence_refs": [
+    "e066",
+    "e067",
+    "e068"
+   ],
+   "notes": "Former CMO; proxies say independent only 'since 2015'."
+  },
+  {
+   "person_key": "leslie-kilgore",
+   "role": "independent_director",
+   "start_date": "2015",
+   "end_date": null,
+   "precision": "year",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e067",
+    "e068",
+    "e012"
+   ]
+  },
+  {
+   "person_key": "brad-smith",
+   "role": "independent_director",
+   "start_date": "2015-03-30",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e073",
+    "e014",
+    "e012"
+   ]
+  },
+  {
+   "person_key": "anne-sweeney",
+   "role": "independent_director",
+   "start_date": "2015-03-30",
+   "end_date": "2026-07-26",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "medium",
+   "evidence_refs": [
+    "e074",
+    "e012",
+    "e077"
+   ]
+  },
+  {
+   "person_key": "rodolphe-belmer",
+   "role": "independent_director",
+   "start_date": "2018-01-23",
+   "end_date": "2022-10-27",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "medium",
+   "evidence_refs": [
+    "e083",
+    "e014",
+    "e017"
+   ]
+  },
+  {
+   "person_key": "susan-rice",
+   "role": "independent_director",
+   "start_date": "2018-03-26",
+   "end_date": "2021-01-20",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "medium",
+   "evidence_refs": [
+    "e092",
+    "e015"
+   ]
+  },
+  {
+   "person_key": "susan-rice",
+   "role": "independent_director",
+   "start_date": "2023-09-06",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e013",
+    "e012"
+   ]
+  },
+  {
+   "person_key": "mathias-dopfner",
+   "role": "independent_director",
+   "start_date": "2018-09-18",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e103",
+    "e014",
+    "e012"
+   ]
+  },
+  {
+   "person_key": "ted-sarandos",
+   "role": "ceo_director",
+   "start_date": "2020-07-14",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e109",
+    "e108",
+    "e110",
+    "e111"
+   ],
+   "officer_title": "co-Chief Executive Officer",
+   "notes": "Co-CEO (with Hastings until 2023-01-13, then with Peters)."
+  },
+  {
+   "person_key": "ted-sarandos",
+   "role": "non_independent_director",
+   "start_date": "2020-07-14",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e109",
+    "e012"
+   ]
+  },
+  {
+   "person_key": "strive-masiyiwa",
+   "role": "independent_director",
+   "start_date": "2020-12-16",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e014",
+    "e012"
+   ]
+  },
+  {
+   "person_key": "greg-peters",
+   "role": "ceo_director",
+   "start_date": "2023-01-13",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e120",
+    "e119",
+    "e121",
+    "e123"
+   ],
+   "officer_title": "co-Chief Executive Officer",
+   "notes": "Co-CEO with Sarandos."
+  },
+  {
+   "person_key": "greg-peters",
+   "role": "non_independent_director",
+   "start_date": "2023-01-13",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e120",
+    "e012"
+   ]
+  },
+  {
+   "person_key": "elinor-mertz",
+   "role": "independent_director",
+   "start_date": "2025-06-22",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e012",
+    "e125"
+   ]
+  }
+ ],
+ "committees": [
+  {
+   "person_key": "ann-mather",
+   "committee": "audit",
+   "role": "chair",
+   "as_of_filing": "0001193125-26-159286",
+   "as_of_date": "2026-04-16",
+   "evidence_refs": [
+    "e130",
+    "e060"
+   ]
+  },
+  {
+   "person_key": "richard-barton",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001193125-26-159286",
+   "as_of_date": "2026-04-16",
+   "evidence_refs": [
+    "e130",
+    "e046"
+   ]
+  },
+  {
+   "person_key": "elinor-mertz",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001193125-26-159286",
+   "as_of_date": "2026-04-16",
+   "evidence_refs": [
+    "e130",
+    "e125",
+    "e124"
+   ]
+  },
+  {
+   "person_key": "leslie-kilgore",
+   "committee": "compensation",
+   "role": "chair",
+   "as_of_filing": "0001193125-26-159286",
+   "as_of_date": "2026-04-16",
+   "evidence_refs": [
+    "e129",
+    "e068",
+    "e070"
+   ]
+  },
+  {
+   "person_key": "mathias-dopfner",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001193125-26-159286",
+   "as_of_date": "2026-04-16",
+   "evidence_refs": [
+    "e129",
+    "e104"
+   ]
+  },
+  {
+   "person_key": "anne-sweeney",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001193125-26-159286",
+   "as_of_date": "2026-04-16",
+   "evidence_refs": [
+    "e129",
+    "e076"
+   ]
+  },
+  {
+   "person_key": "jay-hoag",
+   "committee": "nominating_governance",
+   "role": "chair",
+   "as_of_filing": "0001193125-26-159286",
+   "as_of_date": "2026-04-16",
+   "evidence_refs": [
+    "e131",
+    "e037",
+    "e035"
+   ]
+  },
+  {
+   "person_key": "brad-smith",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001193125-26-159286",
+   "as_of_date": "2026-04-16",
+   "evidence_refs": [
+    "e131"
+   ]
+  },
+  {
+   "person_key": "strive-masiyiwa",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001193125-26-159286",
+   "as_of_date": "2026-04-16",
+   "evidence_refs": [
+    "e131",
+    "e115"
+   ]
+  },
+  {
+   "person_key": "susan-rice",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001193125-26-159286",
+   "as_of_date": "2026-04-16",
+   "evidence_refs": [
+    "e131",
+    "e098",
+    "e133"
+   ]
+  },
+  {
+   "person_key": "timothy-haley",
+   "committee": "compensation",
+   "role": "chair",
+   "as_of_filing": "0001193125-25-084425",
+   "as_of_date": "2025-04-17",
+   "evidence_refs": [
+    "e056",
+    "e055"
+   ]
+  },
+  {
+   "person_key": "rodolphe-belmer",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001193125-22-115102",
+   "as_of_date": "2022-04-22",
+   "evidence_refs": [
+    "e086",
+    "e087",
+    "e085"
+   ]
+  },
+  {
+   "person_key": "susan-rice",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001193125-20-114206",
+   "as_of_date": "2020-04-22",
+   "evidence_refs": [
+    "e093"
+   ]
+  }
+ ],
+ "events": [
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "reed-hastings",
+   "event_date": "1997",
+   "announced_date": null,
+   "evidence_refs": [
+    "e020",
+    "e021",
+    "e018"
+   ],
+   "summary": "Co-founder Reed Hastings on the board as Chairman since 1997 (company inception).",
+   "event_date_precision": "year"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "timothy-haley",
+   "event_date": "1998-06",
+   "announced_date": null,
+   "evidence_refs": [
+    "e049"
+   ],
+   "summary": "Timothy Haley joins board.",
+   "event_date_precision": "month"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "reed-hastings",
+   "event_date": "1998-09",
+   "announced_date": null,
+   "evidence_refs": [
+    "e018"
+   ],
+   "summary": "Hastings becomes CEO (prospectus date; 2026 proxy says 1999).",
+   "event_date_precision": "month"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "jay-hoag",
+   "event_date": "1999-06",
+   "announced_date": null,
+   "evidence_refs": [
+    "e031"
+   ],
+   "summary": "Jay Hoag joins board.",
+   "event_date_precision": "month"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "richard-barton",
+   "event_date": "2002-05",
+   "announced_date": null,
+   "evidence_refs": [
+    "e042",
+    "e044",
+    "e043"
+   ],
+   "summary": "Richard Barton joins board shortly before the IPO.",
+   "event_date_precision": "month"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "ann-mather",
+   "event_date": "2010-07-01",
+   "announced_date": "2010-06-16",
+   "evidence_refs": [
+    "e058",
+    "e063"
+   ],
+   "summary": "Ann Mather joins board (Class II, Audit).",
+   "event_date_precision": "day",
+   "decision_date": "2010-06-10"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "leslie-kilgore",
+   "event_date": "2012-01-20",
+   "announced_date": "2012-01-20",
+   "evidence_refs": [
+    "e066"
+   ],
+   "summary": "Leslie Kilgore (outgoing CMO) joins board (Class II).",
+   "event_date_precision": "day",
+   "decision_date": "2012-01-19"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "leslie-kilgore",
+   "event_date": "2012-02-02",
+   "announced_date": "2012-01-20",
+   "evidence_refs": [
+    "e065"
+   ],
+   "summary": "Kilgore's CMO resignation takes effect; she becomes a non-employee director.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "jay-hoag",
+   "event_date": "2012",
+   "announced_date": null,
+   "evidence_refs": [
+    "e035",
+    "e033",
+    "e034"
+   ],
+   "summary": "Hoag appointed lead independent director (year only).",
+   "event_date_precision": "year"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "leslie-kilgore",
+   "event_date": "2015",
+   "announced_date": null,
+   "evidence_refs": [
+    "e067",
+    "e068"
+   ],
+   "summary": "Kilgore deemed independent from 2015 (year only).",
+   "event_date_precision": "year"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "brad-smith",
+   "event_date": "2015-03-30",
+   "announced_date": "2015-03-30",
+   "evidence_refs": [
+    "e072",
+    "e078"
+   ],
+   "summary": "Brad Smith joins board (Class I).",
+   "event_date_precision": "day",
+   "decision_date": "2015-03-26"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "anne-sweeney",
+   "event_date": "2015-03-30",
+   "announced_date": "2015-03-30",
+   "evidence_refs": [
+    "e072",
+    "e080"
+   ],
+   "summary": "Anne Sweeney joins board (Class I).",
+   "event_date_precision": "day",
+   "decision_date": "2015-03-26"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "rodolphe-belmer",
+   "event_date": "2018-01-23",
+   "announced_date": "2018-01-24",
+   "evidence_refs": [
+    "e082",
+    "e089"
+   ],
+   "summary": "Rodolphe Belmer joins board (Class I).",
+   "event_date_precision": "day",
+   "decision_date": "2018-01-21"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "susan-rice",
+   "event_date": "2018-03-26",
+   "announced_date": "2018-03-28",
+   "evidence_refs": [
+    "e091",
+    "e099"
+   ],
+   "summary": "Susan Rice joins board (first stint, Class II).",
+   "event_date_precision": "day",
+   "decision_date": "2018-03-24"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "mathias-dopfner",
+   "event_date": "2018-09-18",
+   "announced_date": "2018-09-18",
+   "evidence_refs": [
+    "e102",
+    "e106"
+   ],
+   "summary": "Mathias Döpfner joins board (Class III).",
+   "event_date_precision": "day",
+   "decision_date": "2018-09-12"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "ted-sarandos",
+   "event_date": "2020-07-14",
+   "announced_date": "2020-07-16",
+   "evidence_refs": [
+    "e109",
+    "e108"
+   ],
+   "summary": "Ted Sarandos joins board (Class III) and becomes co-CEO alongside Hastings.",
+   "event_date_precision": "day",
+   "decision_date": "2020-07-13"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "strive-masiyiwa",
+   "event_date": "2020-12-16",
+   "announced_date": "2020-12-16",
+   "evidence_refs": [
+    "e112",
+    "e113"
+   ],
+   "summary": "Strive Masiyiwa joins board (Class II).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "susan-rice",
+   "event_date": "2021-01-20",
+   "announced_date": "2020-12-14",
+   "evidence_refs": [
+    "e094",
+    "e095"
+   ],
+   "summary": "Susan Rice resigns (first stint).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "rodolphe-belmer",
+   "event_date": "2022-10-27",
+   "announced_date": "2022-10-21",
+   "evidence_refs": [
+    "e084",
+    "e085"
+   ],
+   "summary": "Rodolphe Belmer resigns.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "greg-peters",
+   "event_date": "2023-01-13",
+   "announced_date": "2023-01-19",
+   "evidence_refs": [
+    "e120",
+    "e119"
+   ],
+   "summary": "Greg Peters joins board (Class I) and becomes co-CEO.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "reed-hastings",
+   "event_date": "2023-01-13",
+   "announced_date": "2023-01-19",
+   "evidence_refs": [
+    "e025"
+   ],
+   "summary": "Hastings steps down as co-CEO and becomes Executive Chairman.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "susan-rice",
+   "event_date": "2023-09-06",
+   "announced_date": "2023-09-08",
+   "evidence_refs": [
+    "e096",
+    "e100"
+   ],
+   "summary": "Susan Rice rejoins board (Class I).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "reed-hastings",
+   "event_date": "2025-04-17",
+   "announced_date": "2025-04-17",
+   "evidence_refs": [
+    "e026",
+    "e027"
+   ],
+   "summary": "Hastings moves from Executive Chairman to non-executive Chairman.",
+   "event_date_precision": "day",
+   "decision_date": "2025-04-11"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "timothy-haley",
+   "event_date": "2025-06-05",
+   "announced_date": "2025-04-17",
+   "evidence_refs": [
+    "e052",
+    "e053",
+    "e054"
+   ],
+   "summary": "Timothy Haley leaves at the 2025 annual meeting (did not stand).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "elinor-mertz",
+   "event_date": "2025-06-22",
+   "announced_date": "2025-06-24",
+   "evidence_refs": [
+    "e124",
+    "e127"
+   ],
+   "summary": "Elinor Mertz joins board and Audit Committee.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "leslie-kilgore",
+   "event_date": "2025-06-22",
+   "announced_date": "2025-06-24",
+   "evidence_refs": [
+    "e070"
+   ],
+   "summary": "Kilgore moves from Audit to Compensation Committee chair (succeeding Haley).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "reed-hastings",
+   "event_date": "2026-06-04",
+   "announced_date": "2026-04-16",
+   "evidence_refs": [
+    "e028",
+    "e029"
+   ],
+   "summary": "Reed Hastings leaves at the 2026 annual meeting (did not stand).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "jay-hoag",
+   "event_date": "2026-06-04",
+   "announced_date": "2026-06-05",
+   "evidence_refs": [
+    "e035",
+    "e036"
+   ],
+   "summary": "Hoag becomes independent Chairman; lead independent director role discontinued.",
+   "event_date_precision": "day",
+   "decision_date": "2026-05-29"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "anne-sweeney",
+   "event_date": "2026-07-26",
+   "announced_date": "2026-07-30",
+   "evidence_refs": [
+    "e077"
+   ],
+   "summary": "Anne Sweeney resigns.",
+   "event_date_precision": "day"
+  }
+ ],
+ "evidence": [
+  {
+   "id": "e001",
+   "form": "424B4",
+   "accession": "0001012870-02-002475",
+   "filing_date": "2002-05-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000101287002002475/d424b4.htm",
+   "quote": "We were incorporated in Delaware in August 1997 and changed our name from NetFlix.com, Inc. to Netflix, Inc. in March 2002.",
+   "supports": "Incorporation (Delaware, August 1997) and 2002 name change."
+  },
+  {
+   "id": "e002",
+   "form": "424B4",
+   "accession": "0001012870-02-002475",
+   "filing_date": "2002-05-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000101287002002475/d424b4.htm",
+   "quote": "The date of this prospectus is May 22, 2002.",
+   "supports": "IPO prospectus date."
+  },
+  {
+   "id": "e003",
+   "form": "10-K",
+   "accession": "0000950168-03-001155",
+   "filing_date": "2003-03-31",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000095016803001155/d10k.htm",
+   "quote": "Our common stock has traded on the Nasdaq National Market under the symbol “NFLX” since our initial public offering on May 23, 2002.",
+   "supports": "IPO / first trading day 2002-05-23."
+  },
+  {
+   "id": "e004",
+   "form": "424B4",
+   "accession": "0001012870-02-002475",
+   "filing_date": "2002-05-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000101287002002475/d424b4.htm",
+   "quote": "Our certificate of incorporation will provide for a classified board of directors consisting of three classes of directors, each serving staggered three year terms.",
+   "supports": "Board classified at IPO."
+  },
+  {
+   "id": "e005",
+   "form": "DEF 14A",
+   "accession": "0001193125-23-110513",
+   "filing_date": "2023-04-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312523110513/d405125ddef14a.htm",
+   "quote": "We implemented a phased-in declassification of our Board, with directors elected at this year’s annual meeting serving one-year terms and the entire Board standing for annual elections beginning in 2025 and beyond.",
+   "supports": "Board declassified in phases (one-year terms from the 2023 meeting; whole board annual from 2025)."
+  },
+  {
+   "id": "e006",
+   "form": "8-K",
+   "accession": "0001065280-26-000189",
+   "filing_date": "2026-06-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000189/nflx-20260604.htm",
+   "quote": "The following individuals were elected at the Annual Meeting to serve as directors until the 2027 annual meeting of stockholders, by the following votes:",
+   "supports": "2026 annual meeting: all nominees elected to one-year terms (no classes)."
+  },
+  {
+   "id": "e007",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-159286",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312526159286/d20613ddef14a.htm",
+   "quote": "On November 14, 2025, the Company effected a ten-for-one forward stock split of its common stock (the “Stock Split”) with a proportionate increase in the number of shares of authorized common stock.",
+   "supports": "Ten-for-one stock split 2025-11-14 (relevant to stock-return series)."
+  },
+  {
+   "id": "e008",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-159286",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312526159286/d20613ddef14a.htm",
+   "quote": "Our Board currently consists of the following 13 members: Richard Barton, Mathias Döpfner, Reed Hastings, Jay Hoag, Leslie Kilgore, Strive Masiyiwa, Ann Mather, Elinor Mertz, Greg Peters, Ambassador Susan Rice, Ted Sarandos, Brad Smith and Anne Sweeney.",
+   "supports": "Board roster at 2026 proxy (13)."
+  },
+  {
+   "id": "e009",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-159286",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312526159286/d20613ddef14a.htm",
+   "quote": "Each current director, other than Mr. Hastings, has been nominated for election at the Annual Meeting.",
+   "supports": "All directors except Hastings renominated in 2026."
+  },
+  {
+   "id": "e010",
+   "form": "DEF 14A",
+   "accession": "0001193125-25-084425",
+   "filing_date": "2025-04-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312525084425/d867701ddef14a.htm",
+   "quote": "Our Board currently consists of the following 13 members: Richard Barton, Mathias Döpfner, Timothy Haley, Reed Hastings, Jay Hoag, Leslie Kilgore, Strive Masiyiwa, Ann Mather, Greg Peters, Ambassador Susan Rice, Ted Sarandos, Brad Smith and Anne Sweeney.",
+   "supports": "Board roster at 2025 proxy (13)."
+  },
+  {
+   "id": "e011",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-114206",
+   "filing_date": "2020-04-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312520114206/d721989ddef14a.htm",
+   "quote": "Our Board is comprised of 11 highly experienced, talented, and qualified directors",
+   "supports": "Board size at 2020 proxy: 11."
+  },
+  {
+   "id": "e012",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-159286",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312526159286/d20613ddef14a.htm",
+   "quote": "The Board has determined that each of Messrs. Barton, Döpfner, Hoag, Masiyiwa and Smith, Mses. Kilgore, Mather, Mertz, and Sweeney and Ambassador Rice are independent under the applicable rules of the Securities and Exchange Commission (“SEC”) and the listing standards of the Nasdaq Stock Market",
+   "supports": "2026 proxy independence determinations (Hastings, Peters, Sarandos not listed)."
+  },
+  {
+   "id": "e013",
+   "form": "DEF 14A",
+   "accession": "0001193125-25-084425",
+   "filing_date": "2025-04-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312525084425/d867701ddef14a.htm",
+   "quote": "The Board has determined that each of Messrs. Barton, Döpfner, Haley*, Hoag, Masiyiwa and Smith, Mses. Kilgore, Mather, and Sweeney and Ambassador Rice are independent under the applicable rules of the SEC and the listing standards of the Nasdaq Stock Market",
+   "supports": "2025 proxy independence determinations (incl. Haley)."
+  },
+  {
+   "id": "e014",
+   "form": "DEF 14A",
+   "accession": "0001193125-22-115102",
+   "filing_date": "2022-04-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312522115102/d202881ddef14a.htm",
+   "quote": "determined that each of Messrs. Barton, Belmer, Döpfner, Haley, Hoag, Masiyiwa and Smith, and Mses. Kilgore, Mather, and Sweeney are independent under the applicable rules of the SEC and the listing standards of the NASDAQ Stock Market;",
+   "supports": "2022 proxy independence determinations (incl. Belmer, Masiyiwa)."
+  },
+  {
+   "id": "e015",
+   "form": "DEF 14A",
+   "accession": "0001193125-21-128991",
+   "filing_date": "2021-04-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312521128991/d13481ddef14a.htm",
+   "quote": "In addition, the Board determined that Ambassador Rice was independent during the time she served on the Board.",
+   "supports": "Rice independent during first stint."
+  },
+  {
+   "id": "e016",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-159286",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312526159286/d20613ddef14a.htm",
+   "quote": "In addition, the Board determined that Mr. Haley was independent during the time he served on the Board.",
+   "supports": "Haley independent through his tenure."
+  },
+  {
+   "id": "e017",
+   "form": "DEF 14A",
+   "accession": "0001193125-23-110513",
+   "filing_date": "2023-04-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312523110513/d405125ddef14a.htm",
+   "quote": "In addition, the Board determined that Mr. Belmer was independent during the time he served on the Board.",
+   "supports": "Belmer independent during his tenure."
+  },
+  {
+   "id": "e018",
+   "form": "424B4",
+   "accession": "0001012870-02-002475",
+   "filing_date": "2002-05-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000101287002002475/d424b4.htm",
+   "quote": "Reed Hastings has served as our Chief Executive Officer since September 1998, our President since July 1999 and Chairman of the Board since inception.",
+   "supports": "Hastings CEO since 1998-09; Chairman since the company's inception."
+  },
+  {
+   "id": "e019",
+   "form": "424B4",
+   "accession": "0001012870-02-002475",
+   "filing_date": "2002-05-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000101287002002475/d424b4.htm",
+   "quote": "Period from August 29, 1997 (Inception) to December 31, 1997",
+   "supports": "Company inception date August 29, 1997.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e020",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-114206",
+   "filing_date": "2020-04-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312520114206/d721989ddef14a.htm",
+   "quote": "Reed Hastings Chief Executive Officer of the Company, Chairman of the Board Director and Chairman since 1997 Class III",
+   "supports": "Hastings director and chairman since 1997 (year); Class III in 2020.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e021",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-159286",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312526159286/d20613ddef14a.htm",
+   "quote": "Reed Hastings* CHAIRMAN OF THE BOARD Other Public Company Boards • None DIRECTOR AND CHAIRPERSON SINCE: 1997",
+   "supports": "Hastings 'Director and Chairperson since 1997'; no other public boards.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e022",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-159286",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312526159286/d20613ddef14a.htm",
+   "quote": "Co-Founder, Chief Executive Officer, President (1999-January 2023) and Chairman of Netflix (since 1997)",
+   "supports": "2026 proxy dates Hastings' CEO tenure 1999-January 2023 (conflicts with prospectus Sept 1998 CEO start)."
+  },
+  {
+   "id": "e023",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-159286",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312526159286/d20613ddef14a.htm",
+   "quote": "Mr. Hastings previously served on the board of Facebook, Inc. from 2011 to 2019 and Microsoft Corporation from 2007 to 2012.",
+   "supports": "Hastings former public boards."
+  },
+  {
+   "id": "e024",
+   "form": "8-K",
+   "accession": "0001065280-20-000306",
+   "filing_date": "2020-07-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528020000306/nflx-20200716.htm",
+   "quote": "Mr. Sarandos will serve as co-Chief Executive Officer with Reed Hastings, the Company’s co-Chief Executive Officer, President, and Chairman of the Board.",
+   "supports": "From 2020-07-14 Hastings is co-CEO and Chairman."
+  },
+  {
+   "id": "e025",
+   "form": "8-K",
+   "accession": "0001065280-23-000034",
+   "filing_date": "2023-01-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528023000034/nflx-20230113.htm",
+   "quote": "On January 13, 2023, Reed Hastings was appointed as Executive Chairman of the Board of Directors (the “Board”) of the Company, effective immediately. At that time, Mr. Hastings resigned his role as co-Chief Executive Officer and President of the Company, but remains an employee of the Company in his new role as Executive Chairman.",
+   "supports": "Hastings: co-CEO ends and Executive Chairman begins 2023-01-13."
+  },
+  {
+   "id": "e026",
+   "form": "8-K",
+   "accession": "0001065280-25-000175",
+   "filing_date": "2025-04-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000175/nflx-20250411.htm",
+   "quote": "On April 11, 2025, Reed Hastings informed the Company of his intent to transition from his executive officer position. Effective April 17, 2025, Reed Hastings will transition to serve as Chairman of the board of directors of the Company (the “Board”) and non-executive director.",
+   "supports": "Hastings: Executive Chairman ends; non-executive Chairman from 2025-04-17."
+  },
+  {
+   "id": "e027",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-159286",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312526159286/d20613ddef14a.htm",
+   "quote": "Effective April 17, 2025, Mr. Hastings transitioned from Executive Chairman to Chairman of the Board and a non-executive director.",
+   "supports": "Proxy confirmation of 2025-04-17 transition."
+  },
+  {
+   "id": "e028",
+   "form": "8-K",
+   "accession": "0001065280-26-000137",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000137/nflx-20260410.htm",
+   "quote": "On April 10, 2026, Reed Hastings informed the Company of his decision to not stand for re-election as a director at the Company’s 2026 annual meeting of stockholders (the “Annual Meeting”). Mr. Hastings’ current term will expire at the Annual Meeting. He will continue to serve as a director and Chairman of the Board until the Annual Meeting.",
+   "supports": "Hastings did not stand for re-election in 2026; served as director and Chairman until the annual meeting."
+  },
+  {
+   "id": "e029",
+   "form": "8-K",
+   "accession": "0001065280-26-000189",
+   "filing_date": "2026-06-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000189/nflx-20260604.htm",
+   "quote": "On June 4, 2026, Netflix, Inc. (the “Company”) held its 2026 annual meeting of stockholders (the “Annual Meeting”).",
+   "supports": "2026 annual meeting date: 2026-06-04 (end of Hastings' term)."
+  },
+  {
+   "id": "e030",
+   "form": "4",
+   "accession": "0001065280-26-000188",
+   "filing_date": "2026-06-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000188/wk-form4_1780431227.xml",
+   "quote": "HASTINGS REED",
+   "supports": "Hastings reporting-owner CIK; last monthly director option grant before leaving (2026-06-01).",
+   "xml_fields": {
+    "rptOwnerCik": "0001033331",
+    "rptOwnerName": "HASTINGS REED",
+    "periodOfReport": "2026-06-01"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e031",
+   "form": "424B4",
+   "accession": "0001012870-02-002475",
+   "filing_date": "2002-05-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000101287002002475/d424b4.htm",
+   "quote": "Jay C. Hoag has served as one of our directors since June 1999.",
+   "supports": "Hoag director since 1999-06."
+  },
+  {
+   "id": "e032",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-114206",
+   "filing_date": "2020-04-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312520114206/d721989ddef14a.htm",
+   "quote": "Jay C. Hoag Lead Independent Director Independent Director since 1999 Class III",
+   "supports": "Hoag lead independent director; independent director since 1999.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e033",
+   "form": "DEF 14A",
+   "accession": "0001193125-12-172558",
+   "filing_date": "2012-04-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312512172558/d305257ddef14a.htm",
+   "quote": "The Board has not appointed a lead independent director",
+   "supports": "As of the 2012 proxy (filed 2012-04-20) there was no lead independent director."
+  },
+  {
+   "id": "e034",
+   "form": "DEF 14A",
+   "accession": "0001065280-13-000017",
+   "filing_date": "2013-04-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528013000017/a2012proxy.htm",
+   "quote": "The Board recently created a position of lead independent director and has appointed Jay Hoag to serve in such capacity.",
+   "supports": "Hoag appointed lead independent director before the 2013 proxy."
+  },
+  {
+   "id": "e035",
+   "form": "8-K",
+   "accession": "0001065280-26-000189",
+   "filing_date": "2026-06-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000189/nflx-20260604.htm",
+   "quote": "On May 29, 2026, the Board of Directors (the “Board”) of the Company appointed Jay Hoag to serve as the Chairman of the Board, effective as of the conclusion of the Annual Meeting. Mr. Hoag previously served as the Board’s Lead Independent Director since 2012 and currently serves as the chair of the Nominating and Governance Committee.",
+   "supports": "Hoag Chair from conclusion of 2026-06-04 annual meeting (decided 2026-05-29); LID since 2012; N&G chair."
+  },
+  {
+   "id": "e036",
+   "form": "8-K",
+   "accession": "0001065280-26-000189",
+   "filing_date": "2026-06-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000189/nflx-20260604.htm",
+   "quote": "The Board determined it will no longer need a separate Lead Independent Director, as Mr. Hoag is an independent director under the applicable rules of the Securities and Exchange Commission and the listing standards of the Nasdaq Stock Market.",
+   "supports": "Lead Independent Director role ends when Hoag becomes Chair; Hoag independent."
+  },
+  {
+   "id": "e037",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-159286",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312526159286/d20613ddef14a.htm",
+   "quote": "Jay C. Hoag LEAD INDEPENDENT DIRECTOR Other Public Company Boards • Peloton Interactive, Inc. • Zillow Group, Inc. DIRECTOR SINCE: 1999",
+   "supports": "Hoag LID at 2026 proxy; current public boards.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e038",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-159286",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312526159286/d20613ddef14a.htm",
+   "quote": "Previously, Mr. Hoag served on the board of directors of a number of other public and private companies, including Tripadvisor, Inc. from 2018 to 2025, Electronic Arts from 2011 to 2021, Prodege from 2014 to 2021, and TCV Acquisition Corp. from 2021 to 2023.",
+   "supports": "Hoag former boards (public and private mixed)."
+  },
+  {
+   "id": "e039",
+   "form": "8-K",
+   "accession": "0001065280-25-000286",
+   "filing_date": "2025-06-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000286/nflx-20250605.htm",
+   "quote": "At the Annual Meeting, Mr. Jay Hoag did not receive a majority of votes cast in his election to the board of directors (the “Board”).",
+   "supports": "Hoag failed majority vote at 2025-06-05 meeting; tendered resignation."
+  },
+  {
+   "id": "e040",
+   "form": "8-K",
+   "accession": "0001065280-25-000287",
+   "filing_date": "2025-06-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000287/nflx-20250622.htm",
+   "quote": "On June 22, 2025, the Board rejected Mr. Hoag’s resignation.",
+   "supports": "Board rejected Hoag's resignation; continuous service."
+  },
+  {
+   "id": "e041",
+   "form": "4",
+   "accession": "0001104659-26-113405",
+   "filing_date": "2026-10-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000110465926113405/tm2626967-1_4seq1.xml",
+   "quote": "Hoag Jay C",
+   "supports": "Hoag reporting-owner CIK; director option grant 2026-10-01 (still serving).",
+   "xml_fields": {
+    "rptOwnerCik": "0001082906",
+    "rptOwnerName": "Hoag Jay C",
+    "periodOfReport": "2026-10-01"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e042",
+   "form": "424B4",
+   "accession": "0001012870-02-002475",
+   "filing_date": "2002-05-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000101287002002475/d424b4.htm",
+   "quote": "Richard N. Barton has served as one of our directors since May 2002.",
+   "supports": "Barton director since 2002-05 (pre-IPO)."
+  },
+  {
+   "id": "e043",
+   "form": "S-1/A",
+   "accession": "0001012870-02-002125",
+   "filing_date": "2002-05-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000101287002002125/ds1a.htm",
+   "quote": "The following table sets forth certain information with respect to our executive officers, directors and key employees as of May 2, 2002.",
+   "supports": "S-1/A (filed 2002-05-07) management table, which lists Barton, is as of 2002-05-02."
+  },
+  {
+   "id": "e044",
+   "form": "S-1/A",
+   "accession": "0001012870-02-002125",
+   "filing_date": "2002-05-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000101287002002125/ds1a.htm",
+   "quote": "Richard N. Barton has served as one of our directors since May 2002.",
+   "supports": "Barton already a director in the S-1/A filed 2002-05-07."
+  },
+  {
+   "id": "e045",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-114206",
+   "filing_date": "2020-04-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312520114206/d721989ddef14a.htm",
+   "quote": "Richard Barton Independent Director since 2002 Class I (expires 2021)",
+   "supports": "Barton independent since 2002; Class I in 2020.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e046",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-159286",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312526159286/d20613ddef14a.htm",
+   "quote": "QVC Group, Inc. (formerly Qurate Retail, Inc.) • Zillow Group, Inc. DIRECTOR SINCE: 2002 AGE: 58 COMMITTEES: AUDIT",
+   "supports": "Barton current public boards; director since 2002; Audit.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e047",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-159286",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312526159286/d20613ddef14a.htm",
+   "quote": "He has served on many public company boards, including Altimeter Growth Corp. from 2020 to 2021 and Altimeter Growth Corp. 2 from 2021 to 2022.",
+   "supports": "Barton former public boards."
+  },
+  {
+   "id": "e048",
+   "form": "4",
+   "accession": "0001065280-26-000287",
+   "filing_date": "2026-10-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000287/wk-form4_1790971512.xml",
+   "quote": "BARTON RICHARD N",
+   "supports": "Barton reporting-owner CIK; director option grant 2026-10-01 (still serving).",
+   "xml_fields": {
+    "rptOwnerCik": "0001184230",
+    "rptOwnerName": "BARTON RICHARD N",
+    "periodOfReport": "2026-10-01"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e049",
+   "form": "424B4",
+   "accession": "0001012870-02-002475",
+   "filing_date": "2002-05-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000101287002002475/d424b4.htm",
+   "quote": "Timothy M. Haley has served as one of our directors since June 1998.",
+   "supports": "Haley director since 1998-06."
+  },
+  {
+   "id": "e050",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-114206",
+   "filing_date": "2020-04-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312520114206/d721989ddef14a.htm",
+   "quote": "Timothy Haley Independent Director since 1998 Class II (expires 2022)",
+   "supports": "Haley independent since 1998; Class II.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e051",
+   "form": "8-K",
+   "accession": "0001065280-22-000216",
+   "filing_date": "2022-06-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528022000216/nflx-20220602.htm",
+   "quote": "The following individuals were elected as Class II directors at the Annual Meeting to serve until the 2025 annual meeting of stockholders, by the following votes:",
+   "supports": "2022: Haley, Kilgore, Masiyiwa, Mather elected Class II to 2025."
+  },
+  {
+   "id": "e052",
+   "form": "8-K",
+   "accession": "0001065280-25-000175",
+   "filing_date": "2025-04-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000175/nflx-20250411.htm",
+   "quote": "On April 11, 2025, Timothy Haley informed the Company of his decision to not stand for re-election as a director at the Company’s 2025 annual meeting of stockholders (the “Annual Meeting”). Mr. Haley’s current term will expire at the Annual Meeting.",
+   "supports": "Haley did not stand for re-election in 2025."
+  },
+  {
+   "id": "e053",
+   "form": "8-K",
+   "accession": "0001065280-25-000286",
+   "filing_date": "2025-06-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000286/nflx-20250605.htm",
+   "quote": "On June 5, 2025, Netflix, Inc. (the “Company”) held its 2025 annual meeting of stockholders (the “Annual Meeting”).",
+   "supports": "2025 annual meeting date 2025-06-05 (end of Haley's term)."
+  },
+  {
+   "id": "e054",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-159286",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312526159286/d20613ddef14a.htm",
+   "quote": "Timothy Haley did not stand for re-election at the 2025 annual meeting of stockholders.",
+   "supports": "Confirms Haley left at the 2025 meeting."
+  },
+  {
+   "id": "e055",
+   "form": "DEF 14A",
+   "accession": "0001193125-25-084425",
+   "filing_date": "2025-04-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312525084425/d867701ddef14a.htm",
+   "quote": "Timothy Haley* INDEPENDENT DIRECTOR Other Public Company Boards • ThredUp, Inc. • Zuora, Inc. DIRECTOR SINCE: 1998 AGE: 70 COMMITTEES: COMPENSATION (CHAIR)",
+   "supports": "Haley's last proxy: other public boards; Compensation chair.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e056",
+   "form": "DEF 14A",
+   "accession": "0001193125-25-084425",
+   "filing_date": "2025-04-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312525084425/d867701ddef14a.htm",
+   "quote": "The Compensation Committee of the Board consists of three non-employee directors: Messrs. Döpfner and Haley* (Chair), and Ms. Sweeney.",
+   "supports": "2025 proxy Compensation Committee."
+  },
+  {
+   "id": "e057",
+   "form": "4",
+   "accession": "0001065280-25-000271",
+   "filing_date": "2025-06-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000271/wk-form4_1748996077.xml",
+   "quote": "HALEY TIMOTHY M",
+   "supports": "Haley reporting-owner CIK (director option grant 2025-06-02).",
+   "xml_fields": {
+    "rptOwnerCik": "0001201583",
+    "rptOwnerName": "HALEY TIMOTHY M",
+    "periodOfReport": "2025-06-02"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e058",
+   "form": "8-K",
+   "accession": "0001193125-10-140316",
+   "filing_date": "2010-06-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312510140316/d8k.htm",
+   "quote": "On June 10, 2010, Ann Mather was appointed to the Board of Directors (the “Board”) of Netflix, Inc. (“Netflix”). Her appointment is effective July 1, 2010 and she will hold office as a Class II director until the Company’s annual meeting of stockholders in 2013.",
+   "supports": "Mather appointed 2010-06-10, effective 2010-07-01."
+  },
+  {
+   "id": "e059",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-114206",
+   "filing_date": "2020-04-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312520114206/d721989ddef14a.htm",
+   "quote": "Ann Mather Independent Director since 2010 Class II (expires 2022)",
+   "supports": "Mather independent since 2010.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e060",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-159286",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312526159286/d20613ddef14a.htm",
+   "quote": "Bumble Inc. • Pattern Group Inc. DIRECTOR SINCE: 2010 AGE: 66 COMMITTEES: AUDIT (CHAIR, FINANCIAL EXPERT)",
+   "supports": "Mather current public boards; Audit chair.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e061",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-159286",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312526159286/d20613ddef14a.htm",
+   "quote": "Ms. Mather previously served on the board of Shutterfly, Inc., a photography and image-sharing company from 2013 to 2019, Glu Mobile Inc., a publisher of mobile games from 2005 to 2021, Airbnb, Inc., an accommodations and experiences platform from 2018 to 2021, Arista Networks, Inc., a computer networking company from 2013 to 2022,",
+   "supports": "Mather former boards (part 1)."
+  },
+  {
+   "id": "e062",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-159286",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312526159286/d20613ddef14a.htm",
+   "quote": "Alphabet Inc. from 2005 to 2023 and Blend Labs, Inc., a financial services software company, from 2019 to 2024.",
+   "supports": "Mather former boards (part 2)."
+  },
+  {
+   "id": "e063",
+   "form": "3",
+   "accession": "0001219053-10-000139",
+   "filing_date": "2010-07-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000121905310000139/edgardoc.xml",
+   "quote": "MATHER ANN",
+   "supports": "Mather reporting-owner CIK; Form 3 event date 2010-07-01 matches 8-K effective date.",
+   "xml_fields": {
+    "rptOwnerCik": "0001244892",
+    "rptOwnerName": "MATHER ANN",
+    "periodOfReport": "2010-07-01"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e064",
+   "form": "4",
+   "accession": "0001065280-26-000286",
+   "filing_date": "2026-10-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000286/wk-form4_1790971495.xml",
+   "quote": "MATHER ANN",
+   "supports": "Mather director option grant 2026-10-01 (still serving).",
+   "xml_fields": {
+    "rptOwnerCik": "0001244892",
+    "rptOwnerName": "MATHER ANN",
+    "periodOfReport": "2026-10-01"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e065",
+   "form": "8-K",
+   "accession": "0001193125-12-018822",
+   "filing_date": "2012-01-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312512018822/d286457d8k.htm",
+   "quote": "On January 13, 2012, Leslie Kilgore resigned as Netflix, Inc.’s Chief Marketing Officer effective February 2, 2012.",
+   "supports": "Kilgore remained CMO (employee) until 2012-02-02."
+  },
+  {
+   "id": "e066",
+   "form": "8-K",
+   "accession": "0001193125-12-018822",
+   "filing_date": "2012-01-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312512018822/d286457d8k.htm",
+   "quote": "On January 19, 2012, Leslie Kilgore was appointed to the Board of Directors (the “Board”) of Netflix, Inc. (“Netflix”). Her appointment is effective January 20, 2012 and she will hold office as a Class II director until the Company’s annual meeting of stockholders in 2013.",
+   "supports": "Kilgore appointed 2012-01-19, effective 2012-01-20."
+  },
+  {
+   "id": "e067",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-114206",
+   "filing_date": "2020-04-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312520114206/d721989ddef14a.htm",
+   "quote": "Leslie Kilgore Director since 2012 (Independent since 2015) Class II (expires 2022)",
+   "supports": "Kilgore director since 2012, independent since 2015.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e068",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-159286",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312526159286/d20613ddef14a.htm",
+   "quote": "Pinterest, Inc. DIRECTOR SINCE: 2012 (INDEPENDENT SINCE 2015) AGE: 60 COMMITTEES: COMPENSATION (CHAIR)",
+   "supports": "Kilgore current public board; independent since 2015; Compensation chair.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e069",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-159286",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312526159286/d20613ddef14a.htm",
+   "quote": "She previously served on the boards of LinkedIn Corp., Medallia, Inc. from 2015 to 2021, and Nextdoor Holdings, Inc. from 2015 to 2023",
+   "supports": "Kilgore former boards."
+  },
+  {
+   "id": "e070",
+   "form": "8-K",
+   "accession": "0001065280-25-000287",
+   "filing_date": "2025-06-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000287/nflx-20250622.htm",
+   "quote": "Concurrently, Leslie Kilgore moved from the Audit Committee to the Compensation Committee of the Board (the “Compensation Committee”), and Ms. Kilgore will serve as the chair of the Compensation Committee.",
+   "supports": "Kilgore becomes Compensation chair 2025-06-22."
+  },
+  {
+   "id": "e071",
+   "form": "4",
+   "accession": "0001065280-26-000284",
+   "filing_date": "2026-10-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000284/wk-form4_1790971453.xml",
+   "quote": "KILGORE LESLIE J",
+   "supports": "Kilgore reporting-owner CIK; director option grant 2026-10-01 (still serving).",
+   "xml_fields": {
+    "rptOwnerCik": "0001218352",
+    "rptOwnerName": "KILGORE LESLIE J",
+    "periodOfReport": "2026-10-01"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e072",
+   "form": "8-K",
+   "accession": "0001065280-15-000009",
+   "filing_date": "2015-03-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528015000009/nflx8-kdirectors.htm",
+   "quote": "On March 26, 2015, Anne Sweeney and Brad Smith were appointed to the Board of Directors (the “Board”) of Netflix, Inc. (“Netflix”). Their appointment is effective March 30, 2015 and they will hold office as Class I directors.",
+   "supports": "Smith and Sweeney appointed 2015-03-26, effective 2015-03-30."
+  },
+  {
+   "id": "e073",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-114206",
+   "filing_date": "2020-04-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312520114206/d721989ddef14a.htm",
+   "quote": "Brad Smith Independent Director since 2015 Class I (expires 2021)",
+   "supports": "Smith independent since 2015.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e074",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-114206",
+   "filing_date": "2020-04-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312520114206/d721989ddef14a.htm",
+   "quote": "Anne Sweeney Independent Director since 2015 Class I (expires 2021)",
+   "supports": "Sweeney independent since 2015.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e075",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-159286",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312526159286/d20613ddef14a.htm",
+   "quote": "Brad Smith INDEPENDENT DIRECTOR Other Public Company Boards • None DIRECTOR SINCE: 2015",
+   "supports": "Smith: no other public boards.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e076",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-159286",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312526159286/d20613ddef14a.htm",
+   "quote": "Anne Sweeney INDEPENDENT DIRECTOR Other Public Company Boards • None DIRECTOR SINCE: 2015 AGE: 68 COMMITTEES: COMPENSATION",
+   "supports": "Sweeney: no other public boards; Compensation.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e077",
+   "form": "8-K",
+   "accession": "0001065280-26-000214",
+   "filing_date": "2026-07-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000214/nflx-20260726.htm",
+   "quote": "On July 26, 2026, Anne Sweeney notified Netflix, Inc. (the “Company”) that she was resigning from the Board of Directors of the Company effective as of that date.",
+   "supports": "Sweeney resigned effective 2026-07-26."
+  },
+  {
+   "id": "e078",
+   "form": "3",
+   "accession": "0001190725-15-000068",
+   "filing_date": "2015-04-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119072515000068/edgardoc.xml",
+   "quote": "SMITH BRADFORD L",
+   "supports": "Smith reporting-owner CIK; Form 3 event 2015-03-30 matches 8-K.",
+   "xml_fields": {
+    "rptOwnerCik": "0001193119",
+    "rptOwnerName": "SMITH BRADFORD L",
+    "periodOfReport": "2015-03-30"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e079",
+   "form": "4",
+   "accession": "0001065280-26-000281",
+   "filing_date": "2026-10-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000281/wk-form4_1790971385.xml",
+   "quote": "SMITH BRADFORD L",
+   "supports": "Smith director option grant 2026-10-01 (still serving).",
+   "xml_fields": {
+    "rptOwnerCik": "0001193119",
+    "rptOwnerName": "SMITH BRADFORD L",
+    "periodOfReport": "2026-10-01"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e080",
+   "form": "3",
+   "accession": "0001190725-15-000067",
+   "filing_date": "2015-04-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119072515000067/edgardoc.xml",
+   "quote": "Sweeney Anne M",
+   "supports": "Sweeney reporting-owner CIK; Form 3 event 2015-03-30 matches 8-K.",
+   "xml_fields": {
+    "rptOwnerCik": "0001638276",
+    "rptOwnerName": "Sweeney Anne M",
+    "periodOfReport": "2015-03-30"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e081",
+   "form": "4",
+   "accession": "0001065280-26-000207",
+   "filing_date": "2026-07-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000207/wk-form4_1783025705.xml",
+   "quote": "Sweeney Anne M",
+   "supports": "Sweeney's last monthly director option grant (2026-07-01) before resigning.",
+   "xml_fields": {
+    "rptOwnerCik": "0001638276",
+    "rptOwnerName": "Sweeney Anne M",
+    "periodOfReport": "2026-07-01"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e082",
+   "form": "8-K",
+   "accession": "0001065280-18-000056",
+   "filing_date": "2018-01-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528018000056/form8-k.htm",
+   "quote": "On January 21, 2018, Rodolphe Belmer was appointed to the Board of Directors (the “Board”) of Netflix, Inc. (“Netflix”). His appointment is effective January 23, 2018 and he will hold office as a Class I director.",
+   "supports": "Belmer appointed 2018-01-21, effective 2018-01-23."
+  },
+  {
+   "id": "e083",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-114206",
+   "filing_date": "2020-04-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312520114206/d721989ddef14a.htm",
+   "quote": "Rodolphe Belmer Independent Director since 2018 Class I (expires 2021)",
+   "supports": "Belmer independent since 2018.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e084",
+   "form": "8-K",
+   "accession": "0001065280-22-000369",
+   "filing_date": "2022-10-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528022000369/nflx-20221019.htm",
+   "quote": "On October 19, 2022, Rodolphe Belmer notified Netflix, Inc. (the “Company”) that he will be resigning from the Board of Directors of the Company effective October 27, 2022.",
+   "supports": "Belmer resigned effective 2022-10-27."
+  },
+  {
+   "id": "e085",
+   "form": "DEF 14A",
+   "accession": "0001193125-23-110513",
+   "filing_date": "2023-04-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312523110513/d405125ddef14a.htm",
+   "quote": "Mr. Belmer also served on the Compensation Committee until he resigned on October 27, 2022.",
+   "supports": "Belmer on Compensation Committee until resignation."
+  },
+  {
+   "id": "e086",
+   "form": "DEF 14A",
+   "accession": "0001193125-22-115102",
+   "filing_date": "2022-04-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312522115102/d202881ddef14a.htm",
+   "quote": "In 2021, the Compensation Committee of the Board consisted of four non-employee directors: Messrs. Belmer, Döpfner, and Haley (Chair), and Ms. Sweeney.",
+   "supports": "2022 proxy Compensation Committee (Belmer's last proxy)."
+  },
+  {
+   "id": "e087",
+   "form": "DEF 14A",
+   "accession": "0001193125-22-115102",
+   "filing_date": "2022-04-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312522115102/d202881ddef14a.htm",
+   "quote": "DIRECTOR SINCE: 2018 AGE: 52 COMMITTEES: COMPENSATION CLASS: I (EXPIRES 2024) Rodolphe Belmer INDEPENDENT DIRECTOR",
+   "supports": "Belmer (2022 proxy): Compensation; Class I to 2024; independent.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e088",
+   "form": "DEF 14A",
+   "accession": "0001193125-22-115102",
+   "filing_date": "2022-04-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312522115102/d202881ddef14a.htm",
+   "quote": "• CEO of Canal + Group (2012-2015); various additional roles since joining in 2001 Other Public Company Boards • None",
+   "supports": "Belmer (2022 proxy): 'Other Public Company Boards: None'.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e089",
+   "form": "3",
+   "accession": "0001065280-18-000075",
+   "filing_date": "2018-02-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528018000075/edgardoc.xml",
+   "quote": "Belmer Rodolphe",
+   "supports": "Belmer reporting-owner CIK; Form 3 event 2018-01-23 matches 8-K.",
+   "xml_fields": {
+    "rptOwnerCik": "0001729146",
+    "rptOwnerName": "Belmer Rodolphe",
+    "periodOfReport": "2018-01-23"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e090",
+   "form": "4",
+   "accession": "0001065280-22-000356",
+   "filing_date": "2022-10-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528022000356/wf-form4_166492125401043.xml",
+   "quote": "Belmer Rodolphe",
+   "supports": "Belmer's monthly director option grant 2022-10-03, shortly before his 2022-10-27 resignation.",
+   "xml_fields": {
+    "rptOwnerCik": "0001729146",
+    "rptOwnerName": "Belmer Rodolphe",
+    "periodOfReport": "2022-10-03"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e091",
+   "form": "8-K",
+   "accession": "0001065280-18-000161",
+   "filing_date": "2018-03-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528018000161/a8-k3242018.htm",
+   "quote": "On March 24, 2018, Ambassador Susan Rice was appointed to the Board of Directors (the “Board”) of Netflix, Inc. (“Netflix”). Her appointment is effective March 26, 2018 and she will hold office as a Class II director.",
+   "supports": "Rice first appointment 2018-03-24, effective 2018-03-26."
+  },
+  {
+   "id": "e092",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-114206",
+   "filing_date": "2020-04-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312520114206/d721989ddef14a.htm",
+   "quote": "Ambassador Susan Rice Independent Director since 2018 Class II (expires 2022)",
+   "supports": "Rice independent since 2018; Class II.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e093",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-114206",
+   "filing_date": "2020-04-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312520114206/d721989ddef14a.htm",
+   "quote": "The Nominating and Governance Committee of the Board consists of three non-employee directors, Messrs. Hoag (Chair) and Smith and Ambassador Rice,",
+   "supports": "2020 proxy N&G committee (Rice's last proxy of first stint)."
+  },
+  {
+   "id": "e094",
+   "form": "8-K",
+   "accession": "0001065280-20-000526",
+   "filing_date": "2020-12-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528020000526/nflx-20201209.htm",
+   "quote": "On December 9, 2020, Ambassador Susan Rice notified Netflix, Inc. (the \"Company\") that she will be resigning from the Board of Directors of the Company effective January 20, 2021.",
+   "supports": "Rice resigned effective 2021-01-20."
+  },
+  {
+   "id": "e095",
+   "form": "DEF 14A",
+   "accession": "0001193125-21-128991",
+   "filing_date": "2021-04-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312521128991/d13481ddef14a.htm",
+   "quote": "Ambassador Susan Rice served on the Board through January 20, 2021.",
+   "supports": "Rice served through 2021-01-20."
+  },
+  {
+   "id": "e096",
+   "form": "8-K",
+   "accession": "0001065280-23-000236",
+   "filing_date": "2023-09-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528023000236/nflx-20230906.htm",
+   "quote": "On September 6, 2023, Ambassador Susan Rice was appointed to the Board of Directors (the “Board”) of Netflix, Inc. (the “Company”). Her appointment is effective immediately, and she will hold office as a Class I director with a term expiring at the Company's annual meeting of stockholders in 2024.",
+   "supports": "Rice second appointment effective 2023-09-06."
+  },
+  {
+   "id": "e097",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-159286",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312526159286/d20613ddef14a.htm",
+   "quote": "She was also a board member of Netflix from 2018 to 2021.",
+   "supports": "Rice's prior Netflix stint."
+  },
+  {
+   "id": "e098",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-159286",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312526159286/d20613ddef14a.htm",
+   "quote": "Ambassador Susan Rice INDEPENDENT DIRECTOR Other Public Company Boards • None DIRECTOR SINCE: 2023 AGE: 61 COMMITTEES: NOMINATING AND GOVERNANCE",
+   "supports": "Rice: no other public boards; N&G; director since 2023 (current stint).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e099",
+   "form": "3",
+   "accession": "0001065280-18-000164",
+   "filing_date": "2018-03-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528018000164/edgardoc.xml",
+   "quote": "RICE SUSAN E",
+   "supports": "Rice reporting-owner CIK; Form 3 event 2018-03-26 matches 8-K.",
+   "xml_fields": {
+    "rptOwnerCik": "0001735710",
+    "rptOwnerName": "RICE SUSAN E",
+    "periodOfReport": "2018-03-26"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e100",
+   "form": "3",
+   "accession": "0001065280-23-000239",
+   "filing_date": "2023-09-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528023000239/wk-form3_1694207762.xml",
+   "quote": "RICE SUSAN E",
+   "supports": "Rice second-stint Form 3; same CIK; event 2023-09-06 matches 8-K.",
+   "xml_fields": {
+    "rptOwnerCik": "0001735710",
+    "rptOwnerName": "RICE SUSAN E",
+    "periodOfReport": "2023-09-06"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e101",
+   "form": "4",
+   "accession": "0001065280-26-000288",
+   "filing_date": "2026-10-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000288/wk-form4_1790971553.xml",
+   "quote": "RICE SUSAN E",
+   "supports": "Rice director option grant 2026-10-01 (still serving).",
+   "xml_fields": {
+    "rptOwnerCik": "0001735710",
+    "rptOwnerName": "RICE SUSAN E",
+    "periodOfReport": "2026-10-01"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e102",
+   "form": "8-K",
+   "accession": "0001065280-18-000462",
+   "filing_date": "2018-09-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528018000462/a8-k91818.htm",
+   "quote": "On September 12, 2018, Dr. Mathias Döpfner was appointed to the Board of Directors (the “Board”) of Netflix, Inc. (“Netflix”). His appointment is effective September 18, 2018 and he will hold office as a Class III director.",
+   "supports": "Döpfner appointed 2018-09-12, effective 2018-09-18."
+  },
+  {
+   "id": "e103",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-114206",
+   "filing_date": "2020-04-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312520114206/d721989ddef14a.htm",
+   "quote": "Mathias Döpfner Independent Director since 2018 Class III",
+   "supports": "Döpfner independent since 2018.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e104",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-159286",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312526159286/d20613ddef14a.htm",
+   "quote": "Warner Music Group Corp. DIRECTOR SINCE: 2018 AGE: 63 COMMITTEES: COMPENSATION",
+   "supports": "Döpfner current public board; Compensation.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e105",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-159286",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312526159286/d20613ddef14a.htm",
+   "quote": "He previously served on the boards of Vodafone Group plc from 2015 to 2018 and Time Warner Inc. from 2006 to 2018.",
+   "supports": "Döpfner former boards."
+  },
+  {
+   "id": "e106",
+   "form": "3",
+   "accession": "0001065280-18-000469",
+   "filing_date": "2018-09-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528018000469/edgardoc.xml",
+   "quote": "Dopfner Mathias",
+   "supports": "Döpfner reporting-owner CIK; Form 3 event 2018-09-18 matches 8-K.",
+   "xml_fields": {
+    "rptOwnerCik": "0001370931",
+    "rptOwnerName": "Dopfner Mathias",
+    "periodOfReport": "2018-09-18"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e107",
+   "form": "4",
+   "accession": "0001065280-26-000283",
+   "filing_date": "2026-10-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000283/wk-form4_1790971431.xml",
+   "quote": "Dopfner Mathias",
+   "supports": "Döpfner director option grant 2026-10-01 (still serving).",
+   "xml_fields": {
+    "rptOwnerCik": "0001370931",
+    "rptOwnerName": "Dopfner Mathias",
+    "periodOfReport": "2026-10-01"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e108",
+   "form": "8-K",
+   "accession": "0001065280-20-000306",
+   "filing_date": "2020-07-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528020000306/nflx-20200716.htm",
+   "quote": "On July 13, 2020, Ted Sarandos, age 55, was appointed as co-Chief Executive Officer of the Company.",
+   "supports": "Sarandos named co-CEO."
+  },
+  {
+   "id": "e109",
+   "form": "8-K",
+   "accession": "0001065280-20-000306",
+   "filing_date": "2020-07-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528020000306/nflx-20200716.htm",
+   "quote": "Additionally, Mr. Sarandos has been appointed to the Company's Board of Directors (the “Board”) and will hold office as a class III director. He has not yet been appointed to serve as a member of any Board committee. Both appointments were effective as of July 14, 2020.",
+   "supports": "Sarandos joins board (Class III) and becomes co-CEO effective 2020-07-14."
+  },
+  {
+   "id": "e110",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-159286",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312526159286/d20613ddef14a.htm",
+   "quote": "Ted Sarandos CO-CHIEF EXECUTIVE OFFICER AND PRESIDENT OF THE COMPANY AND DIRECTOR Other Public Company Boards • Spotify Technology S.A. DIRECTOR SINCE: 2020 AGE: 61 COMMITTEES: NONE",
+   "supports": "Sarandos co-CEO and director; other public board Spotify; no committees.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e111",
+   "form": "4",
+   "accession": "0001065280-26-000234",
+   "filing_date": "2026-08-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000234/wk-form4_1785878104.xml",
+   "quote": "SARANDOS THEODORE A",
+   "supports": "Sarandos reporting-owner CIK; director and officer (Co-CEO).",
+   "xml_fields": {
+    "rptOwnerCik": "0001393838",
+    "rptOwnerName": "SARANDOS THEODORE A",
+    "periodOfReport": "2026-08-03"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": "Co-CEO"
+   }
+  },
+  {
+   "id": "e112",
+   "form": "8-K",
+   "accession": "0001065280-20-000530",
+   "filing_date": "2020-12-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528020000530/nflx-20201216.htm",
+   "quote": "On December 16, 2020, Mr. Strive Masiyiwa was appointed to the Board of Directors (the “Board”) of Netflix, Inc. (the “Company”). His appointment is effective immediately and he will hold office as a Class II director with a term expiring at the Company's annual meeting of stockholders in 2022.",
+   "supports": "Masiyiwa appointed and effective 2020-12-16."
+  },
+  {
+   "id": "e113",
+   "form": "8-K",
+   "accession": "0001065280-20-000530",
+   "filing_date": "2020-12-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528020000530/a991masiyiwapressrelease.htm",
+   "quote": "Los Gatos, Calif. - December 16, 2020 — Netflix, Inc. today announced the appointment of Strive Masiyiwa to its board.",
+   "supports": "Press release dated 2020-12-16 announcing appointment."
+  },
+  {
+   "id": "e114",
+   "form": "DEF 14A",
+   "accession": "0001193125-21-128991",
+   "filing_date": "2021-04-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312521128991/d13481ddef14a.htm",
+   "quote": "Strive Masiyiwa, who was appointed to the Board in December 2020.",
+   "supports": "Proxy: Masiyiwa appointed December 2020."
+  },
+  {
+   "id": "e115",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-159286",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312526159286/d20613ddef14a.htm",
+   "quote": "Strive Masiyiwa INDEPENDENT DIRECTOR Other Public Company Boards • None DIRECTOR SINCE: 2020 AGE: 65 COMMITTEES: NOMINATING AND GOVERNANCE",
+   "supports": "Masiyiwa: no current other public boards; N&G.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e116",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-159286",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312526159286/d20613ddef14a.htm",
+   "quote": "He previously served as a board member of Unilever Plc from 2016 to 2024,",
+   "supports": "Masiyiwa former board."
+  },
+  {
+   "id": "e117",
+   "form": "3",
+   "accession": "0001065280-20-000535",
+   "filing_date": "2020-12-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528020000535/edgardoc.xml",
+   "quote": "Masiyiwa Strive",
+   "supports": "Masiyiwa reporting-owner CIK; Form 3 event date 2020-12-24 (differs from 8-K 2020-12-16).",
+   "xml_fields": {
+    "rptOwnerCik": "0001837857",
+    "rptOwnerName": "Masiyiwa Strive",
+    "periodOfReport": "2020-12-24"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e118",
+   "form": "4",
+   "accession": "0001065280-26-000285",
+   "filing_date": "2026-10-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000285/wk-form4_1790971474.xml",
+   "quote": "Masiyiwa Strive",
+   "supports": "Masiyiwa director option grant 2026-10-01 (still serving).",
+   "xml_fields": {
+    "rptOwnerCik": "0001837857",
+    "rptOwnerName": "Masiyiwa Strive",
+    "periodOfReport": "2026-10-01"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e119",
+   "form": "8-K",
+   "accession": "0001065280-23-000034",
+   "filing_date": "2023-01-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528023000034/nflx-20230113.htm",
+   "quote": "Also on January 13, 2023, Greg Peters, age 52, was appointed as co-Chief Executive Officer of the Company.",
+   "supports": "Peters named co-CEO."
+  },
+  {
+   "id": "e120",
+   "form": "8-K",
+   "accession": "0001065280-23-000034",
+   "filing_date": "2023-01-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528023000034/nflx-20230113.htm",
+   "quote": "Additionally, Mr. Peters has been appointed to the Board and will hold office as a Class I director. He has not yet been appointed to serve as a member of any Board committee. Both appointments were effective as of January 13, 2023.",
+   "supports": "Peters joins board (Class I) and becomes co-CEO effective 2023-01-13."
+  },
+  {
+   "id": "e121",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-159286",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312526159286/d20613ddef14a.htm",
+   "quote": "Greg Peters CO-CHIEF EXECUTIVE OFFICER AND PRESIDENT OF THE COMPANY AND DIRECTOR Other Public Company Boards • None DIRECTOR SINCE: 2023 AGE: 55 COMMITTEES: NONE",
+   "supports": "Peters co-CEO and director; no other public boards; no committees.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e122",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-159286",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312526159286/d20613ddef14a.htm",
+   "quote": "He previously served on the boards of DoorDash, Inc. from 2022 to 2024, Highland Transcend Partners I Corp. from 2020 to 2022 and 2U, Inc. from 2018 to 2023.",
+   "supports": "Peters former boards."
+  },
+  {
+   "id": "e123",
+   "form": "4",
+   "accession": "0001065280-26-000238",
+   "filing_date": "2026-08-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000238/wk-form4_1785878235.xml",
+   "quote": "Peters Gregory K",
+   "supports": "Peters reporting-owner CIK; director and officer (Co-CEO).",
+   "xml_fields": {
+    "rptOwnerCik": "0001583109",
+    "rptOwnerName": "Peters Gregory K",
+    "periodOfReport": "2026-08-03"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": "Co-CEO"
+   }
+  },
+  {
+   "id": "e124",
+   "form": "8-K",
+   "accession": "0001065280-25-000287",
+   "filing_date": "2025-06-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000287/nflx-20250622.htm",
+   "quote": "On June 22, 2025, Elinor Mertz was appointed to the Board of Directors (the “Board”) of Netflix, Inc. (the “Company”) effective immediately, for a term expiring at the Company's 2026 annual meeting of stockholders, or until her earlier resignation or removal. Ms. Mertz was also appointed to serve on the Audit Committee of the Board (the “Audit Committee”).",
+   "supports": "Mertz appointed effective 2025-06-22; Audit Committee."
+  },
+  {
+   "id": "e125",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-159286",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312526159286/d20613ddef14a.htm",
+   "quote": "Elinor Mertz INDEPENDENT DIRECTOR Other Public Company Boards • DoorDash, Inc. DIRECTOR SINCE: 2025 AGE: 49 COMMITTEES: AUDIT",
+   "supports": "Mertz: other public board DoorDash; Audit.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e126",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-159286",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312526159286/d20613ddef14a.htm",
+   "quote": "Ms. Mertz has served on the board of directors of DoorDash, Inc., a publicly-held food-delivery and local logistics platform, since July 2022",
+   "supports": "Mertz DoorDash board since July 2022."
+  },
+  {
+   "id": "e127",
+   "form": "3",
+   "accession": "0001065280-25-000289",
+   "filing_date": "2025-06-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000289/wk-form3_1750892115.xml",
+   "quote": "Mertz Elinor",
+   "supports": "Mertz reporting-owner CIK; Form 3 event 2025-06-22 matches 8-K.",
+   "xml_fields": {
+    "rptOwnerCik": "0001938411",
+    "rptOwnerName": "Mertz Elinor",
+    "periodOfReport": "2025-06-22"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e128",
+   "form": "4",
+   "accession": "0001065280-26-000289",
+   "filing_date": "2026-10-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000289/wk-form4_1790971582.xml",
+   "quote": "Mertz Elinor",
+   "supports": "Mertz director option grant 2026-10-01 (still serving).",
+   "xml_fields": {
+    "rptOwnerCik": "0001938411",
+    "rptOwnerName": "Mertz Elinor",
+    "periodOfReport": "2026-10-01"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e129",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-159286",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312526159286/d20613ddef14a.htm",
+   "quote": "The Compensation Committee of the Board consists of three non-employee directors: Mr. Döpfner and Mses. Kilgore (Chair) and Sweeney.",
+   "supports": "2026 proxy Compensation Committee."
+  },
+  {
+   "id": "e130",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-159286",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312526159286/d20613ddef14a.htm",
+   "quote": "The Audit Committee of the Board consists of three non-employee directors: Mr. Barton, and Mses. Mather (Chair) and Mertz (from June 2025),",
+   "supports": "2026 proxy Audit Committee."
+  },
+  {
+   "id": "e131",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-159286",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312526159286/d20613ddef14a.htm",
+   "quote": "The Nominating and Governance Committee of the Board consists of four non-employee directors, Messrs. Hoag (Chair), Smith and Masiyiwa, and Ambassador Rice.",
+   "supports": "2026 proxy Nominating and Governance Committee."
+  },
+  {
+   "id": "e132",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-159286",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312526159286/d20613ddef14a.htm",
+   "quote": "The Board has appointed Jay Hoag as its lead independent director. Mr. Hastings has informed the Company of his decision not to stand for re-election at the Annual Meeting.",
+   "supports": "2026 proxy leadership: Hastings Chairman, Hoag LID."
+  },
+  {
+   "id": "e133",
+   "form": "DEF 14A",
+   "accession": "0001193125-24-100913",
+   "filing_date": "2024-04-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312524100913/d521836ddef14a.htm",
+   "quote": "Ambassador Rice (joined December 2023)",
+   "supports": "Rice joined N&G in December 2023."
+  }
+ ],
+ "conflicts": [
+  {
+   "description": "Masiyiwa's start day. The 8-K says he was appointed on 2020-12-16 with the appointment 'effective immediately', and the press release is dated 2020-12-16. His Form 3 gives an event date of 2020-12-24. The 8-K date is recorded.",
+   "evidence_refs": [
+    "e112",
+    "e113",
+    "e117"
+   ]
+  },
+  {
+   "description": "Start of Hastings' CEO tenure. The 2002 IPO prospectus says he has been CEO 'since September 1998' and President 'since July 1999'. The 2026 proxy's career snapshot says 'Chief Executive Officer, President (1999-January 2023)'. The ceo_director role uses the prospectus (1998-09) at medium confidence.",
+   "evidence_refs": [
+    "e018",
+    "e022"
+   ]
+  }
+ ],
+ "open_questions": [
+  "Current board size (11) is implied, not stated: the 2026 proxy lists 13 directors, Hastings left at the 2026-06-04 meeting and Sweeney resigned 2026-07-26. No filing reviewed states the authorized number of directors, and Netflix's 8-Ks never disclosed an authorized-size change, so no BOARD_SIZE_CHANGE events are recorded.",
+  "Compensation Committee after Sweeney's 2026-07-26 resignation: no filing names a replacement. By subtraction the committee would be Döpfner and Kilgore (Chair), but this is not stated. Committee rosters are as of the 2026 proxy (filed 2026-04-16) and were not re-disclosed after the 2026 meeting, except that the 2026-06-05 8-K says Hoag still chairs Nominating and Governance.",
+  "Pre-IPO and early start dates are month or year precision only: Hastings 1997 (prospectus 'Chairman of the Board since inception', inception 1997-08-29, but no filing states his board start day), Haley 1998-06, Hoag 1999-06, Barton 2002-05 (the S-1/A management table dated as of 2002-05-02 already lists him; the 2002-04-16 S-1/A does not).",
+  "Day Hoag became lead independent director is not disclosed: 'since 2012' per the 2026 8-K; the 2012 proxy (2012-04-20) says no lead independent director had been appointed and the 2013 proxy (2013-04-26) says the position was 'recently created'.",
+  "Kilgore's independence start is disclosed only as 'since 2015' (year).",
+  "Independence roles are aligned to board tenure; filings give point-in-time determinations only (proxies 2020-2026 reviewed, plus the 2020 proxy's 'Independent Director since' labels).",
+  "Hastings' 1997-to-1998-09 period: he was Chairman, but filings reviewed do not say whether he was an employee before becoming CEO.",
+  "Other-board lists come from Netflix's own bios and are not checked against other issuers' filings. Belmer's 2022 bio names CEO-and-director roles at Atos SE and Eutelsat while its 'Other Public Company Boards' field reads None; Hastings' 2026 bio names Bloomberg LP and Anthropic PBC boards; neither set is recorded as public-company boards.",
+  "Hoag's 2025 failed majority vote: he tendered a conditional resignation on 2025-06-05 and the Board rejected it on 2025-06-22. Recorded as continuous service, not a departure."
+ ],
+ "coverage": [
+  {
+   "scope": "current_board",
+   "period_start": "2026-10-04",
+   "period_end": "2026-10-04",
+   "level": "complete",
+   "method": "Roster from the 2026 DEF 14A (filed 2026-04-16), reconciled with every 8-K filed after it (Item 5.02 on 2026-04-16 and 2026-07-30; Item 5.07/8.01 on 2026-06-05; Items 8.01/2.02 checked) and the monthly director Form 4 option grants of 2026-09-01 and 2026-10-01 (nine non-employee directors) plus the co-CEOs' August 2026 Forms 4. EDGAR submissions feed reviewed through 2026-10-02."
+  },
+  {
+   "scope": "board_history",
+   "period_start": "2020-01-01",
+   "period_end": "2026-10-04",
+   "level": "complete",
+   "method": "Every DEF 14A 2020-2026 and every 8-K with Item 5.02 or 5.07 filed 2019-12 through 2026-10-02 reviewed; departures dated from 8-K Item 5.02 effective dates or the Item 5.07 annual-meeting date. Director Form 3s cross-checked."
+  },
+  {
+   "scope": "board_history",
+   "period_start": "1997-01-01",
+   "period_end": "2019-12-31",
+   "level": "partial",
+   "method": "Only seats of directors serving on or after 2020-01-01 are reconstructed (from the 2002 IPO prospectus, 2002 S-1/A, 2010-2018 appointment 8-Ks, 2012/2013 proxies and Form 3s). Directors who left before 2020 (e.g., A. George Battle, retired 2018-12-15) are out of scope and not recorded."
+  }
+ ]
+}
