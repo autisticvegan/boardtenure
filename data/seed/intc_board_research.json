@@ -1,0 +1,4193 @@
+{
+ "company": {
+  "cik": "0000050863",
+  "ticker": "INTC",
+  "legal_name": "Intel Corporation",
+  "common_name": "Intel",
+  "exchange": "Nasdaq Global Select Market",
+  "listed_since_year": 1971,
+  "state_of_incorporation": "Delaware",
+  "incorporated": "1968 (the 2026 proxy says Intel was incorporated in 1968; current state Delaware per the 10-K cover)",
+  "classified_board": false,
+  "notes": "CIK verified in the EDGAR submissions JSON (INTEL CORP, ticker INTC, exchange Nasdaq, state of incorporation DE, no former names). listed_since_year 1971 rests on Intel's own 2003 DEFA14A ('from its IPO in 1971'); no filing reviewed gives the first trading day. All directors are elected annually (no classes). Intel has an independent Chair; a Lead Independent Director is appointed only when the Chair is not independent (Henry, Dec 2024 - Mar 2025). Interim co-CEOs Holthaus and Zinsner (2024-12-01 to 2025-03-18) were not directors.",
+  "evidence_refs": [
+   "e001",
+   "e002",
+   "e003",
+   "e004",
+   "e005"
+  ]
+ },
+ "as_of": "2026-10-04",
+ "sources_reviewed_through": "2026-08-28 (latest filing in the EDGAR submissions feed fetched 2026-10-05 UTC; latest 8-K 2026-08-12, latest Form 4 2026-08-14)",
+ "people": [
+  {
+   "key": "craig-barratt",
+   "full_name": "Craig H. Barratt",
+   "aliases": [
+    "Dr. Craig H. Barratt",
+    "Craig Barratt",
+    "BARRATT CRAIG H"
+   ],
+   "sec_cik": "0001277620",
+   "bio_other_public_boards": [
+    {
+     "company": "Astera Labs, Inc.",
+     "status": "current",
+     "years": "since 2025",
+     "source_ref": "e027",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Intuitive Surgical, Inc.",
+     "status": "current",
+     "years": "since 2011",
+     "source_ref": "e027",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "james-goetz",
+   "full_name": "James J. Goetz",
+   "aliases": [
+    "Jim Goetz",
+    "James (Jim) J. Goetz",
+    "GOETZ JAMES J"
+   ],
+   "sec_cik": "0001219231",
+   "bio_other_public_boards": [
+    {
+     "company": "Palo Alto Networks Inc.",
+     "status": "current",
+     "years": "since 2004",
+     "source_ref": "e028",
+     "public_company_stated_in_source": true,
+     "note": "the 2019 appointment 8-K says 'since April 2005'; see conflicts"
+    },
+    {
+     "company": "Barracuda Networks Inc.",
+     "status": "former",
+     "years": "2009-2017",
+     "source_ref": "e028",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Ruckus Wireless Inc.",
+     "status": "former",
+     "years": "2012-2015",
+     "source_ref": "e028",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "andrea-goldsmith",
+   "full_name": "Andrea J. Goldsmith",
+   "aliases": [
+    "Dr. Andrea J. Goldsmith",
+    "Andrea Goldsmith",
+    "Goldsmith Andrea Jo"
+   ],
+   "sec_cik": "0001730514",
+   "bio_other_public_boards": [
+    {
+     "company": "Crown Castle Inc.",
+     "status": "current",
+     "years": "since 2018",
+     "source_ref": "e029",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Medtronic plc",
+     "status": "former",
+     "years": "2019-2025",
+     "source_ref": "e029",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "alyssa-henry",
+   "full_name": "Alyssa H. Henry",
+   "aliases": [
+    "Alyssa Henry",
+    "Henry Alyssa"
+   ],
+   "sec_cik": "0001658470",
+   "bio_other_public_boards": [
+    {
+     "company": "Samsara Inc.",
+     "status": "current",
+     "years": "since 2024",
+     "source_ref": "e030",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Confluent Inc.",
+     "status": "former",
+     "years": "2021-2026",
+     "source_ref": "e030",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Unity Software Inc.",
+     "status": "former",
+     "years": "2018-2022",
+     "source_ref": "e030",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "eric-meurice",
+   "full_name": "Eric Meurice",
+   "aliases": [
+    "Meurice Eric"
+   ],
+   "sec_cik": "0001372258",
+   "bio_other_public_boards": [
+    {
+     "company": "IPG Photonics Corp.",
+     "status": "current",
+     "years": "since 2014",
+     "source_ref": "e031",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Global Blue Group Holding AG",
+     "status": "former",
+     "years": "2018-2025",
+     "source_ref": "e031",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "barbara-novick",
+   "full_name": "Barbara G. Novick",
+   "aliases": [
+    "Barbara Novick",
+    "NOVICK BARBARA"
+   ],
+   "sec_cik": "0001059222",
+   "bio_other_public_boards": []
+  },
+  {
+   "key": "steve-sanghi",
+   "full_name": "Steve Sanghi",
+   "aliases": [
+    "SANGHI STEVE",
+    "Sanghi Steve"
+   ],
+   "sec_cik": "0001181928",
+   "bio_other_public_boards": [
+    {
+     "company": "Impinj, Inc.",
+     "status": "current",
+     "years": "since 2021",
+     "source_ref": "e032",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Microchip Technology Incorporated",
+     "status": "current",
+     "years": "since 1990",
+     "source_ref": "e032",
+     "public_company_stated_in_source": true,
+     "note": "also CEO and President of Microchip"
+    }
+   ]
+  },
+  {
+   "key": "gregory-smith",
+   "full_name": "Gregory D. Smith",
+   "aliases": [
+    "Greg Smith",
+    "G. Smith",
+    "Smith Gregory D"
+   ],
+   "sec_cik": "0001484277",
+   "bio_other_public_boards": [
+    {
+     "company": "American Airlines Group, Inc.",
+     "status": "current",
+     "years": "since 2022",
+     "source_ref": "e033",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "stacy-smith",
+   "full_name": "Stacy J. Smith",
+   "aliases": [
+    "S. Smith",
+    "Smith Stacy J"
+   ],
+   "sec_cik": "0001415529",
+   "bio_other_public_boards": [
+    {
+     "company": "Autodesk Inc.",
+     "status": "current",
+     "years": "since 2011",
+     "source_ref": "e034",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Kioxia Corporation",
+     "status": "current",
+     "years": "since 2018",
+     "source_ref": "e034",
+     "public_company_stated_in_source": true,
+     "note": "Executive Chair of Kioxia"
+    },
+    {
+     "company": "Wolfspeed Inc.",
+     "status": "former",
+     "years": "2023-2025",
+     "source_ref": "e034",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Virgin America Inc.",
+     "status": "former",
+     "years": "2014-2016",
+     "source_ref": "e034",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "lip-bu-tan",
+   "full_name": "Lip-Bu Tan",
+   "aliases": [
+    "TAN LIP BU",
+    "Lip Bu Tan"
+   ],
+   "sec_cik": "0001008463",
+   "bio_other_public_boards": [
+    {
+     "company": "Schneider Electric SE",
+     "status": "current",
+     "years": "since 2018",
+     "source_ref": "e035",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Credo Technology Group Holding Ltd.",
+     "status": "former",
+     "years": "2019-2025",
+     "source_ref": "e035",
+     "public_company_stated_in_source": true,
+     "note": "the 2025-03 CEO appointment 8-K called him Credo's current chairman"
+    },
+    {
+     "company": "Cadence Design Systems, Inc.",
+     "status": "former",
+     "years": "2004-2023",
+     "source_ref": "e035",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "dion-weisler",
+   "full_name": "Dion J. Weisler",
+   "aliases": [
+    "Dion Weisler",
+    "WEISLER DION J"
+   ],
+   "sec_cik": "0001580693",
+   "bio_other_public_boards": [
+    {
+     "company": "Thermo Fisher Scientific Inc.",
+     "status": "current",
+     "years": "since 2017",
+     "source_ref": "e036",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "BHP Group Ltd.",
+     "status": "current",
+     "years": "since 2019",
+     "source_ref": "e036",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Qantas Airways Limited",
+     "status": "current",
+     "years": "since 2025",
+     "source_ref": "e036",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "frank-yeary",
+   "full_name": "Frank D. Yeary",
+   "aliases": [
+    "Frank Yeary",
+    "Yeary Frank D"
+   ],
+   "sec_cik": "0001458902",
+   "bio_other_public_boards": [
+    {
+     "company": "PayPal Holdings, Inc.",
+     "status": "current",
+     "years": "not stated (as of the 2025 proxy)",
+     "source_ref": "e083",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Mobileye Global Inc.",
+     "status": "current",
+     "years": "not stated (as of the 2025 proxy)",
+     "source_ref": "e083",
+     "public_company_stated_in_source": true,
+     "note": "Intel subsidiary"
+    }
+   ]
+  },
+  {
+   "key": "patrick-gelsinger",
+   "full_name": "Patrick P. Gelsinger",
+   "aliases": [
+    "Pat Gelsinger",
+    "Patrick Gelsinger",
+    "GELSINGER PATRICK P"
+   ],
+   "sec_cik": "0001316331",
+   "bio_other_public_boards": [
+    {
+     "company": "Mobileye Global Inc.",
+     "status": "current",
+     "years": "not stated (as of the 2024 proxy)",
+     "source_ref": "e090",
+     "public_company_stated_in_source": true,
+     "note": "Intel subsidiary; he resigned from it on 2024-12-01 per the 8-K",
+     "corroborating_refs": [
+      "e070"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "omar-ishrak",
+   "full_name": "Omar Ishrak",
+   "aliases": [
+    "Dr. Omar Ishrak",
+    "ISHRAK OMAR"
+   ],
+   "sec_cik": "0001523102",
+   "bio_other_public_boards": [
+    {
+     "company": "Amgen Inc.",
+     "status": "current",
+     "years": "not stated (as of the 2024 proxy)",
+     "source_ref": "e091",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Allurion Technologies Inc.",
+     "status": "current",
+     "years": "not stated (as of the 2024 proxy)",
+     "source_ref": "e091",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Compute Health Acquisition Corp.",
+     "status": "former",
+     "years": "not stated",
+     "source_ref": "e091",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Medtronic plc",
+     "status": "former",
+     "years": "not stated",
+     "source_ref": "e091",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "risa-lavizzo-mourey",
+   "full_name": "Risa J. Lavizzo-Mourey",
+   "aliases": [
+    "Dr. Risa Lavizzo-Mourey",
+    "Risa Lavizzo-Mourey",
+    "LAVIZZO-MOUREY RISA J"
+   ],
+   "sec_cik": "0001034465",
+   "bio_other_public_boards": [
+    {
+     "company": "GE HealthCare Technologies Inc.",
+     "status": "current",
+     "years": "not stated (as of the 2024 proxy)",
+     "source_ref": "e092",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Merck & Co.",
+     "status": "current",
+     "years": "not stated (as of the 2024 proxy)",
+     "source_ref": "e092",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "General Electric Company",
+     "status": "former",
+     "years": "not stated",
+     "source_ref": "e092",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Better Therapeutics, Inc.",
+     "status": "former",
+     "years": "not stated",
+     "source_ref": "e092",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "tsu-jae-king-liu",
+   "full_name": "Tsu-Jae King Liu",
+   "aliases": [
+    "Dr. Tsu-Jae King Liu",
+    "Dr. Liu",
+    "Liu Tsu-Jae King"
+   ],
+   "sec_cik": "0001679204",
+   "bio_other_public_boards": [
+    {
+     "company": "MaxLinear, Inc.",
+     "status": "current",
+     "years": "not stated (as of the 2024 proxy)",
+     "source_ref": "e093",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "andrew-wilson",
+   "full_name": "Andrew Wilson",
+   "aliases": [
+    "Andrew M. Wilson",
+    "Wilson Andrew"
+   ],
+   "sec_cik": "0001545193",
+   "bio_other_public_boards": [
+    {
+     "company": "Electronic Arts Inc.",
+     "status": "current",
+     "years": "not stated (as of the 2020 proxy)",
+     "source_ref": "e107",
+     "public_company_stated_in_source": true,
+     "note": "EA's CEO"
+    }
+   ]
+  },
+  {
+   "key": "robert-swan",
+   "full_name": "Robert H. Swan",
+   "aliases": [
+    "Bob Swan",
+    "Robert (\"Bob\") H. Swan",
+    "SWAN ROBERT HOLMES"
+   ],
+   "sec_cik": "0001218363",
+   "bio_other_public_boards": [
+    {
+     "company": "eBay Inc.",
+     "status": "current",
+     "years": "not stated (as of the 2020 proxy)",
+     "source_ref": "e106",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "andy-bryant",
+   "full_name": "Andy D. Bryant",
+   "aliases": [
+    "Andy Bryant",
+    "BRYANT ANDY D"
+   ],
+   "sec_cik": "0001131061",
+   "bio_other_public_boards": [
+    {
+     "company": "Columbia Sportswear Company",
+     "status": "current",
+     "years": "not stated (as of the 2019 proxy)",
+     "source_ref": "e111",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "McKesson Corporation",
+     "status": "former",
+     "years": "2008-2018",
+     "source_ref": "e110",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "reed-hundt",
+   "full_name": "Reed E. Hundt",
+   "aliases": [
+    "Reed Hundt",
+    "HUNDT REED E",
+    "R. Hunt"
+   ],
+   "sec_cik": "0001188928",
+   "bio_other_public_boards": []
+  }
+ ],
+ "memberships": [
+  {
+   "person_key": "craig-barratt",
+   "start_date": "2025-11-10",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02: appointed 2025-11-10, effective immediately; Form 3 event date 2025-11-10",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e043",
+    "e134",
+    "e016",
+    "e042",
+    "e161"
+   ],
+   "board_class": null,
+   "notes": "Became Board Chair after the 2026-05-13 annual meeting. Declassified board (annual elections), so no class."
+  },
+  {
+   "person_key": "james-goetz",
+   "start_date": "2019-11-13",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02: elected 2019-11-13, effective immediately; Form 3 event date 2019-11-13",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e045",
+    "e135",
+    "e017",
+    "e042",
+    "e162"
+   ],
+   "board_class": null,
+   "notes": "Declassified board, so no class."
+  },
+  {
+   "person_key": "andrea-goldsmith",
+   "start_date": "2021-09-01",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02: elected 2021-07-14, effective 2021-09-01; Form 3 event date 2021-09-01",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e047",
+    "e136",
+    "e018",
+    "e042",
+    "e163"
+   ],
+   "board_class": null,
+   "notes": "Elected 2021-07-14 with a deferred effective date of 2021-09-01."
+  },
+  {
+   "person_key": "alyssa-henry",
+   "start_date": "2020-01-15",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02: elected 2020-01-15, effective immediately; Form 3 event date 2020-01-15",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e049",
+    "e137",
+    "e019",
+    "e042",
+    "e164"
+   ],
+   "board_class": null,
+   "notes": "Lead Independent Director December 2024 - March 2025."
+  },
+  {
+   "person_key": "eric-meurice",
+   "start_date": "2024-12-04",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02: appointed 2024-12-04, effective immediately (Form 3 event date is 2024-12-05; see conflicts)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e053",
+    "e138",
+    "e020",
+    "e042",
+    "e165"
+   ],
+   "board_class": null,
+   "notes": "Appointed with Steve Sanghi."
+  },
+  {
+   "person_key": "barbara-novick",
+   "start_date": "2022-12-01",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02: elected 2022-11-17, effective 2022-12-01; Form 3 event date 2022-12-01",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e055",
+    "e139",
+    "e021",
+    "e042",
+    "e166"
+   ],
+   "board_class": null,
+   "notes": "Elected 2022-11-17 with a deferred effective date of 2022-12-01."
+  },
+  {
+   "person_key": "steve-sanghi",
+   "start_date": "2024-12-04",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02: appointed 2024-12-04, effective immediately (Form 3 event date is 2024-12-05; see conflicts)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e053",
+    "e140",
+    "e022",
+    "e042",
+    "e167"
+   ],
+   "board_class": null,
+   "notes": "Appointed with Eric Meurice. Also CEO and President of Microchip Technology."
+  },
+  {
+   "person_key": "gregory-smith",
+   "start_date": "2017-03-23",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02: elected 2017-03-21, effective 2017-03-23; Form 3 event date 2017-03-23",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e057",
+    "e141",
+    "e023",
+    "e042",
+    "e168"
+   ],
+   "board_class": null,
+   "notes": "Longest-serving current director."
+  },
+  {
+   "person_key": "stacy-smith",
+   "start_date": "2024-03-12",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02: appointed 2024-03-12, effective immediately; Form 3 event date 2024-03-12",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e059",
+    "e142",
+    "e024",
+    "e042",
+    "e169"
+   ],
+   "board_class": null,
+   "notes": "Former Intel CFO (2007-2016) and Group President (2017-2018); determined independent."
+  },
+  {
+   "person_key": "lip-bu-tan",
+   "start_date": "2022-09-01",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02: elected 2022-08-08, effective 2022-09-01; Form 3 event date 2022-09-01",
+   "end_date": "2024-08-19",
+   "end_date_precision": "day",
+   "end_reason": "resigned",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e060",
+    "e143",
+    "e062",
+    "e064",
+    "e012"
+   ],
+   "board_class": null,
+   "notes": "First stint, as a non-employee director (not independent because of prior paid advisory-committee service). Resigned 2024-08-19 citing demands on his time."
+  },
+  {
+   "person_key": "lip-bu-tan",
+   "start_date": "2025-03-18",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02: appointed CEO and director 2025-03-10, effective 2025-03-18; Form 3 event date 2025-03-18",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e063",
+    "e144",
+    "e066",
+    "e012",
+    "e042",
+    "e171"
+   ],
+   "board_class": null,
+   "notes": "Second stint, as CEO. The 2026 proxy shows 'Director Since: 2022' (his first stint); see conflicts."
+  },
+  {
+   "person_key": "dion-weisler",
+   "start_date": "2020-06-15",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02: elected 2020-06-15, effective immediately; Form 3 event date 2020-06-15",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e067",
+    "e145",
+    "e026",
+    "e042",
+    "e170"
+   ],
+   "board_class": null,
+   "notes": "Declassified board, so no class."
+  },
+  {
+   "person_key": "frank-yeary",
+   "start_date": "2009-03-18",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02: elected 2009-03-18, effective 2009-03-18; Form 3 event date 2009-03-18",
+   "end_date": "2026-05-13",
+   "end_date_precision": "day",
+   "end_reason": "did_not_stand",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e068",
+    "e146",
+    "e037",
+    "e041",
+    "e040",
+    "e160"
+   ],
+   "board_class": null,
+   "notes": "Chair from January 2023. Told the board on 2026-02-27 that he would retire and not stand; left at the 2026-05-13 annual meeting."
+  },
+  {
+   "person_key": "patrick-gelsinger",
+   "start_date": "2021-02-15",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02: appointed CEO and director effective 2021-02-15; Form 3 event date 2021-02-15",
+   "end_date": "2024-12-01",
+   "end_date_precision": "day",
+   "end_reason": "resigned",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e119",
+    "e120",
+    "e151",
+    "e069",
+    "e159"
+   ],
+   "board_class": null,
+   "notes": "CEO and director. Resigned from the company and the board effective immediately on 2024-12-01 (the press release calls it a retirement)."
+  },
+  {
+   "person_key": "omar-ishrak",
+   "start_date": "2017-03-21",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02: elected 2017-03-21, effective immediately; Form 3 event date 2017-03-21",
+   "end_date": "2025-05-06",
+   "end_date_precision": "day",
+   "end_reason": "did_not_stand",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e057",
+    "e147",
+    "e078",
+    "e084",
+    "e085",
+    "e156"
+   ],
+   "board_class": null,
+   "notes": "Lead Director from 2019-11-01, Chair 2020-01-15 to January 2023. Did not stand at the 2025-05-06 annual meeting (described as retiring)."
+  },
+  {
+   "person_key": "risa-lavizzo-mourey",
+   "start_date": "2018-03-14",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02: elected 2018-03-14, effective immediately; Form 3 event date 2018-03-14",
+   "end_date": "2025-05-06",
+   "end_date_precision": "day",
+   "end_reason": "did_not_stand",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e128",
+    "e127",
+    "e148",
+    "e078",
+    "e084",
+    "e085",
+    "e157"
+   ],
+   "board_class": null,
+   "notes": "Did not stand at the 2025-05-06 annual meeting (described as retiring)."
+  },
+  {
+   "person_key": "tsu-jae-king-liu",
+   "start_date": "2016-07-07",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02: elected 2016-07-07, effective immediately; Form 3 event date 2016-07-07",
+   "end_date": "2025-05-06",
+   "end_date_precision": "day",
+   "end_reason": "did_not_stand",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e131",
+    "e149",
+    "e078",
+    "e084",
+    "e085",
+    "e158"
+   ],
+   "board_class": null,
+   "notes": "Did not stand at the 2025-05-06 annual meeting (described as retiring)."
+  },
+  {
+   "person_key": "andrew-wilson",
+   "start_date": "2017-09-13",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02: elected 2017-09-13, effective immediately; Form 3 event date 2017-09-13",
+   "end_date": "2021-05-13",
+   "end_date_precision": "day",
+   "end_reason": "did_not_stand",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e130",
+    "e129",
+    "e150",
+    "e118",
+    "e117",
+    "e096",
+    "e154"
+   ],
+   "board_class": null,
+   "notes": "Gave notice 2021-03-10 that he would not stand; served until the 2021-05-13 annual meeting."
+  },
+  {
+   "person_key": "robert-swan",
+   "start_date": "2019-01-30",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02: appointed CEO effective 2019-01-30 and a director as of that Effective Date",
+   "end_date": "2021-02-15",
+   "end_date_precision": "day",
+   "end_reason": "resigned",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e125",
+    "e126",
+    "e121",
+    "e097",
+    "e155"
+   ],
+   "board_class": null,
+   "notes": "CEO and director. Submitted his board resignation 2021-01-13, effective 2021-02-15 (his employment was terminated without cause that day). He had been interim CEO since June 2018 without a board seat."
+  },
+  {
+   "person_key": "andy-bryant",
+   "start_date": "2011-07-26",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02: elected director and Vice Chair 2011-07-26",
+   "end_date": "2020-05-14",
+   "end_date_precision": "day",
+   "end_reason": "did_not_stand",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e133",
+    "e124",
+    "e052",
+    "e101",
+    "e122",
+    "e098",
+    "e152"
+   ],
+   "board_class": null,
+   "notes": "Former Intel CFO and CAO. Vice Chair 2011-07-26 to 2012-05-17, Chairman 2012-05-17 to 2020-01-15. Did not stand at the 2020-05-14 annual meeting (later proxies say he retired in May 2020)."
+  },
+  {
+   "person_key": "reed-hundt",
+   "start_date": "2001-05-24",
+   "start_date_precision": "day",
+   "start_date_basis": "First elected at the 2001 annual meeting held 2001-05-24 (2001 proxy nominated him to fill Gordon Moore's seat; Q2 2001 10-Q vote table, where he is spelled 'R. Hunt')",
+   "end_date": "2020-05-14",
+   "end_date_precision": "day",
+   "end_reason": "did_not_stand",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e114",
+    "e115",
+    "e116",
+    "e112",
+    "e101",
+    "e122",
+    "e098",
+    "e153"
+   ],
+   "board_class": null,
+   "notes": "Did not stand at the 2020-05-14 annual meeting (later proxies say he retired in May 2020)."
+  }
+ ],
+ "roles": [
+  {
+   "person_key": "craig-barratt",
+   "role": "chair",
+   "start_date": "2026-05-13",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e039",
+    "e011",
+    "e041"
+   ],
+   "notes": "Independent Chair, effective following the 2026-05-13 annual meeting, succeeding Yeary."
+  },
+  {
+   "person_key": "frank-yeary",
+   "role": "chair",
+   "start_date": "2023-01",
+   "end_date": "2024-12-01",
+   "precision": "month",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e095",
+    "e009",
+    "e040",
+    "e089",
+    "e073"
+   ],
+   "notes": "Independent Chair from January 2023 (day not stated), succeeding Ishrak. Moved to Interim Executive Chair on 2024-12-01."
+  },
+  {
+   "person_key": "frank-yeary",
+   "role": "executive_chair",
+   "start_date": "2024-12-01",
+   "end_date": "2025-03-18",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e071",
+    "e072",
+    "e073",
+    "e074",
+    "e065",
+    "e009"
+   ],
+   "notes": "Interim Executive Chair during the CEO search. The 8-K reporting the 2024-12-01 events says he 'has also been appointed'; the 2025 proxy says it happened 'upon the departure of our prior CEO' (2024-12-01). Ended when Tan became CEO on 2025-03-18.",
+   "officer_title": "Interim Executive Chair"
+  },
+  {
+   "person_key": "frank-yeary",
+   "role": "chair",
+   "start_date": "2025-03-18",
+   "end_date": "2026-05-13",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e065",
+    "e076",
+    "e009",
+    "e037",
+    "e041"
+   ],
+   "notes": "Returned to independent Chair on 2025-03-18; served until he left the board at the 2026-05-13 annual meeting."
+  },
+  {
+   "person_key": "alyssa-henry",
+   "role": "lead_independent_director",
+   "start_date": "2024-12",
+   "end_date": "2025-03",
+   "precision": "month",
+   "end_precision": "month",
+   "confidence": "high",
+   "evidence_refs": [
+    "e075",
+    "e076",
+    "e010"
+   ],
+   "notes": "Lead Independent Director while Yeary was Interim Executive Chair. Filings give only 'December 2024' and 'March 2025' (start was 'at the same time' as Yeary's appointment, end 'upon Lip-Bu Tan's joining'), so days are not recorded."
+  },
+  {
+   "person_key": "omar-ishrak",
+   "role": "lead_independent_director",
+   "start_date": "2019-11-01",
+   "end_date": "2020-01-15",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e123",
+    "e100",
+    "e051"
+   ],
+   "notes": "Independent Lead Director from 2019-11-01 (succeeding Aneel Bhusri) until he became Chairman on 2020-01-15."
+  },
+  {
+   "person_key": "omar-ishrak",
+   "role": "chair",
+   "start_date": "2020-01-15",
+   "end_date": "2023-01",
+   "precision": "day",
+   "end_precision": "month",
+   "confidence": "high",
+   "evidence_refs": [
+    "e051",
+    "e100",
+    "e095"
+   ],
+   "notes": "Independent Chairman from 2020-01-15 until January 2023 (end day not stated); remained a director."
+  },
+  {
+   "person_key": "andy-bryant",
+   "role": "vice_chair",
+   "start_date": "2011-07-26",
+   "end_date": "2012-05-17",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e133",
+    "e109",
+    "e108",
+    "e132"
+   ],
+   "notes": "Vice Chair from election until he became Chairman at the 2012 annual meeting (2012-05-17)."
+  },
+  {
+   "person_key": "andy-bryant",
+   "role": "chair",
+   "start_date": "2012-05-17",
+   "end_date": "2020-01-15",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e108",
+    "e132",
+    "e051"
+   ],
+   "notes": "Non-independent Chairman (former Intel executive; never CEO) from the 2012 annual meeting until he stepped down on 2020-01-15."
+  },
+  {
+   "person_key": "lip-bu-tan",
+   "role": "ceo_director",
+   "start_date": "2025-03-18",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e063",
+    "e144",
+    "e171"
+   ],
+   "notes": "CEO and director since 2025-03-18.",
+   "officer_title": "Chief Executive Officer"
+  },
+  {
+   "person_key": "patrick-gelsinger",
+   "role": "ceo_director",
+   "start_date": "2021-02-15",
+   "end_date": "2024-12-01",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e120",
+    "e119",
+    "e069"
+   ],
+   "notes": "CEO and director.",
+   "officer_title": "Chief Executive Officer"
+  },
+  {
+   "person_key": "robert-swan",
+   "role": "ceo_director",
+   "start_date": "2019-01-30",
+   "end_date": "2021-02-15",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e125",
+    "e126",
+    "e121"
+   ],
+   "notes": "CEO and director.",
+   "officer_title": "Chief Executive Officer"
+  },
+  {
+   "person_key": "craig-barratt",
+   "role": "independent_director",
+   "start_date": "2025-11-10",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e044",
+    "e016",
+    "e006"
+   ],
+   "notes": "Determined independent on appointment and in the 2026 proxy."
+  },
+  {
+   "person_key": "james-goetz",
+   "role": "independent_director",
+   "start_date": "2019-11-13",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e046",
+    "e102",
+    "e017"
+   ],
+   "notes": "Independent in every determination reviewed."
+  },
+  {
+   "person_key": "andrea-goldsmith",
+   "role": "independent_director",
+   "start_date": "2021-09-01",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e048",
+    "e018"
+   ],
+   "notes": "Independent in every determination reviewed."
+  },
+  {
+   "person_key": "alyssa-henry",
+   "role": "independent_director",
+   "start_date": "2020-01-15",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e050",
+    "e102",
+    "e019"
+   ],
+   "notes": "Independent in every determination reviewed."
+  },
+  {
+   "person_key": "eric-meurice",
+   "role": "independent_director",
+   "start_date": "2024-12-04",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e054",
+    "e020"
+   ],
+   "notes": "Independent."
+  },
+  {
+   "person_key": "barbara-novick",
+   "role": "independent_director",
+   "start_date": "2022-12-01",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e056",
+    "e021"
+   ],
+   "notes": "Independent."
+  },
+  {
+   "person_key": "steve-sanghi",
+   "role": "independent_director",
+   "start_date": "2024-12-04",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e054",
+    "e022"
+   ],
+   "notes": "Independent."
+  },
+  {
+   "person_key": "gregory-smith",
+   "role": "independent_director",
+   "start_date": "2017-03-23",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e058",
+    "e102",
+    "e023"
+   ],
+   "notes": "Independent in every determination reviewed."
+  },
+  {
+   "person_key": "stacy-smith",
+   "role": "independent_director",
+   "start_date": "2024-03-12",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e059",
+    "e024"
+   ],
+   "notes": "Independent despite being a former Intel executive (retired 2018)."
+  },
+  {
+   "person_key": "dion-weisler",
+   "role": "independent_director",
+   "start_date": "2020-06-15",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e067",
+    "e097",
+    "e026"
+   ],
+   "notes": "Independent."
+  },
+  {
+   "person_key": "lip-bu-tan",
+   "role": "non_independent_director",
+   "start_date": "2022-09-01",
+   "end_date": "2024-08-19",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e094",
+    "e086"
+   ],
+   "notes": "First stint: not independent because of the $125,000 he received on the Board's Technical Advisory Committee before joining."
+  },
+  {
+   "person_key": "lip-bu-tan",
+   "role": "non_independent_director",
+   "start_date": "2025-03-18",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e007",
+    "e025"
+   ],
+   "notes": "Second stint: not independent (CEO)."
+  },
+  {
+   "person_key": "frank-yeary",
+   "role": "independent_director",
+   "start_date": "2009-03-18",
+   "end_date": "2024-12-01",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e113",
+    "e102",
+    "e097",
+    "e089"
+   ],
+   "notes": "Independent from his 2009 election until he became Interim Executive Chair. The appointment 8-K does not state independence; the 2019-2024 proxies do."
+  },
+  {
+   "person_key": "frank-yeary",
+   "role": "non_independent_director",
+   "start_date": "2024-12-01",
+   "end_date": "2025-03-18",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e077",
+    "e071",
+    "e065"
+   ],
+   "notes": "Not deemed independent while Interim Executive Chair."
+  },
+  {
+   "person_key": "frank-yeary",
+   "role": "independent_director",
+   "start_date": "2025-03-18",
+   "end_date": "2026-05-13",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e007",
+    "e065",
+    "e039"
+   ],
+   "notes": "Independent again from his return to independent Chair until he left."
+  },
+  {
+   "person_key": "patrick-gelsinger",
+   "role": "non_independent_director",
+   "start_date": "2021-02-15",
+   "end_date": "2024-12-01",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e097",
+    "e087"
+   ],
+   "notes": "Not independent (CEO)."
+  },
+  {
+   "person_key": "robert-swan",
+   "role": "non_independent_director",
+   "start_date": "2019-01-30",
+   "end_date": "2021-02-15",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e113",
+    "e097"
+   ],
+   "notes": "Not independent (employee/CEO)."
+  },
+  {
+   "person_key": "andy-bryant",
+   "role": "non_independent_director",
+   "start_date": "2011-07-26",
+   "end_date": "2020-05-14",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e113",
+    "e103",
+    "e097"
+   ],
+   "notes": "Not independent: Intel employee (2019 proxy) / former employee (2020 proxy)."
+  },
+  {
+   "person_key": "omar-ishrak",
+   "role": "independent_director",
+   "start_date": "2017-03-21",
+   "end_date": "2025-05-06",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e058",
+    "e102",
+    "e079"
+   ],
+   "notes": "Independent."
+  },
+  {
+   "person_key": "risa-lavizzo-mourey",
+   "role": "independent_director",
+   "start_date": "2018-03-14",
+   "end_date": "2025-05-06",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e113",
+    "e102",
+    "e079"
+   ],
+   "notes": "Independent (the appointment 8-K and later proxies)."
+  },
+  {
+   "person_key": "tsu-jae-king-liu",
+   "role": "independent_director",
+   "start_date": "2016-07-07",
+   "end_date": "2025-05-06",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e131",
+    "e102",
+    "e079"
+   ],
+   "notes": "Independent."
+  },
+  {
+   "person_key": "andrew-wilson",
+   "role": "independent_director",
+   "start_date": "2017-09-13",
+   "end_date": "2021-05-13",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e102",
+    "e097",
+    "e096"
+   ],
+   "notes": "Independent."
+  },
+  {
+   "person_key": "reed-hundt",
+   "role": "independent_director",
+   "start_date": "2001-05-24",
+   "end_date": "2020-05-14",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e113",
+    "e102"
+   ],
+   "notes": "Independent in the 2019 and 2020 determinations; earlier determinations not reviewed."
+  }
+ ],
+ "committees": [
+  {
+   "person_key": "stacy-smith",
+   "committee": "audit",
+   "role": "chair",
+   "as_of_filing": "0000050863-26-000061",
+   "as_of_date": "2026-03-23",
+   "evidence_refs": [
+    "e013"
+   ]
+  },
+  {
+   "person_key": "andrea-goldsmith",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0000050863-26-000061",
+   "as_of_date": "2026-03-23",
+   "evidence_refs": [
+    "e013"
+   ]
+  },
+  {
+   "person_key": "eric-meurice",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0000050863-26-000061",
+   "as_of_date": "2026-03-23",
+   "evidence_refs": [
+    "e013"
+   ]
+  },
+  {
+   "person_key": "gregory-smith",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0000050863-26-000061",
+   "as_of_date": "2026-03-23",
+   "evidence_refs": [
+    "e013"
+   ]
+  },
+  {
+   "person_key": "dion-weisler",
+   "committee": "compensation",
+   "role": "chair",
+   "as_of_filing": "0000050863-26-000061",
+   "as_of_date": "2026-03-23",
+   "evidence_refs": [
+    "e014"
+   ]
+  },
+  {
+   "person_key": "james-goetz",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0000050863-26-000061",
+   "as_of_date": "2026-03-23",
+   "evidence_refs": [
+    "e014"
+   ]
+  },
+  {
+   "person_key": "alyssa-henry",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0000050863-26-000061",
+   "as_of_date": "2026-03-23",
+   "evidence_refs": [
+    "e014"
+   ]
+  },
+  {
+   "person_key": "steve-sanghi",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0000050863-26-000061",
+   "as_of_date": "2026-03-23",
+   "evidence_refs": [
+    "e014"
+   ]
+  },
+  {
+   "person_key": "barbara-novick",
+   "committee": "nominating_governance",
+   "role": "chair",
+   "as_of_filing": "0000050863-26-000061",
+   "as_of_date": "2026-03-23",
+   "evidence_refs": [
+    "e015"
+   ]
+  },
+  {
+   "person_key": "james-goetz",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0000050863-26-000061",
+   "as_of_date": "2026-03-23",
+   "evidence_refs": [
+    "e015"
+   ]
+  },
+  {
+   "person_key": "andrea-goldsmith",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0000050863-26-000061",
+   "as_of_date": "2026-03-23",
+   "evidence_refs": [
+    "e015"
+   ]
+  },
+  {
+   "person_key": "alyssa-henry",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0000050863-26-000061",
+   "as_of_date": "2026-03-23",
+   "evidence_refs": [
+    "e015"
+   ]
+  },
+  {
+   "person_key": "omar-ishrak",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0000050863-25-000054",
+   "as_of_date": "2025-03-27",
+   "evidence_refs": [
+    "e080"
+   ]
+  },
+  {
+   "person_key": "omar-ishrak",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0000050863-25-000054",
+   "as_of_date": "2025-03-27",
+   "evidence_refs": [
+    "e082"
+   ]
+  },
+  {
+   "person_key": "risa-lavizzo-mourey",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0000050863-25-000054",
+   "as_of_date": "2025-03-27",
+   "evidence_refs": [
+    "e081"
+   ]
+  },
+  {
+   "person_key": "risa-lavizzo-mourey",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0000050863-25-000054",
+   "as_of_date": "2025-03-27",
+   "evidence_refs": [
+    "e082"
+   ]
+  },
+  {
+   "person_key": "tsu-jae-king-liu",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0000050863-25-000054",
+   "as_of_date": "2025-03-27",
+   "evidence_refs": [
+    "e082"
+   ]
+  },
+  {
+   "person_key": "lip-bu-tan",
+   "committee": "mergers_and_acquisitions",
+   "role": "member",
+   "as_of_filing": "0000050863-24-000057",
+   "as_of_date": "2024-03-28",
+   "evidence_refs": [
+    "e088",
+    "e061"
+   ]
+  },
+  {
+   "person_key": "andrew-wilson",
+   "committee": "compensation",
+   "role": "chair",
+   "as_of_filing": "0001193125-21-098458",
+   "as_of_date": "2021-03-30",
+   "evidence_refs": [
+    "e099"
+   ]
+  },
+  {
+   "person_key": "andy-bryant",
+   "committee": "executive",
+   "role": "member",
+   "as_of_filing": "0001193125-20-091451",
+   "as_of_date": "2020-03-31",
+   "evidence_refs": [
+    "e105"
+   ]
+  },
+  {
+   "person_key": "reed-hundt",
+   "committee": "executive",
+   "role": "member",
+   "as_of_filing": "0001193125-20-091451",
+   "as_of_date": "2020-03-31",
+   "evidence_refs": [
+    "e105"
+   ]
+  },
+  {
+   "person_key": "reed-hundt",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001193125-20-091451",
+   "as_of_date": "2020-03-31",
+   "evidence_refs": [
+    "e104"
+   ]
+  },
+  {
+   "person_key": "robert-swan",
+   "committee": "executive",
+   "role": "member",
+   "as_of_filing": "0001193125-20-091451",
+   "as_of_date": "2020-03-31",
+   "evidence_refs": [
+    "e105"
+   ]
+  }
+ ],
+ "events": [
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "reed-hundt",
+   "event_date": "2001-05-24",
+   "announced_date": null,
+   "evidence_refs": [
+    "e114",
+    "e115"
+   ],
+   "summary": "Reed E. Hundt elected at the 2001 annual meeting.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "frank-yeary",
+   "event_date": "2009-03-18",
+   "announced_date": "2009-03-19",
+   "evidence_refs": [
+    "e068",
+    "e146"
+   ],
+   "summary": "Frank D. Yeary elected to the board.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "andy-bryant",
+   "event_date": "2011-07-26",
+   "announced_date": "2011-07-27",
+   "evidence_refs": [
+    "e133"
+   ],
+   "summary": "Andy D. Bryant elected director and Vice Chair.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "andy-bryant",
+   "event_date": "2012-05-17",
+   "announced_date": null,
+   "evidence_refs": [
+    "e108",
+    "e132"
+   ],
+   "summary": "Bryant becomes Chairman at the 2012 annual meeting.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "tsu-jae-king-liu",
+   "event_date": "2016-07-07",
+   "announced_date": "2016-07-12",
+   "evidence_refs": [
+    "e131",
+    "e149"
+   ],
+   "summary": "Tsu-Jae King Liu elected to the board.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "omar-ishrak",
+   "event_date": "2017-03-21",
+   "announced_date": "2017-03-23",
+   "evidence_refs": [
+    "e057",
+    "e147"
+   ],
+   "summary": "Omar Ishrak elected to the board.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "gregory-smith",
+   "event_date": "2017-03-23",
+   "announced_date": "2017-03-23",
+   "evidence_refs": [
+    "e057",
+    "e141"
+   ],
+   "summary": "Gregory D. Smith joins the board (elected 2017-03-21, effective 2017-03-23).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "andrew-wilson",
+   "event_date": "2017-09-13",
+   "announced_date": "2017-09-18",
+   "evidence_refs": [
+    "e130",
+    "e129",
+    "e150"
+   ],
+   "summary": "Andrew Wilson elected to the board.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "risa-lavizzo-mourey",
+   "event_date": "2018-03-14",
+   "announced_date": "2018-03-19",
+   "evidence_refs": [
+    "e128",
+    "e127",
+    "e148"
+   ],
+   "summary": "Risa J. Lavizzo-Mourey elected to the board.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "robert-swan",
+   "event_date": "2019-01-30",
+   "announced_date": "2019-01-31",
+   "evidence_refs": [
+    "e125",
+    "e126"
+   ],
+   "summary": "Bob Swan becomes CEO and a director.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "omar-ishrak",
+   "event_date": "2019-11-01",
+   "announced_date": "2019-09-25",
+   "evidence_refs": [
+    "e123"
+   ],
+   "summary": "Ishrak becomes independent Lead Director (succeeding Aneel Bhusri, who left the board that day).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "james-goetz",
+   "event_date": "2019-11-13",
+   "announced_date": "2019-11-14",
+   "evidence_refs": [
+    "e045",
+    "e135"
+   ],
+   "summary": "James J. Goetz elected to the board.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "alyssa-henry",
+   "event_date": "2020-01-15",
+   "announced_date": "2020-01-21",
+   "evidence_refs": [
+    "e049",
+    "e137"
+   ],
+   "summary": "Alyssa Henry elected to the board.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "andy-bryant",
+   "event_date": "2020-01-15",
+   "announced_date": "2020-01-21",
+   "evidence_refs": [
+    "e051",
+    "e052"
+   ],
+   "summary": "Bryant steps down as Chairman; remains a director.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "omar-ishrak",
+   "event_date": "2020-01-15",
+   "announced_date": "2020-01-21",
+   "evidence_refs": [
+    "e051",
+    "e100"
+   ],
+   "summary": "Ishrak elected independent Chairman (ends his Lead Director role).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "andy-bryant",
+   "event_date": "2020-05-14",
+   "announced_date": "2019-03-25",
+   "evidence_refs": [
+    "e124",
+    "e101",
+    "e122",
+    "e098"
+   ],
+   "summary": "Bryant leaves at the 2020 annual meeting (did not stand).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "reed-hundt",
+   "event_date": "2020-05-14",
+   "announced_date": "2020-03-31",
+   "evidence_refs": [
+    "e101",
+    "e122",
+    "e098"
+   ],
+   "summary": "Hundt leaves at the 2020 annual meeting (did not stand).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "dion-weisler",
+   "event_date": "2020-06-15",
+   "announced_date": "2020-06-17",
+   "evidence_refs": [
+    "e067",
+    "e145"
+   ],
+   "summary": "Dion J. Weisler elected to the board.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "robert-swan",
+   "event_date": "2021-02-15",
+   "announced_date": "2021-01-14",
+   "evidence_refs": [
+    "e121"
+   ],
+   "summary": "Swan resigns from the board effective 2021-02-15 as Gelsinger takes over as CEO.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "patrick-gelsinger",
+   "event_date": "2021-02-15",
+   "announced_date": "2021-01-14",
+   "evidence_refs": [
+    "e120",
+    "e119",
+    "e151"
+   ],
+   "summary": "Pat Gelsinger becomes CEO and a director.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "andrew-wilson",
+   "event_date": "2021-05-13",
+   "announced_date": "2021-03-16",
+   "evidence_refs": [
+    "e118",
+    "e117"
+   ],
+   "summary": "Wilson leaves at the 2021 annual meeting (did not stand).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "andrea-goldsmith",
+   "event_date": "2021-09-01",
+   "announced_date": "2021-07-19",
+   "evidence_refs": [
+    "e047",
+    "e136"
+   ],
+   "summary": "Andrea J. Goldsmith joins the board (elected 2021-07-14).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "lip-bu-tan",
+   "event_date": "2022-09-01",
+   "announced_date": "2022-08-11",
+   "evidence_refs": [
+    "e060",
+    "e143"
+   ],
+   "summary": "Lip-Bu Tan joins the board (first stint; elected 2022-08-08).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "barbara-novick",
+   "event_date": "2022-12-01",
+   "announced_date": "2022-11-22",
+   "evidence_refs": [
+    "e055",
+    "e139"
+   ],
+   "summary": "Barbara G. Novick joins the board (elected 2022-11-17).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "frank-yeary",
+   "event_date": "2023-01",
+   "announced_date": null,
+   "evidence_refs": [
+    "e095"
+   ],
+   "summary": "Yeary succeeds Ishrak as independent Chair (January 2023; day not stated).",
+   "event_date_precision": "month"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "stacy-smith",
+   "event_date": "2024-03-12",
+   "announced_date": "2024-03-13",
+   "evidence_refs": [
+    "e059",
+    "e142"
+   ],
+   "summary": "Stacy J. Smith appointed to the board.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "lip-bu-tan",
+   "event_date": "2024-08-19",
+   "announced_date": "2024-08-22",
+   "evidence_refs": [
+    "e062"
+   ],
+   "summary": "Tan resigns from the board, effective immediately.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "patrick-gelsinger",
+   "event_date": "2024-12-01",
+   "announced_date": "2024-12-02",
+   "evidence_refs": [
+    "e069"
+   ],
+   "summary": "Gelsinger resigns as CEO and director.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "frank-yeary",
+   "event_date": "2024-12-01",
+   "announced_date": "2024-12-02",
+   "evidence_refs": [
+    "e071",
+    "e073",
+    "e074"
+   ],
+   "summary": "Yeary becomes Interim Executive Chair (not independent during the role).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "alyssa-henry",
+   "event_date": "2024-12",
+   "announced_date": null,
+   "evidence_refs": [
+    "e075"
+   ],
+   "summary": "Henry appointed Lead Independent Director (December 2024).",
+   "event_date_precision": "month"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "eric-meurice",
+   "event_date": "2024-12-04",
+   "announced_date": "2024-12-05",
+   "evidence_refs": [
+    "e053",
+    "e138"
+   ],
+   "summary": "Eric Meurice appointed to the board.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "steve-sanghi",
+   "event_date": "2024-12-04",
+   "announced_date": "2024-12-05",
+   "evidence_refs": [
+    "e053",
+    "e140"
+   ],
+   "summary": "Steve Sanghi appointed to the board.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "lip-bu-tan",
+   "event_date": "2025-03-18",
+   "announced_date": "2025-03-12",
+   "evidence_refs": [
+    "e063",
+    "e066",
+    "e144"
+   ],
+   "summary": "Tan rejoins the board as CEO (appointed 2025-03-10).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "frank-yeary",
+   "event_date": "2025-03-18",
+   "announced_date": "2025-03-12",
+   "evidence_refs": [
+    "e065"
+   ],
+   "summary": "Yeary returns from Interim Executive Chair to independent Chair.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "alyssa-henry",
+   "event_date": "2025-03",
+   "announced_date": null,
+   "evidence_refs": [
+    "e076"
+   ],
+   "summary": "Henry ceases to be Lead Independent Director (March 2025).",
+   "event_date_precision": "month"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "omar-ishrak",
+   "event_date": "2025-05-06",
+   "announced_date": "2025-03-27",
+   "evidence_refs": [
+    "e078",
+    "e084",
+    "e085"
+   ],
+   "summary": "Ishrak leaves at the 2025 annual meeting (did not stand).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "risa-lavizzo-mourey",
+   "event_date": "2025-05-06",
+   "announced_date": "2025-03-27",
+   "evidence_refs": [
+    "e078",
+    "e084",
+    "e085"
+   ],
+   "summary": "Lavizzo-Mourey leaves at the 2025 annual meeting (did not stand).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "tsu-jae-king-liu",
+   "event_date": "2025-05-06",
+   "announced_date": "2025-03-27",
+   "evidence_refs": [
+    "e078",
+    "e084",
+    "e085"
+   ],
+   "summary": "King Liu leaves at the 2025 annual meeting (did not stand).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "craig-barratt",
+   "event_date": "2025-11-10",
+   "announced_date": "2025-11-12",
+   "evidence_refs": [
+    "e043",
+    "e134"
+   ],
+   "summary": "Craig H. Barratt appointed to the board.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "frank-yeary",
+   "event_date": "2026-05-13",
+   "announced_date": "2026-03-03",
+   "evidence_refs": [
+    "e037",
+    "e041"
+   ],
+   "summary": "Yeary retires at the 2026 annual meeting (did not stand).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "craig-barratt",
+   "event_date": "2026-05-13",
+   "announced_date": "2026-03-03",
+   "evidence_refs": [
+    "e039",
+    "e011"
+   ],
+   "summary": "Barratt becomes independent Chair following the 2026 annual meeting.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_SIZE_CHANGE",
+   "person_key": null,
+   "event_date": "2026-05-13",
+   "announced_date": "2026-03-03",
+   "evidence_refs": [
+    "e038",
+    "e008"
+   ],
+   "summary": "Board reduced from 12 to 11 at the 2026 annual meeting.",
+   "event_date_precision": "day",
+   "from_size": 12,
+   "to_size": 11
+  }
+ ],
+ "evidence": [
+  {
+   "id": "e001",
+   "form": "10-K",
+   "accession": "0000050863-26-000011",
+   "filing_date": "2026-01-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm",
+   "quote": "The principal U.S. market on which our common stock (symbol INTC) is traded is the Nasdaq Global Select Market.",
+   "supports": "Exchange (Nasdaq Global Select Market) and ticker INTC."
+  },
+  {
+   "id": "e002",
+   "form": "10-K",
+   "accession": "0000050863-26-000011",
+   "filing_date": "2026-01-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm",
+   "quote": "INTEL CORPORATION (Exact name of registrant as specified in its charter) Delaware 94-1672743 (State or other jurisdiction of incorporation or organization)",
+   "supports": "Legal name and Delaware incorporation (10-K cover).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e003",
+   "form": "DEFA14A",
+   "accession": "0001047469-03-018103",
+   "filing_date": "2003-05-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000104746903018103/a2111051zdefa14a.htm",
+   "quote": "has grown its share price by approximately 850 times from its IPO in 1971",
+   "supports": "Intel's own 2003 proxy soliciting material (letter to the IASB) dates its IPO to 1971; supports listed_since_year 1971. The IPO day is not stated in any filing reviewed."
+  },
+  {
+   "id": "e004",
+   "form": "DEF 14A",
+   "accession": "0000050863-26-000061",
+   "filing_date": "2026-03-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000061/proxy2026.htm",
+   "quote": "EY has served in this role since Intel was incorporated in 1968.",
+   "supports": "Intel was incorporated in 1968 (state at founding not stated here)."
+  },
+  {
+   "id": "e005",
+   "form": "DEF 14A",
+   "accession": "0000050863-26-000061",
+   "filing_date": "2026-03-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000061/proxy2026.htm",
+   "quote": "All directors are elected annually and subject to a majority vote standard.",
+   "supports": "Declassified board: one-year terms, so no director class."
+  },
+  {
+   "id": "e006",
+   "form": "DEF 14A",
+   "accession": "0000050863-26-000061",
+   "filing_date": "2026-03-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000061/proxy2026.htm",
+   "quote": "Of the 11 director nominees, 10 have been determined by the Board to qualify as an “independent director” under Nasdaq rules",
+   "supports": "2026 proxy: 10 of 11 nominees independent."
+  },
+  {
+   "id": "e007",
+   "form": "DEF 14A",
+   "accession": "0000050863-26-000061",
+   "filing_date": "2026-03-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000061/proxy2026.htm",
+   "quote": "Lip-Bu Tan is not deemed to be independent under Nasdaq rules due to his service as our CEO. Our director not standing for re-election at the Annual Meeting, Mr. Yeary, was deemed to be independent under Nasdaq rules.",
+   "supports": "Tan not independent (CEO); Yeary independent and not standing for re-election in 2026."
+  },
+  {
+   "id": "e008",
+   "form": "DEF 14A",
+   "accession": "0000050863-26-000061",
+   "filing_date": "2026-03-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000061/proxy2026.htm",
+   "quote": "The Board is currently composed of 12 directors. Effective at the Annual Meeting, the Board’s size will be reduced to 11 directors.",
+   "supports": "Board of 12 reduced to 11 at the 2026 annual meeting."
+  },
+  {
+   "id": "e009",
+   "form": "DEF 14A",
+   "accession": "0000050863-26-000061",
+   "filing_date": "2026-03-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000061/proxy2026.htm",
+   "quote": "Mr. Yeary has been the independent Board Chair since January 2023, though from December 2024 through March 2025, during a period of CEO transition, he served as Interim Executive Chair to take a more active role in overseeing, on behalf of the Board, the business and the company’s Interim Co-CEOs.",
+   "supports": "Yeary independent Chair since January 2023; Interim Executive Chair December 2024 - March 2025."
+  },
+  {
+   "id": "e010",
+   "form": "DEF 14A",
+   "accession": "0000050863-26-000061",
+   "filing_date": "2026-03-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000061/proxy2026.htm",
+   "quote": "During that period, the Board appointed Ms. Henry as Lead Independent Director.",
+   "supports": "Henry Lead Independent Director while Yeary was Interim Executive Chair."
+  },
+  {
+   "id": "e011",
+   "form": "DEF 14A",
+   "accession": "0000050863-26-000061",
+   "filing_date": "2026-03-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000061/proxy2026.htm",
+   "quote": "Dr. Barratt, an independent director appointed to the Board in November 2025, has been appointed Board Chair effective upon the departure of Mr. Yeary from the Board following the 2026 Annual Meeting.",
+   "supports": "Barratt to become Board Chair when Yeary leaves after the 2026 annual meeting."
+  },
+  {
+   "id": "e012",
+   "form": "DEF 14A",
+   "accession": "0000050863-26-000061",
+   "filing_date": "2026-03-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000061/proxy2026.htm",
+   "quote": "Mr. Tan was appointed CEO of Intel in March 2025. He was a director of Intel from 2022 through August 2024, and was reappointed to the Board upon his becoming CEO.",
+   "supports": "Tan's two board stints."
+  },
+  {
+   "id": "e013",
+   "form": "DEF 14A",
+   "accession": "0000050863-26-000061",
+   "filing_date": "2026-03-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000061/proxy2026.htm",
+   "quote": "Audit & Finance Committee Committee Meetings in 2025: 11 Stacy J. Smith Chair Financial Expert Dr. Andrea J. Goldsmith Eric Meurice Financial Expert Gregory D. Smith Financial Expert",
+   "supports": "2026 proxy Audit & Finance Committee: S. Smith (Chair), Goldsmith, Meurice, G. Smith.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e014",
+   "form": "DEF 14A",
+   "accession": "0000050863-26-000061",
+   "filing_date": "2026-03-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000061/proxy2026.htm",
+   "quote": "Talent and Compensation Committee Committee Meetings in 2025: 8 Dion J. Weisler Chair James J. Goetz Alyssa H. Henry Steve Sanghi",
+   "supports": "2026 proxy Talent and Compensation Committee: Weisler (Chair), Goetz, Henry, Sanghi.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e015",
+   "form": "DEF 14A",
+   "accession": "0000050863-26-000061",
+   "filing_date": "2026-03-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000061/proxy2026.htm",
+   "quote": "Corporate Governance and Nominating Committee Committee Meetings in 2025: 8 Barbara G. Novick Chair James J. Goetz Dr. Andrea J. Goldsmith Alyssa H. Henry",
+   "supports": "2026 proxy Corporate Governance and Nominating Committee: Novick (Chair), Goetz, Goldsmith, Henry.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e016",
+   "form": "DEF 14A",
+   "accession": "0000050863-26-000061",
+   "filing_date": "2026-03-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000061/proxy2026.htm",
+   "quote": "Craig H. Barratt Independent Director Since: 2025",
+   "supports": "2026 proxy nominee header for Craig H. Barratt (independence label and 'Director Since' year).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e017",
+   "form": "DEF 14A",
+   "accession": "0000050863-26-000061",
+   "filing_date": "2026-03-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000061/proxy2026.htm",
+   "quote": "James J. Goetz Independent Director Since: 2019",
+   "supports": "2026 proxy nominee header for James J. Goetz (independence label and 'Director Since' year).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e018",
+   "form": "DEF 14A",
+   "accession": "0000050863-26-000061",
+   "filing_date": "2026-03-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000061/proxy2026.htm",
+   "quote": "Andrea J. Goldsmith Independent Director Since: 2021",
+   "supports": "2026 proxy nominee header for Andrea J. Goldsmith (independence label and 'Director Since' year).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e019",
+   "form": "DEF 14A",
+   "accession": "0000050863-26-000061",
+   "filing_date": "2026-03-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000061/proxy2026.htm",
+   "quote": "Alyssa H. Henry Independent Director Since: 2020",
+   "supports": "2026 proxy nominee header for Alyssa H. Henry (independence label and 'Director Since' year).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e020",
+   "form": "DEF 14A",
+   "accession": "0000050863-26-000061",
+   "filing_date": "2026-03-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000061/proxy2026.htm",
+   "quote": "Eric Meurice Independent Director Since: 2024",
+   "supports": "2026 proxy nominee header for Eric Meurice (independence label and 'Director Since' year).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e021",
+   "form": "DEF 14A",
+   "accession": "0000050863-26-000061",
+   "filing_date": "2026-03-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000061/proxy2026.htm",
+   "quote": "Barbara G. Novick Independent Director Since: 2022",
+   "supports": "2026 proxy nominee header for Barbara G. Novick (independence label and 'Director Since' year).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e022",
+   "form": "DEF 14A",
+   "accession": "0000050863-26-000061",
+   "filing_date": "2026-03-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000061/proxy2026.htm",
+   "quote": "Steve Sanghi Independent Director Since: 2024",
+   "supports": "2026 proxy nominee header for Steve Sanghi (independence label and 'Director Since' year).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e023",
+   "form": "DEF 14A",
+   "accession": "0000050863-26-000061",
+   "filing_date": "2026-03-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000061/proxy2026.htm",
+   "quote": "Gregory D. Smith Independent Director Since: 2017",
+   "supports": "2026 proxy nominee header for Gregory D. Smith (independence label and 'Director Since' year).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e024",
+   "form": "DEF 14A",
+   "accession": "0000050863-26-000061",
+   "filing_date": "2026-03-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000061/proxy2026.htm",
+   "quote": "Stacy J. Smith Independent Director Since: 2024",
+   "supports": "2026 proxy nominee header for Stacy J. Smith (independence label and 'Director Since' year).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e025",
+   "form": "DEF 14A",
+   "accession": "0000050863-26-000061",
+   "filing_date": "2026-03-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000061/proxy2026.htm",
+   "quote": "Lip-Bu Tan Chief Executive Officer Director Since: 2022",
+   "supports": "2026 proxy nominee header for Lip-Bu Tan (independence label and 'Director Since' year).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e026",
+   "form": "DEF 14A",
+   "accession": "0000050863-26-000061",
+   "filing_date": "2026-03-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000061/proxy2026.htm",
+   "quote": "Dion J. Weisler Independent Director Since: 2020",
+   "supports": "2026 proxy nominee header for Dion J. Weisler (independence label and 'Director Since' year).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e027",
+   "form": "DEF 14A",
+   "accession": "0000050863-26-000061",
+   "filing_date": "2026-03-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000061/proxy2026.htm",
+   "quote": "Public Company Boards Astera Labs, Inc., a fabless semiconductor provider of connectivity solutions for artificial intelligence and cloud infrastructure (since 2025) Intuitive Surgical, Inc., a robotic-assisted surgery company (since 2011)",
+   "supports": "Barratt other public boards."
+  },
+  {
+   "id": "e028",
+   "form": "DEF 14A",
+   "accession": "0000050863-26-000061",
+   "filing_date": "2026-03-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000061/proxy2026.htm",
+   "quote": "Public Company Boards Palo Alto Networks Inc., a network security solution company (since 2004) Prior Public Company Boards Barracuda Networks Inc., a data security and storage company (2009-2017) Ruckus Wireless Inc., a wireless (Wi-Fi) networking equipment manufacturer (2012-2015)",
+   "supports": "Goetz other public boards."
+  },
+  {
+   "id": "e029",
+   "form": "DEF 14A",
+   "accession": "0000050863-26-000061",
+   "filing_date": "2026-03-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000061/proxy2026.htm",
+   "quote": "Public Company Boards Crown Castle Inc., a REIT and shared communications infrastructure provider (since 2018) Prior Public Company Boards Medtronic plc, a medical device company (2019-2025)",
+   "supports": "Goldsmith other public boards."
+  },
+  {
+   "id": "e030",
+   "form": "DEF 14A",
+   "accession": "0000050863-26-000061",
+   "filing_date": "2026-03-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000061/proxy2026.htm",
+   "quote": "Public Company Boards Samsara Inc., a connected cloud operations software company (since 2024) Prior Public Company Boards Confluent Inc., a data infrastructure software company (2021-2026) Unity Software Inc., a video game software development company (2018-2022)",
+   "supports": "Henry other public boards."
+  },
+  {
+   "id": "e031",
+   "form": "DEF 14A",
+   "accession": "0000050863-26-000061",
+   "filing_date": "2026-03-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000061/proxy2026.htm",
+   "quote": "Public Company Boards IPG Photonics Corp., a maker of fiber lasers, amplifiers and laser diodes (since 2014) Prior Public Company Boards Global Blue Group Holding AG, a payment solutions provider (2018-2025)",
+   "supports": "Meurice other public boards."
+  },
+  {
+   "id": "e032",
+   "form": "DEF 14A",
+   "accession": "0000050863-26-000061",
+   "filing_date": "2026-03-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000061/proxy2026.htm",
+   "quote": "Public Company Boards Impinj, Inc., a manufacturer of radio-frequency identification devices and software (since 2021) Microchip Technology Incorporated (since 1990)",
+   "supports": "Sanghi other public boards."
+  },
+  {
+   "id": "e033",
+   "form": "DEF 14A",
+   "accession": "0000050863-26-000061",
+   "filing_date": "2026-03-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000061/proxy2026.htm",
+   "quote": "Public Company Boards American Airlines Group, Inc., a U.S. airline (since 2022)",
+   "supports": "G. Smith other public boards."
+  },
+  {
+   "id": "e034",
+   "form": "DEF 14A",
+   "accession": "0000050863-26-000061",
+   "filing_date": "2026-03-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000061/proxy2026.htm",
+   "quote": "Public Company Boards Autodesk Inc., multinational software products and services company (since 2011) Kioxia Corporation (since 2018) Prior Public Company Boards Wolfspeed Inc., a wide-bandgap semiconductor developer and manufacturer (2023-2025) Virgin America Inc., a U.S. airline (2014-2016)",
+   "supports": "S. Smith other public boards."
+  },
+  {
+   "id": "e035",
+   "form": "DEF 14A",
+   "accession": "0000050863-26-000061",
+   "filing_date": "2026-03-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000061/proxy2026.htm",
+   "quote": "Public Company Boards Schneider Electric SE, a digital automation and energy management company (since 2018) Prior Public Company Boards Credo Technology Group Holding Ltd., a connectivity solutions provider (2019-2025) Cadence Design Systems, Inc., a computational software company (2004-2023)",
+   "supports": "Tan other public boards."
+  },
+  {
+   "id": "e036",
+   "form": "DEF 14A",
+   "accession": "0000050863-26-000061",
+   "filing_date": "2026-03-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000061/proxy2026.htm",
+   "quote": "Public Company Boards Thermo Fisher Scientific Inc., an analytical laboratory instrument manufacturer (since 2017) BHP Group Ltd., a mining, metals, and petroleum company (since 2019) Qantas Airways Limited, an Australian airline (since 2025)",
+   "supports": "Weisler other public boards."
+  },
+  {
+   "id": "e037",
+   "form": "8-K",
+   "accession": "0000050863-26-000044",
+   "filing_date": "2026-03-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000044/intc-20260227.htm",
+   "quote": "On February 27, 2026, Frank Yeary, Chair of the board of directors (the \"Board\") of Intel Corporation (the “Company”), informed the Board that he intends to retire from the Board effective upon the conclusion of the Company's 2026 Annual Meeting of Stockholders and, as such, did not wish to stand for reelection at such meeting.",
+   "supports": "Yeary notice (2026-02-27) that he would not stand and would retire at the 2026 annual meeting."
+  },
+  {
+   "id": "e038",
+   "form": "8-K",
+   "accession": "0000050863-26-000044",
+   "filing_date": "2026-03-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000044/intc-20260227.htm",
+   "quote": "The Board has determined that upon the conclusion of 2026 Annual Meeting of Stockholders, the Board size shall be reduced from twelve to eleven directors.",
+   "supports": "Board size 12 -> 11 at the 2026 annual meeting."
+  },
+  {
+   "id": "e039",
+   "form": "8-K",
+   "accession": "0000050863-26-000044",
+   "filing_date": "2026-03-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000044/a02272026form8-kex991.htm",
+   "quote": "Intel Corporation today announced that its board of directors has elected Dr. Craig H. Barratt as independent chair, effective following the company’s Annual Stockholders’ Meeting on May 13, 2026.",
+   "supports": "Barratt elected independent chair effective following the 2026-05-13 annual meeting."
+  },
+  {
+   "id": "e040",
+   "form": "8-K",
+   "accession": "0000050863-26-000044",
+   "filing_date": "2026-03-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000044/a02272026form8-kex991.htm",
+   "quote": "Yeary has served as a director since 2009 and as chair since 2023.",
+   "supports": "Yeary director since 2009, chair since 2023."
+  },
+  {
+   "id": "e041",
+   "form": "8-K",
+   "accession": "0000050863-26-000118",
+   "filing_date": "2026-05-15",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000118/intc-20260513.htm",
+   "quote": "At the annual meeting of stockholders (the \"Annual Meeting\") of Intel Corporation (the \"Company\") held on May 13, 2026",
+   "supports": "2026 annual meeting held 2026-05-13."
+  },
+  {
+   "id": "e042",
+   "form": "8-K",
+   "accession": "0000050863-26-000118",
+   "filing_date": "2026-05-15",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000118/intc-20260513.htm",
+   "quote": "Proposal 1. Election of 11 Directors: All Directors Elected",
+   "supports": "All 11 nominees (Barratt, Goetz, Goldsmith, Henry, Meurice, Novick, Sanghi, G. Smith, S. Smith, Tan, Weisler) elected 2026-05-13."
+  },
+  {
+   "id": "e043",
+   "form": "8-K",
+   "accession": "0000050863-25-000194",
+   "filing_date": "2025-11-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000194/intc-20251110.htm",
+   "quote": "On November 10, 2025, the board of directors (the \"Board\") of Intel Corporation appointed Dr. Craig H. Barratt to the Board, effective immediately.",
+   "supports": "Barratt appointed 2025-11-10, effective immediately."
+  },
+  {
+   "id": "e044",
+   "form": "8-K",
+   "accession": "0000050863-25-000194",
+   "filing_date": "2025-11-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000194/intc-20251110.htm",
+   "quote": "The Board determined that Dr. Barratt qualifies as “independent” in accordance with the published listing requirements of Nasdaq.",
+   "supports": "Barratt independent."
+  },
+  {
+   "id": "e045",
+   "form": "8-K",
+   "accession": "0001193125-19-292429",
+   "filing_date": "2019-11-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312519292429/d822085d8k.htm",
+   "quote": "On November 13, 2019, the Board of Directors (“Board”) of Intel Corporation (“Intel”) elected Mr. James (Jim) J. Goetz to the Board, effective immediately.",
+   "supports": "Goetz elected 2019-11-13, effective immediately."
+  },
+  {
+   "id": "e046",
+   "form": "8-K",
+   "accession": "0001193125-19-292429",
+   "filing_date": "2019-11-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312519292429/d822085d8k.htm",
+   "quote": "The Board determined that Mr. Goetz qualifies as “independent” in accordance with the published listing requirements of Nasdaq.",
+   "supports": "Goetz independent."
+  },
+  {
+   "id": "e047",
+   "form": "8-K",
+   "accession": "0001193125-21-218615",
+   "filing_date": "2021-07-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312521218615/d195336d8k.htm",
+   "quote": "On July 14, 2021, the Board of Directors (“Board”) of Intel Corporation (“Intel”) elected Dr. Andrea J. Goldsmith to the Board, effective September 1, 2021.",
+   "supports": "Goldsmith elected 2021-07-14, effective 2021-09-01."
+  },
+  {
+   "id": "e048",
+   "form": "8-K",
+   "accession": "0001193125-21-218615",
+   "filing_date": "2021-07-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312521218615/d195336d8k.htm",
+   "quote": "The Board determined that Dr. Goldsmith qualifies as “independent” in accordance with the published listing requirements of Nasdaq.",
+   "supports": "Goldsmith independent."
+  },
+  {
+   "id": "e049",
+   "form": "8-K",
+   "accession": "0001193125-20-011010",
+   "filing_date": "2020-01-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312520011010/d874338d8k.htm",
+   "quote": "On January 15, 2020, the Board of Directors (“Board”) of Intel Corporation (“Intel”) elected Ms. Alyssa Henry to the Board, effective immediately.",
+   "supports": "Henry elected 2020-01-15, effective immediately."
+  },
+  {
+   "id": "e050",
+   "form": "8-K",
+   "accession": "0001193125-20-011010",
+   "filing_date": "2020-01-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312520011010/d874338d8k.htm",
+   "quote": "The Board determined that Ms. Henry qualifies as “independent” in accordance with the published listing requirements of Nasdaq.",
+   "supports": "Henry independent."
+  },
+  {
+   "id": "e051",
+   "form": "8-K",
+   "accession": "0001193125-20-011010",
+   "filing_date": "2020-01-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312520011010/d874338d8k.htm",
+   "quote": "On January 15, 2020, Mr. Andy D. Bryant stepped down as Chairman of the Board, and the Board elected Dr. Omar Ishrak as independent Chairman of the Board, effective immediately.",
+   "supports": "Chair passes from Bryant to Ishrak on 2020-01-15."
+  },
+  {
+   "id": "e052",
+   "form": "8-K",
+   "accession": "0001193125-20-011010",
+   "filing_date": "2020-01-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312520011010/d874338d8k.htm",
+   "quote": "Mr. Bryant remains a director on the Board and he intends to serve the remainder of his term through the end of the 2020 Annual Stockholders’ Meeting.",
+   "supports": "Bryant stays a director until the 2020 annual meeting."
+  },
+  {
+   "id": "e053",
+   "form": "8-K",
+   "accession": "0000050863-24-000180",
+   "filing_date": "2024-12-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086324000180/intc-20241204.htm",
+   "quote": "On December 4, 2024, the board of directors (the \"Board\") of Intel Corporation appointed Eric Meurice and Steve Sanghi to the Board, effective immediately.",
+   "supports": "Meurice and Sanghi appointed 2024-12-04, effective immediately."
+  },
+  {
+   "id": "e054",
+   "form": "8-K",
+   "accession": "0000050863-24-000180",
+   "filing_date": "2024-12-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086324000180/intc-20241204.htm",
+   "quote": "The Board determined that each of Mr. Meurice and Mr. Sanghi qualifies as “independent” in accordance with the published listing requirements of Nasdaq.",
+   "supports": "Meurice and Sanghi independent."
+  },
+  {
+   "id": "e055",
+   "form": "8-K",
+   "accession": "0001193125-22-290385",
+   "filing_date": "2022-11-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312522290385/d310344d8k.htm",
+   "quote": "On November 17, 2022, the Board elected Barbara G. Novick to the Board, effective December 1, 2022 (the “Effective Date”).",
+   "supports": "Novick elected 2022-11-17, effective 2022-12-01."
+  },
+  {
+   "id": "e056",
+   "form": "8-K",
+   "accession": "0001193125-22-290385",
+   "filing_date": "2022-11-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312522290385/d310344d8k.htm",
+   "quote": "The Board determined that Ms. Novick qualifies as “independent” in accordance with the published listing requirements of Nasdaq, and she has been appointed to the Audit & Finance Committee and Compensation Committee as of the Effective Date.",
+   "supports": "Novick independent."
+  },
+  {
+   "id": "e057",
+   "form": "8-K",
+   "accession": "0001193125-17-092965",
+   "filing_date": "2017-03-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312517092965/d335499d8k.htm",
+   "quote": "On March 21, 2017, the Board of Directors (the “Board”) of Intel Corporation (“Intel”) elected Omar Ishrak as a member of the Board, effective immediately, and elected Gregory D. Smith as a member of the Board, effective as of March 23, 2017.",
+   "supports": "Ishrak elected 2017-03-21 (effective immediately); G. Smith elected effective 2017-03-23."
+  },
+  {
+   "id": "e058",
+   "form": "8-K",
+   "accession": "0001193125-17-092965",
+   "filing_date": "2017-03-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312517092965/d335499d8k.htm",
+   "quote": "The Board has determined that each of Mr. Ishrak and Mr. Smith qualifies as “independent” in accordance with the published listing requirements of",
+   "supports": "Ishrak and G. Smith independent (sentence continues 'NASDAQ')."
+  },
+  {
+   "id": "e059",
+   "form": "8-K",
+   "accession": "0000050863-24-000036",
+   "filing_date": "2024-03-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086324000036/intc-20240312.htm",
+   "quote": "On March 12, 2024, the Board appointed Stacy J. Smith to the Board, effective immediately. The Board determined that Mr. Smith qualifies as “independent” in accordance with the published listing requirements of Nasdaq, and he has been appointed to the Audit & Finance Committee.",
+   "supports": "S. Smith appointed 2024-03-12, effective immediately; independent."
+  },
+  {
+   "id": "e060",
+   "form": "8-K",
+   "accession": "0001193125-22-218541",
+   "filing_date": "2022-08-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312522218541/d359017d8k.htm",
+   "quote": "On August 8, 2022, the Board of Directors (“Board”) of Intel Corporation (“Intel”) elected Lip-Bu Tan to the Board, effective September 1, 2022 (the “Effective Date”).",
+   "supports": "Tan (first stint) elected 2022-08-08, effective 2022-09-01."
+  },
+  {
+   "id": "e061",
+   "form": "8-K",
+   "accession": "0001193125-22-218541",
+   "filing_date": "2022-08-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312522218541/d359017d8k.htm",
+   "quote": "Mr. Tan has been appointed to the Board’s M&A committee.",
+   "supports": "Tan on the M&A committee from his first appointment."
+  },
+  {
+   "id": "e062",
+   "form": "8-K",
+   "accession": "0000050863-24-000134",
+   "filing_date": "2024-08-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086324000134/intc-20240819.htm",
+   "quote": "On August 19, 2024, Lip-Bu Tan informed the board of directors (the “Board”) of Intel Corporation (the “Company”) that he was resigning from the Board, effective immediately.",
+   "supports": "Tan resigned 2024-08-19, effective immediately."
+  },
+  {
+   "id": "e063",
+   "form": "8-K",
+   "accession": "0000050863-25-000036",
+   "filing_date": "2025-03-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000036/intc-20250310.htm",
+   "quote": "On March 10, 2025, the Board of Directors (the “Board”) of Intel Corporation (“Intel” or the “Company”) appointed Lip-Bu Tan as Chief Executive Officer (“CEO”) and as a director of the Company, effective as of March 18, 2025 (the “Effective Date”).",
+   "supports": "Tan appointed CEO and director 2025-03-10, effective 2025-03-18."
+  },
+  {
+   "id": "e064",
+   "form": "8-K",
+   "accession": "0000050863-25-000036",
+   "filing_date": "2025-03-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000036/intc-20250310.htm",
+   "quote": "Mr. Tan was previously a director of Intel from September 2022 until August 2024.",
+   "supports": "Tan's first stint."
+  },
+  {
+   "id": "e065",
+   "form": "8-K",
+   "accession": "0000050863-25-000036",
+   "filing_date": "2025-03-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000036/intc-20250310.htm",
+   "quote": "As of the Effective Date, Frank D. Yeary will cease to be Interim Executive Chair of the Board and will return to being the independent Chair of the Board.",
+   "supports": "Yeary's Interim Executive Chair role ends 2025-03-18; he reverts to independent Chair."
+  },
+  {
+   "id": "e066",
+   "form": "8-K",
+   "accession": "0000050863-25-000036",
+   "filing_date": "2025-03-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000036/a03102025form8-kex991.htm",
+   "quote": "Tan will also rejoin the Intel board of directors after stepping down from the board in August 2024.",
+   "supports": "Tan rejoins the board as CEO."
+  },
+  {
+   "id": "e067",
+   "form": "8-K",
+   "accession": "0001193125-20-171288",
+   "filing_date": "2020-06-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312520171288/d910255d8k.htm",
+   "quote": "On June 15, 2020, the Board of Directors (“Board”) of Intel Corporation (“Intel”) elected Mr. Dion J. Weisler to the Board, effective immediately. The Board determined that Mr. Weisler qualifies as “independent” in accordance with the published listing requirements of Nasdaq.",
+   "supports": "Weisler elected 2020-06-15, effective immediately; independent."
+  },
+  {
+   "id": "e068",
+   "form": "8-K",
+   "accession": "0000050863-09-000042",
+   "filing_date": "2009-03-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086309000042/form8k.htm",
+   "quote": "On March 18, 2009, the company's Board of Directors elected John J. Donahoe and Frank D. Yeary as a members of the Board, effective March 18, 2009.",
+   "supports": "Yeary elected 2009-03-18."
+  },
+  {
+   "id": "e069",
+   "form": "8-K",
+   "accession": "0000050863-24-000173",
+   "filing_date": "2024-12-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086324000173/intc-20241201.htm",
+   "quote": "On December 1, 2024, Patrick Gelsinger, Chief Executive Officer and director of Intel Corporation (the “Company”), resigned from the Company and the Board of Directors (the “Board”), effective immediately.",
+   "supports": "Gelsinger resigned as CEO and director 2024-12-01."
+  },
+  {
+   "id": "e070",
+   "form": "8-K",
+   "accession": "0000050863-24-000173",
+   "filing_date": "2024-12-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086324000173/intc-20241201.htm",
+   "quote": "Mr. Gelsinger also resigned from the Board of Directors of Mobileye Global Inc., a subsidiary of the Company, effective immediately.",
+   "supports": "Gelsinger left the Mobileye board on 2024-12-01."
+  },
+  {
+   "id": "e071",
+   "form": "8-K",
+   "accession": "0000050863-24-000173",
+   "filing_date": "2024-12-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086324000173/intc-20241201.htm",
+   "quote": "Frank Yeary has also been appointed as interim Executive Chair of the Board to oversee this process.",
+   "supports": "Yeary appointed interim Executive Chair in the 8-K reporting the 2024-12-01 CEO transition."
+  },
+  {
+   "id": "e072",
+   "form": "8-K",
+   "accession": "0000050863-24-000173",
+   "filing_date": "2024-12-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086324000173/intc-20241201.htm",
+   "quote": "On December 1, 2024, the Board appointed Michelle Johnston Holthaus and David Zinsner as Interim Co-Chief Executive Officers of the Company, to hold such positions until a permanent successor Chief Executive Officer is appointed.",
+   "supports": "Interim co-CEOs (not directors) appointed 2024-12-01, the event date of the same 8-K item."
+  },
+  {
+   "id": "e073",
+   "form": "8-K",
+   "accession": "0000050863-24-000173",
+   "filing_date": "2024-12-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086324000173/a12012024form8-kex991.htm",
+   "quote": "Frank Yeary, independent chair of the board of Intel, will become interim executive chair during the period of transition.",
+   "supports": "Press release (2024-12-02): Yeary from independent chair to interim executive chair."
+  },
+  {
+   "id": "e074",
+   "form": "DEF 14A",
+   "accession": "0000050863-25-000054",
+   "filing_date": "2025-03-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000054/intc-20250327.htm",
+   "quote": "However, in December 2024, upon the departure of our prior CEO, the Board appointed Mr. Yeary Interim Executive Chair to take a more active role in overseeing, on behalf of the Board, the business and the company’s Interim Co-CEOs.",
+   "supports": "Yeary Interim Executive Chair from December 2024, upon Gelsinger's departure."
+  },
+  {
+   "id": "e075",
+   "form": "DEF 14A",
+   "accession": "0000050863-25-000054",
+   "filing_date": "2025-03-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000054/intc-20250327.htm",
+   "quote": "At the same time, the Board appointed Ms. Henry as Lead Independent Director and benefited from her taking on this important leadership role among the independent directors.",
+   "supports": "Henry appointed Lead Independent Director in December 2024."
+  },
+  {
+   "id": "e076",
+   "form": "DEF 14A",
+   "accession": "0000050863-25-000054",
+   "filing_date": "2025-03-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000054/intc-20250327.htm",
+   "quote": "In March 2025, upon Lip-Bu Tan’s joining the company as its new CEO, Ms. Henry ceased to be Lead Independent Director and Mr. Yeary returned to being the independent Board Chair.",
+   "supports": "Henry's LID role ends March 2025; Yeary back to independent Chair."
+  },
+  {
+   "id": "e077",
+   "form": "DEF 14A",
+   "accession": "0000050863-25-000054",
+   "filing_date": "2025-03-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000054/intc-20250327.htm",
+   "quote": "Frank D. Yeary previously served as our Interim Executive Chair and was not deemed to be independent during the period he served in that role.",
+   "supports": "Yeary not independent while Interim Executive Chair."
+  },
+  {
+   "id": "e078",
+   "form": "DEF 14A",
+   "accession": "0000050863-25-000054",
+   "filing_date": "2025-03-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000054/intc-20250327.htm",
+   "quote": "Omar Ishrak, Tsu-Jae King Liu, and Risa Lavizzo-Mourey are retiring from the Board and will not stand for reelection at the Annual Meeting.",
+   "supports": "Ishrak, King Liu and Lavizzo-Mourey do not stand at the 2025 annual meeting."
+  },
+  {
+   "id": "e079",
+   "form": "DEF 14A",
+   "accession": "0000050863-25-000054",
+   "filing_date": "2025-03-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000054/intc-20250327.htm",
+   "quote": "Our directors not standing for re-election at the Annual Meeting, Dr. Omar Ishrak, Dr. Risa Lavizzo-Mourey and Dr. Tsu-Jae King Liu, were deemed to be independent under Nasdaq rules.",
+   "supports": "Ishrak, Lavizzo-Mourey, King Liu independent."
+  },
+  {
+   "id": "e080",
+   "form": "DEF 14A",
+   "accession": "0000050863-25-000054",
+   "filing_date": "2025-03-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000054/intc-20250327.htm",
+   "quote": "Other members: Dr. Andrea J. Goldsmith Dr. Omar Ishrak Eric Meurice Financial Expert Stacy J. Smith Financial Expert",
+   "supports": "2025 proxy Audit & Finance Committee members (chair G. Smith listed above).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e081",
+   "form": "DEF 14A",
+   "accession": "0000050863-25-000054",
+   "filing_date": "2025-03-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000054/intc-20250327.htm",
+   "quote": "Other members: James J. Goetz Alyssa H. Henry Dr. Risa Lavizzo-Mourey Steve Sanghi",
+   "supports": "2025 proxy Talent and Compensation Committee members (chair Weisler).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e082",
+   "form": "DEF 14A",
+   "accession": "0000050863-25-000054",
+   "filing_date": "2025-03-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000054/intc-20250327.htm",
+   "quote": "Other members: Dr. Risa Lavizzo-Mourey Vice Chair Dr. Andrea J. Goldsmith Alyssa H. Henry Dr. Omar Ishrak Dr. Tsu-Jae King Liu",
+   "supports": "2025 proxy Corporate Governance and Nominating Committee members (chair Novick; Lavizzo-Mourey vice chair).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e083",
+   "form": "DEF 14A",
+   "accession": "0000050863-25-000054",
+   "filing_date": "2025-03-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000054/intc-20250327.htm",
+   "quote": "Public Company Boards PayPal Holdings, Inc., a financial technology company operating an online payments system Mobileye Global Inc., Intel’s autonomous driving technology subsidiary",
+   "supports": "Yeary other public boards (2025 proxy, his last nominee bio)."
+  },
+  {
+   "id": "e084",
+   "form": "8-K",
+   "accession": "0000050863-25-000084",
+   "filing_date": "2025-05-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000084/intc-20250506.htm",
+   "quote": "At the annual meeting of stockholders (the \"Annual Meeting\") of Intel Corporation (the \"Company\") held on May 6, 2025",
+   "supports": "2025 annual meeting held 2025-05-06."
+  },
+  {
+   "id": "e085",
+   "form": "8-K",
+   "accession": "0000050863-25-000084",
+   "filing_date": "2025-05-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000084/intc-20250506.htm",
+   "quote": "Proposal 1. Election of 11 Directors: All Directors Elected",
+   "supports": "11 elected 2025-05-06 (Goetz, Goldsmith, Henry, Meurice, Novick, Sanghi, G. Smith, S. Smith, Tan, Weisler, Yeary); Ishrak, Lavizzo-Mourey and King Liu not on the slate."
+  },
+  {
+   "id": "e086",
+   "form": "DEF 14A",
+   "accession": "0000050863-24-000057",
+   "filing_date": "2024-03-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086324000057/intc-20240327.htm",
+   "quote": "Lip-Bu Tan, a non-employee director nominee, served as a member of an advisory committee to the Board prior to joining the Board and currently does not satisfy the Nasdaq independence test due to compensation previously received in that role.",
+   "supports": "Tan (first stint) not independent."
+  },
+  {
+   "id": "e087",
+   "form": "DEF 14A",
+   "accession": "0000050863-24-000057",
+   "filing_date": "2024-03-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086324000057/intc-20240327.htm",
+   "quote": "Mr. Gelsinger is also deemed to not be independent because he is our CEO.",
+   "supports": "Gelsinger not independent."
+  },
+  {
+   "id": "e088",
+   "form": "DEF 14A",
+   "accession": "0000050863-24-000057",
+   "filing_date": "2024-03-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086324000057/intc-20240327.htm",
+   "quote": "Other members: James J. Goetz Alyssa H. Henry Lip-Bu Tan Dion J. Weisler",
+   "supports": "2024 proxy M&A Committee members (chair Yeary).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e089",
+   "form": "DEF 14A",
+   "accession": "0000050863-24-000057",
+   "filing_date": "2024-03-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086324000057/intc-20240327.htm",
+   "quote": "Mr. Yeary currently serves as our independent Board Chair",
+   "supports": "Yeary independent Chair as of the 2024 proxy."
+  },
+  {
+   "id": "e090",
+   "form": "DEF 14A",
+   "accession": "0000050863-24-000057",
+   "filing_date": "2024-03-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086324000057/intc-20240327.htm",
+   "quote": "Other Public Boards Mobileye Global Inc., Intel’s autonomous driving technology subsidiary Notable Affiliations Institute of Electrical and Electronics Engineers",
+   "supports": "Gelsinger other public boards (2024 proxy)."
+  },
+  {
+   "id": "e091",
+   "form": "DEF 14A",
+   "accession": "0000050863-24-000057",
+   "filing_date": "2024-03-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086324000057/intc-20240327.htm",
+   "quote": "Other Public Boards Amgen Inc., a biopharmaceutical company Allurion Technologies Inc., a healthcare company Recent Public Boards Compute Health Acquisition Corp., a special purpose acquisition company prior to Allurion Technologies Inc. acquisition Medtronic plc, a medical device company",
+   "supports": "Ishrak other public boards (2024 proxy, his last nominee bio)."
+  },
+  {
+   "id": "e092",
+   "form": "DEF 14A",
+   "accession": "0000050863-24-000057",
+   "filing_date": "2024-03-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086324000057/intc-20240327.htm",
+   "quote": "Other Public Boards GE Healthcare Technologies Inc., a medical technology and life sciences company Merck & Co., a pharmaceutical company Recent Public Boards General Electric Company, a conglomerate Better Therapeutics, Inc., a prescription digital therapeutics company",
+   "supports": "Lavizzo-Mourey other public boards (2024 proxy)."
+  },
+  {
+   "id": "e093",
+   "form": "DEF 14A",
+   "accession": "0000050863-24-000057",
+   "filing_date": "2024-03-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086324000057/intc-20240327.htm",
+   "quote": "Other Public Boards MaxLinear, Inc., a semiconductor products provider for broadband communications",
+   "supports": "King Liu other public boards (2024 proxy)."
+  },
+  {
+   "id": "e094",
+   "form": "DEF 14A",
+   "accession": "0000050863-23-000021",
+   "filing_date": "2023-03-31",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086323000021/intc-20230327.htm",
+   "quote": "Mr. Tan is deemed to not be independent because prior to joining the Board in 2022, he was a member of our Board’s Technical Advisory Committee where he received $125,000 annually in consideration of his services.",
+   "supports": "Tan (first stint) not independent (2023 proxy)."
+  },
+  {
+   "id": "e095",
+   "form": "DEF 14A",
+   "accession": "0000050863-23-000021",
+   "filing_date": "2023-03-31",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086323000021/intc-20230327.htm",
+   "quote": "Frank Yeary was recently appointed to serve as independent Chair of the Board in January 2023, succeeding Dr. Omar Ishrak, who had served in that role from January 2020 to January 2023 and continues to serve as a member of the Board.",
+   "supports": "Chair passes from Ishrak to Yeary in January 2023 (day not stated)."
+  },
+  {
+   "id": "e096",
+   "form": "DEF 14A",
+   "accession": "0000050863-22-000011",
+   "filing_date": "2022-03-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086322000011/proxy2022.htm",
+   "quote": "Mr. Wilson, who served as a director until May 2021, qualified as independent during his service on the Board.",
+   "supports": "Wilson independent; served until May 2021."
+  },
+  {
+   "id": "e097",
+   "form": "DEF 14A",
+   "accession": "0001193125-21-098458",
+   "filing_date": "2021-03-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312521098458/d86711ddef14a.htm",
+   "quote": "Mr. Wilson (who is not standing for re-election), and Mr. Yeary. Because Mr. Gelsinger is employed by Intel, he does not qualify as independent. Messrs. Bryant and Swan, who served as directors until May 2020 and February 2021, respectively, did not qualify as independent because of their employment by Intel.",
+   "supports": "2021 proxy: Wilson and Yeary independent; Gelsinger, Bryant and Swan not independent."
+  },
+  {
+   "id": "e098",
+   "form": "DEF 14A",
+   "accession": "0001193125-21-098458",
+   "filing_date": "2021-03-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312521098458/d86711ddef14a.htm",
+   "quote": "Andy D. Bryant and Reed E. Hundt retired from the Board in May 2020. Andrew Wilson is not standing for re-election at the 2021 Annual Stockholders’ Meeting.",
+   "supports": "Bryant and Hundt left May 2020; Wilson not standing in 2021."
+  },
+  {
+   "id": "e099",
+   "form": "DEF 14A",
+   "accession": "0001193125-21-098458",
+   "filing_date": "2021-03-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312521098458/d86711ddef14a.htm",
+   "quote": "Membership as of March 9, 2021: Andrew Wilson (Chair), Alyssa Henry, Omar Ishrak, Risa Lavizzo-Mourey, and Dion J. Weisler",
+   "supports": "2021 proxy Compensation Committee (unchanged by the 2021-03-10 restructuring): Wilson chair."
+  },
+  {
+   "id": "e100",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-091451",
+   "filing_date": "2020-03-31",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312520091451/d835759ddef14a.htm",
+   "quote": "Omar Ishrak, previously the Board’s independent Lead Director, became the independent Chairman of the Board in January 2020.",
+   "supports": "Ishrak from Lead Director to independent Chairman in January 2020."
+  },
+  {
+   "id": "e101",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-091451",
+   "filing_date": "2020-03-31",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312520091451/d835759ddef14a.htm",
+   "quote": "Andy D. Bryant, previously Chairman of the Board and Executive Vice President, and Reed E. Hundt are not standing for re-election at the annual meeting.",
+   "supports": "Bryant and Hundt not standing at the 2020 annual meeting."
+  },
+  {
+   "id": "e102",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-091451",
+   "filing_date": "2020-03-31",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312520091451/d835759ddef14a.htm",
+   "quote": "of Nasdaq: Mr. Goetz, Ms. Henry, Mr. Hundt, Dr. Ishrak, Dr. Lavizzo-Mourey, Dr. Liu, Mr. Smith, Mr. Wilson, and Mr. Yeary. Because Mr. Swan is employed by",
+   "supports": "2020 proxy independence list (Hundt, Ishrak, Lavizzo-Mourey, King Liu, G. Smith, Wilson, Yeary, Goetz, Henry); Swan not independent."
+  },
+  {
+   "id": "e103",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-091451",
+   "filing_date": "2020-03-31",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312520091451/d835759ddef14a.htm",
+   "quote": "Mr. Bryant, who is not standing for re-election, did not qualify as independent because of his former employment by Intel.",
+   "supports": "Bryant not independent."
+  },
+  {
+   "id": "e104",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-091451",
+   "filing_date": "2020-03-31",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312520091451/d835759ddef14a.htm",
+   "quote": "COMPENSATION COMMITTEE Current membership: Andrew Wilson (Chair), Reed E. Hundt, Omar Ishrak, and Risa Lavizzo-Mourey",
+   "supports": "2020 proxy Compensation Committee.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e105",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-091451",
+   "filing_date": "2020-03-31",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312520091451/d835759ddef14a.htm",
+   "quote": "EXECUTIVE COMMITTEE Current membership: Omar Ishrak (Chair), Andy D. Bryant, Reed E. Hundt, and Robert (“Bob”) H. Swan",
+   "supports": "2020 proxy Executive Committee.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e106",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-091451",
+   "filing_date": "2020-03-31",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312520091451/d835759ddef14a.htm",
+   "quote": "OTHER CURRENT PUBLIC BOARDS: eBay Inc. COMMITTEES: Executive",
+   "supports": "Swan other public boards (2020 proxy).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e107",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-091451",
+   "filing_date": "2020-03-31",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312520091451/d835759ddef14a.htm",
+   "quote": "OTHER CURRENT PUBLIC BOARDS: Electronic Arts Inc.",
+   "supports": "Wilson other public boards (2020 proxy, his last nominee bio).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e108",
+   "form": "DEF 14A",
+   "accession": "0001193125-19-095785",
+   "filing_date": "2019-04-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312519095785/d648184ddef14a.htm",
+   "quote": "Mr. Bryant became Chairman of the Board at the 2012 Annual Stockholders’ Meeting",
+   "supports": "Bryant became Chairman at the 2012 annual meeting."
+  },
+  {
+   "id": "e109",
+   "form": "DEF 14A",
+   "accession": "0001193125-19-095785",
+   "filing_date": "2019-04-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312519095785/d648184ddef14a.htm",
+   "quote": "Mr. Bryant served as Vice Chairman of the Board of Directors of Intel from July 2011 to May 2012.",
+   "supports": "Bryant Vice Chairman July 2011 - May 2012."
+  },
+  {
+   "id": "e110",
+   "form": "DEF 14A",
+   "accession": "0001193125-19-095785",
+   "filing_date": "2019-04-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312519095785/d648184ddef14a.htm",
+   "quote": "He served on the board of directors of McKesson Corporation from 2008 to 2018. Mr. Bryant",
+   "supports": "Bryant former McKesson board (2008-2018)."
+  },
+  {
+   "id": "e111",
+   "form": "DEF 14A",
+   "accession": "0001193125-19-095785",
+   "filing_date": "2019-04-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312519095785/d648184ddef14a.htm",
+   "quote": "currently serves on the board of directors of Columbia Sportswear Company.",
+   "supports": "Bryant current Columbia Sportswear board (2019 proxy, his last nominee bio)."
+  },
+  {
+   "id": "e112",
+   "form": "DEF 14A",
+   "accession": "0001193125-19-095785",
+   "filing_date": "2019-04-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312519095785/d648184ddef14a.htm",
+   "quote": "REED E. HUNDT Age: 71 Director Since: 2001",
+   "supports": "Hundt 'Director Since: 2001'.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e113",
+   "form": "DEF 14A",
+   "accession": "0001193125-19-095785",
+   "filing_date": "2019-04-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312519095785/d648184ddef14a.htm",
+   "quote": "Because Mr. Swan and Mr. Bryant are employed by Intel, they do not qualify as independent.",
+   "supports": "Swan and Bryant not independent (2019 proxy)."
+  },
+  {
+   "id": "e114",
+   "form": "DEF 14A",
+   "accession": "0000912057-01-507930",
+   "filing_date": "2001-04-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000091205701507930/a2042032zdef14a.htm",
+   "quote": "Mr. Reed Hundt has been nominated for election to fill the vacancy resulting from Dr. Moore's retirement from",
+   "supports": "Hundt first nominated for the 2001 annual meeting (new director)."
+  },
+  {
+   "id": "e115",
+   "form": "10-Q",
+   "accession": "0000050863-01-500101",
+   "filing_date": "2001-08-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086301500101/q20110qt.htm",
+   "quote": "At Intel Corporation’s Annual Stockholders’ Meeting held on May 24, 2001, the",
+   "supports": "2001 annual meeting held 2001-05-24; the vote table that follows lists 'R. Hunt' (sic) among those elected."
+  },
+  {
+   "id": "e116",
+   "form": "10-Q",
+   "accession": "0000050863-01-500101",
+   "filing_date": "2001-08-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086301500101/q20110qt.htm",
+   "quote": "R. Hunt 5,561,710,733 37,177,570",
+   "supports": "2001 election results row for Hundt (misspelled 'R. Hunt').",
+   "quote_from_table": true
+  },
+  {
+   "id": "e117",
+   "form": "8-K",
+   "accession": "0001193125-21-166587",
+   "filing_date": "2021-05-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312521166587/d166179d8k.htm",
+   "quote": "Intel’s Annual Stockholders’ Meeting was held on May 13, 2021.",
+   "supports": "2021 annual meeting held 2021-05-13."
+  },
+  {
+   "id": "e118",
+   "form": "8-K",
+   "accession": "0001193125-21-082782",
+   "filing_date": "2021-03-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312521082782/d148850d8k.htm",
+   "quote": "On March 10, 2021, Andrew Wilson informed Intel Corporation (“Intel”) that he will not stand for re-election to Intel’s Board of Directors (“Board”) at Intel’s 2021 Annual Stockholders’ Meeting.",
+   "supports": "Wilson notice 2021-03-10 of not standing in 2021."
+  },
+  {
+   "id": "e119",
+   "form": "8-K",
+   "accession": "0001193125-21-009142",
+   "filing_date": "2021-01-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312521009142/d82915d8k.htm",
+   "quote": "Mr. Gelsinger also was appointed as a member of the Board and the Executive Committee of the Board, effective as of the Effective Date.",
+   "supports": "Gelsinger joins the board on the CEO Effective Date."
+  },
+  {
+   "id": "e120",
+   "form": "8-K",
+   "accession": "0001193125-21-009142",
+   "filing_date": "2021-01-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312521009142/d82915d8k.htm",
+   "quote": "appointed Patrick (“Pat”) Gelsinger as Chief Executive Officer of Intel (“CEO”), effective as of February 15, 2021 (the “Effective Date”).",
+   "supports": "Gelsinger CEO effective 2021-02-15."
+  },
+  {
+   "id": "e121",
+   "form": "8-K",
+   "accession": "0001193125-21-009142",
+   "filing_date": "2021-01-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312521009142/d82915d8k.htm",
+   "quote": "Mr. Swan submitted his resignation from the Board on January 13, 2021, effective as of February 15, 2021.",
+   "supports": "Swan resigned from the board effective 2021-02-15."
+  },
+  {
+   "id": "e122",
+   "form": "8-K",
+   "accession": "0001193125-20-147273",
+   "filing_date": "2020-05-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312520147273/d926742d8k.htm",
+   "quote": "Intel’s Annual Stockholders’ Meeting was held on May 14, 2020.",
+   "supports": "2020 annual meeting held 2020-05-14."
+  },
+  {
+   "id": "e123",
+   "form": "8-K",
+   "accession": "0001193125-19-254731",
+   "filing_date": "2019-09-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312519254731/d806935d8k.htm",
+   "quote": "The Board appointed Dr. Omar Ishrak, a current member of the Board, to serve as the Board’s independent Lead Director, a member of the Executive Committee of the Board, and co-Chair of the Corporate Governance and Nominating Committee of the Board, effective as of November 1, 2019.",
+   "supports": "Ishrak independent Lead Director effective 2019-11-01."
+  },
+  {
+   "id": "e124",
+   "form": "8-K",
+   "accession": "0001193125-19-085353",
+   "filing_date": "2019-03-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312519085353/d710430d8k.htm",
+   "quote": "Mr. Bryant indicated to the Board on March 22, 2019 that, if re-elected, he would not expect to stand for re-election again at",
+   "supports": "Bryant's 2019-03-22 indication he would not stand in 2020."
+  },
+  {
+   "id": "e125",
+   "form": "8-K",
+   "accession": "0001193125-19-023301",
+   "filing_date": "2019-01-31",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312519023301/d702987d8k.htm",
+   "quote": "appointed Robert (“Bob”) H. Swan as Chief Executive Officer of Intel, effective as of January 30, 2019",
+   "supports": "Swan CEO effective 2019-01-30."
+  },
+  {
+   "id": "e126",
+   "form": "8-K",
+   "accession": "0001193125-19-023301",
+   "filing_date": "2019-01-31",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312519023301/d702987d8k.htm",
+   "quote": "Mr. Swan was also appointed a member of the Board as of the Effective Date.",
+   "supports": "Swan joins board 2019-01-30."
+  },
+  {
+   "id": "e127",
+   "form": "8-K",
+   "accession": "0001193125-18-086793",
+   "filing_date": "2018-03-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312518086793/d518999d8k.htm",
+   "quote": "elected Dr. Risa J. Lavizzo-Mourey as a member of the Board, effective immediately.",
+   "supports": "Lavizzo-Mourey elected (8-K Item 5.02, event 2018-03-14) effective immediately."
+  },
+  {
+   "id": "e128",
+   "form": "8-K",
+   "accession": "0001193125-18-086793",
+   "filing_date": "2018-03-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312518086793/d518999d8k.htm",
+   "quote": "On March 14, 2018, the Board of Directors (“Board”) of Intel Corporation",
+   "supports": "Lavizzo-Mourey election date 2018-03-14."
+  },
+  {
+   "id": "e129",
+   "form": "8-K",
+   "accession": "0001193125-17-286860",
+   "filing_date": "2017-09-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312517286860/d445731d8k.htm",
+   "quote": "Corporation (“Intel”) elected Andrew Wilson as a member of the Board, effective immediately.",
+   "supports": "Wilson elected (event 2017-09-13) effective immediately."
+  },
+  {
+   "id": "e130",
+   "form": "8-K",
+   "accession": "0001193125-17-286860",
+   "filing_date": "2017-09-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312517286860/d445731d8k.htm",
+   "quote": "On September 13, 2017, the Board of Directors (the “Board”) of Intel",
+   "supports": "Wilson election date 2017-09-13."
+  },
+  {
+   "id": "e131",
+   "form": "8-K",
+   "accession": "0000050863-16-000135",
+   "filing_date": "2016-07-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086316000135/form8k.htm",
+   "quote": "On July 7, 2016, the company's Board of Directors elected Dr. Tsu-Jae King Liu as a member of the Board, effective immediately. The Board has determined that Dr. Liu qualifies as \"independent\" in accordance with the published listing requirements of NASDAQ.",
+   "supports": "King Liu elected 2016-07-07, effective immediately; independent."
+  },
+  {
+   "id": "e132",
+   "form": "8-K",
+   "accession": "0000050863-12-000076",
+   "filing_date": "2012-05-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086312000076/form8k.htm",
+   "quote": "Intel’s Annual Stockholders’ Meeting was held on May 17, 2012.",
+   "supports": "2012 annual meeting (when Bryant became Chairman) held 2012-05-17."
+  },
+  {
+   "id": "e133",
+   "form": "8-K",
+   "accession": "0000050863-11-000114",
+   "filing_date": "2011-07-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086311000114/form8k.htm",
+   "quote": "On July 26, 2011, the Board of Directors of Intel Corporation elected Andy D. Bryant as a member of the Board and as Vice Chair of the Board, effective July 26, 2011.",
+   "supports": "Bryant elected director and Vice Chair 2011-07-26."
+  },
+  {
+   "id": "e134",
+   "form": "3",
+   "accession": "0000050863-25-000197",
+   "filing_date": "2025-11-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000197/form3.xml",
+   "quote": "BARRATT CRAIG H",
+   "supports": "Barratt Form 3 as director; event date 2025-11-10; reporting-owner CIK.",
+   "xml_fields": {
+    "rptOwnerCik": "0001277620",
+    "rptOwnerName": "BARRATT CRAIG H",
+    "periodOfReport": "2025-11-10"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e135",
+   "form": "3",
+   "accession": "0001127602-19-033009",
+   "filing_date": "2019-11-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000112760219033009/form3.xml",
+   "quote": "GOETZ JAMES J",
+   "supports": "Goetz Form 3 as director; event date 2019-11-13.",
+   "xml_fields": {
+    "rptOwnerCik": "0001219231",
+    "rptOwnerName": "GOETZ JAMES J",
+    "periodOfReport": "2019-11-13"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e136",
+   "form": "3",
+   "accession": "0001127602-21-024882",
+   "filing_date": "2021-09-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000112760221024882/form3.xml",
+   "quote": "Goldsmith Andrea Jo",
+   "supports": "Goldsmith Form 3 as director; event date 2021-09-01.",
+   "xml_fields": {
+    "rptOwnerCik": "0001730514",
+    "rptOwnerName": "Goldsmith Andrea Jo",
+    "periodOfReport": "2021-09-01"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e137",
+   "form": "3",
+   "accession": "0001127602-20-002163",
+   "filing_date": "2020-01-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000112760220002163/form3.xml",
+   "quote": "Henry Alyssa",
+   "supports": "Henry Form 3 as director; event date 2020-01-15.",
+   "xml_fields": {
+    "rptOwnerCik": "0001658470",
+    "rptOwnerName": "Henry Alyssa",
+    "periodOfReport": "2020-01-15"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e138",
+   "form": "3",
+   "accession": "0001127602-24-029258",
+   "filing_date": "2024-12-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000112760224029258/form3.xml",
+   "quote": "Meurice Eric",
+   "supports": "Meurice Form 3 as director; event date 2024-12-05 (one day after the 8-K appointment date).",
+   "xml_fields": {
+    "rptOwnerCik": "0001372258",
+    "rptOwnerName": "Meurice Eric",
+    "periodOfReport": "2024-12-05"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e139",
+   "form": "3",
+   "accession": "0001127602-22-026976",
+   "filing_date": "2022-12-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000112760222026976/form3.xml",
+   "quote": "NOVICK BARBARA",
+   "supports": "Novick Form 3 as director; event date 2022-12-01.",
+   "xml_fields": {
+    "rptOwnerCik": "0001059222",
+    "rptOwnerName": "NOVICK BARBARA",
+    "periodOfReport": "2022-12-01"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e140",
+   "form": "3",
+   "accession": "0001127602-24-029259",
+   "filing_date": "2024-12-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000112760224029259/form3.xml",
+   "quote": "SANGHI STEVE",
+   "supports": "Sanghi Form 3 as director; event date 2024-12-05 (one day after the 8-K appointment date).",
+   "xml_fields": {
+    "rptOwnerCik": "0001181928",
+    "rptOwnerName": "SANGHI STEVE",
+    "periodOfReport": "2024-12-05"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e141",
+   "form": "3",
+   "accession": "0001127602-17-012840",
+   "filing_date": "2017-03-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000112760217012840/form3.xml",
+   "quote": "Smith Gregory D",
+   "supports": "G. Smith Form 3 as director; event date 2017-03-23.",
+   "xml_fields": {
+    "rptOwnerCik": "0001484277",
+    "rptOwnerName": "Smith Gregory D",
+    "periodOfReport": "2017-03-23"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e142",
+   "form": "3",
+   "accession": "0001127602-24-010773",
+   "filing_date": "2024-03-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000112760224010773/form3.xml",
+   "quote": "Smith Stacy J",
+   "supports": "S. Smith Form 3 as director; event date 2024-03-12.",
+   "xml_fields": {
+    "rptOwnerCik": "0001415529",
+    "rptOwnerName": "Smith Stacy J",
+    "periodOfReport": "2024-03-12"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e143",
+   "form": "3",
+   "accession": "0001127602-22-022215",
+   "filing_date": "2022-09-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000112760222022215/form3.xml",
+   "quote": "TAN LIP BU",
+   "supports": "Tan Form 3 as director (first stint); event date 2022-09-01.",
+   "xml_fields": {
+    "rptOwnerCik": "0001008463",
+    "rptOwnerName": "TAN LIP BU",
+    "periodOfReport": "2022-09-01"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e144",
+   "form": "3",
+   "accession": "0001127602-25-010150",
+   "filing_date": "2025-03-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000112760225010150/form3.xml",
+   "quote": "TAN LIP BU",
+   "supports": "Tan Form 3 as director and CEO (second stint); event date 2025-03-18.",
+   "xml_fields": {
+    "rptOwnerCik": "0001008463",
+    "rptOwnerName": "TAN LIP BU",
+    "periodOfReport": "2025-03-18"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e145",
+   "form": "3",
+   "accession": "0001127602-20-020106",
+   "filing_date": "2020-06-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000112760220020106/form3.xml",
+   "quote": "WEISLER DION J",
+   "supports": "Weisler Form 3 as director; event date 2020-06-15.",
+   "xml_fields": {
+    "rptOwnerCik": "0001580693",
+    "rptOwnerName": "WEISLER DION J",
+    "periodOfReport": "2020-06-15"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e146",
+   "form": "3",
+   "accession": "0001127602-09-007463",
+   "filing_date": "2009-03-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000112760209007463/form3.xml",
+   "quote": "Yeary Frank D",
+   "supports": "Yeary Form 3 as director; event date 2009-03-18.",
+   "xml_fields": {
+    "rptOwnerCik": "0001458902",
+    "rptOwnerName": "Yeary Frank D",
+    "periodOfReport": "2009-03-18"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e147",
+   "form": "3",
+   "accession": "0001127602-17-012835",
+   "filing_date": "2017-03-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000112760217012835/form3.xml",
+   "quote": "ISHRAK OMAR",
+   "supports": "Ishrak Form 3 as director; event date 2017-03-21.",
+   "xml_fields": {
+    "rptOwnerCik": "0001523102",
+    "rptOwnerName": "ISHRAK OMAR",
+    "periodOfReport": "2017-03-21"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e148",
+   "form": "3",
+   "accession": "0001127602-18-012379",
+   "filing_date": "2018-03-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000112760218012379/form3.xml",
+   "quote": "LAVIZZO-MOUREY RISA J",
+   "supports": "Lavizzo-Mourey Form 3 as director; event date 2018-03-14.",
+   "xml_fields": {
+    "rptOwnerCik": "0001034465",
+    "rptOwnerName": "LAVIZZO-MOUREY RISA J",
+    "periodOfReport": "2018-03-14"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e149",
+   "form": "3",
+   "accession": "0001127602-16-057899",
+   "filing_date": "2016-07-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000112760216057899/form3.xml",
+   "quote": "Liu Tsu-Jae King",
+   "supports": "King Liu Form 3 as director; event date 2016-07-07.",
+   "xml_fields": {
+    "rptOwnerCik": "0001679204",
+    "rptOwnerName": "Liu Tsu-Jae King",
+    "periodOfReport": "2016-07-07"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e150",
+   "form": "3",
+   "accession": "0001127602-17-027782",
+   "filing_date": "2017-09-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000112760217027782/form3.xml",
+   "quote": "Wilson Andrew",
+   "supports": "Wilson Form 3 as director; event date 2017-09-13.",
+   "xml_fields": {
+    "rptOwnerCik": "0001545193",
+    "rptOwnerName": "Wilson Andrew",
+    "periodOfReport": "2017-09-13"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e151",
+   "form": "3",
+   "accession": "0001127602-21-006296",
+   "filing_date": "2021-02-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000112760221006296/form3.xml",
+   "quote": "GELSINGER PATRICK P",
+   "supports": "Gelsinger Form 3 as director and CEO; event date 2021-02-15.",
+   "xml_fields": {
+    "rptOwnerCik": "0001316331",
+    "rptOwnerName": "GELSINGER PATRICK P",
+    "periodOfReport": "2021-02-15"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e152",
+   "form": "4",
+   "accession": "0001127602-20-006657",
+   "filing_date": "2020-02-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000112760220006657/form4.xml",
+   "quote": "BRYANT ANDY D",
+   "supports": "Bryant Form 4 as director (2020).",
+   "xml_fields": {
+    "rptOwnerCik": "0001131061",
+    "rptOwnerName": "BRYANT ANDY D",
+    "periodOfReport": "2020-02-12"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e153",
+   "form": "4",
+   "accession": "0001127602-20-016981",
+   "filing_date": "2020-05-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000112760220016981/form4.xml",
+   "quote": "HUNDT REED E",
+   "supports": "Hundt Form 4 as director, transaction on the 2020-05-14 annual meeting date.",
+   "xml_fields": {
+    "rptOwnerCik": "0001188928",
+    "rptOwnerName": "HUNDT REED E",
+    "periodOfReport": "2020-05-14"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e154",
+   "form": "4",
+   "accession": "0001127602-20-016988",
+   "filing_date": "2020-05-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000112760220016988/form4.xml",
+   "quote": "Wilson Andrew",
+   "supports": "Wilson Form 4 as director (2020).",
+   "xml_fields": {
+    "rptOwnerCik": "0001545193",
+    "rptOwnerName": "Wilson Andrew",
+    "periodOfReport": "2020-05-14"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e155",
+   "form": "4",
+   "accession": "0001127602-21-003596",
+   "filing_date": "2021-02-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000112760221003596/form4.xml",
+   "quote": "SWAN ROBERT HOLMES",
+   "supports": "Swan Form 4 as director and CEO, 2021-02-01 (two weeks before he left).",
+   "xml_fields": {
+    "rptOwnerCik": "0001218363",
+    "rptOwnerName": "SWAN ROBERT HOLMES",
+    "periodOfReport": "2021-02-01"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e156",
+   "form": "4",
+   "accession": "0001127602-25-010793",
+   "filing_date": "2025-04-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000112760225010793/form4.xml",
+   "quote": "ISHRAK OMAR",
+   "supports": "Ishrak Form 4 as director (2025-03-28).",
+   "xml_fields": {
+    "rptOwnerCik": "0001523102",
+    "rptOwnerName": "ISHRAK OMAR",
+    "periodOfReport": "2025-03-28"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e157",
+   "form": "4",
+   "accession": "0001127602-24-014994",
+   "filing_date": "2024-05-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000112760224014994/form4.xml",
+   "quote": "LAVIZZO-MOUREY RISA J",
+   "supports": "Lavizzo-Mourey Form 4 as director (2024).",
+   "xml_fields": {
+    "rptOwnerCik": "0001034465",
+    "rptOwnerName": "LAVIZZO-MOUREY RISA J",
+    "periodOfReport": "2024-05-08"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e158",
+   "form": "4",
+   "accession": "0001127602-25-013732",
+   "filing_date": "2025-05-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000112760225013732/form4.xml",
+   "quote": "Liu Tsu-Jae King",
+   "supports": "King Liu Form 4 as director dated 2025-05-06 (the 2025 annual meeting date).",
+   "xml_fields": {
+    "rptOwnerCik": "0001679204",
+    "rptOwnerName": "Liu Tsu-Jae King",
+    "periodOfReport": "2025-05-06"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e159",
+   "form": "4",
+   "accession": "0001127602-24-026581",
+   "filing_date": "2024-11-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000112760224026581/form4.xml",
+   "quote": "GELSINGER PATRICK P",
+   "supports": "Gelsinger Form 4 as director and CEO (2024-11-04).",
+   "xml_fields": {
+    "rptOwnerCik": "0001316331",
+    "rptOwnerName": "GELSINGER PATRICK P",
+    "periodOfReport": "2024-11-04"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e160",
+   "form": "4",
+   "accession": "0000050863-26-000098",
+   "filing_date": "2026-05-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000098/form4.xml",
+   "quote": "Yeary Frank D",
+   "supports": "Yeary Form 4 as director, 2026-05-07 (last before he left on 2026-05-13).",
+   "xml_fields": {
+    "rptOwnerCik": "0001458902",
+    "rptOwnerName": "Yeary Frank D",
+    "periodOfReport": "2026-05-07"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e161",
+   "form": "4",
+   "accession": "0000050863-26-000119",
+   "filing_date": "2026-05-15",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000119/form4.xml",
+   "quote": "BARRATT CRAIG H",
+   "supports": "Barratt Form 4 as director, 2026-05-13 (still filing as director in 2026).",
+   "xml_fields": {
+    "rptOwnerCik": "0001277620",
+    "rptOwnerName": "BARRATT CRAIG H",
+    "periodOfReport": "2026-05-13"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e162",
+   "form": "4",
+   "accession": "0000050863-26-000120",
+   "filing_date": "2026-05-15",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000120/form4.xml",
+   "quote": "GOETZ JAMES J",
+   "supports": "Goetz Form 4 as director, 2026-05-13.",
+   "xml_fields": {
+    "rptOwnerCik": "0001219231",
+    "rptOwnerName": "GOETZ JAMES J",
+    "periodOfReport": "2026-05-13"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e163",
+   "form": "4",
+   "accession": "0000050863-26-000121",
+   "filing_date": "2026-05-15",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000121/form4.xml",
+   "quote": "Goldsmith Andrea Jo",
+   "supports": "Goldsmith Form 4 as director, 2026-05-13.",
+   "xml_fields": {
+    "rptOwnerCik": "0001730514",
+    "rptOwnerName": "Goldsmith Andrea Jo",
+    "periodOfReport": "2026-05-13"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e164",
+   "form": "4",
+   "accession": "0000050863-26-000122",
+   "filing_date": "2026-05-15",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000122/form4.xml",
+   "quote": "Henry Alyssa",
+   "supports": "Henry Form 4 as director, 2026-05-13.",
+   "xml_fields": {
+    "rptOwnerCik": "0001658470",
+    "rptOwnerName": "Henry Alyssa",
+    "periodOfReport": "2026-05-13"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e165",
+   "form": "4",
+   "accession": "0000050863-26-000123",
+   "filing_date": "2026-05-15",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000123/form4.xml",
+   "quote": "Meurice Eric",
+   "supports": "Meurice Form 4 as director, 2026-05-13.",
+   "xml_fields": {
+    "rptOwnerCik": "0001372258",
+    "rptOwnerName": "Meurice Eric",
+    "periodOfReport": "2026-05-13"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e166",
+   "form": "4",
+   "accession": "0000050863-26-000124",
+   "filing_date": "2026-05-15",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000124/form4.xml",
+   "quote": "NOVICK BARBARA",
+   "supports": "Novick Form 4 as director, 2026-05-13.",
+   "xml_fields": {
+    "rptOwnerCik": "0001059222",
+    "rptOwnerName": "NOVICK BARBARA",
+    "periodOfReport": "2026-05-13"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e167",
+   "form": "4",
+   "accession": "0000050863-26-000125",
+   "filing_date": "2026-05-15",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000125/form4.xml",
+   "quote": "Sanghi Steve",
+   "supports": "Sanghi Form 4 as director, 2026-05-13.",
+   "xml_fields": {
+    "rptOwnerCik": "0001181928",
+    "rptOwnerName": "Sanghi Steve",
+    "periodOfReport": "2026-05-13"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e168",
+   "form": "4",
+   "accession": "0000050863-26-000126",
+   "filing_date": "2026-05-15",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000126/form4.xml",
+   "quote": "Smith Gregory D",
+   "supports": "G. Smith Form 4 as director, 2026-05-13.",
+   "xml_fields": {
+    "rptOwnerCik": "0001484277",
+    "rptOwnerName": "Smith Gregory D",
+    "periodOfReport": "2026-05-13"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e169",
+   "form": "4",
+   "accession": "0000050863-26-000127",
+   "filing_date": "2026-05-15",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000127/form4.xml",
+   "quote": "Smith Stacy J",
+   "supports": "S. Smith Form 4 as director, 2026-05-13.",
+   "xml_fields": {
+    "rptOwnerCik": "0001415529",
+    "rptOwnerName": "Smith Stacy J",
+    "periodOfReport": "2026-05-13"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e170",
+   "form": "4",
+   "accession": "0000050863-26-000128",
+   "filing_date": "2026-05-15",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000128/form4.xml",
+   "quote": "WEISLER DION J",
+   "supports": "Weisler Form 4 as director, 2026-05-13.",
+   "xml_fields": {
+    "rptOwnerCik": "0001580693",
+    "rptOwnerName": "WEISLER DION J",
+    "periodOfReport": "2026-05-13"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e171",
+   "form": "4",
+   "accession": "0000050863-26-000177",
+   "filing_date": "2026-08-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000177/form4.xml",
+   "quote": "TAN LIP BU",
+   "supports": "Tan Form 4 as director and CEO, 2026-08-11.",
+   "xml_fields": {
+    "rptOwnerCik": "0001008463",
+    "rptOwnerName": "TAN LIP BU",
+    "periodOfReport": "2026-08-11"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  }
+ ],
+ "conflicts": [
+  {
+   "description": "Meurice and Sanghi appointment day. The 8-K says the board appointed both on December 4, 2024, effective immediately (cover: earliest event 2024-12-04). Both Forms 3 give an event date of 2024-12-05. Kept 2024-12-04 (the 8-K).",
+   "evidence_refs": [
+    "e053",
+    "e138",
+    "e140"
+   ]
+  },
+  {
+   "description": "Lip-Bu Tan's start year. The 2026 proxy shows 'Director Since: 2022', but he resigned on 2024-08-19 and rejoined as CEO on 2025-03-18 (the same proxy's bio says so). Recorded as two memberships: 2022-09-01 to 2024-08-19 and 2025-03-18 onward.",
+   "evidence_refs": [
+    "e025",
+    "e012",
+    "e062",
+    "e063"
+   ]
+  },
+  {
+   "description": "Reed Hundt's name in the 2001 vote results. The Q2 2001 10-Q lists 'R. Hunt' among the directors elected on 2001-05-24; the 2001 proxy nominated 'Reed E. Hundt' as the only new nominee, and the 2019 proxy gives 'Director Since: 2001'. Treated as a misspelling of Hundt.",
+   "evidence_refs": [
+    "e116",
+    "e115",
+    "e114",
+    "e112"
+   ]
+  },
+  {
+   "description": "Goetz's Palo Alto Networks board start. The 2026 proxy says 'since 2004'; his 2019 appointment 8-K says he has been on that board 'since April 2005'. Kept the 2026 proxy wording in bio_other_public_boards; this does not affect Intel tenure.",
+   "evidence_refs": [
+    "e028",
+    "e045"
+   ]
+  }
+ ],
+ "open_questions": [
+  "Yeary's start as Chair (and Ishrak's end) is dated only 'January 2023' in the 2023 proxy; no 8-K reports the change, so the day is unknown.",
+  "Alyssa Henry's Lead Independent Director role is dated only December 2024 to March 2025. It plausibly ran 2024-12-01 to 2025-03-18 (tied to Yeary's Interim Executive Chair term), but no filing states those days.",
+  "Committee assignments after the 2026-05-13 annual meeting are not disclosed in any filing reviewed (through 2026-08-28). In particular, Barratt had no committees in the 2026 proxy and his assignments as Chair are unknown, and so is whether committees were reshuffled after Yeary left.",
+  "The 2026 proxy lists Yeary with no committee assignments (the M&A Committee he chaired was disbanded in February 2025), so no committee rows are recorded for him.",
+  "Exact IPO day (1971) is not stated in any filing reviewed; listed_since_year is 1971 per Intel's 2003 DEFA14A.",
+  "Pre-2020 departures (e.g., Aneel Bhusri, 2019-11-01) and pre-2020 roles of directors who left before 2020 are out of scope and not recorded.",
+  "Independence for Hundt before 2019 and for Yeary 2009-2018 is assumed continuous from the 2019+ determinations; earlier proxies were not reviewed for those years."
+ ],
+ "coverage": [
+  {
+   "scope": "current_board",
+   "period_start": "2026-10-04",
+   "period_end": "2026-10-04",
+   "level": "complete",
+   "method": "Roster from the 2026 DEF 14A and the 2026-05-13 Item 5.07 results (11 elected). Every 8-K filed after the proxy (Item 5.02 filings of 2026-04-03 and 2026-04-24 are officer-only) and every Form 3/4 through 2026-08-28, the latest filing in the EDGAR submissions feed, reviewed. All 11 directors filed Forms 4 as directors in 2026."
+  },
+  {
+   "scope": "board_history",
+   "period_start": "2020-01-01",
+   "period_end": "2026-10-04",
+   "level": "complete",
+   "method": "Every DEF 14A 2019-2026 and every 8-K with Item 5.02 or 5.07 from 2019 to 2026 reviewed; annual-meeting slates compared year over year (2019: 10, 2020: 9, 2021: 9, 2022: 10, 2023: 12, 2024: 13, 2025: 11, 2026: 11). Every director Form 3 since 2019 checked. Departures dated from 8-K Item 5.02 or, for directors who did not stand, from the Item 5.07 meeting date."
+  },
+  {
+   "scope": "board_history",
+   "period_start": "2001-05-24",
+   "period_end": "2019-12-31",
+   "level": "partial",
+   "method": "Pre-2020 seats only for directors serving on or after 2020-01-01, dated from appointment 8-Ks (2009-2019), Forms 3, the 2001 proxy and 10-Q (Hundt), and 2019-2020 proxies. Directors who left before 2020 (e.g., Aneel Bhusri, Brian Krzanich, David Pottruck, Charlene Barshefsky) are not recorded."
+  }
+ ]
+}

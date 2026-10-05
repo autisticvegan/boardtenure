@@ -1,0 +1,3998 @@
+{
+ "company": {
+  "cik": "0001403161",
+  "ticker": "V",
+  "legal_name": "Visa Inc.",
+  "common_name": "Visa",
+  "exchange": "New York Stock Exchange",
+  "ipo_date": "2008-03-19",
+  "state_of_incorporation": "Delaware",
+  "notes": "Visa Inc. is a Delaware corporation that consummated its restructuring (combining Visa U.S.A., Visa International, Visa Canada and Inovant) during October 1-3, 2007, when its first full 18-member board was seated. Its class A common stock began trading on the NYSE under 'V' on March 19, 2008 (IPO). Fiscal year ends September 30; annual meetings are held in late January. The board was classified at the 2007 restructuring and is now declassified (one-year terms). Leadership: independent Chair Matschullat (2013-04-01 to 2019-04-16), then Chair and CEO Kelly with Lead Independent Director Lundgren, then Executive Chairman Kelly (2023-02-01 to 2024-01-23), and since 2024-01-23 independent Chair Lundgren.",
+  "classified_board": false
+ },
+ "as_of": "2026-10-04",
+ "sources_reviewed_through": "2026-10-02 (latest filing in the EDGAR submissions feed fetched 2026-10-04; cache dated 2026-10-05 UTC)",
+ "people": [
+  {
+   "key": "lloyd-carney",
+   "full_name": "Lloyd A. Carney",
+   "aliases": [
+    "Lloyd Carney",
+    "CARNEY LLOYD"
+   ],
+   "sec_cik": "0001204424",
+   "bio_other_public_boards": [
+    {
+     "company": "Grid Dynamics Holdings Inc.",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e033",
+     "public_company_stated_in_source": true,
+     "note": "Chairman"
+    },
+    {
+     "company": "Vertex Pharmaceuticals",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e033",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "kermit-crawford",
+   "full_name": "Kermit R. Crawford",
+   "aliases": [
+    "Kermit Crawford",
+    "Crawford Kermit R"
+   ],
+   "sec_cik": "0001341253",
+   "bio_other_public_boards": [
+    {
+     "company": "C.H. Robinson Worldwide, Inc.",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e034",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "The Allstate Corporation",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e034",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "TransUnion",
+     "status": "former",
+     "years": "not stated (within the past five years)",
+     "source_ref": "e034",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "francisco-javier-fernandez-carbajal",
+   "full_name": "Francisco Javier Fernández-Carbajal",
+   "aliases": [
+    "Francisco Javier Fernandez-Carbajal",
+    "Fernandez-Carbajal Francisco Javier"
+   ],
+   "sec_cik": "0001427501",
+   "bio_other_public_boards": [
+    {
+     "company": "CEMEX S.A.B. de C.V.",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e035",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Fomento Economico Mexicano, S.A.B. de C.V.",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e035",
+     "public_company_stated_in_source": true,
+     "note": "current as Alternate Director (spelled 'Fomento Economica' in the current list); also listed among boards in the past five years"
+    },
+    {
+     "company": "ALFA S.A.B. de C.V.",
+     "status": "former",
+     "years": "not stated (within the past five years)",
+     "source_ref": "e035",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "teri-list",
+   "full_name": "Teri L. List",
+   "aliases": [
+    "Teri List",
+    "List Teri"
+   ],
+   "sec_cik": "0001529370",
+   "bio_other_public_boards": [
+    {
+     "company": "Danaher Corporation",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e036",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Microsoft Corporation",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e036",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "lululemon athletica, inc.",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e036",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Double Verify Holdings",
+     "status": "former",
+     "years": "not stated (within the past five years)",
+     "source_ref": "e036",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Oscar Health, Inc.",
+     "status": "former",
+     "years": "not stated (within the past five years)",
+     "source_ref": "e036",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "john-lundgren",
+   "full_name": "John F. Lundgren",
+   "aliases": [
+    "John Lundgren",
+    "LUNDGREN JOHN F"
+   ],
+   "sec_cik": "0001215250",
+   "bio_other_public_boards": [
+    {
+     "company": "Topgolf Callaway Brands Corp",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e037",
+     "public_company_stated_in_source": true,
+     "note": "Chairman"
+    }
+   ]
+  },
+  {
+   "key": "ryan-mcinerney",
+   "full_name": "Ryan McInerney",
+   "aliases": [
+    "MCINERNEY RYAN"
+   ],
+   "sec_cik": "0001578261",
+   "bio_other_public_boards": []
+  },
+  {
+   "key": "denise-morrison",
+   "full_name": "Denise M. Morrison",
+   "aliases": [
+    "Denise Morrison",
+    "MORRISON DENISE M"
+   ],
+   "sec_cik": "0001230166",
+   "bio_other_public_boards": [
+    {
+     "company": "MetLife, Inc.",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e039",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Quest Diagnostics Inc.",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e039",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "pamela-murphy",
+   "full_name": "Pamela Murphy",
+   "aliases": [
+    "Pam Murphy",
+    "Murphy Pam"
+   ],
+   "sec_cik": "0001778037",
+   "bio_other_public_boards": [
+    {
+     "company": "Rockwell Automation, Inc.",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e040",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "MeridianLink, Inc.",
+     "status": "former",
+     "years": "not stated (within the past five years)",
+     "source_ref": "e040",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "william-ready",
+   "full_name": "William Ready",
+   "aliases": [
+    "Bill Ready",
+    "Ready William J"
+   ],
+   "sec_cik": "0001643573",
+   "bio_other_public_boards": [
+    {
+     "company": "Pinterest, Inc.",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e041",
+     "public_company_stated_in_source": true,
+     "note": "also Pinterest's CEO"
+    },
+    {
+     "company": "Williams-Sonoma, Inc.",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e041",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Automatic Data Processing, Inc.",
+     "status": "former",
+     "years": "not stated (within the past five years)",
+     "source_ref": "e041",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "linda-rendle",
+   "full_name": "Linda J. Rendle",
+   "aliases": [
+    "Linda Rendle",
+    "Rendle Linda J"
+   ],
+   "sec_cik": "0001682880",
+   "bio_other_public_boards": [
+    {
+     "company": "The Clorox Company",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e042",
+     "public_company_stated_in_source": true,
+     "note": "Chair; also Clorox's CEO"
+    }
+   ]
+  },
+  {
+   "key": "maynard-webb",
+   "full_name": "Maynard G. Webb, Jr.",
+   "aliases": [
+    "Maynard Webb",
+    "WEBB MAYNARD G JR"
+   ],
+   "sec_cik": "0001209189",
+   "bio_other_public_boards": [
+    {
+     "company": "Salesforce, Inc.",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e043",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "AppLovin Corporation",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e043",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Yahoo! Inc.",
+     "status": "former",
+     "years": "not stated (within the past five years)",
+     "source_ref": "e043",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "ramon-laguarta",
+   "full_name": "Ramon Laguarta",
+   "aliases": [
+    "Ramon L. Laguarta",
+    "Laguarta Ramon"
+   ],
+   "sec_cik": "0001630253",
+   "bio_other_public_boards": [
+    {
+     "company": "PepsiCo, Inc.",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e111",
+     "public_company_stated_in_source": true,
+     "note": "Chairman (and CEO); as of the 2025 proxy, his last Visa bio"
+    }
+   ]
+  },
+  {
+   "key": "alfred-kelly",
+   "full_name": "Alfred F. Kelly, Jr.",
+   "aliases": [
+    "Al Kelly",
+    "Alfred Kelly",
+    "KELLY ALFRED F JR"
+   ],
+   "sec_cik": "0001209454",
+   "bio_other_public_boards": [
+    {
+     "company": "MetLife Inc.",
+     "status": "former",
+     "years": "not stated",
+     "source_ref": "e113",
+     "public_company_stated_in_source": true,
+     "note": "as of the 2023 proxy, his last Visa bio"
+    },
+    {
+     "company": "Affinion Group Holdings, Inc.",
+     "status": "former",
+     "years": "not stated",
+     "source_ref": "e113",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Affinion Group, Inc.",
+     "status": "former",
+     "years": "not stated",
+     "source_ref": "e113",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "mary-cranston",
+   "full_name": "Mary B. Cranston",
+   "aliases": [
+    "Mary Cranston",
+    "CRANSTON MARY B"
+   ],
+   "sec_cik": "0001104268",
+   "bio_other_public_boards": [
+    {
+     "company": "The Chemours Company",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e114",
+     "public_company_stated_in_source": true,
+     "note": "as of the 2022 proxy, her last Visa bio"
+    },
+    {
+     "company": "McAfee Corp.",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e114",
+     "public_company_stated_in_source": true,
+     "note": "as of the 2022 proxy"
+    },
+    {
+     "company": "MyoKardia, Inc.",
+     "status": "former",
+     "years": "not stated",
+     "source_ref": "e114",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Exponent, Inc.",
+     "status": "former",
+     "years": "not stated",
+     "source_ref": "e114",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "GrafTech International, Inc.",
+     "status": "former",
+     "years": "not stated",
+     "source_ref": "e114",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "International Rectifier Corporation",
+     "status": "former",
+     "years": "not stated",
+     "source_ref": "e114",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Juniper Networks, Inc.",
+     "status": "former",
+     "years": "not stated",
+     "source_ref": "e114",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "robert-matschullat",
+   "full_name": "Robert W. Matschullat",
+   "aliases": [
+    "Bob Matschullat",
+    "Robert Matschullat",
+    "MATSCHULLAT ROBERT W"
+   ],
+   "sec_cik": "0001127780",
+   "bio_other_public_boards": [
+    {
+     "company": "The Clorox Company",
+     "status": "former",
+     "years": "not stated",
+     "source_ref": "e115",
+     "public_company_stated_in_source": true,
+     "note": "as of the 2022 proxy, his last Visa bio"
+    },
+    {
+     "company": "The Walt Disney Company",
+     "status": "former",
+     "years": "2002 to 2018 (2020 proxy bio)",
+     "source_ref": "e115",
+     "public_company_stated_in_source": true,
+     "corroborating_refs": [
+      "e159"
+     ]
+    },
+    {
+     "company": "McKesson Corporation",
+     "status": "former",
+     "years": "2002 to 2007 (2020 proxy bio)",
+     "source_ref": "e115",
+     "public_company_stated_in_source": true,
+     "corroborating_refs": [
+      "e159"
+     ]
+    },
+    {
+     "company": "Morgan Stanley & Co. Incorporated",
+     "status": "former",
+     "years": "1992 to 1995 (2020 proxy bio)",
+     "source_ref": "e115",
+     "public_company_stated_in_source": true,
+     "corroborating_refs": [
+      "e159"
+     ]
+    },
+    {
+     "company": "The Seagram Company Limited",
+     "status": "former",
+     "years": "not stated",
+     "source_ref": "e115",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "suzanne-nora-johnson",
+   "full_name": "Suzanne Nora Johnson",
+   "aliases": [
+    "NORA JOHNSON SUZANNE M",
+    "Johnson Suzanne Nora"
+   ],
+   "sec_cik": "0001310264",
+   "bio_other_public_boards": [
+    {
+     "company": "Intuit Inc.",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e116",
+     "public_company_stated_in_source": true,
+     "note": "as of the 2021 proxy, her last Visa bio"
+    },
+    {
+     "company": "Pfizer Inc.",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e116",
+     "public_company_stated_in_source": true,
+     "note": "as of the 2021 proxy"
+    },
+    {
+     "company": "American International Group, Inc.",
+     "status": "former",
+     "years": "not stated",
+     "source_ref": "e116",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "john-swainson",
+   "full_name": "John A. C. Swainson",
+   "aliases": [
+    "John A. Swainson",
+    "John Swainson",
+    "Swainson John A"
+   ],
+   "sec_cik": "0001309401",
+   "bio_other_public_boards": [
+    {
+     "company": "Schneider National, Inc.",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e117",
+     "public_company_stated_in_source": true,
+     "note": "as of the 2021 proxy, his last Visa bio"
+    },
+    {
+     "company": "Assurant Inc.",
+     "status": "former",
+     "years": "not stated",
+     "source_ref": "e117",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Broadcom Corporation",
+     "status": "former",
+     "years": "not stated",
+     "source_ref": "e117",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "CA, Inc.",
+     "status": "former",
+     "years": "not stated",
+     "source_ref": "e117",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Cadence Design Systems Inc.",
+     "status": "former",
+     "years": "not stated",
+     "source_ref": "e117",
+     "public_company_stated_in_source": true
+    }
+   ]
+  }
+ ],
+ "memberships": [
+  {
+   "person_key": "lloyd-carney",
+   "start_date": "2015-06-11",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02: elected 'effective immediately' on June 11, 2015; Form 3 event date 2015-06-11",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e044",
+    "e122",
+    "e017",
+    "e140",
+    "e087"
+   ],
+   "board_class": null,
+   "notes": "Declassified board (all directors elected annually), so no class."
+  },
+  {
+   "person_key": "kermit-crawford",
+   "start_date": "2022-10-07",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02: appointed effective October 7, 2022; Form 3 event date 2022-10-07",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e066",
+    "e123",
+    "e018",
+    "e143",
+    "e087"
+   ],
+   "board_class": null,
+   "notes": "Declassified board (all directors elected annually), so no class."
+  },
+  {
+   "person_key": "francisco-javier-fernandez-carbajal",
+   "start_date": "2007-10-01",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K on the 2007 restructuring: seated as an independent director effective immediately prior to the closing on October 1, 2007; IPO prospectus and proxies: director since October 2007",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e006",
+    "e007",
+    "e002",
+    "e019",
+    "e133",
+    "e138",
+    "e087"
+   ],
+   "board_class": null,
+   "notes": "Pre-IPO director (IPO 2008-03-19), seated with the 18-member board formed at the October 2007 restructuring (consummated October 1-3, 2007). His 2008 Form 3 is the IPO registration filing, not an appointment. Declassified board (all directors elected annually), so no class."
+  },
+  {
+   "person_key": "teri-list",
+   "start_date": "2022-04-11",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02: appointed effective April 11, 2022; Form 3 event date 2022-04-11",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e064",
+    "e124",
+    "e020",
+    "e142",
+    "e087"
+   ],
+   "board_class": null,
+   "notes": "Declassified board (all directors elected annually), so no class."
+  },
+  {
+   "person_key": "john-lundgren",
+   "start_date": "2017-04-18",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02: on April 18, 2017 appointed 'effective immediately'; Form 3 event date 2017-04-18",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e052",
+    "e053",
+    "e125",
+    "e021",
+    "e144",
+    "e087"
+   ],
+   "board_class": null,
+   "notes": "Declassified board (all directors elected annually), so no class."
+  },
+  {
+   "person_key": "ryan-mcinerney",
+   "start_date": "2023-02-01",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02: board appointment effective February 1, 2023 (approved January 30, 2023), on becoming CEO",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e069",
+    "e068",
+    "e022",
+    "e148",
+    "e087"
+   ],
+   "board_class": null,
+   "notes": "Visa President May 2013 to January 2023 (not a director then); his 2013 Form 3 was filed as an officer. Declassified board (all directors elected annually), so no class."
+  },
+  {
+   "person_key": "denise-morrison",
+   "start_date": "2018-08-02",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02: on August 2, 2018 appointed 'effective immediately'; Form 3 event date 2018-08-02",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e055",
+    "e126",
+    "e023",
+    "e141",
+    "e087"
+   ],
+   "board_class": null,
+   "notes": "A Form 3/A for the same 2018-08-02 event was filed 2023-02-17. Declassified board (all directors elected annually), so no class."
+  },
+  {
+   "person_key": "pamela-murphy",
+   "start_date": "2023-04-10",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02: elected effective April 10, 2023; Form 3 event date 2023-04-10",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e071",
+    "e127",
+    "e024",
+    "e145",
+    "e087"
+   ],
+   "board_class": null,
+   "notes": "Named 'Pam Murphy' in the 8-K. Declassified board (all directors elected annually), so no class."
+  },
+  {
+   "person_key": "william-ready",
+   "start_date": "2025-09-29",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02: elected effective September 29, 2025; Form 3 event date 2025-09-29; 2026 proxy confirms",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e075",
+    "e128",
+    "e016",
+    "e025",
+    "e147",
+    "e087",
+    "e088"
+   ],
+   "board_class": null,
+   "notes": "Named 'Bill Ready' in the 8-K. First elected by shareholders at the 2026-01-27 meeting. Declassified board (all directors elected annually), so no class."
+  },
+  {
+   "person_key": "linda-rendle",
+   "start_date": "2020-11-23",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02: appointed effective November 23, 2020 (board acted November 18, 2020); Form 3 event date 2020-11-23",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e062",
+    "e129",
+    "e026",
+    "e139",
+    "e087"
+   ],
+   "board_class": null,
+   "notes": "Declassified board (all directors elected annually), so no class."
+  },
+  {
+   "person_key": "maynard-webb",
+   "start_date": "2014-01-29",
+   "start_date_precision": "day",
+   "start_date_basis": "Elected at the 2014 annual meeting (8-K Item 5.07, meeting held January 29, 2014) after his November 2013 nomination; Form 3 event date 2014-01-29",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e046",
+    "e047",
+    "e048",
+    "e050",
+    "e130",
+    "e027",
+    "e146",
+    "e087"
+   ],
+   "board_class": null,
+   "notes": "Declassified board (all directors elected annually), so no class."
+  },
+  {
+   "person_key": "ramon-laguarta",
+   "start_date": "2019-11-20",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02: appointed effective November 20, 2019 (board acted November 13, 2019); Form 3 event date 2019-11-20",
+   "end_date": "2026-01-27",
+   "end_date_precision": "day",
+   "end_reason": "did_not_stand",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e059",
+    "e060",
+    "e132",
+    "e112",
+    "e011",
+    "e012",
+    "e086",
+    "e087",
+    "e153",
+    "e077",
+    "e078",
+    "e085"
+   ],
+   "board_class": null,
+   "notes": "Did not stand for re-election; service ended at the 2026 annual meeting (held 2026-01-27, 8-K Item 5.07)."
+  },
+  {
+   "person_key": "alfred-kelly",
+   "start_date": "2014-01-29",
+   "start_date_precision": "day",
+   "start_date_basis": "Elected at the 2014 annual meeting (8-K Item 5.07, held January 29, 2014); Form 3 event date 2014-01-29; 2016 8-K: 'a member of the Board since January 2014'",
+   "end_date": "2024-01-23",
+   "end_date_precision": "day",
+   "end_reason": "did_not_stand",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e046",
+    "e047",
+    "e048",
+    "e049",
+    "e131",
+    "e051",
+    "e073",
+    "e094",
+    "e083",
+    "e084",
+    "e154",
+    "e077",
+    "e078"
+   ],
+   "board_class": null,
+   "notes": "Joined as an independent director; CEO 2016-12-01 to 2023-02-01, Chair 2019-04-16 to 2023-02-01, Executive Chairman 2023-02-01 to 2024-01-23. Did not stand for re-election and retired from the board at the 2024 annual meeting (2024-01-23); stayed an employee (Senior Advisor) until 2024-02-15."
+  },
+  {
+   "person_key": "mary-cranston",
+   "start_date": "2007-10-01",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K on the 2007 restructuring: seated as an independent director effective immediately prior to the closing on October 1, 2007; prospectus and 2023 proxy: since October 2007",
+   "end_date": "2023-01-24",
+   "end_date_precision": "day",
+   "end_reason": "did_not_stand",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e006",
+    "e007",
+    "e119",
+    "e092",
+    "e134",
+    "e081",
+    "e082",
+    "e151",
+    "e077",
+    "e078"
+   ],
+   "board_class": null,
+   "notes": "Pre-IPO director. 'Retiring and not standing for re-election'; service ended at the 2023 annual meeting (2023-01-24)."
+  },
+  {
+   "person_key": "robert-matschullat",
+   "start_date": "2007-10-01",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K on the 2007 restructuring: seated as an independent director effective immediately prior to the closing on October 1, 2007; prospectus and 2023 proxy: since October 2007",
+   "end_date": "2023-01-24",
+   "end_date_precision": "day",
+   "end_reason": "did_not_stand",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e006",
+    "e007",
+    "e120",
+    "e092",
+    "e135",
+    "e081",
+    "e082",
+    "e152",
+    "e077",
+    "e078"
+   ],
+   "board_class": null,
+   "notes": "Pre-IPO director; independent Chair 2013-04-01 to 2019-04-16. 'Retiring and not standing for re-election'; service ended at the 2023 annual meeting (2023-01-24)."
+  },
+  {
+   "person_key": "suzanne-nora-johnson",
+   "start_date": "2007-10-01",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K on the 2007 restructuring: seated as an independent director effective immediately prior to the closing on October 1, 2007; 2022 proxy: member since October 2007",
+   "end_date": "2022-01-25",
+   "end_date_precision": "day",
+   "end_reason": "did_not_stand",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e006",
+    "e007",
+    "e158",
+    "e089",
+    "e136",
+    "e079",
+    "e080",
+    "e091",
+    "e149",
+    "e077",
+    "e078"
+   ],
+   "board_class": null,
+   "notes": "Pre-IPO director. Did not stand for re-election; service ended at the 2022 annual meeting (2022-01-25)."
+  },
+  {
+   "person_key": "john-swainson",
+   "start_date": "2007-10-01",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K on the 2007 restructuring: seated as an independent director effective immediately prior to the closing on October 1, 2007; prospectus and 2022 proxy: since October 2007",
+   "end_date": "2022-01-25",
+   "end_date_precision": "day",
+   "end_reason": "did_not_stand",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e006",
+    "e007",
+    "e121",
+    "e118",
+    "e089",
+    "e137",
+    "e079",
+    "e080",
+    "e091",
+    "e150",
+    "e077",
+    "e078"
+   ],
+   "board_class": null,
+   "notes": "Pre-IPO director (earlier a director of predecessor Visa U.S.A. from April 2006, not counted). Lead Director October 2007 to 2013-04-01. Did not stand for re-election; service ended at the 2022 annual meeting (2022-01-25)."
+  }
+ ],
+ "roles": [
+  {
+   "person_key": "john-lundgren",
+   "role": "chair",
+   "start_date": "2024-01-23",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e074",
+    "e084",
+    "e015",
+    "e021"
+   ],
+   "notes": "Independent Board Chair from the 2024 annual meeting (2024-01-23), succeeding Executive Chairman Kelly.",
+   "officer_title": "Board Chair"
+  },
+  {
+   "person_key": "john-lundgren",
+   "role": "lead_independent_director",
+   "start_date": "2019-04-16",
+   "end_date": "2024-01-23",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e058",
+    "e106",
+    "e021",
+    "e074"
+   ],
+   "notes": "Elected Lead Independent Director 2019-04-16; the role ended when he became independent Chair on 2024-01-23 (2026 bio: 'April 2019 to January 2024')."
+  },
+  {
+   "person_key": "ryan-mcinerney",
+   "role": "ceo_director",
+   "start_date": "2023-02-01",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e069",
+    "e068",
+    "e022",
+    "e148"
+   ],
+   "notes": "CEO and director since 2023-02-01.",
+   "officer_title": "Chief Executive Officer"
+  },
+  {
+   "person_key": "ryan-mcinerney",
+   "role": "non_independent_director",
+   "start_date": "2023-02-01",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e014",
+    "e069"
+   ],
+   "notes": "Employee director; the only non-independent nominee in the 2026 proxy."
+  },
+  {
+   "person_key": "alfred-kelly",
+   "role": "ceo_director",
+   "start_date": "2016-12-01",
+   "end_date": "2023-02-01",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e051",
+    "e105",
+    "e068"
+   ],
+   "notes": "CEO from 2016-12-01 until McInerney succeeded him on 2023-02-01.",
+   "officer_title": "Chief Executive Officer"
+  },
+  {
+   "person_key": "alfred-kelly",
+   "role": "chair",
+   "start_date": "2019-04-16",
+   "end_date": "2023-02-01",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e057",
+    "e157",
+    "e105",
+    "e109"
+   ],
+   "notes": "Chair (combined with CEO) from 2019-04-16, succeeding Matschullat; became Executive Chairman when he gave up the CEO role on 2023-02-01.",
+   "officer_title": "Chairman and Chief Executive Officer"
+  },
+  {
+   "person_key": "alfred-kelly",
+   "role": "executive_chair",
+   "start_date": "2023-02-01",
+   "end_date": "2024-01-23",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e068",
+    "e070",
+    "e073",
+    "e110",
+    "e154"
+   ],
+   "notes": "Executive Chairman from 2023-02-01 until he retired from the board on 2024-01-23.",
+   "officer_title": "Executive Chairman"
+  },
+  {
+   "person_key": "alfred-kelly",
+   "role": "independent_director",
+   "start_date": "2014-01-29",
+   "end_date": "2016-10-31",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "medium",
+   "evidence_refs": [
+    "e046",
+    "e051"
+   ],
+   "notes": "Determined independent 'if elected' when nominated in November 2013. End date is his employment start as CEO Designate (2016-10-31); no filing states when independence ended."
+  },
+  {
+   "person_key": "alfred-kelly",
+   "role": "non_independent_director",
+   "start_date": "2016-10-31",
+   "end_date": "2024-01-23",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "medium",
+   "evidence_refs": [
+    "e051",
+    "e057",
+    "e073"
+   ],
+   "notes": "Employee director from his employment start as CEO Designate (2016-10-31) until he left the board (2024-01-23). Start date inferred from employment, not a stated determination."
+  },
+  {
+   "person_key": "robert-matschullat",
+   "role": "chair",
+   "start_date": "2013-04-01",
+   "end_date": "2019-04-16",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e108",
+    "e107",
+    "e057"
+   ],
+   "notes": "Independent Chair from 2013-04-01 until Kelly succeeded him on 2019-04-16.",
+   "officer_title": "Independent Chair"
+  },
+  {
+   "person_key": "john-swainson",
+   "role": "lead_independent_director",
+   "start_date": "2007-10",
+   "end_date": "2013-04-01",
+   "precision": "month",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e155",
+    "e156"
+   ],
+   "notes": "Lead Director 'since October 2007'; the term concluded on 2013-04-01 when Matschullat became independent Chair."
+  },
+  {
+   "person_key": "lloyd-carney",
+   "role": "independent_director",
+   "start_date": "2015-06-11",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e045",
+    "e013"
+   ],
+   "notes": "Independence aligned to tenure; filings give point-in-time determinations (appointment 8-K and each proxy)."
+  },
+  {
+   "person_key": "kermit-crawford",
+   "role": "independent_director",
+   "start_date": "2022-10-07",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e067",
+    "e013"
+   ],
+   "notes": "Independence aligned to tenure; filings give point-in-time determinations (appointment 8-K and each proxy)."
+  },
+  {
+   "person_key": "francisco-javier-fernandez-carbajal",
+   "role": "independent_director",
+   "start_date": "2007-10-01",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e007",
+    "e097",
+    "e013"
+   ],
+   "notes": "Independence aligned to tenure; filings give point-in-time determinations (appointment 8-K and each proxy)."
+  },
+  {
+   "person_key": "teri-list",
+   "role": "independent_director",
+   "start_date": "2022-04-11",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e065",
+    "e013"
+   ],
+   "notes": "Independence aligned to tenure; filings give point-in-time determinations (appointment 8-K and each proxy)."
+  },
+  {
+   "person_key": "john-lundgren",
+   "role": "independent_director",
+   "start_date": "2017-04-18",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e054",
+    "e013"
+   ],
+   "notes": "Independence aligned to tenure; filings give point-in-time determinations (appointment 8-K and each proxy)."
+  },
+  {
+   "person_key": "denise-morrison",
+   "role": "independent_director",
+   "start_date": "2018-08-02",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e056",
+    "e013"
+   ],
+   "notes": "Independence aligned to tenure; filings give point-in-time determinations (appointment 8-K and each proxy)."
+  },
+  {
+   "person_key": "pamela-murphy",
+   "role": "independent_director",
+   "start_date": "2023-04-10",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e072",
+    "e013"
+   ],
+   "notes": "Independence aligned to tenure; filings give point-in-time determinations (appointment 8-K and each proxy)."
+  },
+  {
+   "person_key": "william-ready",
+   "role": "independent_director",
+   "start_date": "2025-09-29",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e076",
+    "e013"
+   ],
+   "notes": "Independence aligned to tenure; filings give point-in-time determinations (appointment 8-K and each proxy)."
+  },
+  {
+   "person_key": "linda-rendle",
+   "role": "independent_director",
+   "start_date": "2020-11-23",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e063",
+    "e013"
+   ],
+   "notes": "Independence aligned to tenure; filings give point-in-time determinations (appointment 8-K and each proxy)."
+  },
+  {
+   "person_key": "maynard-webb",
+   "role": "independent_director",
+   "start_date": "2014-01-29",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e046",
+    "e013"
+   ],
+   "notes": "Independence aligned to tenure; filings give point-in-time determinations (appointment 8-K and each proxy)."
+  },
+  {
+   "person_key": "ramon-laguarta",
+   "role": "independent_director",
+   "start_date": "2019-11-20",
+   "end_date": "2026-01-27",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e061",
+    "e097",
+    "e013",
+    "e112"
+   ],
+   "notes": "Independence aligned to tenure; filings give point-in-time determinations (appointment 8-K and each proxy)."
+  },
+  {
+   "person_key": "mary-cranston",
+   "role": "independent_director",
+   "start_date": "2007-10-01",
+   "end_date": "2023-01-24",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e007",
+    "e097",
+    "e098"
+   ],
+   "notes": "Independence aligned to tenure; filings give point-in-time determinations (appointment 8-K and each proxy)."
+  },
+  {
+   "person_key": "robert-matschullat",
+   "role": "independent_director",
+   "start_date": "2007-10-01",
+   "end_date": "2023-01-24",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e007",
+    "e097",
+    "e098"
+   ],
+   "notes": "Independence aligned to tenure; filings give point-in-time determinations (appointment 8-K and each proxy)."
+  },
+  {
+   "person_key": "suzanne-nora-johnson",
+   "role": "independent_director",
+   "start_date": "2007-10-01",
+   "end_date": "2022-01-25",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e007",
+    "e097",
+    "e099"
+   ],
+   "notes": "Independence aligned to tenure; filings give point-in-time determinations (appointment 8-K and each proxy)."
+  },
+  {
+   "person_key": "john-swainson",
+   "role": "independent_director",
+   "start_date": "2007-10-01",
+   "end_date": "2022-01-25",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e007",
+    "e097",
+    "e099"
+   ],
+   "notes": "Independence aligned to tenure; filings give point-in-time determinations (appointment 8-K and each proxy)."
+  }
+ ],
+ "committees": [
+  {
+   "person_key": "kermit-crawford",
+   "committee": "audit",
+   "role": "chair",
+   "as_of_filing": "0001308179-25-000635",
+   "as_of_date": "2025-12-08",
+   "evidence_refs": [
+    "e028",
+    "e018"
+   ]
+  },
+  {
+   "person_key": "lloyd-carney",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001308179-25-000635",
+   "as_of_date": "2025-12-08",
+   "evidence_refs": [
+    "e028",
+    "e017"
+   ]
+  },
+  {
+   "person_key": "teri-list",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001308179-25-000635",
+   "as_of_date": "2025-12-08",
+   "evidence_refs": [
+    "e028",
+    "e020"
+   ]
+  },
+  {
+   "person_key": "linda-rendle",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001308179-25-000635",
+   "as_of_date": "2025-12-08",
+   "evidence_refs": [
+    "e028",
+    "e026"
+   ]
+  },
+  {
+   "person_key": "lloyd-carney",
+   "committee": "compensation",
+   "role": "chair",
+   "as_of_filing": "0001308179-25-000635",
+   "as_of_date": "2025-12-08",
+   "evidence_refs": [
+    "e029",
+    "e032"
+   ]
+  },
+  {
+   "person_key": "francisco-javier-fernandez-carbajal",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001308179-25-000635",
+   "as_of_date": "2025-12-08",
+   "evidence_refs": [
+    "e029"
+   ]
+  },
+  {
+   "person_key": "teri-list",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001308179-25-000635",
+   "as_of_date": "2025-12-08",
+   "evidence_refs": [
+    "e029"
+   ]
+  },
+  {
+   "person_key": "john-lundgren",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001308179-25-000635",
+   "as_of_date": "2025-12-08",
+   "evidence_refs": [
+    "e029"
+   ]
+  },
+  {
+   "person_key": "denise-morrison",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001308179-25-000635",
+   "as_of_date": "2025-12-08",
+   "evidence_refs": [
+    "e029"
+   ]
+  },
+  {
+   "person_key": "maynard-webb",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001308179-25-000635",
+   "as_of_date": "2025-12-08",
+   "evidence_refs": [
+    "e029"
+   ]
+  },
+  {
+   "person_key": "maynard-webb",
+   "committee": "finance",
+   "role": "chair",
+   "as_of_filing": "0001308179-25-000635",
+   "as_of_date": "2025-12-08",
+   "evidence_refs": [
+    "e030"
+   ]
+  },
+  {
+   "person_key": "francisco-javier-fernandez-carbajal",
+   "committee": "finance",
+   "role": "member",
+   "as_of_filing": "0001308179-25-000635",
+   "as_of_date": "2025-12-08",
+   "evidence_refs": [
+    "e030"
+   ]
+  },
+  {
+   "person_key": "ramon-laguarta",
+   "committee": "finance",
+   "role": "member",
+   "as_of_filing": "0001308179-25-000635",
+   "as_of_date": "2025-12-08",
+   "evidence_refs": [
+    "e030"
+   ]
+  },
+  {
+   "person_key": "pamela-murphy",
+   "committee": "finance",
+   "role": "member",
+   "as_of_filing": "0001308179-25-000635",
+   "as_of_date": "2025-12-08",
+   "evidence_refs": [
+    "e030"
+   ]
+  },
+  {
+   "person_key": "william-ready",
+   "committee": "finance",
+   "role": "member",
+   "as_of_filing": "0001308179-25-000635",
+   "as_of_date": "2025-12-08",
+   "evidence_refs": [
+    "e030",
+    "e076"
+   ]
+  },
+  {
+   "person_key": "denise-morrison",
+   "committee": "nominating_governance",
+   "role": "chair",
+   "as_of_filing": "0001308179-25-000635",
+   "as_of_date": "2025-12-08",
+   "evidence_refs": [
+    "e031",
+    "e032"
+   ]
+  },
+  {
+   "person_key": "ramon-laguarta",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001308179-25-000635",
+   "as_of_date": "2025-12-08",
+   "evidence_refs": [
+    "e031"
+   ]
+  },
+  {
+   "person_key": "john-lundgren",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001308179-25-000635",
+   "as_of_date": "2025-12-08",
+   "evidence_refs": [
+    "e031"
+   ]
+  },
+  {
+   "person_key": "pamela-murphy",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001308179-25-000635",
+   "as_of_date": "2025-12-08",
+   "evidence_refs": [
+    "e031"
+   ]
+  },
+  {
+   "person_key": "william-ready",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001308179-25-000635",
+   "as_of_date": "2025-12-08",
+   "evidence_refs": [
+    "e031",
+    "e076"
+   ]
+  },
+  {
+   "person_key": "linda-rendle",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001308179-25-000635",
+   "as_of_date": "2025-12-08",
+   "evidence_refs": [
+    "e031"
+   ]
+  },
+  {
+   "person_key": "suzanne-nora-johnson",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001193125-21-346291",
+   "as_of_date": "2021-12-02",
+   "evidence_refs": [
+    "e100"
+   ]
+  },
+  {
+   "person_key": "suzanne-nora-johnson",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001193125-21-346291",
+   "as_of_date": "2021-12-02",
+   "evidence_refs": [
+    "e101"
+   ]
+  },
+  {
+   "person_key": "john-swainson",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001193125-21-346291",
+   "as_of_date": "2021-12-02",
+   "evidence_refs": [
+    "e100"
+   ]
+  },
+  {
+   "person_key": "john-swainson",
+   "committee": "nominating_governance",
+   "role": "chair",
+   "as_of_filing": "0001193125-21-346291",
+   "as_of_date": "2021-12-02",
+   "evidence_refs": [
+    "e101"
+   ]
+  },
+  {
+   "person_key": "mary-cranston",
+   "committee": "finance",
+   "role": "member",
+   "as_of_filing": "0001193125-22-296190",
+   "as_of_date": "2022-12-01",
+   "evidence_refs": [
+    "e103"
+   ]
+  },
+  {
+   "person_key": "mary-cranston",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001193125-22-296190",
+   "as_of_date": "2022-12-01",
+   "evidence_refs": [
+    "e104"
+   ]
+  },
+  {
+   "person_key": "robert-matschullat",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001193125-22-296190",
+   "as_of_date": "2022-12-01",
+   "evidence_refs": [
+    "e102"
+   ]
+  },
+  {
+   "person_key": "robert-matschullat",
+   "committee": "finance",
+   "role": "chair",
+   "as_of_filing": "0001193125-22-296190",
+   "as_of_date": "2022-12-01",
+   "evidence_refs": [
+    "e103"
+   ]
+  }
+ ],
+ "events": [
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "francisco-javier-fernandez-carbajal",
+   "event_date": "2007-10-01",
+   "announced_date": "2007-10-04",
+   "evidence_refs": [
+    "e006",
+    "e007"
+   ],
+   "summary": "Francisco Javier Fernández-Carbajal seated with the board formed at the October 2007 restructuring.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "mary-cranston",
+   "event_date": "2007-10-01",
+   "announced_date": "2007-10-04",
+   "evidence_refs": [
+    "e006",
+    "e007"
+   ],
+   "summary": "Mary B. Cranston seated at the October 2007 restructuring.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "robert-matschullat",
+   "event_date": "2007-10-01",
+   "announced_date": "2007-10-04",
+   "evidence_refs": [
+    "e006",
+    "e007"
+   ],
+   "summary": "Robert W. Matschullat seated at the October 2007 restructuring.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "suzanne-nora-johnson",
+   "event_date": "2007-10-01",
+   "announced_date": "2007-10-04",
+   "evidence_refs": [
+    "e006",
+    "e007"
+   ],
+   "summary": "Suzanne Nora Johnson seated at the October 2007 restructuring.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "john-swainson",
+   "event_date": "2007-10-01",
+   "announced_date": "2007-10-04",
+   "evidence_refs": [
+    "e006",
+    "e007"
+   ],
+   "summary": "John A. C. Swainson seated at the October 2007 restructuring.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "john-swainson",
+   "event_date": "2007-10",
+   "announced_date": null,
+   "evidence_refs": [
+    "e155"
+   ],
+   "summary": "John A. C. Swainson becomes Lead Director.",
+   "event_date_precision": "month"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "robert-matschullat",
+   "event_date": "2013-04-01",
+   "announced_date": null,
+   "evidence_refs": [
+    "e108",
+    "e156"
+   ],
+   "summary": "Robert W. Matschullat becomes independent Chair; Swainson's Lead Director term ends.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "alfred-kelly",
+   "event_date": "2014-01-29",
+   "announced_date": "2013-11-25",
+   "evidence_refs": [
+    "e047",
+    "e049",
+    "e131"
+   ],
+   "summary": "Alfred F. Kelly, Jr. elected at the 2014 annual meeting.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "maynard-webb",
+   "event_date": "2014-01-29",
+   "announced_date": "2013-11-25",
+   "evidence_refs": [
+    "e047",
+    "e050",
+    "e130"
+   ],
+   "summary": "Maynard G. Webb, Jr. elected at the 2014 annual meeting.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "lloyd-carney",
+   "event_date": "2015-06-11",
+   "announced_date": "2015-06-12",
+   "evidence_refs": [
+    "e044",
+    "e122"
+   ],
+   "summary": "Lloyd A. Carney elected to the board.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_SIZE_CHANGE",
+   "person_key": null,
+   "event_date": "2015-06-11",
+   "announced_date": "2015-06-12",
+   "evidence_refs": [
+    "e044"
+   ],
+   "summary": "Board increased from 11 to 12 for Carney.",
+   "event_date_precision": "day",
+   "from_size": 11,
+   "to_size": 12
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "alfred-kelly",
+   "event_date": "2016-12-01",
+   "announced_date": "2016-10-21",
+   "evidence_refs": [
+    "e051"
+   ],
+   "summary": "Alfred F. Kelly, Jr. becomes CEO.",
+   "event_date_precision": "day",
+   "decision_date": "2016-10-17"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "john-lundgren",
+   "event_date": "2017-04-18",
+   "announced_date": "2017-04-18",
+   "evidence_refs": [
+    "e052",
+    "e125"
+   ],
+   "summary": "John F. Lundgren appointed to the board.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_SIZE_CHANGE",
+   "person_key": null,
+   "event_date": "2017-04-18",
+   "announced_date": "2017-04-18",
+   "evidence_refs": [
+    "e052"
+   ],
+   "summary": "Board increased from nine to 10 for Lundgren.",
+   "event_date_precision": "day",
+   "from_size": 9,
+   "to_size": 10
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "denise-morrison",
+   "event_date": "2018-08-02",
+   "announced_date": "2018-08-06",
+   "evidence_refs": [
+    "e055",
+    "e126"
+   ],
+   "summary": "Denise M. Morrison appointed to the board.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_SIZE_CHANGE",
+   "person_key": null,
+   "event_date": "2018-08-02",
+   "announced_date": "2018-08-06",
+   "evidence_refs": [
+    "e055"
+   ],
+   "summary": "Board increased from nine to 10 for Morrison.",
+   "event_date_precision": "day",
+   "from_size": 9,
+   "to_size": 10
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "alfred-kelly",
+   "event_date": "2019-04-16",
+   "announced_date": "2019-04-19",
+   "evidence_refs": [
+    "e057"
+   ],
+   "summary": "Alfred F. Kelly, Jr. (CEO) also elected Chair, succeeding Matschullat.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "john-lundgren",
+   "event_date": "2019-04-16",
+   "announced_date": "2019-04-19",
+   "evidence_refs": [
+    "e058"
+   ],
+   "summary": "John F. Lundgren elected Lead Independent Director.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "ramon-laguarta",
+   "event_date": "2019-11-20",
+   "announced_date": "2019-11-13",
+   "evidence_refs": [
+    "e059",
+    "e132"
+   ],
+   "summary": "Ramon Laguarta joins the board.",
+   "event_date_precision": "day",
+   "decision_date": "2019-11-13"
+  },
+  {
+   "type": "BOARD_SIZE_CHANGE",
+   "person_key": null,
+   "event_date": "2019-11-20",
+   "announced_date": "2019-11-13",
+   "evidence_refs": [
+    "e059"
+   ],
+   "summary": "Board increased from 10 to 11 for Laguarta.",
+   "event_date_precision": "day",
+   "from_size": 10,
+   "to_size": 11,
+   "decision_date": "2019-11-13"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "linda-rendle",
+   "event_date": "2020-11-23",
+   "announced_date": "2020-11-23",
+   "evidence_refs": [
+    "e062",
+    "e129"
+   ],
+   "summary": "Linda J. Rendle joins the board.",
+   "event_date_precision": "day",
+   "decision_date": "2020-11-18"
+  },
+  {
+   "type": "BOARD_SIZE_CHANGE",
+   "person_key": null,
+   "event_date": "2020-11-23",
+   "announced_date": "2020-11-23",
+   "evidence_refs": [
+    "e062"
+   ],
+   "summary": "Board increased from 11 to 12 for Rendle.",
+   "event_date_precision": "day",
+   "from_size": 11,
+   "to_size": 12,
+   "decision_date": "2020-11-18"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "suzanne-nora-johnson",
+   "event_date": "2022-01-25",
+   "announced_date": "2021-12-02",
+   "evidence_refs": [
+    "e089",
+    "e079",
+    "e080",
+    "e091"
+   ],
+   "summary": "Suzanne Nora Johnson leaves at the 2022 annual meeting (did not stand).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "john-swainson",
+   "event_date": "2022-01-25",
+   "announced_date": "2021-12-02",
+   "evidence_refs": [
+    "e089",
+    "e079",
+    "e080",
+    "e091"
+   ],
+   "summary": "John A. C. Swainson leaves at the 2022 annual meeting (did not stand).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_SIZE_CHANGE",
+   "person_key": null,
+   "event_date": "2022-01-25",
+   "announced_date": "2021-12-02",
+   "evidence_refs": [
+    "e090",
+    "e089",
+    "e080"
+   ],
+   "summary": "Authorized board reduced from 12 to 10 at the 2022 annual meeting.",
+   "event_date_precision": "day",
+   "from_size": 12,
+   "to_size": 10
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "teri-list",
+   "event_date": "2022-04-11",
+   "announced_date": "2022-04-11",
+   "evidence_refs": [
+    "e064",
+    "e124"
+   ],
+   "summary": "Teri L. List joins the board.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_SIZE_CHANGE",
+   "person_key": null,
+   "event_date": "2022-04-11",
+   "announced_date": "2022-04-11",
+   "evidence_refs": [
+    "e064"
+   ],
+   "summary": "Board increased from 10 to 11 for List.",
+   "event_date_precision": "day",
+   "from_size": 10,
+   "to_size": 11
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "kermit-crawford",
+   "event_date": "2022-10-07",
+   "announced_date": "2022-10-11",
+   "evidence_refs": [
+    "e066",
+    "e123"
+   ],
+   "summary": "Kermit R. Crawford joins the board.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_SIZE_CHANGE",
+   "person_key": null,
+   "event_date": "2022-10-07",
+   "announced_date": "2022-10-11",
+   "evidence_refs": [
+    "e066"
+   ],
+   "summary": "Board increased from 11 to 12 for Crawford.",
+   "event_date_precision": "day",
+   "from_size": 11,
+   "to_size": 12
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "mary-cranston",
+   "event_date": "2023-01-24",
+   "announced_date": "2022-12-01",
+   "evidence_refs": [
+    "e092",
+    "e081",
+    "e082"
+   ],
+   "summary": "Mary B. Cranston retires at the 2023 annual meeting (did not stand).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "robert-matschullat",
+   "event_date": "2023-01-24",
+   "announced_date": "2022-12-01",
+   "evidence_refs": [
+    "e092",
+    "e081",
+    "e082"
+   ],
+   "summary": "Robert W. Matschullat retires at the 2023 annual meeting (did not stand).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_SIZE_CHANGE",
+   "person_key": null,
+   "event_date": "2023-01-24",
+   "announced_date": "2022-12-01",
+   "evidence_refs": [
+    "e093",
+    "e082"
+   ],
+   "summary": "Authorized board reduced from 12 to 10 at the 2023 annual meeting.",
+   "event_date_precision": "day",
+   "from_size": 12,
+   "to_size": 10
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "ryan-mcinerney",
+   "event_date": "2023-02-01",
+   "announced_date": "2022-11-17",
+   "evidence_refs": [
+    "e069",
+    "e068"
+   ],
+   "summary": "Ryan McInerney joins the board on becoming CEO.",
+   "event_date_precision": "day",
+   "decision_date": "2023-01-30"
+  },
+  {
+   "type": "BOARD_SIZE_CHANGE",
+   "person_key": null,
+   "event_date": "2023-02-01",
+   "announced_date": "2023-02-01",
+   "evidence_refs": [
+    "e069"
+   ],
+   "summary": "Board increased from 10 to 11 for McInerney.",
+   "event_date_precision": "day",
+   "from_size": 10,
+   "to_size": 11,
+   "decision_date": "2023-01-30"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "ryan-mcinerney",
+   "event_date": "2023-02-01",
+   "announced_date": "2022-11-17",
+   "evidence_refs": [
+    "e068",
+    "e070"
+   ],
+   "summary": "Ryan McInerney succeeds Kelly as CEO.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "alfred-kelly",
+   "event_date": "2023-02-01",
+   "announced_date": "2022-11-17",
+   "evidence_refs": [
+    "e068",
+    "e070"
+   ],
+   "summary": "Alfred F. Kelly, Jr. gives up the CEO role and becomes Executive Chairman.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "pamela-murphy",
+   "event_date": "2023-04-10",
+   "announced_date": "2023-04-10",
+   "evidence_refs": [
+    "e071",
+    "e127"
+   ],
+   "summary": "Pamela Murphy joins the board.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_SIZE_CHANGE",
+   "person_key": null,
+   "event_date": "2023-04-10",
+   "announced_date": "2023-04-10",
+   "evidence_refs": [
+    "e071"
+   ],
+   "summary": "Board increased from 11 to 12 for Murphy.",
+   "event_date_precision": "day",
+   "from_size": 11,
+   "to_size": 12
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "alfred-kelly",
+   "event_date": "2024-01-23",
+   "announced_date": "2023-10-18",
+   "evidence_refs": [
+    "e073",
+    "e094",
+    "e083",
+    "e084"
+   ],
+   "summary": "Alfred F. Kelly, Jr. retires from the board at the 2024 annual meeting (did not stand).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "john-lundgren",
+   "event_date": "2024-01-23",
+   "announced_date": "2023-10-18",
+   "evidence_refs": [
+    "e074",
+    "e084"
+   ],
+   "summary": "John F. Lundgren becomes independent Board Chair; Lead Independent Director role ends.",
+   "event_date_precision": "day",
+   "decision_date": "2023-10-17"
+  },
+  {
+   "type": "BOARD_SIZE_CHANGE",
+   "person_key": null,
+   "event_date": "2024-01-23",
+   "announced_date": "2023-12-07",
+   "evidence_refs": [
+    "e094",
+    "e095",
+    "e084"
+   ],
+   "summary": "Board reduced from 12 to 11 at the 2024 annual meeting.",
+   "event_date_precision": "day",
+   "from_size": 12,
+   "to_size": 11
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "william-ready",
+   "event_date": "2025-09-29",
+   "announced_date": "2025-09-29",
+   "evidence_refs": [
+    "e075",
+    "e128"
+   ],
+   "summary": "William (Bill) Ready joins the board.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_SIZE_CHANGE",
+   "person_key": null,
+   "event_date": "2025-09-29",
+   "announced_date": "2025-09-29",
+   "evidence_refs": [
+    "e075"
+   ],
+   "summary": "Board increased from 11 to 12 for Ready.",
+   "event_date_precision": "day",
+   "from_size": 11,
+   "to_size": 12
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "ramon-laguarta",
+   "event_date": "2026-01-27",
+   "announced_date": "2025-12-08",
+   "evidence_refs": [
+    "e011",
+    "e086",
+    "e087"
+   ],
+   "summary": "Ramon Laguarta leaves at the 2026 annual meeting (did not stand).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_SIZE_CHANGE",
+   "person_key": null,
+   "event_date": "2026-01-27",
+   "announced_date": "2025-12-08",
+   "evidence_refs": [
+    "e010",
+    "e087"
+   ],
+   "summary": "Board reduced from 12 to 11 at the 2026 annual meeting.",
+   "event_date_precision": "day",
+   "from_size": 12,
+   "to_size": 11
+  }
+ ],
+ "evidence": [
+  {
+   "id": "e001",
+   "form": "10-K",
+   "accession": "0001193125-08-240384",
+   "filing_date": "2008-11-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000119312508240384/d10k.htm",
+   "quote": "Our Class A common stock commenced trading on the New York Stock Exchange under the symbol “V” on March 19, 2008.",
+   "supports": "IPO first trading day 2008-03-19 (NYSE, symbol V)."
+  },
+  {
+   "id": "e002",
+   "form": "424B4",
+   "accession": "0001193125-08-060989",
+   "filing_date": "2008-03-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000119312508060989/d424b4.htm",
+   "quote": "Francisco Javier Fernandez-Carbajal has served as a director of Visa Inc. since October 2007.",
+   "supports": "IPO prospectus: Fernández-Carbajal a director of Visa Inc. since October 2007 (pre-IPO)."
+  },
+  {
+   "id": "e003",
+   "form": "10-K",
+   "accession": "0001403161-25-000089",
+   "filing_date": "2025-11-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+   "quote": "VISA INC. (Exact name of Registrant as specified in its charter) Delaware 26-0267673",
+   "supports": "Legal name Visa Inc.; incorporated in Delaware."
+  },
+  {
+   "id": "e004",
+   "form": "10-K",
+   "accession": "0001403161-25-000089",
+   "filing_date": "2025-11-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+   "quote": "Class A Common Stock, par value $0.0001 per share V New York Stock Exchange",
+   "supports": "Class A common stock trades on the NYSE under V."
+  },
+  {
+   "id": "e005",
+   "form": "8-K",
+   "accession": "0001193125-07-212797",
+   "filing_date": "2007-10-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000119312507212797/d8k.htm",
+   "quote": "during the period from October 1, 2007 through October 3, 2007, Visa Inc. consummated its restructuring",
+   "supports": "Visa Inc. restructuring (combination of Visa Canada, Visa U.S.A., Visa International, Inovant) consummated October 1-3, 2007."
+  },
+  {
+   "id": "e006",
+   "form": "8-K",
+   "accession": "0001193125-07-212797",
+   "filing_date": "2007-10-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000119312507212797/d8k.htm",
+   "quote": "Effective as of immediately prior to the closing of the restructuring on October 1, 2007, pursuant to the restructuring agreement, the Visa Inc. board of directors was increased to 18 directors",
+   "supports": "Board of 18 seated effective immediately prior to the restructuring closing on 2007-10-01."
+  },
+  {
+   "id": "e007",
+   "form": "8-K",
+   "accession": "0001193125-07-212797",
+   "filing_date": "2007-10-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000119312507212797/d8k.htm",
+   "quote": "The independent directors are Thomas Campbell, Gary Coughlan, Mary B. Cranston, Francisco Javier Fernandez-Carbajal, Suzanne Nora Johnson, Robert W. Matschullat, Cathy Elizabeth Minehan, David J. Pang, William Shanahan and John A. Swainson.",
+   "supports": "Cranston, Fernández-Carbajal, Nora Johnson, Matschullat and Swainson among the independent directors seated 2007-10-01."
+  },
+  {
+   "id": "e008",
+   "form": "8-K",
+   "accession": "0001193125-07-212797",
+   "filing_date": "2007-10-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000119312507212797/d8k.htm",
+   "quote": "These individuals were appointed to the Visa Inc. board of directors to serve in the following classes in accordance with the amended and restated certificate of incorporation of Visa Inc.",
+   "supports": "Board was classified (Classes I-III) at the 2007 restructuring."
+  },
+  {
+   "id": "e009",
+   "form": "DEF 14A",
+   "accession": "0001308179-25-000635",
+   "filing_date": "2025-12-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000130817925000635/v-20251208.htm",
+   "quote": "Each director is elected to serve a one-year term, with all directors subject to annual election.",
+   "supports": "Board now declassified: all directors elected annually to one-year terms."
+  },
+  {
+   "id": "e010",
+   "form": "DEF 14A",
+   "accession": "0001308179-25-000635",
+   "filing_date": "2025-12-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000130817925000635/v-20251208.htm",
+   "quote": "Our Board currently consists of twelve directors. Eleven directors are nominated for election at our Annual Meeting, including ten independent directors and our Chief Executive Officer. The size of the Board is being decreased to eleven directors as of the election of directors at the Annual Meeting.",
+   "supports": "Board of 12 at proxy date; reduced to 11 at the 2026 annual meeting."
+  },
+  {
+   "id": "e011",
+   "form": "DEF 14A",
+   "accession": "0001308179-25-000635",
+   "filing_date": "2025-12-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000130817925000635/v-20251208.htm",
+   "quote": "Mr. Laguarta is not standing for re-election at the Annual Meeting. The Board thanks him for his many contributions during his tenure.",
+   "supports": "Laguarta did not stand for re-election at the 2026 annual meeting."
+  },
+  {
+   "id": "e012",
+   "form": "DEF 14A",
+   "accession": "0001308179-25-000635",
+   "filing_date": "2025-12-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000130817925000635/v-20251208.htm",
+   "quote": "the Board has nominated the following eleven persons to serve as directors for the term beginning at the Annual Meeting on January 27, 2026: Lloyd A. Carney, Kermit R. Crawford, Francisco Javier Fernández-Carbajal, Teri L. List, John F. Lundgren, Ryan McInerney, Denise M. Morrison, Pamela Murphy, William Ready, Linda J. Rendle, and Maynard G. Webb, Jr.",
+   "supports": "The eleven 2026 nominees."
+  },
+  {
+   "id": "e013",
+   "form": "DEF 14A",
+   "accession": "0001308179-25-000635",
+   "filing_date": "2025-12-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000130817925000635/v-20251208.htm",
+   "quote": "affirmatively determined that each of our current non-employee directors (Lloyd A. Carney, Kermit R. Crawford, Francisco Javier Fernández-Carbajal, Ramon Laguarta, Teri L. List, John F. Lundgren, Denise M. Morrison, Pamela Murphy, William Ready, Linda J. Rendle, and Maynard G. Webb, Jr.) is “independent”",
+   "supports": "2026 proxy independence determination for all non-employee directors (incl. Laguarta)."
+  },
+  {
+   "id": "e014",
+   "form": "DEF 14A",
+   "accession": "0001308179-25-000635",
+   "filing_date": "2025-12-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000130817925000635/v-20251208.htm",
+   "quote": "Mr. McInerney, our Chief Executive Officer, is the only director nominee who is not independent",
+   "supports": "McInerney (CEO) is the only non-independent nominee."
+  },
+  {
+   "id": "e015",
+   "form": "DEF 14A",
+   "accession": "0001308179-25-000635",
+   "filing_date": "2025-12-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000130817925000635/v-20251208.htm",
+   "quote": "Mr. Lundgren was unanimously elected as independent Board Chair by the Board.",
+   "supports": "Lundgren is the independent Board Chair."
+  },
+  {
+   "id": "e016",
+   "form": "DEF 14A",
+   "accession": "0001308179-25-000635",
+   "filing_date": "2025-12-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000130817925000635/v-20251208.htm",
+   "quote": "Mr. Ready was appointed to the Board on September 29, 2025.",
+   "supports": "Ready appointed 2025-09-29."
+  },
+  {
+   "id": "e017",
+   "form": "DEF 14A",
+   "accession": "0001308179-25-000635",
+   "filing_date": "2025-12-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000130817925000635/v-20251208.htm",
+   "quote": "Lloyd A. Carney Age: 63 Director Since: June 2015",
+   "supports": "2026 proxy bio: lloyd-carney 'Director Since'."
+  },
+  {
+   "id": "e018",
+   "form": "DEF 14A",
+   "accession": "0001308179-25-000635",
+   "filing_date": "2025-12-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000130817925000635/v-20251208.htm",
+   "quote": "Kermit R. Crawford Age: 66 Director Since: October 2022",
+   "supports": "2026 proxy bio: kermit-crawford 'Director Since'."
+  },
+  {
+   "id": "e019",
+   "form": "DEF 14A",
+   "accession": "0001308179-25-000635",
+   "filing_date": "2025-12-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000130817925000635/v-20251208.htm",
+   "quote": "Francisco Javier Fernández-Carbajal Age: 70 Director Since: October 2007",
+   "supports": "2026 proxy bio: francisco-javier-fernandez-carbajal 'Director Since'."
+  },
+  {
+   "id": "e020",
+   "form": "DEF 14A",
+   "accession": "0001308179-25-000635",
+   "filing_date": "2025-12-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000130817925000635/v-20251208.htm",
+   "quote": "Teri L. List Age: 62 Director Since: April 2022",
+   "supports": "2026 proxy bio: teri-list 'Director Since'."
+  },
+  {
+   "id": "e021",
+   "form": "DEF 14A",
+   "accession": "0001308179-25-000635",
+   "filing_date": "2025-12-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000130817925000635/v-20251208.htm",
+   "quote": "John F. Lundgren Age: 74 Director Since: April 2017 •Board Chair (since January 2024) and Lead Independent Director (April 2019 to January 2024)",
+   "supports": "2026 proxy bio: john-lundgren 'Director Since'."
+  },
+  {
+   "id": "e022",
+   "form": "DEF 14A",
+   "accession": "0001308179-25-000635",
+   "filing_date": "2025-12-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000130817925000635/v-20251208.htm",
+   "quote": "Ryan McInerney Age: 50 Director Since: February 2023 Board Committees: None Career Highlights Visa •Chief Executive Officer, Visa Inc. (since February 2023)",
+   "supports": "2026 proxy bio: ryan-mcinerney 'Director Since'."
+  },
+  {
+   "id": "e023",
+   "form": "DEF 14A",
+   "accession": "0001308179-25-000635",
+   "filing_date": "2025-12-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000130817925000635/v-20251208.htm",
+   "quote": "Denise M. Morrison Age: 71 Director Since: August 2018",
+   "supports": "2026 proxy bio: denise-morrison 'Director Since'."
+  },
+  {
+   "id": "e024",
+   "form": "DEF 14A",
+   "accession": "0001308179-25-000635",
+   "filing_date": "2025-12-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000130817925000635/v-20251208.htm",
+   "quote": "Pamela Murphy Age: 52 Director Since: April 2023",
+   "supports": "2026 proxy bio: pamela-murphy 'Director Since'."
+  },
+  {
+   "id": "e025",
+   "form": "DEF 14A",
+   "accession": "0001308179-25-000635",
+   "filing_date": "2025-12-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000130817925000635/v-20251208.htm",
+   "quote": "William Ready Age: 46 Director Since: September 2025",
+   "supports": "2026 proxy bio: william-ready 'Director Since'."
+  },
+  {
+   "id": "e026",
+   "form": "DEF 14A",
+   "accession": "0001308179-25-000635",
+   "filing_date": "2025-12-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000130817925000635/v-20251208.htm",
+   "quote": "Linda J. Rendle Age: 47 Director Since: November 2020",
+   "supports": "2026 proxy bio: linda-rendle 'Director Since'."
+  },
+  {
+   "id": "e027",
+   "form": "DEF 14A",
+   "accession": "0001308179-25-000635",
+   "filing_date": "2025-12-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000130817925000635/v-20251208.htm",
+   "quote": "Maynard G. Webb, Jr. Age: 70 Director Since: January 2014",
+   "supports": "2026 proxy bio: maynard-webb 'Director Since'."
+  },
+  {
+   "id": "e028",
+   "form": "DEF 14A",
+   "accession": "0001308179-25-000635",
+   "filing_date": "2025-12-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000130817925000635/v-20251208.htm",
+   "quote": "Chair Kermit R. Crawford Committee members Lloyd A. Carney* Kermit R. Crawford, Chair Teri L. List* Linda J. Rendle* *Audit Committee Financial Expert",
+   "supports": "Audit and Risk Committee: Crawford (chair), Carney, List, Rendle.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e029",
+   "form": "DEF 14A",
+   "accession": "0001308179-25-000635",
+   "filing_date": "2025-12-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000130817925000635/v-20251208.htm",
+   "quote": "Committee members Lloyd A. Carney, Chair Francisco Javier Fernández-Carbajal Teri L. List John F. Lundgren Denise M. Morrison Maynard G. Webb, Jr. Meetings in fiscal year 2025: 6",
+   "supports": "Compensation Committee: Carney (chair), Fernández-Carbajal, List, Lundgren, Morrison, Webb.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e030",
+   "form": "DEF 14A",
+   "accession": "0001308179-25-000635",
+   "filing_date": "2025-12-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000130817925000635/v-20251208.htm",
+   "quote": "Committee members Francisco Javier Fernández-Carbajal Ramon Laguarta Pamela Murphy William Ready Maynard G. Webb, Jr., Chair Meetings in fiscal year 2025: 4",
+   "supports": "Finance Committee: Webb (chair), Fernández-Carbajal, Laguarta, Murphy, Ready.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e031",
+   "form": "DEF 14A",
+   "accession": "0001308179-25-000635",
+   "filing_date": "2025-12-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000130817925000635/v-20251208.htm",
+   "quote": "Committee members Ramon Laguarta John F. Lundgren Denise M. Morrison, Chair Pamela Murphy William Ready Linda J. Rendle Meetings in fiscal year 2025: 4",
+   "supports": "Nominating and Corporate Governance Committee: Morrison (chair), Laguarta, Lundgren, Murphy, Ready, Rendle.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e032",
+   "form": "DEF 14A",
+   "accession": "0001308179-25-000635",
+   "filing_date": "2025-12-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000130817925000635/v-20251208.htm",
+   "quote": "Effective January 28, 2025, Lloyd A. Carney was appointed Compensation Committee Chair, Kermit R. Crawford was appointed Audit and Risk Committee Chair, and Denise M. Morrison was appointed Nominating and Corporate Governance Committee Chair.",
+   "supports": "2025 committee chair rotation effective 2025-01-28."
+  },
+  {
+   "id": "e033",
+   "form": "DEF 14A",
+   "accession": "0001308179-25-000635",
+   "filing_date": "2025-12-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000130817925000635/v-20251208.htm",
+   "quote": "Current Public Company Boards: •Grid Dynamics Holdings Inc. (Chairman) •Vertex Pharmaceuticals Public Company Boards in the Past Five Years: None",
+   "supports": "2026 proxy bio: other public company boards for lloyd-carney."
+  },
+  {
+   "id": "e034",
+   "form": "DEF 14A",
+   "accession": "0001308179-25-000635",
+   "filing_date": "2025-12-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000130817925000635/v-20251208.htm",
+   "quote": "Current Public Company Boards: •C.H. Robinson Worldwide, Inc. •The Allstate Corporation Public Company Boards in the Past Five Years: •TransUnion",
+   "supports": "2026 proxy bio: other public company boards for kermit-crawford."
+  },
+  {
+   "id": "e035",
+   "form": "DEF 14A",
+   "accession": "0001308179-25-000635",
+   "filing_date": "2025-12-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000130817925000635/v-20251208.htm",
+   "quote": "Current Public Company Boards: •CEMEX S.A.B. de C.V. •Fomento Economica Mexicano S.A.B. de C.V. (Alternate Director) Public Company Boards in the Past Five Years: •ALFA S.A.B. de C.V. •Fomento Economico Mexicano, S.A.B. de C.V.",
+   "supports": "2026 proxy bio: other public company boards for francisco-javier-fernandez-carbajal."
+  },
+  {
+   "id": "e036",
+   "form": "DEF 14A",
+   "accession": "0001308179-25-000635",
+   "filing_date": "2025-12-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000130817925000635/v-20251208.htm",
+   "quote": "Current Public Company Boards: •Danaher Corporation •Microsoft Corporation •lululemon athletica, inc. Public Company Boards in the Past Five Years: •Double Verify Holdings •Oscar Health, Inc.",
+   "supports": "2026 proxy bio: other public company boards for teri-list."
+  },
+  {
+   "id": "e037",
+   "form": "DEF 14A",
+   "accession": "0001308179-25-000635",
+   "filing_date": "2025-12-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000130817925000635/v-20251208.htm",
+   "quote": "Current Public Company Boards: •Topgolf Callaway Brands Corp (Chairman) Public Company Boards in the Past Five Years: None",
+   "supports": "2026 proxy bio: other public company boards for john-lundgren."
+  },
+  {
+   "id": "e038",
+   "form": "DEF 14A",
+   "accession": "0001308179-25-000635",
+   "filing_date": "2025-12-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000130817925000635/v-20251208.htm",
+   "quote": "Other Public Company Directorships Current Public Company Boards: None Public Company Boards in the Past Five Years: None Educational Background Bachelor’s degree in Finance from the University of Notre Dame",
+   "supports": "2026 proxy bio: other public company boards for ryan-mcinerney."
+  },
+  {
+   "id": "e039",
+   "form": "DEF 14A",
+   "accession": "0001308179-25-000635",
+   "filing_date": "2025-12-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000130817925000635/v-20251208.htm",
+   "quote": "Current Public Company Boards: •MetLife, Inc. •Quest Diagnostics Inc. Public Company Boards in the Past Five Years: None",
+   "supports": "2026 proxy bio: other public company boards for denise-morrison."
+  },
+  {
+   "id": "e040",
+   "form": "DEF 14A",
+   "accession": "0001308179-25-000635",
+   "filing_date": "2025-12-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000130817925000635/v-20251208.htm",
+   "quote": "Current Public Company Boards: •Rockwell Automation, Inc. Public Company Boards in the Past Five Years: •MeridianLink, Inc.",
+   "supports": "2026 proxy bio: other public company boards for pamela-murphy."
+  },
+  {
+   "id": "e041",
+   "form": "DEF 14A",
+   "accession": "0001308179-25-000635",
+   "filing_date": "2025-12-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000130817925000635/v-20251208.htm",
+   "quote": "Current Public Company Boards: •Pinterest, Inc. •Williams-Sonoma, Inc. Other Public Company Boards in the Past Five Years: •Automatic Data Processing, Inc.",
+   "supports": "2026 proxy bio: other public company boards for william-ready."
+  },
+  {
+   "id": "e042",
+   "form": "DEF 14A",
+   "accession": "0001308179-25-000635",
+   "filing_date": "2025-12-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000130817925000635/v-20251208.htm",
+   "quote": "Current Public Company Boards: •The Clorox Company (Chair) Public Company Boards in the Past Five Years: None",
+   "supports": "2026 proxy bio: other public company boards for linda-rendle."
+  },
+  {
+   "id": "e043",
+   "form": "DEF 14A",
+   "accession": "0001308179-25-000635",
+   "filing_date": "2025-12-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000130817925000635/v-20251208.htm",
+   "quote": "Current Public Company Boards: •Salesforce, Inc. •AppLovin Corporation Public Company Boards in the Past Five Years: Yahoo! Inc.",
+   "supports": "2026 proxy bio: other public company boards for maynard-webb."
+  },
+  {
+   "id": "e044",
+   "form": "8-K",
+   "accession": "0001193125-15-221236",
+   "filing_date": "2015-06-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000119312515221236/d941635d8k.htm",
+   "quote": "On June 11, 2015, the Board of Directors (the “Board”) of Visa Inc. (the “Company”), upon recommendation of the Board’s Nominating and Corporate Governance Committee, increased the size of the board from 11 to 12 members and elected Lloyd A. Carney to the Board effective immediately",
+   "supports": "Carney elected effective 2015-06-11; board 11 -> 12."
+  },
+  {
+   "id": "e045",
+   "form": "8-K",
+   "accession": "0001193125-15-221236",
+   "filing_date": "2015-06-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000119312515221236/d941635d8k.htm",
+   "quote": "The Board determined that Mr. Carney will be an independent director within the meaning of the New York Stock Exchange listing standards.",
+   "supports": "Carney independent at appointment."
+  },
+  {
+   "id": "e046",
+   "form": "8-K",
+   "accession": "0001193125-13-452378",
+   "filing_date": "2013-11-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000119312513452378/d633898d8k.htm",
+   "quote": "the Board of Directors nominated Alfred F. Kelly, Jr. and Maynard G. Webb, Jr. for election as directors of the Company at the Annual Meeting. The Board determined that each of Mr. Kelly and Mr. Webb, if elected, will be an independent director",
+   "supports": "Kelly and Webb nominated (2013-11-21) for the 2014 annual meeting; independent if elected."
+  },
+  {
+   "id": "e047",
+   "form": "8-K",
+   "accession": "0001193125-14-026405",
+   "filing_date": "2014-01-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000119312514026405/d663029d8k.htm",
+   "quote": "Visa Inc. (the “Company”) held its Annual Meeting of Stockholders on January 29, 2014",
+   "supports": "2014 annual meeting held 2014-01-29."
+  },
+  {
+   "id": "e048",
+   "form": "8-K",
+   "accession": "0001193125-14-026405",
+   "filing_date": "2014-01-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000119312514026405/d663029d8k.htm",
+   "quote": "Proposal 1: The Company’s stockholders elected eleven directors to the board to serve for a one year term until the 2015 annual meeting of stockholders.",
+   "supports": "Eleven directors elected 2014-01-29 (Kelly and Webb among the nominees listed in the vote table)."
+  },
+  {
+   "id": "e049",
+   "form": "8-K",
+   "accession": "0001193125-14-026405",
+   "filing_date": "2014-01-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000119312514026405/d663029d8k.htm",
+   "quote": "Alfred F. Kelly, Jr. 368,247,269",
+   "supports": "Kelly in the 2014 vote table.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e050",
+   "form": "8-K",
+   "accession": "0001193125-14-026405",
+   "filing_date": "2014-01-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000119312514026405/d663029d8k.htm",
+   "quote": "Maynard G. Webb, Jr. 369,043,797",
+   "supports": "Webb in the 2014 vote table.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e051",
+   "form": "8-K",
+   "accession": "0001403161-16-000047",
+   "filing_date": "2016-10-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316116000047/v8-kitem502.htm",
+   "quote": "On October 17, 2016, the Board elected Alfred F. Kelly, Jr. to serve as the new CEO effective as of December 1, 2016. Mr. Kelly will commence employment with the Company on October 31, 2016 as “CEO Designate” prior to assuming the CEO position on December 1, 2016. Mr. Kelly, age 58, has been a member of the Board since January 2014.",
+   "supports": "Kelly elected CEO effective 2016-12-01; employee from 2016-10-31; director since January 2014."
+  },
+  {
+   "id": "e052",
+   "form": "8-K",
+   "accession": "0001403161-17-000023",
+   "filing_date": "2017-04-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316117000023/visaform8-k502and801april2.htm",
+   "quote": "increased the size of the Board from nine to 10 members and appointed John F. Lundgren to the Board, effective immediately",
+   "supports": "Lundgren appointed 2017-04-18 (8-K dated April 18, 2017); board 9 -> 10."
+  },
+  {
+   "id": "e053",
+   "form": "8-K",
+   "accession": "0001403161-17-000023",
+   "filing_date": "2017-04-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316117000023/visaform8-k502and801april2.htm",
+   "quote": "On April 18, 2017, the Board of Directors (the “Board”) of Visa Inc. (the “Company”), upon the recommendation of the Board’s Nominating and Corporate Governance Committee",
+   "supports": "Board action date 2017-04-18."
+  },
+  {
+   "id": "e054",
+   "form": "8-K",
+   "accession": "0001403161-17-000023",
+   "filing_date": "2017-04-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316117000023/visaform8-k502and801april2.htm",
+   "quote": "The Board determined that Mr. Lundgren is an independent director within the meaning of the New York Stock Exchange listing standards.",
+   "supports": "Lundgren independent at appointment."
+  },
+  {
+   "id": "e055",
+   "form": "8-K",
+   "accession": "0001403161-18-000039",
+   "filing_date": "2018-08-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316118000039/v8-k502.htm",
+   "quote": "On August 2, 2018, the Board of Directors (the “Board”) of Visa Inc. (the “Company”), upon the recommendation of the Board’s Nominating and Corporate Governance Committee, increased the size of the Board from nine to 10 members and appointed Denise M. Morrison to the Board, effective immediately",
+   "supports": "Morrison appointed 2018-08-02; board 9 -> 10."
+  },
+  {
+   "id": "e056",
+   "form": "8-K",
+   "accession": "0001403161-18-000039",
+   "filing_date": "2018-08-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316118000039/v8-k502.htm",
+   "quote": "The Board determined that Ms. Morrison is an independent director within the meaning of the New York Stock Exchange listing standards.",
+   "supports": "Morrison independent at appointment."
+  },
+  {
+   "id": "e057",
+   "form": "8-K",
+   "accession": "0001403161-19-000011",
+   "filing_date": "2019-04-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316119000011/v8-k801.htm",
+   "quote": "On April 16, 2019, the Board of Directors of Visa Inc. unanimously elected Alfred F. Kelly, Jr., Visa’s Chief Executive Officer and a member of the Board, to also serve as Chair of the Board, effective immediately. As Chair, Mr. Kelly succeeds Robert Matschullat, who will continue to serve as a member of the Board and chair of the Board's Finance Committee.",
+   "supports": "Kelly became Chair 2019-04-16, succeeding Matschullat."
+  },
+  {
+   "id": "e058",
+   "form": "8-K",
+   "accession": "0001403161-19-000011",
+   "filing_date": "2019-04-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316119000011/v8-k801.htm",
+   "quote": "The Board also unanimously elected John F. Lundgren as Visa’s Lead Independent Director, effective immediately.",
+   "supports": "Lundgren Lead Independent Director from 2019-04-16."
+  },
+  {
+   "id": "e059",
+   "form": "8-K",
+   "accession": "0001403161-19-000045",
+   "filing_date": "2019-11-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316119000045/v8-k502112019.htm",
+   "quote": "increased the size of the Board from 10 to 11 members and appointed Ramon L. Laguarta to the Board, effective November 20, 2019, for a term that will expire at the Company’s 2020 Annual Meeting of Stockholders.",
+   "supports": "Laguarta appointed effective 2019-11-20 (board acted 2019-11-13); board 10 -> 11."
+  },
+  {
+   "id": "e060",
+   "form": "8-K",
+   "accession": "0001403161-19-000045",
+   "filing_date": "2019-11-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316119000045/v8-k502112019.htm",
+   "quote": "On November 13, 2019, the Board of Directors (the “Board”) of Visa Inc. (the “Company”), upon the recommendation of the Board’s Nominating and Corporate Governance Committee",
+   "supports": "Board action date 2019-11-13."
+  },
+  {
+   "id": "e061",
+   "form": "8-K",
+   "accession": "0001403161-19-000045",
+   "filing_date": "2019-11-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316119000045/v8-k502112019.htm",
+   "quote": "The Board determined that Mr. Laguarta is an independent director within the meaning of the New York Stock Exchange listing standards. Mr. Laguarta has also been appointed to the Board’s Audit and Risk Committee and Nominating and Corporate Governance Committee.",
+   "supports": "Laguarta independent; initial committees ARC and NCGC."
+  },
+  {
+   "id": "e062",
+   "form": "8-K",
+   "accession": "0001403161-20-000074",
+   "filing_date": "2020-11-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316120000074/v-20201118.htm",
+   "quote": "On November 18, 2020, the board of directors (the \"Board\") of Visa Inc. (the \"Company\") upon the recommendation of the Board's Nominating and Corporate Governance Committee, increased the size of the Board from 11 to 12 members and appointed Linda J. Rendle to the Board, effective November 23, 2020",
+   "supports": "Rendle appointed effective 2020-11-23 (board acted 2020-11-18); board 11 -> 12."
+  },
+  {
+   "id": "e063",
+   "form": "8-K",
+   "accession": "0001403161-20-000074",
+   "filing_date": "2020-11-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316120000074/v-20201118.htm",
+   "quote": "The Board determined that Ms. Rendle is an independent director within the meaning of the New York Stock Exchange listing standards.",
+   "supports": "Rendle independent at appointment."
+  },
+  {
+   "id": "e064",
+   "form": "8-K",
+   "accession": "0001403161-22-000020",
+   "filing_date": "2022-04-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316122000020/v-20220411.htm",
+   "quote": "On April 11, 2022, the board of directors (the \"Board\") of Visa Inc. (the \"Company\"), upon the recommendation of the Board's Nominating and Corporate Governance Committee, increased the size of the Board from 10 to 11 members and appointed Teri List to the Board, effective April 11, 2022",
+   "supports": "List appointed effective 2022-04-11; board 10 -> 11."
+  },
+  {
+   "id": "e065",
+   "form": "8-K",
+   "accession": "0001403161-22-000020",
+   "filing_date": "2022-04-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316122000020/v-20220411.htm",
+   "quote": "The Board determined that Ms. List is an independent director within the meaning of the New York Stock Exchange listing standards.",
+   "supports": "List independent at appointment."
+  },
+  {
+   "id": "e066",
+   "form": "8-K",
+   "accession": "0001403161-22-000072",
+   "filing_date": "2022-10-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316122000072/v-20221007.htm",
+   "quote": "On October 7, 2022, the board of directors (the \"Board\") of Visa Inc. (the \"Company\"), upon the recommendation of the Board's Nominating and Corporate Governance Committee, increased the size of the Board from 11 to 12 members and appointed Kermit R. Crawford to the Board, effective October 7, 2022",
+   "supports": "Crawford appointed effective 2022-10-07; board 11 -> 12."
+  },
+  {
+   "id": "e067",
+   "form": "8-K",
+   "accession": "0001403161-22-000072",
+   "filing_date": "2022-10-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316122000072/v-20221007.htm",
+   "quote": "The Board determined that Mr. Crawford is an independent director within the meaning of the New York Stock Exchange listing standards.",
+   "supports": "Crawford independent at appointment."
+  },
+  {
+   "id": "e068",
+   "form": "8-K",
+   "accession": "0000898822-22-000008",
+   "filing_date": "2022-11-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000089882222000008/visa8k1117.htm",
+   "quote": "the Company’s Board of Directors had unanimously elected Ryan McInerney to succeed Alfred F. Kelly, Jr. as the Company’s Chief Executive Officer, effective February 1, 2023. At that time, Mr. Kelly will no longer serve as the Company’s Chief Executive Officer but will continue to serve the Company as Executive Chairman of the Board of Directors.",
+   "supports": "McInerney CEO and Kelly Executive Chairman, both effective 2023-02-01 (announced 2022-11-17)."
+  },
+  {
+   "id": "e069",
+   "form": "8-K",
+   "accession": "0001403161-23-000017",
+   "filing_date": "2023-02-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316123000017/v-20230130.htm",
+   "quote": "On January 30, 2023, the board of directors (the \"Board\") of Visa Inc. (the \"Company\"), upon the recommendation of the Board's Nominating and Corporate Governance Committee, approved an increase in the size of the Board from 10 to 11 members and the appointment of Ryan McInerney to the Board, effective February 1, 2023",
+   "supports": "McInerney appointed to the board effective 2023-02-01 (approved 2023-01-30); board 10 -> 11."
+  },
+  {
+   "id": "e070",
+   "form": "8-K",
+   "accession": "0001403161-23-000017",
+   "filing_date": "2023-02-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316123000017/v-20230130.htm",
+   "quote": "the Board unanimously elected Mr. McInerney to succeed Alfred F. Kelly, Jr. as the Company’s Chief Executive Officer and that Mr. Kelly would continue to serve the Company as Executive Chairman of the Board, both effective February 1, 2023.",
+   "supports": "Confirms CEO and Executive Chairman changes effective 2023-02-01."
+  },
+  {
+   "id": "e071",
+   "form": "8-K",
+   "accession": "0001403161-23-000024",
+   "filing_date": "2023-04-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316123000024/v-20230410.htm",
+   "quote": "On April 10, 2023, the board of directors (the \"Board\") of Visa Inc. (the \"Company\") increased the size of the Board from 11 to 12 members and elected Pam Murphy to the Board, effective April 10, 2023",
+   "supports": "Murphy elected effective 2023-04-10; board 11 -> 12."
+  },
+  {
+   "id": "e072",
+   "form": "8-K",
+   "accession": "0001403161-23-000024",
+   "filing_date": "2023-04-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316123000024/v-20230410.htm",
+   "quote": "The Board determined that Ms. Murphy is an independent director within the meaning of the New York Stock Exchange listing standards.",
+   "supports": "Murphy independent at appointment."
+  },
+  {
+   "id": "e073",
+   "form": "8-K",
+   "accession": "0001403161-23-000087",
+   "filing_date": "2023-10-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316123000087/v-20231016.htm",
+   "quote": "On October 16, 2023, Alfred F. Kelly, Jr., Executive Chairman of Visa Inc. (“Visa”) informed the Nominating and Governance Committee of the Board of Directors (\"Board\") of his intention not to stand for re-election and to retire as Executive Chairman and as a member of the Board on January 23, 2024.",
+   "supports": "Kelly would not stand and would retire from the board on 2024-01-23."
+  },
+  {
+   "id": "e074",
+   "form": "8-K",
+   "accession": "0001403161-23-000087",
+   "filing_date": "2023-10-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316123000087/v-20231016.htm",
+   "quote": "On October 17, 2023, the Board elected John F. Lundgren, Visa’s current Lead Independent Director, to serve as Chair of the Board, effective January 23, 2024, subject to Mr. Lundgren’s re-election to the Board",
+   "supports": "Lundgren elected Chair effective 2024-01-23 (conditional on re-election, which occurred)."
+  },
+  {
+   "id": "e075",
+   "form": "8-K",
+   "accession": "0001403161-25-000064",
+   "filing_date": "2025-09-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000064/v-20250929.htm",
+   "quote": "On September 29, 2025, the board of directors (the \"Board\") of Visa Inc. (the \"Company\") increased the size of the Board from 11 to 12 members and elected Bill Ready to the Board, effective September 29, 2025",
+   "supports": "Ready elected effective 2025-09-29; board 11 -> 12."
+  },
+  {
+   "id": "e076",
+   "form": "8-K",
+   "accession": "0001403161-25-000064",
+   "filing_date": "2025-09-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000064/v-20250929.htm",
+   "quote": "The Board determined that Mr. Ready is an independent director within the meaning of the New York Stock Exchange listing standards. Mr. Ready has also been appointed to the Board's Finance Committee and Nominating and Corporate Governance Committee, effective September 29, 2025.",
+   "supports": "Ready independent; FC and NCGC."
+  },
+  {
+   "id": "e077",
+   "form": "8-K",
+   "accession": "0001403161-20-000005",
+   "filing_date": "2020-01-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316120000005/v8-k507013120.htm",
+   "quote": "The 2020 Annual Meeting of Stockholders of Visa Inc. (the “Company”) was held January 28, 2020",
+   "supports": "2020 annual meeting 2020-01-28."
+  },
+  {
+   "id": "e078",
+   "form": "8-K",
+   "accession": "0001403161-21-000005",
+   "filing_date": "2021-01-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316121000005/v-20210126.htm",
+   "quote": "the Company held its Annual Meeting on January 26, 2021",
+   "supports": "2021 annual meeting 2021-01-26."
+  },
+  {
+   "id": "e079",
+   "form": "8-K",
+   "accession": "0001403161-22-000005",
+   "filing_date": "2022-01-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316122000005/v-20220125.htm",
+   "quote": "The 2022 Annual Meeting of Stockholders of Visa Inc. (the \"Company) was held on January 25, 2022",
+   "supports": "2022 annual meeting 2022-01-25."
+  },
+  {
+   "id": "e080",
+   "form": "8-K",
+   "accession": "0001403161-22-000005",
+   "filing_date": "2022-01-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316122000005/v-20220125.htm",
+   "quote": "Each of the ten nominees were elected to the Company's Board of Directors",
+   "supports": "Ten nominees elected 2022-01-25 (Nora Johnson and Swainson not among them)."
+  },
+  {
+   "id": "e081",
+   "form": "8-K",
+   "accession": "0001403161-23-000008",
+   "filing_date": "2023-01-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316123000008/v-20230124.htm",
+   "quote": "The 2023 Annual Meeting of Stockholders of Visa Inc. (the \"Company\") was held on January 24, 2023",
+   "supports": "2023 annual meeting 2023-01-24."
+  },
+  {
+   "id": "e082",
+   "form": "8-K",
+   "accession": "0001403161-23-000008",
+   "filing_date": "2023-01-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316123000008/v-20230124.htm",
+   "quote": "Each of the ten nominees was elected to the Company's Board of Directors",
+   "supports": "Ten nominees elected 2023-01-24 (Cranston and Matschullat not among them)."
+  },
+  {
+   "id": "e083",
+   "form": "8-K",
+   "accession": "0001403161-24-000005",
+   "filing_date": "2024-01-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316124000005/v-20240123.htm",
+   "quote": "Visa Inc. (the “Company”) held its Annual Meeting of Stockholders on January 23, 2024",
+   "supports": "2024 annual meeting 2024-01-23."
+  },
+  {
+   "id": "e084",
+   "form": "8-K",
+   "accession": "0001403161-24-000005",
+   "filing_date": "2024-01-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316124000005/v-20240123.htm",
+   "quote": "Each of the eleven nominees was elected to the Board by the Company's Class A stockholders",
+   "supports": "Eleven nominees elected 2024-01-23 (Kelly not among them)."
+  },
+  {
+   "id": "e085",
+   "form": "8-K",
+   "accession": "0001403161-25-000010",
+   "filing_date": "2025-01-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000010/v-20250128.htm",
+   "quote": "The 2025 Annual Meeting of Shareholders of Visa Inc. (the “Company”) was held on January 28, 2025",
+   "supports": "2025 annual meeting 2025-01-28."
+  },
+  {
+   "id": "e086",
+   "form": "8-K",
+   "accession": "0001403161-26-000029",
+   "filing_date": "2026-01-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000029/v-20260127.htm",
+   "quote": "Visa Inc. (the “Company”) held its Annual Meeting of Shareholders on January 27, 2026",
+   "supports": "2026 annual meeting 2026-01-27."
+  },
+  {
+   "id": "e087",
+   "form": "8-K",
+   "accession": "0001403161-26-000029",
+   "filing_date": "2026-01-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000029/v-20260127.htm",
+   "quote": "Each of the eleven nominees was elected to the Board, each to hold office until the next annual meeting of shareholders",
+   "supports": "All eleven 2026 nominees elected 2026-01-27 (Laguarta not a nominee)."
+  },
+  {
+   "id": "e088",
+   "form": "8-K",
+   "accession": "0001403161-26-000029",
+   "filing_date": "2026-01-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000029/v-20260127.htm",
+   "quote": "William Ready",
+   "supports": "Ready in the 2026 vote table.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e089",
+   "form": "DEF 14A",
+   "accession": "0001193125-21-346291",
+   "filing_date": "2021-12-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000119312521346291/d184850ddef14a.htm",
+   "quote": "Suzanne Nora Johnson and John A. C. Swainson, members of our Board since October 2007, are not standing for re-election. Accordingly, they are not included as nominees for election at the Annual Meeting.",
+   "supports": "Nora Johnson and Swainson, directors since October 2007, did not stand at the 2022 annual meeting."
+  },
+  {
+   "id": "e090",
+   "form": "DEF 14A",
+   "accession": "0001193125-21-346291",
+   "filing_date": "2021-12-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000119312521346291/d184850ddef14a.htm",
+   "quote": "Effective as of the Annual Meeting, our authorized number of directors will be reduced to ten.",
+   "supports": "Board reduced to ten at the 2022 annual meeting."
+  },
+  {
+   "id": "e091",
+   "form": "DEF 14A",
+   "accession": "0001193125-22-296190",
+   "filing_date": "2022-12-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000119312522296190/d353100ddef14a.htm",
+   "quote": "Suzanne Nora Johnson and John A. C. Swainson, who did not stand for re-election at the 2022 Annual Meeting of Stockholders",
+   "supports": "Confirms Nora Johnson and Swainson did not stand at the 2022 annual meeting."
+  },
+  {
+   "id": "e092",
+   "form": "DEF 14A",
+   "accession": "0001193125-22-296190",
+   "filing_date": "2022-12-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000119312522296190/d353100ddef14a.htm",
+   "quote": "Mary B. Cranston and Robert W. Matschullat, members of our Board since October 2007, are retiring and not standing for re-election.",
+   "supports": "Cranston and Matschullat, directors since October 2007, retiring and not standing at the 2023 annual meeting."
+  },
+  {
+   "id": "e093",
+   "form": "DEF 14A",
+   "accession": "0001193125-22-296190",
+   "filing_date": "2022-12-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000119312522296190/d353100ddef14a.htm",
+   "quote": "The Board thanks Ms. Cranston and Mr. Matschullat for their years of service to Visa. Effective as of the Annual Meeting, our authorized number of directors will be reduced to ten.",
+   "supports": "Board reduced to ten at the 2023 annual meeting."
+  },
+  {
+   "id": "e094",
+   "form": "DEF 14A",
+   "accession": "0001193125-23-290295",
+   "filing_date": "2023-12-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000119312523290295/d440665ddef14a.htm",
+   "quote": "The size of the Board is being decreased to eleven directors as of the election of directors at the Annual Meeting. Each director is elected to serve a one-year term, with all directors subject to annual election. Mr. Kelly announced in October 2023 that he would not stand for re-election at the Annual Meeting.",
+   "supports": "Board 12 -> 11 at the 2024 annual meeting; Kelly did not stand."
+  },
+  {
+   "id": "e095",
+   "form": "DEF 14A",
+   "accession": "0001193125-23-290295",
+   "filing_date": "2023-12-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000119312523290295/d440665ddef14a.htm",
+   "quote": "Our Board currently consists of twelve directors.",
+   "supports": "Board of 12 before the 2024 annual meeting."
+  },
+  {
+   "id": "e096",
+   "form": "DEF 14A",
+   "accession": "0001308179-24-000807",
+   "filing_date": "2024-12-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000130817924000807/v4356611_def14.htm",
+   "quote": "Our Board currently consists of eleven directors, each of whom is nominated for election at our 2025 Annual Meeting",
+   "supports": "Board of 11 at the 2025 proxy (2024-12-09)."
+  },
+  {
+   "id": "e097",
+   "form": "DEF 14A",
+   "accession": "0001193125-21-346291",
+   "filing_date": "2021-12-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000119312521346291/d184850ddef14a.htm",
+   "quote": "affirmatively determined that each of our non-employee directors (Lloyd A. Carney, Mary B. Cranston, Francisco Javier Fernández-Carbajal, Ramon Laguarta, John F. Lundgren, Robert W. Matschullat, Denise M. Morrison, Suzanne Nora Johnson, Linda J. Rendle, John A. C. Swainson and Maynard G. Webb, Jr.) is “independent”",
+   "supports": "October 2021 independence determination (2022 proxy)."
+  },
+  {
+   "id": "e098",
+   "form": "DEF 14A",
+   "accession": "0001193125-22-296190",
+   "filing_date": "2022-12-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000119312522296190/d353100ddef14a.htm",
+   "quote": "affirmatively determined that each of our non-employee directors (Lloyd A. Carney, Mary B. Cranston, Kermit R. Crawford, Francisco Javier Fernández-Carbajal, Ramon Laguarta, Teri L. List, John F. Lundgren, Robert W. Matschullat, Denise M. Morrison, Linda J. Rendle, and Maynard G. Webb, Jr.) is “independent”",
+   "supports": "October 2022 independence determination (2023 proxy)."
+  },
+  {
+   "id": "e099",
+   "form": "DEF 14A",
+   "accession": "0001193125-22-296190",
+   "filing_date": "2022-12-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000119312522296190/d353100ddef14a.htm",
+   "quote": "In addition, the Board previously determined that Suzanne Nora Johnson and John Swainson were “independent” while they served on the Board during fiscal year 2022.",
+   "supports": "Nora Johnson and Swainson independent through their service."
+  },
+  {
+   "id": "e100",
+   "form": "DEF 14A",
+   "accession": "0001193125-21-346291",
+   "filing_date": "2021-12-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000119312521346291/d184850ddef14a.htm",
+   "quote": "Committee members: Lloyd A. Carney*, Chair Ramon Laguarta Denise M. Morrison* Suzanne Nora Johnson* John A. C. Swainson* * Audit Committee Financial Expert",
+   "supports": "2022 proxy ARC: Carney (chair), Laguarta, Morrison, Nora Johnson, Swainson.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e101",
+   "form": "DEF 14A",
+   "accession": "0001193125-21-346291",
+   "filing_date": "2021-12-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000119312521346291/d184850ddef14a.htm",
+   "quote": "Committee members: Mary B. Cranston Ramon Laguarta John F. Lundgren Suzanne Nora Johnson Linda J. Rendle John A. C. Swainson, Chair",
+   "supports": "2022 proxy NCGC: Swainson (chair), Cranston, Laguarta, Lundgren, Nora Johnson, Rendle.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e102",
+   "form": "DEF 14A",
+   "accession": "0001193125-22-296190",
+   "filing_date": "2022-12-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000119312522296190/d353100ddef14a.htm",
+   "quote": "members: Francisco Javier Fernández-Carbajal Teri L. List John F. Lundgren Robert W. Matschullat Denise M. Morrison, Chair",
+   "supports": "2023 proxy Compensation Committee incl. Matschullat.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e103",
+   "form": "DEF 14A",
+   "accession": "0001193125-22-296190",
+   "filing_date": "2022-12-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000119312522296190/d353100ddef14a.htm",
+   "quote": "Committee members: Mary B. Cranston Francisco Javier Fernández-Carbajal Robert W. Matschullat, Chair Linda J. Rendle Maynard G. Webb, Jr.",
+   "supports": "2023 proxy Finance Committee: Matschullat (chair), Cranston and others.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e104",
+   "form": "DEF 14A",
+   "accession": "0001193125-22-296190",
+   "filing_date": "2022-12-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000119312522296190/d353100ddef14a.htm",
+   "quote": "Committee members: Mary B. Cranston Ramon Laguarta John F. Lundgren Linda J. Rendle Maynard G. Webb, Jr., Chair",
+   "supports": "2023 proxy NCGC: Webb (chair), Cranston and others.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e105",
+   "form": "DEF 14A",
+   "accession": "0001193125-19-307055",
+   "filing_date": "2019-12-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000119312519307055/d755432ddef14a.htm",
+   "quote": "Chief Executive Officer, Visa Inc. since December 2016 and Chairman since April 2019",
+   "supports": "Kelly CEO since December 2016, Chairman since April 2019."
+  },
+  {
+   "id": "e106",
+   "form": "DEF 14A",
+   "accession": "0001193125-19-307055",
+   "filing_date": "2019-12-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000119312519307055/d755432ddef14a.htm",
+   "quote": "Lead Independent Director of our Board since April 2019",
+   "supports": "Lundgren LID since April 2019."
+  },
+  {
+   "id": "e107",
+   "form": "DEF 14A",
+   "accession": "0001193125-19-307055",
+   "filing_date": "2019-12-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000119312519307055/d755432ddef14a.htm",
+   "quote": "Independent Chair of our Board from April 2013 to April 2019",
+   "supports": "Matschullat independent Chair April 2013 - April 2019."
+  },
+  {
+   "id": "e108",
+   "form": "DEF 14A",
+   "accession": "0001193125-13-473409",
+   "filing_date": "2013-12-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000119312513473409/d534496ddef14a.htm",
+   "quote": "Accordingly, on April 1, 2013 Robert W. Matschullat, then Chair of the board’s Audit and Risk Committee, became our independent Chair.",
+   "supports": "Matschullat became independent Chair on 2013-04-01."
+  },
+  {
+   "id": "e109",
+   "form": "DEF 14A",
+   "accession": "0001193125-22-296190",
+   "filing_date": "2022-12-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000119312522296190/d353100ddef14a.htm",
+   "quote": "Al Kelly currently serves as Chairman and Chief Executive Officer, and John Lundgren serves as Lead Independent Director.",
+   "supports": "As of 2022-12-01: Kelly Chairman and CEO, Lundgren LID."
+  },
+  {
+   "id": "e110",
+   "form": "DEF 14A",
+   "accession": "0001193125-23-290295",
+   "filing_date": "2023-12-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000119312523290295/d440665ddef14a.htm",
+   "quote": "Mr. Kelly, who is expected to continue to serve the Company as Executive Chairman until he retires as Executive Chairman on January 23, 2024.",
+   "supports": "Kelly Executive Chairman until 2024-01-23."
+  },
+  {
+   "id": "e111",
+   "form": "DEF 14A",
+   "accession": "0001308179-24-000807",
+   "filing_date": "2024-12-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000130817924000807/v4356611_def14.htm",
+   "quote": "Current Public Company Boards: ●PepsiCo, Inc. (Chairman) Previous Public Company Boards: None",
+   "supports": "2025 proxy bio (last bio): Laguarta other public boards."
+  },
+  {
+   "id": "e112",
+   "form": "DEF 14A",
+   "accession": "0001308179-24-000807",
+   "filing_date": "2024-12-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000130817924000807/v4356611_def14.htm",
+   "quote": "Independent Age: 61 Director Since: November 2019 Board Committees: ●Finance Committee ●Nominating and Corporate Governance Committee",
+   "supports": "2025 proxy bio: Laguarta independent, director since November 2019, FC and NCGC."
+  },
+  {
+   "id": "e113",
+   "form": "DEF 14A",
+   "accession": "0001193125-22-296190",
+   "filing_date": "2022-12-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000119312522296190/d353100ddef14a.htm",
+   "quote": "Public Company Directorships: (current) Visa Inc. (prior) MetLife Inc.; Affinion Group Holdings, Inc.; Affinion Group, Inc.",
+   "supports": "2023 proxy bio (last bio): Kelly other public boards (all prior)."
+  },
+  {
+   "id": "e114",
+   "form": "DEF 14A",
+   "accession": "0001193125-21-346291",
+   "filing_date": "2021-12-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000119312521346291/d184850ddef14a.htm",
+   "quote": "Public Company Directorships: (current) The Chemours Company; McAfee Corp.; Visa Inc. (prior) MyoKardia, Inc.; Exponent, Inc.; GrafTech International, Inc.; International Rectifier Corporation; Juniper Networks, Inc.",
+   "supports": "2022 proxy bio (last bio): Cranston other public boards."
+  },
+  {
+   "id": "e115",
+   "form": "DEF 14A",
+   "accession": "0001193125-21-346291",
+   "filing_date": "2021-12-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000119312521346291/d184850ddef14a.htm",
+   "quote": "Public Company Directorships: (current) Visa Inc. (prior) The Clorox Company; The Walt Disney Company; McKesson Corporation; Morgan Stanley & Co. Incorporated; The Seagram Company Limited",
+   "supports": "2022 proxy bio (last bio): Matschullat other public boards (all prior)."
+  },
+  {
+   "id": "e116",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-309539",
+   "filing_date": "2020-12-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000119312520309539/d75661ddef14a.htm",
+   "quote": "Public Company Directorships: (current) Intuit Inc.; Pfizer Inc.; Visa Inc. (prior) American International Group, Inc.",
+   "supports": "2021 proxy bio (last bio): Nora Johnson other public boards."
+  },
+  {
+   "id": "e117",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-309539",
+   "filing_date": "2020-12-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000119312520309539/d75661ddef14a.htm",
+   "quote": "Public Company Directorships: (current) Schneider National, Inc.; Visa Inc. (prior) Assurant Inc.; Broadcom Corporation, CA, Inc.; Cadence Design Systems Inc.",
+   "supports": "2021 proxy bio (last bio): Swainson other public boards."
+  },
+  {
+   "id": "e118",
+   "form": "424B4",
+   "accession": "0001193125-08-060989",
+   "filing_date": "2008-03-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000119312508060989/d424b4.htm",
+   "quote": "Mr. Swainson served as a director of Visa U.S.A. from April 2006 to October 2007.",
+   "supports": "Swainson's earlier seat was on predecessor Visa U.S.A., not Visa Inc."
+  },
+  {
+   "id": "e119",
+   "form": "424B4",
+   "accession": "0001193125-08-060989",
+   "filing_date": "2008-03-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000119312508060989/d424b4.htm",
+   "quote": "Mary B. Cranston has served as a director of Visa Inc. since October 2007.",
+   "supports": "Cranston since October 2007."
+  },
+  {
+   "id": "e120",
+   "form": "424B4",
+   "accession": "0001193125-08-060989",
+   "filing_date": "2008-03-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000119312508060989/d424b4.htm",
+   "quote": "Robert W. Matschullat has served as a director of Visa Inc. since October 2007.",
+   "supports": "Matschullat since October 2007."
+  },
+  {
+   "id": "e121",
+   "form": "424B4",
+   "accession": "0001193125-08-060989",
+   "filing_date": "2008-03-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000119312508060989/d424b4.htm",
+   "quote": "John A. Swainson has served as a director of Visa Inc. since October 2007.",
+   "supports": "Swainson since October 2007."
+  },
+  {
+   "id": "e122",
+   "form": "3",
+   "accession": "0001127602-15-021050",
+   "filing_date": "2015-06-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000112760215021050/form3.xml",
+   "quote": "CARNEY LLOYD",
+   "supports": "Form 3: CARNEY LLOYD (CIK 0001204424) as director; event date 2015-06-11.",
+   "xml_fields": {
+    "rptOwnerCik": "0001204424",
+    "rptOwnerName": "CARNEY LLOYD",
+    "periodOfReport": "2015-06-11"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e123",
+   "form": "3",
+   "accession": "0001127602-22-023862",
+   "filing_date": "2022-10-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000112760222023862/form3.xml",
+   "quote": "Crawford Kermit R",
+   "supports": "Form 3: Crawford Kermit R (CIK 0001341253) as director; event date 2022-10-07.",
+   "xml_fields": {
+    "rptOwnerCik": "0001341253",
+    "rptOwnerName": "Crawford Kermit R",
+    "periodOfReport": "2022-10-07"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e124",
+   "form": "3",
+   "accession": "0001127602-22-011826",
+   "filing_date": "2022-04-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000112760222011826/form3.xml",
+   "quote": "List Teri",
+   "supports": "Form 3: List Teri (CIK 0001529370) as director; event date 2022-04-11.",
+   "xml_fields": {
+    "rptOwnerCik": "0001529370",
+    "rptOwnerName": "List Teri",
+    "periodOfReport": "2022-04-11"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e125",
+   "form": "3",
+   "accession": "0001127602-17-014923",
+   "filing_date": "2017-04-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000112760217014923/form3.xml",
+   "quote": "LUNDGREN JOHN F",
+   "supports": "Form 3: LUNDGREN JOHN F (CIK 0001215250) as director; event date 2017-04-18.",
+   "xml_fields": {
+    "rptOwnerCik": "0001215250",
+    "rptOwnerName": "LUNDGREN JOHN F",
+    "periodOfReport": "2017-04-18"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e126",
+   "form": "3",
+   "accession": "0001127602-18-024749",
+   "filing_date": "2018-08-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000112760218024749/form3.xml",
+   "quote": "MORRISON DENISE M",
+   "supports": "Form 3: MORRISON DENISE M (CIK 0001230166) as director; event date 2018-08-02.",
+   "xml_fields": {
+    "rptOwnerCik": "0001230166",
+    "rptOwnerName": "MORRISON DENISE M",
+    "periodOfReport": "2018-08-02"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e127",
+   "form": "3",
+   "accession": "0001127602-23-012790",
+   "filing_date": "2023-04-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000112760223012790/form3.xml",
+   "quote": "Murphy Pam",
+   "supports": "Form 3: Murphy Pam (CIK 0001778037) as director; event date 2023-04-10.",
+   "xml_fields": {
+    "rptOwnerCik": "0001778037",
+    "rptOwnerName": "Murphy Pam",
+    "periodOfReport": "2023-04-10"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e128",
+   "form": "3",
+   "accession": "0001403161-25-000066",
+   "filing_date": "2025-09-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000066/form3.xml",
+   "quote": "Ready William J",
+   "supports": "Form 3: Ready William J (CIK 0001643573) as director; event date 2025-09-29.",
+   "xml_fields": {
+    "rptOwnerCik": "0001643573",
+    "rptOwnerName": "Ready William J",
+    "periodOfReport": "2025-09-29"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e129",
+   "form": "3",
+   "accession": "0001127602-20-030304",
+   "filing_date": "2020-12-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000112760220030304/form3.xml",
+   "quote": "Rendle Linda J",
+   "supports": "Form 3: Rendle Linda J (CIK 0001682880) as director; event date 2020-11-23.",
+   "xml_fields": {
+    "rptOwnerCik": "0001682880",
+    "rptOwnerName": "Rendle Linda J",
+    "periodOfReport": "2020-11-23"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e130",
+   "form": "3",
+   "accession": "0001127602-14-004893",
+   "filing_date": "2014-02-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000112760214004893/form3.xml",
+   "quote": "WEBB MAYNARD G JR",
+   "supports": "Form 3: WEBB MAYNARD G JR (CIK 0001209189) as director; event date 2014-01-29.",
+   "xml_fields": {
+    "rptOwnerCik": "0001209189",
+    "rptOwnerName": "WEBB MAYNARD G JR",
+    "periodOfReport": "2014-01-29"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e131",
+   "form": "3",
+   "accession": "0001127602-14-004892",
+   "filing_date": "2014-02-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000112760214004892/form3.xml",
+   "quote": "KELLY ALFRED F JR",
+   "supports": "Form 3: KELLY ALFRED F JR (CIK 0001209454) as director; event date 2014-01-29.",
+   "xml_fields": {
+    "rptOwnerCik": "0001209454",
+    "rptOwnerName": "KELLY ALFRED F JR",
+    "periodOfReport": "2014-01-29"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e132",
+   "form": "3",
+   "accession": "0001127602-19-033818",
+   "filing_date": "2019-11-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000112760219033818/form3.xml",
+   "quote": "Laguarta Ramon",
+   "supports": "Form 3: Laguarta Ramon (CIK 0001630253) as director; event date 2019-11-20.",
+   "xml_fields": {
+    "rptOwnerCik": "0001630253",
+    "rptOwnerName": "Laguarta Ramon",
+    "periodOfReport": "2019-11-20"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e133",
+   "form": "3",
+   "accession": "0001181431-08-019841",
+   "filing_date": "2008-03-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000118143108019841/rrd199653.xml",
+   "quote": "Fernandez-Carbajal Francisco Javier",
+   "supports": "IPO-registration Form 3: Fernandez-Carbajal Francisco Javier (CIK 0001427501) as director (not an appointment date).",
+   "xml_fields": {
+    "rptOwnerCik": "0001427501",
+    "rptOwnerName": "Fernandez-Carbajal Francisco Javier",
+    "periodOfReport": "2008-03-18"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e134",
+   "form": "3",
+   "accession": "0001181431-08-019847",
+   "filing_date": "2008-03-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000118143108019847/rrd199647.xml",
+   "quote": "CRANSTON MARY B",
+   "supports": "IPO-registration Form 3: CRANSTON MARY B (CIK 0001104268) as director (not an appointment date).",
+   "xml_fields": {
+    "rptOwnerCik": "0001104268",
+    "rptOwnerName": "CRANSTON MARY B",
+    "periodOfReport": "2008-03-18"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e135",
+   "form": "3",
+   "accession": "0001181431-08-019853",
+   "filing_date": "2008-03-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000118143108019853/rrd199640.xml",
+   "quote": "MATSCHULLAT ROBERT W",
+   "supports": "IPO-registration Form 3: MATSCHULLAT ROBERT W (CIK 0001127780) as director (not an appointment date).",
+   "xml_fields": {
+    "rptOwnerCik": "0001127780",
+    "rptOwnerName": "MATSCHULLAT ROBERT W",
+    "periodOfReport": "2008-03-18"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e136",
+   "form": "3",
+   "accession": "0001181431-08-019857",
+   "filing_date": "2008-03-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000118143108019857/rrd199636.xml",
+   "quote": "Johnson Suzanne Nora",
+   "supports": "IPO-registration Form 3: Johnson Suzanne Nora (CIK 0001427505) as director (not an appointment date).",
+   "xml_fields": {
+    "rptOwnerCik": "0001427505",
+    "rptOwnerName": "Johnson Suzanne Nora",
+    "periodOfReport": "2008-03-18"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e137",
+   "form": "3",
+   "accession": "0001181431-08-019839",
+   "filing_date": "2008-03-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000118143108019839/rrd199656.xml",
+   "quote": "Swainson John A",
+   "supports": "IPO-registration Form 3: Swainson John A (CIK 0001309401) as director (not an appointment date).",
+   "xml_fields": {
+    "rptOwnerCik": "0001309401",
+    "rptOwnerName": "Swainson John A",
+    "periodOfReport": "2008-03-18"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e138",
+   "form": "4",
+   "accession": "0001403161-26-000039",
+   "filing_date": "2026-01-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000039/form4.xml",
+   "quote": "Fernandez-Carbajal Francisco Javier",
+   "supports": "2026 Form 4 (annual director grant at the 2026-01-27 meeting): Fernandez-Carbajal Francisco Javier (CIK 0001427501) files as director.",
+   "xml_fields": {
+    "rptOwnerCik": "0001427501",
+    "rptOwnerName": "Fernandez-Carbajal Francisco Javier",
+    "periodOfReport": "2026-01-27"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e139",
+   "form": "4",
+   "accession": "0001403161-26-000038",
+   "filing_date": "2026-01-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000038/form4.xml",
+   "quote": "Rendle Linda J",
+   "supports": "2026 Form 4 (annual director grant at the 2026-01-27 meeting): Rendle Linda J (CIK 0001682880) files as director.",
+   "xml_fields": {
+    "rptOwnerCik": "0001682880",
+    "rptOwnerName": "Rendle Linda J",
+    "periodOfReport": "2026-01-27"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e140",
+   "form": "4",
+   "accession": "0001403161-26-000037",
+   "filing_date": "2026-01-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000037/form4.xml",
+   "quote": "CARNEY LLOYD",
+   "supports": "2026 Form 4 (annual director grant at the 2026-01-27 meeting): CARNEY LLOYD (CIK 0001204424) files as director.",
+   "xml_fields": {
+    "rptOwnerCik": "0001204424",
+    "rptOwnerName": "CARNEY LLOYD",
+    "periodOfReport": "2026-01-27"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e141",
+   "form": "4",
+   "accession": "0001403161-26-000036",
+   "filing_date": "2026-01-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000036/form4.xml",
+   "quote": "MORRISON DENISE M",
+   "supports": "2026 Form 4 (annual director grant at the 2026-01-27 meeting): MORRISON DENISE M (CIK 0001230166) files as director.",
+   "xml_fields": {
+    "rptOwnerCik": "0001230166",
+    "rptOwnerName": "MORRISON DENISE M",
+    "periodOfReport": "2026-01-27"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e142",
+   "form": "4",
+   "accession": "0001403161-26-000035",
+   "filing_date": "2026-01-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000035/form4.xml",
+   "quote": "List Teri",
+   "supports": "2026 Form 4 (annual director grant at the 2026-01-27 meeting): List Teri (CIK 0001529370) files as director.",
+   "xml_fields": {
+    "rptOwnerCik": "0001529370",
+    "rptOwnerName": "List Teri",
+    "periodOfReport": "2026-01-27"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e143",
+   "form": "4",
+   "accession": "0001403161-26-000034",
+   "filing_date": "2026-01-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000034/form4.xml",
+   "quote": "Crawford Kermit R",
+   "supports": "2026 Form 4 (annual director grant at the 2026-01-27 meeting): Crawford Kermit R (CIK 0001341253) files as director.",
+   "xml_fields": {
+    "rptOwnerCik": "0001341253",
+    "rptOwnerName": "Crawford Kermit R",
+    "periodOfReport": "2026-01-27"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e144",
+   "form": "4",
+   "accession": "0001403161-26-000033",
+   "filing_date": "2026-01-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000033/form4.xml",
+   "quote": "LUNDGREN JOHN F",
+   "supports": "2026 Form 4 (annual director grant at the 2026-01-27 meeting): LUNDGREN JOHN F (CIK 0001215250) files as director.",
+   "xml_fields": {
+    "rptOwnerCik": "0001215250",
+    "rptOwnerName": "LUNDGREN JOHN F",
+    "periodOfReport": "2026-01-27"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e145",
+   "form": "4",
+   "accession": "0001403161-26-000032",
+   "filing_date": "2026-01-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000032/form4.xml",
+   "quote": "Murphy Pam",
+   "supports": "2026 Form 4 (annual director grant at the 2026-01-27 meeting): Murphy Pam (CIK 0001778037) files as director.",
+   "xml_fields": {
+    "rptOwnerCik": "0001778037",
+    "rptOwnerName": "Murphy Pam",
+    "periodOfReport": "2026-01-27"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e146",
+   "form": "4",
+   "accession": "0001403161-26-000031",
+   "filing_date": "2026-01-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000031/form4.xml",
+   "quote": "WEBB MAYNARD G JR",
+   "supports": "2026 Form 4 (annual director grant at the 2026-01-27 meeting): WEBB MAYNARD G JR (CIK 0001209189) files as director.",
+   "xml_fields": {
+    "rptOwnerCik": "0001209189",
+    "rptOwnerName": "WEBB MAYNARD G JR",
+    "periodOfReport": "2026-01-27"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e147",
+   "form": "4",
+   "accession": "0001403161-26-000030",
+   "filing_date": "2026-01-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000030/form4.xml",
+   "quote": "Ready William J",
+   "supports": "2026 Form 4 (annual director grant at the 2026-01-27 meeting): Ready William J (CIK 0001643573) files as director.",
+   "xml_fields": {
+    "rptOwnerCik": "0001643573",
+    "rptOwnerName": "Ready William J",
+    "periodOfReport": "2026-01-27"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e148",
+   "form": "4",
+   "accession": "0001403161-26-000123",
+   "filing_date": "2026-10-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000123/form4.xml",
+   "quote": "MCINERNEY RYAN",
+   "supports": "2026 Form 4: McInerney (CIK 0001578261) director and CEO.",
+   "xml_fields": {
+    "rptOwnerCik": "0001578261",
+    "rptOwnerName": "MCINERNEY RYAN",
+    "periodOfReport": "2026-10-01"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": "Chief Executive Officer"
+   }
+  },
+  {
+   "id": "e149",
+   "form": "4",
+   "accession": "0001127602-22-002323",
+   "filing_date": "2022-01-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000112760222002323/form4.xml",
+   "quote": "NORA JOHNSON SUZANNE M",
+   "supports": "Last-period Form 4: NORA JOHNSON SUZANNE M (CIK 0001310264) as director; period 2022-01-25.",
+   "xml_fields": {
+    "rptOwnerCik": "0001310264",
+    "rptOwnerName": "NORA JOHNSON SUZANNE M",
+    "periodOfReport": "2022-01-25"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e150",
+   "form": "4",
+   "accession": "0001127602-22-002324",
+   "filing_date": "2022-01-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000112760222002324/form4.xml",
+   "quote": "Swainson John A",
+   "supports": "Last-period Form 4: Swainson John A (CIK 0001309401) as director; period 2022-01-25.",
+   "xml_fields": {
+    "rptOwnerCik": "0001309401",
+    "rptOwnerName": "Swainson John A",
+    "periodOfReport": "2022-01-25"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e151",
+   "form": "4",
+   "accession": "0001127602-23-002385",
+   "filing_date": "2023-01-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000112760223002385/form4.xml",
+   "quote": "CRANSTON MARY B",
+   "supports": "Last-period Form 4: CRANSTON MARY B (CIK 0001104268) as director; period 2023-01-24.",
+   "xml_fields": {
+    "rptOwnerCik": "0001104268",
+    "rptOwnerName": "CRANSTON MARY B",
+    "periodOfReport": "2023-01-24"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e152",
+   "form": "4",
+   "accession": "0001127602-23-002376",
+   "filing_date": "2023-01-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000112760223002376/form4.xml",
+   "quote": "MATSCHULLAT ROBERT W",
+   "supports": "Last-period Form 4: MATSCHULLAT ROBERT W (CIK 0001127780) as director; period 2023-01-24.",
+   "xml_fields": {
+    "rptOwnerCik": "0001127780",
+    "rptOwnerName": "MATSCHULLAT ROBERT W",
+    "periodOfReport": "2023-01-24"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e153",
+   "form": "4",
+   "accession": "0001127602-25-002321",
+   "filing_date": "2025-01-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000112760225002321/form4.xml",
+   "quote": "Laguarta Ramon",
+   "supports": "Last-period Form 4: Laguarta Ramon (CIK 0001630253) as director; period 2025-01-28.",
+   "xml_fields": {
+    "rptOwnerCik": "0001630253",
+    "rptOwnerName": "Laguarta Ramon",
+    "periodOfReport": "2025-01-28"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e154",
+   "form": "4",
+   "accession": "0001127602-24-001342",
+   "filing_date": "2024-01-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000112760224001342/form4.xml",
+   "quote": "KELLY ALFRED F JR",
+   "supports": "Form 4: Kelly (CIK 0001209454) director and Executive Chairman, period 2024-01-15.",
+   "xml_fields": {
+    "rptOwnerCik": "0001209454",
+    "rptOwnerName": "KELLY ALFRED F JR",
+    "periodOfReport": "2024-01-15"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": "EXECUTIVE CHAIRMAN"
+   }
+  },
+  {
+   "id": "e155",
+   "form": "DEF 14A",
+   "accession": "0001193125-10-278940",
+   "filing_date": "2010-12-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000119312510278940/ddef14a.htm",
+   "quote": "John A. Swainson has served as our Lead Director since October 2007.",
+   "supports": "Swainson Lead Director since October 2007 (2011 proxy)."
+  },
+  {
+   "id": "e156",
+   "form": "DEF 14A",
+   "accession": "0001193125-13-473409",
+   "filing_date": "2013-12-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000119312513473409/d534496ddef14a.htm",
+   "quote": "Effective upon this appointment, the term of our independent Lead Director, John A. C. Swainson, concluded.",
+   "supports": "Swainson's Lead Director term ended 2013-04-01 when Matschullat became independent Chair."
+  },
+  {
+   "id": "e157",
+   "form": "8-K",
+   "accession": "0001403161-19-000011",
+   "filing_date": "2019-04-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316119000011/vex99104192019.htm",
+   "quote": "today announced that its Board of Directors has unanimously elected Alfred F. Kelly, Jr. as Chair of the Board, effective as of April 16, 2019.",
+   "supports": "Press release: Kelly Chair effective 2019-04-16."
+  },
+  {
+   "id": "e158",
+   "form": "424B4",
+   "accession": "0001193125-08-060989",
+   "filing_date": "2008-03-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000119312508060989/d424b4.htm",
+   "quote": "Suzanne Nora Johnson has served as a director of Visa",
+   "supports": "Prospectus bio: Nora Johnson a director of Visa Inc. (since October 2007, per later proxies)."
+  },
+  {
+   "id": "e159",
+   "form": "DEF 14A",
+   "accession": "0001193125-19-307055",
+   "filing_date": "2019-12-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000119312519307055/d755432ddef14a.htm",
+   "quote": "Served on the board of directors of The Walt Disney Company from 2002 to 2018, McKesson Corporation from 2002 to 2007, and Morgan Stanley from 1992 to 1995",
+   "supports": "2020 proxy bio: Matschullat's dated former boards."
+  }
+ ],
+ "conflicts": [
+  {
+   "description": "Suzanne Nora Johnson has two SEC reporting-owner CIKs. Her 2008 Visa Form 3 was filed under CIK 0001427505 ('Johnson Suzanne Nora'), but her 2021-2022 Visa Forms 4 use CIK 0001310264 ('NORA JOHNSON SUZANNE M'), the same CIK as in the NVIDIA seed. Kept 0001310264 as sec_cik so she matches across companies; the older name form is kept as an alias.",
+   "evidence_refs": [
+    "e136",
+    "e149"
+   ]
+  },
+  {
+   "description": "Exact day the 2007 directors were seated. The 8-K says the board was increased to 18 'immediately prior to the closing of the restructuring on October 1, 2007', but the same 8-K says the restructuring was consummated over October 1-3, 2007, and the prospectus and proxies give only 'October 2007'. Kept 2007-10-01 for Fernández-Carbajal, Cranston, Matschullat, Nora Johnson and Swainson.",
+   "evidence_refs": [
+    "e006",
+    "e005",
+    "e002",
+    "e019"
+   ]
+  },
+  {
+   "description": "Board-size gaps before 2019. The 2015 8-K takes the board from 11 to 12 for Carney, but the 2017 and 2018 8-Ks each start from nine. The pre-2019 departures behind the drop (e.g., Charles Scharf's resignation effective 2016-12-01 and Gary Hoffman's 2018-03-29 resignation) are out of scope and not recorded, so only disclosed size changes appear as events.",
+   "evidence_refs": [
+    "e044",
+    "e052",
+    "e055",
+    "e051"
+   ]
+  }
+ ],
+ "open_questions": [
+  "Committee assignments after the 2026-01-27 annual meeting are not disclosed. Laguarta's seats on the Finance and Nominating committees ended with his departure, and no filing through 2026-10-02 reports any reassignment. The next proxy (expected December 2026) should settle this.",
+  "When Al Kelly stopped being independent is not stated. His independent span ends, and his non-independent span starts, on 2016-10-31, the day he became an employee as CEO Designate (CEO from 2016-12-01). Both are medium confidence.",
+  "Swainson's Lead Director start is month precision ('since October 2007'); no filing gives a day.",
+  "The year the board was declassified was not researched. It was classified (Classes I-III) at the 2007 restructuring; every director now stands for annual election.",
+  "Pre-2020 departures (e.g., Gary Coughlan in 2014, Charles Scharf in 2016, Gary Hoffman in 2018, and the 2007-era regional directors) are out of scope and not recorded.",
+  "Independence roles are aligned to board tenure. The filings give point-in-time determinations only (appointment 8-Ks and each proxy).",
+  "Other-board lists come from Visa's own bios as of each director's latest Visa proxy and are not checked against other issuers' filings. For departed directors the status is as of that older proxy."
+ ],
+ "coverage": [
+  {
+   "scope": "current_board",
+   "period_start": "2026-10-04",
+   "period_end": "2026-10-04",
+   "level": "complete",
+   "method": "Roster checked against the 2026 DEF 14A (filed 2025-12-08), the 2026-01-27 Item 5.07 results (all 11 nominees elected), and every 8-K filed after the proxy through 2026-10-02 (none has Item 5.02; the 5.03 and 8.01 filings read). All ten non-employee directors filed 2026-01-27 Forms 4 as directors and McInerney filed Forms 4 as director and CEO through 2026-10-01. Board size of 11 reconciles with every disclosed change."
+  },
+  {
+   "scope": "board_history",
+   "period_start": "2020-01-01",
+   "period_end": "2026-10-04",
+   "level": "complete",
+   "method": "Every DEF 14A from 2019-12 to 2025-12 and every 8-K with Item 5.02 or 5.07 from 2019 to 2026 reviewed. Annual-meeting slates compared year over year, and board size reconciled across each join and departure (11 on 2020-01-01; 11 now). Departures dated from the Item 5.07 meeting date (all six did not stand)."
+  },
+  {
+   "scope": "board_history",
+   "period_start": "2007-10-01",
+   "period_end": "2019-12-31",
+   "level": "partial",
+   "method": "Pre-2020 seats only for directors serving in 2020 or later, reconstructed from the October 2007 restructuring 8-K, the IPO prospectus, appointment 8-Ks, Forms 3 and proxies. Other pre-2020 directors are not recorded."
+  }
+ ]
+}

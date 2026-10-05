@@ -1,0 +1,3856 @@
+{
+ "company": {
+  "cik": "0001108524",
+  "ticker": "CRM",
+  "legal_name": "Salesforce, Inc.",
+  "common_name": "Salesforce",
+  "exchange": "New York Stock Exchange",
+  "ipo_date": "2004-06-23",
+  "state_of_incorporation": "Delaware",
+  "incorporated": "February 1999 (Delaware)",
+  "classified_board": false,
+  "notes": "Incorporated in Delaware in February 1999 as salesforce.com, inc.; EDGAR shows the current name Salesforce, Inc. from 2022. The IPO prospectus (424B1) was filed 2004-06-23 and the 10-K says the stock has traded on the NYSE as CRM since June 23, 2004. The board was classified at the IPO and declassified as of the 2015 annual meeting (one-year terms). Marc Benioff is Chair and CEO; an independent Lead Independent Director (Arnold Donald since 2025-03-21) is elected by the independent directors.",
+  "evidence_refs": [
+   "e001",
+   "e002",
+   "e006",
+   "e007"
+  ]
+ },
+ "as_of": "2026-10-04",
+ "sources_reviewed_through": "2026-09-23 (latest filing in the EDGAR submissions feed fetched 2026-10-05 UTC)",
+ "people": [
+  {
+   "key": "marc-benioff",
+   "full_name": "Marc Benioff",
+   "aliases": [
+    "Benioff Marc"
+   ],
+   "sec_cik": "0001294693",
+   "bio_other_public_boards": []
+  },
+  {
+   "key": "laura-alber",
+   "full_name": "Laura Alber",
+   "aliases": [
+    "ALBER LAURA",
+    "Alber Laura"
+   ],
+   "sec_cik": "0001225922",
+   "bio_other_public_boards": [
+    {
+     "company": "Williams-Sonoma, Inc.",
+     "status": "current",
+     "years": "since 2010",
+     "source_ref": "e041",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Fitbit, Inc.",
+     "status": "former",
+     "years": "2016 - 2021",
+     "source_ref": "e041",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "amy-chang",
+   "full_name": "Amy Chang",
+   "aliases": [
+    "Chang Amy"
+   ],
+   "sec_cik": "0001551504",
+   "bio_other_public_boards": [
+    {
+     "company": "The Procter & Gamble Company",
+     "status": "current",
+     "years": "since 2017",
+     "source_ref": "e042",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "The Walt Disney Company",
+     "status": "current",
+     "years": "since 2021",
+     "source_ref": "e042",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Cisco Systems, Inc.",
+     "status": "former",
+     "years": "2016 - 2018",
+     "source_ref": "e042",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Marqeta, Inc.",
+     "status": "former",
+     "years": "2021 - 2022",
+     "source_ref": "e042",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "craig-conway",
+   "full_name": "Craig A. Conway",
+   "aliases": [
+    "Craig Conway",
+    "Conway Craig"
+   ],
+   "sec_cik": "0001340922",
+   "bio_other_public_boards": [
+    {
+     "company": "Paylocity Holding Corporation",
+     "status": "current",
+     "years": "since 2024",
+     "source_ref": "e043",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Nutanix, Inc.",
+     "status": "current",
+     "years": "since 2017",
+     "source_ref": "e043",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Guidewire Software",
+     "status": "former",
+     "years": "2010 - 2019 (Executive Chairman 2010 - 2014; Chairman 2014 - 2017)",
+     "source_ref": "e043",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "arnold-donald",
+   "full_name": "Arnold Donald",
+   "aliases": [
+    "DONALD ARNOLD W",
+    "Donald Arnold W"
+   ],
+   "sec_cik": "0001083206",
+   "bio_other_public_boards": [
+    {
+     "company": "GE Vernova",
+     "status": "current",
+     "years": "since 2023",
+     "source_ref": "e044",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "MP Materials Corp",
+     "status": "current",
+     "years": "since 2023",
+     "source_ref": "e044",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Bank of America Corp",
+     "status": "current",
+     "years": "since 2013",
+     "source_ref": "e044",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Carnival Corporation & plc",
+     "status": "former",
+     "years": "2001 - 2022 (Vice Chair 2022)",
+     "source_ref": "e044",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Crown Holdings, Inc.",
+     "status": "former",
+     "years": "1999 - 2019",
+     "source_ref": "e044",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "parker-harris",
+   "full_name": "Parker Harris",
+   "aliases": [
+    "Harris Parker"
+   ],
+   "sec_cik": "0001294774",
+   "bio_other_public_boards": []
+  },
+  {
+   "key": "david-kirk",
+   "full_name": "David B. Kirk",
+   "aliases": [
+    "David Kirk",
+    "Kirk David Blair",
+    "David Blair Kirk"
+   ],
+   "sec_cik": "0002077892",
+   "bio_other_public_boards": []
+  },
+  {
+   "key": "neelie-kroes",
+   "full_name": "Neelie Kroes",
+   "aliases": [
+    "KROES NEELIE",
+    "Kroes Neelie"
+   ],
+   "sec_cik": "0001202423",
+   "bio_other_public_boards": []
+  },
+  {
+   "key": "sachin-mehra",
+   "full_name": "Sachin Mehra",
+   "aliases": [
+    "SACHIN J. MEHRA",
+    "Sachin J. Mehra",
+    "Mehra Sachin"
+   ],
+   "sec_cik": "0001427531",
+   "bio_other_public_boards": []
+  },
+  {
+   "key": "mason-morfit",
+   "full_name": "G. Mason Morfit",
+   "aliases": [
+    "Mason Morfit",
+    "Morfit G Mason"
+   ],
+   "sec_cik": "0001325920",
+   "bio_other_public_boards": [
+    {
+     "company": "Microsoft Corporation",
+     "status": "former",
+     "years": "2014 - 2017",
+     "source_ref": "e045",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Valeant Pharmaceuticals",
+     "status": "former",
+     "years": "2007 - 2014; 2015 - 2016",
+     "source_ref": "e045",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "oscar-munoz",
+   "full_name": "Oscar Munoz",
+   "aliases": [
+    "MUNOZ OSCAR",
+    "Munoz Oscar"
+   ],
+   "sec_cik": "0001237371",
+   "bio_other_public_boards": [
+    {
+     "company": "Archer Aviation Inc.",
+     "status": "current",
+     "years": "since 2021",
+     "source_ref": "e046",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "CBRE Group, Inc.",
+     "status": "former",
+     "years": "2020 - 2025",
+     "source_ref": "e046",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "United Airlines Holdings, Inc.",
+     "status": "former",
+     "years": "2010 - 2021 (Chairman 2020 - 2021)",
+     "source_ref": "e046",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "john-roos",
+   "full_name": "John V. Roos",
+   "aliases": [
+    "John Roos",
+    "Roos John Victor",
+    "John Victor Roos"
+   ],
+   "sec_cik": "0001586704",
+   "bio_other_public_boards": [
+    {
+     "company": "Rakuten Group, Inc.",
+     "status": "former",
+     "years": "2021 - 2023",
+     "source_ref": "e047",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Sony Corporation",
+     "status": "former",
+     "years": "2014 - 2020",
+     "source_ref": "e047",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "robin-washington",
+   "full_name": "Robin Washington",
+   "aliases": [
+    "Robin L. Washington",
+    "Washington Robin L"
+   ],
+   "sec_cik": "0001327145",
+   "bio_other_public_boards": [
+    {
+     "company": "Alphabet Inc.",
+     "status": "current",
+     "years": "since 2019",
+     "source_ref": "e048",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Honeywell International, Inc.",
+     "status": "former",
+     "years": "2013 - 2025",
+     "source_ref": "e048",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Vertiv Holdings Co.",
+     "status": "former",
+     "years": "2020 - 2025",
+     "source_ref": "e048",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "maynard-webb",
+   "full_name": "Maynard Webb",
+   "aliases": [
+    "WEBB MAYNARD G JR",
+    "Webb Maynard G Jr"
+   ],
+   "sec_cik": "0001209189",
+   "bio_other_public_boards": [
+    {
+     "company": "AppLovin Corporation",
+     "status": "current",
+     "years": "since 2025 (as of the 2025 proxy)",
+     "source_ref": "e058",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Visa Inc.",
+     "status": "current",
+     "years": "since 2014 (as of the 2025 proxy)",
+     "source_ref": "e058",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Yahoo! Inc.",
+     "status": "former",
+     "years": "2012 - 2017 (Chairman 2013 - 2017)",
+     "source_ref": "e058",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "keith-block",
+   "full_name": "Keith Block",
+   "aliases": [
+    "BLOCK KEITH",
+    "Block Keith"
+   ],
+   "sec_cik": "0001205003",
+   "bio_other_public_boards": []
+  },
+  {
+   "key": "colin-powell",
+   "full_name": "Colin Powell",
+   "aliases": [
+    "General Colin Powell",
+    "Powell Colin"
+   ],
+   "sec_cik": "0001603044",
+   "bio_other_public_boards": [
+    {
+     "company": "Bloom Energy Corporation",
+     "status": "current",
+     "years": "not stated (current as of the 2021 proxy)",
+     "source_ref": "e095",
+     "public_company_stated_in_source": false
+    }
+   ]
+  },
+  {
+   "key": "bret-taylor",
+   "full_name": "Bret Taylor",
+   "aliases": [
+    "Taylor Bret Steven",
+    "Bret Steven Taylor"
+   ],
+   "sec_cik": "0001610312",
+   "bio_other_public_boards": [
+    {
+     "company": "Twitter, Inc.",
+     "status": "current",
+     "years": "not stated (Chairman; current as of the 2022 proxy)",
+     "source_ref": "e086",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Axon Enterprise, Inc. (formerly TASER International, Inc.)",
+     "status": "former",
+     "years": "not stated (within the five years before the 2022 proxy)",
+     "source_ref": "e086",
+     "public_company_stated_in_source": false
+    }
+   ]
+  },
+  {
+   "key": "alan-hassenfeld",
+   "full_name": "Alan Hassenfeld",
+   "aliases": [
+    "HASSENFELD ALAN G",
+    "Alan G. Hassenfeld"
+   ],
+   "sec_cik": "0000916371",
+   "bio_other_public_boards": [
+    {
+     "company": "Hasbro, Inc.",
+     "status": "former",
+     "years": "1978 - 2021",
+     "source_ref": "e087",
+     "public_company_stated_in_source": false,
+     "note": "2022 proxy calls Hasbro 'a publicly traded company' only in the qualifications paragraph"
+    }
+   ]
+  },
+  {
+   "key": "sanford-robertson",
+   "full_name": "Sanford R. Robertson",
+   "aliases": [
+    "Sanford Robertson",
+    "ROBERTSON SANFORD"
+   ],
+   "sec_cik": "0001250105",
+   "bio_other_public_boards": [
+    {
+     "company": "Cassava Sciences, Inc.",
+     "status": "current",
+     "years": "not stated (current as of the 2022 proxy)",
+     "source_ref": "e088",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "RPX Corporation",
+     "status": "former",
+     "years": "not stated (within the five years before the 2022 proxy)",
+     "source_ref": "e088",
+     "public_company_stated_in_source": false
+    }
+   ]
+  },
+  {
+   "key": "susan-wojcicki",
+   "full_name": "Susan Wojcicki",
+   "aliases": [
+    "Wojcicki Susan"
+   ],
+   "sec_cik": "0001519786",
+   "bio_other_public_boards": []
+  }
+ ],
+ "memberships": [
+  {
+   "person_key": "marc-benioff",
+   "start_date": "1999-02",
+   "start_date_precision": "month",
+   "start_date_basis": "IPO prospectus: co-founded February 1999 and Chairman 'since inception' (company incorporated February 1999)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e003",
+    "e002",
+    "e008",
+    "e030",
+    "e052",
+    "e115"
+   ],
+   "board_class": null,
+   "notes": "Co-founder; Chair since inception and CEO since November 2001. No filing gives the day his board service began. Declassified board, so no class."
+  },
+  {
+   "person_key": "laura-alber",
+   "start_date": "2021-11-30",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 appointment effective date (Form 3 event date agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e091",
+    "e117",
+    "e084",
+    "e009",
+    "e116"
+   ],
+   "board_class": null,
+   "notes": "Re-elected annually since 2022."
+  },
+  {
+   "person_key": "amy-chang",
+   "start_date": "2025-07-09",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 appointment effective date (Form 3 event date agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e059",
+    "e119",
+    "e024",
+    "e010",
+    "e118"
+   ],
+   "board_class": null,
+   "notes": "Appointed between annual meetings; first elected by stockholders 2026-05-28."
+  },
+  {
+   "person_key": "craig-conway",
+   "start_date": "2005-10-06",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 appointment date (Form 3 event date agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e113",
+    "e121",
+    "e011",
+    "e120"
+   ],
+   "board_class": null,
+   "notes": "Appointed as a Class I director in 2005; the board was declassified at the 2015 annual meeting."
+  },
+  {
+   "person_key": "arnold-donald",
+   "start_date": "2023-03-01",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 appointment effective date (Form 3 event date agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e068",
+    "e123",
+    "e012",
+    "e122"
+   ],
+   "board_class": null,
+   "notes": "Joined in the 2023 board refresh; Lead Independent Director since 2025-03-21."
+  },
+  {
+   "person_key": "parker-harris",
+   "start_date": "2018-08-07",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 election effective date",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e102",
+    "e013",
+    "e124"
+   ],
+   "board_class": null,
+   "notes": "Co-founder and executive. Already a Section 16 officer when he joined the board, so no director Form 3."
+  },
+  {
+   "person_key": "david-kirk",
+   "start_date": "2025-07-09",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 appointment effective date (Form 3 event date agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e059",
+    "e126",
+    "e024",
+    "e014",
+    "e125"
+   ],
+   "board_class": null,
+   "notes": "Former NVIDIA Chief Scientist; first elected by stockholders 2026-05-28."
+  },
+  {
+   "person_key": "neelie-kroes",
+   "start_date": "2016-05-01",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 appointment effective date (Form 3 event date agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e103",
+    "e128",
+    "e015",
+    "e127"
+   ],
+   "board_class": null,
+   "notes": "Appointment approved 2016-03-16, effective 2016-05-01."
+  },
+  {
+   "person_key": "sachin-mehra",
+   "start_date": "2023-03-01",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 appointment effective date (Form 3 event date agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e068",
+    "e130",
+    "e016",
+    "e129"
+   ],
+   "board_class": null,
+   "notes": "Audit & Finance Committee chair and financial expert (2026 proxy)."
+  },
+  {
+   "person_key": "mason-morfit",
+   "start_date": "2023-03-01",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 appointment effective date (Form 3 event date agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e068",
+    "e069",
+    "e132",
+    "e017",
+    "e040",
+    "e050",
+    "e131"
+   ],
+   "board_class": null,
+   "notes": "ValueAct designee under the 2023-01-27 Nomination and Cooperation Agreement. No 2026 Form 4 found (he waives director equity grants); current status rests on his re-election on 2026-05-28."
+  },
+  {
+   "person_key": "oscar-munoz",
+   "start_date": "2022-01-01",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 appointment effective date (Form 3 event date agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e091",
+    "e134",
+    "e085",
+    "e018",
+    "e133"
+   ],
+   "board_class": null,
+   "notes": "Announced 2021-11-30, effective 2022-01-01. Previously on the Salesforce Global Advisory Board (Dec 2020 to Dec 2021)."
+  },
+  {
+   "person_key": "john-roos",
+   "start_date": "2013-09-10",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 appointment date (Form 3 event date agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e108",
+    "e136",
+    "e019",
+    "e135"
+   ],
+   "board_class": null,
+   "notes": "Nominating & Corporate Governance chair since 2025-03-21."
+  },
+  {
+   "person_key": "robin-washington",
+   "start_date": "2013-09-10",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 appointment date (Form 3 event date agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e108",
+    "e138",
+    "e020",
+    "e054",
+    "e051",
+    "e137"
+   ],
+   "board_class": null,
+   "notes": "Independent director and (from September 2022) Lead Independent Director until 2025-03-21, when she became President and Chief Operating & Financial Officer while staying on the board."
+  },
+  {
+   "person_key": "maynard-webb",
+   "start_date": "2006-09-07",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 appointment date (Form 3 event date agrees)",
+   "end_date": "2026-05-28",
+   "end_date_precision": "day",
+   "end_reason": "did_not_stand",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e111",
+    "e140",
+    "e023",
+    "e049",
+    "e139"
+   ],
+   "board_class": null,
+   "notes": "Did not stand for re-election at the 2026 annual meeting (2026-05-28); the 2026 proxy says his service ceases as of that meeting and he is absent from the Item 5.07 results. No 8-K Item 5.02 announced the decision."
+  },
+  {
+   "person_key": "keith-block",
+   "start_date": "2013-06-06",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 election date (Form 3 event date agrees)",
+   "end_date": "2020-02-24",
+   "end_date_precision": "day",
+   "end_reason": "resigned",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e109",
+    "e110",
+    "e142",
+    "e100",
+    "e099",
+    "e096",
+    "e141"
+   ],
+   "board_class": null,
+   "notes": "Joined as President and Vice Chairman; COO from 2016-02-01; co-CEO from 2018-08-07. Resigned as co-CEO and director; 2020 proxy dates it 2020-02-24 (8-K event date agrees; announced 2020-02-25)."
+  },
+  {
+   "person_key": "colin-powell",
+   "start_date": "2014-03-13",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 appointment date (Form 3 event date agrees)",
+   "end_date": "2021-10",
+   "end_date_precision": "month",
+   "end_reason": "died",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e107",
+    "e144",
+    "e083",
+    "e082",
+    "e143"
+   ],
+   "board_class": null,
+   "notes": "Died in October 2021 while a director; no Salesforce filing reviewed gives the day."
+  },
+  {
+   "person_key": "bret-taylor",
+   "start_date": "2021-11-30",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 appointment effective date",
+   "end_date": "2023-01-31",
+   "end_date_precision": "day",
+   "end_reason": "resigned",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e090",
+    "e089",
+    "e079",
+    "e073",
+    "e072",
+    "e145"
+   ],
+   "board_class": null,
+   "notes": "Vice Chair of the Board and Co-CEO for his whole board tenure. Already a Section 16 officer (Form 3 in 2017), so no director Form 3."
+  },
+  {
+   "person_key": "alan-hassenfeld",
+   "start_date": "2003-12",
+   "start_date_precision": "month",
+   "start_date_basis": "IPO prospectus bio 'Director since December 2003'",
+   "end_date": "2023-06-08",
+   "end_date_precision": "day",
+   "end_reason": "did_not_stand",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e004",
+    "e067",
+    "e074",
+    "e078",
+    "e146"
+   ],
+   "board_class": null,
+   "notes": "Pre-IPO director. Did not stand in 2023 and retired effective at the 2023 annual meeting (held 2023-06-08)."
+  },
+  {
+   "person_key": "sanford-robertson",
+   "start_date": "2003-10",
+   "start_date_precision": "month",
+   "start_date_basis": "IPO prospectus bio 'Director since October 2003'",
+   "end_date": "2023-06-08",
+   "end_date_precision": "day",
+   "end_reason": "did_not_stand",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e005",
+    "e067",
+    "e074",
+    "e078",
+    "e147"
+   ],
+   "board_class": null,
+   "notes": "Pre-IPO director; Lead Independent Director June 2007 to September 2022. Did not stand in 2023 and retired effective at the 2023 annual meeting (held 2023-06-08)."
+  },
+  {
+   "person_key": "susan-wojcicki",
+   "start_date": "2014-12-05",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 election date (Form 3 event date agrees)",
+   "end_date": "2024-08",
+   "end_date_precision": "month",
+   "end_reason": "died",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e105",
+    "e106",
+    "e149",
+    "e064",
+    "e065",
+    "e066",
+    "e057",
+    "e148"
+   ],
+   "board_class": null,
+   "notes": "Re-elected 2024-06-27; died in August 2024 while a director (2025 proxy). No Salesforce filing reviewed gives the day."
+  }
+ ],
+ "roles": [
+  {
+   "person_key": "marc-benioff",
+   "role": "chair",
+   "start_date": "1999-02",
+   "end_date": null,
+   "precision": "month",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e003",
+    "e025",
+    "e030"
+   ],
+   "notes": "Chair of the Board since inception (prospectus)."
+  },
+  {
+   "person_key": "marc-benioff",
+   "role": "ceo_director",
+   "start_date": "2001-11",
+   "end_date": null,
+   "precision": "month",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e003",
+    "e030",
+    "e101",
+    "e098",
+    "e089",
+    "e080"
+   ],
+   "notes": "CEO since November 2001. Co-CEO with Keith Block 2018-08-07 to 2020-02-24 and with Bret Taylor 2021-11-30 to 2023-01-31; sole CEO otherwise.",
+   "officer_title": "Chair and Chief Executive Officer"
+  },
+  {
+   "person_key": "marc-benioff",
+   "role": "non_independent_director",
+   "start_date": "1999-02",
+   "end_date": null,
+   "precision": "month",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e021",
+    "e060",
+    "e081"
+   ],
+   "notes": "Founder and executive; excluded from every independence determination reviewed."
+  },
+  {
+   "person_key": "laura-alber",
+   "role": "independent_director",
+   "start_date": "2021-11-30",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e081",
+    "e021"
+   ],
+   "notes": "Independent in every proxy since 2022."
+  },
+  {
+   "person_key": "amy-chang",
+   "role": "independent_director",
+   "start_date": "2025-07-09",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e021"
+   ],
+   "notes": "Independent per the 2026 proxy."
+  },
+  {
+   "person_key": "craig-conway",
+   "role": "independent_director",
+   "start_date": "2005-10-06",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e114",
+    "e021"
+   ],
+   "notes": "Determined independent at appointment and in the 2026 proxy."
+  },
+  {
+   "person_key": "arnold-donald",
+   "role": "independent_director",
+   "start_date": "2023-03-01",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e070",
+    "e071",
+    "e021"
+   ],
+   "notes": "Appointed as an independent director."
+  },
+  {
+   "person_key": "arnold-donald",
+   "role": "lead_independent_director",
+   "start_date": "2025-03-21",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e026",
+    "e027",
+    "e012"
+   ],
+   "notes": "Succeeded Robin Washington when she became COFO."
+  },
+  {
+   "person_key": "parker-harris",
+   "role": "executive_director",
+   "start_date": "2018-08-07",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e102",
+    "e031",
+    "e032",
+    "e124"
+   ],
+   "notes": "Co-founder; Salesforce CTO 2016-2024, Slack CTO since 2024.",
+   "officer_title": "Co-Founder; Chief Technology Officer (Salesforce 2016-2024, Slack since 2024)"
+  },
+  {
+   "person_key": "parker-harris",
+   "role": "non_independent_director",
+   "start_date": "2018-08-07",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e021",
+    "e060"
+   ],
+   "notes": "Employee director."
+  },
+  {
+   "person_key": "david-kirk",
+   "role": "independent_director",
+   "start_date": "2025-07-09",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e021"
+   ],
+   "notes": "Independent per the 2026 proxy."
+  },
+  {
+   "person_key": "neelie-kroes",
+   "role": "independent_director",
+   "start_date": "2016-05-01",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e081",
+    "e021"
+   ],
+   "notes": "Independent in every proxy reviewed."
+  },
+  {
+   "person_key": "sachin-mehra",
+   "role": "independent_director",
+   "start_date": "2023-03-01",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e070",
+    "e071",
+    "e021"
+   ],
+   "notes": "Appointed as an independent director."
+  },
+  {
+   "person_key": "mason-morfit",
+   "role": "independent_director",
+   "start_date": "2023-03-01",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e070",
+    "e071",
+    "e021"
+   ],
+   "notes": "Independent despite being the ValueAct designee."
+  },
+  {
+   "person_key": "oscar-munoz",
+   "role": "non_independent_director",
+   "start_date": "2022-01-01",
+   "end_date": "2025",
+   "precision": "day",
+   "end_precision": "year",
+   "confidence": "high",
+   "evidence_refs": [
+    "e081",
+    "e071",
+    "e060",
+    "e092"
+   ],
+   "notes": "Not independent in the 2022-2024 proxies (prior paid Global Advisory Board role and a family member employed by Salesforce, per the 2021-11-30 8-K). The 2024 proxy expected eligibility as of January 2025; the transition date is not disclosed."
+  },
+  {
+   "person_key": "oscar-munoz",
+   "role": "independent_director",
+   "start_date": "2025",
+   "end_date": null,
+   "precision": "year",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e060",
+    "e055",
+    "e021"
+   ],
+   "notes": "Independent in the 2025 (filed 2025-04-24) and 2026 proxies; exact start not disclosed (expected January 2025)."
+  },
+  {
+   "person_key": "john-roos",
+   "role": "independent_director",
+   "start_date": "2013-09-10",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e081",
+    "e021"
+   ],
+   "notes": "Independent in every proxy reviewed."
+  },
+  {
+   "person_key": "robin-washington",
+   "role": "independent_director",
+   "start_date": "2013-09-10",
+   "end_date": "2025-03-21",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e060",
+    "e028"
+   ],
+   "notes": "Independent until she became President and COFO effective 2025-03-21."
+  },
+  {
+   "person_key": "robin-washington",
+   "role": "lead_independent_director",
+   "start_date": "2022-09",
+   "end_date": "2025-03-21",
+   "precision": "month",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e075",
+    "e062",
+    "e054",
+    "e029",
+    "e034"
+   ],
+   "notes": "Succeeded Sanford Robertson in September 2022 (day not disclosed); stepped down on becoming COFO."
+  },
+  {
+   "person_key": "robin-washington",
+   "role": "executive_director",
+   "start_date": "2025-03-21",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e053",
+    "e054",
+    "e033",
+    "e137"
+   ],
+   "notes": "President and Chief Operating & Financial Officer while remaining a director.",
+   "officer_title": "President and Chief Operating & Financial Officer"
+  },
+  {
+   "person_key": "robin-washington",
+   "role": "non_independent_director",
+   "start_date": "2025-03-21",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e055",
+    "e021"
+   ],
+   "notes": "Not independent since becoming an executive."
+  },
+  {
+   "person_key": "maynard-webb",
+   "role": "independent_director",
+   "start_date": "2006-09-07",
+   "end_date": "2026-05-28",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e112",
+    "e022"
+   ],
+   "notes": "Independent at appointment and in the 2026 proxy."
+  },
+  {
+   "person_key": "keith-block",
+   "role": "executive_director",
+   "start_date": "2013-06-06",
+   "end_date": "2018-08-07",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e109",
+    "e104",
+    "e101",
+    "e100"
+   ],
+   "notes": "President and Vice Chairman (officer title) from joining; also COO from 2016-02-01 until becoming co-CEO.",
+   "officer_title": "President and Vice Chairman; Chief Operating Officer from 2016-02-01"
+  },
+  {
+   "person_key": "keith-block",
+   "role": "ceo_director",
+   "start_date": "2018-08-07",
+   "end_date": "2020-02-24",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e101",
+    "e096",
+    "e099",
+    "e141"
+   ],
+   "notes": "Co-CEO with Marc Benioff.",
+   "officer_title": "Co-Chief Executive Officer"
+  },
+  {
+   "person_key": "keith-block",
+   "role": "non_independent_director",
+   "start_date": "2013-06-06",
+   "end_date": "2020-02-24",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e097"
+   ],
+   "notes": "Not independent due to his employment."
+  },
+  {
+   "person_key": "colin-powell",
+   "role": "independent_director",
+   "start_date": "2014-03-13",
+   "end_date": "2021-10",
+   "precision": "day",
+   "end_precision": "month",
+   "confidence": "high",
+   "evidence_refs": [
+    "e082"
+   ],
+   "notes": "Independent during his service."
+  },
+  {
+   "person_key": "bret-taylor",
+   "role": "vice_chair",
+   "start_date": "2021-11-30",
+   "end_date": "2023-01-31",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e089",
+    "e079",
+    "e073",
+    "e145"
+   ],
+   "notes": "Vice Chair of the Board for his whole tenure."
+  },
+  {
+   "person_key": "bret-taylor",
+   "role": "ceo_director",
+   "start_date": "2021-11-30",
+   "end_date": "2023-01-31",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e089",
+    "e079",
+    "e073"
+   ],
+   "notes": "Co-CEO with Marc Benioff.",
+   "officer_title": "Vice Chair and Co-Chief Executive Officer"
+  },
+  {
+   "person_key": "bret-taylor",
+   "role": "non_independent_director",
+   "start_date": "2021-11-30",
+   "end_date": "2023-01-31",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e081",
+    "e072"
+   ],
+   "notes": "Not independent (employee)."
+  },
+  {
+   "person_key": "alan-hassenfeld",
+   "role": "independent_director",
+   "start_date": "2003-12",
+   "end_date": "2023-06-08",
+   "precision": "month",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e061",
+    "e071"
+   ],
+   "notes": "Independent during his service (2024 proxy)."
+  },
+  {
+   "person_key": "sanford-robertson",
+   "role": "independent_director",
+   "start_date": "2003-10",
+   "end_date": "2023-06-08",
+   "precision": "month",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e061",
+    "e071"
+   ],
+   "notes": "Independent during his service (2024 proxy)."
+  },
+  {
+   "person_key": "sanford-robertson",
+   "role": "lead_independent_director",
+   "start_date": "2007-06",
+   "end_date": "2022-09",
+   "precision": "month",
+   "end_precision": "month",
+   "confidence": "high",
+   "evidence_refs": [
+    "e093",
+    "e062",
+    "e075"
+   ],
+   "notes": "Lead Independent Director from June 2007 until succeeded by Robin Washington in September 2022."
+  },
+  {
+   "person_key": "susan-wojcicki",
+   "role": "independent_director",
+   "start_date": "2014-12-05",
+   "end_date": "2024-08",
+   "precision": "day",
+   "end_precision": "month",
+   "confidence": "high",
+   "evidence_refs": [
+    "e056"
+   ],
+   "notes": "Independent during her service (2025 proxy)."
+  }
+ ],
+ "committees": [
+  {
+   "person_key": "sachin-mehra",
+   "committee": "audit",
+   "role": "chair",
+   "as_of_filing": "0001108524-26-000085",
+   "as_of_date": "2026-04-16",
+   "evidence_refs": [
+    "e035"
+   ]
+  },
+  {
+   "person_key": "arnold-donald",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001108524-26-000085",
+   "as_of_date": "2026-04-16",
+   "evidence_refs": [
+    "e035"
+   ]
+  },
+  {
+   "person_key": "craig-conway",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001108524-26-000085",
+   "as_of_date": "2026-04-16",
+   "evidence_refs": [
+    "e035"
+   ]
+  },
+  {
+   "person_key": "oscar-munoz",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001108524-26-000085",
+   "as_of_date": "2026-04-16",
+   "evidence_refs": [
+    "e035"
+   ]
+  },
+  {
+   "person_key": "mason-morfit",
+   "committee": "compensation",
+   "role": "chair",
+   "as_of_filing": "0001108524-26-000085",
+   "as_of_date": "2026-04-16",
+   "evidence_refs": [
+    "e036"
+   ]
+  },
+  {
+   "person_key": "neelie-kroes",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001108524-26-000085",
+   "as_of_date": "2026-04-16",
+   "evidence_refs": [
+    "e036"
+   ]
+  },
+  {
+   "person_key": "john-roos",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001108524-26-000085",
+   "as_of_date": "2026-04-16",
+   "evidence_refs": [
+    "e036"
+   ]
+  },
+  {
+   "person_key": "david-kirk",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001108524-26-000085",
+   "as_of_date": "2026-04-16",
+   "evidence_refs": [
+    "e036"
+   ]
+  },
+  {
+   "person_key": "maynard-webb",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001108524-26-000085",
+   "as_of_date": "2026-04-16",
+   "evidence_refs": [
+    "e036"
+   ]
+  },
+  {
+   "person_key": "john-roos",
+   "committee": "nominating_governance",
+   "role": "chair",
+   "as_of_filing": "0001108524-26-000085",
+   "as_of_date": "2026-04-16",
+   "evidence_refs": [
+    "e037"
+   ]
+  },
+  {
+   "person_key": "laura-alber",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001108524-26-000085",
+   "as_of_date": "2026-04-16",
+   "evidence_refs": [
+    "e037"
+   ]
+  },
+  {
+   "person_key": "amy-chang",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001108524-26-000085",
+   "as_of_date": "2026-04-16",
+   "evidence_refs": [
+    "e037"
+   ]
+  },
+  {
+   "person_key": "arnold-donald",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001108524-26-000085",
+   "as_of_date": "2026-04-16",
+   "evidence_refs": [
+    "e037"
+   ]
+  },
+  {
+   "person_key": "neelie-kroes",
+   "committee": "cybersecurity_privacy",
+   "role": "chair",
+   "as_of_filing": "0001108524-26-000085",
+   "as_of_date": "2026-04-16",
+   "evidence_refs": [
+    "e038"
+   ]
+  },
+  {
+   "person_key": "parker-harris",
+   "committee": "cybersecurity_privacy",
+   "role": "member",
+   "as_of_filing": "0001108524-26-000085",
+   "as_of_date": "2026-04-16",
+   "evidence_refs": [
+    "e038"
+   ]
+  },
+  {
+   "person_key": "amy-chang",
+   "committee": "cybersecurity_privacy",
+   "role": "member",
+   "as_of_filing": "0001108524-26-000085",
+   "as_of_date": "2026-04-16",
+   "evidence_refs": [
+    "e038"
+   ]
+  },
+  {
+   "person_key": "david-kirk",
+   "committee": "cybersecurity_privacy",
+   "role": "member",
+   "as_of_filing": "0001108524-26-000085",
+   "as_of_date": "2026-04-16",
+   "evidence_refs": [
+    "e038"
+   ]
+  },
+  {
+   "person_key": "maynard-webb",
+   "committee": "cybersecurity_privacy",
+   "role": "member",
+   "as_of_filing": "0001108524-26-000085",
+   "as_of_date": "2026-04-16",
+   "evidence_refs": [
+    "e038"
+   ]
+  },
+  {
+   "person_key": "oscar-munoz",
+   "committee": "business_transformation",
+   "role": "chair",
+   "as_of_filing": "0001108524-26-000085",
+   "as_of_date": "2026-04-16",
+   "evidence_refs": [
+    "e039"
+   ]
+  },
+  {
+   "person_key": "craig-conway",
+   "committee": "business_transformation",
+   "role": "member",
+   "as_of_filing": "0001108524-26-000085",
+   "as_of_date": "2026-04-16",
+   "evidence_refs": [
+    "e039"
+   ]
+  },
+  {
+   "person_key": "mason-morfit",
+   "committee": "business_transformation",
+   "role": "member",
+   "as_of_filing": "0001108524-26-000085",
+   "as_of_date": "2026-04-16",
+   "evidence_refs": [
+    "e039"
+   ]
+  },
+  {
+   "person_key": "robin-washington",
+   "committee": "business_transformation",
+   "role": "member",
+   "as_of_filing": "0001108524-26-000085",
+   "as_of_date": "2026-04-16",
+   "evidence_refs": [
+    "e039"
+   ]
+  },
+  {
+   "person_key": "maynard-webb",
+   "committee": "business_transformation",
+   "role": "member",
+   "as_of_filing": "0001108524-26-000085",
+   "as_of_date": "2026-04-16",
+   "evidence_refs": [
+    "e039"
+   ]
+  },
+  {
+   "person_key": "susan-wojcicki",
+   "committee": "cybersecurity_privacy",
+   "role": "member",
+   "as_of_filing": "0001193125-24-140549",
+   "as_of_date": "2024-05-16",
+   "evidence_refs": [
+    "e063"
+   ]
+  },
+  {
+   "person_key": "alan-hassenfeld",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001193125-23-122123",
+   "as_of_date": "2023-04-27",
+   "evidence_refs": [
+    "e076"
+   ]
+  },
+  {
+   "person_key": "sanford-robertson",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001193125-23-122123",
+   "as_of_date": "2023-04-27",
+   "evidence_refs": [
+    "e076"
+   ]
+  },
+  {
+   "person_key": "alan-hassenfeld",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001193125-23-122123",
+   "as_of_date": "2023-04-27",
+   "evidence_refs": [
+    "e077"
+   ]
+  },
+  {
+   "person_key": "sanford-robertson",
+   "committee": "nominating_governance",
+   "role": "chair",
+   "as_of_filing": "0001193125-23-122123",
+   "as_of_date": "2023-04-27",
+   "evidence_refs": [
+    "e077"
+   ]
+  },
+  {
+   "person_key": "colin-powell",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001193125-21-140350",
+   "as_of_date": "2021-04-29",
+   "evidence_refs": [
+    "e094"
+   ]
+  }
+ ],
+ "events": [
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "marc-benioff",
+   "event_date": "1999-02",
+   "announced_date": null,
+   "evidence_refs": [
+    "e003"
+   ],
+   "summary": "Marc Benioff, co-founder, Chairman since inception (February 1999).",
+   "event_date_precision": "month"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "sanford-robertson",
+   "event_date": "2003-10",
+   "announced_date": null,
+   "evidence_refs": [
+    "e005"
+   ],
+   "summary": "Sanford R. Robertson joins board (pre-IPO).",
+   "event_date_precision": "month"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "alan-hassenfeld",
+   "event_date": "2003-12",
+   "announced_date": null,
+   "evidence_refs": [
+    "e004"
+   ],
+   "summary": "Alan Hassenfeld joins board (pre-IPO).",
+   "event_date_precision": "month"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "craig-conway",
+   "event_date": "2005-10-06",
+   "announced_date": null,
+   "evidence_refs": [
+    "e113",
+    "e121"
+   ],
+   "summary": "Craig A. Conway appointed (Class I).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "maynard-webb",
+   "event_date": "2006-09-07",
+   "announced_date": null,
+   "evidence_refs": [
+    "e111",
+    "e140"
+   ],
+   "summary": "Maynard Webb appointed (Class II).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_SIZE_CHANGE",
+   "person_key": null,
+   "event_date": "2006-09-07",
+   "announced_date": null,
+   "evidence_refs": [
+    "e111"
+   ],
+   "summary": "Board increased from eight to nine directors for Webb.",
+   "event_date_precision": "day",
+   "from_size": 8,
+   "to_size": 9
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "keith-block",
+   "event_date": "2013-06-06",
+   "announced_date": null,
+   "evidence_refs": [
+    "e109",
+    "e110",
+    "e142"
+   ],
+   "summary": "Keith Block elected director as President and Vice Chairman.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_SIZE_CHANGE",
+   "person_key": null,
+   "event_date": "2013-06-06",
+   "announced_date": null,
+   "evidence_refs": [
+    "e109"
+   ],
+   "summary": "Board expanded to ten members for Block.",
+   "event_date_precision": "day",
+   "to_size": 10
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "john-roos",
+   "event_date": "2013-09-10",
+   "announced_date": null,
+   "evidence_refs": [
+    "e108",
+    "e136"
+   ],
+   "summary": "John V. Roos appointed (filling a vacancy).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "robin-washington",
+   "event_date": "2013-09-10",
+   "announced_date": null,
+   "evidence_refs": [
+    "e108",
+    "e138"
+   ],
+   "summary": "Robin Washington appointed (filling a vacancy).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "colin-powell",
+   "event_date": "2014-03-13",
+   "announced_date": null,
+   "evidence_refs": [
+    "e107",
+    "e144"
+   ],
+   "summary": "General Colin Powell appointed.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_SIZE_CHANGE",
+   "person_key": null,
+   "event_date": "2014-03-13",
+   "announced_date": null,
+   "evidence_refs": [
+    "e107"
+   ],
+   "summary": "Board expanded to eleven members for Powell.",
+   "event_date_precision": "day",
+   "to_size": 11
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "susan-wojcicki",
+   "event_date": "2014-12-05",
+   "announced_date": null,
+   "evidence_refs": [
+    "e105",
+    "e106",
+    "e149"
+   ],
+   "summary": "Susan Wojcicki elected.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_SIZE_CHANGE",
+   "person_key": null,
+   "event_date": "2014-12-05",
+   "announced_date": null,
+   "evidence_refs": [
+    "e105"
+   ],
+   "summary": "Board expanded to eleven members for Wojcicki (as stated in the 8-K).",
+   "event_date_precision": "day",
+   "to_size": 11
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "neelie-kroes",
+   "event_date": "2016-05-01",
+   "announced_date": null,
+   "evidence_refs": [
+    "e103",
+    "e128"
+   ],
+   "summary": "Neelie Kroes joins board (approved 2016-03-16).",
+   "event_date_precision": "day",
+   "decision_date": "2016-03-16"
+  },
+  {
+   "type": "BOARD_SIZE_CHANGE",
+   "person_key": null,
+   "event_date": "2016-05-01",
+   "announced_date": null,
+   "evidence_refs": [
+    "e103"
+   ],
+   "summary": "Board expanded to twelve members for Kroes.",
+   "event_date_precision": "day",
+   "to_size": 12
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "parker-harris",
+   "event_date": "2018-08-07",
+   "announced_date": null,
+   "evidence_refs": [
+    "e102"
+   ],
+   "summary": "Parker Harris, co-founder and CTO, elected director (board action 2018-08-06).",
+   "event_date_precision": "day",
+   "decision_date": "2018-08-06"
+  },
+  {
+   "type": "BOARD_SIZE_CHANGE",
+   "person_key": null,
+   "event_date": "2018-08-07",
+   "announced_date": null,
+   "evidence_refs": [
+    "e102"
+   ],
+   "summary": "Board expanded to thirteen members for Harris.",
+   "event_date_precision": "day",
+   "to_size": 13
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "keith-block",
+   "event_date": "2018-08-07",
+   "announced_date": null,
+   "evidence_refs": [
+    "e101"
+   ],
+   "summary": "Keith Block becomes co-CEO alongside Marc Benioff.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "keith-block",
+   "event_date": "2020-02-24",
+   "announced_date": "2020-02-25",
+   "evidence_refs": [
+    "e099",
+    "e096"
+   ],
+   "summary": "Keith Block resigns as co-CEO and director.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "marc-benioff",
+   "event_date": "2020-02-24",
+   "announced_date": null,
+   "evidence_refs": [
+    "e098"
+   ],
+   "summary": "Marc Benioff resumes as sole CEO.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "colin-powell",
+   "event_date": "2021-10",
+   "announced_date": null,
+   "evidence_refs": [
+    "e083"
+   ],
+   "summary": "General Colin Powell dies while a director.",
+   "event_date_precision": "month"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "bret-taylor",
+   "event_date": "2021-11-30",
+   "announced_date": null,
+   "evidence_refs": [
+    "e090"
+   ],
+   "summary": "Bret Taylor appointed director, Vice Chair and Co-CEO.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "bret-taylor",
+   "event_date": "2021-11-30",
+   "announced_date": null,
+   "evidence_refs": [
+    "e089"
+   ],
+   "summary": "Bret Taylor becomes Vice Chair of the Board and Co-CEO.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "laura-alber",
+   "event_date": "2021-11-30",
+   "announced_date": null,
+   "evidence_refs": [
+    "e091",
+    "e117"
+   ],
+   "summary": "Laura Alber appointed.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "oscar-munoz",
+   "event_date": "2022-01-01",
+   "announced_date": "2021-11-30",
+   "evidence_refs": [
+    "e091",
+    "e134"
+   ],
+   "summary": "Oscar Munoz joins board.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "robin-washington",
+   "event_date": "2022-09",
+   "announced_date": null,
+   "evidence_refs": [
+    "e062",
+    "e075"
+   ],
+   "summary": "Robin Washington succeeds Sanford Robertson as Lead Independent Director.",
+   "event_date_precision": "month"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "sanford-robertson",
+   "event_date": "2022-09",
+   "announced_date": null,
+   "evidence_refs": [
+    "e062"
+   ],
+   "summary": "Sanford Robertson's Lead Independent Director term ends (succeeded by Washington).",
+   "event_date_precision": "month"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "bret-taylor",
+   "event_date": "2023-01-31",
+   "announced_date": "2022-11-30",
+   "evidence_refs": [
+    "e079",
+    "e073"
+   ],
+   "summary": "Bret Taylor resigns as Co-CEO and Vice Chair.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "marc-benioff",
+   "event_date": "2023-01-31",
+   "announced_date": null,
+   "evidence_refs": [
+    "e080"
+   ],
+   "summary": "Marc Benioff becomes sole CEO and Chair again.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "arnold-donald",
+   "event_date": "2023-03-01",
+   "announced_date": "2023-01-27",
+   "evidence_refs": [
+    "e068",
+    "e123"
+   ],
+   "summary": "Arnold Donald joins board.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "sachin-mehra",
+   "event_date": "2023-03-01",
+   "announced_date": "2023-01-27",
+   "evidence_refs": [
+    "e068",
+    "e130"
+   ],
+   "summary": "Sachin Mehra joins board.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "mason-morfit",
+   "event_date": "2023-03-01",
+   "announced_date": "2023-01-27",
+   "evidence_refs": [
+    "e068",
+    "e069",
+    "e132"
+   ],
+   "summary": "Mason Morfit (ValueAct) joins board under a nomination and cooperation agreement.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "alan-hassenfeld",
+   "event_date": "2023-06-08",
+   "announced_date": "2023-01-27",
+   "evidence_refs": [
+    "e067",
+    "e078"
+   ],
+   "summary": "Alan Hassenfeld retires at the 2023 annual meeting (did not stand).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "sanford-robertson",
+   "event_date": "2023-06-08",
+   "announced_date": "2023-01-27",
+   "evidence_refs": [
+    "e067",
+    "e078"
+   ],
+   "summary": "Sanford Robertson retires at the 2023 annual meeting (did not stand).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "susan-wojcicki",
+   "event_date": "2024-08",
+   "announced_date": null,
+   "evidence_refs": [
+    "e057"
+   ],
+   "summary": "Susan Wojcicki dies while a director.",
+   "event_date_precision": "month"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "robin-washington",
+   "event_date": "2025-03-21",
+   "announced_date": "2025-02-05",
+   "evidence_refs": [
+    "e053",
+    "e029"
+   ],
+   "summary": "Robin Washington becomes President and COFO; steps down as Lead Independent Director and Governance chair.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "arnold-donald",
+   "event_date": "2025-03-21",
+   "announced_date": null,
+   "evidence_refs": [
+    "e027",
+    "e026"
+   ],
+   "summary": "Arnold Donald becomes Lead Independent Director.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "amy-chang",
+   "event_date": "2025-07-09",
+   "announced_date": null,
+   "evidence_refs": [
+    "e059",
+    "e119"
+   ],
+   "summary": "Amy Chang appointed.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "david-kirk",
+   "event_date": "2025-07-09",
+   "announced_date": null,
+   "evidence_refs": [
+    "e059",
+    "e126"
+   ],
+   "summary": "David B. Kirk appointed.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "maynard-webb",
+   "event_date": "2026-05-28",
+   "announced_date": "2026-04-16",
+   "evidence_refs": [
+    "e023",
+    "e049"
+   ],
+   "summary": "Maynard Webb leaves at the 2026 annual meeting (did not stand).",
+   "event_date_precision": "day"
+  }
+ ],
+ "evidence": [
+  {
+   "id": "e001",
+   "form": "10-K",
+   "accession": "0001193125-05-061027",
+   "filing_date": "2005-03-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000119312505061027/d10k.htm",
+   "quote": "Our common stock has been quoted on the New York Stock Exchange under the symbol “CRM” since June 23, 2004. Prior to that time, there was no public market for our common stock.",
+   "supports": "IPO / first trading day on NYSE: 2004-06-23."
+  },
+  {
+   "id": "e002",
+   "form": "424B1",
+   "accession": "0001193125-04-107098",
+   "filing_date": "2004-06-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000119312504107098/d424b1.htm",
+   "quote": "We were incorporated in Delaware in February 1999.",
+   "supports": "Incorporated in Delaware, February 1999."
+  },
+  {
+   "id": "e003",
+   "form": "424B1",
+   "accession": "0001193125-04-107098",
+   "filing_date": "2004-06-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000119312504107098/d424b1.htm",
+   "quote": "Marc Benioff co-founded salesforce.com in February 1999 and has served as Chairman of the Board of Directors since inception. He has served as Chief Executive Officer since November 2001.",
+   "supports": "Benioff: co-founder (Feb 1999), Chairman since inception, CEO since November 2001."
+  },
+  {
+   "id": "e004",
+   "form": "424B1",
+   "accession": "0001193125-04-107098",
+   "filing_date": "2004-06-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000119312504107098/d424b1.htm",
+   "quote": "Alan Hassenfeld has served as a Director since December 2003.",
+   "supports": "Hassenfeld board start: December 2003 (pre-IPO)."
+  },
+  {
+   "id": "e005",
+   "form": "424B1",
+   "accession": "0001193125-04-107098",
+   "filing_date": "2004-06-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000119312504107098/d424b1.htm",
+   "quote": "Sanford R. Robertson has served as a Director since October 2003.",
+   "supports": "Robertson board start: October 2003 (pre-IPO)."
+  },
+  {
+   "id": "e006",
+   "form": "8-K",
+   "accession": "0001108524-16-000044",
+   "filing_date": "2016-02-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852416000044/a8-kfeb2016.htm",
+   "quote": "consistent with the declassification of the Board that was completed at the Company’s 2015 annual meeting of stockholders",
+   "supports": "Board declassified as of the 2015 annual meeting; no director classes since."
+  },
+  {
+   "id": "e007",
+   "form": "DEF 14A",
+   "accession": "0001108524-26-000085",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000085/crm-20260416.htm",
+   "quote": "Our directors serve until the next Annual Meeting of Stockholders and until their successors are elected and qualified, subject to earlier resignation, or removal.",
+   "supports": "One-year terms (declassified board)."
+  },
+  {
+   "id": "e008",
+   "form": "DEF 14A",
+   "accession": "0001108524-26-000085",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000085/crm-20260416.htm",
+   "quote": "Marc Benioff Chair, Chief Executive Officer & Co-Founder, Salesforce 61 1999",
+   "supports": "2026 proxy (filed 2026-04-16): Benioff nominee, Chair/CEO, director since 1999.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e009",
+   "form": "DEF 14A",
+   "accession": "0001108524-26-000085",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000085/crm-20260416.htm",
+   "quote": "Laura Alber President & Chief Executive Officer, Williams-Sonoma 57 2021",
+   "supports": "2026 proxy (filed 2026-04-16): Alber nominee, director since 2021.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e010",
+   "form": "DEF 14A",
+   "accession": "0001108524-26-000085",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000085/crm-20260416.htm",
+   "quote": "Amy Chang Former CEO and Founder, Accompany; Technology Advisor 49 2025",
+   "supports": "2026 proxy (filed 2026-04-16): Chang nominee, director since 2025.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e011",
+   "form": "DEF 14A",
+   "accession": "0001108524-26-000085",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000085/crm-20260416.htm",
+   "quote": "Craig Conway Former President & Chief Executive Officer, PeopleSoft 71 2005",
+   "supports": "2026 proxy (filed 2026-04-16): Conway nominee, director since 2005.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e012",
+   "form": "DEF 14A",
+   "accession": "0001108524-26-000085",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000085/crm-20260416.htm",
+   "quote": "Arnold Donald (Lead Independent Director) Former President & Chief Executive Officer, Carnival Corporation 71 2023",
+   "supports": "2026 proxy (filed 2026-04-16): Donald nominee, Lead Independent Director, director since 2023.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e013",
+   "form": "DEF 14A",
+   "accession": "0001108524-26-000085",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000085/crm-20260416.htm",
+   "quote": "Parker Harris Co-Founder, Salesforce & Chief Technology Officer, Slack 59 2018",
+   "supports": "2026 proxy (filed 2026-04-16): Harris nominee, director since 2018.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e014",
+   "form": "DEF 14A",
+   "accession": "0001108524-26-000085",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000085/crm-20260416.htm",
+   "quote": "David B. Kirk Former Chief Scientist, VP of Architecture & Fellow, NVIDIA 65 2025",
+   "supports": "2026 proxy (filed 2026-04-16): Kirk nominee, director since 2025.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e015",
+   "form": "DEF 14A",
+   "accession": "0001108524-26-000085",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000085/crm-20260416.htm",
+   "quote": "Neelie Kroes Former Vice President of the European Commission 84 2016",
+   "supports": "2026 proxy (filed 2026-04-16): Kroes nominee, director since 2016.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e016",
+   "form": "DEF 14A",
+   "accession": "0001108524-26-000085",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000085/crm-20260416.htm",
+   "quote": "Sachin Mehra (Financial Expert) Chief Financial Officer, Mastercard 55 2023",
+   "supports": "2026 proxy (filed 2026-04-16): Mehra nominee, director since 2023.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e017",
+   "form": "DEF 14A",
+   "accession": "0001108524-26-000085",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000085/crm-20260416.htm",
+   "quote": "Mason Morfit Co-Chief Executive Officer & Chief Investment Officer, ValueAct Capital 50 2023",
+   "supports": "2026 proxy (filed 2026-04-16): Morfit nominee, director since 2023.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e018",
+   "form": "DEF 14A",
+   "accession": "0001108524-26-000085",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000085/crm-20260416.htm",
+   "quote": "Oscar Munoz Former Chairman & Chief Executive Officer, United Airlines 67 2022",
+   "supports": "2026 proxy (filed 2026-04-16): Munoz nominee, director since 2022.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e019",
+   "form": "DEF 14A",
+   "accession": "0001108524-26-000085",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000085/crm-20260416.htm",
+   "quote": "John V. Roos Former U.S. Ambassador to Japan; Co-Founder, Geodesic Capital 71 2013",
+   "supports": "2026 proxy (filed 2026-04-16): Roos nominee, director since 2013.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e020",
+   "form": "DEF 14A",
+   "accession": "0001108524-26-000085",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000085/crm-20260416.htm",
+   "quote": "Robin Washington President & Chief Operating and Financial Officer, Salesforce 63 2013",
+   "supports": "2026 proxy (filed 2026-04-16): Washington nominee, director since 2013, now President & COFO.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e021",
+   "form": "DEF 14A",
+   "accession": "0001108524-26-000085",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000085/crm-20260416.htm",
+   "quote": "The Board has determined that, except for Marc Benioff, Parker Harris, and Robin Washington, each of our director nominees has no material relationship with Salesforce and is independent within the meaning of the standards established by the NYSE, as currently in effect.",
+   "supports": "2026 proxy (filed 2026-04-16): every nominee independent except Benioff, Harris and Washington."
+  },
+  {
+   "id": "e022",
+   "form": "DEF 14A",
+   "accession": "0001108524-26-000085",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000085/crm-20260416.htm",
+   "quote": "Maynard Webb, who is not standing for reelection at the Annual Meeting, is also deemed to be independent within the meaning of such standards.",
+   "supports": "2026 proxy (filed 2026-04-16): Webb independent; not standing for re-election in 2026."
+  },
+  {
+   "id": "e023",
+   "form": "DEF 14A",
+   "accession": "0001108524-26-000085",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000085/crm-20260416.htm",
+   "quote": "Mr. Webb is not standing for reelection as a director and his service on the Board will cease as of the 2026 Annual Meeting.",
+   "supports": "2026 proxy (filed 2026-04-16): Webb's board service ends at the 2026 annual meeting."
+  },
+  {
+   "id": "e024",
+   "form": "DEF 14A",
+   "accession": "0001108524-26-000085",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000085/crm-20260416.htm",
+   "quote": "Amy Chang and David Kirk were appointed by the Board effective July 9, 2025, and each of the other nominees was most recently elected by stockholders at the 2025 Annual Meeting of Stockholders.",
+   "supports": "2026 proxy (filed 2026-04-16): Chang and Kirk appointed effective 2025-07-09."
+  },
+  {
+   "id": "e025",
+   "form": "DEF 14A",
+   "accession": "0001108524-26-000085",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000085/crm-20260416.htm",
+   "quote": "The Company’s CEO, Marc Benioff, also serves as Chair of the Board.",
+   "supports": "2026 proxy (filed 2026-04-16): Benioff is both CEO and Chair."
+  },
+  {
+   "id": "e026",
+   "form": "DEF 14A",
+   "accession": "0001108524-26-000085",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000085/crm-20260416.htm",
+   "quote": "In March 2025, the independent directors elected Arnold Donald to succeed Robin Washington as the Lead Independent Director.",
+   "supports": "2026 proxy (filed 2026-04-16): Donald succeeded Washington as Lead Independent Director in March 2025."
+  },
+  {
+   "id": "e027",
+   "form": "DEF 14A",
+   "accession": "0001108524-26-000085",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000085/crm-20260416.htm",
+   "quote": "On March 21, 2025, Mr. Donald assumed the role of Lead Independent Director, and Mr. Roos assumed the role of Chair of the Governance Committee.",
+   "supports": "2026 proxy (filed 2026-04-16): Donald Lead Independent Director from 2025-03-21; Roos chairs Governance from the same day."
+  },
+  {
+   "id": "e028",
+   "form": "DEF 14A",
+   "accession": "0001108524-26-000085",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000085/crm-20260416.htm",
+   "quote": "Upon her appointment as Chief Operating and Financial Officer, effective March 21, 2025, Ms. Washington no longer received non-employee director compensation",
+   "supports": "2026 proxy (filed 2026-04-16): Washington became an executive (COFO) effective 2025-03-21."
+  },
+  {
+   "id": "e029",
+   "form": "DEF 14A",
+   "accession": "0001108524-26-000085",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000085/crm-20260416.htm",
+   "quote": "Ms. Washington stepped down from these Board leadership roles upon her appointment to President and COFO on March 21, 2025",
+   "supports": "2026 proxy (filed 2026-04-16): Washington left the Lead Independent Director and Governance chair roles on 2025-03-21."
+  },
+  {
+   "id": "e030",
+   "form": "DEF 14A",
+   "accession": "0001108524-26-000085",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000085/crm-20260416.htm",
+   "quote": "Chair of the Board, Chief Executive Officer (since 2001) and Co-Founder of Salesforce (in 1999)",
+   "supports": "2026 proxy (filed 2026-04-16): Benioff bio."
+  },
+  {
+   "id": "e031",
+   "form": "DEF 14A",
+   "accession": "0001108524-26-000085",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000085/crm-20260416.htm",
+   "quote": "Co-Founder of Salesforce (in 1999) and Chief Technology Officer of Slack Technologies (since 2024)",
+   "supports": "2026 proxy (filed 2026-04-16): Harris bio (Slack CTO since 2024)."
+  },
+  {
+   "id": "e032",
+   "form": "DEF 14A",
+   "accession": "0001108524-26-000085",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000085/crm-20260416.htm",
+   "quote": "Various former senior technical positions at Salesforce since inception, including Chief Technology Officer (2016 – 2024)",
+   "supports": "2026 proxy (filed 2026-04-16): Harris was Salesforce CTO 2016-2024."
+  },
+  {
+   "id": "e033",
+   "form": "DEF 14A",
+   "accession": "0001108524-26-000085",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000085/crm-20260416.htm",
+   "quote": "President and Chief Operating & Financial Officer of Salesforce (since March 2025)",
+   "supports": "2026 proxy (filed 2026-04-16): Washington bio."
+  },
+  {
+   "id": "e034",
+   "form": "DEF 14A",
+   "accession": "0001108524-26-000085",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000085/crm-20260416.htm",
+   "quote": "with experience leading key board committees and also serving as Salesforce’s former Lead Independent Director",
+   "supports": "2026 proxy (filed 2026-04-16): Washington is the former Lead Independent Director."
+  },
+  {
+   "id": "e035",
+   "form": "DEF 14A",
+   "accession": "0001108524-26-000085",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000085/crm-20260416.htm",
+   "quote": "Audit & Finance Committee Members: Sachin Mehra (Chair), Arnold Donald, Craig Conway, Oscar Munoz",
+   "supports": "2026 proxy (filed 2026-04-16): Audit & Finance Committee roster."
+  },
+  {
+   "id": "e036",
+   "form": "DEF 14A",
+   "accession": "0001108524-26-000085",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000085/crm-20260416.htm",
+   "quote": "Compensation Committee Members: Mason Morfit (Chair), Neelie Kroes, John V. Roos, David B. Kirk, Maynard Webb(1)",
+   "supports": "2026 proxy (filed 2026-04-16): Compensation Committee roster."
+  },
+  {
+   "id": "e037",
+   "form": "DEF 14A",
+   "accession": "0001108524-26-000085",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000085/crm-20260416.htm",
+   "quote": "Nominating & Corporate Governance Committee Members: John V. Roos (Chair), Laura Alber, Amy Chang, Arnold Donald",
+   "supports": "2026 proxy (filed 2026-04-16): Nominating & Corporate Governance Committee roster."
+  },
+  {
+   "id": "e038",
+   "form": "DEF 14A",
+   "accession": "0001108524-26-000085",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000085/crm-20260416.htm",
+   "quote": "Cybersecurity & Privacy Committee Members: Neelie Kroes (Chair), Parker Harris, Amy Chang, David B. Kirk, Maynard Webb(1)",
+   "supports": "2026 proxy (filed 2026-04-16): Cybersecurity & Privacy Committee roster."
+  },
+  {
+   "id": "e039",
+   "form": "DEF 14A",
+   "accession": "0001108524-26-000085",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000085/crm-20260416.htm",
+   "quote": "Business Transformation Committee Members: Oscar Munoz (Chair), Craig Conway, Mason Morfit, Robin Washington, Maynard Webb(1)",
+   "supports": "2026 proxy (filed 2026-04-16): Business Transformation Committee roster."
+  },
+  {
+   "id": "e040",
+   "form": "DEF 14A",
+   "accession": "0001108524-26-000085",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000085/crm-20260416.htm",
+   "quote": "In connection with Mason Morfit’s appointment, the Company entered into an agreement with ValueAct Capital",
+   "supports": "2026 proxy (filed 2026-04-16): Morfit seat tied to the ValueAct agreement."
+  },
+  {
+   "id": "e041",
+   "form": "DEF 14A",
+   "accession": "0001108524-26-000085",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000085/crm-20260416.htm",
+   "quote": "•Director, Williams-Sonoma, Inc. (since 2010) Former Public Company Directorships (within the past 10 years) •Director, Fitbit, Inc. (2016 – 2021)",
+   "supports": "2026 proxy (filed 2026-04-16): Alber other public boards."
+  },
+  {
+   "id": "e042",
+   "form": "DEF 14A",
+   "accession": "0001108524-26-000085",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000085/crm-20260416.htm",
+   "quote": "•Director, The Procter & Gamble Company (since 2017) •Director, The Walt Disney Company (since 2021) Former Public Company Directorships (within the past 10 years) •Director, Cisco Systems, Inc. (2016 - 2018) •Director, Marqeta, Inc. (2021 - 2022)",
+   "supports": "2026 proxy (filed 2026-04-16): Chang other public boards."
+  },
+  {
+   "id": "e043",
+   "form": "DEF 14A",
+   "accession": "0001108524-26-000085",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000085/crm-20260416.htm",
+   "quote": "•Director, Paylocity Holding Corporation (since 2024) •Director, Nutanix, Inc. (since 2017) Former Public Company Directorships (within the past 10 years) •Director, Guidewire Software (2010 – 2019), including as Executive Chairman (2010 – 2014) and Chairman (2014 – 2017)",
+   "supports": "2026 proxy (filed 2026-04-16): Conway other public boards."
+  },
+  {
+   "id": "e044",
+   "form": "DEF 14A",
+   "accession": "0001108524-26-000085",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000085/crm-20260416.htm",
+   "quote": "•Director, GE Vernova, a spin-off of General Electric Company (since 2023) •Director, MP Materials Corp (since 2023) •Director, Bank of America Corp (since 2013) Former Public Company Directorships (within the past 10 years) •Director, Carnival Corporation & plc (2001 – 2022), including as Vice Chair (2022) •Director, Crown Holdings, Inc. (1999 – 2019)",
+   "supports": "2026 proxy (filed 2026-04-16): Donald other public boards."
+  },
+  {
+   "id": "e045",
+   "form": "DEF 14A",
+   "accession": "0001108524-26-000085",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000085/crm-20260416.htm",
+   "quote": "Former Public Company Directorships (within the past 10 years) •Microsoft Corporation (2014 – 2017) •Valeant Pharmaceuticals (2007 – 2014; 2015 – 2016)",
+   "supports": "2026 proxy (filed 2026-04-16): Morfit former public boards."
+  },
+  {
+   "id": "e046",
+   "form": "DEF 14A",
+   "accession": "0001108524-26-000085",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000085/crm-20260416.htm",
+   "quote": "•Director, Archer Aviation Inc. (since 2021) Former Public Company Directorships (within the past 10 years) •Director, CBRE Group, Inc. (2020 – 2025) •Director, United Airlines Holdings, Inc. (2010 – 2021), including as Chairman (2020 – 2021)",
+   "supports": "2026 proxy (filed 2026-04-16): Munoz other public boards."
+  },
+  {
+   "id": "e047",
+   "form": "DEF 14A",
+   "accession": "0001108524-26-000085",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000085/crm-20260416.htm",
+   "quote": "Former Public Company Directorships (within the past 10 years) •Director, Rakuten Group, Inc. (2021 – 2023) •Director, Sony Corporation (2014 – 2020)",
+   "supports": "2026 proxy (filed 2026-04-16): Roos former public boards."
+  },
+  {
+   "id": "e048",
+   "form": "DEF 14A",
+   "accession": "0001108524-26-000085",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000085/crm-20260416.htm",
+   "quote": "•Director, Alphabet Inc. (since 2019) Former Public Company Directorships (within the past 10 years) •Director, Honeywell International, Inc. (2013 – 2025) •Director, Vertiv Holdings Co. (2020 – 2025)",
+   "supports": "2026 proxy (filed 2026-04-16): Washington other public boards."
+  },
+  {
+   "id": "e049",
+   "form": "8-K",
+   "accession": "0001108524-26-000131",
+   "filing_date": "2026-06-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000131/crm-20260528.htm",
+   "quote": "Salesforce, Inc. (the “Company”) held its 2026 Annual Meeting of Stockholders on May 28, 2026",
+   "supports": "2026 annual meeting held 2026-05-28 (Webb's last day)."
+  },
+  {
+   "id": "e050",
+   "form": "8-K",
+   "accession": "0001108524-26-000131",
+   "filing_date": "2026-06-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000131/crm-20260528.htm",
+   "quote": "Mason Morfit 576,606,387 35,106,845 536,223 102,463,325",
+   "supports": "Morfit re-elected at the 2026 annual meeting.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e051",
+   "form": "8-K",
+   "accession": "0001108524-26-000131",
+   "filing_date": "2026-06-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000131/crm-20260528.htm",
+   "quote": "Robin Washington 575,435,966 36,317,035 496,454 102,463,325",
+   "supports": "Washington re-elected at the 2026 annual meeting (last nominee listed; Webb not on the ballot).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e052",
+   "form": "8-K",
+   "accession": "0001108524-26-000131",
+   "filing_date": "2026-06-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000131/crm-20260528.htm",
+   "quote": "Marc Benioff 588,577,059 20,946,190 2,726,206 102,463,325",
+   "supports": "Benioff re-elected at the 2026 annual meeting.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e053",
+   "form": "8-K",
+   "accession": "0001193125-25-020881",
+   "filing_date": "2025-02-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000119312525020881/d926032d8k.htm",
+   "quote": "On February 5, 2025, Salesforce, Inc. (the “Company” or “Salesforce”) announced the appointment of Robin Washington to serve as the Company’s President and Chief Operating and Financial Officer, effective as of March 21, 2025 (the “Effective Date”).",
+   "supports": "Washington named President & COFO effective 2025-03-21."
+  },
+  {
+   "id": "e054",
+   "form": "8-K",
+   "accession": "0001193125-25-020881",
+   "filing_date": "2025-02-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000119312525020881/d926032d8k.htm",
+   "quote": "has served as a member of the Salesforce Board of Directors (the “Board”) since 2013, and Lead Independent Director since 2022, playing a critical role in Salesforce’s financial and strategic evolution. Ms. Washington will continue serving on the Board in her new role.",
+   "supports": "Washington stays on the board as an executive; Lead Independent Director since 2022."
+  },
+  {
+   "id": "e055",
+   "form": "DEF 14A",
+   "accession": "0001108524-25-000009",
+   "filing_date": "2025-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000009/crm-20250424.htm",
+   "quote": "The Board has determined that, except for Marc Benioff, Parker Harris, and Robin Washington, each of our director nominees has no material relationship with Salesforce and is independent within the meaning of the standards established by the NYSE, as currently in effect.",
+   "supports": "2025 proxy (filed 2025-04-24): Munoz now independent; Washington not independent."
+  },
+  {
+   "id": "e056",
+   "form": "DEF 14A",
+   "accession": "0001108524-25-000009",
+   "filing_date": "2025-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000009/crm-20250424.htm",
+   "quote": "Former director Susan Wojcicki was also considered to be independent within the meaning of the standards established by the NYSE during the period she served on our Board.",
+   "supports": "2025 proxy: Wojcicki independent throughout her service."
+  },
+  {
+   "id": "e057",
+   "form": "DEF 14A",
+   "accession": "0001108524-25-000009",
+   "filing_date": "2025-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000009/crm-20250424.htm",
+   "quote": "Ms. Wojcicki’s unvested RSU shares that would have vested on August 22 and November 22, 2024 vested upon her death in August 2024.",
+   "supports": "2025 proxy: Wojcicki died in August 2024 while a director (day not stated)."
+  },
+  {
+   "id": "e058",
+   "form": "DEF 14A",
+   "accession": "0001108524-25-000009",
+   "filing_date": "2025-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000009/crm-20250424.htm",
+   "quote": "•Director, AppLovin Corporation (since 2025) •Director, Visa Inc. (since 2014) Former Public Company Directorships (within the past 10 years) •Director, Yahoo! Inc. (2012 – 2017), including as Chairman (2013 – 2017)",
+   "supports": "2025 proxy (Webb's last bio): other public boards."
+  },
+  {
+   "id": "e059",
+   "form": "8-K",
+   "accession": "0001108524-25-000040",
+   "filing_date": "2025-07-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000040/crm-20250709.htm",
+   "quote": "On July 9, 2025, Salesforce, Inc. (the “Company”) announced that Amy Chang and David Kirk were appointed as directors, each effective as of July 9, 2025.",
+   "supports": "Chang and Kirk appointed effective 2025-07-09."
+  },
+  {
+   "id": "e060",
+   "form": "DEF 14A",
+   "accession": "0001193125-24-140549",
+   "filing_date": "2024-05-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000119312524140549/d26900ddef14a.htm",
+   "quote": "The Board has determined that, except for Marc Benioff, Parker Harris and Oscar Munoz, each of our director nominees has no material relationship with Salesforce and is independent within the meaning of the standards established by the NYSE, as currently in effect. We anticipate Mr. Munoz to be eligible to be considered independent under NYSE rules as of January 2025.",
+   "supports": "2024 proxy (filed 2024-05-16): Munoz not independent; expected to become eligible January 2025. Washington independent."
+  },
+  {
+   "id": "e061",
+   "form": "DEF 14A",
+   "accession": "0001193125-24-140549",
+   "filing_date": "2024-05-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000119312524140549/d26900ddef14a.htm",
+   "quote": "Former directors Sanford Robertson and Alan Hassenfeld were also considered to be independent within the meaning of the standards established by the NYSE during the period they served on our Board.",
+   "supports": "2024 proxy: Robertson and Hassenfeld independent throughout their service."
+  },
+  {
+   "id": "e062",
+   "form": "DEF 14A",
+   "accession": "0001193125-24-140549",
+   "filing_date": "2024-05-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000119312524140549/d26900ddef14a.htm",
+   "quote": "In September 2022, Robin Washington succeeded Sanford Robertson as the Lead Independent Director.",
+   "supports": "Washington Lead Independent Director from September 2022, succeeding Robertson (day not stated)."
+  },
+  {
+   "id": "e063",
+   "form": "DEF 14A",
+   "accession": "0001193125-24-140549",
+   "filing_date": "2024-05-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000119312524140549/d26900ddef14a.htm",
+   "quote": "Cybersecurity & Privacy Committee Business Transformation Committee Members Neelie Kroes (Chair) Parker Harris Maynard Webb Susan Wojcicki",
+   "supports": "2024 proxy: Cybersecurity & Privacy Committee roster (Wojcicki's last proxy).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e064",
+   "form": "DEF 14A",
+   "accession": "0001193125-24-140549",
+   "filing_date": "2024-05-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000119312524140549/d26900ddef14a.htm",
+   "quote": "Susan Wojcicki Former CEO, YouTube Age: 55 Director Since: 2014",
+   "supports": "2024 proxy: Wojcicki nominee, director since 2014.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e065",
+   "form": "8-K",
+   "accession": "0001108524-24-000014",
+   "filing_date": "2024-07-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852424000014/crm-20240627.htm",
+   "quote": "held its 2024 Annual Meeting of Stockholders on June 27, 2024",
+   "supports": "2024 annual meeting held 2024-06-27."
+  },
+  {
+   "id": "e066",
+   "form": "8-K",
+   "accession": "0001108524-24-000014",
+   "filing_date": "2024-07-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852424000014/crm-20240627.htm",
+   "quote": "Susan Wojcicki 743,033,738 7,223,358 960,357 102,155,941",
+   "supports": "Wojcicki re-elected at the 2024 annual meeting.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e067",
+   "form": "8-K",
+   "accession": "0001193125-23-017661",
+   "filing_date": "2023-01-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000119312523017661/d103146d8k.htm",
+   "quote": "Alan Hassenfeld and Sanford Robertson each informed the Board of Directors of the Company (the “Board”) of his decision not to stand for reelection as a director and to retire from the Board, effective as of the date of the 2023 Annual Meeting of Stockholders.",
+   "supports": "Hassenfeld and Robertson did not stand in 2023; retired effective at the 2023 annual meeting."
+  },
+  {
+   "id": "e068",
+   "form": "8-K",
+   "accession": "0001193125-23-017661",
+   "filing_date": "2023-01-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000119312523017661/d103146d8k.htm",
+   "quote": "On January 27, 2023, the Board appointed Arnold Donald, Sachin Mehra and Mason Morfit as directors of the Company, effective as of March 1, 2023.",
+   "supports": "Donald, Mehra and Morfit appointed effective 2023-03-01."
+  },
+  {
+   "id": "e069",
+   "form": "8-K",
+   "accession": "0001193125-23-017661",
+   "filing_date": "2023-01-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000119312523017661/d103146d8k.htm",
+   "quote": "Mr. Morfit was appointed to the Board pursuant to a Nomination and Cooperation Agreement (the “Agreement”), dated January 27, 2023, by and between the Company and ValueAct Capital Management L.P. (“ValueAct”).",
+   "supports": "Morfit appointed under the ValueAct nomination and cooperation agreement."
+  },
+  {
+   "id": "e070",
+   "form": "8-K",
+   "accession": "0001193125-23-017661",
+   "filing_date": "2023-01-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000119312523017661/d103146dex992.htm",
+   "quote": "Salesforce Announces Appointment of Three New Independent Directors",
+   "supports": "Press release: Donald, Mehra and Morfit described as independent directors."
+  },
+  {
+   "id": "e071",
+   "form": "DEF 14A",
+   "accession": "0001193125-23-122123",
+   "filing_date": "2023-04-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000119312523122123/d406753ddef14a.htm",
+   "quote": "The Board has determined that, except for Marc Benioff, Parker Harris and Oscar Munoz, each of our director nominees has no material relationship with Salesforce and is independent within the meaning of the standards established by the NYSE, as currently in effect.",
+   "supports": "2023 proxy (filed 2023-04-27): independence determinations."
+  },
+  {
+   "id": "e072",
+   "form": "DEF 14A",
+   "accession": "0001193125-23-122123",
+   "filing_date": "2023-04-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000119312523122123/d406753ddef14a.htm",
+   "quote": "Former director Bret Taylor was not independent during the period he served on the Board given his prior employment with the Company.",
+   "supports": "2023 proxy: Taylor a former director, not independent."
+  },
+  {
+   "id": "e073",
+   "form": "DEF 14A",
+   "accession": "0001193125-23-122123",
+   "filing_date": "2023-04-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000119312523122123/d406753ddef14a.htm",
+   "quote": "Mr. Taylor resigned as Co-CEO and Vice Chair of the Board effective January 31, 2023",
+   "supports": "2023 proxy: Taylor resigned effective 2023-01-31."
+  },
+  {
+   "id": "e074",
+   "form": "DEF 14A",
+   "accession": "0001193125-23-122123",
+   "filing_date": "2023-04-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000119312523122123/d406753ddef14a.htm",
+   "quote": "Sanford Robertson and Alan Hassenfeld will each retire from the Board effective as of the date of the Annual Meeting.",
+   "supports": "2023 proxy: Robertson and Hassenfeld retire at the 2023 annual meeting."
+  },
+  {
+   "id": "e075",
+   "form": "DEF 14A",
+   "accession": "0001193125-23-122123",
+   "filing_date": "2023-04-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000119312523122123/d406753ddef14a.htm",
+   "quote": "I am honored to have been selected by the independent members of the Board as Lead Independent Director in September 2022, succeeding Sanford Robertson",
+   "supports": "2023 proxy (Washington's letter): Lead Independent Director since September 2022."
+  },
+  {
+   "id": "e076",
+   "form": "DEF 14A",
+   "accession": "0001193125-23-122123",
+   "filing_date": "2023-04-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000119312523122123/d406753ddef14a.htm",
+   "quote": "Audit and Finance Committee Members Robin Washington (Chair) Arnold Donald Alan Hassenfeld(1) Sachin Mehra Sanford Robertson(1)",
+   "supports": "2023 proxy: Audit & Finance Committee roster (Hassenfeld's and Robertson's last proxy).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e077",
+   "form": "DEF 14A",
+   "accession": "0001193125-23-122123",
+   "filing_date": "2023-04-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000119312523122123/d406753ddef14a.htm",
+   "quote": "Nominating and Corporate Governance Committee Members Sanford Robertson(1) (Chair) Laura Alber Arnold Donald Alan Hassenfeld(1) John V. Roos Robin Washington(2)",
+   "supports": "2023 proxy: Nominating & Corporate Governance Committee roster.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e078",
+   "form": "8-K",
+   "accession": "0001108524-23-000029",
+   "filing_date": "2023-06-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852423000029/crm-20230608.htm",
+   "quote": "held its 2023 Annual Meeting of Stockholders on June 8, 2023",
+   "supports": "2023 annual meeting held 2023-06-08 (Hassenfeld's and Robertson's last day)."
+  },
+  {
+   "id": "e079",
+   "form": "8-K",
+   "accession": "0001108524-22-000059",
+   "filing_date": "2022-11-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852422000059/crm-20221130.htm",
+   "quote": "announced that Bret Taylor has given notice that he will resign from his position as the Company’s Co-CEO and Vice Chair of the Company’s Board of Directors, effective as of January 31, 2023.",
+   "supports": "Taylor to resign as Co-CEO and Vice Chair effective 2023-01-31."
+  },
+  {
+   "id": "e080",
+   "form": "8-K",
+   "accession": "0001108524-22-000059",
+   "filing_date": "2022-11-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852422000059/crm-20221130.htm",
+   "quote": "Thereafter, Mr. Benioff will serve as the Company’s CEO and Chair of the Board.",
+   "supports": "Benioff sole CEO and Chair after 2023-01-31."
+  },
+  {
+   "id": "e081",
+   "form": "DEF 14A",
+   "accession": "0001193125-22-127612",
+   "filing_date": "2022-04-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000119312522127612/d301179ddef14a.htm",
+   "quote": "The Board has determined that, except for Mr. Benioff, Mr. Taylor, Mr. Harris and Mr. Munoz, each of our current directors has no material relationship with Salesforce and is independent",
+   "supports": "2022 proxy (filed 2022-04-28): Munoz and Taylor not independent; Alber independent."
+  },
+  {
+   "id": "e082",
+   "form": "DEF 14A",
+   "accession": "0001193125-22-127612",
+   "filing_date": "2022-04-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000119312522127612/d301179ddef14a.htm",
+   "quote": "Former director General Colin Powell was also independent during the period he served on the Board in fiscal 2022.",
+   "supports": "2022 proxy: Powell a former director, independent."
+  },
+  {
+   "id": "e083",
+   "form": "DEF 14A",
+   "accession": "0001193125-22-127612",
+   "filing_date": "2022-04-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000119312522127612/d301179ddef14a.htm",
+   "quote": "Mr. Powell passed away in October 2021.",
+   "supports": "2022 proxy: Powell died in October 2021 (day not stated)."
+  },
+  {
+   "id": "e084",
+   "form": "DEF 14A",
+   "accession": "0001193125-22-127612",
+   "filing_date": "2022-04-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000119312522127612/d301179ddef14a.htm",
+   "quote": "Laura Alber has served as a Director since November 2021.",
+   "supports": "2022 proxy: Alber director since November 2021."
+  },
+  {
+   "id": "e085",
+   "form": "DEF 14A",
+   "accession": "0001193125-22-127612",
+   "filing_date": "2022-04-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000119312522127612/d301179ddef14a.htm",
+   "quote": "Oscar Munoz has served as a Director since January 2022 and was previously a member of our Global Advisory Board from December 2020 to December 2021.",
+   "supports": "2022 proxy: Munoz director since January 2022; prior Global Advisory Board member."
+  },
+  {
+   "id": "e086",
+   "form": "DEF 14A",
+   "accession": "0001193125-22-127612",
+   "filing_date": "2022-04-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000119312522127612/d301179ddef14a.htm",
+   "quote": "Mr. Taylor currently serves on the Board of Directors of Twitter, Inc., where he is Chairman of the Board. Within the past five years, he also served on the Board of Directors of Axon Enterprise, Inc., formerly known as TASER International, Inc.",
+   "supports": "2022 proxy (Taylor's last bio): other public boards."
+  },
+  {
+   "id": "e087",
+   "form": "DEF 14A",
+   "accession": "0001193125-22-127612",
+   "filing_date": "2022-04-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000119312522127612/d301179ddef14a.htm",
+   "quote": "He served on its Board of Directors from 1978 to 2021, as its Chairman from 1989 to 2008, and as its Chairman and Chief Executive Officer from 1989 to 2003.",
+   "supports": "2022 proxy (Hassenfeld's last bio): Hasbro board 1978-2021."
+  },
+  {
+   "id": "e088",
+   "form": "DEF 14A",
+   "accession": "0001193125-22-127612",
+   "filing_date": "2022-04-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000119312522127612/d301179ddef14a.htm",
+   "quote": "Mr. Robertson currently serves on the Board of Directors of Cassava Sciences, Inc. and, within the past five years, also served on the Board of Directors of RPX Corporation.",
+   "supports": "2022 proxy (Robertson's last bio): other public boards."
+  },
+  {
+   "id": "e089",
+   "form": "8-K",
+   "accession": "0001193125-21-343775",
+   "filing_date": "2021-11-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000119312521343775/d217055d8k.htm",
+   "quote": "announced that Bret Taylor had been appointed Vice Chair of the Board and Co-Chief Executive Officer, effective November 30, 2021.",
+   "supports": "Taylor Vice Chair and Co-CEO from 2021-11-30."
+  },
+  {
+   "id": "e090",
+   "form": "8-K",
+   "accession": "0001193125-21-343775",
+   "filing_date": "2021-11-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000119312521343775/d217055d8k.htm",
+   "quote": "the Board of Directors (the “Board”) also appointed Mr. Taylor as a director of the Company, effective November 30, 2021.",
+   "supports": "Taylor appointed director effective 2021-11-30."
+  },
+  {
+   "id": "e091",
+   "form": "8-K",
+   "accession": "0001193125-21-343775",
+   "filing_date": "2021-11-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000119312521343775/d217055d8k.htm",
+   "quote": "The appointment of Ms. Alber is effective as of November 30, 2021, and the appointment of Mr. Munoz is effective as of January 1, 2022.",
+   "supports": "Alber director from 2021-11-30; Munoz from 2022-01-01."
+  },
+  {
+   "id": "e092",
+   "form": "8-K",
+   "accession": "0001193125-21-343775",
+   "filing_date": "2021-11-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000119312521343775/d217055d8k.htm",
+   "quote": "Mr. Munoz has served as a member of the Company’s Global Advisory Board since December 1, 2020",
+   "supports": "Munoz's paid Global Advisory Board role (basis of his initial non-independence)."
+  },
+  {
+   "id": "e093",
+   "form": "DEF 14A",
+   "accession": "0001193125-21-140350",
+   "filing_date": "2021-04-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000119312521140350/d80344ddef14a.htm",
+   "quote": "Sanford Robertson has served as the Lead Independent Director since June 2007",
+   "supports": "2021 proxy: Robertson Lead Independent Director since June 2007."
+  },
+  {
+   "id": "e094",
+   "form": "DEF 14A",
+   "accession": "0001193125-21-140350",
+   "filing_date": "2021-04-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000119312521140350/d80344ddef14a.htm",
+   "quote": "Nominating and Corporate Governance Committee Committee Members: Sanford Robertson (Chair) Alan Hassenfeld General Colin Powell",
+   "supports": "2021 proxy (Powell's last proxy): Governance Committee roster.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e095",
+   "form": "DEF 14A",
+   "accession": "0001193125-21-140350",
+   "filing_date": "2021-04-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000119312521140350/d80344ddef14a.htm",
+   "quote": "General Powell currently serves as a director of Bloom Energy Corporation.",
+   "supports": "2021 proxy (Powell's last bio): other public board."
+  },
+  {
+   "id": "e096",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-131040",
+   "filing_date": "2020-05-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000119312520131040/d861721ddef14a.htm",
+   "quote": "Mr. Block resigned as Co-CEO and a member of the Board on February 24, 2020.",
+   "supports": "2020 proxy: Block left the board 2020-02-24."
+  },
+  {
+   "id": "e097",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-131040",
+   "filing_date": "2020-05-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000119312520131040/d861721ddef14a.htm",
+   "quote": "Former director Bernard Tyson was independent during the period he served on the Board, while Keith Block was not, due to his employment with Salesforce.",
+   "supports": "2020 proxy: Block not independent."
+  },
+  {
+   "id": "e098",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-131040",
+   "filing_date": "2020-05-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000119312520131040/d861721ddef14a.htm",
+   "quote": "Mr. Benioff resumed role as sole CEO upon Mr. Block’s resignation.",
+   "supports": "2020 proxy: Benioff sole CEO after Block's resignation."
+  },
+  {
+   "id": "e099",
+   "form": "8-K",
+   "accession": "0001193125-20-048353",
+   "filing_date": "2020-02-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000119312520048353/d892430d8k.htm",
+   "quote": "The Company announced that Keith Block has resigned from his positions as the Company’s Co-Chief Executive Officer and as a director of the Company.",
+   "supports": "8-K (event date 2020-02-24, filed 2020-02-25): Block resigned as Co-CEO and director."
+  },
+  {
+   "id": "e100",
+   "form": "DEF 14A",
+   "accession": "0001193125-19-119702",
+   "filing_date": "2019-04-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000119312519119702/d664082ddef14a.htm",
+   "quote": "Keith Block is Co-CEO of Salesforce and has served as a Director since June 2013.",
+   "supports": "2019 proxy: Block director since June 2013."
+  },
+  {
+   "id": "e101",
+   "form": "8-K",
+   "accession": "0001193125-18-241896",
+   "filing_date": "2018-08-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000119312518241896/d599354d8k.htm",
+   "quote": "appointed Keith Block as co-Chief Executive Officer, effective August 7, 2018.",
+   "supports": "Block co-CEO from 2018-08-07."
+  },
+  {
+   "id": "e102",
+   "form": "8-K",
+   "accession": "0001193125-18-241896",
+   "filing_date": "2018-08-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000119312518241896/d599354d8k.htm",
+   "quote": "the Board elected Parker Harris, the Company’s Co-Founder and Chief Technology Officer, as a director, effective August 7, 2018. In connection with Mr. Harris’ appointment, the Board expanded the size of the Board to thirteen members.",
+   "supports": "Harris director from 2018-08-07; board expanded to 13."
+  },
+  {
+   "id": "e103",
+   "form": "8-K",
+   "accession": "0001193125-16-513519",
+   "filing_date": "2016-03-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000119312516513519/d163364d8k.htm",
+   "quote": "expanded the size of the Board to twelve members and appointed Neelie Kroes as a director, both effective as of May 1, 2016.",
+   "supports": "Kroes director from 2016-05-01; board expanded to 12."
+  },
+  {
+   "id": "e104",
+   "form": "8-K",
+   "accession": "0001108524-16-000044",
+   "filing_date": "2016-02-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852416000044/a8-kfeb2016.htm",
+   "quote": "announced the appointment of Keith Block as the Company’s Chief Operating Officer, effective February 1, 2016. Mr. Block, age 54, will continue to serve as a member of the board of directors and as the Company’s Vice Chairman and President.",
+   "supports": "Block COO from 2016-02-01 while a director and Vice Chairman/President."
+  },
+  {
+   "id": "e105",
+   "form": "8-K",
+   "accession": "0001193125-14-436507",
+   "filing_date": "2014-12-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000119312514436507/d834630d8k.htm",
+   "quote": "elected Susan Wojcicki to the Board. The Board expanded its size to eleven members and appointed Ms. Wojcicki to fill the newly created seat.",
+   "supports": "Wojcicki elected director 2014-12-05 (8-K event date); board size eleven."
+  },
+  {
+   "id": "e106",
+   "form": "8-K",
+   "accession": "0001193125-14-436507",
+   "filing_date": "2014-12-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000119312514436507/d834630d8k.htm",
+   "quote": "On December 5, 2014, the Board of Directors (the “Board”) of salesforce.com,",
+   "supports": "Wojcicki appointment date 2014-12-05."
+  },
+  {
+   "id": "e107",
+   "form": "8-K",
+   "accession": "0001193125-14-100360",
+   "filing_date": "2014-03-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000119312514100360/d693400d8k.htm",
+   "quote": "On March 13, 2014, the Board of Directors (the “Board”) of salesforce.com, inc. (the “Company”) appointed General Colin Powell, Former U.S. Secretary of State, as a director of the Board. The Board expanded its size to eleven members",
+   "supports": "Powell director from 2014-03-13; board size eleven."
+  },
+  {
+   "id": "e108",
+   "form": "8-K",
+   "accession": "0001193125-13-365469",
+   "filing_date": "2013-09-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000119312513365469/d597061d8k.htm",
+   "quote": "On September 10, 2013, the Board appointed Ambassador John V. Roos and Robin Washington as directors to fill the vacancies left by Mr. Sclavos and Ms. Young.",
+   "supports": "Roos and Washington directors from 2013-09-10."
+  },
+  {
+   "id": "e109",
+   "form": "8-K",
+   "accession": "0001193125-13-254855",
+   "filing_date": "2013-06-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000119312513254855/d548447d8k.htm",
+   "quote": "appointed Keith Block, 52, to serve as President and Vice Chairman of the Company, and elected him to become a director of the Company. The Board expanded its size to ten members",
+   "supports": "Block elected director 2013-06-06 as President and Vice Chairman; board size ten."
+  },
+  {
+   "id": "e110",
+   "form": "8-K",
+   "accession": "0001193125-13-254855",
+   "filing_date": "2013-06-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000119312513254855/d548447d8k.htm",
+   "quote": "On June 6, 2013, the Board of Directors (the “Board”) of",
+   "supports": "Block appointment date 2013-06-06."
+  },
+  {
+   "id": "e111",
+   "form": "8-K",
+   "accession": "0001193125-06-187910",
+   "filing_date": "2006-09-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000119312506187910/d8k.htm",
+   "quote": "On September 7, 2006, the Company’s Board of Directors appointed Mr. Maynard Webb to serve as a Class II member of the Company’s Board of Directors, with a term expiring at the 2009 annual meeting of stockholders, and increased the size of the Board of Directors from eight (8) to nine (9) directors.",
+   "supports": "Webb director from 2006-09-07; board 8 -> 9."
+  },
+  {
+   "id": "e112",
+   "form": "8-K",
+   "accession": "0001193125-06-187910",
+   "filing_date": "2006-09-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000119312506187910/d8k.htm",
+   "quote": "The Board of Directors determined that Mr. Webb has no material relationship with the Company and is otherwise independent",
+   "supports": "Webb independent at appointment."
+  },
+  {
+   "id": "e113",
+   "form": "8-K",
+   "accession": "0001193125-05-199637",
+   "filing_date": "2005-10-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000119312505199637/d8k.htm",
+   "quote": "On October 6, 2005, the Company’s Board of Directors appointed Mr. Craig A. Conway to serve as a Class I member of the Company’s Board of Directors, with a term expiring at the 2008 annual meeting of stockholders.",
+   "supports": "Conway director from 2005-10-06."
+  },
+  {
+   "id": "e114",
+   "form": "8-K",
+   "accession": "0001193125-05-199637",
+   "filing_date": "2005-10-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000119312505199637/d8k.htm",
+   "quote": "The Board of Directors determined that Mr. Conway has no material relationship with the Company and is otherwise independent",
+   "supports": "Conway independent at appointment."
+  },
+  {
+   "id": "e115",
+   "form": "4",
+   "accession": "0001108524-26-000088",
+   "filing_date": "2026-04-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000088/form4.xml",
+   "quote": "Benioff Marc",
+   "supports": "Benioff reporting-owner CIK; director and officer (Chair and CEO). Period 2026-04-22.",
+   "xml_fields": {
+    "rptOwnerCik": "0001294693",
+    "rptOwnerName": "Benioff Marc",
+    "periodOfReport": "2026-04-22"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": "Chair and CEO"
+   }
+  },
+  {
+   "id": "e116",
+   "form": "4",
+   "accession": "0001108524-26-000172",
+   "filing_date": "2026-08-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000172/form4.xml",
+   "quote": "ALBER LAURA",
+   "supports": "Alber reporting-owner CIK; director Form 4 after the 2026 meeting.",
+   "xml_fields": {
+    "rptOwnerCik": "0001225922",
+    "rptOwnerName": "ALBER LAURA",
+    "periodOfReport": "2026-08-22"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e117",
+   "form": "3",
+   "accession": "0001127602-21-030115",
+   "filing_date": "2021-12-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000112760221030115/form3.xml",
+   "quote": "ALBER LAURA",
+   "supports": "Alber Form 3 as director; event date 2021-11-30.",
+   "xml_fields": {
+    "rptOwnerCik": "0001225922",
+    "rptOwnerName": "ALBER LAURA",
+    "periodOfReport": "2021-11-30"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e118",
+   "form": "4",
+   "accession": "0001108524-26-000162",
+   "filing_date": "2026-08-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000162/form4.xml",
+   "quote": "Chang Amy",
+   "supports": "Chang reporting-owner CIK; director Form 4 after the 2026 meeting.",
+   "xml_fields": {
+    "rptOwnerCik": "0001551504",
+    "rptOwnerName": "Chang Amy",
+    "periodOfReport": "2026-08-22"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e119",
+   "form": "3",
+   "accession": "0001127602-25-019099",
+   "filing_date": "2025-07-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000112760225019099/form3.xml",
+   "quote": "Chang Amy",
+   "supports": "Chang Form 3 as director; event date 2025-07-09.",
+   "xml_fields": {
+    "rptOwnerCik": "0001551504",
+    "rptOwnerName": "Chang Amy",
+    "periodOfReport": "2025-07-09"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e120",
+   "form": "4",
+   "accession": "0001108524-26-000199",
+   "filing_date": "2026-09-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000199/form4.xml",
+   "quote": "Conway Craig",
+   "supports": "Conway reporting-owner CIK; director Form 4, period 2026-09-04.",
+   "xml_fields": {
+    "rptOwnerCik": "0001340922",
+    "rptOwnerName": "Conway Craig",
+    "periodOfReport": "2026-09-04"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e121",
+   "form": "3",
+   "accession": "0001305763-05-000275",
+   "filing_date": "2005-10-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000130576305000275/edgardoc.xml",
+   "quote": "Conway Craig",
+   "supports": "Conway Form 3 as director; event date 2005-10-06.",
+   "xml_fields": {
+    "rptOwnerCik": "0001340922",
+    "rptOwnerName": "Conway Craig",
+    "periodOfReport": "2005-10-06"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e122",
+   "form": "4",
+   "accession": "0001108524-26-000164",
+   "filing_date": "2026-08-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000164/form4.xml",
+   "quote": "DONALD ARNOLD W",
+   "supports": "Donald reporting-owner CIK; director Form 4 after the 2026 meeting.",
+   "xml_fields": {
+    "rptOwnerCik": "0001083206",
+    "rptOwnerName": "DONALD ARNOLD W",
+    "periodOfReport": "2026-08-22"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e123",
+   "form": "3",
+   "accession": "0001127602-23-008950",
+   "filing_date": "2023-03-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000112760223008950/form3.xml",
+   "quote": "DONALD ARNOLD W",
+   "supports": "Donald Form 3 as director; event date 2023-03-01.",
+   "xml_fields": {
+    "rptOwnerCik": "0001083206",
+    "rptOwnerName": "DONALD ARNOLD W",
+    "periodOfReport": "2023-03-01"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e124",
+   "form": "4",
+   "accession": "0001108524-26-000225",
+   "filing_date": "2026-09-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000225/form4.xml",
+   "quote": "Harris Parker",
+   "supports": "Harris reporting-owner CIK; director and officer, period 2026-09-22.",
+   "xml_fields": {
+    "rptOwnerCik": "0001294774",
+    "rptOwnerName": "Harris Parker",
+    "periodOfReport": "2026-09-22"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": "Co-Founder"
+   }
+  },
+  {
+   "id": "e125",
+   "form": "4",
+   "accession": "0001108524-26-000212",
+   "filing_date": "2026-09-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000212/form4.xml",
+   "quote": "Kirk David Blair",
+   "supports": "Kirk reporting-owner CIK; director Form 4, period 2026-09-18.",
+   "xml_fields": {
+    "rptOwnerCik": "0002077892",
+    "rptOwnerName": "Kirk David Blair",
+    "periodOfReport": "2026-09-18"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e126",
+   "form": "3",
+   "accession": "0001127602-25-019426",
+   "filing_date": "2025-07-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000112760225019426/form3.xml",
+   "quote": "Kirk David Blair",
+   "supports": "Kirk Form 3 as director; event date 2025-07-09.",
+   "xml_fields": {
+    "rptOwnerCik": "0002077892",
+    "rptOwnerName": "Kirk David Blair",
+    "periodOfReport": "2025-07-09"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e127",
+   "form": "4",
+   "accession": "0001108524-26-000174",
+   "filing_date": "2026-08-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000174/form4.xml",
+   "quote": "KROES NEELIE",
+   "supports": "Kroes reporting-owner CIK; director Form 4 after the 2026 meeting.",
+   "xml_fields": {
+    "rptOwnerCik": "0001202423",
+    "rptOwnerName": "KROES NEELIE",
+    "periodOfReport": "2026-08-22"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e128",
+   "form": "3",
+   "accession": "0001127602-16-050577",
+   "filing_date": "2016-05-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000112760216050577/form3.xml",
+   "quote": "KROES NEELIE",
+   "supports": "Kroes Form 3 as director; event date 2016-05-01.",
+   "xml_fields": {
+    "rptOwnerCik": "0001202423",
+    "rptOwnerName": "KROES NEELIE",
+    "periodOfReport": "2016-05-01"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e129",
+   "form": "4",
+   "accession": "0001108524-26-000178",
+   "filing_date": "2026-08-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000178/form4.xml",
+   "quote": "SACHIN J. MEHRA",
+   "supports": "Mehra reporting-owner CIK; director Form 4 after the 2026 meeting.",
+   "xml_fields": {
+    "rptOwnerCik": "0001427531",
+    "rptOwnerName": "SACHIN J. MEHRA",
+    "periodOfReport": "2026-08-22"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e130",
+   "form": "3",
+   "accession": "0001127602-23-008948",
+   "filing_date": "2023-03-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000112760223008948/form3.xml",
+   "quote": "SACHIN J. MEHRA",
+   "supports": "Mehra Form 3 as director; event date 2023-03-01.",
+   "xml_fields": {
+    "rptOwnerCik": "0001427531",
+    "rptOwnerName": "SACHIN J. MEHRA",
+    "periodOfReport": "2023-03-01"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e131",
+   "form": "4",
+   "accession": "0001418812-25-000036",
+   "filing_date": "2025-12-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000141881225000036/primary_doc.xml",
+   "quote": "Morfit G Mason",
+   "supports": "Morfit reporting-owner CIK (joint filing with ValueAct entities, Morfit listed first); latest Form 4 found, period 2025-12-05.",
+   "xml_fields": {
+    "rptOwnerCik": "0001325920",
+    "rptOwnerName": "Morfit G Mason",
+    "periodOfReport": "2025-12-05"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e132",
+   "form": "3",
+   "accession": "0001418812-23-000017",
+   "filing_date": "2023-03-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000141881223000017/primary_doc.xml",
+   "quote": "Morfit G Mason",
+   "supports": "Morfit Form 3 as director; event date 2023-03-01.",
+   "xml_fields": {
+    "rptOwnerCik": "0001325920",
+    "rptOwnerName": "Morfit G Mason",
+    "periodOfReport": "2023-03-01"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e133",
+   "form": "4",
+   "accession": "0001108524-26-000176",
+   "filing_date": "2026-08-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000176/form4.xml",
+   "quote": "MUNOZ OSCAR",
+   "supports": "Munoz reporting-owner CIK; director Form 4 after the 2026 meeting.",
+   "xml_fields": {
+    "rptOwnerCik": "0001237371",
+    "rptOwnerName": "MUNOZ OSCAR",
+    "periodOfReport": "2026-08-22"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e134",
+   "form": "3",
+   "accession": "0001127602-22-001783",
+   "filing_date": "2022-01-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000112760222001783/form3.xml",
+   "quote": "MUNOZ OSCAR",
+   "supports": "Munoz Form 3 as director; event date 2022-01-01.",
+   "xml_fields": {
+    "rptOwnerCik": "0001237371",
+    "rptOwnerName": "MUNOZ OSCAR",
+    "periodOfReport": "2022-01-01"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e135",
+   "form": "4",
+   "accession": "0001108524-26-000170",
+   "filing_date": "2026-08-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000170/form4.xml",
+   "quote": "Roos John Victor",
+   "supports": "Roos reporting-owner CIK; director Form 4 after the 2026 meeting.",
+   "xml_fields": {
+    "rptOwnerCik": "0001586704",
+    "rptOwnerName": "Roos John Victor",
+    "periodOfReport": "2026-08-22"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e136",
+   "form": "3",
+   "accession": "0001127602-13-027168",
+   "filing_date": "2013-09-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000112760213027168/form3.xml",
+   "quote": "Roos John Victor",
+   "supports": "Roos Form 3 as director; event date 2013-09-10.",
+   "xml_fields": {
+    "rptOwnerCik": "0001586704",
+    "rptOwnerName": "Roos John Victor",
+    "periodOfReport": "2013-09-10"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e137",
+   "form": "4",
+   "accession": "0001108524-26-000220",
+   "filing_date": "2026-09-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000220/form4.xml",
+   "quote": "Washington Robin L",
+   "supports": "Washington reporting-owner CIK; director and officer (President and COFO), period 2026-09-22.",
+   "xml_fields": {
+    "rptOwnerCik": "0001327145",
+    "rptOwnerName": "Washington Robin L",
+    "periodOfReport": "2026-09-22"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": "President and COFO"
+   }
+  },
+  {
+   "id": "e138",
+   "form": "3",
+   "accession": "0001127602-13-027169",
+   "filing_date": "2013-09-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000112760213027169/form3.xml",
+   "quote": "Washington Robin L",
+   "supports": "Washington Form 3 as director; event date 2013-09-10.",
+   "xml_fields": {
+    "rptOwnerCik": "0001327145",
+    "rptOwnerName": "Washington Robin L",
+    "periodOfReport": "2013-09-10"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e139",
+   "form": "4",
+   "accession": "0001108524-26-000105",
+   "filing_date": "2026-05-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000105/form4.xml",
+   "quote": "WEBB MAYNARD G JR",
+   "supports": "Webb reporting-owner CIK; last director Form 4 before the 2026 meeting.",
+   "xml_fields": {
+    "rptOwnerCik": "0001209189",
+    "rptOwnerName": "WEBB MAYNARD G JR",
+    "periodOfReport": "2026-05-22"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e140",
+   "form": "3",
+   "accession": "0001181431-06-051908",
+   "filing_date": "2006-09-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000118143106051908/rrd129759.xml",
+   "quote": "WEBB MAYNARD G JR",
+   "supports": "Webb Form 3 as director; event date 2006-09-07.",
+   "xml_fields": {
+    "rptOwnerCik": "0001209189",
+    "rptOwnerName": "WEBB MAYNARD G JR",
+    "periodOfReport": "2006-09-07"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e141",
+   "form": "4",
+   "accession": "0001127602-20-007800",
+   "filing_date": "2020-02-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000112760220007800/form4.xml",
+   "quote": "BLOCK KEITH",
+   "supports": "Block reporting-owner CIK; last Form 4 as director and co-CEO.",
+   "xml_fields": {
+    "rptOwnerCik": "0001205003",
+    "rptOwnerName": "BLOCK KEITH",
+    "periodOfReport": "2020-02-22"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": "co-CEO"
+   }
+  },
+  {
+   "id": "e142",
+   "form": "3",
+   "accession": "0001127602-13-020428",
+   "filing_date": "2013-06-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000112760213020428/form3.xml",
+   "quote": "BLOCK KEITH",
+   "supports": "Block Form 3 as director and officer (President and Vice Chairman); event date 2013-06-06.",
+   "xml_fields": {
+    "rptOwnerCik": "0001205003",
+    "rptOwnerName": "BLOCK KEITH",
+    "periodOfReport": "2013-06-06"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": "President and Vice Chairman"
+   }
+  },
+  {
+   "id": "e143",
+   "form": "4",
+   "accession": "0001127602-21-024192",
+   "filing_date": "2021-08-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000112760221024192/form4.xml",
+   "quote": "Powell Colin",
+   "supports": "Powell reporting-owner CIK; last Form 4 as director.",
+   "xml_fields": {
+    "rptOwnerCik": "0001603044",
+    "rptOwnerName": "Powell Colin",
+    "periodOfReport": "2021-08-22"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e144",
+   "form": "3",
+   "accession": "0001127602-14-012531",
+   "filing_date": "2014-03-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000112760214012531/form3.xml",
+   "quote": "Powell Colin",
+   "supports": "Powell Form 3 as director; event date 2014-03-13.",
+   "xml_fields": {
+    "rptOwnerCik": "0001603044",
+    "rptOwnerName": "Powell Colin",
+    "periodOfReport": "2014-03-13"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e145",
+   "form": "4",
+   "accession": "0001127602-23-002062",
+   "filing_date": "2023-01-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000112760223002062/form4.xml",
+   "quote": "Taylor Bret Steven",
+   "supports": "Taylor reporting-owner CIK; last Form 4 as director (Vice Chair of the Board, Co-CEO).",
+   "xml_fields": {
+    "rptOwnerCik": "0001610312",
+    "rptOwnerName": "Taylor Bret Steven",
+    "periodOfReport": "2023-01-22"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": "Vice Chair of the Board, CoCEO"
+   }
+  },
+  {
+   "id": "e146",
+   "form": "4",
+   "accession": "0001127602-23-016591",
+   "filing_date": "2023-05-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000112760223016591/form4.xml",
+   "quote": "HASSENFELD ALAN G",
+   "supports": "Hassenfeld reporting-owner CIK; last Form 4 as director.",
+   "xml_fields": {
+    "rptOwnerCik": "0000916371",
+    "rptOwnerName": "HASSENFELD ALAN G",
+    "periodOfReport": "2023-05-22"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e147",
+   "form": "4",
+   "accession": "0001127602-23-016603",
+   "filing_date": "2023-05-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000112760223016603/form4.xml",
+   "quote": "ROBERTSON SANFORD",
+   "supports": "Robertson reporting-owner CIK; last Form 4 as director.",
+   "xml_fields": {
+    "rptOwnerCik": "0001250105",
+    "rptOwnerName": "ROBERTSON SANFORD",
+    "periodOfReport": "2023-05-22"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e148",
+   "form": "4",
+   "accession": "0001127602-24-016458",
+   "filing_date": "2024-05-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000112760224016458/form4.xml",
+   "quote": "Wojcicki Susan",
+   "supports": "Wojcicki reporting-owner CIK; last Form 4 as director.",
+   "xml_fields": {
+    "rptOwnerCik": "0001519786",
+    "rptOwnerName": "Wojcicki Susan",
+    "periodOfReport": "2024-05-22"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e149",
+   "form": "3",
+   "accession": "0001127602-14-034642",
+   "filing_date": "2014-12-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000112760214034642/form3.xml",
+   "quote": "Wojcicki Susan",
+   "supports": "Wojcicki Form 3 as director; event date 2014-12-05.",
+   "xml_fields": {
+    "rptOwnerCik": "0001519786",
+    "rptOwnerName": "Wojcicki Susan",
+    "periodOfReport": "2014-12-05"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  }
+ ],
+ "conflicts": [
+  {
+   "description": "Keith Block's exit is dated 2020-02-24 (8-K 'date of earliest event reported' and the 2020 proxy: 'resigned as Co-CEO and a member of the Board on February 24, 2020'), but the 8-K text and press release say the company 'announced' it on February 25, 2020. Recorded 2020-02-24 as the effective date; 2020-02-25 is the announcement date.",
+   "evidence_refs": [
+    "e099",
+    "e096"
+   ]
+  },
+  {
+   "description": "The 2014 8-Ks for Colin Powell (March 2014) and Susan Wojcicki (December 2014) both say the board was expanded to eleven members. That implies a departure between them; pre-2020 departures were not researched. Both size events are recorded as stated.",
+   "evidence_refs": [
+    "e107",
+    "e105"
+   ]
+  },
+  {
+   "description": "Robin Washington's Lead Independent Director start: the 2025-02-05 8-K says 'since 2022'; the 2023 and 2024 proxies say September 2022. These agree; recorded at month precision because no filing gives the day.",
+   "evidence_refs": [
+    "e054",
+    "e075",
+    "e062"
+   ]
+  }
+ ],
+ "open_questions": [
+  "Mason Morfit has filed no Form 4 for Salesforce in 2026 (his latest, filed jointly with ValueAct entities, has a period of 2025-12-05; he waives director equity grants). His current status rests on his re-election at the 2026-05-28 annual meeting (Item 5.07) and the 2026 proxy.",
+  "Exact days are not disclosed in any Salesforce filing reviewed for: Colin Powell's death (October 2021), Susan Wojcicki's death (August 2024), and the September 2022 Lead Independent Director handover from Robertson to Washington.",
+  "Oscar Munoz's change from non-independent to independent is undated. The 2024 proxy expected eligibility as of January 2025, and the 2025 proxy (2025-04-24) lists him as independent. Recorded at year precision (2025).",
+  "Pre-IPO start days are not disclosed: Benioff (February 1999, 'since inception'; the prospectus gives company inception as February 3, 1999 but does not tie his board seat to that day), Robertson (October 2003) and Hassenfeld (December 2003).",
+  "Maynard Webb's decision not to stand in 2026 appears only in the 2026 proxy (no 8-K Item 5.02 was filed for it). The board's authorized size after the 2026 meeting (13 directors elected) is not stated.",
+  "Keith Block's 'Vice Chairman' title (2013-2018) is recorded as an officer title on his executive-director role, not as a board vice_chair role. The filings call it 'Vice Chairman of the Company', not of the Board.",
+  "Parker Harris's Form 4 officer title changed from 'Co-Founder and CTO, Slack' (period 2026-08-28) to 'Co-Founder' (period 2026-09-22). No 8-K explains this; his board seat is unaffected.",
+  "Independence roles are aligned to board tenure. The filings give point-in-time determinations (appointment 8-Ks and each proxy), plus explicit statements that former directors were independent throughout their service.",
+  "Committee membership is captured only at proxy snapshots (2026 for current directors; each departed director's last proxy). Changes between proxies are not dated.",
+  "Directors who left before 2020 (e.g., Bernard Tyson, who died in 2019) are not recorded, as scoped."
+ ],
+ "coverage": [
+  {
+   "scope": "current_board",
+   "period_start": "2026-10-04",
+   "period_end": "2026-10-04",
+   "level": "complete",
+   "method": "Roster checked against the 2026 DEF 14A, the 2026 Item 5.07 results (2026-05-28), every 8-K with Item 5.02 filed after the proxy (2026-06-01, 2026-06-02, 2026-08-05, 2026-09-04: none concern directors), every Form 3 since 2014, and every Form 3/4 filed in 2026 through 2026-09-23, the latest filing in the EDGAR submissions feed. Twelve of thirteen current directors filed director Forms 4 in 2026; Morfit's latest is 2025-12."
+  },
+  {
+   "scope": "board_history",
+   "period_start": "2020-01-01",
+   "period_end": "2026-10-04",
+   "level": "complete",
+   "method": "Every DEF 14A from 2019 to 2026 and every 8-K with Item 5.02 or 5.07 from 2019 to 2026 reviewed; annual-meeting slates compared year over year; every Form 3 with isDirector checked. Departures dated from 8-K Item 5.02, from the Item 5.07 meeting date for directors who did not stand, or (deaths, Block) from proxy statements."
+  },
+  {
+   "scope": "board_history",
+   "period_start": "1999-02-01",
+   "period_end": "2019-12-31",
+   "level": "partial",
+   "method": "Pre-2020 seats only for directors serving in 2020 or later, from the 2004 IPO prospectus, appointment 8-Ks and Forms 3. Other pre-2020 directors (e.g., Bernard Tyson, Stratton Sclavos, Shirley Young, Craig Ramsey, Larry Tomlinson, Magdalena Yesil) are not recorded."
+  }
+ ]
+}

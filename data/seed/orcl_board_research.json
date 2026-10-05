@@ -1,0 +1,3749 @@
+{
+ "company": {
+  "cik": "0001341439",
+  "ticker": "ORCL",
+  "legal_name": "Oracle Corporation",
+  "common_name": "Oracle",
+  "exchange": "New York Stock Exchange",
+  "listed_since_year": 1986,
+  "state_of_incorporation": "Delaware",
+  "notes": "Listed since the 1986 IPO (10-K: 'traded on NASDAQ since our initial public offering in 1986'). No EDGAR filing found gives the first trading day, so ipo_date is not set; the commonly cited 1986-03-12 is unverified. Moved from NASDAQ to the NYSE (trading expected from 2013-07-15). The current registrant (CIK 0001341439, formerly Ozark Holding Inc., incorporated in Delaware in 2005) became the parent of the predecessor Oracle Corporation (CIK 0000777676, renamed Oracle Systems Corporation) on 2006-01-31 in the Siebel reorganization. Predecessor filings are cited as evidence, and director tenure is treated as continuous across the reorganization. The predecessor's 10-K says it was incorporated in Delaware in 1986 and continues operations begun in June 1977. Declassified board (annual elections). Lawrence J. Ellison is Executive Chair and CTO. Two co-CEOs (Magouyrk, Sicilia) since 2025-09-22. The lead independent director rotates annually among the F&A, Governance and Compensation chairs.",
+  "classified_board": false,
+  "evidence_refs": [
+   "e001",
+   "e002",
+   "e003",
+   "e004",
+   "e005",
+   "e006"
+  ]
+ },
+ "as_of": "2026-10-04",
+ "sources_reviewed_through": "2026-10-01 (latest filing in the EDGAR submissions feed for CIK 0001341439, fetched 2026-10-05 UTC); predecessor CIK 0000777676 filings 1994-2006",
+ "people": [
+  {
+   "key": "lawrence-j-ellison",
+   "full_name": "Lawrence J. Ellison",
+   "aliases": [
+    "Larry Ellison",
+    "Larry J. Ellison",
+    "ELLISON LAWRENCE JOSEPH"
+   ],
+   "sec_cik": "0000901999",
+   "bio_other_public_boards": [
+    {
+     "company": "Tesla, Inc.",
+     "status": "former",
+     "years": "not stated ('In the last five years')",
+     "source_ref": "e027",
+     "public_company_stated_in_source": false
+    }
+   ],
+   "sec_cik_ref": "e148"
+  },
+  {
+   "key": "jeffrey-o-henley",
+   "full_name": "Jeffrey O. Henley",
+   "aliases": [
+    "Jeff Henley",
+    "HENLEY JEFFREY"
+   ],
+   "sec_cik": "0001206100",
+   "bio_other_public_boards": [],
+   "sec_cik_ref": "e145"
+  },
+  {
+   "key": "michael-j-boskin",
+   "full_name": "Michael J. Boskin",
+   "aliases": [
+    "Michael Boskin",
+    "BOSKIN MICHAEL J"
+   ],
+   "sec_cik": "0001120621",
+   "bio_other_public_boards": [
+    {
+     "company": "Bloom Energy Corporation",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e033",
+     "public_company_stated_in_source": false
+    }
+   ],
+   "sec_cik_ref": "e139"
+  },
+  {
+   "key": "jeffrey-s-berg",
+   "full_name": "Jeffrey S. Berg",
+   "aliases": [
+    "Jeffrey Berg",
+    "BERG JEFFREY"
+   ],
+   "sec_cik": "0001206104",
+   "bio_other_public_boards": [],
+   "sec_cik_ref": "e138"
+  },
+  {
+   "key": "safra-a-catz",
+   "full_name": "Safra A. Catz",
+   "aliases": [
+    "Safra Catz",
+    "CATZ SAFRA"
+   ],
+   "sec_cik": "0001205005",
+   "bio_other_public_boards": [
+    {
+     "company": "Paramount Skydance Corporation",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e029",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "The Walt Disney Company",
+     "status": "former",
+     "years": "not stated ('During the last five years')",
+     "source_ref": "e029",
+     "public_company_stated_in_source": false
+    }
+   ],
+   "sec_cik_ref": "e149"
+  },
+  {
+   "key": "bruce-r-chizen",
+   "full_name": "Bruce R. Chizen",
+   "aliases": [
+    "Bruce Chizen",
+    "CHIZEN BRUCE R"
+   ],
+   "sec_cik": "0001032834",
+   "bio_other_public_boards": [
+    {
+     "company": "ChargePoint, Inc.",
+     "status": "current",
+     "years": "not stated (Board Chair)",
+     "source_ref": "e034",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Synopsys, Inc.",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e034",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Informatica, Inc.",
+     "status": "former",
+     "years": "not stated ('During the last five years')",
+     "source_ref": "e034",
+     "public_company_stated_in_source": false
+    }
+   ],
+   "sec_cik_ref": "e140"
+  },
+  {
+   "key": "charles-w-moorman",
+   "full_name": "Charles W. Moorman",
+   "aliases": [
+    "Charles W. Moorman IV",
+    "Charles (Wick) Moorman IV",
+    "Wick Moorman",
+    "MOORMAN CHARLES W"
+   ],
+   "sec_cik": "0001186073",
+   "bio_other_public_boards": [
+    {
+     "company": "Chevron Corporation",
+     "status": "former",
+     "years": "not stated ('During the last five years')",
+     "source_ref": "e037",
+     "public_company_stated_in_source": false
+    }
+   ],
+   "sec_cik_ref": "e143"
+  },
+  {
+   "key": "rona-a-fairhead",
+   "full_name": "Rona A. Fairhead",
+   "aliases": [
+    "Rona Fairhead",
+    "Fairhead Rona Alison"
+   ],
+   "sec_cik": "0001390276",
+   "bio_other_public_boards": [
+    {
+     "company": "RS Group plc",
+     "status": "current",
+     "years": "not stated (Chair; previously Electrocomponents plc)",
+     "source_ref": "e035",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "CVC Capital Partners plc",
+     "status": "current",
+     "years": "not stated (Senior Independent Director)",
+     "source_ref": "e035",
+     "public_company_stated_in_source": false
+    }
+   ],
+   "sec_cik_ref": "e141"
+  },
+  {
+   "key": "awo-ablo",
+   "full_name": "Awo Ablo",
+   "aliases": [
+    "Ablo Awo"
+   ],
+   "sec_cik": "0001919691",
+   "bio_other_public_boards": [],
+   "sec_cik_ref": "e137"
+  },
+  {
+   "key": "clayton-m-magouyrk",
+   "full_name": "Clayton M. Magouyrk",
+   "aliases": [
+    "Clayton Magouyrk",
+    "Magouyrk Clayton M."
+   ],
+   "sec_cik": "0002071873",
+   "bio_other_public_boards": [],
+   "sec_cik_ref": "e146"
+  },
+  {
+   "key": "michael-d-sicilia",
+   "full_name": "Michael D. Sicilia",
+   "aliases": [
+    "Michael Sicilia",
+    "Sicilia Michael D."
+   ],
+   "sec_cik": "0002071965",
+   "bio_other_public_boards": [],
+   "sec_cik_ref": "e147"
+  },
+  {
+   "key": "stephen-h-rusckowski",
+   "full_name": "Stephen H. Rusckowski",
+   "aliases": [
+    "Stephen Rusckowski",
+    "RUSCKOWSKI STEPHEN H"
+   ],
+   "sec_cik": "0001142624",
+   "bio_other_public_boards": [
+    {
+     "company": "Qiagen N.V.",
+     "status": "current",
+     "years": "not stated (supervisory board)",
+     "source_ref": "e038",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Baxter International Inc.",
+     "status": "former",
+     "years": "not stated ('During the last five years')",
+     "source_ref": "e038",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Tenet Healthcare Corporation",
+     "status": "former",
+     "years": "not stated ('During the last five years')",
+     "source_ref": "e038",
+     "public_company_stated_in_source": false
+    }
+   ],
+   "sec_cik_ref": "e144"
+  },
+  {
+   "key": "tomislav-mihaljevic",
+   "full_name": "Tomislav Mihaljevic",
+   "aliases": [
+    "Mihaljevic Tomislav"
+   ],
+   "sec_cik": "0001917584",
+   "bio_other_public_boards": [
+    {
+     "company": "General Electric Company",
+     "status": "former",
+     "years": "not stated ('During the last five years')",
+     "source_ref": "e036",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "GE HealthCare Technologies Inc.",
+     "status": "former",
+     "years": "not stated ('During the last five years')",
+     "source_ref": "e036",
+     "public_company_stated_in_source": false
+    }
+   ],
+   "sec_cik_ref": "e142"
+  },
+  {
+   "key": "george-h-conrades",
+   "full_name": "George H. Conrades",
+   "aliases": [
+    "George Conrades",
+    "CONRADES GEORGE H"
+   ],
+   "sec_cik": "0001106231",
+   "bio_other_public_boards": [
+    {
+     "company": "Cyclerion, Inc.",
+     "status": "former",
+     "years": "not stated ('During the last five years')",
+     "source_ref": "e062",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Akamai Technologies, Inc.",
+     "status": "former",
+     "years": "Chairman 1999 to 2018 (CEO 1999 to 2005), as stated",
+     "source_ref": "e061",
+     "public_company_stated_in_source": false
+    }
+   ],
+   "sec_cik_ref": "e150"
+  },
+  {
+   "key": "naomi-o-seligman",
+   "full_name": "Naomi O. Seligman",
+   "aliases": [
+    "Naomi Seligman",
+    "SELIGMAN NAOMI O"
+   ],
+   "sec_cik": "0001192761",
+   "bio_other_public_boards": [
+    {
+     "company": "Akamai Technologies, Inc.",
+     "status": "former",
+     "years": "not stated",
+     "source_ref": "e063",
+     "public_company_stated_in_source": false
+    }
+   ],
+   "sec_cik_ref": "e151"
+  },
+  {
+   "key": "leon-e-panetta",
+   "full_name": "Leon E. Panetta",
+   "aliases": [
+    "Leon Panetta",
+    "PANETTA LEON E"
+   ],
+   "sec_cik": "0001210527",
+   "bio_other_public_boards": [],
+   "sec_cik_ref": "e152"
+  },
+  {
+   "key": "william-g-parrett",
+   "full_name": "William G. Parrett",
+   "aliases": [
+    "William Parrett",
+    "Parrett William G"
+   ],
+   "sec_cik": "0001418280",
+   "bio_other_public_boards": [
+    {
+     "company": "Blackstone Inc.",
+     "status": "current",
+     "years": "not stated (as of the 2024 proxy)",
+     "source_ref": "e071",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Thoughtworks, Inc.",
+     "status": "current",
+     "years": "not stated (as of the 2024 proxy)",
+     "source_ref": "e071",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Eastman Kodak Company",
+     "status": "former",
+     "years": "not stated ('In the last five years')",
+     "source_ref": "e071",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Conduent Inc.",
+     "status": "former",
+     "years": "not stated ('In the last five years')",
+     "source_ref": "e071",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Thermo Fisher Scientific Inc.",
+     "status": "former",
+     "years": "not stated ('In the last five years')",
+     "source_ref": "e071",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "UBS Group AG",
+     "status": "former",
+     "years": "not stated ('In the last five years')",
+     "source_ref": "e071",
+     "public_company_stated_in_source": false
+    }
+   ],
+   "sec_cik_ref": "e153"
+  },
+  {
+   "key": "renee-j-james",
+   "full_name": "Renée J. James",
+   "aliases": [
+    "Renee J. James",
+    "Renée James",
+    "Renee James",
+    "James Renee Jo"
+   ],
+   "sec_cik": "0001412439",
+   "bio_other_public_boards": [
+    {
+     "company": "Citigroup Inc.",
+     "status": "current",
+     "years": "not stated (as of the 2023 proxy)",
+     "source_ref": "e076",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Sabre Corporation",
+     "status": "former",
+     "years": "not stated ('In the last five years')",
+     "source_ref": "e076",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Vodafone Group Plc",
+     "status": "former",
+     "years": "not stated ('In the last five years')",
+     "source_ref": "e076",
+     "public_company_stated_in_source": false
+    }
+   ],
+   "sec_cik_ref": "e154"
+  },
+  {
+   "key": "vishal-sikka",
+   "full_name": "Vishal Sikka",
+   "aliases": [
+    "Sikka Vishal"
+   ],
+   "sec_cik": "0001796443",
+   "bio_other_public_boards": [
+    {
+     "company": "GSK plc",
+     "status": "current",
+     "years": "not stated (as of the 2023 proxy)",
+     "source_ref": "e077",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "BMW Group",
+     "status": "current",
+     "years": "not stated (Supervisory Board; as of the 2023 proxy)",
+     "source_ref": "e077",
+     "public_company_stated_in_source": false
+    }
+   ],
+   "sec_cik_ref": "e155"
+  }
+ ],
+ "memberships": [
+  {
+   "person_key": "lawrence-j-ellison",
+   "start_date": "1977",
+   "start_date_precision": "year",
+   "start_date_basis": "Every proxy gives 'Director since 1977'. Founder; the month conflicts (May 1977 in 1994-2001 proxies, June 1977 from 2003 on), so year only.",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e012",
+    "e027",
+    "e121",
+    "e119",
+    "e112",
+    "e106",
+    "e103",
+    "e148"
+   ],
+   "board_class": null,
+   "notes": "Founder; on the board since the company's founding in 1977, before the 1986 IPO. Tenure runs through the predecessor (CIK 777676) and the 2006 holding-company reorganization. No 2026 Oracle Form 4 (latest 2025-10-23); still a nominee in the 2026 proxy."
+  },
+  {
+   "person_key": "michael-j-boskin",
+   "start_date": "1994",
+   "start_date_precision": "year",
+   "start_date_basis": "Proxies 'Director since 1994'. The month conflicts (May 1994 in the 1994-2002 proxies, April 1994 from 2003 on), so year only.",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e009",
+    "e122",
+    "e113",
+    "e107",
+    "e139"
+   ],
+   "board_class": null,
+   "notes": "Pre-EDGAR-full-text appointment; no 8-K or Form 3 exists for it. Current lead independent director."
+  },
+  {
+   "person_key": "jeffrey-o-henley",
+   "start_date": "1995-06",
+   "start_date_precision": "month",
+   "start_date_basis": "Every proxy from 1995 says 'a director since June 1995'; no filing gives the day.",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e014",
+    "e120",
+    "e114",
+    "e105",
+    "e030",
+    "e145"
+   ],
+   "board_class": null,
+   "notes": "Joined the board as EVP and CFO; employee director throughout."
+  },
+  {
+   "person_key": "jeffrey-s-berg",
+   "start_date": "1997",
+   "start_date_precision": "year",
+   "start_date_basis": "Proxies 'Director since 1997'. The month conflicts (March 1997 in the 1997-2002 proxies, February 1997 from 2003 on), so year only.",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e008",
+    "e118",
+    "e115",
+    "e108",
+    "e138"
+   ],
+   "board_class": null,
+   "notes": "No 8-K or Form 3 exists for the appointment (pre-2001)."
+  },
+  {
+   "person_key": "safra-a-catz",
+   "start_date": "2001-10-15",
+   "start_date_precision": "day",
+   "start_date_basis": "New nominee in the 2001 proxy; elected at the annual meeting held 2001-10-15 (10-Q Item 4). Later filings say 'director since October 2001'.",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e110",
+    "e111",
+    "e116",
+    "e117",
+    "e109",
+    "e097",
+    "e010",
+    "e149"
+   ],
+   "board_class": null,
+   "notes": "Was already an Executive Vice President when she joined the board. No 2026 Oracle Form 4 (latest 2025-10-23); still a nominee in the 2026 proxy."
+  },
+  {
+   "person_key": "bruce-r-chizen",
+   "start_date": "2008-07-24",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 (and 8-K/A): accepted the offer to join the board on 2008-07-24; the director option grant is dated the day he became a director. The Form 3 event date agrees.",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e098",
+    "e099",
+    "e125",
+    "e011",
+    "e140"
+   ],
+   "board_class": null,
+   "notes": null
+  },
+  {
+   "person_key": "charles-w-moorman",
+   "start_date": "2018-05-09",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02: elected 'effective as of May 9, 2018'. The Form 3 event date agrees.",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e092",
+    "e129",
+    "e017",
+    "e143"
+   ],
+   "board_class": null,
+   "notes": "Named 'Charles (Wick) Moorman IV' in the 8-K."
+  },
+  {
+   "person_key": "rona-a-fairhead",
+   "start_date": "2019-07-31",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02: accepted on 2019-07-03, appointment 'effective as of July 31, 2019'. The Form 3 event date agrees.",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e089",
+    "e130",
+    "e013",
+    "e141"
+   ],
+   "board_class": null,
+   "notes": null
+  },
+  {
+   "person_key": "awo-ablo",
+   "start_date": "2022-03-22",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02: elected 'effective immediately' (8-K event date 2022-03-22). The Form 3 event date agrees.",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e081",
+    "e132",
+    "e007",
+    "e137"
+   ],
+   "board_class": null,
+   "notes": null
+  },
+  {
+   "person_key": "clayton-m-magouyrk",
+   "start_date": "2025-09-22",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02: promoted to CEO and a member of the Board as of the 2025-09-22 Effective Date (board decision 2025-09-18).",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e051",
+    "e052",
+    "e055",
+    "e047",
+    "e015",
+    "e146",
+    "e135"
+   ],
+   "board_class": null,
+   "notes": "No director Form 3: he was already a Section 16 officer (Form 3 as President, OCI, event 2025-06-02). His Forms 4 since joining do not mark the director box."
+  },
+  {
+   "person_key": "michael-d-sicilia",
+   "start_date": "2025-09-22",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02: promoted to CEO and a member of the Board as of the 2025-09-22 Effective Date (board decision 2025-09-18).",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e051",
+    "e052",
+    "e055",
+    "e048",
+    "e019",
+    "e147",
+    "e136"
+   ],
+   "board_class": null,
+   "notes": "No director Form 3: he was already a Section 16 officer (Form 3 as President, Industries, event 2025-06-02). His Forms 4 since joining do not mark the director box."
+  },
+  {
+   "person_key": "stephen-h-rusckowski",
+   "start_date": "2025-11-18",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02: elected 2025-11-18 'effective immediately' (the 2025 annual meeting day). The Form 3 event date agrees.",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e045",
+    "e133",
+    "e020",
+    "e018",
+    "e144"
+   ],
+   "board_class": null,
+   "notes": null
+  },
+  {
+   "person_key": "tomislav-mihaljevic",
+   "start_date": "2026-05-06",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02: elected 2026-05-06 'effective immediately'. The Form 3 event date agrees.",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e040",
+    "e041",
+    "e134",
+    "e020",
+    "e016",
+    "e142"
+   ],
+   "board_class": null,
+   "notes": "No committee assignment (8-K and 2026 proxy)."
+  },
+  {
+   "person_key": "george-h-conrades",
+   "start_date": "2008-01-15",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02: accepted on 2008-01-15; the director option grant is dated the day he became a director. The Form 3 event date agrees.",
+   "end_date": "2026-01-05",
+   "end_date_precision": "day",
+   "end_reason": "retired",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e100",
+    "e101",
+    "e124",
+    "e049",
+    "e042",
+    "e044",
+    "e021",
+    "e150"
+   ],
+   "board_class": null,
+   "notes": "Retired 'effective immediately' on 2026-01-05 (8-K filed 2026-01-09). Re-elected 2025-11-18."
+  },
+  {
+   "person_key": "naomi-o-seligman",
+   "start_date": "2005-11-09",
+   "start_date_precision": "day",
+   "start_date_basis": "Predecessor 8-K Item 5.02: accepted the offer to join the board on 2005-11-09. The Form 3 (predecessor issuer CIK 777676) event date agrees.",
+   "end_date": "2026-01-07",
+   "end_date_precision": "day",
+   "end_reason": "retired",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e102",
+    "e123",
+    "e050",
+    "e043",
+    "e044",
+    "e021",
+    "e151"
+   ],
+   "board_class": null,
+   "notes": "Joined the predecessor's board; continued through the 2006-01-31 reorganization. Retired 'effective immediately' on 2026-01-07."
+  },
+  {
+   "person_key": "leon-e-panetta",
+   "start_date": "2015-01-19",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02: accepted on 2015-01-19. The Form 3 event date agrees.",
+   "end_date": "2025-11-18",
+   "end_date_precision": "day",
+   "end_reason": "did_not_stand",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e094",
+    "e126",
+    "e065",
+    "e054",
+    "e046",
+    "e152"
+   ],
+   "board_class": null,
+   "notes": "Did not stand for re-election; term ended at the 2025 annual meeting (2025-11-18)."
+  },
+  {
+   "person_key": "william-g-parrett",
+   "start_date": "2018-05-09",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02: elected 'effective as of May 9, 2018'. The Form 3 event date agrees.",
+   "end_date": "2025-11-18",
+   "end_date_precision": "day",
+   "end_reason": "did_not_stand",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e092",
+    "e128",
+    "e066",
+    "e054",
+    "e046",
+    "e153"
+   ],
+   "board_class": null,
+   "notes": "Did not stand for re-election; term ended at the 2025 annual meeting (2025-11-18)."
+  },
+  {
+   "person_key": "renee-j-james",
+   "start_date": "2015-12-16",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02: accepted on 2015-12-16. The Form 3 event date agrees.",
+   "end_date": "2024-11-14",
+   "end_date_precision": "day",
+   "end_reason": "did_not_stand",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e093",
+    "e127",
+    "e072",
+    "e073",
+    "e067",
+    "e064",
+    "e154"
+   ],
+   "board_class": null,
+   "notes": "Did not stand for re-election; term ended at the 2024 annual meeting (2024-11-14)."
+  },
+  {
+   "person_key": "vishal-sikka",
+   "start_date": "2019-12-10",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02: elected 'effective as of December 10, 2019'. The Form 3 event date agrees.",
+   "end_date": "2024-11-14",
+   "end_date_precision": "day",
+   "end_reason": "did_not_stand",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e087",
+    "e131",
+    "e083",
+    "e085",
+    "e086",
+    "e072",
+    "e074",
+    "e067",
+    "e064",
+    "e155"
+   ],
+   "board_class": null,
+   "notes": "Did not stand for re-election; term ended at the 2024 annual meeting (2024-11-14)."
+  }
+ ],
+ "roles": [
+  {
+   "person_key": "lawrence-j-ellison",
+   "role": "ceo_director",
+   "start_date": "1977",
+   "end_date": "2014-09-17",
+   "precision": "year",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e027",
+    "e121",
+    "e103",
+    "e095"
+   ],
+   "notes": "Founder-CEO from 1977 (June 1977 per the 2026 proxy; see the founding-month conflict) until he became Executive Chairman and CTO on 2014-09-17.",
+   "officer_title": "Chief Executive Officer"
+  },
+  {
+   "person_key": "lawrence-j-ellison",
+   "role": "chair",
+   "start_date": "1990",
+   "end_date": "1992",
+   "precision": "year",
+   "end_precision": "year",
+   "confidence": "high",
+   "evidence_refs": [
+    "e121",
+    "e112",
+    "e106"
+   ],
+   "notes": "Earlier stint as Chairman. Months conflict (April 1990-September 1992 in 1994-2001 proxies; May 1990-October 1992 in the 2003 proxy), so years only."
+  },
+  {
+   "person_key": "lawrence-j-ellison",
+   "role": "chair",
+   "start_date": "1995",
+   "end_date": "2004-01",
+   "precision": "year",
+   "end_precision": "month",
+   "confidence": "high",
+   "evidence_refs": [
+    "e119",
+    "e112",
+    "e027",
+    "e105"
+   ],
+   "notes": "Chairman from 1995 (June 1995 per the 1995-2003 proxies; May 1995 per the 2026 proxy) to January 2004, when Henley became Chairman."
+  },
+  {
+   "person_key": "lawrence-j-ellison",
+   "role": "executive_chair",
+   "start_date": "2014-09-17",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e095",
+    "e027",
+    "e012",
+    "e148"
+   ],
+   "notes": "Elected Executive Chairman and appointed CTO on 2014-09-17; current title 'Executive Chair, Chief Technology Officer (CTO) and Founder'.",
+   "officer_title": "Executive Chair and Chief Technology Officer"
+  },
+  {
+   "person_key": "lawrence-j-ellison",
+   "role": "non_independent_director",
+   "start_date": "1977",
+   "end_date": null,
+   "precision": "year",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e022",
+    "e056"
+   ],
+   "notes": "Employee director; listed among the non-independent directors. Aligned to his whole tenure."
+  },
+  {
+   "person_key": "jeffrey-o-henley",
+   "role": "executive_director",
+   "start_date": "1995-06",
+   "end_date": "2004-07",
+   "precision": "month",
+   "end_precision": "month",
+   "confidence": "high",
+   "evidence_refs": [
+    "e120",
+    "e105",
+    "e030"
+   ],
+   "notes": "Joined the board while EVP and CFO (CFO March 1991-July 2004).",
+   "officer_title": "Executive Vice President and Chief Financial Officer"
+  },
+  {
+   "person_key": "jeffrey-o-henley",
+   "role": "chair",
+   "start_date": "2004-01",
+   "end_date": "2014-09-17",
+   "precision": "month",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e105",
+    "e103",
+    "e030",
+    "e096"
+   ],
+   "notes": "Chairman from January 2004 (no day disclosed) until appointed Executive Vice Chairman on 2014-09-17."
+  },
+  {
+   "person_key": "jeffrey-o-henley",
+   "role": "vice_chair",
+   "start_date": "2014-09-17",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e096",
+    "e030",
+    "e014",
+    "e145"
+   ],
+   "notes": "Executive Vice Chair (an employee role) since 2014-09-17.",
+   "officer_title": "Executive Vice Chair"
+  },
+  {
+   "person_key": "jeffrey-o-henley",
+   "role": "non_independent_director",
+   "start_date": "1995-06",
+   "end_date": null,
+   "precision": "month",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e022",
+    "e056"
+   ],
+   "notes": "Employee director throughout; aligned to his whole tenure."
+  },
+  {
+   "person_key": "safra-a-catz",
+   "role": "executive_director",
+   "start_date": "2001-10-15",
+   "end_date": "2014-09-17",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e110",
+    "e104",
+    "e097",
+    "e028"
+   ],
+   "notes": "Employee director: Executive Vice President when elected (since November 1999), President from January 2004 (also CFO 2005-2008 and 2011-2014) until she became CEO.",
+   "officer_title": "Executive Vice President; President (from January 2004)"
+  },
+  {
+   "person_key": "safra-a-catz",
+   "role": "ceo_director",
+   "start_date": "2014-09-17",
+   "end_date": "2025-09-22",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e095",
+    "e053",
+    "e028",
+    "e039"
+   ],
+   "notes": "CEO from 2014-09-17 (jointly with Mark Hurd, who died 2019-10-18) to 2025-09-22.",
+   "officer_title": "Chief Executive Officer"
+  },
+  {
+   "person_key": "safra-a-catz",
+   "role": "vice_chair",
+   "start_date": "2025-09-22",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e053",
+    "e039",
+    "e028",
+    "e010"
+   ],
+   "notes": "Executive Vice Chair of the Board ('an executive and Board position') since 2025-09-22.",
+   "officer_title": "Executive Vice Chair"
+  },
+  {
+   "person_key": "safra-a-catz",
+   "role": "non_independent_director",
+   "start_date": "2001-10-15",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e022",
+    "e056"
+   ],
+   "notes": "Employee director throughout; aligned to her whole tenure."
+  },
+  {
+   "person_key": "clayton-m-magouyrk",
+   "role": "ceo_director",
+   "start_date": "2025-09-22",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e052",
+    "e031",
+    "e039",
+    "e146"
+   ],
+   "notes": "Co-CEO and director since 2025-09-22.",
+   "officer_title": "Chief Executive Officer"
+  },
+  {
+   "person_key": "clayton-m-magouyrk",
+   "role": "non_independent_director",
+   "start_date": "2025-09-22",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e056",
+    "e022"
+   ],
+   "notes": "Elected as a non-independent (employee) director."
+  },
+  {
+   "person_key": "michael-d-sicilia",
+   "role": "ceo_director",
+   "start_date": "2025-09-22",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e052",
+    "e032",
+    "e039",
+    "e147"
+   ],
+   "notes": "Co-CEO and director since 2025-09-22.",
+   "officer_title": "Chief Executive Officer"
+  },
+  {
+   "person_key": "michael-d-sicilia",
+   "role": "non_independent_director",
+   "start_date": "2025-09-22",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e056",
+    "e022"
+   ],
+   "notes": "Elected as a non-independent (employee) director."
+  },
+  {
+   "person_key": "michael-j-boskin",
+   "role": "lead_independent_director",
+   "start_date": null,
+   "end_date": null,
+   "precision": "unknown",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e026",
+    "e025",
+    "e019",
+    "e058",
+    "e068",
+    "e075"
+   ],
+   "notes": "Lead independent director as of the 2026 proxy (2026-09-25). The role rotates annually among committee chairs and no filing dates the hand-offs. The 2025 proxy (2025-09-26) named Chizen, so this stint began between 2025-09-26 and 2026-09-25. Earlier proxy snapshots: Chizen 2019, Boskin 2020, Conrades 2021, Chizen 2022, Boskin 2023, Conrades 2024, Chizen 2025 (not recorded as roles because undated)."
+  },
+  {
+   "person_key": "michael-j-boskin",
+   "role": "independent_director",
+   "start_date": "1994",
+   "end_date": null,
+   "precision": "year",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e023",
+    "e057",
+    "e080",
+    "e084"
+   ],
+   "notes": "Independent in every determination reviewed (2018-2026 proxies). Start aligned to board start; the filings give point-in-time determinations only."
+  },
+  {
+   "person_key": "jeffrey-s-berg",
+   "role": "independent_director",
+   "start_date": "1997",
+   "end_date": null,
+   "precision": "year",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e023",
+    "e057",
+    "e080",
+    "e084"
+   ],
+   "notes": "Independent in every determination reviewed (2018-2026 proxies). Start aligned to board start; the filings give point-in-time determinations only."
+  },
+  {
+   "person_key": "bruce-r-chizen",
+   "role": "independent_director",
+   "start_date": "2008-07-24",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e023",
+    "e057",
+    "e080",
+    "e084"
+   ],
+   "notes": "Independent in every determination reviewed (2018-2026 proxies). Start aligned to board start; the filings give point-in-time determinations only."
+  },
+  {
+   "person_key": "charles-w-moorman",
+   "role": "independent_director",
+   "start_date": "2018-05-09",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e023",
+    "e057",
+    "e080",
+    "e091"
+   ],
+   "notes": "Independent in every determination reviewed (2018-2026 proxies). Start aligned to board start; the filings give point-in-time determinations only."
+  },
+  {
+   "person_key": "rona-a-fairhead",
+   "role": "independent_director",
+   "start_date": "2019-07-31",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e023",
+    "e057",
+    "e080",
+    "e084"
+   ],
+   "notes": "Independent in every determination reviewed (2019-2026 proxies). Start aligned to board start."
+  },
+  {
+   "person_key": "awo-ablo",
+   "role": "independent_director",
+   "start_date": "2022-03-22",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e023",
+    "e057",
+    "e080",
+    "e082"
+   ],
+   "notes": "First determination: 2022 proxy. Start aligned to appointment date."
+  },
+  {
+   "person_key": "stephen-h-rusckowski",
+   "role": "independent_director",
+   "start_date": "2025-11-18",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e023",
+    "e018"
+   ],
+   "notes": "First determination: 2026 proxy. Start aligned to appointment date."
+  },
+  {
+   "person_key": "tomislav-mihaljevic",
+   "role": "independent_director",
+   "start_date": "2026-05-06",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e023",
+    "e016"
+   ],
+   "notes": "First determination: 2026 proxy. Start aligned to appointment date."
+  },
+  {
+   "person_key": "george-h-conrades",
+   "role": "independent_director",
+   "start_date": "2008-01-15",
+   "end_date": "2026-01-05",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "medium",
+   "evidence_refs": [
+    "e024",
+    "e057",
+    "e080",
+    "e084"
+   ],
+   "notes": "Independent in every determination reviewed (2018-2026 proxies). Aligned to board tenure."
+  },
+  {
+   "person_key": "naomi-o-seligman",
+   "role": "independent_director",
+   "start_date": "2005-11-09",
+   "end_date": "2026-01-07",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "medium",
+   "evidence_refs": [
+    "e024",
+    "e057",
+    "e080",
+    "e084"
+   ],
+   "notes": "Independent in every determination reviewed (2018-2026 proxies). Aligned to board tenure."
+  },
+  {
+   "person_key": "leon-e-panetta",
+   "role": "independent_director",
+   "start_date": "2015-01-19",
+   "end_date": "2025-11-18",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "medium",
+   "evidence_refs": [
+    "e057",
+    "e054",
+    "e080",
+    "e084"
+   ],
+   "notes": "Independent in every determination reviewed (2018-2025 proxies). Aligned to board tenure."
+  },
+  {
+   "person_key": "william-g-parrett",
+   "role": "independent_director",
+   "start_date": "2018-05-09",
+   "end_date": "2025-11-18",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "medium",
+   "evidence_refs": [
+    "e057",
+    "e054",
+    "e080",
+    "e084"
+   ],
+   "notes": "Independent in every determination reviewed (2018-2025 proxies). Aligned to board tenure."
+  },
+  {
+   "person_key": "renee-j-james",
+   "role": "independent_director",
+   "start_date": "2015-12-16",
+   "end_date": "2017-10-27",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e091",
+    "e093"
+   ],
+   "notes": "2018 proxy: independent until her appointment as Chairman and CEO of Ampere Computing on 2017-10-27."
+  },
+  {
+   "person_key": "renee-j-james",
+   "role": "non_independent_director",
+   "start_date": "2017-10-27",
+   "end_date": "2024-11-14",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e091",
+    "e090",
+    "e078",
+    "e067"
+   ],
+   "notes": "Not independent from 2017-10-27 (Ampere, an Oracle investee) through her departure; the 2024 proxy calls her a non-independent director."
+  },
+  {
+   "person_key": "vishal-sikka",
+   "role": "non_independent_director",
+   "start_date": "2019-12-10",
+   "end_date": "2024-11-14",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e084",
+    "e080",
+    "e079",
+    "e067",
+    "e088"
+   ],
+   "notes": "Never on the independent list (2020-2024 proxies). He had a consulting agreement with Oracle from 2019-11-01, and the 2024 proxy calls him a non-independent director."
+  }
+ ],
+ "committees": [
+  {
+   "person_key": "awo-ablo",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001193125-26-402816",
+   "as_of_date": "2026-09-25",
+   "evidence_refs": [
+    "e007"
+   ]
+  },
+  {
+   "person_key": "awo-ablo",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001193125-26-402816",
+   "as_of_date": "2026-09-25",
+   "evidence_refs": [
+    "e007"
+   ],
+   "notes": "Nomination and Governance Committee."
+  },
+  {
+   "person_key": "jeffrey-s-berg",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001193125-26-402816",
+   "as_of_date": "2026-09-25",
+   "evidence_refs": [
+    "e008"
+   ],
+   "notes": "Nomination and Governance Committee."
+  },
+  {
+   "person_key": "jeffrey-s-berg",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001193125-26-402816",
+   "as_of_date": "2026-09-25",
+   "evidence_refs": [
+    "e008"
+   ],
+   "notes": "Oracle's Finance and Audit (F&A) Committee."
+  },
+  {
+   "person_key": "jeffrey-s-berg",
+   "committee": "independence",
+   "role": "chair",
+   "as_of_filing": "0001193125-26-402816",
+   "as_of_date": "2026-09-25",
+   "evidence_refs": [
+    "e008"
+   ],
+   "notes": "Committee on Independence Issues (reviews related-person transactions)."
+  },
+  {
+   "person_key": "michael-j-boskin",
+   "committee": "audit",
+   "role": "chair",
+   "as_of_filing": "0001193125-26-402816",
+   "as_of_date": "2026-09-25",
+   "evidence_refs": [
+    "e009",
+    "e026"
+   ],
+   "notes": "Oracle's Finance and Audit (F&A) Committee."
+  },
+  {
+   "person_key": "bruce-r-chizen",
+   "committee": "nominating_governance",
+   "role": "chair",
+   "as_of_filing": "0001193125-26-402816",
+   "as_of_date": "2026-09-25",
+   "evidence_refs": [
+    "e011"
+   ],
+   "notes": "Nomination and Governance Committee."
+  },
+  {
+   "person_key": "bruce-r-chizen",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001193125-26-402816",
+   "as_of_date": "2026-09-25",
+   "evidence_refs": [
+    "e011"
+   ],
+   "notes": "Oracle's Finance and Audit (F&A) Committee."
+  },
+  {
+   "person_key": "rona-a-fairhead",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001193125-26-402816",
+   "as_of_date": "2026-09-25",
+   "evidence_refs": [
+    "e013"
+   ],
+   "notes": "Oracle's Finance and Audit (F&A) Committee."
+  },
+  {
+   "person_key": "rona-a-fairhead",
+   "committee": "independence",
+   "role": "member",
+   "as_of_filing": "0001193125-26-402816",
+   "as_of_date": "2026-09-25",
+   "evidence_refs": [
+    "e013"
+   ],
+   "notes": "Committee on Independence Issues (reviews related-person transactions)."
+  },
+  {
+   "person_key": "charles-w-moorman",
+   "committee": "compensation",
+   "role": "chair",
+   "as_of_filing": "0001193125-26-402816",
+   "as_of_date": "2026-09-25",
+   "evidence_refs": [
+    "e017"
+   ]
+  },
+  {
+   "person_key": "charles-w-moorman",
+   "committee": "independence",
+   "role": "member",
+   "as_of_filing": "0001193125-26-402816",
+   "as_of_date": "2026-09-25",
+   "evidence_refs": [
+    "e017"
+   ],
+   "notes": "Committee on Independence Issues (reviews related-person transactions)."
+  },
+  {
+   "person_key": "stephen-h-rusckowski",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001193125-26-402816",
+   "as_of_date": "2026-09-25",
+   "evidence_refs": [
+    "e018"
+   ]
+  },
+  {
+   "person_key": "george-h-conrades",
+   "committee": "compensation",
+   "role": "chair",
+   "as_of_filing": "0001193125-25-220801",
+   "as_of_date": "2025-09-26",
+   "evidence_refs": [
+    "e059"
+   ]
+  },
+  {
+   "person_key": "george-h-conrades",
+   "committee": "independence",
+   "role": "member",
+   "as_of_filing": "0001193125-25-220801",
+   "as_of_date": "2025-09-26",
+   "evidence_refs": [
+    "e059"
+   ],
+   "notes": "Committee on Independence Issues (reviews related-person transactions)."
+  },
+  {
+   "person_key": "naomi-o-seligman",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001193125-25-220801",
+   "as_of_date": "2025-09-26",
+   "evidence_refs": [
+    "e060"
+   ],
+   "notes": "Vice Chair of the Compensation Committee."
+  },
+  {
+   "person_key": "leon-e-panetta",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001193125-24-226139",
+   "as_of_date": "2024-09-25",
+   "evidence_refs": [
+    "e069"
+   ]
+  },
+  {
+   "person_key": "leon-e-panetta",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001193125-24-226139",
+   "as_of_date": "2024-09-25",
+   "evidence_refs": [
+    "e069"
+   ],
+   "notes": "Nomination and Governance Committee."
+  },
+  {
+   "person_key": "william-g-parrett",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001193125-24-226139",
+   "as_of_date": "2024-09-25",
+   "evidence_refs": [
+    "e070"
+   ],
+   "notes": "Nomination and Governance Committee."
+  }
+ ],
+ "events": [
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "lawrence-j-ellison",
+   "event_date": "1977",
+   "event_date_precision": "year",
+   "announced_date": null,
+   "evidence_refs": [
+    "e012",
+    "e121",
+    "e103"
+   ],
+   "summary": "Lawrence J. Ellison, founder, on the board since 1977."
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "michael-j-boskin",
+   "event_date": "1994",
+   "event_date_precision": "year",
+   "announced_date": null,
+   "evidence_refs": [
+    "e122",
+    "e107"
+   ],
+   "summary": "Michael J. Boskin joins the board (April or May 1994)."
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "jeffrey-o-henley",
+   "event_date": "1995-06",
+   "event_date_precision": "month",
+   "announced_date": null,
+   "evidence_refs": [
+    "e120"
+   ],
+   "summary": "Jeffrey O. Henley (EVP and CFO) joins the board."
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "jeffrey-s-berg",
+   "event_date": "1997",
+   "event_date_precision": "year",
+   "announced_date": null,
+   "evidence_refs": [
+    "e118",
+    "e108"
+   ],
+   "summary": "Jeffrey S. Berg joins the board (February or March 1997)."
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "safra-a-catz",
+   "event_date": "2001-10-15",
+   "event_date_precision": "day",
+   "announced_date": "2001-08-31",
+   "evidence_refs": [
+    "e110",
+    "e116",
+    "e117"
+   ],
+   "summary": "Safra A. Catz elected at the 2001 annual meeting."
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "naomi-o-seligman",
+   "event_date": "2005-11-09",
+   "event_date_precision": "day",
+   "announced_date": "2005-11-14",
+   "evidence_refs": [
+    "e102",
+    "e123"
+   ],
+   "summary": "Naomi O. Seligman joins the (predecessor) board."
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "george-h-conrades",
+   "event_date": "2008-01-15",
+   "event_date_precision": "day",
+   "announced_date": "2008-01-22",
+   "evidence_refs": [
+    "e100",
+    "e124"
+   ],
+   "summary": "George H. Conrades joins the board."
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "bruce-r-chizen",
+   "event_date": "2008-07-24",
+   "event_date_precision": "day",
+   "announced_date": "2008-07-30",
+   "evidence_refs": [
+    "e098",
+    "e125"
+   ],
+   "summary": "Bruce R. Chizen joins the board."
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "lawrence-j-ellison",
+   "event_date": "2014-09-17",
+   "event_date_precision": "day",
+   "announced_date": "2014-09-18",
+   "evidence_refs": [
+    "e095"
+   ],
+   "summary": "Ellison steps down as CEO and becomes Executive Chairman and CTO; Catz and Hurd become CEOs."
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "safra-a-catz",
+   "event_date": "2014-09-17",
+   "event_date_precision": "day",
+   "announced_date": "2014-09-18",
+   "evidence_refs": [
+    "e095"
+   ],
+   "summary": "Safra Catz appointed CEO (with Mark Hurd)."
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "jeffrey-o-henley",
+   "event_date": "2014-09-17",
+   "event_date_precision": "day",
+   "announced_date": "2014-09-18",
+   "evidence_refs": [
+    "e096"
+   ],
+   "summary": "Henley moves from Chairman to Executive Vice Chairman."
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "leon-e-panetta",
+   "event_date": "2015-01-19",
+   "event_date_precision": "day",
+   "announced_date": "2015-01-19",
+   "evidence_refs": [
+    "e094",
+    "e126"
+   ],
+   "summary": "Leon E. Panetta joins the board."
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "renee-j-james",
+   "event_date": "2015-12-16",
+   "event_date_precision": "day",
+   "announced_date": "2015-12-16",
+   "evidence_refs": [
+    "e093",
+    "e127"
+   ],
+   "summary": "Renée J. James joins the board."
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "renee-j-james",
+   "event_date": "2017-10-27",
+   "event_date_precision": "day",
+   "announced_date": null,
+   "evidence_refs": [
+    "e091"
+   ],
+   "summary": "Renée James ceases to be independent on becoming Chairman and CEO of Ampere Computing."
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "charles-w-moorman",
+   "event_date": "2018-05-09",
+   "event_date_precision": "day",
+   "announced_date": "2018-05-11",
+   "evidence_refs": [
+    "e092",
+    "e129"
+   ],
+   "summary": "Charles W. Moorman joins the board."
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "william-g-parrett",
+   "event_date": "2018-05-09",
+   "event_date_precision": "day",
+   "announced_date": "2018-05-11",
+   "evidence_refs": [
+    "e092",
+    "e128"
+   ],
+   "summary": "William G. Parrett joins the board."
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "rona-a-fairhead",
+   "event_date": "2019-07-31",
+   "event_date_precision": "day",
+   "announced_date": "2019-07-10",
+   "evidence_refs": [
+    "e089",
+    "e130"
+   ],
+   "summary": "Rona A. Fairhead joins the board."
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "vishal-sikka",
+   "event_date": "2019-12-10",
+   "event_date_precision": "day",
+   "announced_date": "2019-12-09",
+   "evidence_refs": [
+    "e087",
+    "e131"
+   ],
+   "summary": "Vishal Sikka joins the board."
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "awo-ablo",
+   "event_date": "2022-03-22",
+   "event_date_precision": "day",
+   "announced_date": "2022-03-22",
+   "evidence_refs": [
+    "e081",
+    "e132"
+   ],
+   "summary": "Awo Ablo joins the board."
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "renee-j-james",
+   "event_date": "2024-11-14",
+   "event_date_precision": "day",
+   "announced_date": "2024-09-25",
+   "evidence_refs": [
+    "e067",
+    "e064"
+   ],
+   "summary": "Renée J. James does not stand for re-election; term ends at the 2024 annual meeting."
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "vishal-sikka",
+   "event_date": "2024-11-14",
+   "event_date_precision": "day",
+   "announced_date": "2024-09-25",
+   "evidence_refs": [
+    "e067",
+    "e064"
+   ],
+   "summary": "Vishal Sikka does not stand for re-election; term ends at the 2024 annual meeting."
+  },
+  {
+   "type": "BOARD_SIZE_CHANGE",
+   "person_key": null,
+   "event_date": "2024-11-14",
+   "event_date_precision": "day",
+   "announced_date": "2024-09-25",
+   "evidence_refs": [
+    "e067",
+    "e064"
+   ],
+   "summary": "Board size reduced from 15 to 13 after the 2024 annual meeting.",
+   "from_size": 15,
+   "to_size": 13
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "clayton-m-magouyrk",
+   "event_date": "2025-09-22",
+   "event_date_precision": "day",
+   "announced_date": "2025-09-22",
+   "evidence_refs": [
+    "e051",
+    "e052"
+   ],
+   "summary": "Clayton M. Magouyrk becomes co-CEO and a director."
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "michael-d-sicilia",
+   "event_date": "2025-09-22",
+   "event_date_precision": "day",
+   "announced_date": "2025-09-22",
+   "evidence_refs": [
+    "e051",
+    "e052"
+   ],
+   "summary": "Michael D. Sicilia becomes co-CEO and a director."
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "safra-a-catz",
+   "event_date": "2025-09-22",
+   "event_date_precision": "day",
+   "announced_date": "2025-09-22",
+   "evidence_refs": [
+    "e053",
+    "e039"
+   ],
+   "summary": "Catz steps down as CEO and PFO and becomes Executive Vice Chair (remains a director)."
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "leon-e-panetta",
+   "event_date": "2025-11-18",
+   "event_date_precision": "day",
+   "announced_date": "2025-09-26",
+   "evidence_refs": [
+    "e054",
+    "e046"
+   ],
+   "summary": "Leon E. Panetta does not stand for re-election; term ends at the 2025 annual meeting."
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "william-g-parrett",
+   "event_date": "2025-11-18",
+   "event_date_precision": "day",
+   "announced_date": "2025-09-26",
+   "evidence_refs": [
+    "e054",
+    "e046"
+   ],
+   "summary": "William G. Parrett does not stand for re-election; term ends at the 2025 annual meeting."
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "stephen-h-rusckowski",
+   "event_date": "2025-11-18",
+   "event_date_precision": "day",
+   "announced_date": "2025-11-20",
+   "evidence_refs": [
+    "e045",
+    "e133"
+   ],
+   "summary": "Stephen H. Rusckowski joins the board."
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "george-h-conrades",
+   "event_date": "2026-01-05",
+   "event_date_precision": "day",
+   "announced_date": "2026-01-09",
+   "evidence_refs": [
+    "e042"
+   ],
+   "summary": "George H. Conrades retires from the board, effective immediately."
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "naomi-o-seligman",
+   "event_date": "2026-01-07",
+   "event_date_precision": "day",
+   "announced_date": "2026-01-09",
+   "evidence_refs": [
+    "e043"
+   ],
+   "summary": "Naomi O. Seligman retires from the board, effective immediately."
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "tomislav-mihaljevic",
+   "event_date": "2026-05-06",
+   "event_date_precision": "day",
+   "announced_date": "2026-05-12",
+   "evidence_refs": [
+    "e040",
+    "e134"
+   ],
+   "summary": "Tomislav Mihaljevic joins the board."
+  }
+ ],
+ "evidence": [
+  {
+   "id": "e001",
+   "form": "10-K",
+   "accession": "0001193125-06-151154",
+   "filing_date": "2006-07-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312506151154/d10k.htm",
+   "quote": "Prior to January 31, 2006, Oracle's name was Ozark Holding Inc. and Old Oracle's name was Oracle Corporation. On January 31, 2006, in connection with the acquisition of Siebel, which is described in Note 2, a wholly-owned subsidiary of Oracle was merged with and into Old Oracle, with Old Oracle surviving as a wholly-owned subsidiary of Oracle (the Reorganization).",
+   "supports": "Current registrant (CIK 1341439, formerly Ozark Holding Inc.) became the parent of the predecessor Oracle Corporation (CIK 777676) on 2006-01-31; directors' service is continuous across the reorganization."
+  },
+  {
+   "id": "e002",
+   "form": "10-K",
+   "accession": "0001193125-06-151154",
+   "filing_date": "2006-07-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312506151154/d10k.htm",
+   "quote": "Oracle Corporation was incorporated in 2005 as a Delaware corporation and is the successor to",
+   "supports": "Current registrant is a Delaware corporation incorporated in 2005 (successor to the predecessor)."
+  },
+  {
+   "id": "e003",
+   "form": "10-K",
+   "accession": "0001193125-06-151154",
+   "filing_date": "2006-07-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312506151154/d10k.htm",
+   "quote": "has been traded on NASDAQ since our initial public offering in 1986",
+   "supports": "Common stock listed since the 1986 IPO (year only; no filing found giving the first trading day)."
+  },
+  {
+   "id": "e004",
+   "form": "10-K",
+   "accession": "0001193125-05-136288",
+   "filing_date": "2005-07-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/777676/000119312505136288/d10k.htm",
+   "quote": "has been traded on Nasdaq since our initial public offering in 1986",
+   "supports": "Predecessor 10-K: listed since the 1986 IPO; incorporated 1986 in Delaware, successor to operations begun June 1977."
+  },
+  {
+   "id": "e005",
+   "form": "8-K",
+   "accession": "0001193125-13-265781",
+   "filing_date": "2013-06-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312513265781/d547425d8k.htm",
+   "quote": "Subject to the approval by the NYSE of Oracle's listing application, Oracle expects that its common stock will begin trading on the NYSE on July 15, 2013.",
+   "supports": "Listing moved from NASDAQ to the NYSE in July 2013."
+  },
+  {
+   "id": "e006",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-402816",
+   "filing_date": "2026-09-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526402816/orcl-20260925.htm",
+   "quote": "Each of our directors stands for election every year. We do not have a classified or staggered board.",
+   "supports": "Declassified board: annual elections, so no director classes."
+  },
+  {
+   "id": "e007",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-402816",
+   "filing_date": "2026-09-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526402816/orcl-20260925.htm",
+   "quote": "Awo Ablo President, Co-Impact 54 2022 •Compensation •Governance",
+   "supports": "2026 DEF 14A nominee table (record date 2026-09-21): Ablo, director since 2022, independent, on Compensation and Governance.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e008",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-402816",
+   "filing_date": "2026-09-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526402816/orcl-20260925.htm",
+   "quote": "Jeffrey S. Berg Chairman, Northside Services, LLC; Former Chairman and CEO, International Creative Management, Inc. 79 1997 •Governance •Finance and Audit •Independence (Chair)",
+   "supports": "2026 DEF 14A nominee table (record date 2026-09-21): Berg, director since 1997; Governance, F&A, Independence (Chair).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e009",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-402816",
+   "filing_date": "2026-09-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526402816/orcl-20260925.htm",
+   "quote": "Michael J. Boskin* Tully M. Friedman Professor of Economics and Rose and Milton Friedman Senior Fellow Hoover Institution, Stanford University 81 1994 •Finance and Audit (Chair)",
+   "supports": "2026 DEF 14A nominee table (record date 2026-09-21): Boskin (* = current lead independent director), director since 1994; F&A Committee chair.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e010",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-402816",
+   "filing_date": "2026-09-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526402816/orcl-20260925.htm",
+   "quote": "Safra A. Catz Executive Vice Chair of the Board, Oracle Corporation Former CEO, Oracle Corporation 64 2001",
+   "supports": "2026 DEF 14A nominee table (record date 2026-09-21): Catz, Executive Vice Chair, director since 2001; no committees.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e011",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-402816",
+   "filing_date": "2026-09-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526402816/orcl-20260925.htm",
+   "quote": "Bruce R. Chizen Senior Adviser, Permira Advisers LLP; Strategic Advisor, Voyager Capital; Former CEO, Adobe Systems Incorporated 71 2008 •Governance (Chair) •Finance and Audit",
+   "supports": "2026 DEF 14A nominee table (record date 2026-09-21): Chizen, director since 2008; Governance (Chair), F&A.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e012",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-402816",
+   "filing_date": "2026-09-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526402816/orcl-20260925.htm",
+   "quote": "Lawrence J. Ellison Executive Chair, Chief Technology Officer (CTO) and Founder, Oracle Corporation 82 1977",
+   "supports": "2026 DEF 14A nominee table (record date 2026-09-21): Ellison, Executive Chair, CTO and Founder, director since 1977; no committees.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e013",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-402816",
+   "filing_date": "2026-09-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526402816/orcl-20260925.htm",
+   "quote": "Rona A. Fairhead Former Minister of State, U.K. Department for International Trade; Former Chair, BBC Trust; Former Chair and CEO, Financial Times Group Limited 65 2019 •Finance and Audit •Independence",
+   "supports": "2026 DEF 14A nominee table (record date 2026-09-21): Fairhead, director since 2019; F&A, Independence.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e014",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-402816",
+   "filing_date": "2026-09-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526402816/orcl-20260925.htm",
+   "quote": "Jeffrey O. Henley Executive Vice Chair of the Board, Oracle Corporation 81 1995",
+   "supports": "2026 DEF 14A nominee table (record date 2026-09-21): Henley, Executive Vice Chair, director since 1995; no committees.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e015",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-402816",
+   "filing_date": "2026-09-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526402816/orcl-20260925.htm",
+   "quote": "Clayton M. Magouyrk CEO, Oracle Corporation 40 2025",
+   "supports": "2026 DEF 14A nominee table (record date 2026-09-21): Magouyrk, CEO, director since 2025; no committees.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e016",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-402816",
+   "filing_date": "2026-09-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526402816/orcl-20260925.htm",
+   "quote": "Tomislav Mihaljevic Chief Executive Officer and President, Morton L. Mandel CEO Chair, Cleveland Clinic 62 2026",
+   "supports": "2026 DEF 14A nominee table (record date 2026-09-21): Mihaljevic, director since 2026, independent; no committees listed.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e017",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-402816",
+   "filing_date": "2026-09-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526402816/orcl-20260925.htm",
+   "quote": "Charles W. Moorman Former Senior Advisor and Former CEO, Amtrak; Former CEO, Norfolk Southern Corporation 74 2018 •Compensation (Chair) •Independence",
+   "supports": "2026 DEF 14A nominee table (record date 2026-09-21): Moorman, director since 2018; Compensation (Chair), Independence.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e018",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-402816",
+   "filing_date": "2026-09-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526402816/orcl-20260925.htm",
+   "quote": "Stephen H. Rusckowski Former CEO and President, Quest Diagnostics, Inc. 68 2025 •Compensation",
+   "supports": "2026 DEF 14A nominee table (record date 2026-09-21): Rusckowski, director since 2025; Compensation.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e019",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-402816",
+   "filing_date": "2026-09-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526402816/orcl-20260925.htm",
+   "quote": "Michael D. Sicilia CEO, Oracle Corporation 55 2025 * Current lead independent director.",
+   "supports": "2026 DEF 14A nominee table (record date 2026-09-21): Sicilia, CEO, director since 2025; no committees. The footnote marks Boskin as current lead independent director.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e020",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-402816",
+   "filing_date": "2026-09-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526402816/orcl-20260925.htm",
+   "quote": "Our Board has nominated 13 individuals for election as directors for a one-year term, 11 of whom stood for election at our last annual meeting of stockholders. Dr. Mihaljevic and Mr. Rusckowski have been added to the Board since the last annual meeting and are included in the nominee slate for the Annual Meeting.",
+   "supports": "13 nominees = the full current board; Mihaljevic and Rusckowski joined after the 2025 annual meeting."
+  },
+  {
+   "id": "e021",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-402816",
+   "filing_date": "2026-09-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526402816/orcl-20260925.htm",
+   "quote": "George H. Conrades and Naomi O. Seligman served as directors during fiscal 2026 until their retirement in January 2026.",
+   "supports": "Conrades and Seligman retired in January 2026."
+  },
+  {
+   "id": "e022",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-402816",
+   "filing_date": "2026-09-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526402816/orcl-20260925.htm",
+   "quote": "If the director nominees are elected at the Annual Meeting, the Board will be composed of five non-independent directors (Mr. Ellison, Mr. Magouyrk, Mr. Sicilia, Ms. Catz and Mr. Henley) and eight independent directors.",
+   "supports": "Ellison, Magouyrk, Sicilia, Catz and Henley are non-independent."
+  },
+  {
+   "id": "e023",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-402816",
+   "filing_date": "2026-09-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526402816/orcl-20260925.htm",
+   "quote": "the Board determined that each of the following directors who served in fiscal 2026 is independent (as defined by applicable NYSE listing standards and our Corporate Governance Guidelines): Ms. Ablo, Mr. Berg, Dr. Boskin, Mr. Chizen, Mrs. Fairhead, Dr. Mihaljevic, Mr. Moorman and Mr. Rusckowski.",
+   "supports": "Independence determinations (fiscal 2026) for the eight independent current directors."
+  },
+  {
+   "id": "e024",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-402816",
+   "filing_date": "2026-09-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526402816/orcl-20260925.htm",
+   "quote": "that Mr. Conrades and Ms. Seligman, each of whom retired in January 2026, were independent during the time he or she served on the Board in fiscal 2026.",
+   "supports": "Conrades and Seligman independent through their January 2026 retirement."
+  },
+  {
+   "id": "e025",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-402816",
+   "filing_date": "2026-09-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526402816/orcl-20260925.htm",
+   "quote": "on an annual rotating basis, the chairs of the F&A Committee, the Governance Committee and the Compensation Committee serve as the lead independent director at executive sessions of the Board.",
+   "supports": "Lead independent director rotates annually among the F&A, Governance and Compensation chairs."
+  },
+  {
+   "id": "e026",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-402816",
+   "filing_date": "2026-09-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526402816/orcl-20260925.htm",
+   "quote": "Currently, Dr. Boskin serves as the lead independent director and chair of the F&A Committee.",
+   "supports": "Boskin is the lead independent director as of the 2026 proxy (filed 2026-09-25)."
+  },
+  {
+   "id": "e027",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-402816",
+   "filing_date": "2026-09-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526402816/orcl-20260925.htm",
+   "quote": "Mr. Ellison has been our Executive Chair of the Board and CTO since September 2014. Mr. Ellison served as our CEO from June 1977, when he founded Oracle, until September 2014. He previously served as our Chairman of the Board from May 1995 to January 2004. In the last five years, he previously served as a director of Tesla, Inc.",
+   "supports": "Ellison: Executive Chair and CTO since September 2014; CEO June 1977-September 2014; Chairman May 1995-January 2004; former Tesla director."
+  },
+  {
+   "id": "e028",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-402816",
+   "filing_date": "2026-09-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526402816/orcl-20260925.htm",
+   "quote": "Ms. Catz has been our Executive Vice Chair since September 2025. Ms. Catz previously served as our CEO from September 2014 to September 2025, as our President from January 2004 to September 2014 and as our CFO most recently from April 2011 until September 2014.",
+   "supports": "Catz: Executive Vice Chair since September 2025; CEO 2014-2025; President 2004-2014."
+  },
+  {
+   "id": "e029",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-402816",
+   "filing_date": "2026-09-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526402816/orcl-20260925.htm",
+   "quote": "Ms. Catz currently serves as a director of Paramount Skydance Corporation. During the last five years, Ms. Catz previously served as a director of The Walt Disney Company.",
+   "supports": "Catz other public boards."
+  },
+  {
+   "id": "e030",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-402816",
+   "filing_date": "2026-09-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526402816/orcl-20260925.htm",
+   "quote": "Mr. Henley has served as our Executive Vice Chair of the Board since September 2014. Mr. Henley previously served as our Chairman of the Board from January 2004 to September 2014. He served as our Executive Vice President and CFO from March 1991 to July 2004.",
+   "supports": "Henley: Executive Vice Chair since September 2014; Chairman January 2004-September 2014; EVP and CFO March 1991-July 2004."
+  },
+  {
+   "id": "e031",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-402816",
+   "filing_date": "2026-09-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526402816/orcl-20260925.htm",
+   "quote": "Mr. Magouyrk has been our CEO since September 2025.",
+   "supports": "Magouyrk CEO since September 2025."
+  },
+  {
+   "id": "e032",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-402816",
+   "filing_date": "2026-09-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526402816/orcl-20260925.htm",
+   "quote": "Mr. Sicilia has been the CEO of Oracle since September 2025.",
+   "supports": "Sicilia CEO since September 2025."
+  },
+  {
+   "id": "e033",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-402816",
+   "filing_date": "2026-09-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526402816/orcl-20260925.htm",
+   "quote": "Dr. Boskin currently serves as a director of Bloom Energy Corporation.",
+   "supports": "Boskin other public boards."
+  },
+  {
+   "id": "e034",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-402816",
+   "filing_date": "2026-09-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526402816/orcl-20260925.htm",
+   "quote": "Mr. Chizen currently serves as Board Chair of ChargePoint, Inc. and as a director of Synopsys, Inc. During the last five years, Mr. Chizen previously served as a director of Informatica, Inc.",
+   "supports": "Chizen other public boards."
+  },
+  {
+   "id": "e035",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-402816",
+   "filing_date": "2026-09-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526402816/orcl-20260925.htm",
+   "quote": "Mrs. Fairhead serves as Chair of the Board of RS Group plc (previously Electrocomponents plc) and as Senior Independent Director of CVC Capital Partners plc.",
+   "supports": "Fairhead other boards."
+  },
+  {
+   "id": "e036",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-402816",
+   "filing_date": "2026-09-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526402816/orcl-20260925.htm",
+   "quote": "During the last five years, he previously served as a director of General Electric Company (General Electric) and GE HealthCare Technologies Inc. (GE HealthCare).",
+   "supports": "Mihaljevic former public boards."
+  },
+  {
+   "id": "e037",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-402816",
+   "filing_date": "2026-09-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526402816/orcl-20260925.htm",
+   "quote": "During the last five years, Mr. Moorman previously served as a director of Chevron Corporation.",
+   "supports": "Moorman former public board."
+  },
+  {
+   "id": "e038",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-402816",
+   "filing_date": "2026-09-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526402816/orcl-20260925.htm",
+   "quote": "Mr. Rusckowski currently serves on the supervisory board of Qiagen N.V. During the last five years, he previously served as director of Baxter International Inc. and Tenet Healthcare Corporation.",
+   "supports": "Rusckowski other public boards."
+  },
+  {
+   "id": "e039",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-402816",
+   "filing_date": "2026-09-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526402816/orcl-20260925.htm",
+   "quote": "On September 22, 2025, consistent with Oracle's succession planning, Ms. Catz transitioned from Chief Executive Officer (CEO) and Principal Financial Officer (PFO) to Executive Vice Chair of the Board of Directors (the Board), an executive and Board position. On the same date, the Board appointed Mr. Magouyrk and Mr. Sicilia as Chief Executive Officers of Oracle.",
+   "supports": "2025-09-22 leadership transition."
+  },
+  {
+   "id": "e040",
+   "form": "8-K",
+   "accession": "0001193125-26-219708",
+   "filing_date": "2026-05-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526219708/d76569d8k.htm",
+   "quote": "On May 6, 2026, the Board of Directors (the \"Board\") of Oracle Corporation (\"Oracle\") unanimously elected Tomislav Mihaljevic to serve as a director, effective immediately.",
+   "supports": "Mihaljevic joined the board 2026-05-06."
+  },
+  {
+   "id": "e041",
+   "form": "8-K",
+   "accession": "0001193125-26-219708",
+   "filing_date": "2026-05-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526219708/d76569d8k.htm",
+   "quote": "Dr. Mihaljevic has not been named and is not currently expected to be named, to any committee of the Board at this time.",
+   "supports": "Mihaljevic has no committee assignment."
+  },
+  {
+   "id": "e042",
+   "form": "8-K",
+   "accession": "0001193125-26-009002",
+   "filing_date": "2026-01-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526009002/d34442d8k.htm",
+   "quote": "On January 5, 2026, George H. Conrades, age 86, notified the Board of Directors (the \"Board\") of Oracle Corporation (\"Oracle\") that after 18 years of service to Oracle, he is retiring as a director effective immediately.",
+   "supports": "Conrades retired 2026-01-05, effective immediately."
+  },
+  {
+   "id": "e043",
+   "form": "8-K",
+   "accession": "0001193125-26-009002",
+   "filing_date": "2026-01-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526009002/d34442d8k.htm",
+   "quote": "On January 7, 2026, Naomi O. Seligman, age 87, notified the Board that after 20 years of service to Oracle, she is retiring as a director effective immediately.",
+   "supports": "Seligman retired 2026-01-07, effective immediately."
+  },
+  {
+   "id": "e044",
+   "form": "8-K",
+   "accession": "0001193125-26-009002",
+   "filing_date": "2026-01-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526009002/d34442d8k.htm",
+   "quote": "Neither retirement was the result of any dispute or disagreement with Oracle on any matter relating to Oracle's operations, policies or practices.",
+   "supports": "No disagreement."
+  },
+  {
+   "id": "e045",
+   "form": "8-K",
+   "accession": "0001193125-25-291441",
+   "filing_date": "2025-11-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312525291441/d43173d8k.htm",
+   "quote": "On November 18, 2025, the Board of Directors of Oracle Corporation (\"Oracle\") unanimously elected Stephen Rusckowski to serve as a director, effective immediately.",
+   "supports": "Rusckowski joined 2025-11-18."
+  },
+  {
+   "id": "e046",
+   "form": "8-K",
+   "accession": "0001193125-25-291441",
+   "filing_date": "2025-11-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312525291441/d43173d8k.htm",
+   "quote": "On November 18, 2025, Oracle held its 2025 Annual Meeting of Stockholders (the \"Annual Meeting\").",
+   "supports": "2025 annual meeting date: 2025-11-18 (Panetta and Parrett not on the slate; terms ended)."
+  },
+  {
+   "id": "e047",
+   "form": "8-K",
+   "accession": "0001193125-25-291441",
+   "filing_date": "2025-11-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312525291441/d43173d8k.htm",
+   "quote": "Clayton M. Magouyrk 2,309,110,378 41,189,188 265,704,606",
+   "supports": "Magouyrk elected at the 2025 annual meeting.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e048",
+   "form": "8-K",
+   "accession": "0001193125-25-291441",
+   "filing_date": "2025-11-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312525291441/d43173d8k.htm",
+   "quote": "Michael D. Sicilia 2,309,260,122 41,039,444 265,704,606",
+   "supports": "Sicilia elected at the 2025 annual meeting.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e049",
+   "form": "8-K",
+   "accession": "0001193125-25-291441",
+   "filing_date": "2025-11-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312525291441/d43173d8k.htm",
+   "quote": "George H. Conrades 2,168,501,144 181,798,422 265,704,606",
+   "supports": "Conrades re-elected at the 2025 annual meeting.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e050",
+   "form": "8-K",
+   "accession": "0001193125-25-291441",
+   "filing_date": "2025-11-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312525291441/d43173d8k.htm",
+   "quote": "Naomi O. Seligman 2,175,743,875 174,555,691 265,704,606",
+   "supports": "Seligman re-elected at the 2025 annual meeting.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e051",
+   "form": "8-K",
+   "accession": "0001193125-25-210089",
+   "filing_date": "2025-09-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312525210089/d921500d8k.htm",
+   "quote": "On September 22, 2025, Oracle Corporation (\"Oracle\") announced that on September 18, 2025 the Board of Directors (the \"Board\") of Oracle made the following management and Board changes effective as of September 22, 2025 (the \"Effective Date\").",
+   "supports": "Board decided 2025-09-18; changes effective 2025-09-22."
+  },
+  {
+   "id": "e052",
+   "form": "8-K",
+   "accession": "0001193125-25-210089",
+   "filing_date": "2025-09-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312525210089/d921500d8k.htm",
+   "quote": "Clayton Magouyrk and Michael Sicilia were promoted to the roles of Chief Executive Officer of Oracle and members of the Board as of the Effective Date.",
+   "supports": "Magouyrk and Sicilia became CEOs and directors 2025-09-22."
+  },
+  {
+   "id": "e053",
+   "form": "8-K",
+   "accession": "0001193125-25-210089",
+   "filing_date": "2025-09-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312525210089/d921500d8k.htm",
+   "quote": "Safra Catz will no longer serve as Chief Executive Officer and Principal Financial Officer of Oracle as of the Effective Date. Ms. Catz will take on a new role as Executive Vice Chair of the Board and will continue as a director of Oracle.",
+   "supports": "Catz CEO role ended 2025-09-22; became Executive Vice Chair."
+  },
+  {
+   "id": "e054",
+   "form": "DEF 14A",
+   "accession": "0001193125-25-220801",
+   "filing_date": "2025-09-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312525220801/d72066ddef14a.htm",
+   "quote": "Two of our current independent directors, Leon E. Panetta and William G. Parrett, will not be standing for re-election at the Annual Meeting.",
+   "supports": "Panetta and Parrett did not stand at the 2025 annual meeting."
+  },
+  {
+   "id": "e055",
+   "form": "DEF 14A",
+   "accession": "0001193125-25-220801",
+   "filing_date": "2025-09-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312525220801/d72066ddef14a.htm",
+   "quote": "The Board elected Messrs. Magouyrk and Sicilia as employee directors effective September 22, 2025, and both will stand for election at the Annual Meeting.",
+   "supports": "Magouyrk and Sicilia employee directors from 2025-09-22."
+  },
+  {
+   "id": "e056",
+   "form": "DEF 14A",
+   "accession": "0001193125-25-220801",
+   "filing_date": "2025-09-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312525220801/d72066ddef14a.htm",
+   "quote": "The Board elected Messrs. Magouyrk and Sicilia as non-independent directors effective September 22, 2025",
+   "supports": "Magouyrk and Sicilia non-independent."
+  },
+  {
+   "id": "e057",
+   "form": "DEF 14A",
+   "accession": "0001193125-25-220801",
+   "filing_date": "2025-09-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312525220801/d72066ddef14a.htm",
+   "quote": "the Board determined that each of the following directors who served in fiscal 2025 is independent (as defined by applicable NYSE listing standards and our Corporate Governance Guidelines): Ms. Ablo, Mr. Berg, Dr. Boskin, Mr. Chizen, Mr. Conrades, Mrs. Fairhead, Mr. Moorman, Secretary Panetta, Mr. Parrett and Ms. Seligman.",
+   "supports": "Fiscal 2025 independence determinations."
+  },
+  {
+   "id": "e058",
+   "form": "DEF 14A",
+   "accession": "0001193125-25-220801",
+   "filing_date": "2025-09-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312525220801/d72066ddef14a.htm",
+   "quote": "Currently, Mr. Chizen serves as the lead independent director and chair of the Governance Committee",
+   "supports": "Chizen was lead independent director as of 2025-09-26 (rotation)."
+  },
+  {
+   "id": "e059",
+   "form": "DEF 14A",
+   "accession": "0001193125-25-220801",
+   "filing_date": "2025-09-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312525220801/d72066ddef14a.htm",
+   "quote": "George H. Conrades Executive Advisor and Former Chairman and CEO, Akamai Technologies, Inc.; Managing Partner, Longfellow Venture Partners 86 2008 • Compensation (Chair) • Independence",
+   "supports": "2025 DEF 14A nominee table: Conrades, director since 2008; Compensation (Chair), Independence (his last proxy).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e060",
+   "form": "DEF 14A",
+   "accession": "0001193125-25-220801",
+   "filing_date": "2025-09-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312525220801/d72066ddef14a.htm",
+   "quote": "Naomi O. Seligman Senior Partner, Ostriker von Simson, Inc. 87 2005 • Compensation (Vice Chair)",
+   "supports": "2025 DEF 14A nominee table: Seligman, director since 2005; Compensation (Vice Chair) (her last proxy).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e061",
+   "form": "DEF 14A",
+   "accession": "0001193125-25-220801",
+   "filing_date": "2025-09-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312525220801/d72066ddef14a.htm",
+   "quote": "He previously served as Akamai's CEO from 1999 to 2005 and Chairman from 1999 to 2018.",
+   "supports": "Conrades: Akamai chairman 1999-2018."
+  },
+  {
+   "id": "e062",
+   "form": "DEF 14A",
+   "accession": "0001193125-25-220801",
+   "filing_date": "2025-09-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312525220801/d72066ddef14a.htm",
+   "quote": "During the last five years, Mr. Conrades previously served as a director of Cyclerion, Inc.",
+   "supports": "Conrades former public board."
+  },
+  {
+   "id": "e063",
+   "form": "DEF 14A",
+   "accession": "0001193125-25-220801",
+   "filing_date": "2025-09-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312525220801/d72066ddef14a.htm",
+   "quote": "Ms. Seligman previously served as a director of Akamai Technologies, Inc.",
+   "supports": "Seligman former public board."
+  },
+  {
+   "id": "e064",
+   "form": "8-K",
+   "accession": "0001193125-24-260986",
+   "filing_date": "2024-11-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312524260986/d38577d8k.htm",
+   "quote": "On November 14, 2024, Oracle Corporation (\"Oracle\") held its 2024 Annual Meeting of Stockholders (the \"Annual Meeting\").",
+   "supports": "2024 annual meeting date: 2024-11-14 (James and Sikka not on the slate; terms ended)."
+  },
+  {
+   "id": "e065",
+   "form": "8-K",
+   "accession": "0001193125-24-260986",
+   "filing_date": "2024-11-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312524260986/d38577d8k.htm",
+   "quote": "Leon E. Panetta 1,854,738,819 467,573,524 250,464,124",
+   "supports": "Panetta re-elected at the 2024 annual meeting (last election).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e066",
+   "form": "8-K",
+   "accession": "0001193125-24-260986",
+   "filing_date": "2024-11-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312524260986/d38577d8k.htm",
+   "quote": "William G. Parrett 1,940,282,368 382,029,975 250,464,124",
+   "supports": "Parrett re-elected at the 2024 annual meeting (last election).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e067",
+   "form": "DEF 14A",
+   "accession": "0001193125-24-226139",
+   "filing_date": "2024-09-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312524226139/d860928ddef14a.htm",
+   "quote": "Two of our current non-independent directors, Renée J. James and Vishal Sikka, will not be standing for re-election at the Annual Meeting. We thank them for their service to Oracle. Following the Annual Meeting, the Board size will be reduced from 15 to 13 directors.",
+   "supports": "James and Sikka (non-independent) did not stand at the 2024 annual meeting; board size 15 -> 13."
+  },
+  {
+   "id": "e068",
+   "form": "DEF 14A",
+   "accession": "0001193125-24-226139",
+   "filing_date": "2024-09-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312524226139/d860928ddef14a.htm",
+   "quote": "Currently, Mr. Conrades serves as the lead independent director and chair of the Compensation Committee.",
+   "supports": "Conrades lead independent director as of 2024-09-25 (rotation)."
+  },
+  {
+   "id": "e069",
+   "form": "DEF 14A",
+   "accession": "0001193125-24-226139",
+   "filing_date": "2024-09-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312524226139/d860928ddef14a.htm",
+   "quote": "Leon E. Panetta Co-founder and Chairman, Panetta Institute for Public Policy; Former U.S. Secretary of Defense; Former Director of the Central Intelligence Agency 86 2015 • Compensation • Governance",
+   "supports": "2024 DEF 14A nominee table: Panetta, director since 2015; Compensation, Governance. His last proxy as a nominee.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e070",
+   "form": "DEF 14A",
+   "accession": "0001193125-24-226139",
+   "filing_date": "2024-09-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312524226139/d860928ddef14a.htm",
+   "quote": "William G. Parrett Former CEO, Deloitte Touche Tohmatsu 79 2018 • Governance",
+   "supports": "2024 DEF 14A nominee table: Parrett, director since 2018; Governance. His last proxy as a nominee.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e071",
+   "form": "DEF 14A",
+   "accession": "0001193125-24-226139",
+   "filing_date": "2024-09-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312524226139/d860928ddef14a.htm",
+   "quote": "Mr. Parrett serves as a director of Blackstone Inc. and Thoughtworks, Inc. In the last five years, he previously served as a director of the Eastman Kodak Company, Conduent Inc., Thermo Fisher Scientific Inc. and UBS Group AG.",
+   "supports": "Parrett other public boards (latest bio)."
+  },
+  {
+   "id": "e072",
+   "form": "8-K",
+   "accession": "0001193125-23-279837",
+   "filing_date": "2023-11-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312523279837/d606391d8k.htm",
+   "quote": "On November 15, 2023, at the 2023 Annual Meeting of Stockholders (the \"Annual Meeting\") of Oracle Corporation (\"Oracle\")",
+   "supports": "2023 annual meeting 2023-11-15."
+  },
+  {
+   "id": "e073",
+   "form": "8-K",
+   "accession": "0001193125-23-279837",
+   "filing_date": "2023-11-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312523279837/d606391d8k.htm",
+   "quote": "Renée J. James 1,983,016,498 290,170,996 251,050,401",
+   "supports": "James elected at the 2023 annual meeting (last election).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e074",
+   "form": "8-K",
+   "accession": "0001193125-23-279837",
+   "filing_date": "2023-11-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312523279837/d606391d8k.htm",
+   "quote": "Vishal Sikka 1,986,292,517 286,894,977 251,050,401",
+   "supports": "Sikka elected at the 2023 annual meeting (last election).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e075",
+   "form": "DEF 14A",
+   "accession": "0001193125-23-240594",
+   "filing_date": "2023-09-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312523240594/d744477ddef14a.htm",
+   "quote": "Currently, Dr. Boskin serves as the lead independent director and chair of the F&A Committee.",
+   "supports": "Boskin lead independent director as of 2023-09-22 (rotation)."
+  },
+  {
+   "id": "e076",
+   "form": "DEF 14A",
+   "accession": "0001193125-23-240594",
+   "filing_date": "2023-09-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312523240594/d744477ddef14a.htm",
+   "quote": "She also serves as a director of Citigroup Inc. In the last five years, she previously served as a director of Sabre Corporation and Vodafone Group Plc.",
+   "supports": "James other public boards (latest bio)."
+  },
+  {
+   "id": "e077",
+   "form": "DEF 14A",
+   "accession": "0001193125-23-240594",
+   "filing_date": "2023-09-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312523240594/d744477ddef14a.htm",
+   "quote": "He serves as a director of GSK plc and on the Supervisory Board of BMW Group.",
+   "supports": "Sikka other boards (latest bio)."
+  },
+  {
+   "id": "e078",
+   "form": "DEF 14A",
+   "accession": "0001193125-23-240594",
+   "filing_date": "2023-09-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312523240594/d744477ddef14a.htm",
+   "quote": "RENÉE J. JAMES Non-Employee Director Director since 2015",
+   "supports": "James labelled non-employee (not independent) director; director since 2015."
+  },
+  {
+   "id": "e079",
+   "form": "DEF 14A",
+   "accession": "0001193125-23-240594",
+   "filing_date": "2023-09-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312523240594/d744477ddef14a.htm",
+   "quote": "VISHAL SIKKA Non-Employee Director Director since 2019",
+   "supports": "Sikka labelled non-employee (not independent) director; director since 2019."
+  },
+  {
+   "id": "e080",
+   "form": "DEF 14A",
+   "accession": "0001193125-23-240594",
+   "filing_date": "2023-09-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312523240594/d744477ddef14a.htm",
+   "quote": "the Board determined that each of the following ten current directors is independent (as defined by applicable NYSE listing standards and our Corporate Governance Guidelines): Ms. Ablo, Mr. Berg, Dr. Boskin, Mr. Chizen, Mr. Conrades, Mrs. Fairhead, Mr. Moorman, Secretary Panetta, Mr. Parrett and Ms. Seligman.",
+   "supports": "2023 proxy independence list (James and Sikka absent)."
+  },
+  {
+   "id": "e081",
+   "form": "8-K",
+   "accession": "0001193125-22-083447",
+   "filing_date": "2022-03-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312522083447/d332961d8k.htm",
+   "quote": "On March 22, 2022, Oracle Corporation (\"Oracle\") announced that the Board of Directors unanimously elected Awo Ablo to serve as a director, effective immediately.",
+   "supports": "Ablo joined 2022-03-22."
+  },
+  {
+   "id": "e082",
+   "form": "DEF 14A",
+   "accession": "0001193125-22-250158",
+   "filing_date": "2022-09-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312522250158/d357923ddef14a.htm",
+   "quote": "Mr. Chizen, Mr. Conrades, Mrs. Fairhead, Mr. Moorman, Secretary Panetta, Mr. Parrett and Ms. Seligman. Therefore, all directors who served during fiscal 2022",
+   "supports": "2022 proxy independence list (continuation; Ablo, Berg, Boskin precede)."
+  },
+  {
+   "id": "e083",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-249194",
+   "filing_date": "2020-09-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312520249194/d78987ddef14a.htm",
+   "quote": "Our Board of Directors (the Board) consists of 14 directors, 13 of whom stood for election at our last annual meeting of stockholders.",
+   "supports": "Board of 14 in September 2020 (the 13 elected 2019-11-19 plus Sikka); same 14 re-elected 2020-11-04."
+  },
+  {
+   "id": "e084",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-249194",
+   "filing_date": "2020-09-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312520249194/d78987ddef14a.htm",
+   "quote": "that each of the following nine current directors is independent (as defined by applicable NYSE listing standards and our Corporate Governance Guidelines): Mr. Berg, Dr. Boskin, Mr. Chizen, Mr. Conrades, Mrs. Fairhead,",
+   "supports": "2020 proxy independence list (continues: Moorman, Panetta, Parrett, Seligman); Sikka and James not included."
+  },
+  {
+   "id": "e085",
+   "form": "8-K",
+   "accession": "0001193125-20-288009",
+   "filing_date": "2020-11-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312520288009/d58112d8k.htm",
+   "quote": "On November 4, 2020 (the \"Meeting Date\"), at the 2020 Annual Meeting of Stockholders",
+   "supports": "2020 annual meeting; 14 directors elected incl. Sikka and James."
+  },
+  {
+   "id": "e086",
+   "form": "8-K",
+   "accession": "0001193125-20-288009",
+   "filing_date": "2020-11-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312520288009/d58112d8k.htm",
+   "quote": "Vishal Sikka",
+   "supports": "Sikka on the 2020 election results table.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e087",
+   "form": "8-K",
+   "accession": "0001193125-19-309214",
+   "filing_date": "2019-12-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312519309214/d688356d8k.htm",
+   "quote": "On December 9, 2019, Oracle Corporation (\"Oracle\") announced that the Board of Directors unanimously elected Vishal Sikka to serve as a director, effective as of December 10, 2019.",
+   "supports": "Sikka joined 2019-12-10."
+  },
+  {
+   "id": "e088",
+   "form": "8-K",
+   "accession": "0001193125-19-309214",
+   "filing_date": "2019-12-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312519309214/d688356d8k.htm",
+   "quote": "Effective November 1, 2019, Oracle entered into a consulting agreement with Hang Ten Systems LLC (\"Hang Ten\"), a company wholly owned by Dr. Sikka.",
+   "supports": "Sikka consulting relationship (context for non-independence)."
+  },
+  {
+   "id": "e089",
+   "form": "8-K",
+   "accession": "0001193125-19-191922",
+   "filing_date": "2019-07-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312519191922/d776427d8k.htm",
+   "quote": "On July 3, 2019, Mrs. Fairhead accepted the appointment effective as of July 31, 2019.",
+   "supports": "Fairhead joined 2019-07-31 (accepted 2019-07-03)."
+  },
+  {
+   "id": "e090",
+   "form": "DEF 14A",
+   "accession": "0001193125-19-257430",
+   "filing_date": "2019-09-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312519257430/d755300ddef14a.htm",
+   "quote": "Ms. James ceased to be independent upon her appointment as Chairman and CEO of Ampere Computing LLC.",
+   "supports": "James not independent after becoming Ampere CEO."
+  },
+  {
+   "id": "e091",
+   "form": "DEF 14A",
+   "accession": "0001193125-18-283993",
+   "filing_date": "2018-09-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312518283993/d623045ddef14a.htm",
+   "quote": "Ms. James was determined to be independent until her appointment as Chairman and CEO of Ampere Computing LLC on October 27, 2017",
+   "supports": "James independent 2015-12-16 to 2017-10-27, then non-independent."
+  },
+  {
+   "id": "e092",
+   "form": "8-K",
+   "accession": "0001193125-18-160979",
+   "filing_date": "2018-05-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312518160979/d585930d8k.htm",
+   "quote": "unanimously elected Charles (Wick) Moorman IV and William G. Parrett to serve as directors, effective as of May 9, 2018.",
+   "supports": "Moorman and Parrett joined 2018-05-09."
+  },
+  {
+   "id": "e093",
+   "form": "8-K",
+   "accession": "0001193125-15-404914",
+   "filing_date": "2015-12-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312515404914/d100103d8k.htm",
+   "quote": "On December 16, 2015, Renée James accepted an offer to join the Board of Directors of Oracle Corporation.",
+   "supports": "James joined 2015-12-16."
+  },
+  {
+   "id": "e094",
+   "form": "8-K",
+   "accession": "0001193125-15-018993",
+   "filing_date": "2015-01-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312515018993/d855962d8k.htm",
+   "quote": "On January 19, 2015, the Honorable Leon Panetta accepted an offer to join the Board of Directors of Oracle Corporation.",
+   "supports": "Panetta joined 2015-01-19."
+  },
+  {
+   "id": "e095",
+   "form": "8-K",
+   "accession": "0001193125-14-350215",
+   "filing_date": "2014-09-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312514350215/d793532d8k.htm",
+   "quote": "each of Safra A. Catz and Mark V. Hurd was appointed as Chief Executive Officer (CEO) of Oracle on September 17, 2014. Oracle also announced that Lawrence J. Ellison was elected Executive Chairman of the Board of Directors and appointed Chief Technology Officer of Oracle on September 17, 2014.",
+   "supports": "2014-09-17: Catz (with Hurd) CEO; Ellison elected Executive Chairman and CTO, ending his CEO tenure."
+  },
+  {
+   "id": "e096",
+   "form": "8-K",
+   "accession": "0001193125-14-350215",
+   "filing_date": "2014-09-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312514350215/d793532d8k.htm",
+   "quote": "In addition, Jeffrey O. Henley was appointed Executive Vice Chairman of the Board of Directors on September 17, 2014.",
+   "supports": "2014-09-17: Henley became Executive Vice Chairman, ending his Chairman tenure."
+  },
+  {
+   "id": "e097",
+   "form": "8-K",
+   "accession": "0001193125-14-350215",
+   "filing_date": "2014-09-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312514350215/d793532d8k.htm",
+   "quote": "Ms. Catz, 52, has been a President of Oracle since January 2004, Chief Financial Officer most recently since April 2011 and has served as a Director since October 2001.",
+   "supports": "Catz President since January 2004; director since October 2001."
+  },
+  {
+   "id": "e098",
+   "form": "8-K/A",
+   "accession": "0000950134-08-013709",
+   "filing_date": "2008-07-31",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000095013408013709/f42560a1e8vkza.htm",
+   "quote": "On July 24, 2008, Bruce R. Chizen, former Chief Executive Officer of Adobe Systems Incorporated, accepted an offer to join the Board of Directors of Oracle Corporation.",
+   "supports": "Chizen joined 2008-07-24 (8-K/A corrects 'Chief Executive Officer' to 'former Chief Executive Officer')."
+  },
+  {
+   "id": "e099",
+   "form": "8-K/A",
+   "accession": "0000950134-08-013709",
+   "filing_date": "2008-07-31",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000095013408013709/f42560a1e8vkza.htm",
+   "quote": "Mr. Chizen was automatically granted on the date he became a director, July 24, 2008",
+   "supports": "Chizen became a director 2008-07-24."
+  },
+  {
+   "id": "e100",
+   "form": "8-K",
+   "accession": "0000891618-08-000036",
+   "filing_date": "2008-01-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000089161808000036/f37271e8vk.htm",
+   "quote": "On January 15, 2008, George H. Conrades accepted an offer to join the Board of Directors of Oracle Corporation.",
+   "supports": "Conrades joined 2008-01-15."
+  },
+  {
+   "id": "e101",
+   "form": "8-K",
+   "accession": "0000891618-08-000036",
+   "filing_date": "2008-01-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000089161808000036/f37271e8vk.htm",
+   "quote": "Mr. Conrades was automatically granted on the date he became a director, January 15, 2008",
+   "supports": "Conrades became a director 2008-01-15."
+  },
+  {
+   "id": "e102",
+   "form": "8-K",
+   "accession": "0001193125-05-225303",
+   "filing_date": "2005-11-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/777676/000119312505225303/d8k.htm",
+   "quote": "On November 9, 2005, Naomi O. Seligman accepted an offer to join the Board of Directors of Oracle Corporation.",
+   "supports": "Seligman joined the predecessor's board 2005-11-09 (CIK 777676), continuing on the current registrant's board after the 2006-01-31 reorganization."
+  },
+  {
+   "id": "e103",
+   "form": "DEF 14A",
+   "accession": "0001193125-05-177313",
+   "filing_date": "2005-08-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/777676/000119312505177313/ddef14a.htm",
+   "quote": "Lawrence J. Ellison, 61, has been Chief Executive Officer and a director since he founded Oracle in June 1977.",
+   "supports": "2005 proxy: Ellison director since June 1977 (founding)."
+  },
+  {
+   "id": "e104",
+   "form": "DEF 14A",
+   "accession": "0001193125-05-177313",
+   "filing_date": "2005-08-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/777676/000119312505177313/ddef14a.htm",
+   "quote": "Safra A. Catz, 43, has been a President since January 2004 and has served as a director since October 2001.",
+   "supports": "Catz President since January 2004; director since October 2001."
+  },
+  {
+   "id": "e105",
+   "form": "DEF 14A",
+   "accession": "0000950134-04-013484",
+   "filing_date": "2004-09-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/777676/000095013404013484/f01098dedef14a.htm",
+   "quote": "has served as the Chairman of the Board since January 2004 and as a director since June 1995. Mr. Henley served as an Executive Vice President and Chief Financial Officer from March 1991 to July 2004.",
+   "supports": "Henley Chairman since January 2004; director since June 1995; EVP and CFO March 1991-July 2004."
+  },
+  {
+   "id": "e106",
+   "form": "DEF 14A",
+   "accession": "0001193125-03-046704",
+   "filing_date": "2003-09-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/777676/000119312503046704/ddef14a.htm",
+   "quote": "director since he co-founded the Company in June 1977. Mr. Ellison has been Chairman of the Board since June 1995, and served as Chairman of the Board from May 1990 until October 1992.",
+   "supports": "2003 proxy: Ellison director since June 1977; Chairman since June 1995; earlier Chairman May 1990-October 1992."
+  },
+  {
+   "id": "e107",
+   "form": "DEF 14A",
+   "accession": "0001193125-03-046704",
+   "filing_date": "2003-09-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/777676/000119312503046704/ddef14a.htm",
+   "quote": "Michael J. Boskin, 57, has served as a director since April 1994.",
+   "supports": "2003 proxy: Boskin director since April 1994 (earlier proxies: May 1994)."
+  },
+  {
+   "id": "e108",
+   "form": "DEF 14A",
+   "accession": "0001193125-03-046704",
+   "filing_date": "2003-09-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/777676/000119312503046704/ddef14a.htm",
+   "quote": "Jeffrey Berg, 56, has served as a director since February 1997.",
+   "supports": "2003 proxy: Berg director since February 1997 (earlier proxies: March 1997)."
+  },
+  {
+   "id": "e109",
+   "form": "DEF 14A",
+   "accession": "0001193125-03-046704",
+   "filing_date": "2003-09-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/777676/000119312503046704/ddef14a.htm",
+   "quote": "Safra Catz, 41, has served as a director since October 2001.",
+   "supports": "2003 proxy: Catz director since October 2001."
+  },
+  {
+   "id": "e110",
+   "form": "DEF 14A",
+   "accession": "0001012870-01-501769",
+   "filing_date": "2001-08-31",
+   "url": "https://www.sec.gov/Archives/edgar/data/777676/000101287001501769/ddef14a.txt",
+   "quote": "The following individuals are also being nominated for election to the Board: Safra Catz, Hector Garcia-Molina and Joseph Grundfest.",
+   "supports": "2001 proxy: Catz a new nominee for the 2001-10-15 annual meeting."
+  },
+  {
+   "id": "e111",
+   "form": "DEF 14A",
+   "accession": "0001012870-01-501769",
+   "filing_date": "2001-08-31",
+   "url": "https://www.sec.gov/Archives/edgar/data/777676/000101287001501769/ddef14a.txt",
+   "quote": "The Annual Meeting will be held on Monday, October 15, 2001",
+   "supports": "2001 annual meeting date."
+  },
+  {
+   "id": "e112",
+   "form": "DEF 14A",
+   "accession": "0001012870-01-501769",
+   "filing_date": "2001-08-31",
+   "url": "https://www.sec.gov/Archives/edgar/data/777676/000101287001501769/ddef14a.txt",
+   "quote": "Mr. Ellison, 57, has been Chief Executive Officer and a director of the Company since he co-founded the Company in May 1977. Mr. Ellison has been Chairman of the Board since June 1995 and served as Chairman of the Board from April 1990 until September 1992.",
+   "supports": "2001 proxy: Ellison director since May 1977; Chairman since June 1995; earlier Chairman April 1990-September 1992."
+  },
+  {
+   "id": "e113",
+   "form": "DEF 14A",
+   "accession": "0001012870-01-501769",
+   "filing_date": "2001-08-31",
+   "url": "https://www.sec.gov/Archives/edgar/data/777676/000101287001501769/ddef14a.txt",
+   "quote": "Dr. Boskin, 55, has served as a director of the Company since May 1994.",
+   "supports": "2001 proxy: Boskin director since May 1994."
+  },
+  {
+   "id": "e114",
+   "form": "DEF 14A",
+   "accession": "0001012870-01-501769",
+   "filing_date": "2001-08-31",
+   "url": "https://www.sec.gov/Archives/edgar/data/777676/000101287001501769/ddef14a.txt",
+   "quote": "Mr. Henley, 56, has been Executive Vice President and Chief Financial Officer of the Company since March 1991 and has been a director since June 1995.",
+   "supports": "2001 proxy: Henley director since June 1995."
+  },
+  {
+   "id": "e115",
+   "form": "DEF 14A",
+   "accession": "0001012870-01-501769",
+   "filing_date": "2001-08-31",
+   "url": "https://www.sec.gov/Archives/edgar/data/777676/000101287001501769/ddef14a.txt",
+   "quote": "Mr. Berg, 54, has served as director of the Company since March 1997.",
+   "supports": "2001 proxy: Berg director since March 1997."
+  },
+  {
+   "id": "e116",
+   "form": "10-Q",
+   "accession": "0001012870-02-000124",
+   "filing_date": "2002-01-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/777676/000101287002000124/d10q.txt",
+   "quote": "Set forth below is information concerning each matter submitted to a vote at the Annual Meeting of Stockholders on October 15, 2001.",
+   "supports": "10-Q Item 4: 2001 annual meeting held 2001-10-15."
+  },
+  {
+   "id": "e117",
+   "form": "10-Q",
+   "accession": "0001012870-02-000124",
+   "filing_date": "2002-01-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/777676/000101287002000124/d10q.txt",
+   "quote": "Safra Catz.......... 4,489,858,844 53,459,761",
+   "supports": "Catz elected a director at the 2001-10-15 annual meeting.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e118",
+   "form": "DEF 14A",
+   "accession": "0001012870-97-001683",
+   "filing_date": "1997-09-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/777676/000101287097001683/0001012870-97-001683.txt",
+   "quote": "MR. BERG, 50, has been a director of the Company since March 1997.",
+   "supports": "1997 proxy (first after his election): Berg director since March 1997."
+  },
+  {
+   "id": "e119",
+   "form": "DEF 14A",
+   "accession": "0000891618-95-000532",
+   "filing_date": "1995-09-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/777676/000089161895000532/0000891618-95-000532.txt",
+   "quote": "director of the Company since he co-founded the Company in May 1977. Mr. Ellison has been Chairman of the Board since June 1995 and was Chairman of the Board from April 1990 until September 1992.",
+   "supports": "1995 proxy: Ellison director since May 1977; Chairman since June 1995."
+  },
+  {
+   "id": "e120",
+   "form": "DEF 14A",
+   "accession": "0000891618-95-000532",
+   "filing_date": "1995-09-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/777676/000089161895000532/0000891618-95-000532.txt",
+   "quote": "Officer of the Company since March 1991 and has been a director since June 1995.",
+   "supports": "1995 proxy (first after his election): Henley director since June 1995."
+  },
+  {
+   "id": "e121",
+   "form": "DEF 14A",
+   "accession": "0000891618-94-000190",
+   "filing_date": "1994-09-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/777676/000089161894000190/0000891618-94-000190.txt",
+   "quote": "Chief Executive Officer, and a director of the Company since May 1977 and was Chairman of the Board from April 1990 until September 1992.",
+   "supports": "1994 proxy: Ellison director since May 1977; Chairman April 1990-September 1992."
+  },
+  {
+   "id": "e122",
+   "form": "DEF 14A",
+   "accession": "0000891618-94-000190",
+   "filing_date": "1994-09-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/777676/000089161894000190/0000891618-94-000190.txt",
+   "quote": "DR. BOSKIN, 48, has been a director of the Company since May 1994.",
+   "supports": "1994 proxy (first after his election): Boskin director since May 1994."
+  },
+  {
+   "id": "e123",
+   "form": "3",
+   "accession": "0001197588-05-000022",
+   "filing_date": "2005-11-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/777676/000119758805000022/primary_doc.xml",
+   "quote": "SELIGMAN NAOMI O",
+   "supports": "Form 3 as director (isDirector=1); reporting-owner CIK; event date 2005-11-09 (predecessor issuer CIK 777676).",
+   "xml_fields": {
+    "rptOwnerCik": "0001192761",
+    "rptOwnerName": "SELIGMAN NAOMI O",
+    "periodOfReport": "2005-11-09"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e124",
+   "form": "3",
+   "accession": "0001197588-08-000003",
+   "filing_date": "2008-01-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119758808000003/primary_doc.xml",
+   "quote": "CONRADES GEORGE H",
+   "supports": "Form 3 as director (isDirector=1); reporting-owner CIK; event date 2008-01-15.",
+   "xml_fields": {
+    "rptOwnerCik": "0001106231",
+    "rptOwnerName": "CONRADES GEORGE H",
+    "periodOfReport": "2008-01-15"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e125",
+   "form": "3",
+   "accession": "0001197588-08-000032",
+   "filing_date": "2008-07-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119758808000032/edgardoc.xml",
+   "quote": "CHIZEN BRUCE R",
+   "supports": "Form 3 as director (isDirector=1); reporting-owner CIK; event date 2008-07-24.",
+   "xml_fields": {
+    "rptOwnerCik": "0001032834",
+    "rptOwnerName": "CHIZEN BRUCE R",
+    "periodOfReport": "2008-07-24"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e126",
+   "form": "3",
+   "accession": "0001209191-15-007326",
+   "filing_date": "2015-01-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000120919115007326/doc3.xml",
+   "quote": "PANETTA LEON E",
+   "supports": "Form 3 as director (isDirector=1); reporting-owner CIK; event date 2015-01-19.",
+   "xml_fields": {
+    "rptOwnerCik": "0001210527",
+    "rptOwnerName": "PANETTA LEON E",
+    "periodOfReport": "2015-01-19"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e127",
+   "form": "3",
+   "accession": "0001127602-15-034507",
+   "filing_date": "2015-12-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000112760215034507/form3.xml",
+   "quote": "James Renee Jo",
+   "supports": "Form 3 as director (isDirector=1); reporting-owner CIK; event date 2015-12-16.",
+   "xml_fields": {
+    "rptOwnerCik": "0001412439",
+    "rptOwnerName": "James Renee Jo",
+    "periodOfReport": "2015-12-16"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e128",
+   "form": "3",
+   "accession": "0001127602-18-017434",
+   "filing_date": "2018-05-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000112760218017434/form3.xml",
+   "quote": "Parrett William G",
+   "supports": "Form 3 as director (isDirector=1); reporting-owner CIK; event date 2018-05-09.",
+   "xml_fields": {
+    "rptOwnerCik": "0001418280",
+    "rptOwnerName": "Parrett William G",
+    "periodOfReport": "2018-05-09"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e129",
+   "form": "3",
+   "accession": "0001127602-18-017433",
+   "filing_date": "2018-05-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000112760218017433/form3.xml",
+   "quote": "MOORMAN CHARLES W",
+   "supports": "Form 3 as director (isDirector=1); reporting-owner CIK; event date 2018-05-09.",
+   "xml_fields": {
+    "rptOwnerCik": "0001186073",
+    "rptOwnerName": "MOORMAN CHARLES W",
+    "periodOfReport": "2018-05-09"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e130",
+   "form": "3",
+   "accession": "0001127602-19-025567",
+   "filing_date": "2019-07-31",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000112760219025567/form3.xml",
+   "quote": "Fairhead Rona Alison",
+   "supports": "Form 3 as director (isDirector=1); reporting-owner CIK; event date 2019-07-31.",
+   "xml_fields": {
+    "rptOwnerCik": "0001390276",
+    "rptOwnerName": "Fairhead Rona Alison",
+    "periodOfReport": "2019-07-31"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e131",
+   "form": "3",
+   "accession": "0001127602-19-034830",
+   "filing_date": "2019-12-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000112760219034830/form3.xml",
+   "quote": "Sikka Vishal",
+   "supports": "Form 3 as director (isDirector=1); reporting-owner CIK; event date 2019-12-10.",
+   "xml_fields": {
+    "rptOwnerCik": "0001796443",
+    "rptOwnerName": "Sikka Vishal",
+    "periodOfReport": "2019-12-10"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e132",
+   "form": "3",
+   "accession": "0001127602-22-010357",
+   "filing_date": "2022-03-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000112760222010357/form3.xml",
+   "quote": "Ablo Awo",
+   "supports": "Form 3 as director (isDirector=1); reporting-owner CIK; event date 2022-03-22.",
+   "xml_fields": {
+    "rptOwnerCik": "0001919691",
+    "rptOwnerName": "Ablo Awo",
+    "periodOfReport": "2022-03-22"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e133",
+   "form": "3",
+   "accession": "0001341439-25-000077",
+   "filing_date": "2025-11-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000134143925000077/form3.xml",
+   "quote": "RUSCKOWSKI STEPHEN H",
+   "supports": "Form 3 as director (isDirector=1); reporting-owner CIK; event date 2025-11-18.",
+   "xml_fields": {
+    "rptOwnerCik": "0001142624",
+    "rptOwnerName": "RUSCKOWSKI STEPHEN H",
+    "periodOfReport": "2025-11-18"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e134",
+   "form": "3",
+   "accession": "0001341439-26-000038",
+   "filing_date": "2026-05-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000134143926000038/form3.xml",
+   "quote": "Mihaljevic Tomislav",
+   "supports": "Form 3 as director (isDirector=1); reporting-owner CIK; event date 2026-05-06.",
+   "xml_fields": {
+    "rptOwnerCik": "0001917584",
+    "rptOwnerName": "Mihaljevic Tomislav",
+    "periodOfReport": "2026-05-06"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e135",
+   "form": "3",
+   "accession": "0001127602-25-017407",
+   "filing_date": "2025-06-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000112760225017407/form3.xml",
+   "quote": "Magouyrk Clayton M.",
+   "supports": "Form 3 as officer (President, OCI), not director; reporting-owner CIK. Event date 2025-06-02, before he joined the board.",
+   "xml_fields": {
+    "rptOwnerCik": "0002071873",
+    "rptOwnerName": "Magouyrk Clayton M.",
+    "periodOfReport": "2025-06-02"
+   },
+   "xml_relationship": {
+    "isDirector": false,
+    "officerTitle": "President"
+   }
+  },
+  {
+   "id": "e136",
+   "form": "3",
+   "accession": "0001127602-25-017406",
+   "filing_date": "2025-06-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000112760225017406/form3.xml",
+   "quote": "Sicilia Michael D.",
+   "supports": "Form 3 as officer (President, Industries), not director; reporting-owner CIK. Event date 2025-06-02, before he joined the board.",
+   "xml_fields": {
+    "rptOwnerCik": "0002071965",
+    "rptOwnerName": "Sicilia Michael D.",
+    "periodOfReport": "2025-06-02"
+   },
+   "xml_relationship": {
+    "isDirector": false,
+    "officerTitle": "President"
+   }
+  },
+  {
+   "id": "e137",
+   "form": "4",
+   "accession": "0001341439-26-000040",
+   "filing_date": "2026-06-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000134143926000040/form4.xml",
+   "quote": "Ablo Awo",
+   "supports": "Latest Form 4 reviewed: still reporting as a director; reporting-owner CIK. Period 2026-05-31 (annual director RSU grant).",
+   "xml_fields": {
+    "rptOwnerCik": "0001919691",
+    "rptOwnerName": "Ablo Awo",
+    "periodOfReport": "2026-05-31"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e138",
+   "form": "4",
+   "accession": "0001341439-26-000042",
+   "filing_date": "2026-06-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000134143926000042/form4.xml",
+   "quote": "BERG JEFFREY",
+   "supports": "Latest Form 4 reviewed: still reporting as a director; reporting-owner CIK. Period 2026-05-31.",
+   "xml_fields": {
+    "rptOwnerCik": "0001206104",
+    "rptOwnerName": "BERG JEFFREY",
+    "periodOfReport": "2026-05-31"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e139",
+   "form": "4",
+   "accession": "0001341439-26-000044",
+   "filing_date": "2026-06-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000134143926000044/form4.xml",
+   "quote": "BOSKIN MICHAEL J",
+   "supports": "Latest Form 4 reviewed: still reporting as a director; reporting-owner CIK. Period 2026-05-31.",
+   "xml_fields": {
+    "rptOwnerCik": "0001120621",
+    "rptOwnerName": "BOSKIN MICHAEL J",
+    "periodOfReport": "2026-05-31"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e140",
+   "form": "4",
+   "accession": "0001341439-26-000046",
+   "filing_date": "2026-06-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000134143926000046/form4.xml",
+   "quote": "CHIZEN BRUCE R",
+   "supports": "Latest Form 4 reviewed: still reporting as a director; reporting-owner CIK. Period 2026-05-31.",
+   "xml_fields": {
+    "rptOwnerCik": "0001032834",
+    "rptOwnerName": "CHIZEN BRUCE R",
+    "periodOfReport": "2026-05-31"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e141",
+   "form": "4",
+   "accession": "0001341439-26-000048",
+   "filing_date": "2026-06-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000134143926000048/form4.xml",
+   "quote": "Fairhead Rona Alison",
+   "supports": "Latest Form 4 reviewed: still reporting as a director; reporting-owner CIK. Period 2026-05-31.",
+   "xml_fields": {
+    "rptOwnerCik": "0001390276",
+    "rptOwnerName": "Fairhead Rona Alison",
+    "periodOfReport": "2026-05-31"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e142",
+   "form": "4",
+   "accession": "0001341439-26-000050",
+   "filing_date": "2026-06-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000134143926000050/form4.xml",
+   "quote": "Mihaljevic Tomislav",
+   "supports": "Latest Form 4 reviewed: still reporting as a director; reporting-owner CIK. Period 2026-05-31.",
+   "xml_fields": {
+    "rptOwnerCik": "0001917584",
+    "rptOwnerName": "Mihaljevic Tomislav",
+    "periodOfReport": "2026-05-31"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e143",
+   "form": "4",
+   "accession": "0001341439-26-000052",
+   "filing_date": "2026-06-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000134143926000052/form4.xml",
+   "quote": "MOORMAN CHARLES W",
+   "supports": "Latest Form 4 reviewed: still reporting as a director; reporting-owner CIK. Period 2026-05-31.",
+   "xml_fields": {
+    "rptOwnerCik": "0001186073",
+    "rptOwnerName": "MOORMAN CHARLES W",
+    "periodOfReport": "2026-05-31"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e144",
+   "form": "4",
+   "accession": "0001341439-26-000099",
+   "filing_date": "2026-10-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000134143926000099/form4.xml",
+   "quote": "RUSCKOWSKI STEPHEN H",
+   "supports": "Latest Form 4 reviewed: still reporting as a director; reporting-owner CIK. Period 2026-09-29 (latest Oracle Form 4 in the feed).",
+   "xml_fields": {
+    "rptOwnerCik": "0001142624",
+    "rptOwnerName": "RUSCKOWSKI STEPHEN H",
+    "periodOfReport": "2026-09-29"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e145",
+   "form": "4",
+   "accession": "0001341439-26-000086",
+   "filing_date": "2026-09-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000134143926000086/form4.xml",
+   "quote": "HENLEY JEFFREY",
+   "supports": "Latest Form 4 reviewed: still reporting as a director; reporting-owner CIK. Period 2026-09-19; director and officer (Vice Chairman).",
+   "xml_fields": {
+    "rptOwnerCik": "0001206100",
+    "rptOwnerName": "HENLEY JEFFREY",
+    "periodOfReport": "2026-09-19"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": "Vice Chairman"
+   }
+  },
+  {
+   "id": "e146",
+   "form": "4",
+   "accession": "0001341439-26-000092",
+   "filing_date": "2026-09-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000134143926000092/form4.xml",
+   "quote": "Magouyrk Clayton M.",
+   "supports": "Latest Form 4: officer (Chief Executive Officer); the director box is not marked on his Forms 4 even after he joined the board. Reporting-owner CIK. Period 2026-09-19.",
+   "xml_fields": {
+    "rptOwnerCik": "0002071873",
+    "rptOwnerName": "Magouyrk Clayton M.",
+    "periodOfReport": "2026-09-19"
+   },
+   "xml_relationship": {
+    "isDirector": null,
+    "officerTitle": "Chief Executive Officer"
+   }
+  },
+  {
+   "id": "e147",
+   "form": "4",
+   "accession": "0001341439-26-000094",
+   "filing_date": "2026-09-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000134143926000094/form4.xml",
+   "quote": "Sicilia Michael D.",
+   "supports": "Latest Form 4: officer (Chief Executive Officer); the director box is not marked on his Forms 4 even after he joined the board. Reporting-owner CIK. Period 2026-09-19.",
+   "xml_fields": {
+    "rptOwnerCik": "0002071965",
+    "rptOwnerName": "Sicilia Michael D.",
+    "periodOfReport": "2026-09-19"
+   },
+   "xml_relationship": {
+    "isDirector": null,
+    "officerTitle": "Chief Executive Officer"
+   }
+  },
+  {
+   "id": "e148",
+   "form": "4",
+   "accession": "0001341439-25-000066",
+   "filing_date": "2025-10-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000134143925000066/form4.xml",
+   "quote": "ELLISON LAWRENCE JOSEPH",
+   "supports": "Latest Oracle Form 4 (none in 2026): director and officer (Executive Chairman); reporting-owner CIK. Period 2025-10-23.",
+   "xml_fields": {
+    "rptOwnerCik": "0000901999",
+    "rptOwnerName": "ELLISON LAWRENCE JOSEPH",
+    "periodOfReport": "2025-10-23"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": "Executive Chairman"
+   }
+  },
+  {
+   "id": "e149",
+   "form": "4",
+   "accession": "0001341439-25-000063",
+   "filing_date": "2025-10-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000134143925000063/form4.xml",
+   "quote": "CATZ SAFRA",
+   "supports": "Latest Oracle Form 4 (none in 2026): director and officer. Its officer title still reads 'Chief Executive Officer' after the 2025-09-22 transition. Reporting-owner CIK. Period 2025-10-23.",
+   "xml_fields": {
+    "rptOwnerCik": "0001205005",
+    "rptOwnerName": "CATZ SAFRA",
+    "periodOfReport": "2025-10-23"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": "Chief Executive Officer"
+   }
+  },
+  {
+   "id": "e150",
+   "form": "4",
+   "accession": "0001127602-25-017848",
+   "filing_date": "2025-06-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000112760225017848/form4.xml",
+   "quote": "CONRADES GEORGE H",
+   "supports": "Latest Form 4 reviewed (director); reporting-owner CIK. Period 2025-06-17.",
+   "xml_fields": {
+    "rptOwnerCik": "0001106231",
+    "rptOwnerName": "CONRADES GEORGE H",
+    "periodOfReport": "2025-06-17"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e151",
+   "form": "4",
+   "accession": "0001341439-25-000087",
+   "filing_date": "2025-12-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000134143925000087/form4.xml",
+   "quote": "SELIGMAN NAOMI O",
+   "supports": "Latest Form 4 reviewed (director); reporting-owner CIK. Period 2025-12-23.",
+   "xml_fields": {
+    "rptOwnerCik": "0001192761",
+    "rptOwnerName": "SELIGMAN NAOMI O",
+    "periodOfReport": "2025-12-23"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e152",
+   "form": "4",
+   "accession": "0001127602-25-016602",
+   "filing_date": "2025-06-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000112760225016602/form4.xml",
+   "quote": "PANETTA LEON E",
+   "supports": "Latest Form 4 reviewed (director); reporting-owner CIK. Period 2025-05-31.",
+   "xml_fields": {
+    "rptOwnerCik": "0001210527",
+    "rptOwnerName": "PANETTA LEON E",
+    "periodOfReport": "2025-05-31"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e153",
+   "form": "4",
+   "accession": "0001341439-25-000006",
+   "filing_date": "2025-09-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000134143925000006/form4.xml",
+   "quote": "Parrett William G",
+   "supports": "Latest Form 4 reviewed (director); reporting-owner CIK. Period 2025-09-12.",
+   "xml_fields": {
+    "rptOwnerCik": "0001418280",
+    "rptOwnerName": "Parrett William G",
+    "periodOfReport": "2025-09-12"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e154",
+   "form": "4",
+   "accession": "0001127602-24-017434",
+   "filing_date": "2024-06-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000112760224017434/form4.xml",
+   "quote": "James Renee Jo",
+   "supports": "Latest Form 4 reviewed (director); reporting-owner CIK. Period 2024-05-31.",
+   "xml_fields": {
+    "rptOwnerCik": "0001412439",
+    "rptOwnerName": "James Renee Jo",
+    "periodOfReport": "2024-05-31"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e155",
+   "form": "4",
+   "accession": "0001127602-24-017442",
+   "filing_date": "2024-06-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000112760224017442/form4.xml",
+   "quote": "Sikka Vishal",
+   "supports": "Latest Form 4 reviewed (director); reporting-owner CIK. Period 2024-05-31.",
+   "xml_fields": {
+    "rptOwnerCik": "0001796443",
+    "rptOwnerName": "Sikka Vishal",
+    "periodOfReport": "2024-05-31"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  }
+ ],
+ "conflicts": [
+  {
+   "description": "Ellison's founding/director month. The 1994-2001 proxies say he has been a director 'since May 1977' (founding in May 1977). From 2003 on the proxies say June 1977, as do the 2005 10-K ('operations originally begun in June 1977') and the 2026 proxy (CEO 'from June 1977, when he founded Oracle'). Kept year precision (1977).",
+   "evidence_refs": [
+    "e121",
+    "e112",
+    "e106",
+    "e103",
+    "e027"
+   ]
+  },
+  {
+   "description": "Boskin's start month. The 1994 proxy (his first) through the 2002 proxy say 'since May 1994'; the 2003 and later proxies say 'since April 1994'. Kept year precision (1994).",
+   "evidence_refs": [
+    "e122",
+    "e113",
+    "e107"
+   ]
+  },
+  {
+   "description": "Berg's start month. The 1997 proxy (his first) through the 2002 proxy say 'since March 1997'; the 2003 and later proxies say 'since February 1997'. Kept year precision (1997).",
+   "evidence_refs": [
+    "e118",
+    "e115",
+    "e108"
+   ]
+  },
+  {
+   "description": "Ellison's chairmanships. The 1995-2003 proxies say Chairman 'since June 1995'; the 2026 proxy says 'from May 1995 to January 2004'. His earlier stint is 'April 1990 until September 1992' (1994-2001 proxies) vs 'May 1990 until October 1992' (2003 proxy). Kept years for the starts (1990, 1995) and the 1992 end; the January 2004 end is uncontested.",
+   "evidence_refs": [
+    "e119",
+    "e112",
+    "e106",
+    "e027"
+   ]
+  },
+  {
+   "description": "September 2014 leadership change date. The 8-K body says the CEO, Executive Chairman and Executive Vice Chairman appointments happened on September 17, 2014, but the 8-K cover's 'earliest event reported' is September 18, 2014 (the announcement day). Kept 2014-09-17.",
+   "evidence_refs": [
+    "e095",
+    "e096"
+   ]
+  },
+  {
+   "description": "Ablo's announcement date. The 8-K body says Oracle 'announced' her election on March 22, 2022 (also the 8-K event date and her Form 3 event date), but the press-release exhibit is dated March 24, 2022, the day the 8-K was filed. Kept 2022-03-22 as both start and announcement date.",
+   "evidence_refs": [
+    "e081",
+    "e132"
+   ]
+  },
+  {
+   "description": "Form 4 relationship fields lag the September 2025 transition. Catz's 2025-10-23 Form 4 still gives her officer title as 'Chief Executive Officer', a month after she became Executive Vice Chair. Magouyrk's and Sicilia's Forms 4 through 2026-09-19 do not mark the director box, although the 8-K and both proxies make them directors from 2025-09-22. Kept the 8-K/proxy facts.",
+   "evidence_refs": [
+    "e149",
+    "e053",
+    "e146",
+    "e147",
+    "e052",
+    "e055"
+   ]
+  }
+ ],
+ "open_questions": [
+  "Exact appointment days are not in any EDGAR filing for Ellison (1977), Boskin (1994), Henley (June 1995) and Berg (1997). These predate EDGAR full-text search, and the earliest proxies give at most a month, which conflicts for Ellison, Boskin and Berg.",
+  "When Boskin's current lead-independent-director stint started. The role rotates annually among the F&A, Governance and Compensation chairs and no filing dates the hand-offs. Proxy snapshots: Chizen (2019), Boskin (2020), Conrades (2021), Chizen (2022), Boskin (2023), Conrades (2024), Chizen (2025), Boskin (2026). Only Boskin's current stint is recorded, with an unknown start.",
+  "Ellison and Catz filed no Oracle Form 4 in 2026 (their latest are dated 2025-10-23). Their current service rests on the 2026 proxy (filed 2026-09-25), which renominates both. Catz's only 2026 Form 4 is for Paramount Skydance.",
+  "The exact day Henley became Chairman (January 2004) and Ellison's January 2004 end as Chairman are disclosed only to the month.",
+  "Mihaljevic (joined 2026-05-06) has no committee assignment in his 8-K or the 2026 proxy.",
+  "The 2026 proxy committee-membership table marks seats with images, so committee rows come from the text nominee table. For Panetta and Parrett they come from the 2024 proxy's nominee table: the 2025 proxy lists them only in the image table, where the tick marks (Compensation and Governance for Panetta, Governance for Parrett) agree.",
+  "Independence roles for long-tenured directors are aligned to board tenure. The filings give point-in-time determinations, and only the 2018-2026 proxies were checked for them.",
+  "Pre-2020 directors who left before 2020 (e.g., Mark Hurd, d. 2019-10-18; Hector Garcia-Molina, did not stand in 2019) are out of scope and not recorded."
+ ],
+ "coverage": [
+  {
+   "scope": "current_board",
+   "period_start": "2026-10-04",
+   "period_end": "2026-10-04",
+   "level": "complete",
+   "method": "Roster = the 13 nominees in the 2026 DEF 14A (filed 2026-09-25; it says Mihaljevic and Rusckowski joined after the 2025 meeting and Conrades and Seligman retired in January 2026). Checked against every 8-K with Item 5.02 or 5.07 from 2019 to 2026 (none filed after the proxy; latest 8-K 2026-09-14) and every Form 3/4 filed from June 2025 to 2026-10-01, the latest filing in the EDGAR submissions feed fetched 2026-10-05 UTC. Eleven of the 13 filed Oracle Forms 4 in 2026; Ellison and Catz did not (latest 2025-10-23). Magouyrk and Sicilia file as officers without the director box."
+  },
+  {
+   "scope": "board_history",
+   "period_start": "2020-01-01",
+   "period_end": "2026-10-04",
+   "level": "complete",
+   "method": "Every DEF 14A from 2018 to 2026 and every 8-K with Item 5.02 or 5.07 from 2019 to 2026 reviewed. Annual-meeting slates (Item 5.07, 2019-2025) compared year over year: 14 directors on 2020-01-01, 6 departures since. Departures dated from 8-K Item 5.02 (Conrades, Seligman) or from the Item 5.07 meeting date for directors who did not stand (James, Sikka, Panetta, Parrett)."
+  },
+  {
+   "scope": "board_history",
+   "period_start": "1977-01-01",
+   "period_end": "2019-12-31",
+   "level": "partial",
+   "method": "Pre-2020 seats recorded only for directors serving in 2020 or later, reconstructed from predecessor (CIK 777676) proxies from 1994 to 2005, the 2001-2002 10-Q, appointment 8-Ks and Forms 3. Directors who left before 2020 are not recorded."
+  }
+ ]
+}

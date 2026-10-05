@@ -1,0 +1,2816 @@
+{
+ "company": {
+  "cik": "0000909832",
+  "ticker": "COST",
+  "legal_name": "Costco Wholesale Corporation",
+  "common_name": "Costco",
+  "exchange": "Nasdaq Global Select Market",
+  "listed_since_year": 1985,
+  "state_of_incorporation": "Washington",
+  "classified_board": false,
+  "notes": "CIK verified in the EDGAR submissions JSON (name COSTCO WHOLESALE CORP /NEW, ticker COST, exchange Nasdaq, state WA; former names PRICE/COSTCO INC and COSTCO COMPANIES INC). The registrant was formed for the Price/Costco merger approved 1993-10-21; its stock began trading 1993-10-22 (e001, e003). The predecessor Costco Wholesale Corporation was quoted on Nasdaq as COST before the merger (e002), and the 2017 proxy says the Company went public in 1985 (e004), so listed_since_year is 1985. Price/Costco was renamed Costco Companies, Inc. in 1997 and reincorporated in Washington on 1999-08-30 by merging into its subsidiary Costco Wholesale Corporation (e005). Proxy 'director since' dates include predecessor service (e007): James and Meisenbach predate the registrant. The board was classified until shareholders approved declassification on 2019-01-24; classes ended at the 2022 annual meeting (e008, e009). Hamilton E. James has been non-executive Chairman since August 2017; there has been no Lead Independent Director since then.",
+  "evidence_refs": [
+   "e001",
+   "e002",
+   "e003",
+   "e004",
+   "e005",
+   "e006",
+   "e007",
+   "e008",
+   "e009"
+  ]
+ },
+ "as_of": "2026-10-04",
+ "sources_reviewed_through": "2026-09-30 (latest filing in the EDGAR submissions feed fetched 2026-10-05 UTC)",
+ "people": [
+  {
+   "key": "hamilton-james",
+   "full_name": "Hamilton E. James",
+   "aliases": [
+    "Hamilton James",
+    "JAMES HAMILTON E"
+   ],
+   "sec_cik": "0001238989",
+   "bio_other_public_boards": [
+    {
+     "company": "Blackstone Group Management L.L.C. (general partner of The Blackstone Group)",
+     "status": "former",
+     "years": "until January 31, 2022",
+     "source_ref": "e025",
+     "public_company_stated_in_source": false,
+     "note": "board of Blackstone's general partner, not of the listed entity itself"
+    }
+   ]
+  },
+  {
+   "key": "susan-decker",
+   "full_name": "Susan L. Decker",
+   "aliases": [
+    "Susan Decker",
+    "DECKER SUSAN L"
+   ],
+   "sec_cik": "0001234655",
+   "bio_other_public_boards": [
+    {
+     "company": "Berkshire Hathaway Inc.",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e027",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Vail Resorts, Inc.",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e027",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Chime Financial, Inc.",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e027",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Intel Corporation",
+     "status": "former",
+     "years": "not stated",
+     "source_ref": "e027",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Pixar",
+     "status": "former",
+     "years": "not stated",
+     "source_ref": "e027",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Momentive Global Inc.",
+     "status": "former",
+     "years": "not stated",
+     "source_ref": "e027",
+     "public_company_stated_in_source": false
+    }
+   ]
+  },
+  {
+   "key": "kenneth-denman",
+   "full_name": "Kenneth D. Denman",
+   "aliases": [
+    "Kenneth Denman",
+    "DENMAN KENNETH D"
+   ],
+   "sec_cik": "0001254779",
+   "bio_other_public_boards": [
+    {
+     "company": "Motorola Solutions, Inc.",
+     "status": "current",
+     "years": "not stated (lead independent director)",
+     "source_ref": "e029",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "VMware Inc.",
+     "status": "former",
+     "years": "not stated",
+     "source_ref": "e030",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Mitek Systems Inc.",
+     "status": "former",
+     "years": "not stated",
+     "source_ref": "e030",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "LendingClub Inc.",
+     "status": "former",
+     "years": "not stated",
+     "source_ref": "e030",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "ShoreTel, Inc.",
+     "status": "former",
+     "years": "not stated",
+     "source_ref": "e030",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "United Online, Inc.",
+     "status": "former",
+     "years": "not stated",
+     "source_ref": "e030",
+     "public_company_stated_in_source": false
+    }
+   ]
+  },
+  {
+   "key": "helena-foulkes",
+   "full_name": "Helena B. Foulkes",
+   "aliases": [
+    "Helena Foulkes",
+    "Helena Buonanno Foulkes",
+    "Foulkes Helena"
+   ],
+   "sec_cik": "0001429996",
+   "bio_other_public_boards": [
+    {
+     "company": "Skillsoft Corp.",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e032",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "The Home Depot, Inc.",
+     "status": "former",
+     "years": "not stated",
+     "source_ref": "e032",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Hudson's Bay Company",
+     "status": "former",
+     "years": "February 2018 to March 2020",
+     "source_ref": "e031",
+     "public_company_stated_in_source": false
+    }
+   ]
+  },
+  {
+   "key": "sally-jewell",
+   "full_name": "Sally Jewell",
+   "aliases": [
+    "JEWELL SARAH MR SALLY"
+   ],
+   "sec_cik": "0001174963",
+   "bio_other_public_boards": []
+  },
+  {
+   "key": "jeffrey-raikes",
+   "full_name": "Jeffrey S. Raikes",
+   "aliases": [
+    "Jeffrey Raikes",
+    "RAIKES JEFFREY S"
+   ],
+   "sec_cik": "0001193112",
+   "bio_other_public_boards": []
+  },
+  {
+   "key": "gina-raimondo",
+   "full_name": "Gina M. Raimondo",
+   "aliases": [
+    "Gina Raimondo",
+    "Raimondo Gina Marie"
+   ],
+   "sec_cik": "0002104063",
+   "bio_other_public_boards": []
+  },
+  {
+   "key": "john-stanton",
+   "full_name": "John W. Stanton",
+   "aliases": [
+    "John Stanton",
+    "STANTON JOHN W"
+   ],
+   "sec_cik": "0000904858",
+   "bio_other_public_boards": [
+    {
+     "company": "Microsoft Corporation",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e037",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Trilogy International Partners",
+     "status": "former",
+     "years": "not stated",
+     "source_ref": "e037",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Columbia Sportswear Company",
+     "status": "former",
+     "years": "not stated",
+     "source_ref": "e037",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Clearwire Corp.",
+     "status": "former",
+     "years": "2008 to 2013 (Chairman 2011 to 2013)",
+     "source_ref": "e038",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "T-Mobile USA (formerly VoiceStream Wireless Corporation)",
+     "status": "former",
+     "years": "1994 to 2004 (Chairman)",
+     "source_ref": "e038",
+     "public_company_stated_in_source": false
+    }
+   ]
+  },
+  {
+   "key": "ron-vachris",
+   "full_name": "Ron M. Vachris",
+   "aliases": [
+    "Ron Vachris",
+    "Vachris Roland Michael"
+   ],
+   "sec_cik": "0001679566",
+   "bio_other_public_boards": []
+  },
+  {
+   "key": "maggie-wilderotter",
+   "full_name": "Mary Agnes (Maggie) Wilderotter",
+   "aliases": [
+    "Maggie Wilderotter",
+    "Mary Agnes Wilderotter",
+    "Mary (Maggie) A. Wilderotter",
+    "Wilderotter Mary Agnes"
+   ],
+   "sec_cik": "0001180610",
+   "bio_other_public_boards": [
+    {
+     "company": "DocuSign, Inc.",
+     "status": "current",
+     "years": "not stated (Chairman of the Board)",
+     "source_ref": "e042",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Sana Biotechnology, Inc.",
+     "status": "former",
+     "years": "not stated",
+     "source_ref": "e042",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Fortinet, Inc.",
+     "status": "former",
+     "years": "not stated",
+     "source_ref": "e042",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Xerox Corporation",
+     "status": "former",
+     "years": "not stated",
+     "source_ref": "e042",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "DreamWorks Animation SKG",
+     "status": "former",
+     "years": "not stated",
+     "source_ref": "e042",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Cadence Design Systems",
+     "status": "former",
+     "years": "not stated",
+     "source_ref": "e042",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Hewlett Packard Enterprise",
+     "status": "former",
+     "years": "not stated",
+     "source_ref": "e042",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "The Procter & Gamble Company",
+     "status": "former",
+     "years": "not stated",
+     "source_ref": "e042",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Lyft, Inc.",
+     "status": "former",
+     "years": "not stated",
+     "source_ref": "e042",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Frontier Communications",
+     "status": "former",
+     "years": "Chair from December 2005; Executive Chairman April 2015 to April 2016",
+     "source_ref": "e041",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "richard-galanti",
+   "full_name": "Richard A. Galanti",
+   "aliases": [
+    "Richard Galanti",
+    "GALANTI RICHARD A"
+   ],
+   "sec_cik": "0001184493",
+   "bio_other_public_boards": []
+  },
+  {
+   "key": "craig-jelinek",
+   "full_name": "W. Craig Jelinek",
+   "aliases": [
+    "Craig Jelinek",
+    "JELINEK W CRAIG"
+   ],
+   "sec_cik": "0001184494",
+   "bio_other_public_boards": []
+  },
+  {
+   "key": "charles-munger",
+   "full_name": "Charles T. Munger",
+   "aliases": [
+    "Charles Munger",
+    "MUNGER CHARLES T"
+   ],
+   "sec_cik": "0001078511",
+   "bio_other_public_boards": [
+    {
+     "company": "Berkshire Hathaway Inc.",
+     "status": "former",
+     "years": "not stated (Vice Chairman; current in the 2022 proxy, ended no later than his death on 2023-11-28)",
+     "source_ref": "e115",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Daily Journal Corporation",
+     "status": "former",
+     "years": "not stated (current in the 2022 proxy, ended no later than his death on 2023-11-28)",
+     "source_ref": "e115",
+     "public_company_stated_in_source": false
+    }
+   ]
+  },
+  {
+   "key": "john-meisenbach",
+   "full_name": "John W. Meisenbach",
+   "aliases": [
+    "John Meisenbach",
+    "MEISENBACH JOHN W"
+   ],
+   "sec_cik": "0001187136",
+   "bio_other_public_boards": [
+    {
+     "company": "Expeditors International",
+     "status": "former",
+     "years": "not stated",
+     "source_ref": "e143",
+     "public_company_stated_in_source": false
+    }
+   ]
+  }
+ ],
+ "memberships": [
+  {
+   "person_key": "hamilton-james",
+   "start_date": "1988-08",
+   "start_date_precision": "month",
+   "start_date_basis": "Proxy bio 'a director of the Company since August 1988', where 'Company' includes the pre-1993 predecessor Costco Wholesale Corporation",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e024",
+    "e007",
+    "e148",
+    "e151",
+    "e020",
+    "e050",
+    "e053",
+    "e060"
+   ],
+   "board_class": null,
+   "notes": "Start is the predecessor-board date the proxy states. The 1997 proxy splits it: predecessor Costco director August 1988 to October 1993, registrant director since October 1993 (the merger closed 1993-10-21). No day is disclosed. Re-elected 2026-01-15; signed the 2026-06-03 S-3ASR as Chairman. Board declassified (amendment approved 2019-01-24; classes ended at the 2022 meeting), so no class."
+  },
+  {
+   "person_key": "susan-decker",
+   "start_date": "2004-10-12",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02: elected by the Board on October 12, 2004",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e080",
+    "e026",
+    "e020",
+    "e050",
+    "e054",
+    "e061"
+   ],
+   "board_class": null,
+   "notes": "Proxies give 'since October 2004'. Re-elected 2026-01-15; Form 4 as director in January 2026. Board declassified (amendment approved 2019-01-24; classes ended at the 2022 meeting), so no class."
+  },
+  {
+   "person_key": "kenneth-denman",
+   "start_date": "2017-03-17",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02: elected by the Board on March 17, 2017",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e086",
+    "e028",
+    "e020",
+    "e050",
+    "e054",
+    "e062"
+   ],
+   "board_class": null,
+   "notes": "Proxies give 'since March 2017'. Re-elected 2026-01-15; Form 4 as director in June 2026. Board declassified (amendment approved 2019-01-24; classes ended at the 2022 meeting), so no class."
+  },
+  {
+   "person_key": "helena-foulkes",
+   "start_date": "2023-08-16",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02: elected by the Board on August 16, 2023 (Form 3 event date 2023-08-16)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e089",
+    "e063",
+    "e031",
+    "e105",
+    "e020",
+    "e050",
+    "e054",
+    "e064"
+   ],
+   "board_class": null,
+   "notes": "Filled a seat added by expanding the board. Re-elected 2026-01-15; signed the 2026-06-03 S-3ASR. Board declassified (amendment approved 2019-01-24; classes ended at the 2022 meeting), so no class."
+  },
+  {
+   "person_key": "sally-jewell",
+   "start_date": "2020-01-22",
+   "start_date_precision": "day",
+   "start_date_basis": "Elected at the 2020 annual meeting (8-K Item 5.07 meeting date)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e126",
+    "e127",
+    "e120",
+    "e121",
+    "e033",
+    "e065",
+    "e020",
+    "e050",
+    "e055",
+    "e066"
+   ],
+   "board_class": null,
+   "notes": "First elected by shareholders at the 2020-01-22 annual meeting, in the seat Meisenbach vacated. Her Form 3 gives an event date of 2020-01-23 (see conflicts). Re-elected 2026-01-15; signed the 2026-06-03 S-3ASR. Board declassified (amendment approved 2019-01-24; classes ended at the 2022 meeting), so no class."
+  },
+  {
+   "person_key": "jeffrey-raikes",
+   "start_date": "2008-12-05",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02: elected by the Board on December 5, 2008",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e081",
+    "e034",
+    "e020",
+    "e050",
+    "e055",
+    "e067"
+   ],
+   "board_class": null,
+   "notes": "Proxies give 'since December 2008'. Re-elected 2026-01-15; listed (unsigned) on the 2026-06-03 S-3ASR signature page; Form 4 as director in July 2026. Board declassified (amendment approved 2019-01-24; classes ended at the 2022 meeting), so no class."
+  },
+  {
+   "person_key": "gina-raimondo",
+   "start_date": "2026-01-15",
+   "start_date_precision": "day",
+   "start_date_basis": "Elected at the 2026 annual meeting (8-K Item 5.07; Form 3 event date 2026-01-15)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e050",
+    "e051",
+    "e052",
+    "e035",
+    "e020",
+    "e068",
+    "e055"
+   ],
+   "board_class": null,
+   "notes": "New director first elected by shareholders. Signed the 2026-06-03 S-3ASR as a director. Board declassified (amendment approved 2019-01-24; classes ended at the 2022 meeting), so no class."
+  },
+  {
+   "person_key": "john-stanton",
+   "start_date": "2015-10-29",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02: elected by the Board on October 29, 2015",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e085",
+    "e036",
+    "e020",
+    "e050",
+    "e056",
+    "e069"
+   ],
+   "board_class": null,
+   "notes": "Proxies give 'since October 2015'. Re-elected 2026-01-15; signed the 2026-06-03 S-3ASR. Board declassified (amendment approved 2019-01-24; classes ended at the 2022 meeting), so no class."
+  },
+  {
+   "person_key": "ron-vachris",
+   "start_date": "2022-02-02",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02: elected director concurrently with his appointment as President and COO, effective February 2, 2022",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e088",
+    "e087",
+    "e112",
+    "e039",
+    "e020",
+    "e050",
+    "e053",
+    "e070"
+   ],
+   "board_class": null,
+   "notes": "Filled a newly created seat. Re-elected 2026-01-15; signed the 2026-06-03 S-3ASR as CEO, President and Director. Board declassified (amendment approved 2019-01-24; classes ended at the 2022 meeting), so no class."
+  },
+  {
+   "person_key": "maggie-wilderotter",
+   "start_date": "2015-10-13",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02: elected by the Board on October 13, 2015",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e084",
+    "e040",
+    "e020",
+    "e050",
+    "e056",
+    "e071"
+   ],
+   "board_class": null,
+   "notes": "Filled a vacancy created by a resignation earlier in 2015. Proxies give 'since October 2015'. Re-elected 2026-01-15; signed the 2026-06-03 S-3ASR. Board declassified (amendment approved 2019-01-24; classes ended at the 2022 meeting), so no class."
+  },
+  {
+   "person_key": "richard-galanti",
+   "start_date": "1995-01-27",
+   "start_date_precision": "day",
+   "start_date_basis": "Elected as a Class I director at the 1995 annual meeting (1994 proxy nomination; 10-Q Item 4 results)",
+   "end_date": "2025-01-23",
+   "end_date_precision": "day",
+   "end_reason": "did_not_stand",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e152",
+    "e153",
+    "e154",
+    "e155",
+    "e106",
+    "e100",
+    "e101",
+    "e094",
+    "e072"
+   ],
+   "board_class": null,
+   "notes": "Proxies give 'since January 1995'. Not renominated for the 2025 meeting; his term ended at the 2025-01-23 annual meeting. The 2025 proxy calls this a retirement. Board was declassified by then, so no class."
+  },
+  {
+   "person_key": "craig-jelinek",
+   "start_date": "2010-02-17",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02: elected director effective February 17, 2010",
+   "end_date": "2025-01-23",
+   "end_date_precision": "day",
+   "end_reason": "did_not_stand",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e083",
+    "e082",
+    "e107",
+    "e100",
+    "e101",
+    "e132",
+    "e073"
+   ],
+   "board_class": null,
+   "notes": "Proxies give 'since February 2010'. Not renominated for the 2025 meeting; his term ended at the 2025-01-23 annual meeting. The 2025 proxy calls this a retirement. Board was declassified by then, so no class."
+  },
+  {
+   "person_key": "charles-munger",
+   "start_date": "1997-01",
+   "start_date_precision": "month",
+   "start_date_basis": "Proxy bios 'a director of the Company since January 1997' (1997 and 2022 proxies)",
+   "end_date": "2023-11-28",
+   "end_date_precision": "day",
+   "end_reason": "died",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e150",
+    "e115",
+    "e104",
+    "e103",
+    "e074"
+   ],
+   "board_class": null,
+   "notes": "No day is disclosed: he is not in the 1996 proxy slate, and the January 1997 annual-meeting results (10-Q) do not mention him. Died 2023-11-28 while serving (2023 proxy)."
+  },
+  {
+   "person_key": "john-meisenbach",
+   "start_date": "1983",
+   "start_date_precision": "year",
+   "start_date_basis": "Proxy bios 'a director of the Company since its inception' (predecessor Costco Wholesale Corporation, which began operations in 1983); his 2019 8-K says over thirty-six years of service",
+   "end_date": "2020-01-22",
+   "end_date_precision": "day",
+   "end_reason": "did_not_stand",
+   "is_current": false,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e142",
+    "e149",
+    "e010",
+    "e125",
+    "e007",
+    "e120",
+    "e126",
+    "e075"
+   ],
+   "board_class": null,
+   "notes": "Predecessor-board start; the registrant board since October 1993 (1997 proxy). Year inferred from 'since its inception' plus the 10-K's 'began operations in 1983' and 'over thirty-six years' as of 2019-11-25; no filing states the date. Gave notice 2019-11-25 that he would not stand; left at the 2020-01-22 annual meeting. The board was still classified then (his term expired in 2020); class label not recorded."
+  }
+ ],
+ "roles": [
+  {
+   "person_key": "hamilton-james",
+   "role": "chair",
+   "start_date": "2017-08",
+   "end_date": null,
+   "precision": "month",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e024",
+    "e140",
+    "e046",
+    "e047",
+    "e053"
+   ],
+   "notes": "Non-executive Chairman since August 2017, elected after co-founder Jeff Brotman's death. No day is disclosed. The chair and CEO roles are separate.",
+   "officer_title": "Chairman of the Board (non-executive)"
+  },
+  {
+   "person_key": "hamilton-james",
+   "role": "lead_independent_director",
+   "start_date": "2005",
+   "end_date": "2017-08",
+   "precision": "year",
+   "end_precision": "month",
+   "confidence": "high",
+   "evidence_refs": [
+    "e024",
+    "e145"
+   ],
+   "notes": "Lead Independent Director from 2005 until he became non-executive Chairman in August 2017."
+  },
+  {
+   "person_key": "hamilton-james",
+   "role": "independent_director",
+   "start_date": "2005",
+   "end_date": null,
+   "precision": "year",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e145",
+    "e147",
+    "e123",
+    "e022"
+   ],
+   "notes": "Independent in every list reviewed (2009, 2014, 2017-2025 proxies). Start set to 2005, when he became Lead Independent Director; the 2004-2005 proxies give no independence list, and status for 1988-2004 is not reviewed."
+  },
+  {
+   "person_key": "susan-decker",
+   "role": "independent_director",
+   "start_date": "2004-10-12",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e147",
+    "e123",
+    "e022"
+   ],
+   "notes": "Aligned to board tenure; the filings give point-in-time determinations only. Independent in every list reviewed (2009 onward)."
+  },
+  {
+   "person_key": "kenneth-denman",
+   "role": "independent_director",
+   "start_date": "2017-03-17",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e141",
+    "e022"
+   ],
+   "notes": "Aligned to board tenure; the filings give point-in-time determinations only."
+  },
+  {
+   "person_key": "helena-foulkes",
+   "role": "independent_director",
+   "start_date": "2023-08-16",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e110",
+    "e022"
+   ],
+   "notes": "Aligned to board tenure; the filings give point-in-time determinations only."
+  },
+  {
+   "person_key": "sally-jewell",
+   "role": "independent_director",
+   "start_date": "2020-01-22",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e122",
+    "e128",
+    "e022"
+   ],
+   "notes": "Aligned to board tenure; the filings give point-in-time determinations only. Determined independent as a nominee in the 2019 proxy."
+  },
+  {
+   "person_key": "jeffrey-raikes",
+   "role": "independent_director",
+   "start_date": "2008-12-05",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e147",
+    "e022"
+   ],
+   "notes": "Aligned to board tenure; the filings give point-in-time determinations only."
+  },
+  {
+   "person_key": "gina-raimondo",
+   "role": "independent_director",
+   "start_date": "2026-01-15",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e023"
+   ],
+   "notes": "Determined independent as a nominee in the 2025 proxy; aligned to her election date."
+  },
+  {
+   "person_key": "john-stanton",
+   "role": "independent_director",
+   "start_date": "2015-10-29",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e141",
+    "e022"
+   ],
+   "notes": "Aligned to board tenure; the filings give point-in-time determinations only."
+  },
+  {
+   "person_key": "maggie-wilderotter",
+   "role": "independent_director",
+   "start_date": "2015-10-13",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e141",
+    "e022"
+   ],
+   "notes": "Aligned to board tenure; the filings give point-in-time determinations only."
+  },
+  {
+   "person_key": "ron-vachris",
+   "role": "executive_director",
+   "start_date": "2022-02-02",
+   "end_date": "2023-12-31",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e087",
+    "e088",
+    "e039"
+   ],
+   "notes": "President and Chief Operating Officer and a director from 2022-02-02 until he became CEO.",
+   "officer_title": "President and Chief Operating Officer"
+  },
+  {
+   "person_key": "ron-vachris",
+   "role": "ceo_director",
+   "start_date": "2024-01-01",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e091",
+    "e039",
+    "e048",
+    "e053",
+    "e070"
+   ],
+   "notes": "President and CEO effective 2024-01-01, succeeding Jelinek.",
+   "officer_title": "Chief Executive Officer and President"
+  },
+  {
+   "person_key": "ron-vachris",
+   "role": "non_independent_director",
+   "start_date": "2022-02-02",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e103",
+    "e022"
+   ],
+   "notes": "Employee director; not in any independence list."
+  },
+  {
+   "person_key": "craig-jelinek",
+   "role": "executive_director",
+   "start_date": "2010-02-17",
+   "end_date": "2011-12-31",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e083",
+    "e082",
+    "e108"
+   ],
+   "notes": "President and COO (appointed 2010-01-28) when he joined the board; became CEO 2012-01-01.",
+   "officer_title": "President and Chief Operating Officer"
+  },
+  {
+   "person_key": "craig-jelinek",
+   "role": "ceo_director",
+   "start_date": "2012-01-01",
+   "end_date": "2023-12-31",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e107",
+    "e091",
+    "e111"
+   ],
+   "notes": "CEO from 2012-01-01 through 2023-12-31; stayed on the board afterwards.",
+   "officer_title": "Chief Executive Officer"
+  },
+  {
+   "person_key": "craig-jelinek",
+   "role": "non_independent_director",
+   "start_date": "2010-02-17",
+   "end_date": "2025-01-23",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e123",
+    "e103",
+    "e092"
+   ],
+   "notes": "Employee director (an employee in an advisory role through April 2024); not in any independence list. Ends with his board service."
+  },
+  {
+   "person_key": "richard-galanti",
+   "role": "executive_director",
+   "start_date": "1995-01-27",
+   "end_date": "2025-01-23",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e106",
+    "e093",
+    "e094",
+    "e095",
+    "e072"
+   ],
+   "notes": "Executive Vice President and CFO throughout his board service; stepped down as CFO 2024-03-15 but remained EVP and a director until the 2025-01-23 meeting.",
+   "officer_title": "Executive Vice President and Chief Financial Officer"
+  },
+  {
+   "person_key": "richard-galanti",
+   "role": "non_independent_director",
+   "start_date": "1995-01-27",
+   "end_date": "2025-01-23",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e123",
+    "e103"
+   ],
+   "notes": "Employee director; not in any independence list."
+  },
+  {
+   "person_key": "charles-munger",
+   "role": "independent_director",
+   "start_date": "1997-01",
+   "end_date": "2023-11-28",
+   "precision": "month",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e103",
+    "e147",
+    "e123"
+   ],
+   "notes": "The 2024 proxy says he was deemed independent while he served on the Board."
+  },
+  {
+   "person_key": "john-meisenbach",
+   "role": "non_independent_director",
+   "start_date": "2009-12-18",
+   "end_date": "2020-01-22",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "medium",
+   "evidence_refs": [
+    "e147",
+    "e146",
+    "e141",
+    "e144",
+    "e123"
+   ],
+   "notes": "Not listed as independent in any proxy reviewed (2009, 2014, 2017, 2018, 2019). The 2019 proxy discloses commissions he received on Company benefit programs. Start is the earliest determination reviewed, not a change date; status before 2009 is not reviewed."
+  }
+ ],
+ "committees": [
+  {
+   "person_key": "kenneth-denman",
+   "committee": "audit",
+   "role": "chair",
+   "as_of_filing": "0000909832-25-000159",
+   "as_of_date": "2025-12-04",
+   "evidence_refs": [
+    "e043"
+   ]
+  },
+  {
+   "person_key": "susan-decker",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0000909832-25-000159",
+   "as_of_date": "2025-12-04",
+   "evidence_refs": [
+    "e043"
+   ]
+  },
+  {
+   "person_key": "helena-foulkes",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0000909832-25-000159",
+   "as_of_date": "2025-12-04",
+   "evidence_refs": [
+    "e043",
+    "e090"
+   ]
+  },
+  {
+   "person_key": "sally-jewell",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0000909832-25-000159",
+   "as_of_date": "2025-12-04",
+   "evidence_refs": [
+    "e043"
+   ]
+  },
+  {
+   "person_key": "john-stanton",
+   "committee": "compensation",
+   "role": "chair",
+   "as_of_filing": "0000909832-25-000159",
+   "as_of_date": "2025-12-04",
+   "evidence_refs": [
+    "e044"
+   ]
+  },
+  {
+   "person_key": "sally-jewell",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0000909832-25-000159",
+   "as_of_date": "2025-12-04",
+   "evidence_refs": [
+    "e044"
+   ]
+  },
+  {
+   "person_key": "maggie-wilderotter",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0000909832-25-000159",
+   "as_of_date": "2025-12-04",
+   "evidence_refs": [
+    "e044"
+   ]
+  },
+  {
+   "person_key": "jeffrey-raikes",
+   "committee": "nominating_governance",
+   "role": "chair",
+   "as_of_filing": "0000909832-25-000159",
+   "as_of_date": "2025-12-04",
+   "evidence_refs": [
+    "e045"
+   ]
+  },
+  {
+   "person_key": "helena-foulkes",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0000909832-25-000159",
+   "as_of_date": "2025-12-04",
+   "evidence_refs": [
+    "e045",
+    "e090"
+   ]
+  },
+  {
+   "person_key": "maggie-wilderotter",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0000909832-25-000159",
+   "as_of_date": "2025-12-04",
+   "evidence_refs": [
+    "e045"
+   ]
+  },
+  {
+   "person_key": "charles-munger",
+   "committee": "audit",
+   "role": "chair",
+   "as_of_filing": "0000909832-22-000023",
+   "as_of_date": "2022-12-06",
+   "evidence_refs": [
+    "e116",
+    "e109"
+   ]
+  }
+ ],
+ "events": [
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "john-meisenbach",
+   "event_date": "1983",
+   "announced_date": null,
+   "evidence_refs": [
+    "e142",
+    "e149",
+    "e010"
+   ],
+   "summary": "John W. Meisenbach on the predecessor Costco board since its inception (began operations 1983).",
+   "event_date_precision": "year"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "hamilton-james",
+   "event_date": "1988-08",
+   "announced_date": null,
+   "evidence_refs": [
+    "e024",
+    "e148"
+   ],
+   "summary": "Hamilton E. James joins the (predecessor) Costco board.",
+   "event_date_precision": "month"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "richard-galanti",
+   "event_date": "1995-01-27",
+   "announced_date": null,
+   "evidence_refs": [
+    "e152",
+    "e154",
+    "e155"
+   ],
+   "summary": "Richard A. Galanti, EVP and CFO, elected a director at the 1995 annual meeting.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "charles-munger",
+   "event_date": "1997-01",
+   "announced_date": null,
+   "evidence_refs": [
+    "e150",
+    "e115"
+   ],
+   "summary": "Charles T. Munger joins the board.",
+   "event_date_precision": "month"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "susan-decker",
+   "event_date": "2004-10-12",
+   "announced_date": null,
+   "evidence_refs": [
+    "e080"
+   ],
+   "summary": "Susan L. Decker elected to a newly created seat.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "hamilton-james",
+   "event_date": "2005",
+   "announced_date": null,
+   "evidence_refs": [
+    "e145",
+    "e024"
+   ],
+   "summary": "Hamilton E. James becomes Lead Independent Director.",
+   "event_date_precision": "year"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "jeffrey-raikes",
+   "event_date": "2008-12-05",
+   "announced_date": "2008-12-09",
+   "evidence_refs": [
+    "e081"
+   ],
+   "summary": "Jeffrey S. Raikes elected to a newly created seat.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "craig-jelinek",
+   "event_date": "2010-02-17",
+   "announced_date": null,
+   "evidence_refs": [
+    "e083",
+    "e082"
+   ],
+   "summary": "W. Craig Jelinek, President and COO, elected to a newly created seat.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "craig-jelinek",
+   "event_date": "2012-01-01",
+   "announced_date": null,
+   "evidence_refs": [
+    "e107"
+   ],
+   "summary": "W. Craig Jelinek becomes CEO.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "maggie-wilderotter",
+   "event_date": "2015-10-13",
+   "announced_date": "2015-10-14",
+   "evidence_refs": [
+    "e084"
+   ],
+   "summary": "Maggie Wilderotter elected to fill a vacancy.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "john-stanton",
+   "event_date": "2015-10-29",
+   "announced_date": null,
+   "evidence_refs": [
+    "e085"
+   ],
+   "summary": "John W. Stanton elected to the board.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "kenneth-denman",
+   "event_date": "2017-03-17",
+   "announced_date": "2017-03-20",
+   "evidence_refs": [
+    "e086"
+   ],
+   "summary": "Kenneth D. Denman elected to the board.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "hamilton-james",
+   "event_date": "2017-08",
+   "announced_date": null,
+   "evidence_refs": [
+    "e140",
+    "e024"
+   ],
+   "summary": "Hamilton E. James elected non-executive Chairman after Jeff Brotman's death; ends his Lead Independent Director role.",
+   "event_date_precision": "month"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "john-meisenbach",
+   "event_date": "2020-01-22",
+   "announced_date": "2019-11-25",
+   "evidence_refs": [
+    "e125",
+    "e120",
+    "e126",
+    "e124"
+   ],
+   "summary": "John W. Meisenbach leaves at the 2020 annual meeting (did not stand).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "sally-jewell",
+   "event_date": "2020-01-22",
+   "announced_date": null,
+   "evidence_refs": [
+    "e126",
+    "e127",
+    "e120"
+   ],
+   "summary": "Sally Jewell elected at the 2020 annual meeting.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "ron-vachris",
+   "event_date": "2022-02-02",
+   "announced_date": null,
+   "evidence_refs": [
+    "e088",
+    "e087"
+   ],
+   "summary": "Ron M. Vachris, new President and COO, elected to a newly created seat.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_SIZE_CHANGE",
+   "person_key": null,
+   "event_date": "2022-02-02",
+   "announced_date": null,
+   "evidence_refs": [
+    "e088",
+    "e112",
+    "e114",
+    "e113"
+   ],
+   "summary": "Board expanded by one seat for Vachris. Sizes are director counts from the 2021 and 2022 proxies; authorized size is not stated.",
+   "event_date_precision": "day",
+   "from_size": 10,
+   "to_size": 11
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "helena-foulkes",
+   "event_date": "2023-08-16",
+   "announced_date": null,
+   "evidence_refs": [
+    "e089",
+    "e063"
+   ],
+   "summary": "Helena B. Foulkes elected to a newly created seat.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_SIZE_CHANGE",
+   "person_key": null,
+   "event_date": "2023-08-16",
+   "announced_date": null,
+   "evidence_refs": [
+    "e105",
+    "e089",
+    "e113"
+   ],
+   "summary": "Board expanded by one seat for Foulkes (eleven directors before, twelve after). Authorized size is not stated.",
+   "event_date_precision": "day",
+   "from_size": 11,
+   "to_size": 12
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "charles-munger",
+   "event_date": "2023-11-28",
+   "announced_date": null,
+   "evidence_refs": [
+    "e104",
+    "e117"
+   ],
+   "summary": "Charles T. Munger dies while serving; his seat is left vacant.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "ron-vachris",
+   "event_date": "2024-01-01",
+   "announced_date": "2023-10-18",
+   "evidence_refs": [
+    "e091",
+    "e039"
+   ],
+   "summary": "Ron M. Vachris succeeds W. Craig Jelinek as CEO; Jelinek stays on the board.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "richard-galanti",
+   "event_date": "2024-03-15",
+   "announced_date": "2024-02-06",
+   "evidence_refs": [
+    "e093"
+   ],
+   "summary": "Richard A. Galanti steps down as CFO; remains EVP and a director.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "richard-galanti",
+   "event_date": "2025-01-23",
+   "announced_date": "2024-12-11",
+   "evidence_refs": [
+    "e100",
+    "e101",
+    "e102",
+    "e094",
+    "e021"
+   ],
+   "summary": "Richard A. Galanti leaves at the 2025 annual meeting (not renominated).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "craig-jelinek",
+   "event_date": "2025-01-23",
+   "announced_date": "2024-12-11",
+   "evidence_refs": [
+    "e100",
+    "e101",
+    "e102",
+    "e021"
+   ],
+   "summary": "W. Craig Jelinek leaves at the 2025 annual meeting (not renominated).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "gina-raimondo",
+   "event_date": "2026-01-15",
+   "announced_date": "2025-12-04",
+   "evidence_refs": [
+    "e050",
+    "e052",
+    "e035",
+    "e068"
+   ],
+   "summary": "Gina M. Raimondo elected at the 2026 annual meeting.",
+   "event_date_precision": "day"
+  }
+ ],
+ "evidence": [
+  {
+   "id": "e001",
+   "form": "10-K",
+   "accession": "0000912057-94-003945",
+   "filing_date": "1994-11-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000091205794003945/0000912057-94-003945.txt",
+   "quote": "Trading in PriceCostco Common Stock commenced on October 22, 1993.",
+   "supports": "The current registrant's common stock (then Price/Costco, Inc., symbol PCCW) began trading 1993-10-22, the day after the merger."
+  },
+  {
+   "id": "e002",
+   "form": "10-K",
+   "accession": "0000912057-94-003945",
+   "filing_date": "1994-11-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000091205794003945/0000912057-94-003945.txt",
+   "quote": "Prior to October 21, 1993, Price Common Stock was quoted on The Nasdaq Stock Market's National Market under the symbol \"PCLB\" and Costco Common Stock was quoted on The Nasdaq Stock Market's National Market under the symbol \"COST.\"",
+   "supports": "Before the merger the predecessor Costco's stock was quoted on Nasdaq as COST."
+  },
+  {
+   "id": "e003",
+   "form": "10-K",
+   "accession": "0000912057-94-003945",
+   "filing_date": "1994-11-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000091205794003945/0000912057-94-003945.txt",
+   "quote": "On October 21, 1993, the shareholders of both The Price Company (\"Price\") and Costco Wholesale Corporation (\"Costco\") approved the mergers of Price and Costco with and into separate, wholly owned subsidiaries of Price/Costco, Inc.",
+   "supports": "Registrant formed by the 1993 Price/Costco merger (approved 1993-10-21)."
+  },
+  {
+   "id": "e004",
+   "form": "DEF 14A",
+   "accession": "0000909832-17-000016",
+   "filing_date": "2017-12-15",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983217000016/costproxy2017.htm",
+   "quote": "Since the Company went public in 1985, its Articles have required that directors be elected for three-year terms",
+   "supports": "Costco (including its predecessor) went public in 1985: basis for listed_since_year."
+  },
+  {
+   "id": "e005",
+   "form": "8-K",
+   "accession": "0000907303-99-000022",
+   "filing_date": "1999-08-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090730399000022/0000907303-99-000022.txt",
+   "quote": "On August 30, 1999, Costco Companies, Inc., a Delaware corporation (\"CCI\") completed a corporate reorganization by merging itself with and into Costco Wholesale Corporation, a Washington corporation and wholly owned subsidiary of CCI",
+   "supports": "Reincorporation in Washington, 1999-08-30."
+  },
+  {
+   "id": "e006",
+   "form": "10-K",
+   "accession": "0000909832-25-000101",
+   "filing_date": "2025-10-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+   "quote": "Our common stock is traded on the NASDAQ Global Select Market under the symbol \"COST.\"",
+   "supports": "Exchange and ticker (FY2025 10-K)."
+  },
+  {
+   "id": "e007",
+   "form": "DEF 14A",
+   "accession": "0000909832-19-000027",
+   "filing_date": "2019-12-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983219000027/costproxy2019.htm",
+   "quote": "which as used below means Costco Wholesale Corporation and includes its predecessor company, Costco Wholesale Corporation, as it existed prior to the 1993 merger with The Price Company.",
+   "supports": "Proxy 'director since' dates include service on the pre-1993 predecessor's board."
+  },
+  {
+   "id": "e008",
+   "form": "8-K",
+   "accession": "0001193125-19-022426",
+   "filing_date": "2019-01-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000119312519022426/d699746d8k.htm",
+   "quote": "The approval of an amendment to the Articles of Incorporation to declassify the Board and provide for annual election of directors;",
+   "supports": "Declassification amendment approved at the 2019-01-24 annual meeting."
+  },
+  {
+   "id": "e009",
+   "form": "DEF 14A",
+   "accession": "0000909832-19-000027",
+   "filing_date": "2019-12-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983219000027/costproxy2019.htm",
+   "quote": "The division of directors into classes will terminate at the annual meeting of shareholders in 2022, from and after which all directors will stand for election annually.",
+   "supports": "Board classes phased out; all directors elected annually from the 2022 meeting."
+  },
+  {
+   "id": "e010",
+   "form": "10-K",
+   "accession": "0000909832-19-000019",
+   "filing_date": "2019-10-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983219000019/cost10k9119.htm",
+   "quote": "Costco Wholesale Corporation and its subsidiaries (Costco or the Company) began operations in 1983, in Seattle, Washington.",
+   "supports": "Predecessor Costco began operations in 1983 (bounds Meisenbach's 'since its inception')."
+  },
+  {
+   "id": "e020",
+   "form": "DEF 14A",
+   "accession": "0000909832-25-000159",
+   "filing_date": "2025-12-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000159/cost-20251204.htm",
+   "quote": "Each of Susan L. Decker, Kenneth D. Denman, Helena B. Foulkes, Hamilton E. James, Sally Jewell, Jeffrey S. Raikes, Gina M. Raimondo, John W. Stanton, Ron M. Vachris, and Mary Agnes (Maggie) Wilderotter is nominated to serve for a one-year term until the annual meeting of shareholders in 2027",
+   "supports": "2026 slate: ten nominees, all current directors except Raimondo."
+  },
+  {
+   "id": "e021",
+   "form": "DEF 14A",
+   "accession": "0000909832-25-000159",
+   "filing_date": "2025-12-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000159/cost-20251204.htm",
+   "quote": "Directors are elected annually for terms expiring at the next annual meeting of shareholders. The Board has not nominated individuals to fill two vacancies on the Board created by the recent retirements of two of our directors (Richard Galanti and Craig Jelinek) at last year's Shareholders meeting.",
+   "supports": "Annual elections (no classes); Galanti and Jelinek left at the 2025 annual meeting; their seats left vacant."
+  },
+  {
+   "id": "e022",
+   "form": "DEF 14A",
+   "accession": "0000909832-25-000159",
+   "filing_date": "2025-12-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000159/cost-20251204.htm",
+   "quote": "Directors currently serving on the Board who are deemed independent are Mmes. Decker, Foulkes, Jewell and Wilderotter and Messrs. Denman, James, Raikes and Stanton, who constitute a majority of the Board.",
+   "supports": "Independence determinations (2025 proxy); Vachris is the only current director not listed."
+  },
+  {
+   "id": "e023",
+   "form": "DEF 14A",
+   "accession": "0000909832-25-000159",
+   "filing_date": "2025-12-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000159/cost-20251204.htm",
+   "quote": "In addition, the Board has determined that Ms. Raimondo, a nominee not currently on the Board, meets Nasdaq listing standards regarding \"independence,\" including applicable committee independence requirements. The Board will consider committee appointment for Ms. Raimondo if she is elected to the Board.",
+   "supports": "Raimondo determined independent as a nominee; no committee assignment yet."
+  },
+  {
+   "id": "e024",
+   "form": "DEF 14A",
+   "accession": "0000909832-25-000159",
+   "filing_date": "2025-12-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000159/cost-20251204.htm",
+   "quote": "Hamilton E. James has been a director of the Company since August 1988. He was the Lead Independent Director from 2005 until becoming the non-executive Chairman of the Board in August 2017.",
+   "supports": "James: director since August 1988 (includes predecessor); Lead Independent Director 2005 to August 2017; non-executive Chairman since August 2017."
+  },
+  {
+   "id": "e025",
+   "form": "DEF 14A",
+   "accession": "0000909832-25-000159",
+   "filing_date": "2025-12-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000159/cost-20251204.htm",
+   "quote": "He was also a member of the board of directors of its general partner, Blackstone Group Management L.L.C., until January 31, 2022.",
+   "supports": "James: former director of Blackstone's general partner, until 2022-01-31."
+  },
+  {
+   "id": "e026",
+   "form": "DEF 14A",
+   "accession": "0000909832-25-000159",
+   "filing_date": "2025-12-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000159/cost-20251204.htm",
+   "quote": "Susan L. Decker has been a director of the Company since October 2004.",
+   "supports": "Decker director since October 2004."
+  },
+  {
+   "id": "e027",
+   "form": "DEF 14A",
+   "accession": "0000909832-25-000159",
+   "filing_date": "2025-12-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000159/cost-20251204.htm",
+   "quote": "She is a director of Berkshire Hathaway Inc., Vail Resorts, Inc., and Chime Financial, Inc., and of private corporations Vox Media, Inc., and Automattic, Inc. She was previously a director of Intel Corporation, Pixar and Momentive Global Inc.",
+   "supports": "Decker other boards."
+  },
+  {
+   "id": "e028",
+   "form": "DEF 14A",
+   "accession": "0000909832-25-000159",
+   "filing_date": "2025-12-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000159/cost-20251204.htm",
+   "quote": "Kenneth D. Denman has been a director of the Company since March 2017.",
+   "supports": "Denman director since March 2017."
+  },
+  {
+   "id": "e029",
+   "form": "DEF 14A",
+   "accession": "0000909832-25-000159",
+   "filing_date": "2025-12-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000159/cost-20251204.htm",
+   "quote": "He is a member of the board of directors of Motorola Solutions, Inc., where he is the lead independent director and chair of the Nominating and Governance Committee.",
+   "supports": "Denman current board: Motorola Solutions."
+  },
+  {
+   "id": "e030",
+   "form": "DEF 14A",
+   "accession": "0000909832-25-000159",
+   "filing_date": "2025-12-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000159/cost-20251204.htm",
+   "quote": "VMware Inc., Mitek Systems Inc., LendingClub Inc., ShoreTel, Inc., and United Online, Inc.",
+   "supports": "Denman former boards (continuation of 'Previously he was a director at' across a page break)."
+  },
+  {
+   "id": "e031",
+   "form": "DEF 14A",
+   "accession": "0000909832-25-000159",
+   "filing_date": "2025-12-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000159/cost-20251204.htm",
+   "quote": "Helena B. Foulkes has been a director of the Company since August 2023. She was CEO and a member of the board of directors of Hudson's Bay Company from February 2018 to March 2020.",
+   "supports": "Foulkes director since August 2023; former Hudson's Bay Company director."
+  },
+  {
+   "id": "e032",
+   "form": "DEF 14A",
+   "accession": "0000909832-25-000159",
+   "filing_date": "2025-12-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000159/cost-20251204.htm",
+   "quote": "Ms. Foulkes is also a member of the boards of directors of Skillsoft Corp. and private companies Follett Higher Education Group, where she serves as Executive Chair, PM Pediatrics Care, and Harry's Inc. She was previously a director of The Home Depot, Inc.",
+   "supports": "Foulkes other boards."
+  },
+  {
+   "id": "e033",
+   "form": "DEF 14A",
+   "accession": "0000909832-25-000159",
+   "filing_date": "2025-12-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000159/cost-20251204.htm",
+   "quote": "Sally Jewell has been a director since January 2020.",
+   "supports": "Jewell director since January 2020."
+  },
+  {
+   "id": "e034",
+   "form": "DEF 14A",
+   "accession": "0000909832-25-000159",
+   "filing_date": "2025-12-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000159/cost-20251204.htm",
+   "quote": "Jeffrey S. Raikes has been a director of the Company since December 2008.",
+   "supports": "Raikes director since December 2008."
+  },
+  {
+   "id": "e035",
+   "form": "DEF 14A",
+   "accession": "0000909832-25-000159",
+   "filing_date": "2025-12-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000159/cost-20251204.htm",
+   "quote": "Gina M. Raimondo has been nominated to stand for election at the 2026 annual meeting.",
+   "supports": "Raimondo first stood at the 2026 annual meeting."
+  },
+  {
+   "id": "e036",
+   "form": "DEF 14A",
+   "accession": "0000909832-25-000159",
+   "filing_date": "2025-12-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000159/cost-20251204.htm",
+   "quote": "John W. Stanton has been a director of the Company since October 2015.",
+   "supports": "Stanton director since October 2015."
+  },
+  {
+   "id": "e037",
+   "form": "DEF 14A",
+   "accession": "0000909832-25-000159",
+   "filing_date": "2025-12-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000159/cost-20251204.htm",
+   "quote": "currently a director of Microsoft Corporation and was previously a director of Trilogy International Partners and Columbia Sportswear Company.",
+   "supports": "Stanton other boards (sentence continues across a page break)."
+  },
+  {
+   "id": "e038",
+   "form": "DEF 14A",
+   "accession": "0000909832-25-000159",
+   "filing_date": "2025-12-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000159/cost-20251204.htm",
+   "quote": "He was Chairman and a director of T-Mobile USA, formerly VoiceStream Wireless Corporation, a mobile telecommunications company, from 1994 to 2004, and was Chief Executive Officer from 1998 to 2003. Mr. Stanton was a director of Clearwire Corp. from 2008 to 2013, Chairman between 2011 and 2013, and interim Chief Executive Officer during 2011.",
+   "supports": "Stanton former boards: T-Mobile USA/VoiceStream (1994-2004), Clearwire (2008-2013)."
+  },
+  {
+   "id": "e039",
+   "form": "DEF 14A",
+   "accession": "0000909832-25-000159",
+   "filing_date": "2025-12-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000159/cost-20251204.htm",
+   "quote": "Ron M. Vachris has been a director of the Company since February 2022, and Chief Executive Officer and President since January 2024. Mr. Vachris previously served as President and Chief Operating Officer from February 2022 to January 2024.",
+   "supports": "Vachris director since February 2022; President and COO Feb 2022-Jan 2024; CEO and President since January 2024."
+  },
+  {
+   "id": "e040",
+   "form": "DEF 14A",
+   "accession": "0000909832-25-000159",
+   "filing_date": "2025-12-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000159/cost-20251204.htm",
+   "quote": "Mary Agnes (Maggie) Wilderotter has been a director of the Company since October 2015.",
+   "supports": "Wilderotter director since October 2015."
+  },
+  {
+   "id": "e041",
+   "form": "DEF 14A",
+   "accession": "0000909832-25-000159",
+   "filing_date": "2025-12-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000159/cost-20251204.htm",
+   "quote": "Mrs. Wilderotter was the Executive Chairman of Frontier Communications, a public telecommunications company, from April 2015 until April 2016 and served as Frontier's Chief Executive Officer from 2004 to 2015 and Chair of the Board from December 2005.",
+   "supports": "Wilderotter former board: Frontier Communications (stated public)."
+  },
+  {
+   "id": "e042",
+   "form": "DEF 14A",
+   "accession": "0000909832-25-000159",
+   "filing_date": "2025-12-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000159/cost-20251204.htm",
+   "quote": "Mrs. Wilderotter was previously a director of Sana Biotechnology, Inc., Fortinet, Inc., Xerox Corporation, DreamWorks Animation SKG, Cadence Design Systems, Hewlett Packard Enterprise, The Procter & Gamble Company and Lyft, Inc. She is currently Chairman of the Board at DocuSign, Inc.",
+   "supports": "Wilderotter other boards."
+  },
+  {
+   "id": "e043",
+   "form": "DEF 14A",
+   "accession": "0000909832-25-000159",
+   "filing_date": "2025-12-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000159/cost-20251204.htm",
+   "quote": "The members of the committee are Mr. Denman (chair) and Mmes. Decker, Foulkes, and Jewell.",
+   "supports": "Audit Committee (2025 proxy)."
+  },
+  {
+   "id": "e044",
+   "form": "DEF 14A",
+   "accession": "0000909832-25-000159",
+   "filing_date": "2025-12-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000159/cost-20251204.htm",
+   "quote": "The members of the committee, which met five times during fiscal 2025, are Mr. Stanton (chair) and Mmes. Jewell and Wilderotter.",
+   "supports": "Compensation Committee (2025 proxy)."
+  },
+  {
+   "id": "e045",
+   "form": "DEF 14A",
+   "accession": "0000909832-25-000159",
+   "filing_date": "2025-12-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000159/cost-20251204.htm",
+   "quote": "The members of the committee, which met six times in fiscal 2025, are Mr. Raikes (chair) and Mmes. Foulkes and Wilderotter.",
+   "supports": "Nominating and Governance Committee (2025 proxy)."
+  },
+  {
+   "id": "e046",
+   "form": "DEF 14A",
+   "accession": "0000909832-25-000159",
+   "filing_date": "2025-12-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000159/cost-20251204.htm",
+   "quote": "Hamilton E. James Chairman of the Board of Directors 74",
+   "supports": "James is Chairman of the Board (2025 proxy table).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e047",
+   "form": "DEF 14A",
+   "accession": "0000909832-25-000159",
+   "filing_date": "2025-12-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000159/cost-20251204.htm",
+   "quote": "Currently the positions of Chairman and Chief Executive Officer are filled separately.",
+   "supports": "Chair and CEO roles separate."
+  },
+  {
+   "id": "e048",
+   "form": "DEF 14A",
+   "accession": "0000909832-25-000159",
+   "filing_date": "2025-12-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000159/cost-20251204.htm",
+   "quote": "Ron M. Vachris Chief Executive Officer, President and Director 60",
+   "supports": "Vachris is CEO, President and Director (2025 proxy table).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e050",
+   "form": "8-K",
+   "accession": "0000909832-26-000016",
+   "filing_date": "2026-01-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000016/cost-20260115.htm",
+   "quote": "On January 15, 2026, Costco Wholesale Corporation (the \"Company\") held its Annual Meeting of Shareholders.",
+   "supports": "2026 annual meeting held 2026-01-15."
+  },
+  {
+   "id": "e051",
+   "form": "8-K",
+   "accession": "0000909832-26-000016",
+   "filing_date": "2026-01-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000016/cost-20260115.htm",
+   "quote": "The election of each of the directors nominated by the Board of Directors to hold office until the 2027 Annual Meeting of Shareholders and until their successors are elected and qualified;",
+   "supports": "All 2026 nominees elected (results table lists all ten, incl. Raimondo)."
+  },
+  {
+   "id": "e052",
+   "form": "8-K",
+   "accession": "0000909832-26-000016",
+   "filing_date": "2026-01-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000016/cost-20260115.htm",
+   "quote": "Gina M. Raimondo 285,239,485 1,198,976 553,416 65,311,704",
+   "supports": "Raimondo elected 2026-01-15 (votes for/against/abstain/broker non-votes).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e053",
+   "form": "S-3ASR",
+   "accession": "0001193125-26-255730",
+   "filing_date": "2026-06-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000119312526255730/d116741ds3asr.htm",
+   "quote": "/S/ RON M. VACHRIS Ron M. Vachris Chief Executive Officer, President and Director (Principal Executive Officer) June 3, 2026 /S/ HAMILTON E. JAMES Hamilton E. James Chairman of the Board of Directors June 3, 2026",
+   "supports": "S-3ASR signatures: Vachris (CEO, President, Director) and James (Chairman) serving 2026-06-03."
+  },
+  {
+   "id": "e054",
+   "form": "S-3ASR",
+   "accession": "0001193125-26-255730",
+   "filing_date": "2026-06-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000119312526255730/d116741ds3asr.htm",
+   "quote": "/S/ SUSAN L. DECKER Susan L. Decker Director June 3, 2026 /S/ KENNETH D. DENMAN Kenneth D. Denman Director June 3, 2026 /S/ HELENA B. FOULKES Helena B. Foulkes Director June 3, 2026",
+   "supports": "S-3ASR signatures: Decker, Denman, Foulkes serving as directors 2026-06-03."
+  },
+  {
+   "id": "e055",
+   "form": "S-3ASR",
+   "accession": "0001193125-26-255730",
+   "filing_date": "2026-06-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000119312526255730/d116741ds3asr.htm",
+   "quote": "/S/ SALLY JEWELL Sally Jewell Director June 3, 2026 Jeffrey S. Raikes Director /S/ GINA M. RAIMONDO Gina M. Raimondo Director June 3, 2026",
+   "supports": "S-3ASR signature page lists Jewell, Raikes (signature line not executed) and Raimondo as directors, 2026-06-03."
+  },
+  {
+   "id": "e056",
+   "form": "S-3ASR",
+   "accession": "0001193125-26-255730",
+   "filing_date": "2026-06-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000119312526255730/d116741ds3asr.htm",
+   "quote": "/S/ JOHN W. STANTON John W. Stanton Director June 3, 2026 /S/ MARY (MAGGIE) A. WILDEROTTER Mary (Maggie) A. Wilderotter Director June 3, 2026",
+   "supports": "S-3ASR signatures: Stanton, Wilderotter serving as directors 2026-06-03."
+  },
+  {
+   "id": "e060",
+   "form": "4",
+   "accession": "0000909832-25-000116",
+   "filing_date": "2025-10-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000116/form4.xml",
+   "quote": "JAMES HAMILTON E",
+   "supports": "Hamilton E. James reporting-owner CIK; director. Annual director RSU grant 2025-10-22.",
+   "xml_fields": {
+    "rptOwnerCik": "0001238989",
+    "rptOwnerName": "JAMES HAMILTON E",
+    "periodOfReport": "2025-10-22"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e061",
+   "form": "4",
+   "accession": "0000909832-26-000012",
+   "filing_date": "2026-01-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000012/form4.xml",
+   "quote": "DECKER SUSAN L",
+   "supports": "Susan L. Decker reporting-owner CIK; director, filing in 2026.",
+   "xml_fields": {
+    "rptOwnerCik": "0001234655",
+    "rptOwnerName": "DECKER SUSAN L",
+    "periodOfReport": "2026-01-16"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e062",
+   "form": "4",
+   "accession": "0000909832-26-000053",
+   "filing_date": "2026-06-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000053/form4.xml",
+   "quote": "DENMAN KENNETH D",
+   "supports": "Kenneth D. Denman reporting-owner CIK; director, filing in 2026.",
+   "xml_fields": {
+    "rptOwnerCik": "0001254779",
+    "rptOwnerName": "DENMAN KENNETH D",
+    "periodOfReport": "2026-06-23"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e063",
+   "form": "3",
+   "accession": "0001209191-23-047345",
+   "filing_date": "2023-08-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000120919123047345/doc3.xml",
+   "quote": "Foulkes Helena",
+   "supports": "Helena B. Foulkes Form 3; event date 2023-08-16 matches her election date.",
+   "xml_fields": {
+    "rptOwnerCik": "0001429996",
+    "rptOwnerName": "Foulkes Helena",
+    "periodOfReport": "2023-08-16"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e064",
+   "form": "4",
+   "accession": "0000909832-25-000114",
+   "filing_date": "2025-10-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000114/form4.xml",
+   "quote": "Foulkes Helena",
+   "supports": "Helena B. Foulkes Form 4 as director, period 2025-10-22.",
+   "xml_fields": {
+    "rptOwnerCik": "0001429996",
+    "rptOwnerName": "Foulkes Helena",
+    "periodOfReport": "2025-10-22"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e065",
+   "form": "3",
+   "accession": "0001209191-20-005772",
+   "filing_date": "2020-01-31",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000120919120005772/doc3.xml",
+   "quote": "JEWELL SARAH MR SALLY",
+   "supports": "Sally Jewell Form 3; event date given as 2020-01-23 (the 2020 annual meeting was 2020-01-22; see conflicts).",
+   "xml_fields": {
+    "rptOwnerCik": "0001174963",
+    "rptOwnerName": "JEWELL SARAH MR SALLY",
+    "periodOfReport": "2020-01-23"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e066",
+   "form": "4",
+   "accession": "0000909832-25-000118",
+   "filing_date": "2025-10-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000118/form4.xml",
+   "quote": "JEWELL SARAH MR SALLY",
+   "supports": "Sally Jewell Form 4 as director, period 2025-10-22.",
+   "xml_fields": {
+    "rptOwnerCik": "0001174963",
+    "rptOwnerName": "JEWELL SARAH MR SALLY",
+    "periodOfReport": "2025-10-22"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e067",
+   "form": "4",
+   "accession": "0000909832-26-000062",
+   "filing_date": "2026-07-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000062/form4.xml",
+   "quote": "RAIKES JEFFREY S",
+   "supports": "Jeffrey S. Raikes reporting-owner CIK; director, filing in July 2026.",
+   "xml_fields": {
+    "rptOwnerCik": "0001193112",
+    "rptOwnerName": "RAIKES JEFFREY S",
+    "periodOfReport": "2026-07-10"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e068",
+   "form": "3",
+   "accession": "0000909832-26-000008",
+   "filing_date": "2026-01-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000008/form3.xml",
+   "quote": "Raimondo Gina Marie",
+   "supports": "Gina M. Raimondo Form 3; event date 2026-01-15 (her election at the annual meeting).",
+   "xml_fields": {
+    "rptOwnerCik": "0002104063",
+    "rptOwnerName": "Raimondo Gina Marie",
+    "periodOfReport": "2026-01-15"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e069",
+   "form": "4",
+   "accession": "0000909832-25-000124",
+   "filing_date": "2025-10-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000124/form4.xml",
+   "quote": "STANTON JOHN W",
+   "supports": "John W. Stanton reporting-owner CIK; director, period 2025-10-22.",
+   "xml_fields": {
+    "rptOwnerCik": "0000904858",
+    "rptOwnerName": "STANTON JOHN W",
+    "periodOfReport": "2025-10-22"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e070",
+   "form": "4",
+   "accession": "0000909832-25-000142",
+   "filing_date": "2025-10-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000142/form4.xml",
+   "quote": "Vachris Roland Michael",
+   "supports": "Ron M. Vachris reporting-owner CIK (filed as Roland Michael Vachris); director and officer (President and CEO).",
+   "xml_fields": {
+    "rptOwnerCik": "0001679566",
+    "rptOwnerName": "Vachris Roland Michael",
+    "periodOfReport": "2025-10-22"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": "President and CEO"
+   }
+  },
+  {
+   "id": "e071",
+   "form": "4",
+   "accession": "0000909832-25-000122",
+   "filing_date": "2025-10-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000122/form4.xml",
+   "quote": "Wilderotter Mary Agnes",
+   "supports": "Maggie Wilderotter reporting-owner CIK; director, period 2025-10-22.",
+   "xml_fields": {
+    "rptOwnerCik": "0001180610",
+    "rptOwnerName": "Wilderotter Mary Agnes",
+    "periodOfReport": "2025-10-22"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e072",
+   "form": "4",
+   "accession": "0001127602-24-025955",
+   "filing_date": "2024-10-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000112760224025955/form4.xml",
+   "quote": "GALANTI RICHARD A",
+   "supports": "Richard A. Galanti reporting-owner CIK; director and officer (Executive Vice President), October 2024.",
+   "xml_fields": {
+    "rptOwnerCik": "0001184493",
+    "rptOwnerName": "GALANTI RICHARD A",
+    "periodOfReport": "2024-10-24"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": "Executive Vice President"
+   }
+  },
+  {
+   "id": "e073",
+   "form": "4",
+   "accession": "0001127602-24-025922",
+   "filing_date": "2024-10-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000112760224025922/form4.xml",
+   "quote": "JELINEK W CRAIG",
+   "supports": "W. Craig Jelinek reporting-owner CIK; director, October 2024.",
+   "xml_fields": {
+    "rptOwnerCik": "0001184494",
+    "rptOwnerName": "JELINEK W CRAIG",
+    "periodOfReport": "2024-10-22"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e074",
+   "form": "4",
+   "accession": "0001209191-23-053441",
+   "filing_date": "2023-10-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000120919123053441/doc4.xml",
+   "quote": "MUNGER CHARLES T",
+   "supports": "Charles T. Munger reporting-owner CIK; director, his last annual grant (2023-10-22).",
+   "xml_fields": {
+    "rptOwnerCik": "0001078511",
+    "rptOwnerName": "MUNGER CHARLES T",
+    "periodOfReport": "2023-10-22"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e075",
+   "form": "4",
+   "accession": "0001209191-19-053887",
+   "filing_date": "2019-10-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000120919119053887/doc4.xml",
+   "quote": "MEISENBACH JOHN W",
+   "supports": "John W. Meisenbach reporting-owner CIK; director, October 2019.",
+   "xml_fields": {
+    "rptOwnerCik": "0001187136",
+    "rptOwnerName": "MEISENBACH JOHN W",
+    "periodOfReport": "2019-10-22"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e080",
+   "form": "8-K",
+   "accession": "0001193125-04-171319",
+   "filing_date": "2004-10-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000119312504171319/d8k.htm",
+   "quote": "On October 12, 2004, the Board of Directors of the Company elected Susan Decker to the Board to fill a newly-created vacancy.",
+   "supports": "Decker elected 2004-10-12."
+  },
+  {
+   "id": "e081",
+   "form": "8-K",
+   "accession": "0001193125-08-249996",
+   "filing_date": "2008-12-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000119312508249996/d8k.htm",
+   "quote": "On December 5, 2008, the Board of Directors of Costco Wholesale Corporation elected Mr. Jeffrey Raikes as a director to fill a newly-created vacancy on the board.",
+   "supports": "Raikes elected 2008-12-05."
+  },
+  {
+   "id": "e082",
+   "form": "8-K",
+   "accession": "0001193125-10-018732",
+   "filing_date": "2010-02-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000119312510018732/d8k.htm",
+   "quote": "On January 28, 2010, the Company's Board of Directors appointed Craig Jelinek as President and Chief Operating Officer of the Company.",
+   "supports": "Jelinek appointed President and COO 2010-01-28 (before joining the board)."
+  },
+  {
+   "id": "e083",
+   "form": "8-K",
+   "accession": "0001193125-10-033940",
+   "filing_date": "2010-02-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000119312510033940/d8k.htm",
+   "quote": "Effective February 17, 2010, the Board of Directors of Costco Wholesale Corporation elected W. Craig Jelinek as a director to fill a newly-created vacancy on the Board.",
+   "supports": "Jelinek elected director effective 2010-02-17."
+  },
+  {
+   "id": "e084",
+   "form": "8-K",
+   "accession": "0001193125-15-344450",
+   "filing_date": "2015-10-15",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000119312515344450/d13705d8k.htm",
+   "quote": "On October 13, 2015, the Board of Directors of Costco Wholesale Corporation elected Mrs. Maggie Wilderotter as a director to fill a vacancy created by a resignation earlier this year.",
+   "supports": "Wilderotter elected 2015-10-13."
+  },
+  {
+   "id": "e085",
+   "form": "8-K",
+   "accession": "0001193125-15-359478",
+   "filing_date": "2015-10-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000119312515359478/d43386d8k.htm",
+   "quote": "On October 29, 2015, the Board of Directors elected Mr. John Stanton as a director.",
+   "supports": "Stanton elected 2015-10-29."
+  },
+  {
+   "id": "e086",
+   "form": "8-K",
+   "accession": "0001193125-17-089659",
+   "filing_date": "2017-03-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000119312517089659/d334685d8k.htm",
+   "quote": "On March 17, 2017, the Board of Directors elected Mr. Kenneth D. Denman as a director.",
+   "supports": "Denman elected 2017-03-17."
+  },
+  {
+   "id": "e087",
+   "form": "8-K",
+   "accession": "0001193125-22-027035",
+   "filing_date": "2022-02-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000119312522027035/d497640d8k.htm",
+   "quote": "Effective February 2, 2022, the Board of Directors appointed Ron Vachris as President and Chief Operating Officer of the Company.",
+   "supports": "Vachris appointed President and COO effective 2022-02-02."
+  },
+  {
+   "id": "e088",
+   "form": "8-K",
+   "accession": "0001193125-22-027035",
+   "filing_date": "2022-02-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000119312522027035/d497640d8k.htm",
+   "quote": "Concurrently with his appointment as President and Chief Operating Officer of the Company, the Board of Directors elected Mr. Vachris as a director to fill a newly-created vacancy on the Board.",
+   "supports": "Vachris elected director 2022-02-02 to a newly created seat."
+  },
+  {
+   "id": "e089",
+   "form": "8-K",
+   "accession": "0000909832-23-000036",
+   "filing_date": "2023-08-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983223000036/cost-20230816.htm",
+   "quote": "On August 16, 2023, the Board of Directors elected Helena Buonanno Foulkes as a director. She was not appointed to serve as a member of any committees of the Board.",
+   "supports": "Foulkes elected 2023-08-16; no committee at election."
+  },
+  {
+   "id": "e090",
+   "form": "8-K/A",
+   "accession": "0000909832-24-000005",
+   "filing_date": "2024-01-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000005/cost-20230816.htm",
+   "quote": "On January 18, 2024, the Board appointed Ms. Foulkes to the Audit Committee and the Nominating and Governance Committee.",
+   "supports": "Foulkes joined Audit and Nominating and Governance Committees 2024-01-18."
+  },
+  {
+   "id": "e091",
+   "form": "8-K",
+   "accession": "0000909832-23-000047",
+   "filing_date": "2023-10-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983223000047/cost-20231018.htm",
+   "quote": "On October 18, 2023, the Company announced Craig Jelinek's intention to step down as Chief Executive Officer, effective January 1, 2024. The Board of Directors has elected Ron Vachris, currently President and Chief Operating Officer, as President and Chief Executive Officer effective January 1, 2024.",
+   "supports": "CEO succession: Jelinek steps down and Vachris becomes CEO effective 2024-01-01 (announced 2023-10-18)."
+  },
+  {
+   "id": "e092",
+   "form": "8-K",
+   "accession": "0000909832-23-000047",
+   "filing_date": "2023-10-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983223000047/cost-20231018.htm",
+   "quote": "Mr. Jelinek will remain a member of the Board of Directors and will stand for re-election at the annual meeting in January 2024.",
+   "supports": "Jelinek stays on the board after stepping down as CEO."
+  },
+  {
+   "id": "e093",
+   "form": "8-K",
+   "accession": "0000909832-24-000008",
+   "filing_date": "2024-02-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000008/cost-20240205.htm",
+   "quote": "On February 6, 2024, Costco announced that Richard Galanti will retire as Costco's Chief Financial Officer, effective March 15, 2024, following nearly forty years of distinguished service to the Company. Mr. Galanti will remain an Executive Vice President and a member of the Board of Directors.",
+   "supports": "Galanti steps down as CFO effective 2024-03-15; remains EVP and director."
+  },
+  {
+   "id": "e094",
+   "form": "8-K",
+   "accession": "0000909832-25-000008",
+   "filing_date": "2025-02-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000008/cost-20250130.htm",
+   "quote": "Mr. Galanti also served as a member of the Company's Board of Directors until the 2025 Annual Meeting.",
+   "supports": "Galanti's board service ended at the 2025 annual meeting."
+  },
+  {
+   "id": "e095",
+   "form": "8-K",
+   "accession": "0000909832-25-000008",
+   "filing_date": "2025-02-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000008/cost-20250130.htm",
+   "quote": "On January 30, 2025, Richard Galanti retired as Executive Vice President of the Company.",
+   "supports": "Galanti retired as EVP 2025-01-30 (after leaving the board)."
+  },
+  {
+   "id": "e100",
+   "form": "DEF 14A",
+   "accession": "0000909832-24-000072",
+   "filing_date": "2024-12-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000072/cost-20241209.htm",
+   "quote": "W. Craig Jelinek and Richard A. Galanti were not nominated by the Board for re-election. The Board has not nominated individuals to fill these vacancies.",
+   "supports": "Jelinek and Galanti not on the 2025 slate."
+  },
+  {
+   "id": "e101",
+   "form": "8-K",
+   "accession": "0000909832-25-000005",
+   "filing_date": "2025-01-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000005/cost-20250123.htm",
+   "quote": "On January 23, 2025, Costco Wholesale Corporation (the \"Company\") held its Annual Meeting of Shareholders.",
+   "supports": "2025 annual meeting held 2025-01-23; results table lists nine nominees (no Galanti or Jelinek)."
+  },
+  {
+   "id": "e102",
+   "form": "8-K",
+   "accession": "0000909832-25-000005",
+   "filing_date": "2025-01-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000005/cost-20250123.htm",
+   "quote": "Ron M. Vachris 287,669,495 1,937,922 609,985 62,200,922 Maggie Wilderotter",
+   "supports": "2025 results table (last rows); Galanti and Jelinek absent.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e103",
+   "form": "DEF 14A",
+   "accession": "0000909832-24-000072",
+   "filing_date": "2024-12-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000072/cost-20241209.htm",
+   "quote": "Directors currently serving on the Board who are deemed independent are Mmes. Decker, Foulkes, Jewell and Wilderotter and Messrs. Denman, James, Raikes and Stanton, who constitute a majority of the Board (Mr. Munger was also deemed independent while he served on the Board).",
+   "supports": "Munger independent throughout his service; Galanti, Jelinek and Vachris not independent (2024 proxy)."
+  },
+  {
+   "id": "e104",
+   "form": "DEF 14A",
+   "accession": "0000909832-23-000058",
+   "filing_date": "2023-12-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983223000058/cost-20231206.htm",
+   "quote": "Charles T. Munger, who served on the Board of Directors since 1997, passed away on November 28, 2023, resulting in a vacancy on the Board. The Board has not nominated an individual to fill the remaining vacancy.",
+   "supports": "Munger died 2023-11-28; seat left vacant."
+  },
+  {
+   "id": "e105",
+   "form": "DEF 14A",
+   "accession": "0000909832-23-000058",
+   "filing_date": "2023-12-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983223000058/cost-20231206.htm",
+   "quote": "During fiscal 2023, the Board was expanded by one seat, and Helena B. Foulkes was elected to the Board.",
+   "supports": "Board expanded by one seat for Foulkes (fiscal 2023)."
+  },
+  {
+   "id": "e106",
+   "form": "DEF 14A",
+   "accession": "0000909832-23-000058",
+   "filing_date": "2023-12-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983223000058/cost-20231206.htm",
+   "quote": "Richard A. Galanti has been a director of the Company since January 1995 and Executive Vice President and Chief Financial Officer of the Company since October 1993.",
+   "supports": "Galanti director since January 1995 (his last proxy bio)."
+  },
+  {
+   "id": "e107",
+   "form": "DEF 14A",
+   "accession": "0000909832-23-000058",
+   "filing_date": "2023-12-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983223000058/cost-20231206.htm",
+   "quote": "W. Craig Jelinek has been a director of the Company since February 2010, and Chief Executive Officer since January 1, 2012.",
+   "supports": "Jelinek director since February 2010; CEO since 2012-01-01."
+  },
+  {
+   "id": "e108",
+   "form": "DEF 14A",
+   "accession": "0000909832-23-000058",
+   "filing_date": "2023-12-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983223000058/cost-20231206.htm",
+   "quote": "Mr. Jelinek previously was President and CEO from January 2012 to February 2022, President and Chief Operating Officer from February 2010 until January 2012",
+   "supports": "Jelinek President and COO Feb 2010-Jan 2012."
+  },
+  {
+   "id": "e109",
+   "form": "DEF 14A",
+   "accession": "0000909832-23-000058",
+   "filing_date": "2023-12-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983223000058/cost-20231206.htm",
+   "quote": "The members of the committee are Mr. Denman (chair), Mmes. Decker and Jewell, and Mr. Munger before his passing.",
+   "supports": "Munger on the Audit Committee until his death (fiscal 2024 proxy)."
+  },
+  {
+   "id": "e110",
+   "form": "DEF 14A",
+   "accession": "0000909832-23-000058",
+   "filing_date": "2023-12-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983223000058/cost-20231206.htm",
+   "quote": "Directors deemed independent are Mmes. Decker, Foulkes, Jewell and Wilderotter and Messrs. Denman, James, Munger, Raikes and Stanton, who constitute a majority of the Board.",
+   "supports": "Independence determinations (2023 proxy), incl. Foulkes."
+  },
+  {
+   "id": "e111",
+   "form": "DEF 14A",
+   "accession": "0000909832-24-000072",
+   "filing_date": "2024-12-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000072/cost-20241209.htm",
+   "quote": "Mr. Jelinek served as Chief Executive Officer through December 31, 2023, at a salary of $1,150,000.",
+   "supports": "Jelinek CEO through 2023-12-31."
+  },
+  {
+   "id": "e112",
+   "form": "DEF 14A",
+   "accession": "0000909832-22-000023",
+   "filing_date": "2022-12-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983222000023/costproxy2022.htm",
+   "quote": "The Board was expanded by one seat and Mr. Vachris was elected to the Board.",
+   "supports": "Board expanded by one seat for Vachris (fiscal 2022)."
+  },
+  {
+   "id": "e113",
+   "form": "DEF 14A",
+   "accession": "0000909832-22-000023",
+   "filing_date": "2022-12-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983222000023/costproxy2022.htm",
+   "quote": "Currently, of the eleven directors on the Board, three are women and one is African American.",
+   "supports": "Eleven directors as of the 2022 proxy."
+  },
+  {
+   "id": "e114",
+   "form": "DEF 14A",
+   "accession": "0000909832-21-000017",
+   "filing_date": "2021-12-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983221000017/costproxy2021.htm",
+   "quote": "Currently, of the ten directors on the Board, three are women and one is African American.",
+   "supports": "Ten directors as of the 2021 proxy (before Vachris)."
+  },
+  {
+   "id": "e115",
+   "form": "DEF 14A",
+   "accession": "0000909832-22-000023",
+   "filing_date": "2022-12-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983222000023/costproxy2022.htm",
+   "quote": "Charles T. Munger has been a director of the Company since January 1997. He is Vice Chairman of the Board of Directors of Berkshire Hathaway Inc., and a director of Daily Journal Corporation.",
+   "supports": "Munger director since January 1997; other boards (his last proxy bio while alive)."
+  },
+  {
+   "id": "e116",
+   "form": "DEF 14A",
+   "accession": "0000909832-22-000023",
+   "filing_date": "2022-12-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983222000023/costproxy2022.htm",
+   "quote": "The members of the committee are Messrs. Munger (chair) and Denman (vice chair) and Mmes. Decker and Jewell.",
+   "supports": "Audit Committee (2022 proxy): Munger chair."
+  },
+  {
+   "id": "e117",
+   "form": "DEF 14A",
+   "accession": "0000909832-23-000058",
+   "filing_date": "2023-12-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983223000058/cost-20231206.htm",
+   "quote": "Currently, of the eleven directors on the Board, four are women and one is African American.",
+   "supports": "Eleven directors as of the 2023 proxy (after Munger's death)."
+  },
+  {
+   "id": "e120",
+   "form": "DEF 14A",
+   "accession": "0000909832-19-000027",
+   "filing_date": "2019-12-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983219000027/costproxy2019.htm",
+   "quote": "Each of Susan L. Decker, Richard A. Galanti, Sally Jewell, and Charles T. Munger is nominated to serve for a one-year term until the annual meeting of shareholders in 2021 and until a successor is elected and qualified. All nominees other than Sally Jewell are current directors. John Meisenbach has determined not to stand for re-election.",
+   "supports": "Meisenbach did not stand at the 2020 meeting; Jewell nominated."
+  },
+  {
+   "id": "e121",
+   "form": "DEF 14A",
+   "accession": "0000909832-19-000027",
+   "filing_date": "2019-12-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983219000027/costproxy2019.htm",
+   "quote": "Proxies in the form furnished are solicited by the Board of Directors of the Company to be voted at the Annual Meeting of Shareholders to be held on January 22, 2020",
+   "supports": "2020 annual meeting date."
+  },
+  {
+   "id": "e122",
+   "form": "DEF 14A",
+   "accession": "0000909832-19-000027",
+   "filing_date": "2019-12-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983219000027/costproxy2019.htm",
+   "quote": "In addition, the Board also has determined that Sally Jewell, a nominee not currently on the Board, meets Nasdaq listing standards regarding \"independence,\" including applicable committee independence requirements.",
+   "supports": "Jewell determined independent as a nominee."
+  },
+  {
+   "id": "e123",
+   "form": "DEF 14A",
+   "accession": "0000909832-19-000027",
+   "filing_date": "2019-12-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983219000027/costproxy2019.htm",
+   "quote": "Directors deemed independent are Mses. Decker and Wilderotter and Messrs. Denman, James, Munger, Raikes and Stanton, who constitute a majority of the Board.",
+   "supports": "Independence (2019 proxy): Meisenbach, Galanti and Jelinek not listed."
+  },
+  {
+   "id": "e124",
+   "form": "DEF 14A",
+   "accession": "0000909832-19-000027",
+   "filing_date": "2019-12-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983219000027/costproxy2019.htm",
+   "quote": "Currently, of the ten directors on the Board, two are women (as is the newest proposed member of the Board) and one is African American.",
+   "supports": "Ten directors as of the 2019 proxy (incl. Meisenbach)."
+  },
+  {
+   "id": "e125",
+   "form": "8-K",
+   "accession": "0001193125-19-302315",
+   "filing_date": "2019-11-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000119312519302315/d841545d8k.htm",
+   "quote": "On November 25, 2019, John W. Meisenbach, who has been a member of the Board of Directors of Costco Wholesale Corporation for over thirty-six years, submitted a letter stating that he will not be standing for re-election as member of the Board when his current term expires, effective on commencement of the Company's 2020 annual meeting.",
+   "supports": "Meisenbach notice (2019-11-25) that he would not stand; served over 36 years."
+  },
+  {
+   "id": "e126",
+   "form": "8-K",
+   "accession": "0001193125-20-017134",
+   "filing_date": "2020-01-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000119312520017134/d873620d8k.htm",
+   "quote": "On January 22, 2020, Costco Wholesale Corporation (the \"Company\") held its Annual Meeting of Shareholders (the \"Annual Meeting\").",
+   "supports": "2020 annual meeting held 2020-01-22."
+  },
+  {
+   "id": "e127",
+   "form": "8-K",
+   "accession": "0001193125-20-017134",
+   "filing_date": "2020-01-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000119312520017134/d873620d8k.htm",
+   "quote": "Sally Jewell 295,564,106 1,014,074 62,458,432 Charles T. Munger",
+   "supports": "Jewell elected 2020-01-22 (results table).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e128",
+   "form": "DEF 14A",
+   "accession": "0000909832-20-000021",
+   "filing_date": "2020-12-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983220000021/costproxy2020.htm",
+   "quote": "Directors deemed independent are Mmes. Decker, Jewell and Wilderotter and Messrs. Denman, James, Munger, Raikes and Stanton, who constitute a majority of the Board.",
+   "supports": "Independence (2020 proxy), incl. Jewell."
+  },
+  {
+   "id": "e129",
+   "form": "8-K",
+   "accession": "0001193125-21-017361",
+   "filing_date": "2021-01-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000119312521017361/d115093d8k.htm",
+   "quote": "On January 21, 2020, Costco Wholesale Corporation (the \"Company\") held its Annual Meeting of Shareholders.",
+   "supports": "2021 Item 5.07 body gives the meeting year as 2020 (typo; see conflicts)."
+  },
+  {
+   "id": "e130",
+   "form": "8-K",
+   "accession": "0001193125-21-017361",
+   "filing_date": "2021-01-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000119312521017361/d115093d8k.htm",
+   "quote": "Date of Report (Date of Earliest Event Reported): January 21, 2021",
+   "supports": "2021 Item 5.07 cover date."
+  },
+  {
+   "id": "e131",
+   "form": "DEF 14A",
+   "accession": "0000909832-20-000021",
+   "filing_date": "2020-12-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983220000021/costproxy2020.htm",
+   "quote": "Proxies in the form furnished are solicited by the Board of Directors of the Company to be voted at the Annual Meeting of Shareholders to be held on January 21, 2021",
+   "supports": "2021 annual meeting date per proxy."
+  },
+  {
+   "id": "e132",
+   "form": "8-K",
+   "accession": "0000909832-24-000003",
+   "filing_date": "2024-01-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000003/cost-20240118.htm",
+   "quote": "W. Craig Jelinek 279,194,861",
+   "supports": "Jelinek re-elected at the 2024 annual meeting (his last election).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e140",
+   "form": "DEF 14A",
+   "accession": "0000909832-17-000016",
+   "filing_date": "2017-12-15",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983217000016/costproxy2017.htm",
+   "quote": "Our co-founder Jeff Brotman served as Chairman of the Board until his death in August 2017. Hamilton James, an independent director, was subsequently elected as non-executive Chairman of the Board.",
+   "supports": "James elected non-executive Chairman after Brotman's death (August 2017)."
+  },
+  {
+   "id": "e141",
+   "form": "DEF 14A",
+   "accession": "0000909832-17-000016",
+   "filing_date": "2017-12-15",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983217000016/costproxy2017.htm",
+   "quote": "Directors deemed independent are Mses. Decker and Wilderotter and Messrs. Denman, Evans, James, Munger, Raikes and Stanton, who constitute a majority of the Board.",
+   "supports": "Independence (2017 proxy): Denman, Stanton, Wilderotter independent; Meisenbach not listed."
+  },
+  {
+   "id": "e142",
+   "form": "DEF 14A",
+   "accession": "0000909832-17-000016",
+   "filing_date": "2017-12-15",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983217000016/costproxy2017.htm",
+   "quote": "John W. Meisenbach has been a director of the Company since its inception.",
+   "supports": "Meisenbach director since the (predecessor) company's inception."
+  },
+  {
+   "id": "e143",
+   "form": "DEF 14A",
+   "accession": "0000909832-18-000018",
+   "filing_date": "2018-12-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983218000018/costproxy2018.htm",
+   "quote": "He previously served as a director of Expeditors International, where he was Chair of the Compensation Committee.",
+   "supports": "Meisenbach former board: Expeditors International (his last proxy bio, 2018)."
+  },
+  {
+   "id": "e144",
+   "form": "DEF 14A",
+   "accession": "0000909832-18-000018",
+   "filing_date": "2018-12-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983218000018/costproxy2018.htm",
+   "quote": "Directors deemed independent are Mses. Decker and Wilderotter and Messrs. Denman, James, Munger, Raikes and Stanton, who constitute a majority of the Board.",
+   "supports": "Independence (2018 proxy): Meisenbach not listed."
+  },
+  {
+   "id": "e145",
+   "form": "DEF 14A",
+   "accession": "0000909832-14-000028",
+   "filing_date": "2014-12-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983214000028/costdefproxy2014.htm",
+   "quote": "Hamilton E. James has been a director of the Company since August 1988 and the Lead Independent Director since 2005.",
+   "supports": "James Lead Independent Director since 2005."
+  },
+  {
+   "id": "e146",
+   "form": "DEF 14A",
+   "accession": "0000909832-14-000028",
+   "filing_date": "2014-12-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983214000028/costdefproxy2014.htm",
+   "quote": "Directors deemed independent are Mses. Decker and Ruckelshaus and Messrs. Carson, Evans, Gates, James, Munger and Raikes, who constitute a majority of the Board.",
+   "supports": "Independence (2014 proxy): Meisenbach not listed."
+  },
+  {
+   "id": "e147",
+   "form": "DEF 14A",
+   "accession": "0001193125-09-255833",
+   "filing_date": "2009-12-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000119312509255833/ddef14a.htm",
+   "quote": "Members deemed independent are Mses. Decker and Ruckelshaus and Messrs. Carson, Evans, Gates, James, Munger and Raikes.",
+   "supports": "Independence (2009 proxy): earliest list reviewed; Meisenbach not listed."
+  },
+  {
+   "id": "e148",
+   "form": "DEF 14A",
+   "accession": "0001047469-97-008189",
+   "filing_date": "1997-12-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000104746997008189/0001047469-97-008189.txt",
+   "quote": "Hamilton E. James has been a director of the Company since October 1993 and was a director of Costco Wholesale Corporation from August 1988 to October 1993.",
+   "supports": "James: registrant director since October 1993 (merger); predecessor Costco director Aug 1988-Oct 1993."
+  },
+  {
+   "id": "e149",
+   "form": "DEF 14A",
+   "accession": "0001047469-97-008189",
+   "filing_date": "1997-12-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000104746997008189/0001047469-97-008189.txt",
+   "quote": "John W. Meisenbach has been a director of the Company since October 1993 and was a director of Costco Wholesale Corporation since its inception.",
+   "supports": "Meisenbach: registrant director since October 1993; predecessor director since inception."
+  },
+  {
+   "id": "e150",
+   "form": "DEF 14A",
+   "accession": "0001047469-97-008189",
+   "filing_date": "1997-12-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000104746997008189/0001047469-97-008189.txt",
+   "quote": "Charles T. Munger has been a director of the Company since January 1997.",
+   "supports": "Munger director since January 1997 (contemporaneous proxy)."
+  },
+  {
+   "id": "e151",
+   "form": "DEF 14A",
+   "accession": "0000950123-94-002087",
+   "filing_date": "1994-12-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000095012394002087/0000950123-94-002087.txt",
+   "quote": "Hamilton E. James has been a director of the Company since the Merger and was a director of Costco since August 1988.",
+   "supports": "James predecessor service from August 1988 (1994 proxy)."
+  },
+  {
+   "id": "e152",
+   "form": "DEF 14A",
+   "accession": "0000950123-94-002087",
+   "filing_date": "1994-12-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000095012394002087/0000950123-94-002087.txt",
+   "quote": "Richard A. Galanti is nominated as a member of Class I, to serve for a two-year term until the annual meeting of stockholders in 1997, and until his successor is elected and qualified.",
+   "supports": "Galanti first nominated for the board at the 1995 annual meeting."
+  },
+  {
+   "id": "e153",
+   "form": "DEF 14A",
+   "accession": "0000950123-94-002087",
+   "filing_date": "1994-12-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000095012394002087/0000950123-94-002087.txt",
+   "quote": "to be voted at the annual meeting of stockholders to be held on January 27, 1995",
+   "supports": "1995 annual meeting date."
+  },
+  {
+   "id": "e154",
+   "form": "10-Q",
+   "accession": "0000912057-95-001871",
+   "filing_date": "1995-03-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000091205795001871/0000912057-95-001871.txt",
+   "quote": "The Company's annual meeting of stockholders was held on January 27, 1995,",
+   "supports": "1995 annual meeting held 1995-01-27."
+  },
+  {
+   "id": "e155",
+   "form": "10-Q",
+   "accession": "0000912057-95-001871",
+   "filing_date": "1995-03-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000091205795001871/0000912057-95-001871.txt",
+   "quote": "Richard A. Galanti................ 172,871,283 170,530,556 2,340,727 (Class I)",
+   "supports": "Galanti elected as Class I director at the 1995-01-27 meeting.",
+   "quote_from_table": true
+  }
+ ],
+ "conflicts": [
+  {
+   "description": "Sally Jewell's start day. The 2020 Item 5.07 8-K and the 2019 proxy put the 2020 annual meeting, where she was first elected, on January 22, 2020. Her Form 3 gives an event date of 2020-01-23. Kept 2020-01-22.",
+   "evidence_refs": [
+    "e126",
+    "e121",
+    "e065"
+   ]
+  },
+  {
+   "description": "2021 annual meeting date. The 2021 Item 5.07 8-K body says the meeting was held 'January 21, 2020', but its cover (date of earliest event) and the 2020 proxy both give January 21, 2021. Treated as a typo; it affects no tenure dates.",
+   "evidence_refs": [
+    "e129",
+    "e130",
+    "e131"
+   ]
+  },
+  {
+   "description": "Predecessor service. The current proxies date Hamilton E. James from August 1988 and John W. Meisenbach from the company's inception. The 2019 proxy says 'Company' includes the pre-1993 predecessor, and the 1997 proxy says both have been registrant directors only since October 1993 (merger). Kept the proxy-stated predecessor dates, as instructed. The registrant-only start would be 1993-10 for both.",
+   "evidence_refs": [
+    "e024",
+    "e007",
+    "e148",
+    "e149",
+    "e142"
+   ]
+  },
+  {
+   "description": "How Galanti and Jelinek left. The 2024 proxy says they were not nominated by the Board for re-election, the 2025 proxy calls their departures 'retirements', and the 2025 8-K says Galanti served on the board until the 2025 Annual Meeting. Recorded did_not_stand, effective at the 2025-01-23 meeting.",
+   "evidence_refs": [
+    "e100",
+    "e021",
+    "e094",
+    "e101"
+   ]
+  }
+ ],
+ "open_questions": [
+  "Gina M. Raimondo (elected 2026-01-15) has no committee assignment in any filing through 2026-09-30. The 2025 proxy says the Board would consider one after her election. The next proxy (expected about December 2026) should settle it.",
+  "Six current directors (James, Foulkes, Jewell, Stanton, Wilderotter, Vachris) filed no Form 4 in 2026 through 2026-09-30. Costco's annual director RSU grants are dated October 22, so the fiscal 2027 grant had not been reported by 2026-10-04. All six signed the 2026-06-03 S-3ASR as directors, and no Item 5.02 8-K has been filed since the 2025 proxy. Decker, Denman, Raikes and Raimondo did file Forms 3/4 as directors in 2026.",
+  "Charles T. Munger's appointment day in January 1997 is not disclosed. EDGAR full-text search does not cover 1997; he is not in the 1996 proxy slate or the fiscal 1997 Q2 10-Q's vote results.",
+  "The day Hamilton E. James became Chairman in August 2017 is not disclosed (the 2017 proxy says only that he was elected after Jeff Brotman's death in August 2017). His Lead Independent Director start is year-only (2005).",
+  "John W. Meisenbach's start is year precision (1983), inferred from 'since its inception' plus the 10-K's 'began operations in 1983' and his 2019 8-K's 'over thirty-six years'; no filing states the date. His independence before the 2009 proxy is not reviewed.",
+  "Authorized board size is not stated. Munger's, Galanti's and Jelinek's seats were left vacant (2023 and 2025 proxies); the board has had ten directors since 2026-01-15.",
+  "Independence for current directors is aligned to tenure; the filings give point-in-time determinations only (2009, 2014 and 2017-2025 proxies reviewed). James's independence before 2005 is not reviewed.",
+  "Committees are recorded only from the 2025 proxy (current directors) and the 2022 proxy (Munger), plus Foulkes's 2024-01-18 appointment. Earlier assignments (e.g., Denman on Nominating and Governance 2019-2021, Munger on Compensation in 2019) are not recorded.",
+  "Other-board lists come from Costco's own bios as of each filing and are not checked against other issuers' filings. Most bios do not say the company is public (flagged public_company_stated_in_source=false).",
+  "Richard M. Libenson filed Forms 4 in October 2019 with the director box checked, but he is not in the 2018 or 2019 proxy director lists or the FY2019 10-K signatures. His departure predates 2020 and is out of scope."
+ ],
+ "coverage": [
+  {
+   "scope": "current_board",
+   "period_start": "2026-10-04",
+   "period_end": "2026-10-04",
+   "level": "complete",
+   "method": "Roster checked against the 2025 DEF 14A, the 2026-01-15 Item 5.07 results, the 2026-06-03 S-3ASR signature page, and every 8-K (none with Item 5.02 after the proxy), Form 3 and Form 4 filed through 2026-09-30, the latest filing in the EDGAR submissions feed."
+  },
+  {
+   "scope": "board_history",
+   "period_start": "2020-01-01",
+   "period_end": "2026-10-04",
+   "level": "complete",
+   "method": "Every DEF 14A from 2019 to 2025 and every 8-K with Item 5.02 or 5.07 from October 2019 to September 2026 reviewed. Annual-meeting slates compared year over year. Departures dated from Item 5.07 meeting dates (Meisenbach, Galanti, Jelinek) and the 2023 proxy (Munger's death)."
+  },
+  {
+   "scope": "board_history",
+   "period_start": "1983-01-01",
+   "period_end": "2019-12-31",
+   "level": "partial",
+   "method": "Pre-2020 seats only for directors serving in 2020 or later. Reconstructed from appointment 8-Ks (2004-2017), 1994-1997 proxies and 10-Qs, and later proxy bios. Other pre-2020 directors (e.g., Sinegal, Brotman, Evans, Libenson) are not recorded."
+  }
+ ]
+}

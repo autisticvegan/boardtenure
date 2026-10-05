@@ -1,0 +1,3948 @@
+{
+ "company": {
+  "cik": "0000104169",
+  "ticker": "WMT",
+  "legal_name": "Walmart Inc.",
+  "common_name": "Walmart",
+  "exchange": "Nasdaq Global Select Market",
+  "listed_since_year": 1970,
+  "state_of_incorporation": "Delaware",
+  "classified_board": false,
+  "notes": "CIK verified in the EDGAR submissions JSON (name Walmart Inc., ticker WMT, exchange Nasdaq, state DE; former name WAL MART STORES INC until 2018-01-30). Common stock moved from the NYSE to the Nasdaq Global Select Market: last NYSE trading day 2025-12-08, first Nasdaq day 2025-12-09 (8-K Item 3.01; FY2026 10-K). listed_since_year=1970 is the IPO year stated in the 10-K. The NYSE listing year (commonly cited as 1972) is not stated in any filing reviewed. All directors are elected annually (no classified board). The Walton family's entities hold about 44% of shares (2026 proxy). Chairman and CEO roles have been separate since 1988, with a Lead Independent Director since 2004.",
+  "evidence_refs": [
+   "e001",
+   "e002",
+   "e003",
+   "e004",
+   "e005"
+  ]
+ },
+ "as_of": "2026-10-04",
+ "sources_reviewed_through": "2026-10-02 (latest filing in the EDGAR submissions feed fetched 2026-10-05 UTC)",
+ "people": [
+  {
+   "key": "cesar-conde",
+   "full_name": "Cesar Conde",
+   "aliases": [
+    "Conde Cesar"
+   ],
+   "sec_cik": "0001616172",
+   "bio_other_public_boards": [
+    {
+     "company": "PepsiCo, Inc.",
+     "status": "current",
+     "years": "since March 2016",
+     "source_ref": "e049",
+     "public_company_stated_in_source": true,
+     "note": "listed under 'Other Current Public Company Directorships'"
+    },
+    {
+     "company": "Ralph Lauren Corporation",
+     "status": "current",
+     "years": "since January 2026",
+     "source_ref": "e049",
+     "public_company_stated_in_source": true,
+     "note": "listed under 'Other Current Public Company Directorships'"
+    },
+    {
+     "company": "Owens Corning",
+     "status": "former",
+     "years": "August 2014 to April 2019",
+     "source_ref": "e049",
+     "public_company_stated_in_source": false
+    }
+   ]
+  },
+  {
+   "key": "sarah-friar",
+   "full_name": "Sarah J. Friar",
+   "aliases": [
+    "Sarah Friar",
+    "Friar Sarah"
+   ],
+   "sec_cik": "0001570658",
+   "bio_other_public_boards": [
+    {
+     "company": "Nextdoor Holdings, Inc.",
+     "status": "former",
+     "years": "chairperson November 2021 to March 2024",
+     "source_ref": "e050",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Dragoneer Growth Opportunities Corp. III",
+     "status": "former",
+     "years": "March 2021 to March 2023",
+     "source_ref": "e050",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Slack Technologies, Inc.",
+     "status": "former",
+     "years": "March 2017 until July 2021",
+     "source_ref": "e051",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Dragoneer Growth Opportunities Corp.",
+     "status": "former",
+     "years": "August 2020 until July 2021",
+     "source_ref": "e051",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Dragoneer Growth Opportunities Corp. II",
+     "status": "former",
+     "years": "November 2020 until December 2021",
+     "source_ref": "e051",
+     "public_company_stated_in_source": false
+    }
+   ]
+  },
+  {
+   "key": "john-furner",
+   "full_name": "John R. Furner",
+   "aliases": [
+    "John Furner",
+    "Furner John R."
+   ],
+   "sec_cik": "0001696737",
+   "bio_other_public_boards": []
+  },
+  {
+   "key": "carla-harris",
+   "full_name": "Carla A. Harris",
+   "aliases": [
+    "Carla Harris",
+    "Harris Carla A"
+   ],
+   "sec_cik": "0001707351",
+   "bio_other_public_boards": [
+    {
+     "company": "Cummins Inc.",
+     "status": "current",
+     "years": "since May 2021",
+     "source_ref": "e052",
+     "public_company_stated_in_source": true,
+     "note": "listed under 'Other Current Public Company Directorships'"
+    },
+    {
+     "company": "MetLife, Inc.",
+     "status": "current",
+     "years": "since April 2022",
+     "source_ref": "e052",
+     "public_company_stated_in_source": true,
+     "note": "listed under 'Other Current Public Company Directorships'"
+    }
+   ]
+  },
+  {
+   "key": "tom-horton",
+   "full_name": "Thomas W. Horton",
+   "aliases": [
+    "Tom Horton",
+    "HORTON THOMAS W"
+   ],
+   "sec_cik": "0001175928",
+   "bio_other_public_boards": [
+    {
+     "company": "General Electric Company",
+     "status": "current",
+     "years": "since April 2018 (Lead Director since October 2018)",
+     "source_ref": "e053",
+     "public_company_stated_in_source": true,
+     "note": "listed under 'Other Current Public Company Directorships'"
+    },
+    {
+     "company": "Chevron Corporation",
+     "status": "current",
+     "years": "since January 2026",
+     "source_ref": "e053",
+     "public_company_stated_in_source": true,
+     "note": "listed under 'Other Current Public Company Directorships'"
+    },
+    {
+     "company": "EnLink Midstream, LLC",
+     "status": "former",
+     "years": "August 2019 to March 2022",
+     "source_ref": "e054",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "QUALCOMM Incorporated",
+     "status": "former",
+     "years": "2008 to March 2019",
+     "source_ref": "e054",
+     "public_company_stated_in_source": false
+    }
+   ]
+  },
+  {
+   "key": "marissa-mayer",
+   "full_name": "Marissa A. Mayer",
+   "aliases": [
+    "Marissa Mayer",
+    "MAYER MARISSA A"
+   ],
+   "sec_cik": "0001550608",
+   "bio_other_public_boards": [
+    {
+     "company": "AT&T Inc.",
+     "status": "current",
+     "years": "since March 2024",
+     "source_ref": "e055",
+     "public_company_stated_in_source": true,
+     "note": "listed under 'Other Current Public Company Directorships'"
+    },
+    {
+     "company": "Hilton Worldwide Holdings Inc.",
+     "status": "current",
+     "years": "since May 2025",
+     "source_ref": "e055",
+     "public_company_stated_in_source": true,
+     "note": "listed under 'Other Current Public Company Directorships'"
+    },
+    {
+     "company": "Starbucks Corporation",
+     "status": "current",
+     "years": "since June 2025",
+     "source_ref": "e055",
+     "public_company_stated_in_source": true,
+     "note": "listed under 'Other Current Public Company Directorships'"
+    },
+    {
+     "company": "Nextdoor Holdings, Inc.",
+     "status": "former",
+     "years": "May 2024 to June 2025",
+     "source_ref": "e055",
+     "public_company_stated_in_source": false
+    }
+   ]
+  },
+  {
+   "key": "shishir-mehrotra",
+   "full_name": "Shishir Mehrotra",
+   "aliases": [
+    "Mehrotra Shishir"
+   ],
+   "sec_cik": "0001967120",
+   "bio_other_public_boards": [
+    {
+     "company": "Spotify Technology S.A.",
+     "status": "current",
+     "years": "since June 2017",
+     "source_ref": "e056",
+     "public_company_stated_in_source": true,
+     "note": "listed under 'Other Current Public Company Directorships'"
+    }
+   ]
+  },
+  {
+   "key": "bob-moritz",
+   "full_name": "Robert E. Moritz, Jr.",
+   "aliases": [
+    "Bob Moritz",
+    "Robert Moritz",
+    "Moritz Robert Edward Jr."
+   ],
+   "sec_cik": "0002033834",
+   "bio_other_public_boards": [
+    {
+     "company": "Northern Trust Corporation",
+     "status": "current",
+     "years": "since March 2025",
+     "source_ref": "e057",
+     "public_company_stated_in_source": true,
+     "note": "listed under 'Other Current Public Company Directorships'"
+    },
+    {
+     "company": "S&P Global Inc.",
+     "status": "current",
+     "years": "since February 2026",
+     "source_ref": "e057",
+     "public_company_stated_in_source": true,
+     "note": "listed under 'Other Current Public Company Directorships'"
+    }
+   ]
+  },
+  {
+   "key": "greg-penner",
+   "full_name": "Gregory B. Penner",
+   "aliases": [
+    "Greg Penner",
+    "Penner Gregory Boyd"
+   ],
+   "sec_cik": "0001353165",
+   "bio_other_public_boards": [
+    {
+     "company": "Baidu, Inc.",
+     "status": "former",
+     "years": "May 2004 to December 2017",
+     "source_ref": "e058",
+     "public_company_stated_in_source": false,
+     "note": "2019 proxy gave the end as February 2017"
+    },
+    {
+     "company": "Hyatt Hotels Corporation",
+     "status": "former",
+     "years": "August 2007 to September 2014",
+     "source_ref": "e058",
+     "public_company_stated_in_source": false,
+     "note": "2019-2021 proxies gave the start as October 2007"
+    }
+   ]
+  },
+  {
+   "key": "randall-stephenson",
+   "full_name": "Randall L. Stephenson",
+   "aliases": [
+    "Randall Stephenson",
+    "STEPHENSON RANDALL L"
+   ],
+   "sec_cik": "0001183428",
+   "bio_other_public_boards": [
+    {
+     "company": "AT&T Inc.",
+     "status": "former",
+     "years": "2005 until January 2021",
+     "source_ref": "e059",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "The Boeing Company",
+     "status": "former",
+     "years": "February 2016 to December 2017",
+     "source_ref": "e059",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Emerson Electric Co.",
+     "status": "former",
+     "years": "June 2006 to December 2017",
+     "source_ref": "e059",
+     "public_company_stated_in_source": false
+    }
+   ]
+  },
+  {
+   "key": "steuart-walton",
+   "full_name": "Steuart L. Walton",
+   "aliases": [
+    "Steuart Walton",
+    "Walton Steuart L"
+   ],
+   "sec_cik": "0001675503",
+   "bio_other_public_boards": []
+  },
+  {
+   "key": "doug-mcmillon",
+   "full_name": "C. Douglas McMillon",
+   "aliases": [
+    "Doug McMillon",
+    "McMillon C Douglas"
+   ],
+   "sec_cik": "0001335782",
+   "bio_other_public_boards": []
+  },
+  {
+   "key": "timothy-p-flynn",
+   "full_name": "Timothy P. Flynn",
+   "aliases": [
+    "Tim Flynn",
+    "FLYNN TIMOTHY PATRICK"
+   ],
+   "sec_cik": "0001550322",
+   "bio_other_public_boards": [
+    {
+     "company": "UnitedHealth Group Incorporated",
+     "status": "current",
+     "years": "since January 2017 (as of the 2025 proxy)",
+     "source_ref": "e067",
+     "public_company_stated_in_source": true,
+     "note": "listed under 'Other Current Public Company Directorships' in the 2025 proxy"
+    },
+    {
+     "company": "JPMorgan Chase & Co.",
+     "status": "former",
+     "years": "May 2012 to May 2024",
+     "source_ref": "e067",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Alcoa Corporation",
+     "status": "former",
+     "years": "November 2016 until May 2021",
+     "source_ref": "e067",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "The Chubb Corporation",
+     "status": "former",
+     "years": "September 2013 until January 2016",
+     "source_ref": "e068",
+     "public_company_stated_in_source": false
+    }
+   ]
+  },
+  {
+   "key": "brian-niccol",
+   "full_name": "Brian Niccol",
+   "aliases": [
+    "Niccol Brian R",
+    "Brian R. Niccol"
+   ],
+   "sec_cik": "0001628588",
+   "bio_other_public_boards": [
+    {
+     "company": "Starbucks Corporation",
+     "status": "current",
+     "years": "not stated (Chairman and CEO since September 2024, as of the 2025 proxy)",
+     "source_ref": "e069",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Chipotle Mexican Grill, Inc.",
+     "status": "former",
+     "years": "March 2018 to August 2024 (chairman March 2020 to August 2024)",
+     "source_ref": "e070",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "KB Home",
+     "status": "former",
+     "years": "July 2021 to April 2024",
+     "source_ref": "e070",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Harley-Davidson",
+     "status": "former",
+     "years": "2016 to 2021",
+     "source_ref": "e070",
+     "public_company_stated_in_source": false
+    }
+   ]
+  },
+  {
+   "key": "s-robson-walton",
+   "full_name": "S. Robson Walton",
+   "aliases": [
+    "Rob Walton",
+    "WALTON S ROBSON"
+   ],
+   "sec_cik": "0001219112",
+   "bio_other_public_boards": []
+  },
+  {
+   "key": "steven-reinemund",
+   "full_name": "Steven S Reinemund",
+   "aliases": [
+    "Steve Reinemund",
+    "Steven S. Reinemund",
+    "REINEMUND STEVEN"
+   ],
+   "sec_cik": "0001183822",
+   "bio_other_public_boards": [
+    {
+     "company": "Catalyst Partners Acquisition Corp.",
+     "status": "current",
+     "years": "since May 2021 (as of the 2022 proxy)",
+     "source_ref": "e095",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "GS Acquisition Holdings Corp II",
+     "status": "former",
+     "years": "July 2020 until October 2021",
+     "source_ref": "e095",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "GS Acquisition Holdings Corp.",
+     "status": "former",
+     "years": "June 2018 until February 2020",
+     "source_ref": "e095",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Vertiv Holdings Co.",
+     "status": "current",
+     "years": "not stated (continuing as of the 2022 proxy)",
+     "source_ref": "e096",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Exxon Mobil Corporation",
+     "status": "former",
+     "years": "2007 until May 2020",
+     "source_ref": "e096",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Marriott International, Inc.",
+     "status": "former",
+     "years": "2007 until May 2020",
+     "source_ref": "e096",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "American Express Company",
+     "status": "former",
+     "years": "2007 to 2015",
+     "source_ref": "e097",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Johnson & Johnson",
+     "status": "former",
+     "years": "2003 to 2008",
+     "source_ref": "e097",
+     "public_company_stated_in_source": false
+    }
+   ]
+  }
+ ],
+ "memberships": [
+  {
+   "person_key": "cesar-conde",
+   "start_date": "2019-02-07",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 (filed 2019-02-11): appointed by the board February 7, 2019; Form 3 event date 2019-02-07",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e137",
+    "e157",
+    "e038",
+    "e009",
+    "e171"
+   ],
+   "board_class": null,
+   "notes": "Appointed mid-term; first elected by shareholders at the 2019 meeting. Re-elected 2026-06-04; Form 4 filed as director 2026-10-02. Board is not classified (all directors elected annually), so no class."
+  },
+  {
+   "person_key": "sarah-friar",
+   "start_date": "2018-02-07",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 (filed 2018-02-08): appointed February 7, 2018; Form 3 event date 2018-02-07",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e136",
+    "e156",
+    "e039",
+    "e010",
+    "e168"
+   ],
+   "board_class": null,
+   "notes": "Appointed mid-term. Re-elected 2026-06-04; Form 4 filed as director 2026-10-02. Board is not classified (all directors elected annually), so no class."
+  },
+  {
+   "person_key": "john-furner",
+   "start_date": "2025-11-13",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 (filed 2025-11-14): 'elected to the Board on November 13, 2025'",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e140",
+    "e022",
+    "e040",
+    "e011",
+    "e173",
+    "e162"
+   ],
+   "board_class": null,
+   "notes": "Elected by the board while EVP and CEO, Walmart U.S.; President and CEO from 2026-02-01. Re-elected 2026-06-04; Form 4 as director and officer 2026-09-18. Board is not classified (all directors elected annually), so no class."
+  },
+  {
+   "person_key": "carla-harris",
+   "start_date": "2017-06-02",
+   "start_date_precision": "day",
+   "start_date_basis": "2017 proxy: standing for election for the first time; elected at the 2017 annual meeting held June 2, 2017 (8-K Item 5.07); Form 3 event date 2017-06-02",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e112",
+    "e113",
+    "e114",
+    "e155",
+    "e041",
+    "e012",
+    "e170"
+   ],
+   "board_class": null,
+   "notes": "Re-elected 2026-06-04; Form 4 filed as director 2026-10-02. Board is not classified (all directors elected annually), so no class."
+  },
+  {
+   "person_key": "tom-horton",
+   "start_date": "2014-11-21",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 (filed 2014-11-24): appointed November 21, 2014; Form 3 event date 2014-11-21",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e121",
+    "e153",
+    "e042",
+    "e013",
+    "e172"
+   ],
+   "board_class": null,
+   "notes": "Lead Independent Director 2018-05-30 to 2025-06-05. Re-elected 2026-06-04; latest Form 4 as director 2026-06-08 (period 2026-06-04). Board is not classified (all directors elected annually), so no class."
+  },
+  {
+   "person_key": "marissa-mayer",
+   "start_date": "2012-06-01",
+   "start_date_precision": "day",
+   "start_date_basis": "2012 proxy: standing for election for the first time; elected at the 2012 annual meeting held June 1, 2012 (8-K Item 5.07); Form 3 event date 2012-06-01",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e126",
+    "e128",
+    "e129",
+    "e151",
+    "e043",
+    "e014",
+    "e166",
+    "e025"
+   ],
+   "board_class": null,
+   "notes": "Past the 12-year term limit; the board extended her service until the 2027 annual meeting (2026 proxy). Re-elected 2026-06-04; Form 4 as director 2026-10-02. Board is not classified (all directors elected annually), so no class."
+  },
+  {
+   "person_key": "shishir-mehrotra",
+   "start_date": "2026-01-08",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 (filed 2026-01-08): appointed effective January 8, 2026; Form 3 event date 2026-01-08",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e147",
+    "e161",
+    "e044",
+    "e015",
+    "e165"
+   ],
+   "board_class": null,
+   "notes": "First elected by shareholders 2026-06-04; Form 4 as director 2026-10-02. Board is not classified (all directors elected annually), so no class."
+  },
+  {
+   "person_key": "bob-moritz",
+   "start_date": "2024-08-15",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 (filed 2024-08-15): appointed effective August 15, 2024; Form 3 event date 2024-08-15",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e139",
+    "e160",
+    "e045",
+    "e016",
+    "e169"
+   ],
+   "board_class": null,
+   "notes": "Audit Committee Chair from the 2026 annual meeting. Re-elected 2026-06-04; Form 4 as director 2026-10-02. Board is not classified (all directors elected annually), so no class."
+  },
+  {
+   "person_key": "greg-penner",
+   "start_date": "2008-06-06",
+   "start_date_precision": "day",
+   "start_date_basis": "2008 proxy: standing for election for the first time at the 2008 annual meeting (held June 6, 2008); Form 3 as director with event date 2008-06-06",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e133",
+    "e134",
+    "e149",
+    "e046",
+    "e017",
+    "e163"
+   ],
+   "board_class": null,
+   "notes": "No 8-K Item 5.07 existed in 2008; the election date rests on the proxy's meeting date and the Form 3 event date. Son-in-law of S. Robson Walton (2008, 2023, 2024 proxies); the 2025-2026 proxies say his spouse is Steuart Walton's cousin. Re-elected 2026-06-04; Form 4 as director 2026-10-02. Board is not classified (all directors elected annually), so no class."
+  },
+  {
+   "person_key": "randall-stephenson",
+   "start_date": "2021-03-03",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 (filed 2021-03-05): appointed March 3, 2021; Form 3 event date 2021-03-03",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e138",
+    "e158",
+    "e047",
+    "e018",
+    "e167"
+   ],
+   "board_class": null,
+   "notes": "Lead Independent Director since 2025-06-05. Re-elected 2026-06-04; Form 4 as director 2026-10-02. Board is not classified (all directors elected annually), so no class."
+  },
+  {
+   "person_key": "steuart-walton",
+   "start_date": "2016-06-03",
+   "start_date_precision": "day",
+   "start_date_basis": "2016 proxy: standing for election for the first time; elected at the 2016 annual meeting held June 3, 2016 (8-K Item 5.07); Form 3 event date 2016-06-03",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e115",
+    "e118",
+    "e119",
+    "e154",
+    "e048",
+    "e019",
+    "e164"
+   ],
+   "board_class": null,
+   "notes": "Walton family member: nephew of S. Robson Walton (2023, 2024 proxies); 'cousin of Gregory B. Penner's spouse' (2026 proxy). Re-elected 2026-06-04; Form 4 as director 2026-10-02. Board is not classified (all directors elected annually), so no class."
+  },
+  {
+   "person_key": "doug-mcmillon",
+   "start_date": "2013-11-22",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 (filed 2013-11-25): 'elected to the Board on November 22, 2013'",
+   "end_date": "2026-06-04",
+   "end_date_precision": "day",
+   "end_reason": "did_not_stand",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e122",
+    "e071",
+    "e145",
+    "e022",
+    "e007",
+    "e008",
+    "e174"
+   ],
+   "board_class": null,
+   "notes": "President and CEO 2014-02-01 to 2026-01-31. Not a 2026 nominee; his term ended at the 2026 annual meeting (2026-06-04), as the November 2025 8-K said it would. Last Form 4 as director: period 2026-05-28. Filings call it retiring from the board at the end of his term. Board is not classified (all directors elected annually), so no class."
+  },
+  {
+   "person_key": "timothy-p-flynn",
+   "start_date": "2012-07-27",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 (filed 2012-07-30): appointed July 27, 2012; Form 3 event date 2012-07-27",
+   "end_date": "2026-06-04",
+   "end_date_precision": "day",
+   "end_reason": "did_not_stand",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e125",
+    "e152",
+    "e066",
+    "e023",
+    "e007",
+    "e008",
+    "e175"
+   ],
+   "board_class": null,
+   "notes": "Audit Chair. Served past the 12-year term limit by board extension (2025 proxy: until 2026). Not renominated in 2026; term ended at the 2026 annual meeting (2026-06-04), described as retiring. Last Form 4 as director: period 2026-03-31. Also a former JPMorgan Chase director (same SEC CIK). Board is not classified (all directors elected annually), so no class."
+  },
+  {
+   "person_key": "brian-niccol",
+   "start_date": "2024-06-05",
+   "start_date_precision": "day",
+   "start_date_basis": "2024 proxy nomination; elected at the 2024 annual meeting held June 5, 2024 (8-K Item 5.07); Form 3 event date 2024-06-05",
+   "end_date": "2026-06-04",
+   "end_date_precision": "day",
+   "end_reason": "did_not_stand",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e073",
+    "e083",
+    "e085",
+    "e159",
+    "e069",
+    "e024",
+    "e007",
+    "e008",
+    "e176"
+   ],
+   "board_class": null,
+   "notes": "Did not stand for re-election at the 2026 annual meeting (2026-06-04) to focus on leading Starbucks. Last Form 4 as director: period 2026-03-31. Board is not classified (all directors elected annually), so no class."
+  },
+  {
+   "person_key": "s-robson-walton",
+   "start_date": "1978",
+   "start_date_precision": "year",
+   "start_date_basis": "Proxies: 'has been a member of the Board since 1978' / 'Director Since 1978'; pre-EDGAR, no day or month in any filing",
+   "end_date": "2024-06-05",
+   "end_date_precision": "day",
+   "end_reason": "did_not_stand",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e086",
+    "e075",
+    "e076",
+    "e083",
+    "e084",
+    "e177",
+    "e179",
+    "e106",
+    "e104",
+    "e102",
+    "e091"
+   ],
+   "board_class": null,
+   "notes": "Son of founder Sam Walton; Chairman 1992 to June 2015. Did not stand at the 2024 annual meeting (2024-06-05), described as retiring at the conclusion of his term. His Form 4 of 2024-06-07 reports him only as a 10% owner. Board is not classified (all directors elected annually), so no class."
+  },
+  {
+   "person_key": "steven-reinemund",
+   "start_date": "2010-06-04",
+   "start_date_precision": "day",
+   "start_date_basis": "2010 proxy: standing for election for the first time; elected at the 2010 annual meeting held June 4, 2010 (8-K Item 5.07); Form 3 event date 2010-06-04",
+   "end_date": "2022-06-01",
+   "end_date_precision": "day",
+   "end_reason": "did_not_stand",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e130",
+    "e131",
+    "e132",
+    "e150",
+    "e094",
+    "e092",
+    "e101",
+    "e102",
+    "e090",
+    "e178"
+   ],
+   "board_class": null,
+   "notes": "Did not stand at the 2022 annual meeting (12-year term limit); the 2023 proxy says he 'retired from the Board on June 1, 2022'. Board is not classified (all directors elected annually), so no class."
+  }
+ ],
+ "roles": [
+  {
+   "person_key": "greg-penner",
+   "role": "vice_chair",
+   "start_date": "2014-06",
+   "end_date": "2015-06",
+   "precision": "month",
+   "end_precision": "month",
+   "confidence": "high",
+   "evidence_refs": [
+    "e120",
+    "e116",
+    "e107"
+   ],
+   "notes": "Vice Chairman of the Board June 2014 to June 2015 (newly created position). No filing gives the day."
+  },
+  {
+   "person_key": "greg-penner",
+   "role": "chair",
+   "start_date": "2015-06",
+   "end_date": null,
+   "precision": "month",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e116",
+    "e107",
+    "e046",
+    "e028"
+   ],
+   "notes": "Non-executive Chairman since June 2015, succeeding S. Robson Walton. No filing gives the day.",
+   "officer_title": "Non-Executive Chairman"
+  },
+  {
+   "person_key": "greg-penner",
+   "role": "non_independent_director",
+   "start_date": "2008-06-06",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e117",
+    "e105",
+    "e088",
+    "e078",
+    "e021"
+   ],
+   "notes": "Board 'has not determined' his independence (2023-2026 proxies); absent from the independence lists in the 2016 and 2019-2022 proxies. Years 2008-2015 not individually reviewed."
+  },
+  {
+   "person_key": "s-robson-walton",
+   "role": "chair",
+   "start_date": "1992",
+   "end_date": "2015-06",
+   "precision": "year",
+   "end_precision": "month",
+   "confidence": "high",
+   "evidence_refs": [
+    "e086"
+   ],
+   "notes": "Chairman 1992 to June 2015 (2023 proxy).",
+   "officer_title": "Chairman"
+  },
+  {
+   "person_key": "s-robson-walton",
+   "role": "non_independent_director",
+   "start_date": "1978",
+   "end_date": "2024-06-05",
+   "precision": "year",
+   "end_precision": "day",
+   "confidence": "medium",
+   "evidence_refs": [
+    "e117",
+    "e105",
+    "e088",
+    "e078"
+   ],
+   "notes": "Board 'has not determined' his independence (2023, 2024 proxies); absent from the independence lists in the 2016 and 2019-2022 proxies. Years before 2016 not reviewed."
+  },
+  {
+   "person_key": "steuart-walton",
+   "role": "non_independent_director",
+   "start_date": "2016-06-03",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e117",
+    "e105",
+    "e088",
+    "e021"
+   ],
+   "notes": "Board 'has not determined' his independence (2023-2026 proxies); absent from all independence lists reviewed since his election."
+  },
+  {
+   "person_key": "doug-mcmillon",
+   "role": "executive_director",
+   "start_date": "2013-11-22",
+   "end_date": "2014-01-31",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e122",
+    "e124"
+   ],
+   "notes": "Joined the board while EVP and President and CEO, Walmart International.",
+   "officer_title": "Executive Vice President; President and CEO, Walmart International"
+  },
+  {
+   "person_key": "doug-mcmillon",
+   "role": "ceo_director",
+   "start_date": "2014-02-01",
+   "end_date": "2026-01-31",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e123",
+    "e144",
+    "e029"
+   ],
+   "notes": "President and CEO 2014-02-01 to close of business 2026-01-31.",
+   "officer_title": "President and Chief Executive Officer"
+  },
+  {
+   "person_key": "doug-mcmillon",
+   "role": "non_independent_director",
+   "start_date": "2013-11-22",
+   "end_date": "2026-06-04",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e122",
+    "e105",
+    "e020"
+   ],
+   "notes": "Employee director throughout; never in an independence list. Remained an associate after stepping down as CEO."
+  },
+  {
+   "person_key": "john-furner",
+   "role": "executive_director",
+   "start_date": "2025-11-13",
+   "end_date": "2026-01-31",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e140",
+    "e142"
+   ],
+   "notes": "Joined the board while EVP and CEO, Walmart U.S.",
+   "officer_title": "Executive Vice President; President and CEO, Walmart U.S."
+  },
+  {
+   "person_key": "john-furner",
+   "role": "ceo_director",
+   "start_date": "2026-02-01",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e141",
+    "e029",
+    "e148",
+    "e028",
+    "e173"
+   ],
+   "notes": "President and CEO since 2026-02-01.",
+   "officer_title": "President and Chief Executive Officer"
+  },
+  {
+   "person_key": "john-furner",
+   "role": "non_independent_director",
+   "start_date": "2025-11-13",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e140",
+    "e020"
+   ],
+   "notes": "Employee director; not in the 2026 independence list."
+  },
+  {
+   "person_key": "tom-horton",
+   "role": "lead_independent_director",
+   "start_date": "2018-05-30",
+   "end_date": "2025-06-05",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e109",
+    "e111",
+    "e110",
+    "e062",
+    "e060",
+    "e061"
+   ],
+   "notes": "Lead Independent Director 'immediately following' the 2018 annual meeting (held 2018-05-30) until Stephenson succeeded him at the 2025 annual meeting (2025-06-05)."
+  },
+  {
+   "person_key": "randall-stephenson",
+   "role": "lead_independent_director",
+   "start_date": "2025-06-05",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e062",
+    "e060",
+    "e061",
+    "e026",
+    "e028"
+   ],
+   "notes": "Appointed effective upon re-election at the 2025 annual meeting (2025-06-05)."
+  },
+  {
+   "person_key": "tom-horton",
+   "role": "independent_director",
+   "start_date": "2014-11-21",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e117",
+    "e105",
+    "e020"
+   ],
+   "notes": "Independent in every proxy reviewed (2016, 2019-2026)."
+  },
+  {
+   "person_key": "cesar-conde",
+   "role": "independent_director",
+   "start_date": "2019-02-07",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e108",
+    "e105",
+    "e020"
+   ],
+   "notes": "Independent in every proxy since appointment (2019-2026)."
+  },
+  {
+   "person_key": "sarah-friar",
+   "role": "independent_director",
+   "start_date": "2018-02-07",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e108",
+    "e105",
+    "e020"
+   ],
+   "notes": "Independent in every proxy reviewed (2019-2026)."
+  },
+  {
+   "person_key": "carla-harris",
+   "role": "independent_director",
+   "start_date": "2017-06-02",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e108",
+    "e105",
+    "e020"
+   ],
+   "notes": "Independent in every proxy reviewed (2019-2026)."
+  },
+  {
+   "person_key": "marissa-mayer",
+   "role": "independent_director",
+   "start_date": "2012-06-01",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e127",
+    "e117",
+    "e105",
+    "e020"
+   ],
+   "notes": "Determined independent at nomination (2012) and in every proxy reviewed since."
+  },
+  {
+   "person_key": "shishir-mehrotra",
+   "role": "independent_director",
+   "start_date": "2026-01-08",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e020"
+   ],
+   "notes": "Determined independent in the 2026 proxy (his first); aligned to his start."
+  },
+  {
+   "person_key": "bob-moritz",
+   "role": "independent_director",
+   "start_date": "2024-08-15",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e065",
+    "e020"
+   ],
+   "notes": "Independent in the 2025 and 2026 proxies; aligned to his start."
+  },
+  {
+   "person_key": "randall-stephenson",
+   "role": "independent_director",
+   "start_date": "2021-03-03",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e103",
+    "e089",
+    "e020"
+   ],
+   "notes": "Independent in every proxy since appointment (2021-2026)."
+  },
+  {
+   "person_key": "timothy-p-flynn",
+   "role": "independent_director",
+   "start_date": "2012-07-27",
+   "end_date": "2026-06-04",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e117",
+    "e105",
+    "e020"
+   ],
+   "notes": "Independent in every proxy reviewed (2016, 2019-2026)."
+  },
+  {
+   "person_key": "brian-niccol",
+   "role": "independent_director",
+   "start_date": "2024-06-05",
+   "end_date": "2026-06-04",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e074",
+    "e065",
+    "e020"
+   ],
+   "notes": "Determined independent in the 2024-2026 proxies."
+  },
+  {
+   "person_key": "steven-reinemund",
+   "role": "independent_director",
+   "start_date": "2010-06-04",
+   "end_date": "2022-06-01",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e130",
+    "e117",
+    "e105",
+    "e093",
+    "e090"
+   ],
+   "notes": "Independent from his 2010 nomination through his departure (2023 proxy confirms for his final period)."
+  }
+ ],
+ "committees": [
+  {
+   "person_key": "timothy-p-flynn",
+   "committee": "audit",
+   "role": "chair",
+   "as_of_filing": "0001193125-26-173673",
+   "as_of_date": "2026-04-23",
+   "evidence_refs": [
+    "e034",
+    "e066"
+   ]
+  },
+  {
+   "person_key": "cesar-conde",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001193125-26-173673",
+   "as_of_date": "2026-04-23",
+   "evidence_refs": [
+    "e034",
+    "e038"
+   ]
+  },
+  {
+   "person_key": "tom-horton",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001193125-26-173673",
+   "as_of_date": "2026-04-23",
+   "evidence_refs": [
+    "e034",
+    "e042"
+   ]
+  },
+  {
+   "person_key": "bob-moritz",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001193125-26-173673",
+   "as_of_date": "2026-04-23",
+   "evidence_refs": [
+    "e034",
+    "e045",
+    "e027"
+   ]
+  },
+  {
+   "person_key": "carla-harris",
+   "committee": "compensation",
+   "role": "chair",
+   "as_of_filing": "0001193125-26-173673",
+   "as_of_date": "2026-04-23",
+   "evidence_refs": [
+    "e035",
+    "e041"
+   ]
+  },
+  {
+   "person_key": "marissa-mayer",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001193125-26-173673",
+   "as_of_date": "2026-04-23",
+   "evidence_refs": [
+    "e035",
+    "e043"
+   ]
+  },
+  {
+   "person_key": "shishir-mehrotra",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001193125-26-173673",
+   "as_of_date": "2026-04-23",
+   "evidence_refs": [
+    "e035",
+    "e044",
+    "e147"
+   ]
+  },
+  {
+   "person_key": "brian-niccol",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001193125-26-173673",
+   "as_of_date": "2026-04-23",
+   "evidence_refs": [
+    "e035"
+   ]
+  },
+  {
+   "person_key": "randall-stephenson",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001193125-26-173673",
+   "as_of_date": "2026-04-23",
+   "evidence_refs": [
+    "e035",
+    "e047"
+   ]
+  },
+  {
+   "person_key": "randall-stephenson",
+   "committee": "nominating_governance",
+   "role": "chair",
+   "as_of_filing": "0001193125-26-173673",
+   "as_of_date": "2026-04-23",
+   "evidence_refs": [
+    "e036",
+    "e047"
+   ]
+  },
+  {
+   "person_key": "carla-harris",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001193125-26-173673",
+   "as_of_date": "2026-04-23",
+   "evidence_refs": [
+    "e036",
+    "e041"
+   ]
+  },
+  {
+   "person_key": "tom-horton",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001193125-26-173673",
+   "as_of_date": "2026-04-23",
+   "evidence_refs": [
+    "e036",
+    "e042"
+   ]
+  },
+  {
+   "person_key": "steuart-walton",
+   "committee": "strategic_planning_finance",
+   "role": "chair",
+   "as_of_filing": "0001193125-26-173673",
+   "as_of_date": "2026-04-23",
+   "evidence_refs": [
+    "e032",
+    "e048"
+   ]
+  },
+  {
+   "person_key": "cesar-conde",
+   "committee": "strategic_planning_finance",
+   "role": "member",
+   "as_of_filing": "0001193125-26-173673",
+   "as_of_date": "2026-04-23",
+   "evidence_refs": [
+    "e032",
+    "e038"
+   ]
+  },
+  {
+   "person_key": "carla-harris",
+   "committee": "strategic_planning_finance",
+   "role": "member",
+   "as_of_filing": "0001193125-26-173673",
+   "as_of_date": "2026-04-23",
+   "evidence_refs": [
+    "e032",
+    "e041"
+   ]
+  },
+  {
+   "person_key": "tom-horton",
+   "committee": "strategic_planning_finance",
+   "role": "member",
+   "as_of_filing": "0001193125-26-173673",
+   "as_of_date": "2026-04-23",
+   "evidence_refs": [
+    "e032",
+    "e042"
+   ]
+  },
+  {
+   "person_key": "randall-stephenson",
+   "committee": "strategic_planning_finance",
+   "role": "member",
+   "as_of_filing": "0001193125-26-173673",
+   "as_of_date": "2026-04-23",
+   "evidence_refs": [
+    "e032",
+    "e047"
+   ]
+  },
+  {
+   "person_key": "sarah-friar",
+   "committee": "technology_ecommerce",
+   "role": "chair",
+   "as_of_filing": "0001193125-26-173673",
+   "as_of_date": "2026-04-23",
+   "evidence_refs": [
+    "e033",
+    "e039"
+   ]
+  },
+  {
+   "person_key": "timothy-p-flynn",
+   "committee": "technology_ecommerce",
+   "role": "member",
+   "as_of_filing": "0001193125-26-173673",
+   "as_of_date": "2026-04-23",
+   "evidence_refs": [
+    "e033"
+   ]
+  },
+  {
+   "person_key": "marissa-mayer",
+   "committee": "technology_ecommerce",
+   "role": "member",
+   "as_of_filing": "0001193125-26-173673",
+   "as_of_date": "2026-04-23",
+   "evidence_refs": [
+    "e033",
+    "e043"
+   ]
+  },
+  {
+   "person_key": "shishir-mehrotra",
+   "committee": "technology_ecommerce",
+   "role": "member",
+   "as_of_filing": "0001193125-26-173673",
+   "as_of_date": "2026-04-23",
+   "evidence_refs": [
+    "e033",
+    "e044"
+   ]
+  },
+  {
+   "person_key": "bob-moritz",
+   "committee": "technology_ecommerce",
+   "role": "member",
+   "as_of_filing": "0001193125-26-173673",
+   "as_of_date": "2026-04-23",
+   "evidence_refs": [
+    "e033",
+    "e045"
+   ]
+  },
+  {
+   "person_key": "brian-niccol",
+   "committee": "technology_ecommerce",
+   "role": "member",
+   "as_of_filing": "0001193125-26-173673",
+   "as_of_date": "2026-04-23",
+   "evidence_refs": [
+    "e033"
+   ]
+  },
+  {
+   "person_key": "doug-mcmillon",
+   "committee": "executive",
+   "role": "chair",
+   "as_of_filing": "0001193125-26-173673",
+   "as_of_date": "2026-04-23",
+   "evidence_refs": [
+    "e037"
+   ]
+  },
+  {
+   "person_key": "john-furner",
+   "committee": "executive",
+   "role": "member",
+   "as_of_filing": "0001193125-26-173673",
+   "as_of_date": "2026-04-23",
+   "evidence_refs": [
+    "e037",
+    "e040",
+    "e143"
+   ]
+  },
+  {
+   "person_key": "greg-penner",
+   "committee": "executive",
+   "role": "member",
+   "as_of_filing": "0001193125-26-173673",
+   "as_of_date": "2026-04-23",
+   "evidence_refs": [
+    "e037",
+    "e046"
+   ]
+  },
+  {
+   "person_key": "randall-stephenson",
+   "committee": "executive",
+   "role": "member",
+   "as_of_filing": "0001193125-26-173673",
+   "as_of_date": "2026-04-23",
+   "evidence_refs": [
+    "e037",
+    "e047"
+   ]
+  },
+  {
+   "person_key": "s-robson-walton",
+   "committee": "strategic_planning_finance",
+   "role": "member",
+   "as_of_filing": "0000104169-24-000078",
+   "as_of_date": "2024-04-25",
+   "evidence_refs": [
+    "e081"
+   ]
+  },
+  {
+   "person_key": "s-robson-walton",
+   "committee": "executive",
+   "role": "member",
+   "as_of_filing": "0000104169-24-000078",
+   "as_of_date": "2024-04-25",
+   "evidence_refs": [
+    "e082"
+   ]
+  },
+  {
+   "person_key": "steven-reinemund",
+   "committee": "compensation",
+   "role": "chair",
+   "as_of_filing": "0000104169-22-000019",
+   "as_of_date": "2022-04-21",
+   "evidence_refs": [
+    "e099"
+   ]
+  },
+  {
+   "person_key": "steven-reinemund",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0000104169-22-000019",
+   "as_of_date": "2022-04-21",
+   "evidence_refs": [
+    "e100"
+   ]
+  },
+  {
+   "person_key": "steven-reinemund",
+   "committee": "technology_ecommerce",
+   "role": "member",
+   "as_of_filing": "0000104169-22-000019",
+   "as_of_date": "2022-04-21",
+   "evidence_refs": [
+    "e098"
+   ]
+  }
+ ],
+ "events": [
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "s-robson-walton",
+   "event_date": "1978",
+   "announced_date": null,
+   "evidence_refs": [
+    "e086"
+   ],
+   "summary": "S. Robson Walton joins the board (year only).",
+   "event_date_precision": "year"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "greg-penner",
+   "event_date": "2008-06-06",
+   "announced_date": "2008-04-22",
+   "evidence_refs": [
+    "e133",
+    "e134",
+    "e149"
+   ],
+   "summary": "Gregory B. Penner elected at the 2008 annual meeting.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "steven-reinemund",
+   "event_date": "2010-06-04",
+   "announced_date": "2010-04-19",
+   "evidence_refs": [
+    "e130",
+    "e131",
+    "e132",
+    "e150"
+   ],
+   "summary": "Steven S Reinemund elected at the 2010 annual meeting.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "marissa-mayer",
+   "event_date": "2012-06-01",
+   "announced_date": "2012-04-16",
+   "evidence_refs": [
+    "e126",
+    "e128",
+    "e129",
+    "e151"
+   ],
+   "summary": "Marissa A. Mayer elected at the 2012 annual meeting.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "timothy-p-flynn",
+   "event_date": "2012-07-27",
+   "announced_date": "2012-07-30",
+   "evidence_refs": [
+    "e125",
+    "e152"
+   ],
+   "summary": "Timothy P. Flynn appointed to the board and the Audit Committee.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "doug-mcmillon",
+   "event_date": "2013-11-22",
+   "announced_date": "2013-11-25",
+   "evidence_refs": [
+    "e122"
+   ],
+   "summary": "C. Douglas McMillon elected to the board (CEO-designate).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "doug-mcmillon",
+   "event_date": "2014-02-01",
+   "announced_date": "2013-11-25",
+   "evidence_refs": [
+    "e123"
+   ],
+   "summary": "McMillon becomes President and CEO.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "greg-penner",
+   "event_date": "2014-06",
+   "announced_date": null,
+   "evidence_refs": [
+    "e120",
+    "e116"
+   ],
+   "summary": "Penner appointed to the newly created Vice Chairman position.",
+   "event_date_precision": "month"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "tom-horton",
+   "event_date": "2014-11-21",
+   "announced_date": "2014-11-24",
+   "evidence_refs": [
+    "e121",
+    "e153"
+   ],
+   "summary": "Thomas W. Horton appointed to the board and the Audit Committee.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "greg-penner",
+   "event_date": "2015-06",
+   "announced_date": null,
+   "evidence_refs": [
+    "e116",
+    "e086"
+   ],
+   "summary": "Penner becomes Chairman, succeeding S. Robson Walton (Chairman since 1992), who stays on as a director.",
+   "event_date_precision": "month"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "steuart-walton",
+   "event_date": "2016-06-03",
+   "announced_date": "2016-04-20",
+   "evidence_refs": [
+    "e115",
+    "e118",
+    "e119",
+    "e154"
+   ],
+   "summary": "Steuart L. Walton elected at the 2016 annual meeting.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "carla-harris",
+   "event_date": "2017-06-02",
+   "announced_date": "2017-04-20",
+   "evidence_refs": [
+    "e112",
+    "e113",
+    "e114",
+    "e155"
+   ],
+   "summary": "Carla A. Harris elected at the 2017 annual meeting.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "sarah-friar",
+   "event_date": "2018-02-07",
+   "announced_date": "2018-02-08",
+   "evidence_refs": [
+    "e136",
+    "e156"
+   ],
+   "summary": "Sarah Friar appointed to the board.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "tom-horton",
+   "event_date": "2018-05-30",
+   "announced_date": null,
+   "evidence_refs": [
+    "e109",
+    "e111"
+   ],
+   "summary": "Horton becomes Lead Independent Director after the 2018 annual meeting.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "cesar-conde",
+   "event_date": "2019-02-07",
+   "announced_date": "2019-02-11",
+   "evidence_refs": [
+    "e137",
+    "e157"
+   ],
+   "summary": "Cesar Conde appointed to the board.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "randall-stephenson",
+   "event_date": "2021-03-03",
+   "announced_date": "2021-03-05",
+   "evidence_refs": [
+    "e138",
+    "e158"
+   ],
+   "summary": "Randall L. Stephenson appointed to the board.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "steven-reinemund",
+   "event_date": "2022-06-01",
+   "announced_date": "2022-04-21",
+   "evidence_refs": [
+    "e092",
+    "e101",
+    "e102",
+    "e090"
+   ],
+   "summary": "Steven S Reinemund leaves at the 2022 annual meeting (did not stand; 12-year term limit).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_SIZE_CHANGE",
+   "person_key": null,
+   "event_date": "2022-06-01",
+   "announced_date": "2022-04-21",
+   "evidence_refs": [
+    "e092",
+    "e102"
+   ],
+   "summary": "Board reduced from 12 to 11 at the 2022 annual meeting.",
+   "event_date_precision": "day",
+   "from_size": 12,
+   "to_size": 11
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "s-robson-walton",
+   "event_date": "2024-06-05",
+   "announced_date": "2024-04-25",
+   "evidence_refs": [
+    "e075",
+    "e076",
+    "e077",
+    "e083",
+    "e084"
+   ],
+   "summary": "S. Robson Walton leaves at the 2024 annual meeting (did not stand; retiring).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "brian-niccol",
+   "event_date": "2024-06-05",
+   "announced_date": "2024-04-25",
+   "evidence_refs": [
+    "e073",
+    "e083",
+    "e085",
+    "e159"
+   ],
+   "summary": "Brian Niccol elected at the 2024 annual meeting.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "bob-moritz",
+   "event_date": "2024-08-15",
+   "announced_date": "2024-08-15",
+   "evidence_refs": [
+    "e139",
+    "e160"
+   ],
+   "summary": "Robert E. Moritz, Jr. appointed to the board.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "randall-stephenson",
+   "event_date": "2025-06-05",
+   "announced_date": "2025-04-24",
+   "evidence_refs": [
+    "e062",
+    "e060",
+    "e061",
+    "e026"
+   ],
+   "summary": "Stephenson succeeds Horton as Lead Independent Director at the 2025 annual meeting.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "john-furner",
+   "event_date": "2025-11-13",
+   "announced_date": "2025-11-14",
+   "evidence_refs": [
+    "e140"
+   ],
+   "summary": "John R. Furner elected to the board (CEO-designate).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "shishir-mehrotra",
+   "event_date": "2026-01-08",
+   "announced_date": "2026-01-08",
+   "evidence_refs": [
+    "e147",
+    "e161"
+   ],
+   "summary": "Shishir Mehrotra appointed to the board.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "john-furner",
+   "event_date": "2026-02-01",
+   "announced_date": "2025-11-14",
+   "evidence_refs": [
+    "e141",
+    "e144",
+    "e029"
+   ],
+   "summary": "Furner succeeds McMillon as President and CEO; McMillon stays a director until the 2026 meeting.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "doug-mcmillon",
+   "event_date": "2026-06-04",
+   "announced_date": "2025-11-14",
+   "evidence_refs": [
+    "e145",
+    "e022",
+    "e007",
+    "e008"
+   ],
+   "summary": "C. Douglas McMillon's term ends at the 2026 annual meeting (not renominated; retiring).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "timothy-p-flynn",
+   "event_date": "2026-06-04",
+   "announced_date": "2026-04-23",
+   "evidence_refs": [
+    "e023",
+    "e064",
+    "e007",
+    "e008"
+   ],
+   "summary": "Timothy P. Flynn's term ends at the 2026 annual meeting (not renominated; retiring).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "brian-niccol",
+   "event_date": "2026-06-04",
+   "announced_date": "2026-04-23",
+   "evidence_refs": [
+    "e024",
+    "e007",
+    "e008"
+   ],
+   "summary": "Brian Niccol leaves at the 2026 annual meeting (did not stand).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_SIZE_CHANGE",
+   "person_key": null,
+   "event_date": "2026-06-04",
+   "announced_date": "2026-04-23",
+   "evidence_refs": [
+    "e006",
+    "e008"
+   ],
+   "summary": "Board set at 11 after the 2026 annual meeting. The prior size is not stated; 14 directors were serving before the meeting (11 nominees plus McMillon, Flynn and Niccol).",
+   "event_date_precision": "day",
+   "to_size": 11
+  }
+ ],
+ "evidence": [
+  {
+   "id": "e001",
+   "form": "10-K",
+   "accession": "0000104169-26-000055",
+   "filing_date": "2026-03-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm",
+   "quote": "Effective December 9, 2025, the principal market on which Walmart's common stock is listed has been the Nasdaq Global Select Market. Prior to December 9, 2025, Walmart's common stock was listed on the New York Stock Exchange.",
+   "supports": "Current exchange: Nasdaq Global Select Market since 2025-12-09; NYSE before that."
+  },
+  {
+   "id": "e002",
+   "form": "10-K",
+   "accession": "0000104169-26-000055",
+   "filing_date": "2026-03-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm",
+   "quote": "We completed our initial public offering in 1970.",
+   "supports": "Public since 1970 (IPO year); supports listed_since_year=1970."
+  },
+  {
+   "id": "e003",
+   "form": "8-K",
+   "accession": "0000104169-25-000177",
+   "filing_date": "2025-11-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416925000177/wmt-20251119.htm",
+   "quote": "The Company expects that the listing and trading of the Common Stock and the Company Notes on the NYSE will end at market close on December 8, 2025 and that trading will begin on Nasdaq at market open on December 9, 2025.",
+   "supports": "NYSE-to-Nasdaq transfer: last NYSE day 2025-12-08, first Nasdaq day 2025-12-09."
+  },
+  {
+   "id": "e004",
+   "form": "10-K",
+   "accession": "0000104169-26-000055",
+   "filing_date": "2026-03-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm",
+   "quote": "are to the Delaware corporation named \"Walmart Inc.\"",
+   "supports": "State of incorporation: Delaware."
+  },
+  {
+   "id": "e005",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-173673",
+   "filing_date": "2026-04-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000119312526173673/wmt-20260423.htm",
+   "quote": "You are voting to elect each nominee named below as a director of Walmart for a one-year term.",
+   "supports": "All directors elected annually (no classified board)."
+  },
+  {
+   "id": "e006",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-173673",
+   "filing_date": "2026-04-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000119312526173673/wmt-20260423.htm",
+   "quote": "If the shareholders elect all the director nominees named in this proxy statement at the 2026 Annual Shareholders’ Meeting, Walmart will have 11 directors.",
+   "supports": "Board of 11 after the 2026 annual meeting."
+  },
+  {
+   "id": "e007",
+   "form": "8-K",
+   "accession": "0000104169-26-000111",
+   "filing_date": "2026-06-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000111/wmt-20260604.htm",
+   "quote": "On June 4, 2026, Walmart Inc. (the \"Company\") held its Annual Shareholders' Meeting (the \"Meeting\").",
+   "supports": "2026 annual meeting held 2026-06-04."
+  },
+  {
+   "id": "e008",
+   "form": "8-K",
+   "accession": "0000104169-26-000111",
+   "filing_date": "2026-06-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000111/wmt-20260604.htm",
+   "quote": "The Company's shareholders elected for one-year terms all eleven persons nominated for election as directors as set forth in the Proxy Statement.",
+   "supports": "All 11 nominees elected 2026-06-04; directors not nominated (McMillon, Flynn, Niccol) left at the meeting."
+  },
+  {
+   "id": "e009",
+   "form": "8-K",
+   "accession": "0000104169-26-000111",
+   "filing_date": "2026-06-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000111/wmt-20260604.htm",
+   "quote": "Cesar Conde 6,475,579,143 50,164,479 4,831,814 633,971,647",
+   "supports": "cesar-conde: re-elected at the 2026-06-04 annual meeting (vote row: for/against/abstain/broker non-votes).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e010",
+   "form": "8-K",
+   "accession": "0000104169-26-000111",
+   "filing_date": "2026-06-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000111/wmt-20260604.htm",
+   "quote": "Sarah J. Friar 6,514,321,598 11,700,270 4,553,568 633,971,647",
+   "supports": "sarah-friar: re-elected at the 2026-06-04 annual meeting (vote row: for/against/abstain/broker non-votes).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e011",
+   "form": "8-K",
+   "accession": "0000104169-26-000111",
+   "filing_date": "2026-06-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000111/wmt-20260604.htm",
+   "quote": "John R. Furner 6,485,530,053 40,316,465 4,728,918 633,971,647",
+   "supports": "john-furner: re-elected at the 2026-06-04 annual meeting (vote row: for/against/abstain/broker non-votes).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e012",
+   "form": "8-K",
+   "accession": "0000104169-26-000111",
+   "filing_date": "2026-06-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000111/wmt-20260604.htm",
+   "quote": "Carla A. Harris 6,352,545,569 173,494,253 4,535,614 633,971,647",
+   "supports": "carla-harris: re-elected at the 2026-06-04 annual meeting (vote row: for/against/abstain/broker non-votes).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e013",
+   "form": "8-K",
+   "accession": "0000104169-26-000111",
+   "filing_date": "2026-06-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000111/wmt-20260604.htm",
+   "quote": "Thomas W. Horton 6,413,736,523 111,888,677 4,950,236 633,971,647",
+   "supports": "tom-horton: re-elected at the 2026-06-04 annual meeting (vote row: for/against/abstain/broker non-votes).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e014",
+   "form": "8-K",
+   "accession": "0000104169-26-000111",
+   "filing_date": "2026-06-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000111/wmt-20260604.htm",
+   "quote": "Marissa A. Mayer 6,466,604,047 59,398,938 4,572,451 633,971,647",
+   "supports": "marissa-mayer: re-elected at the 2026-06-04 annual meeting (vote row: for/against/abstain/broker non-votes).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e015",
+   "form": "8-K",
+   "accession": "0000104169-26-000111",
+   "filing_date": "2026-06-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000111/wmt-20260604.htm",
+   "quote": "Shishir Mehrotra 6,492,644,977 32,899,188 5,031,271 633,971,647",
+   "supports": "shishir-mehrotra: re-elected at the 2026-06-04 annual meeting (vote row: for/against/abstain/broker non-votes).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e016",
+   "form": "8-K",
+   "accession": "0000104169-26-000111",
+   "filing_date": "2026-06-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000111/wmt-20260604.htm",
+   "quote": "Robert E. Moritz, Jr. 6,465,496,802 60,064,343 5,014,291 633,971,647",
+   "supports": "bob-moritz: re-elected at the 2026-06-04 annual meeting (vote row: for/against/abstain/broker non-votes).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e017",
+   "form": "8-K",
+   "accession": "0000104169-26-000111",
+   "filing_date": "2026-06-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000111/wmt-20260604.htm",
+   "quote": "Gregory B. Penner 6,348,541,000 177,035,049 4,999,387 633,971,647",
+   "supports": "greg-penner: re-elected at the 2026-06-04 annual meeting (vote row: for/against/abstain/broker non-votes).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e018",
+   "form": "8-K",
+   "accession": "0000104169-26-000111",
+   "filing_date": "2026-06-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000111/wmt-20260604.htm",
+   "quote": "Randall L. Stephenson 6,274,541,334 247,546,757 8,487,345 633,971,647",
+   "supports": "randall-stephenson: re-elected at the 2026-06-04 annual meeting (vote row: for/against/abstain/broker non-votes).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e019",
+   "form": "8-K",
+   "accession": "0000104169-26-000111",
+   "filing_date": "2026-06-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000111/wmt-20260604.htm",
+   "quote": "Steuart L. Walton 6,484,158,261 41,690,946 4,726,229 633,971,647",
+   "supports": "steuart-walton: re-elected at the 2026-06-04 annual meeting (vote row: for/against/abstain/broker non-votes).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e020",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-173673",
+   "filing_date": "2026-04-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000119312526173673/wmt-20260423.htm",
+   "quote": "As a result of this review, the Board has affirmatively determined the following directors are Independent Directors under the general independence definition in the Nasdaq Listing Rules: Cesar Conde, Tim Flynn, Sarah Friar, Carla Harris, Tom Horton, Marissa Mayer, Shishir Mehrotra, Bob Moritz, Brian Niccol, and Randall Stephenson.",
+   "supports": "2026 independence determinations."
+  },
+  {
+   "id": "e021",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-173673",
+   "filing_date": "2026-04-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000119312526173673/wmt-20260423.htm",
+   "quote": "The Board has not determined the independence of Greg Penner or Steuart Walton.",
+   "supports": "Penner and Steuart Walton not determined independent (2026)."
+  },
+  {
+   "id": "e022",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-173673",
+   "filing_date": "2026-04-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000119312526173673/wmt-20260423.htm",
+   "quote": "As part of this leadership transition, John formally joined the Board in November 2025 and Doug will retire from the Board at the end of his term this June.",
+   "supports": "Furner joined November 2025; McMillon leaves the board at the end of his term (June 2026 meeting)."
+  },
+  {
+   "id": "e023",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-173673",
+   "filing_date": "2026-04-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000119312526173673/wmt-20260423.htm",
+   "quote": "Additionally, as planned, Tim Flynn will retire from the Board following the upcoming Annual Shareholders’ Meeting and Bob Moritz, if elected, will assume the role of Audit Committee Chair.",
+   "supports": "Flynn not renominated; retires at the 2026 meeting; Moritz to chair Audit."
+  },
+  {
+   "id": "e024",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-173673",
+   "filing_date": "2026-04-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000119312526173673/wmt-20260423.htm",
+   "quote": "Separately, Brian Niccol, who joined the Board in 2024, will not stand for re-election as he focuses on his responsibilities leading Starbucks.",
+   "supports": "Niccol did not stand for re-election in 2026."
+  },
+  {
+   "id": "e025",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-173673",
+   "filing_date": "2026-04-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000119312526173673/wmt-20260423.htm",
+   "quote": "At the same time, if elected, Marissa Mayer has agreed to remain on the Board for a second year beyond our standard 12-year term limit, extending her service until our 2027 Annual Shareholders’ Meeting.",
+   "supports": "Mayer's service extended to the 2027 annual meeting."
+  },
+  {
+   "id": "e026",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-173673",
+   "filing_date": "2026-04-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000119312526173673/wmt-20260423.htm",
+   "quote": "Mr. Stephenson became our Lead Independent Director immediately following our 2025 Annual Shareholders’ Meeting.",
+   "supports": "Stephenson Lead Independent Director from the 2025 annual meeting (2025-06-05)."
+  },
+  {
+   "id": "e027",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-173673",
+   "filing_date": "2026-04-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000119312526173673/wmt-20260423.htm",
+   "quote": "In light of Mr. Flynn’s upcoming retirement from the Board, Mr. Moritz will replace Mr. Flynn as Chair of the Audit Committee effective as of the 2026 Annual Shareholders’ Meeting, subject to Mr. Moritz’s re-election to the Board.",
+   "supports": "Moritz becomes Audit Chair as of 2026-06-04 (re-elected that day)."
+  },
+  {
+   "id": "e028",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-173673",
+   "filing_date": "2026-04-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000119312526173673/wmt-20260423.htm",
+   "quote": "Greg Penner Randall Stephenson John Furner Non-Executive Chairman Lead Independent Director President and CEO",
+   "supports": "Current leadership: Penner non-executive Chairman, Stephenson LID, Furner President and CEO.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e029",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-173673",
+   "filing_date": "2026-04-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000119312526173673/wmt-20260423.htm",
+   "quote": "* Mr. McMillon retired as President and CEO effective January 31, 2026, and Mr. Furner was appointed President and CEO effective February 1, 2026.",
+   "supports": "CEO transition: McMillon to 2026-01-31, Furner from 2026-02-01."
+  },
+  {
+   "id": "e030",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-173673",
+   "filing_date": "2026-04-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000119312526173673/wmt-20260423.htm",
+   "quote": "* Mr. Penner's spouse is the cousin of Steuart Walton.",
+   "supports": "Family relationship as stated in 2026 proxy (Penner bio)."
+  },
+  {
+   "id": "e031",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-173673",
+   "filing_date": "2026-04-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000119312526173673/wmt-20260423.htm",
+   "quote": "* Mr. Walton is the cousin of Gregory B. Penner's spouse.",
+   "supports": "Family relationship as stated in 2026 proxy (Steuart Walton bio)."
+  },
+  {
+   "id": "e032",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-173673",
+   "filing_date": "2026-04-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000119312526173673/wmt-20260423.htm",
+   "quote": "Steuart Walton, Chair Cesar Conde Carla Harris Tom Horton Randall Stephenson",
+   "supports": "Strategic Planning and Finance Committee roster (2026 proxy).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e033",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-173673",
+   "filing_date": "2026-04-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000119312526173673/wmt-20260423.htm",
+   "quote": "Sarah Friar, Chair Tim Flynn Marissa Mayer Shishir Mehrotra Bob Moritz Brian Niccol",
+   "supports": "Technology and eCommerce Committee roster (2026 proxy).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e034",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-173673",
+   "filing_date": "2026-04-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000119312526173673/wmt-20260423.htm",
+   "quote": "Tim Flynn, Chair** Cesar Conde Tom Horton Bob Moritz",
+   "supports": "Audit Committee roster (2026 proxy).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e035",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-173673",
+   "filing_date": "2026-04-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000119312526173673/wmt-20260423.htm",
+   "quote": "Carla Harris, Chair Marissa Mayer Shishir Mehrotra Brian Niccol Randall Stephenson",
+   "supports": "Compensation and Management Development Committee roster (2026 proxy).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e036",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-173673",
+   "filing_date": "2026-04-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000119312526173673/wmt-20260423.htm",
+   "quote": "Randall Stephenson, Chair Carla Harris Tom Horton",
+   "supports": "Nominating and Governance Committee roster (2026 proxy).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e037",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-173673",
+   "filing_date": "2026-04-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000119312526173673/wmt-20260423.htm",
+   "quote": "Doug McMillon, Chair John Furner Greg Penner Randall Stephenson",
+   "supports": "Executive Committee roster (2026 proxy).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e038",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-173673",
+   "filing_date": "2026-04-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000119312526173673/wmt-20260423.htm",
+   "quote": "Cesar Conde Independent Director Age: 52 Joined the Board: 2019 Board Committees: •Audit •SPFC Other Current Public Company Directorships: •PepsiCo, Inc. •Ralph Lauren Corporation",
+   "supports": "cesar-conde: 2026 proxy bio header (title, year joined, committees, other current public company boards).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e039",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-173673",
+   "filing_date": "2026-04-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000119312526173673/wmt-20260423.htm",
+   "quote": "Sarah J. Friar Independent Director Age: 53 Joined the Board: 2018 Board Committees: •TeCC (Chair) Other Current Public Company Directorships: •None",
+   "supports": "sarah-friar: 2026 proxy bio header (title, year joined, committees, other current public company boards).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e040",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-173673",
+   "filing_date": "2026-04-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000119312526173673/wmt-20260423.htm",
+   "quote": "John R. Furner President and CEO and Director Age: 51 Joined the Board: 2025 Board Committees: •Executive Committee Other Current Public Company Directorships: •None",
+   "supports": "john-furner: 2026 proxy bio header (title, year joined, committees, other current public company boards).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e041",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-173673",
+   "filing_date": "2026-04-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000119312526173673/wmt-20260423.htm",
+   "quote": "Carla A. Harris Independent Director Age: 63 Joined the Board: 2017 Board Committees: •CMDC (Chair) •NGC •SPFC Other Current Public Company Directorships: •Cummins Inc. •MetLife, Inc.",
+   "supports": "carla-harris: 2026 proxy bio header (title, year joined, committees, other current public company boards).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e042",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-173673",
+   "filing_date": "2026-04-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000119312526173673/wmt-20260423.htm",
+   "quote": "Thomas W. Horton Independent Director Age: 64 Joined the Board: 2014 Board Committees: •Audit •NGC •SPFC Other Current Public Company Directorships: •Chevron Corporation •General Electric Company",
+   "supports": "tom-horton: 2026 proxy bio header (title, year joined, committees, other current public company boards).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e043",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-173673",
+   "filing_date": "2026-04-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000119312526173673/wmt-20260423.htm",
+   "quote": "Marissa A. Mayer Independent Director Age: 50 Joined the Board: 2012 Board Committees: •CMDC •TeCC Other Current Public Company Directorships: •AT&T Inc. •Hilton Worldwide Holdings Inc. •Starbucks Corporation",
+   "supports": "marissa-mayer: 2026 proxy bio header (title, year joined, committees, other current public company boards).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e044",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-173673",
+   "filing_date": "2026-04-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000119312526173673/wmt-20260423.htm",
+   "quote": "Shishir Mehrotra Independent Director Age: 47 Joined the Board: January 2026 Board Committees: •CMDC •TeCC Other Current Public Company Directorships: •Spotify Technology S.A.",
+   "supports": "shishir-mehrotra: 2026 proxy bio header (title, year joined, committees, other current public company boards).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e045",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-173673",
+   "filing_date": "2026-04-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000119312526173673/wmt-20260423.htm",
+   "quote": "Robert E. Moritz, Jr. Independent Director Age: 62 Joined the Board: 2024 Board Committees: •Audit •TeCC Other Current Public Company Directorships: •Northern Trust Corp. •S&P Global Inc.",
+   "supports": "bob-moritz: 2026 proxy bio header (title, year joined, committees, other current public company boards).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e046",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-173673",
+   "filing_date": "2026-04-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000119312526173673/wmt-20260423.htm",
+   "quote": "Gregory B. Penner* Non-Executive Chairman Age: 56 Joined the Board: 2008 Board Committees: •Executive Committee Other Current Public Company Directorships: •None",
+   "supports": "greg-penner: 2026 proxy bio header (title, year joined, committees, other current public company boards).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e047",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-173673",
+   "filing_date": "2026-04-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000119312526173673/wmt-20260423.htm",
+   "quote": "Randall L. Stephenson Lead Independent Director Age: 66 Joined the Board: 2021 Board Committees: •CMDC •Executive Committee •NGC (Chair) •SPFC Other Current Public Company Directorships: •None",
+   "supports": "randall-stephenson: 2026 proxy bio header (title, year joined, committees, other current public company boards).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e048",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-173673",
+   "filing_date": "2026-04-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000119312526173673/wmt-20260423.htm",
+   "quote": "Steuart L. Walton* Director Age: 44 Joined the Board: 2016 Board Committees: •SPFC (Chair) Other Current Public Company Directorships: •None",
+   "supports": "steuart-walton: 2026 proxy bio header (title, year joined, committees, other current public company boards).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e049",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-173673",
+   "filing_date": "2026-04-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000119312526173673/wmt-20260423.htm",
+   "quote": "Mr. Conde has served on the board of directors of Ralph Lauren Corporation since January 2026 and on the board of directors of PepsiCo, Inc. since March 2016. From August 2014 to April 2019, he served on the board of directors of Owens Corning.",
+   "supports": "cesar-conde: other public company boards per 2026 proxy bio."
+  },
+  {
+   "id": "e050",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-173673",
+   "filing_date": "2026-04-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000119312526173673/wmt-20260423.htm",
+   "quote": "Ms. Friar served as the chairperson of the board of directors of Nextdoor Holdings, Inc. from November 2021 to March 2024 and previously served as a director of Dragoneer Growth Opportunities Corp. III from March 2021 to March 2023.",
+   "supports": "sarah-friar: other public company boards per 2026 proxy bio."
+  },
+  {
+   "id": "e051",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-173673",
+   "filing_date": "2026-04-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000119312526173673/wmt-20260423.htm",
+   "quote": "She also previously served as a director of Slack Technologies, Inc. from March 2017 until July 2021, Dragoneer Growth Opportunities Corp. from August 2020 until July 2021, and Dragoneer Growth Opportunities Corp. II from November 2020 until December 2021.",
+   "supports": "sarah-friar: other public company boards per 2026 proxy bio."
+  },
+  {
+   "id": "e052",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-173673",
+   "filing_date": "2026-04-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000119312526173673/wmt-20260423.htm",
+   "quote": "Ms. Harris has served on the board of directors of Cummins Inc. since May 2021 and on the board of MetLife, Inc. since April 2022.",
+   "supports": "carla-harris: other public company boards per 2026 proxy bio."
+  },
+  {
+   "id": "e053",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-173673",
+   "filing_date": "2026-04-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000119312526173673/wmt-20260423.htm",
+   "quote": "Mr. Horton has served on the board of directors of General Electric Company since April 2018, of which he has served as Lead Director since October 2018, and joined the board of directors of Chevron Corporation in January 2026.",
+   "supports": "tom-horton: other public company boards per 2026 proxy bio."
+  },
+  {
+   "id": "e054",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-173673",
+   "filing_date": "2026-04-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000119312526173673/wmt-20260423.htm",
+   "quote": "From August 2019 to March 2022, he served on the board of directors of EnLink Midstream, LLC, a portfolio company of Global Infrastructure Partners that provides midstream energy services. From 2008 to March 2019, Mr. Horton served on the board of directors of QUALCOMM Incorporated.",
+   "supports": "tom-horton: other public company boards per 2026 proxy bio."
+  },
+  {
+   "id": "e055",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-173673",
+   "filing_date": "2026-04-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000119312526173673/wmt-20260423.htm",
+   "quote": "Ms. Mayer joined the board of directors of Hilton Worldwide Holdings Inc. in May 2025 and the board of directors of Starbucks Corporation in June 2025. She has served on the board of directors of AT&T, Inc. since March 2024. She previously served on the board of directors of Nextdoor Holdings, Inc. from May 2024 to June 2025.",
+   "supports": "marissa-mayer: other public company boards per 2026 proxy bio."
+  },
+  {
+   "id": "e056",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-173673",
+   "filing_date": "2026-04-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000119312526173673/wmt-20260423.htm",
+   "quote": "Mr. Mehrotra has served on the board of Spotify Technology S.A. since June 2017.",
+   "supports": "shishir-mehrotra: other public company boards per 2026 proxy bio."
+  },
+  {
+   "id": "e057",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-173673",
+   "filing_date": "2026-04-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000119312526173673/wmt-20260423.htm",
+   "quote": "Mr. Moritz joined the board of directors of S&P Global Inc. in February 2026 and has served as a member of the board of directors of Northern Trust Corporation since March 2025.",
+   "supports": "bob-moritz: other public company boards per 2026 proxy bio."
+  },
+  {
+   "id": "e058",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-173673",
+   "filing_date": "2026-04-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000119312526173673/wmt-20260423.htm",
+   "quote": "He previously served on the board of directors of Baidu, Inc. from May 2004 to December 2017 and Hyatt Hotels Corporation from August 2007 to September 2014.",
+   "supports": "greg-penner: other public company boards per 2026 proxy bio."
+  },
+  {
+   "id": "e059",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-173673",
+   "filing_date": "2026-04-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000119312526173673/wmt-20260423.htm",
+   "quote": "He previously served on the boards of directors of AT&T from 2005 until his retirement in January 2021, The Boeing Company from February 2016 to December 2017, and Emerson Electric Co. from June 2006 to December 2017.",
+   "supports": "randall-stephenson: other public company boards per 2026 proxy bio."
+  },
+  {
+   "id": "e060",
+   "form": "8-K",
+   "accession": "0000104169-25-000092",
+   "filing_date": "2025-06-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416925000092/wmt-20250605.htm",
+   "quote": "On June 5, 2025, Walmart Inc. (the “Company”) held its Annual Shareholders’ Meeting (the “Meeting”).",
+   "supports": "2025 annual meeting held 2025-06-05."
+  },
+  {
+   "id": "e061",
+   "form": "8-K",
+   "accession": "0000104169-25-000092",
+   "filing_date": "2025-06-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416925000092/wmt-20250605.htm",
+   "quote": "The Company’s shareholders elected for one-year terms all twelve persons nominated for election as directors as set forth in the Company’s proxy statement dated April 24, 2025.",
+   "supports": "All 12 nominees elected 2025-06-05 (incl. Stephenson, so his LID appointment took effect)."
+  },
+  {
+   "id": "e062",
+   "form": "DEF 14A",
+   "accession": "0000104169-25-000055",
+   "filing_date": "2025-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416925000055/wmt-20250424.htm",
+   "quote": "* The independent directors of the Board have appointed Mr. Stephenson to serve as our Lead Independent Director, subject to and effective upon his re-election as a Director at the 2025 Annual Shareholders’ Meeting. In this role, Mr. Stephenson will succeed Mr. Horton, who, subject to his re-election, will continue to serve as an independent director.",
+   "supports": "Stephenson succeeds Horton as LID effective at the 2025 annual meeting."
+  },
+  {
+   "id": "e063",
+   "form": "DEF 14A",
+   "accession": "0000104169-25-000055",
+   "filing_date": "2025-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416925000055/wmt-20250424.htm",
+   "quote": "As I approach my 11th year on Walmart's board and complete my sixth year as your Lead Independent Director",
+   "supports": "Horton's 2025 letter counts six years as LID (see conflicts)."
+  },
+  {
+   "id": "e064",
+   "form": "DEF 14A",
+   "accession": "0000104169-25-000055",
+   "filing_date": "2025-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416925000055/wmt-20250424.htm",
+   "quote": "Tim, who chairs our Audit Committee and has extensive experience in risk management and financial reporting oversight, has agreed to continue to serve, subject to election, until 2026.",
+   "supports": "Flynn's 2025 term-limit extension to 2026."
+  },
+  {
+   "id": "e065",
+   "form": "DEF 14A",
+   "accession": "0000104169-25-000055",
+   "filing_date": "2025-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416925000055/wmt-20250424.htm",
+   "quote": "As a result of this review, the Board has affirmatively determined the following directors are Independent Directors under the general independence definition in the NYSE Listed Company Rules: Cesar Conde, Tim Flynn, Sarah Friar, Carla Harris, Tom Horton, Marissa Mayer, Bob Moritz, Brian Niccol, and Randall Stephenson.",
+   "supports": "2025 independence determinations."
+  },
+  {
+   "id": "e066",
+   "form": "DEF 14A",
+   "accession": "0000104169-25-000055",
+   "filing_date": "2025-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416925000055/wmt-20250424.htm",
+   "quote": "Timothy P. Flynn INDEPENDENT DIRECTOR Age: 68 Joined the Board: 2012 Board Committees: Audit (Chair) TeCC Other Current Public Company Directorships: UnitedHealth Group Incorporated",
+   "supports": "Flynn 2025 bio header (joined 2012; committees; UnitedHealth current).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e067",
+   "form": "DEF 14A",
+   "accession": "0000104169-25-000055",
+   "filing_date": "2025-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416925000055/wmt-20250424.htm",
+   "quote": "Mr. Flynn joined the board of directors of UnitedHealth Group Incorporated in January 2017. He also served on the board of directors of JPMorgan Chase & Co from May 2012 to May 2024 and on the board of directors of Alcoa Corporation from November 2016 until May 2021.",
+   "supports": "Flynn other public boards (last Walmart bio, 2025 proxy)."
+  },
+  {
+   "id": "e068",
+   "form": "DEF 14A",
+   "accession": "0000104169-25-000055",
+   "filing_date": "2025-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416925000055/wmt-20250424.htm",
+   "quote": "He previously served as a member of the board of directors of The Chubb Corporation from September 2013 until its acquisition in January 2016.",
+   "supports": "Flynn former Chubb board (2025 proxy)."
+  },
+  {
+   "id": "e069",
+   "form": "DEF 14A",
+   "accession": "0000104169-25-000055",
+   "filing_date": "2025-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416925000055/wmt-20250424.htm",
+   "quote": "Brian Niccol INDEPENDENT DIRECTOR Age: 51 Joined the Board: 2024 Board Committees: CMDC TeCC Other Current Public Company Directorships: Starbucks Corporation",
+   "supports": "Niccol 2025 bio header (joined 2024; Starbucks current).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e070",
+   "form": "DEF 14A",
+   "accession": "0000104169-25-000055",
+   "filing_date": "2025-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416925000055/wmt-20250424.htm",
+   "quote": "Mr. Niccol served on the board of directors of Chipotle Mexican Grill, Inc. from March 2018 to August 2024 and as chairman from March 2020 to August 2024. He served on KB Home's board of directors from July 2021 to April 2024 and on the board of directors of Harley-Davidson from 2016 to 2021.",
+   "supports": "Niccol other public boards (last Walmart bio, 2025 proxy)."
+  },
+  {
+   "id": "e071",
+   "form": "DEF 14A",
+   "accession": "0000104169-25-000055",
+   "filing_date": "2025-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416925000055/wmt-20250424.htm",
+   "quote": "Age: 58 Joined the Board: 2013 Board Committees: Executive Committee (Chair) Other Current Public Company Directorships: None",
+   "supports": "McMillon 2025 bio header (joined 2013; Executive Committee chair; no other public boards).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e072",
+   "form": "DEF 14A",
+   "accession": "0000104169-25-000055",
+   "filing_date": "2025-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416925000055/wmt-20250424.htm",
+   "quote": "* Mr. Penner's spouse is the cousin of Steuart Walton.",
+   "supports": "Relationship wording in 2025 proxy (same as 2026)."
+  },
+  {
+   "id": "e073",
+   "form": "DEF 14A",
+   "accession": "0000104169-24-000078",
+   "filing_date": "2024-04-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416924000078/wmt-20240424.htm",
+   "quote": "the Board has nominated Brian Niccol, the Chairman and CEO of Chipotle Mexican Grill, Inc. for election at the 2024 Annual Shareholders’ Meeting.",
+   "supports": "Niccol first nominated for election at the 2024 annual meeting."
+  },
+  {
+   "id": "e074",
+   "form": "DEF 14A",
+   "accession": "0000104169-24-000078",
+   "filing_date": "2024-04-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416924000078/wmt-20240424.htm",
+   "quote": "The Board has also affirmatively determined that Brian Niccol, who is standing for election for the first time, would be an Independent Director under the general independence definition in the NYSE Listed Company Rules.",
+   "supports": "Niccol independence determination (2024)."
+  },
+  {
+   "id": "e075",
+   "form": "DEF 14A",
+   "accession": "0000104169-24-000078",
+   "filing_date": "2024-04-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416924000078/wmt-20240424.htm",
+   "quote": "Rob Walton, who joined Walmart in 1969 and before that worked alongside his father Sam in his 5 & 10 store, will retire from the Board at the conclusion of his current term.",
+   "supports": "Rob Walton retires at the end of his term (2024 annual meeting)."
+  },
+  {
+   "id": "e076",
+   "form": "DEF 14A",
+   "accession": "0000104169-24-000078",
+   "filing_date": "2024-04-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416924000078/wmt-20240424.htm",
+   "quote": "* Retiring from the Board as of the 2024 Annual Shareholders' Meeting and will not stand for re-election.",
+   "supports": "Rob Walton not standing in 2024 (committee roster footnote)."
+  },
+  {
+   "id": "e077",
+   "form": "DEF 14A",
+   "accession": "0000104169-24-000078",
+   "filing_date": "2024-04-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416924000078/wmt-20240424.htm",
+   "quote": "One of those incredible leaders is Rob Walton, my father-in-law, who recently shared his decision not to seek re-election to our Board of Directors.",
+   "supports": "Penner (Chairman) letter: Rob Walton, his father-in-law, not seeking re-election."
+  },
+  {
+   "id": "e078",
+   "form": "DEF 14A",
+   "accession": "0000104169-24-000078",
+   "filing_date": "2024-04-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416924000078/wmt-20240424.htm",
+   "quote": "The Board has not determined the independence of Rob Walton, Greg Penner, or Steuart Walton.",
+   "supports": "Rob Walton, Penner, Steuart Walton not determined independent (2024)."
+  },
+  {
+   "id": "e079",
+   "form": "DEF 14A",
+   "accession": "0000104169-24-000078",
+   "filing_date": "2024-04-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416924000078/wmt-20240424.htm",
+   "quote": "* Greg Penner is the son-in-law of Rob Walton and the cousin of Steuart Walton.",
+   "supports": "Relationship wording in 2024 proxy (differs from 2025/2026; see conflicts)."
+  },
+  {
+   "id": "e080",
+   "form": "DEF 14A",
+   "accession": "0000104169-24-000078",
+   "filing_date": "2024-04-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416924000078/wmt-20240424.htm",
+   "quote": "* Steuart Walton is the nephew of Rob Walton and the cousin of Greg Penner.",
+   "supports": "Relationship wording in 2024 proxy."
+  },
+  {
+   "id": "e081",
+   "form": "DEF 14A",
+   "accession": "0000104169-24-000078",
+   "filing_date": "2024-04-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416924000078/wmt-20240424.htm",
+   "quote": "Sarah Friar, Chair Carla Harris Tom Horton Randall Stephenson Rob Walton*",
+   "supports": "SPFC roster in Rob Walton's last proxy (2024).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e082",
+   "form": "DEF 14A",
+   "accession": "0000104169-24-000078",
+   "filing_date": "2024-04-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416924000078/wmt-20240424.htm",
+   "quote": "Doug McMillon, Chair Tom Horton Greg Penner Rob Walton**",
+   "supports": "Executive Committee roster in Rob Walton's last proxy (2024).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e083",
+   "form": "8-K",
+   "accession": "0000104169-24-000103",
+   "filing_date": "2024-06-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416924000103/wmt-20240605.htm",
+   "quote": "On June 5, 2024, Walmart Inc. (the “Company”) held its Annual Shareholders’ Meeting (the “Meeting”).",
+   "supports": "2024 annual meeting held 2024-06-05."
+  },
+  {
+   "id": "e084",
+   "form": "8-K",
+   "accession": "0000104169-24-000103",
+   "filing_date": "2024-06-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416924000103/wmt-20240605.htm",
+   "quote": "The Company’s shareholders elected for one-year terms all eleven persons nominated for election as directors as set forth in the Company’s proxy statement dated April 25, 2024.",
+   "supports": "All 11 nominees (incl. Niccol; not Rob Walton) elected 2024-06-05."
+  },
+  {
+   "id": "e085",
+   "form": "8-K",
+   "accession": "0000104169-24-000103",
+   "filing_date": "2024-06-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416924000103/wmt-20240605.htm",
+   "quote": "Brian Niccol 6,680,181,404 12,160,863 7,543,805 630,945,292",
+   "supports": "Niccol elected 2024-06-05 (vote row).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e086",
+   "form": "DEF 14A",
+   "accession": "0000104169-23-000034",
+   "filing_date": "2023-04-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416923000034/wmt-20230420.htm",
+   "quote": "Mr. Walton was the Chairman of Walmart from 1992 to June 2015 and has been a member of the Board since 1978.",
+   "supports": "Rob Walton: director since 1978; Chairman 1992 to June 2015."
+  },
+  {
+   "id": "e087",
+   "form": "DEF 14A",
+   "accession": "0000104169-23-000034",
+   "filing_date": "2023-04-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416923000034/wmt-20230420.htm",
+   "quote": "* Greg Penner is the son-in-law of Rob Walton, and Steuart Walton is the nephew of Rob Walton.",
+   "supports": "Family relationships as stated in 2023 proxy."
+  },
+  {
+   "id": "e088",
+   "form": "DEF 14A",
+   "accession": "0000104169-23-000034",
+   "filing_date": "2023-04-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416923000034/wmt-20230420.htm",
+   "quote": "The Board has not determined the independence of S. Robson Walton, Gregory B. Penner, or Steuart L. Walton.",
+   "supports": "Walton family directors not determined independent (2023)."
+  },
+  {
+   "id": "e089",
+   "form": "DEF 14A",
+   "accession": "0000104169-23-000034",
+   "filing_date": "2023-04-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416923000034/wmt-20230420.htm",
+   "quote": "As a result of this review, the Board has affirmatively determined that the following directors are Independent Directors under the general independence definition in the NYSE Listed Company Rules: Cesar Conde, Timothy P. Flynn, Sarah J. Friar, Carla A. Harris, Thomas W. Horton, Marissa A. Mayer, and Randall L. Stephenson.",
+   "supports": "2023 independence determinations."
+  },
+  {
+   "id": "e090",
+   "form": "DEF 14A",
+   "accession": "0000104169-23-000034",
+   "filing_date": "2023-04-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416923000034/wmt-20230420.htm",
+   "quote": "The Board affirmatively determined that Steven S Reinemund, who retired from the Board on June 1, 2022, was independent",
+   "supports": "Reinemund left 2022-06-01; independent through his service."
+  },
+  {
+   "id": "e091",
+   "form": "8-K",
+   "accession": "0000104169-23-000054",
+   "filing_date": "2023-06-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416923000054/wmt-20230531.htm",
+   "quote": "The Company’s shareholders elected for one-year terms all eleven persons nominated for election as directors as set forth in the Company’s proxy statement dated April 20, 2023.",
+   "supports": "All 11 nominees elected 2023-05-31 (no departures)."
+  },
+  {
+   "id": "e092",
+   "form": "DEF 14A",
+   "accession": "0000104169-22-000019",
+   "filing_date": "2022-04-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416922000019/a2022proxystatement.htm",
+   "quote": "Steven S Reinemund will retire from the Board at the conclusion of his current term and will not stand for re-election at the 2022 Annual Shareholders’ Meeting. As a result, the size of the Board will be reduced to 11 directors as of the 2022 Annual Shareholders' Meeting.",
+   "supports": "Reinemund did not stand in 2022; board reduced to 11."
+  },
+  {
+   "id": "e093",
+   "form": "DEF 14A",
+   "accession": "0000104169-22-000019",
+   "filing_date": "2022-04-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416922000019/a2022proxystatement.htm",
+   "quote": "As a result of this review, the Board has affirmatively determined that the following directors are Independent Directors under the general independence definition in the NYSE Listed Company Rules: Cesar Conde, Timothy P. Flynn, Sarah J. Friar, Carla A. Harris, Thomas W. Horton, Marissa A. Mayer, Steven S Reinemund, and Randall L. Stephenson.",
+   "supports": "2022 independence determinations."
+  },
+  {
+   "id": "e094",
+   "form": "DEF 14A",
+   "accession": "0000104169-22-000019",
+   "filing_date": "2022-04-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416922000019/a2022proxystatement.htm",
+   "quote": "Steven S Reinemund INDEPENDENT DIRECTOR Age: 74 Joined the Board: 2010",
+   "supports": "Reinemund joined 2010 (2022 proxy).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e095",
+   "form": "DEF 14A",
+   "accession": "0000104169-22-000019",
+   "filing_date": "2022-04-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416922000019/a2022proxystatement.htm",
+   "quote": "Mr. Reinemund has served as a director of Catalyst Partners Acquisition Corp. since May 2021. He previously served as a director of GS Acquisition Holdings Corp II from July 2020 until October 2021, and he also served as a director of GS Acquisition Holdings Corp. from June 2018 until February 2020,",
+   "supports": "Reinemund other boards (last Walmart bio, 2022 proxy)."
+  },
+  {
+   "id": "e096",
+   "form": "DEF 14A",
+   "accession": "0000104169-22-000019",
+   "filing_date": "2022-04-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416922000019/a2022proxystatement.htm",
+   "quote": "until the completion of business combination transactions that resulted in Vertiv Holdings Co., where Mr. Reinemund continues to serve on the board of directors. From 2007 until May 2020, Mr. Reinemund served as a director of each of Exxon Mobil Corporation and Marriott International, Inc.",
+   "supports": "Reinemund other boards (2022 proxy)."
+  },
+  {
+   "id": "e097",
+   "form": "DEF 14A",
+   "accession": "0000104169-22-000019",
+   "filing_date": "2022-04-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416922000019/a2022proxystatement.htm",
+   "quote": "He previously served as a director of American Express Company from 2007 to 2015 and Johnson & Johnson from 2003 to 2008.",
+   "supports": "Reinemund other boards (2022 proxy)."
+  },
+  {
+   "id": "e098",
+   "form": "DEF 14A",
+   "accession": "0000104169-22-000019",
+   "filing_date": "2022-04-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416922000019/a2022proxystatement.htm",
+   "quote": "Steuart Walton, Chair Cesar Conde Tim Flynn Marissa Mayer Steve Reinemund#",
+   "supports": "TeCC roster in Reinemund's last proxy (2022).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e099",
+   "form": "DEF 14A",
+   "accession": "0000104169-22-000019",
+   "filing_date": "2022-04-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416922000019/a2022proxystatement.htm",
+   "quote": "Steve Reinemund, Chair# Carla Harris# Marissa Mayer Randall Stephenson",
+   "supports": "CMDC roster in Reinemund's last proxy (2022).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e100",
+   "form": "DEF 14A",
+   "accession": "0000104169-22-000019",
+   "filing_date": "2022-04-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416922000019/a2022proxystatement.htm",
+   "quote": "Tom Horton, Chair Carla Harris Steve Reinemund#",
+   "supports": "NGC roster in Reinemund's last proxy (2022).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e101",
+   "form": "8-K",
+   "accession": "0000104169-22-000030",
+   "filing_date": "2022-06-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416922000030/wmt-20220601.htm",
+   "quote": "On June 1, 2022, Walmart Inc. (the “Company”) held its Annual Shareholders’ Meeting (the “Meeting”).",
+   "supports": "2022 annual meeting held 2022-06-01."
+  },
+  {
+   "id": "e102",
+   "form": "8-K",
+   "accession": "0000104169-22-000030",
+   "filing_date": "2022-06-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416922000030/wmt-20220601.htm",
+   "quote": "The Company’s shareholders elected for one-year terms all eleven persons nominated for election as directors as set forth in the Company’s proxy statement dated April 21, 2022.",
+   "supports": "All 11 nominees elected 2022-06-01 (Reinemund not among them)."
+  },
+  {
+   "id": "e103",
+   "form": "DEF 14A",
+   "accession": "0001206774-21-001200",
+   "filing_date": "2021-04-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000120677421001200/wmt3839531-def14a.htm",
+   "quote": "As a result of this review, the Board has affirmatively determined that the following directors are Independent Directors under the general independence definition in the NYSE Listed Company Rules: Cesar Conde, Timothy P. Flynn, Sarah J. Friar, Carla A. Harris, Thomas W. Horton, Marissa A. Mayer, Steven S Reinemund, and Randall L. Stephenson.",
+   "supports": "2021 independence determinations."
+  },
+  {
+   "id": "e104",
+   "form": "8-K",
+   "accession": "0000104169-21-000041",
+   "filing_date": "2021-06-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416921000041/wmt-20210602.htm",
+   "quote": "The Company’s shareholders elected for one-year terms all twelve persons nominated for election as directors as set forth in the Company’s proxy statement dated April 22, 2021.",
+   "supports": "All 12 nominees elected 2021-06-02 (no departures)."
+  },
+  {
+   "id": "e105",
+   "form": "DEF 14A",
+   "accession": "0001206774-20-001271",
+   "filing_date": "2020-04-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000120677420001271/wmt3661691-def14a.htm",
+   "quote": "As a result of this review, the Board has affirmatively determined that the following directors are Independent Directors under the general independence definition in the NYSE Listed Company Rules: Cesar Conde; Timothy P. Flynn; Sarah J. Friar; Carla A. Harris; Thomas W. Horton; Marissa A. Mayer; and Steven S Reinemund.",
+   "supports": "2020 independence determinations (Penner, both Waltons, McMillon not listed)."
+  },
+  {
+   "id": "e106",
+   "form": "8-K",
+   "accession": "0000104169-20-000023",
+   "filing_date": "2020-06-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416920000023/form8-kx06052020.htm",
+   "quote": "The Company’s shareholders elected for one-year terms all eleven persons nominated for election as directors as set forth in the Company’s proxy statement dated April 23, 2020.",
+   "supports": "All 11 nominees elected 2020-06-03 (no departures)."
+  },
+  {
+   "id": "e107",
+   "form": "DEF 14A",
+   "accession": "0001206774-20-001271",
+   "filing_date": "2020-04-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000120677420001271/wmt3661691-def14a.htm",
+   "quote": "June 2015 to present Chairman of the Board of Walmart June 2014 to June 2015 Vice Chairman of the Board of Walmart",
+   "supports": "Penner: Vice Chairman June 2014-June 2015; Chairman from June 2015.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e108",
+   "form": "DEF 14A",
+   "accession": "0001206774-19-001406",
+   "filing_date": "2019-04-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000120677419001406/wmt3482341-def14a.htm",
+   "quote": "As a result of this review, the Board has affirmatively determined that the following directors are Independent Directors under the general independence definition in the NYSE Listed Company Rules: Cesar Conde; Stephen J. Easterbrook; Timothy P. Flynn; Sarah J. Friar; Carla A. Harris; Thomas W. Horton; Marissa A. Mayer; and Steven S Reinemund.",
+   "supports": "2019 independence determinations."
+  },
+  {
+   "id": "e109",
+   "form": "DEF 14A",
+   "accession": "0001206774-19-001406",
+   "filing_date": "2019-04-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000120677419001406/wmt3482341-def14a.htm",
+   "quote": "Mr. Horton became our Lead Independent Director immediately following our 2018 Annual Shareholders’ Meeting.",
+   "supports": "Horton LID from the 2018 annual meeting."
+  },
+  {
+   "id": "e110",
+   "form": "DEF 14A",
+   "accession": "0001206774-19-001406",
+   "filing_date": "2019-04-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000120677419001406/wmt3482341-def14a.htm",
+   "quote": "As my first year as Lead Independent Director draws to a close",
+   "supports": "Horton's April 2019 letter: first year as LID (consistent with a May 2018 start)."
+  },
+  {
+   "id": "e111",
+   "form": "8-K",
+   "accession": "0000104169-18-000058",
+   "filing_date": "2018-06-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416918000058/form8-kx652018.htm",
+   "quote": "The Annual Shareholders’ Meeting (the “Meeting”) of Walmart Inc. (the “Company”) was held on May 30, 2018 in Rogers, Arkansas.",
+   "supports": "2018 annual meeting held 2018-05-30."
+  },
+  {
+   "id": "e112",
+   "form": "DEF 14A",
+   "accession": "0001672764-17-000039",
+   "filing_date": "2017-04-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000167276417000039/p55218_def14a.htm",
+   "quote": "Carla Harris is standing for election to the Board for the first time at the 2017 Annual Shareholders’ Meeting.",
+   "supports": "Harris first elected at the 2017 annual meeting."
+  },
+  {
+   "id": "e113",
+   "form": "8-K",
+   "accession": "0000104169-17-000031",
+   "filing_date": "2017-06-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416917000031/form8-kx6617.htm",
+   "quote": "The Annual Shareholders’ Meeting (the “Meeting”) of Wal-Mart Stores, Inc. (the “Company”) was held on June 2, 2017 in Fayetteville, Arkansas.",
+   "supports": "2017 annual meeting held 2017-06-02."
+  },
+  {
+   "id": "e114",
+   "form": "8-K",
+   "accession": "0000104169-17-000031",
+   "filing_date": "2017-06-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416917000031/form8-kx6617.htm",
+   "quote": "The Company’s shareholders elected for one-year terms all eleven persons nominated for election as directors as set forth in the Company’s proxy statement dated April 20, 2017.",
+   "supports": "All 2017 nominees (incl. Harris) elected."
+  },
+  {
+   "id": "e115",
+   "form": "DEF 14A",
+   "accession": "0001308179-16-000359",
+   "filing_date": "2016-04-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000130817916000359/lwmt2016_def14a.htm",
+   "quote": "Steuart Walton is standing for election for the first time at the 2016 Annual Shareholders’ Meeting.",
+   "supports": "Steuart Walton first elected at the 2016 annual meeting."
+  },
+  {
+   "id": "e116",
+   "form": "DEF 14A",
+   "accession": "0001308179-16-000359",
+   "filing_date": "2016-04-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000130817916000359/lwmt2016_def14a.htm",
+   "quote": "Mr. Penner was appointed as Chairman of the Board in June 2015, after serving as Vice Chairman of the Board from June 2014 to June 2015.",
+   "supports": "Penner Chairman from June 2015; Vice Chairman June 2014-June 2015."
+  },
+  {
+   "id": "e117",
+   "form": "DEF 14A",
+   "accession": "0001308179-16-000359",
+   "filing_date": "2016-04-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000130817916000359/lwmt2016_def14a.htm",
+   "quote": "the Board has determined that the following director nominees are Independent Directors under the independence standards set forth in the NYSE Listed Company Rules: James I. Cash, Jr.; Pamela J. Craig; Timothy P. Flynn; Thomas W. Horton; Marissa A. Mayer; Steven S Reinemund; Kevin Y. Systrom; and Linda S. Wolf.",
+   "supports": "2016 independence determinations (Penner, Steuart and Rob Walton, McMillon not listed)."
+  },
+  {
+   "id": "e118",
+   "form": "8-K",
+   "accession": "0000104169-16-000091",
+   "filing_date": "2016-06-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416916000091/form8-kx6716.htm",
+   "quote": "The Annual Shareholders’ Meeting (the “Meeting”) of Wal-Mart Stores, Inc. (the “Company”) was held on June 3, 2016 in Fayetteville, Arkansas.",
+   "supports": "2016 annual meeting held 2016-06-03."
+  },
+  {
+   "id": "e119",
+   "form": "8-K",
+   "accession": "0000104169-16-000091",
+   "filing_date": "2016-06-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416916000091/form8-kx6716.htm",
+   "quote": "The Company’s shareholders elected for one-year terms all twelve persons nominated for election as directors as set forth in the Company’s proxy statement dated April 20, 2016.",
+   "supports": "All 2016 nominees (incl. Steuart Walton) elected."
+  },
+  {
+   "id": "e120",
+   "form": "DEF 14A",
+   "accession": "0001308179-15-000149",
+   "filing_date": "2015-04-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000130817915000149/lwmt2015_def14a.htm",
+   "quote": "Mr. Penner was appointed as Vice Chairman of the Board in June 2014.",
+   "supports": "Penner Vice Chairman from June 2014."
+  },
+  {
+   "id": "e121",
+   "form": "8-K",
+   "accession": "0000104169-14-000076",
+   "filing_date": "2014-11-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416914000076/form8-kx112414.htm",
+   "quote": "On November 21, 2014, the Board of Directors (the \"Board\") of Wal-Mart Stores, Inc. (\"Walmart\") appointed Thomas W. Horton as a director of Walmart. Mr. Horton will also serve on the Audit Committee of the Board.",
+   "supports": "Horton appointed 2014-11-21."
+  },
+  {
+   "id": "e122",
+   "form": "8-K",
+   "accession": "0000104169-13-000047",
+   "filing_date": "2013-11-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416913000047/form8-kx112513.htm",
+   "quote": "Mr. McMillon was also elected to the Board on November 22, 2013.",
+   "supports": "McMillon elected to the board 2013-11-22."
+  },
+  {
+   "id": "e123",
+   "form": "8-K",
+   "accession": "0000104169-13-000047",
+   "filing_date": "2013-11-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416913000047/form8-kx112513.htm",
+   "quote": "(c) On November 22, 2013, the Board appointed C. Douglas McMillon, age 47, as president and chief executive officer of the Company, effective February 1, 2014.",
+   "supports": "McMillon CEO effective 2014-02-01."
+  },
+  {
+   "id": "e124",
+   "form": "8-K",
+   "accession": "0000104169-13-000047",
+   "filing_date": "2013-11-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416913000047/form8-kx112513.htm",
+   "quote": "Since January 2009, Mr. McMillon has served as the Company’s executive vice president and president and chief executive officer for Walmart International and he will continue in that role through January 31, 2014.",
+   "supports": "McMillon's executive role when he joined the board."
+  },
+  {
+   "id": "e125",
+   "form": "8-K",
+   "accession": "0001193125-12-321096",
+   "filing_date": "2012-07-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000119312512321096/d386311d8k.htm",
+   "quote": "On July 27, 2012, the Board of Directors (the “Board”) of Wal-Mart Stores, Inc. (“Walmart”) appointed Timothy P. Flynn as a director of Walmart. In addition, Mr. Flynn was appointed to the Audit Committee of the Board.",
+   "supports": "Flynn appointed 2012-07-27."
+  },
+  {
+   "id": "e126",
+   "form": "DEF 14A",
+   "accession": "0001193125-12-163664",
+   "filing_date": "2012-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000119312512163664/d264672ddef14a.htm",
+   "quote": "All nominees for election to the Board are presently directors of Walmart with the exception of Marissa A. Mayer, who is standing for election to the Board for the first time.",
+   "supports": "Mayer first elected at the 2012 annual meeting."
+  },
+  {
+   "id": "e127",
+   "form": "DEF 14A",
+   "accession": "0001193125-12-163664",
+   "filing_date": "2012-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000119312512163664/d264672ddef14a.htm",
+   "quote": "the Board has determined that Marissa A. Mayer, who is standing for election as a director for the first time at the 2012 Annual Shareholders’ Meeting, is independent under these standards.",
+   "supports": "Mayer independent from election (2012)."
+  },
+  {
+   "id": "e128",
+   "form": "8-K",
+   "accession": "0001193125-12-257978",
+   "filing_date": "2012-06-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000119312512257978/d362377d8k.htm",
+   "quote": "The Annual Shareholders’ Meeting of Wal-Mart Stores, Inc. (the “Company”) was held on June 1, 2012 in Fayetteville, Arkansas.",
+   "supports": "2012 annual meeting held 2012-06-01."
+  },
+  {
+   "id": "e129",
+   "form": "8-K",
+   "accession": "0001193125-12-257978",
+   "filing_date": "2012-06-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000119312512257978/d362377d8k.htm",
+   "quote": "The Company’s shareholders elected for one-year terms all persons nominated for election as directors as set forth in the Company’s proxy statement dated April 16, 2012.",
+   "supports": "All 2012 nominees (incl. Mayer) elected."
+  },
+  {
+   "id": "e130",
+   "form": "DEF 14A",
+   "accession": "0001193125-10-086323",
+   "filing_date": "2010-04-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000119312510086323/ddef14a.htm",
+   "quote": "All nominees for election to the Board are presently directors of Walmart other than Mr. Steven S Reinemund, who is standing for election to the Board for the first time at the 2010 Annual Shareholders’ Meeting.",
+   "supports": "Reinemund first elected at the 2010 annual meeting."
+  },
+  {
+   "id": "e131",
+   "form": "8-K",
+   "accession": "0001193125-10-136123",
+   "filing_date": "2010-06-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000119312510136123/d8k.htm",
+   "quote": "The Annual Shareholders’ Meeting of Wal-Mart Stores, Inc. (the “Company”) was held on June 4, 2010 in Fayetteville, Arkansas.",
+   "supports": "2010 annual meeting held 2010-06-04."
+  },
+  {
+   "id": "e132",
+   "form": "8-K",
+   "accession": "0001193125-10-136123",
+   "filing_date": "2010-06-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000119312510136123/d8k.htm",
+   "quote": "The Company’s shareholders elected for one-year terms all persons nominated for election as directors as set forth in the Company’s proxy statement dated April 19, 2010.",
+   "supports": "All 2010 nominees (incl. Reinemund) elected."
+  },
+  {
+   "id": "e133",
+   "form": "DEF 14A",
+   "accession": "0001193125-08-086949",
+   "filing_date": "2008-04-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000119312508086949/ddef14a.htm",
+   "quote": "All nominees for election to the Board are presently directors of Wal-Mart, except for Gregory B. Penner and Arne M. Sorenson, who are standing for election as directors for the first time.",
+   "supports": "Penner first elected at the 2008 annual meeting."
+  },
+  {
+   "id": "e134",
+   "form": "DEF 14A",
+   "accession": "0001193125-08-086949",
+   "filing_date": "2008-04-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000119312508086949/ddef14a.htm",
+   "quote": "The meeting will be held on Friday, June 6, 2008",
+   "supports": "2008 annual meeting date 2008-06-06."
+  },
+  {
+   "id": "e135",
+   "form": "DEF 14A",
+   "accession": "0001193125-08-086949",
+   "filing_date": "2008-04-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000119312508086949/ddef14a.htm",
+   "quote": "Gregory B. Penner is the son-in-law of S. Robson Walton.",
+   "supports": "Relationship as stated in 2008 proxy."
+  },
+  {
+   "id": "e136",
+   "form": "8-K",
+   "accession": "0000104169-18-000015",
+   "filing_date": "2018-02-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416918000015/form8-kx282018.htm",
+   "quote": "On February 7, 2018, the Board of Directors (the \"Board\") of Walmart Inc. (\"Walmart\") appointed Sarah Friar as a director of Walmart. Ms. Friar will also serve on the Audit Committee and the Strategic Planning and Finance Committee of the Board.",
+   "supports": "Friar appointed 2018-02-07."
+  },
+  {
+   "id": "e137",
+   "form": "8-K",
+   "accession": "0000104169-19-000002",
+   "filing_date": "2019-02-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416919000002/form8-kx21119.htm",
+   "quote": "On February 7, 2019, the Board of Directors (the \"Board\") of Walmart Inc. (\"Walmart\") appointed Cesar Conde as a member of the Board. Mr. Conde will become a member of the Audit Committee and the Technology and eCommerce Committee of the Board.",
+   "supports": "Conde appointed 2019-02-07."
+  },
+  {
+   "id": "e138",
+   "form": "8-K",
+   "accession": "0000104169-21-000027",
+   "filing_date": "2021-03-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416921000027/wmt-20210303.htm",
+   "quote": "On March 3, 2021, the Board of Directors (the \"Board\") of Walmart Inc. (\"Walmart\") appointed Randall L. Stephenson as a member of the Board.",
+   "supports": "Stephenson appointed 2021-03-03."
+  },
+  {
+   "id": "e139",
+   "form": "8-K",
+   "accession": "0000104169-24-000132",
+   "filing_date": "2024-08-15",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416924000132/wmt-20240815.htm",
+   "quote": "Effective as of August 15, 2024, the Board of Directors (the \"Board\") of Walmart Inc. (\"Walmart\") appointed Robert E. Moritz, Jr. as a member of the Board. Mr. Moritz will become a member of the Audit Committee and the Technology and eCommerce Committee of the Board.",
+   "supports": "Moritz appointed 2024-08-15."
+  },
+  {
+   "id": "e140",
+   "form": "8-K",
+   "accession": "0000104169-25-000172",
+   "filing_date": "2025-11-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416925000172/wmt-20251111.htm",
+   "quote": "Mr. Furner was also elected to the Board on November 13, 2025.",
+   "supports": "Furner elected to the board 2025-11-13."
+  },
+  {
+   "id": "e141",
+   "form": "8-K",
+   "accession": "0000104169-25-000172",
+   "filing_date": "2025-11-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416925000172/wmt-20251111.htm",
+   "quote": "(c) On November 13, 2025, the Board appointed Mr. John R. Furner, age 51, as president and chief executive officer of the Company, effective February 1, 2026.",
+   "supports": "Furner CEO effective 2026-02-01."
+  },
+  {
+   "id": "e142",
+   "form": "8-K",
+   "accession": "0000104169-25-000172",
+   "filing_date": "2025-11-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416925000172/wmt-20251111.htm",
+   "quote": "Since November 2019, Mr. Furner has served as the Company’s executive vice president and chief executive officer for Walmart U.S. and he will continue in that role through January 31, 2026.",
+   "supports": "Furner's executive role when he joined the board."
+  },
+  {
+   "id": "e143",
+   "form": "8-K",
+   "accession": "0000104169-25-000172",
+   "filing_date": "2025-11-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416925000172/wmt-20251111.htm",
+   "quote": "Mr. Furner was also appointed to the Board’s Executive Committee.",
+   "supports": "Furner on the Executive Committee from 2025-11-13."
+  },
+  {
+   "id": "e144",
+   "form": "8-K",
+   "accession": "0000104169-25-000172",
+   "filing_date": "2025-11-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416925000172/wmt-20251111.htm",
+   "quote": "(b) On November 11, 2025, C. Douglas McMillon, president and chief executive officer of Walmart Inc. (the “Company”), notified the Company that he will retire from his position as president and chief executive officer, effective on the close of business on January 31, 2026.",
+   "supports": "McMillon CEO tenure ends 2026-01-31."
+  },
+  {
+   "id": "e145",
+   "form": "8-K",
+   "accession": "0000104169-25-000172",
+   "filing_date": "2025-11-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416925000172/wmt-20251111.htm",
+   "quote": "Mr. McMillon will also continue his service as a director on the Board until the June 2026 Annual Shareholders’ Meeting.",
+   "supports": "McMillon stays a director until the June 2026 annual meeting."
+  },
+  {
+   "id": "e146",
+   "form": "8-K",
+   "accession": "0000104169-25-000172",
+   "filing_date": "2025-11-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416925000172/wmt-20251111.htm",
+   "quote": "On February 1, 2026, Mr. McMillon will continue in his capacity as an executive officer of the Company, he will report to the Chairman of the Board of Directors and he will continue to be employed as an associate of the Company through January 31, 2027.",
+   "supports": "Planned post-CEO status of McMillon (see conflicts)."
+  },
+  {
+   "id": "e147",
+   "form": "8-K",
+   "accession": "0000104169-26-000008",
+   "filing_date": "2026-01-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000008/wmt-20260108.htm",
+   "quote": "Effective January 8, 2026, the Board of Directors (the \"Board\") of Walmart Inc. (\"Walmart\") appointed Shishir Mehrotra, age 46, as a member of the Board. Mr. Mehrotra has also been appointed to the Compensation and Management Development Committee and the Technology and eCommerce Committee of the Board.",
+   "supports": "Mehrotra appointed 2026-01-08."
+  },
+  {
+   "id": "e148",
+   "form": "10-K",
+   "accession": "0000104169-26-000055",
+   "filing_date": "2026-03-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm",
+   "quote": "President and Chief Executive Officer, effective February 2026. From November 2019 to February 2026, he served as Executive Vice President, President and Chief Executive Officer, Walmart U.S.",
+   "supports": "10-K executive-officer list: Furner (McMillon is not listed as an executive officer)."
+  },
+  {
+   "id": "e149",
+   "form": "3",
+   "accession": "0001127602-08-004081",
+   "filing_date": "2008-06-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000112760208004081/form3.xml",
+   "quote": "Penner Gregory Boyd",
+   "supports": "Penner Form 3 as director; event date 2008-06-06 (2008 annual meeting).",
+   "xml_fields": {
+    "issuerCik": "0000104169",
+    "rptOwnerCik": "0001353165",
+    "rptOwnerName": "Penner Gregory Boyd",
+    "periodOfReport": "2008-06-06",
+    "isDirector": "1"
+   }
+  },
+  {
+   "id": "e150",
+   "form": "3",
+   "accession": "0001127602-10-016745",
+   "filing_date": "2010-06-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000112760210016745/form3.xml",
+   "quote": "REINEMUND STEVEN",
+   "supports": "Reinemund Form 3 as director; event date 2010-06-04.",
+   "xml_fields": {
+    "issuerCik": "0000104169",
+    "rptOwnerCik": "0001183822",
+    "rptOwnerName": "REINEMUND STEVEN",
+    "periodOfReport": "2010-06-04",
+    "isDirector": "1"
+   }
+  },
+  {
+   "id": "e151",
+   "form": "3",
+   "accession": "0001127602-12-019390",
+   "filing_date": "2012-06-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000112760212019390/form3.xml",
+   "quote": "MAYER MARISSA A",
+   "supports": "Mayer Form 3 as director; event date 2012-06-01.",
+   "xml_fields": {
+    "issuerCik": "0000104169",
+    "rptOwnerCik": "0001550608",
+    "rptOwnerName": "MAYER MARISSA A",
+    "periodOfReport": "2012-06-01",
+    "isDirector": "1"
+   }
+  },
+  {
+   "id": "e152",
+   "form": "3",
+   "accession": "0001127602-12-023257",
+   "filing_date": "2012-07-31",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000112760212023257/form3.xml",
+   "quote": "FLYNN TIMOTHY PATRICK",
+   "supports": "Flynn Form 3 as director; event date 2012-07-27.",
+   "xml_fields": {
+    "issuerCik": "0000104169",
+    "rptOwnerCik": "0001550322",
+    "rptOwnerName": "FLYNN TIMOTHY PATRICK",
+    "periodOfReport": "2012-07-27",
+    "isDirector": "1"
+   }
+  },
+  {
+   "id": "e153",
+   "form": "3",
+   "accession": "0001127602-14-033461",
+   "filing_date": "2014-11-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000112760214033461/form3.xml",
+   "quote": "HORTON THOMAS W",
+   "supports": "Horton Form 3 as director; event date 2014-11-21.",
+   "xml_fields": {
+    "issuerCik": "0000104169",
+    "rptOwnerCik": "0001175928",
+    "rptOwnerName": "HORTON THOMAS W",
+    "periodOfReport": "2014-11-21",
+    "isDirector": "1"
+   }
+  },
+  {
+   "id": "e154",
+   "form": "3",
+   "accession": "0001127602-16-054946",
+   "filing_date": "2016-06-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000112760216054946/form3.xml",
+   "quote": "Walton Steuart L",
+   "supports": "Steuart Walton Form 3 as director; event date 2016-06-03.",
+   "xml_fields": {
+    "issuerCik": "0000104169",
+    "rptOwnerCik": "0001675503",
+    "rptOwnerName": "Walton Steuart L",
+    "periodOfReport": "2016-06-03",
+    "isDirector": "1"
+   }
+  },
+  {
+   "id": "e155",
+   "form": "3",
+   "accession": "0001127602-17-020705",
+   "filing_date": "2017-06-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000112760217020705/form3.xml",
+   "quote": "Harris Carla A",
+   "supports": "Harris Form 3 as director; event date 2017-06-02.",
+   "xml_fields": {
+    "issuerCik": "0000104169",
+    "rptOwnerCik": "0001707351",
+    "rptOwnerName": "Harris Carla A",
+    "periodOfReport": "2017-06-02",
+    "isDirector": "1"
+   }
+  },
+  {
+   "id": "e156",
+   "form": "3",
+   "accession": "0001127602-18-004962",
+   "filing_date": "2018-02-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000112760218004962/form3.xml",
+   "quote": "Friar Sarah",
+   "supports": "Friar Form 3 as director; event date 2018-02-07.",
+   "xml_fields": {
+    "issuerCik": "0000104169",
+    "rptOwnerCik": "0001570658",
+    "rptOwnerName": "Friar Sarah",
+    "periodOfReport": "2018-02-07",
+    "isDirector": "1"
+   }
+  },
+  {
+   "id": "e157",
+   "form": "3",
+   "accession": "0001127602-19-005111",
+   "filing_date": "2019-02-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000112760219005111/form3.xml",
+   "quote": "Conde Cesar",
+   "supports": "Conde Form 3 as director; event date 2019-02-07.",
+   "xml_fields": {
+    "issuerCik": "0000104169",
+    "rptOwnerCik": "0001616172",
+    "rptOwnerName": "Conde Cesar",
+    "periodOfReport": "2019-02-07",
+    "isDirector": "1"
+   }
+  },
+  {
+   "id": "e158",
+   "form": "3",
+   "accession": "0001127602-21-009542",
+   "filing_date": "2021-03-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000112760221009542/form3.xml",
+   "quote": "STEPHENSON RANDALL L",
+   "supports": "Stephenson Form 3 as director; event date 2021-03-03.",
+   "xml_fields": {
+    "issuerCik": "0000104169",
+    "rptOwnerCik": "0001183428",
+    "rptOwnerName": "STEPHENSON RANDALL L",
+    "periodOfReport": "2021-03-03",
+    "isDirector": "1"
+   }
+  },
+  {
+   "id": "e159",
+   "form": "3",
+   "accession": "0001127602-24-018186",
+   "filing_date": "2024-06-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000112760224018186/form3.xml",
+   "quote": "Niccol Brian R",
+   "supports": "Niccol Form 3 as director; event date 2024-06-05.",
+   "xml_fields": {
+    "issuerCik": "0000104169",
+    "rptOwnerCik": "0001628588",
+    "rptOwnerName": "Niccol Brian R",
+    "periodOfReport": "2024-06-05",
+    "isDirector": "1"
+   }
+  },
+  {
+   "id": "e160",
+   "form": "3",
+   "accession": "0001127602-24-022365",
+   "filing_date": "2024-08-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000112760224022365/form3.xml",
+   "quote": "Moritz Robert Edward Jr.",
+   "supports": "Moritz Form 3 as director; event date 2024-08-15.",
+   "xml_fields": {
+    "issuerCik": "0000104169",
+    "rptOwnerCik": "0002033834",
+    "rptOwnerName": "Moritz Robert Edward Jr.",
+    "periodOfReport": "2024-08-15",
+    "isDirector": "1"
+   }
+  },
+  {
+   "id": "e161",
+   "form": "3",
+   "accession": "0000104169-26-000011",
+   "filing_date": "2026-01-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000011/wk-form3_1768256298.xml",
+   "quote": "Mehrotra Shishir",
+   "supports": "Mehrotra Form 3 as director; event date 2026-01-08.",
+   "xml_fields": {
+    "issuerCik": "0000104169",
+    "rptOwnerCik": "0001967120",
+    "rptOwnerName": "Mehrotra Shishir",
+    "periodOfReport": "2026-01-08",
+    "isDirector": "1"
+   }
+  },
+  {
+   "id": "e162",
+   "form": "3",
+   "accession": "0001127602-17-005083",
+   "filing_date": "2017-02-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000112760217005083/form3.xml",
+   "quote": "Furner John R.",
+   "supports": "Furner reporting-owner CIK (Form 3 as an officer, 2017).",
+   "xml_fields": {
+    "issuerCik": "0000104169",
+    "rptOwnerCik": "0001696737",
+    "rptOwnerName": "Furner John R.",
+    "periodOfReport": "2017-02-01",
+    "isOfficer": "1"
+   }
+  },
+  {
+   "id": "e163",
+   "form": "4",
+   "accession": "0000104169-26-000161",
+   "filing_date": "2026-10-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000161/wk-form4_1790976925.xml",
+   "quote": "Penner Gregory Boyd",
+   "supports": "Penner Gregory Boyd: Form 4 as a Walmart director (period 2026-09-30); reporting-owner CIK 0001353165.",
+   "xml_fields": {
+    "issuerCik": "0000104169",
+    "rptOwnerCik": "0001353165",
+    "rptOwnerName": "Penner Gregory Boyd",
+    "periodOfReport": "2026-09-30",
+    "isDirector": "1"
+   }
+  },
+  {
+   "id": "e164",
+   "form": "4",
+   "accession": "0000104169-26-000160",
+   "filing_date": "2026-10-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000160/wk-form4_1790976918.xml",
+   "quote": "Walton Steuart L",
+   "supports": "Walton Steuart L: Form 4 as a Walmart director (period 2026-09-30); reporting-owner CIK 0001675503.",
+   "xml_fields": {
+    "issuerCik": "0000104169",
+    "rptOwnerCik": "0001675503",
+    "rptOwnerName": "Walton Steuart L",
+    "periodOfReport": "2026-09-30",
+    "isDirector": "1"
+   }
+  },
+  {
+   "id": "e165",
+   "form": "4",
+   "accession": "0000104169-26-000159",
+   "filing_date": "2026-10-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000159/wk-form4_1790976910.xml",
+   "quote": "Mehrotra Shishir",
+   "supports": "Mehrotra Shishir: Form 4 as a Walmart director (period 2026-09-30); reporting-owner CIK 0001967120.",
+   "xml_fields": {
+    "issuerCik": "0000104169",
+    "rptOwnerCik": "0001967120",
+    "rptOwnerName": "Mehrotra Shishir",
+    "periodOfReport": "2026-09-30",
+    "isDirector": "1"
+   }
+  },
+  {
+   "id": "e166",
+   "form": "4",
+   "accession": "0001550608-26-000023",
+   "filing_date": "2026-10-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000155060826000023/wk-form4_1790976851.xml",
+   "quote": "MAYER MARISSA A",
+   "supports": "MAYER MARISSA A: Form 4 as a Walmart director (period 2026-09-30); reporting-owner CIK 0001550608.",
+   "xml_fields": {
+    "issuerCik": "0000104169",
+    "rptOwnerCik": "0001550608",
+    "rptOwnerName": "MAYER MARISSA A",
+    "periodOfReport": "2026-09-30",
+    "isDirector": "1"
+   }
+  },
+  {
+   "id": "e167",
+   "form": "4",
+   "accession": "0001183428-26-000009",
+   "filing_date": "2026-10-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000118342826000009/wk-form4_1790976845.xml",
+   "quote": "STEPHENSON RANDALL L",
+   "supports": "STEPHENSON RANDALL L: Form 4 as a Walmart director (period 2026-09-30); reporting-owner CIK 0001183428.",
+   "xml_fields": {
+    "issuerCik": "0000104169",
+    "rptOwnerCik": "0001183428",
+    "rptOwnerName": "STEPHENSON RANDALL L",
+    "periodOfReport": "2026-09-30",
+    "isDirector": "1"
+   }
+  },
+  {
+   "id": "e168",
+   "form": "4",
+   "accession": "0001570658-26-000009",
+   "filing_date": "2026-10-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000157065826000009/wk-form4_1790976839.xml",
+   "quote": "Friar Sarah",
+   "supports": "Friar Sarah: Form 4 as a Walmart director (period 2026-09-30); reporting-owner CIK 0001570658.",
+   "xml_fields": {
+    "issuerCik": "0000104169",
+    "rptOwnerCik": "0001570658",
+    "rptOwnerName": "Friar Sarah",
+    "periodOfReport": "2026-09-30",
+    "isDirector": "1"
+   }
+  },
+  {
+   "id": "e169",
+   "form": "4",
+   "accession": "0002033834-26-000021",
+   "filing_date": "2026-10-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000203383426000021/wk-form4_1790976834.xml",
+   "quote": "Moritz Robert Edward Jr.",
+   "supports": "Moritz Robert Edward Jr.: Form 4 as a Walmart director (period 2026-09-30); reporting-owner CIK 0002033834.",
+   "xml_fields": {
+    "issuerCik": "0000104169",
+    "rptOwnerCik": "0002033834",
+    "rptOwnerName": "Moritz Robert Edward Jr.",
+    "periodOfReport": "2026-09-30",
+    "isDirector": "1"
+   }
+  },
+  {
+   "id": "e170",
+   "form": "4",
+   "accession": "0001707351-26-000023",
+   "filing_date": "2026-10-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000170735126000023/wk-form4_1790976828.xml",
+   "quote": "Harris Carla A",
+   "supports": "Harris Carla A: Form 4 as a Walmart director (period 2026-09-30); reporting-owner CIK 0001707351.",
+   "xml_fields": {
+    "issuerCik": "0000104169",
+    "rptOwnerCik": "0001707351",
+    "rptOwnerName": "Harris Carla A",
+    "periodOfReport": "2026-09-30",
+    "isDirector": "1"
+   }
+  },
+  {
+   "id": "e171",
+   "form": "4",
+   "accession": "0001616172-26-000010",
+   "filing_date": "2026-10-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000161617226000010/wk-form4_1790976816.xml",
+   "quote": "Conde Cesar",
+   "supports": "Conde Cesar: Form 4 as a Walmart director (period 2026-09-30); reporting-owner CIK 0001616172.",
+   "xml_fields": {
+    "issuerCik": "0000104169",
+    "rptOwnerCik": "0001616172",
+    "rptOwnerName": "Conde Cesar",
+    "periodOfReport": "2026-09-30",
+    "isDirector": "1"
+   }
+  },
+  {
+   "id": "e172",
+   "form": "4",
+   "accession": "0001175928-26-000004",
+   "filing_date": "2026-06-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000117592826000004/wk-form4_1780957815.xml",
+   "quote": "HORTON THOMAS W",
+   "supports": "HORTON THOMAS W: Form 4 as a Walmart director (period 2026-06-04); reporting-owner CIK 0001175928.",
+   "xml_fields": {
+    "issuerCik": "0000104169",
+    "rptOwnerCik": "0001175928",
+    "rptOwnerName": "HORTON THOMAS W",
+    "periodOfReport": "2026-06-04",
+    "isDirector": "1"
+   }
+  },
+  {
+   "id": "e173",
+   "form": "4",
+   "accession": "0001696737-26-000019",
+   "filing_date": "2026-09-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000169673726000019/wk-form4_1789764067.xml",
+   "quote": "Furner John R.",
+   "supports": "Furner John R.: Form 4 as a Walmart director (period 2026-09-17); reporting-owner CIK 0001696737.",
+   "xml_fields": {
+    "issuerCik": "0000104169",
+    "rptOwnerCik": "0001696737",
+    "rptOwnerName": "Furner John R.",
+    "periodOfReport": "2026-09-17",
+    "isDirector": "1"
+   }
+  },
+  {
+   "id": "e174",
+   "form": "4",
+   "accession": "0001335782-26-000015",
+   "filing_date": "2026-05-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000133578226000015/wk-form4_1780087598.xml",
+   "quote": "McMillon C Douglas",
+   "supports": "McMillon C Douglas: Form 4 as a Walmart director (period 2026-05-28); reporting-owner CIK 0001335782.",
+   "xml_fields": {
+    "issuerCik": "0000104169",
+    "rptOwnerCik": "0001335782",
+    "rptOwnerName": "McMillon C Douglas",
+    "periodOfReport": "2026-05-28",
+    "isDirector": "1"
+   }
+  },
+  {
+   "id": "e175",
+   "form": "4",
+   "accession": "0001550322-26-000004",
+   "filing_date": "2026-04-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000155032226000004/wk-form4_1775166944.xml",
+   "quote": "FLYNN TIMOTHY PATRICK",
+   "supports": "FLYNN TIMOTHY PATRICK: Form 4 as a Walmart director (period 2026-03-31); reporting-owner CIK 0001550322.",
+   "xml_fields": {
+    "issuerCik": "0000104169",
+    "rptOwnerCik": "0001550322",
+    "rptOwnerName": "FLYNN TIMOTHY PATRICK",
+    "periodOfReport": "2026-03-31",
+    "isDirector": "1"
+   }
+  },
+  {
+   "id": "e176",
+   "form": "4",
+   "accession": "0001628588-26-000004",
+   "filing_date": "2026-04-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000162858826000004/wk-form4_1775167529.xml",
+   "quote": "Niccol Brian R",
+   "supports": "Niccol Brian R: Form 4 as a Walmart director (period 2026-03-31); reporting-owner CIK 0001628588.",
+   "xml_fields": {
+    "issuerCik": "0000104169",
+    "rptOwnerCik": "0001628588",
+    "rptOwnerName": "Niccol Brian R",
+    "periodOfReport": "2026-03-31",
+    "isDirector": "1"
+   }
+  },
+  {
+   "id": "e177",
+   "form": "4",
+   "accession": "0001127602-23-018198",
+   "filing_date": "2023-06-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000112760223018198/form4.xml",
+   "quote": "WALTON S ROBSON",
+   "supports": "WALTON S ROBSON: Form 4 as a Walmart director (period 2023-06-05); reporting-owner CIK 0001219112.",
+   "xml_fields": {
+    "issuerCik": "0000104169",
+    "rptOwnerCik": "0001219112",
+    "rptOwnerName": "WALTON S ROBSON",
+    "periodOfReport": "2023-06-05",
+    "isDirector": "1"
+   }
+  },
+  {
+   "id": "e178",
+   "form": "4",
+   "accession": "0001127602-21-019284",
+   "filing_date": "2021-06-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000112760221019284/form4.xml",
+   "quote": "REINEMUND STEVEN",
+   "supports": "REINEMUND STEVEN: Form 4 as a Walmart director (period 2021-06-03); reporting-owner CIK 0001183822.",
+   "xml_fields": {
+    "issuerCik": "0000104169",
+    "rptOwnerCik": "0001183822",
+    "rptOwnerName": "REINEMUND STEVEN",
+    "periodOfReport": "2021-06-03",
+    "isDirector": "1"
+   }
+  },
+  {
+   "id": "e179",
+   "form": "4",
+   "accession": "0001127602-24-018205",
+   "filing_date": "2024-06-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000112760224018205/form4.xml",
+   "quote": "WALTON S ROBSON",
+   "supports": "Rob Walton Form 4 two days after the 2024 meeting reports him only as a 10% owner (director box no longer checked).",
+   "xml_fields": {
+    "issuerCik": "0000104169",
+    "rptOwnerCik": "0001219112",
+    "rptOwnerName": "WALTON S ROBSON",
+    "periodOfReport": "2024-06-07",
+    "isTenPercentOwner": "1"
+   }
+  },
+  {
+   "id": "e180",
+   "form": "4",
+   "accession": "0001335782-26-000006",
+   "filing_date": "2026-02-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000133578226000006/wk-form4_1770165150.xml",
+   "quote": "McMillon C Douglas",
+   "supports": "McMillon Form 4 for 2026-01-31 checks director only (isOfficer 0) (see conflicts).",
+   "xml_fields": {
+    "issuerCik": "0000104169",
+    "rptOwnerCik": "0001335782",
+    "rptOwnerName": "McMillon C Douglas",
+    "periodOfReport": "2026-01-31",
+    "isDirector": "1",
+    "isOfficer": "0"
+   }
+  },
+  {
+   "id": "e181",
+   "form": "4",
+   "accession": "0001696737-26-000004",
+   "filing_date": "2026-01-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000169673726000004/wk-form4_1768607150.xml",
+   "quote": "Furner John R.",
+   "supports": "Furner Form 4 for 2026-01-15 checks officer only (isDirector 0) although he joined the board 2025-11-13 (see conflicts).",
+   "xml_fields": {
+    "issuerCik": "0000104169",
+    "rptOwnerCik": "0001696737",
+    "rptOwnerName": "Furner John R.",
+    "periodOfReport": "2026-01-15",
+    "isDirector": "0",
+    "isOfficer": "1"
+   }
+  }
+ ],
+ "conflicts": [
+  {
+   "description": "Horton's Lead Independent Director start. The 2019-2025 proxies all say he became LID 'immediately following our 2018 Annual Shareholders' Meeting' (held 2018-05-30), and his April 2019 letter says his 'first year' as LID was closing. But his April 2025 letter says he would 'complete my sixth year' as LID, which would point to a 2019 start. Kept 2018-05-30.",
+   "evidence_refs": [
+    "e109",
+    "e110",
+    "e111",
+    "e063"
+   ]
+  },
+  {
+   "description": "How Penner and Steuart Walton are related. The 2024 proxy calls Penner 'the cousin of Steuart Walton' and Steuart Walton 'the cousin of Greg Penner'. The 2025 and 2026 proxies say Penner's spouse is Steuart Walton's cousin. The 2023-2024 proxies call Penner the son-in-law of Rob Walton and Steuart Walton his nephew; the 2008 proxy also calls Penner the son-in-law of S. Robson Walton. Both wordings are recorded as stated. The 2025-2026 wording is the more specific.",
+   "evidence_refs": [
+    "e079",
+    "e080",
+    "e072",
+    "e030",
+    "e031",
+    "e087",
+    "e135"
+   ]
+  },
+  {
+   "description": "McMillon's status from 2026-02-01 to 2026-06-04. The November 2025 8-K says that from February 1, 2026 he 'will continue in his capacity as an executive officer'. But the FY2026 10-K (filed 2026-03-13) does not list him among executive officers (he signs only as 'Director'), and his Forms 4 from period 2026-01-31 on check only the director box. No executive_director role is recorded for that stretch. He stays a non-independent (employee) director until 2026-06-04.",
+   "evidence_refs": [
+    "e146",
+    "e148",
+    "e180",
+    "e174"
+   ]
+  },
+  {
+   "description": "Form 4 relationship boxes lag board events. Furner's Forms 4 for January 2026 (e.g., period 2026-01-15) check only the officer box although he joined the board on 2025-11-13 (8-K). His Forms 4 from period 2026-01-31 on check both boxes. Board dates follow the 8-K.",
+   "evidence_refs": [
+    "e181",
+    "e140",
+    "e173"
+   ]
+  },
+  {
+   "description": "Penner's prior-board dates differ between proxies. Hyatt start is 'October 2007' in the 2019-2021 proxies and 'August 2007' in the 2025-2026 proxies. Baidu end is 'February 2017' in the 2019 proxy and 'December 2017' from 2020 on. Recorded the 2026 proxy's dates.",
+   "evidence_refs": [
+    "e058"
+   ]
+  }
+ ],
+ "open_questions": [
+  "Exact days Penner became Vice Chairman (June 2014) and Chairman (June 2015). Filings give only the month. Both likely coincide with the annual meetings, but no filing says so. Month precision kept.",
+  "S. Robson Walton's 1978 board start. It predates EDGAR and no filing gives a month or day. Year precision.",
+  "Who chairs the Executive Committee after McMillon left on 2026-06-04? Not disclosed in any filing through 2026-10-02.",
+  "Committee assignments after the 2026 annual meeting are disclosed only for Moritz (Audit Chair, effective upon his re-election). Who replaced Flynn and Niccol on Audit, TeCC and CMDC is not disclosed. The committee rows are a snapshot as of the 2026 proxy (2026-04-23).",
+  "The NYSE listing year (often cited as 1972) is not stated in any filing found; EDGAR full-text search covers 2001+. listed_since_year=1970 rests on the 10-K statement that the IPO was completed in 1970.",
+  "Mayer's board service is extended only until the 2027 annual meeting. Expect a departure at that meeting, but it is not yet an event.",
+  "Pre-2020 directors who left before 2020-01-01 are not recorded (e.g., Stephen J. Easterbrook, who resigned 2019-11-04; James I. Cash, Jr. and Kevin Y. Systrom, who did not stand in 2018)."
+ ],
+ "coverage": [
+  {
+   "scope": "current_board",
+   "period_start": "2026-10-04",
+   "period_end": "2026-10-04",
+   "level": "complete",
+   "method": "Roster checked against the 2026 DEF 14A (11 nominees) and the 2026-06-05 Item 5.07 8-K (all 11 elected). Every 8-K with Item 5.02 filed after the proxy was reviewed; none exists through 2026-10-02, the latest filing in the EDGAR submissions feed. Every 2026 Form 3/4 owner was parsed: all 11 directors filed Forms 4 as directors after the meeting (10 in June 2026, then 9 outside directors on 2026-10-02, Horton on 2026-06-08, Furner on 2026-09-18), and no new director Form 3 was filed after 2026-01-12."
+  },
+  {
+   "scope": "board_history",
+   "period_start": "2020-01-01",
+   "period_end": "2026-10-04",
+   "level": "complete",
+   "method": "Every DEF 14A from 2019 to 2026 and every 8-K with Item 5.02 or 5.07 from 2019 to 2026 reviewed. Nominee slates compared year over year (2019: 12, 2020: 11, 2021: 12, 2022: 11, 2023: 11, 2024: 11, 2025: 12, 2026: 11) and reconciled to appointments and departures. Every director Form 3 since 2019 was checked. Departures are dated from the Item 5.07 meeting date for directors not renominated."
+  },
+  {
+   "scope": "board_history",
+   "period_start": "1978-01-01",
+   "period_end": "2019-12-31",
+   "level": "partial",
+   "method": "Pre-2020 seats recorded only for directors serving on or after 2020-01-01. Reconstructed from proxies, appointment 8-Ks, Item 5.07 8-Ks and director Forms 3. Directors who left before 2020 are not recorded."
+  }
+ ]
+}
