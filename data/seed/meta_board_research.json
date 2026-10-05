@@ -1,0 +1,3713 @@
+{
+ "company": {
+  "cik": "0001326801",
+  "ticker": "META",
+  "legal_name": "Meta Platforms, Inc.",
+  "common_name": "Meta",
+  "exchange": "Nasdaq Global Select Market",
+  "ipo_pricing_date": "2012-05-17",
+  "ipo_date": "2012-05-18",
+  "state_of_incorporation": "Delaware",
+  "incorporated": "July 2004 (Delaware)",
+  "former_names": [
+   "Facebook, Inc. (until 2021-10-28)"
+  ],
+  "dual_class": "Class B (ten votes/share); Zuckerberg controls a majority of voting power (controlled company)",
+  "classified_board": false,
+  "notes": "IPO priced 2012-05-17 at $38.00 and first traded 2012-05-18 on the Nasdaq Global Select Market as FB (10-K: listed 'since May 18, 2012'). Renamed Facebook, Inc. -> Meta Platforms, Inc. on 2021-10-28. Ticker changed FB -> META at market open on 2022-06-09 (8-K 2022-05-31; FY2022 10-K); the MVRS ticker announced in October 2021 never took effect. The board is not classified: all directors are elected annually. Controlled company.",
+  "evidence_refs": [
+   "e001",
+   "e002",
+   "e003",
+   "e005",
+   "e008",
+   "e006",
+   "e007",
+   "e010",
+   "e011",
+   "e012"
+  ]
+ },
+ "as_of": "2026-10-04",
+ "sources_reviewed_through": "2026-09-30 (latest filing in EDGAR submissions feed fetched 2026-10-04/05 UTC)",
+ "people": [
+  {
+   "key": "mark-zuckerberg",
+   "full_name": "Mark Zuckerberg",
+   "aliases": [
+    "Zuckerberg Mark"
+   ],
+   "sec_cik": "0001548760",
+   "bio_other_public_boards": []
+  },
+  {
+   "key": "robert-kimmitt",
+   "full_name": "Robert M. Kimmitt",
+   "aliases": [
+    "Robert Kimmitt",
+    "KIMMITT ROBERT M"
+   ],
+   "sec_cik": "0001181218",
+   "bio_other_public_boards": []
+  },
+  {
+   "key": "peggy-alford",
+   "full_name": "Peggy Alford",
+   "aliases": [
+    "Alford Peggy"
+   ],
+   "sec_cik": "0001736236",
+   "bio_other_public_boards": [
+    {
+     "company": "The Macerich Company",
+     "status": "former",
+     "years": "within the past five years (2026 proxy); 2020 proxy: since June 2018",
+     "source_ref": "e028",
+     "public_company_stated_in_source": true,
+     "corroborating_refs": [
+      "e118"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "marc-andreessen",
+   "full_name": "Marc L. Andreessen",
+   "aliases": [
+    "Marc Andreessen",
+    "Andreessen Marc L"
+   ],
+   "sec_cik": "0001160077",
+   "bio_other_public_boards": [
+    {
+     "company": "Coinbase Global, Inc.",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e030",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Samsara Inc.",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e030",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "john-arnold",
+   "full_name": "John Arnold",
+   "aliases": [
+    "Arnold John Douglas"
+   ],
+   "sec_cik": "0002011994",
+   "bio_other_public_boards": []
+  },
+  {
+   "key": "patrick-collison",
+   "full_name": "Patrick Collison",
+   "aliases": [
+    "Collison Patrick"
+   ],
+   "sec_cik": "0002067148",
+   "bio_other_public_boards": []
+  },
+  {
+   "key": "john-elkann",
+   "full_name": "John Elkann",
+   "aliases": [
+    "Elkann John"
+   ],
+   "sec_cik": "0001579992",
+   "bio_other_public_boards": [
+    {
+     "company": "Exor N.V.",
+     "status": "current",
+     "years": "director since 2011 (CEO & Director 2011-present; Chairman 2009-2022)",
+     "source_ref": "e034",
+     "public_company_stated_in_source": true,
+     "corroborating_refs": [
+      "e035"
+     ]
+    },
+    {
+     "company": "Stellantis N.V.",
+     "status": "current",
+     "years": "since 2021 (Executive Chairman & Director)",
+     "source_ref": "e034",
+     "public_company_stated_in_source": true,
+     "corroborating_refs": [
+      "e035"
+     ]
+    },
+    {
+     "company": "Ferrari N.V.",
+     "status": "current",
+     "years": "since 2018 (Executive Chairman & Director)",
+     "source_ref": "e034",
+     "public_company_stated_in_source": true,
+     "corroborating_refs": [
+      "e035"
+     ]
+    },
+    {
+     "company": "GEDI Gruppo Editoriale S.p.A.",
+     "status": "former",
+     "years": "within the past five years (dates not stated)",
+     "source_ref": "e034",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Fiat Chrysler Automobiles N.V.",
+     "status": "former",
+     "years": "within the past five years (dates not stated)",
+     "source_ref": "e034",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "andrew-houston",
+   "full_name": "Andrew W. Houston",
+   "aliases": [
+    "Andrew Houston",
+    "Houston Andrew"
+   ],
+   "sec_cik": "0001734563",
+   "bio_other_public_boards": [
+    {
+     "company": "Dropbox, Inc.",
+     "status": "current",
+     "years": "Chairman and CEO since 2007",
+     "source_ref": "e037",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "nancy-killefer",
+   "full_name": "Nancy Killefer",
+   "aliases": [
+    "Killefer Nancy"
+   ],
+   "sec_cik": "0001584637",
+   "bio_other_public_boards": [
+    {
+     "company": "Cardinal Health, Inc.",
+     "status": "current",
+     "years": "since September 2015 (2020 proxy)",
+     "source_ref": "e039",
+     "public_company_stated_in_source": true,
+     "corroborating_refs": [
+      "e120"
+     ]
+    },
+    {
+     "company": "Certara, Inc.",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e039",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Natura & Company",
+     "status": "former",
+     "years": "within the past five years (dates not stated)",
+     "source_ref": "e039",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "charles-songhurst",
+   "full_name": "Charles Songhurst",
+   "aliases": [
+    "Songhurst Charles"
+   ],
+   "sec_cik": "0002051627",
+   "bio_other_public_boards": []
+  },
+  {
+   "key": "dana-white",
+   "full_name": "Dana White",
+   "aliases": [
+    "White Dana"
+   ],
+   "sec_cik": "0002051628",
+   "bio_other_public_boards": []
+  },
+  {
+   "key": "tony-xu",
+   "full_name": "Tony Xu",
+   "aliases": [
+    "Xu Tony"
+   ],
+   "sec_cik": "0001832617",
+   "bio_other_public_boards": [
+    {
+     "company": "DoorDash, Inc.",
+     "status": "current",
+     "years": "Chairman since 2020 (2026 proxy)",
+     "source_ref": "e043",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "hock-tan",
+   "full_name": "Hock E. Tan",
+   "aliases": [
+    "Hock Tan",
+    "TAN HOCK E"
+   ],
+   "sec_cik": "0001211588",
+   "bio_other_public_boards": [
+    {
+     "company": "Broadcom Inc.",
+     "status": "current",
+     "years": "director since 2006 (President, CEO & Director 2006-present), as of the 2025 proxy",
+     "source_ref": "e055",
+     "public_company_stated_in_source": true,
+     "corroborating_refs": [
+      "e054"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "tracey-travis",
+   "full_name": "Tracey T. Travis",
+   "aliases": [
+    "Tracey Travis",
+    "TRAVIS TRACEY THOMAS",
+    "Travis Tracey Thomas"
+   ],
+   "sec_cik": "0001258930",
+   "bio_other_public_boards": [
+    {
+     "company": "Accenture plc",
+     "status": "current",
+     "years": "since July 2017 (2020 proxy)",
+     "source_ref": "e057",
+     "public_company_stated_in_source": true,
+     "corroborating_refs": [
+      "e119"
+     ]
+    },
+    {
+     "company": "Hyatt Hotels Corporation",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e057",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "dina-powell-mccormick",
+   "full_name": "Dina Powell McCormick",
+   "aliases": [
+    "Powell Dina H."
+   ],
+   "sec_cik": "0002006664",
+   "bio_other_public_boards": [
+    {
+     "company": "Exxon Mobil Corporation",
+     "status": "current",
+     "years": "not stated (2025 proxy)",
+     "source_ref": "e052",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "sheryl-sandberg",
+   "full_name": "Sheryl K. Sandberg",
+   "aliases": [
+    "Sheryl Sandberg",
+    "Sandberg Sheryl"
+   ],
+   "sec_cik": "0001366010",
+   "bio_other_public_boards": [
+    {
+     "company": "Momentive Global, Inc.",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e078",
+     "public_company_stated_in_source": true,
+     "note": "status as of the 2023 proxy, her last bio"
+    }
+   ]
+  },
+  {
+   "key": "peter-thiel",
+   "full_name": "Peter A. Thiel",
+   "aliases": [
+    "Peter Thiel",
+    "THIEL PETER"
+   ],
+   "sec_cik": "0001211060",
+   "bio_other_public_boards": [
+    {
+     "company": "Palantir Technologies Inc.",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e096",
+     "public_company_stated_in_source": true,
+     "note": "status as of the 2021 proxy, his last bio"
+    },
+    {
+     "company": "AbCellera Biologics Inc.",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e096",
+     "public_company_stated_in_source": true,
+     "note": "status as of the 2021 proxy, his last bio"
+    }
+   ]
+  },
+  {
+   "key": "kenneth-chenault",
+   "full_name": "Kenneth I. Chenault",
+   "aliases": [
+    "Kenneth Chenault",
+    "CHENAULT KENNETH I"
+   ],
+   "sec_cik": "0001180524",
+   "bio_other_public_boards": [
+    {
+     "company": "International Business Machines Corporation",
+     "status": "former",
+     "years": "October 1998 to February 2019",
+     "source_ref": "e112",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "The Procter & Gamble Company",
+     "status": "former",
+     "years": "April 2008 to February 2019",
+     "source_ref": "e112",
+     "public_company_stated_in_source": false
+    }
+   ]
+  },
+  {
+   "key": "jeffrey-zients",
+   "full_name": "Jeffrey D. Zients",
+   "aliases": [
+    "Jeffrey Zients",
+    "ZIENTS JEFFREY D"
+   ],
+   "sec_cik": "0001167504",
+   "bio_other_public_boards": []
+  }
+ ],
+ "memberships": [
+  {
+   "person_key": "mark-zuckerberg",
+   "start_date": "2004-07",
+   "start_date_precision": "month",
+   "start_date_basis": "IPO prospectus/proxy bio 'member of our board of directors since July 2004'",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e142",
+    "e108",
+    "e024",
+    "e047",
+    "e048",
+    "e146"
+   ],
+   "board_class": null,
+   "notes": "Founder; CEO-director since July 2004, Chairman since January 2012. Pre-IPO director (IPO 2012-05-18); only the month of joining is disclosed. Re-elected annually (no classified board); elected 2026-05-27."
+  },
+  {
+   "person_key": "robert-kimmitt",
+   "start_date": "2020-03-26",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 appointment effective date (Form 3 event date agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e128",
+    "e156",
+    "e115",
+    "e026",
+    "e047"
+   ],
+   "board_class": null,
+   "notes": "Joined as Lead Independent Director. Re-elected annually; elected 2026-05-27."
+  },
+  {
+   "person_key": "peggy-alford",
+   "start_date": "2019-05-30",
+   "start_date_precision": "day",
+   "start_date_basis": "first elected at the 2019 annual meeting (8-K Item 5.07, 2019-05-30); Form 3 event date agrees; proxy 'since May 2019'",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e134",
+    "e136",
+    "e137",
+    "e152",
+    "e109",
+    "e027",
+    "e047"
+   ],
+   "board_class": null,
+   "notes": "Nominated in the 2019 proxy as a non-sitting nominee and elected at the 2019-05-30 meeting. Re-elected annually; elected 2026-05-27."
+  },
+  {
+   "person_key": "marc-andreessen",
+   "start_date": "2008-06",
+   "start_date_precision": "month",
+   "start_date_basis": "IPO prospectus/proxy bio 'member of our board of directors since June 2008'",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e143",
+    "e110",
+    "e029",
+    "e047",
+    "e147"
+   ],
+   "board_class": null,
+   "notes": "Pre-IPO director; only the month of joining is disclosed. IPO-date Form 3 (2012-05-17) is not his start. Re-elected annually; elected 2026-05-27."
+  },
+  {
+   "person_key": "john-arnold",
+   "start_date": "2024-02-13",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 election 'effective immediately' (Form 3 event date agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e067",
+    "e158",
+    "e031",
+    "e047"
+   ],
+   "board_class": null,
+   "notes": "Re-elected 2024, 2025, 2026. No 8-K stated a board-size increase for this appointment (see conflicts)."
+  },
+  {
+   "person_key": "patrick-collison",
+   "start_date": "2025-04-15",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 election effective date (Form 3 event date agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e060",
+    "e164",
+    "e032",
+    "e047"
+   ],
+   "board_class": null,
+   "notes": "Elected 2025-04-11, effective 2025-04-15, with board increase to 15. Re-elected 2025 and 2026. Bio: member of Meta Advisory Group 2024-2025."
+  },
+  {
+   "person_key": "john-elkann",
+   "start_date": "2024-12-30",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 election effective date (Form 3 event date agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e065",
+    "e162",
+    "e033",
+    "e047"
+   ],
+   "board_class": null,
+   "notes": "Effective 2024-12-30; the 8-K and press release are dated 2025-01-06 (proxies say 'Director Since: 2024'). Re-elected 2025 and 2026."
+  },
+  {
+   "person_key": "andrew-houston",
+   "start_date": "2020-02-03",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 appointment 'effective immediately' (Form 3 event date agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e130",
+    "e153",
+    "e113",
+    "e036",
+    "e047"
+   ],
+   "board_class": null,
+   "notes": "Re-elected annually; elected 2026-05-27."
+  },
+  {
+   "person_key": "nancy-killefer",
+   "start_date": "2020-03-09",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 appointment effective date (Form 3 event date agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e129",
+    "e154",
+    "e114",
+    "e038",
+    "e047"
+   ],
+   "board_class": null,
+   "notes": "Appointed 2020-03-05, effective 2020-03-09. Re-elected annually; elected 2026-05-27."
+  },
+  {
+   "person_key": "charles-songhurst",
+   "start_date": "2024-12-30",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 election effective date (Form 3 event date agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e065",
+    "e161",
+    "e040",
+    "e047"
+   ],
+   "board_class": null,
+   "notes": "Effective 2024-12-30 (8-K filed 2025-01-06). The 8-K names him Charles Songhurst. Re-elected 2025 and 2026."
+  },
+  {
+   "person_key": "dana-white",
+   "start_date": "2024-12-30",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 election effective date (Form 3 event date agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e065",
+    "e160",
+    "e041",
+    "e047"
+   ],
+   "board_class": null,
+   "notes": "Effective 2024-12-30 (8-K filed 2025-01-06). Re-elected 2025 and 2026."
+  },
+  {
+   "person_key": "tony-xu",
+   "start_date": "2022-01-11",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 election effective date (Form 3 event date agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e131",
+    "e157",
+    "e042",
+    "e047"
+   ],
+   "board_class": null,
+   "notes": "Elected 2022-01-10, effective 2022-01-11. Re-elected annually; elected 2026-05-27."
+  },
+  {
+   "person_key": "hock-tan",
+   "start_date": "2024-02-13",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 election 'effective immediately' (Form 3 event date agrees)",
+   "end_date": "2026-05-27",
+   "end_date_precision": "day",
+   "end_reason": "did_not_stand",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e067",
+    "e159",
+    "e053",
+    "e069",
+    "e049",
+    "e014",
+    "e045",
+    "e046"
+   ],
+   "board_class": null,
+   "notes": "Notified 2026-04-08 that he would not stand for re-election; served until the 2026-05-27 annual meeting. Broadcom related-party purchases disclosed at appointment."
+  },
+  {
+   "person_key": "tracey-travis",
+   "start_date": "2020-03-09",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 appointment effective date (Form 3 event date agrees)",
+   "end_date": "2026-05-27",
+   "end_date_precision": "day",
+   "end_reason": "did_not_stand",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e129",
+    "e155",
+    "e117",
+    "e056",
+    "e049",
+    "e014",
+    "e045",
+    "e046"
+   ],
+   "board_class": null,
+   "notes": "Notified 2026-04-08 that she would not stand for re-election; served until the 2026-05-27 annual meeting. The 2026 proxy calls it retirement."
+  },
+  {
+   "person_key": "dina-powell-mccormick",
+   "start_date": "2025-04-15",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 election effective date (Form 3 event date agrees)",
+   "end_date": "2025-12-19",
+   "end_date_precision": "day",
+   "end_reason": "resigned",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e060",
+    "e163",
+    "e051",
+    "e062",
+    "e064",
+    "e063",
+    "e165",
+    "e044"
+   ],
+   "board_class": null,
+   "notes": "Resigned effective immediately on 2025-12-19. On 2026-01-12 she became President and Vice Chairman of the company, an officer title; she did not rejoin the board (2026 Form 3 as officer, isDirector 0; not a 2026 nominee)."
+  },
+  {
+   "person_key": "sheryl-sandberg",
+   "start_date": "2012-06-24",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 board appointment date (proxy 'since June 2012')",
+   "end_date": "2024-05-29",
+   "end_date_precision": "day",
+   "end_reason": "did_not_stand",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e085",
+    "e086",
+    "e149",
+    "e072",
+    "e071",
+    "e073"
+   ],
+   "board_class": null,
+   "notes": "Joined after the IPO while COO. Employee-director until 2022-09-30, then non-employee, non-independent director. Did not stand at the 2024-05-29 annual meeting."
+  },
+  {
+   "person_key": "peter-thiel",
+   "start_date": "2005-04",
+   "start_date_precision": "month",
+   "start_date_basis": "IPO prospectus/proxy bio 'member of our board of directors since April 2005'",
+   "end_date": "2022-05-25",
+   "end_date_precision": "day",
+   "end_reason": "did_not_stand",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e144",
+    "e116",
+    "e095",
+    "e148",
+    "e087",
+    "e089",
+    "e093"
+   ],
+   "board_class": null,
+   "notes": "Pre-IPO director; only the month of joining is disclosed. Notified 2022-02-05 that he would not stand; term ended at the 2022-05-25 annual meeting."
+  },
+  {
+   "person_key": "kenneth-chenault",
+   "start_date": "2018-02-05",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 appointment effective date (Form 3 event date agrees)",
+   "end_date": "2020-05-27",
+   "end_date_precision": "day",
+   "end_reason": "did_not_stand",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e139",
+    "e150",
+    "e111",
+    "e125",
+    "e102",
+    "e123"
+   ],
+   "board_class": null,
+   "notes": "Notified 2020-03-11 that he would not stand; term ended at the 2020-05-27 annual meeting."
+  },
+  {
+   "person_key": "jeffrey-zients",
+   "start_date": "2018-05-31",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02: effective immediately after the 2018 annual meeting (held 2018-05-31 per 8-K Item 5.07); Form 3 event date agrees",
+   "end_date": "2020-05-27",
+   "end_date_precision": "day",
+   "end_reason": "did_not_stand",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e140",
+    "e141",
+    "e151",
+    "e121",
+    "e126",
+    "e127",
+    "e102",
+    "e123"
+   ],
+   "board_class": null,
+   "notes": "Notified 2020-03-23 that he would not stand; term ended at the 2020-05-27 annual meeting."
+  }
+ ],
+ "roles": [
+  {
+   "person_key": "mark-zuckerberg",
+   "role": "ceo_director",
+   "start_date": "2004-07",
+   "end_date": null,
+   "precision": "month",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e142",
+    "e108",
+    "e025",
+    "e017"
+   ],
+   "notes": "Founder and CEO since July 2004; not independent (2026 proxy: all nominees independent except the CEO)."
+  },
+  {
+   "person_key": "mark-zuckerberg",
+   "role": "chair",
+   "start_date": "2012-01",
+   "end_date": null,
+   "precision": "month",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e142",
+    "e108",
+    "e025",
+    "e017"
+   ],
+   "notes": "Combined Chairman and CEO; non-independent chair."
+  },
+  {
+   "person_key": "robert-kimmitt",
+   "role": "lead_independent_director",
+   "start_date": "2020-03-26",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e128",
+    "e115",
+    "e016",
+    "e138"
+   ],
+   "notes": "The 8-K (filed 2020-03-26, the day his seat took effect) says the independent directors 'have appointed' him LID; the proxy says 'since March 2020'. Appointed annually; current per 2026 proxy. Predecessor: after Desmond-Hellmann resigned (2019-10-30), the 8-K said the independent directors did not immediately appoint a new LID."
+  },
+  {
+   "person_key": "robert-kimmitt",
+   "role": "independent_director",
+   "start_date": "2020-03-26",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e103",
+    "e026",
+    "e015"
+   ],
+   "notes": "First disclosed determination: 2020 proxy. Start aligned to appointment date."
+  },
+  {
+   "person_key": "peggy-alford",
+   "role": "independent_director",
+   "start_date": "2019-05-30",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e103",
+    "e027",
+    "e015"
+   ],
+   "notes": "Found independent in every proxy since 2020. Start aligned to election date."
+  },
+  {
+   "person_key": "marc-andreessen",
+   "role": "independent_director",
+   "start_date": "2008-06",
+   "end_date": null,
+   "precision": "month",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e145",
+    "e103",
+    "e029",
+    "e015"
+   ],
+   "notes": "First disclosed determination: IPO prospectus (2012). Start aligned to board start; the filings do not date pre-IPO independence."
+  },
+  {
+   "person_key": "john-arnold",
+   "role": "independent_director",
+   "start_date": "2024-02-13",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e068",
+    "e031",
+    "e015"
+   ],
+   "notes": "Determined independent at appointment (8-K)."
+  },
+  {
+   "person_key": "patrick-collison",
+   "role": "independent_director",
+   "start_date": "2025-04-15",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e061",
+    "e032",
+    "e015"
+   ],
+   "notes": "Determined independent at appointment (8-K)."
+  },
+  {
+   "person_key": "john-elkann",
+   "role": "independent_director",
+   "start_date": "2024-12-30",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e066",
+    "e033",
+    "e015"
+   ],
+   "notes": "Determined independent at appointment (8-K)."
+  },
+  {
+   "person_key": "andrew-houston",
+   "role": "independent_director",
+   "start_date": "2020-02-03",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e103",
+    "e036",
+    "e015"
+   ],
+   "notes": "First disclosed determination: 2020 proxy. Start aligned to appointment date."
+  },
+  {
+   "person_key": "nancy-killefer",
+   "role": "independent_director",
+   "start_date": "2020-03-09",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e103",
+    "e038",
+    "e015"
+   ],
+   "notes": "First disclosed determination: 2020 proxy. Start aligned to appointment date."
+  },
+  {
+   "person_key": "charles-songhurst",
+   "role": "independent_director",
+   "start_date": "2024-12-30",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e066",
+    "e040",
+    "e015"
+   ],
+   "notes": "Determined independent at appointment (8-K)."
+  },
+  {
+   "person_key": "dana-white",
+   "role": "independent_director",
+   "start_date": "2024-12-30",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e066",
+    "e041",
+    "e015"
+   ],
+   "notes": "Determined independent at appointment (8-K)."
+  },
+  {
+   "person_key": "tony-xu",
+   "role": "independent_director",
+   "start_date": "2022-01-11",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e132",
+    "e042",
+    "e015"
+   ],
+   "notes": "Determined independent at appointment (8-K)."
+  },
+  {
+   "person_key": "hock-tan",
+   "role": "independent_director",
+   "start_date": "2024-02-13",
+   "end_date": "2026-05-27",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e068",
+    "e053"
+   ],
+   "notes": "Determined independent at appointment (8-K) and in the 2024/2025 proxies."
+  },
+  {
+   "person_key": "tracey-travis",
+   "role": "independent_director",
+   "start_date": "2020-03-09",
+   "end_date": "2026-05-27",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "medium",
+   "evidence_refs": [
+    "e103",
+    "e056"
+   ],
+   "notes": "First disclosed determination: 2020 proxy. Start aligned to appointment date."
+  },
+  {
+   "person_key": "dina-powell-mccormick",
+   "role": "independent_director",
+   "start_date": "2025-04-15",
+   "end_date": "2025-12-19",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e061",
+    "e051"
+   ],
+   "notes": "Determined independent at appointment (8-K). Ends with her board resignation; later an officer."
+  },
+  {
+   "person_key": "sheryl-sandberg",
+   "role": "executive_director",
+   "start_date": "2012-06-24",
+   "end_date": "2022-09-30",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e085",
+    "e086",
+    "e082",
+    "e083"
+   ],
+   "notes": "Employee-director: COO from March 2008. Olivan became COO on 2022-08-01; Sandberg remained an employee through 2022-09-30.",
+   "officer_title": "Chief Operating Officer"
+  },
+  {
+   "person_key": "sheryl-sandberg",
+   "role": "non_independent_director",
+   "start_date": "2022-10-01",
+   "end_date": "2024-05-29",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "medium",
+   "evidence_refs": [
+    "e084",
+    "e076",
+    "e077"
+   ],
+   "notes": "Non-employee director from 2022-10-01. The 2023 proxy counts 7 of 9 nominees as independent and heads her bio 'Director' rather than 'Independent Director'. Its general sentence calls every non-employee director independent (see conflicts)."
+  },
+  {
+   "person_key": "peter-thiel",
+   "role": "independent_director",
+   "start_date": "2005-04",
+   "end_date": "2022-05-25",
+   "precision": "month",
+   "end_precision": "day",
+   "confidence": "medium",
+   "evidence_refs": [
+    "e145",
+    "e103",
+    "e095"
+   ],
+   "notes": "First disclosed determination: IPO prospectus (2012). Start aligned to board start; the filings do not date pre-IPO independence."
+  },
+  {
+   "person_key": "kenneth-chenault",
+   "role": "independent_director",
+   "start_date": "2018-02-05",
+   "end_date": "2020-05-27",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "medium",
+   "evidence_refs": [
+    "e103",
+    "e097"
+   ],
+   "notes": "Independent per 2020 proxy and 2021 proxy look-back. Start aligned to appointment date."
+  },
+  {
+   "person_key": "jeffrey-zients",
+   "role": "independent_director",
+   "start_date": "2018-05-31",
+   "end_date": "2020-05-27",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "medium",
+   "evidence_refs": [
+    "e103",
+    "e097"
+   ],
+   "notes": "Independent per 2020 proxy and 2021 proxy look-back. Start aligned to appointment date."
+  }
+ ],
+ "committees": [
+  {
+   "person_key": "nancy-killefer",
+   "committee": "audit",
+   "role": "chair",
+   "as_of_filing": "0001628280-26-025532",
+   "as_of_date": "2026-05-27",
+   "evidence_refs": [
+    "e020",
+    "e038",
+    "e019"
+   ],
+   "name_as_written": "Audit & Privacy Committee"
+  },
+  {
+   "person_key": "peggy-alford",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001628280-26-025532",
+   "as_of_date": "2026-05-27",
+   "evidence_refs": [
+    "e020",
+    "e021",
+    "e027"
+   ],
+   "name_as_written": "Audit & Privacy Committee"
+  },
+  {
+   "person_key": "john-arnold",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001628280-26-025532",
+   "as_of_date": "2026-05-27",
+   "evidence_refs": [
+    "e020",
+    "e021",
+    "e031"
+   ],
+   "name_as_written": "Audit & Privacy Committee"
+  },
+  {
+   "person_key": "peggy-alford",
+   "committee": "compensation_nominating_governance",
+   "role": "chair",
+   "as_of_filing": "0001628280-26-025532",
+   "as_of_date": "2026-05-27",
+   "evidence_refs": [
+    "e022",
+    "e027"
+   ],
+   "name_as_written": "Compensation, Nominating & Governance Committee"
+  },
+  {
+   "person_key": "john-elkann",
+   "committee": "compensation_nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001628280-26-025532",
+   "as_of_date": "2026-05-27",
+   "evidence_refs": [
+    "e022",
+    "e033"
+   ],
+   "name_as_written": "Compensation, Nominating & Governance Committee"
+  },
+  {
+   "person_key": "andrew-houston",
+   "committee": "compensation_nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001628280-26-025532",
+   "as_of_date": "2026-05-27",
+   "evidence_refs": [
+    "e022",
+    "e036"
+   ],
+   "name_as_written": "Compensation, Nominating & Governance Committee"
+  },
+  {
+   "person_key": "tony-xu",
+   "committee": "compensation_nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001628280-26-025532",
+   "as_of_date": "2026-05-27",
+   "evidence_refs": [
+    "e022",
+    "e042"
+   ],
+   "name_as_written": "Compensation, Nominating & Governance Committee"
+  },
+  {
+   "person_key": "charles-songhurst",
+   "committee": "risk_strategy",
+   "role": "chair",
+   "as_of_filing": "0001628280-26-025532",
+   "as_of_date": "2026-05-27",
+   "evidence_refs": [
+    "e023",
+    "e040"
+   ],
+   "name_as_written": "Risk & Strategy Committee"
+  },
+  {
+   "person_key": "marc-andreessen",
+   "committee": "risk_strategy",
+   "role": "member",
+   "as_of_filing": "0001628280-26-025532",
+   "as_of_date": "2026-05-27",
+   "evidence_refs": [
+    "e023",
+    "e029"
+   ],
+   "name_as_written": "Risk & Strategy Committee"
+  },
+  {
+   "person_key": "john-arnold",
+   "committee": "risk_strategy",
+   "role": "member",
+   "as_of_filing": "0001628280-26-025532",
+   "as_of_date": "2026-05-27",
+   "evidence_refs": [
+    "e023",
+    "e031"
+   ],
+   "name_as_written": "Risk & Strategy Committee"
+  },
+  {
+   "person_key": "dana-white",
+   "committee": "risk_strategy",
+   "role": "member",
+   "as_of_filing": "0001628280-26-025532",
+   "as_of_date": "2026-05-27",
+   "evidence_refs": [
+    "e023",
+    "e041"
+   ],
+   "name_as_written": "Risk & Strategy Committee"
+  },
+  {
+   "person_key": "hock-tan",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001326801-25-000040",
+   "as_of_date": "2025-04-17",
+   "evidence_refs": [
+    "e053"
+   ],
+   "name_as_written": "Audit & Risk Oversight Committee"
+  },
+  {
+   "person_key": "tracey-travis",
+   "committee": "audit",
+   "role": "chair",
+   "as_of_filing": "0001326801-25-000040",
+   "as_of_date": "2025-04-17",
+   "evidence_refs": [
+    "e056"
+   ],
+   "name_as_written": "Audit & Risk Oversight Committee"
+  },
+  {
+   "person_key": "peter-thiel",
+   "committee": "compensation_nominating_governance",
+   "role": "chair",
+   "as_of_filing": "0001326801-22-000043",
+   "as_of_date": "2022-04-08",
+   "evidence_refs": [
+    "e090",
+    "e091"
+   ],
+   "name_as_written": "Compensation, Nominating & Governance Committee"
+  },
+  {
+   "person_key": "jeffrey-zients",
+   "committee": "audit",
+   "role": "chair",
+   "as_of_filing": "0001326801-20-000037",
+   "as_of_date": "2020-04-10",
+   "evidence_refs": [
+    "e104"
+   ],
+   "name_as_written": "Audit & Risk Oversight Committee"
+  },
+  {
+   "person_key": "kenneth-chenault",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001326801-20-000037",
+   "as_of_date": "2020-04-10",
+   "evidence_refs": [
+    "e104"
+   ],
+   "name_as_written": "Audit & Risk Oversight Committee"
+  }
+ ],
+ "events": [
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "mark-zuckerberg",
+   "event_date": "2004-07",
+   "announced_date": null,
+   "evidence_refs": [
+    "e142",
+    "e108"
+   ],
+   "summary": "Mark Zuckerberg (founder, CEO) on the board since July 2004.",
+   "event_date_precision": "month"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "peter-thiel",
+   "event_date": "2005-04",
+   "announced_date": null,
+   "evidence_refs": [
+    "e144",
+    "e116"
+   ],
+   "summary": "Peter Thiel joins the board.",
+   "event_date_precision": "month"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "marc-andreessen",
+   "event_date": "2008-06",
+   "announced_date": null,
+   "evidence_refs": [
+    "e143",
+    "e110"
+   ],
+   "summary": "Marc Andreessen joins the board.",
+   "event_date_precision": "month"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "mark-zuckerberg",
+   "event_date": "2012-01",
+   "announced_date": null,
+   "evidence_refs": [
+    "e142",
+    "e108"
+   ],
+   "summary": "Zuckerberg becomes Chairman (combined Chairman/CEO).",
+   "event_date_precision": "month"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "sheryl-sandberg",
+   "event_date": "2012-06-24",
+   "announced_date": "2012-06-25",
+   "evidence_refs": [
+    "e085"
+   ],
+   "summary": "Sheryl Sandberg (COO) appointed to the board.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "kenneth-chenault",
+   "event_date": "2018-02-05",
+   "announced_date": "2018-01-18",
+   "evidence_refs": [
+    "e139",
+    "e150"
+   ],
+   "summary": "Kenneth Chenault joins.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "jeffrey-zients",
+   "event_date": "2018-05-31",
+   "announced_date": "2018-05-08",
+   "evidence_refs": [
+    "e140",
+    "e141",
+    "e151"
+   ],
+   "summary": "Jeffrey Zients joins after the 2018 annual meeting (Audit Committee).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "peggy-alford",
+   "event_date": "2019-05-30",
+   "announced_date": "2019-04-12",
+   "evidence_refs": [
+    "e134",
+    "e136",
+    "e137",
+    "e152"
+   ],
+   "summary": "Peggy Alford elected at the 2019 annual meeting.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "andrew-houston",
+   "event_date": "2020-02-03",
+   "announced_date": "2020-02-03",
+   "evidence_refs": [
+    "e130",
+    "e153"
+   ],
+   "summary": "Andrew Houston appointed.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "nancy-killefer",
+   "event_date": "2020-03-09",
+   "announced_date": "2020-03-09",
+   "evidence_refs": [
+    "e129",
+    "e154"
+   ],
+   "summary": "Nancy Killefer appointed (effective 2020-03-09).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "tracey-travis",
+   "event_date": "2020-03-09",
+   "announced_date": "2020-03-09",
+   "evidence_refs": [
+    "e129",
+    "e155"
+   ],
+   "summary": "Tracey Travis appointed (effective 2020-03-09; Audit & Risk Oversight).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "robert-kimmitt",
+   "event_date": "2020-03-26",
+   "announced_date": "2020-03-26",
+   "evidence_refs": [
+    "e128",
+    "e156"
+   ],
+   "summary": "Robert Kimmitt appointed (effective 2020-03-26).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "robert-kimmitt",
+   "event_date": "2020-03-26",
+   "announced_date": "2020-03-26",
+   "evidence_refs": [
+    "e128",
+    "e115",
+    "e138"
+   ],
+   "summary": "Kimmitt appointed Lead Independent Director (no successor had been named immediately after Desmond-Hellmann resigned on 2019-10-30).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "kenneth-chenault",
+   "event_date": "2020-05-27",
+   "announced_date": "2020-03-13",
+   "evidence_refs": [
+    "e125",
+    "e102",
+    "e123"
+   ],
+   "summary": "Chenault does not stand for re-election; term ends at the 2020 annual meeting.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "jeffrey-zients",
+   "event_date": "2020-05-27",
+   "announced_date": "2020-03-26",
+   "evidence_refs": [
+    "e126",
+    "e127",
+    "e102",
+    "e123"
+   ],
+   "summary": "Zients does not stand for re-election; term ends at the 2020 annual meeting.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "tony-xu",
+   "event_date": "2022-01-11",
+   "announced_date": "2022-01-11",
+   "evidence_refs": [
+    "e131",
+    "e157"
+   ],
+   "summary": "Tony Xu elected (effective 2022-01-11).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "peter-thiel",
+   "event_date": "2022-05-25",
+   "announced_date": "2022-02-10",
+   "evidence_refs": [
+    "e087",
+    "e089",
+    "e093"
+   ],
+   "summary": "Thiel does not stand for re-election; term ends at the 2022 annual meeting.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_SIZE_CHANGE",
+   "person_key": null,
+   "event_date": "2022-05-25",
+   "announced_date": "2022-02-10",
+   "evidence_refs": [
+    "e088",
+    "e089",
+    "e093"
+   ],
+   "summary": "Authorized directors reduced 10 -> 9 effective at the 2022 annual meeting.",
+   "event_date_precision": "day",
+   "from_size": 10,
+   "to_size": 9,
+   "decision_date": "2022-02-05"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "sheryl-sandberg",
+   "event_date": "2022-10-01",
+   "announced_date": "2022-08-01",
+   "evidence_refs": [
+    "e082",
+    "e083",
+    "e084"
+   ],
+   "summary": "Sandberg stops being an employee (through 2022-09-30) and continues as a non-employee director from 2022-10-01.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "john-arnold",
+   "event_date": "2024-02-13",
+   "announced_date": "2024-02-14",
+   "evidence_refs": [
+    "e067",
+    "e158"
+   ],
+   "summary": "John Arnold elected (Audit & Risk Oversight).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "hock-tan",
+   "event_date": "2024-02-13",
+   "announced_date": "2024-02-14",
+   "evidence_refs": [
+    "e067",
+    "e159"
+   ],
+   "summary": "Hock Tan elected (Audit & Risk Oversight).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "sheryl-sandberg",
+   "event_date": "2024-05-29",
+   "announced_date": "2024-01-18",
+   "evidence_refs": [
+    "e072",
+    "e071",
+    "e073"
+   ],
+   "summary": "Sandberg does not stand for re-election; term ends at the 2024 annual meeting.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_SIZE_CHANGE",
+   "person_key": null,
+   "event_date": "2024-05-29",
+   "announced_date": "2024-04-19",
+   "evidence_refs": [
+    "e071",
+    "e073"
+   ],
+   "summary": "Authorized directors set at ten (from eleven) effective at the 2024 annual meeting.",
+   "event_date_precision": "day",
+   "from_size": 11,
+   "to_size": 10
+  },
+  {
+   "type": "BOARD_SIZE_CHANGE",
+   "person_key": null,
+   "event_date": "2024-12-30",
+   "announced_date": "2025-01-06",
+   "evidence_refs": [
+    "e065",
+    "e071"
+   ],
+   "summary": "Board increased to 13 (from the ten set at the 2024 annual meeting).",
+   "event_date_precision": "day",
+   "from_size": 10,
+   "to_size": 13
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "dana-white",
+   "event_date": "2024-12-30",
+   "announced_date": "2025-01-06",
+   "evidence_refs": [
+    "e065",
+    "e160"
+   ],
+   "summary": "Dana White elected (effective 2024-12-30).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "john-elkann",
+   "event_date": "2024-12-30",
+   "announced_date": "2025-01-06",
+   "evidence_refs": [
+    "e065",
+    "e162"
+   ],
+   "summary": "John Elkann elected (effective 2024-12-30).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "charles-songhurst",
+   "event_date": "2024-12-30",
+   "announced_date": "2025-01-06",
+   "evidence_refs": [
+    "e065",
+    "e161"
+   ],
+   "summary": "Charles Songhurst elected (effective 2024-12-30).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_SIZE_CHANGE",
+   "person_key": null,
+   "event_date": "2025-04-15",
+   "announced_date": "2025-04-11",
+   "evidence_refs": [
+    "e060",
+    "e065"
+   ],
+   "summary": "Board increased 13 -> 15.",
+   "event_date_precision": "day",
+   "from_size": 13,
+   "to_size": 15,
+   "decision_date": "2025-04-11"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "dina-powell-mccormick",
+   "event_date": "2025-04-15",
+   "announced_date": "2025-04-11",
+   "evidence_refs": [
+    "e060",
+    "e163"
+   ],
+   "summary": "Dina Powell McCormick elected (effective 2025-04-15).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "patrick-collison",
+   "event_date": "2025-04-15",
+   "announced_date": "2025-04-11",
+   "evidence_refs": [
+    "e060",
+    "e164"
+   ],
+   "summary": "Patrick Collison elected (effective 2025-04-15).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "dina-powell-mccormick",
+   "event_date": "2025-12-19",
+   "announced_date": "2025-12-19",
+   "evidence_refs": [
+    "e062"
+   ],
+   "summary": "Powell McCormick resigns from the board, effective immediately (becomes President and Vice Chairman, an officer role, on 2026-01-12).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "hock-tan",
+   "event_date": "2026-05-27",
+   "announced_date": "2026-04-14",
+   "evidence_refs": [
+    "e049",
+    "e014",
+    "e046"
+   ],
+   "summary": "Tan does not stand for re-election; term ends at the 2026 annual meeting.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "tracey-travis",
+   "event_date": "2026-05-27",
+   "announced_date": "2026-04-14",
+   "evidence_refs": [
+    "e049",
+    "e014",
+    "e046"
+   ],
+   "summary": "Travis does not stand for re-election; term ends at the 2026 annual meeting.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_SIZE_CHANGE",
+   "person_key": null,
+   "event_date": "2026-05-27",
+   "announced_date": "2026-04-16",
+   "evidence_refs": [
+    "e014",
+    "e046"
+   ],
+   "summary": "Authorized directors set at twelve (from fourteen) effective at the 2026 annual meeting.",
+   "event_date_precision": "day",
+   "from_size": 14,
+   "to_size": 12
+  }
+ ],
+ "context_events": [
+  {
+   "type": "IPO",
+   "event_date": "2012-05-18",
+   "announced_date": "2012-05-17",
+   "evidence_refs": [
+    "e001",
+    "e002",
+    "e003",
+    "e004"
+   ],
+   "summary": "IPO priced 2012-05-17 at $38.00 (prospectus dated May 17, 2012); Class A began trading on the Nasdaq Global Select Market as FB on 2012-05-18."
+  },
+  {
+   "type": "NAME_CHANGE",
+   "event_date": "2021-10-28",
+   "evidence_refs": [
+    "e008"
+   ],
+   "summary": "Facebook, Inc. renamed Meta Platforms, Inc."
+  },
+  {
+   "type": "TICKER_CHANGE",
+   "event_date": "2022-06-09",
+   "announced_date": "2022-05-31",
+   "evidence_refs": [
+    "e006",
+    "e007",
+    "e009"
+   ],
+   "summary": "Ticker FB -> META at market open 2022-06-09. The October 2021 plan to switch to MVRS on 2021-12-01 never took effect."
+  },
+  {
+   "type": "BOARD_SIZE_SNAPSHOT",
+   "event_date": "2020-04-10",
+   "board_size": 11,
+   "evidence_refs": [
+    "e101"
+   ],
+   "summary": "2020 proxy: authorized 11; nine nominees (Chenault, Zients leaving)."
+  },
+  {
+   "type": "BOARD_SIZE_SNAPSHOT",
+   "event_date": "2021-04-09",
+   "board_size": 9,
+   "evidence_refs": [
+    "e099",
+    "e098"
+   ],
+   "summary": "2021 proxy: nine directors (seven independent)."
+  },
+  {
+   "type": "BOARD_SIZE_SNAPSHOT",
+   "event_date": "2022-04-08",
+   "board_size": 10,
+   "evidence_refs": [
+    "e089",
+    "e092"
+   ],
+   "summary": "2022 proxy: authorized ten, nine nominees (seven independent)."
+  },
+  {
+   "type": "BOARD_SIZE_SNAPSHOT",
+   "event_date": "2023-04-14",
+   "board_size": 9,
+   "evidence_refs": [
+    "e080",
+    "e076"
+   ],
+   "summary": "2023 proxy: nine directors (seven independent)."
+  },
+  {
+   "type": "BOARD_SIZE_SNAPSHOT",
+   "event_date": "2024-04-19",
+   "board_size": 11,
+   "evidence_refs": [
+    "e071",
+    "e070"
+   ],
+   "summary": "2024 proxy: authorized eleven, ten nominees."
+  },
+  {
+   "type": "BOARD_SIZE_SNAPSHOT",
+   "event_date": "2025-04-17",
+   "board_size": 15,
+   "evidence_refs": [
+    "e050"
+   ],
+   "summary": "2025 proxy: fifteen directors (all independent except the CEO)."
+  },
+  {
+   "type": "BOARD_SIZE_SNAPSHOT",
+   "event_date": "2026-04-16",
+   "board_size": 14,
+   "evidence_refs": [
+    "e014",
+    "e013"
+   ],
+   "summary": "2026 proxy: authorized fourteen, twelve nominees (eleven independent)."
+  },
+  {
+   "type": "ANNUAL_MEETING",
+   "event_date": "2020-05-27",
+   "evidence_refs": [
+    "e123",
+    "e124"
+   ],
+   "summary": "Nine directors elected."
+  },
+  {
+   "type": "ANNUAL_MEETING",
+   "event_date": "2021-05-26",
+   "evidence_refs": [
+    "e100"
+   ],
+   "summary": "Nine directors elected."
+  },
+  {
+   "type": "ANNUAL_MEETING",
+   "event_date": "2022-05-25",
+   "evidence_refs": [
+    "e093",
+    "e094"
+   ],
+   "summary": "Nine directors elected; Thiel's term ends."
+  },
+  {
+   "type": "ANNUAL_MEETING",
+   "event_date": "2023-05-31",
+   "evidence_refs": [
+    "e081"
+   ],
+   "summary": "Nine directors elected."
+  },
+  {
+   "type": "ANNUAL_MEETING",
+   "event_date": "2024-05-29",
+   "evidence_refs": [
+    "e073",
+    "e074"
+   ],
+   "summary": "Ten directors elected; Sandberg's term ends."
+  },
+  {
+   "type": "ANNUAL_MEETING",
+   "event_date": "2025-05-28",
+   "evidence_refs": [
+    "e058",
+    "e059"
+   ],
+   "summary": "Fifteen directors elected."
+  },
+  {
+   "type": "ANNUAL_MEETING",
+   "event_date": "2026-05-27",
+   "evidence_refs": [
+    "e046",
+    "e047"
+   ],
+   "summary": "Twelve directors elected; Tan's and Travis's terms end."
+  },
+  {
+   "type": "COMMITTEE_RESTRUCTURE",
+   "event_date": "2025-06",
+   "evidence_refs": [
+    "e018"
+   ],
+   "summary": "Audit & Risk Oversight and Privacy & Product Compliance committees replaced by Audit & Privacy and Risk & Strategy committees (effective June 2025)."
+  },
+  {
+   "type": "OFFICER_CHANGE_NOT_BOARD",
+   "event_date": "2026-01-12",
+   "evidence_refs": [
+    "e063",
+    "e165",
+    "e044"
+   ],
+   "summary": "Dina Powell McCormick becomes President and Vice Chairman (officer title) after resigning from the board; she is not a director."
+  },
+  {
+   "type": "OFFICER_CHANGE_NOT_BOARD",
+   "event_date": "2026-01-07",
+   "evidence_refs": [
+    "e166"
+   ],
+   "summary": "Curtis J. Mahoney files a Form 3 as Chief Legal Officer. He is not a director; listed only to show the 2026 Forms 3 are not board joins."
+  }
+ ],
+ "evidence": [
+  {
+   "id": "e001",
+   "form": "10-K",
+   "accession": "0001326801-13-000003",
+   "filing_date": "2013-02-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680113000003/fb-12312012x10k.htm",
+   "quote": "Our Class A common stock has been listed on the NASDAQ Global Select Market under the symbol \"FB\" since May 18, 2012. Prior to that time, there was no public market for our stock.",
+   "supports": "IPO first trading day: 2012-05-18 (Nasdaq Global Select Market, ticker FB)."
+  },
+  {
+   "id": "e002",
+   "form": "424B4",
+   "accession": "0001193125-12-240111",
+   "filing_date": "2012-05-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312512240111/d287954d424b4.htm",
+   "quote": "PRICE $38.00 A SHARE",
+   "supports": "IPO price $38.00 per Class A share (prospectus dated May 17, 2012 = pricing date)."
+  },
+  {
+   "id": "e003",
+   "form": "424B4",
+   "accession": "0001193125-12-240111",
+   "filing_date": "2012-05-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312512240111/d287954d424b4.htm",
+   "quote": "WELLS FARGO SECURITIES May 17, 2012",
+   "supports": "Prospectus cover date May 17, 2012 (IPO pricing date)."
+  },
+  {
+   "id": "e004",
+   "form": "424B4",
+   "accession": "0001193125-12-240111",
+   "filing_date": "2012-05-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312512240111/d287954d424b4.htm",
+   "quote": "Our Class A common stock has been approved for listing on the NASDAQ Global Select Market under the symbol \"FB.\"",
+   "supports": "Exchange and original ticker at IPO."
+  },
+  {
+   "id": "e005",
+   "form": "10-K",
+   "accession": "0001326801-23-000013",
+   "filing_date": "2023-02-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000013/meta-20221231.htm",
+   "quote": "We were incorporated in Delaware in July 2004. We completed our initial public offering in May 2012 and our Class A common stock is currently listed on the Nasdaq Global Select Market under the symbol \"META.\"",
+   "supports": "State of incorporation (Delaware, July 2004); current listing (Nasdaq Global Select Market, META)."
+  },
+  {
+   "id": "e006",
+   "form": "10-K",
+   "accession": "0001326801-23-000013",
+   "filing_date": "2023-02-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000013/meta-20221231.htm",
+   "quote": "On June 9, 2022, Meta's Class A common stock began trading on the Nasdaq Global Select Market under the ticker symbol 'META'. This replaced the ticker symbol 'FB,' which had been used since the company's initial public offering in 2012.",
+   "supports": "Ticker changed FB -> META on 2022-06-09."
+  },
+  {
+   "id": "e007",
+   "form": "8-K",
+   "accession": "0001326801-22-000070",
+   "filing_date": "2022-05-31",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680122000070/fb-20220531.htm",
+   "quote": "On May 31, 2022, Meta Platforms, Inc. issued a press release announcing that its Class A common stock will begin trading on The Nasdaq Global Select Market under the new ticker symbol 'META' prior to market open on June 9, 2022.",
+   "supports": "Ticker change announced 2022-05-31, effective at market open 2022-06-09."
+  },
+  {
+   "id": "e008",
+   "form": "8-K",
+   "accession": "0001326801-21-000071",
+   "filing_date": "2021-10-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680121000071/fb-20211028.htm",
+   "quote": "On October 28, 2021, Facebook, Inc. (the \"Company\") changed its corporate name to Meta Platforms, Inc., pursuant to an amended and restated certificate of incorporation filed with the Delaware Secretary of State on October 28, 2021 (the \"Name Change\").",
+   "supports": "Legal name changed Facebook, Inc. -> Meta Platforms, Inc. on 2021-10-28."
+  },
+  {
+   "id": "e009",
+   "form": "8-K",
+   "accession": "0001326801-21-000071",
+   "filing_date": "2021-10-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680121000071/fb-20211028.htm",
+   "quote": "The Company also announced that it intends for its Class A common shares to cease trading under the ticker symbol \"FB\" and begin trading under its new ticker symbol, \"MVRS\", on the Nasdaq Global Select Market, which the Company expects to be effective on December 1, 2021.",
+   "supports": "The originally announced ticker (MVRS, Dec 2021) never took effect; the actual change was to META on 2022-06-09."
+  },
+  {
+   "id": "e010",
+   "form": "DEF 14A",
+   "accession": "0001628280-26-025532",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm",
+   "quote": "Because Mr. Zuckerberg controls a majority of our outstanding voting power, we are a \"controlled company\" under the corporate governance rules of Nasdaq.",
+   "supports": "Controlled company (Zuckerberg majority voting power)."
+  },
+  {
+   "id": "e011",
+   "form": "DEF 14A",
+   "accession": "0001628280-26-025532",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm",
+   "quote": "If elected, each of these individuals will serve until the next annual meeting of shareholders and until his or her successor has been elected and qualified, or until his or her earlier death, resignation, or removal.",
+   "supports": "Board is not classified: all directors stand for election annually (board_class null)."
+  },
+  {
+   "id": "e012",
+   "form": "424B4",
+   "accession": "0001193125-12-240111",
+   "filing_date": "2012-05-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312512240111/d287954d424b4.htm",
+   "quote": "Each share of Class A common stock is entitled to one vote. Each share of Class B common stock is entitled to ten votes",
+   "supports": "Dual-class structure (Class B = ten votes per share)."
+  },
+  {
+   "id": "e013",
+   "form": "DEF 14A",
+   "accession": "0001628280-26-025532",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm",
+   "quote": "Our board of directors has set the authorized number of directors at twelve, effective as of the 2026 Annual Meeting of Shareholders (Annual Meeting). The following twelve individuals are nominated for election to the board of directors at the Annual Meeting, all of whom are currently serving on our board of directors:",
+   "supports": "2026 slate: twelve nominees, all sitting directors."
+  },
+  {
+   "id": "e014",
+   "form": "DEF 14A",
+   "accession": "0001628280-26-025532",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm",
+   "quote": "The current authorized number of directors is fourteen. Our board of directors has set the number of directors at twelve, effective as of the 2026 Annual Meeting of Shareholders, following Mr. Tan and Ms. Travis' retirement from the board.",
+   "supports": "Board size 14 before, 12 after the 2026-05-27 annual meeting; Tan and Travis retire from the board."
+  },
+  {
+   "id": "e015",
+   "form": "DEF 14A",
+   "accession": "0001628280-26-025532",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm",
+   "quote": "All of our director nominees are independent, with the exception of our CEO. All members of our standing committees are independent.",
+   "supports": "2026 independence: every nominee except Zuckerberg is independent."
+  },
+  {
+   "id": "e016",
+   "form": "DEF 14A",
+   "accession": "0001628280-26-025532",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm",
+   "quote": "Our Lead Independent Director is appointed annually by our independent directors, and Ambassador Kimmitt currently serves in this role.",
+   "supports": "Kimmitt is the current Lead Independent Director."
+  },
+  {
+   "id": "e017",
+   "form": "DEF 14A",
+   "accession": "0001628280-26-025532",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm",
+   "quote": "The board of directors has determined in its judgment that the company benefits from having a combined Chairman and Chief Executive Officer (CEO) position at this time.",
+   "supports": "Zuckerberg holds the combined Chairman and CEO role."
+  },
+  {
+   "id": "e018",
+   "form": "DEF 14A",
+   "accession": "0001628280-26-025532",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm",
+   "quote": "In 2025, the board approved a new committee structure by establishing a new audit & privacy committee and a risk & strategy committee, and accordingly disbanding the audit & risk oversight committee and privacy & product compliance committee, in each case effective as of June 2025.",
+   "supports": "Committee restructuring effective June 2025."
+  },
+  {
+   "id": "e019",
+   "form": "DEF 14A",
+   "accession": "0001628280-26-025532",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm",
+   "quote": "The charts below provide information about the membership and responsibilities of our standing committees, effective as of the Annual Meeting.",
+   "supports": "2026 committee rosters are stated as of the 2026-05-27 annual meeting."
+  },
+  {
+   "id": "e020",
+   "form": "DEF 14A",
+   "accession": "0001628280-26-025532",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm",
+   "quote": "AUDIT & PRIVACY COMMITTEE Chair: Nancy Killefer Other Members:(1) Peggy Alford John Arnold",
+   "supports": "Audit & Privacy Committee (as of the 2026 annual meeting): Killefer (chair), Alford, Arnold."
+  },
+  {
+   "id": "e021",
+   "form": "DEF 14A",
+   "accession": "0001628280-26-025532",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm",
+   "quote": "(1)Hock E. Tan and Tracey T. Travis currently serve as members of our audit & privacy committee. Our compensation, nominating & governance committee has recommended, and our board of directors has approved, that Peggy Alford and John Arnold be appointed to the audit & privacy committee effective as of May 2026.",
+   "supports": "Tan and Travis were Audit & Privacy members until they left; Alford and Arnold join it effective May 2026."
+  },
+  {
+   "id": "e022",
+   "form": "DEF 14A",
+   "accession": "0001628280-26-025532",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm",
+   "quote": "COMPENSATION, NOMINATING & GOVERNANCE COMMITTEE Chair: Peggy Alford Other Members: John Elkann Andrew W. Houston Tony Xu",
+   "supports": "Compensation, Nominating & Governance Committee: Alford (chair), Elkann, Houston, Xu."
+  },
+  {
+   "id": "e023",
+   "form": "DEF 14A",
+   "accession": "0001628280-26-025532",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm",
+   "quote": "RISK & STRATEGY COMMITTEE Chair: Charles Songhurst Other Members: Marc L. Andreessen John Arnold Dana White",
+   "supports": "Risk & Strategy Committee: Songhurst (chair), Andreessen, Arnold, White."
+  },
+  {
+   "id": "e024",
+   "form": "DEF 14A",
+   "accession": "0001628280-26-025532",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm",
+   "quote": "Mark Zuckerberg - Founder, Chairman, and Chief Executive Officer Director Since: 2004 Age: 41 Meta Committees: None",
+   "supports": "Zuckerberg: Founder, Chairman and CEO; director since 2004; no committees."
+  },
+  {
+   "id": "e025",
+   "form": "DEF 14A",
+   "accession": "0001628280-26-025532",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm",
+   "quote": "Founder & Chief Executive Officer (2004-present) Chairman of the board of directors (2012-present)",
+   "supports": "Zuckerberg CEO since 2004 and Chairman since 2012 (2026 proxy)."
+  },
+  {
+   "id": "e026",
+   "form": "DEF 14A",
+   "accession": "0001628280-26-025532",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm",
+   "quote": "Robert M. Kimmitt - Lead Independent Director Director Since: 2020 Age: 78 Meta Committees: None",
+   "supports": "Kimmitt: Lead Independent Director; director since 2020; no committees (2026 proxy)."
+  },
+  {
+   "id": "e027",
+   "form": "DEF 14A",
+   "accession": "0001628280-26-025532",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm",
+   "quote": "Peggy Alford - Independent Director Director Since: 2019 Age: 54 Meta Committees: Compensation, Nominating & Governance (Chair) Audit & Privacy (effective May 2026)",
+   "supports": "Alford: independent; director since 2019; CNGC chair; Audit & Privacy from May 2026."
+  },
+  {
+   "id": "e028",
+   "form": "DEF 14A",
+   "accession": "0001628280-26-025532",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm",
+   "quote": "Other Current Public Company Directorships: •None Former Public Company Directorships Held in the Past Five Years: •The Macerich Company",
+   "supports": "Alford other public boards (2026 proxy): none current; The Macerich Company (former, past five years)."
+  },
+  {
+   "id": "e029",
+   "form": "DEF 14A",
+   "accession": "0001628280-26-025532",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm",
+   "quote": "Marc L. Andreessen - Independent Director Director Since: 2008 Age: 54 Meta Committees: Risk & Strategy",
+   "supports": "Andreessen: independent; director since 2008; Risk & Strategy Committee."
+  },
+  {
+   "id": "e030",
+   "form": "DEF 14A",
+   "accession": "0001628280-26-025532",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm",
+   "quote": "Other Current Public Company Directorships: •Coinbase Global, Inc. •Samsara Inc.",
+   "supports": "Andreessen other current public boards: Coinbase Global, Samsara (2026 proxy)."
+  },
+  {
+   "id": "e031",
+   "form": "DEF 14A",
+   "accession": "0001628280-26-025532",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm",
+   "quote": "John Arnold - Independent Director Director Since: 2024 Age: 52 Meta Committees: Risk & Strategy Audit & Privacy (effective May 2026)",
+   "supports": "Arnold: independent; director since 2024; Risk & Strategy; Audit & Privacy from May 2026."
+  },
+  {
+   "id": "e032",
+   "form": "DEF 14A",
+   "accession": "0001628280-26-025532",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm",
+   "quote": "Patrick Collison - Independent Director Director Since: 2025 Age: 37 Meta Committees: None",
+   "supports": "Collison: independent; director since 2025; no committees."
+  },
+  {
+   "id": "e033",
+   "form": "DEF 14A",
+   "accession": "0001628280-26-025532",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm",
+   "quote": "John Elkann - Independent Director Director Since: 2024 Age: 50 Meta Committees: Compensation, Nominating & Governance",
+   "supports": "Elkann: independent; director since 2024; CNGC."
+  },
+  {
+   "id": "e034",
+   "form": "DEF 14A",
+   "accession": "0001628280-26-025532",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm",
+   "quote": "Other Current Public Company Directorships: •Exor N.V. •Stellantis N.V. •Ferrari N.V. Former Public Company Directorships Held in the Past Five Years: •GEDI Gruppo Editoriale S.p.A. •Fiat Chrysler Automobiles N.V.",
+   "supports": "Elkann other public boards (2026 proxy)."
+  },
+  {
+   "id": "e035",
+   "form": "DEF 14A",
+   "accession": "0001628280-26-025532",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm",
+   "quote": "Exor N.V. (investment holding company) Chief Executive Officer & Director (2011-present) Chairman (2009-2022) •Stellantis N.V. (global automaker and provider of mobility solutions) Executive Chairman & Director (2021-present) •Ferrari N.V. (luxury sports car manufacturer) Executive Chairman & Director (2018-present)",
+   "supports": "Years of Elkann's Exor, Stellantis and Ferrari directorships."
+  },
+  {
+   "id": "e036",
+   "form": "DEF 14A",
+   "accession": "0001628280-26-025532",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm",
+   "quote": "Andrew W. Houston - Independent Director Director Since: 2020 Age: 43 Meta Committees: Compensation, Nominating & Governance",
+   "supports": "Houston: independent; director since 2020; CNGC."
+  },
+  {
+   "id": "e037",
+   "form": "DEF 14A",
+   "accession": "0001628280-26-025532",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm",
+   "quote": "Chief Executive Officer & Chairman of the board of directors (2007-present) Other Current Public Company Directorships: •Dropbox, Inc.",
+   "supports": "Houston other current public board: Dropbox (Chairman since 2007)."
+  },
+  {
+   "id": "e038",
+   "form": "DEF 14A",
+   "accession": "0001628280-26-025532",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm",
+   "quote": "Nancy Killefer - Independent Director Director Since: 2020 Age: 72 Meta Committees: Audit & Privacy (Chair)",
+   "supports": "Killefer: independent; director since 2020; Audit & Privacy chair."
+  },
+  {
+   "id": "e039",
+   "form": "DEF 14A",
+   "accession": "0001628280-26-025532",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm",
+   "quote": "Other Current Public Company Directorships: •Cardinal Health, Inc. •Certara, Inc. Former Public Company Directorships Held in the Past Five Years: •Natura & Company",
+   "supports": "Killefer other public boards (2026 proxy)."
+  },
+  {
+   "id": "e040",
+   "form": "DEF 14A",
+   "accession": "0001628280-26-025532",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm",
+   "quote": "Charles Songhurst - Independent Director Director Since: 2024 Age: 47 Meta Committees: Risk & Strategy (Chair)",
+   "supports": "Songhurst: independent; director since 2024; Risk & Strategy chair."
+  },
+  {
+   "id": "e041",
+   "form": "DEF 14A",
+   "accession": "0001628280-26-025532",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm",
+   "quote": "Dana White - Independent Director Director Since: 2024 Age: 56 Meta Committees: Risk & Strategy",
+   "supports": "White: independent; director since 2024; Risk & Strategy."
+  },
+  {
+   "id": "e042",
+   "form": "DEF 14A",
+   "accession": "0001628280-26-025532",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm",
+   "quote": "Tony Xu - Independent Director Director Since: 2022 Age: 41 Meta Committees: Compensation, Nominating & Governance",
+   "supports": "Xu: independent; director since 2022; CNGC."
+  },
+  {
+   "id": "e043",
+   "form": "DEF 14A",
+   "accession": "0001628280-26-025532",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm",
+   "quote": "Chairman of the board of directors (2020-present) Other Current Public Company Directorships: •DoorDash, Inc.",
+   "supports": "Xu other current public board: DoorDash (Chairman since 2020)."
+  },
+  {
+   "id": "e044",
+   "form": "DEF 14A",
+   "accession": "0001628280-26-025532",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm",
+   "quote": "Dina Powell McCormick - President and Vice Chairman Age: 52 Professional Experience: •Meta Platforms, Inc. President and Vice Chairman (2026-present) Advisor (2025-2026) Member of the board of directors (2025-2025)",
+   "supports": "Powell McCormick is listed among executive officers (not director nominees) in the 2026 proxy; board service 2025 only."
+  },
+  {
+   "id": "e045",
+   "form": "DEF 14A",
+   "accession": "0001628280-26-025532",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm",
+   "quote": "Hock and Tracey will be retiring from our board when their terms conclude at the Annual Meeting. Dina is now a member of Meta's management team",
+   "supports": "Tan and Travis retire at the 2026 annual meeting; Powell McCormick moved to management."
+  },
+  {
+   "id": "e046",
+   "form": "8-K",
+   "accession": "0001628280-26-039193",
+   "filing_date": "2026-05-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026039193/meta-20260527.htm",
+   "quote": "On May 27, 2026, Meta Platforms, Inc. (the \"Company\") held its annual meeting of shareholders via live audio webcast",
+   "supports": "2026 annual meeting date: 2026-05-27 (end of Tan's and Travis's terms)."
+  },
+  {
+   "id": "e047",
+   "form": "8-K",
+   "accession": "0001628280-26-039193",
+   "filing_date": "2026-05-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026039193/meta-20260527.htm",
+   "quote": "Each of the twelve nominees for director was elected to serve until the next annual meeting of shareholders",
+   "supports": "All twelve 2026 nominees were elected."
+  },
+  {
+   "id": "e048",
+   "form": "8-K",
+   "accession": "0001628280-26-039193",
+   "filing_date": "2026-05-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026039193/meta-20260527.htm",
+   "quote": "Mark Zuckerberg 4,650,180,275 318,496,811 212,856,564",
+   "supports": "2026 election result row for Zuckerberg (elected).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e049",
+   "form": "8-K",
+   "accession": "0001628280-26-025108",
+   "filing_date": "2026-04-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025108/meta-20260408.htm",
+   "quote": "(b) On April 8, 2026, Hock E. Tan and Tracey T. Travis notified Meta Platforms, Inc. (the \"Company\") of their decision not to stand for re-election to the Company's Board of Directors at the Company's 2026 Annual Meeting of Shareholders (the \"Annual Meeting\"). Mr. Tan and Ms. Travis will continue to serve as directors until the date of the Annual Meeting.",
+   "supports": "Tan and Travis did not stand for re-election in 2026; served until the 2026-05-27 annual meeting."
+  },
+  {
+   "id": "e050",
+   "form": "DEF 14A",
+   "accession": "0001326801-25-000040",
+   "filing_date": "2025-04-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000040/meta-20250417.htm",
+   "quote": "Our board of directors has set the authorized number of directors at fifteen. The following fifteen individuals are nominated for election to the board of directors at the 2025 Annual Meeting of Shareholders, all of whom are currently serving on our board of directors:",
+   "supports": "2025 slate: fifteen nominees, all sitting directors."
+  },
+  {
+   "id": "e051",
+   "form": "DEF 14A",
+   "accession": "0001326801-25-000040",
+   "filing_date": "2025-04-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000040/meta-20250417.htm",
+   "quote": "Dina Powell McCormick - Independent Director Director Since: 2025 Age: 51 Meta Committees: None",
+   "supports": "Powell McCormick: independent director, no committees (2025 proxy, her only proxy as a director)."
+  },
+  {
+   "id": "e052",
+   "form": "DEF 14A",
+   "accession": "0001326801-25-000040",
+   "filing_date": "2025-04-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000040/meta-20250417.htm",
+   "quote": "Other Current Public Company Directorships: •Exxon Mobil Corporation Former Public Company Directorships Held in the Past Five Years: •None",
+   "supports": "Powell McCormick other public board: Exxon Mobil (current, 2025 proxy)."
+  },
+  {
+   "id": "e053",
+   "form": "DEF 14A",
+   "accession": "0001326801-25-000040",
+   "filing_date": "2025-04-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000040/meta-20250417.htm",
+   "quote": "Hock E. Tan - Independent Director Director Since: 2024 Age: 73 Meta Committees: Audit & Risk Oversight",
+   "supports": "Tan: independent; Audit & Risk Oversight Committee member (2025 proxy, his last as a nominee)."
+  },
+  {
+   "id": "e054",
+   "form": "DEF 14A",
+   "accession": "0001326801-25-000040",
+   "filing_date": "2025-04-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000040/meta-20250417.htm",
+   "quote": "President, Chief Executive Officer & Director (2006-present)",
+   "supports": "Tan: Broadcom President, CEO and director since 2006 (2025 proxy)."
+  },
+  {
+   "id": "e055",
+   "form": "DEF 14A",
+   "accession": "0001326801-25-000040",
+   "filing_date": "2025-04-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000040/meta-20250417.htm",
+   "quote": "Other Current Public Company Directorships: •Broadcom Inc. Former Public Company Directorships Held in the Past Five Years: •None",
+   "supports": "Tan other current public board: Broadcom (2025 proxy)."
+  },
+  {
+   "id": "e056",
+   "form": "DEF 14A",
+   "accession": "0001326801-25-000040",
+   "filing_date": "2025-04-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000040/meta-20250417.htm",
+   "quote": "Tracey T. Travis - Independent Director Director Since: 2020 Age: 62 Meta Committees: Audit & Risk Oversight (Chair)",
+   "supports": "Travis: independent; Audit & Risk Oversight chair (2025 proxy, her last as a nominee)."
+  },
+  {
+   "id": "e057",
+   "form": "DEF 14A",
+   "accession": "0001326801-25-000040",
+   "filing_date": "2025-04-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000040/meta-20250417.htm",
+   "quote": "Other Current Public Company Directorships: •Accenture plc •Hyatt Hotels Corporation",
+   "supports": "Travis other current public boards: Accenture, Hyatt (2025 proxy)."
+  },
+  {
+   "id": "e058",
+   "form": "8-K",
+   "accession": "0001326801-25-000090",
+   "filing_date": "2025-05-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000090/meta-20250528.htm",
+   "quote": "On May 28, 2025, Meta Platforms, Inc. (the \"Company\") held its annual meeting of shareholders via live audio webcast",
+   "supports": "2025 annual meeting date."
+  },
+  {
+   "id": "e059",
+   "form": "8-K",
+   "accession": "0001326801-25-000090",
+   "filing_date": "2025-05-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000090/meta-20250528.htm",
+   "quote": "Each of the fifteen nominees for director was elected to serve until the next annual meeting of shareholders",
+   "supports": "All fifteen 2025 nominees elected."
+  },
+  {
+   "id": "e060",
+   "form": "8-K",
+   "accession": "0001326801-25-000027",
+   "filing_date": "2025-04-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000027/meta-20250411.htm",
+   "quote": "On April 11, 2025, the Board of Directors (the \"Board\") of Meta Platforms, Inc. (the \"Company\") approved an increase in the size of the Board to fifteen (15) members and elected Dina Powell McCormick and Patrick Collison as members of the Board, effective April 15, 2025.",
+   "supports": "Powell McCormick and Collison join 2025-04-15; board size increased to 15."
+  },
+  {
+   "id": "e061",
+   "form": "8-K",
+   "accession": "0001326801-25-000027",
+   "filing_date": "2025-04-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000027/meta-20250411.htm",
+   "quote": "The Board has determined that each of Ms. Powell McCormick and Mr. Collison qualifies as an independent director under the corporate governance standards of the Nasdaq Stock Market LLC.",
+   "supports": "Powell McCormick and Collison independent at appointment."
+  },
+  {
+   "id": "e062",
+   "form": "8-K",
+   "accession": "0001628280-25-058337",
+   "filing_date": "2025-12-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025058337/meta-20251219.htm",
+   "quote": "(b) On December 19, 2025, Dina Powell McCormick notified Meta Platforms, Inc. (the \"Company\") that she will resign as a member of the Board of Directors of the Company, effective immediately.",
+   "supports": "Powell McCormick resigns from the board effective 2025-12-19."
+  },
+  {
+   "id": "e063",
+   "form": "8-K",
+   "accession": "0001628280-26-002429",
+   "filing_date": "2026-01-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026002429/meta-20260112.htm",
+   "quote": "(c) The Board of Directors (the \"Board\") of Meta Platforms, Inc. (the \"Company\") appointed Dina Powell McCormick, age 52, to serve as President and Vice Chairman of the Company, effective January 12, 2026 (the \"Start Date\").",
+   "supports": "Powell McCormick becomes President and Vice Chairman (an officer title) on 2026-01-12, after leaving the board."
+  },
+  {
+   "id": "e064",
+   "form": "8-K",
+   "accession": "0001628280-26-002429",
+   "filing_date": "2026-01-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026002429/meta-20260112.htm",
+   "quote": "In addition, Ms. Powell McCormick previously served as a member of the Board from April 2025 until December 2025 and as an external advisor to the Company from December 2025 until January 2026.",
+   "supports": "Confirms board service April-December 2025 only; she is not a director as President/Vice Chairman."
+  },
+  {
+   "id": "e065",
+   "form": "8-K",
+   "accession": "0001326801-25-000005",
+   "filing_date": "2025-01-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000005/meta-20241230.htm",
+   "quote": "On December 30, 2024, the Board of Directors (the \"Board\") of Meta Platforms, Inc. (the \"Company\") approved an increase in the size of the Board to thirteen (13) members and elected Dana White, John Elkann and Charles Songhurst as members of the Board, effective December 30, 2024.",
+   "supports": "White, Elkann and Songhurst join 2024-12-30; board size increased to 13. (8-K filed 2025-01-06.)"
+  },
+  {
+   "id": "e066",
+   "form": "8-K",
+   "accession": "0001326801-25-000005",
+   "filing_date": "2025-01-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000005/meta-20241230.htm",
+   "quote": "The Board has determined that each of Messrs. White, Elkann and Songhurst qualifies as an independent director under the corporate governance standards of the Nasdaq Stock Market LLC.",
+   "supports": "White, Elkann, Songhurst independent at appointment."
+  },
+  {
+   "id": "e067",
+   "form": "8-K",
+   "accession": "0001326801-24-000019",
+   "filing_date": "2024-02-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000019/meta-20240213.htm",
+   "quote": "On February 13, 2024, the Board of Directors (the \"Board\") of Meta Platforms, Inc. (the \"Company\") elected John Arnold and Hock Tan as members of the Board, effective immediately. The Board also appointed Messrs. Arnold and Tan as members of the Audit & Risk Oversight Committee of the Board, effective immediately.",
+   "supports": "Arnold and Tan join 2024-02-13 (Audit & Risk Oversight Committee)."
+  },
+  {
+   "id": "e068",
+   "form": "8-K",
+   "accession": "0001326801-24-000019",
+   "filing_date": "2024-02-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000019/meta-20240213.htm",
+   "quote": "The Board has determined that each of Messrs. Arnold and Tan qualifies as an independent director under the corporate governance standards of the Nasdaq Stock Market LLC.",
+   "supports": "Arnold and Tan independent at appointment."
+  },
+  {
+   "id": "e069",
+   "form": "8-K",
+   "accession": "0001326801-24-000019",
+   "filing_date": "2024-02-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000019/meta-20240213.htm",
+   "quote": "Mr. Tan is the president and chief executive officer of Broadcom Inc. (\"Broadcom\"). The Company is a party to certain arrangements with Broadcom, whereby the Company directly and indirectly purchases Broadcom's component products.",
+   "supports": "Tan's Broadcom role and the related-party relationship disclosed at appointment."
+  },
+  {
+   "id": "e070",
+   "form": "DEF 14A",
+   "accession": "0001326801-24-000034",
+   "filing_date": "2024-04-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000034/meta-20240418.htm",
+   "quote": "Our board of directors has set the authorized number of directors at ten, effective as of the Annual Meeting. The following ten individuals are nominated for election to the board of directors at the 2024 Annual Meeting of Shareholders, all of whom are currently serving on our board of directors:",
+   "supports": "2024 slate: ten nominees."
+  },
+  {
+   "id": "e071",
+   "form": "DEF 14A",
+   "accession": "0001326801-24-000034",
+   "filing_date": "2024-04-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000034/meta-20240418.htm",
+   "quote": "The current authorized number of directors is eleven. Our board of directors has set the number of directors at ten, effective as of the 2024 Annual Meeting of Shareholders (Annual Meeting), following Ms. Sandberg's departure from the board.",
+   "supports": "Board size 11 -> 10 at the 2024 annual meeting (Sandberg's departure)."
+  },
+  {
+   "id": "e072",
+   "form": "8-K",
+   "accession": "0001326801-24-000003",
+   "filing_date": "2024-01-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000003/meta-20240116.htm",
+   "quote": "(b) On January 16, 2024, Sheryl Sandberg notified Meta Platforms, Inc. (the \"Company\") that she has decided not to stand for re-election to the Company's Board of Directors at the Company's 2024 Annual Meeting of Shareholders (the \"Annual Meeting\"). Ms. Sandberg will continue to serve as a director until the date of the Annual Meeting.",
+   "supports": "Sandberg did not stand for re-election in 2024; served until the annual meeting."
+  },
+  {
+   "id": "e073",
+   "form": "8-K",
+   "accession": "0001326801-24-000057",
+   "filing_date": "2024-05-31",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000057/meta-20240529.htm",
+   "quote": "On May 29, 2024, Meta Platforms, Inc. (the \"Company\") held its annual meeting of shareholders via live audio webcast",
+   "supports": "2024 annual meeting date: 2024-05-29 (end of Sandberg's term)."
+  },
+  {
+   "id": "e074",
+   "form": "8-K",
+   "accession": "0001326801-24-000057",
+   "filing_date": "2024-05-31",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000057/meta-20240529.htm",
+   "quote": "Each of the ten nominees for director was elected to serve until the next annual meeting of shareholders",
+   "supports": "All ten 2024 nominees elected."
+  },
+  {
+   "id": "e075",
+   "form": "DEF 14A",
+   "accession": "0001326801-24-000034",
+   "filing_date": "2024-04-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000034/meta-20240418.htm",
+   "quote": "I also want to thank Sheryl Sandberg for her distinguished service as a member of our board since 2012. Sheryl will be retiring from our board when her term concludes at the Annual Meeting.",
+   "supports": "Sandberg board service since 2012, retiring at the 2024 meeting."
+  },
+  {
+   "id": "e076",
+   "form": "DEF 14A",
+   "accession": "0001326801-23-000050",
+   "filing_date": "2023-04-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000050/meta-20230414.htm",
+   "quote": "Seven out of our nine director nominees are independent. All members of our standing committees are independent.",
+   "supports": "2023: 7 of 9 nominees independent (all but Zuckerberg and Sandberg)."
+  },
+  {
+   "id": "e077",
+   "form": "DEF 14A",
+   "accession": "0001326801-23-000050",
+   "filing_date": "2023-04-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000050/meta-20230414.htm",
+   "quote": "Sheryl K. Sandberg - Director Director Since: 2012 Age: 53 Meta Committees: None",
+   "supports": "Sandberg listed as 'Director' (not 'Independent Director'), no committees, 2023 proxy (her last as a nominee)."
+  },
+  {
+   "id": "e078",
+   "form": "DEF 14A",
+   "accession": "0001326801-23-000050",
+   "filing_date": "2023-04-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000050/meta-20230414.htm",
+   "quote": "Other Public Company Directorships: •Momentive Global, Inc. Former Public Company Directorships Held in the Past Five Years: •None",
+   "supports": "Sandberg other public board: Momentive Global (2023 proxy)."
+  },
+  {
+   "id": "e079",
+   "form": "DEF 14A",
+   "accession": "0001326801-23-000050",
+   "filing_date": "2023-04-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000050/meta-20230414.htm",
+   "quote": "our board of directors has determined that none of our current non-employee directors has a relationship that would interfere with the exercise of independent judgment in carrying out the responsibilities of a director and that each of these directors is \"independent\" as that term is defined under the rules of Nasdaq.",
+   "supports": "2023 general independence sentence (read literally, covers all non-employee directors; see conflicts re Sandberg)."
+  },
+  {
+   "id": "e080",
+   "form": "DEF 14A",
+   "accession": "0001326801-23-000050",
+   "filing_date": "2023-04-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000050/meta-20230414.htm",
+   "quote": "Our board of directors has set the authorized number of directors at nine. The following nine individuals are nominated for election to the board of directors at the 2023 Annual Meeting of Shareholders, all of whom are currently serving on our board of directors:",
+   "supports": "2023 slate: nine nominees."
+  },
+  {
+   "id": "e081",
+   "form": "8-K",
+   "accession": "0001326801-23-000083",
+   "filing_date": "2023-06-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000083/meta-20230531.htm",
+   "quote": "On May 31, 2023, Meta Platforms, Inc. (the \"Company\") held its annual meeting of shareholders via live audio webcast",
+   "supports": "2023 annual meeting date."
+  },
+  {
+   "id": "e082",
+   "form": "8-K",
+   "accession": "0001326801-22-000073",
+   "filing_date": "2022-06-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680122000073/fb-20220528.htm",
+   "quote": "On May 28, 2022, Sheryl Sandberg informed Meta Platforms, Inc. (the \"Company\") of her decision to resign from her position as Chief Operating Officer of the Company after a transition period. Following her resignation as Chief Operating Officer, Ms. Sandberg will continue to serve as a member of the Company's Board of Directors (the \"Board\").",
+   "supports": "Sandberg resigns as COO (announced 2022-05-28), stays on the board."
+  },
+  {
+   "id": "e083",
+   "form": "8-K/A",
+   "accession": "0001326801-22-000090",
+   "filing_date": "2022-08-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680122000090/meta-20220528.htm",
+   "quote": "On August 1, 2022, the Board appointed Mr. Olivan as the Company's Chief Operating Officer, effective as of such date. Ms. Sandberg will continue as an employee of the Company through September 30, 2022, and after such date, will continue to serve as a member of the Board and will receive compensation as a non-employee director",
+   "supports": "Olivan COO from 2022-08-01; Sandberg an employee through 2022-09-30, then non-employee director."
+  },
+  {
+   "id": "e084",
+   "form": "8-K",
+   "accession": "0001326801-22-000094",
+   "filing_date": "2022-09-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680122000094/meta-20220926.htm",
+   "quote": "for a period from her transition to a non-employee director role on October 1, 2022 up to June 30, 2023.",
+   "supports": "Sandberg's transition to a non-employee director role on 2022-10-01."
+  },
+  {
+   "id": "e085",
+   "form": "8-K",
+   "accession": "0001193125-12-282349",
+   "filing_date": "2012-06-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312512282349/d371533d8k.htm",
+   "quote": "On June 24, 2012, the Board of Directors (the \"Board\") of Facebook, Inc. (the \"Company\") appointed Sheryl K. Sandberg, the Company's Chief Operating Officer, as a member of the Board.",
+   "supports": "Sandberg joins the board 2012-06-24 (8-K Item 5.02)."
+  },
+  {
+   "id": "e086",
+   "form": "DEF 14A",
+   "accession": "0001326801-20-000037",
+   "filing_date": "2020-04-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680120000037/facebook2020definitiveprox.htm",
+   "quote": "Sheryl K. Sandberg has served as our Chief Operating Officer (COO) since March 2008 and as a member of our board of directors since June 2012.",
+   "supports": "Sandberg: COO since March 2008; director since June 2012."
+  },
+  {
+   "id": "e087",
+   "form": "8-K",
+   "accession": "0001326801-22-000030",
+   "filing_date": "2022-02-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680122000030/fb-20220205.htm",
+   "quote": "On February 5, 2022, Peter Thiel notified Meta Platforms, Inc. (the \"Company\") that he will not stand for re-election to the Company's Board of Directors (the \"Board\") at the Company's 2022 Annual Meeting of Shareholders (the \"Annual Meeting\"). Mr. Thiel will continue to serve as a director until the date of the Annual Meeting.",
+   "supports": "Thiel did not stand for re-election in 2022; served until the annual meeting."
+  },
+  {
+   "id": "e088",
+   "form": "8-K",
+   "accession": "0001326801-22-000030",
+   "filing_date": "2022-02-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680122000030/fb-20220205.htm",
+   "quote": "Following Mr. Thiel's decision, the Board approved a reduction in the size of the Board to nine (9) members, effective as of the Annual Meeting.",
+   "supports": "Board size reduced to nine effective at the 2022 annual meeting."
+  },
+  {
+   "id": "e089",
+   "form": "DEF 14A",
+   "accession": "0001326801-22-000043",
+   "filing_date": "2022-04-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680122000043/meta2022definitiveproxysta.htm",
+   "quote": "The current authorized number of directors is ten. Our board of directors has set the number of directors at nine, effective as of the 2022 Annual Meeting of Shareholders (Annual Meeting), following Mr. Thiel's retirement from the board.",
+   "supports": "Board size 10 -> 9 at the 2022 annual meeting."
+  },
+  {
+   "id": "e090",
+   "form": "DEF 14A",
+   "accession": "0001326801-22-000043",
+   "filing_date": "2022-04-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680122000043/meta2022definitiveproxysta.htm",
+   "quote": "Peter A. Thiel currently serves as chair of our compensation, nominating & governance committee.",
+   "supports": "Thiel CNGC chair (2022 proxy, his last proxy)."
+  },
+  {
+   "id": "e091",
+   "form": "DEF 14A",
+   "accession": "0001326801-22-000043",
+   "filing_date": "2022-04-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680122000043/meta2022definitiveproxysta.htm",
+   "quote": "Messrs. Andreessen, Houston, Thiel, and Xu, who comprise our compensation, nominating & governance committee",
+   "supports": "CNGC membership at the 2022 proxy includes Thiel."
+  },
+  {
+   "id": "e092",
+   "form": "DEF 14A",
+   "accession": "0001326801-22-000043",
+   "filing_date": "2022-04-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680122000043/meta2022definitiveproxysta.htm",
+   "quote": "Seven out of our nine director nominees are independent. All members of our standing committees are independent.",
+   "supports": "2022: 7 of 9 nominees independent (all but Zuckerberg and Sandberg)."
+  },
+  {
+   "id": "e093",
+   "form": "8-K",
+   "accession": "0001326801-22-000066",
+   "filing_date": "2022-05-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680122000066/fb-20220525.htm",
+   "quote": "On May 25, 2022, Meta Platforms, Inc. (the \"Company\") held its annual meeting of shareholders via live audio webcast",
+   "supports": "2022 annual meeting date: 2022-05-25 (end of Thiel's term)."
+  },
+  {
+   "id": "e094",
+   "form": "8-K",
+   "accession": "0001326801-22-000066",
+   "filing_date": "2022-05-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680122000066/fb-20220525.htm",
+   "quote": "Each of the nine nominees for director was elected to serve until the next annual meeting of shareholders",
+   "supports": "All nine 2022 nominees elected."
+  },
+  {
+   "id": "e095",
+   "form": "DEF 14A",
+   "accession": "0001326801-21-000022",
+   "filing_date": "2021-04-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680121000022/facebook2021definitiveprox.htm",
+   "quote": "Peter A. Thiel - Independent Director Director Since: 2005",
+   "supports": "Thiel independent; director since 2005 (2021 proxy)."
+  },
+  {
+   "id": "e096",
+   "form": "DEF 14A",
+   "accession": "0001326801-21-000022",
+   "filing_date": "2021-04-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680121000022/facebook2021definitiveprox.htm",
+   "quote": "Compensation, Nominating & Governance (Chair) Other Public Company Directorships: Palantir Technologies Inc. AbCellera Biologics Inc.",
+   "supports": "Thiel: CNGC chair; other public boards Palantir, AbCellera (2021 proxy, his last bio)."
+  },
+  {
+   "id": "e097",
+   "form": "DEF 14A",
+   "accession": "0001326801-21-000022",
+   "filing_date": "2021-04-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680121000022/facebook2021definitiveprox.htm",
+   "quote": "In addition, our board of directors determined that Kenneth I. Chenault and Jeffrey D. Zients were each independent during the time that they served as directors in 2020.",
+   "supports": "Chenault and Zients independent through their 2020 departure."
+  },
+  {
+   "id": "e098",
+   "form": "DEF 14A",
+   "accession": "0001326801-21-000022",
+   "filing_date": "2021-04-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680121000022/facebook2021definitiveprox.htm",
+   "quote": "Seven out of our nine director nominees are independent. All members of our standing committees are independent.",
+   "supports": "2021: 7 of 9 nominees independent (all but Zuckerberg and Sandberg)."
+  },
+  {
+   "id": "e099",
+   "form": "DEF 14A",
+   "accession": "0001326801-21-000022",
+   "filing_date": "2021-04-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680121000022/facebook2021definitiveprox.htm",
+   "quote": "The current authorized number of directors is nine.",
+   "supports": "Board size nine at the 2021 proxy."
+  },
+  {
+   "id": "e100",
+   "form": "8-K",
+   "accession": "0001326801-21-000040",
+   "filing_date": "2021-05-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680121000040/fb-20210526.htm",
+   "quote": "On May 26, 2021, Facebook, Inc. (the \"Company\") held its annual meeting of shareholders via live audio webcast",
+   "supports": "2021 annual meeting date."
+  },
+  {
+   "id": "e101",
+   "form": "DEF 14A",
+   "accession": "0001326801-20-000037",
+   "filing_date": "2020-04-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680120000037/facebook2020definitiveprox.htm",
+   "quote": "The current authorized number of directors is 11.",
+   "supports": "Board size 11 at the 2020 proxy (seven 2019 holdovers plus four 2020 appointees)."
+  },
+  {
+   "id": "e102",
+   "form": "DEF 14A",
+   "accession": "0001326801-20-000037",
+   "filing_date": "2020-04-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680120000037/facebook2020definitiveprox.htm",
+   "quote": "Messrs. Chenault and Zients, who are currently serving on our board of directors, are not standing for re-election at the Annual Meeting and their terms as directors will end at the Annual Meeting.",
+   "supports": "Chenault and Zients leave at the 2020 annual meeting."
+  },
+  {
+   "id": "e103",
+   "form": "DEF 14A",
+   "accession": "0001326801-20-000037",
+   "filing_date": "2020-04-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680120000037/facebook2020definitiveprox.htm",
+   "quote": "Our board of directors has determined that none of our current non-employee directors has a relationship that would interfere with the exercise of independent judgment in carrying out the responsibilities of a director and that each of these directors is \"independent\" as that term is defined under the rules of Nasdaq.",
+   "supports": "2020: all non-employee directors (Alford, Andreessen, Chenault, Houston, Killefer, Kimmitt, Thiel, Travis, Zients) independent."
+  },
+  {
+   "id": "e104",
+   "form": "DEF 14A",
+   "accession": "0001326801-20-000037",
+   "filing_date": "2020-04-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680120000037/facebook2020definitiveprox.htm",
+   "quote": "Our audit & risk oversight committee is currently comprised of Messrs. Andreessen, Chenault, and Zients and Mses. Alford and Travis. Mr. Zients is the chair of our audit & risk oversight committee. Messrs. Chenault and Zients are not nominees for election at the Annual Meeting.",
+   "supports": "Audit & Risk Oversight Committee at the 2020 proxy: Zients (chair), Chenault, Andreessen, Alford, Travis."
+  },
+  {
+   "id": "e105",
+   "form": "DEF 14A",
+   "accession": "0001326801-20-000037",
+   "filing_date": "2020-04-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680120000037/facebook2020definitiveprox.htm",
+   "quote": "Following the Annual Meeting, Ms. Travis will serve as chair of our audit & risk oversight committee.",
+   "supports": "Travis became Audit & Risk Oversight chair after the 2020 meeting."
+  },
+  {
+   "id": "e106",
+   "form": "DEF 14A",
+   "accession": "0001326801-20-000037",
+   "filing_date": "2020-04-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680120000037/facebook2020definitiveprox.htm",
+   "quote": "Our compensation, nominating & governance committee is currently comprised of Messrs. Andreessen, Houston, and Thiel. Mr. Thiel is the chair of our compensation, nominating & governance committee.",
+   "supports": "CNGC at the 2020 proxy: Thiel (chair), Andreessen, Houston."
+  },
+  {
+   "id": "e107",
+   "form": "DEF 14A",
+   "accession": "0001326801-20-000037",
+   "filing_date": "2020-04-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680120000037/facebook2020definitiveprox.htm",
+   "quote": "Mr. Houston was appointed to our board of directors in February 2020, and Mses. Killefer and Travis and Ambassador Kimmitt were appointed to our board of directors in March 2020.",
+   "supports": "2020 appointments (proxy corroboration)."
+  },
+  {
+   "id": "e108",
+   "form": "DEF 14A",
+   "accession": "0001326801-20-000037",
+   "filing_date": "2020-04-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680120000037/facebook2020definitiveprox.htm",
+   "quote": "Mark Zuckerberg is our founder and has served as our Chief Executive Officer (CEO) and as a member of our board of directors since July 2004. Mr. Zuckerberg has served as Chairman of our board of directors since January 2012.",
+   "supports": "Zuckerberg: CEO and director since July 2004; Chairman since January 2012."
+  },
+  {
+   "id": "e109",
+   "form": "DEF 14A",
+   "accession": "0001326801-20-000037",
+   "filing_date": "2020-04-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680120000037/facebook2020definitiveprox.htm",
+   "quote": "Peggy Alford has served as a member of our board of directors since May 2019.",
+   "supports": "Alford director since May 2019."
+  },
+  {
+   "id": "e110",
+   "form": "DEF 14A",
+   "accession": "0001326801-20-000037",
+   "filing_date": "2020-04-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680120000037/facebook2020definitiveprox.htm",
+   "quote": "Marc L. Andreessen has served as a member of our board of directors since June 2008.",
+   "supports": "Andreessen director since June 2008."
+  },
+  {
+   "id": "e111",
+   "form": "DEF 14A",
+   "accession": "0001326801-20-000037",
+   "filing_date": "2020-04-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680120000037/facebook2020definitiveprox.htm",
+   "quote": "Kenneth I. Chenault has served as a member of our board of directors since February 2018.",
+   "supports": "Chenault director since February 2018."
+  },
+  {
+   "id": "e112",
+   "form": "DEF 14A",
+   "accession": "0001326801-20-000037",
+   "filing_date": "2020-04-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680120000037/facebook2020definitiveprox.htm",
+   "quote": "Mr. Chenault also previously served on the boards of directors of International Business Machines Corporation from October 1998 to February 2019 and The Procter & Gamble Company from April 2008 to February 2019.",
+   "supports": "Chenault former boards: IBM, Procter & Gamble (2020 proxy, his last)."
+  },
+  {
+   "id": "e113",
+   "form": "DEF 14A",
+   "accession": "0001326801-20-000037",
+   "filing_date": "2020-04-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680120000037/facebook2020definitiveprox.htm",
+   "quote": "Andrew W. Houston has served as a member of our board of directors since February 2020.",
+   "supports": "Houston director since February 2020."
+  },
+  {
+   "id": "e114",
+   "form": "DEF 14A",
+   "accession": "0001326801-20-000037",
+   "filing_date": "2020-04-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680120000037/facebook2020definitiveprox.htm",
+   "quote": "Nancy Killefer has served as a member of our board of directors since March 2020.",
+   "supports": "Killefer director since March 2020."
+  },
+  {
+   "id": "e115",
+   "form": "DEF 14A",
+   "accession": "0001326801-20-000037",
+   "filing_date": "2020-04-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680120000037/facebook2020definitiveprox.htm",
+   "quote": "Robert M. Kimmitt has served as a member of our board of directors and as our Lead Independent Director since March 2020.",
+   "supports": "Kimmitt director and Lead Independent Director since March 2020."
+  },
+  {
+   "id": "e116",
+   "form": "DEF 14A",
+   "accession": "0001326801-20-000037",
+   "filing_date": "2020-04-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680120000037/facebook2020definitiveprox.htm",
+   "quote": "Peter A. Thiel has served as a member of our board of directors since April 2005.",
+   "supports": "Thiel director since April 2005."
+  },
+  {
+   "id": "e117",
+   "form": "DEF 14A",
+   "accession": "0001326801-20-000037",
+   "filing_date": "2020-04-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680120000037/facebook2020definitiveprox.htm",
+   "quote": "Tracey T. Travis has served as a member of our board of directors since March 2020.",
+   "supports": "Travis director since March 2020."
+  },
+  {
+   "id": "e118",
+   "form": "DEF 14A",
+   "accession": "0001326801-20-000037",
+   "filing_date": "2020-04-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680120000037/facebook2020definitiveprox.htm",
+   "quote": "Ms. Alford has served on the board of directors of the Macerich Company, a real estate investment trust, since June 2018.",
+   "supports": "Alford's Macerich board service began June 2018 (2020 proxy)."
+  },
+  {
+   "id": "e119",
+   "form": "DEF 14A",
+   "accession": "0001326801-20-000037",
+   "filing_date": "2020-04-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680120000037/facebook2020definitiveprox.htm",
+   "quote": "Ms. Travis has served on the board of directors of Accenture plc, a professional services company, since July 2017",
+   "supports": "Travis's Accenture board service began July 2017 (2020 proxy)."
+  },
+  {
+   "id": "e120",
+   "form": "DEF 14A",
+   "accession": "0001326801-20-000037",
+   "filing_date": "2020-04-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680120000037/facebook2020definitiveprox.htm",
+   "quote": "Ms. Killefer has served on the boards of directors of Cardinal Health, Inc., a healthcare services company, since September 2015",
+   "supports": "Killefer's Cardinal Health board service began September 2015 (2020 proxy)."
+  },
+  {
+   "id": "e121",
+   "form": "DEF 14A",
+   "accession": "0001326801-20-000037",
+   "filing_date": "2020-04-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680120000037/facebook2020definitiveprox.htm",
+   "quote": "Jeffrey D. Zients has served as a member of our board of directors since May 2018.",
+   "supports": "Zients director since May 2018."
+  },
+  {
+   "id": "e122",
+   "form": "DEFA14A",
+   "accession": "0001326801-20-000052",
+   "filing_date": "2020-05-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680120000052/fbproxystatementsupplement.htm",
+   "quote": "Our privacy committee is currently comprised of Peggy Alford, Nancy Killefer, and Robert M. Kimmitt. Ms. Killefer is the chair of our privacy committee.",
+   "supports": "Privacy committee formed 2020-05-12 (context)."
+  },
+  {
+   "id": "e123",
+   "form": "8-K",
+   "accession": "0001326801-20-000058",
+   "filing_date": "2020-05-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680120000058/form8-k2020annualmeeti.htm",
+   "quote": "On May 27, 2020, Facebook, Inc. (the \"Company\") held its annual meeting of stockholders via live audio webcast",
+   "supports": "2020 annual meeting date: 2020-05-27 (end of Chenault's and Zients' terms)."
+  },
+  {
+   "id": "e124",
+   "form": "8-K",
+   "accession": "0001326801-20-000058",
+   "filing_date": "2020-05-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680120000058/form8-k2020annualmeeti.htm",
+   "quote": "Each of the nine nominees for director was elected to serve until the next annual meeting of stockholders",
+   "supports": "All nine 2020 nominees elected."
+  },
+  {
+   "id": "e125",
+   "form": "8-K",
+   "accession": "0001326801-20-000028",
+   "filing_date": "2020-03-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680120000028/mar20208-k2.htm",
+   "quote": "(b) On March 11, 2020, Kenneth I. Chenault informed Facebook, Inc. (the \"Company\") that he will not stand for re-election to the Board of Directors of the Company at the Company's 2020 Annual Meeting of Stockholders (the \"Annual Meeting\") in order to pursue other opportunities. Mr. Chenault will continue to serve as a director until the date of the Annual Meeting.",
+   "supports": "Chenault did not stand for re-election in 2020."
+  },
+  {
+   "id": "e126",
+   "form": "8-K",
+   "accession": "0001326801-20-000031",
+   "filing_date": "2020-03-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680120000031/mar2620208-k.htm",
+   "quote": "(b) On March 23, 2020, Jeffrey D. Zients informed Facebook, Inc. (the \"Company\") that he will not stand for re-election to the Board of Directors of the Company (the \"Board\") at the Company's 2020 Annual Meeting of Stockholders (the \"Annual Meeting\")",
+   "supports": "Zients did not stand for re-election in 2020."
+  },
+  {
+   "id": "e127",
+   "form": "8-K",
+   "accession": "0001326801-20-000031",
+   "filing_date": "2020-03-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680120000031/mar2620208-k.htm",
+   "quote": "Mr. Zients will continue to serve as a director until the date of the Annual Meeting.",
+   "supports": "Zients served until the 2020 annual meeting."
+  },
+  {
+   "id": "e128",
+   "form": "8-K",
+   "accession": "0001326801-20-000031",
+   "filing_date": "2020-03-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680120000031/mar2620208-k.htm",
+   "quote": "(d) On March 25, 2020, the Board appointed Robert M. Kimmitt as a member of the Board, effective March 26, 2020. In addition, the independent members of the Board have appointed Mr. Kimmitt as Lead Independent Director of the Board.",
+   "supports": "Kimmitt joins 2020-03-26 and is appointed Lead Independent Director (8-K filed 2020-03-26)."
+  },
+  {
+   "id": "e129",
+   "form": "8-K",
+   "accession": "0001326801-20-000023",
+   "filing_date": "2020-03-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680120000023/mar20208-k.htm",
+   "quote": "On March 5, 2020, the Board of Directors (the \"Board\") of Facebook, Inc. (the \"Company\") appointed each of Nancy Killefer and Tracey T. Travis as a member of the Board, effective March 9, 2020. In addition, the Board appointed Ms. Travis as a member of the Audit & Risk Oversight Committee of the Board, effective March 9, 2020.",
+   "supports": "Killefer and Travis join 2020-03-09."
+  },
+  {
+   "id": "e130",
+   "form": "8-K",
+   "accession": "0001326801-20-000018",
+   "filing_date": "2020-02-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680120000018/feb20208-k.htm",
+   "quote": "On February 3, 2020, the Board of Directors (the \"Board\") of Facebook, Inc. (the \"Company\") appointed Andrew W. Houston as a member of the Board, effective immediately.",
+   "supports": "Houston joins 2020-02-03."
+  },
+  {
+   "id": "e131",
+   "form": "8-K",
+   "accession": "0001326801-22-000006",
+   "filing_date": "2022-01-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680122000006/fb-20220110.htm",
+   "quote": "On January 10, 2022, the Board of Directors (the \"Board\") of Meta Platforms, Inc. (the \"Company\") elected Tony Xu as a member of the Board, effective January 11, 2022.",
+   "supports": "Xu joins 2022-01-11."
+  },
+  {
+   "id": "e132",
+   "form": "8-K",
+   "accession": "0001326801-22-000006",
+   "filing_date": "2022-01-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680122000006/fb-20220110.htm",
+   "quote": "The Board has determined that Mr. Xu qualifies as an independent director under the corporate governance standards of the Nasdaq Stock Market LLC.",
+   "supports": "Xu independent at appointment."
+  },
+  {
+   "id": "e133",
+   "form": "8-K/A",
+   "accession": "0001326801-22-000028",
+   "filing_date": "2022-02-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680122000028/fb-20220110.htm",
+   "quote": "On February 10, 2022, the Board appointed Mr. Xu to the Compensation, Nominating & Governance Committee of the Board, effective immediately.",
+   "supports": "Xu joins CNGC 2022-02-10."
+  },
+  {
+   "id": "e134",
+   "form": "DEF 14A",
+   "accession": "0001326801-19-000025",
+   "filing_date": "2019-04-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680119000025/facebook2019definitiveprox.htm",
+   "quote": "Peggy Alford is a nominee for election to our board of directors at the Annual Meeting.",
+   "supports": "Alford was first elected at the 2019 annual meeting (not a sitting director when nominated)."
+  },
+  {
+   "id": "e135",
+   "form": "DEF 14A",
+   "accession": "0001326801-19-000025",
+   "filing_date": "2019-04-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680119000025/facebook2019definitiveprox.htm",
+   "quote": "The following individuals are nominated for election to the board of directors at the Annual Meeting, all of whom are currently serving on our board of directors except for Ms. Alford:",
+   "supports": "2019 slate (Alford new)."
+  },
+  {
+   "id": "e136",
+   "form": "8-K",
+   "accession": "0001326801-19-000043",
+   "filing_date": "2019-06-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680119000043/form8-k2019annualmeeting.htm",
+   "quote": "On May 30, 2019, Facebook, Inc. (the \"Company\") held its annual meeting of stockholders",
+   "supports": "2019 annual meeting date: 2019-05-30 (Alford's election)."
+  },
+  {
+   "id": "e137",
+   "form": "8-K",
+   "accession": "0001326801-19-000043",
+   "filing_date": "2019-06-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680119000043/form8-k2019annualmeeting.htm",
+   "quote": "Each of the eight nominees for director was elected to serve until the next annual meeting of stockholders",
+   "supports": "All eight 2019 nominees elected, including Alford."
+  },
+  {
+   "id": "e138",
+   "form": "8-K",
+   "accession": "0001326801-19-000066",
+   "filing_date": "2019-10-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680119000066/form8-k09302019earnings.htm",
+   "quote": "Facebook's independent directors did not immediately appoint a new lead independent director of the Board but expect to name a replacement over the coming months.",
+   "supports": "Lead Independent Director seat vacant from Desmond-Hellmann's 2019-10-30 resignation until Kimmitt (context)."
+  },
+  {
+   "id": "e139",
+   "form": "8-K",
+   "accession": "0001326801-18-000003",
+   "filing_date": "2018-01-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680118000003/form8k_118.htm",
+   "quote": "On January 17, 2018, the Board of Directors (the \"Board\") of Facebook, Inc. (the \"Company\") appointed Kenneth I. Chenault as a member of the Board, effective February 5, 2018.",
+   "supports": "Chenault joins 2018-02-05."
+  },
+  {
+   "id": "e140",
+   "form": "8-K",
+   "accession": "0001326801-18-000037",
+   "filing_date": "2018-05-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680118000037/form8k.htm",
+   "quote": "On May 7, 2018, the Board of Directors (the \"Board\") of Facebook, Inc. (the \"Company\") appointed Jeffrey D. Zients as a member of the Board and as a member of the Audit Committee of the Board (the \"Audit Committee\"), in each case effective immediately following the conclusion of the Company's 2018 Annual Meeting of Stockholders (the \"2018 Annual Meeting\").",
+   "supports": "Zients joins effective immediately after the 2018 annual meeting."
+  },
+  {
+   "id": "e141",
+   "form": "8-K",
+   "accession": "0001326801-18-000049",
+   "filing_date": "2018-06-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680118000049/form8-k2018annualmeeting.htm",
+   "quote": "On May 31, 2018, Facebook, Inc. (the \"Company\") held its annual meeting of stockholders",
+   "supports": "2018 annual meeting date: 2018-05-31 (Zients' start)."
+  },
+  {
+   "id": "e142",
+   "form": "424B4",
+   "accession": "0001193125-12-240111",
+   "filing_date": "2012-05-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312512240111/d287954d424b4.htm",
+   "quote": "Mark Zuckerberg is our founder and has served as our CEO and as a member of our board of directors since July 2004. Mr. Zuckerberg has served as Chairman of our board of directors since January 2012.",
+   "supports": "IPO prospectus: Zuckerberg CEO and director since July 2004; Chairman since January 2012."
+  },
+  {
+   "id": "e143",
+   "form": "424B4",
+   "accession": "0001193125-12-240111",
+   "filing_date": "2012-05-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312512240111/d287954d424b4.htm",
+   "quote": "Marc L. Andreessen has served as a member of our board of directors since June 2008.",
+   "supports": "IPO prospectus: Andreessen director since June 2008."
+  },
+  {
+   "id": "e144",
+   "form": "424B4",
+   "accession": "0001193125-12-240111",
+   "filing_date": "2012-05-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312512240111/d287954d424b4.htm",
+   "quote": "Peter A. Thiel has served as a member of our board of directors since April 2005.",
+   "supports": "IPO prospectus: Thiel director since April 2005."
+  },
+  {
+   "id": "e145",
+   "form": "424B4",
+   "accession": "0001193125-12-240111",
+   "filing_date": "2012-05-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312512240111/d287954d424b4.htm",
+   "quote": "Our board of directors has determined that none of our non-employee directors has a relationship that would interfere with the exercise of independent judgment in carrying out the responsibilities of a director and that each of these directors is \"independent\" as that term is defined under the rules of NASDAQ.",
+   "supports": "IPO-time independence determination covering all non-employee directors (incl. Andreessen, Thiel)."
+  },
+  {
+   "id": "e146",
+   "form": "3",
+   "accession": "0001209191-12-028898",
+   "filing_date": "2012-05-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000120919112028898/doc3.xml",
+   "quote": "Zuckerberg Mark",
+   "supports": "Zuckerberg reporting-owner CIK; director + officer (COB and CEO). IPO-date Form 3; NOT his board start.",
+   "xml_fields": {
+    "rptOwnerCik": "0001548760",
+    "rptOwnerName": "Zuckerberg Mark",
+    "periodOfReport": "2012-05-17"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": "COB and CEO"
+   }
+  },
+  {
+   "id": "e147",
+   "form": "3",
+   "accession": "0001209191-12-028882",
+   "filing_date": "2012-05-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000120919112028882/doc3.xml",
+   "quote": "Andreessen Marc L",
+   "supports": "Andreessen reporting-owner CIK; director. IPO-date Form 3; NOT his board start.",
+   "xml_fields": {
+    "rptOwnerCik": "0001160077",
+    "rptOwnerName": "Andreessen Marc L",
+    "periodOfReport": "2012-05-17"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": null
+   }
+  },
+  {
+   "id": "e148",
+   "form": "3",
+   "accession": "0001209191-12-028895",
+   "filing_date": "2012-05-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000120919112028895/doc3.xml",
+   "quote": "THIEL PETER",
+   "supports": "Thiel reporting-owner CIK; director. IPO-date Form 3; NOT his board start.",
+   "xml_fields": {
+    "rptOwnerCik": "0001211060",
+    "rptOwnerName": "THIEL PETER",
+    "periodOfReport": "2012-05-17"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": null
+   }
+  },
+  {
+   "id": "e149",
+   "form": "3",
+   "accession": "0001209191-12-028892",
+   "filing_date": "2012-05-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000120919112028892/doc3.xml",
+   "quote": "Sandberg Sheryl",
+   "supports": "Sandberg reporting-owner CIK; filed as officer (COO) at the IPO, before she joined the board (2012-06-24).",
+   "xml_fields": {
+    "rptOwnerCik": "0001366010",
+    "rptOwnerName": "Sandberg Sheryl",
+    "periodOfReport": "2012-05-17"
+   },
+   "xml_relationship": {
+    "isDirector": false,
+    "officerTitle": "Chief Operating Officer"
+   }
+  },
+  {
+   "id": "e150",
+   "form": "3",
+   "accession": "0001127602-18-006474",
+   "filing_date": "2018-02-15",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000112760218006474/form3.xml",
+   "quote": "CHENAULT KENNETH I",
+   "supports": "Chenault reporting-owner CIK; director; event date 2018-02-05 matches the 8-K effective date.",
+   "xml_fields": {
+    "rptOwnerCik": "0001180524",
+    "rptOwnerName": "CHENAULT KENNETH I",
+    "periodOfReport": "2018-02-05"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": null
+   }
+  },
+  {
+   "id": "e151",
+   "form": "3",
+   "accession": "0001127602-18-020640",
+   "filing_date": "2018-06-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000112760218020640/form3.xml",
+   "quote": "ZIENTS JEFFREY D",
+   "supports": "Zients reporting-owner CIK; director; event date 2018-05-31 (2018 annual meeting).",
+   "xml_fields": {
+    "rptOwnerCik": "0001167504",
+    "rptOwnerName": "ZIENTS JEFFREY D",
+    "periodOfReport": "2018-05-31"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": null
+   }
+  },
+  {
+   "id": "e152",
+   "form": "3",
+   "accession": "0001127602-19-020575",
+   "filing_date": "2019-06-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000112760219020575/form3.xml",
+   "quote": "Alford Peggy",
+   "supports": "Alford reporting-owner CIK; director; event date 2019-05-30 (2019 annual meeting).",
+   "xml_fields": {
+    "rptOwnerCik": "0001736236",
+    "rptOwnerName": "Alford Peggy",
+    "periodOfReport": "2019-05-30"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": null
+   }
+  },
+  {
+   "id": "e153",
+   "form": "3",
+   "accession": "0001127602-20-004434",
+   "filing_date": "2020-02-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000112760220004434/form3.xml",
+   "quote": "Houston Andrew",
+   "supports": "Houston reporting-owner CIK; director; event date 2020-02-03 matches the 8-K.",
+   "xml_fields": {
+    "rptOwnerCik": "0001734563",
+    "rptOwnerName": "Houston Andrew",
+    "periodOfReport": "2020-02-03"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": null
+   }
+  },
+  {
+   "id": "e154",
+   "form": "3",
+   "accession": "0000950103-20-005431",
+   "filing_date": "2020-03-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010320005431/dp123963_3-killefer.xml",
+   "quote": "Killefer Nancy",
+   "supports": "Killefer reporting-owner CIK; director; event date 2020-03-09 matches the 8-K.",
+   "xml_fields": {
+    "rptOwnerCik": "0001584637",
+    "rptOwnerName": "Killefer Nancy",
+    "periodOfReport": "2020-03-09"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": null
+   }
+  },
+  {
+   "id": "e155",
+   "form": "3",
+   "accession": "0000950103-20-005429",
+   "filing_date": "2020-03-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010320005429/dp123965_3-travis.xml",
+   "quote": "TRAVIS TRACEY THOMAS",
+   "supports": "Travis reporting-owner CIK; director; event date 2020-03-09 matches the 8-K.",
+   "xml_fields": {
+    "rptOwnerCik": "0001258930",
+    "rptOwnerName": "TRAVIS TRACEY THOMAS",
+    "periodOfReport": "2020-03-09"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": null
+   }
+  },
+  {
+   "id": "e156",
+   "form": "3",
+   "accession": "0000950103-20-007050",
+   "filing_date": "2020-04-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010320007050/dp125267_3-kimmitt.xml",
+   "quote": "KIMMITT ROBERT M",
+   "supports": "Kimmitt reporting-owner CIK; director; event date 2020-03-26 matches the 8-K.",
+   "xml_fields": {
+    "rptOwnerCik": "0001181218",
+    "rptOwnerName": "KIMMITT ROBERT M",
+    "periodOfReport": "2020-03-26"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": null
+   }
+  },
+  {
+   "id": "e157",
+   "form": "3",
+   "accession": "0000950103-22-000892",
+   "filing_date": "2022-01-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010322000892/dp165207_3-xu.xml",
+   "quote": "Xu Tony",
+   "supports": "Xu reporting-owner CIK; director; event date 2022-01-11 matches the 8-K.",
+   "xml_fields": {
+    "rptOwnerCik": "0001832617",
+    "rptOwnerName": "Xu Tony",
+    "periodOfReport": "2022-01-11"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": null
+   }
+  },
+  {
+   "id": "e158",
+   "form": "3",
+   "accession": "0000950103-24-002476",
+   "filing_date": "2024-02-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010324002476/dp206952_3-arnold.xml",
+   "quote": "Arnold John Douglas",
+   "supports": "Arnold reporting-owner CIK; director; event date 2024-02-13 matches the 8-K.",
+   "xml_fields": {
+    "rptOwnerCik": "0002011994",
+    "rptOwnerName": "Arnold John Douglas",
+    "periodOfReport": "2024-02-13"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": null
+   }
+  },
+  {
+   "id": "e159",
+   "form": "3",
+   "accession": "0000950103-24-002475",
+   "filing_date": "2024-02-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010324002475/dp206874_3-tan.xml",
+   "quote": "TAN HOCK E",
+   "supports": "Tan reporting-owner CIK; director; event date 2024-02-13 matches the 8-K.",
+   "xml_fields": {
+    "rptOwnerCik": "0001211588",
+    "rptOwnerName": "TAN HOCK E",
+    "periodOfReport": "2024-02-13"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": null
+   }
+  },
+  {
+   "id": "e160",
+   "form": "3",
+   "accession": "0000950103-25-000403",
+   "filing_date": "2025-01-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010325000403/dp223353_3-white.xml",
+   "quote": "White Dana",
+   "supports": "White reporting-owner CIK; director; event date 2024-12-30 matches the 8-K.",
+   "xml_fields": {
+    "rptOwnerCik": "0002051628",
+    "rptOwnerName": "White Dana",
+    "periodOfReport": "2024-12-30"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": null
+   }
+  },
+  {
+   "id": "e161",
+   "form": "3",
+   "accession": "0000950103-25-000402",
+   "filing_date": "2025-01-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010325000402/dp223352_3-songhurst.xml",
+   "quote": "Songhurst Charles",
+   "supports": "Songhurst reporting-owner CIK; director; event date 2024-12-30 matches the 8-K.",
+   "xml_fields": {
+    "rptOwnerCik": "0002051627",
+    "rptOwnerName": "Songhurst Charles",
+    "periodOfReport": "2024-12-30"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": null
+   }
+  },
+  {
+   "id": "e162",
+   "form": "3",
+   "accession": "0000950103-25-000401",
+   "filing_date": "2025-01-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010325000401/dp223251_3-elkann.xml",
+   "quote": "Elkann John",
+   "supports": "Elkann reporting-owner CIK; director; event date 2024-12-30 matches the 8-K.",
+   "xml_fields": {
+    "rptOwnerCik": "0001579992",
+    "rptOwnerName": "Elkann John",
+    "periodOfReport": "2024-12-30"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": null
+   }
+  },
+  {
+   "id": "e163",
+   "form": "3",
+   "accession": "0000950103-25-005267",
+   "filing_date": "2025-04-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010325005267/dp228062_3-powell.xml",
+   "quote": "Powell Dina H.",
+   "supports": "Powell McCormick reporting-owner CIK; director; event date 2025-04-15 matches the 8-K.",
+   "xml_fields": {
+    "rptOwnerCik": "0002006664",
+    "rptOwnerName": "Powell Dina H.",
+    "periodOfReport": "2025-04-15"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": null
+   }
+  },
+  {
+   "id": "e164",
+   "form": "3",
+   "accession": "0000950103-25-005927",
+   "filing_date": "2025-05-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010325005927/dp228721_3-collison.xml",
+   "quote": "Collison Patrick",
+   "supports": "Collison reporting-owner CIK; director; event date 2025-04-15 matches the 8-K (Form 3 filed 2025-05-12).",
+   "xml_fields": {
+    "rptOwnerCik": "0002067148",
+    "rptOwnerName": "Collison Patrick",
+    "periodOfReport": "2025-04-15"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": null
+   }
+  },
+  {
+   "id": "e165",
+   "form": "3",
+   "accession": "0000950103-26-000872",
+   "filing_date": "2026-01-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326000872/dp240040_3-powell.xml",
+   "quote": "Powell Dina H.",
+   "supports": "Powell McCormick's second Form 3 is as an officer (President and Vice Chairman), not a director (isDirector 0).",
+   "xml_fields": {
+    "rptOwnerCik": "0002006664",
+    "rptOwnerName": "Powell Dina H.",
+    "periodOfReport": "2026-01-12"
+   },
+   "xml_relationship": {
+    "isDirector": false,
+    "officerTitle": "President and Vice Chairman"
+   }
+  },
+  {
+   "id": "e166",
+   "form": "3",
+   "accession": "0000950103-26-000702",
+   "filing_date": "2026-01-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326000702/dp240041_3-mahoney.xml",
+   "quote": "Mahoney Curtis J.",
+   "supports": "Curtis J. Mahoney (Chief Legal Officer) - the only other Form 3 filed in 2026; an officer, not a director.",
+   "xml_fields": {
+    "rptOwnerCik": "0002105423",
+    "rptOwnerName": "Mahoney Curtis J.",
+    "periodOfReport": "2026-01-07"
+   },
+   "xml_relationship": {
+    "isDirector": false,
+    "officerTitle": "Chief Legal Officer"
+   }
+  }
+ ],
+ "conflicts": [
+  {
+   "description": "Sandberg's independence after she left employment (2022-10-01). The 2023 proxy's general sentence says every current non-employee director is independent, which read literally includes her. The same proxy counts 'Seven out of our nine director nominees' as independent, which leaves out Zuckerberg and Sandberg. It heads her bio 'Director' where others read 'Independent Director', and the nominee table gives her no independence mark. Recorded as non_independent_director, medium confidence.",
+   "evidence_refs": [
+    "e079",
+    "e076",
+    "e077"
+   ]
+  },
+  {
+   "description": "Powell McCormick's title 'President and Vice Chairman' (from 2026-01-12) is an officer title, not a board vice-chair seat. She resigned from the board on 2025-12-19. The 8-K says she served on the Board 'from April 2025 until December 2025'. Her 2026 Form 3 is filed as an officer (isDirector 0), and she was not a 2026 nominee. No vice_chair role is recorded.",
+   "evidence_refs": [
+    "e062",
+    "e063",
+    "e064",
+    "e165",
+    "e044"
+   ]
+  },
+  {
+   "description": "White, Elkann and Songhurst were announced on 2025-01-06 (8-K filing date and press release) but took their seats on 2024-12-30, the 8-K effective date. Their Form 3 event dates and the proxies ('Director Since: 2024') agree. Start recorded as 2024-12-30.",
+   "evidence_refs": [
+    "e065",
+    "e160",
+    "e162",
+    "e161",
+    "e041"
+   ]
+  },
+  {
+   "description": "Board-size bookkeeping has gaps. No filing states the increases from 7 to 11 when Houston, Killefer, Travis and Kimmitt joined in Feb-Mar 2020, or the cut from 11 to 9 at the 2020 meeting. Nor does any filing state the 9 -> 11 increase for Arnold and Tan (2024-02-13), or the 15 -> 14 change after Powell McCormick resigned (the 2026 proxy simply says the current authorized number is fourteen). Only disclosed changes are BOARD_SIZE_CHANGE events. The 2024-12-30 from_size of 10 is the size set at the 2024 annual meeting.",
+   "evidence_refs": [
+    "e101",
+    "e099",
+    "e067",
+    "e071",
+    "e014"
+   ]
+  },
+  {
+   "description": "Kimmitt's Lead Independent Director start day. The 8-K (filed 2020-03-26, his seat's effective date) says the independent directors 'have appointed' him but gives no separate effective date, and the 2020 proxy says 'since March 2020'. Recorded as 2020-03-26, since he could not hold the role before his seat took effect and the 8-K reports it as done on that day.",
+   "evidence_refs": [
+    "e128",
+    "e115"
+   ]
+  }
+ ],
+ "open_questions": [
+  "Pre-IPO start dates are disclosed only to the month: Zuckerberg (July 2004), Thiel (April 2005) and Andreessen (June 2008). No filing gives a day.",
+  "Independence spans for pre-IPO directors (Andreessen, Thiel) begin at their board start by convention. The first disclosed determination is the 2012 IPO prospectus.",
+  "The exact day Sandberg stopped being COO is not stated. Olivan became COO effective 2022-08-01, and Sandberg stayed an employee through 2022-09-30. The executive_director span runs to 2022-09-30.",
+  "Committee rosters are captured only at proxy snapshots: the 2026 proxy (as of the 2026-05-27 meeting) and the last proxy for each departed director. Changes between filings are not dated. Examples: the June 2025 restructuring assignments, Alford's and Arnold's Audit & Privacy appointments ('effective as of May 2026', no day), and Travis moving from Audit & Risk Oversight chair to Audit & Privacy member.",
+  "Kimmitt, Collison and Zuckerberg sit on no standing committee per the 2026 proxy. Kimmitt was on the Privacy & Product Compliance Committee in the 2025 proxy.",
+  "Other-board lists come from Meta's own bios and are not checked against other issuers' filings. Chenault's former IBM/P&G boards come from a narrative bio that does not say the companies are public.",
+  "Peggy Alford became eBay CFO in 2025 (2026 proxy). No independence change was disclosed, and the 2026 proxy still lists her as independent."
+ ],
+ "coverage": [
+  {
+   "scope": "current_board",
+   "period_start": "2026-10-04",
+   "period_end": "2026-10-04",
+   "level": "complete",
+   "method": "Roster taken from the 2026 DEF 14A (twelve nominees, all elected 2026-05-27 per the 8-K Item 5.07). No 8-K with Item 5.02 was filed after the proxy through 2026-09-30, the latest filing in the EDGAR submissions feed. Every Form 3 and Form 4 filed in 2026 was checked: all twelve directors filed as directors, and no new director Form 3 appeared."
+  },
+  {
+   "scope": "board_history",
+   "period_start": "2020-01-01",
+   "period_end": "2026-10-04",
+   "level": "complete",
+   "method": "Reviewed every DEF 14A from 2019 to 2026 (plus the 2020 supplement), every 8-K or 8-K/A with Item 5.02 or 5.07 filed 2019-2026, and every Form 3 since 2012. Nominee lists were reconciled across consecutive proxies, and departures were dated from 8-K effective dates or Item 5.07 annual-meeting dates."
+  },
+  {
+   "scope": "board_history",
+   "period_start": "2004-07-01",
+   "period_end": "2019-12-31",
+   "level": "partial",
+   "method": "Only start dates of directors who served on or after 2020-01-01, taken from the IPO prospectus, proxy bios and appointment 8-Ks. Departures before 2020 (e.g. Desmond-Hellmann 2019-10-30, Bowles and Hastings 2019-05-30, Koum 2018) are out of scope and not recorded."
+  }
+ ]
+}
