@@ -1,0 +1,3028 @@
+{
+ "company": {
+  "cik": "0001318605",
+  "ticker": "TSLA",
+  "legal_name": "Tesla, Inc.",
+  "common_name": "Tesla",
+  "exchange": "The NASDAQ Global Select Market",
+  "ipo_pricing_date": "2010-06-28",
+  "ipo_date": "2010-06-29",
+  "state_of_incorporation": "Texas",
+  "incorporated": "2003-07-01 in Delaware; converted to a Texas corporation 2024-06-13 (EDGAR former name 'TESLA MOTORS INC' to 2017-01-27)",
+  "classified_board": true,
+  "notes": "First trading day 2010-06-29 (IPO priced 2010-06-28), per the 2025 10-K. Reincorporated from Delaware to Texas by conversion effective 2024-06-13, after shareholders approved the redomestication at the 2024-06-13 annual meeting; filings since then cite the TBOC and a certificate of formation. Classified board with three classes and staggered three-year terms; a precatory annual-election proposal passed in 2025 but had not been implemented as of the 2026-04-30 10-K/A. Independent Chair (Robyn Denholm) since 2018-11-07, and no lead independent director since April 2019. Several directors predate the IPO: Elon and Kimbal Musk (April 2004), Ehrenpreis (May 2007).",
+  "notes_evidence_refs": [
+   "e001",
+   "e002",
+   "e003",
+   "e004",
+   "e005",
+   "e021",
+   "e145"
+  ]
+ },
+ "as_of": "2026-10-04",
+ "sources_reviewed_through": "2026-10-02 (latest filing in the EDGAR submissions feed fetched 2026-10-04)",
+ "people": [
+  {
+   "key": "elon-musk",
+   "full_name": "Elon Musk",
+   "aliases": [
+    "Musk Elon"
+   ],
+   "sec_cik": "0001494730",
+   "bio_other_public_boards": [
+    {
+     "company": "Endeavor Group Holdings, Inc.",
+     "status": "former",
+     "years": "April 2021 to June 2022",
+     "source_ref": "e190",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "SolarCity Corporation",
+     "status": "former",
+     "years": "July 2006 until its acquisition by Tesla in November 2016 (as Chairman)",
+     "source_ref": "e191",
+     "public_company_stated_in_source": false
+    }
+   ],
+   "sec_cik_ref": "e210"
+  },
+  {
+   "key": "robyn-denholm",
+   "full_name": "Robyn Denholm",
+   "aliases": [
+    "DENHOLM ROBYN M"
+   ],
+   "sec_cik": "0001242782",
+   "bio_other_public_boards": [
+    {
+     "company": "ABB Ltd.",
+     "status": "former",
+     "years": "2016 to 2017 (years from the 2022 proxy; the 2026 bio gives none)",
+     "source_ref": "e192",
+     "public_company_stated_in_source": false,
+     "corroborating_refs": [
+      "e156"
+     ]
+    }
+   ],
+   "sec_cik_ref": "e081"
+  },
+  {
+   "key": "ira-ehrenpreis",
+   "full_name": "Ira Ehrenpreis",
+   "aliases": [
+    "Ehrenpreis Ira Matthew"
+   ],
+   "sec_cik": "0001412598",
+   "bio_other_public_boards": [],
+   "sec_cik_ref": "e212"
+  },
+  {
+   "key": "joe-gebbia",
+   "full_name": "Joe Gebbia",
+   "aliases": [
+    "Joseph Gebbia",
+    "Gebbia Joseph"
+   ],
+   "sec_cik": "0001834171",
+   "bio_other_public_boards": [
+    {
+     "company": "Airbnb, Inc.",
+     "status": "current",
+     "years": "since 2009",
+     "source_ref": "e193",
+     "public_company_stated_in_source": true,
+     "corroborating_refs": [
+      "e194"
+     ],
+     "note": "bio calls the company he co-founded 'a global public company'"
+    }
+   ],
+   "sec_cik_ref": "e163"
+  },
+  {
+   "key": "jack-hartung",
+   "full_name": "John R. (Jack) Hartung",
+   "aliases": [
+    "Jack Hartung",
+    "John R. Hartung",
+    "Hartung Jack"
+   ],
+   "sec_cik": "0001350874",
+   "bio_other_public_boards": [
+    {
+     "company": "The Honest Company",
+     "status": "current",
+     "years": "since May 2022",
+     "source_ref": "e195",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Portillo's Inc.",
+     "status": "current",
+     "years": "since January 2025",
+     "source_ref": "e195",
+     "public_company_stated_in_source": false
+    }
+   ],
+   "sec_cik_ref": "e072"
+  },
+  {
+   "key": "james-murdoch",
+   "full_name": "James Murdoch",
+   "aliases": [
+    "MURDOCH JAMES R"
+   ],
+   "sec_cik": "0001420590",
+   "bio_other_public_boards": [
+    {
+     "company": "News Corporation",
+     "status": "former",
+     "years": "2013 to 2020",
+     "source_ref": "e196",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Twenty-First Century Fox, Inc. (21CF)",
+     "status": "unknown",
+     "years": "not stated",
+     "source_ref": "e196",
+     "public_company_stated_in_source": false,
+     "note": "bio says only 'has served on the boards of'; current/former not stated"
+    },
+    {
+     "company": "Sky plc",
+     "status": "unknown",
+     "years": "not stated",
+     "source_ref": "e196",
+     "public_company_stated_in_source": false,
+     "note": "bio says only 'has served on the boards of'; current/former not stated"
+    },
+    {
+     "company": "GlaxoSmithKline plc",
+     "status": "unknown",
+     "years": "not stated",
+     "source_ref": "e196",
+     "public_company_stated_in_source": false,
+     "note": "bio says only 'has served on the boards of'; current/former not stated"
+    },
+    {
+     "company": "Sotheby's",
+     "status": "unknown",
+     "years": "not stated",
+     "source_ref": "e196",
+     "public_company_stated_in_source": false,
+     "note": "bio says only 'has served on the boards of'; current/former not stated"
+    }
+   ],
+   "sec_cik_ref": "e086"
+  },
+  {
+   "key": "kimbal-musk",
+   "full_name": "Kimbal Musk",
+   "aliases": [
+    "Musk Kimbal"
+   ],
+   "sec_cik": "0001494731",
+   "bio_other_public_boards": [
+    {
+     "company": "Chipotle Mexican Grill, Inc.",
+     "status": "former",
+     "years": "2013 to 2019 (per the 2024 proxy)",
+     "source_ref": "e197",
+     "public_company_stated_in_source": false,
+     "corroborating_refs": [
+      "e182"
+     ]
+    }
+   ],
+   "sec_cik_ref": "e211"
+  },
+  {
+   "key": "jb-straubel",
+   "full_name": "JB Straubel",
+   "aliases": [
+    "Straubel Jeffrey B"
+   ],
+   "sec_cik": "0001494727",
+   "bio_other_public_boards": [
+    {
+     "company": "QuantumScape",
+     "status": "current",
+     "years": "since November 2020",
+     "source_ref": "e198",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "SolarCity Corporation",
+     "status": "former",
+     "years": "August 2006 until its acquisition by Tesla in November 2016",
+     "source_ref": "e199",
+     "public_company_stated_in_source": false
+    }
+   ],
+   "sec_cik_ref": "e177"
+  },
+  {
+   "key": "kathleen-wilson-thompson",
+   "full_name": "Kathleen Wilson-Thompson",
+   "aliases": [
+    "Wilson-Thompson Kathleen"
+   ],
+   "sec_cik": "0001331680",
+   "bio_other_public_boards": [
+    {
+     "company": "Wolverine World Wide, Inc.",
+     "status": "current",
+     "years": "since May 2021",
+     "source_ref": "e200",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "McKesson Corporation",
+     "status": "current",
+     "years": "since January 2022",
+     "source_ref": "e200",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Ashland Global Holdings Inc.",
+     "status": "former",
+     "years": "2017 to 2020",
+     "source_ref": "e201",
+     "public_company_stated_in_source": false,
+     "note": "named in the 2025 proxy bio; dropped from the 2026 10-K/A bio"
+    }
+   ],
+   "sec_cik_ref": "e103"
+  },
+  {
+   "key": "stephen-jurvetson",
+   "full_name": "Stephen Jurvetson",
+   "aliases": [
+    "Steve Jurvetson",
+    "Jurvetson Stephen T"
+   ],
+   "sec_cik": "0001314917",
+   "bio_other_public_boards": [],
+   "sec_cik_ref": "e214"
+  },
+  {
+   "key": "antonio-gracias",
+   "full_name": "Antonio Gracias",
+   "aliases": [
+    "Gracias Antonio J."
+   ],
+   "sec_cik": "0001495158",
+   "bio_other_public_boards": [
+    {
+     "company": "SolarCity Corporation",
+     "status": "former",
+     "years": "until its acquisition by Tesla in November 2016 (start not stated)",
+     "source_ref": "e202",
+     "public_company_stated_in_source": false
+    }
+   ],
+   "sec_cik_ref": "e213"
+  },
+  {
+   "key": "lawrence-j-ellison",
+   "full_name": "Lawrence J. Ellison",
+   "aliases": [
+    "Larry Ellison",
+    "ELLISON LAWRENCE JOSEPH"
+   ],
+   "sec_cik": "0000901999",
+   "bio_other_public_boards": [
+    {
+     "company": "Oracle Corporation",
+     "status": "current",
+     "years": "since June 1977 (Chairman since September 2014 and May 1995 to January 2004); status as of the 2022 proxy",
+     "source_ref": "e155",
+     "public_company_stated_in_source": false
+    }
+   ],
+   "sec_cik_ref": "e102"
+  },
+  {
+   "key": "hiromichi-mizuno",
+   "full_name": "Hiromichi Mizuno",
+   "aliases": [
+    "Hiro Mizuno",
+    "Mizuno Hiromichi"
+   ],
+   "sec_cik": "0001811230",
+   "bio_other_public_boards": [],
+   "sec_cik_ref": "e112"
+  }
+ ],
+ "memberships": [
+  {
+   "person_key": "elon-musk",
+   "start_date": "2004-04",
+   "start_date_precision": "month",
+   "start_date_basis": "10-K/A (2026-04-30) bio 'a member of the Board since April 2004'; proxies give 'Director Since: 2004'",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e020",
+    "e041",
+    "e011",
+    "e040",
+    "e131",
+    "e176",
+    "e210",
+    "e010"
+   ],
+   "board_class": "I",
+   "notes": "Pre-IPO director (founder). CEO since October 2008; Chairman April 2004 to November 2018. Class I; re-elected 2020 and 2023; term shown as expiring 2026 (no 2026 annual meeting held as of 2026-10-04)."
+  },
+  {
+   "person_key": "robyn-denholm",
+   "start_date": "2014-08-11",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02: elected 2014-08-04 as a Class I director effective 2014-08-11 (Form 3 event date agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e080",
+    "e081",
+    "e021",
+    "e042",
+    "e012",
+    "e040",
+    "e131",
+    "e176",
+    "e010"
+   ],
+   "board_class": "I",
+   "notes": "Independent director since joining; Chair since 2018-11-07. Class I; re-elected 2020 and 2023; term shown as expiring 2026."
+  },
+  {
+   "person_key": "ira-ehrenpreis",
+   "start_date": "2007-05",
+   "start_date_precision": "month",
+   "start_date_basis": "10-K/A (2026-04-30) bio 'a member of the Board since May 2007'; proxies give 'Director Since: 2007'",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e022",
+    "e043",
+    "e013",
+    "e040",
+    "e158",
+    "e060",
+    "e062",
+    "e212",
+    "e010",
+    "e056",
+    "e061",
+    "e204",
+    "e107",
+    "e108"
+   ],
+   "board_class": "III",
+   "notes": "Pre-IPO director. Class III; re-elected 2019, 2022 and 2025 (term to 2028)."
+  },
+  {
+   "person_key": "joe-gebbia",
+   "start_date": "2022-09-25",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02: appointed 'on and effective as of September 25, 2022' (Form 3 event date agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e160",
+    "e162",
+    "e163",
+    "e023",
+    "e044",
+    "e014",
+    "e040",
+    "e060",
+    "e062",
+    "e010",
+    "e056",
+    "e061"
+   ],
+   "board_class": "III",
+   "notes": "Joined as an independent director with no committee at appointment; later on Audit. Class III; elected 2025 (term to 2028)."
+  },
+  {
+   "person_key": "jack-hartung",
+   "start_date": "2025-06-01",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02: appointed 2025-05-15 'effective as of June 1, 2025' (X-post exhibit agrees; Form 3 gives 2025-06-04, see conflicts)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e070",
+    "e071",
+    "e072",
+    "e024",
+    "e045",
+    "e015",
+    "e040",
+    "e010"
+   ],
+   "board_class": "II",
+   "notes": "Independent director and Audit Committee member from appointment. Board-appointed into Class II (term to 2027)."
+  },
+  {
+   "person_key": "james-murdoch",
+   "start_date": "2017-07-13",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02: appointed 'on and effective as of July 13, 2017' (Form 3 gives 2017-07-17, see conflicts)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e085",
+    "e086",
+    "e025",
+    "e046",
+    "e016",
+    "e040",
+    "e148",
+    "e181",
+    "e010"
+   ],
+   "board_class": "II",
+   "notes": "Class II; re-elected 2021 and 2024 (term to 2027)."
+  },
+  {
+   "person_key": "kimbal-musk",
+   "start_date": "2004-04",
+   "start_date_precision": "month",
+   "start_date_basis": "10-K/A (2026-04-30) bio 'a member of the Board since April 2004'; proxies give 'Director Since: 2004'",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e026",
+    "e047",
+    "e017",
+    "e040",
+    "e148",
+    "e181",
+    "e211",
+    "e010"
+   ],
+   "board_class": "II",
+   "notes": "Pre-IPO director; Elon Musk's brother (not independent). Class II; re-elected 2021 and 2024 (term to 2027)."
+  },
+  {
+   "person_key": "jb-straubel",
+   "start_date": "2023-05-16",
+   "start_date_precision": "day",
+   "start_date_basis": "Elected at the 2023-05-16 annual meeting (8-K Item 5.07); Form 3 event date agrees",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e175",
+    "e176",
+    "e177",
+    "e171",
+    "e027",
+    "e048",
+    "e018",
+    "e040",
+    "e010"
+   ],
+   "board_class": "I",
+   "notes": "Tesla co-founder and CTO May 2005 - July 2019; nominated to succeed Mizuno as a Class I director. Term shown as expiring 2026."
+  },
+  {
+   "person_key": "kathleen-wilson-thompson",
+   "start_date": "2018-12-27",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02: appointed 'on and effective as of December 27, 2018' (blog exhibit and Form 3 agree)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e100",
+    "e101",
+    "e103",
+    "e028",
+    "e049",
+    "e019",
+    "e040",
+    "e158",
+    "e060",
+    "e062",
+    "e010",
+    "e056",
+    "e061",
+    "e107",
+    "e108"
+   ],
+   "board_class": "III",
+   "notes": "Joined as an independent director. Class III; elected 2019, re-elected 2022 and 2025 (term to 2028)."
+  },
+  {
+   "person_key": "stephen-jurvetson",
+   "start_date": "2009-06",
+   "start_date_precision": "month",
+   "start_date_basis": "2020 proxy bio 'a member of the Board since June 2009' (pre-IPO)",
+   "end_date": "2020-09-22",
+   "end_date_precision": "day",
+   "end_reason": "did_not_stand",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e123",
+    "e121",
+    "e122",
+    "e105",
+    "e106",
+    "e130",
+    "e131",
+    "e214",
+    "e203"
+   ],
+   "board_class": "I",
+   "notes": "On leave of absence from the Board November 2017 to April 2019. Agreed 2019-04-18 not to stand when his Class I term expired; term ended at the 2020-09-22 annual meeting."
+  },
+  {
+   "person_key": "antonio-gracias",
+   "start_date": "2007-05",
+   "start_date_precision": "month",
+   "start_date_basis": "2020 proxy bio 'a member of the Board since May 2007' (pre-IPO)",
+   "end_date": "2021-10-07",
+   "end_date_precision": "day",
+   "end_reason": "did_not_stand",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e124",
+    "e121",
+    "e142",
+    "e141",
+    "e105",
+    "e106",
+    "e147",
+    "e148",
+    "e213"
+   ],
+   "board_class": "II",
+   "notes": "Lead Independent Director September 2010 to April 2019. Agreed 2019-04-18 not to stand when his Class II term expired; term ended at the 2021-10-07 annual meeting."
+  },
+  {
+   "person_key": "lawrence-j-ellison",
+   "start_date": "2018-12-27",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02: appointed 'on and effective as of December 27, 2018' (blog exhibit and Form 3 agree)",
+   "end_date": "2022-08-04",
+   "end_date_precision": "day",
+   "end_reason": "did_not_stand",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e100",
+    "e101",
+    "e102",
+    "e153",
+    "e151",
+    "e157",
+    "e158",
+    "e146",
+    "e154"
+   ],
+   "board_class": "III",
+   "notes": "Joined as an independent director; no committee assignments in his proxies. Decided in June 2022 not to stand; Class III term ended at the 2022-08-04 annual meeting."
+  },
+  {
+   "person_key": "hiromichi-mizuno",
+   "start_date": "2020-04-23",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02: appointed 'on and effective as of April 23, 2020' (blog exhibit and Form 3 agree)",
+   "end_date": "2023-05-16",
+   "end_date_precision": "day",
+   "end_reason": "did_not_stand",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e110",
+    "e111",
+    "e112",
+    "e174",
+    "e132",
+    "e131",
+    "e171",
+    "e175",
+    "e176",
+    "e178"
+   ],
+   "board_class": "I",
+   "notes": "Joined as an independent director and Audit Committee member. Elected Class I in 2020; did not stand in 2023 (succeeded by JB Straubel); term ended at the 2023-05-16 annual meeting."
+  }
+ ],
+ "roles": [
+  {
+   "person_key": "robyn-denholm",
+   "role": "chair",
+   "start_date": "2018-11-07",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e095",
+    "e096",
+    "e021",
+    "e051",
+    "e012"
+   ],
+   "notes": "Independent Chair, appointed 'effective immediately' per the blog post dated 2018-11-07; still Chair as of the 2026-04-30 10-K/A. Tesla has had no lead independent director since April 2019."
+  },
+  {
+   "person_key": "robyn-denholm",
+   "role": "independent_director",
+   "start_date": "2014-08-11",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e097",
+    "e029",
+    "e050"
+   ],
+   "notes": "2018 blog: 'served on the Tesla Board as an independent director since 2014'."
+  },
+  {
+   "person_key": "elon-musk",
+   "role": "chair",
+   "start_date": "2004-04",
+   "end_date": "2018-11",
+   "precision": "month",
+   "end_precision": "month",
+   "confidence": "medium",
+   "evidence_refs": [
+    "e090",
+    "e095",
+    "e096"
+   ],
+   "notes": "Start stated in the 2018 proxy. No filing states the day he ceased being Chairman; Denholm was appointed Chair effective immediately per the 2018-11-07 blog post."
+  },
+  {
+   "person_key": "elon-musk",
+   "role": "ceo_director",
+   "start_date": "2008-10",
+   "end_date": null,
+   "precision": "month",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e020",
+    "e090",
+    "e210"
+   ],
+   "notes": "CEO since October 2008 (director since April 2004); title also 'Technoking of Tesla'."
+  },
+  {
+   "person_key": "elon-musk",
+   "role": "non_independent_director",
+   "start_date": "2004-04",
+   "end_date": null,
+   "precision": "month",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e029",
+    "e050",
+    "e128"
+   ],
+   "notes": "Excluded from independence as CEO in every proxy reviewed; span aligned to tenure."
+  },
+  {
+   "person_key": "kimbal-musk",
+   "role": "non_independent_director",
+   "start_date": "2004-04",
+   "end_date": null,
+   "precision": "month",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e029",
+    "e050",
+    "e128"
+   ],
+   "notes": "Excluded from independence as Elon Musk's brother in every proxy reviewed (2020-2025 and the 2026 10-K/A); span aligned to tenure."
+  },
+  {
+   "person_key": "ira-ehrenpreis",
+   "role": "independent_director",
+   "start_date": "2007-05",
+   "end_date": null,
+   "precision": "month",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e029",
+    "e050",
+    "e128"
+   ],
+   "notes": "Point-in-time determinations; span aligned to tenure (pre-IPO period not determined)."
+  },
+  {
+   "person_key": "joe-gebbia",
+   "role": "independent_director",
+   "start_date": "2022-09-25",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e162",
+    "e029",
+    "e050"
+   ]
+  },
+  {
+   "person_key": "jack-hartung",
+   "role": "independent_director",
+   "start_date": "2025-06-01",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e055",
+    "e029",
+    "e050"
+   ]
+  },
+  {
+   "person_key": "james-murdoch",
+   "role": "independent_director",
+   "start_date": "2017-07-13",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e029",
+    "e050",
+    "e128"
+   ],
+   "notes": "Point-in-time determinations; span aligned to tenure."
+  },
+  {
+   "person_key": "jb-straubel",
+   "role": "independent_director",
+   "start_date": "2023-05-16",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e173",
+    "e029",
+    "e050"
+   ],
+   "notes": "Former Tesla CTO (to July 2019); determined independent as a 2023 nominee and in later filings."
+  },
+  {
+   "person_key": "kathleen-wilson-thompson",
+   "role": "independent_director",
+   "start_date": "2018-12-27",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e100",
+    "e029",
+    "e050"
+   ]
+  },
+  {
+   "person_key": "stephen-jurvetson",
+   "role": "independent_director",
+   "start_date": "2009-06",
+   "end_date": "2020-09-22",
+   "precision": "month",
+   "end_precision": "day",
+   "confidence": "medium",
+   "evidence_refs": [
+    "e128",
+    "e125"
+   ],
+   "notes": "Independent per the 2020 proxy (his last); span aligned to tenure."
+  },
+  {
+   "person_key": "antonio-gracias",
+   "role": "independent_director",
+   "start_date": "2007-05",
+   "end_date": "2021-10-07",
+   "precision": "month",
+   "end_precision": "day",
+   "confidence": "medium",
+   "evidence_refs": [
+    "e128",
+    "e143"
+   ],
+   "notes": "Independent per the 2020 and 2021 proxies; span aligned to tenure."
+  },
+  {
+   "person_key": "antonio-gracias",
+   "role": "lead_independent_director",
+   "start_date": "2010-09",
+   "end_date": "2019-04",
+   "precision": "month",
+   "end_precision": "month",
+   "confidence": "high",
+   "evidence_refs": [
+    "e124",
+    "e091",
+    "e145"
+   ],
+   "notes": "Relinquished the role in April 2019 after a transition to Denholm as independent Chair."
+  },
+  {
+   "person_key": "lawrence-j-ellison",
+   "role": "independent_director",
+   "start_date": "2018-12-27",
+   "end_date": "2022-08-04",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e100",
+    "e101",
+    "e128"
+   ]
+  },
+  {
+   "person_key": "hiromichi-mizuno",
+   "role": "independent_director",
+   "start_date": "2020-04-23",
+   "end_date": "2023-05-16",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e111",
+    "e128",
+    "e173"
+   ]
+  }
+ ],
+ "committees": [
+  {
+   "person_key": "robyn-denholm",
+   "committee": "audit",
+   "role": "chair",
+   "as_of_filing": "0001104659-25-090866",
+   "as_of_date": "2025-09-17",
+   "evidence_refs": [
+    "e042",
+    "e053"
+   ]
+  },
+  {
+   "person_key": "robyn-denholm",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001104659-25-090866",
+   "as_of_date": "2025-09-17",
+   "evidence_refs": [
+    "e042",
+    "e054"
+   ]
+  },
+  {
+   "person_key": "robyn-denholm",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001104659-25-090866",
+   "as_of_date": "2025-09-17",
+   "evidence_refs": [
+    "e042"
+   ]
+  },
+  {
+   "person_key": "robyn-denholm",
+   "committee": "disclosure_controls",
+   "role": "chair",
+   "as_of_filing": "0001104659-25-090866",
+   "as_of_date": "2025-09-17",
+   "evidence_refs": [
+    "e042"
+   ]
+  },
+  {
+   "person_key": "robyn-denholm",
+   "committee": "special_committee",
+   "role": "member",
+   "as_of_filing": "0001104659-25-090866",
+   "as_of_date": "2025-09-17",
+   "evidence_refs": [
+    "e052",
+    "e075"
+   ],
+   "notes": "Special Committee formed 2025-01-08 on CEO retention/compensation; no chair designated."
+  },
+  {
+   "person_key": "ira-ehrenpreis",
+   "committee": "compensation",
+   "role": "chair",
+   "as_of_filing": "0001104659-25-090866",
+   "as_of_date": "2025-09-17",
+   "evidence_refs": [
+    "e043",
+    "e054"
+   ]
+  },
+  {
+   "person_key": "ira-ehrenpreis",
+   "committee": "nominating_governance",
+   "role": "chair",
+   "as_of_filing": "0001104659-25-090866",
+   "as_of_date": "2025-09-17",
+   "evidence_refs": [
+    "e043"
+   ]
+  },
+  {
+   "person_key": "joe-gebbia",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001104659-25-090866",
+   "as_of_date": "2025-09-17",
+   "evidence_refs": [
+    "e044",
+    "e053"
+   ]
+  },
+  {
+   "person_key": "jack-hartung",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001104659-25-090866",
+   "as_of_date": "2025-09-17",
+   "evidence_refs": [
+    "e045",
+    "e053"
+   ]
+  },
+  {
+   "person_key": "james-murdoch",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001104659-25-090866",
+   "as_of_date": "2025-09-17",
+   "evidence_refs": [
+    "e046",
+    "e053"
+   ]
+  },
+  {
+   "person_key": "james-murdoch",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001104659-25-090866",
+   "as_of_date": "2025-09-17",
+   "evidence_refs": [
+    "e046"
+   ]
+  },
+  {
+   "person_key": "james-murdoch",
+   "committee": "disclosure_controls",
+   "role": "member",
+   "as_of_filing": "0001104659-25-090866",
+   "as_of_date": "2025-09-17",
+   "evidence_refs": [
+    "e046"
+   ]
+  },
+  {
+   "person_key": "kathleen-wilson-thompson",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001104659-25-090866",
+   "as_of_date": "2025-09-17",
+   "evidence_refs": [
+    "e049",
+    "e054"
+   ]
+  },
+  {
+   "person_key": "kathleen-wilson-thompson",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001104659-25-090866",
+   "as_of_date": "2025-09-17",
+   "evidence_refs": [
+    "e049"
+   ]
+  },
+  {
+   "person_key": "kathleen-wilson-thompson",
+   "committee": "disclosure_controls",
+   "role": "member",
+   "as_of_filing": "0001104659-25-090866",
+   "as_of_date": "2025-09-17",
+   "evidence_refs": [
+    "e049"
+   ]
+  },
+  {
+   "person_key": "kathleen-wilson-thompson",
+   "committee": "special_committee",
+   "role": "member",
+   "as_of_filing": "0001104659-25-090866",
+   "as_of_date": "2025-09-17",
+   "evidence_refs": [
+    "e052",
+    "e075"
+   ],
+   "notes": "Special Committee formed 2025-01-08; no chair designated."
+  },
+  {
+   "person_key": "robyn-denholm",
+   "committee": "audit",
+   "role": "chair",
+   "as_of_filing": "0001104659-26-053166",
+   "as_of_date": "2026-04-30",
+   "evidence_refs": [
+    "e030",
+    "e012"
+   ]
+  },
+  {
+   "person_key": "robyn-denholm",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001104659-26-053166",
+   "as_of_date": "2026-04-30",
+   "evidence_refs": [
+    "e031",
+    "e012"
+   ]
+  },
+  {
+   "person_key": "robyn-denholm",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001104659-26-053166",
+   "as_of_date": "2026-04-30",
+   "evidence_refs": [
+    "e012",
+    "e033"
+   ],
+   "notes": "10-K/A board table marks membership only (column position); chair not designated in this filing"
+  },
+  {
+   "person_key": "robyn-denholm",
+   "committee": "disclosure_controls",
+   "role": "member",
+   "as_of_filing": "0001104659-26-053166",
+   "as_of_date": "2026-04-30",
+   "evidence_refs": [
+    "e012",
+    "e033"
+   ],
+   "notes": "10-K/A board table marks membership only (column position); chair not designated in this filing (2025 proxy: chair)"
+  },
+  {
+   "person_key": "robyn-denholm",
+   "committee": "special_committee",
+   "role": "member",
+   "as_of_filing": "0001104659-26-053166",
+   "as_of_date": "2026-04-30",
+   "evidence_refs": [
+    "e032"
+   ]
+  },
+  {
+   "person_key": "ira-ehrenpreis",
+   "committee": "compensation",
+   "role": "chair",
+   "as_of_filing": "0001104659-26-053166",
+   "as_of_date": "2026-04-30",
+   "evidence_refs": [
+    "e031",
+    "e013"
+   ]
+  },
+  {
+   "person_key": "ira-ehrenpreis",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001104659-26-053166",
+   "as_of_date": "2026-04-30",
+   "evidence_refs": [
+    "e013",
+    "e033"
+   ],
+   "notes": "10-K/A board table marks membership only (column position); chair not designated in this filing (2025 proxy: chair)"
+  },
+  {
+   "person_key": "joe-gebbia",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001104659-26-053166",
+   "as_of_date": "2026-04-30",
+   "evidence_refs": [
+    "e030",
+    "e014"
+   ]
+  },
+  {
+   "person_key": "jack-hartung",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001104659-26-053166",
+   "as_of_date": "2026-04-30",
+   "evidence_refs": [
+    "e030",
+    "e015"
+   ]
+  },
+  {
+   "person_key": "james-murdoch",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001104659-26-053166",
+   "as_of_date": "2026-04-30",
+   "evidence_refs": [
+    "e030",
+    "e016"
+   ]
+  },
+  {
+   "person_key": "james-murdoch",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001104659-26-053166",
+   "as_of_date": "2026-04-30",
+   "evidence_refs": [
+    "e016",
+    "e033"
+   ],
+   "notes": "10-K/A board table marks membership only (column position); chair not designated in this filing"
+  },
+  {
+   "person_key": "james-murdoch",
+   "committee": "disclosure_controls",
+   "role": "member",
+   "as_of_filing": "0001104659-26-053166",
+   "as_of_date": "2026-04-30",
+   "evidence_refs": [
+    "e016",
+    "e033"
+   ],
+   "notes": "10-K/A board table marks membership only (column position); chair not designated in this filing"
+  },
+  {
+   "person_key": "kathleen-wilson-thompson",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001104659-26-053166",
+   "as_of_date": "2026-04-30",
+   "evidence_refs": [
+    "e031",
+    "e019"
+   ]
+  },
+  {
+   "person_key": "kathleen-wilson-thompson",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001104659-26-053166",
+   "as_of_date": "2026-04-30",
+   "evidence_refs": [
+    "e019",
+    "e033"
+   ],
+   "notes": "10-K/A board table marks membership only (column position); chair not designated in this filing"
+  },
+  {
+   "person_key": "kathleen-wilson-thompson",
+   "committee": "disclosure_controls",
+   "role": "member",
+   "as_of_filing": "0001104659-26-053166",
+   "as_of_date": "2026-04-30",
+   "evidence_refs": [
+    "e019",
+    "e033"
+   ],
+   "notes": "10-K/A board table marks membership only (column position); chair not designated in this filing"
+  },
+  {
+   "person_key": "kathleen-wilson-thompson",
+   "committee": "special_committee",
+   "role": "member",
+   "as_of_filing": "0001104659-26-053166",
+   "as_of_date": "2026-04-30",
+   "evidence_refs": [
+    "e032"
+   ]
+  },
+  {
+   "person_key": "stephen-jurvetson",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001564590-20-027321",
+   "as_of_date": "2020-05-28",
+   "evidence_refs": [
+    "e125",
+    "e127"
+   ]
+  },
+  {
+   "person_key": "stephen-jurvetson",
+   "committee": "disclosure_controls",
+   "role": "member",
+   "as_of_filing": "0001564590-20-027321",
+   "as_of_date": "2020-05-28",
+   "evidence_refs": [
+    "e126",
+    "e127"
+   ]
+  },
+  {
+   "person_key": "antonio-gracias",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001564590-21-045926",
+   "as_of_date": "2021-08-26",
+   "evidence_refs": [
+    "e143",
+    "e144",
+    "e146"
+   ]
+  },
+  {
+   "person_key": "hiromichi-mizuno",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001193125-23-094075",
+   "as_of_date": "2023-04-06",
+   "evidence_refs": [
+    "e172"
+   ]
+  }
+ ],
+ "events": [
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "elon-musk",
+   "event_date": "2004-04",
+   "event_date_precision": "month",
+   "announced_date": null,
+   "evidence_refs": [
+    "e020",
+    "e041"
+   ],
+   "summary": "Elon Musk joins the board (pre-IPO; 'member of the Board since April 2004')."
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "kimbal-musk",
+   "event_date": "2004-04",
+   "event_date_precision": "month",
+   "announced_date": null,
+   "evidence_refs": [
+    "e026",
+    "e047"
+   ],
+   "summary": "Kimbal Musk joins the board (pre-IPO)."
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "ira-ehrenpreis",
+   "event_date": "2007-05",
+   "event_date_precision": "month",
+   "announced_date": null,
+   "evidence_refs": [
+    "e022",
+    "e043"
+   ],
+   "summary": "Ira Ehrenpreis joins the board (pre-IPO)."
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "antonio-gracias",
+   "event_date": "2007-05",
+   "event_date_precision": "month",
+   "announced_date": null,
+   "evidence_refs": [
+    "e124"
+   ],
+   "summary": "Antonio Gracias joins the board (pre-IPO)."
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "stephen-jurvetson",
+   "event_date": "2009-06",
+   "event_date_precision": "month",
+   "announced_date": null,
+   "evidence_refs": [
+    "e123"
+   ],
+   "summary": "Stephen Jurvetson joins the board (pre-IPO)."
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "robyn-denholm",
+   "event_date": "2014-08-11",
+   "event_date_precision": "day",
+   "announced_date": "2014-08-06",
+   "evidence_refs": [
+    "e080",
+    "e081"
+   ],
+   "summary": "Robyn Denholm elected 2014-08-04 as a Class I director, effective 2014-08-11; Audit chair, Compensation and NCG member.",
+   "decision_date": "2014-08-04"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "james-murdoch",
+   "event_date": "2017-07-13",
+   "event_date_precision": "day",
+   "announced_date": "2017-07-17",
+   "evidence_refs": [
+    "e085",
+    "e086"
+   ],
+   "summary": "James Murdoch appointed (with Linda Johnson Rice), effective 2017-07-13."
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "robyn-denholm",
+   "event_date": "2018-11-07",
+   "event_date_precision": "day",
+   "announced_date": "2018-11-07",
+   "evidence_refs": [
+    "e095",
+    "e096",
+    "e090"
+   ],
+   "summary": "Robyn Denholm appointed Chair of the Board effective immediately, succeeding Elon Musk as chair (Chairman since April 2004)."
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "kathleen-wilson-thompson",
+   "event_date": "2018-12-27",
+   "event_date_precision": "day",
+   "announced_date": "2018-12-28",
+   "evidence_refs": [
+    "e100",
+    "e101",
+    "e103"
+   ],
+   "summary": "Kathleen Wilson-Thompson appointed independent director effective 2018-12-27."
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "lawrence-j-ellison",
+   "event_date": "2018-12-27",
+   "event_date_precision": "day",
+   "announced_date": "2018-12-28",
+   "evidence_refs": [
+    "e100",
+    "e101",
+    "e102"
+   ],
+   "summary": "Larry Ellison appointed independent director effective 2018-12-27."
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "antonio-gracias",
+   "event_date": "2019-04",
+   "event_date_precision": "month",
+   "announced_date": null,
+   "evidence_refs": [
+    "e145",
+    "e124"
+   ],
+   "summary": "Antonio Gracias relinquishes the Lead Independent Director role; the Board determines a Lead Independent Director is not currently necessary."
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "hiromichi-mizuno",
+   "event_date": "2020-04-23",
+   "event_date_precision": "day",
+   "announced_date": "2020-04-23",
+   "evidence_refs": [
+    "e110",
+    "e111",
+    "e112"
+   ],
+   "summary": "Hiromichi Mizuno appointed director and Audit Committee member effective 2020-04-23."
+  },
+  {
+   "type": "BOARD_SIZE_CHANGE",
+   "person_key": null,
+   "event_date": "2020-04-23",
+   "event_date_precision": "day",
+   "announced_date": null,
+   "evidence_refs": [
+    "e110",
+    "e120"
+   ],
+   "summary": "Authorized directors increased from nine to ten for Mizuno's appointment.",
+   "from_size": 9,
+   "to_size": 10
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "stephen-jurvetson",
+   "event_date": "2020-09-22",
+   "event_date_precision": "day",
+   "announced_date": "2019-04-19",
+   "evidence_refs": [
+    "e105",
+    "e106",
+    "e121",
+    "e130",
+    "e131"
+   ],
+   "summary": "Stephen Jurvetson leaves at the 2020 annual meeting (did not stand; agreed 2019-04-18)."
+  },
+  {
+   "type": "BOARD_SIZE_CHANGE",
+   "person_key": null,
+   "event_date": "2020-09-22",
+   "event_date_precision": "day",
+   "announced_date": null,
+   "evidence_refs": [
+    "e120",
+    "e122",
+    "e140"
+   ],
+   "summary": "Seats reduced from ten to nine on the expiration of Jurvetson's term, as planned in the 2020 proxy; the 2021 proxy confirms nine authorized. The resolution date itself is not disclosed.",
+   "from_size": 10,
+   "to_size": 9
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "antonio-gracias",
+   "event_date": "2021-10-07",
+   "event_date_precision": "day",
+   "announced_date": "2019-04-19",
+   "evidence_refs": [
+    "e105",
+    "e106",
+    "e142",
+    "e147",
+    "e148"
+   ],
+   "summary": "Antonio Gracias leaves at the 2021 annual meeting (did not stand; agreed 2019-04-18)."
+  },
+  {
+   "type": "BOARD_SIZE_CHANGE",
+   "person_key": null,
+   "event_date": "2021-10-07",
+   "event_date_precision": "day",
+   "announced_date": null,
+   "evidence_refs": [
+    "e141",
+    "e150"
+   ],
+   "summary": "Seats reduced from nine to eight on the expiration of Gracias's term, as planned in the 2021 proxy; the 2022 proxy confirms eight authorized. The resolution date itself is not disclosed.",
+   "from_size": 9,
+   "to_size": 8
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "lawrence-j-ellison",
+   "event_date": "2022-08-04",
+   "event_date_precision": "day",
+   "announced_date": "2022-06-23",
+   "evidence_refs": [
+    "e151",
+    "e157",
+    "e158"
+   ],
+   "summary": "Larry Ellison leaves at the 2022 annual meeting (decided in June 2022 not to stand)."
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "joe-gebbia",
+   "event_date": "2022-09-25",
+   "event_date_precision": "day",
+   "announced_date": "2022-09-28",
+   "evidence_refs": [
+    "e160",
+    "e162",
+    "e163"
+   ],
+   "summary": "Joe Gebbia appointed independent director effective 2022-09-25."
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "hiromichi-mizuno",
+   "event_date": "2023-05-16",
+   "event_date_precision": "day",
+   "announced_date": "2023-04-06",
+   "evidence_refs": [
+    "e171",
+    "e175",
+    "e176"
+   ],
+   "summary": "Hiromichi Mizuno leaves at the 2023 annual meeting (did not stand)."
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "jb-straubel",
+   "event_date": "2023-05-16",
+   "event_date_precision": "day",
+   "announced_date": null,
+   "evidence_refs": [
+    "e171",
+    "e175",
+    "e176",
+    "e177"
+   ],
+   "summary": "JB Straubel elected a Class I director at the 2023 annual meeting, succeeding Mizuno."
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "jack-hartung",
+   "event_date": "2025-06-01",
+   "event_date_precision": "day",
+   "announced_date": "2025-05-16",
+   "evidence_refs": [
+    "e070",
+    "e071",
+    "e072"
+   ],
+   "summary": "Jack Hartung appointed 2025-05-15 to the Board and Audit Committee, effective 2025-06-01.",
+   "decision_date": "2025-05-15"
+  }
+ ],
+ "evidence": [
+  {
+   "id": "e001",
+   "form": "10-K",
+   "accession": "0001628280-26-003952",
+   "filing_date": "2026-01-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+   "quote": "Our common stock has traded on The NASDAQ Global Select Market under the symbol “TSLA” since it began trading on June 29, 2010. Our initial public offering was priced at approximately $1.13 per share on June 28, 2010",
+   "supports": "Exchange (Nasdaq Global Select Market); IPO priced 2010-06-28; first trading day 2010-06-29."
+  },
+  {
+   "id": "e002",
+   "form": "10-Q",
+   "accession": "0001628280-24-032662",
+   "filing_date": "2024-07-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828024032662/tsla-20240630.htm",
+   "quote": "was incorporated in the State of Delaware on July 1, 2003 and converted to a Texas corporation on June 13, 2024.",
+   "supports": "Original Delaware incorporation (2003-07-01) and conversion to a Texas corporation effective 2024-06-13."
+  },
+  {
+   "id": "e003",
+   "form": "8-K",
+   "accession": "0001104659-24-071439",
+   "filing_date": "2024-06-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465924071439/tm2413800d31_8k.htm",
+   "quote": "Proposal 3 was a management proposal to approve the redomestication of Tesla from Delaware to Texas by conversion. This proposal was approved.",
+   "supports": "Shareholders approved the Delaware-to-Texas redomestication at the 2024-06-13 annual meeting."
+  },
+  {
+   "id": "e004",
+   "form": "DEF 14A",
+   "accession": "0001104659-25-090866",
+   "filing_date": "2025-09-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465925090866/tm252289-12_def14a.htm",
+   "quote": "Tesla’s Board currently consists of nine members who are divided into three classes with staggered three-year terms. Our bylaws permit the Board to establish by resolution the authorized number of directors, and nine directors are currently authorized.",
+   "supports": "Board size nine (as of 2025-09-17); classified board with staggered three-year terms."
+  },
+  {
+   "id": "e005",
+   "form": "8-K",
+   "accession": "0001104659-25-108507",
+   "filing_date": "2025-11-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465925108507/tm2530590d1_8k.htm",
+   "quote": "Proposal 12 was a shareholder proposal to elect each director annually. This proposal was approved.",
+   "supports": "2025 annual meeting approved a (precatory) shareholder proposal for annual director elections; board still classified per 10-K/A of 2026-04-30."
+  },
+  {
+   "id": "e010",
+   "form": "10-K/A",
+   "accession": "0001104659-26-053166",
+   "filing_date": "2026-04-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926053166/tm2611837d1_10ka.htm",
+   "quote": "The names of the members of Tesla’s Board of Directors (the “Board”), their respective ages, their positions with Tesla and other biographical information as of April 30, 2026, are set forth below.",
+   "supports": "Latest Part III roster: the nine directors listed are the Board as of 2026-04-30."
+  },
+  {
+   "id": "e011",
+   "form": "10-K/A",
+   "accession": "0001104659-26-053166",
+   "filing_date": "2026-04-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926053166/tm2611837d1_10ka.htm",
+   "quote": "Elon Musk 54 Expires in 2026",
+   "supports": "Elon Musk: no committees; term expires 2026 (Class I).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e012",
+   "form": "10-K/A",
+   "accession": "0001104659-26-053166",
+   "filing_date": "2026-04-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926053166/tm2611837d1_10ka.htm",
+   "quote": "Robyn Denholm 62 X X X X X Expires in 2026",
+   "supports": "Robyn Denholm: Chair of the Board and member of Audit, Compensation, Nominating and Corporate Governance, and Disclosure Controls committees; term expires 2026.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e013",
+   "form": "10-K/A",
+   "accession": "0001104659-26-053166",
+   "filing_date": "2026-04-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926053166/tm2611837d1_10ka.htm",
+   "quote": "Ira Ehrenpreis 57 X X Expires in 2028",
+   "supports": "Ira Ehrenpreis: Compensation and Nominating and Corporate Governance committees (column positions in table); term expires 2028.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e014",
+   "form": "10-K/A",
+   "accession": "0001104659-26-053166",
+   "filing_date": "2026-04-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926053166/tm2611837d1_10ka.htm",
+   "quote": "Joe Gebbia 44 X Expires in 2028",
+   "supports": "Joe Gebbia: Audit Committee (column position); term expires 2028.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e015",
+   "form": "10-K/A",
+   "accession": "0001104659-26-053166",
+   "filing_date": "2026-04-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926053166/tm2611837d1_10ka.htm",
+   "quote": "Jack Hartung 68 X Expires in 2027",
+   "supports": "Jack Hartung: Audit Committee (column position); term expires 2027.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e016",
+   "form": "10-K/A",
+   "accession": "0001104659-26-053166",
+   "filing_date": "2026-04-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926053166/tm2611837d1_10ka.htm",
+   "quote": "James Murdoch 53 X X X Expires in 2027",
+   "supports": "James Murdoch: Audit, Nominating and Corporate Governance, Disclosure Controls (column positions); term expires 2027.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e017",
+   "form": "10-K/A",
+   "accession": "0001104659-26-053166",
+   "filing_date": "2026-04-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926053166/tm2611837d1_10ka.htm",
+   "quote": "Kimbal Musk 53 Expires in 2027",
+   "supports": "Kimbal Musk: no committees; term expires 2027.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e018",
+   "form": "10-K/A",
+   "accession": "0001104659-26-053166",
+   "filing_date": "2026-04-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926053166/tm2611837d1_10ka.htm",
+   "quote": "JB Straubel 50 Expires in 2026",
+   "supports": "JB Straubel: no committees; term expires 2026.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e019",
+   "form": "10-K/A",
+   "accession": "0001104659-26-053166",
+   "filing_date": "2026-04-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926053166/tm2611837d1_10ka.htm",
+   "quote": "Kathleen Wilson-Thompson 68 X X X Expires in 2028",
+   "supports": "Kathleen Wilson-Thompson: Compensation, Nominating and Corporate Governance, Disclosure Controls (column positions); term expires 2028.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e020",
+   "form": "10-K/A",
+   "accession": "0001104659-26-053166",
+   "filing_date": "2026-04-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926053166/tm2611837d1_10ka.htm",
+   "quote": "Elon Musk is the Technoking of Tesla and has served as our Chief Executive Officer since October 2008 and as a member of the Board since April 2004.",
+   "supports": "Elon Musk: director since April 2004; CEO since October 2008."
+  },
+  {
+   "id": "e021",
+   "form": "10-K/A",
+   "accession": "0001104659-26-053166",
+   "filing_date": "2026-04-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926053166/tm2611837d1_10ka.htm",
+   "quote": "Robyn Denholm has been a member of the Board since August 2014 and its Chair since November 2018.",
+   "supports": "Robyn Denholm: director since August 2014; Chair since November 2018."
+  },
+  {
+   "id": "e022",
+   "form": "10-K/A",
+   "accession": "0001104659-26-053166",
+   "filing_date": "2026-04-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926053166/tm2611837d1_10ka.htm",
+   "quote": "Ira Ehrenpreis has been a member of the Board since May 2007.",
+   "supports": "Ira Ehrenpreis: director since May 2007 (pre-IPO)."
+  },
+  {
+   "id": "e023",
+   "form": "10-K/A",
+   "accession": "0001104659-26-053166",
+   "filing_date": "2026-04-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926053166/tm2611837d1_10ka.htm",
+   "quote": "Joe Gebbia has been a member of the Board since September 2022.",
+   "supports": "Joe Gebbia: director since September 2022."
+  },
+  {
+   "id": "e024",
+   "form": "10-K/A",
+   "accession": "0001104659-26-053166",
+   "filing_date": "2026-04-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926053166/tm2611837d1_10ka.htm",
+   "quote": "Jack Hartung has been a member of the Board since June 2025.",
+   "supports": "Jack Hartung: director since June 2025."
+  },
+  {
+   "id": "e025",
+   "form": "10-K/A",
+   "accession": "0001104659-26-053166",
+   "filing_date": "2026-04-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926053166/tm2611837d1_10ka.htm",
+   "quote": "James Murdoch has been a member of the Board since July 2017.",
+   "supports": "James Murdoch: director since July 2017."
+  },
+  {
+   "id": "e026",
+   "form": "10-K/A",
+   "accession": "0001104659-26-053166",
+   "filing_date": "2026-04-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926053166/tm2611837d1_10ka.htm",
+   "quote": "Kimbal Musk has been a member of the Board since April 2004.",
+   "supports": "Kimbal Musk: director since April 2004 (pre-IPO)."
+  },
+  {
+   "id": "e027",
+   "form": "10-K/A",
+   "accession": "0001104659-26-053166",
+   "filing_date": "2026-04-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926053166/tm2611837d1_10ka.htm",
+   "quote": "JB Straubel has been a member of the Board since May 2023.",
+   "supports": "JB Straubel: director since May 2023."
+  },
+  {
+   "id": "e028",
+   "form": "10-K/A",
+   "accession": "0001104659-26-053166",
+   "filing_date": "2026-04-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926053166/tm2611837d1_10ka.htm",
+   "quote": "Kathleen Wilson-Thompson has been a member of the Board since December 2018.",
+   "supports": "Kathleen Wilson-Thompson: director since December 2018."
+  },
+  {
+   "id": "e029",
+   "form": "10-K/A",
+   "accession": "0001104659-26-053166",
+   "filing_date": "2026-04-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926053166/tm2611837d1_10ka.htm",
+   "quote": "The Board determined that with respect to each of its current members and director nominees, other than Elon Musk, who is our Chief Executive Officer, and Kimbal Musk, who is Elon Musk’s brother, there are no disqualifying factors with respect to director independence",
+   "supports": "Independence as of 2026-04-30: every director except Elon Musk (CEO) and Kimbal Musk (his brother) is independent."
+  },
+  {
+   "id": "e030",
+   "form": "10-K/A",
+   "accession": "0001104659-26-053166",
+   "filing_date": "2026-04-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926053166/tm2611837d1_10ka.htm",
+   "quote": "currently consists of Robyn Denholm, Joe Gebbia, Jack Hartung and James Murdoch, each of whom is “independent” as such term is defined for audit committee members by the listing standards of The Nasdaq Stock Market LLC (“Nasdaq”). Ms. Denholm is the chair of the Audit Committee.",
+   "supports": "Audit Committee as of 2026-04-30: Denholm (chair), Gebbia, Hartung, Murdoch."
+  },
+  {
+   "id": "e031",
+   "form": "10-K/A",
+   "accession": "0001104659-26-053166",
+   "filing_date": "2026-04-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926053166/tm2611837d1_10ka.htm",
+   "quote": "Currently, the Compensation Committee consists of three members of the Board: Ira Ehrenpreis (Chair), Robyn Denholm and Kathleen Wilson-Thompson",
+   "supports": "Compensation Committee as of 2026-04-30: Ehrenpreis (chair), Denholm, Wilson-Thompson."
+  },
+  {
+   "id": "e032",
+   "form": "10-K/A",
+   "accession": "0001104659-26-053166",
+   "filing_date": "2026-04-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926053166/tm2611837d1_10ka.htm",
+   "quote": "form a special committee, consisting of Ms. Denholm and Ms. Wilson-Thompson in their capacity as disinterested directors (the “Special Committee”)",
+   "supports": "Special Committee (formed 2025) of Denholm and Wilson-Thompson."
+  },
+  {
+   "id": "e033",
+   "form": "10-K/A",
+   "accession": "0001104659-26-053166",
+   "filing_date": "2026-04-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926053166/tm2611837d1_10ka.htm",
+   "quote": "The Board has four standing committees comprised solely of independent directors—the Audit Committee, the Compensation Committee, the Nominating and Corporate Governance Committee and the Disclosure Controls Committee.",
+   "supports": "Four standing committees, all independent directors; column headers of the board table."
+  },
+  {
+   "id": "e040",
+   "form": "DEF 14A",
+   "accession": "0001104659-25-090866",
+   "filing_date": "2025-09-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465925090866/tm252289-12_def14a.htm",
+   "quote": "Class I Directors Class II Directors Class III Directors Robyn Denholm (Chair) James Murdoch Ira Ehrenpreis JB Straubel Kimbal Musk Joe Gebbia Elon Musk Jack Hartung Kathleen Wilson-Thompson",
+   "supports": "Class chart: Class I = Denholm (Chair), Straubel, Elon Musk; Class II = Murdoch, Kimbal Musk, Hartung; Class III = Ehrenpreis, Gebbia, Wilson-Thompson.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e041",
+   "form": "DEF 14A",
+   "accession": "0001104659-25-090866",
+   "filing_date": "2025-09-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465925090866/tm252289-12_def14a.htm",
+   "quote": "ELON MUSK Age: 54 Director Since: 2004 Term of Office: Expires in 2026",
+   "supports": "Elon Musk: Director Since 2004; term to 2026; no committee membership listed."
+  },
+  {
+   "id": "e042",
+   "form": "DEF 14A",
+   "accession": "0001104659-25-090866",
+   "filing_date": "2025-09-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465925090866/tm252289-12_def14a.htm",
+   "quote": "ROBYN DENHOLM Age: 62 Director Since: 2014 Term of Office: Expires in 2026 Committee Membership • Audit (Chair) • Compensation • Nominating and Corporate Governance • Disclosure Controls (Chair)",
+   "supports": "Denholm committees per latest proxy: Audit (Chair), Compensation, NCG, Disclosure Controls (Chair)."
+  },
+  {
+   "id": "e043",
+   "form": "DEF 14A",
+   "accession": "0001104659-25-090866",
+   "filing_date": "2025-09-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465925090866/tm252289-12_def14a.htm",
+   "quote": "IRA EHRENPREIS Age: 56 Director Since: 2007 Term of Office: Expires in 2025 Committee Membership • Compensation (Chair) • Nominating and Corporate Governance (Chair)",
+   "supports": "Ehrenpreis committees per latest proxy: Compensation (Chair), NCG (Chair)."
+  },
+  {
+   "id": "e044",
+   "form": "DEF 14A",
+   "accession": "0001104659-25-090866",
+   "filing_date": "2025-09-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465925090866/tm252289-12_def14a.htm",
+   "quote": "JOE GEBBIA Age: 44 Director Since: 2022 Term of Office: Expires in 2025 Committee Membership • Audit",
+   "supports": "Gebbia committees per latest proxy: Audit."
+  },
+  {
+   "id": "e045",
+   "form": "DEF 14A",
+   "accession": "0001104659-25-090866",
+   "filing_date": "2025-09-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465925090866/tm252289-12_def14a.htm",
+   "quote": "JACK HARTUNG Age: 68 Director Since: 2025 Term of Office: Expires in 2027 Committee Membership • Audit",
+   "supports": "Hartung committees per latest proxy: Audit; Class II term to 2027."
+  },
+  {
+   "id": "e046",
+   "form": "DEF 14A",
+   "accession": "0001104659-25-090866",
+   "filing_date": "2025-09-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465925090866/tm252289-12_def14a.htm",
+   "quote": "JAMES MURDOCH Age: 52 Director Since: 2017 Term of Office: Expires in 2027 Committee Membership • Audit • Nominating and Corporate Governance • Disclosure Controls",
+   "supports": "Murdoch committees per latest proxy: Audit, NCG, Disclosure Controls."
+  },
+  {
+   "id": "e047",
+   "form": "DEF 14A",
+   "accession": "0001104659-25-090866",
+   "filing_date": "2025-09-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465925090866/tm252289-12_def14a.htm",
+   "quote": "KIMBAL MUSK Age: 52 Director Since: 2004 Term of Office: Expires in 2027",
+   "supports": "Kimbal Musk: Director Since 2004; term to 2027; no committee membership listed."
+  },
+  {
+   "id": "e048",
+   "form": "DEF 14A",
+   "accession": "0001104659-25-090866",
+   "filing_date": "2025-09-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465925090866/tm252289-12_def14a.htm",
+   "quote": "JB STRAUBEL Age: 49 Director Since: 2023 Term of Office: Expires in 2026",
+   "supports": "Straubel: Director Since 2023; term to 2026; no committee membership listed."
+  },
+  {
+   "id": "e049",
+   "form": "DEF 14A",
+   "accession": "0001104659-25-090866",
+   "filing_date": "2025-09-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465925090866/tm252289-12_def14a.htm",
+   "quote": "KATHLEEN WILSON-THOMPSON Age: 68 Director Since: 2018 Term of Office: Expires in 2025 Committee Membership • Compensation • Nominating and Corporate Governance • Disclosure Controls",
+   "supports": "Wilson-Thompson committees per latest proxy: Compensation, NCG, Disclosure Controls."
+  },
+  {
+   "id": "e050",
+   "form": "DEF 14A",
+   "accession": "0001104659-25-090866",
+   "filing_date": "2025-09-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465925090866/tm252289-12_def14a.htm",
+   "quote": "The Board determined that with respect to each of its current members and director nominees, other than Mr. Musk, who is our Chief Executive Officer, and Mr. Kimbal Musk, who is Mr. Musk’s brother, there are no disqualifying factors with respect to director independence",
+   "supports": "Independence per latest proxy: all but Elon Musk and Kimbal Musk are independent."
+  },
+  {
+   "id": "e051",
+   "form": "DEF 14A",
+   "accession": "0001104659-25-090866",
+   "filing_date": "2025-09-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465925090866/tm252289-12_def14a.htm",
+   "quote": "Following careful deliberation, the Board appointed Robyn Denholm to serve as the independent Chair of the Board in November 2018",
+   "supports": "Denholm is the independent Chair since November 2018; no lead independent director role (independent chair structure)."
+  },
+  {
+   "id": "e052",
+   "form": "DEF 14A",
+   "accession": "0001104659-25-090866",
+   "filing_date": "2025-09-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465925090866/tm252289-12_def14a.htm",
+   "quote": "On January 8, 2025, the Board formed the Special Committee, composed of Robyn Denholm and Kathleen Wilson-Thompson, to evaluate incentivization and retention of our Chief Executive Officer.",
+   "supports": "Special Committee formed 2025-01-08: Denholm and Wilson-Thompson."
+  },
+  {
+   "id": "e053",
+   "form": "DEF 14A",
+   "accession": "0001104659-25-090866",
+   "filing_date": "2025-09-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465925090866/tm252289-12_def14a.htm",
+   "quote": "Our Audit Committee is composed of four directors: Robyn Denholm (Chair), Joe Gebbia, Jack Hartung and James Murdoch.",
+   "supports": "Audit Committee per latest proxy: Denholm (Chair), Gebbia, Hartung, Murdoch."
+  },
+  {
+   "id": "e054",
+   "form": "DEF 14A",
+   "accession": "0001104659-25-090866",
+   "filing_date": "2025-09-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465925090866/tm252289-12_def14a.htm",
+   "quote": "Currently, the Compensation Committee consists of three members of the Board: Ira Ehrenpreis (Chair), Robyn Denholm and Kathleen Wilson-Thompson",
+   "supports": "Compensation Committee per latest proxy: Ehrenpreis (Chair), Denholm, Wilson-Thompson."
+  },
+  {
+   "id": "e055",
+   "form": "DEF 14A",
+   "accession": "0001104659-25-090866",
+   "filing_date": "2025-09-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465925090866/tm252289-12_def14a.htm",
+   "quote": "the addition of a new independent director and Audit Committee member, Jack Hartung",
+   "supports": "Hartung added as an independent director and Audit Committee member in 2025."
+  },
+  {
+   "id": "e056",
+   "form": "DEF 14A",
+   "accession": "0001104659-25-090866",
+   "filing_date": "2025-09-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465925090866/tm252289-12_def14a.htm",
+   "quote": "Upon recommendation of the Nominating and Corporate Governance Committee, the Board has nominated Ira Ehrenpreis, Joe Gebbia and Kathleen Wilson-Thompson for election as Class III directors.",
+   "supports": "Class III nominees for the 2025 annual meeting."
+  },
+  {
+   "id": "e060",
+   "form": "8-K",
+   "accession": "0001104659-25-108507",
+   "filing_date": "2025-11-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465925108507/tm2530590d1_8k.htm",
+   "quote": "The individuals listed below were elected as Class III directors at the Annual Meeting to serve on the Board for a term of three years or until their respective successors are duly elected and qualified.",
+   "supports": "2025-11-06 annual meeting: Class III directors re-elected (Ehrenpreis, Gebbia, Wilson-Thompson) to terms ending 2028."
+  },
+  {
+   "id": "e061",
+   "form": "8-K",
+   "accession": "0001104659-25-108507",
+   "filing_date": "2025-11-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465925108507/tm2530590d1_8k.htm",
+   "quote": "At the Annual Meeting held on November 6, 2025, Tesla’s shareholders voted on the following 14 proposals",
+   "supports": "2025 annual meeting date: 2025-11-06."
+  },
+  {
+   "id": "e062",
+   "form": "8-K",
+   "accession": "0001104659-25-108507",
+   "filing_date": "2025-11-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465925108507/tm2530590d1_8k.htm",
+   "quote": "Ira Ehrenpreis 1,594,744,259 858,829,029 15,831,288 302,456,274 Joe Gebbia 2,141,079,061 310,503,173 17,822,342 302,456,274 Kathleen Wilson-Thompson 1,924,321,801 529,031,020 16,051,755 302,456,274",
+   "supports": "Vote results for the three Class III directors elected 2025-11-06.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e070",
+   "form": "8-K",
+   "accession": "0001628280-25-026148",
+   "filing_date": "2025-05-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025026148/tsla-20250515.htm",
+   "quote": "On May 15, 2025, John R. (Jack) Hartung was appointed to serve as a member of the Board of Directors (the “Board”) of Tesla, Inc. (“Tesla”), as well as a member of the Audit Committee of the Board, effective as of June 1, 2025.",
+   "supports": "Hartung appointed 2025-05-15, effective 2025-06-01, to the Board and Audit Committee."
+  },
+  {
+   "id": "e071",
+   "form": "8-K",
+   "accession": "0001628280-25-026148",
+   "filing_date": "2025-05-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025026148/exhibit9912.htm",
+   "quote": "We are pleased to welcome Jack Hartung to Tesla’s Board of Directors, effective June 1, 2025.",
+   "supports": "Press exhibit (X post) confirms Hartung's effective date 2025-06-01."
+  },
+  {
+   "id": "e072",
+   "form": "3",
+   "accession": "0001771340-25-000012",
+   "filing_date": "2025-06-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000177134025000012/edgardoc.xml",
+   "quote": "Hartung Jack",
+   "supports": "Hartung reporting-owner CIK; Form 3 date of event 2025-06-04 (differs from 8-K effective date 2025-06-01).",
+   "xml_fields": {
+    "rptOwnerCik": "0001350874",
+    "rptOwnerName": "Hartung Jack",
+    "periodOfReport": "2025-06-04"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e075",
+   "form": "8-K",
+   "accession": "0001104659-25-073263",
+   "filing_date": "2025-08-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465925073263/tm2522385d1_8k.htm",
+   "quote": "The Special Committee is comprised of disinterested directors Robyn Denholm and Kathleen Wilson-Thompson.",
+   "supports": "Special Committee composition (8-K of 2025-08-04)."
+  },
+  {
+   "id": "e080",
+   "form": "8-K",
+   "accession": "0001193125-14-297582",
+   "filing_date": "2014-08-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000119312514297582/d772149d8k.htm",
+   "quote": "On August 4, 2014, the Board of Directors of Tesla Motors, Inc. (the “Company”) increased the number of directors of the Company from 6 to 7 and elected Ms. Robyn Denholm to serve as a Class I director of the Company, effective as of August 11, 2014.",
+   "supports": "Denholm elected 2014-08-04 as Class I director effective 2014-08-11; board size 6 -> 7."
+  },
+  {
+   "id": "e081",
+   "form": "3",
+   "accession": "0001494729-14-000002",
+   "filing_date": "2014-08-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000149472914000002/edgardoc.xml",
+   "quote": "DENHOLM ROBYN M",
+   "supports": "Denholm reporting-owner CIK; Form 3 date of event 2014-08-11 (matches 8-K effective date).",
+   "xml_fields": {
+    "rptOwnerCik": "0001242782",
+    "rptOwnerName": "DENHOLM ROBYN M",
+    "periodOfReport": "2014-08-11"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e085",
+   "form": "8-K",
+   "accession": "0001564590-17-013548",
+   "filing_date": "2017-07-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459017013548/tsla-8k_20170717.htm",
+   "quote": "On and effective as of July 13, 2017, the Board of Directors of Tesla, Inc. (the “Company”) increased the number of directors of the Company from seven to nine and appointed Linda Johnson Rice and James Murdoch to serve as directors of the Company.",
+   "supports": "Murdoch appointed effective 2017-07-13; board size 7 -> 9."
+  },
+  {
+   "id": "e086",
+   "form": "3",
+   "accession": "0001352816-17-000003",
+   "filing_date": "2017-07-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000135281617000003/edgardoc.xml",
+   "quote": "MURDOCH JAMES R",
+   "supports": "Murdoch reporting-owner CIK; Form 3 date of event 2017-07-17 (8-K gives 2017-07-13).",
+   "xml_fields": {
+    "rptOwnerCik": "0001420590",
+    "rptOwnerName": "MURDOCH JAMES R",
+    "periodOfReport": "2017-07-17"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e090",
+   "form": "DEF 14A",
+   "accession": "0001564590-18-009339",
+   "filing_date": "2018-04-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459018009339/tsla-def14a_20180606.htm",
+   "quote": "Elon Musk has served as our Chief Executive Officer since October 2008 and as Chairman of our Board since April 2004.",
+   "supports": "Elon Musk was Chairman of the Board from April 2004 (as of the 2018 proxy)."
+  },
+  {
+   "id": "e091",
+   "form": "DEF 14A",
+   "accession": "0001564590-18-009339",
+   "filing_date": "2018-04-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459018009339/tsla-def14a_20180606.htm",
+   "quote": "Antonio Gracias has been a member of our Board since May 2007 and has served as our Lead Independent Director since September 2010.",
+   "supports": "Gracias: Lead Independent Director since September 2010."
+  },
+  {
+   "id": "e095",
+   "form": "8-K",
+   "accession": "0001564590-18-028241",
+   "filing_date": "2018-11-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459018028241/tsla-8k_20181107.htm",
+   "quote": "On November 7, 2018, Tesla, Inc. published on its website the blog post which is attached hereto as Exhibit 99.1",
+   "supports": "Date of the blog post announcing Denholm as Chair: 2018-11-07."
+  },
+  {
+   "id": "e096",
+   "form": "8-K",
+   "accession": "0001564590-18-028241",
+   "filing_date": "2018-11-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459018028241/tsla-ex991_6.htm",
+   "quote": "Tesla’s Board of Directors is pleased to announce that Robyn Denholm has been appointed as Chair of the Tesla Board, effective immediately.",
+   "supports": "Denholm appointed Chair effective immediately (blog dated 2018-11-07)."
+  },
+  {
+   "id": "e097",
+   "form": "8-K",
+   "accession": "0001564590-18-028241",
+   "filing_date": "2018-11-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459018028241/tsla-ex991_6.htm",
+   "quote": "Robyn has served on the Tesla Board as an independent director since 2014.",
+   "supports": "Denholm independent since joining in 2014."
+  },
+  {
+   "id": "e100",
+   "form": "8-K",
+   "accession": "0001564590-18-031477",
+   "filing_date": "2018-12-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459018031477/tsla-8k_20181227.htm",
+   "quote": "On and effective as of December 27, 2018, the Board of Directors of Tesla increased the number of directors of Tesla from nine to eleven and appointed Larry Ellison and Kathleen Wilson-Thompson to serve as independent directors of Tesla.",
+   "supports": "Ellison and Wilson-Thompson appointed independent directors effective 2018-12-27; board size 9 -> 11."
+  },
+  {
+   "id": "e101",
+   "form": "8-K",
+   "accession": "0001564590-18-031477",
+   "filing_date": "2018-12-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459018031477/tsla-ex99_6.htm",
+   "quote": "Each joined the board as an independent director, effective December 27th, 2018.",
+   "supports": "Blog exhibit confirms 2018-12-27 effective date."
+  },
+  {
+   "id": "e102",
+   "form": "3",
+   "accession": "0001494732-19-000002",
+   "filing_date": "2019-01-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000149473219000002/edgardoc.xml",
+   "quote": "ELLISON LAWRENCE JOSEPH",
+   "supports": "Ellison reporting-owner CIK; Form 3 date of event 2018-12-27.",
+   "xml_fields": {
+    "rptOwnerCik": "0000901999",
+    "rptOwnerName": "ELLISON LAWRENCE JOSEPH",
+    "periodOfReport": "2018-12-27"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e103",
+   "form": "3",
+   "accession": "0001494732-19-000001",
+   "filing_date": "2019-01-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000149473219000001/edgardoc.xml",
+   "quote": "Wilson-Thompson Kathleen",
+   "supports": "Wilson-Thompson reporting-owner CIK; Form 3 date of event 2018-12-27.",
+   "xml_fields": {
+    "rptOwnerCik": "0001331680",
+    "rptOwnerName": "Wilson-Thompson Kathleen",
+    "periodOfReport": "2018-12-27"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e105",
+   "form": "8-K",
+   "accession": "0001564590-19-012122",
+   "filing_date": "2019-04-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459019012122/tsla-8k_20190418.htm",
+   "quote": "each of Brad Buss, Antonio Gracias, Stephen Jurvetson, and Linda Johnson Rice agreed collectively with the Board and its Nominating and Corporate Governance Committee that each of them will not stand for re-election to the Board at the expiration of their respective current terms",
+   "supports": "2019-04-18 agreement: Gracias and Jurvetson will not stand for re-election when their terms expire."
+  },
+  {
+   "id": "e106",
+   "form": "8-K",
+   "accession": "0001564590-19-012122",
+   "filing_date": "2019-04-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459019012122/tsla-8k_20190418.htm",
+   "quote": "at the 2020 annual meeting of stockholders for Mr. Jurvetson and, if our stockholders approve a director term reduction proposal as described in the Preliminary Proxy Statement, for Mr. Gracias. If our stockholders do not approve such proposal, Mr. Gracias’ term will end at the 2021 annual meeting of stockholders.",
+   "supports": "Jurvetson's term ends at the 2020 annual meeting; Gracias's at 2021 absent a term-reduction amendment."
+  },
+  {
+   "id": "e107",
+   "form": "8-K",
+   "accession": "0001564590-19-022354",
+   "filing_date": "2019-06-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459019022354/tsla-8k_20190611.htm",
+   "quote": "At the Annual Meeting held on June 11, 2019, Tesla’s stockholders voted on the following eight proposals",
+   "supports": "2019 annual meeting date 2019-06-11."
+  },
+  {
+   "id": "e108",
+   "form": "8-K",
+   "accession": "0001564590-19-022354",
+   "filing_date": "2019-06-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459019022354/tsla-8k_20190611.htm",
+   "quote": "Ira Ehrenpreis 76,406,173 13,695,892 227,710 48,955,274 Kathleen Wilson-Thompson 89,756,241 436,537 136,997 48,955,274",
+   "supports": "Class III elected 2019-06-11: Ehrenpreis and Wilson-Thompson (terms to 2022).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e110",
+   "form": "8-K",
+   "accession": "0001564590-20-018196",
+   "filing_date": "2020-04-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459020018196/tsla-8k_20200423.htm",
+   "quote": "On and effective as of April 23, 2020, the authorized number of directors on the Board of Directors (the “Board”) of Tesla, Inc. (“Tesla”) was increased from nine to ten, and Hiromichi Mizuno was appointed to serve as a member of the Board as well as a member of the Audit Committee of the Board.",
+   "supports": "Mizuno appointed 2020-04-23 to Board and Audit Committee; board size 9 -> 10."
+  },
+  {
+   "id": "e111",
+   "form": "8-K",
+   "accession": "0001564590-20-018196",
+   "filing_date": "2020-04-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459020018196/tsla-ex991_24.htm",
+   "quote": "Tesla Welcomes Hiromichi Mizuno as New Independent Director to its Board",
+   "supports": "Mizuno joined as an independent director."
+  },
+  {
+   "id": "e112",
+   "form": "3",
+   "accession": "0001811230-20-000001",
+   "filing_date": "2020-05-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000181123020000001/edgardoc.xml",
+   "quote": "Mizuno Hiromichi",
+   "supports": "Mizuno reporting-owner CIK; Form 3 date of event 2020-04-23 (matches 8-K).",
+   "xml_fields": {
+    "rptOwnerCik": "0001811230",
+    "rptOwnerName": "Mizuno Hiromichi",
+    "periodOfReport": "2020-04-23"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e120",
+   "form": "DEF 14A",
+   "accession": "0001564590-20-027321",
+   "filing_date": "2020-05-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459020027321/tsla-def14a_20200707.htm",
+   "quote": "Tesla’s Board currently consists of ten members who are divided into three classes with staggered three-year terms. Our bylaws permit the Board to establish by resolution the authorized number of directors, and ten directors are currently authorized.",
+   "supports": "Board size ten as of the 2020 proxy."
+  },
+  {
+   "id": "e121",
+   "form": "DEF 14A",
+   "accession": "0001564590-20-027321",
+   "filing_date": "2020-05-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459020027321/tsla-def14a_20200707.htm",
+   "quote": "In April 2019, each of Stephen Jurvetson, a Class I director, and Antonio Gracias, a Class II director, determined collectively with the Nominating and Corporate Governance Committee and the Board that he will not stand for re-election to the Board when his current term ends at the 2020 Annual Meeting and the 2021 annual meeting of stockholders, respectively.",
+   "supports": "Jurvetson (Class I) not standing in 2020; Gracias (Class II) not standing in 2021."
+  },
+  {
+   "id": "e122",
+   "form": "DEF 14A",
+   "accession": "0001564590-20-027321",
+   "filing_date": "2020-05-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459020027321/tsla-def14a_20200707.htm",
+   "quote": "The Board currently expects to reduce the number of Board seats to nine following the expiration of Mr. Jurvetson’s term at the 2020 Annual Meeting",
+   "supports": "Planned board-size reduction 10 -> 9 at the 2020 annual meeting."
+  },
+  {
+   "id": "e123",
+   "form": "DEF 14A",
+   "accession": "0001564590-20-027321",
+   "filing_date": "2020-05-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459020027321/tsla-def14a_20200707.htm",
+   "quote": "Stephen Jurvetson has been a member of the Board since June 2009, and was on a leave of absence from the Board from November 2017 to April 2019.",
+   "supports": "Jurvetson: director since June 2009; leave of absence Nov 2017 - Apr 2019."
+  },
+  {
+   "id": "e124",
+   "form": "DEF 14A",
+   "accession": "0001564590-20-027321",
+   "filing_date": "2020-05-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459020027321/tsla-def14a_20200707.htm",
+   "quote": "Antonio Gracias has been a member of the Board since May 2007 and served as our Lead Independent Director from September 2010 to April 2019.",
+   "supports": "Gracias: director since May 2007; Lead Independent Director Sept 2010 - Apr 2019."
+  },
+  {
+   "id": "e125",
+   "form": "DEF 14A",
+   "accession": "0001564590-20-027321",
+   "filing_date": "2020-05-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459020027321/tsla-def14a_20200707.htm",
+   "quote": "The Audit Committee, which has been established in accordance with Section 3(a)(58) of the Exchange Act, currently consists of Robyn Denholm, Antonio Gracias, Stephen Jurvetson, Hiromichi Mizuno, and James Murdoch",
+   "supports": "Audit Committee as of the 2020 proxy includes Jurvetson (his last proxy)."
+  },
+  {
+   "id": "e126",
+   "form": "DEF 14A",
+   "accession": "0001564590-20-027321",
+   "filing_date": "2020-05-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459020027321/tsla-def14a_20200707.htm",
+   "quote": "The Disclosure Controls Committee currently consists of Robyn Denholm, Stephen Jurvetson, James Murdoch, and Kathleen Wilson-Thompson",
+   "supports": "Disclosure Controls Committee as of the 2020 proxy includes Jurvetson."
+  },
+  {
+   "id": "e127",
+   "form": "DEF 14A",
+   "accession": "0001564590-20-027321",
+   "filing_date": "2020-05-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459020027321/tsla-def14a_20200707.htm",
+   "quote": "Stephen Jurvetson (2) 53 X X",
+   "supports": "Jurvetson table row: two committee marks (Audit, Disclosure Controls).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e128",
+   "form": "DEF 14A",
+   "accession": "0001564590-20-027321",
+   "filing_date": "2020-05-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459020027321/tsla-def14a_20200707.htm",
+   "quote": "The Board determined that with respect to each of its current members other than Elon Musk, who is our Chief Executive Officer, and Kimbal Musk, who is Elon Musk’s brother, there are no disqualifying factors",
+   "supports": "2020 independence determination: all but Elon and Kimbal Musk (covers Jurvetson, Gracias, Ellison, Mizuno)."
+  },
+  {
+   "id": "e130",
+   "form": "8-K",
+   "accession": "0001564590-20-044548",
+   "filing_date": "2020-09-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459020044548/tsla-8k_20200922.htm",
+   "quote": "At Tesla, Inc.’s (“Tesla”) 2020 Annual Meeting of Stockholders (the “Annual Meeting”) held on September 22, 2020",
+   "supports": "2020 annual meeting date 2020-09-22 (end of Jurvetson's term)."
+  },
+  {
+   "id": "e131",
+   "form": "8-K",
+   "accession": "0001564590-20-044548",
+   "filing_date": "2020-09-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459020044548/tsla-8k_20200922.htm",
+   "quote": "Elon Musk 110,328,940 953,331 429,800 41,621,031 Robyn Denholm 90,590,973 20,857,780 263,318 41,621,031 Hiromichi Mizuno 111,178,487 269,438 264,145 41,621,031",
+   "supports": "Class I elected 2020: Elon Musk, Denholm, Mizuno; Jurvetson not on the ballot.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e132",
+   "form": "8-K",
+   "accession": "0001564590-20-044548",
+   "filing_date": "2020-09-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459020044548/tsla-8k_20200922.htm",
+   "quote": "The individuals listed below were elected as Class I directors at the Annual Meeting to serve on Tesla’s Board of Directors (“Board”) for a term of three years or until their respective successors are duly elected and qualified.",
+   "supports": "2020: Class I directors elected for three-year terms."
+  },
+  {
+   "id": "e140",
+   "form": "DEF 14A",
+   "accession": "0001564590-21-045926",
+   "filing_date": "2021-08-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459021045926/tsla-def14a_20210826.htm",
+   "quote": "Tesla’s Board currently consists of nine members who are divided into three classes with staggered three-year terms. Our bylaws permit the Board to establish by resolution the authorized number of directors, and nine directors are currently authorized.",
+   "supports": "Board size nine as of the 2021 proxy (confirms the post-2020-meeting reduction)."
+  },
+  {
+   "id": "e141",
+   "form": "DEF 14A",
+   "accession": "0001564590-21-045926",
+   "filing_date": "2021-08-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459021045926/tsla-def14a_20210826.htm",
+   "quote": "The Board currently expects to reduce the number of Board seats to eight following the expiration of Mr. Gracias’s term at the 2021 Annual Meeting",
+   "supports": "Planned board-size reduction 9 -> 8 at the 2021 annual meeting."
+  },
+  {
+   "id": "e142",
+   "form": "DEF 14A",
+   "accession": "0001564590-21-045926",
+   "filing_date": "2021-08-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459021045926/tsla-def14a_20210826.htm",
+   "quote": "In April 2019, Antonio Gracias, a Class II director, determined collectively with the Nominating and Corporate Governance Committee and the Board that he will not stand for re-election to the Board when his current term ends at the 2021 Annual Meeting.",
+   "supports": "Gracias (Class II) not standing at the 2021 annual meeting."
+  },
+  {
+   "id": "e143",
+   "form": "DEF 14A",
+   "accession": "0001564590-21-045926",
+   "filing_date": "2021-08-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459021045926/tsla-def14a_20210826.htm",
+   "quote": "The Audit Committee, which has been established in accordance with Section 3(a)(58) of the Exchange Act, currently consists of Robyn Denholm, Antonio Gracias, Hiromichi Mizuno and James Murdoch",
+   "supports": "Audit Committee as of the 2021 proxy includes Gracias (his last proxy)."
+  },
+  {
+   "id": "e144",
+   "form": "DEF 14A",
+   "accession": "0001564590-21-045926",
+   "filing_date": "2021-08-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459021045926/tsla-def14a_20210826.htm",
+   "quote": "Antonio Gracias (1) 50 X",
+   "supports": "Gracias table row: one committee mark (Audit).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e145",
+   "form": "DEF 14A",
+   "accession": "0001564590-21-045926",
+   "filing_date": "2021-08-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459021045926/tsla-def14a_20210826.htm",
+   "quote": "After a brief transition period to assist Ms. Denholm, Mr. Gracias relinquished such role in April 2019, and the Board determined that a Lead Independent Director is not currently necessary.",
+   "supports": "Gracias's Lead Independent Director role ended April 2019; no LID since."
+  },
+  {
+   "id": "e146",
+   "form": "DEF 14A",
+   "accession": "0001564590-21-045926",
+   "filing_date": "2021-08-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459021045926/tsla-def14a_20210826.htm",
+   "quote": "Lawrence J. Ellison 76 Antonio Gracias (1) 50 X Hiromichi Mizuno 55 X",
+   "supports": "Ellison: no committee marks in 2021 proxy; Gracias and Mizuno one mark each (Audit).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e147",
+   "form": "8-K",
+   "accession": "0001564590-21-050737",
+   "filing_date": "2021-10-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459021050737/tsla-8k_20211007.htm",
+   "quote": "At Tesla, Inc.’s (“Tesla”) 2021 Annual Meeting of Stockholders (the “Annual Meeting”) held on October 7, 2021",
+   "supports": "2021 annual meeting date 2021-10-07 (end of Gracias's term)."
+  },
+  {
+   "id": "e148",
+   "form": "8-K",
+   "accession": "0001564590-21-050737",
+   "filing_date": "2021-10-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459021050737/tsla-8k_20211007.htm",
+   "quote": "James Murdoch 411,565,464 175,158,627 6,616,291 172,084,569 Kimbal Musk 473,486,890 117,345,144 2,508,349 172,084,569",
+   "supports": "Class II elected 2021: Murdoch and Kimbal Musk; Gracias not on the ballot.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e150",
+   "form": "DEF 14A",
+   "accession": "0001564590-22-024064",
+   "filing_date": "2022-06-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459022024064/tsla-def14a_20220804.htm",
+   "quote": "Tesla’s Board currently consists of eight members who are divided into three classes with staggered three-year terms. Our bylaws permit the Board to establish by resolution the authorized number of directors, and eight directors are currently authorized.",
+   "supports": "Board size eight as of the 2022 proxy (confirms the post-2021-meeting reduction)."
+  },
+  {
+   "id": "e151",
+   "form": "DEF 14A",
+   "accession": "0001564590-22-024064",
+   "filing_date": "2022-06-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459022024064/tsla-def14a_20220804.htm",
+   "quote": "In June 2022, Lawrence J. Ellison, a Class III director, determined collectively with the Nominating and Corporate Governance Committee and the Board that he will not stand for re-election to the Board when his current term ends at the 2022 Annual Meeting.",
+   "supports": "Ellison (Class III) not standing at the 2022 annual meeting."
+  },
+  {
+   "id": "e152",
+   "form": "DEF 14A",
+   "accession": "0001564590-22-024064",
+   "filing_date": "2022-06-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459022024064/tsla-def14a_20220804.htm",
+   "quote": "The Board currently expects to reduce the number of Board seats to seven upon the expiration of Mr. Ellison’s term at the 2022 Annual Meeting",
+   "supports": "Planned reduction to seven seats at the 2022 meeting (not confirmed by any later filing; see open questions)."
+  },
+  {
+   "id": "e153",
+   "form": "DEF 14A",
+   "accession": "0001564590-22-024064",
+   "filing_date": "2022-06-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459022024064/tsla-def14a_20220804.htm",
+   "quote": "Lawrence J. Ellison has been a member of the Board since December 2018.",
+   "supports": "Ellison: director since December 2018."
+  },
+  {
+   "id": "e154",
+   "form": "DEF 14A",
+   "accession": "0001564590-22-024064",
+   "filing_date": "2022-06-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459022024064/tsla-def14a_20220804.htm",
+   "quote": "Lawrence J. Ellison(1) 77 Hiromichi Mizuno 56 X",
+   "supports": "Ellison: no committee marks in his last proxy (2022); Mizuno Audit.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e155",
+   "form": "DEF 14A",
+   "accession": "0001564590-22-024064",
+   "filing_date": "2022-06-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459022024064/tsla-def14a_20220804.htm",
+   "quote": "Mr. Ellison has also served on Oracle’s board of directors since June 1977, including as its Chairman since September 2014 and previously from May 1995 to January 2004.",
+   "supports": "Ellison other board: Oracle Corporation (current as of 2022 proxy), since June 1977."
+  },
+  {
+   "id": "e156",
+   "form": "DEF 14A",
+   "accession": "0001564590-22-024064",
+   "filing_date": "2022-06-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459022024064/tsla-def14a_20220804.htm",
+   "quote": "Ms. Denholm previously served as a director of ABB Ltd. from 2016 to 2017.",
+   "supports": "Denholm former board: ABB Ltd. (2016-2017)."
+  },
+  {
+   "id": "e157",
+   "form": "8-K",
+   "accession": "0001564590-22-028207",
+   "filing_date": "2022-08-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459022028207/tsla-8k_20220804.htm",
+   "quote": "At Tesla, Inc.’s (“Tesla”) 2022 Annual Meeting of Stockholders (the “Annual Meeting”) held on August 4, 2022",
+   "supports": "2022 annual meeting date 2022-08-04 (end of Ellison's term)."
+  },
+  {
+   "id": "e158",
+   "form": "8-K",
+   "accession": "0001564590-22-028207",
+   "filing_date": "2022-08-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459022028207/tsla-8k_20220804.htm",
+   "quote": "Ira Ehrenpreis 422,083,489 237,576,620 6,834,686 160,206,457 Kathleen Wilson-Thompson 450,788,965 208,928,959 6,776,871 160,206,457",
+   "supports": "Class III elected 2022: Ehrenpreis and Wilson-Thompson; Ellison not on the ballot.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e160",
+   "form": "8-K",
+   "accession": "0001564590-22-032575",
+   "filing_date": "2022-09-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459022032575/tsla-8k_20220925.htm",
+   "quote": "On and effective as of September 25, 2022, Joseph Gebbia was appointed to serve as a member of the Board of Directors (the “Board”) of Tesla, Inc. (“Tesla”).",
+   "supports": "Gebbia appointed effective 2022-09-25."
+  },
+  {
+   "id": "e161",
+   "form": "8-K",
+   "accession": "0001564590-22-032575",
+   "filing_date": "2022-09-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459022032575/tsla-8k_20220925.htm",
+   "quote": "The Board has not appointed Mr. Gebbia to any of its committees, and will consider any such appointments in the ordinary course.",
+   "supports": "No committee at appointment; no board-size statement in this 8-K."
+  },
+  {
+   "id": "e162",
+   "form": "8-K",
+   "accession": "0001564590-22-032575",
+   "filing_date": "2022-09-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459022032575/tsla-ex991_6.htm",
+   "quote": "Tesla Welcomes Joe Gebbia as New Independent Director to its Board We are pleased to welcome Joe Gebbia to Tesla’s Board of Directors, effective September 25, 2022.",
+   "supports": "Gebbia joined as an independent director effective 2022-09-25."
+  },
+  {
+   "id": "e163",
+   "form": "3",
+   "accession": "0001771340-22-000011",
+   "filing_date": "2022-10-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000177134022000011/edgardoc.xml",
+   "quote": "Gebbia Joseph",
+   "supports": "Gebbia reporting-owner CIK; Form 3 date of event 2022-09-25 (matches 8-K).",
+   "xml_fields": {
+    "rptOwnerCik": "0001834171",
+    "rptOwnerName": "Gebbia Joseph",
+    "periodOfReport": "2022-09-25"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e170",
+   "form": "DEF 14A",
+   "accession": "0001193125-23-094075",
+   "filing_date": "2023-04-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000119312523094075/d451342ddef14a.htm",
+   "quote": "Tesla’s Board currently consists of eight members who are divided into three classes with staggered three-year terms. Our bylaws permit the Board to establish by resolution the authorized number of directors, and eight directors are currently authorized.",
+   "supports": "Board size eight as of the 2023 proxy."
+  },
+  {
+   "id": "e171",
+   "form": "DEF 14A",
+   "accession": "0001193125-23-094075",
+   "filing_date": "2023-04-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000119312523094075/d451342ddef14a.htm",
+   "quote": "Hiromichi Mizuno, a Class I director, will not stand for re-election to the Board when his current term ends at the 2023 Annual Meeting. Accordingly, the Board has nominated JB Straubel to succeed Mr. Mizuno as a Class I director.",
+   "supports": "Mizuno (Class I) not standing in 2023; Straubel nominated to succeed him."
+  },
+  {
+   "id": "e172",
+   "form": "DEF 14A",
+   "accession": "0001193125-23-094075",
+   "filing_date": "2023-04-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000119312523094075/d451342ddef14a.htm",
+   "quote": "Our Audit Committee is composed of four directors: Robyn Denholm (chair), Joe Gebbia, Hiromichi Mizuno and James Murdoch.",
+   "supports": "Audit Committee as of the 2023 proxy includes Mizuno (his last proxy)."
+  },
+  {
+   "id": "e173",
+   "form": "DEF 14A",
+   "accession": "0001193125-23-094075",
+   "filing_date": "2023-04-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000119312523094075/d451342ddef14a.htm",
+   "quote": "The Board determined that with respect to each of its current members and director nominee, other than Elon Musk, who is our Chief Executive Officer, and Kimbal Musk, who is Elon Musk’s brother, there are no disqualifying factors",
+   "supports": "2023 independence determination covers Mizuno and nominee Straubel."
+  },
+  {
+   "id": "e174",
+   "form": "DEF 14A",
+   "accession": "0001193125-23-094075",
+   "filing_date": "2023-04-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000119312523094075/d451342ddef14a.htm",
+   "quote": "Hiromichi Mizuno Age: 57 Director Since: 2020",
+   "supports": "Mizuno 'Director Since' 2020."
+  },
+  {
+   "id": "e175",
+   "form": "8-K",
+   "accession": "0001564590-23-007379",
+   "filing_date": "2023-05-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459023007379/tsla-8k_20230516.htm",
+   "quote": "At Tesla, Inc.’s (“Tesla”) 2023 Annual Meeting of Stockholders (the “Annual Meeting”) held on May 16, 2023",
+   "supports": "2023 annual meeting date 2023-05-16 (end of Mizuno's term; Straubel elected)."
+  },
+  {
+   "id": "e176",
+   "form": "8-K",
+   "accession": "0001564590-23-007379",
+   "filing_date": "2023-05-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459023007379/tsla-8k_20230516.htm",
+   "quote": "Elon Musk 1,804,966,970 86,064,052 2,036,265 526,990,497 Robyn Denholm 1,399,563,540 482,406,961 11,096,787 526,990,497 JB Straubel 1,629,080,812 261,498,153 2,488,323 526,990,497",
+   "supports": "Class I elected 2023: Elon Musk, Denholm, Straubel; Mizuno not on the ballot.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e177",
+   "form": "3",
+   "accession": "0001771340-23-000002",
+   "filing_date": "2023-05-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000177134023000002/edgardoc.xml",
+   "quote": "Straubel Jeffrey B",
+   "supports": "Straubel reporting-owner CIK; Form 3 date of event 2023-05-16 (annual meeting date).",
+   "xml_fields": {
+    "rptOwnerCik": "0001494727",
+    "rptOwnerName": "Straubel Jeffrey B",
+    "periodOfReport": "2023-05-16"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e178",
+   "form": "DEF 14A",
+   "accession": "0001193125-23-094075",
+   "filing_date": "2023-04-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000119312523094075/d451342ddef14a.htm",
+   "quote": "Mizuno has a deep understanding of international economics, financial markets and government policies",
+   "supports": "Mizuno bio in his last proxy (no public-company boards named; Danone Mission Committee and WEF council only)."
+  },
+  {
+   "id": "e180",
+   "form": "DEF 14A",
+   "accession": "0001104659-24-053333",
+   "filing_date": "2024-04-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465924053333/tm2326076d15_def14a.htm",
+   "quote": "Tesla’s Board currently consists of eight members who are divided into three classes with staggered three-year terms. Our bylaws permit the Board to establish by resolution the authorized number of directors, and eight directors are currently authorized.",
+   "supports": "Board size eight as of the 2024 proxy (before Hartung)."
+  },
+  {
+   "id": "e181",
+   "form": "8-K",
+   "accession": "0001104659-24-071439",
+   "filing_date": "2024-06-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465924071439/tm2413800d31_8k.htm",
+   "quote": "James Murdoch 1,568,468,453 710,657,343 31,143,094 335,111,943 Kimbal Musk 1,814,064,783 468,987,640 27,216,467 335,111,943",
+   "supports": "Class II re-elected 2024-06-13: Murdoch and Kimbal Musk (terms to 2027).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e182",
+   "form": "DEF 14A",
+   "accession": "0001104659-24-053333",
+   "filing_date": "2024-04-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465924053333/tm2326076d15_def14a.htm",
+   "quote": "Mr. Musk was a director of SpaceX since its founding in 2002 until January 2022, and was a director of Chipotle Mexican Grill, Inc. from 2013 to 2019.",
+   "supports": "Kimbal Musk former board: Chipotle Mexican Grill, Inc. (2013-2019)."
+  },
+  {
+   "id": "e190",
+   "form": "10-K/A",
+   "accession": "0001104659-26-053166",
+   "filing_date": "2026-04-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926053166/tm2611837d1_10ka.htm",
+   "quote": "Mr. Musk also served on the board of directors of Endeavor Group Holdings, Inc. from April 2021 to June 2022.",
+   "supports": "Elon Musk former board: Endeavor Group Holdings, Inc. (Apr 2021 - Jun 2022)."
+  },
+  {
+   "id": "e191",
+   "form": "10-K/A",
+   "accession": "0001104659-26-053166",
+   "filing_date": "2026-04-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926053166/tm2611837d1_10ka.htm",
+   "quote": "served as Chairman of the Board of SolarCity Corporation, a solar installation company (“SolarCity”), from July 2006 until its acquisition by us in November 2016.",
+   "supports": "Elon Musk former board: SolarCity Corporation (Chairman, Jul 2006 - Nov 2016)."
+  },
+  {
+   "id": "e192",
+   "form": "10-K/A",
+   "accession": "0001104659-26-053166",
+   "filing_date": "2026-04-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926053166/tm2611837d1_10ka.htm",
+   "quote": "Ms. Denholm previously served as a director of ABB Ltd.",
+   "supports": "Denholm former board: ABB Ltd."
+  },
+  {
+   "id": "e193",
+   "form": "10-K/A",
+   "accession": "0001104659-26-053166",
+   "filing_date": "2026-04-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926053166/tm2611837d1_10ka.htm",
+   "quote": "Mr. Gebbia co-founded Airbnb, Inc. in 2008 and has served on Airbnb’s board of directors since 2009.",
+   "supports": "Gebbia current board: Airbnb, Inc. (since 2009)."
+  },
+  {
+   "id": "e194",
+   "form": "10-K/A",
+   "accession": "0001104659-26-053166",
+   "filing_date": "2026-04-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926053166/tm2611837d1_10ka.htm",
+   "quote": "Mr. Gebbia has valuable experience derived from founding and leading a global public company.",
+   "supports": "States Airbnb (the company Gebbia founded) is a public company."
+  },
+  {
+   "id": "e195",
+   "form": "10-K/A",
+   "accession": "0001104659-26-053166",
+   "filing_date": "2026-04-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926053166/tm2611837d1_10ka.htm",
+   "quote": "Mr. Hartung has served on the boards of directors of The Honest Company, since May 2022, and Portillo’s Inc. since January 2025.",
+   "supports": "Hartung current boards: The Honest Company (since May 2022), Portillo's Inc. (since Jan 2025)."
+  },
+  {
+   "id": "e196",
+   "form": "10-K/A",
+   "accession": "0001104659-26-053166",
+   "filing_date": "2026-04-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926053166/tm2611837d1_10ka.htm",
+   "quote": "Mr. Murdoch formerly served on the board of News Corporation from 2013 to 2020. In addition, he has served on the boards of 21CF, Sky plc, GlaxoSmithKline plc and Sotheby’s.",
+   "supports": "Murdoch former boards: News Corporation (2013-2020), 21CF, Sky plc, GlaxoSmithKline plc, Sotheby's."
+  },
+  {
+   "id": "e197",
+   "form": "10-K/A",
+   "accession": "0001104659-26-053166",
+   "filing_date": "2026-04-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926053166/tm2611837d1_10ka.htm",
+   "quote": "In addition, Mr. Kimbal Musk has served on the boards of SpaceX and Chipotle Mexican Grill, Inc.",
+   "supports": "Kimbal Musk: Chipotle board named in the latest bio."
+  },
+  {
+   "id": "e198",
+   "form": "10-K/A",
+   "accession": "0001104659-26-053166",
+   "filing_date": "2026-04-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926053166/tm2611837d1_10ka.htm",
+   "quote": "Mr. Straubel has served on the board of directors of QuantumScape since November 2020.",
+   "supports": "Straubel current board: QuantumScape (since Nov 2020)."
+  },
+  {
+   "id": "e199",
+   "form": "10-K/A",
+   "accession": "0001104659-26-053166",
+   "filing_date": "2026-04-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926053166/tm2611837d1_10ka.htm",
+   "quote": "Mr. Straubel previously served on the board of SolarCity and as a member of its Nominating and Corporate Governance Committee from August 2006 until its acquisition by Tesla in November 2016.",
+   "supports": "Straubel former board: SolarCity (Aug 2006 - Nov 2016)."
+  },
+  {
+   "id": "e200",
+   "form": "10-K/A",
+   "accession": "0001104659-26-053166",
+   "filing_date": "2026-04-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926053166/tm2611837d1_10ka.htm",
+   "quote": "Ms. Wilson-Thompson has served on the board of directors of Wolverine World Wide, Inc. since May 2021 and McKesson Corporation since January 2022.",
+   "supports": "Wilson-Thompson current boards: Wolverine World Wide (since May 2021), McKesson (since Jan 2022)."
+  },
+  {
+   "id": "e201",
+   "form": "DEF 14A",
+   "accession": "0001104659-25-090866",
+   "filing_date": "2025-09-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465925090866/tm252289-12_def14a.htm",
+   "quote": "Ms. Wilson-Thompson previously served on the board of directors of Ashland Global Holdings Inc. from 2017 to 2020.",
+   "supports": "Wilson-Thompson former board: Ashland Global Holdings Inc. (2017-2020)."
+  },
+  {
+   "id": "e202",
+   "form": "DEF 14A",
+   "accession": "0001564590-21-045926",
+   "filing_date": "2021-08-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459021045926/tsla-def14a_20210826.htm",
+   "quote": "Mr. Gracias is a director of SpaceX, and was a director of SolarCity until its acquisition by us in November 2016.",
+   "supports": "Gracias former board: SolarCity (until Nov 2016); SpaceX is private."
+  },
+  {
+   "id": "e203",
+   "form": "DEF 14A",
+   "accession": "0001564590-20-027321",
+   "filing_date": "2020-05-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459020027321/tsla-def14a_20200707.htm",
+   "quote": "Mr. Jurvetson is a co-founder of Future Ventures, a venture capital firm, and previously was a Managing Director of Draper Fisher Jurvetson, a venture capital firm, from 1995 to 2017. Mr. Jurvetson is a director of SpaceX.",
+   "supports": "Jurvetson bio in his last proxy names only SpaceX (private)."
+  },
+  {
+   "id": "e204",
+   "form": "10-K/A",
+   "accession": "0001104659-26-053166",
+   "filing_date": "2026-04-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926053166/tm2611837d1_10ka.htm",
+   "quote": "Mr. Ehrenpreis currently serves as the Chairman of the VCNetwork",
+   "supports": "Ehrenpreis bio names industry/advisory boards only (no public-company boards)."
+  },
+  {
+   "id": "e210",
+   "form": "4",
+   "accession": "0001104659-26-047678",
+   "filing_date": "2026-04-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926047678/tm2612285-1_4seq1.xml",
+   "quote": "Musk Elon",
+   "supports": "Elon Musk reporting-owner CIK; director and officer (CEO).",
+   "xml_fields": {
+    "rptOwnerCik": "0001494730",
+    "rptOwnerName": "Musk Elon"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": "CEO"
+   }
+  },
+  {
+   "id": "e211",
+   "form": "4",
+   "accession": "0001494731-24-000002",
+   "filing_date": "2024-12-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000149473124000002/edgardoc.xml",
+   "quote": "Musk Kimbal",
+   "supports": "Kimbal Musk reporting-owner CIK; director.",
+   "xml_fields": {
+    "rptOwnerCik": "0001494731",
+    "rptOwnerName": "Musk Kimbal"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e212",
+   "form": "4",
+   "accession": "0001104659-25-043636",
+   "filing_date": "2025-05-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465925043636/tm2513581-3_4seq1.xml",
+   "quote": "Ehrenpreis Ira Matthew",
+   "supports": "Ira Ehrenpreis reporting-owner CIK; director.",
+   "xml_fields": {
+    "rptOwnerCik": "0001412598",
+    "rptOwnerName": "Ehrenpreis Ira Matthew"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e213",
+   "form": "4",
+   "accession": "0001495158-19-000006",
+   "filing_date": "2019-12-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000149515819000006/edgardoc.xml",
+   "quote": "Gracias Antonio J.",
+   "supports": "Antonio Gracias reporting-owner CIK; director.",
+   "xml_fields": {
+    "rptOwnerCik": "0001495158",
+    "rptOwnerName": "Gracias Antonio J."
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e214",
+   "form": "4",
+   "accession": "0001771340-19-000013",
+   "filing_date": "2019-11-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000177134019000013/edgardoc.xml",
+   "quote": "Jurvetson Stephen T",
+   "supports": "Stephen Jurvetson reporting-owner CIK; director.",
+   "xml_fields": {
+    "rptOwnerCik": "0001314917",
+    "rptOwnerName": "Jurvetson Stephen T"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  }
+ ],
+ "conflicts": [
+  {
+   "description": "Hartung's start: the 8-K (filed 2025-05-16) and its X-post exhibit say he joined effective 2025-06-01, but his Form 3 gives 2025-06-04 as the date of the event requiring the statement. The 8-K date is used.",
+   "evidence_refs": [
+    "e070",
+    "e071",
+    "e072"
+   ]
+  },
+  {
+   "description": "Murdoch's start: the 8-K says he was appointed 'on and effective as of July 13, 2017'; his Form 3 gives 2017-07-17 (the date of the announcing blog post). The 8-K date is used.",
+   "evidence_refs": [
+    "e085",
+    "e086"
+   ]
+  },
+  {
+   "description": "Elon Musk's end as Chairman is not dated by any filing. The 2018 proxy says he had been Chairman since April 2004; Denholm was appointed Chair 'effective immediately' in a blog post dated 2018-11-07. The end is recorded at month precision (2018-11).",
+   "evidence_refs": [
+    "e090",
+    "e095",
+    "e096"
+   ]
+  },
+  {
+   "description": "Board size after Ellison left: the 2022 proxy said seats would be reduced to seven at the 2022-08-04 meeting, Gebbia's 2022-09-25 appointment 8-K says nothing about board size, and the 2023 proxy reports eight authorized. Whether the cut to seven ever took effect is not disclosed, so no size events are recorded for 2022.",
+   "evidence_refs": [
+    "e152",
+    "e161",
+    "e170"
+   ]
+  },
+  {
+   "description": "Board size for Hartung: the 2024 proxy reports eight authorized and the 2025 proxy nine, but Hartung's appointment 8-K does not state an increase. The 8 -> 9 change is undated and not recorded as an event.",
+   "evidence_refs": [
+    "e180",
+    "e070",
+    "e004"
+   ]
+  }
+ ],
+ "open_questions": [
+  "No 2026 annual meeting has been held or noticed as of 2026-10-04 (no 2026 DEF 14A/PRE 14A; no 2026 8-K Item 5.07). Class I directors Elon Musk, Robyn Denholm and JB Straubel show terms 'Expires in 2026' and keep serving until successors are elected. The next proxy will settle the Class I slate.",
+  "Chairs of the Nominating and Corporate Governance and Disclosure Controls committees as of 2026-04-30: the 10-K/A table marks membership only. Per the latest proxy (2025-09-17), Ehrenpreis chairs NCG and Denholm chairs Disclosure Controls.",
+  "Declassification: a precatory shareholder proposal to elect each director annually passed on 2025-11-06, but the 2026-04-30 10-K/A still shows staggered terms (2026/2027/2028). No board action implementing it was found through 2026-10-02.",
+  "Pre-IPO start dates are disclosed only to the month (Elon and Kimbal Musk April 2004; Ehrenpreis and Gracias May 2007; Jurvetson June 2009). No filing gives a day.",
+  "Independence roles are aligned to board tenure. The filings give only point-in-time determinations (each proxy and 10-K/A), and none exists for the pre-IPO years.",
+  "Jurvetson's tenure (June 2009 - 2020-09-22) includes a leave of absence from November 2017 to April 2019. It is kept as one continuous membership.",
+  "Other-board lists come from Tesla's own bios as of each filing and are not checked against the other issuers' filings. Most bios do not say the company is public (flagged public_company_stated_in_source=false). Private boards (SpaceX, X/xAI, ZocDoc, Health Care Service Corporation, Blackbird, etc.) are excluded. The status of Murdoch's 21CF, Sky, GSK and Sotheby's seats is left 'unknown' because the bio says only 'has served'.",
+  "Committee membership is captured as point-in-time snapshots: the 2025 proxy, the 2026 10-K/A, and each departed director's last proxy. Changes between filings are not dated."
+ ],
+ "coverage": [
+  {
+   "scope": "current_board",
+   "period_start": "2026-10-04",
+   "period_end": "2026-10-04",
+   "level": "complete",
+   "method": "Roster from the 10-K/A Part III (as of 2026-04-30) and the 2025 DEF 14A, checked against every 8-K filed through 2026-10-02 (by EDGAR item codes; the last Item 5.02 was 2025-11-07, compensation only), full-text search of 8-Ks since 2025-11-01, the 2026 10-Qs, and every Form 3/4/5 filed since 2025-11-01 (no new reporting owners)."
+  },
+  {
+   "scope": "board_history",
+   "period_start": "2020-01-01",
+   "period_end": "2026-10-04",
+   "level": "complete",
+   "method": "Every DEF 14A 2020-2025, the 10-K/A Part III filings of 2020, 2021, 2022, 2025 and 2026, every 8-K with Item 5.02 or 5.07 from 2019-06 through 2026-10-02, and every Form 3 since 2018 reviewed. All four departures since 2020 were annual-meeting non-renominations, dated from the 8-K Item 5.07 meeting dates."
+  }
+ ]
+}
