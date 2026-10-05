@@ -1,6 +1,6 @@
 # Methodology
 
-Version `2026.10.1` (`METHODOLOGY_VERSION` in `pipeline/src/bt/analytics/returns.py`).
+Version `2026.10.2` (`METHODOLOGY_VERSION` in `pipeline/src/bt/analytics/returns.py`).
 Every number on the site can be reproduced from the stored daily bars, corporate actions
 and board-membership dates using the rules below. If a rule changes, the version changes,
 and every stored result records the version that produced it.
@@ -119,6 +119,36 @@ summaries:
   for a year count as two company-years.
 * Rankings (future) require a minimum tenure length and number of completed tenures and are
   shown benchmark-relative by default.
+
+## Rankings
+
+Rankings order **stock performance during board tenure**, not director skill. A higher rank means
+the company's stock beat the S&P 500 by more per year while that person held the seat.
+
+**Per seat.** The ranking metric is annualized excess return against SPY total return:
+
+`annualized excess = ((1 + total) / (1 + benchmark))^(365.25 / calendar_days) − 1`
+
+It is geometric, so a 10-year seat and a 2-year seat are on the same per-year footing. A seat is
+**rank-eligible** only if it has an exact return (`status = ok`: no imprecise or unknown dates, no
+price-history gap) and lasted **at least 365 days**. Shorter seats appear on the site but are never
+ranked, so a director who joined last month can't top the table on one good quarter.
+
+**Per director.** The score is the **time-weighted geometric mean** of annualized excess across the
+person's eligible seats:
+
+`score = exp( Σ days_i · ln(1 + excess_i) / Σ days_i ) − 1`
+
+A director is ranked only with **at least two scored years** in total. Each row also shows the
+number of scored seats and how many of them beat SPY.
+
+**Executive seats.** CEOs, founders and other employee-directors are flagged (`executive_seat`). The
+"independent directors only" view recomputes the score from non-executive seats alone, because
+founders measured from the IPO otherwise dominate.
+
+**Caveats shown in the UI.** Seats held at the same time share market conditions. Founders' and
+other pre-IPO directors' seats are measured from the first trading day. Coverage is limited to the
+companies we track.
 
 ## Confidence
 

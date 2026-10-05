@@ -168,3 +168,15 @@ def test_start_before_stored_history_of_listed_stock_is_a_gap():
     ok = tenure_performance(s, start=date(2005, 3, 1), start_precision="day",
                             end=None, end_precision=None, is_open=True, listing_date=date(2016, 1, 4))
     assert ok.status == "ok" and ok.start_anchor_reason == "first_trade"
+
+
+def test_annualized_excess_is_geometric_and_needs_a_year():
+    stock = series([100] + [100] * 503 + [150])  # ~2 years of weekdays
+    bench = series([100] + [100] * 503 + [120])
+    r = tenure_performance(stock, start=stock[0].day, start_precision="day",
+                           end=None, end_precision=None, is_open=True, benchmark=bench)
+    days = (stock[-1].day - stock[0].day).days
+    assert r.annualized_excess == pytest.approx((1.5 / 1.2) ** (365.25 / days) - 1)
+    short = tenure_performance(stock[-10:], start=stock[-10].day, start_precision="day",
+                               end=None, end_precision=None, is_open=True, benchmark=bench)
+    assert short.annualized_excess is None

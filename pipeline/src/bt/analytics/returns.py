@@ -15,7 +15,7 @@ from datetime import date
 from itertools import pairwise
 from typing import Literal
 
-METHODOLOGY_VERSION = "2026.10.1"
+METHODOLOGY_VERSION = "2026.10.2"
 MIN_ANNUALIZE_DAYS = 365
 DAYS_PER_YEAR = 365.25
 
@@ -131,6 +131,7 @@ class TenureResult:
     bench_annualized_return: float | None = None
     relative_return_pp: float | None = None
     excess_return: float | None = None
+    annualized_excess: float | None = None  # ((1+r)/(1+r_bench))^(365.25/days) - 1; the ranking metric
     max_drawdown: float | None = None
     mdd_peak: date | None = None
     mdd_trough: date | None = None
@@ -276,3 +277,4 @@ def _fill_exact(
     res.bench_annualized_return = annualize(res.bench_total_return, res.calendar_days)
     res.relative_return_pp = res.total_return - res.bench_total_return
     res.excess_return = (1.0 + res.total_return) / (1.0 + res.bench_total_return) - 1.0
+    res.annualized_excess = annualize(res.excess_return, res.calendar_days)

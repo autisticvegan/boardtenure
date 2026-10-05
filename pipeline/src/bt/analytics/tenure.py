@@ -13,7 +13,7 @@ _COLUMNS = [
     "status", "is_open", "start_anchor_date", "start_anchor_reason", "end_anchor_date", "end_anchor_reason",
     "start_close", "end_close", "calendar_days", "trading_days", "total_return", "price_return",
     "annualized_return", "bench_total_return", "bench_annualized_return", "relative_return_pp",
-    "excess_return", "max_drawdown", "mdd_peak_date", "mdd_trough_date", "return_low", "return_high",
+    "excess_return", "annualized_excess", "max_drawdown", "mdd_peak_date", "mdd_trough_date", "return_low", "return_high",
     "data_through",
 ]
 
@@ -22,7 +22,7 @@ def _values(r: TenureResult) -> list:
     return [r.status, r.is_open, r.start_anchor, r.start_anchor_reason, r.end_anchor, r.end_anchor_reason,
             r.start_close, r.end_close, r.calendar_days, r.trading_days, r.total_return, r.price_return,
             r.annualized_return, r.bench_total_return, r.bench_annualized_return, r.relative_return_pp,
-            r.excess_return, r.max_drawdown, r.mdd_peak, r.mdd_trough, r.return_low, r.return_high,
+            r.excess_return, r.annualized_excess, r.max_drawdown, r.mdd_peak, r.mdd_trough, r.return_low, r.return_high,
             r.data_through]
 
 
