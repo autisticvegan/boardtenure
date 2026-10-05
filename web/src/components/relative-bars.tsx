@@ -36,7 +36,7 @@ export function RelativeBars({ rows, benchName }: { rows: RelBar[]; benchName: s
             <span className="relative h-7">
               <span className="absolute inset-y-0 left-1/2 w-px bg-line-strong" aria-hidden />
               <span
-                className="absolute top-1/2 -translate-y-1/2 h-3 bg-accent"
+                className="absolute top-1/2 -translate-y-1/2 h-5 bg-accent"
                 style={{
                   left: neg ? `${50 - w}%` : "50%",
                   width: `${Math.max(w, 0.4)}%`,
@@ -44,9 +44,12 @@ export function RelativeBars({ rows, benchName }: { rows: RelBar[]; benchName: s
                   opacity: hover && hover !== r.key ? 0.5 : 0.9,
                 }}
               />
+              {/* Long bars carry their label inside the bar end so it never runs off the card. */}
               <span
-                className="absolute top-1/2 -translate-y-1/2 text-[12px] num font-medium text-ink whitespace-nowrap"
-                style={neg ? { right: `${50 + w + 1}%` } : { left: `${50 + w + 1}%` }}
+                className={`absolute top-1/2 -translate-y-1/2 text-[12px] num font-medium whitespace-nowrap ${w > 38 ? "text-white px-1.5" : "text-ink"}`}
+                style={w > 38
+                  ? (neg ? { left: `${50 - w}%` } : { right: `${50 - w}%` })
+                  : (neg ? { right: `${50 + w + 1}%` } : { left: `${50 + w + 1}%` })}
               >
                 {pp(r.rel)}
               </span>
