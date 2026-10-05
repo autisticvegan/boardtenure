@@ -1,0 +1,4776 @@
+{
+ "company": {
+  "cik": "0001543151",
+  "ticker": "UBER",
+  "legal_name": "Uber Technologies, Inc.",
+  "common_name": "Uber",
+  "exchange": "New York Stock Exchange",
+  "ipo_pricing_date": "2019-05-09",
+  "ipo_date": "2019-05-10",
+  "state_of_incorporation": "Delaware",
+  "incorporated": "July 2010 (Delaware)",
+  "dual_class": "none (one share, one vote; the pre-IPO supervoting structure was replaced before the IPO)",
+  "classified_board": false,
+  "notes": "Board is not classified: all directors stand for one-year terms at each annual meeting (first post-IPO election 2020-05-11). Independent Chairperson (Ronald Sugar) since July 2018; governance guidelines require separate chair and CEO roles and an independent chair, and there is no lead independent director. IPO: registration effective and prospectus dated 2019-05-09 (recorded as ipo_pricing_date), first NYSE trade 2019-05-10, closed 2019-05-14. EDGAR submissions feed: name 'Uber Technologies, Inc', ticker UBER, exchange NYSE, state of incorporation DE."
+ },
+ "as_of": "2026-10-04",
+ "sources_reviewed_through": "2026-09-21 (latest filing in the EDGAR submissions feed fetched 2026-10-04 local / 2026-10-05 UTC)",
+ "people": [
+  {
+   "key": "dara-khosrowshahi",
+   "full_name": "Dara Khosrowshahi",
+   "aliases": [
+    "Khosrowshahi Dara"
+   ],
+   "sec_cik": "0001184237",
+   "bio_other_public_boards": [
+    {
+     "company": "Expedia Group, Inc.",
+     "status": "current",
+     "years": "not stated (listed since IPO prospectus)",
+     "source_ref": "e160",
+     "public_company_stated_in_source": true,
+     "corroborating_refs": [
+      "e015"
+     ]
+    },
+    {
+     "company": "Grab Holdings Ltd.",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e160",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "trivago N.V. (supervisory board)",
+     "status": "former",
+     "years": "2016 to 2017",
+     "source_ref": "e161",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Aurora Innovation, Inc.",
+     "status": "former",
+     "years": "2021 to 2024",
+     "source_ref": "e161",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "The New York Times Company",
+     "status": "former",
+     "years": "2015 to 2017",
+     "source_ref": "e161",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "TripAdvisor, Inc.",
+     "status": "former",
+     "years": "2011 to 2013",
+     "source_ref": "e161",
+     "public_company_stated_in_source": false
+    }
+   ]
+  },
+  {
+   "key": "ronald-sugar",
+   "full_name": "Ronald Sugar",
+   "aliases": [
+    "Ron Sugar",
+    "Ronald D. Sugar",
+    "Sugar Ronald D"
+   ],
+   "sec_cik": "0001216519",
+   "bio_other_public_boards": [
+    {
+     "company": "Apple Inc.",
+     "status": "current",
+     "years": "not stated (director since 2010 per IPO prospectus)",
+     "source_ref": "e147",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Air Lease Corporation",
+     "status": "former",
+     "years": "2010 to 2020",
+     "source_ref": "e148",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Chevron Corporation",
+     "status": "former",
+     "years": "2005 to 2023",
+     "source_ref": "e148",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Amgen, Inc.",
+     "status": "former",
+     "years": "2010 to 2024",
+     "source_ref": "e148",
+     "public_company_stated_in_source": false
+    }
+   ]
+  },
+  {
+   "key": "revathi-advaithi",
+   "full_name": "Revathi Advaithi",
+   "aliases": [
+    "Advaithi Revathi"
+   ],
+   "sec_cik": "0001649101",
+   "bio_other_public_boards": [
+    {
+     "company": "Flex Ltd.",
+     "status": "current",
+     "years": "not stated (CEO and director since 2019)",
+     "source_ref": "e149",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "turqi-alnowaiser",
+   "full_name": "Turqi Alnowaiser",
+   "aliases": [
+    "Alnowaiser Turqi A.",
+    "Turqi A. Alnowaiser"
+   ],
+   "sec_cik": "0001873801",
+   "bio_other_public_boards": [
+    {
+     "company": "Lucid Group, Inc.",
+     "status": "current",
+     "years": "since April 2019 (Chairman since April 2023)",
+     "source_ref": "e151",
+     "public_company_stated_in_source": true,
+     "corroborating_refs": [
+      "e150"
+     ]
+    },
+    {
+     "company": "Hapag-Lloyd AG",
+     "status": "current",
+     "years": "since February 2018",
+     "source_ref": "e151",
+     "public_company_stated_in_source": true,
+     "corroborating_refs": [
+      "e150"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "nikesh-arora",
+   "full_name": "Nikesh Arora",
+   "aliases": [
+    "Arora Nikesh"
+   ],
+   "sec_cik": "0001468233",
+   "bio_other_public_boards": [
+    {
+     "company": "Palo Alto Networks, Inc.",
+     "status": "current",
+     "years": "Chairman and CEO since June 2018",
+     "source_ref": "e152",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Compagnie Financiere Richemont S.A.",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e152",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "SoftBank Group Corp.",
+     "status": "former",
+     "years": "2014 to 2016 (per 2025 appointment 8-K)",
+     "source_ref": "e153",
+     "public_company_stated_in_source": false,
+     "corroborating_refs": [
+      "e071"
+     ]
+    },
+    {
+     "company": "Sprint Corp.",
+     "status": "former",
+     "years": "2014 to 2016 (per 2025 appointment 8-K)",
+     "source_ref": "e153",
+     "public_company_stated_in_source": false,
+     "corroborating_refs": [
+      "e071"
+     ]
+    },
+    {
+     "company": "Colgate-Palmolive Company",
+     "status": "former",
+     "years": "2012 to 2014 (per 2025 appointment 8-K)",
+     "source_ref": "e153",
+     "public_company_stated_in_source": false,
+     "corroborating_refs": [
+      "e071"
+     ]
+    },
+    {
+     "company": "Yahoo! Japan",
+     "status": "former",
+     "years": "2015 to 2016 (per 2025 appointment 8-K)",
+     "source_ref": "e153",
+     "public_company_stated_in_source": false,
+     "corroborating_refs": [
+      "e071"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "ursula-burns",
+   "full_name": "Ursula Burns",
+   "aliases": [
+    "Ursula M. Burns",
+    "Burns Ursula M"
+   ],
+   "sec_cik": "0001190699",
+   "bio_other_public_boards": [
+    {
+     "company": "IHS Holding Limited",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e154",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Taiwan Semiconductor Manufacturing Company Ltd.",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e154",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Endeavor Group Holdings, Inc.",
+     "status": "former",
+     "years": "2021 to 2025",
+     "source_ref": "e155",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "American Express Company",
+     "status": "former",
+     "years": "2004 to 2018",
+     "source_ref": "e155",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Nestlé S.A.",
+     "status": "former",
+     "years": "2017 to April 2021",
+     "source_ref": "e155",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "VEON Ltd.",
+     "status": "former",
+     "years": "2017 to 2020",
+     "source_ref": "e155",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Xerox Corporation",
+     "status": "former",
+     "years": "2007 to 2017",
+     "source_ref": "e155",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Plum Acquisition Corp. I",
+     "status": "former",
+     "years": "2021 to 2023",
+     "source_ref": "e155",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Exxon Mobil Corporation",
+     "status": "former",
+     "years": "2012 to 2023",
+     "source_ref": "e155",
+     "public_company_stated_in_source": false
+    }
+   ]
+  },
+  {
+   "key": "robert-eckert",
+   "full_name": "Robert Eckert",
+   "aliases": [
+    "Bob Eckert",
+    "Eckert Robert"
+   ],
+   "sec_cik": "0001194256",
+   "bio_other_public_boards": [
+    {
+     "company": "Amgen, Inc.",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e156",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Levi Strauss & Co.",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e156",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "McDonald's Corporation",
+     "status": "former",
+     "years": "2003 to 2023",
+     "source_ref": "e157",
+     "public_company_stated_in_source": false
+    }
+   ]
+  },
+  {
+   "key": "amanda-ginsberg",
+   "full_name": "Amanda Ginsberg",
+   "aliases": [
+    "Mandy Ginsberg",
+    "Ginsberg Amanda"
+   ],
+   "sec_cik": "0001596941",
+   "bio_other_public_boards": [
+    {
+     "company": "ThredUp Inc.",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e158",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Universal Music Group N.V.",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e158",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Care.com",
+     "status": "former",
+     "years": "2012 to 2014",
+     "source_ref": "e159",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "J.C. Penney Company, Inc.",
+     "status": "former",
+     "years": "2015 to 2020",
+     "source_ref": "e159",
+     "public_company_stated_in_source": false,
+     "corroborating_refs": [
+      "e058"
+     ]
+    },
+    {
+     "company": "Match Group, Inc.",
+     "status": "former",
+     "years": "2017 to 2020",
+     "source_ref": "e159",
+     "public_company_stated_in_source": false,
+     "corroborating_refs": [
+      "e058"
+     ]
+    },
+    {
+     "company": "Z-Work Acquisition Corp.",
+     "status": "former",
+     "years": "2020 to 2022",
+     "source_ref": "e159",
+     "public_company_stated_in_source": false
+    }
+   ]
+  },
+  {
+   "key": "john-thain",
+   "full_name": "John Thain",
+   "aliases": [
+    "John A. Thain",
+    "Thain John A"
+   ],
+   "sec_cik": "0001090355",
+   "bio_other_public_boards": [
+    {
+     "company": "Deutsche Bank AG (supervisory board)",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e162",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "The Goldman Sachs Group, Inc.",
+     "status": "former",
+     "years": "1998 to 2004",
+     "source_ref": "e163",
+     "public_company_stated_in_source": false
+    }
+   ]
+  },
+  {
+   "key": "alexander-wynaendts",
+   "full_name": "Alexander Wynaendts",
+   "aliases": [
+    "Alexander R. Wynaendts",
+    "Wynaendts Alexander R"
+   ],
+   "sec_cik": "0001787734",
+   "bio_other_public_boards": [
+    {
+     "company": "Air France-KLM SA",
+     "status": "current",
+     "years": "since 2016 (per 2021 appointment 8-K)",
+     "source_ref": "e164",
+     "public_company_stated_in_source": true,
+     "corroborating_refs": [
+      "e065"
+     ]
+    },
+    {
+     "company": "Deutsche Bank AG (supervisory board, Chairman)",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e164",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Citigroup Inc.",
+     "status": "former",
+     "years": "2016 to 2021 per 2026 proxy; the 2021 8-K said 'since 2019' (see conflicts)",
+     "source_ref": "e165",
+     "public_company_stated_in_source": false,
+     "corroborating_refs": [
+      "e065"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "david-trujillo",
+   "full_name": "David Trujillo",
+   "aliases": [
+    "David I. Trujillo",
+    "Trujillo David"
+   ],
+   "sec_cik": "0001262929",
+   "bio_other_public_boards": [
+    {
+     "company": "TPG Inc.",
+     "status": "current",
+     "years": "not stated (status as of the 2025 proxy, his last bio)",
+     "source_ref": "e132",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "wan-ling-martello",
+   "full_name": "Wan Ling Martello",
+   "aliases": [
+    "Martello Wan Ling"
+   ],
+   "sec_cik": "0001775396",
+   "bio_other_public_boards": [
+    {
+     "company": "Alibaba Group",
+     "status": "current",
+     "years": "not stated (status as of the 2024 proxy, her last bio)",
+     "source_ref": "e124",
+     "public_company_stated_in_source": true,
+     "corroborating_refs": [
+      "e125"
+     ]
+    },
+    {
+     "company": "Stellantis N.V.",
+     "status": "current",
+     "years": "not stated (status as of the 2024 proxy, her last bio)",
+     "source_ref": "e124",
+     "public_company_stated_in_source": true,
+     "corroborating_refs": [
+      "e125"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "yasir-al-rumayyan",
+   "full_name": "Yasir Al-Rumayyan",
+   "aliases": [
+    "H.E. Yasir Al-Rumayyan",
+    "Al-Rumayyan Yasir"
+   ],
+   "sec_cik": "0001775176",
+   "bio_other_public_boards": [
+    {
+     "company": "Saudi Arabian Oil Company",
+     "status": "current",
+     "years": "not stated (status as of the 2022 proxy, his last bio)",
+     "source_ref": "e112",
+     "public_company_stated_in_source": true,
+     "corroborating_refs": [
+      "e111"
+     ]
+    },
+    {
+     "company": "Ma'aden",
+     "status": "current",
+     "years": "not stated (status as of the 2022 proxy)",
+     "source_ref": "e112",
+     "public_company_stated_in_source": true,
+     "corroborating_refs": [
+      "e111"
+     ]
+    },
+    {
+     "company": "Reliance Industries Limited",
+     "status": "current",
+     "years": "not stated (status as of the 2022 proxy)",
+     "source_ref": "e112",
+     "public_company_stated_in_source": true,
+     "corroborating_refs": [
+      "e111"
+     ]
+    },
+    {
+     "company": "SoftBank Group Corp.",
+     "status": "former",
+     "years": "2017 to 2020",
+     "source_ref": "e111",
+     "public_company_stated_in_source": false,
+     "note": "written 'Soft Bank Group' in the proxy"
+    },
+    {
+     "company": "Tadawul (Saudi Stock Exchange)",
+     "status": "former",
+     "years": "2014 to 2015",
+     "source_ref": "e111",
+     "public_company_stated_in_source": false
+    }
+   ]
+  },
+  {
+   "key": "garrett-camp",
+   "full_name": "Garrett Camp",
+   "aliases": [
+    "Camp Garrett"
+   ],
+   "sec_cik": "0001775382",
+   "bio_other_public_boards": []
+  },
+  {
+   "key": "travis-kalanick",
+   "full_name": "Travis Kalanick",
+   "aliases": [
+    "Kalanick Travis Cordell"
+   ],
+   "sec_cik": "0001732125",
+   "bio_other_public_boards": []
+  },
+  {
+   "key": "matt-cohler",
+   "full_name": "Matt Cohler",
+   "aliases": [
+    "Cohler Matt"
+   ],
+   "sec_cik": "0001572685",
+   "bio_other_public_boards": [
+    {
+     "company": "Domo, Inc.",
+     "status": "former",
+     "years": "2011 to 2019",
+     "source_ref": "e021",
+     "public_company_stated_in_source": false,
+     "note": "status as of 2019-05-09 prospectus"
+    }
+   ]
+  },
+  {
+   "key": "arianna-huffington",
+   "full_name": "Arianna Huffington",
+   "aliases": [
+    "Huffington Arianna"
+   ],
+   "sec_cik": "0001775298",
+   "bio_other_public_boards": [
+    {
+     "company": "Onex Corporation",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e025",
+     "public_company_stated_in_source": false,
+     "note": "status as of 2019-05-09 prospectus"
+    },
+    {
+     "company": "PRISA (Promotora de Informaciones, S.A.)",
+     "status": "former",
+     "years": "2011 to 2018",
+     "source_ref": "e026",
+     "public_company_stated_in_source": false,
+     "note": "bio reads 'El PAÍS and PRISA'"
+    }
+   ]
+  },
+  {
+   "key": "ryan-graves",
+   "full_name": "Ryan Graves",
+   "aliases": [
+    "Graves Ryan"
+   ],
+   "sec_cik": "0001775287",
+   "bio_other_public_boards": []
+  }
+ ],
+ "memberships": [
+  {
+   "person_key": "dara-khosrowshahi",
+   "start_date": "2017-09",
+   "start_date_precision": "month",
+   "start_date_basis": "prospectus/proxy bio 'Chief Executive Officer and ... member of our board ... since September 2017'; 2026 proxy 'Director Since: September 2017'",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e014",
+    "e160",
+    "e034",
+    "e083"
+   ],
+   "board_class": null,
+   "notes": "Pre-IPO director (CEO seat under the voting agreement). Form 3 date (2019-05-09) is the IPO date, not his start. Re-elected annually; latest 2026-05-04."
+  },
+  {
+   "person_key": "ronald-sugar",
+   "start_date": "2018-07",
+   "start_date_precision": "month",
+   "start_date_basis": "2026 proxy 'Director Since: July 2018'; prospectus/proxy bio 'Chairperson of our board ... since July 2018'",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e016",
+    "e147",
+    "e008",
+    "e035",
+    "e081"
+   ],
+   "board_class": null,
+   "notes": "Pre-IPO director; joined as Chairperson (unaffiliated chair seat under the voting agreement). Re-elected annually; latest 2026-05-04."
+  },
+  {
+   "person_key": "ursula-burns",
+   "start_date": "2017",
+   "start_date_precision": "year",
+   "start_date_basis": "IPO prospectus and 2020 proxy say 'since September 2017'; 2021-2026 proxies say 'since October 2017'. Recorded at year precision (see conflicts).",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e017",
+    "e093",
+    "e100",
+    "e154",
+    "e006",
+    "e036",
+    "e082"
+   ],
+   "board_class": null,
+   "notes": "Pre-IPO director (Kalanick-designated seat under the voting agreement). Month is September or October 2017 depending on the filing."
+  },
+  {
+   "person_key": "john-thain",
+   "start_date": "2017",
+   "start_date_precision": "year",
+   "start_date_basis": "IPO prospectus and 2020 proxy say 'since September 2017'; 2021-2026 proxies say 'since October 2017'. Recorded at year precision (see conflicts).",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e032",
+    "e094",
+    "e101",
+    "e162",
+    "e006",
+    "e044",
+    "e083"
+   ],
+   "board_class": null,
+   "notes": "Pre-IPO director (Kalanick-designated seat under the voting agreement). Month is September or October 2017 depending on the filing."
+  },
+  {
+   "person_key": "amanda-ginsberg",
+   "start_date": "2020-02-14",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 appointment date (Form 3 event date agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e056",
+    "e046",
+    "e158",
+    "e082"
+   ],
+   "board_class": null,
+   "notes": "Appointed by the board; first post-IPO addition."
+  },
+  {
+   "person_key": "robert-eckert",
+   "start_date": "2020-03-20",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 appointment date (Form 3 event date agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e059",
+    "e047",
+    "e156",
+    "e082"
+   ],
+   "board_class": null,
+   "notes": "Appointed by the board as an independent director."
+  },
+  {
+   "person_key": "revathi-advaithi",
+   "start_date": "2020-07-01",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 appointment date (Form 3 event date agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e061",
+    "e048",
+    "e149",
+    "e081"
+   ],
+   "board_class": null,
+   "notes": "Appointed by the board as an independent director."
+  },
+  {
+   "person_key": "alexander-wynaendts",
+   "start_date": "2021-03-22",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 appointment date (Form 3 event date agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e063",
+    "e049",
+    "e164",
+    "e083"
+   ],
+   "board_class": null,
+   "notes": "Appointed by the board. Also chairs the supervisory board of Uber Payments B.V., a Company subsidiary."
+  },
+  {
+   "person_key": "turqi-alnowaiser",
+   "start_date": "2023-11-16",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 appointment date (Form 3 event date agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e066",
+    "e050",
+    "e150",
+    "e081"
+   ],
+   "board_class": null,
+   "notes": "Appointed by the board; Deputy Governor of The Public Investment Fund (Uber stockholder). Joined after Al-Rumayyan (PIF Governor) left in May 2023."
+  },
+  {
+   "person_key": "nikesh-arora",
+   "start_date": "2025-05-31",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 appointment date (Form 3 event date agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e069",
+    "e051",
+    "e152",
+    "e081"
+   ],
+   "board_class": null,
+   "notes": "Appointed by the board; first elected by stockholders 2026-05-04."
+  },
+  {
+   "person_key": "david-trujillo",
+   "start_date": "2017-06",
+   "start_date_precision": "month",
+   "start_date_basis": "prospectus/proxy bio 'served on our board ... since June 2017'",
+   "end_date": "2026-05-04",
+   "end_date_precision": "day",
+   "end_reason": "did_not_stand",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e033",
+    "e132",
+    "e007",
+    "e045",
+    "e138",
+    "e139",
+    "e078",
+    "e079"
+   ],
+   "board_class": null,
+   "notes": "Pre-IPO director (TPG-designated seat). Not renominated in 2026 ('ten of the eleven current directors'); term ended at the 2026-05-04 annual meeting. Filings don't say whose decision it was."
+  },
+  {
+   "person_key": "wan-ling-martello",
+   "start_date": "2017-06",
+   "start_date_precision": "month",
+   "start_date_basis": "prospectus/proxy bio 'served on our board ... since June 2017'",
+   "end_date": "2025-05-05",
+   "end_date_precision": "day",
+   "end_reason": "did_not_stand",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e030",
+    "e008",
+    "e042",
+    "e068",
+    "e129",
+    "e076",
+    "e077"
+   ],
+   "board_class": null,
+   "notes": "Pre-IPO director. Told the company on 2025-02-04 she would not stand for re-election; term ended at the 2025-05-05 annual meeting."
+  },
+  {
+   "person_key": "yasir-al-rumayyan",
+   "start_date": "2016-06",
+   "start_date_precision": "month",
+   "start_date_basis": "prospectus/proxy bio 'served on our board ... since June 2016'",
+   "end_date": "2023-05-08",
+   "end_date_precision": "day",
+   "end_reason": "did_not_stand",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e031",
+    "e007",
+    "e043",
+    "e116",
+    "e117",
+    "e074",
+    "e075"
+   ],
+   "board_class": null,
+   "notes": "Pre-IPO director (PIF-designated seat). Not a 2023 nominee ('transition off our Board following the 2023 Annual Meeting'); term ended 2023-05-08. Filings don't say whose decision it was."
+  },
+  {
+   "person_key": "garrett-camp",
+   "start_date": "2010-07",
+   "start_date_precision": "month",
+   "start_date_basis": "prospectus bio 'co-founded Uber and has served on our board ... since July 2010'",
+   "end_date": "2020-05-11",
+   "end_date_precision": "day",
+   "end_reason": "did_not_stand",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e018",
+    "e007",
+    "e037",
+    "e084",
+    "e085",
+    "e098",
+    "e072",
+    "e073"
+   ],
+   "board_class": null,
+   "notes": "Co-founder; pre-IPO director (Expa-designated seat). Did not stand for re-election in 2020; term ended at the 2020-05-11 annual meeting, after which he became a board observer (not a director)."
+  },
+  {
+   "person_key": "travis-kalanick",
+   "start_date": "2010-07",
+   "start_date_precision": "month",
+   "start_date_basis": "prospectus bio 'co-founded Uber and has served on our board ... since July 2010'",
+   "end_date": "2019-12-31",
+   "end_date_precision": "day",
+   "end_reason": "resigned",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e027",
+    "e028",
+    "e006",
+    "e041",
+    "e055",
+    "e089"
+   ],
+   "board_class": null,
+   "notes": "Co-founder; CEO November 2010-June 2017. Resigned effective 2019-12-31 (notice 2019-12-23)."
+  },
+  {
+   "person_key": "matt-cohler",
+   "start_date": "2017-06",
+   "start_date_precision": "month",
+   "start_date_basis": "prospectus bio 'served on our board ... since June 2017'",
+   "end_date": "2019-07-24",
+   "end_date_precision": "day",
+   "end_reason": "resigned",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e020",
+    "e007",
+    "e038",
+    "e053",
+    "e089"
+   ],
+   "board_class": null,
+   "notes": "Pre-IPO director (Benchmark-designated seat). Resigned effective 2019-07-24."
+  },
+  {
+   "person_key": "arianna-huffington",
+   "start_date": "2016-04",
+   "start_date_precision": "month",
+   "start_date_basis": "prospectus bio 'served on our board ... since April 2016'",
+   "end_date": "2019-07-24",
+   "end_date_precision": "day",
+   "end_reason": "resigned",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e024",
+    "e008",
+    "e040",
+    "e054",
+    "e089"
+   ],
+   "board_class": null,
+   "notes": "Pre-IPO director. Resigned effective 2019-07-24 to focus on Thrive Global."
+  },
+  {
+   "person_key": "ryan-graves",
+   "start_date": "2010-07",
+   "start_date_precision": "month",
+   "start_date_basis": "prospectus bio 'served on our board ... since July 2010'",
+   "end_date": "2019-05-27",
+   "end_date_precision": "day",
+   "end_reason": "resigned",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e022",
+    "e023",
+    "e007",
+    "e039",
+    "e052",
+    "e089"
+   ],
+   "board_class": null,
+   "notes": "Pre-IPO director (self-designated seat); former CEO and operations executive. Resigned effective 2019-05-27, 17 days after the IPO."
+  }
+ ],
+ "roles": [
+  {
+   "person_key": "dara-khosrowshahi",
+   "role": "ceo_director",
+   "start_date": "2017-09",
+   "end_date": null,
+   "precision": "month",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e014",
+    "e160",
+    "e010",
+    "e142"
+   ],
+   "notes": "CEO and director since September 2017; found not independent in every determination."
+  },
+  {
+   "person_key": "ronald-sugar",
+   "role": "chair",
+   "start_date": "2018-07",
+   "end_date": null,
+   "precision": "month",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e016",
+    "e147",
+    "e143",
+    "e141"
+   ],
+   "notes": "Independent Chairperson since July 2018 (pre-IPO start). Governance guidelines require a separate, independent chair; there is no lead independent director role."
+  },
+  {
+   "person_key": "ronald-sugar",
+   "role": "independent_director",
+   "start_date": "2018-07",
+   "end_date": null,
+   "precision": "month",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e009",
+    "e088",
+    "e104",
+    "e110",
+    "e118",
+    "e123",
+    "e131",
+    "e142"
+   ],
+   "notes": "Found independent in every disclosed determination (IPO prospectus, then each proxy). Start aligned to board start; the filings don't date independence on its own."
+  },
+  {
+   "person_key": "ursula-burns",
+   "role": "independent_director",
+   "start_date": "2017",
+   "end_date": null,
+   "precision": "year",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e009",
+    "e088",
+    "e104",
+    "e110",
+    "e118",
+    "e123",
+    "e131",
+    "e142"
+   ],
+   "notes": "Found independent in every disclosed determination. Start aligned to board start (year precision; see conflicts)."
+  },
+  {
+   "person_key": "john-thain",
+   "role": "independent_director",
+   "start_date": "2017",
+   "end_date": null,
+   "precision": "year",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e009",
+    "e088",
+    "e104",
+    "e110",
+    "e118",
+    "e123",
+    "e131",
+    "e142"
+   ],
+   "notes": "Found independent in every disclosed determination. Start aligned to board start (year precision; see conflicts)."
+  },
+  {
+   "person_key": "amanda-ginsberg",
+   "role": "independent_director",
+   "start_date": "2020-02-14",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e056",
+    "e088",
+    "e142"
+   ],
+   "notes": "First disclosed determination: 2020 proxy; independent in every later proxy. Start aligned to appointment date."
+  },
+  {
+   "person_key": "robert-eckert",
+   "role": "independent_director",
+   "start_date": "2020-03-20",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e059",
+    "e088",
+    "e142"
+   ],
+   "notes": "First disclosed determination: appointment 8-K ('as an independent director'), then 2020 proxy; independent in every later proxy. Start aligned to appointment date."
+  },
+  {
+   "person_key": "revathi-advaithi",
+   "role": "independent_director",
+   "start_date": "2020-07-01",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e061",
+    "e104",
+    "e142"
+   ],
+   "notes": "First disclosed determination: appointment 8-K ('as an independent director'), then 2021 proxy; independent in every later proxy. Start aligned to appointment date."
+  },
+  {
+   "person_key": "alexander-wynaendts",
+   "role": "independent_director",
+   "start_date": "2021-03-22",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e104",
+    "e142"
+   ],
+   "notes": "First disclosed determination: 2021 proxy; independent in every later proxy. Start aligned to appointment date."
+  },
+  {
+   "person_key": "turqi-alnowaiser",
+   "role": "independent_director",
+   "start_date": "2023-11-16",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e123",
+    "e142"
+   ],
+   "notes": "First disclosed determination: 2024 proxy; independent in every later proxy. Start aligned to appointment date."
+  },
+  {
+   "person_key": "nikesh-arora",
+   "role": "independent_director",
+   "start_date": "2025-05-31",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e142"
+   ],
+   "notes": "First disclosed determination: 2026 proxy; independent in every later proxy. Start aligned to appointment date."
+  },
+  {
+   "person_key": "david-trujillo",
+   "role": "independent_director",
+   "start_date": "2017-06",
+   "end_date": "2026-05-04",
+   "precision": "month",
+   "end_precision": "day",
+   "confidence": "medium",
+   "evidence_refs": [
+    "e009",
+    "e088",
+    "e104",
+    "e110",
+    "e118",
+    "e123",
+    "e131",
+    "e142"
+   ],
+   "notes": "Found independent in every disclosed determination. Start aligned to board start."
+  },
+  {
+   "person_key": "wan-ling-martello",
+   "role": "independent_director",
+   "start_date": "2017-06",
+   "end_date": "2025-05-05",
+   "precision": "month",
+   "end_precision": "day",
+   "confidence": "medium",
+   "evidence_refs": [
+    "e009",
+    "e088",
+    "e104",
+    "e110",
+    "e118",
+    "e123",
+    "e131"
+   ],
+   "notes": "Found independent in every disclosed determination. Start aligned to board start."
+  },
+  {
+   "person_key": "yasir-al-rumayyan",
+   "role": "independent_director",
+   "start_date": "2016-06",
+   "end_date": "2023-05-08",
+   "precision": "month",
+   "end_precision": "day",
+   "confidence": "medium",
+   "evidence_refs": [
+    "e009",
+    "e088",
+    "e104",
+    "e110",
+    "e118"
+   ],
+   "notes": "Found independent in every disclosed determination (although he held the PIF-designated seat). Start aligned to board start."
+  },
+  {
+   "person_key": "garrett-camp",
+   "role": "independent_director",
+   "start_date": "2019-05-09",
+   "end_date": "2020-05-11",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "medium",
+   "evidence_refs": [
+    "e009",
+    "e088",
+    "e099"
+   ],
+   "notes": "Found independent at the IPO and in the 2020 proxy; the 2021 proxy says he was independent during his term. Start set to the first determination (prospectus date), not his 2010 board start, because the filings don't cover his pre-IPO status as a co-founder."
+  },
+  {
+   "person_key": "matt-cohler",
+   "role": "independent_director",
+   "start_date": "2017-06",
+   "end_date": "2019-07-24",
+   "precision": "month",
+   "end_precision": "day",
+   "confidence": "medium",
+   "evidence_refs": [
+    "e009",
+    "e091"
+   ],
+   "notes": "Found independent at the IPO; the 2020 proxy says he was independent during his term. Start aligned to board start."
+  },
+  {
+   "person_key": "arianna-huffington",
+   "role": "independent_director",
+   "start_date": "2016-04",
+   "end_date": "2019-07-24",
+   "precision": "month",
+   "end_precision": "day",
+   "confidence": "medium",
+   "evidence_refs": [
+    "e009",
+    "e092"
+   ],
+   "notes": "Found independent at the IPO; the 2020 proxy says she was independent during her term. Start aligned to board start."
+  },
+  {
+   "person_key": "travis-kalanick",
+   "role": "ceo_director",
+   "start_date": "2010-11",
+   "end_date": "2017-06",
+   "precision": "month",
+   "end_precision": "month",
+   "confidence": "high",
+   "evidence_refs": [
+    "e027",
+    "e028"
+   ],
+   "notes": "Pre-IPO CEO-director."
+  },
+  {
+   "person_key": "travis-kalanick",
+   "role": "non_independent_director",
+   "start_date": "2017-06",
+   "end_date": "2019-12-31",
+   "precision": "month",
+   "end_precision": "day",
+   "confidence": "medium",
+   "evidence_refs": [
+    "e010",
+    "e090"
+   ],
+   "notes": "Not independent at the IPO ('recently served as our Chief Executive Officer') or during his term (2020 proxy). Start aligned to the end of his CEO tenure."
+  },
+  {
+   "person_key": "ryan-graves",
+   "role": "ceo_director",
+   "start_date": "2010-07",
+   "end_date": "2010-11",
+   "precision": "month",
+   "end_precision": "month",
+   "confidence": "high",
+   "evidence_refs": [
+    "e022",
+    "e023"
+   ],
+   "notes": "Pre-IPO CEO-director, July to November 2010."
+  },
+  {
+   "person_key": "ryan-graves",
+   "role": "executive_director",
+   "start_date": "2011-11",
+   "end_date": "2017-09",
+   "precision": "month",
+   "end_precision": "month",
+   "confidence": "high",
+   "evidence_refs": [
+    "e022",
+    "e023"
+   ],
+   "notes": "Employee-director: VP Operations November 2011-September 2015, SVP Global Operations September 2015-September 2017. His role from November 2010 to November 2011 is not stated.",
+   "officer_title": "Vice President of Operations; Senior Vice President of Global Operations"
+  },
+  {
+   "person_key": "ryan-graves",
+   "role": "non_independent_director",
+   "start_date": "2017-09",
+   "end_date": "2019-05-27",
+   "precision": "month",
+   "end_precision": "day",
+   "confidence": "medium",
+   "evidence_refs": [
+    "e010",
+    "e090"
+   ],
+   "notes": "Not independent at the IPO ('recently served as our Senior Vice President, Operations') or during his term (2020 proxy). Start aligned to the end of his executive role."
+  }
+ ],
+ "committees": [
+  {
+   "person_key": "john-thain",
+   "committee": "audit",
+   "role": "chair",
+   "as_of_filing": "0001193125-19-144716",
+   "as_of_date": "2019-05-09",
+   "evidence_refs": [
+    "e011"
+   ]
+  },
+  {
+   "person_key": "ursula-burns",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001193125-19-144716",
+   "as_of_date": "2019-05-09",
+   "evidence_refs": [
+    "e011"
+   ]
+  },
+  {
+   "person_key": "matt-cohler",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001193125-19-144716",
+   "as_of_date": "2019-05-09",
+   "evidence_refs": [
+    "e011"
+   ]
+  },
+  {
+   "person_key": "wan-ling-martello",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001193125-19-144716",
+   "as_of_date": "2019-05-09",
+   "evidence_refs": [
+    "e011"
+   ]
+  },
+  {
+   "person_key": "ronald-sugar",
+   "committee": "nominating_governance",
+   "role": "chair",
+   "as_of_filing": "0001193125-19-144716",
+   "as_of_date": "2019-05-09",
+   "evidence_refs": [
+    "e012"
+   ]
+  },
+  {
+   "person_key": "ursula-burns",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001193125-19-144716",
+   "as_of_date": "2019-05-09",
+   "evidence_refs": [
+    "e012"
+   ]
+  },
+  {
+   "person_key": "wan-ling-martello",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001193125-19-144716",
+   "as_of_date": "2019-05-09",
+   "evidence_refs": [
+    "e012"
+   ]
+  },
+  {
+   "person_key": "david-trujillo",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001193125-19-144716",
+   "as_of_date": "2019-05-09",
+   "evidence_refs": [
+    "e012"
+   ]
+  },
+  {
+   "person_key": "david-trujillo",
+   "committee": "compensation",
+   "role": "chair",
+   "as_of_filing": "0001193125-19-144716",
+   "as_of_date": "2019-05-09",
+   "evidence_refs": [
+    "e013"
+   ]
+  },
+  {
+   "person_key": "ryan-graves",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001193125-19-144716",
+   "as_of_date": "2019-05-09",
+   "evidence_refs": [
+    "e013"
+   ]
+  },
+  {
+   "person_key": "arianna-huffington",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001193125-19-144716",
+   "as_of_date": "2019-05-09",
+   "evidence_refs": [
+    "e013"
+   ]
+  },
+  {
+   "person_key": "john-thain",
+   "committee": "audit",
+   "role": "chair",
+   "as_of_filing": "0001552781-20-000238",
+   "as_of_date": "2020-03-30",
+   "evidence_refs": [
+    "e095"
+   ]
+  },
+  {
+   "person_key": "ursula-burns",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001552781-20-000238",
+   "as_of_date": "2020-03-30",
+   "evidence_refs": [
+    "e095"
+   ]
+  },
+  {
+   "person_key": "amanda-ginsberg",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001552781-20-000238",
+   "as_of_date": "2020-03-30",
+   "evidence_refs": [
+    "e095"
+   ]
+  },
+  {
+   "person_key": "yasir-al-rumayyan",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001552781-20-000238",
+   "as_of_date": "2020-03-30",
+   "evidence_refs": [
+    "e095"
+   ]
+  },
+  {
+   "person_key": "ronald-sugar",
+   "committee": "nominating_governance",
+   "role": "chair",
+   "as_of_filing": "0001552781-20-000238",
+   "as_of_date": "2020-03-30",
+   "evidence_refs": [
+    "e096"
+   ]
+  },
+  {
+   "person_key": "ursula-burns",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001552781-20-000238",
+   "as_of_date": "2020-03-30",
+   "evidence_refs": [
+    "e096"
+   ]
+  },
+  {
+   "person_key": "robert-eckert",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001552781-20-000238",
+   "as_of_date": "2020-03-30",
+   "evidence_refs": [
+    "e096"
+   ]
+  },
+  {
+   "person_key": "wan-ling-martello",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001552781-20-000238",
+   "as_of_date": "2020-03-30",
+   "evidence_refs": [
+    "e096"
+   ]
+  },
+  {
+   "person_key": "david-trujillo",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001552781-20-000238",
+   "as_of_date": "2020-03-30",
+   "evidence_refs": [
+    "e096"
+   ]
+  },
+  {
+   "person_key": "david-trujillo",
+   "committee": "compensation",
+   "role": "chair",
+   "as_of_filing": "0001552781-20-000238",
+   "as_of_date": "2020-03-30",
+   "evidence_refs": [
+    "e097"
+   ]
+  },
+  {
+   "person_key": "robert-eckert",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001552781-20-000238",
+   "as_of_date": "2020-03-30",
+   "evidence_refs": [
+    "e097"
+   ]
+  },
+  {
+   "person_key": "wan-ling-martello",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001552781-20-000238",
+   "as_of_date": "2020-03-30",
+   "evidence_refs": [
+    "e097"
+   ]
+  },
+  {
+   "person_key": "ronald-sugar",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001552781-20-000238",
+   "as_of_date": "2020-03-30",
+   "evidence_refs": [
+    "e097"
+   ]
+  },
+  {
+   "person_key": "john-thain",
+   "committee": "audit",
+   "role": "chair",
+   "as_of_filing": "0001552781-21-000157",
+   "as_of_date": "2021-03-29",
+   "evidence_refs": [
+    "e106"
+   ]
+  },
+  {
+   "person_key": "revathi-advaithi",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001552781-21-000157",
+   "as_of_date": "2021-03-29",
+   "evidence_refs": [
+    "e106"
+   ]
+  },
+  {
+   "person_key": "ursula-burns",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001552781-21-000157",
+   "as_of_date": "2021-03-29",
+   "evidence_refs": [
+    "e106"
+   ]
+  },
+  {
+   "person_key": "amanda-ginsberg",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001552781-21-000157",
+   "as_of_date": "2021-03-29",
+   "evidence_refs": [
+    "e106"
+   ]
+  },
+  {
+   "person_key": "yasir-al-rumayyan",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001552781-21-000157",
+   "as_of_date": "2021-03-29",
+   "evidence_refs": [
+    "e106"
+   ]
+  },
+  {
+   "person_key": "alexander-wynaendts",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001552781-21-000157",
+   "as_of_date": "2021-03-29",
+   "evidence_refs": [
+    "e106"
+   ]
+  },
+  {
+   "person_key": "ronald-sugar",
+   "committee": "nominating_governance",
+   "role": "chair",
+   "as_of_filing": "0001552781-21-000157",
+   "as_of_date": "2021-03-29",
+   "evidence_refs": [
+    "e107"
+   ]
+  },
+  {
+   "person_key": "ursula-burns",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001552781-21-000157",
+   "as_of_date": "2021-03-29",
+   "evidence_refs": [
+    "e107"
+   ]
+  },
+  {
+   "person_key": "robert-eckert",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001552781-21-000157",
+   "as_of_date": "2021-03-29",
+   "evidence_refs": [
+    "e107"
+   ]
+  },
+  {
+   "person_key": "wan-ling-martello",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001552781-21-000157",
+   "as_of_date": "2021-03-29",
+   "evidence_refs": [
+    "e107"
+   ]
+  },
+  {
+   "person_key": "david-trujillo",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001552781-21-000157",
+   "as_of_date": "2021-03-29",
+   "evidence_refs": [
+    "e107"
+   ]
+  },
+  {
+   "person_key": "david-trujillo",
+   "committee": "compensation",
+   "role": "chair",
+   "as_of_filing": "0001552781-21-000157",
+   "as_of_date": "2021-03-29",
+   "evidence_refs": [
+    "e108"
+   ]
+  },
+  {
+   "person_key": "robert-eckert",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001552781-21-000157",
+   "as_of_date": "2021-03-29",
+   "evidence_refs": [
+    "e108"
+   ]
+  },
+  {
+   "person_key": "wan-ling-martello",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001552781-21-000157",
+   "as_of_date": "2021-03-29",
+   "evidence_refs": [
+    "e108"
+   ]
+  },
+  {
+   "person_key": "ronald-sugar",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001552781-21-000157",
+   "as_of_date": "2021-03-29",
+   "evidence_refs": [
+    "e108"
+   ]
+  },
+  {
+   "person_key": "john-thain",
+   "committee": "audit",
+   "role": "chair",
+   "as_of_filing": "0001552781-22-000289",
+   "as_of_date": "2022-03-28",
+   "evidence_refs": [
+    "e113"
+   ]
+  },
+  {
+   "person_key": "revathi-advaithi",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001552781-22-000289",
+   "as_of_date": "2022-03-28",
+   "evidence_refs": [
+    "e113"
+   ]
+  },
+  {
+   "person_key": "ursula-burns",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001552781-22-000289",
+   "as_of_date": "2022-03-28",
+   "evidence_refs": [
+    "e113"
+   ]
+  },
+  {
+   "person_key": "yasir-al-rumayyan",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001552781-22-000289",
+   "as_of_date": "2022-03-28",
+   "evidence_refs": [
+    "e113"
+   ]
+  },
+  {
+   "person_key": "alexander-wynaendts",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001552781-22-000289",
+   "as_of_date": "2022-03-28",
+   "evidence_refs": [
+    "e113"
+   ]
+  },
+  {
+   "person_key": "ronald-sugar",
+   "committee": "nominating_governance",
+   "role": "chair",
+   "as_of_filing": "0001552781-22-000289",
+   "as_of_date": "2022-03-28",
+   "evidence_refs": [
+    "e114"
+   ]
+  },
+  {
+   "person_key": "ursula-burns",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001552781-22-000289",
+   "as_of_date": "2022-03-28",
+   "evidence_refs": [
+    "e114"
+   ]
+  },
+  {
+   "person_key": "robert-eckert",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001552781-22-000289",
+   "as_of_date": "2022-03-28",
+   "evidence_refs": [
+    "e114"
+   ]
+  },
+  {
+   "person_key": "wan-ling-martello",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001552781-22-000289",
+   "as_of_date": "2022-03-28",
+   "evidence_refs": [
+    "e114"
+   ]
+  },
+  {
+   "person_key": "david-trujillo",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001552781-22-000289",
+   "as_of_date": "2022-03-28",
+   "evidence_refs": [
+    "e114"
+   ]
+  },
+  {
+   "person_key": "robert-eckert",
+   "committee": "compensation",
+   "role": "chair",
+   "as_of_filing": "0001552781-22-000289",
+   "as_of_date": "2022-03-28",
+   "evidence_refs": [
+    "e115"
+   ]
+  },
+  {
+   "person_key": "amanda-ginsberg",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001552781-22-000289",
+   "as_of_date": "2022-03-28",
+   "evidence_refs": [
+    "e115"
+   ]
+  },
+  {
+   "person_key": "wan-ling-martello",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001552781-22-000289",
+   "as_of_date": "2022-03-28",
+   "evidence_refs": [
+    "e115"
+   ]
+  },
+  {
+   "person_key": "ronald-sugar",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001552781-22-000289",
+   "as_of_date": "2022-03-28",
+   "evidence_refs": [
+    "e115"
+   ]
+  },
+  {
+   "person_key": "david-trujillo",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001552781-22-000289",
+   "as_of_date": "2022-03-28",
+   "evidence_refs": [
+    "e115"
+   ]
+  },
+  {
+   "person_key": "john-thain",
+   "committee": "audit",
+   "role": "chair",
+   "as_of_filing": "0001552781-23-000193",
+   "as_of_date": "2023-03-28",
+   "evidence_refs": [
+    "e119"
+   ]
+  },
+  {
+   "person_key": "revathi-advaithi",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001552781-23-000193",
+   "as_of_date": "2023-03-28",
+   "evidence_refs": [
+    "e119"
+   ]
+  },
+  {
+   "person_key": "ursula-burns",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001552781-23-000193",
+   "as_of_date": "2023-03-28",
+   "evidence_refs": [
+    "e119"
+   ]
+  },
+  {
+   "person_key": "yasir-al-rumayyan",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001552781-23-000193",
+   "as_of_date": "2023-03-28",
+   "evidence_refs": [
+    "e119"
+   ]
+  },
+  {
+   "person_key": "alexander-wynaendts",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001552781-23-000193",
+   "as_of_date": "2023-03-28",
+   "evidence_refs": [
+    "e119"
+   ]
+  },
+  {
+   "person_key": "ronald-sugar",
+   "committee": "nominating_governance",
+   "role": "chair",
+   "as_of_filing": "0001552781-23-000193",
+   "as_of_date": "2023-03-28",
+   "evidence_refs": [
+    "e120"
+   ]
+  },
+  {
+   "person_key": "ursula-burns",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001552781-23-000193",
+   "as_of_date": "2023-03-28",
+   "evidence_refs": [
+    "e120"
+   ]
+  },
+  {
+   "person_key": "robert-eckert",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001552781-23-000193",
+   "as_of_date": "2023-03-28",
+   "evidence_refs": [
+    "e120"
+   ]
+  },
+  {
+   "person_key": "wan-ling-martello",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001552781-23-000193",
+   "as_of_date": "2023-03-28",
+   "evidence_refs": [
+    "e120"
+   ]
+  },
+  {
+   "person_key": "david-trujillo",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001552781-23-000193",
+   "as_of_date": "2023-03-28",
+   "evidence_refs": [
+    "e120"
+   ]
+  },
+  {
+   "person_key": "robert-eckert",
+   "committee": "compensation",
+   "role": "chair",
+   "as_of_filing": "0001552781-23-000193",
+   "as_of_date": "2023-03-28",
+   "evidence_refs": [
+    "e121"
+   ]
+  },
+  {
+   "person_key": "amanda-ginsberg",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001552781-23-000193",
+   "as_of_date": "2023-03-28",
+   "evidence_refs": [
+    "e121"
+   ]
+  },
+  {
+   "person_key": "wan-ling-martello",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001552781-23-000193",
+   "as_of_date": "2023-03-28",
+   "evidence_refs": [
+    "e121"
+   ]
+  },
+  {
+   "person_key": "ronald-sugar",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001552781-23-000193",
+   "as_of_date": "2023-03-28",
+   "evidence_refs": [
+    "e121"
+   ]
+  },
+  {
+   "person_key": "david-trujillo",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001552781-23-000193",
+   "as_of_date": "2023-03-28",
+   "evidence_refs": [
+    "e121"
+   ]
+  },
+  {
+   "person_key": "john-thain",
+   "committee": "audit",
+   "role": "chair",
+   "as_of_filing": "0001552781-24-000177",
+   "as_of_date": "2024-03-25",
+   "evidence_refs": [
+    "e126"
+   ]
+  },
+  {
+   "person_key": "revathi-advaithi",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001552781-24-000177",
+   "as_of_date": "2024-03-25",
+   "evidence_refs": [
+    "e126"
+   ]
+  },
+  {
+   "person_key": "turqi-alnowaiser",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001552781-24-000177",
+   "as_of_date": "2024-03-25",
+   "evidence_refs": [
+    "e126"
+   ]
+  },
+  {
+   "person_key": "ursula-burns",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001552781-24-000177",
+   "as_of_date": "2024-03-25",
+   "evidence_refs": [
+    "e126"
+   ]
+  },
+  {
+   "person_key": "alexander-wynaendts",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001552781-24-000177",
+   "as_of_date": "2024-03-25",
+   "evidence_refs": [
+    "e126"
+   ]
+  },
+  {
+   "person_key": "ronald-sugar",
+   "committee": "nominating_governance",
+   "role": "chair",
+   "as_of_filing": "0001552781-24-000177",
+   "as_of_date": "2024-03-25",
+   "evidence_refs": [
+    "e127"
+   ]
+  },
+  {
+   "person_key": "ursula-burns",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001552781-24-000177",
+   "as_of_date": "2024-03-25",
+   "evidence_refs": [
+    "e127"
+   ]
+  },
+  {
+   "person_key": "robert-eckert",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001552781-24-000177",
+   "as_of_date": "2024-03-25",
+   "evidence_refs": [
+    "e127"
+   ]
+  },
+  {
+   "person_key": "wan-ling-martello",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001552781-24-000177",
+   "as_of_date": "2024-03-25",
+   "evidence_refs": [
+    "e127"
+   ]
+  },
+  {
+   "person_key": "david-trujillo",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001552781-24-000177",
+   "as_of_date": "2024-03-25",
+   "evidence_refs": [
+    "e127"
+   ]
+  },
+  {
+   "person_key": "robert-eckert",
+   "committee": "compensation",
+   "role": "chair",
+   "as_of_filing": "0001552781-24-000177",
+   "as_of_date": "2024-03-25",
+   "evidence_refs": [
+    "e128"
+   ]
+  },
+  {
+   "person_key": "amanda-ginsberg",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001552781-24-000177",
+   "as_of_date": "2024-03-25",
+   "evidence_refs": [
+    "e128"
+   ]
+  },
+  {
+   "person_key": "wan-ling-martello",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001552781-24-000177",
+   "as_of_date": "2024-03-25",
+   "evidence_refs": [
+    "e128"
+   ]
+  },
+  {
+   "person_key": "ronald-sugar",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001552781-24-000177",
+   "as_of_date": "2024-03-25",
+   "evidence_refs": [
+    "e128"
+   ]
+  },
+  {
+   "person_key": "david-trujillo",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001552781-24-000177",
+   "as_of_date": "2024-03-25",
+   "evidence_refs": [
+    "e128"
+   ]
+  },
+  {
+   "person_key": "john-thain",
+   "committee": "audit",
+   "role": "chair",
+   "as_of_filing": "0001308179-25-000210",
+   "as_of_date": "2025-03-24",
+   "evidence_refs": [
+    "e133"
+   ]
+  },
+  {
+   "person_key": "revathi-advaithi",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001308179-25-000210",
+   "as_of_date": "2025-03-24",
+   "evidence_refs": [
+    "e133"
+   ]
+  },
+  {
+   "person_key": "turqi-alnowaiser",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001308179-25-000210",
+   "as_of_date": "2025-03-24",
+   "evidence_refs": [
+    "e133"
+   ]
+  },
+  {
+   "person_key": "ursula-burns",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001308179-25-000210",
+   "as_of_date": "2025-03-24",
+   "evidence_refs": [
+    "e133"
+   ]
+  },
+  {
+   "person_key": "alexander-wynaendts",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001308179-25-000210",
+   "as_of_date": "2025-03-24",
+   "evidence_refs": [
+    "e133"
+   ]
+  },
+  {
+   "person_key": "ronald-sugar",
+   "committee": "nominating_governance",
+   "role": "chair",
+   "as_of_filing": "0001308179-25-000210",
+   "as_of_date": "2025-03-24",
+   "evidence_refs": [
+    "e134"
+   ]
+  },
+  {
+   "person_key": "ursula-burns",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001308179-25-000210",
+   "as_of_date": "2025-03-24",
+   "evidence_refs": [
+    "e134"
+   ]
+  },
+  {
+   "person_key": "robert-eckert",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001308179-25-000210",
+   "as_of_date": "2025-03-24",
+   "evidence_refs": [
+    "e134"
+   ]
+  },
+  {
+   "person_key": "wan-ling-martello",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001308179-25-000210",
+   "as_of_date": "2025-03-24",
+   "evidence_refs": [
+    "e134"
+   ]
+  },
+  {
+   "person_key": "david-trujillo",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001308179-25-000210",
+   "as_of_date": "2025-03-24",
+   "evidence_refs": [
+    "e134"
+   ]
+  },
+  {
+   "person_key": "robert-eckert",
+   "committee": "compensation",
+   "role": "chair",
+   "as_of_filing": "0001308179-25-000210",
+   "as_of_date": "2025-03-24",
+   "evidence_refs": [
+    "e135"
+   ]
+  },
+  {
+   "person_key": "amanda-ginsberg",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001308179-25-000210",
+   "as_of_date": "2025-03-24",
+   "evidence_refs": [
+    "e135"
+   ]
+  },
+  {
+   "person_key": "wan-ling-martello",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001308179-25-000210",
+   "as_of_date": "2025-03-24",
+   "evidence_refs": [
+    "e135"
+   ]
+  },
+  {
+   "person_key": "ronald-sugar",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001308179-25-000210",
+   "as_of_date": "2025-03-24",
+   "evidence_refs": [
+    "e135"
+   ]
+  },
+  {
+   "person_key": "david-trujillo",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001308179-25-000210",
+   "as_of_date": "2025-03-24",
+   "evidence_refs": [
+    "e135"
+   ]
+  },
+  {
+   "person_key": "john-thain",
+   "committee": "audit",
+   "role": "chair",
+   "as_of_filing": "0001308179-26-000303",
+   "as_of_date": "2026-03-23",
+   "evidence_refs": [
+    "e144"
+   ]
+  },
+  {
+   "person_key": "revathi-advaithi",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001308179-26-000303",
+   "as_of_date": "2026-03-23",
+   "evidence_refs": [
+    "e144"
+   ]
+  },
+  {
+   "person_key": "turqi-alnowaiser",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001308179-26-000303",
+   "as_of_date": "2026-03-23",
+   "evidence_refs": [
+    "e144"
+   ]
+  },
+  {
+   "person_key": "ursula-burns",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001308179-26-000303",
+   "as_of_date": "2026-03-23",
+   "evidence_refs": [
+    "e144"
+   ]
+  },
+  {
+   "person_key": "alexander-wynaendts",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001308179-26-000303",
+   "as_of_date": "2026-03-23",
+   "evidence_refs": [
+    "e144"
+   ]
+  },
+  {
+   "person_key": "ronald-sugar",
+   "committee": "nominating_governance",
+   "role": "chair",
+   "as_of_filing": "0001308179-26-000303",
+   "as_of_date": "2026-03-23",
+   "evidence_refs": [
+    "e145"
+   ]
+  },
+  {
+   "person_key": "nikesh-arora",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001308179-26-000303",
+   "as_of_date": "2026-03-23",
+   "evidence_refs": [
+    "e145"
+   ]
+  },
+  {
+   "person_key": "ursula-burns",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001308179-26-000303",
+   "as_of_date": "2026-03-23",
+   "evidence_refs": [
+    "e145"
+   ]
+  },
+  {
+   "person_key": "robert-eckert",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001308179-26-000303",
+   "as_of_date": "2026-03-23",
+   "evidence_refs": [
+    "e145"
+   ]
+  },
+  {
+   "person_key": "amanda-ginsberg",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001308179-26-000303",
+   "as_of_date": "2026-03-23",
+   "evidence_refs": [
+    "e145"
+   ]
+  },
+  {
+   "person_key": "david-trujillo",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001308179-26-000303",
+   "as_of_date": "2026-03-23",
+   "evidence_refs": [
+    "e145"
+   ]
+  },
+  {
+   "person_key": "robert-eckert",
+   "committee": "compensation",
+   "role": "chair",
+   "as_of_filing": "0001308179-26-000303",
+   "as_of_date": "2026-03-23",
+   "evidence_refs": [
+    "e146"
+   ]
+  },
+  {
+   "person_key": "nikesh-arora",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001308179-26-000303",
+   "as_of_date": "2026-03-23",
+   "evidence_refs": [
+    "e146"
+   ]
+  },
+  {
+   "person_key": "amanda-ginsberg",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001308179-26-000303",
+   "as_of_date": "2026-03-23",
+   "evidence_refs": [
+    "e146"
+   ]
+  },
+  {
+   "person_key": "ronald-sugar",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001308179-26-000303",
+   "as_of_date": "2026-03-23",
+   "evidence_refs": [
+    "e146"
+   ]
+  },
+  {
+   "person_key": "david-trujillo",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001308179-26-000303",
+   "as_of_date": "2026-03-23",
+   "evidence_refs": [
+    "e146"
+   ]
+  },
+  {
+   "person_key": "amanda-ginsberg",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001552781-20-000149",
+   "as_of_date": "2020-02-14",
+   "evidence_refs": [
+    "e057"
+   ]
+  },
+  {
+   "person_key": "robert-eckert",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001552781-20-000209",
+   "as_of_date": "2020-03-20",
+   "evidence_refs": [
+    "e060"
+   ]
+  },
+  {
+   "person_key": "robert-eckert",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001552781-20-000209",
+   "as_of_date": "2020-03-20",
+   "evidence_refs": [
+    "e060"
+   ]
+  },
+  {
+   "person_key": "revathi-advaithi",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001552781-20-000407",
+   "as_of_date": "2020-07-01",
+   "evidence_refs": [
+    "e062"
+   ]
+  },
+  {
+   "person_key": "alexander-wynaendts",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001552781-21-000144",
+   "as_of_date": "2021-03-22",
+   "evidence_refs": [
+    "e064"
+   ]
+  },
+  {
+   "person_key": "turqi-alnowaiser",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001552781-23-000451",
+   "as_of_date": "2023-11-16",
+   "evidence_refs": [
+    "e067"
+   ]
+  },
+  {
+   "person_key": "nikesh-arora",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001552781-25-000203",
+   "as_of_date": "2025-05-31",
+   "evidence_refs": [
+    "e070"
+   ]
+  },
+  {
+   "person_key": "nikesh-arora",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001552781-25-000203",
+   "as_of_date": "2025-05-31",
+   "evidence_refs": [
+    "e070"
+   ]
+  }
+ ],
+ "events": [
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "ryan-graves",
+   "event_date": "2010-07",
+   "announced_date": null,
+   "evidence_refs": [
+    "e022"
+   ],
+   "summary": "Ryan Graves joins board (and is CEO July-November 2010).",
+   "event_date_precision": "month"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "travis-kalanick",
+   "event_date": "2010-07",
+   "announced_date": null,
+   "evidence_refs": [
+    "e027"
+   ],
+   "summary": "Travis Kalanick (co-founder) joins board.",
+   "event_date_precision": "month"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "garrett-camp",
+   "event_date": "2010-07",
+   "announced_date": null,
+   "evidence_refs": [
+    "e018"
+   ],
+   "summary": "Garrett Camp (co-founder) joins board.",
+   "event_date_precision": "month"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "ryan-graves",
+   "event_date": "2010-07",
+   "announced_date": null,
+   "evidence_refs": [
+    "e023"
+   ],
+   "summary": "Graves becomes CEO (to November 2010).",
+   "event_date_precision": "month"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "travis-kalanick",
+   "event_date": "2010-11",
+   "announced_date": null,
+   "evidence_refs": [
+    "e028"
+   ],
+   "summary": "Kalanick becomes CEO.",
+   "event_date_precision": "month"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "arianna-huffington",
+   "event_date": "2016-04",
+   "announced_date": null,
+   "evidence_refs": [
+    "e024"
+   ],
+   "summary": "Arianna Huffington joins board.",
+   "event_date_precision": "month"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "yasir-al-rumayyan",
+   "event_date": "2016-06",
+   "announced_date": null,
+   "evidence_refs": [
+    "e031"
+   ],
+   "summary": "Yasir Al-Rumayyan joins board (PIF seat).",
+   "event_date_precision": "month"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "matt-cohler",
+   "event_date": "2017-06",
+   "announced_date": null,
+   "evidence_refs": [
+    "e020"
+   ],
+   "summary": "Matt Cohler joins board (Benchmark seat).",
+   "event_date_precision": "month"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "wan-ling-martello",
+   "event_date": "2017-06",
+   "announced_date": null,
+   "evidence_refs": [
+    "e030"
+   ],
+   "summary": "Wan Ling Martello joins board.",
+   "event_date_precision": "month"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "david-trujillo",
+   "event_date": "2017-06",
+   "announced_date": null,
+   "evidence_refs": [
+    "e033"
+   ],
+   "summary": "David Trujillo joins board (TPG seat).",
+   "event_date_precision": "month"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "travis-kalanick",
+   "event_date": "2017-06",
+   "announced_date": null,
+   "evidence_refs": [
+    "e028"
+   ],
+   "summary": "Kalanick's CEO tenure ends; he stays on the board.",
+   "event_date_precision": "month"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "dara-khosrowshahi",
+   "event_date": "2017-09",
+   "announced_date": null,
+   "evidence_refs": [
+    "e014",
+    "e160"
+   ],
+   "summary": "Dara Khosrowshahi joins board as CEO.",
+   "event_date_precision": "month"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "dara-khosrowshahi",
+   "event_date": "2017-09",
+   "announced_date": null,
+   "evidence_refs": [
+    "e014"
+   ],
+   "summary": "Khosrowshahi becomes CEO.",
+   "event_date_precision": "month"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "ryan-graves",
+   "event_date": "2017-09",
+   "announced_date": null,
+   "evidence_refs": [
+    "e023"
+   ],
+   "summary": "Graves leaves his SVP Global Operations role; stays on the board as a non-employee.",
+   "event_date_precision": "month"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "ursula-burns",
+   "event_date": "2017",
+   "announced_date": null,
+   "evidence_refs": [
+    "e017",
+    "e154"
+   ],
+   "summary": "Ursula Burns joins board (September 2017 per prospectus, October 2017 per 2021-2026 proxies).",
+   "event_date_precision": "year"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "john-thain",
+   "event_date": "2017",
+   "announced_date": null,
+   "evidence_refs": [
+    "e032",
+    "e162"
+   ],
+   "summary": "John Thain joins board (September 2017 per prospectus, October 2017 per 2021-2026 proxies).",
+   "event_date_precision": "year"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "ronald-sugar",
+   "event_date": "2018-07",
+   "announced_date": null,
+   "evidence_refs": [
+    "e016",
+    "e147"
+   ],
+   "summary": "Ronald Sugar joins board as Chairperson.",
+   "event_date_precision": "month"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "ronald-sugar",
+   "event_date": "2018-07",
+   "announced_date": null,
+   "evidence_refs": [
+    "e016"
+   ],
+   "summary": "Sugar becomes independent Chairperson.",
+   "event_date_precision": "month"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "ryan-graves",
+   "event_date": "2019-05-27",
+   "announced_date": "2019-05-24",
+   "evidence_refs": [
+    "e052"
+   ],
+   "summary": "Graves resigns (notice 2019-05-23), effective 2019-05-27.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "matt-cohler",
+   "event_date": "2019-07-24",
+   "announced_date": "2019-07-24",
+   "evidence_refs": [
+    "e053"
+   ],
+   "summary": "Cohler resigns (notice 2019-07-23), effective 2019-07-24.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "arianna-huffington",
+   "event_date": "2019-07-24",
+   "announced_date": "2019-07-24",
+   "evidence_refs": [
+    "e054"
+   ],
+   "summary": "Huffington resigns, effective 2019-07-24.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "travis-kalanick",
+   "event_date": "2019-12-31",
+   "announced_date": "2019-12-26",
+   "evidence_refs": [
+    "e055"
+   ],
+   "summary": "Kalanick resigns (notice 2019-12-23), effective 2019-12-31.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "amanda-ginsberg",
+   "event_date": "2020-02-14",
+   "announced_date": "2020-02-19",
+   "evidence_refs": [
+    "e056",
+    "e046"
+   ],
+   "summary": "Amanda Ginsberg appointed (Audit Committee).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "robert-eckert",
+   "event_date": "2020-03-20",
+   "announced_date": "2020-03-23",
+   "evidence_refs": [
+    "e059",
+    "e047"
+   ],
+   "summary": "Robert Eckert appointed as an independent director (Compensation; Nominating and Governance).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "garrett-camp",
+   "event_date": "2020-05-11",
+   "announced_date": "2020-03-30",
+   "evidence_refs": [
+    "e084",
+    "e098",
+    "e072"
+   ],
+   "summary": "Camp does not stand for re-election; term ends at the 2020 annual meeting (becomes a board observer).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "revathi-advaithi",
+   "event_date": "2020-07-01",
+   "announced_date": "2020-07-02",
+   "evidence_refs": [
+    "e061",
+    "e048"
+   ],
+   "summary": "Revathi Advaithi appointed as an independent director (Audit Committee).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "alexander-wynaendts",
+   "event_date": "2021-03-22",
+   "announced_date": "2021-03-22",
+   "evidence_refs": [
+    "e063",
+    "e049"
+   ],
+   "summary": "Alexander Wynaendts appointed (Audit Committee).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "yasir-al-rumayyan",
+   "event_date": "2023-05-08",
+   "announced_date": "2023-03-28",
+   "evidence_refs": [
+    "e116",
+    "e074"
+   ],
+   "summary": "Al-Rumayyan not renominated ('transition off'); term ends at the 2023 annual meeting.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "turqi-alnowaiser",
+   "event_date": "2023-11-16",
+   "announced_date": "2023-11-17",
+   "evidence_refs": [
+    "e066",
+    "e050"
+   ],
+   "summary": "Turqi Alnowaiser appointed (Audit Committee).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "wan-ling-martello",
+   "event_date": "2025-05-05",
+   "announced_date": "2025-02-07",
+   "evidence_refs": [
+    "e068",
+    "e129",
+    "e076"
+   ],
+   "summary": "Martello does not stand for re-election (decision 2025-02-04); term ends at the 2025 annual meeting.",
+   "event_date_precision": "day",
+   "decision_date": "2025-02-04"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "nikesh-arora",
+   "event_date": "2025-05-31",
+   "announced_date": "2025-06-04",
+   "evidence_refs": [
+    "e069",
+    "e051"
+   ],
+   "summary": "Nikesh Arora appointed (Nominating and Governance; Compensation).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "david-trujillo",
+   "event_date": "2026-05-04",
+   "announced_date": "2026-03-23",
+   "evidence_refs": [
+    "e138",
+    "e139",
+    "e078"
+   ],
+   "summary": "Trujillo not renominated ('transition off'); term ends at the 2026 annual meeting.",
+   "event_date_precision": "day"
+  }
+ ],
+ "context_events": [
+  {
+   "type": "IPO",
+   "event_date": "2019-05-10",
+   "announced_date": "2019-05-09",
+   "evidence_refs": [
+    "e001",
+    "e002",
+    "e005",
+    "e009"
+   ],
+   "summary": "IPO registration effective and prospectus dated 2019-05-09, first trade on the NYSE 2019-05-10, closed 2019-05-14. Twelve directors at IPO; nine found independent. No classified board."
+  },
+  {
+   "type": "BOARD_SIZE_SNAPSHOT",
+   "event_date": "2019-05-09",
+   "board_size": 12,
+   "evidence_refs": [
+    "e005"
+   ],
+   "summary": "Prospectus: 12 members."
+  },
+  {
+   "type": "BOARD_SIZE_SNAPSHOT",
+   "event_date": "2020-03-30",
+   "board_size": 10,
+   "evidence_refs": [
+    "e086"
+   ],
+   "summary": "2020 proxy: ten members (nine nominees plus Camp, not standing)."
+  },
+  {
+   "type": "BOARD_SIZE_SNAPSHOT",
+   "event_date": "2021-03-29",
+   "board_size": 11,
+   "evidence_refs": [
+    "e103",
+    "e102"
+   ],
+   "summary": "2021 proxy: eleven nominees who all currently serve; the same proxy also says 'currently consists of ten members' (see conflicts)."
+  },
+  {
+   "type": "BOARD_SIZE_SNAPSHOT",
+   "event_date": "2022-03-28",
+   "board_size": 11,
+   "evidence_refs": [
+    "e109"
+   ],
+   "summary": "2022 proxy: eleven members."
+  },
+  {
+   "type": "BOARD_SIZE_SNAPSHOT",
+   "event_date": "2023-03-28",
+   "board_size": 11,
+   "evidence_refs": [
+    "e117"
+   ],
+   "summary": "2023 proxy: 11 current directors, 10 nominated."
+  },
+  {
+   "type": "BOARD_SIZE_SNAPSHOT",
+   "event_date": "2024-03-25",
+   "board_size": 11,
+   "evidence_refs": [
+    "e122"
+   ],
+   "summary": "2024 proxy: 11 members."
+  },
+  {
+   "type": "BOARD_SIZE_SNAPSHOT",
+   "event_date": "2025-03-24",
+   "board_size": 11,
+   "evidence_refs": [
+    "e130"
+   ],
+   "summary": "2025 proxy: eleven current directors, ten nominated."
+  },
+  {
+   "type": "BOARD_SIZE_SNAPSHOT",
+   "event_date": "2026-03-23",
+   "board_size": 11,
+   "evidence_refs": [
+    "e139"
+   ],
+   "summary": "2026 proxy: eleven current directors, ten nominated."
+  },
+  {
+   "type": "BOARD_SIZE_SNAPSHOT",
+   "event_date": "2026-05-04",
+   "board_size": 10,
+   "evidence_refs": [
+    "e079",
+    "e080"
+   ],
+   "summary": "2026 annual meeting elected ten directors; Trujillo's term ended. No later change through 2026-10-04."
+  }
+ ],
+ "evidence": [
+  {
+   "id": "e001",
+   "form": "10-K",
+   "accession": "0001543151-20-000010",
+   "filing_date": "2020-03-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315120000010/fy2019q410kfinancialst.htm",
+   "quote": "On May 9, 2019, our registration statement on Form S-1 (File No. 333-230812) related to our initial public offering (\"IPO\") was declared effective by the SEC, and our common stock began trading on the NYSE on May 10, 2019. Our IPO closed on May 14, 2019.",
+   "supports": "IPO: registration effective 2019-05-09; first trading day on the NYSE 2019-05-10; closed 2019-05-14."
+  },
+  {
+   "id": "e002",
+   "form": "424B4",
+   "accession": "0001193125-19-144716",
+   "filing_date": "2019-05-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000119312519144716/d647752d424b4.htm",
+   "quote": "Prospectus dated May 9, 2019.",
+   "supports": "IPO prospectus date (pricing) 2019-05-09."
+  },
+  {
+   "id": "e003",
+   "form": "424B4",
+   "accession": "0001193125-19-144716",
+   "filing_date": "2019-05-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000119312519144716/d647752d424b4.htm",
+   "quote": "Uber Technologies, Inc. (\"Uber\" or \"the Company\") was incorporated in Delaware in July 2010",
+   "supports": "State of incorporation (Delaware) and incorporation date (July 2010)."
+  },
+  {
+   "id": "e004",
+   "form": "424B4",
+   "accession": "0001193125-19-144716",
+   "filing_date": "2019-05-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000119312519144716/d647752d424b4.htm",
+   "quote": "We replaced our supervoting structure with a one-share, one-vote structure.",
+   "supports": "No dual-class structure at the IPO (one share, one vote)."
+  },
+  {
+   "id": "e005",
+   "form": "424B4",
+   "accession": "0001193125-19-144716",
+   "filing_date": "2019-05-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000119312519144716/d647752d424b4.htm",
+   "quote": "Our board of directors currently consists of 12 members. All of our directors currently serve on the board of directors pursuant to the provisions of a voting agreement between us and certain of our stockholders. This agreement will terminate upon the closing of this offering.",
+   "supports": "Board size at IPO: 12 directors, all seated under the pre-IPO voting agreement, which terminated at closing."
+  },
+  {
+   "id": "e006",
+   "form": "424B4",
+   "accession": "0001193125-19-144716",
+   "filing_date": "2019-05-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000119312519144716/d647752d424b4.htm",
+   "quote": "(6) three directors designated by Travis Kalanick, currently Mr. Kalanick, Ms. Burns, and Mr. Thain; (7) the person serving as our Chief Executive Officer, currently Mr. Khosrowshahi;",
+   "supports": "Voting-agreement seats at IPO: Kalanick, Burns and Thain were Kalanick designees; Khosrowshahi held the CEO seat."
+  },
+  {
+   "id": "e007",
+   "form": "424B4",
+   "accession": "0001193125-19-144716",
+   "filing_date": "2019-05-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000119312519144716/d647752d424b4.htm",
+   "quote": "(1) one director designated by Benchmark Capital Partners VII, L.P., currently Mr. Cohler; (2) one director designated by TPG Equity Holdings, L.P., currently Mr. Trujillo; (3) one director designated by Expa-1, LLC, currently Mr. Camp; (4) one director designated by Ryan Graves, currently Mr. Graves; (5) one director designated by The Public Investment Fund, currently H.E. Yasir Al-Rumayyan;",
+   "supports": "Voting-agreement seats at IPO: Cohler (Benchmark), Trujillo (TPG), Camp (Expa), Graves (self), Al-Rumayyan (PIF)."
+  },
+  {
+   "id": "e008",
+   "form": "424B4",
+   "accession": "0001193125-19-144716",
+   "filing_date": "2019-05-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000119312519144716/d647752d424b4.htm",
+   "quote": "(8) five independent directors nominated by a committee of our board of directors and approved by a majority of the voting directors, currently Ms. Huffington, Ms. Martello, and three vacancies; (9) one unaffiliated director nominated by a committee of our board of directors and approved by a majority of the voting directors as our Chairperson, currently Dr. Sugar;",
+   "supports": "Voting-agreement seats at IPO: Huffington and Martello in independent seats; Sugar as unaffiliated Chairperson."
+  },
+  {
+   "id": "e009",
+   "form": "424B4",
+   "accession": "0001193125-19-144716",
+   "filing_date": "2019-05-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000119312519144716/d647752d424b4.htm",
+   "quote": "Our board of directors has determined that, applying the standards adopted by the NYSE, each of the following directors is independent: Ursula Burns Garrett Camp Matt Cohler Arianna Huffington Wan Ling Martello H.E. Yasir Al-Rumayyan Ronald Sugar John Thain David Trujillo",
+   "supports": "IPO independence determination: nine independent directors."
+  },
+  {
+   "id": "e010",
+   "form": "424B4",
+   "accession": "0001193125-19-144716",
+   "filing_date": "2019-05-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000119312519144716/d647752d424b4.htm",
+   "quote": "Our board of directors has determined that Dara Khosrowshahi, Travis Kalanick, and Ryan Graves are not independent. Mr. Khosrowshahi is our Chief Executive Officer, Mr. Kalanick recently served as our Chief Executive Officer, and Mr. Graves recently served as our Senior Vice President, Operations.",
+   "supports": "IPO: Khosrowshahi, Kalanick and Graves not independent."
+  },
+  {
+   "id": "e011",
+   "form": "424B4",
+   "accession": "0001193125-19-144716",
+   "filing_date": "2019-05-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000119312519144716/d647752d424b4.htm",
+   "quote": "Audit Committee Members: Committee Roles and Responsibilities: John Thain (Chair), Ursula Burns, Matt Cohler, and Wan Ling Martello",
+   "supports": "Audit Committee at IPO: Thain (chair), Burns, Cohler, Martello."
+  },
+  {
+   "id": "e012",
+   "form": "424B4",
+   "accession": "0001193125-19-144716",
+   "filing_date": "2019-05-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000119312519144716/d647752d424b4.htm",
+   "quote": "Nominating and Governance Committee Members: Committee Roles and Responsibilities: Ronald Sugar (Chair), Ursula Burns, Wan Ling Martello, and David Trujillo",
+   "supports": "Nominating and Governance Committee at IPO: Sugar (chair), Burns, Martello, Trujillo."
+  },
+  {
+   "id": "e013",
+   "form": "424B4",
+   "accession": "0001193125-19-144716",
+   "filing_date": "2019-05-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000119312519144716/d647752d424b4.htm",
+   "quote": "Compensation Committee Members: Committee Roles and Responsibilities: David Trujillo (Chair), Ryan Graves, and Arianna Huffington",
+   "supports": "Compensation Committee at IPO: Trujillo (chair), Graves, Huffington."
+  },
+  {
+   "id": "e014",
+   "form": "424B4",
+   "accession": "0001193125-19-144716",
+   "filing_date": "2019-05-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000119312519144716/d647752d424b4.htm",
+   "quote": "Mr. Khosrowshahi has served as our Chief Executive Officer and as a member of our board of directors since September 2017.",
+   "supports": "Khosrowshahi: CEO and director since September 2017."
+  },
+  {
+   "id": "e015",
+   "form": "424B4",
+   "accession": "0001193125-19-144716",
+   "filing_date": "2019-05-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000119312519144716/d647752d424b4.htm",
+   "quote": "Mr. Khosrowshahi currently serves on the board of directors of Expedia Group.",
+   "supports": "Khosrowshahi other board at IPO: Expedia Group (current)."
+  },
+  {
+   "id": "e016",
+   "form": "424B4",
+   "accession": "0001193125-19-144716",
+   "filing_date": "2019-05-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000119312519144716/d647752d424b4.htm",
+   "quote": "Dr. Sugar has served as the Chairperson of our board of directors since July 2018.",
+   "supports": "Sugar: Chairperson since July 2018."
+  },
+  {
+   "id": "e017",
+   "form": "424B4",
+   "accession": "0001193125-19-144716",
+   "filing_date": "2019-05-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000119312519144716/d647752d424b4.htm",
+   "quote": "Ms. Burns has served on our board of directors since September 2017.",
+   "supports": "Burns: director since September 2017 (per IPO prospectus; later proxies say October 2017)."
+  },
+  {
+   "id": "e018",
+   "form": "424B4",
+   "accession": "0001193125-19-144716",
+   "filing_date": "2019-05-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000119312519144716/d647752d424b4.htm",
+   "quote": "Mr. Camp co-founded Uber and has served on our board of directors since July 2010.",
+   "supports": "Camp: co-founder, director since July 2010."
+  },
+  {
+   "id": "e019",
+   "form": "424B4",
+   "accession": "0001193125-19-144716",
+   "filing_date": "2019-05-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000119312519144716/d647752d424b4.htm",
+   "quote": "Mr. Camp currently serves on the board of directors of several private companies, including Mix.com, Spot.com, and Haus.com.",
+   "supports": "Camp's other boards at IPO were private companies (no public-company boards named)."
+  },
+  {
+   "id": "e020",
+   "form": "424B4",
+   "accession": "0001193125-19-144716",
+   "filing_date": "2019-05-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000119312519144716/d647752d424b4.htm",
+   "quote": "Mr. Cohler has served on our board of directors since June 2017.",
+   "supports": "Cohler: director since June 2017."
+  },
+  {
+   "id": "e021",
+   "form": "424B4",
+   "accession": "0001193125-19-144716",
+   "filing_date": "2019-05-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000119312519144716/d647752d424b4.htm",
+   "quote": "Mr. Cohler previously served on the board of directors of several companies, including Domo, Inc. from 2011 to 2019,",
+   "supports": "Cohler former board: Domo, Inc. (2011-2019)."
+  },
+  {
+   "id": "e022",
+   "form": "424B4",
+   "accession": "0001193125-19-144716",
+   "filing_date": "2019-05-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000119312519144716/d647752d424b4.htm",
+   "quote": "Mr. Graves has served on our board of directors since July 2010.",
+   "supports": "Graves: director since July 2010."
+  },
+  {
+   "id": "e023",
+   "form": "424B4",
+   "accession": "0001193125-19-144716",
+   "filing_date": "2019-05-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000119312519144716/d647752d424b4.htm",
+   "quote": "Mr. Graves served as our Senior Vice President of Global Operations from September 2015 to September 2017, and as our Vice President of Operations from November 2011 to September 2015. From July 2010 to November 2010, Mr. Graves served as our Chief Executive Officer.",
+   "supports": "Graves: CEO July-November 2010; VP Operations November 2011-September 2015; SVP Global Operations September 2015-September 2017."
+  },
+  {
+   "id": "e024",
+   "form": "424B4",
+   "accession": "0001193125-19-144716",
+   "filing_date": "2019-05-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000119312519144716/d647752d424b4.htm",
+   "quote": "Ms. Huffington has served on our board of directors since April 2016.",
+   "supports": "Huffington: director since April 2016."
+  },
+  {
+   "id": "e025",
+   "form": "424B4",
+   "accession": "0001193125-19-144716",
+   "filing_date": "2019-05-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000119312519144716/d647752d424b4.htm",
+   "quote": "Ms. Huffington serves on the board of directors of Onex Corporation, a private equity company,",
+   "supports": "Huffington other board at IPO: Onex Corporation (current)."
+  },
+  {
+   "id": "e026",
+   "form": "424B4",
+   "accession": "0001193125-19-144716",
+   "filing_date": "2019-05-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000119312519144716/d647752d424b4.htm",
+   "quote": "Ms. Huffington previously served on the board of directors of El PAÍS and PRISA from 2011 to 2018",
+   "supports": "Huffington former board: El PAÍS and PRISA (2011-2018)."
+  },
+  {
+   "id": "e027",
+   "form": "424B4",
+   "accession": "0001193125-19-144716",
+   "filing_date": "2019-05-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000119312519144716/d647752d424b4.htm",
+   "quote": "Mr. Kalanick co-founded Uber and has served on our board of directors since July 2010.",
+   "supports": "Kalanick: co-founder, director since July 2010."
+  },
+  {
+   "id": "e028",
+   "form": "424B4",
+   "accession": "0001193125-19-144716",
+   "filing_date": "2019-05-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000119312519144716/d647752d424b4.htm",
+   "quote": "From November 2010 to June 2017, Mr. Kalanick served as our Chief Executive Officer.",
+   "supports": "Kalanick: CEO November 2010 to June 2017."
+  },
+  {
+   "id": "e029",
+   "form": "424B4",
+   "accession": "0001193125-19-144716",
+   "filing_date": "2019-05-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000119312519144716/d647752d424b4.htm",
+   "quote": "Mr. Kalanick currently serves on the board of directors of Kareo, Inc., City Storage Systems LLC, and StyleSeat Inc.",
+   "supports": "Kalanick's other boards at IPO (none described as public)."
+  },
+  {
+   "id": "e030",
+   "form": "424B4",
+   "accession": "0001193125-19-144716",
+   "filing_date": "2019-05-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000119312519144716/d647752d424b4.htm",
+   "quote": "Ms. Martello has served on our board of directors since June 2017.",
+   "supports": "Martello: director since June 2017."
+  },
+  {
+   "id": "e031",
+   "form": "424B4",
+   "accession": "0001193125-19-144716",
+   "filing_date": "2019-05-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000119312519144716/d647752d424b4.htm",
+   "quote": "His Excellency Yasir Al-Rumayyan has served on our board of directors since June 2016.",
+   "supports": "Al-Rumayyan: director since June 2016."
+  },
+  {
+   "id": "e032",
+   "form": "424B4",
+   "accession": "0001193125-19-144716",
+   "filing_date": "2019-05-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000119312519144716/d647752d424b4.htm",
+   "quote": "Mr. Thain has served on our board of directors since September 2017.",
+   "supports": "Thain: director since September 2017 (per IPO prospectus; later proxies say October 2017)."
+  },
+  {
+   "id": "e033",
+   "form": "424B4",
+   "accession": "0001193125-19-144716",
+   "filing_date": "2019-05-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000119312519144716/d647752d424b4.htm",
+   "quote": "Mr. Trujillo has served on our board of directors since June 2017.",
+   "supports": "Trujillo: director since June 2017."
+  },
+  {
+   "id": "e034",
+   "form": "3",
+   "accession": "0000899243-19-012893",
+   "filing_date": "2019-05-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000089924319012893/doc3.xml",
+   "quote": "KHOSROWSHAHI DARA",
+   "supports": "KHOSROWSHAHI DARA reporting-owner CIK 0001184237; IPO-date Form 3 (event = registration effective 2019-05-09); NOT the board start date.",
+   "xml_fields": {
+    "rptOwnerCik": "0001184237",
+    "rptOwnerName": "KHOSROWSHAHI DARA",
+    "periodOfReport": "2019-05-09"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": "Chief Executive Officer"
+   }
+  },
+  {
+   "id": "e035",
+   "form": "3",
+   "accession": "0000899243-19-012902",
+   "filing_date": "2019-05-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000089924319012902/doc3.xml",
+   "quote": "SUGAR RONALD D",
+   "supports": "SUGAR RONALD D reporting-owner CIK 0001216519; IPO-date Form 3 (event = registration effective 2019-05-09); NOT the board start date.",
+   "xml_fields": {
+    "rptOwnerCik": "0001216519",
+    "rptOwnerName": "SUGAR RONALD D",
+    "periodOfReport": "2019-05-09"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e036",
+   "form": "3",
+   "accession": "0000899243-19-012862",
+   "filing_date": "2019-05-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000089924319012862/doc3.xml",
+   "quote": "BURNS URSULA M",
+   "supports": "BURNS URSULA M reporting-owner CIK 0001190699; IPO-date Form 3 (event = registration effective 2019-05-09); NOT the board start date.",
+   "xml_fields": {
+    "rptOwnerCik": "0001190699",
+    "rptOwnerName": "BURNS URSULA M",
+    "periodOfReport": "2019-05-09"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e037",
+   "form": "3",
+   "accession": "0000899243-19-012887",
+   "filing_date": "2019-05-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000089924319012887/doc3.xml",
+   "quote": "Camp Garrett",
+   "supports": "Camp Garrett reporting-owner CIK 0001775382; IPO-date Form 3 (event = registration effective 2019-05-09); NOT the board start date.",
+   "xml_fields": {
+    "rptOwnerCik": "0001775382",
+    "rptOwnerName": "Camp Garrett",
+    "periodOfReport": "2019-05-09"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "isTenPercentOwner": true
+   }
+  },
+  {
+   "id": "e038",
+   "form": "3",
+   "accession": "0000899243-19-012864",
+   "filing_date": "2019-05-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000089924319012864/doc3.xml",
+   "quote": "Cohler Matt",
+   "supports": "Cohler Matt reporting-owner CIK 0001572685; IPO-date Form 3 (event = registration effective 2019-05-09); NOT the board start date.",
+   "xml_fields": {
+    "rptOwnerCik": "0001572685",
+    "rptOwnerName": "Cohler Matt",
+    "periodOfReport": "2019-05-09"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "isTenPercentOwner": true
+   }
+  },
+  {
+   "id": "e039",
+   "form": "3",
+   "accession": "0000899243-19-012857",
+   "filing_date": "2019-05-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000089924319012857/doc3.xml",
+   "quote": "Graves Ryan",
+   "supports": "Graves Ryan reporting-owner CIK 0001775287; IPO-date Form 3 (event = registration effective 2019-05-09); NOT the board start date.",
+   "xml_fields": {
+    "rptOwnerCik": "0001775287",
+    "rptOwnerName": "Graves Ryan",
+    "periodOfReport": "2019-05-09"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e040",
+   "form": "3",
+   "accession": "0000899243-19-012885",
+   "filing_date": "2019-05-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000089924319012885/doc3.xml",
+   "quote": "Huffington Arianna",
+   "supports": "Huffington Arianna reporting-owner CIK 0001775298; IPO-date Form 3 (event = registration effective 2019-05-09); NOT the board start date.",
+   "xml_fields": {
+    "rptOwnerCik": "0001775298",
+    "rptOwnerName": "Huffington Arianna",
+    "periodOfReport": "2019-05-09"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e041",
+   "form": "3",
+   "accession": "0000899243-19-012890",
+   "filing_date": "2019-05-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000089924319012890/doc3.xml",
+   "quote": "Kalanick Travis Cordell",
+   "supports": "Kalanick Travis Cordell reporting-owner CIK 0001732125; IPO-date Form 3 (event = registration effective 2019-05-09); NOT the board start date.",
+   "xml_fields": {
+    "rptOwnerCik": "0001732125",
+    "rptOwnerName": "Kalanick Travis Cordell",
+    "periodOfReport": "2019-05-09"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "isTenPercentOwner": true
+   }
+  },
+  {
+   "id": "e042",
+   "form": "3",
+   "accession": "0000899243-19-012894",
+   "filing_date": "2019-05-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000089924319012894/doc3.xml",
+   "quote": "Martello Wan Ling",
+   "supports": "Martello Wan Ling reporting-owner CIK 0001775396; IPO-date Form 3 (event = registration effective 2019-05-09); NOT the board start date.",
+   "xml_fields": {
+    "rptOwnerCik": "0001775396",
+    "rptOwnerName": "Martello Wan Ling",
+    "periodOfReport": "2019-05-09"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e043",
+   "form": "3",
+   "accession": "0000899243-19-012928",
+   "filing_date": "2019-05-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000089924319012928/doc3.xml",
+   "quote": "AL-RUMAYYAN YASIR",
+   "supports": "AL-RUMAYYAN YASIR reporting-owner CIK 0001775176; IPO-date Form 3 (event = registration effective 2019-05-09); NOT the board start date.",
+   "xml_fields": {
+    "rptOwnerCik": "0001775176",
+    "rptOwnerName": "AL-RUMAYYAN YASIR",
+    "periodOfReport": "2019-05-09"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e044",
+   "form": "3",
+   "accession": "0000899243-19-012909",
+   "filing_date": "2019-05-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000089924319012909/doc3.xml",
+   "quote": "THAIN JOHN A",
+   "supports": "THAIN JOHN A reporting-owner CIK 0001090355; IPO-date Form 3 (event = registration effective 2019-05-09); NOT the board start date.",
+   "xml_fields": {
+    "rptOwnerCik": "0001090355",
+    "rptOwnerName": "THAIN JOHN A",
+    "periodOfReport": "2019-05-09"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e045",
+   "form": "3",
+   "accession": "0000899243-19-012907",
+   "filing_date": "2019-05-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000089924319012907/doc3.xml",
+   "quote": "Trujillo David",
+   "supports": "Trujillo David reporting-owner CIK 0001262929; IPO-date Form 3 (event = registration effective 2019-05-09); NOT the board start date.",
+   "xml_fields": {
+    "rptOwnerCik": "0001262929",
+    "rptOwnerName": "Trujillo David",
+    "periodOfReport": "2019-05-09"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e046",
+   "form": "3",
+   "accession": "0001562180-20-001415",
+   "filing_date": "2020-02-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000156218020001415/primarydocument.xml",
+   "quote": "Ginsberg Amanda",
+   "supports": "Ginsberg Amanda reporting-owner CIK 0001596941; Form 3 event date 2020-02-14 matches the 8-K appointment date.",
+   "xml_fields": {
+    "rptOwnerCik": "0001596941",
+    "rptOwnerName": "Ginsberg Amanda",
+    "periodOfReport": "2020-02-14"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e047",
+   "form": "3",
+   "accession": "0001562180-20-002723",
+   "filing_date": "2020-03-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000156218020002723/primarydocument.xml",
+   "quote": "ECKERT ROBERT",
+   "supports": "ECKERT ROBERT reporting-owner CIK 0001194256; Form 3 event date 2020-03-20 matches the 8-K appointment date.",
+   "xml_fields": {
+    "rptOwnerCik": "0001194256",
+    "rptOwnerName": "ECKERT ROBERT",
+    "periodOfReport": "2020-03-20"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e048",
+   "form": "3",
+   "accession": "0001562180-20-005091",
+   "filing_date": "2020-07-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000156218020005091/primarydocument.xml",
+   "quote": "Advaithi Revathi",
+   "supports": "Advaithi Revathi reporting-owner CIK 0001649101; Form 3 event date 2020-07-01 matches the 8-K appointment date.",
+   "xml_fields": {
+    "rptOwnerCik": "0001649101",
+    "rptOwnerName": "Advaithi Revathi",
+    "periodOfReport": "2020-07-01"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e049",
+   "form": "3",
+   "accession": "0001562180-21-002429",
+   "filing_date": "2021-03-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000156218021002429/primarydocument.xml",
+   "quote": "Wynaendts Alexander R",
+   "supports": "Wynaendts Alexander R reporting-owner CIK 0001787734; Form 3 event date 2021-03-22 matches the 8-K appointment date.",
+   "xml_fields": {
+    "rptOwnerCik": "0001787734",
+    "rptOwnerName": "Wynaendts Alexander R",
+    "periodOfReport": "2021-03-22"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e050",
+   "form": "3",
+   "accession": "0001562180-23-007947",
+   "filing_date": "2023-11-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000156218023007947/primarydocument.xml",
+   "quote": "Alnowaiser Turqi A.",
+   "supports": "Alnowaiser Turqi A. reporting-owner CIK 0001873801; Form 3 event date 2023-11-16 matches the 8-K appointment date.",
+   "xml_fields": {
+    "rptOwnerCik": "0001873801",
+    "rptOwnerName": "Alnowaiser Turqi A.",
+    "periodOfReport": "2023-11-16"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e051",
+   "form": "3",
+   "accession": "0001562180-25-004701",
+   "filing_date": "2025-06-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000156218025004701/primarydocument.xml",
+   "quote": "Arora Nikesh",
+   "supports": "Arora Nikesh reporting-owner CIK 0001468233; Form 3 event date 2025-05-31 matches the 8-K appointment date.",
+   "xml_fields": {
+    "rptOwnerCik": "0001468233",
+    "rptOwnerName": "Arora Nikesh",
+    "periodOfReport": "2025-05-31"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e052",
+   "form": "8-K",
+   "accession": "0001193125-19-157213",
+   "filing_date": "2019-05-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000119312519157213/d753156d8k.htm",
+   "quote": "On May 23, 2019, Ryan Graves informed Uber Technologies, Inc. (the \"Company\") of his intention to resign as a member of the Company's board of directors, effective as of May 27, 2019, including any committees of the board of directors on which he serves.",
+   "supports": "Graves resigns, effective 2019-05-27 (notice 2019-05-23)."
+  },
+  {
+   "id": "e053",
+   "form": "8-K",
+   "accession": "0001193125-19-201404",
+   "filing_date": "2019-07-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000119312519201404/d778039d8k.htm",
+   "quote": "On July 23, 2019, Matt Cohler informed the Company of his intention to resign as a member of its board of directors, effective as of July 24, 2019.",
+   "supports": "Cohler resigns, effective 2019-07-24."
+  },
+  {
+   "id": "e054",
+   "form": "8-K",
+   "accession": "0001193125-19-201403",
+   "filing_date": "2019-07-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000119312519201403/d778037d8k.htm",
+   "quote": "On July 24, 2019, Arianna Huffington informed the Company of her intention to resign as a member of its board of directors, effective as of July 24, 2019.",
+   "supports": "Huffington resigns, effective 2019-07-24."
+  },
+  {
+   "id": "e055",
+   "form": "8-K",
+   "accession": "0001552781-19-000515",
+   "filing_date": "2019-12-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278119000515/e19531_uber-8k.htm",
+   "quote": "On December 23, 2019, Travis Kalanick informed Uber Technologies, Inc. (the \"Company\") of his intention to resign as a member of the Company's board of directors, effective as of December 31, 2019.",
+   "supports": "Kalanick resigns, effective 2019-12-31 (notice 2019-12-23)."
+  },
+  {
+   "id": "e056",
+   "form": "8-K",
+   "accession": "0001552781-20-000149",
+   "filing_date": "2020-02-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278120000149/e20097_uber-8k.htm",
+   "quote": "On February 14, 2020, the Board of Directors (the \"Board\") of Uber Technologies, Inc. (the \"Company\"), appointed Ms. Amanda Ginsberg to the Board.",
+   "supports": "Ginsberg appointed 2020-02-14."
+  },
+  {
+   "id": "e057",
+   "form": "8-K",
+   "accession": "0001552781-20-000149",
+   "filing_date": "2020-02-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278120000149/e20097_uber-8k.htm",
+   "quote": "The Board will appoint Ms. Ginsberg to serve on the Audit Committee.",
+   "supports": "Ginsberg: Audit Committee on appointment."
+  },
+  {
+   "id": "e058",
+   "form": "8-K",
+   "accession": "0001552781-20-000149",
+   "filing_date": "2020-02-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278120000149/e20097_uber-8k.htm",
+   "quote": "Ms. Ginsberg has served on the board of directors of J.C. Penney Company, Inc. since 2015 and has served on the board of directors of Match Group, Inc. since December 2017.",
+   "supports": "Ginsberg boards at appointment (corroborates later proxy years)."
+  },
+  {
+   "id": "e059",
+   "form": "8-K",
+   "accession": "0001552781-20-000209",
+   "filing_date": "2020-03-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278120000209/e20170_uber-8k.htm",
+   "quote": "On March 20, 2020, the Board of Directors (the \"Board\") of Uber Technologies, Inc. (the \"Company\") appointed Robert Eckert to the Board as an independent director.",
+   "supports": "Eckert appointed 2020-03-20 as an independent director."
+  },
+  {
+   "id": "e060",
+   "form": "8-K",
+   "accession": "0001552781-20-000209",
+   "filing_date": "2020-03-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278120000209/e20170_uber-8k.htm",
+   "quote": "The Board has appointed Mr. Eckert to serve on the Compensation Committee and Nominating and Governance Committee.",
+   "supports": "Eckert: Compensation and Nominating and Governance committees on appointment."
+  },
+  {
+   "id": "e061",
+   "form": "8-K",
+   "accession": "0001552781-20-000407",
+   "filing_date": "2020-07-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278120000407/e20422_uber-8k.htm",
+   "quote": "On July 1, 2020, the Board of Directors (the \"Board\") of Uber Technologies, Inc. (the \"Company\") appointed Revathi Advaithi to the Board as an independent director.",
+   "supports": "Advaithi appointed 2020-07-01 as an independent director."
+  },
+  {
+   "id": "e062",
+   "form": "8-K",
+   "accession": "0001552781-20-000407",
+   "filing_date": "2020-07-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278120000407/e20422_uber-8k.htm",
+   "quote": "The Board has appointed Ms. Advaithi to serve on the Audit Committee.",
+   "supports": "Advaithi: Audit Committee on appointment."
+  },
+  {
+   "id": "e063",
+   "form": "8-K",
+   "accession": "0001552781-21-000144",
+   "filing_date": "2021-03-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278121000144/e21165_uber-8k.htm",
+   "quote": "On March 22, 2021, the Board of Directors (the \"Board\") of Uber Technologies, Inc. (the \"Company\"), appointed Alexander Wynaendts to the Board.",
+   "supports": "Wynaendts appointed 2021-03-22."
+  },
+  {
+   "id": "e064",
+   "form": "8-K",
+   "accession": "0001552781-21-000144",
+   "filing_date": "2021-03-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278121000144/e21165_uber-8k.htm",
+   "quote": "The Board has appointed Mr. Wynaendts to serve on the Audit Committee.",
+   "supports": "Wynaendts: Audit Committee on appointment."
+  },
+  {
+   "id": "e065",
+   "form": "8-K",
+   "accession": "0001552781-21-000144",
+   "filing_date": "2021-03-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278121000144/e21165_uber-8k.htm",
+   "quote": "Mr. Wynaendts, 60, has served on the board of directors of Citigroup Inc. since 2019 and has served on the board of directors of Air France-KLM SA since 2016.",
+   "supports": "Wynaendts boards at appointment: Citigroup 'since 2019' (2026 proxy says 2016-2021; see conflicts); Air France-KLM since 2016."
+  },
+  {
+   "id": "e066",
+   "form": "8-K",
+   "accession": "0001552781-23-000451",
+   "filing_date": "2023-11-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278123000451/e23460_uber-8k.htm",
+   "quote": "On November 16, 2023, the Board of Directors (the \"Board\") of Uber Technologies, Inc. (the \"Company\"), appointed Turqi Alnowaiser to the Board.",
+   "supports": "Alnowaiser appointed 2023-11-16."
+  },
+  {
+   "id": "e067",
+   "form": "8-K",
+   "accession": "0001552781-23-000451",
+   "filing_date": "2023-11-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278123000451/e23460_uber-8k.htm",
+   "quote": "The Board has appointed Mr. Alnowaiser to serve on the Audit Committee.",
+   "supports": "Alnowaiser: Audit Committee on appointment."
+  },
+  {
+   "id": "e068",
+   "form": "8-K",
+   "accession": "0001552781-25-000025",
+   "filing_date": "2025-02-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278125000025/e25038_uber-8k.htm",
+   "quote": "On February 4, 2025, Wan Ling Martello, a member of the board of directors of Uber Technologies, Inc. (the \"Company\"), informed the Company of her intention not to stand for re-election at the Company's 2025 Annual Meeting of Shareholders in May.",
+   "supports": "Martello will not stand for re-election at the 2025 annual meeting (notice 2025-02-04)."
+  },
+  {
+   "id": "e069",
+   "form": "8-K",
+   "accession": "0001552781-25-000203",
+   "filing_date": "2025-06-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278125000203/e25233_uber-8k.htm",
+   "quote": "On May 31, 2025, the Board of Directors (the \"Board\") of Uber Technologies, Inc. (the \"Company\") appointed Nikesh Arora to the Board.",
+   "supports": "Arora appointed 2025-05-31."
+  },
+  {
+   "id": "e070",
+   "form": "8-K",
+   "accession": "0001552781-25-000203",
+   "filing_date": "2025-06-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278125000203/e25233_uber-8k.htm",
+   "quote": "The Board has appointed Mr. Arora to serve on the Nominating and Governance Committee and Compensation Committee.",
+   "supports": "Arora: Nominating and Governance and Compensation committees on appointment."
+  },
+  {
+   "id": "e071",
+   "form": "8-K",
+   "accession": "0001552781-25-000203",
+   "filing_date": "2025-06-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278125000203/e25233_uber-8k.htm",
+   "quote": "Sprint Corp., a communications services company, from 2014 to 2016; Colgate-Palmolive Company, a worldwide consumer products company, from 2012 to 2014; SoftBank from 2014 to 2016; and Yahoo! Japan, an internet company, from 2015 to 2016.",
+   "supports": "Arora former boards with years (appointment 8-K)."
+  },
+  {
+   "id": "e072",
+   "form": "8-K",
+   "accession": "0001552781-20-000348",
+   "filing_date": "2020-05-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278120000348/e20331_uber-8k.htm",
+   "quote": "On May 11, 2020, Uber Technologies, Inc. (the \"Company\") held its annual meeting of stockholders (the \"Meeting\").",
+   "supports": "2020 annual meeting held 2020-05-11 (Camp's term ended; he was not a nominee)."
+  },
+  {
+   "id": "e073",
+   "form": "8-K",
+   "accession": "0001552781-20-000348",
+   "filing_date": "2020-05-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278120000348/e20331_uber-8k.htm",
+   "quote": "To elect nine directors to serve until the 2021 annual meeting and until their successors are elected.",
+   "supports": "2020 meeting elected nine directors (Camp not among them)."
+  },
+  {
+   "id": "e074",
+   "form": "8-K",
+   "accession": "0001552781-23-000276",
+   "filing_date": "2023-05-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278123000276/e23263_uber-8k.htm",
+   "quote": "On May 8, 2023, Uber Technologies, Inc. (the \"Company\") held its annual meeting of stockholders (the \"Meeting\").",
+   "supports": "2023 annual meeting held 2023-05-08 (Al-Rumayyan's term ended; he was not a nominee)."
+  },
+  {
+   "id": "e075",
+   "form": "8-K",
+   "accession": "0001552781-23-000276",
+   "filing_date": "2023-05-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278123000276/e23263_uber-8k.htm",
+   "quote": "To elect ten directors to serve until the 2024 annual meeting and until their successors are elected.",
+   "supports": "2023 meeting elected ten directors (Al-Rumayyan not among them)."
+  },
+  {
+   "id": "e076",
+   "form": "8-K",
+   "accession": "0001552781-25-000174",
+   "filing_date": "2025-05-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278125000174/e25195_uber-8k.htm",
+   "quote": "On May 5, 2025, Uber Technologies, Inc. (the \"Company\") held its annual meeting of stockholders (the \"Meeting\").",
+   "supports": "2025 annual meeting held 2025-05-05 (Martello's term ended)."
+  },
+  {
+   "id": "e077",
+   "form": "8-K",
+   "accession": "0001552781-25-000174",
+   "filing_date": "2025-05-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278125000174/e25195_uber-8k.htm",
+   "quote": "To elect ten directors to serve until the 2026 annual meeting and until their successors are elected.",
+   "supports": "2025 meeting elected ten directors (Martello not among them)."
+  },
+  {
+   "id": "e078",
+   "form": "8-K",
+   "accession": "0001552781-26-000314",
+   "filing_date": "2026-05-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278126000314/e26243_uber-8k.htm",
+   "quote": "On May 4, 2026, Uber Technologies, Inc. (the \"Company\") held its annual meeting of stockholders (the \"Meeting\").",
+   "supports": "2026 annual meeting held 2026-05-04 (Trujillo's term ended; he was not a nominee)."
+  },
+  {
+   "id": "e079",
+   "form": "8-K",
+   "accession": "0001552781-26-000314",
+   "filing_date": "2026-05-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278126000314/e26243_uber-8k.htm",
+   "quote": "To elect ten directors to serve until the 2027 annual meeting and until their successors are elected.",
+   "supports": "2026 meeting elected ten directors (one-year terms)."
+  },
+  {
+   "id": "e080",
+   "form": "8-K",
+   "accession": "0001552781-26-000314",
+   "filing_date": "2026-05-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278126000314/e26243_uber-8k.htm",
+   "quote": "Based on the votes set forth above, each director nominee was duly elected to serve until the 2027 annual meeting of stockholders and until his or her successor is duly elected and qualified.",
+   "supports": "All ten 2026 nominees elected."
+  },
+  {
+   "id": "e081",
+   "form": "8-K",
+   "accession": "0001552781-26-000314",
+   "filing_date": "2026-05-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278126000314/e26243_uber-8k.htm",
+   "quote": "Ronald Sugar 1,376,324,629 121,066,128 16,540,958 172,426,786 Revathi Advaithi 1,504,879,303 8,191,339 861,073 172,426,786 Turqi Alnowaiser 1,503,974,736 9,078,110 878,869 172,426,786 Nikesh Arora 1,205,210,055 307,126,841 1,594,819 172,426,786",
+   "supports": "2026 election results: Sugar, Advaithi, Alnowaiser, Arora.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e082",
+   "form": "8-K",
+   "accession": "0001552781-26-000314",
+   "filing_date": "2026-05-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278126000314/e26243_uber-8k.htm",
+   "quote": "Ursula Burns 1,490,935,618 21,183,392 1,812,705 172,426,786 Robert Eckert 1,478,385,064 32,975,907 2,570,744 172,426,786 Amanda Ginsberg 1,488,329,769 23,744,164 1,857,782 172,426,786",
+   "supports": "2026 election results: Burns, Eckert, Ginsberg.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e083",
+   "form": "8-K",
+   "accession": "0001552781-26-000314",
+   "filing_date": "2026-05-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278126000314/e26243_uber-8k.htm",
+   "quote": "Dara Khosrowshahi 1,473,074,323 39,465,761 1,391,631 172,426,786 John Thain 1,501,638,356 9,685,246 2,608,113 172,426,786 Alexander Wynaendts 1,503,995,246 9,062,854 873,615 172,426,786",
+   "supports": "2026 election results: Khosrowshahi, Thain, Wynaendts.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e084",
+   "form": "DEF 14A",
+   "accession": "0001552781-20-000238",
+   "filing_date": "2020-03-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278120000238/e20161_uber-def14a.htm",
+   "quote": "Garrett Camp, a current member of the board of directors, is not standing for re-election at the Annual Meeting",
+   "supports": "Camp did not stand for re-election at the 2020 annual meeting."
+  },
+  {
+   "id": "e085",
+   "form": "DEF 14A",
+   "accession": "0001552781-20-000238",
+   "filing_date": "2020-03-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278120000238/e20161_uber-def14a.htm",
+   "quote": "Garrett Camp, Uber's co-founder and retiring board member, as he transitions into his new roles as board observer and product advisor following the 2020 Annual Meeting.",
+   "supports": "Camp leaves the board after the 2020 annual meeting and becomes a board observer (not a director)."
+  },
+  {
+   "id": "e086",
+   "form": "DEF 14A",
+   "accession": "0001552781-20-000238",
+   "filing_date": "2020-03-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278120000238/e20161_uber-def14a.htm",
+   "quote": "Our board of directors, which currently consists of ten members, oversees our business affairs",
+   "supports": "Board size at the 2020 proxy (2020-03-30): ten."
+  },
+  {
+   "id": "e087",
+   "form": "DEF 14A",
+   "accession": "0001552781-20-000238",
+   "filing_date": "2020-03-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278120000238/e20161_uber-def14a.htm",
+   "quote": "This agreement terminated upon the closing of our initial public offering and each director nominee will be subject to election annually by majority voting at the 2020 Annual Meeting.",
+   "supports": "Voting agreement ended at the IPO; directors elected annually (no classified board)."
+  },
+  {
+   "id": "e088",
+   "form": "DEF 14A",
+   "accession": "0001552781-20-000238",
+   "filing_date": "2020-03-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278120000238/e20161_uber-def14a.htm",
+   "quote": "each of the following directors is independent: Ursula Burns Garrett Camp Robert Eckert Amanda Ginsberg Wan Ling Martello Yasir Al-Rumayyan Ronald Sugar John Thain David Trujillo Our board of directors has determined that Dara Khosrowshahi is not independent.",
+   "supports": "2020 independence determination."
+  },
+  {
+   "id": "e089",
+   "form": "DEF 14A",
+   "accession": "0001552781-20-000238",
+   "filing_date": "2020-03-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278120000238/e20161_uber-def14a.htm",
+   "quote": "Matt Cohler, Ryan Graves, Arianna Huffington, and Travis Kalanick served as members of our board of directors in 2019.",
+   "supports": "Directors who left during 2019: Cohler, Graves, Huffington, Kalanick (no other 2019 departures)."
+  },
+  {
+   "id": "e090",
+   "form": "DEF 14A",
+   "accession": "0001552781-20-000238",
+   "filing_date": "2020-03-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278120000238/e20161_uber-def14a.htm",
+   "quote": "Our board of directors has determined that Travis Kalanick and Ryan Graves were not independent during their respective terms.",
+   "supports": "Kalanick and Graves not independent during their terms."
+  },
+  {
+   "id": "e091",
+   "form": "DEF 14A",
+   "accession": "0001552781-20-000238",
+   "filing_date": "2020-03-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278120000238/e20161_uber-def14a.htm",
+   "quote": "Mr. Cohler was, during his term, independent including with respect to his service on the Audit Committee.",
+   "supports": "Cohler independent during his term."
+  },
+  {
+   "id": "e092",
+   "form": "DEF 14A",
+   "accession": "0001552781-20-000238",
+   "filing_date": "2020-03-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278120000238/e20161_uber-def14a.htm",
+   "quote": "Ms. Huffington was, during her term, independent including with respect to her service on the Compensation Committee",
+   "supports": "Huffington independent during her term."
+  },
+  {
+   "id": "e093",
+   "form": "DEF 14A",
+   "accession": "0001552781-20-000238",
+   "filing_date": "2020-03-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278120000238/e20161_uber-def14a.htm",
+   "quote": "Burns has served on our board of directors since September 2017",
+   "supports": "2020 proxy: Burns since September 2017."
+  },
+  {
+   "id": "e094",
+   "form": "DEF 14A",
+   "accession": "0001552781-20-000238",
+   "filing_date": "2020-03-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278120000238/e20161_uber-def14a.htm",
+   "quote": "Thain has served on our board of directors since September 2017",
+   "supports": "2020 proxy: Thain since September 2017."
+  },
+  {
+   "id": "e095",
+   "form": "DEF 14A",
+   "accession": "0001552781-20-000238",
+   "filing_date": "2020-03-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278120000238/e20161_uber-def14a.htm",
+   "quote": "Audit Committee Members: Committee Roles and Responsibilities: John Thain (Chair), Ursula Burns, Amanda Ginsberg, and Yasir Al-Rumayyan",
+   "supports": "2020 Audit Committee."
+  },
+  {
+   "id": "e096",
+   "form": "DEF 14A",
+   "accession": "0001552781-20-000238",
+   "filing_date": "2020-03-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278120000238/e20161_uber-def14a.htm",
+   "quote": "Nominating and Governance Committee Members: Committee Roles and Responsibilities: Ronald Sugar (Chair), Ursula Burns, Robert Eckert, Wan Ling Martello, and David Trujillo",
+   "supports": "2020 Nominating and Governance Committee."
+  },
+  {
+   "id": "e097",
+   "form": "DEF 14A",
+   "accession": "0001552781-20-000238",
+   "filing_date": "2020-03-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278120000238/e20161_uber-def14a.htm",
+   "quote": "Compensation Committee Members: Committee Roles and Responsibilities: David Trujillo (Chair), Robert Eckert, Wan Ling Martello, and Ronald Sugar",
+   "supports": "2020 Compensation Committee."
+  },
+  {
+   "id": "e098",
+   "form": "DEF 14A",
+   "accession": "0001552781-21-000157",
+   "filing_date": "2021-03-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278121000157/e21146_uber-def14a.htm",
+   "quote": "Camp did not stand for re-election at the 2020 Annual Meeting, and his RSU award was forfeited as a result.",
+   "supports": "Camp did not stand for re-election at the 2020 annual meeting."
+  },
+  {
+   "id": "e099",
+   "form": "DEF 14A",
+   "accession": "0001552781-21-000157",
+   "filing_date": "2021-03-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278121000157/e21146_uber-def14a.htm",
+   "quote": "Mr. Camp was independent during his term.",
+   "supports": "Camp independent during his term."
+  },
+  {
+   "id": "e100",
+   "form": "DEF 14A",
+   "accession": "0001552781-21-000157",
+   "filing_date": "2021-03-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278121000157/e21146_uber-def14a.htm",
+   "quote": "Burns has served on our board of directors since October 2017",
+   "supports": "2021 proxy: Burns since October 2017 (conflicts with prospectus)."
+  },
+  {
+   "id": "e101",
+   "form": "DEF 14A",
+   "accession": "0001552781-21-000157",
+   "filing_date": "2021-03-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278121000157/e21146_uber-def14a.htm",
+   "quote": "Thain has served on our board of directors since October 2017",
+   "supports": "2021 proxy: Thain since October 2017 (conflicts with prospectus)."
+  },
+  {
+   "id": "e102",
+   "form": "DEF 14A",
+   "accession": "0001552781-21-000157",
+   "filing_date": "2021-03-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278121000157/e21146_uber-def14a.htm",
+   "quote": "Our board of directors, which currently consists of ten members, oversees our business affairs",
+   "supports": "2021 proxy states ten members, although it nominates eleven current directors (see conflicts)."
+  },
+  {
+   "id": "e103",
+   "form": "DEF 14A",
+   "accession": "0001552781-21-000157",
+   "filing_date": "2021-03-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278121000157/e21146_uber-def14a.htm",
+   "quote": "board of directors has nominated the eleven director nominees listed below for election at the 2021 Annual Meeting. Each of the director nominees currently serves on the board.",
+   "supports": "2021 proxy: eleven nominees, all current directors."
+  },
+  {
+   "id": "e104",
+   "form": "DEF 14A",
+   "accession": "0001552781-21-000157",
+   "filing_date": "2021-03-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278121000157/e21146_uber-def14a.htm",
+   "quote": "each of the following directors is independent: Revathi Advaithi Ursula Burns Robert Eckert Amanda Ginsberg Wan Ling Martello Yasir Al-Rumayyan Alexander Wynaendts Ronald Sugar John Thain David Trujillo",
+   "supports": "2021 independence determination."
+  },
+  {
+   "id": "e105",
+   "form": "DEF 14A",
+   "accession": "0001552781-21-000157",
+   "filing_date": "2021-03-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278121000157/e21146_uber-def14a.htm",
+   "quote": "Revathi Advaithi(2) 53 Director",
+   "supports": "2021 nominee table marks Advaithi with footnote (2), Nominating and Governance (conflicts with committee section).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e106",
+   "form": "DEF 14A",
+   "accession": "0001552781-21-000157",
+   "filing_date": "2021-03-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278121000157/e21146_uber-def14a.htm",
+   "quote": "Audit Committee Members: Committee Roles and Responsibilities: John Thain (Chair), Revathi Advaithi, Ursula Burns, Amanda Ginsberg, Yasir Al-Rumayyan, and Alexander Wynaendts",
+   "supports": "2021 Audit Committee."
+  },
+  {
+   "id": "e107",
+   "form": "DEF 14A",
+   "accession": "0001552781-21-000157",
+   "filing_date": "2021-03-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278121000157/e21146_uber-def14a.htm",
+   "quote": "Nominating and Governance Committee Members: Committee Roles and Responsibilities: Ronald Sugar (Chair), Ursula Burns, Robert Eckert, Wan Ling Martello, and David Trujillo",
+   "supports": "2021 Nominating and Governance Committee."
+  },
+  {
+   "id": "e108",
+   "form": "DEF 14A",
+   "accession": "0001552781-21-000157",
+   "filing_date": "2021-03-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278121000157/e21146_uber-def14a.htm",
+   "quote": "Compensation Committee Members: Committee Roles and Responsibilities: David Trujillo (Chair), Robert Eckert, Wan Ling Martello, and Ronald Sugar",
+   "supports": "2021 Compensation Committee."
+  },
+  {
+   "id": "e109",
+   "form": "DEF 14A",
+   "accession": "0001552781-22-000289",
+   "filing_date": "2022-03-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278122000289/e22079_uber-def14a.htm",
+   "quote": "which currently consists of eleven members, oversees our business affairs",
+   "supports": "Board size at the 2022 proxy: eleven."
+  },
+  {
+   "id": "e110",
+   "form": "DEF 14A",
+   "accession": "0001552781-22-000289",
+   "filing_date": "2022-03-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278122000289/e22079_uber-def14a.htm",
+   "quote": "following directors is independent: Revathi Advaithi Ursula Burns Robert Eckert Amanda Ginsberg Wan Ling Martello Yasir Al-Rumayyan Alexander Wynaendts Ronald Sugar John Thain David Trujillo",
+   "supports": "2022 independence determination."
+  },
+  {
+   "id": "e111",
+   "form": "DEF 14A",
+   "accession": "0001552781-22-000289",
+   "filing_date": "2022-03-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278122000289/e22079_uber-def14a.htm",
+   "quote": "H.E. Al-Rumayyan currently serves on the board of directors of the Saudi Arabian Oil Company, Sanabil Investments, Arm Limited, Ma'aden and Reliance Industries Limited. He previously served on the board of directors of Tadawul, the Saudi Stock Exchange from 2014 to 2015 and Soft Bank Group from 2017 to 2020.",
+   "supports": "Al-Rumayyan's other boards (last proxy bio)."
+  },
+  {
+   "id": "e112",
+   "form": "DEF 14A",
+   "accession": "0001552781-22-000289",
+   "filing_date": "2022-03-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278122000289/e22079_uber-def14a.htm",
+   "quote": "Other Public Company Boards: · Saudi Arabian Oil Company · Ma'aden · Reliance Industries Limited",
+   "supports": "Al-Rumayyan: boards the proxy lists as public companies."
+  },
+  {
+   "id": "e113",
+   "form": "DEF 14A",
+   "accession": "0001552781-22-000289",
+   "filing_date": "2022-03-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278122000289/e22079_uber-def14a.htm",
+   "quote": "Audit Committee Members: Committee Roles and Responsibilities: John Thain (Chair) Revathi Advaithi Ursula Burns Yasir Al-Rumayyan Alexander Wynaendts",
+   "supports": "2022 Audit Committee."
+  },
+  {
+   "id": "e114",
+   "form": "DEF 14A",
+   "accession": "0001552781-22-000289",
+   "filing_date": "2022-03-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278122000289/e22079_uber-def14a.htm",
+   "quote": "Nominating and Governance Committee Members: Committee Roles and Responsibilities: Ronald Sugar (Chair) Ursula Burns Robert Eckert Wan Ling Martello David Trujillo",
+   "supports": "2022 Nominating and Governance Committee."
+  },
+  {
+   "id": "e115",
+   "form": "DEF 14A",
+   "accession": "0001552781-22-000289",
+   "filing_date": "2022-03-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278122000289/e22079_uber-def14a.htm",
+   "quote": "Compensation Committee Members: Committee Roles and Responsibilities: Robert Eckert (Chair) Amanda Ginsberg Wan Ling Martello Ronald Sugar David Trujillo",
+   "supports": "2022 Compensation Committee (Eckert now chair)."
+  },
+  {
+   "id": "e116",
+   "form": "DEF 14A",
+   "accession": "0001552781-23-000193",
+   "filing_date": "2023-03-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278123000193/e23076_uber-def14a.htm",
+   "quote": "to offer my heartfelt thanks to our colleague, Yasir Al- Rumayyan, who will transition off our Board following the 2023 Annual Meeting.",
+   "supports": "Al-Rumayyan leaves the board after the 2023 annual meeting (not a nominee)."
+  },
+  {
+   "id": "e117",
+   "form": "DEF 14A",
+   "accession": "0001552781-23-000193",
+   "filing_date": "2023-03-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278123000193/e23076_uber-def14a.htm",
+   "quote": "proposed for 10 of the 11 current directors to stand for re-election at the 2023 Annual Meeting.",
+   "supports": "2023: eleven directors, ten nominated."
+  },
+  {
+   "id": "e118",
+   "form": "DEF 14A",
+   "accession": "0001552781-23-000193",
+   "filing_date": "2023-03-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278123000193/e23076_uber-def14a.htm",
+   "quote": "each of the following directors is independent: Revathi Advaithi Ursula Burns Robert Eckert Amanda Ginsberg Wan Ling Martello Yasir Al-Rumayyan Alexander Wynaendts Ronald Sugar John Thain David Trujillo",
+   "supports": "2023 independence determination."
+  },
+  {
+   "id": "e119",
+   "form": "DEF 14A",
+   "accession": "0001552781-23-000193",
+   "filing_date": "2023-03-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278123000193/e23076_uber-def14a.htm",
+   "quote": "Audit Committee Members: Committee Roles and Responsibilities: John Thain (Chair) Revathi Advaithi Ursula Burns Yasir Al-Rumayyan Alexander Wynaendts",
+   "supports": "2023 Audit Committee."
+  },
+  {
+   "id": "e120",
+   "form": "DEF 14A",
+   "accession": "0001552781-23-000193",
+   "filing_date": "2023-03-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278123000193/e23076_uber-def14a.htm",
+   "quote": "Nominating and Governance Committee Members: Committee Roles and Responsibilities: Ronald Sugar (Chair) Ursula Burns Robert Eckert Wan Ling Martello David Trujillo",
+   "supports": "2023 Nominating and Governance Committee."
+  },
+  {
+   "id": "e121",
+   "form": "DEF 14A",
+   "accession": "0001552781-23-000193",
+   "filing_date": "2023-03-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278123000193/e23076_uber-def14a.htm",
+   "quote": "Compensation Committee Members: Committee Roles and Responsibilities: Robert Eckert (Chair) Amanda Ginsberg Wan Ling Martello Ronald Sugar David Trujillo",
+   "supports": "2023 Compensation Committee."
+  },
+  {
+   "id": "e122",
+   "form": "DEF 14A",
+   "accession": "0001552781-24-000177",
+   "filing_date": "2024-03-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278124000177/e24048_uber-def14a.htm",
+   "quote": "which currently consists of 11 members, oversees our business affairs",
+   "supports": "Board size at the 2024 proxy: 11."
+  },
+  {
+   "id": "e123",
+   "form": "DEF 14A",
+   "accession": "0001552781-24-000177",
+   "filing_date": "2024-03-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278124000177/e24048_uber-def14a.htm",
+   "quote": "each of the following directors is independent: Revathi Advaithi Turqi Alnowaiser Ursula Burns Robert Eckert Amanda Ginsberg Wan Ling Martello Ronald Sugar John Thain David Trujillo Alexander Wynaendts",
+   "supports": "2024 independence determination (first for Alnowaiser)."
+  },
+  {
+   "id": "e124",
+   "form": "DEF 14A",
+   "accession": "0001552781-24-000177",
+   "filing_date": "2024-03-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278124000177/e24048_uber-def14a.htm",
+   "quote": "Other Public Company Boards: • Alibaba Group • Stellantis, N.V.",
+   "supports": "Martello: other public company boards (last proxy bio)."
+  },
+  {
+   "id": "e125",
+   "form": "DEF 14A",
+   "accession": "0001552781-24-000177",
+   "filing_date": "2024-03-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278124000177/e24048_uber-def14a.htm",
+   "quote": "Ms. Martello currently serves on the board of directors of Alibaba Group and Stellantis N.V.",
+   "supports": "Martello: other boards (last proxy bio)."
+  },
+  {
+   "id": "e126",
+   "form": "DEF 14A",
+   "accession": "0001552781-24-000177",
+   "filing_date": "2024-03-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278124000177/e24048_uber-def14a.htm",
+   "quote": "Audit Committee Members: Committee Roles & Responsibilities: John Thain (Chair) Revathi Advaithi Turqi Alnowaiser Ursula Burns Alexander Wynaendts",
+   "supports": "2024 Audit Committee."
+  },
+  {
+   "id": "e127",
+   "form": "DEF 14A",
+   "accession": "0001552781-24-000177",
+   "filing_date": "2024-03-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278124000177/e24048_uber-def14a.htm",
+   "quote": "Nominating & Governance Committee Members: Committee Roles & Responsibilities: Ronald Sugar (Chair) Ursula Burns Robert Eckert Wan Ling Martello David Trujillo",
+   "supports": "2024 Nominating and Governance Committee."
+  },
+  {
+   "id": "e128",
+   "form": "DEF 14A",
+   "accession": "0001552781-24-000177",
+   "filing_date": "2024-03-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278124000177/e24048_uber-def14a.htm",
+   "quote": "Compensation Committee Members: Committee Roles & Responsibilities: Robert Eckert (Chair) Amanda Ginsberg Wan Ling Martello Ronald Sugar David Trujillo",
+   "supports": "2024 Compensation Committee."
+  },
+  {
+   "id": "e129",
+   "form": "DEF 14A",
+   "accession": "0001308179-25-000210",
+   "filing_date": "2025-03-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000130817925000210/uber013353-def14a.htm",
+   "quote": "In February 2025, Wan Ling Martello informed us that she would not stand for re-election at the 2025 Annual Meeting.",
+   "supports": "Martello did not stand for re-election in 2025."
+  },
+  {
+   "id": "e130",
+   "form": "DEF 14A",
+   "accession": "0001308179-25-000210",
+   "filing_date": "2025-03-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000130817925000210/uber013353-def14a.htm",
+   "quote": "proposed for ten of the eleven current directors to stand for re-election at the 2025 Annual Meeting.",
+   "supports": "2025: eleven directors, ten nominated."
+  },
+  {
+   "id": "e131",
+   "form": "DEF 14A",
+   "accession": "0001308179-25-000210",
+   "filing_date": "2025-03-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000130817925000210/uber013353-def14a.htm",
+   "quote": "each of the following directors is independent: Revathi Advaithi Turqi Alnowaiser Ursula Burns Robert Eckert Amanda Ginsberg Wan Ling Martello(1) Ronald Sugar John Thain David Trujillo Alexander Wynaendts",
+   "supports": "2025 independence determination."
+  },
+  {
+   "id": "e132",
+   "form": "DEF 14A",
+   "accession": "0001308179-25-000210",
+   "filing_date": "2025-03-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000130817925000210/uber013353-def14a.htm",
+   "quote": "Boards: ● TPG Inc. Biography Mr. Trujillo has served on our Board since June 2017.",
+   "supports": "Trujillo: other public company board TPG Inc. (last proxy bio); director since June 2017."
+  },
+  {
+   "id": "e133",
+   "form": "DEF 14A",
+   "accession": "0001308179-25-000210",
+   "filing_date": "2025-03-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000130817925000210/uber013353-def14a.htm",
+   "quote": "Audit Committee Members: Roles & Responsibilities: John Thain (Chair) Revathi Advaithi Turqi Alnowaiser Ursula Burns Alexander Wynaendts",
+   "supports": "2025 Audit Committee."
+  },
+  {
+   "id": "e134",
+   "form": "DEF 14A",
+   "accession": "0001308179-25-000210",
+   "filing_date": "2025-03-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000130817925000210/uber013353-def14a.htm",
+   "quote": "Nominating & Governance Committee Members: Roles & Responsibilities: Ronald Sugar (Chair) Ursula Burns Robert Eckert Wan Ling Martello David Trujillo",
+   "supports": "2025 Nominating and Governance Committee."
+  },
+  {
+   "id": "e135",
+   "form": "DEF 14A",
+   "accession": "0001308179-25-000210",
+   "filing_date": "2025-03-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000130817925000210/uber013353-def14a.htm",
+   "quote": "Compensation Committee Members: Roles & Responsibilities: Robert Eckert (Chair) Amanda Ginsberg Wan Ling Martello Ronald Sugar David Trujillo",
+   "supports": "2025 Compensation Committee."
+  },
+  {
+   "id": "e136",
+   "form": "DEF 14A",
+   "accession": "0001308179-26-000125",
+   "filing_date": "2026-03-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000130817926000125/uber014597-def14a.htm",
+   "quote": "Nikesh Arora Chairman and CEO, Palo Alto Networks, Inc. Age: 58 Director Since: May 2025 Committee Memberships: Audit",
+   "supports": "Original 2026 proxy bio lists Arora on Audit (a typo, corrected by the 2026-04-20 amendment)."
+  },
+  {
+   "id": "e137",
+   "form": "DEFR14A",
+   "accession": "0001308179-26-000303",
+   "filing_date": "2026-04-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000130817926000303/uber014597-defr14a.htm",
+   "quote": "solely to correct a typographical error relating to Board committee membership for Nikesh Arora underneath his photograph on page 24 of the Proxy Statement.",
+   "supports": "DEFR14A corrects Arora's committee line; no other changes."
+  },
+  {
+   "id": "e138",
+   "form": "DEFR14A",
+   "accession": "0001308179-26-000303",
+   "filing_date": "2026-04-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000130817926000303/uber014597-defr14a.htm",
+   "quote": "to our colleague David Trujillo, who will transition off our Board following the 2026 Annual Meeting. David has served on our Board since 2017, prior to our IPO,",
+   "supports": "Trujillo leaves the board after the 2026 annual meeting (not a nominee)."
+  },
+  {
+   "id": "e139",
+   "form": "DEFR14A",
+   "accession": "0001308179-26-000303",
+   "filing_date": "2026-04-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000130817926000303/uber014597-defr14a.htm",
+   "quote": "the Nominating and Governance Committee proposed for ten of the eleven current directors to stand for re-election at the 2026 Annual Meeting.",
+   "supports": "2026: eleven directors, ten nominated."
+  },
+  {
+   "id": "e140",
+   "form": "DEFR14A",
+   "accession": "0001308179-26-000303",
+   "filing_date": "2026-04-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000130817926000303/uber014597-defr14a.htm",
+   "quote": "the Board has nominated each of these individuals for a new one-year term that will expire at the 2027 Annual Meeting of Stockholders when their successors are elected.",
+   "supports": "One-year terms; board not classified."
+  },
+  {
+   "id": "e141",
+   "form": "DEFR14A",
+   "accession": "0001308179-26-000303",
+   "filing_date": "2026-04-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000130817926000303/uber014597-defr14a.htm",
+   "quote": "Ronald Sugar(1)(2) 77 Independent Chairperson of the Board Revathi Advaithi(3) 58 Director Turqi Alnowaiser(3) 49 Director Nikesh Arora(1)(2) 58 Director Ursula Burns(2)(3) 67 Director Robert Eckert(1)(2) 71 Director Amanda Ginsberg(1)(2) 56 Director Dara Khosrowshahi 56 Director and Chief Executive Officer John Thain(3) 70 Director Alexander Wynaendts(3) 65 Director",
+   "supports": "2026 nominee table: ten nominees, positions and committees.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e142",
+   "form": "DEFR14A",
+   "accession": "0001308179-26-000303",
+   "filing_date": "2026-04-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000130817926000303/uber014597-defr14a.htm",
+   "quote": "each of the following directors is independent: Revathi Advaithi Nikesh Arora Robert Eckert Ronald Sugar David Trujillo Turqi Alnowaiser Ursula Burns Amanda Ginsberg John Thain Alexander Wynaendts Our Board has determined that Dara Khosrowshahi is not independent.",
+   "supports": "2026 independence determination."
+  },
+  {
+   "id": "e143",
+   "form": "DEFR14A",
+   "accession": "0001308179-26-000303",
+   "filing_date": "2026-04-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000130817926000303/uber014597-defr14a.htm",
+   "quote": "Our corporate governance guidelines provide that the roles of chairperson of the Board and Chief Executive Officer (CEO) must be held by separate persons, and the chairperson of our Board must be independent. Dr. Sugar currently serves as the Independent Chairperson of our Board.",
+   "supports": "Sugar is Independent Chairperson; chair and CEO roles must be separate."
+  },
+  {
+   "id": "e144",
+   "form": "DEFR14A",
+   "accession": "0001308179-26-000303",
+   "filing_date": "2026-04-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000130817926000303/uber014597-defr14a.htm",
+   "quote": "Audit Committee Members: Roles & Responsibilities: John Thain (Chair) Revathi Advaithi Turqi Alnowaiser Ursula Burns Alexander Wynaendts",
+   "supports": "2026 Audit Committee."
+  },
+  {
+   "id": "e145",
+   "form": "DEFR14A",
+   "accession": "0001308179-26-000303",
+   "filing_date": "2026-04-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000130817926000303/uber014597-defr14a.htm",
+   "quote": "Nominating & Governance Committee Members: Roles & Responsibilities: Ronald Sugar (Chair) Nikesh Arora Ursula Burns Robert Eckert Amanda Ginsberg David Trujillo",
+   "supports": "2026 Nominating and Governance Committee."
+  },
+  {
+   "id": "e146",
+   "form": "DEFR14A",
+   "accession": "0001308179-26-000303",
+   "filing_date": "2026-04-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000130817926000303/uber014597-defr14a.htm",
+   "quote": "Compensation Committee Members: Roles & Responsibilities: Robert Eckert (Chair) Nikesh Arora Amanda Ginsberg Ronald Sugar David Trujillo",
+   "supports": "2026 Compensation Committee."
+  },
+  {
+   "id": "e147",
+   "form": "DEFR14A",
+   "accession": "0001308179-26-000303",
+   "filing_date": "2026-04-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000130817926000303/uber014597-defr14a.htm",
+   "quote": "Director Since: July 2018 Committee Memberships: Nominating and Governance (Chair); Compensation Other Public Company Boards: ● Apple Inc. Biography Dr. Sugar has served as the Independent Chairperson of our Board since July 2018.",
+   "supports": "Sugar: director since July 2018; Independent Chairperson since July 2018; committees; Apple Inc."
+  },
+  {
+   "id": "e148",
+   "form": "DEFR14A",
+   "accession": "0001308179-26-000303",
+   "filing_date": "2026-04-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000130817926000303/uber014597-defr14a.htm",
+   "quote": "Dr. Sugar currently serves on the board of Apple Inc. He previously served on the board of Air Lease Corporation from 2010 to 2020, the board of Chevron Corporation from 2005 to 2023, and the board of Amgen, Inc. from 2010 to 2024.",
+   "supports": "Sugar other boards."
+  },
+  {
+   "id": "e149",
+   "form": "DEFR14A",
+   "accession": "0001308179-26-000303",
+   "filing_date": "2026-04-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000130817926000303/uber014597-defr14a.htm",
+   "quote": "Director Since: July 2020 Committee Memberships: Audit Other Public Company Boards: ● Flex Ltd. Biography Ms. Advaithi has served on our Board since July 2020.",
+   "supports": "Advaithi: director since July 2020; Audit; Flex Ltd."
+  },
+  {
+   "id": "e150",
+   "form": "DEFR14A",
+   "accession": "0001308179-26-000303",
+   "filing_date": "2026-04-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000130817926000303/uber014597-defr14a.htm",
+   "quote": "Director Since: November 2023 Committee Memberships: Audit Other Public Company Boards: ● Lucid Group, Inc. ● Hapag-Lloyd AG Biography Mr. Alnowaiser has served on our Board since November 2023.",
+   "supports": "Alnowaiser: director since November 2023; Audit; Lucid Group and Hapag-Lloyd."
+  },
+  {
+   "id": "e151",
+   "form": "DEFR14A",
+   "accession": "0001308179-26-000303",
+   "filing_date": "2026-04-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000130817926000303/uber014597-defr14a.htm",
+   "quote": "Mr. Alnowaiser has served on the board of Lucid Group, Inc., since April 2019 and has served as Chairman of Lucid's board since April 2023. Mr. Alnowaiser has also served on the board of Hapag-Lloyd AG since February 2018.",
+   "supports": "Alnowaiser other boards with years."
+  },
+  {
+   "id": "e152",
+   "form": "DEFR14A",
+   "accession": "0001308179-26-000303",
+   "filing_date": "2026-04-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000130817926000303/uber014597-defr14a.htm",
+   "quote": "Director Since: May 2025 Committee Memberships: Nominating and Governance; Compensation Other Public Company Boards: ● Palo Alto Networks, Inc. ● Compagnie Financiere Richemont S.A. Biography Mr. Arora has served on our Board since May 2025.",
+   "supports": "Arora (corrected): director since May 2025; Nominating and Governance, Compensation; Palo Alto Networks and Richemont."
+  },
+  {
+   "id": "e153",
+   "form": "DEFR14A",
+   "accession": "0001308179-26-000303",
+   "filing_date": "2026-04-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000130817926000303/uber014597-defr14a.htm",
+   "quote": "Mr. Arora previously served on the boards of SoftBank, Sprint Corp., Colgate-Palmolive Company, and Yahoo! Japan, among others.",
+   "supports": "Arora former boards (2026 proxy; years in the 2025 appointment 8-K)."
+  },
+  {
+   "id": "e154",
+   "form": "DEFR14A",
+   "accession": "0001308179-26-000303",
+   "filing_date": "2026-04-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000130817926000303/uber014597-defr14a.htm",
+   "quote": "Director Since: October 2017 Committee Memberships: Nominating and Governance; Audit Other Public Company Boards: ● IHS Holding Limited ● Taiwan Semiconductor Manufacturing Company Ltd. Biography Ms. Burns has served on our Board since October 2017.",
+   "supports": "Burns: director since October 2017 (per 2026 proxy); committees; IHS and TSMC."
+  },
+  {
+   "id": "e155",
+   "form": "DEFR14A",
+   "accession": "0001308179-26-000303",
+   "filing_date": "2026-04-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000130817926000303/uber014597-defr14a.htm",
+   "quote": "She previously served on the boards of Endeavor Group Holdings, Inc. from 2021 to 2025, American Express Company from 2004 to 2018, Nestlé S.A. from 2017 to April 2021, VEON Ltd. from 2017 to 2020, Xerox Corporation from 2007 to 2017, Plum Acquisition Corp. I from 2021 to 2023, and Exxon Mobil Corporation from 2012 to 2023.",
+   "supports": "Burns former boards."
+  },
+  {
+   "id": "e156",
+   "form": "DEFR14A",
+   "accession": "0001308179-26-000303",
+   "filing_date": "2026-04-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000130817926000303/uber014597-defr14a.htm",
+   "quote": "Director Since: March 2020 Committee Memberships: Nominating and Governance; Compensation (Chair) Other Public Company Boards: ● Amgen, Inc. ● Levi Strauss & Co. Biography Mr. Eckert has served on our Board since March 2020.",
+   "supports": "Eckert: director since March 2020; committees; Amgen and Levi Strauss."
+  },
+  {
+   "id": "e157",
+   "form": "DEFR14A",
+   "accession": "0001308179-26-000303",
+   "filing_date": "2026-04-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000130817926000303/uber014597-defr14a.htm",
+   "quote": "He previously served on the board of McDonald's Corporation from 2003 to 2023.",
+   "supports": "Eckert former board."
+  },
+  {
+   "id": "e158",
+   "form": "DEFR14A",
+   "accession": "0001308179-26-000303",
+   "filing_date": "2026-04-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000130817926000303/uber014597-defr14a.htm",
+   "quote": "Director Since: February 2020 Committee Memberships: Nominating and Governance; Compensation Other Public Company Boards: ● ThredUp Inc. ● Universal Music Group N.V. Biography Ms. Ginsberg has served on our Board since February 2020.",
+   "supports": "Ginsberg: director since February 2020; committees; ThredUp and UMG."
+  },
+  {
+   "id": "e159",
+   "form": "DEFR14A",
+   "accession": "0001308179-26-000303",
+   "filing_date": "2026-04-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000130817926000303/uber014597-defr14a.htm",
+   "quote": "She previously served on the boards of Care.com from 2012 to 2014; J.C. Penney from 2015 to 2020; Match Group, Inc. from 2017 to 2020; and Z-Work Acquisition Corp. from 2020 to 2022.",
+   "supports": "Ginsberg former boards."
+  },
+  {
+   "id": "e160",
+   "form": "DEFR14A",
+   "accession": "0001308179-26-000303",
+   "filing_date": "2026-04-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000130817926000303/uber014597-defr14a.htm",
+   "quote": "Director Since: September 2017 Committee Memberships: None Other Public Company Boards: ● Expedia Group, Inc. ● Grab Holdings Ltd. Biography Mr. Khosrowshahi has served as our Chief Executive Officer and a member of our Board since September 2017.",
+   "supports": "Khosrowshahi: CEO and director since September 2017; no committees; Expedia and Grab."
+  },
+  {
+   "id": "e161",
+   "form": "DEFR14A",
+   "accession": "0001308179-26-000303",
+   "filing_date": "2026-04-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000130817926000303/uber014597-defr14a.htm",
+   "quote": "He was a member of the supervisory board of trivago, N.V. from 2016 to 2017 and previously served on the boards of the following companies: Aurora Innovation, Inc. from 2021 to 2024; the New York Times Company from 2015 to 2017; and TripAdvisor, Inc. from 2011 to 2013.",
+   "supports": "Khosrowshahi former boards."
+  },
+  {
+   "id": "e162",
+   "form": "DEFR14A",
+   "accession": "0001308179-26-000303",
+   "filing_date": "2026-04-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000130817926000303/uber014597-defr14a.htm",
+   "quote": "Director Since: October 2017 Committee Memberships: Audit (Chair) Other Public Company Boards: ● Deutsche Bank AG Biography Mr. Thain has served on our Board since October 2017.",
+   "supports": "Thain: director since October 2017 (per 2026 proxy); Audit chair; Deutsche Bank."
+  },
+  {
+   "id": "e163",
+   "form": "DEFR14A",
+   "accession": "0001308179-26-000303",
+   "filing_date": "2026-04-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000130817926000303/uber014597-defr14a.htm",
+   "quote": "He previously served on the board of Goldman Sachs Group Inc. from 1998 to 2004.",
+   "supports": "Thain former board."
+  },
+  {
+   "id": "e164",
+   "form": "DEFR14A",
+   "accession": "0001308179-26-000303",
+   "filing_date": "2026-04-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000130817926000303/uber014597-defr14a.htm",
+   "quote": "Director Since: March 2021 Committee Memberships: Audit Other Public Company Boards: ● Air France-KLM SA ● Deutsche Bank AG Biography Mr. Wynaendts has served on our Board since March 2021.",
+   "supports": "Wynaendts: director since March 2021; Audit; Air France-KLM and Deutsche Bank."
+  },
+  {
+   "id": "e165",
+   "form": "DEFR14A",
+   "accession": "0001308179-26-000303",
+   "filing_date": "2026-04-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000130817926000303/uber014597-defr14a.htm",
+   "quote": "Mr. Wynaendts currently serves on the board of Air France-KLM SA and the Supervisory Board of Deutsche Bank AG, where he serves as Chairman. He formerly served on the board of Citigroup Inc. from 2016 to 2021.",
+   "supports": "Wynaendts other boards (Citigroup years conflict with the 2021 8-K)."
+  }
+ ],
+ "conflicts": [
+  {
+   "description": "Burns's and Thain's board start month. The IPO prospectus and the 2020 proxy say both joined in September 2017; every proxy from 2021 through 2026 says October 2017. No filing explains the change. Both memberships are recorded at year precision (2017).",
+   "evidence_refs": [
+    "e017",
+    "e032",
+    "e093",
+    "e094",
+    "e100",
+    "e101",
+    "e154",
+    "e162"
+   ]
+  },
+  {
+   "description": "Arora's committees in the original 2026 proxy. His biography box listed 'Audit', but the nominee table, the committee composition section and his 2025 appointment 8-K all give Nominating and Governance plus Compensation. The 2026-04-20 DEFR14A corrects the biography box as a typographical error. Recorded as Nominating and Governance plus Compensation.",
+   "evidence_refs": [
+    "e136",
+    "e137",
+    "e152",
+    "e145",
+    "e146",
+    "e070"
+   ]
+  },
+  {
+   "description": "Advaithi's committees in the 2021 proxy. The nominee table marks her with footnote (2), Nominating and Governance. The committee section, the proxy summary and her 2020 appointment 8-K put her on the Audit Committee only. Recorded per the committee section (Audit).",
+   "evidence_refs": [
+    "e105",
+    "e106",
+    "e107",
+    "e062"
+   ]
+  },
+  {
+   "description": "2021 board size. The 2021 proxy says the board 'currently consists of ten members', but the same proxy nominates eleven directors who 'currently' serve, including Wynaendts (appointed 2021-03-22, a week before filing). The ten-member line looks stale. The membership records give eleven.",
+   "evidence_refs": [
+    "e102",
+    "e103",
+    "e063"
+   ]
+  },
+  {
+   "description": "Wynaendts's Citigroup board years. His 2021 appointment 8-K says he 'has served on the board of directors of Citigroup Inc. since 2019'; the 2026 proxy says 'from 2016 to 2021'. This only affects the other-boards field.",
+   "evidence_refs": [
+    "e065",
+    "e165"
+   ]
+  }
+ ],
+ "open_questions": [
+  "Committee composition after the 2026-05-04 annual meeting. The latest proxy (as of 2026-03-23) still lists Trujillo on Nominating and Governance and Compensation. No later filing through 2026-10-04 says whether those seats were refilled, so current committee rows are the 2026 proxy minus Trujillo.",
+  "Burns and Thain start month: September 2017 (prospectus, 2020 proxy) or October 2017 (2021-2026 proxies). See conflicts.",
+  "Pre-IPO start dates are disclosed only to the month (or, for Burns and Thain, effectively the year). No filing gives a day.",
+  "Whether Al-Rumayyan's (2023) and Trujillo's (2026) exits were their own choice. The proxies say only that they would 'transition off' and that the Nominating and Governance Committee proposed ten of the eleven directors. end_reason is did_not_stand for both.",
+  "Graves's role from November 2010 to November 2011 (between his CEO stint and his VP Operations role) is not stated. Camp's pre-IPO employment status is not covered, so his independence span starts at the IPO prospectus date.",
+  "Committee changes between proxies are undated. Trujillo chaired Compensation in the 2020 and 2021 proxies and Eckert chaired it from the 2022 proxy. Ginsberg moved from Audit to Compensation between the 2021 and 2022 proxies and joined Nominating and Governance between the 2025 and 2026 proxies. Martello moved from Audit (IPO) to Compensation (2020 proxy).",
+  "Independence roles are aligned to board tenure. The filings give point-in-time determinations only (IPO prospectus and each proxy).",
+  "Other-board lists come from Uber's own bios as of each filing and are not checked against other issuers' filings. Pre-IPO prospectus bios don't say which companies are public (flagged public_company_stated_in_source=false), and boards the bios call private are omitted.",
+  "The pre-IPO voting agreement reserved two SoftBank-designated seats (vacant at IPO, subject to CFIUS approval). The agreement ended at the IPO closing, and no SoftBank designee appears in any later filing."
+ ],
+ "coverage": [
+  {
+   "scope": "current_board",
+   "period_start": "2026-10-04",
+   "period_end": "2026-10-04",
+   "level": "complete",
+   "method": "Current roster checked against the 2026 DEF 14A and its 2026-04-20 DEFR14A amendment, the 2026-05-04 annual-meeting 8-K (Item 5.07), every 8-K filed 2026-03-23 through 2026-09-15 (the only 5.02 was an officer change), and every Form 3 in the EDGAR submissions feed through 2026-09-21 (no new director since Arora)."
+  },
+  {
+   "scope": "board_history",
+   "period_start": "2019-05-10",
+   "period_end": "2026-10-04",
+   "level": "complete",
+   "method": "IPO 424B4, every DEF 14A 2020-2026 (plus both DEFR14As), every 8-K with Item 5.02 (19) or Item 5.07 (7), and every post-IPO Form 3 reviewed. Departures are dated from 8-Ks; did-not-stand exits use the annual-meeting date from Item 5.07. Each proxy's roster reconciles with the prior one plus the dated joins and leaves."
+  },
+  {
+   "scope": "board_history",
+   "period_start": "2010-07-01",
+   "period_end": "2019-05-09",
+   "level": "partial",
+   "method": "Pre-IPO seats reconstructed from the IPO prospectus and later proxy bios only. Only directors still serving at the IPO are covered; earlier pre-IPO departures are not researched."
+  }
+ ]
+}

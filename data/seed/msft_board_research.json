@@ -1,0 +1,3454 @@
+{
+ "company": {
+  "cik": "0000789019",
+  "ticker": "MSFT",
+  "legal_name": "Microsoft Corporation",
+  "common_name": "Microsoft",
+  "exchange": "Nasdaq Stock Market",
+  "ipo_date": "1986-03-13",
+  "state_of_incorporation": "Washington",
+  "classified_board": false,
+  "notes": "IPO / first trading day 1986-03-13 on Nasdaq per Microsoft's 2001 S-4 (evidence e001). Board not classified: all directors elected annually by majority vote (e004). Exchange per the 10-K: NASDAQ Stock Market (e002); market tier not stated in the filings used. Incorporated in Washington (e003). Fiscal year ends June 30; annual meetings are held in late November or early December."
+ },
+ "as_of": "2026-10-04",
+ "sources_reviewed_through": "2026-09-17 (latest filing in the EDGAR submissions feed fetched 2026-10-04)",
+ "people": [
+  {
+   "key": "satya-nadella",
+   "full_name": "Satya Nadella",
+   "aliases": [
+    "Nadella Satya"
+   ],
+   "sec_cik": "0001513142",
+   "bio_other_public_boards": [
+    {
+     "company": "Starbucks Corporation",
+     "status": "former",
+     "years": "not stated",
+     "source_ref": "e044",
+     "public_company_stated_in_source": true,
+     "note": "listed under 'Former Public Company Directorships Held in the Past Five Years' (2025 proxy)"
+    }
+   ]
+  },
+  {
+   "key": "reid-hoffman",
+   "full_name": "Reid G. Hoffman",
+   "aliases": [
+    "Reid Hoffman",
+    "Hoffman Reid"
+   ],
+   "sec_cik": "0001519339",
+   "bio_other_public_boards": [
+    {
+     "company": "Aurora Innovation, Inc.",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e034",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Joby Aviation, Inc.",
+     "status": "former",
+     "years": "not stated",
+     "source_ref": "e034",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Reinvent Technology Partners Z",
+     "status": "former",
+     "years": "not stated",
+     "source_ref": "e034",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "hugh-johnston",
+   "full_name": "Hugh F. Johnston",
+   "aliases": [
+    "Hugh Johnston",
+    "Johnston Hugh F"
+   ],
+   "sec_cik": "0001377489",
+   "bio_other_public_boards": [
+    {
+     "company": "HCA Healthcare, Inc.",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e036",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "teri-list",
+   "full_name": "Teri L. List",
+   "aliases": [
+    "Teri L. List-Stoll",
+    "Teri List-Stoll",
+    "Teri List",
+    "List Teri L.",
+    "List Teri"
+   ],
+   "sec_cik": "0001529370",
+   "bio_other_public_boards": [
+    {
+     "company": "Danaher Corporation",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e038",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "lululemon athletica inc.",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e038",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Visa Inc.",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e038",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "DoubleVerify Holdings, Inc.",
+     "status": "former",
+     "years": "not stated",
+     "source_ref": "e038",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Oscar Health, Inc.",
+     "status": "former",
+     "years": "not stated",
+     "source_ref": "e038",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "catherine-macgregor",
+   "full_name": "Catherine MacGregor",
+   "aliases": [
+    "MacGregor Catherine"
+   ],
+   "sec_cik": "0001415757",
+   "bio_other_public_boards": [
+    {
+     "company": "Engie S.A.",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e040",
+     "public_company_stated_in_source": true,
+     "note": "she is Group CEO and a director of Engie"
+    }
+   ]
+  },
+  {
+   "key": "mark-mason",
+   "full_name": "Mark A. L. Mason",
+   "aliases": [
+    "Mark Mason",
+    "Mason Mark"
+   ],
+   "sec_cik": "0001487290",
+   "bio_other_public_boards": []
+  },
+  {
+   "key": "sandra-peterson",
+   "full_name": "Sandra E. Peterson",
+   "aliases": [
+    "Sandra Peterson",
+    "Sandi Peterson",
+    "PETERSON SANDRA E"
+   ],
+   "sec_cik": "0001192752",
+   "bio_other_public_boards": [
+    {
+     "company": "Covetrus, Inc.",
+     "status": "former",
+     "years": "not stated",
+     "source_ref": "e046",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Zymergen, Inc.",
+     "status": "former",
+     "years": "not stated",
+     "source_ref": "e046",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "penny-pritzker",
+   "full_name": "Penny S. Pritzker",
+   "aliases": [
+    "Penny Pritzker",
+    "PRITZKER PENNY S"
+   ],
+   "sec_cik": "0001087398",
+   "bio_other_public_boards": []
+  },
+  {
+   "key": "john-david-rainey",
+   "full_name": "John David Rainey",
+   "aliases": [
+    "John D. Rainey",
+    "Rainey John D"
+   ],
+   "sec_cik": "0001547433",
+   "bio_other_public_boards": [
+    {
+     "company": "Nasdaq, Inc.",
+     "status": "former",
+     "years": "not stated",
+     "source_ref": "e050",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "charles-scharf",
+   "full_name": "Charles W. Scharf",
+   "aliases": [
+    "Charles Scharf",
+    "SCHARF CHARLES W"
+   ],
+   "sec_cik": "0001195358",
+   "bio_other_public_boards": [
+    {
+     "company": "Wells Fargo & Company",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e052",
+     "public_company_stated_in_source": true,
+     "note": "he is CEO, President, and Director of Wells Fargo"
+    }
+   ]
+  },
+  {
+   "key": "john-stanton",
+   "full_name": "John W. Stanton",
+   "aliases": [
+    "John Stanton",
+    "STANTON JOHN W"
+   ],
+   "sec_cik": "0000904858",
+   "bio_other_public_boards": [
+    {
+     "company": "Costco Wholesale Corporation",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e054",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Trilogy International Partners, Inc.",
+     "status": "former",
+     "years": "not stated",
+     "source_ref": "e054",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "emma-walmsley",
+   "full_name": "Emma N. Walmsley",
+   "aliases": [
+    "Emma Walmsley",
+    "Walmsley Emma N"
+   ],
+   "sec_cik": "0001795429",
+   "bio_other_public_boards": [
+    {
+     "company": "GSK plc",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e056",
+     "public_company_stated_in_source": true,
+     "note": "she is CEO and a director of GSK"
+    }
+   ]
+  },
+  {
+   "key": "carmine-di-sibio",
+   "full_name": "Carmine Di Sibio",
+   "aliases": [
+    "Di Sibio Carmine"
+   ],
+   "sec_cik": "0002028185",
+   "bio_other_public_boards": [
+    {
+     "company": "PayPal Holdings, Inc.",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e020",
+     "public_company_stated_in_source": false,
+     "note": "from the 2026-05-14 appointment press release; no Microsoft proxy covers him yet"
+    },
+    {
+     "company": "Prudential Financial, Inc.",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e020",
+     "public_company_stated_in_source": false,
+     "note": "from the 2026-05-14 appointment press release; no Microsoft proxy covers him yet"
+    },
+    {
+     "company": "Evolver",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e020",
+     "public_company_stated_in_source": false,
+     "note": "from the 2026-05-14 appointment press release; whether Evolver is a public company is not stated"
+    }
+   ]
+  },
+  {
+   "key": "bill-gates",
+   "full_name": "William H. Gates III",
+   "aliases": [
+    "Bill Gates",
+    "William H. Gates",
+    "GATES WILLIAM H III"
+   ],
+   "sec_cik": "0000902012",
+   "bio_other_public_boards": [
+    {
+     "company": "Berkshire Hathaway Inc.",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e092",
+     "public_company_stated_in_source": true,
+     "note": "status as of the 2019 proxy (his last)"
+    }
+   ]
+  },
+  {
+   "key": "arne-sorenson",
+   "full_name": "Arne M. Sorenson",
+   "aliases": [
+    "Arne Sorenson",
+    "SORENSON ARNE M"
+   ],
+   "sec_cik": "0001238138",
+   "bio_other_public_boards": [
+    {
+     "company": "Marriott International, Inc.",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e095",
+     "public_company_stated_in_source": true,
+     "note": "status as of the 2020 proxy (his last); he was Marriott's President and CEO"
+    }
+   ]
+  },
+  {
+   "key": "john-thompson",
+   "full_name": "John W. Thompson",
+   "aliases": [
+    "John Thompson",
+    "John E. Thompson",
+    "THOMPSON JOHN WENDELL"
+   ],
+   "sec_cik": "0001207433",
+   "bio_other_public_boards": [
+    {
+     "company": "Illumina, Inc.",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e100",
+     "public_company_stated_in_source": true,
+     "note": "status as of the 2022 proxy (his last bio)"
+    }
+   ]
+  },
+  {
+   "key": "padmasree-warrior",
+   "full_name": "Padmasree Warrior",
+   "aliases": [
+    "WARRIOR PADMASREE"
+   ],
+   "sec_cik": "0001186249",
+   "bio_other_public_boards": [
+    {
+     "company": "Spotify Technology S.A.",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e102",
+     "public_company_stated_in_source": true,
+     "note": "status as of the 2022 proxy (her last bio)"
+    }
+   ]
+  },
+  {
+   "key": "carlos-rodriguez",
+   "full_name": "Carlos A. Rodriguez",
+   "aliases": [
+    "Carlos Rodriguez",
+    "Rodriguez Carlos A"
+   ],
+   "sec_cik": "0001378514",
+   "bio_other_public_boards": [
+    {
+     "company": "Automatic Data Processing, Inc.",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e104",
+     "public_company_stated_in_source": true,
+     "note": "status as of the 2024 proxy (his last bio)"
+    }
+   ]
+  }
+ ],
+ "memberships": [
+  {
+   "person_key": "satya-nadella",
+   "start_date": "2014-02-04",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 (appointed CEO and director, effective immediately); Form 3 event date agrees",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e030",
+    "e111",
+    "e043",
+    "e023",
+    "e140"
+   ],
+   "board_class": null,
+   "notes": "CEO-director since 2014-02-04; Chairman and CEO since 2021-06-16."
+  },
+  {
+   "person_key": "reid-hoffman",
+   "start_date": "2017-03-14",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 (appointed effective immediately); Form 3 event date agrees",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e067",
+    "e117",
+    "e033",
+    "e022",
+    "e023",
+    "e129"
+   ],
+   "board_class": null,
+   "notes": "Current as of 2026-10-04. On 2026-06-02 he told the company he will not stand for re-election at the 2026 annual meeting; he serves until that meeting (date not yet set in any filing)."
+  },
+  {
+   "person_key": "hugh-johnston",
+   "start_date": "2017-09-19",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 (appointed effective immediately); Form 3 event date agrees",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e068",
+    "e118",
+    "e035",
+    "e023",
+    "e130"
+   ],
+   "board_class": null,
+   "notes": "Audit Committee chair."
+  },
+  {
+   "person_key": "teri-list",
+   "start_date": "2014-10-01",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 (appointed 2014-09-16, effective October 1); Form 3 event date 2014-10-01 agrees",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e069",
+    "e113",
+    "e037",
+    "e023",
+    "e131"
+   ],
+   "board_class": null,
+   "notes": "Appointed as Teri List-Stoll; filings from 2021 on use Teri L. List."
+  },
+  {
+   "person_key": "catherine-macgregor",
+   "start_date": "2023-12-07",
+   "start_date_precision": "day",
+   "start_date_basis": "Elected at the 2023 annual meeting; 2023 proxy says her term begins 2023-12-07 and the 2024 proxy says she joined effective 2023-12-07; Form 3 event date agrees",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e078",
+    "e081",
+    "e079",
+    "e123",
+    "e039",
+    "e023",
+    "e132"
+   ],
+   "board_class": null,
+   "notes": "First elected by shareholders (no prior appointment)."
+  },
+  {
+   "person_key": "mark-mason",
+   "start_date": "2023-12-07",
+   "start_date_precision": "day",
+   "start_date_basis": "Elected at the 2023 annual meeting; 2023 proxy says his term begins 2023-12-07 and the 2024 proxy says he joined effective 2023-12-07; Form 3 event date agrees",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e078",
+    "e081",
+    "e079",
+    "e124",
+    "e041",
+    "e024",
+    "e133"
+   ],
+   "board_class": null,
+   "notes": "First elected by shareholders (no prior appointment)."
+  },
+  {
+   "person_key": "sandra-peterson",
+   "start_date": "2015-12-02",
+   "start_date_precision": "day",
+   "start_date_basis": "Elected at the 2015 annual meeting; 2015 proxy says her term begins 2015-12-02; Form 3 event date agrees",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e071",
+    "e072",
+    "e115",
+    "e045",
+    "e024",
+    "e134"
+   ],
+   "board_class": null,
+   "notes": "Lead Independent Director since 2023-03-15."
+  },
+  {
+   "person_key": "penny-pritzker",
+   "start_date": "2017-11-29",
+   "start_date_precision": "day",
+   "start_date_basis": "Elected at the 2017 annual meeting; 2017 proxy says her term begins 2017-11-29; Form 3 event date agrees",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e073",
+    "e074",
+    "e119",
+    "e047",
+    "e024",
+    "e135"
+   ],
+   "board_class": null,
+   "notes": "Environmental, Social, and Public Policy Committee chair."
+  },
+  {
+   "person_key": "john-david-rainey",
+   "start_date": "2025-12-05",
+   "start_date_precision": "day",
+   "start_date_basis": "Elected at the 2025 annual meeting; 2025 proxy says his term begins 2025-12-05; Form 3 event date agrees",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e006",
+    "e013",
+    "e015",
+    "e125",
+    "e049",
+    "e024",
+    "e136"
+   ],
+   "board_class": null,
+   "notes": "First elected by shareholders. Committee assignments after his election are not disclosed in any filing reviewed."
+  },
+  {
+   "person_key": "charles-scharf",
+   "start_date": "2014-10-01",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 (appointed 2014-09-16, effective October 1); Form 3 event date 2014-10-01 agrees",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e069",
+    "e114",
+    "e051",
+    "e024",
+    "e137"
+   ],
+   "board_class": null,
+   "notes": ""
+  },
+  {
+   "person_key": "john-stanton",
+   "start_date": "2014-07-30",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 (appointed effective immediately); Form 3 event date agrees",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e070",
+    "e112",
+    "e053",
+    "e024",
+    "e138"
+   ],
+   "board_class": null,
+   "notes": ""
+  },
+  {
+   "person_key": "emma-walmsley",
+   "start_date": "2019-12-04",
+   "start_date_precision": "day",
+   "start_date_basis": "Elected at the 2019 annual meeting; 2019 proxy says her term begins 2019-12-04; Form 3 event date agrees",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e075",
+    "e076",
+    "e121",
+    "e055",
+    "e024",
+    "e139"
+   ],
+   "board_class": null,
+   "notes": "First elected by shareholders (no prior appointment)."
+  },
+  {
+   "person_key": "carmine-di-sibio",
+   "start_date": "2026-05-13",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 (appointed effective May 13, 2026); Form 3 event date agrees",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e018",
+    "e019",
+    "e126",
+    "e023",
+    "e128"
+   ],
+   "board_class": null,
+   "notes": "Appointed between annual meetings; not yet covered by a proxy. Board expanded to 13 seats for him."
+  },
+  {
+   "person_key": "bill-gates",
+   "start_date": "1981",
+   "start_date_precision": "year",
+   "start_date_basis": "proxy 'Director Since: 1981' (pre-IPO; no filing gives a month or day)",
+   "end_date": "2020-03-13",
+   "end_date_precision": "day",
+   "end_reason": "resigned",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e090",
+    "e091",
+    "e087",
+    "e088",
+    "e141"
+   ],
+   "board_class": null,
+   "notes": "Co-founder. Chairman 1981 to 2014-02-04, then Founder and Technology Advisor on the board until he resigned effective 2020-03-13."
+  },
+  {
+   "person_key": "arne-sorenson",
+   "start_date": "2017-11-29",
+   "start_date_precision": "day",
+   "start_date_basis": "Elected at the 2017 annual meeting; 2017 proxy says his term begins 2017-11-29; Form 3 event date agrees",
+   "end_date": "2021-02",
+   "end_date_precision": "month",
+   "end_reason": "died",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e073",
+    "e074",
+    "e120",
+    "e094",
+    "e096",
+    "e097"
+   ],
+   "board_class": null,
+   "notes": "Died in office in February 2021; no filing reviewed gives the day, and no 8-K was filed for it."
+  },
+  {
+   "person_key": "john-thompson",
+   "start_date": "2012-02-17",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 (appointed 2012-02-17); Form 3 event date agrees",
+   "end_date": "2023-12-07",
+   "end_date_precision": "day",
+   "end_reason": "did_not_stand",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e086",
+    "e127",
+    "e098",
+    "e077",
+    "e082",
+    "e083",
+    "e079"
+   ],
+   "board_class": null,
+   "notes": "Lead independent director (2012-2014), independent Chairman 2014-02-04 to 2021-06-16, lead independent director 2021-06-16 to 2023-03-15. Did not stand for re-election in 2023."
+  },
+  {
+   "person_key": "padmasree-warrior",
+   "start_date": "2015-12-02",
+   "start_date_precision": "day",
+   "start_date_basis": "Elected at the 2015 annual meeting; 2015 proxy says her term begins 2015-12-02; Form 3 event date agrees",
+   "end_date": "2023-12-07",
+   "end_date_precision": "day",
+   "end_reason": "did_not_stand",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e071",
+    "e072",
+    "e116",
+    "e101",
+    "e077",
+    "e082",
+    "e083",
+    "e079"
+   ],
+   "board_class": null,
+   "notes": "Did not stand for re-election in 2023."
+  },
+  {
+   "person_key": "carlos-rodriguez",
+   "start_date": "2021-11-30",
+   "start_date_precision": "day",
+   "start_date_basis": "Elected at the 2021 annual meeting; 2021 proxy says his term begins 2021-11-30; Form 3 event date agrees",
+   "end_date": "2025-12-05",
+   "end_date_precision": "day",
+   "end_reason": "did_not_stand",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e084",
+    "e085",
+    "e122",
+    "e103",
+    "e016",
+    "e006",
+    "e013",
+    "e014"
+   ],
+   "board_class": null,
+   "notes": "On 2025-09-24 told the company he would not stand for re-election (personal reasons); service ended at the 2025-12-05 annual meeting."
+  }
+ ],
+ "roles": [
+  {
+   "person_key": "satya-nadella",
+   "role": "ceo_director",
+   "start_date": "2014-02-04",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e030",
+    "e111",
+    "e023"
+   ],
+   "notes": "CEO and director from 2014-02-04."
+  },
+  {
+   "person_key": "satya-nadella",
+   "role": "chair",
+   "start_date": "2021-06-16",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e025",
+    "e026",
+    "e009",
+    "e023"
+   ],
+   "notes": "Elected board chair by the independent directors on 2021-06-16; title 'Chairman and CEO'."
+  },
+  {
+   "person_key": "satya-nadella",
+   "role": "non_independent_director",
+   "start_date": "2014-02-04",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e008",
+    "e093",
+    "e043"
+   ],
+   "notes": "Employee director (CEO); never listed as independent."
+  },
+  {
+   "person_key": "sandra-peterson",
+   "role": "lead_independent_director",
+   "start_date": "2023-03-15",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e027",
+    "e029",
+    "e028",
+    "e009",
+    "e021",
+    "e024"
+   ],
+   "notes": "Succeeded John Thompson; still LID per the 2026-05-14 press release and the 2026-07-29 10-K signature page."
+  },
+  {
+   "person_key": "john-thompson",
+   "role": "lead_independent_director",
+   "start_date": "2012",
+   "end_date": "2014-02-04",
+   "precision": "year",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e099",
+    "e026",
+    "e031"
+   ],
+   "notes": "Bio says 2012-2014; the start month/day is not disclosed. Ended when he became Chairman on 2014-02-04."
+  },
+  {
+   "person_key": "john-thompson",
+   "role": "chair",
+   "start_date": "2014-02-04",
+   "end_date": "2021-06-16",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e031",
+    "e032",
+    "e026",
+    "e099"
+   ],
+   "notes": "Independent Chairman. 2021 proxy: 'served as Chairman until June 16, 2021'."
+  },
+  {
+   "person_key": "john-thompson",
+   "role": "lead_independent_director",
+   "start_date": "2021-06-16",
+   "end_date": "2023-03-15",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e025",
+    "e026",
+    "e029"
+   ],
+   "notes": "Succeeded by Sandra Peterson effective 2023-03-15."
+  },
+  {
+   "person_key": "bill-gates",
+   "role": "chair",
+   "start_date": "1981",
+   "end_date": "2014-02-04",
+   "precision": "year",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e091",
+    "e031"
+   ],
+   "notes": "Bio: 'Co-founder and Chairman (1981-2014)'; the 2014-02-04 press release says he was 'previously Chairman' as he moved to Founder and Technology Advisor."
+  },
+  {
+   "person_key": "bill-gates",
+   "role": "ceo_director",
+   "start_date": "1981",
+   "end_date": "2000",
+   "precision": "year",
+   "end_precision": "year",
+   "confidence": "high",
+   "evidence_refs": [
+    "e091",
+    "e090"
+   ],
+   "notes": "Bio: 'Chief Executive Officer (1981-2000)'; year precision only."
+  },
+  {
+   "person_key": "bill-gates",
+   "role": "non_independent_director",
+   "start_date": "1981",
+   "end_date": "2020-03-13",
+   "precision": "year",
+   "end_precision": "day",
+   "confidence": "medium",
+   "evidence_refs": [
+    "e093",
+    "e090"
+   ],
+   "notes": "2019 proxy names him (with Nadella) as the only non-independent nominees; aligned to his whole tenure."
+  },
+  {
+   "person_key": "reid-hoffman",
+   "role": "independent_director",
+   "start_date": "2017-03-14",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e007",
+    "e033",
+    "e109",
+    "e108"
+   ],
+   "notes": "Found independent in every proxy determination covering this director; start aligned to board start (filings give point-in-time determinations only)."
+  },
+  {
+   "person_key": "hugh-johnston",
+   "role": "independent_director",
+   "start_date": "2017-09-19",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e007",
+    "e035",
+    "e109",
+    "e108"
+   ],
+   "notes": "Found independent in every proxy determination covering this director; start aligned to board start (filings give point-in-time determinations only)."
+  },
+  {
+   "person_key": "teri-list",
+   "role": "independent_director",
+   "start_date": "2014-10-01",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e007",
+    "e037",
+    "e109",
+    "e108"
+   ],
+   "notes": "Found independent in every proxy determination covering this director; start aligned to board start (filings give point-in-time determinations only)."
+  },
+  {
+   "person_key": "catherine-macgregor",
+   "role": "independent_director",
+   "start_date": "2023-12-07",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e007",
+    "e039",
+    "e108"
+   ],
+   "notes": "Found independent in every proxy determination covering this director; start aligned to board start (filings give point-in-time determinations only)."
+  },
+  {
+   "person_key": "mark-mason",
+   "role": "independent_director",
+   "start_date": "2023-12-07",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e007",
+    "e041",
+    "e108"
+   ],
+   "notes": "Found independent in every proxy determination covering this director; start aligned to board start (filings give point-in-time determinations only)."
+  },
+  {
+   "person_key": "sandra-peterson",
+   "role": "independent_director",
+   "start_date": "2015-12-02",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e007",
+    "e045",
+    "e109",
+    "e108"
+   ],
+   "notes": "Found independent in every proxy determination covering this director; start aligned to board start (filings give point-in-time determinations only)."
+  },
+  {
+   "person_key": "penny-pritzker",
+   "role": "independent_director",
+   "start_date": "2017-11-29",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e007",
+    "e047",
+    "e109",
+    "e108"
+   ],
+   "notes": "Found independent in every proxy determination covering this director; start aligned to board start (filings give point-in-time determinations only)."
+  },
+  {
+   "person_key": "john-david-rainey",
+   "role": "independent_director",
+   "start_date": "2025-12-05",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e007",
+    "e049"
+   ],
+   "notes": "Determined independent in the 2025 proxy (as a nominee)."
+  },
+  {
+   "person_key": "charles-scharf",
+   "role": "independent_director",
+   "start_date": "2014-10-01",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e007",
+    "e051",
+    "e109",
+    "e108"
+   ],
+   "notes": "Found independent in every proxy determination covering this director; start aligned to board start (filings give point-in-time determinations only)."
+  },
+  {
+   "person_key": "john-stanton",
+   "role": "independent_director",
+   "start_date": "2014-07-30",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e007",
+    "e053",
+    "e109",
+    "e108"
+   ],
+   "notes": "Found independent in every proxy determination covering this director; start aligned to board start (filings give point-in-time determinations only)."
+  },
+  {
+   "person_key": "emma-walmsley",
+   "role": "independent_director",
+   "start_date": "2019-12-04",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e007",
+    "e055",
+    "e109",
+    "e108"
+   ],
+   "notes": "Found independent in every proxy determination covering this director; start aligned to board start (filings give point-in-time determinations only)."
+  },
+  {
+   "person_key": "arne-sorenson",
+   "role": "independent_director",
+   "start_date": "2017-11-29",
+   "end_date": "2021-02",
+   "precision": "day",
+   "end_precision": "month",
+   "confidence": "high",
+   "evidence_refs": [
+    "e096",
+    "e109",
+    "e094"
+   ],
+   "notes": "2021 proxy: 'independent throughout his Board service'."
+  },
+  {
+   "person_key": "john-thompson",
+   "role": "independent_director",
+   "start_date": "2012-02-17",
+   "end_date": "2023-12-07",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "medium",
+   "evidence_refs": [
+    "e083",
+    "e108",
+    "e109",
+    "e032"
+   ],
+   "notes": "Found independent in every proxy determination covering this director; start aligned to board start (filings give point-in-time determinations only)."
+  },
+  {
+   "person_key": "padmasree-warrior",
+   "role": "independent_director",
+   "start_date": "2015-12-02",
+   "end_date": "2023-12-07",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "medium",
+   "evidence_refs": [
+    "e083",
+    "e108",
+    "e109"
+   ],
+   "notes": "Found independent in every proxy determination covering this director; start aligned to board start (filings give point-in-time determinations only)."
+  },
+  {
+   "person_key": "carlos-rodriguez",
+   "role": "independent_director",
+   "start_date": "2021-11-30",
+   "end_date": "2025-12-05",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "medium",
+   "evidence_refs": [
+    "e007",
+    "e110",
+    "e108"
+   ],
+   "notes": "Found independent in every proxy determination covering this director; start aligned to board start (filings give point-in-time determinations only)."
+  }
+ ],
+ "committees": [
+  {
+   "person_key": "reid-hoffman",
+   "committee": "environmental_social_and_public_policy",
+   "role": "member",
+   "as_of_filing": "0001193125-25-245150",
+   "as_of_date": "2025-10-21",
+   "evidence_refs": [
+    "e034",
+    "e057",
+    "e010"
+   ]
+  },
+  {
+   "person_key": "hugh-johnston",
+   "committee": "audit",
+   "role": "chair",
+   "as_of_filing": "0001193125-25-245150",
+   "as_of_date": "2025-10-21",
+   "evidence_refs": [
+    "e036",
+    "e058",
+    "e010"
+   ]
+  },
+  {
+   "person_key": "teri-list",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001193125-25-245150",
+   "as_of_date": "2025-10-21",
+   "evidence_refs": [
+    "e038",
+    "e059",
+    "e010"
+   ]
+  },
+  {
+   "person_key": "teri-list",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001193125-25-245150",
+   "as_of_date": "2025-10-21",
+   "evidence_refs": [
+    "e038",
+    "e059",
+    "e010"
+   ]
+  },
+  {
+   "person_key": "catherine-macgregor",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001193125-25-245150",
+   "as_of_date": "2025-10-21",
+   "evidence_refs": [
+    "e040",
+    "e060",
+    "e010"
+   ]
+  },
+  {
+   "person_key": "catherine-macgregor",
+   "committee": "environmental_social_and_public_policy",
+   "role": "member",
+   "as_of_filing": "0001193125-25-245150",
+   "as_of_date": "2025-10-21",
+   "evidence_refs": [
+    "e040",
+    "e060",
+    "e010"
+   ]
+  },
+  {
+   "person_key": "mark-mason",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001193125-25-245150",
+   "as_of_date": "2025-10-21",
+   "evidence_refs": [
+    "e042",
+    "e061",
+    "e010"
+   ]
+  },
+  {
+   "person_key": "sandra-peterson",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001193125-25-245150",
+   "as_of_date": "2025-10-21",
+   "evidence_refs": [
+    "e046",
+    "e062",
+    "e010"
+   ]
+  },
+  {
+   "person_key": "sandra-peterson",
+   "committee": "nominating_governance",
+   "role": "chair",
+   "as_of_filing": "0001193125-25-245150",
+   "as_of_date": "2025-10-21",
+   "evidence_refs": [
+    "e046",
+    "e062",
+    "e010"
+   ]
+  },
+  {
+   "person_key": "penny-pritzker",
+   "committee": "environmental_social_and_public_policy",
+   "role": "chair",
+   "as_of_filing": "0001193125-25-245150",
+   "as_of_date": "2025-10-21",
+   "evidence_refs": [
+    "e048",
+    "e063",
+    "e010"
+   ]
+  },
+  {
+   "person_key": "charles-scharf",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001193125-25-245150",
+   "as_of_date": "2025-10-21",
+   "evidence_refs": [
+    "e052",
+    "e064",
+    "e010"
+   ]
+  },
+  {
+   "person_key": "charles-scharf",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001193125-25-245150",
+   "as_of_date": "2025-10-21",
+   "evidence_refs": [
+    "e052",
+    "e064",
+    "e010"
+   ]
+  },
+  {
+   "person_key": "john-stanton",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001193125-25-245150",
+   "as_of_date": "2025-10-21",
+   "evidence_refs": [
+    "e054",
+    "e065",
+    "e010"
+   ]
+  },
+  {
+   "person_key": "john-stanton",
+   "committee": "environmental_social_and_public_policy",
+   "role": "member",
+   "as_of_filing": "0001193125-25-245150",
+   "as_of_date": "2025-10-21",
+   "evidence_refs": [
+    "e054",
+    "e065",
+    "e010"
+   ]
+  },
+  {
+   "person_key": "emma-walmsley",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001193125-25-245150",
+   "as_of_date": "2025-10-21",
+   "evidence_refs": [
+    "e056",
+    "e066",
+    "e010"
+   ]
+  },
+  {
+   "person_key": "emma-walmsley",
+   "committee": "environmental_social_and_public_policy",
+   "role": "member",
+   "as_of_filing": "0001193125-25-245150",
+   "as_of_date": "2025-10-21",
+   "evidence_refs": [
+    "e056",
+    "e066",
+    "e010"
+   ]
+  },
+  {
+   "person_key": "carlos-rodriguez",
+   "committee": "compensation",
+   "role": "chair",
+   "as_of_filing": "0001193125-25-245150",
+   "as_of_date": "2025-10-21",
+   "evidence_refs": [
+    "e006",
+    "e011",
+    "e017"
+   ]
+  },
+  {
+   "person_key": "carlos-rodriguez",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001193125-25-245150",
+   "as_of_date": "2025-10-21",
+   "evidence_refs": [
+    "e006",
+    "e011",
+    "e017"
+   ]
+  },
+  {
+   "person_key": "carmine-di-sibio",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001193125-26-224155",
+   "as_of_date": "2026-05-13",
+   "evidence_refs": [
+    "e018"
+   ]
+  },
+  {
+   "person_key": "carmine-di-sibio",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001193125-26-224155",
+   "as_of_date": "2026-05-13",
+   "evidence_refs": [
+    "e018"
+   ]
+  },
+  {
+   "person_key": "john-thompson",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001193125-23-259247",
+   "as_of_date": "2023-10-19",
+   "evidence_refs": [
+    "e077",
+    "e106",
+    "e105"
+   ]
+  },
+  {
+   "person_key": "john-thompson",
+   "committee": "environmental_social_and_public_policy",
+   "role": "member",
+   "as_of_filing": "0001193125-23-259247",
+   "as_of_date": "2023-10-19",
+   "evidence_refs": [
+    "e077",
+    "e106",
+    "e105"
+   ]
+  },
+  {
+   "person_key": "padmasree-warrior",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001193125-23-259247",
+   "as_of_date": "2023-10-19",
+   "evidence_refs": [
+    "e077",
+    "e107",
+    "e105"
+   ]
+  },
+  {
+   "person_key": "arne-sorenson",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001193125-20-272025",
+   "as_of_date": "2020-10-19",
+   "evidence_refs": [
+    "e095"
+   ]
+  }
+ ],
+ "events": [
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "bill-gates",
+   "event_date": "1981",
+   "announced_date": null,
+   "evidence_refs": [
+    "e090",
+    "e091",
+    "e087"
+   ],
+   "summary": "William H. Gates III joins the board. Basis: proxy 'Director Since: 1981' (pre-IPO; no filing gives a month or day).",
+   "event_date_precision": "year"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "john-thompson",
+   "event_date": "2012-02-17",
+   "announced_date": null,
+   "evidence_refs": [
+    "e086",
+    "e127",
+    "e098"
+   ],
+   "summary": "John W. Thompson joins the board. Basis: 8-K Item 5.02 (appointed 2012-02-17); Form 3 event date agrees.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "satya-nadella",
+   "event_date": "2014-02-04",
+   "announced_date": null,
+   "evidence_refs": [
+    "e030",
+    "e111",
+    "e043"
+   ],
+   "summary": "Satya Nadella joins the board. Basis: 8-K Item 5.02 (appointed CEO and director, effective immediately); Form 3 event date agrees.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "john-stanton",
+   "event_date": "2014-07-30",
+   "announced_date": null,
+   "evidence_refs": [
+    "e070",
+    "e112",
+    "e053"
+   ],
+   "summary": "John W. Stanton joins the board. Basis: 8-K Item 5.02 (appointed effective immediately); Form 3 event date agrees.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "teri-list",
+   "event_date": "2014-10-01",
+   "announced_date": null,
+   "evidence_refs": [
+    "e069",
+    "e113",
+    "e037"
+   ],
+   "summary": "Teri L. List joins the board. Basis: 8-K Item 5.02 (appointed 2014-09-16, effective October 1); Form 3 event date 2014-10-01 agrees.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "charles-scharf",
+   "event_date": "2014-10-01",
+   "announced_date": null,
+   "evidence_refs": [
+    "e069",
+    "e114",
+    "e051"
+   ],
+   "summary": "Charles W. Scharf joins the board. Basis: 8-K Item 5.02 (appointed 2014-09-16, effective October 1); Form 3 event date 2014-10-01 agrees.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "sandra-peterson",
+   "event_date": "2015-12-02",
+   "announced_date": null,
+   "evidence_refs": [
+    "e071",
+    "e072",
+    "e115"
+   ],
+   "summary": "Sandra E. Peterson joins the board. Basis: Elected at the 2015 annual meeting; 2015 proxy says her term begins 2015-12-02; Form 3 event date agrees.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "padmasree-warrior",
+   "event_date": "2015-12-02",
+   "announced_date": null,
+   "evidence_refs": [
+    "e071",
+    "e072",
+    "e116"
+   ],
+   "summary": "Padmasree Warrior joins the board. Basis: Elected at the 2015 annual meeting; 2015 proxy says her term begins 2015-12-02; Form 3 event date agrees.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "reid-hoffman",
+   "event_date": "2017-03-14",
+   "announced_date": null,
+   "evidence_refs": [
+    "e067",
+    "e117",
+    "e033"
+   ],
+   "summary": "Reid G. Hoffman joins the board. Basis: 8-K Item 5.02 (appointed effective immediately); Form 3 event date agrees.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "hugh-johnston",
+   "event_date": "2017-09-19",
+   "announced_date": null,
+   "evidence_refs": [
+    "e068",
+    "e118",
+    "e035"
+   ],
+   "summary": "Hugh F. Johnston joins the board. Basis: 8-K Item 5.02 (appointed effective immediately); Form 3 event date agrees.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "penny-pritzker",
+   "event_date": "2017-11-29",
+   "announced_date": null,
+   "evidence_refs": [
+    "e073",
+    "e074",
+    "e119"
+   ],
+   "summary": "Penny S. Pritzker joins the board. Basis: Elected at the 2017 annual meeting; 2017 proxy says her term begins 2017-11-29; Form 3 event date agrees.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "arne-sorenson",
+   "event_date": "2017-11-29",
+   "announced_date": null,
+   "evidence_refs": [
+    "e073",
+    "e074",
+    "e120"
+   ],
+   "summary": "Arne M. Sorenson joins the board. Basis: Elected at the 2017 annual meeting; 2017 proxy says his term begins 2017-11-29; Form 3 event date agrees.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "emma-walmsley",
+   "event_date": "2019-12-04",
+   "announced_date": null,
+   "evidence_refs": [
+    "e075",
+    "e076",
+    "e121"
+   ],
+   "summary": "Emma N. Walmsley joins the board. Basis: Elected at the 2019 annual meeting; 2019 proxy says her term begins 2019-12-04; Form 3 event date agrees.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "carlos-rodriguez",
+   "event_date": "2021-11-30",
+   "announced_date": null,
+   "evidence_refs": [
+    "e084",
+    "e085",
+    "e122"
+   ],
+   "summary": "Carlos A. Rodriguez joins the board. Basis: Elected at the 2021 annual meeting; 2021 proxy says his term begins 2021-11-30; Form 3 event date agrees.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "catherine-macgregor",
+   "event_date": "2023-12-07",
+   "announced_date": null,
+   "evidence_refs": [
+    "e078",
+    "e081",
+    "e079"
+   ],
+   "summary": "Catherine MacGregor joins the board. Basis: Elected at the 2023 annual meeting; 2023 proxy says her term begins 2023-12-07 and the 2024 proxy says she joined effective 2023-12-07; Form 3 event date agrees.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "mark-mason",
+   "event_date": "2023-12-07",
+   "announced_date": null,
+   "evidence_refs": [
+    "e078",
+    "e081",
+    "e079"
+   ],
+   "summary": "Mark A. L. Mason joins the board. Basis: Elected at the 2023 annual meeting; 2023 proxy says his term begins 2023-12-07 and the 2024 proxy says he joined effective 2023-12-07; Form 3 event date agrees.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "john-david-rainey",
+   "event_date": "2025-12-05",
+   "announced_date": null,
+   "evidence_refs": [
+    "e006",
+    "e013",
+    "e015"
+   ],
+   "summary": "John David Rainey joins the board. Basis: Elected at the 2025 annual meeting; 2025 proxy says his term begins 2025-12-05; Form 3 event date agrees.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "carmine-di-sibio",
+   "event_date": "2026-05-13",
+   "announced_date": null,
+   "evidence_refs": [
+    "e018",
+    "e019",
+    "e126"
+   ],
+   "summary": "Carmine Di Sibio joins the board. Basis: 8-K Item 5.02 (appointed effective May 13, 2026); Form 3 event date agrees.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "bill-gates",
+   "event_date": "2020-03-13",
+   "announced_date": "2020-03-13",
+   "evidence_refs": [
+    "e087",
+    "e088",
+    "e089"
+   ],
+   "summary": "Bill Gates resigns from the board effective 2020-03-13 (to focus on philanthropy; remains Technology Advisor).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "arne-sorenson",
+   "event_date": "2021-02",
+   "announced_date": null,
+   "evidence_refs": [
+    "e096",
+    "e097"
+   ],
+   "summary": "Arne Sorenson dies in office in February 2021 (day not disclosed in SEC filings reviewed).",
+   "event_date_precision": "month"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "satya-nadella",
+   "event_date": "2021-06-16",
+   "announced_date": "2021-06-16",
+   "evidence_refs": [
+    "e025",
+    "e026"
+   ],
+   "summary": "Nadella elected board chair (Chairman and CEO); Thompson moves from Chairman to lead independent director.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "john-thompson",
+   "event_date": "2021-06-16",
+   "announced_date": "2021-06-16",
+   "evidence_refs": [
+    "e025",
+    "e026"
+   ],
+   "summary": "Thompson ends as Chairman and becomes lead independent director.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_SIZE_CHANGE",
+   "person_key": null,
+   "event_date": "2021-11-30",
+   "announced_date": "2021-10-14",
+   "evidence_refs": [
+    "e084"
+   ],
+   "summary": "Board size increased from 11 to 12 effective 2021-11-30 (Rodriguez's election).",
+   "event_date_precision": "day",
+   "from_size": 11,
+   "to_size": 12
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "sandra-peterson",
+   "event_date": "2023-03-15",
+   "announced_date": null,
+   "evidence_refs": [
+    "e027",
+    "e029"
+   ],
+   "summary": "Peterson becomes lead independent director (and G&N chair, leaving the Compensation chair), succeeding Thompson.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "john-thompson",
+   "event_date": "2023-12-07",
+   "announced_date": "2023-10-19",
+   "evidence_refs": [
+    "e077",
+    "e082",
+    "e079"
+   ],
+   "summary": "Thompson's service ends at the 2023 annual meeting (did not stand for re-election).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "padmasree-warrior",
+   "event_date": "2023-12-07",
+   "announced_date": "2023-10-19",
+   "evidence_refs": [
+    "e077",
+    "e082",
+    "e079"
+   ],
+   "summary": "Warrior's service ends at the 2023 annual meeting (did not stand for re-election).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "carlos-rodriguez",
+   "event_date": "2025-12-05",
+   "announced_date": "2025-09-30",
+   "evidence_refs": [
+    "e016",
+    "e006",
+    "e013",
+    "e014"
+   ],
+   "summary": "Rodriguez's service ends at the 2025 annual meeting (did not stand for re-election, personal reasons).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_SIZE_CHANGE",
+   "person_key": null,
+   "event_date": "2026-05-13",
+   "announced_date": "2026-05-14",
+   "evidence_refs": [
+    "e019",
+    "e014",
+    "e018"
+   ],
+   "summary": "Board expanded from 12 to 13 members with Di Sibio's appointment.",
+   "event_date_precision": "day",
+   "from_size": 12,
+   "to_size": 13
+  }
+ ],
+ "evidence": [
+  {
+   "id": "e001",
+   "form": "S-4",
+   "accession": "0001032210-01-000126",
+   "filing_date": "2001-02-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000103221001000126/0001032210-01-000126.txt",
+   "quote": "Microsoft common stock has been traded on the Nasdaq Stock Market under the symbol MSFT since March 13, 1986, the date of Microsoft's initial public offering.",
+   "supports": "IPO / first trading date 1986-03-13 on Nasdaq (stated in Microsoft's 2001 S-4)."
+  },
+  {
+   "id": "e002",
+   "form": "10-K",
+   "accession": "0001193125-26-323660",
+   "filing_date": "2026-07-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+   "quote": "Our common stock is traded on the NASDAQ Stock Market under the symbol MSFT.",
+   "supports": "Exchange: Nasdaq (FY2026 10-K)."
+  },
+  {
+   "id": "e003",
+   "form": "10-K",
+   "accession": "0001193125-26-323660",
+   "filing_date": "2026-07-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+   "quote": "MICROSOFT CORPORATION Washington 91-1144442 (STATE OF INCORPORATION)",
+   "supports": "State of incorporation: Washington (FY2026 10-K cover)."
+  },
+  {
+   "id": "e004",
+   "form": "DEF 14A",
+   "accession": "0001193125-25-245150",
+   "filing_date": "2025-10-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525245150/d908201ddef14a.htm",
+   "quote": "Each director is elected annually by a majority of votes cast.",
+   "supports": "Board is not classified: every director elected annually (2025 proxy)."
+  },
+  {
+   "id": "e005",
+   "form": "DEF 14A",
+   "accession": "0001193125-17-310951",
+   "filing_date": "2017-10-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312517310951/d461626ddef14a.htm",
+   "quote": "Deloitte & Touche has been Microsoft's independent auditor since the Company's initial public offering in 1986.",
+   "supports": "Corroborates IPO year 1986."
+  },
+  {
+   "id": "e006",
+   "form": "DEF 14A",
+   "accession": "0001193125-25-245150",
+   "filing_date": "2025-10-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525245150/d908201ddef14a.htm",
+   "quote": "Carlos Rodriguez is not seeking re-election and his Board service will end on the date of the Annual Meeting. Carlos Rodriguez currently serves as the chair of the Compensation Committee and a member of the Audit Committee. The Board has nominated John David Rainey for election as a director. If elected, his term will begin on December 5, 2025.",
+   "supports": "2025 proxy: Rodriguez not standing (service ends at 2025 annual meeting; Compensation chair + Audit member); Rainey's term to begin 2025-12-05 if elected."
+  },
+  {
+   "id": "e007",
+   "form": "DEF 14A",
+   "accession": "0001193125-25-245150",
+   "filing_date": "2025-10-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525245150/d908201ddef14a.htm",
+   "quote": "The Board determined that Mses. List, MacGregor, Peterson, Pritzker, and Walmsley, and Messrs. Hoffman, Johnston, Mason, Rainey, Rodriguez, Scharf, and Stanton meet the standards of independence",
+   "supports": "2025 proxy independence determination: List, MacGregor, Peterson, Pritzker, Walmsley, Hoffman, Johnston, Mason, Rainey, Rodriguez, Scharf, Stanton independent."
+  },
+  {
+   "id": "e008",
+   "form": "DEF 14A",
+   "accession": "0001193125-25-245150",
+   "filing_date": "2025-10-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525245150/d908201ddef14a.htm",
+   "quote": "Except for our Chairman and CEO, Satya Nadella, all director nominees are independent",
+   "supports": "2025 proxy: Nadella is the only non-independent nominee; Chairman and CEO."
+  },
+  {
+   "id": "e009",
+   "form": "DEF 14A",
+   "accession": "0001193125-25-245150",
+   "filing_date": "2025-10-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525245150/d908201ddef14a.htm",
+   "quote": "The Board's independent directors elected Satya Nadella to the role of Chairman and CEO, and Sandra Peterson as Lead Independent Director.",
+   "supports": "2025 proxy: Nadella Chairman and CEO; Peterson Lead Independent Director."
+  },
+  {
+   "id": "e010",
+   "form": "DEF 14A",
+   "accession": "0001193125-25-245150",
+   "filing_date": "2025-10-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525245150/d908201ddef14a.htm",
+   "quote": "Director Audit Compensation Environmental, Social, and Public Policy Governance and Nominating",
+   "supports": "2025 proxy committee table column order: Audit | Compensation | Environmental, Social, and Public Policy | Governance and Nominating.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e011",
+   "form": "DEF 14A",
+   "accession": "0001193125-25-245150",
+   "filing_date": "2025-10-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525245150/d908201ddef14a.htm",
+   "quote": "Carlos A. Rodriguez* Financial Expert and Member Chair",
+   "supports": "2025 proxy committee table row: Rodriguez Audit (financial expert, member) and Compensation (chair).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e012",
+   "form": "DEF 14A",
+   "accession": "0001193125-25-245150",
+   "filing_date": "2025-10-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525245150/d908201ddef14a.htm",
+   "quote": "Mr. Rodriguez is not seeking re-election at the 2025 Annual Meeting. The Board will consider appointments for Mr. Rainey if he is elected to the Board.",
+   "supports": "2025 proxy: Rainey's committee appointments to be considered after election."
+  },
+  {
+   "id": "e013",
+   "form": "8-K",
+   "accession": "0001193125-25-311196",
+   "filing_date": "2025-12-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525311196/d34077d8k.htm",
+   "quote": "On December 5, 2025, Microsoft Corporation (the \"Company\" or \"Microsoft\") held its 2025 Annual Shareholders Meeting (the \"Annual Meeting\").",
+   "supports": "2025 annual meeting held 2025-12-05."
+  },
+  {
+   "id": "e014",
+   "form": "8-K",
+   "accession": "0001193125-25-311196",
+   "filing_date": "2025-12-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525311196/d34077d8k.htm",
+   "quote": "Voted to elect each of the 12 nominees for director.",
+   "supports": "2025 annual meeting: all 12 nominees elected (Rodriguez not among them)."
+  },
+  {
+   "id": "e015",
+   "form": "8-K",
+   "accession": "0001193125-25-311196",
+   "filing_date": "2025-12-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525311196/d34077d8k.htm",
+   "quote": "John David Rainey Elected",
+   "supports": "Rainey elected at the 2025 annual meeting (first election).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e016",
+   "form": "8-K",
+   "accession": "0001193125-25-225125",
+   "filing_date": "2025-09-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525225125/d863209d8k.htm",
+   "quote": "On September 24, 2025, Carlos A. Rodriguez, a member of the Board of Directors of Microsoft Corporation (the \"Company\"), informed the Company of his decision not to stand for re-election at the Company's 2025 annual shareholder meeting (the \"Annual Meeting\"). Mr. Rodriguez will continue to serve as a director until the Annual Meeting.",
+   "supports": "Rodriguez decided 2025-09-24 not to stand for re-election; serves until the 2025 annual meeting."
+  },
+  {
+   "id": "e017",
+   "form": "8-K",
+   "accession": "0001193125-25-225125",
+   "filing_date": "2025-09-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525225125/d863209d8k.htm",
+   "quote": "The Company thanks Mr. Rodriguez for his contributions during his tenure as a director, Chair of the Compensation Committee, and member of the Audit Committee.",
+   "supports": "Rodriguez roles at departure: Compensation chair, Audit member."
+  },
+  {
+   "id": "e018",
+   "form": "8-K",
+   "accession": "0001193125-26-224155",
+   "filing_date": "2026-05-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526224155/d125909d8k.htm",
+   "quote": "Microsoft Corporation (the \"Company\") issued a press release to announce that the Company's Board of Directors appointed Carmine Di Sibio to its Board of Directors, effective May 13, 2026. Mr. Di Sibio will serve on the Audit Committee and the Compensation Committee of the Board.",
+   "supports": "Di Sibio appointed effective 2026-05-13; Audit and Compensation committees."
+  },
+  {
+   "id": "e019",
+   "form": "8-K",
+   "accession": "0001193125-26-224155",
+   "filing_date": "2026-05-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526224155/d125909dex991.htm",
+   "quote": "With Di Sibio's appointment, the Microsoft board of directors has been expanded to 13 members.",
+   "supports": "Board expanded to 13 members with Di Sibio's appointment."
+  },
+  {
+   "id": "e020",
+   "form": "8-K",
+   "accession": "0001193125-26-224155",
+   "filing_date": "2026-05-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526224155/d125909dex991.htm",
+   "quote": "He is also an independent director on the boards of PayPal Holdings, Inc., Prudential Financial, Inc. and Evolver",
+   "supports": "Di Sibio's other boards per the appointment press release (no proxy bio yet)."
+  },
+  {
+   "id": "e021",
+   "form": "8-K",
+   "accession": "0001193125-26-224155",
+   "filing_date": "2026-05-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526224155/d125909dex991.htm",
+   "quote": "said Sandra Peterson, Microsoft lead independent director.",
+   "supports": "Peterson still Lead Independent Director as of 2026-05-14."
+  },
+  {
+   "id": "e022",
+   "form": "8-K",
+   "accession": "0001193125-26-258667",
+   "filing_date": "2026-06-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526258667/d26760d8k.htm",
+   "quote": "On June 2, 2026, Reid Hoffman, a member of the Board of Directors of Microsoft Corporation (the \"Company\") since 2017, informed the Company of his decision not to stand for re-election at the Company's 2026 annual shareholder meeting (the \"Annual Meeting\"). Mr. Hoffman will continue to serve as a director until the Annual Meeting.",
+   "supports": "Hoffman will not stand for re-election at the 2026 annual meeting; continues to serve until then (still a director on 2026-10-04)."
+  },
+  {
+   "id": "e023",
+   "form": "10-K",
+   "accession": "0001193125-26-323660",
+   "filing_date": "2026-07-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+   "quote": "/s/ SATYA NADELLA Chairman and Chief Executive Officer (Principal Executive Officer) Satya Nadella /s/ CARMINE DI SIBIO Director Carmine Di Sibio /s/ REID G. HOFFMAN Director Reid G. Hoffman /s/ HUGH F. JOHNSTON Director Hugh F. Johnston /s/ TERI L. LIST Director Teri L. List /s/ CATHERINE MACGREGOR Director Catherine MacGregor",
+   "supports": "FY2026 10-K signatures (2026-07-29), part 1: Nadella (Chairman and CEO), Di Sibio, Hoffman, Johnston, List, MacGregor."
+  },
+  {
+   "id": "e024",
+   "form": "10-K",
+   "accession": "0001193125-26-323660",
+   "filing_date": "2026-07-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+   "quote": "/s/ MARK A. L. MASON Director Mark A. L. Mason /s/ SANDRA E. PETERSON Lead Independent Director Sandra E. Peterson /s/ PENNY S. PRITZKER Director Penny S. Pritzker /s/ JOHN DAVID RAINEY Director John David Rainey /s/ CHARLES W. SCHARF Director Charles W. Scharf /s/ JOHN W. STANTON Director John W. Stanton /s/ EMMA N. WALMSLEY Director Emma N. Walmsley",
+   "supports": "FY2026 10-K signatures (2026-07-29), part 2: Mason, Peterson (Lead Independent Director), Pritzker, Rainey, Scharf, Stanton, Walmsley. 13 directors total."
+  },
+  {
+   "id": "e025",
+   "form": "8-K",
+   "accession": "0001193125-21-192783",
+   "filing_date": "2021-06-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312521192783/d176999d8k.htm",
+   "quote": "On June 16, 2021, Microsoft Corporation (the \"Company\") announced that the independent members of the Company's board of directors unanimously elected chief executive officer Satya Nadella to the role of board chair and John W. Thompson to the role of lead independent director.",
+   "supports": "2021-06-16: Nadella elected board chair; Thompson elected lead independent director."
+  },
+  {
+   "id": "e026",
+   "form": "DEF 14A",
+   "accession": "0001193125-21-298757",
+   "filing_date": "2021-10-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312521298757/d189481ddef14a.htm",
+   "quote": "In fiscal year 2021, John Thompson served as Chairman until June 16, 2021. Effective June 16, the Board's independent directors unanimously elected Satya Nadella to the role of Chairman and CEO, and unanimously elected John W. Thompson as Lead Independent Director, a role he held previously from 2012 to 2014.",
+   "supports": "Thompson Chairman until 2021-06-16; Nadella Chairman and CEO from 2021-06-16; Thompson LID from 2021-06-16 (and 2012-2014)."
+  },
+  {
+   "id": "e027",
+   "form": "DEF 14A",
+   "accession": "0001193125-23-259247",
+   "filing_date": "2023-10-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312523259247/d356108ddef14a.htm",
+   "quote": "Ms. Peterson stepped away from her role as chair of the Compensation Committee and was appointed Lead Independent Director and chair of the Governance and Nominating Committee effective March 15, 2023.",
+   "supports": "Peterson Lead Independent Director (and G&N chair) effective 2023-03-15."
+  },
+  {
+   "id": "e028",
+   "form": "DEF 14A",
+   "accession": "0001193125-23-259247",
+   "filing_date": "2023-10-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312523259247/d356108ddef14a.htm",
+   "quote": "In March 2023, the independent directors elected Sandra Peterson as Lead Independent Director. She succeeds John Thompson, who had served in the roles of Lead Independent Director or Board Chair since 2012.",
+   "supports": "Peterson succeeded Thompson as LID in March 2023."
+  },
+  {
+   "id": "e029",
+   "form": "DEF 14A",
+   "accession": "0001193125-23-259247",
+   "filing_date": "2023-10-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312523259247/d356108ddef14a.htm",
+   "quote": "Ms. Peterson was appointed lead independent director on March 15, 2023 succeeding Mr. Thompson.",
+   "supports": "Thompson's LID role ended / Peterson's began 2023-03-15."
+  },
+  {
+   "id": "e030",
+   "form": "8-K",
+   "accession": "0001193125-14-035080",
+   "filing_date": "2014-02-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312514035080/d669538d8k.htm",
+   "quote": "On February 4, 2014, Microsoft Corporation (the \"Company\") announced that the board of directors of the Company appointed Satya Nadella as Chief Executive Officer (\"CEO\") and a director of the Company. Mr. Nadella will assume his new roles immediately",
+   "supports": "Nadella appointed CEO and director 2014-02-04, effective immediately."
+  },
+  {
+   "id": "e031",
+   "form": "8-K",
+   "accession": "0001193125-14-035080",
+   "filing_date": "2014-02-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312514035080/d669538dex991.htm",
+   "quote": "Microsoft also announced that Bill Gates, previously Chairman of the Board of Directors, will assume a new role on the Board as Founder and Technology Advisor, and will devote more time to the company, supporting Nadella in shaping technology and product direction. John Thompson, lead independent director for the Board of Directors, will assume the role of Chairman of the Board of Directors and",
+   "supports": "2014-02-04: Gates leaves the Chairman role (becomes Founder and Technology Advisor); Thompson moves from lead independent director to Chairman."
+  },
+  {
+   "id": "e032",
+   "form": "8-K",
+   "accession": "0001193125-14-035080",
+   "filing_date": "2014-02-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312514035080/d669538dex991.htm",
+   "quote": "remain an independent director on the Board.",
+   "supports": "Thompson independent as Chairman (2014 press release)."
+  },
+  {
+   "id": "e033",
+   "form": "DEF 14A",
+   "accession": "0001193125-25-245150",
+   "filing_date": "2025-10-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525245150/d908201ddef14a.htm",
+   "quote": "Reid G. Hoffman Age: 58 | Director since: 2017 | Birthplace: United States | Independent",
+   "supports": "2025 proxy bio header for Reid G. Hoffman: age, 'Director since' year, independence flag."
+  },
+  {
+   "id": "e034",
+   "form": "DEF 14A",
+   "accession": "0001193125-25-245150",
+   "filing_date": "2025-10-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525245150/d908201ddef14a.htm",
+   "quote": "Microsoft Committees: • Environmental, Social, and Public Policy Other Public Company Directorships: • Aurora Innovation, Inc. Former Public Company Directorships Held in the Past Five Years: • Joby Aviation, Inc. • Reinvent Technology Partners Z",
+   "supports": "2025 proxy bio for Reid G. Hoffman: Microsoft committees and other/former public company directorships."
+  },
+  {
+   "id": "e035",
+   "form": "DEF 14A",
+   "accession": "0001193125-25-245150",
+   "filing_date": "2025-10-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525245150/d908201ddef14a.htm",
+   "quote": "Hugh F. Johnston Age: 64 | Director since: 2017 | Birthplace: United States | Independent",
+   "supports": "2025 proxy bio header for Hugh F. Johnston: age, 'Director since' year, independence flag."
+  },
+  {
+   "id": "e036",
+   "form": "DEF 14A",
+   "accession": "0001193125-25-245150",
+   "filing_date": "2025-10-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525245150/d908201ddef14a.htm",
+   "quote": "Microsoft Committees: • Audit (Chair) Other Public Company Directorships: • HCA Healthcare, Inc. Former Public Company Directorships Held in the Past Five Years: • None",
+   "supports": "2025 proxy bio for Hugh F. Johnston: Microsoft committees and other/former public company directorships."
+  },
+  {
+   "id": "e037",
+   "form": "DEF 14A",
+   "accession": "0001193125-25-245150",
+   "filing_date": "2025-10-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525245150/d908201ddef14a.htm",
+   "quote": "Teri L. List Age: 62 | Director since: 2014 | Birthplace: United States | Independent",
+   "supports": "2025 proxy bio header for Teri L. List: age, 'Director since' year, independence flag."
+  },
+  {
+   "id": "e038",
+   "form": "DEF 14A",
+   "accession": "0001193125-25-245150",
+   "filing_date": "2025-10-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525245150/d908201ddef14a.htm",
+   "quote": "Microsoft Committees: • Audit • Governance and Nominating Other Public Company Directorships: • Danaher Corporation • lululemon athletica inc. • Visa Inc. Former Public Company Directorships Held in the Past Five Years: • DoubleVerify Holdings, Inc. • Oscar Health, Inc.",
+   "supports": "2025 proxy bio for Teri L. List: Microsoft committees and other/former public company directorships."
+  },
+  {
+   "id": "e039",
+   "form": "DEF 14A",
+   "accession": "0001193125-25-245150",
+   "filing_date": "2025-10-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525245150/d908201ddef14a.htm",
+   "quote": "Catherine MacGregor Age: 53 | Director Since: 2023 | Birthplace: Morocco | Independent",
+   "supports": "2025 proxy bio header for Catherine MacGregor: age, 'Director since' year, independence flag."
+  },
+  {
+   "id": "e040",
+   "form": "DEF 14A",
+   "accession": "0001193125-25-245150",
+   "filing_date": "2025-10-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525245150/d908201ddef14a.htm",
+   "quote": "Microsoft Committees: • Compensation • Environmental, Social, and Public Policy Other Public Company Directorships: • Engie S.A. Former Public Company Directorships Held in the Past Five Years: • None",
+   "supports": "2025 proxy bio for Catherine MacGregor: Microsoft committees and other/former public company directorships."
+  },
+  {
+   "id": "e041",
+   "form": "DEF 14A",
+   "accession": "0001193125-25-245150",
+   "filing_date": "2025-10-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525245150/d908201ddef14a.htm",
+   "quote": "Mark A. L. Mason Age: 56 | Director Since: 2023 | Birthplace: United States | Independent",
+   "supports": "2025 proxy bio header for Mark A. L. Mason: age, 'Director since' year, independence flag."
+  },
+  {
+   "id": "e042",
+   "form": "DEF 14A",
+   "accession": "0001193125-25-245150",
+   "filing_date": "2025-10-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525245150/d908201ddef14a.htm",
+   "quote": "Microsoft Committees: • Governance and Nominating Other Public Company Directorships: • None Former Public Company Directorships Held in the Past Five Years: • None",
+   "supports": "2025 proxy bio for Mark A. L. Mason: Microsoft committees and other/former public company directorships."
+  },
+  {
+   "id": "e043",
+   "form": "DEF 14A",
+   "accession": "0001193125-25-245150",
+   "filing_date": "2025-10-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525245150/d908201ddef14a.htm",
+   "quote": "Satya Nadella Age: 58 | Director Since: 2014 | Birthplace: India",
+   "supports": "2025 proxy bio header for Satya Nadella: age, 'Director since' year, independence flag."
+  },
+  {
+   "id": "e044",
+   "form": "DEF 14A",
+   "accession": "0001193125-25-245150",
+   "filing_date": "2025-10-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525245150/d908201ddef14a.htm",
+   "quote": "Microsoft Committees: • None Other Public Company Directorships: • None Former Public Company Directorships Held in the Past Five Years: • Starbucks Corporation",
+   "supports": "2025 proxy bio for Satya Nadella: Microsoft committees and other/former public company directorships."
+  },
+  {
+   "id": "e045",
+   "form": "DEF 14A",
+   "accession": "0001193125-25-245150",
+   "filing_date": "2025-10-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525245150/d908201ddef14a.htm",
+   "quote": "Sandra E. Peterson Age: 66 | Director Since: 2015 | Birthplace: United States | Independent",
+   "supports": "2025 proxy bio header for Sandra E. Peterson: age, 'Director since' year, independence flag."
+  },
+  {
+   "id": "e046",
+   "form": "DEF 14A",
+   "accession": "0001193125-25-245150",
+   "filing_date": "2025-10-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525245150/d908201ddef14a.htm",
+   "quote": "Microsoft Committees: • Compensation • Governance and Nominating (Chair) Other Public Company Directorships: • None Former Public Company Directorships Held in the Past Five Years: • Covetrus, Inc. • Zymergen, Inc.",
+   "supports": "2025 proxy bio for Sandra E. Peterson: Microsoft committees and other/former public company directorships."
+  },
+  {
+   "id": "e047",
+   "form": "DEF 14A",
+   "accession": "0001193125-25-245150",
+   "filing_date": "2025-10-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525245150/d908201ddef14a.htm",
+   "quote": "Penny S. Pritzker Age: 66 | Director Since: 2017 | Birthplace: United States | Independent",
+   "supports": "2025 proxy bio header for Penny S. Pritzker: age, 'Director since' year, independence flag."
+  },
+  {
+   "id": "e048",
+   "form": "DEF 14A",
+   "accession": "0001193125-25-245150",
+   "filing_date": "2025-10-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525245150/d908201ddef14a.htm",
+   "quote": "Microsoft Committees: • Environmental, Social, and Public Policy (Chair) Other Public Company Directorships: • None Former Public Company Directorships Held in the Past Five Years: • None",
+   "supports": "2025 proxy bio for Penny S. Pritzker: Microsoft committees and other/former public company directorships."
+  },
+  {
+   "id": "e049",
+   "form": "DEF 14A",
+   "accession": "0001193125-25-245150",
+   "filing_date": "2025-10-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525245150/d908201ddef14a.htm",
+   "quote": "John David Rainey Age: 55 | Director Since: New Nominee | Birthplace: United States | Independent",
+   "supports": "2025 proxy bio header for John David Rainey: age, 'Director since' year, independence flag."
+  },
+  {
+   "id": "e050",
+   "form": "DEF 14A",
+   "accession": "0001193125-25-245150",
+   "filing_date": "2025-10-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525245150/d908201ddef14a.htm",
+   "quote": "Microsoft Committees: • Appointment will be made after election Other Public Company Directorships: • None Former Public Company Directorships Held in the Past Five Years: • Nasdaq, Inc.",
+   "supports": "2025 proxy bio for John David Rainey: Microsoft committees and other/former public company directorships."
+  },
+  {
+   "id": "e051",
+   "form": "DEF 14A",
+   "accession": "0001193125-25-245150",
+   "filing_date": "2025-10-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525245150/d908201ddef14a.htm",
+   "quote": "Charles W. Scharf Age: 60 | Director Since: 2014 | Birthplace: United States | Independent",
+   "supports": "2025 proxy bio header for Charles W. Scharf: age, 'Director since' year, independence flag."
+  },
+  {
+   "id": "e052",
+   "form": "DEF 14A",
+   "accession": "0001193125-25-245150",
+   "filing_date": "2025-10-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525245150/d908201ddef14a.htm",
+   "quote": "Microsoft Committees: • Compensation • Governance and Nominating Other Public Company Directorships: • Wells Fargo & Company Former Public Company Directorships Held in the Past Five Years: • None",
+   "supports": "2025 proxy bio for Charles W. Scharf: Microsoft committees and other/former public company directorships."
+  },
+  {
+   "id": "e053",
+   "form": "DEF 14A",
+   "accession": "0001193125-25-245150",
+   "filing_date": "2025-10-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525245150/d908201ddef14a.htm",
+   "quote": "John W. Stanton Age: 70 | Director Since: 2014 | Birthplace: United States | Independent",
+   "supports": "2025 proxy bio header for John W. Stanton: age, 'Director since' year, independence flag."
+  },
+  {
+   "id": "e054",
+   "form": "DEF 14A",
+   "accession": "0001193125-25-245150",
+   "filing_date": "2025-10-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525245150/d908201ddef14a.htm",
+   "quote": "Microsoft Committees: • Audit • Environmental, Social, and Public Policy Other Public Company Directorships: • Costco Wholesale Corporation Former Public Company Directorships Held in the Past Five Years: • Trilogy International Partners, Inc.",
+   "supports": "2025 proxy bio for John W. Stanton: Microsoft committees and other/former public company directorships."
+  },
+  {
+   "id": "e055",
+   "form": "DEF 14A",
+   "accession": "0001193125-25-245150",
+   "filing_date": "2025-10-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525245150/d908201ddef14a.htm",
+   "quote": "Emma N. Walmsley Age: 56 | Director Since: 2019 | Birthplace: United Kingdom | Independent",
+   "supports": "2025 proxy bio header for Emma N. Walmsley: age, 'Director since' year, independence flag."
+  },
+  {
+   "id": "e056",
+   "form": "DEF 14A",
+   "accession": "0001193125-25-245150",
+   "filing_date": "2025-10-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525245150/d908201ddef14a.htm",
+   "quote": "Microsoft Committees: • Compensation • Environmental, Social, and Public Policy Other Public Company Directorships: • GSK plc Former Public Company Directorships Held in the Past Five Years: • None",
+   "supports": "2025 proxy bio for Emma N. Walmsley: Microsoft committees and other/former public company directorships."
+  },
+  {
+   "id": "e057",
+   "form": "DEF 14A",
+   "accession": "0001193125-25-245150",
+   "filing_date": "2025-10-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525245150/d908201ddef14a.htm",
+   "quote": "Reid G. Hoffman Member",
+   "supports": "2025 proxy committee table row (columns per e010).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e058",
+   "form": "DEF 14A",
+   "accession": "0001193125-25-245150",
+   "filing_date": "2025-10-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525245150/d908201ddef14a.htm",
+   "quote": "Hugh F. Johnston Chair, Financial Expert",
+   "supports": "2025 proxy committee table row (columns per e010).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e059",
+   "form": "DEF 14A",
+   "accession": "0001193125-25-245150",
+   "filing_date": "2025-10-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525245150/d908201ddef14a.htm",
+   "quote": "Teri L. List Financial Expert and Member Member",
+   "supports": "2025 proxy committee table row (columns per e010).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e060",
+   "form": "DEF 14A",
+   "accession": "0001193125-25-245150",
+   "filing_date": "2025-10-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525245150/d908201ddef14a.htm",
+   "quote": "Catherine MacGregor Member Member",
+   "supports": "2025 proxy committee table row (columns per e010).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e061",
+   "form": "DEF 14A",
+   "accession": "0001193125-25-245150",
+   "filing_date": "2025-10-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525245150/d908201ddef14a.htm",
+   "quote": "Mark A. L. Mason Member",
+   "supports": "2025 proxy committee table row (columns per e010).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e062",
+   "form": "DEF 14A",
+   "accession": "0001193125-25-245150",
+   "filing_date": "2025-10-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525245150/d908201ddef14a.htm",
+   "quote": "Sandra E. Peterson Member Chair",
+   "supports": "2025 proxy committee table row (columns per e010).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e063",
+   "form": "DEF 14A",
+   "accession": "0001193125-25-245150",
+   "filing_date": "2025-10-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525245150/d908201ddef14a.htm",
+   "quote": "Penny S. Pritzker Chair",
+   "supports": "2025 proxy committee table row (columns per e010).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e064",
+   "form": "DEF 14A",
+   "accession": "0001193125-25-245150",
+   "filing_date": "2025-10-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525245150/d908201ddef14a.htm",
+   "quote": "Charles W. Scharf Member Member",
+   "supports": "2025 proxy committee table row (columns per e010).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e065",
+   "form": "DEF 14A",
+   "accession": "0001193125-25-245150",
+   "filing_date": "2025-10-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525245150/d908201ddef14a.htm",
+   "quote": "John W. Stanton Member Member",
+   "supports": "2025 proxy committee table row (columns per e010).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e066",
+   "form": "DEF 14A",
+   "accession": "0001193125-25-245150",
+   "filing_date": "2025-10-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525245150/d908201ddef14a.htm",
+   "quote": "Emma N. Walmsley Member Member",
+   "supports": "2025 proxy committee table row (columns per e010).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e067",
+   "form": "8-K",
+   "accession": "0001193125-17-082168",
+   "filing_date": "2017-03-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312517082168/d303439d8k.htm",
+   "quote": "On March 14, 2017, Microsoft Corporation (\"Microsoft\") issued a press release to announce that the Microsoft Board of Directors appointed Reid Hoffman to the Microsoft Board of Directors, effective immediately.",
+   "supports": "Hoffman appointed 2017-03-14, effective immediately."
+  },
+  {
+   "id": "e068",
+   "form": "8-K",
+   "accession": "0001193125-17-288464",
+   "filing_date": "2017-09-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312517288464/d447207d8k.htm",
+   "quote": "On September 19, 2017, Microsoft Corporation (\"Microsoft\") issued a press release to announce that the Microsoft Board of Directors appointed Hugh Johnston to the Microsoft Board of Directors, effective immediately.",
+   "supports": "Johnston appointed 2017-09-19, effective immediately."
+  },
+  {
+   "id": "e069",
+   "form": "8-K",
+   "accession": "0001193125-14-343628",
+   "filing_date": "2014-09-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312514343628/d791068d8k.htm",
+   "quote": "On September 16, 2014, the Microsoft Board of Directors appointed Teri List-Stoll and Charles W. Scharf to its Board of Directors, effective October 1.",
+   "supports": "List-Stoll (now Teri L. List) and Scharf appointed 2014-09-16, effective 2014-10-01."
+  },
+  {
+   "id": "e070",
+   "form": "8-K",
+   "accession": "0001193125-14-288136",
+   "filing_date": "2014-07-31",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312514288136/d766837d8k.htm",
+   "quote": "On July 30, 2014, Microsoft Corporation (\"Microsoft\") issued a press release to announce that the Microsoft Board of Directors appointed John Stanton to the Microsoft Board of Directors, effective immediately.",
+   "supports": "Stanton appointed 2014-07-30, effective immediately."
+  },
+  {
+   "id": "e071",
+   "form": "DEF 14A",
+   "accession": "0001206774-15-003229",
+   "filing_date": "2015-10-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000120677415003229/microsoft_def14a.htm",
+   "quote": "The Board has nominated for election Sandra Peterson and Padmasree Warrior and, if elected, their terms will begin on December 2, 2015.",
+   "supports": "Peterson and Warrior first nominated in the 2015 proxy; terms to begin 2015-12-02 if elected."
+  },
+  {
+   "id": "e072",
+   "form": "8-K",
+   "accession": "0001193125-15-394364",
+   "filing_date": "2015-12-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312515394364/d89470d8k.htm",
+   "quote": "On December 2, 2015, Microsoft Corporation (the \"Company\") held its 2015 Annual Shareholders Meeting",
+   "supports": "2015 annual meeting held 2015-12-02 (Peterson and Warrior elected)."
+  },
+  {
+   "id": "e073",
+   "form": "DEF 14A",
+   "accession": "0001193125-17-310951",
+   "filing_date": "2017-10-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312517310951/d461626ddef14a.htm",
+   "quote": "The Board has nominated as new directors for election Penny Pritzker and Arne Sorenson; if elected, their terms will begin on November 29, 2017.",
+   "supports": "Pritzker and Sorenson first nominated in the 2017 proxy; terms to begin 2017-11-29 if elected."
+  },
+  {
+   "id": "e074",
+   "form": "8-K",
+   "accession": "0001193125-17-357415",
+   "filing_date": "2017-11-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312517357415/d485065d8k.htm",
+   "quote": "On November 29, 2017, Microsoft Corporation (the \"Company\") held its 2017 Annual Shareholders Meeting",
+   "supports": "2017 annual meeting held 2017-11-29 (Pritzker and Sorenson elected)."
+  },
+  {
+   "id": "e075",
+   "form": "DEF 14A",
+   "accession": "0001193125-19-268531",
+   "filing_date": "2019-10-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312519268531/d791036ddef14a.htm",
+   "quote": "The Board has nominated Emma Walmsley for election as director. If elected, her term will begin on December 4, 2019.",
+   "supports": "Walmsley first nominated in the 2019 proxy; term to begin 2019-12-04 if elected."
+  },
+  {
+   "id": "e076",
+   "form": "8-K",
+   "accession": "0001193125-19-307138",
+   "filing_date": "2019-12-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312519307138/d840134d8k.htm",
+   "quote": "On December 4, 2019, Microsoft Corporation (the \"Company\") held its 2019 Annual Shareholders Meeting (the \"Annual Meeting\").",
+   "supports": "2019 annual meeting held 2019-12-04 (Walmsley elected)."
+  },
+  {
+   "id": "e077",
+   "form": "DEF 14A",
+   "accession": "0001193125-23-259247",
+   "filing_date": "2023-10-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312523259247/d356108ddef14a.htm",
+   "quote": "John Thompson and Padmasree Warrior are not seeking re-election and their Board service will end on the date of the Annual Meeting. John Thompson currently serves as a member of the Governance and Nominating Committee and a member of the Environmental, Social, and Public Policy Committee. Padmasree Warrior currently serves as a member of the Compensation Committee.",
+   "supports": "2023 proxy: Thompson and Warrior not standing; their committees at the time (Thompson: G&N and ESPP member; Warrior: Compensation member)."
+  },
+  {
+   "id": "e078",
+   "form": "DEF 14A",
+   "accession": "0001193125-23-259247",
+   "filing_date": "2023-10-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312523259247/d356108ddef14a.htm",
+   "quote": "The Board has nominated Catherine MacGregor and Mark Mason for election as directors. If elected, their terms will begin on December 7, 2023.",
+   "supports": "MacGregor and Mason first nominated in the 2023 proxy; terms to begin 2023-12-07 if elected."
+  },
+  {
+   "id": "e079",
+   "form": "8-K",
+   "accession": "0001193125-23-291720",
+   "filing_date": "2023-12-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312523291720/d636199d8k.htm",
+   "quote": "Date of Report (Date of earliest event reported) December 7, 2023",
+   "supports": "2023 annual meeting 8-K cover date 2023-12-07."
+  },
+  {
+   "id": "e080",
+   "form": "8-K",
+   "accession": "0001193125-23-291720",
+   "filing_date": "2023-12-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312523291720/d636199d8k.htm",
+   "quote": "On December 7, 2022, Microsoft Corporation (the \"Company\") held its 2023 Annual Shareholders Meeting (the \"Annual Meeting\").",
+   "supports": "8-K body misdates the 2023 annual meeting as December 7, 2022 (typo; see conflicts)."
+  },
+  {
+   "id": "e081",
+   "form": "DEF 14A",
+   "accession": "0001193125-24-242883",
+   "filing_date": "2024-10-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312524242883/d858775ddef14a.htm",
+   "quote": "Ms. MacGregor and Mr. Mason joined the Board effective December 7, 2023",
+   "supports": "MacGregor and Mason joined 2023-12-07."
+  },
+  {
+   "id": "e082",
+   "form": "DEF 14A",
+   "accession": "0001193125-24-242883",
+   "filing_date": "2024-10-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312524242883/d858775ddef14a.htm",
+   "quote": "Mr. Thompson and Ms. Warrior each retired from the Board effective December 7, 2023",
+   "supports": "Thompson and Warrior left the board 2023-12-07."
+  },
+  {
+   "id": "e083",
+   "form": "DEF 14A",
+   "accession": "0001193125-24-242883",
+   "filing_date": "2024-10-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312524242883/d858775ddef14a.htm",
+   "quote": "(as well as Padmasree Warrior and John Thompson, whose Board service ended on December 7, 2023) meet the standards of independence",
+   "supports": "Warrior and Thompson independent; service ended 2023-12-07."
+  },
+  {
+   "id": "e084",
+   "form": "DEF 14A",
+   "accession": "0001193125-21-298757",
+   "filing_date": "2021-10-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312521298757/d189481ddef14a.htm",
+   "quote": "The Board has nominated Carlos Rodriguez for election as director. If elected, his term will begin on November 30, 2021. The Board has approved an increase in its size from 11 members to 12 members effective as of November 30, 2021.",
+   "supports": "Rodriguez first nominated in the 2021 proxy, term to begin 2021-11-30; board size 11 -> 12 effective 2021-11-30."
+  },
+  {
+   "id": "e085",
+   "form": "8-K",
+   "accession": "0001193125-21-343711",
+   "filing_date": "2021-11-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312521343711/d205343d8k.htm",
+   "quote": "On November 30, 2021, Microsoft Corporation (the \"Company\") held its 2021 Annual Shareholders Meeting (the \"Annual Meeting\").",
+   "supports": "2021 annual meeting held 2021-11-30 (Rodriguez elected)."
+  },
+  {
+   "id": "e086",
+   "form": "8-K",
+   "accession": "0001193125-12-070173",
+   "filing_date": "2012-02-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312512070173/d304773d8k.htm",
+   "quote": "On February 17, 2012, the Microsoft Corporation Board of Directors appointed John E. Thompson, age 62, to the Microsoft Board of Directors.",
+   "supports": "Thompson appointed 2012-02-17 (8-K prints the middle initial as 'E.'; see conflicts)."
+  },
+  {
+   "id": "e087",
+   "form": "8-K",
+   "accession": "0001193125-20-073072",
+   "filing_date": "2020-03-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312520073072/d884867d8k.htm",
+   "quote": "Bill Gates, co-founder and member of the Board of Directors of Microsoft, resigned from the Board effective March 13, 2020.",
+   "supports": "Gates resigned from the board effective 2020-03-13."
+  },
+  {
+   "id": "e088",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-272025",
+   "filing_date": "2020-10-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312520272025/d31295ddef14a.htm",
+   "quote": "Mr. Gates waived his cash and stock compensation. Mr. Gates ended his board service effective March 13, 2020.",
+   "supports": "2020 proxy corroborates Gates' board service ended 2020-03-13."
+  },
+  {
+   "id": "e089",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-272025",
+   "filing_date": "2020-10-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312520272025/d31295ddef14a.htm",
+   "quote": "This year, Co-Founder and Technology Advisor Bill Gates stepped down from the Company's Board of Directors to dedicate more time to his philanthropic priorities.",
+   "supports": "Gates stepped down from the board in 2020 (philanthropy)."
+  },
+  {
+   "id": "e090",
+   "form": "DEF 14A",
+   "accession": "0001193125-19-268531",
+   "filing_date": "2019-10-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312519268531/d791036ddef14a.htm",
+   "quote": "William H. Gates III Age: 63 | Director Since: 1981 | Birthplace: United States",
+   "supports": "2019 proxy: Gates 'Director Since' 1981; no independence flag."
+  },
+  {
+   "id": "e091",
+   "form": "DEF 14A",
+   "accession": "0001193125-19-268531",
+   "filing_date": "2019-10-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312519268531/d791036ddef14a.htm",
+   "quote": "Technical Advisor to Satya Nadella (CEO) (2014-present) • Co-founder and Chairman (1981-2014) • Chief Software Architect (2000-2006) • Chief Executive Officer (1981-2000)",
+   "supports": "Gates roles: Chairman 1981-2014, CEO 1981-2000, Technical Advisor from 2014."
+  },
+  {
+   "id": "e092",
+   "form": "DEF 14A",
+   "accession": "0001193125-19-268531",
+   "filing_date": "2019-10-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312519268531/d791036ddef14a.htm",
+   "quote": "Microsoft Committees: • None Other Public Company Directorships: • Berkshire Hathaway Inc.",
+   "supports": "Gates: no Microsoft committees; other public board Berkshire Hathaway Inc. (2019 proxy)."
+  },
+  {
+   "id": "e093",
+   "form": "DEF 14A",
+   "accession": "0001193125-19-268531",
+   "filing_date": "2019-10-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312519268531/d791036ddef14a.htm",
+   "quote": "Except for our CEO, Satya Nadella, and our co-founder, Bill Gates, all director nominees are independent.",
+   "supports": "2019 proxy: Gates and Nadella not independent."
+  },
+  {
+   "id": "e094",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-272025",
+   "filing_date": "2020-10-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312520272025/d31295ddef14a.htm",
+   "quote": "Arne M. Sorenson Age: 62 | Director Since: 2017 | Birthplace: Japan | Independent",
+   "supports": "2020 proxy: Sorenson 'Director Since' 2017; independent."
+  },
+  {
+   "id": "e095",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-272025",
+   "filing_date": "2020-10-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312520272025/d31295ddef14a.htm",
+   "quote": "Microsoft Committees: • Audit Other Public Company Directorships: • Marriott International, Inc.",
+   "supports": "Sorenson: Audit committee; other public board Marriott International, Inc. (2020 proxy)."
+  },
+  {
+   "id": "e096",
+   "form": "DEF 14A",
+   "accession": "0001193125-21-298757",
+   "filing_date": "2021-10-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312521298757/d189481ddef14a.htm",
+   "quote": "Arne Sorenson, who passed away in February 2021, was independent throughout his Board service.",
+   "supports": "Sorenson died February 2021 (day not stated); independent throughout his service."
+  },
+  {
+   "id": "e097",
+   "form": "DEF 14A",
+   "accession": "0001193125-21-298757",
+   "filing_date": "2021-10-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312521298757/d189481ddef14a.htm",
+   "quote": "As Mr. Sorenson passed away in February 2021, his final prorated stock and cash retainers of $11,653 were paid out in cash",
+   "supports": "Corroborates Sorenson's death in February 2021."
+  },
+  {
+   "id": "e098",
+   "form": "DEF 14A",
+   "accession": "0001193125-22-270484",
+   "filing_date": "2022-10-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312522270484/d318171ddef14a.htm",
+   "quote": "John W. Thompson Age: 73 | Director Since: 2012 | Birthplace: United States | Independent",
+   "supports": "2022 proxy: Thompson 'Director Since' 2012; independent."
+  },
+  {
+   "id": "e099",
+   "form": "DEF 14A",
+   "accession": "0001193125-22-270484",
+   "filing_date": "2022-10-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312522270484/d318171ddef14a.htm",
+   "quote": "Microsoft Corporation (2012-present) • Lead Independent Director (2021-present) • Independent Board Chair (2014-2021) • Lead Independent Director (2012-2014)",
+   "supports": "Thompson roles: LID 2012-2014, Independent Board Chair 2014-2021, LID from 2021."
+  },
+  {
+   "id": "e100",
+   "form": "DEF 14A",
+   "accession": "0001193125-22-270484",
+   "filing_date": "2022-10-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312522270484/d318171ddef14a.htm",
+   "quote": "Microsoft Committees: • Governance and Nominating (Chair) • Environmental, Social, and Public Policy Other Public Company Directorships: • Illumina, Inc. Former Public Company Directorships Held in the Past Five Years: • None",
+   "supports": "Thompson 2022 bio: committees and other public boards (last bio before his departure)."
+  },
+  {
+   "id": "e101",
+   "form": "DEF 14A",
+   "accession": "0001193125-22-270484",
+   "filing_date": "2022-10-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312522270484/d318171ddef14a.htm",
+   "quote": "Padmasree Warrior Age: 62 | Director Since: 2015 | Birthplace: India | Independent",
+   "supports": "2022 proxy: Warrior 'Director Since' 2015; independent."
+  },
+  {
+   "id": "e102",
+   "form": "DEF 14A",
+   "accession": "0001193125-22-270484",
+   "filing_date": "2022-10-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312522270484/d318171ddef14a.htm",
+   "quote": "Microsoft Committees: • Compensation Other Public Company Directorships: • Spotify Technology S.A. Former Public Company Directorships Held in the Past Five Years: • None",
+   "supports": "Warrior 2022 bio: committees and other public boards (last bio before her departure)."
+  },
+  {
+   "id": "e103",
+   "form": "DEF 14A",
+   "accession": "0001193125-24-242883",
+   "filing_date": "2024-10-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312524242883/d858775ddef14a.htm",
+   "quote": "Carlos A. Rodriguez Age: 60 | Director since: 2021 | Birthplace: Cuba | Independent",
+   "supports": "2024 proxy: Rodriguez 'Director since' 2021; independent."
+  },
+  {
+   "id": "e104",
+   "form": "DEF 14A",
+   "accession": "0001193125-24-242883",
+   "filing_date": "2024-10-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312524242883/d858775ddef14a.htm",
+   "quote": "Microsoft Committees: • Audit • Compensation (Chair) Other Public Company Directorships: • Automatic Data Processing, Inc. Former Public Company Directorships Held in the Past Five Years: • None",
+   "supports": "Rodriguez 2024 bio: committees and other public boards (last bio before his departure)."
+  },
+  {
+   "id": "e105",
+   "form": "DEF 14A",
+   "accession": "0001193125-23-259247",
+   "filing_date": "2023-10-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312523259247/d356108ddef14a.htm",
+   "quote": "Director Audit Compensation Environmental, Social, and Public Policy Governance and Nominating",
+   "supports": "2023 proxy committee table column order.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e106",
+   "form": "DEF 14A",
+   "accession": "0001193125-23-259247",
+   "filing_date": "2023-10-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312523259247/d356108ddef14a.htm",
+   "quote": "John W. Thompson* Member Member",
+   "supports": "2023 proxy committee row: Thompson ESPP member and G&N member.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e107",
+   "form": "DEF 14A",
+   "accession": "0001193125-23-259247",
+   "filing_date": "2023-10-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312523259247/d356108ddef14a.htm",
+   "quote": "Padmasree Warrior* Member",
+   "supports": "2023 proxy committee row: Warrior Compensation member.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e108",
+   "form": "DEF 14A",
+   "accession": "0001193125-23-259247",
+   "filing_date": "2023-10-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312523259247/d356108ddef14a.htm",
+   "quote": "The Board determined that Mses. List, MacGregor, Peterson, Pritzker, Walmsley, and Warrior, and Messrs. Hoffman, Johnston, Mason, Rodriguez, Scharf, Stanton, and Thompson meet the standards of independence",
+   "supports": "2023 proxy independence determination (incl. Thompson and Warrior)."
+  },
+  {
+   "id": "e109",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-272025",
+   "filing_date": "2020-10-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312520272025/d31295ddef14a.htm",
+   "quote": "The Board determined that Mses. List-Stoll, Peterson, Pritzker, Walmsley, and Warrior, and Messrs. Hoffman, Johnston, Scharf, Sorenson, Stanton, and Thompson",
+   "supports": "2020 proxy independence determination (incl. Sorenson, Thompson, Warrior)."
+  },
+  {
+   "id": "e110",
+   "form": "DEF 14A",
+   "accession": "0001193125-21-298757",
+   "filing_date": "2021-10-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312521298757/d189481ddef14a.htm",
+   "quote": "The Board determined that Mses. List, Peterson, Pritzker, Walmsley, and Warrior, and Messrs. Hoffman, Johnston, Rodriguez, Scharf, Stanton, and Thompson meet the standards of independence",
+   "supports": "2021 proxy independence determination (Teri List-Stoll now 'Ms. List')."
+  },
+  {
+   "id": "e111",
+   "form": "3",
+   "accession": "0001582737-14-000015",
+   "filing_date": "2014-02-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000158273714000015/edgar.xml",
+   "quote": "Nadella Satya",
+   "supports": "Form 3 for satya-nadella: reporting-owner CIK 0001513142; event date 2014-02-04 (initial-statement date as a director).",
+   "xml_fields": {
+    "rptOwnerCik": "0001513142",
+    "rptOwnerName": "Nadella Satya",
+    "periodOfReport": "2014-02-04"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": "Chief Executive Officer"
+   }
+  },
+  {
+   "id": "e112",
+   "form": "3",
+   "accession": "0001582737-14-000060",
+   "filing_date": "2014-07-31",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000158273714000060/edgar.xml",
+   "quote": "STANTON JOHN W",
+   "supports": "Form 3 for john-stanton: reporting-owner CIK 0000904858; event date 2014-07-30 (initial-statement date as a director).",
+   "xml_fields": {
+    "rptOwnerCik": "0000904858",
+    "rptOwnerName": "STANTON JOHN W",
+    "periodOfReport": "2014-07-30"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": null
+   }
+  },
+  {
+   "id": "e113",
+   "form": "3",
+   "accession": "0001591807-14-000036",
+   "filing_date": "2014-10-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000159180714000036/edgar.xml",
+   "quote": "List Teri L.",
+   "supports": "Form 3 for teri-list: reporting-owner CIK 0001529370; event date 2014-10-01 (initial-statement date as a director).",
+   "xml_fields": {
+    "rptOwnerCik": "0001529370",
+    "rptOwnerName": "List Teri L.",
+    "periodOfReport": "2014-10-01"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": null
+   }
+  },
+  {
+   "id": "e114",
+   "form": "3",
+   "accession": "0001591807-14-000037",
+   "filing_date": "2014-10-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000159180714000037/edgar.xml",
+   "quote": "SCHARF CHARLES W",
+   "supports": "Form 3 for charles-scharf: reporting-owner CIK 0001195358; event date 2014-10-01 (initial-statement date as a director).",
+   "xml_fields": {
+    "rptOwnerCik": "0001195358",
+    "rptOwnerName": "SCHARF CHARLES W",
+    "periodOfReport": "2014-10-01"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": null
+   }
+  },
+  {
+   "id": "e115",
+   "form": "3",
+   "accession": "0001626431-15-000083",
+   "filing_date": "2015-12-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000162643115000083/edgar.xml",
+   "quote": "PETERSON SANDRA E",
+   "supports": "Form 3 for sandra-peterson: reporting-owner CIK 0001192752; event date 2015-12-02 (initial-statement date as a director).",
+   "xml_fields": {
+    "rptOwnerCik": "0001192752",
+    "rptOwnerName": "PETERSON SANDRA E",
+    "periodOfReport": "2015-12-02"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": null
+   }
+  },
+  {
+   "id": "e116",
+   "form": "3",
+   "accession": "0001626431-15-000082",
+   "filing_date": "2015-12-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000162643115000082/edgar.xml",
+   "quote": "WARRIOR PADMASREE",
+   "supports": "Form 3 for padmasree-warrior: reporting-owner CIK 0001186249; event date 2015-12-02 (initial-statement date as a director).",
+   "xml_fields": {
+    "rptOwnerCik": "0001186249",
+    "rptOwnerName": "WARRIOR PADMASREE",
+    "periodOfReport": "2015-12-02"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": null
+   }
+  },
+  {
+   "id": "e117",
+   "form": "3",
+   "accession": "0001626431-17-000026",
+   "filing_date": "2017-03-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000162643117000026/edgar.xml",
+   "quote": "Hoffman Reid",
+   "supports": "Form 3 for reid-hoffman: reporting-owner CIK 0001519339; event date 2017-03-14 (initial-statement date as a director).",
+   "xml_fields": {
+    "rptOwnerCik": "0001519339",
+    "rptOwnerName": "Hoffman Reid",
+    "periodOfReport": "2017-03-14"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": null
+   }
+  },
+  {
+   "id": "e118",
+   "form": "3",
+   "accession": "0001626431-17-000097",
+   "filing_date": "2017-09-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000162643117000097/edgar.xml",
+   "quote": "Johnston Hugh F",
+   "supports": "Form 3 for hugh-johnston: reporting-owner CIK 0001377489; event date 2017-09-19 (initial-statement date as a director).",
+   "xml_fields": {
+    "rptOwnerCik": "0001377489",
+    "rptOwnerName": "Johnston Hugh F",
+    "periodOfReport": "2017-09-19"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": null
+   }
+  },
+  {
+   "id": "e119",
+   "form": "3",
+   "accession": "0001626431-17-000131",
+   "filing_date": "2017-11-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000162643117000131/edgar.xml",
+   "quote": "PRITZKER PENNY S",
+   "supports": "Form 3 for penny-pritzker: reporting-owner CIK 0001087398; event date 2017-11-29 (initial-statement date as a director).",
+   "xml_fields": {
+    "rptOwnerCik": "0001087398",
+    "rptOwnerName": "PRITZKER PENNY S",
+    "periodOfReport": "2017-11-29"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": null
+   }
+  },
+  {
+   "id": "e120",
+   "form": "3",
+   "accession": "0001626431-17-000132",
+   "filing_date": "2017-11-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000162643117000132/edgar.xml",
+   "quote": "SORENSON ARNE M",
+   "supports": "Form 3 for arne-sorenson: reporting-owner CIK 0001238138; event date 2017-11-29 (initial-statement date as a director).",
+   "xml_fields": {
+    "rptOwnerCik": "0001238138",
+    "rptOwnerName": "SORENSON ARNE M",
+    "periodOfReport": "2017-11-29"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": null
+   }
+  },
+  {
+   "id": "e121",
+   "form": "3",
+   "accession": "0001626431-19-000137",
+   "filing_date": "2019-12-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000162643119000137/edgar.xml",
+   "quote": "Walmsley Emma N",
+   "supports": "Form 3 for emma-walmsley: reporting-owner CIK 0001795429; event date 2019-12-04 (initial-statement date as a director).",
+   "xml_fields": {
+    "rptOwnerCik": "0001795429",
+    "rptOwnerName": "Walmsley Emma N",
+    "periodOfReport": "2019-12-04"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": null
+   }
+  },
+  {
+   "id": "e122",
+   "form": "3",
+   "accession": "0001062993-21-011819",
+   "filing_date": "2021-11-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000106299321011819/form3.xml",
+   "quote": "Rodriguez Carlos A",
+   "supports": "Form 3 for carlos-rodriguez: reporting-owner CIK 0001378514; event date 2021-11-30 (initial-statement date as a director).",
+   "xml_fields": {
+    "rptOwnerCik": "0001378514",
+    "rptOwnerName": "Rodriguez Carlos A",
+    "periodOfReport": "2021-11-30"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": null
+   }
+  },
+  {
+   "id": "e123",
+   "form": "3",
+   "accession": "0001062993-23-022249",
+   "filing_date": "2023-12-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000106299323022249/form3.xml",
+   "quote": "MacGregor Catherine",
+   "supports": "Form 3 for catherine-macgregor: reporting-owner CIK 0001415757; event date 2023-12-07 (initial-statement date as a director).",
+   "xml_fields": {
+    "rptOwnerCik": "0001415757",
+    "rptOwnerName": "MacGregor Catherine",
+    "periodOfReport": "2023-12-07"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": null
+   }
+  },
+  {
+   "id": "e124",
+   "form": "3",
+   "accession": "0001062993-23-022250",
+   "filing_date": "2023-12-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000106299323022250/form3.xml",
+   "quote": "Mason Mark",
+   "supports": "Form 3 for mark-mason: reporting-owner CIK 0001487290; event date 2023-12-07 (initial-statement date as a director).",
+   "xml_fields": {
+    "rptOwnerCik": "0001487290",
+    "rptOwnerName": "Mason Mark",
+    "periodOfReport": "2023-12-07"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": null
+   }
+  },
+  {
+   "id": "e125",
+   "form": "3",
+   "accession": "0000789019-25-000110",
+   "filing_date": "2025-12-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901925000110/form3.xml",
+   "quote": "Rainey John D",
+   "supports": "Form 3 for john-david-rainey: reporting-owner CIK 0001547433; event date 2025-12-05 (initial-statement date as a director).",
+   "xml_fields": {
+    "rptOwnerCik": "0001547433",
+    "rptOwnerName": "Rainey John D",
+    "periodOfReport": "2025-12-05"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": null
+   }
+  },
+  {
+   "id": "e126",
+   "form": "3",
+   "accession": "0000789019-26-000074",
+   "filing_date": "2026-05-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000074/form3.xml",
+   "quote": "Di Sibio Carmine",
+   "supports": "Form 3 for carmine-di-sibio: reporting-owner CIK 0002028185; event date 2026-05-13 (initial-statement date as a director).",
+   "xml_fields": {
+    "rptOwnerCik": "0002028185",
+    "rptOwnerName": "Di Sibio Carmine",
+    "periodOfReport": "2026-05-13"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": null
+   }
+  },
+  {
+   "id": "e127",
+   "form": "3",
+   "accession": "0001183681-12-000016",
+   "filing_date": "2012-02-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000118368112000016/edgar.xml",
+   "quote": "THOMPSON JOHN WENDELL",
+   "supports": "Form 3 for john-thompson: reporting-owner CIK 0001207433; event date 2012-02-17 (initial-statement date as a director).",
+   "xml_fields": {
+    "rptOwnerCik": "0001207433",
+    "rptOwnerName": "THOMPSON JOHN WENDELL",
+    "periodOfReport": "2012-02-17"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": null
+   }
+  },
+  {
+   "id": "e128",
+   "form": "4",
+   "accession": "0000789019-26-000175",
+   "filing_date": "2026-09-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000175/form4.xml",
+   "quote": "Di Sibio Carmine",
+   "supports": "Form 4 (period 2026-09-05): reporting-owner CIK 0002028185; filed as a director - confirms still serving in September 2026.",
+   "xml_fields": {
+    "rptOwnerCik": "0002028185",
+    "rptOwnerName": "Di Sibio Carmine",
+    "periodOfReport": "2026-09-05"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": null
+   }
+  },
+  {
+   "id": "e129",
+   "form": "4",
+   "accession": "0000789019-26-000176",
+   "filing_date": "2026-09-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000176/form4.xml",
+   "quote": "Hoffman Reid",
+   "supports": "Form 4 (period 2026-09-05): reporting-owner CIK 0001519339; filed as a director - confirms still serving in September 2026.",
+   "xml_fields": {
+    "rptOwnerCik": "0001519339",
+    "rptOwnerName": "Hoffman Reid",
+    "periodOfReport": "2026-09-05"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": null
+   }
+  },
+  {
+   "id": "e130",
+   "form": "4",
+   "accession": "0000789019-26-000177",
+   "filing_date": "2026-09-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000177/form4.xml",
+   "quote": "Johnston Hugh F",
+   "supports": "Form 4 (period 2026-09-05): reporting-owner CIK 0001377489; filed as a director - confirms still serving in September 2026.",
+   "xml_fields": {
+    "rptOwnerCik": "0001377489",
+    "rptOwnerName": "Johnston Hugh F",
+    "periodOfReport": "2026-09-05"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": null
+   }
+  },
+  {
+   "id": "e131",
+   "form": "4",
+   "accession": "0000789019-26-000178",
+   "filing_date": "2026-09-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000178/form4.xml",
+   "quote": "List Teri",
+   "supports": "Form 4 (period 2026-09-05): reporting-owner CIK 0001529370; filed as a director - confirms still serving in September 2026.",
+   "xml_fields": {
+    "rptOwnerCik": "0001529370",
+    "rptOwnerName": "List Teri",
+    "periodOfReport": "2026-09-05"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": null
+   }
+  },
+  {
+   "id": "e132",
+   "form": "4",
+   "accession": "0000789019-26-000179",
+   "filing_date": "2026-09-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000179/form4.xml",
+   "quote": "MacGregor Catherine",
+   "supports": "Form 4 (period 2026-09-05): reporting-owner CIK 0001415757; filed as a director - confirms still serving in September 2026.",
+   "xml_fields": {
+    "rptOwnerCik": "0001415757",
+    "rptOwnerName": "MacGregor Catherine",
+    "periodOfReport": "2026-09-05"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": null
+   }
+  },
+  {
+   "id": "e133",
+   "form": "4",
+   "accession": "0000789019-26-000180",
+   "filing_date": "2026-09-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000180/form4.xml",
+   "quote": "Mason Mark",
+   "supports": "Form 4 (period 2026-09-05): reporting-owner CIK 0001487290; filed as a director - confirms still serving in September 2026.",
+   "xml_fields": {
+    "rptOwnerCik": "0001487290",
+    "rptOwnerName": "Mason Mark",
+    "periodOfReport": "2026-09-05"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": null
+   }
+  },
+  {
+   "id": "e134",
+   "form": "4",
+   "accession": "0000789019-26-000181",
+   "filing_date": "2026-09-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000181/form4.xml",
+   "quote": "PETERSON SANDRA E",
+   "supports": "Form 4 (period 2026-09-05): reporting-owner CIK 0001192752; filed as a director - confirms still serving in September 2026.",
+   "xml_fields": {
+    "rptOwnerCik": "0001192752",
+    "rptOwnerName": "PETERSON SANDRA E",
+    "periodOfReport": "2026-09-05"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": null
+   }
+  },
+  {
+   "id": "e135",
+   "form": "4",
+   "accession": "0000789019-26-000182",
+   "filing_date": "2026-09-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000182/form4.xml",
+   "quote": "PRITZKER PENNY S",
+   "supports": "Form 4 (period 2026-09-05): reporting-owner CIK 0001087398; filed as a director - confirms still serving in September 2026.",
+   "xml_fields": {
+    "rptOwnerCik": "0001087398",
+    "rptOwnerName": "PRITZKER PENNY S",
+    "periodOfReport": "2026-09-05"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": null
+   }
+  },
+  {
+   "id": "e136",
+   "form": "4",
+   "accession": "0000789019-26-000183",
+   "filing_date": "2026-09-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000183/form4.xml",
+   "quote": "Rainey John D",
+   "supports": "Form 4 (period 2026-09-05): reporting-owner CIK 0001547433; filed as a director - confirms still serving in September 2026.",
+   "xml_fields": {
+    "rptOwnerCik": "0001547433",
+    "rptOwnerName": "Rainey John D",
+    "periodOfReport": "2026-09-05"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": null
+   }
+  },
+  {
+   "id": "e137",
+   "form": "4",
+   "accession": "0000789019-26-000184",
+   "filing_date": "2026-09-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000184/form4.xml",
+   "quote": "SCHARF CHARLES W",
+   "supports": "Form 4 (period 2026-09-05): reporting-owner CIK 0001195358; filed as a director - confirms still serving in September 2026.",
+   "xml_fields": {
+    "rptOwnerCik": "0001195358",
+    "rptOwnerName": "SCHARF CHARLES W",
+    "periodOfReport": "2026-09-05"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": null
+   }
+  },
+  {
+   "id": "e138",
+   "form": "4",
+   "accession": "0000789019-26-000185",
+   "filing_date": "2026-09-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000185/form4.xml",
+   "quote": "STANTON JOHN W",
+   "supports": "Form 4 (period 2026-09-05): reporting-owner CIK 0000904858; filed as a director - confirms still serving in September 2026.",
+   "xml_fields": {
+    "rptOwnerCik": "0000904858",
+    "rptOwnerName": "STANTON JOHN W",
+    "periodOfReport": "2026-09-05"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": null
+   }
+  },
+  {
+   "id": "e139",
+   "form": "4",
+   "accession": "0000789019-26-000186",
+   "filing_date": "2026-09-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000186/form4.xml",
+   "quote": "Walmsley Emma N",
+   "supports": "Form 4 (period 2026-09-05): reporting-owner CIK 0001795429; filed as a director - confirms still serving in September 2026.",
+   "xml_fields": {
+    "rptOwnerCik": "0001795429",
+    "rptOwnerName": "Walmsley Emma N",
+    "periodOfReport": "2026-09-05"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": null
+   }
+  },
+  {
+   "id": "e140",
+   "form": "4",
+   "accession": "0000789019-26-000157",
+   "filing_date": "2026-09-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000157/form4.xml",
+   "quote": "Nadella Satya",
+   "supports": "Form 4 (period 2026-08-31): reporting-owner CIK 0001513142; filed as a director and officer (Chief Executive Officer) - confirms still serving in September 2026.",
+   "xml_fields": {
+    "rptOwnerCik": "0001513142",
+    "rptOwnerName": "Nadella Satya",
+    "periodOfReport": "2026-08-31"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": "Chief Executive Officer"
+   }
+  },
+  {
+   "id": "e141",
+   "form": "4",
+   "accession": "0001225208-17-002185",
+   "filing_date": "2017-02-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000122520817002185/doc4.xml",
+   "quote": "GATES WILLIAM H III",
+   "supports": "Form 4 (period 2017-01-30): reporting-owner CIK 0000902012; filed as a director.",
+   "xml_fields": {
+    "rptOwnerCik": "0000902012",
+    "rptOwnerName": "GATES WILLIAM H III",
+    "periodOfReport": "2017-01-30"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": null
+   }
+  }
+ ],
+ "conflicts": [
+  {
+   "description": "The 2023 annual-meeting 8-K body says the meeting was held 'On December 7, 2022', but its cover gives the event date as December 7, 2023, and the 2023 proxy (terms beginning December 7, 2023) and the 2024 proxy (joined / retired effective December 7, 2023) agree on 2023. The 2022 in the body is a typo; 2023-12-07 used.",
+   "evidence_refs": [
+    "e080",
+    "e079",
+    "e078",
+    "e081",
+    "e082"
+   ]
+  },
+  {
+   "description": "Thompson's 2012 appointment 8-K names him 'John E. Thompson'; his Form 3 reads 'THOMPSON JOHN WENDELL' and every proxy and the 2014 press release use 'John W. Thompson'. Same person (same CIK across filings); recorded as an alias.",
+   "evidence_refs": [
+    "e086",
+    "e127",
+    "e098"
+   ]
+  },
+  {
+   "description": "Thompson's chair role ended 2021-06-16 (8-K and 2021 proxy), but the 2021 proxy also says his 'Independent Board Chair compensation continued through June 30, 2021'. That is a pay detail, not the role date; role end kept at 2021-06-16.",
+   "evidence_refs": [
+    "e025",
+    "e026"
+   ]
+  }
+ ],
+ "open_questions": [
+  "Reid Hoffman will leave at the 2026 annual meeting (8-K filed 2026-06-05). No 2026 proxy had been filed by 2026-10-04, so the meeting date (his end date) is not yet known. Past meetings were in late November or early December.",
+  "Carmine Di Sibio (appointed 2026-05-13): no filing through 2026-10-04 makes an independence determination for him. His committees (Audit, Compensation) come only from the appointment 8-K. The next proxy should settle both.",
+  "John David Rainey's committee assignments after his 2025-12-05 election are not disclosed in any filing reviewed. The 2025 proxy says only that the Board would consider them after his election.",
+  "Who chairs the Compensation Committee after Rodriguez left (2025-12-05) is not disclosed in any filing reviewed.",
+  "Arne Sorenson's exact date of death (February 2021) is not in any SEC filing reviewed. Microsoft filed no 8-K for it. An S-4 signature page dated 2021-02-16 still lists him as a director, but unsigned.",
+  "Thompson's first lead independent director stint is dated only by year (2012-2014). The month it started is not disclosed.",
+  "Bill Gates' board start is year-only (1981, 'Director Since'). That is before the 1986 IPO and before EDGAR.",
+  "Independence roles are aligned to board tenure. The filings give point-in-time determinations (one per proxy).",
+  "Committee membership is captured at the 2025 proxy, the Di Sibio 8-K, and each departed director's last proxy. Changes between filings are not tracked.",
+  "Other-board lists come from Microsoft's own proxy bios (the 2026-05-14 press release for Di Sibio) and are not checked against other issuers' filings."
+ ],
+ "coverage": [
+  {
+   "scope": "current_board",
+   "period_start": "2026-10-04",
+   "period_end": "2026-10-04",
+   "level": "complete",
+   "method": "Roster from the 2025 DEF 14A and the 2025-12-08 8-K (Items 5.02/5.07), checked against every 8-K filed after the proxy (the only Item 5.02s: 2026-05-14 Di Sibio and 2026-06-05 Hoffman), the 2026-07-29 10-K signature page (13 directors), the Form 3s for new directors, and the September 2026 director Form 4s, through the last filing in the EDGAR feed (2026-09-17)."
+  },
+  {
+   "scope": "board_history",
+   "period_start": "2020-01-01",
+   "period_end": "2026-10-04",
+   "level": "complete",
+   "method": "Every DEF 14A from 2019 to 2025 and every 8-K with Item 5.02 or 5.07 filed 2019-09 through 2026-10 reviewed; the item list of every 8-K checked; every Form 3 filed since 2019 identified. Departures dated from 8-Ks and proxies (Sorenson to the month)."
+  },
+  {
+   "scope": "board_history",
+   "period_start": "1981-01-01",
+   "period_end": "2019-12-31",
+   "level": "partial",
+   "method": "Only seats held by directors serving on or after 2020-01-01 are included (start dates from 8-Ks, proxies and Form 3s). Earlier departures (e.g. Noski and Panke on 2019-12-04) are out of scope."
+  }
+ ]
+}

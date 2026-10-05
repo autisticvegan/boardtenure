@@ -166,6 +166,12 @@ CHECKS: list[Check] = [
         FROM security s JOIN latest l ON l.security_id = s.id, bench b
         WHERE s.is_primary AND s.last_trade_date IS NULL AND l.d < b.d - {STALE_AFTER_DAYS}"""),
 
+    Check("company_without_prices", "warning", """
+        SELECT c.id::text, 1, c.id, NULL::bigint, 'company', c.id,
+               c.common_name || ' has board data but no stored prices; tenure returns show as incomplete', '{}'::json
+        FROM company c JOIN security s ON s.company_id = c.id AND s.is_primary
+        WHERE NOT EXISTS (SELECT 1 FROM price_daily p WHERE p.security_id = s.id)"""),
+
     Check("stale_benchmark", "warning", f"""
         SELECT 'bench', 1, NULL::bigint, NULL::bigint, 'company', NULL::bigint,
                'Benchmark prices are more than {STALE_AFTER_DAYS} days old (latest ' || max(trade_date) || ')', '{{}}'::json

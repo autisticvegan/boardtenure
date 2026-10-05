@@ -1,0 +1,2418 @@
+{
+ "company": {
+  "cik": "0000320193",
+  "ticker": "AAPL",
+  "legal_name": "Apple Inc.",
+  "common_name": "Apple",
+  "exchange": "The Nasdaq Stock Market LLC",
+  "listed_since_year": 1980,
+  "state_of_incorporation": "California",
+  "incorporated": "1977-01-03 (as Apple Computer, Inc.)",
+  "classified_board": false,
+  "notes": "CIK, name, ticker and state confirmed from the EDGAR submissions JSON and 8-K covers. Filings name the exchange only as 'The Nasdaq Stock Market LLC' (market tier not stated). The 1980-12-12 IPO first-trading date predates EDGAR and could not be verified in any SEC filing (full-text search 2001+ and the 1994-95 10-Ks); listed_since_year 1980 is used per the brief and is likewise unverified in filings. All directors are elected annually (no classes)."
+ },
+ "as_of": "2026-10-04",
+ "sources_reviewed_through": "2026-10-02 (latest filing in the EDGAR submissions feed fetched 2026-10-04)",
+ "people": [
+  {
+   "key": "art-levinson",
+   "full_name": "Arthur D. Levinson",
+   "aliases": [
+    "Art Levinson",
+    "Arthur D. Levinson, Ph.D.",
+    "Levinson Arthur D"
+   ],
+   "sec_cik": "0001214128",
+   "bio_other_public_boards": []
+  },
+  {
+   "key": "tim-cook",
+   "full_name": "Timothy D. Cook",
+   "aliases": [
+    "Tim Cook",
+    "Cook Timothy D"
+   ],
+   "sec_cik": "0001214156",
+   "bio_other_public_boards": [
+    {
+     "company": "NIKE, Inc.",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e027",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "wanda-austin",
+   "full_name": "Wanda Austin",
+   "aliases": [
+    "Austin Wanda M",
+    "Wanda M. Austin"
+   ],
+   "sec_cik": "0001690882",
+   "bio_other_public_boards": [
+    {
+     "company": "Amgen Inc.",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e028",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Chevron Corporation",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e028",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Virgin Galactic Holdings, Inc.",
+     "status": "former",
+     "years": "within the last five years (dates not stated)",
+     "source_ref": "e028",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "alex-gorsky",
+   "full_name": "Alex Gorsky",
+   "aliases": [
+    "Gorsky Alex"
+   ],
+   "sec_cik": "0001453149",
+   "bio_other_public_boards": [
+    {
+     "company": "International Business Machines Corporation",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e029",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "JPMorgan Chase & Co.",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e029",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Johnson & Johnson",
+     "status": "former",
+     "years": "within the last five years (dates not stated in the board list)",
+     "source_ref": "e029",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "andrea-jung",
+   "full_name": "Andrea Jung",
+   "aliases": [
+    "Jung Andrea"
+   ],
+   "sec_cik": "0001051401",
+   "bio_other_public_boards": [
+    {
+     "company": "Wayfair Inc.",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e030",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Unilever PLC",
+     "status": "former",
+     "years": "within the last five years (dates not stated)",
+     "source_ref": "e030",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "monica-lozano",
+   "full_name": "Monica Lozano",
+   "aliases": [
+    "Lozano Monica C",
+    "Monica C. Lozano"
+   ],
+   "sec_cik": "0001179864",
+   "bio_other_public_boards": [
+    {
+     "company": "Bank of America Corporation",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e031",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Target Corporation",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e031",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "ron-sugar",
+   "full_name": "Ronald D. Sugar",
+   "aliases": [
+    "Ron Sugar",
+    "Sugar Ronald D"
+   ],
+   "sec_cik": "0001216519",
+   "bio_other_public_boards": [
+    {
+     "company": "Uber Technologies, Inc.",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e032",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Amgen Inc.",
+     "status": "former",
+     "years": "within the last five years (dates not stated)",
+     "source_ref": "e032",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Chevron Corporation",
+     "status": "former",
+     "years": "within the last five years (dates not stated)",
+     "source_ref": "e032",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "sue-wagner",
+   "full_name": "Susan L. Wagner",
+   "aliases": [
+    "Sue Wagner",
+    "Wagner Susan"
+   ],
+   "sec_cik": "0001059235",
+   "bio_other_public_boards": [
+    {
+     "company": "BlackRock, Inc.",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e033",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Samsara Inc.",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e033",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Swiss Re Ltd.",
+     "status": "former",
+     "years": "within the last five years (dates not stated)",
+     "source_ref": "e033",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "john-ternus",
+   "full_name": "John Ternus",
+   "aliases": [
+    "Ternus John"
+   ],
+   "sec_cik": "0002148403",
+   "bio_other_public_boards": []
+  },
+  {
+   "key": "james-bell",
+   "full_name": "James A. Bell",
+   "aliases": [
+    "James Bell",
+    "Bell James A"
+   ],
+   "sec_cik": "0001182047",
+   "bio_other_public_boards": [
+    {
+     "company": "CDW Corporation",
+     "status": "current",
+     "years": "not stated (as of 2023 proxy)",
+     "source_ref": "e131",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Dow Inc.",
+     "status": "former",
+     "years": "within the last five years as of the 2023 proxy (dates not stated)",
+     "source_ref": "e131",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "DowDupont Inc.",
+     "status": "former",
+     "years": "within the last five years as of the 2023 proxy (dates not stated)",
+     "source_ref": "e131",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "JPMorgan Chase & Co.",
+     "status": "former",
+     "years": "within the last five years as of the 2023 proxy (dates not stated)",
+     "source_ref": "e131",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "al-gore",
+   "full_name": "Albert A. Gore, Jr.",
+   "aliases": [
+    "Al Gore",
+    "Albert Gore Jr.",
+    "Gore Albert Jr"
+   ],
+   "sec_cik": "0001224944",
+   "bio_other_public_boards": []
+  }
+ ],
+ "memberships": [
+  {
+   "person_key": "art-levinson",
+   "start_date": "2000",
+   "start_date_precision": "year",
+   "start_date_basis": "10-K FY2000 and every proxy 'Director Since' 2000; not among directors elected at the 2000-04-20 annual meeting",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e070",
+    "e071",
+    "e072",
+    "e010",
+    "e011",
+    "e064",
+    "e075",
+    "e074",
+    "e076",
+    "e042",
+    "e040",
+    "e024"
+   ],
+   "board_class": null,
+   "notes": "Year only: no filing states the appointment day. Joined after the 2000-04-20 annual meeting (not in the elected list) and by the 10-K filed 2000-12-14. His automatic 10,000-share director options are dated August 14 each year from 2004 and the plan grants them on anniversaries of initial election, which points to 2000-08-14, but no filing says so (see open_questions). Board is not classified."
+  },
+  {
+   "person_key": "tim-cook",
+   "start_date": "2011-08-24",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02: appointed to the Board on 2011-08-24 when promoted to CEO",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e060",
+    "e061",
+    "e012",
+    "e041",
+    "e057"
+   ],
+   "board_class": null,
+   "notes": "CEO-director 2011-08-24 to 2026-09-01; Executive Chair since 2026-09-01. Earliest electronic Form 3 not checked (he was an officer long before joining the board)."
+  },
+  {
+   "person_key": "wanda-austin",
+   "start_date": "2024-02-28",
+   "start_date_precision": "day",
+   "start_date_basis": "Elected at the 2024 annual meeting (proxy: nominated 'effective as of the Annual Meeting'; 8-K Item 5.07); Form 3 event date agrees",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e141",
+    "e152",
+    "e147",
+    "e148",
+    "e149",
+    "e150",
+    "e013",
+    "e041"
+   ],
+   "board_class": null,
+   "notes": "New nominee elected by shareholders; not appointed between meetings."
+  },
+  {
+   "person_key": "alex-gorsky",
+   "start_date": "2021-11-09",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 appointment date (Form 3 event date agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e113",
+    "e115",
+    "e014",
+    "e127",
+    "e041"
+   ],
+   "board_class": null,
+   "notes": "Filled the ninth seat created the same day by bylaw amendment (8 -> 9)."
+  },
+  {
+   "person_key": "andrea-jung",
+   "start_date": "2008-01-04",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 appointment date (Form 3 event date agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e090",
+    "e091",
+    "e015",
+    "e041"
+   ],
+   "board_class": null,
+   "notes": "Was a Co-lead Director for part of 2009-2011 (start 2009, end not disclosed); left out of roles, see open_questions."
+  },
+  {
+   "person_key": "monica-lozano",
+   "start_date": "2021-01-04",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02: appointed 2020-12-29, effective 2021-01-04 (Form 3 event date agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e110",
+    "e111",
+    "e016",
+    "e124",
+    "e125",
+    "e042"
+   ],
+   "board_class": null,
+   "notes": "Board decision 2020-12-29; seat effective 2021-01-04."
+  },
+  {
+   "person_key": "ron-sugar",
+   "start_date": "2010-11-16",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 appointment date (Form 3 event date agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e093",
+    "e094",
+    "e017",
+    "e042",
+    "e024"
+   ],
+   "board_class": null,
+   "notes": "Audit and Finance Committee chair since appointment. Re-nominated in 2024, 2025 and 2026 despite the age-75 guideline."
+  },
+  {
+   "person_key": "sue-wagner",
+   "start_date": "2014-07-15",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 appointment date (Form 3 event date agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e096",
+    "e097",
+    "e018",
+    "e042"
+   ],
+   "board_class": null,
+   "notes": "Replaced William V. Campbell, who retired the same day."
+  },
+  {
+   "person_key": "john-ternus",
+   "start_date": "2026-09-01",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02: appointed by the Board 2026-04-17, effective on the Transition Date 2026-09-01 (Form 3 event date agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e051",
+    "e053",
+    "e054",
+    "e055",
+    "e056"
+   ],
+   "board_class": null,
+   "notes": "Joined as CEO and director. No proxy has covered him yet."
+  },
+  {
+   "person_key": "james-bell",
+   "start_date": "2015-10-01",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 appointment date (Form 3 event date agrees)",
+   "end_date": "2024-02-28",
+   "end_date_precision": "day",
+   "end_reason": "retired",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e099",
+    "e100",
+    "e123",
+    "e130",
+    "e128",
+    "e129",
+    "e140",
+    "e141",
+    "e147",
+    "e148"
+   ],
+   "board_class": null,
+   "notes": "Did not stand for re-election at the 2024 annual meeting (2024-02-28); the proxy describes this as retiring at age 75 under the board guideline."
+  },
+  {
+   "person_key": "al-gore",
+   "start_date": "2003-03-19",
+   "start_date_precision": "day",
+   "start_date_basis": "Press release filed as Ex. 99.1 to 8-K: elected at the board meeting of 2003-03-19",
+   "end_date": "2024-02-28",
+   "end_date_precision": "day",
+   "end_reason": "retired",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e105",
+    "e123",
+    "e132",
+    "e128",
+    "e129",
+    "e140",
+    "e141",
+    "e147",
+    "e148",
+    "e106"
+   ],
+   "board_class": null,
+   "notes": "Did not stand for re-election at the 2024 annual meeting (2024-02-28); the proxy describes this as retiring at age 75 under the board guideline. Appointed before electronic Form 3 filing; CIK taken from a 2024 Form 4."
+  }
+ ],
+ "roles": [
+  {
+   "person_key": "art-levinson",
+   "role": "lead_independent_director",
+   "start_date": "2005",
+   "end_date": "2011-11-15",
+   "precision": "year",
+   "end_precision": "day",
+   "confidence": "medium",
+   "evidence_refs": [
+    "e077",
+    "e078",
+    "e079",
+    "e080",
+    "e081",
+    "e062"
+   ],
+   "notes": "Apple's title was 'Co-lead Director'. Start year from bounds: listed only as 'Director' in the 2005-03-15 proxy and as 'Co-lead Director' in the 10-K filed 2005-12-01. End taken as his appointment as Chairman (2011-11-15); no filing states when the co-lead title itself ended."
+  },
+  {
+   "person_key": "art-levinson",
+   "role": "chair",
+   "start_date": "2011-11-15",
+   "end_date": "2026-09-01",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e062",
+    "e064",
+    "e011",
+    "e023",
+    "e052"
+   ],
+   "notes": "Independent non-executive Chair. Moved to Lead Independent Director when Cook became Executive Chair."
+  },
+  {
+   "person_key": "art-levinson",
+   "role": "lead_independent_director",
+   "start_date": "2026-09-01",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e052",
+    "e054",
+    "e055"
+   ],
+   "notes": "The April 2026 8-K says he 'will become' Lead Independent Director on the Transition Date. The 8-K/A and Forms 3/4 confirm the transition took effect; no later filing restates his title."
+  },
+  {
+   "person_key": "art-levinson",
+   "role": "independent_director",
+   "start_date": "2000",
+   "end_date": null,
+   "precision": "year",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e073",
+    "e084",
+    "e092",
+    "e122",
+    "e019"
+   ],
+   "notes": "Found independent in every determination reviewed (2001, 2004, 2009, 2020, 2026 proxies). Start aligned to board start."
+  },
+  {
+   "person_key": "tim-cook",
+   "role": "ceo_director",
+   "start_date": "2011-08-24",
+   "end_date": "2026-09-01",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e060",
+    "e061",
+    "e012",
+    "e050",
+    "e054"
+   ],
+   "notes": "CEO and director from 2011-08-24; CEO role ended on the Transition Date."
+  },
+  {
+   "person_key": "tim-cook",
+   "role": "executive_chair",
+   "start_date": "2026-09-01",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e050",
+    "e054",
+    "e057"
+   ],
+   "officer_title": "Executive Chair",
+   "notes": "Executive Chair of the Board from 2026-09-01; Form 4 for 2026-09-27 gives officer title 'Executive Chair'."
+  },
+  {
+   "person_key": "tim-cook",
+   "role": "non_independent_director",
+   "start_date": "2011-08-24",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e063",
+    "e019"
+   ],
+   "notes": "Every proxy excludes Cook from the independent directors."
+  },
+  {
+   "person_key": "john-ternus",
+   "role": "ceo_director",
+   "start_date": "2026-09-01",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e051",
+    "e054",
+    "e056"
+   ],
+   "notes": "CEO and director from 2026-09-01."
+  },
+  {
+   "person_key": "john-ternus",
+   "role": "non_independent_director",
+   "start_date": "2026-09-01",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e051",
+    "e056"
+   ],
+   "notes": "No filing makes an independence determination for him yet; recorded as non-independent because he is Apple's CEO (an employee)."
+  },
+  {
+   "person_key": "wanda-austin",
+   "role": "independent_director",
+   "start_date": "2024-02-28",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e146",
+    "e151",
+    "e019"
+   ],
+   "notes": "First determination: 2024 proxy (as nominee). Start aligned to election date."
+  },
+  {
+   "person_key": "alex-gorsky",
+   "role": "independent_director",
+   "start_date": "2021-11-09",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e116",
+    "e019"
+   ],
+   "notes": "First determination: 2022 proxy. Start aligned to appointment date."
+  },
+  {
+   "person_key": "andrea-jung",
+   "role": "independent_director",
+   "start_date": "2008-01-04",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e092",
+    "e122",
+    "e019"
+   ],
+   "notes": "First determination reviewed: 2009 proxy. Start aligned to appointment date."
+  },
+  {
+   "person_key": "monica-lozano",
+   "role": "independent_director",
+   "start_date": "2021-01-04",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e112",
+    "e019"
+   ],
+   "notes": "First determination: 2021 proxy. Start aligned to appointment date."
+  },
+  {
+   "person_key": "ron-sugar",
+   "role": "independent_director",
+   "start_date": "2010-11-16",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e095",
+    "e122",
+    "e019"
+   ],
+   "notes": "First determination reviewed: 2011 proxy. Start aligned to appointment date."
+  },
+  {
+   "person_key": "sue-wagner",
+   "role": "independent_director",
+   "start_date": "2014-07-15",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e098",
+    "e122",
+    "e019"
+   ],
+   "notes": "First determination: 2015 proxy. Start aligned to appointment date."
+  },
+  {
+   "person_key": "james-bell",
+   "role": "independent_director",
+   "start_date": "2015-10-01",
+   "end_date": "2024-02-28",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "medium",
+   "evidence_refs": [
+    "e101",
+    "e122",
+    "e146"
+   ],
+   "notes": "First determination: 2016 proxy; last: 2024 proxy. Aligned to board tenure."
+  },
+  {
+   "person_key": "al-gore",
+   "role": "independent_director",
+   "start_date": "2003-03-19",
+   "end_date": "2024-02-28",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "medium",
+   "evidence_refs": [
+    "e084",
+    "e122",
+    "e146"
+   ],
+   "notes": "First determination reviewed: 2004 proxy; last: 2024 proxy. Aligned to board tenure."
+  }
+ ],
+ "committees": [
+  {
+   "person_key": "ron-sugar",
+   "committee": "audit",
+   "role": "chair",
+   "as_of_filing": "0001308179-26-000008",
+   "as_of_date": "2026-01-08",
+   "evidence_refs": [
+    "e020",
+    "e017"
+   ]
+  },
+  {
+   "person_key": "wanda-austin",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001308179-26-000008",
+   "as_of_date": "2026-01-08",
+   "evidence_refs": [
+    "e020",
+    "e013"
+   ]
+  },
+  {
+   "person_key": "monica-lozano",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001308179-26-000008",
+   "as_of_date": "2026-01-08",
+   "evidence_refs": [
+    "e020",
+    "e016"
+   ]
+  },
+  {
+   "person_key": "sue-wagner",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001308179-26-000008",
+   "as_of_date": "2026-01-08",
+   "evidence_refs": [
+    "e020",
+    "e018"
+   ]
+  },
+  {
+   "person_key": "andrea-jung",
+   "committee": "compensation",
+   "role": "chair",
+   "as_of_filing": "0001308179-26-000008",
+   "as_of_date": "2026-01-08",
+   "evidence_refs": [
+    "e021",
+    "e015"
+   ]
+  },
+  {
+   "person_key": "alex-gorsky",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001308179-26-000008",
+   "as_of_date": "2026-01-08",
+   "evidence_refs": [
+    "e021",
+    "e014"
+   ]
+  },
+  {
+   "person_key": "art-levinson",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001308179-26-000008",
+   "as_of_date": "2026-01-08",
+   "evidence_refs": [
+    "e021",
+    "e011"
+   ]
+  },
+  {
+   "person_key": "sue-wagner",
+   "committee": "nominating_governance",
+   "role": "chair",
+   "as_of_filing": "0001308179-26-000008",
+   "as_of_date": "2026-01-08",
+   "evidence_refs": [
+    "e022",
+    "e018"
+   ]
+  },
+  {
+   "person_key": "alex-gorsky",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001308179-26-000008",
+   "as_of_date": "2026-01-08",
+   "evidence_refs": [
+    "e022",
+    "e014"
+   ]
+  },
+  {
+   "person_key": "andrea-jung",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001308179-26-000008",
+   "as_of_date": "2026-01-08",
+   "evidence_refs": [
+    "e022",
+    "e015"
+   ]
+  },
+  {
+   "person_key": "ron-sugar",
+   "committee": "audit",
+   "role": "chair",
+   "as_of_filing": "0001308179-24-000010",
+   "as_of_date": "2024-01-11",
+   "evidence_refs": [
+    "e142"
+   ]
+  },
+  {
+   "person_key": "james-bell",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001308179-24-000010",
+   "as_of_date": "2024-01-11",
+   "evidence_refs": [
+    "e142",
+    "e145"
+   ]
+  },
+  {
+   "person_key": "monica-lozano",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001308179-24-000010",
+   "as_of_date": "2024-01-11",
+   "evidence_refs": [
+    "e142"
+   ]
+  },
+  {
+   "person_key": "sue-wagner",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001308179-24-000010",
+   "as_of_date": "2024-01-11",
+   "evidence_refs": [
+    "e142"
+   ]
+  },
+  {
+   "person_key": "andrea-jung",
+   "committee": "compensation",
+   "role": "chair",
+   "as_of_filing": "0001308179-24-000010",
+   "as_of_date": "2024-01-11",
+   "evidence_refs": [
+    "e143"
+   ]
+  },
+  {
+   "person_key": "al-gore",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001308179-24-000010",
+   "as_of_date": "2024-01-11",
+   "evidence_refs": [
+    "e143",
+    "e145"
+   ]
+  },
+  {
+   "person_key": "alex-gorsky",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001308179-24-000010",
+   "as_of_date": "2024-01-11",
+   "evidence_refs": [
+    "e143"
+   ]
+  },
+  {
+   "person_key": "art-levinson",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001308179-24-000010",
+   "as_of_date": "2024-01-11",
+   "evidence_refs": [
+    "e143"
+   ]
+  },
+  {
+   "person_key": "sue-wagner",
+   "committee": "nominating_governance",
+   "role": "chair",
+   "as_of_filing": "0001308179-24-000010",
+   "as_of_date": "2024-01-11",
+   "evidence_refs": [
+    "e144"
+   ]
+  },
+  {
+   "person_key": "al-gore",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001308179-24-000010",
+   "as_of_date": "2024-01-11",
+   "evidence_refs": [
+    "e144",
+    "e145"
+   ]
+  },
+  {
+   "person_key": "alex-gorsky",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001308179-24-000010",
+   "as_of_date": "2024-01-11",
+   "evidence_refs": [
+    "e144"
+   ]
+  },
+  {
+   "person_key": "andrea-jung",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001308179-24-000010",
+   "as_of_date": "2024-01-11",
+   "evidence_refs": [
+    "e144"
+   ]
+  }
+ ],
+ "events": [
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "art-levinson",
+   "event_date": "2000",
+   "announced_date": null,
+   "evidence_refs": [
+    "e070",
+    "e072",
+    "e011"
+   ],
+   "summary": "Art Levinson joins the board (year only; after the 2000-04-20 annual meeting).",
+   "event_date_precision": "year"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "al-gore",
+   "event_date": "2003-03-19",
+   "announced_date": "2003-03-19",
+   "evidence_refs": [
+    "e105"
+   ],
+   "summary": "Al Gore elected to the board.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "andrea-jung",
+   "event_date": "2008-01-04",
+   "announced_date": null,
+   "evidence_refs": [
+    "e090",
+    "e091"
+   ],
+   "summary": "Andrea Jung appointed.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "ron-sugar",
+   "event_date": "2010-11-16",
+   "announced_date": null,
+   "evidence_refs": [
+    "e093",
+    "e094"
+   ],
+   "summary": "Ron Sugar appointed to fill a vacancy; named Audit and Finance Committee chair.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "tim-cook",
+   "event_date": "2011-08-24",
+   "announced_date": null,
+   "evidence_refs": [
+    "e060",
+    "e061"
+   ],
+   "summary": "Tim Cook becomes CEO and is appointed to the board.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "tim-cook",
+   "event_date": "2011-08-24",
+   "announced_date": null,
+   "evidence_refs": [
+    "e060"
+   ],
+   "summary": "Cook becomes CEO (CEO-director).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "art-levinson",
+   "event_date": "2011-11-15",
+   "announced_date": null,
+   "evidence_refs": [
+    "e062"
+   ],
+   "summary": "Levinson appointed Chairman of the Board.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "sue-wagner",
+   "event_date": "2014-07-15",
+   "announced_date": null,
+   "evidence_refs": [
+    "e096",
+    "e097"
+   ],
+   "summary": "Sue Wagner appointed, replacing William V. Campbell.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "james-bell",
+   "event_date": "2015-10-01",
+   "announced_date": null,
+   "evidence_refs": [
+    "e099",
+    "e100"
+   ],
+   "summary": "James Bell appointed.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "monica-lozano",
+   "event_date": "2021-01-04",
+   "announced_date": null,
+   "evidence_refs": [
+    "e110",
+    "e111"
+   ],
+   "summary": "Monica Lozano appointed (board action 2020-12-29; effective 2021-01-04; Audit and Finance Committee).",
+   "event_date_precision": "day",
+   "decision_date": "2020-12-29"
+  },
+  {
+   "type": "BOARD_SIZE_CHANGE",
+   "person_key": null,
+   "event_date": "2021-11-09",
+   "announced_date": null,
+   "evidence_refs": [
+    "e114"
+   ],
+   "summary": "Bylaws amended: authorized directors 8 -> 9.",
+   "event_date_precision": "day",
+   "from_size": 8,
+   "to_size": 9
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "alex-gorsky",
+   "event_date": "2021-11-09",
+   "announced_date": null,
+   "evidence_refs": [
+    "e113",
+    "e115"
+   ],
+   "summary": "Alex Gorsky appointed (Nominating and Corporate Governance Committee).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "james-bell",
+   "event_date": "2024-02-28",
+   "announced_date": "2024-01-11",
+   "evidence_refs": [
+    "e140",
+    "e141",
+    "e147"
+   ],
+   "summary": "Bell does not stand for re-election (retires at age 75); term ends at the 2024 annual meeting.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "al-gore",
+   "event_date": "2024-02-28",
+   "announced_date": "2024-01-11",
+   "evidence_refs": [
+    "e140",
+    "e141",
+    "e147"
+   ],
+   "summary": "Gore does not stand for re-election (retires at age 75); term ends at the 2024 annual meeting.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "wanda-austin",
+   "event_date": "2024-02-28",
+   "announced_date": "2024-01-11",
+   "evidence_refs": [
+    "e141",
+    "e147",
+    "e148",
+    "e149"
+   ],
+   "summary": "Wanda Austin elected at the 2024 annual meeting (nominated in the 2024 proxy).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "tim-cook",
+   "event_date": "2026-09-01",
+   "announced_date": "2026-04-20",
+   "evidence_refs": [
+    "e050",
+    "e054",
+    "e057"
+   ],
+   "summary": "Cook moves from CEO to Executive Chair.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "art-levinson",
+   "event_date": "2026-09-01",
+   "announced_date": "2026-04-20",
+   "evidence_refs": [
+    "e052"
+   ],
+   "summary": "Levinson moves from Chair to Lead Independent Director.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "john-ternus",
+   "event_date": "2026-09-01",
+   "announced_date": "2026-04-20",
+   "evidence_refs": [
+    "e051",
+    "e054",
+    "e056"
+   ],
+   "summary": "John Ternus joins the board as CEO (board action 2026-04-17; effective 2026-09-01).",
+   "event_date_precision": "day",
+   "decision_date": "2026-04-17"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "john-ternus",
+   "event_date": "2026-09-01",
+   "announced_date": "2026-04-20",
+   "evidence_refs": [
+    "e051",
+    "e054"
+   ],
+   "summary": "Ternus becomes CEO (CEO-director).",
+   "event_date_precision": "day"
+  }
+ ],
+ "context_events": [
+  {
+   "type": "BOARD_SIZE_SNAPSHOT",
+   "event_date": "2020-01-03",
+   "board_size": 7,
+   "evidence_refs": [
+    "e120",
+    "e121"
+   ],
+   "summary": "2020 proxy: seven directors, all nominated (Iger had resigned 2019-09-10)."
+  },
+  {
+   "type": "BOARD_SIZE_SNAPSHOT",
+   "event_date": "2022-03-04",
+   "board_size": 9,
+   "evidence_refs": [
+    "e114",
+    "e126",
+    "e127"
+   ],
+   "summary": "Nine directors after Gorsky's appointment; nine elected at the 2022 meeting."
+  },
+  {
+   "type": "BOARD_SIZE_SNAPSHOT",
+   "event_date": "2024-02-28",
+   "board_size": 8,
+   "evidence_refs": [
+    "e147",
+    "e148",
+    "e160"
+   ],
+   "summary": "Eight directors elected at the 2024 meeting (Bell, Gore out; Austin in); bylaws still fix nine, so one seat vacant."
+  },
+  {
+   "type": "BOARD_SIZE_SNAPSHOT",
+   "event_date": "2026-09-01",
+   "board_size": 9,
+   "evidence_refs": [
+    "e041",
+    "e042",
+    "e051",
+    "e160",
+    "e161"
+   ],
+   "summary": "Eight directors elected 2026-02-24 plus Ternus from 2026-09-01 = nine, matching the bylaws' nine."
+  }
+ ],
+ "evidence": [
+  {
+   "id": "e001",
+   "form": "8-K",
+   "accession": "0001140361-26-015711",
+   "filing_date": "2026-04-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126015711/ef20071035_8k.htm",
+   "quote": "Apple Inc. (Exact name of Registrant as specified in its charter) California (State or other jurisdiction of incorporation)",
+   "supports": "Legal name Apple Inc.; incorporated in California."
+  },
+  {
+   "id": "e002",
+   "form": "10-K",
+   "accession": "0000320193-25-000079",
+   "filing_date": "2025-10-31",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+   "quote": "The Company's common stock is traded on The Nasdaq Stock Market LLC under the symbol AAPL.",
+   "supports": "Exchange (The Nasdaq Stock Market LLC) and ticker AAPL."
+  },
+  {
+   "id": "e003",
+   "form": "10-K",
+   "accession": "0000320193-94-000016",
+   "filing_date": "1994-12-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019394000016/0000320193-94-000016.txt",
+   "quote": "Apple Computer, Inc. (\"Apple\" or the \"Company\") was incorporated under the laws of the State of California on January 3, 1977.",
+   "supports": "Incorporation date and state (former name Apple Computer, Inc.)."
+  },
+  {
+   "id": "e004",
+   "form": "DEF 14A",
+   "accession": "0001308179-26-000008",
+   "filing_date": "2026-01-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000130817926000008/aapl014016-def14a.htm",
+   "quote": "Annual director elections All directors are elected annually for a one-year term.",
+   "supports": "Board is not classified: every director elected annually."
+  },
+  {
+   "id": "e010",
+   "form": "DEF 14A",
+   "accession": "0001308179-26-000008",
+   "filing_date": "2026-01-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000130817926000008/aapl014016-def14a.htm",
+   "quote": "Art Levinson Board Chair Founder and CEO, Calico 75 2000",
+   "supports": "Nominee table: Levinson, Board Chair, director since 2000.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e011",
+   "form": "DEF 14A",
+   "accession": "0001308179-26-000008",
+   "filing_date": "2026-01-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000130817926000008/aapl014016-def14a.htm",
+   "quote": "Art Levinson Chair of the Board Director since 2000 People and Compensation Committee",
+   "supports": "Levinson bio header: Chair of the Board; director since 2000; People and Compensation Committee member."
+  },
+  {
+   "id": "e012",
+   "form": "DEF 14A",
+   "accession": "0001308179-26-000008",
+   "filing_date": "2026-01-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000130817926000008/aapl014016-def14a.htm",
+   "quote": "Tim Cook Chief Executive Officer Director since 2011",
+   "supports": "Cook bio header: CEO; director since 2011."
+  },
+  {
+   "id": "e013",
+   "form": "DEF 14A",
+   "accession": "0001308179-26-000008",
+   "filing_date": "2026-01-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000130817926000008/aapl014016-def14a.htm",
+   "quote": "Wanda Austin Director since 2024 Audit Committee",
+   "supports": "Austin bio header: director since 2024; Audit Committee."
+  },
+  {
+   "id": "e014",
+   "form": "DEF 14A",
+   "accession": "0001308179-26-000008",
+   "filing_date": "2026-01-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000130817926000008/aapl014016-def14a.htm",
+   "quote": "Alex Gorsky Director since 2021 Nominating Committee People and Compensation Committee",
+   "supports": "Gorsky bio header: director since 2021; Nominating and People and Compensation Committees."
+  },
+  {
+   "id": "e015",
+   "form": "DEF 14A",
+   "accession": "0001308179-26-000008",
+   "filing_date": "2026-01-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000130817926000008/aapl014016-def14a.htm",
+   "quote": "Andrea Jung Director since 2008 Nominating Committee People and Compensation Committee (Chair)",
+   "supports": "Jung bio header: director since 2008; Nominating Committee; People and Compensation Committee chair."
+  },
+  {
+   "id": "e016",
+   "form": "DEF 14A",
+   "accession": "0001308179-26-000008",
+   "filing_date": "2026-01-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000130817926000008/aapl014016-def14a.htm",
+   "quote": "Monica Lozano Director since 2021 Audit Committee",
+   "supports": "Lozano bio header: director since 2021; Audit Committee."
+  },
+  {
+   "id": "e017",
+   "form": "DEF 14A",
+   "accession": "0001308179-26-000008",
+   "filing_date": "2026-01-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000130817926000008/aapl014016-def14a.htm",
+   "quote": "Ron Sugar Director since 2010 Audit Committee (Chair)",
+   "supports": "Sugar bio header: director since 2010; Audit Committee chair."
+  },
+  {
+   "id": "e018",
+   "form": "DEF 14A",
+   "accession": "0001308179-26-000008",
+   "filing_date": "2026-01-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000130817926000008/aapl014016-def14a.htm",
+   "quote": "Sue Wagner Director since 2014 Audit Committee Nominating Committee (Chair)",
+   "supports": "Wagner bio header: director since 2014; Audit Committee; Nominating Committee chair."
+  },
+  {
+   "id": "e019",
+   "form": "DEF 14A",
+   "accession": "0001308179-26-000008",
+   "filing_date": "2026-01-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000130817926000008/aapl014016-def14a.htm",
+   "quote": "The Board has determined that all Board members, other than Mr. Cook, are independent under applicable rules of The Nasdaq Stock Market LLC",
+   "supports": "2026 proxy independence: every director except Cook independent."
+  },
+  {
+   "id": "e020",
+   "form": "DEF 14A",
+   "accession": "0001308179-26-000008",
+   "filing_date": "2026-01-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000130817926000008/aapl014016-def14a.htm",
+   "quote": "Audit Committee Ron Sugar (Chair) Wanda Austin Monica Lozano Sue Wagner Nine meetings during 2025",
+   "supports": "Audit (and Finance) Committee roster per 2026 proxy."
+  },
+  {
+   "id": "e021",
+   "form": "DEF 14A",
+   "accession": "0001308179-26-000008",
+   "filing_date": "2026-01-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000130817926000008/aapl014016-def14a.htm",
+   "quote": "People and Compensation Committee Andrea Jung (Chair) Alex Gorsky Art Levinson Five meetings during 2025",
+   "supports": "People and Compensation Committee roster per 2026 proxy."
+  },
+  {
+   "id": "e022",
+   "form": "DEF 14A",
+   "accession": "0001308179-26-000008",
+   "filing_date": "2026-01-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000130817926000008/aapl014016-def14a.htm",
+   "quote": "Nominating Committee Sue Wagner (Chair) Alex Gorsky Andrea Jung Four meetings during 2025",
+   "supports": "Nominating (and Corporate Governance) Committee roster per 2026 proxy."
+  },
+  {
+   "id": "e023",
+   "form": "DEF 14A",
+   "accession": "0001308179-26-000008",
+   "filing_date": "2026-01-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000130817926000008/aapl014016-def14a.htm",
+   "quote": "Our CEO is focused on managing Apple and our independent Chair drives accountability at the Board level.",
+   "supports": "As of the 2026 proxy the Chair (Levinson) is independent and separate from the CEO."
+  },
+  {
+   "id": "e024",
+   "form": "DEF 14A",
+   "accession": "0001308179-26-000008",
+   "filing_date": "2026-01-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000130817926000008/aapl014016-def14a.htm",
+   "quote": "ask Art Levinson, the Chair of the Board, and Ron Sugar, the Chair of the Audit Committee, to stand for re-election, and to waive for each of them its guideline under which directors generally may not stand for re-election after attaining age 75",
+   "supports": "Levinson and Sugar re-nominated in 2026 under a waiver of the age-75 guideline."
+  },
+  {
+   "id": "e025",
+   "form": "DEF 14A",
+   "accession": "0001308179-26-000008",
+   "filing_date": "2026-01-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000130817926000008/aapl014016-def14a.htm",
+   "quote": "Over the past four years, the Board has added three new members, representing over one-third of its membership, and two other, long-serving members retired.",
+   "supports": "Board refreshment summary (three additions, two retirements)."
+  },
+  {
+   "id": "e026",
+   "form": "DEF 14A",
+   "accession": "0001308179-26-000008",
+   "filing_date": "2026-01-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000130817926000008/aapl014016-def14a.htm",
+   "quote": "Dr. Levinson has been inducted into the Biotech Hall of Fame. Other Public Company Boards: None",
+   "supports": "Levinson: no other public company boards."
+  },
+  {
+   "id": "e027",
+   "form": "DEF 14A",
+   "accession": "0001308179-26-000008",
+   "filing_date": "2026-01-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000130817926000008/aapl014016-def14a.htm",
+   "quote": "Other Public Company Boards: Current: NIKE, Inc.",
+   "supports": "Cook: current public board NIKE, Inc."
+  },
+  {
+   "id": "e028",
+   "form": "DEF 14A",
+   "accession": "0001308179-26-000008",
+   "filing_date": "2026-01-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000130817926000008/aapl014016-def14a.htm",
+   "quote": "Other Public Company Boards: Current: Amgen Inc.; Chevron Corporation Within Last Five Years: Virgin Galactic Holdings, Inc.",
+   "supports": "Austin: current Amgen, Chevron; former (last five years) Virgin Galactic."
+  },
+  {
+   "id": "e029",
+   "form": "DEF 14A",
+   "accession": "0001308179-26-000008",
+   "filing_date": "2026-01-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000130817926000008/aapl014016-def14a.htm",
+   "quote": "Other Public Company Boards: Current: International Business Machines Corporation; JPMorgan Chase & Co. Within Last Five Years: Johnson & Johnson",
+   "supports": "Gorsky: current IBM, JPMorgan Chase; former Johnson & Johnson."
+  },
+  {
+   "id": "e030",
+   "form": "DEF 14A",
+   "accession": "0001308179-26-000008",
+   "filing_date": "2026-01-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000130817926000008/aapl014016-def14a.htm",
+   "quote": "Other Public Company Boards: Current: Wayfair Inc. Within Last Five Years: Unilever PLC",
+   "supports": "Jung: current Wayfair; former Unilever PLC."
+  },
+  {
+   "id": "e031",
+   "form": "DEF 14A",
+   "accession": "0001308179-26-000008",
+   "filing_date": "2026-01-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000130817926000008/aapl014016-def14a.htm",
+   "quote": "Other Public Company Boards: Current: Bank of America Corporation; Target Corporation 2026 Proxy Statement",
+   "supports": "Lozano: current Bank of America, Target."
+  },
+  {
+   "id": "e032",
+   "form": "DEF 14A",
+   "accession": "0001308179-26-000008",
+   "filing_date": "2026-01-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000130817926000008/aapl014016-def14a.htm",
+   "quote": "Other Public Company Boards: Current: Uber Technologies, Inc. Within Last Five Years: Amgen Inc.; Chevron Corporation",
+   "supports": "Sugar: current Uber; former Amgen, Chevron."
+  },
+  {
+   "id": "e033",
+   "form": "DEF 14A",
+   "accession": "0001308179-26-000008",
+   "filing_date": "2026-01-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000130817926000008/aapl014016-def14a.htm",
+   "quote": "Other Public Company Boards: Current: BlackRock, Inc.; Samsara Inc. Within Last Five Years: Swiss Re Ltd.",
+   "supports": "Wagner: current BlackRock, Samsara; former Swiss Re."
+  },
+  {
+   "id": "e040",
+   "form": "8-K",
+   "accession": "0001140361-26-006577",
+   "filing_date": "2026-02-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126006577/ef20060722_8k.htm",
+   "quote": "The 2026 Annual Meeting of Shareholders (the \"Annual Meeting\") of Apple Inc. (\"Apple\") was held on February 24, 2026.",
+   "supports": "2026 annual meeting date."
+  },
+  {
+   "id": "e041",
+   "form": "8-K",
+   "accession": "0001140361-26-006577",
+   "filing_date": "2026-02-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126006577/ef20060722_8k.htm",
+   "quote": "Wanda Austin 9,077,916,399 40,654,561 17,836,844 2,889,260,668 Tim Cook 9,022,191,821 101,386,531 12,829,452 2,889,260,668 Alex Gorsky 9,001,470,972 117,520,533 17,416,299 2,889,260,668 Andrea Jung 8,607,730,931 512,347,459 16,329,414 2,889,260,668",
+   "supports": "Austin, Cook, Gorsky, Jung elected 2026-02-24.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e042",
+   "form": "8-K",
+   "accession": "0001140361-26-006577",
+   "filing_date": "2026-02-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126006577/ef20060722_8k.htm",
+   "quote": "Art Levinson 8,297,337,255 822,322,806 16,747,743 2,889,260,668 Monica Lozano 9,077,081,775 41,951,291 17,374,738 2,889,260,668 Ron Sugar 8,717,147,160 401,351,569 17,909,075 2,889,260,668 Sue Wagner 8,596,360,759 522,576,019 17,471,026 2,889,260,668",
+   "supports": "Levinson, Lozano, Sugar, Wagner elected 2026-02-24.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e050",
+   "form": "8-K",
+   "accession": "0001140361-26-015711",
+   "filing_date": "2026-04-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126015711/ef20071035_8k.htm",
+   "quote": "On April 20, 2026, Apple Inc. (\"Apple\") announced that Tim Cook will transition from his role as Chief Executive Officer to Executive Chair of Apple's Board of Directors (the \"Board\"), effective September 1, 2026 (the \"Transition Date\").",
+   "supports": "Cook: CEO until, and Executive Chair from, 2026-09-01; announced 2026-04-20."
+  },
+  {
+   "id": "e051",
+   "form": "8-K",
+   "accession": "0001140361-26-015711",
+   "filing_date": "2026-04-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126015711/ef20071035_8k.htm",
+   "quote": "On April 17, 2026, the Board appointed John Ternus, Apple's Senior Vice President of Hardware Engineering, as Chief Executive Officer and a member of the Board, in each case effective on the Transition Date.",
+   "supports": "Ternus appointed CEO and director on 2026-04-17, effective 2026-09-01."
+  },
+  {
+   "id": "e052",
+   "form": "8-K",
+   "accession": "0001140361-26-015711",
+   "filing_date": "2026-04-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126015711/ef20071035_8k.htm",
+   "quote": "Art Levinson, current Chair of the Board, will become Lead Independent Director on the Transition Date.",
+   "supports": "Levinson: Chair until, and Lead Independent Director from, 2026-09-01."
+  },
+  {
+   "id": "e053",
+   "form": "8-K",
+   "accession": "0001140361-26-015711",
+   "filing_date": "2026-04-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126015711/ef20071035_8k.htm",
+   "quote": "Mr. Ternus, 50, joined Apple in 2001 and assumed his current position in 2021.",
+   "supports": "Ternus background (employee since 2001)."
+  },
+  {
+   "id": "e054",
+   "form": "8-K/A",
+   "accession": "0001140361-26-035325",
+   "filing_date": "2026-09-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126035325/ef20081427_8ka.htm",
+   "quote": "This Amendment to the Original Form 8-K (the \"Form 8-K/A\") is being filed to disclose John Ternus' new compensation arrangement in connection with his appointment to the role of CEO, and Tim Cook's new compensation arrangement in connection with his appointment to the role of Executive Chair of Apple's Board of Directors (the \"Board\"), in each case effective as of September 1, 2026",
+   "supports": "Confirms Ternus CEO and Cook Executive Chair effective 2026-09-01."
+  },
+  {
+   "id": "e055",
+   "form": "8-K/A",
+   "accession": "0001140361-26-035325",
+   "filing_date": "2026-09-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126035325/ef20081427_8ka.htm",
+   "quote": "Mr. Ternus' annual salary was increased to $3 million on the Transition Date.",
+   "supports": "Past tense: the 2026-09-01 transition took effect."
+  },
+  {
+   "id": "e056",
+   "form": "3",
+   "accession": "0001140361-26-035359",
+   "filing_date": "2026-09-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126035359/form3.xml",
+   "quote": "Ternus John",
+   "supports": "Ternus reporting-owner CIK; Form 3 event 2026-09-01 as director and CEO.",
+   "xml_fields": {
+    "rptOwnerCik": "0002148403",
+    "rptOwnerName": "Ternus John",
+    "periodOfReport": "2026-09-01",
+    "officerTitle": "CEO"
+   }
+  },
+  {
+   "id": "e057",
+   "form": "4",
+   "accession": "0001140361-26-038021",
+   "filing_date": "2026-09-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126038021/form4.xml",
+   "quote": "COOK TIMOTHY D",
+   "supports": "Cook reporting-owner CIK; director with officer title 'Executive Chair' on a Form 4 for 2026-09-27.",
+   "xml_fields": {
+    "rptOwnerCik": "0001214156",
+    "rptOwnerName": "COOK TIMOTHY D",
+    "periodOfReport": "2026-09-27",
+    "officerTitle": "Executive Chair"
+   }
+  },
+  {
+   "id": "e060",
+   "form": "8-K",
+   "accession": "0001181431-11-047179",
+   "filing_date": "2011-08-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000118143111047179/rrd320651.htm",
+   "quote": "On August 24, 2011: - Steve Jobs resigned as Chief Executive Officer of Apple Inc. (\"Apple\"). Mr. Jobs will continue to serve as an employee; - The Board of Directors (the \"Board\") appointed Mr. Jobs as Chairman of the Board; - The Board promoted Chief Operating Officer Timothy D. Cook to Chief Executive Officer; and - The Board appointed Mr. Cook to the Board to fill an existing vacancy.",
+   "supports": "Cook became CEO and a director on 2011-08-24."
+  },
+  {
+   "id": "e061",
+   "form": "DEF 14A",
+   "accession": "0001193125-12-006704",
+   "filing_date": "2012-01-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312512006704/d275281ddef14a.htm",
+   "quote": "The Board appointed Timothy D. Cook and Robert A. Iger to the Board on August 24, 2011 and November 15, 2011, respectively.",
+   "supports": "Cook director from 2011-08-24."
+  },
+  {
+   "id": "e062",
+   "form": "DEF 14A",
+   "accession": "0001193125-12-006704",
+   "filing_date": "2012-01-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312512006704/d275281ddef14a.htm",
+   "quote": "The Board appointed Dr. Levinson as Chairman of the Board on November 15, 2011.",
+   "supports": "Levinson Chairman from 2011-11-15."
+  },
+  {
+   "id": "e063",
+   "form": "DEF 14A",
+   "accession": "0001193125-12-006704",
+   "filing_date": "2012-01-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312512006704/d275281ddef14a.htm",
+   "quote": "The Board has determined that all Board members, excluding Mr. Cook, are independent under the applicable NASDAQ and SEC rules.",
+   "supports": "2012 proxy: Cook the only non-independent director."
+  },
+  {
+   "id": "e064",
+   "form": "DEF 14A",
+   "accession": "0001193125-12-006704",
+   "filing_date": "2012-01-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312512006704/d275281ddef14a.htm",
+   "quote": "Arthur D. Levinson Chairman of the Board 61 2000",
+   "supports": "2012 proxy board table: Levinson Chairman of the Board, director since 2000.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e070",
+   "form": "10-K",
+   "accession": "0000912057-00-053623",
+   "filing_date": "2000-12-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000091205700053623/a2032880z10-k.txt",
+   "quote": "Arthur D. Levinson.................. Director 50 2000",
+   "supports": "FY2000 10-K director table (column 'Director Since'): Levinson, 2000.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e071",
+   "form": "10-Q",
+   "accession": "0000912057-00-033901",
+   "filing_date": "2000-07-31",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000091205700033901/a10-q.txt",
+   "quote": "The annual meeting of shareholders was held on April 20, 2000.",
+   "supports": "2000 annual meeting date (Levinson not among directors elected there)."
+  },
+  {
+   "id": "e072",
+   "form": "10-Q",
+   "accession": "0000912057-00-033901",
+   "filing_date": "2000-07-31",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000091205700033901/a10-q.txt",
+   "quote": "William V. Campbell 139,530,349 1,526,408 Gareth C.C. Chang 139,671,948 1,384,809 Millard S. Drexler 139,281,278 1,775,479 Lawrence J. Ellison 130,301,339 10,755,418 Steven P. Jobs 139,687,954 1,368,803 Jerome B. York 139,682,237 1,374,520",
+   "supports": "Directors elected 2000-04-20: Levinson not listed, so he joined after that meeting.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e073",
+   "form": "DEF 14A",
+   "accession": "0000912057-01-007512",
+   "filing_date": "2001-03-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000091205701007512/a2040764zdef14a.txt",
+   "quote": "Both Mr. Campbell and Dr. Levinson are independent directors.",
+   "supports": "2001 proxy: Levinson independent."
+  },
+  {
+   "id": "e074",
+   "form": "DEF 14A",
+   "accession": "0000912057-01-007512",
+   "filing_date": "2001-03-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000091205701007512/a2040764zdef14a.txt",
+   "quote": "On the fourth anniversary of a non-employee director's initial election to the Board and on each subsequent anniversary, the director will be entitled to receive an option to acquire 10,000 shares of Common Stock",
+   "supports": "Director Plan: annual options fall on anniversaries of initial election (context for Levinson's Aug 14 grants)."
+  },
+  {
+   "id": "e075",
+   "form": "4",
+   "accession": "0001181431-04-040415",
+   "filing_date": "2004-08-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000118143104040415/rrd50266.xml",
+   "quote": "Automatic grant pursuant to the 1997 Director Stock Option Plan",
+   "supports": "Levinson automatic 10,000-share director option dated 2004-08-14 (a fourth-anniversary grant would imply election on 2000-08-14; not stated).",
+   "xml_fields": {
+    "rptOwnerCik": "0001214128",
+    "periodOfReport": "2004-08-14"
+   }
+  },
+  {
+   "id": "e076",
+   "form": "4",
+   "accession": "0001214128-26-000004",
+   "filing_date": "2026-02-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000121412826000004/wk-form4_1772148758.xml",
+   "quote": "LEVINSON ARTHUR D",
+   "supports": "Levinson reporting-owner CIK (director Form 4, 2026-02-24).",
+   "xml_fields": {
+    "rptOwnerCik": "0001214128",
+    "rptOwnerName": "LEVINSON ARTHUR D",
+    "periodOfReport": "2026-02-24"
+   }
+  },
+  {
+   "id": "e077",
+   "form": "DEF 14A",
+   "accession": "0001047469-05-006387",
+   "filing_date": "2005-03-15",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000104746905006387/a2153157zdef14a.htm",
+   "quote": "Arthur D. Levinson Director 55",
+   "supports": "2005 proxy board table lists Levinson as 'Director' (no co-lead title).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e078",
+   "form": "10-K",
+   "accession": "0001104659-05-058421",
+   "filing_date": "2005-12-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000110465905058421/a05-20674_110k.htm",
+   "quote": "Arthur D. Levinson Co-lead Director 55 2000",
+   "supports": "FY2005 10-K (filed 2005-12-01) lists Levinson as Co-lead Director.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e079",
+   "form": "DEF 14A",
+   "accession": "0001193125-11-003231",
+   "filing_date": "2011-01-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312511003231/ddef14a.htm",
+   "quote": "The Company does not have a Chairman of the Board, but has two independent Co-lead Directors.",
+   "supports": "2011 proxy: co-lead director structure, no chairman."
+  },
+  {
+   "id": "e080",
+   "form": "DEF 14A",
+   "accession": "0001193125-11-003231",
+   "filing_date": "2011-01-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312511003231/ddef14a.htm",
+   "quote": "Andrea Jung Co-lead Director 52 2008 Arthur D. Levinson Co-lead Director 60 2000",
+   "supports": "2011 proxy: Jung and Levinson are the co-lead directors.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e081",
+   "form": "DEF 14A",
+   "accession": "0001193125-09-002537",
+   "filing_date": "2009-01-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312509002537/ddef14a.htm",
+   "quote": "Andrea Jung Director 50 2008 Arthur D. Levinson, Ph.D. Co-lead Director 58",
+   "supports": "2009 proxy (2009-01-07): Jung 'Director', Levinson 'Co-lead Director'.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e082",
+   "form": "PRE 14A",
+   "accession": "0001193125-09-259414",
+   "filing_date": "2009-12-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312509259414/dpre14a.htm",
+   "quote": "Andrea Jung Co-lead Director 51 2008",
+   "supports": "2009-12-23 preliminary proxy: Jung listed as Co-lead Director.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e083",
+   "form": "DEF 14A",
+   "accession": "0001193125-12-006704",
+   "filing_date": "2012-01-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312512006704/d275281ddef14a.htm",
+   "quote": "Andrea Jung Director 53 2008",
+   "supports": "2012 proxy (2012-01-09): Jung listed as 'Director' (no co-lead title).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e084",
+   "form": "DEF 14A",
+   "accession": "0001047469-04-007414",
+   "filing_date": "2004-03-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000104746904007414/a2129874zdef14a.htm",
+   "quote": "The Board has determined that all Board members, excluding Steve Jobs, are independent under the applicable National Association of Securities Dealers rules.",
+   "supports": "2004 proxy: all directors other than Jobs (incl. Levinson, Gore) independent."
+  },
+  {
+   "id": "e090",
+   "form": "8-K",
+   "accession": "0001181431-08-002372",
+   "filing_date": "2008-01-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000118143108002372/rrd188197.htm",
+   "quote": "On January 4, 2008, Apple Inc. (the \"Company\") appointed Andrea Jung to its Board of Directors (the \"Board\").",
+   "supports": "Jung joined 2008-01-04."
+  },
+  {
+   "id": "e091",
+   "form": "3",
+   "accession": "0001181431-08-002400",
+   "filing_date": "2008-01-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000118143108002400/rrd187133.xml",
+   "quote": "JUNG ANDREA",
+   "supports": "Jung reporting-owner CIK; Form 3 event 2008-01-04 (matches appointment).",
+   "xml_fields": {
+    "rptOwnerCik": "0001051401",
+    "rptOwnerName": "JUNG ANDREA",
+    "periodOfReport": "2008-01-04"
+   }
+  },
+  {
+   "id": "e092",
+   "form": "DEF 14A",
+   "accession": "0001193125-09-002537",
+   "filing_date": "2009-01-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312509002537/ddef14a.htm",
+   "quote": "The Board has determined that all Board members, excluding Mr. Jobs, are independent under the applicable NASDAQ and SEC rules.",
+   "supports": "2009 proxy: Jung (and Levinson, Gore) independent."
+  },
+  {
+   "id": "e093",
+   "form": "8-K",
+   "accession": "0001181431-10-056327",
+   "filing_date": "2010-11-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000118143110056327/rrd291195.htm",
+   "quote": "On November 16, 2010, the Board of Directors (the \"Board\") of Apple Inc. (the \"Company\") appointed Dr. Ronald D. Sugar to the Board to fill an existing vacancy. The Board also appointed Dr. Sugar as the Chair of its Audit and Finance Committee.",
+   "supports": "Sugar joined 2010-11-16 as Audit and Finance Committee chair."
+  },
+  {
+   "id": "e094",
+   "form": "3",
+   "accession": "0001181431-10-056359",
+   "filing_date": "2010-11-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000118143110056359/rrd291347.xml",
+   "quote": "SUGAR RONALD D",
+   "supports": "Sugar reporting-owner CIK; Form 3 event 2010-11-16.",
+   "xml_fields": {
+    "rptOwnerCik": "0001216519",
+    "rptOwnerName": "SUGAR RONALD D",
+    "periodOfReport": "2010-11-16"
+   }
+  },
+  {
+   "id": "e095",
+   "form": "DEF 14A",
+   "accession": "0001193125-11-003231",
+   "filing_date": "2011-01-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312511003231/ddef14a.htm",
+   "quote": "The Board has determined that all Board members, excluding Mr. Jobs, are independent",
+   "supports": "2011 proxy: Sugar (and others other than Jobs) independent."
+  },
+  {
+   "id": "e096",
+   "form": "8-K",
+   "accession": "0001193125-14-271698",
+   "filing_date": "2014-07-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312514271698/d758295d8k.htm",
+   "quote": "On July 15, 2014, the Board of Directors of Apple Inc. (\"Apple\") appointed Susan L. Wagner to the Board concurrently with the retirement of William V. Campbell.",
+   "supports": "Wagner joined 2014-07-15."
+  },
+  {
+   "id": "e097",
+   "form": "3",
+   "accession": "0001181431-14-026991",
+   "filing_date": "2014-07-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000118143114026991/rrd413223.xml",
+   "quote": "WAGNER SUSAN",
+   "supports": "Wagner reporting-owner CIK; Form 3 event 2014-07-15.",
+   "xml_fields": {
+    "rptOwnerCik": "0001059235",
+    "rptOwnerName": "WAGNER SUSAN",
+    "periodOfReport": "2014-07-15"
+   }
+  },
+  {
+   "id": "e098",
+   "form": "DEF 14A",
+   "accession": "0001193125-15-017607",
+   "filing_date": "2015-01-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312515017607/d774604ddef14a.htm",
+   "quote": "The Board has determined that all Board members, excluding Mr. Cook, are independent under the applicable NASDAQ,",
+   "supports": "2015 proxy: Wagner (all but Cook) independent."
+  },
+  {
+   "id": "e099",
+   "form": "8-K",
+   "accession": "0001193125-15-336615",
+   "filing_date": "2015-10-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312515336615/d10101d8k.htm",
+   "quote": "On October 1, 2015, the Board of Directors of Apple Inc. appointed James A. Bell to Apple's Board.",
+   "supports": "Bell joined 2015-10-01."
+  },
+  {
+   "id": "e100",
+   "form": "3",
+   "accession": "0001209191-15-073530",
+   "filing_date": "2015-10-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000120919115073530/doc3.xml",
+   "quote": "BELL JAMES A",
+   "supports": "Bell reporting-owner CIK; Form 3 event 2015-10-01.",
+   "xml_fields": {
+    "rptOwnerCik": "0001182047",
+    "rptOwnerName": "BELL JAMES A",
+    "periodOfReport": "2015-10-01"
+   }
+  },
+  {
+   "id": "e101",
+   "form": "DEF 14A",
+   "accession": "0001193125-16-422528",
+   "filing_date": "2016-01-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312516422528/d79474ddef14a.htm",
+   "quote": "The Board has determined that all Board members, other than Mr. Cook, are independent under applicable NASDAQ, NYSE, and SEC rules.",
+   "supports": "2016 proxy: Bell (all but Cook) independent."
+  },
+  {
+   "id": "e105",
+   "form": "8-K",
+   "accession": "0001104659-03-004649",
+   "filing_date": "2003-03-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000110465903004649/j8673_ex99d1.htm",
+   "quote": "CUPERTINO, California—March 19, 2003—Apple® today announced that Albert Gore Jr., the former Vice President of the United States, has joined the Company's Board of Directors. Mr. Gore was elected at Apple's board meeting today.",
+   "supports": "Gore elected to the board 2003-03-19 (press release filed as Exhibit 99.1 to 8-K)."
+  },
+  {
+   "id": "e106",
+   "form": "4",
+   "accession": "0000320193-24-000016",
+   "filing_date": "2024-02-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000016/wk-form4_1707175909.xml",
+   "quote": "GORE ALBERT JR",
+   "supports": "Gore reporting-owner CIK (director Form 4, 2024-02-01).",
+   "xml_fields": {
+    "rptOwnerCik": "0001224944",
+    "rptOwnerName": "GORE ALBERT JR",
+    "periodOfReport": "2024-02-01"
+   }
+  },
+  {
+   "id": "e110",
+   "form": "8-K",
+   "accession": "0001193125-21-001982",
+   "filing_date": "2021-01-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312521001982/d29637d8k.htm",
+   "quote": "On December 29, 2020, the Board of Directors (the \"Board\") of Apple Inc. appointed Ms. Monica Lozano to Apple's Board, effective as of January 4, 2021. Ms. Lozano will serve on the Audit and Finance Committee of the Board.",
+   "supports": "Lozano appointed 2020-12-29, effective 2021-01-04; Audit and Finance Committee."
+  },
+  {
+   "id": "e111",
+   "form": "3",
+   "accession": "0000320193-21-000003",
+   "filing_date": "2021-01-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019321000003/wf-form3_160988944878908.xml",
+   "quote": "LOZANO MONICA C",
+   "supports": "Lozano reporting-owner CIK; Form 3 event 2021-01-04.",
+   "xml_fields": {
+    "rptOwnerCik": "0001179864",
+    "rptOwnerName": "LOZANO MONICA C",
+    "periodOfReport": "2021-01-04"
+   }
+  },
+  {
+   "id": "e112",
+   "form": "DEF 14A",
+   "accession": "0001193125-21-001987",
+   "filing_date": "2021-01-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312521001987/d767770ddef14a.htm",
+   "quote": "The Board has determined that all Board members, other than Mr. Cook, are independent under applicable rules of The Nasdaq Stock Market LLC",
+   "supports": "2021 proxy: Lozano (all but Cook) independent."
+  },
+  {
+   "id": "e113",
+   "form": "8-K",
+   "accession": "0001193125-21-328151",
+   "filing_date": "2021-11-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312521328151/d259993d8k.htm",
+   "quote": "On November 9, 2021, the Board of Directors (the \"Board\") of Apple Inc. appointed Mr. Alex Gorsky to Apple's Board. Mr. Gorsky will serve on the Nominating and Corporate Governance Committee of the Board.",
+   "supports": "Gorsky joined 2021-11-09; Nominating and Corporate Governance Committee."
+  },
+  {
+   "id": "e114",
+   "form": "8-K",
+   "accession": "0001193125-21-328151",
+   "filing_date": "2021-11-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312521328151/d259993d8k.htm",
+   "quote": "On November 9, 2021, the Board adopted an amendment, effective as of the same date, to Apple's Amended and Restated Bylaws (as so amended, the \"Bylaws\") to increase the size of the Board to nine (9) members. Prior to this amendment, the Bylaws provided for eight (8) directors.",
+   "supports": "Authorized board size 8 -> 9 on 2021-11-09."
+  },
+  {
+   "id": "e115",
+   "form": "3",
+   "accession": "0000320193-21-000111",
+   "filing_date": "2021-11-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019321000111/wf-form3_163675983081322.xml",
+   "quote": "Gorsky Alex",
+   "supports": "Gorsky reporting-owner CIK; Form 3 event 2021-11-09.",
+   "xml_fields": {
+    "rptOwnerCik": "0001453149",
+    "rptOwnerName": "Gorsky Alex",
+    "periodOfReport": "2021-11-09"
+   }
+  },
+  {
+   "id": "e116",
+   "form": "DEF 14A",
+   "accession": "0001193125-22-003583",
+   "filing_date": "2022-01-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312522003583/d222670ddef14a.htm",
+   "quote": "The Board has determined that all Board members, other than Mr. Cook, are independent under applicable rules of The Nasdaq Stock Market LLC",
+   "supports": "2022 proxy: Gorsky (all but Cook) independent."
+  },
+  {
+   "id": "e120",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-001450",
+   "filing_date": "2020-01-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312520001450/d799303ddef14a.htm",
+   "quote": "Each of the seven nominees currently serves on the Board.",
+   "supports": "2020 proxy: seven directors (Bell, Cook, Gore, Jung, Levinson, Sugar, Wagner), all nominated."
+  },
+  {
+   "id": "e121",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-001450",
+   "filing_date": "2020-01-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312520001450/d799303ddef14a.htm",
+   "quote": "Mr. Iger resigned from the Board on September 10, 2019.",
+   "supports": "Last pre-2020 departure (out of scope) predates 2020-01-01."
+  },
+  {
+   "id": "e122",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-001450",
+   "filing_date": "2020-01-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312520001450/d799303ddef14a.htm",
+   "quote": "The Board has determined that all Board members, other than Mr. Cook, are independent under applicable rules of The Nasdaq Stock Market LLC",
+   "supports": "2020 proxy: all but Cook (incl. Bell, Gore) independent."
+  },
+  {
+   "id": "e123",
+   "form": "8-K",
+   "accession": "0001193125-20-050884",
+   "filing_date": "2020-02-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312520050884/d865740d8k.htm",
+   "quote": "The Annual Meeting of Shareholders of Apple Inc. was held on February 26, 2020.",
+   "supports": "2020 annual meeting (Bell, Cook, Gore, Jung, Levinson, Sugar, Wagner elected)."
+  },
+  {
+   "id": "e124",
+   "form": "8-K",
+   "accession": "0001193125-21-054710",
+   "filing_date": "2021-02-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312521054710/d101693d8k.htm",
+   "quote": "The Annual Meeting of Shareholders of Apple Inc. was held on February 23, 2021.",
+   "supports": "2021 annual meeting date."
+  },
+  {
+   "id": "e125",
+   "form": "8-K",
+   "accession": "0001193125-21-054710",
+   "filing_date": "2021-02-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312521054710/d101693d8k.htm",
+   "quote": "Monica Lozano 9,722,139,317 59,330,799 29,253,967 3,536,704,458",
+   "supports": "Lozano first elected by shareholders 2021-02-23.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e126",
+   "form": "8-K",
+   "accession": "0001193125-22-066169",
+   "filing_date": "2022-03-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312522066169/d294699d8k.htm",
+   "quote": "The Annual Meeting was held on March 4, 2022.",
+   "supports": "2022 annual meeting date."
+  },
+  {
+   "id": "e127",
+   "form": "8-K",
+   "accession": "0001193125-22-066169",
+   "filing_date": "2022-03-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312522066169/d294699d8k.htm",
+   "quote": "Alex Gorsky 8,953,921,820 712,234,573 35,837,603 3,360,214,513",
+   "supports": "Gorsky first elected by shareholders 2022-03-04.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e128",
+   "form": "8-K",
+   "accession": "0001140361-23-011192",
+   "filing_date": "2023-03-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000114036123011192/brhc10049413_8k.htm",
+   "quote": "The 2023 Annual Meeting of Shareholders (the \"Annual Meeting\") of Apple Inc. (\"Apple\") was held on March 10, 2023.",
+   "supports": "2023 annual meeting date."
+  },
+  {
+   "id": "e129",
+   "form": "8-K",
+   "accession": "0001140361-23-011192",
+   "filing_date": "2023-03-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000114036123011192/brhc10049413_8k.htm",
+   "quote": "James Bell 9,465,679,895 66,756,373 27,788,697 3,199,709,505 Tim Cook 9,384,013,653 154,755,524 21,455,788 3,199,709,505 Al Gore 8,717,788,168 754,211,726 88,225,071 3,199,709,505",
+   "supports": "Bell and Gore last re-elected 2023-03-10.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e130",
+   "form": "DEF 14A",
+   "accession": "0001308179-23-000019",
+   "filing_date": "2023-01-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000130817923000019/laap2023_def14a.htm",
+   "quote": "James Bell Director since 2015 Audit Committee",
+   "supports": "Bell's last proxy bio: director since 2015; Audit Committee."
+  },
+  {
+   "id": "e131",
+   "form": "DEF 14A",
+   "accession": "0001308179-23-000019",
+   "filing_date": "2023-01-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000130817923000019/laap2023_def14a.htm",
+   "quote": "Other Public Company Boards: • Current: CDW Corporation • Within Last Five Years: Dow Inc.; DowDupont Inc.; JPMorgan Chase & Co.",
+   "supports": "Bell: current CDW; former Dow Inc., DowDupont Inc., JPMorgan Chase."
+  },
+  {
+   "id": "e132",
+   "form": "DEF 14A",
+   "accession": "0001308179-23-000019",
+   "filing_date": "2023-01-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000130817923000019/laap2023_def14a.htm",
+   "quote": "Al Gore Director since 2003 Compensation Committee Nominating Committee",
+   "supports": "Gore's last proxy bio: director since 2003; Compensation and Nominating Committees."
+  },
+  {
+   "id": "e133",
+   "form": "DEF 14A",
+   "accession": "0001308179-23-000019",
+   "filing_date": "2023-01-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000130817923000019/laap2023_def14a.htm",
+   "quote": "and has been awarded the Dan David Prize for Social Responsibility. Other Public Company Boards: • None",
+   "supports": "Gore: no other public company boards."
+  },
+  {
+   "id": "e140",
+   "form": "DEF 14A",
+   "accession": "0001308179-24-000010",
+   "filing_date": "2024-01-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000130817924000010/laapl2024_def14a.htm",
+   "quote": "After years of dedicated and valuable service, James Bell and Al Gore will be retiring from the Board effective as of the 2024 Annual Meeting, having reached the age of 75.",
+   "supports": "Bell and Gore retire at the 2024 annual meeting (age-75 guideline)."
+  },
+  {
+   "id": "e141",
+   "form": "DEF 14A",
+   "accession": "0001308179-24-000010",
+   "filing_date": "2024-01-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000130817924000010/laapl2024_def14a.htm",
+   "quote": "James Bell and Al Gore will not stand for reelection at the Annual Meeting and are not represented in the following biographical disclosures. Wanda Austin has been nominated for election to the Board effective as of the Annual Meeting.",
+   "supports": "Bell and Gore not standing; Austin nominated, joining at the 2024 annual meeting."
+  },
+  {
+   "id": "e142",
+   "form": "DEF 14A",
+   "accession": "0001308179-24-000010",
+   "filing_date": "2024-01-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000130817924000010/laapl2024_def14a.htm",
+   "quote": "Audit Committee Ron Sugar (Chair) James Bell* Monica Lozano Sue Wagner Nine meetings during 2023",
+   "supports": "2024 proxy Audit Committee roster (Bell's last)."
+  },
+  {
+   "id": "e143",
+   "form": "DEF 14A",
+   "accession": "0001308179-24-000010",
+   "filing_date": "2024-01-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000130817924000010/laapl2024_def14a.htm",
+   "quote": "People and Compensation Committee Andrea Jung (Chair) Al Gore* Alex Gorsky Art Levinson Six meetings during 2023",
+   "supports": "2024 proxy People and Compensation Committee roster (Gore's last)."
+  },
+  {
+   "id": "e144",
+   "form": "DEF 14A",
+   "accession": "0001308179-24-000010",
+   "filing_date": "2024-01-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000130817924000010/laapl2024_def14a.htm",
+   "quote": "Nominating Committee Sue Wagner (Chair) Al Gore* Alex Gorsky Andrea Jung Five meetings during 2023",
+   "supports": "2024 proxy Nominating Committee roster (Gore's last)."
+  },
+  {
+   "id": "e145",
+   "form": "DEF 14A",
+   "accession": "0001308179-24-000010",
+   "filing_date": "2024-01-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000130817924000010/laapl2024_def14a.htm",
+   "quote": "*Retiring as of the 2024 Annual Meeting",
+   "supports": "Asterisk on Bell and Gore in committee lists."
+  },
+  {
+   "id": "e146",
+   "form": "DEF 14A",
+   "accession": "0001308179-24-000010",
+   "filing_date": "2024-01-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000130817924000010/laapl2024_def14a.htm",
+   "quote": "The Board has determined that all Board members and nominees, other than Mr. Cook, are independent under applicable rules of The Nasdaq Stock Market LLC",
+   "supports": "2024 proxy: Austin (nominee), Bell, Gore and all others but Cook independent."
+  },
+  {
+   "id": "e147",
+   "form": "8-K",
+   "accession": "0001140361-24-010155",
+   "filing_date": "2024-02-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000114036124010155/ny20022580x1_8k.htm",
+   "quote": "The 2024 Annual Meeting of Shareholders (the \"Annual Meeting\") of Apple Inc. (\"Apple\") was held on February 28, 2024.",
+   "supports": "2024 annual meeting date: Bell and Gore leave; Austin joins."
+  },
+  {
+   "id": "e148",
+   "form": "8-K",
+   "accession": "0001140361-24-010155",
+   "filing_date": "2024-02-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000114036124010155/ny20022580x1_8k.htm",
+   "quote": "Wanda Austin 9,071,238,739 41,808,115 20,441,053 3,275,055,901 Tim Cook",
+   "supports": "Austin elected 2024-02-28; Bell and Gore absent from the elected list.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e149",
+   "form": "3",
+   "accession": "0000320193-24-000032",
+   "filing_date": "2024-03-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000032/wk-form3_1709335848.xml",
+   "quote": "Austin Wanda M",
+   "supports": "Austin reporting-owner CIK; Form 3 event 2024-02-28 (matches election date).",
+   "xml_fields": {
+    "rptOwnerCik": "0001690882",
+    "rptOwnerName": "Austin Wanda M",
+    "periodOfReport": "2024-02-28"
+   }
+  },
+  {
+   "id": "e150",
+   "form": "8-K",
+   "accession": "0001140361-25-005876",
+   "filing_date": "2025-02-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000114036125005876/ef20044022_8k.htm",
+   "quote": "The 2025 Annual Meeting of Shareholders (the \"Annual Meeting\") of Apple Inc. (\"Apple\") was held on February 25, 2025.",
+   "supports": "2025 annual meeting date (same eight directors re-elected)."
+  },
+  {
+   "id": "e151",
+   "form": "DEF 14A",
+   "accession": "0001308179-25-000008",
+   "filing_date": "2025-01-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000130817925000008/aapl4359751-def14a.htm",
+   "quote": "The Board has determined that all Board members, other than Mr. Cook, are independent under applicable rules of The Nasdaq Stock Market LLC",
+   "supports": "2025 proxy: all but Cook independent."
+  },
+  {
+   "id": "e152",
+   "form": "DEF 14A",
+   "accession": "0001308179-24-000010",
+   "filing_date": "2024-01-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000130817924000010/laapl2024_def14a.htm",
+   "quote": "Since 2021, the Board has added two new members, Monica Lozano and Alex Gorsky, and this year has nominated Wanda Austin for election at our 2024 Annual Meeting.",
+   "supports": "Board additions 2021-2024."
+  },
+  {
+   "id": "e160",
+   "form": "8-K",
+   "accession": "0001140361-24-038403",
+   "filing_date": "2024-08-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000114036124038403/ny20033611x2_ex3-2.htm",
+   "quote": "The exact number of directors shall be nine (9) until changed within the limits specified above",
+   "supports": "Bylaws as amended 2024-08-20: authorized board size nine."
+  },
+  {
+   "id": "e161",
+   "form": "10-K",
+   "accession": "0000320193-25-000079",
+   "filing_date": "2025-10-31",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+   "quote": "Amended and Restated Bylaws of the Registrant effective as of August 20, 2024.",
+   "supports": "FY2025 10-K exhibit index: bylaws of 2024-08-20 still in effect."
+  }
+ ],
+ "conflicts": [
+  {
+   "description": "The 2026 proxy says 'Over the past four years, the Board has added three new members ... and two other, long-serving members retired.' The 8-Ks date the three additions to 2021-01-04 (Lozano), 2021-11-09 (Gorsky) and 2024-02-28 (Austin), so Lozano joined about five years before that proxy. Narrative only; dates recorded from the 8-Ks.",
+   "evidence_refs": [
+    "e025",
+    "e110",
+    "e113",
+    "e147"
+   ]
+  },
+  {
+   "description": "Levinson's role on 2026-09-01 rests on prospective wording: the April 2026 8-K says he 'will become Lead Independent Director on the Transition Date'. The 8-K/A (2026-09-01) confirms only the Cook and Ternus changes. Cook's Form 4 ('Executive Chair') and Ternus's Form 3 ('CEO') show the transition happened, and no later filing contradicts the Lead Independent Director change.",
+   "evidence_refs": [
+    "e052",
+    "e054",
+    "e056",
+    "e057"
+   ]
+  }
+ ],
+ "open_questions": [
+  "Art Levinson's exact appointment date in 2000 is not stated in any filing. He was not among the directors elected at the 2000-04-20 annual meeting (e072) and is listed as a director since 2000 in the 10-K filed 2000-12-14 (e070). His automatic 10,000-share director options are dated August 14 (2004-08-14 Form 4, e075; the 2005-2009 grants are also dated August 14), and the Director Plan grants annual options on the fourth and later anniversaries of initial election (e074). That implies 2000-08-14, but it is an inference, so the start stays at year precision.",
+  "When Levinson's 'Co-lead Director' title began and ended is not stated. He is 'Director' in the 2005-03-15 proxy and 'Co-lead Director' in the 10-K filed 2005-12-01, so it began in 2005. The end is set to his appointment as Chairman (2011-11-15). Medium confidence.",
+  "Andrea Jung was also a 'Co-lead Director'. She is 'Director' in the 2009-01-07 proxy and 'Co-lead Director' in the 2009-12-23 preliminary proxy and the 2010 and 2011 proxies (e081, e082, e080), so it began in 2009. By the 2012-01-09 proxy she is 'Director' again (e083). No filing says when it ended (it may have been 2011-11-15, when Levinson became Chairman), so this role is left out of roles.",
+  "John Ternus (director since 2026-09-01) has no committee assignment, no formal independence determination and no proxy biography in any filing through 2026-10-02. His other public boards are therefore unknown (none are mentioned in the 8-K). The next proxy (expected around January 2027) should settle this.",
+  "No filing reports committee changes made at or after the 2026-09-01 leadership transition. The committee rosters reflect the 2026-01-08 proxy.",
+  "The 2026-04-20 8-K gives Ternus's appointment as 2026-04-17 (board action) with effect from 2026-09-01. The membership starts on the effective date.",
+  "Tim Cook was an officer filing Forms 3/4 long before joining the board. His first Form 3 was not retrieved; his CIK comes from a 2026 Form 4.",
+  "Exchange tier (e.g., Global Select Market) and the 1980-12-12 IPO date are not stated in any SEC filing reviewed.",
+  "Other-board lists are taken from Apple's bios as of each filing (2026 proxy for current directors, 2023 proxy for Bell and Gore). They were not checked against the other issuers' filings."
+ ],
+ "coverage": [
+  {
+   "scope": "current_board",
+   "period_start": "2026-10-04",
+   "period_end": "2026-10-04",
+   "level": "complete",
+   "method": "Current roster checked against the 2026 DEF 14A, the 2026-02-24 8-K Item 5.07, both Item 5.02 filings made after that proxy (8-K 2026-04-20 and 8-K/A 2026-09-01), the 2026 10-Qs, and every Form 3/4 filed through 2026-10-02."
+  },
+  {
+   "scope": "board_history",
+   "period_start": "2020-01-01",
+   "period_end": "2026-10-04",
+   "level": "complete",
+   "method": "Every DEF 14A from 2020 to 2026 and every 8-K/8-K/A with Item 5.02, 5.03 or 5.07 filed from 2020-01-01 to 2026-10-02 reviewed. The two departures (Bell, Gore) are dated by the 2024 annual meeting (8-K Item 5.07)."
+  },
+  {
+   "scope": "board_history",
+   "period_start": "2000-01-01",
+   "period_end": "2019-12-31",
+   "level": "partial",
+   "method": "Start dates only, for current directors and for Bell and Gore, from appointment 8-Ks (2003-2015), Form 3s, and proxies/10-Ks back to 2000. Departures before 2020 (e.g., Iger, Campbell, Drexler, Jobs) were not researched."
+  }
+ ]
+}

@@ -1,0 +1,3275 @@
+{
+ "company": {
+  "cik": "0001045810",
+  "ticker": "NVDA",
+  "legal_name": "NVIDIA Corporation",
+  "common_name": "NVIDIA",
+  "exchange": "Nasdaq Global Select Market",
+  "ipo_date": "1999-01-22",
+  "state_of_incorporation": "Delaware",
+  "notes": "Incorporated in California in April 1993 and reincorporated in Delaware in April 1998. The IPO prospectus is dated January 21, 1999, and public trading began January 22, 1999 (10-K). EDGAR former name: NVIDIA CORP/CA. The board was classified at the IPO and is now declassified (one-year terms). NVIDIA has no board chair; an independent Lead Director is designated annually.",
+  "classified_board": false
+ },
+ "as_of": "2026-10-04",
+ "sources_reviewed_through": "2026-09-23 (latest filing in the EDGAR submissions feed fetched 2026-10-04; cache dated 2026-10-05 UTC)",
+ "people": [
+  {
+   "key": "jensen-huang",
+   "full_name": "Jen-Hsun Huang",
+   "aliases": [
+    "Jensen Huang",
+    "HUANG JEN HSUN"
+   ],
+   "sec_cik": "0001197649",
+   "bio_other_public_boards": []
+  },
+  {
+   "key": "tench-coxe",
+   "full_name": "Tench Coxe",
+   "aliases": [
+    "COXE TENCH"
+   ],
+   "sec_cik": "0001197647",
+   "bio_other_public_boards": [
+    {
+     "company": "Artisan Partners Asset Management Inc.",
+     "status": "former",
+     "years": "1995 to 2025",
+     "source_ref": "e039",
+     "public_company_stated_in_source": false
+    }
+   ]
+  },
+  {
+   "key": "harvey-jones",
+   "full_name": "Harvey C. Jones",
+   "aliases": [
+    "Harvey C. Jones, Jr.",
+    "Harvey Jones",
+    "JONES HARVEY C"
+   ],
+   "sec_cik": "0001197650",
+   "bio_other_public_boards": [
+    {
+     "company": "Synopsys, Inc.",
+     "status": "former",
+     "years": "between 1987 and 1998 (CEO for seven years, then Executive Chairman)",
+     "source_ref": "e042",
+     "public_company_stated_in_source": false,
+     "note": "bio describes executive roles ending as Executive Chairman; no separate director dates"
+    }
+   ]
+  },
+  {
+   "key": "brooke-seawell",
+   "full_name": "A. Brooke Seawell",
+   "aliases": [
+    "Brooke Seawell",
+    "SEAWELL A BROOKE"
+   ],
+   "sec_cik": "0001197652",
+   "bio_other_public_boards": [
+    {
+     "company": "Tenable Holdings, Inc.",
+     "status": "current",
+     "years": "since 2017",
+     "source_ref": "e047",
+     "public_company_stated_in_source": true,
+     "note": "listed under 'Other Current Public Company Boards'"
+    },
+    {
+     "company": "Glu Mobile, Inc.",
+     "status": "former",
+     "years": "2006 to 2014",
+     "source_ref": "e048",
+     "public_company_stated_in_source": false,
+     "note": "bio says he served 'on the board of directors and as audit chair of' the four companies listed in one sentence"
+    },
+    {
+     "company": "Informatica Corp.",
+     "status": "former",
+     "years": "1997 to 2015",
+     "source_ref": "e048",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Tableau Software, Inc.",
+     "status": "former",
+     "years": "2011 to 2019",
+     "source_ref": "e048",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Eargo, Inc.",
+     "status": "former",
+     "years": "2020 to 2022",
+     "source_ref": "e048",
+     "public_company_stated_in_source": false
+    }
+   ]
+  },
+  {
+   "key": "mark-stevens",
+   "full_name": "Mark A. Stevens",
+   "aliases": [
+    "Mark Stevens",
+    "STEVENS MARK A"
+   ],
+   "sec_cik": "0001199039",
+   "bio_other_public_boards": [
+    {
+     "company": "Quantenna Communications, Inc.",
+     "status": "former",
+     "years": "2016 until 2019",
+     "source_ref": "e051",
+     "public_company_stated_in_source": false
+    }
+   ]
+  },
+  {
+   "key": "dawn-hudson",
+   "full_name": "Dawn Hudson",
+   "aliases": [
+    "HUDSON DAWN E"
+   ],
+   "sec_cik": "0001219888",
+   "bio_other_public_boards": [
+    {
+     "company": "P.F. Chang’s China Bistro, Inc.",
+     "status": "former",
+     "years": "2010 to 2012",
+     "source_ref": "e040",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Allergan, Inc.",
+     "status": "former",
+     "years": "2008 to 2014",
+     "source_ref": "e040",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Lowe's Companies, Inc.",
+     "status": "former",
+     "years": "2001 to 2015",
+     "source_ref": "e040",
+     "public_company_stated_in_source": false,
+     "note": "written 'Lowes Companies, Inc.' in the proxy"
+    },
+    {
+     "company": "Amplify Snack Brands, Inc.",
+     "status": "former",
+     "years": "2014 to 2018",
+     "source_ref": "e041",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Modern Times Group MTG AB",
+     "status": "former",
+     "years": "2020 to 2023",
+     "source_ref": "e041",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "The Interpublic Group of Companies, Inc.",
+     "status": "former",
+     "years": "2011 to 2025",
+     "source_ref": "e041",
+     "public_company_stated_in_source": false
+    }
+   ]
+  },
+  {
+   "key": "stephen-neal",
+   "full_name": "Stephen C. Neal",
+   "aliases": [
+    "Stephen Neal",
+    "Neal Stephen C"
+   ],
+   "sec_cik": "0001768670",
+   "bio_other_public_boards": [
+    {
+     "company": "Levi Strauss & Co.",
+     "status": "former",
+     "years": "2007 to 2021 (Chairperson 2011 to 2021)",
+     "source_ref": "e046",
+     "public_company_stated_in_source": false
+    }
+   ]
+  },
+  {
+   "key": "john-dabiri",
+   "full_name": "John O. Dabiri",
+   "aliases": [
+    "John Dabiri",
+    "Dabiri John"
+   ],
+   "sec_cik": "0001818224",
+   "bio_other_public_boards": []
+  },
+  {
+   "key": "aarti-shah",
+   "full_name": "Aarti Shah",
+   "aliases": [
+    "Shah Aarti S."
+   ],
+   "sec_cik": "0001725292",
+   "bio_other_public_boards": [
+    {
+     "company": "Sandoz Group AG",
+     "status": "current",
+     "years": "since 2023",
+     "source_ref": "e050",
+     "public_company_stated_in_source": true,
+     "note": "listed under 'Other Current Public Company Boards'"
+    }
+   ]
+  },
+  {
+   "key": "melissa-lora",
+   "full_name": "Melissa B. Lora",
+   "aliases": [
+    "Melissa Lora",
+    "LORA MELISSA"
+   ],
+   "sec_cik": "0001284116",
+   "bio_other_public_boards": [
+    {
+     "company": "Conagra Brands, Inc.",
+     "status": "current",
+     "years": "since 2019",
+     "source_ref": "e049",
+     "public_company_stated_in_source": true,
+     "note": "listed under 'Other Current Public Company Boards'",
+     "corroborating_refs": [
+      "e044"
+     ]
+    },
+    {
+     "company": "KB Home",
+     "status": "former",
+     "years": "2004 to April 2024 (Lead Independent Director from 2016)",
+     "source_ref": "e043",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "MGIC Investment Corporation",
+     "status": "former",
+     "years": "2018 to 2022",
+     "source_ref": "e045",
+     "public_company_stated_in_source": false
+    }
+   ]
+  },
+  {
+   "key": "suzanne-nora-johnson",
+   "full_name": "Suzanne Nora Johnson",
+   "aliases": [
+    "NORA JOHNSON SUZANNE M"
+   ],
+   "sec_cik": "0001310264",
+   "bio_other_public_boards": [
+    {
+     "company": "Pfizer Inc.",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e033",
+     "public_company_stated_in_source": false,
+     "note": "from the 2026 proxy's announcement of her appointment (she was not yet a director)"
+    }
+   ]
+  },
+  {
+   "key": "james-gaither",
+   "full_name": "James C. Gaither",
+   "aliases": [
+    "James Gaither",
+    "GAITHER JAMES C"
+   ],
+   "sec_cik": "0001199037",
+   "bio_other_public_boards": []
+  },
+  {
+   "key": "michael-mccaffery",
+   "full_name": "Michael G. McCaffery",
+   "aliases": [
+    "Michael McCaffery",
+    "MCCAFFERY MICHAEL G"
+   ],
+   "sec_cik": "0001256735",
+   "bio_other_public_boards": [
+    {
+     "company": "C3.ai, Inc.",
+     "status": "current",
+     "years": "not stated",
+     "source_ref": "e085",
+     "public_company_stated_in_source": false,
+     "note": "status as of the 2023-05-08 proxy, his last NVIDIA proxy biography"
+    },
+    {
+     "company": "KB Home",
+     "status": "former",
+     "years": "2003 until 2015",
+     "source_ref": "e086",
+     "public_company_stated_in_source": false
+    }
+   ]
+  },
+  {
+   "key": "mark-perry",
+   "full_name": "Mark L. Perry",
+   "aliases": [
+    "Mark Perry",
+    "PERRY MARK L"
+   ],
+   "sec_cik": "0001190270",
+   "bio_other_public_boards": [
+    {
+     "company": "MyoKardia, Inc.",
+     "status": "former",
+     "years": "2012 to 2020",
+     "source_ref": "e084",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Global Blood Therapeutics, Inc.",
+     "status": "former",
+     "years": "2015 to 2022",
+     "source_ref": "e084",
+     "public_company_stated_in_source": false
+    }
+   ]
+  },
+  {
+   "key": "ellen-ochoa",
+   "full_name": "Ellen Ochoa",
+   "aliases": [
+    "Ochoa Ellen"
+   ],
+   "sec_cik": "0001641111",
+   "bio_other_public_boards": [
+    {
+     "company": "Service Corporation International",
+     "status": "current",
+     "years": "since 2015",
+     "source_ref": "e067",
+     "public_company_stated_in_source": true,
+     "note": "status as of the 2025-05-13 proxy, her only NVIDIA proxy"
+    }
+   ]
+  },
+  {
+   "key": "robert-burgess",
+   "full_name": "Robert K. Burgess",
+   "aliases": [
+    "Robert Burgess",
+    "BURGESS ROBERT K"
+   ],
+   "sec_cik": "0001198782",
+   "bio_other_public_boards": [
+    {
+     "company": "Adobe Systems Incorporated",
+     "status": "former",
+     "years": "2005 to 2019",
+     "source_ref": "e064",
+     "public_company_stated_in_source": false,
+     "note": "written 'Adobe' in this sentence"
+    },
+    {
+     "company": "Rogers Communications, Inc.",
+     "status": "former",
+     "years": "2016 to 2019",
+     "source_ref": "e064",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Macromedia, Inc.",
+     "status": "former",
+     "years": "1996 to 2005 (Chairman 1998 to 2005)",
+     "source_ref": "e065",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Alias Research, Inc.",
+     "status": "former",
+     "years": "1991 to 1995",
+     "source_ref": "e066",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "persis-drell",
+   "full_name": "Persis S. Drell",
+   "aliases": [
+    "Persis Drell",
+    "Drell Persis"
+   ],
+   "sec_cik": "0001636665",
+   "bio_other_public_boards": []
+  }
+ ],
+ "memberships": [
+  {
+   "person_key": "jensen-huang",
+   "start_date": "1993-04",
+   "start_date_precision": "month",
+   "start_date_basis": "IPO prospectus: co-founded the company in April 1993 and director 'since its inception'; company incorporated April 1993",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e005",
+    "e003",
+    "e018",
+    "e027",
+    "e112",
+    "e054",
+    "e055"
+   ],
+   "board_class": null,
+   "notes": "Founder; President, CEO and director since inception. No day is disclosed. Declassified board (one-year terms), so no class."
+  },
+  {
+   "person_key": "tench-coxe",
+   "start_date": "1993-06",
+   "start_date_precision": "month",
+   "start_date_basis": "IPO prospectus bio 'director of the Company since June 1993'",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e006",
+    "e016",
+    "e113",
+    "e054",
+    "e055"
+   ],
+   "board_class": null,
+   "notes": "Pre-IPO director; proxies give 'Director Since 1993'. Declassified board (one-year terms), so no class."
+  },
+  {
+   "person_key": "harvey-jones",
+   "start_date": "1993-11",
+   "start_date_precision": "month",
+   "start_date_basis": "IPO prospectus bio 'director of the Company since November 1993'",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e008",
+    "e020",
+    "e114",
+    "e054",
+    "e055"
+   ],
+   "board_class": null,
+   "notes": "Pre-IPO director (named 'Harvey C. Jones, Jr.' in the prospectus); proxies give 'Director Since 1993'. Declassified board (one-year terms), so no class."
+  },
+  {
+   "person_key": "brooke-seawell",
+   "start_date": "1997-12",
+   "start_date_precision": "month",
+   "start_date_basis": "IPO prospectus bio 'director of the Company since December 1997'",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e009",
+    "e023",
+    "e115",
+    "e054",
+    "e055"
+   ],
+   "board_class": null,
+   "notes": "Pre-IPO director; proxies give 'Director Since 1997'. Declassified board (one-year terms), so no class."
+  },
+  {
+   "person_key": "mark-stevens",
+   "start_date": "1993-06",
+   "start_date_precision": "month",
+   "start_date_basis": "IPO prospectus bio 'director of the Company since June 1993'",
+   "end_date": "2006-06-22",
+   "end_date_precision": "day",
+   "end_reason": "retired",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e010",
+    "e107",
+    "e109",
+    "e106",
+    "e026"
+   ],
+   "board_class": null,
+   "notes": "First stint. Retired at the 2006 annual meeting (held 2006-06-22) at the end of his term; the 2008 8-K says he served 'until June 2006'."
+  },
+  {
+   "person_key": "mark-stevens",
+   "start_date": "2008-09-03",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 appointment date (Form 3 event date agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e104",
+    "e117",
+    "e025",
+    "e116",
+    "e054",
+    "e055"
+   ],
+   "board_class": null,
+   "notes": "Second stint (current). Joined the second class of the then-classified board; the board has since been declassified."
+  },
+  {
+   "person_key": "dawn-hudson",
+   "start_date": "2013-07-18",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 appointment date (Form 3 event date agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e101",
+    "e102",
+    "e119",
+    "e019",
+    "e118",
+    "e054",
+    "e055"
+   ],
+   "board_class": null,
+   "notes": "Declassified board (one-year terms), so no class."
+  },
+  {
+   "person_key": "stephen-neal",
+   "start_date": "2019-03-30",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 appointment date (Form 3 event date agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e096",
+    "e121",
+    "e022",
+    "e120",
+    "e054",
+    "e055"
+   ],
+   "board_class": null,
+   "notes": "Lead Director since the 2023 annual meeting. Declassified board (one-year terms), so no class."
+  },
+  {
+   "person_key": "john-dabiri",
+   "start_date": "2020-07-13",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 appointment date (Form 3 event date agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e088",
+    "e123",
+    "e017",
+    "e122",
+    "e054",
+    "e055"
+   ],
+   "board_class": null,
+   "notes": "Declassified board (one-year terms), so no class."
+  },
+  {
+   "person_key": "aarti-shah",
+   "start_date": "2020-11-09",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 appointment date (Form 3 event date agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e087",
+    "e125",
+    "e024",
+    "e124",
+    "e054",
+    "e055"
+   ],
+   "board_class": null,
+   "notes": "Declassified board (one-year terms), so no class."
+  },
+  {
+   "person_key": "melissa-lora",
+   "start_date": "2023-07-24",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 appointment date (Form 3 event date agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e078",
+    "e127",
+    "e021",
+    "e126",
+    "e054",
+    "e055"
+   ],
+   "board_class": null,
+   "notes": "Declassified board (one-year terms), so no class."
+  },
+  {
+   "person_key": "suzanne-nora-johnson",
+   "start_date": "2026-07-13",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 effective date (board action 2026-05-07; Form 3 event date 2026-07-13)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e053",
+    "e031",
+    "e128"
+   ],
+   "board_class": null,
+   "notes": "Appointed after the 2026 proxy and meeting, so not yet elected by stockholders. No independence determination yet. Declassified board (one-year terms), so no class."
+  },
+  {
+   "person_key": "james-gaither",
+   "start_date": "1998-12",
+   "start_date_precision": "month",
+   "start_date_basis": "IPO prospectus bio 'director of the Company since December 1998' (2019 proxy: Director Since 1998)",
+   "end_date": "2020-06-09",
+   "end_date_precision": "day",
+   "end_reason": "did_not_stand",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e007",
+    "e097",
+    "e093",
+    "e091",
+    "e089",
+    "e090",
+    "e129"
+   ],
+   "board_class": null,
+   "notes": "Pre-IPO director. Retired by not standing for re-election; service ended at the 2020 annual meeting (2020-06-09). The 2020 proxy also says 'since 1999' (see conflicts)."
+  },
+  {
+   "person_key": "michael-mccaffery",
+   "start_date": "2015-03-11",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 appointment date (Form 3 event date agrees)",
+   "end_date": "2024-06-26",
+   "end_date_precision": "day",
+   "end_reason": "did_not_stand",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e100",
+    "e130",
+    "e082",
+    "e071",
+    "e070"
+   ],
+   "board_class": null,
+   "notes": "Did not stand for re-election; service ended on the 2024 annual meeting date (2024-06-26). AC Chairperson until the 2023 meeting."
+  },
+  {
+   "person_key": "mark-perry",
+   "start_date": "2005-05-17",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 effective date (elected 2005-05-16 effective 2005-05-17; Form 3 event date 2005-05-17)",
+   "end_date": "2024-06-26",
+   "end_date_precision": "day",
+   "end_reason": "did_not_stand",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e110",
+    "e132",
+    "e083",
+    "e071",
+    "e070",
+    "e077"
+   ],
+   "board_class": null,
+   "notes": "Did not stand for re-election; service ended on the 2024 annual meeting date (2024-06-26). Lead Director March 2018 to the 2023 meeting."
+  },
+  {
+   "person_key": "ellen-ochoa",
+   "start_date": "2024-11-07",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 appointment date (Form 3 event date agrees)",
+   "end_date": "2025-07-31",
+   "end_date_precision": "day",
+   "end_reason": "resigned",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e069",
+    "e134",
+    "e063",
+    "e057",
+    "e037"
+   ],
+   "board_class": null,
+   "notes": "Resigned for personal reasons, effective immediately, 2025-07-31."
+  },
+  {
+   "person_key": "robert-burgess",
+   "start_date": "2011-12-08",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 appointment date (Form 3 event date agrees)",
+   "end_date": "2025-12",
+   "end_date_precision": "month",
+   "end_reason": "died",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e103",
+    "e133",
+    "e061",
+    "e058",
+    "e034",
+    "e035"
+   ],
+   "board_class": null,
+   "notes": "Died in December 2025 while a director; no 8-K was filed and no filing gives the day."
+  },
+  {
+   "person_key": "persis-drell",
+   "start_date": "2015-03-11",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 appointment date (Form 3 event date agrees)",
+   "end_date": "2026-01-20",
+   "end_date_precision": "day",
+   "end_reason": "resigned",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e100",
+    "e131",
+    "e062",
+    "e052",
+    "e036"
+   ],
+   "board_class": null,
+   "notes": "Resigned effective immediately on 2026-01-20 to pursue a new professional opportunity (no disagreement)."
+  }
+ ],
+ "roles": [
+  {
+   "person_key": "jensen-huang",
+   "role": "ceo_director",
+   "start_date": "1993-04",
+   "end_date": null,
+   "precision": "month",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e005",
+    "e027",
+    "e011",
+    "e112"
+   ],
+   "notes": "President and CEO and a director since the company's inception (April 1993).",
+   "officer_title": "President and Chief Executive Officer"
+  },
+  {
+   "person_key": "jensen-huang",
+   "role": "non_independent_director",
+   "start_date": "1993-04",
+   "end_date": null,
+   "precision": "month",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e013",
+    "e011",
+    "e095"
+   ],
+   "notes": "The only non-independent director in every proxy reviewed (an employee)."
+  },
+  {
+   "person_key": "stephen-neal",
+   "role": "lead_independent_director",
+   "start_date": "2023-06-22",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e081",
+    "e080",
+    "e079",
+    "e073",
+    "e022",
+    "e015"
+   ],
+   "notes": "Appointed Lead Director as of the 2023 annual meeting (held 2023-06-22), contingent on re-election, which happened. NVIDIA has no board chair."
+  },
+  {
+   "person_key": "mark-perry",
+   "role": "lead_independent_director",
+   "start_date": "2018-03",
+   "end_date": "2023-06-22",
+   "precision": "month",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e099",
+    "e098",
+    "e080",
+    "e079",
+    "e077"
+   ],
+   "notes": "Lead Director effective March 2018 until the 2023 annual meeting."
+  },
+  {
+   "person_key": "tench-coxe",
+   "role": "independent_director",
+   "start_date": "1993-06",
+   "end_date": null,
+   "precision": "month",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e013",
+    "e016"
+   ],
+   "notes": "Independence aligned to board tenure; filings give point-in-time determinations only."
+  },
+  {
+   "person_key": "harvey-jones",
+   "role": "independent_director",
+   "start_date": "1993-11",
+   "end_date": null,
+   "precision": "month",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e013",
+    "e020"
+   ],
+   "notes": "Independence aligned to board tenure; filings give point-in-time determinations only."
+  },
+  {
+   "person_key": "brooke-seawell",
+   "role": "independent_director",
+   "start_date": "1997-12",
+   "end_date": null,
+   "precision": "month",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e013",
+    "e023"
+   ],
+   "notes": "Independence aligned to board tenure; filings give point-in-time determinations only."
+  },
+  {
+   "person_key": "mark-stevens",
+   "role": "independent_director",
+   "start_date": "2008-09-03",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e013",
+    "e025"
+   ],
+   "notes": "Independence aligned to board tenure; filings give point-in-time determinations only."
+  },
+  {
+   "person_key": "dawn-hudson",
+   "role": "independent_director",
+   "start_date": "2013-07-18",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e013",
+    "e019"
+   ],
+   "notes": "Independence aligned to board tenure; filings give point-in-time determinations only."
+  },
+  {
+   "person_key": "stephen-neal",
+   "role": "independent_director",
+   "start_date": "2019-03-30",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e013",
+    "e022"
+   ],
+   "notes": "Independence aligned to board tenure; filings give point-in-time determinations only."
+  },
+  {
+   "person_key": "john-dabiri",
+   "role": "independent_director",
+   "start_date": "2020-07-13",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e013",
+    "e017"
+   ],
+   "notes": "Independence aligned to board tenure; filings give point-in-time determinations only."
+  },
+  {
+   "person_key": "aarti-shah",
+   "role": "independent_director",
+   "start_date": "2020-11-09",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e013",
+    "e024"
+   ],
+   "notes": "Independence aligned to board tenure; filings give point-in-time determinations only."
+  },
+  {
+   "person_key": "melissa-lora",
+   "role": "independent_director",
+   "start_date": "2023-07-24",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e013",
+    "e021"
+   ],
+   "notes": "Independence aligned to board tenure; filings give point-in-time determinations only."
+  },
+  {
+   "person_key": "james-gaither",
+   "role": "independent_director",
+   "start_date": "1998-12",
+   "end_date": "2020-06-09",
+   "precision": "month",
+   "end_precision": "day",
+   "confidence": "medium",
+   "evidence_refs": [
+    "e095",
+    "e097"
+   ],
+   "notes": "Independence aligned to board tenure; filings give point-in-time determinations only."
+  },
+  {
+   "person_key": "mark-perry",
+   "role": "independent_director",
+   "start_date": "2005-05-17",
+   "end_date": "2024-06-26",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "medium",
+   "evidence_refs": [
+    "e074",
+    "e083"
+   ],
+   "notes": "Independence aligned to board tenure; filings give point-in-time determinations only."
+  },
+  {
+   "person_key": "michael-mccaffery",
+   "role": "independent_director",
+   "start_date": "2015-03-11",
+   "end_date": "2024-06-26",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "medium",
+   "evidence_refs": [
+    "e074",
+    "e082"
+   ],
+   "notes": "Independence aligned to board tenure; filings give point-in-time determinations only."
+  },
+  {
+   "person_key": "robert-burgess",
+   "role": "independent_director",
+   "start_date": "2011-12-08",
+   "end_date": "2025-12",
+   "precision": "day",
+   "end_precision": "month",
+   "confidence": "medium",
+   "evidence_refs": [
+    "e059",
+    "e061",
+    "e013"
+   ],
+   "notes": "Independence aligned to board tenure; filings give point-in-time determinations only."
+  },
+  {
+   "person_key": "persis-drell",
+   "role": "independent_director",
+   "start_date": "2015-03-11",
+   "end_date": "2026-01-20",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "medium",
+   "evidence_refs": [
+    "e059",
+    "e062",
+    "e013"
+   ],
+   "notes": "Independence aligned to board tenure; filings give point-in-time determinations only."
+  },
+  {
+   "person_key": "ellen-ochoa",
+   "role": "independent_director",
+   "start_date": "2024-11-07",
+   "end_date": "2025-07-31",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "medium",
+   "evidence_refs": [
+    "e059",
+    "e063",
+    "e013"
+   ],
+   "notes": "Independence aligned to board tenure; filings give point-in-time determinations only."
+  }
+ ],
+ "committees": [
+  {
+   "person_key": "brooke-seawell",
+   "committee": "audit",
+   "role": "chair",
+   "as_of_filing": "0001045810-26-000036",
+   "as_of_date": "2026-05-12",
+   "evidence_refs": [
+    "e028",
+    "e023"
+   ]
+  },
+  {
+   "person_key": "tench-coxe",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001045810-26-000036",
+   "as_of_date": "2026-05-12",
+   "evidence_refs": [
+    "e028",
+    "e016"
+   ]
+  },
+  {
+   "person_key": "harvey-jones",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001045810-26-000036",
+   "as_of_date": "2026-05-12",
+   "evidence_refs": [
+    "e028",
+    "e020"
+   ]
+  },
+  {
+   "person_key": "melissa-lora",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001045810-26-000036",
+   "as_of_date": "2026-05-12",
+   "evidence_refs": [
+    "e028",
+    "e021"
+   ]
+  },
+  {
+   "person_key": "aarti-shah",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001045810-26-000036",
+   "as_of_date": "2026-05-12",
+   "evidence_refs": [
+    "e028",
+    "e024"
+   ]
+  },
+  {
+   "person_key": "dawn-hudson",
+   "committee": "compensation",
+   "role": "chair",
+   "as_of_filing": "0001045810-26-000036",
+   "as_of_date": "2026-05-12",
+   "evidence_refs": [
+    "e029",
+    "e019"
+   ]
+  },
+  {
+   "person_key": "tench-coxe",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001045810-26-000036",
+   "as_of_date": "2026-05-12",
+   "evidence_refs": [
+    "e029",
+    "e016"
+   ]
+  },
+  {
+   "person_key": "john-dabiri",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001045810-26-000036",
+   "as_of_date": "2026-05-12",
+   "evidence_refs": [
+    "e029",
+    "e017"
+   ]
+  },
+  {
+   "person_key": "aarti-shah",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001045810-26-000036",
+   "as_of_date": "2026-05-12",
+   "evidence_refs": [
+    "e029",
+    "e024"
+   ]
+  },
+  {
+   "person_key": "mark-stevens",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001045810-26-000036",
+   "as_of_date": "2026-05-12",
+   "evidence_refs": [
+    "e029",
+    "e025"
+   ]
+  },
+  {
+   "person_key": "stephen-neal",
+   "committee": "nominating_governance",
+   "role": "chair",
+   "as_of_filing": "0001045810-26-000036",
+   "as_of_date": "2026-05-12",
+   "evidence_refs": [
+    "e030",
+    "e022"
+   ]
+  },
+  {
+   "person_key": "john-dabiri",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001045810-26-000036",
+   "as_of_date": "2026-05-12",
+   "evidence_refs": [
+    "e030",
+    "e017"
+   ]
+  },
+  {
+   "person_key": "harvey-jones",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001045810-26-000036",
+   "as_of_date": "2026-05-12",
+   "evidence_refs": [
+    "e030",
+    "e020"
+   ]
+  },
+  {
+   "person_key": "melissa-lora",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001045810-26-000036",
+   "as_of_date": "2026-05-12",
+   "evidence_refs": [
+    "e030",
+    "e021"
+   ]
+  },
+  {
+   "person_key": "mark-stevens",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001045810-26-000036",
+   "as_of_date": "2026-05-12",
+   "evidence_refs": [
+    "e030",
+    "e025"
+   ]
+  },
+  {
+   "person_key": "suzanne-nora-johnson",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001045810-26-000028",
+   "as_of_date": "2026-05-08",
+   "evidence_refs": [
+    "e053",
+    "e032"
+   ],
+   "notes": "Appointed to the AC effective 2026-07-13 per her appointment 8-K; not yet in a proxy.",
+   "effective_date": "2026-07-13"
+  },
+  {
+   "person_key": "robert-burgess",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001045810-25-000095",
+   "as_of_date": "2025-05-13",
+   "evidence_refs": [
+    "e061",
+    "e060",
+    "e038"
+   ],
+   "notes": "Membership until the 2025 meeting; the 2025 proxy moves him to the NCGC after the meeting."
+  },
+  {
+   "person_key": "persis-drell",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001045810-25-000095",
+   "as_of_date": "2025-05-13",
+   "evidence_refs": [
+    "e062",
+    "e060"
+   ],
+   "notes": "Membership until the 2025 meeting; moved to the CC after the meeting (CC member when she resigned)."
+  },
+  {
+   "person_key": "ellen-ochoa",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001045810-25-000095",
+   "as_of_date": "2025-05-13",
+   "evidence_refs": [
+    "e063",
+    "e060"
+   ]
+  },
+  {
+   "person_key": "persis-drell",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001045810-26-000003",
+   "as_of_date": "2026-01-20",
+   "evidence_refs": [
+    "e052"
+   ],
+   "notes": "CC member at her resignation."
+  },
+  {
+   "person_key": "ellen-ochoa",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001045810-25-000197",
+   "as_of_date": "2025-07-31",
+   "evidence_refs": [
+    "e057"
+   ],
+   "notes": "NCGC member at her resignation."
+  },
+  {
+   "person_key": "michael-mccaffery",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001045810-24-000104",
+   "as_of_date": "2024-05-14",
+   "evidence_refs": [
+    "e075"
+   ]
+  },
+  {
+   "person_key": "mark-perry",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001045810-24-000104",
+   "as_of_date": "2024-05-14",
+   "evidence_refs": [
+    "e075"
+   ]
+  },
+  {
+   "person_key": "mark-perry",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001045810-24-000104",
+   "as_of_date": "2024-05-14",
+   "evidence_refs": [
+    "e076"
+   ]
+  },
+  {
+   "person_key": "james-gaither",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001045810-20-000055",
+   "as_of_date": "2020-04-29",
+   "evidence_refs": [
+    "e094"
+   ]
+  }
+ ],
+ "events": [
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "jensen-huang",
+   "event_date": "1993-04",
+   "announced_date": null,
+   "evidence_refs": [
+    "e005",
+    "e003"
+   ],
+   "summary": "Jen-Hsun Huang, co-founder, on the board since inception (April 1993).",
+   "event_date_precision": "month"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "tench-coxe",
+   "event_date": "1993-06",
+   "announced_date": null,
+   "evidence_refs": [
+    "e006"
+   ],
+   "summary": "Tench Coxe joins board.",
+   "event_date_precision": "month"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "mark-stevens",
+   "event_date": "1993-06",
+   "announced_date": null,
+   "evidence_refs": [
+    "e010"
+   ],
+   "summary": "Mark A. Stevens joins board (first stint).",
+   "event_date_precision": "month"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "harvey-jones",
+   "event_date": "1993-11",
+   "announced_date": null,
+   "evidence_refs": [
+    "e008"
+   ],
+   "summary": "Harvey C. Jones joins board.",
+   "event_date_precision": "month"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "brooke-seawell",
+   "event_date": "1997-12",
+   "announced_date": null,
+   "evidence_refs": [
+    "e009"
+   ],
+   "summary": "A. Brooke Seawell joins board.",
+   "event_date_precision": "month"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "james-gaither",
+   "event_date": "1998-12",
+   "announced_date": null,
+   "evidence_refs": [
+    "e007",
+    "e097"
+   ],
+   "summary": "James C. Gaither joins board.",
+   "event_date_precision": "month"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "mark-perry",
+   "event_date": "2005-05-17",
+   "announced_date": "2005-05-20",
+   "evidence_refs": [
+    "e110",
+    "e132"
+   ],
+   "summary": "Mark L. Perry elected to the board (effective 2005-05-17).",
+   "event_date_precision": "day",
+   "decision_date": "2005-05-16"
+  },
+  {
+   "type": "BOARD_SIZE_CHANGE",
+   "person_key": null,
+   "event_date": "2005-05-17",
+   "announced_date": "2005-05-20",
+   "evidence_refs": [
+    "e111"
+   ],
+   "summary": "Board increased from eight to nine for Perry.",
+   "event_date_precision": "day",
+   "from_size": 8,
+   "to_size": 9
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "mark-stevens",
+   "event_date": "2006-06-22",
+   "announced_date": "2006-05-12",
+   "evidence_refs": [
+    "e107",
+    "e109",
+    "e106"
+   ],
+   "summary": "Mark A. Stevens retires at the 2006 annual meeting at the end of his term.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_SIZE_CHANGE",
+   "person_key": null,
+   "event_date": "2006-06-22",
+   "announced_date": "2006-05-12",
+   "evidence_refs": [
+    "e108",
+    "e109"
+   ],
+   "summary": "Board reduced from nine to eight on Stevens' retirement.",
+   "event_date_precision": "day",
+   "from_size": 9,
+   "to_size": 8
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "mark-stevens",
+   "event_date": "2008-09-03",
+   "announced_date": "2008-09-08",
+   "evidence_refs": [
+    "e104",
+    "e117"
+   ],
+   "summary": "Mark A. Stevens rejoins the board.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_SIZE_CHANGE",
+   "person_key": null,
+   "event_date": "2008-09-03",
+   "announced_date": "2008-09-08",
+   "evidence_refs": [
+    "e105"
+   ],
+   "summary": "Board increased from eight to nine for Stevens' return.",
+   "event_date_precision": "day",
+   "from_size": 8,
+   "to_size": 9
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "robert-burgess",
+   "event_date": "2011-12-08",
+   "announced_date": "2011-12-14",
+   "evidence_refs": [
+    "e103",
+    "e133"
+   ],
+   "summary": "Robert K. Burgess appointed to the board.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "dawn-hudson",
+   "event_date": "2013-07-18",
+   "announced_date": "2013-07-23",
+   "evidence_refs": [
+    "e101",
+    "e119"
+   ],
+   "summary": "Dawn Hudson appointed to the board.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "michael-mccaffery",
+   "event_date": "2015-03-11",
+   "announced_date": "2015-03-11",
+   "evidence_refs": [
+    "e100",
+    "e130"
+   ],
+   "summary": "Michael G. McCaffery appointed to the board (and the AC).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "persis-drell",
+   "event_date": "2015-03-11",
+   "announced_date": "2015-03-11",
+   "evidence_refs": [
+    "e100",
+    "e131"
+   ],
+   "summary": "Persis S. Drell appointed to the board.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "mark-perry",
+   "event_date": "2018-03",
+   "announced_date": null,
+   "evidence_refs": [
+    "e099",
+    "e098"
+   ],
+   "summary": "Mark L. Perry becomes Lead Director (effective March 2018).",
+   "event_date_precision": "month"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "stephen-neal",
+   "event_date": "2019-03-30",
+   "announced_date": "2019-04-01",
+   "evidence_refs": [
+    "e096",
+    "e121"
+   ],
+   "summary": "Stephen C. Neal appointed to the board.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "james-gaither",
+   "event_date": "2020-06-09",
+   "announced_date": "2020-04-29",
+   "evidence_refs": [
+    "e091",
+    "e089",
+    "e090"
+   ],
+   "summary": "James C. Gaither retires, not standing for re-election at the 2020 annual meeting.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_SIZE_CHANGE",
+   "person_key": null,
+   "event_date": "2020-06-09",
+   "announced_date": "2020-04-29",
+   "evidence_refs": [
+    "e091",
+    "e090"
+   ],
+   "summary": "Board goes from 12 to 11 members at the 2020 meeting on Gaither's retirement.",
+   "event_date_precision": "day",
+   "from_size": 12,
+   "to_size": 11
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "john-dabiri",
+   "event_date": "2020-07-13",
+   "announced_date": "2020-07-13",
+   "evidence_refs": [
+    "e088",
+    "e123"
+   ],
+   "summary": "John O. Dabiri appointed to the board.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "aarti-shah",
+   "event_date": "2020-11-09",
+   "announced_date": "2020-11-09",
+   "evidence_refs": [
+    "e087",
+    "e125"
+   ],
+   "summary": "Aarti Shah appointed to the board.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "stephen-neal",
+   "event_date": "2023-06-22",
+   "announced_date": "2023-05-08",
+   "evidence_refs": [
+    "e081",
+    "e080",
+    "e079",
+    "e073"
+   ],
+   "summary": "Stephen C. Neal succeeds Mark L. Perry as Lead Director at the 2023 annual meeting.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "mark-perry",
+   "event_date": "2023-06-22",
+   "announced_date": "2023-05-08",
+   "evidence_refs": [
+    "e080",
+    "e079"
+   ],
+   "summary": "Mark L. Perry's Lead Director term ends at the 2023 annual meeting.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "melissa-lora",
+   "event_date": "2023-07-24",
+   "announced_date": "2023-07-24",
+   "evidence_refs": [
+    "e078",
+    "e127"
+   ],
+   "summary": "Melissa B. Lora appointed to the board (and the AC).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_SIZE_CHANGE",
+   "person_key": null,
+   "event_date": "2023-07-24",
+   "announced_date": "2023-07-24",
+   "evidence_refs": [
+    "e078"
+   ],
+   "summary": "Board increased from thirteen to fourteen for Lora.",
+   "event_date_precision": "day",
+   "from_size": 13,
+   "to_size": 14
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "mark-perry",
+   "event_date": "2024-06-26",
+   "announced_date": "2024-05-14",
+   "evidence_refs": [
+    "e071",
+    "e070"
+   ],
+   "summary": "Mark L. Perry does not stand for re-election; service ends at the 2024 annual meeting.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "michael-mccaffery",
+   "event_date": "2024-06-26",
+   "announced_date": "2024-05-14",
+   "evidence_refs": [
+    "e071",
+    "e070"
+   ],
+   "summary": "Michael G. McCaffery does not stand for re-election; service ends at the 2024 annual meeting.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_SIZE_CHANGE",
+   "person_key": null,
+   "event_date": "2024-06-26",
+   "announced_date": "2024-05-14",
+   "evidence_refs": [
+    "e071",
+    "e072",
+    "e070"
+   ],
+   "summary": "Board reduced from 14 to 12 at the 2024 meeting.",
+   "event_date_precision": "day",
+   "from_size": 14,
+   "to_size": 12
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "ellen-ochoa",
+   "event_date": "2024-11-07",
+   "announced_date": "2024-11-07",
+   "evidence_refs": [
+    "e069",
+    "e134"
+   ],
+   "summary": "Ellen Ochoa appointed to the board.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_SIZE_CHANGE",
+   "person_key": null,
+   "event_date": "2024-11-07",
+   "announced_date": "2024-11-07",
+   "evidence_refs": [
+    "e069"
+   ],
+   "summary": "Board increased from twelve to thirteen for Ochoa.",
+   "event_date_precision": "day",
+   "from_size": 12,
+   "to_size": 13
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "ellen-ochoa",
+   "event_date": "2025-07-31",
+   "announced_date": "2025-08-05",
+   "evidence_refs": [
+    "e057",
+    "e037"
+   ],
+   "summary": "Ellen Ochoa resigns for personal reasons, effective immediately.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "robert-burgess",
+   "event_date": "2025-12",
+   "announced_date": "2026-05-12",
+   "evidence_refs": [
+    "e035",
+    "e034"
+   ],
+   "summary": "Robert K. Burgess dies in December 2025 while serving as a director (disclosed in the 2026 proxy).",
+   "event_date_precision": "month"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "persis-drell",
+   "event_date": "2026-01-20",
+   "announced_date": "2026-01-23",
+   "evidence_refs": [
+    "e052",
+    "e036"
+   ],
+   "summary": "Persis S. Drell resigns, effective immediately, to pursue a new professional opportunity.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "suzanne-nora-johnson",
+   "event_date": "2026-07-13",
+   "announced_date": "2026-05-08",
+   "evidence_refs": [
+    "e053",
+    "e031",
+    "e128"
+   ],
+   "summary": "Suzanne Nora Johnson joins the board (and the AC), effective 2026-07-13.",
+   "event_date_precision": "day",
+   "decision_date": "2026-05-07"
+  },
+  {
+   "type": "BOARD_SIZE_CHANGE",
+   "person_key": null,
+   "event_date": "2026-07-13",
+   "announced_date": "2026-05-08",
+   "evidence_refs": [
+    "e053",
+    "e031"
+   ],
+   "summary": "Board increased from ten to eleven for Nora Johnson (approved 2026-05-07).",
+   "event_date_precision": "day",
+   "from_size": 10,
+   "to_size": 11,
+   "decision_date": "2026-05-07"
+  }
+ ],
+ "evidence": [
+  {
+   "id": "e001",
+   "form": "10-K",
+   "accession": "0001045810-26-000021",
+   "filing_date": "2026-02-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+   "quote": "Public trading of our common stock began on January 22, 1999.",
+   "supports": "IPO first trading day 1999-01-22."
+  },
+  {
+   "id": "e002",
+   "form": "10-K",
+   "accession": "0001045810-26-000021",
+   "filing_date": "2026-02-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+   "quote": "Our common stock is traded on the Nasdaq Global Select Market under the symbol NVDA.",
+   "supports": "Exchange and ticker."
+  },
+  {
+   "id": "e003",
+   "form": "424B4",
+   "accession": "0001012870-99-000192",
+   "filing_date": "1999-01-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000101287099000192/0001012870-99-000192.txt",
+   "quote": "NVIDIA was incorporated in California in April 1993 and reincorporated in Delaware in April 1998.",
+   "supports": "Incorporation (April 1993, California) and Delaware reincorporation (April 1998); dates the company's inception for Huang's board start."
+  },
+  {
+   "id": "e004",
+   "form": "424B4",
+   "accession": "0001012870-99-000192",
+   "filing_date": "1999-01-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000101287099000192/0001012870-99-000192.txt",
+   "quote": "The Company's Board of Directors (the \"Board\") is currently composed of six directors.",
+   "supports": "Board size at IPO: six directors."
+  },
+  {
+   "id": "e005",
+   "form": "424B4",
+   "accession": "0001012870-99-000192",
+   "filing_date": "1999-01-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000101287099000192/0001012870-99-000192.txt",
+   "quote": "Jen-Hsun Huang co-founded the Company in April 1993 and has served as President, Chief Executive Officer and a member of the Board of Directors of the Company since its inception.",
+   "supports": "Huang: co-founder, President, CEO and director since inception (April 1993)."
+  },
+  {
+   "id": "e006",
+   "form": "424B4",
+   "accession": "0001012870-99-000192",
+   "filing_date": "1999-01-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000101287099000192/0001012870-99-000192.txt",
+   "quote": "Tench Coxe has served as a director of the Company since June 1993.",
+   "supports": "Coxe board start June 1993."
+  },
+  {
+   "id": "e007",
+   "form": "424B4",
+   "accession": "0001012870-99-000192",
+   "filing_date": "1999-01-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000101287099000192/0001012870-99-000192.txt",
+   "quote": "James C. Gaither has served as a director of the Company since December 1998.",
+   "supports": "Gaither board start December 1998."
+  },
+  {
+   "id": "e008",
+   "form": "424B4",
+   "accession": "0001012870-99-000192",
+   "filing_date": "1999-01-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000101287099000192/0001012870-99-000192.txt",
+   "quote": "Harvey C. Jones, Jr. has served as a director of the Company since November 1993.",
+   "supports": "Jones board start November 1993."
+  },
+  {
+   "id": "e009",
+   "form": "424B4",
+   "accession": "0001012870-99-000192",
+   "filing_date": "1999-01-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000101287099000192/0001012870-99-000192.txt",
+   "quote": "A. Brooke Seawell has served as a director of the Company since December 1997.",
+   "supports": "Seawell board start December 1997."
+  },
+  {
+   "id": "e010",
+   "form": "424B4",
+   "accession": "0001012870-99-000192",
+   "filing_date": "1999-01-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000101287099000192/0001012870-99-000192.txt",
+   "quote": "Mark A. Stevens has served as a director of the Company since June 1993.",
+   "supports": "Stevens first-stint start June 1993."
+  },
+  {
+   "id": "e011",
+   "form": "DEF 14A",
+   "accession": "0001045810-26-000036",
+   "filing_date": "2026-05-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000036/nvda-20260512.htm",
+   "quote": "Our Board currently consists of 10 members. Our nominees include 9 independent directors, as defined by the rules and regulations of Nasdaq, and one NVIDIA officer: Mr. Huang, who serves as our President and CEO.",
+   "supports": "Board of 10 at 2026 proxy; 9 independent; Huang is the only officer-director."
+  },
+  {
+   "id": "e012",
+   "form": "DEF 14A",
+   "accession": "0001045810-26-000036",
+   "filing_date": "2026-05-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000036/nvda-20260512.htm",
+   "quote": "All of our directors have one-year terms and stand for election annually.",
+   "supports": "Declassified board: no director classes."
+  },
+  {
+   "id": "e013",
+   "form": "DEF 14A",
+   "accession": "0001045810-26-000036",
+   "filing_date": "2026-05-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000036/nvda-20260512.htm",
+   "quote": "After considering all relevant relationships and transactions, our Board determined that, except for Mr. Huang, all of our directors who currently serve on the Board are, and all of our directors who served on the Board during Fiscal 2026 were, “independent” as defined by Nasdaq’s rules and regulations.",
+   "supports": "2026 independence determination: all directors except Huang independent, including those who served during Fiscal 2026 (Burgess, Drell, Ochoa)."
+  },
+  {
+   "id": "e014",
+   "form": "DEF 14A",
+   "accession": "0001045810-26-000036",
+   "filing_date": "2026-05-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000036/nvda-20260512.htm",
+   "quote": "Our Board ensures that each member has an equal voice in the affairs and management of NVIDIA by having an independent Lead Director, rather than a chairperson.",
+   "supports": "No board chair; independent Lead Director structure."
+  },
+  {
+   "id": "e015",
+   "form": "DEF 14A",
+   "accession": "0001045810-26-000036",
+   "filing_date": "2026-05-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000036/nvda-20260512.htm",
+   "quote": "As Lead Director, Mr. Neal has participated in our annual stockholder outreach meetings and we expect this practice to continue.",
+   "supports": "Neal is the current Lead Director."
+  },
+  {
+   "id": "e016",
+   "form": "DEF 14A",
+   "accession": "0001045810-26-000036",
+   "filing_date": "2026-05-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000036/nvda-20260512.htm",
+   "quote": "Tench Coxe 68 1993 Former Managing Director, Sutter Hill Ventures ü AC, CC",
+   "supports": "Coxe: director since 1993, independent, AC and CC member.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e017",
+   "form": "DEF 14A",
+   "accession": "0001045810-26-000036",
+   "filing_date": "2026-05-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000036/nvda-20260512.htm",
+   "quote": "John O. Dabiri 46 2020 Centennial Professor of Aeronautics and Mechanical Engineering, California Institute of Technology ü CC, NCGC",
+   "supports": "Dabiri: director since 2020, independent, CC and NCGC member.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e018",
+   "form": "DEF 14A",
+   "accession": "0001045810-26-000036",
+   "filing_date": "2026-05-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000036/nvda-20260512.htm",
+   "quote": "Jen-Hsun Huang 63 1993 President & CEO, NVIDIA Corporation",
+   "supports": "Huang: director since 1993, President & CEO, no committees.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e019",
+   "form": "DEF 14A",
+   "accession": "0001045810-26-000036",
+   "filing_date": "2026-05-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000036/nvda-20260512.htm",
+   "quote": "Dawn Hudson 68 2013 Former Chief Marketing Officer, National Football League & Former CEO Pepsi-Cola North America ü ü CC Chairperson",
+   "supports": "Hudson: director since 2013, independent, CC Chairperson.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e020",
+   "form": "DEF 14A",
+   "accession": "0001045810-26-000036",
+   "filing_date": "2026-05-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000036/nvda-20260512.htm",
+   "quote": "Harvey C. Jones 73 1993 Managing Partner, Square Wave Ventures ü ü AC, NCGC",
+   "supports": "Jones: director since 1993, independent, AC and NCGC member.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e021",
+   "form": "DEF 14A",
+   "accession": "0001045810-26-000036",
+   "filing_date": "2026-05-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000036/nvda-20260512.htm",
+   "quote": "Melissa B. Lora 63 2023 Former President, Taco Bell International ü ü AC, NCGC",
+   "supports": "Lora: director since 2023, independent, AC and NCGC member.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e022",
+   "form": "DEF 14A",
+   "accession": "0001045810-26-000036",
+   "filing_date": "2026-05-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000036/nvda-20260512.htm",
+   "quote": "Stephen C. Neal (Lead Director) 77 2019 Chairman Emeritus & Senior Counsel, Cooley LLP ü NCGC Chairperson",
+   "supports": "Neal: Lead Director, director since 2019, independent, NCGC Chairperson.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e023",
+   "form": "DEF 14A",
+   "accession": "0001045810-26-000036",
+   "filing_date": "2026-05-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000036/nvda-20260512.htm",
+   "quote": "A. Brooke Seawell 78 1997 Venture Partner, New Enterprise Associates ü ü AC Chairperson",
+   "supports": "Seawell: director since 1997, independent, AC Chairperson.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e024",
+   "form": "DEF 14A",
+   "accession": "0001045810-26-000036",
+   "filing_date": "2026-05-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000036/nvda-20260512.htm",
+   "quote": "Aarti Shah 61 2020 Former Senior Vice President & Chief Information and Digital Officer, Eli Lilly and Company ü AC, CC",
+   "supports": "Shah: director since 2020, independent, AC and CC member.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e025",
+   "form": "DEF 14A",
+   "accession": "0001045810-26-000036",
+   "filing_date": "2026-05-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000036/nvda-20260512.htm",
+   "quote": "Mark A. Stevens 66 2008 (2) Managing Partner, S-Cubed Capital ü CC, NCGC",
+   "supports": "Stevens: director since 2008 (current stint), independent, CC and NCGC member.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e026",
+   "form": "DEF 14A",
+   "accession": "0001045810-26-000036",
+   "filing_date": "2026-05-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000036/nvda-20260512.htm",
+   "quote": "(2) Previously served as a member of our Board from 1993 until 2006.",
+   "supports": "Stevens' earlier stint 1993-2006.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e027",
+   "form": "DEF 14A",
+   "accession": "0001045810-26-000036",
+   "filing_date": "2026-05-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000036/nvda-20260512.htm",
+   "quote": "Jen-Hsun Huang founded NVIDIA in 1993 and has served since its inception as President, Chief Executive Officer, and a member of the Board.",
+   "supports": "Huang: founder; President, CEO and director since inception."
+  },
+  {
+   "id": "e028",
+   "form": "DEF 14A",
+   "accession": "0001045810-26-000036",
+   "filing_date": "2026-05-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000036/nvda-20260512.htm",
+   "quote": "AC Members as of our 2026 Meeting •A. Brooke Seawell (Chairperson) •Tench Coxe •Harvey C. Jones •Melissa B. Lora •Aarti Shah",
+   "supports": "Audit Committee roster (2026 proxy).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e029",
+   "form": "DEF 14A",
+   "accession": "0001045810-26-000036",
+   "filing_date": "2026-05-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000036/nvda-20260512.htm",
+   "quote": "CC Members as of our 2026 Meeting •Dawn Hudson (Chairperson) •Tench Coxe •John O. Dabiri •Aarti Shah •Mark A. Stevens",
+   "supports": "Compensation Committee roster (2026 proxy).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e030",
+   "form": "DEF 14A",
+   "accession": "0001045810-26-000036",
+   "filing_date": "2026-05-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000036/nvda-20260512.htm",
+   "quote": "NCGC Members as of our 2026 Meeting •Stephen C. Neal (Chairperson) •John O. Dabiri •Harvey C. Jones •Melissa B. Lora •Mark A. Stevens",
+   "supports": "Nominating and Corporate Governance Committee roster (2026 proxy).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e031",
+   "form": "DEF 14A",
+   "accession": "0001045810-26-000036",
+   "filing_date": "2026-05-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000036/nvda-20260512.htm",
+   "quote": "On May 7, 2026, the Board approved an increase in the size of the Board from ten to eleven directors and appointed Suzanne Nora Johnson to fill the newly created directorship, in each case effective July 13, 2026.",
+   "supports": "Nora Johnson appointment approved 2026-05-07, effective 2026-07-13; board size 10 to 11."
+  },
+  {
+   "id": "e032",
+   "form": "DEF 14A",
+   "accession": "0001045810-26-000036",
+   "filing_date": "2026-05-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000036/nvda-20260512.htm",
+   "quote": "Ms. Nora Johnson is not currently a member of the Board and is not a nominee for election at the 2026 Meeting. She is expected to join the AC on the effective date of her appointment.",
+   "supports": "Nora Johnson not on the board at the 2026 proxy; expected to join the AC."
+  },
+  {
+   "id": "e033",
+   "form": "DEF 14A",
+   "accession": "0001045810-26-000036",
+   "filing_date": "2026-05-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000036/nvda-20260512.htm",
+   "quote": "She currently serves on the board of directors of Pfizer Inc., and serves on the Boards of Trustees of The Brookings Institution, the Broad Foundation, and the University of Southern California.",
+   "supports": "Nora Johnson's other public board: Pfizer Inc. (current)."
+  },
+  {
+   "id": "e034",
+   "form": "DEF 14A",
+   "accession": "0001045810-26-000036",
+   "filing_date": "2026-05-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000036/nvda-20260512.htm",
+   "quote": "The Board of Directors and the entire NVIDIA family mourn the passing of Robert K. Burgess, who served as a valued member of our Board from 2011 to 2025.",
+   "supports": "Burgess died; board service 2011 to 2025."
+  },
+  {
+   "id": "e035",
+   "form": "DEF 14A",
+   "accession": "0001045810-26-000036",
+   "filing_date": "2026-05-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000036/nvda-20260512.htm",
+   "quote": "(2) Mr. Burgess passed away in December 2025, prior to the date of the final quarterly cash retainer payment under the 2025 Program.",
+   "supports": "Burgess died in December 2025 (month only)."
+  },
+  {
+   "id": "e036",
+   "form": "DEF 14A",
+   "accession": "0001045810-26-000036",
+   "filing_date": "2026-05-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000036/nvda-20260512.htm",
+   "quote": "(2) Dr. Drell resigned from the Board in January 2026.",
+   "supports": "Drell resigned January 2026 (corroborates 8-K)."
+  },
+  {
+   "id": "e037",
+   "form": "DEF 14A",
+   "accession": "0001045810-26-000036",
+   "filing_date": "2026-05-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000036/nvda-20260512.htm",
+   "quote": "(3) Dr. Ochoa resigned from the Board in July 2025, prior to the dates of the two final quarterly cash retainer payments under the 2025 Program.",
+   "supports": "Ochoa resigned July 2025 (corroborates 8-K)."
+  },
+  {
+   "id": "e038",
+   "form": "DEF 14A",
+   "accession": "0001045810-26-000036",
+   "filing_date": "2026-05-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000036/nvda-20260512.htm",
+   "quote": "At the beginning of Fiscal 2026, the CC initially consisted of Messrs. Burgess and Coxe, Ms. Hudson, and Drs. Dabiri and Shah.",
+   "supports": "Burgess was on the CC at the start of Fiscal 2026 (left it after the 2025 meeting)."
+  },
+  {
+   "id": "e039",
+   "form": "DEF 14A",
+   "accession": "0001045810-26-000036",
+   "filing_date": "2026-05-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000036/nvda-20260512.htm",
+   "quote": "He was a director of Artisan Partners Asset Management Inc., an institutional money management firm from 1995 to 2025.",
+   "supports": "Coxe former board: Artisan Partners (1995-2025)."
+  },
+  {
+   "id": "e040",
+   "form": "DEF 14A",
+   "accession": "0001045810-26-000036",
+   "filing_date": "2026-05-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000036/nvda-20260512.htm",
+   "quote": "She was a director of P.F. Chang’s China Bistro, Inc., a restaurant chain, from 2010 to 2012; of Allergan, Inc., a biopharmaceutical company, from 2008 to 2014; of Lowes Companies, Inc., a home improvement retailer, from 2001 to 2015;",
+   "supports": "Hudson former boards (part 1)."
+  },
+  {
+   "id": "e041",
+   "form": "DEF 14A",
+   "accession": "0001045810-26-000036",
+   "filing_date": "2026-05-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000036/nvda-20260512.htm",
+   "quote": "of Amplify Snack Brands, Inc., a snack food company, from 2014 to 2018; of Modern Times Group MTG AB, a gaming company, from 2020 to 2023; and of the Interpublic Group of Companies, Inc., an advertising company, from 2011 to 2025.",
+   "supports": "Hudson former boards (part 2)."
+  },
+  {
+   "id": "e042",
+   "form": "DEF 14A",
+   "accession": "0001045810-26-000036",
+   "filing_date": "2026-05-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000036/nvda-20260512.htm",
+   "quote": "Between 1987 and 1998, he led Synopsys, Inc., a major electronic design automation company, serving as its Chief Executive Officer for seven years and then as Executive Chairman.",
+   "supports": "Jones: former CEO and Executive Chairman of Synopsys."
+  },
+  {
+   "id": "e043",
+   "form": "DEF 14A",
+   "accession": "0001045810-26-000036",
+   "filing_date": "2026-05-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000036/nvda-20260512.htm",
+   "quote": "Ms. Lora served on the board of directors of KB Home, a homebuilding company, from 2004 to April 2024, and was a Lead Independent Director thereof from 2016.",
+   "supports": "Lora former board: KB Home (2004 to April 2024)."
+  },
+  {
+   "id": "e044",
+   "form": "DEF 14A",
+   "accession": "0001045810-26-000036",
+   "filing_date": "2026-05-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000036/nvda-20260512.htm",
+   "quote": "She has served on the board of directors of Conagra Brands, Inc., a consumer packaged goods holding company, since 2019",
+   "supports": "Lora current board: Conagra Brands (since 2019)."
+  },
+  {
+   "id": "e045",
+   "form": "DEF 14A",
+   "accession": "0001045810-26-000036",
+   "filing_date": "2026-05-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000036/nvda-20260512.htm",
+   "quote": "Ms. Lora previously served on the board of directors of MGIC Investment Corporation from 2018 to 2022.",
+   "supports": "Lora former board: MGIC Investment (2018-2022)."
+  },
+  {
+   "id": "e046",
+   "form": "DEF 14A",
+   "accession": "0001045810-26-000036",
+   "filing_date": "2026-05-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000036/nvda-20260512.htm",
+   "quote": "Mr. Neal served on the board of directors of Levi Strauss & Co. from 2007 to 2021 and as Chairperson from 2011 to 2021.",
+   "supports": "Neal former board: Levi Strauss & Co. (2007-2021)."
+  },
+  {
+   "id": "e047",
+   "form": "DEF 14A",
+   "accession": "0001045810-26-000036",
+   "filing_date": "2026-05-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000036/nvda-20260512.htm",
+   "quote": "Other Current Public Company Boards: Tenable Holdings, Inc. (since 2017)",
+   "supports": "Seawell current board: Tenable Holdings (since 2017)."
+  },
+  {
+   "id": "e048",
+   "form": "DEF 14A",
+   "accession": "0001045810-26-000036",
+   "filing_date": "2026-05-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000036/nvda-20260512.htm",
+   "quote": "Mr. Seawell served on the board of directors and as audit chair of Glu Mobile, Inc., a publisher of mobile games, from 2006 to 2014, of Informatica Corp., a data integration software company, from 1997 to 2015, of Tableau Software, Inc., a business intelligence software company, from 2011 to 2019, and of Eargo, Inc., a medical device company, from 2020 to 2022.",
+   "supports": "Seawell former boards."
+  },
+  {
+   "id": "e049",
+   "form": "DEF 14A",
+   "accession": "0001045810-26-000036",
+   "filing_date": "2026-05-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000036/nvda-20260512.htm",
+   "quote": "Other Current Public Company Boards: Conagra Brands, Inc. (since 2019)",
+   "supports": "Lora current public board: Conagra Brands (since 2019)."
+  },
+  {
+   "id": "e050",
+   "form": "DEF 14A",
+   "accession": "0001045810-26-000036",
+   "filing_date": "2026-05-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000036/nvda-20260512.htm",
+   "quote": "Other Current Public Company Boards: Sandoz Group AG (since 2023)",
+   "supports": "Shah current board: Sandoz Group AG (since 2023)."
+  },
+  {
+   "id": "e051",
+   "form": "DEF 14A",
+   "accession": "0001045810-26-000036",
+   "filing_date": "2026-05-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000036/nvda-20260512.htm",
+   "quote": "He was a director of Quantenna Communications, Inc., a provider of Wi-Fi solutions, from 2016 until 2019.",
+   "supports": "Stevens former board: Quantenna (2016-2019)."
+  },
+  {
+   "id": "e052",
+   "form": "8-K",
+   "accession": "0001045810-26-000003",
+   "filing_date": "2026-01-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000003/nvda-20260120.htm",
+   "quote": "On January 20, 2026, Persis Drell resigned from the Board of Directors, or the Board, of NVIDIA Corporation, or the Company, including as a member of the Compensation Committee of the Board, effective immediately.",
+   "supports": "Drell resigned 2026-01-20, effective immediately; CC member at departure."
+  },
+  {
+   "id": "e053",
+   "form": "8-K",
+   "accession": "0001045810-26-000028",
+   "filing_date": "2026-05-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000028/nvda-20260507.htm",
+   "quote": "On May 7, 2026, the Board of Directors, or the Board, of NVIDIA Corporation appointed Suzanne Nora Johnson as a member of the Board and as a member of the Audit Committee of the Board and the number of directors constituting the full Board was increased from ten to eleven, in each case effective July 13, 2026.",
+   "supports": "Nora Johnson appointed (board action 2026-05-07) effective 2026-07-13, to the AC; board size 10 to 11."
+  },
+  {
+   "id": "e054",
+   "form": "8-K",
+   "accession": "0001045810-26-000056",
+   "filing_date": "2026-06-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000056/nvda-20260624.htm",
+   "quote": "On June 24, 2026, at the 2026 Annual Meeting of Stockholders of NVIDIA Corporation, or the 2026 Annual Meeting, the following proposals were adopted or rejected by the margin indicated.",
+   "supports": "2026 annual meeting held 2026-06-24."
+  },
+  {
+   "id": "e055",
+   "form": "8-K",
+   "accession": "0001045810-26-000056",
+   "filing_date": "2026-06-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000056/nvda-20260624.htm",
+   "quote": "Stockholders approved the election of each of our ten (10) director nominees to hold office until the 2027 Annual Meeting of Stockholders of NVIDIA Corporation",
+   "supports": "All ten 2026 nominees elected."
+  },
+  {
+   "id": "e056",
+   "form": "8-K",
+   "accession": "0001045810-26-000073",
+   "filing_date": "2026-08-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27pr.htm",
+   "quote": "said Jensen Huang, founder and CEO of NVIDIA.",
+   "supports": "Company uses the name 'Jensen Huang' in its press releases."
+  },
+  {
+   "id": "e057",
+   "form": "8-K",
+   "accession": "0001045810-25-000197",
+   "filing_date": "2025-08-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000197/nvda-20250731.htm",
+   "quote": "On July 31, 2025, Ellen Ochoa resigned from the Board of Directors, or the Board, of NVIDIA Corporation, or the Company, including as a member of the Nominating and Corporate Governance Committee of the Board, effective immediately.",
+   "supports": "Ochoa resigned 2025-07-31, effective immediately; NCGC member at departure."
+  },
+  {
+   "id": "e058",
+   "form": "8-K",
+   "accession": "0001045810-25-000179",
+   "filing_date": "2025-07-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000179/nvda-20250625.htm",
+   "quote": "On June 25, 2025, at the 2025 Annual Meeting of Stockholders of NVIDIA Corporation, or the 2025 Annual Meeting, the following proposals were adopted or rejected by the margin indicated.",
+   "supports": "2025 annual meeting held 2025-06-25 (Burgess, Drell, Ochoa re-elected)."
+  },
+  {
+   "id": "e059",
+   "form": "DEF 14A",
+   "accession": "0001045810-25-000095",
+   "filing_date": "2025-05-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000095/nvda-20250512.htm",
+   "quote": "After considering all relevant relationships and transactions, our Board determined that, except for Mr. Huang, all of our directors are “independent” as defined by Nasdaq’s rules and regulations.",
+   "supports": "2025 independence determination: all except Huang."
+  },
+  {
+   "id": "e060",
+   "form": "DEF 14A",
+   "accession": "0001045810-25-000095",
+   "filing_date": "2025-05-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000095/nvda-20250512.htm",
+   "quote": "Committee Membership Until 2025 Meeting Committee Membership After 2025 Meeting",
+   "supports": "2025 nominee table gives committee membership before and after the 2025 meeting.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e061",
+   "form": "DEF 14A",
+   "accession": "0001045810-25-000095",
+   "filing_date": "2025-05-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000095/nvda-20250512.htm",
+   "quote": "Robert K. Burgess 67 2011 Independent Consultant ü ü CC NCGC",
+   "supports": "Burgess: director since 2011, independent; CC until the 2025 meeting, NCGC after.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e062",
+   "form": "DEF 14A",
+   "accession": "0001045810-25-000095",
+   "filing_date": "2025-05-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000095/nvda-20250512.htm",
+   "quote": "Persis S. Drell 69 2015 Professor of Materials Science and Engineering and Physics, and Former Provost, Stanford University ü NCGC CC",
+   "supports": "Drell: director since 2015, independent; NCGC until the 2025 meeting, CC after.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e063",
+   "form": "DEF 14A",
+   "accession": "0001045810-25-000095",
+   "filing_date": "2025-05-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000095/nvda-20250512.htm",
+   "quote": "Ellen Ochoa 67 2024 Former Director, NASA Johnson Space Center ü NCGC NCGC 1",
+   "supports": "Ochoa: director since 2024, independent; NCGC before and after the 2025 meeting.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e064",
+   "form": "DEF 14A",
+   "accession": "0001045810-25-000095",
+   "filing_date": "2025-05-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000095/nvda-20250512.htm",
+   "quote": "Mr. Burgess was a director of Adobe from 2005 to 2019, and of Rogers Communications, Inc., a communications and media company, from 2016 to 2019.",
+   "supports": "Burgess former boards: Adobe, Rogers Communications."
+  },
+  {
+   "id": "e065",
+   "form": "DEF 14A",
+   "accession": "0001045810-25-000095",
+   "filing_date": "2025-05-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000095/nvda-20250512.htm",
+   "quote": "he also served from 1996 to 2005 on its board of directors, as Chairman of its board of directors from 1998 to 2005, and as Executive Chairman for his final year.",
+   "supports": "Burgess former board: Macromedia (1996-2005; Chairman 1998-2005)."
+  },
+  {
+   "id": "e066",
+   "form": "DEF 14A",
+   "accession": "0001045810-25-000095",
+   "filing_date": "2025-05-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000095/nvda-20250512.htm",
+   "quote": "from 1991 to 1995, served as Chief Executive Officer and a board member of Alias Research, Inc., a publicly traded 3D software company, until its acquisition by SGI",
+   "supports": "Burgess former board: Alias Research (1991-1995)."
+  },
+  {
+   "id": "e067",
+   "form": "DEF 14A",
+   "accession": "0001045810-25-000095",
+   "filing_date": "2025-05-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000095/nvda-20250512.htm",
+   "quote": "Dr. Ochoa has served on the boards of directors of Service Corporation International, a publicly traded funeral homes and services company, since 2015",
+   "supports": "Ochoa other public board: Service Corporation International (since 2015)."
+  },
+  {
+   "id": "e068",
+   "form": "DEF 14A",
+   "accession": "0001045810-25-000095",
+   "filing_date": "2025-05-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000095/nvda-20250512.htm",
+   "quote": "Director Since: 2015 Committees: NCGC, CC* Other Current Public Company Boards: None",
+   "supports": "Drell: no other public boards (2025 proxy).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e069",
+   "form": "8-K",
+   "accession": "0001045810-24-000300",
+   "filing_date": "2024-11-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000300/nvda-20241107.htm",
+   "quote": "On November 7, 2024, the Board of Directors, or the Board, of NVIDIA Corporation appointed Ellen Ochoa as a member of the Board and the number of directors constituting the full Board was increased from twelve to thirteen.",
+   "supports": "Ochoa appointed 2024-11-07; board size 12 to 13."
+  },
+  {
+   "id": "e070",
+   "form": "8-K",
+   "accession": "0001045810-24-000206",
+   "filing_date": "2024-07-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000206/nvda-20240626.htm",
+   "quote": "On June 26, 2024, at the 2024 Annual Meeting of Stockholders of NVIDIA Corporation, or the 2024 Annual Meeting, the following proposals were adopted by the margin indicated.",
+   "supports": "2024 annual meeting held 2024-06-26 (Perry and McCaffery's service ended that day)."
+  },
+  {
+   "id": "e071",
+   "form": "DEF 14A",
+   "accession": "0001045810-24-000104",
+   "filing_date": "2024-05-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000104/nvda-20240514.htm",
+   "quote": "Mark L. Perry and Michael G. McCaffery are not seeking re-election and their Board service will end on the date of the 2024 Meeting. Effective as of the date of the 2024 Meeting, the size of our Board will be reduced to 12 members.",
+   "supports": "Perry and McCaffery did not stand in 2024; board reduced to 12 at the meeting."
+  },
+  {
+   "id": "e072",
+   "form": "DEF 14A",
+   "accession": "0001045810-24-000104",
+   "filing_date": "2024-05-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000104/nvda-20240514.htm",
+   "quote": "Our Board currently consists of 14 members, 12 of whom are standing for re-election at the 2024 Meeting.",
+   "supports": "Board of 14 before the 2024 meeting."
+  },
+  {
+   "id": "e073",
+   "form": "DEF 14A",
+   "accession": "0001045810-24-000104",
+   "filing_date": "2024-05-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000104/nvda-20240514.htm",
+   "quote": "Mr. Neal has served as our Lead Director since 2023 and currently serves as the Chairperson of the NCGC.",
+   "supports": "Neal Lead Director since 2023."
+  },
+  {
+   "id": "e074",
+   "form": "DEF 14A",
+   "accession": "0001045810-24-000104",
+   "filing_date": "2024-05-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000104/nvda-20240514.htm",
+   "quote": "After considering the above arrangements, and all other relevant relationships and transactions, our Board determined that, except for Mr. Huang, all of our directors are “independent” as defined by Nasdaq’s rules and regulations.",
+   "supports": "2024 independence determination: all except Huang (covers Perry, McCaffery)."
+  },
+  {
+   "id": "e075",
+   "form": "DEF 14A",
+   "accession": "0001045810-24-000104",
+   "filing_date": "2024-05-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000104/nvda-20240514.htm",
+   "quote": "AC Current Members Members as of our 2024 Meeting •A. Brooke Seawell (Chairperson) •Melissa B. Lora •Michael G. McCaffery •Mark L. Perry •Aarti Shah •Mark A. Stevens",
+   "supports": "AC current members at the 2024 proxy include McCaffery and Perry.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e076",
+   "form": "DEF 14A",
+   "accession": "0001045810-24-000104",
+   "filing_date": "2024-05-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000104/nvda-20240514.htm",
+   "quote": "NCGC Current Members Members as of our 2024 Meeting •Stephen C. Neal (Chairperson) •Persis S. Drell •Harvey C. Jones •Mark L. Perry •Mark A. Stevens",
+   "supports": "NCGC current members at the 2024 proxy include Perry.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e077",
+   "form": "DEF 14A",
+   "accession": "0001045810-24-000104",
+   "filing_date": "2024-05-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000104/nvda-20240514.htm",
+   "quote": "Mr. Perry served on the Board for nearly 20 years, including five years as Lead Director and over a decade as Chairperson of the AC",
+   "supports": "Perry tenure and Lead Director service."
+  },
+  {
+   "id": "e078",
+   "form": "8-K",
+   "accession": "0001045810-23-000164",
+   "filing_date": "2023-07-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000164/nvda-20230724.htm",
+   "quote": "On July 24, 2023, the Board of Directors, or the Board, of NVIDIA Corporation appointed Melissa Lora as a member of the Board and the number of directors constituting the full Board was increased from thirteen to fourteen.",
+   "supports": "Lora appointed 2023-07-24; board size 13 to 14."
+  },
+  {
+   "id": "e079",
+   "form": "8-K",
+   "accession": "0001045810-23-000146",
+   "filing_date": "2023-06-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000146/nvda-20230622.htm",
+   "quote": "On June 22, 2023, at the 2023 Annual Meeting of Stockholders of NVIDIA Corporation, or the 2023 Annual Meeting, the following proposals were adopted by the margin indicated.",
+   "supports": "2023 annual meeting held 2023-06-22 (Lead Director handover; Neal re-elected)."
+  },
+  {
+   "id": "e080",
+   "form": "DEF 14A",
+   "accession": "0001045810-23-000080",
+   "filing_date": "2023-05-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000080/nvda-20230508.htm",
+   "quote": "(5) Mr. Perry will serve as Lead Director until our 2023 Meeting, at which time Mr. Neal will take over as Lead Director",
+   "supports": "Perry Lead Director until the 2023 meeting; Neal from then.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e081",
+   "form": "DEF 14A",
+   "accession": "0001045810-23-000080",
+   "filing_date": "2023-05-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000080/nvda-20230508.htm",
+   "quote": "Contingent upon re-election to the Board, as of the 2023 Meeting, Mr. Neal will be appointed as our Lead Director and also take over as NCGC Chairperson",
+   "supports": "Neal becomes Lead Director as of the 2023 meeting."
+  },
+  {
+   "id": "e082",
+   "form": "DEF 14A",
+   "accession": "0001045810-23-000080",
+   "filing_date": "2023-05-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000080/nvda-20230508.htm",
+   "quote": "Michael G. McCaffery 69 2015 ü ü AC Chairperson (4) 1",
+   "supports": "McCaffery: director since 2015.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e083",
+   "form": "DEF 14A",
+   "accession": "0001045810-23-000080",
+   "filing_date": "2023-05-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000080/nvda-20230508.htm",
+   "quote": "Mark L. Perry Lead Director (5) 67 2005 ü ü AC, NCGC",
+   "supports": "Perry: director since 2005; Lead Director.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e084",
+   "form": "DEF 14A",
+   "accession": "0001045810-23-000080",
+   "filing_date": "2023-05-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000080/nvda-20230508.htm",
+   "quote": "He served on the board of MyoKardia, Inc. from 2012 to 2020 and on the board of Global Blood Therapeutics, Inc. from 2015 to 2022.",
+   "supports": "Perry former boards: MyoKardia, Global Blood Therapeutics."
+  },
+  {
+   "id": "e085",
+   "form": "DEF 14A",
+   "accession": "0001045810-23-000080",
+   "filing_date": "2023-05-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000080/nvda-20230508.htm",
+   "quote": "Mr. McCaffery is currently a director of C3.ai, Inc., an AI software provider",
+   "supports": "McCaffery current board (as of 2023 proxy): C3.ai."
+  },
+  {
+   "id": "e086",
+   "form": "DEF 14A",
+   "accession": "0001045810-23-000080",
+   "filing_date": "2023-05-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000080/nvda-20230508.htm",
+   "quote": "He was a director of KB Home, a homebuilding company, from 2003 until 2015.",
+   "supports": "McCaffery former board: KB Home (2003-2015)."
+  },
+  {
+   "id": "e087",
+   "form": "8-K",
+   "accession": "0001045810-20-000181",
+   "filing_date": "2020-11-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581020000181/nvda-20201109.htm",
+   "quote": "On November 9, 2020, Aarti Shah was appointed to the Board of Directors of NVIDIA Corporation (the “Board”).",
+   "supports": "Shah appointed 2020-11-09."
+  },
+  {
+   "id": "e088",
+   "form": "8-K",
+   "accession": "0001045810-20-000127",
+   "filing_date": "2020-07-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581020000127/nvda-20200713.htm",
+   "quote": "On July 13, 2020, John Dabiri was appointed to the Board of Directors of NVIDIA Corporation (the “Board”).",
+   "supports": "Dabiri appointed 2020-07-13."
+  },
+  {
+   "id": "e089",
+   "form": "8-K",
+   "accession": "0001045810-20-000103",
+   "filing_date": "2020-06-15",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581020000103/a8-k2020annualmeetingr.htm",
+   "quote": "On June 9, 2020, at the 2020 Annual Meeting of Stockholders of NVIDIA Corporation, or the 2020 Annual Meeting, our stockholders approved",
+   "supports": "2020 annual meeting held 2020-06-09."
+  },
+  {
+   "id": "e090",
+   "form": "8-K",
+   "accession": "0001045810-20-000103",
+   "filing_date": "2020-06-15",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581020000103/a8-k2020annualmeetingr.htm",
+   "quote": "1. The election of each of our eleven (11) directors to serve for a one-year term until our 2021 Annual Meeting of Stockholders.",
+   "supports": "Eleven directors elected in 2020 (Gaither not among them)."
+  },
+  {
+   "id": "e091",
+   "form": "DEF 14A",
+   "accession": "0001045810-20-000055",
+   "filing_date": "2020-04-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581020000055/nvda2020definitiveproxysta.htm",
+   "quote": "James C. Gaither will be retiring and not seek re-election to our Board. Effective upon the start of the 2020 Meeting, our Board will have 11 members.",
+   "supports": "Gaither did not stand in 2020; board of 11 from the 2020 meeting."
+  },
+  {
+   "id": "e092",
+   "form": "DEF 14A",
+   "accession": "0001045810-20-000055",
+   "filing_date": "2020-04-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581020000055/nvda2020definitiveproxysta.htm",
+   "quote": "Furthermore, James C. Gaither, who has served on our Board since 1999, is not seeking re-election effective as of the 2020 Meeting.",
+   "supports": "2020 proxy says Gaither served 'since 1999' (conflicts with December 1998 elsewhere)."
+  },
+  {
+   "id": "e093",
+   "form": "DEF 14A",
+   "accession": "0001045810-20-000055",
+   "filing_date": "2020-04-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581020000055/nvda2020definitiveproxysta.htm",
+   "quote": "We are deeply grateful to Mr. Gaither for 27 years of service to NVIDIA - since the formation of the company - including 22 years as a Board member.",
+   "supports": "Gaither: 22 years as a board member by 2020 (consistent with a 1998 start)."
+  },
+  {
+   "id": "e094",
+   "form": "DEF 14A",
+   "accession": "0001045810-20-000055",
+   "filing_date": "2020-04-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581020000055/nvda2020definitiveproxysta.htm",
+   "quote": "NCGC Harvey C. Jones (Chair), James C. Gaither, Stephen C. Neal, Mark L. Perry, and Mark A. Stevens",
+   "supports": "Gaither on the NCGC (2020 proxy).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e095",
+   "form": "DEF 14A",
+   "accession": "0001045810-20-000055",
+   "filing_date": "2020-04-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581020000055/nvda2020definitiveproxysta.htm",
+   "quote": "After considering all relevant relationships and transactions, our Board determined that all of our directors are “independent” as defined by Nasdaq’s rules and regulations, except for Mr. Huang.",
+   "supports": "2020 independence determination: all except Huang (covers Gaither)."
+  },
+  {
+   "id": "e096",
+   "form": "8-K",
+   "accession": "0001045810-19-000060",
+   "filing_date": "2019-04-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581019000060/form8-kneal.htm",
+   "quote": "On March 30, 2019, Stephen C. Neal was appointed to the Board of Directors of NVIDIA Corporation (the “Board”).",
+   "supports": "Neal appointed 2019-03-30."
+  },
+  {
+   "id": "e097",
+   "form": "DEF 14A",
+   "accession": "0001045810-19-000070",
+   "filing_date": "2019-04-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581019000070/nvda2019definitiveproxysta.htm",
+   "quote": "James C. Gaither 81 1998 Managing Director, Sutter Hill Ventures NCGC",
+   "supports": "Gaither: director since 1998 (2019 proxy table).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e098",
+   "form": "DEF 14A",
+   "accession": "0001045810-19-000070",
+   "filing_date": "2019-04-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581019000070/nvda2019definitiveproxysta.htm",
+   "quote": "Mr. Perry was appointed as our Lead Director in 2018.",
+   "supports": "Perry Lead Director from 2018."
+  },
+  {
+   "id": "e099",
+   "form": "DEF 14A",
+   "accession": "0001045810-18-000047",
+   "filing_date": "2018-04-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581018000047/nvda2018proxystatementsecf.htm",
+   "quote": "Mr. Perry was appointed as our Lead Director effective March 2018",
+   "supports": "Perry Lead Director effective March 2018."
+  },
+  {
+   "id": "e100",
+   "form": "8-K",
+   "accession": "0001045810-15-000033",
+   "filing_date": "2015-03-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581015000033/form8-kmccafferydrell.htm",
+   "quote": "On March 11, 2015, Michael McCaffery and Persis Drell were appointed to the Board of Directors of NVIDIA Corporation (the “Board”).",
+   "supports": "McCaffery and Drell appointed 2015-03-11."
+  },
+  {
+   "id": "e101",
+   "form": "8-K",
+   "accession": "0001045810-13-000064",
+   "filing_date": "2013-07-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581013000064/form8-kdawnhudson.htm",
+   "quote": "On July 18, 2013, Dawn Hudson was appointed to the Board of Directors of NVIDIA Corporation.",
+   "supports": "Hudson appointed 2013-07-18."
+  },
+  {
+   "id": "e102",
+   "form": "8-K",
+   "accession": "0001045810-13-000064",
+   "filing_date": "2013-07-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581013000064/form8-kdawnhudson.htm",
+   "quote": "Date of Report (Date of earliest event reported): July 18, 2013",
+   "supports": "Hudson 8-K cover event date 2013-07-18."
+  },
+  {
+   "id": "e103",
+   "form": "8-K",
+   "accession": "0001045810-11-000060",
+   "filing_date": "2011-12-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581011000060/form8k-bodgrant.htm",
+   "quote": "On December 8, 2011, Robert Burgess was appointed to the Board of Directors of NVIDIA Corporation.",
+   "supports": "Burgess appointed 2011-12-08."
+  },
+  {
+   "id": "e104",
+   "form": "8-K",
+   "accession": "0001045810-08-000022",
+   "filing_date": "2008-09-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581008000022/form8kbod.htm",
+   "quote": "On September 3, 2008 Mark A. Stevens was appointed to the Board of Directors (the \"Board\") and the Compensation Committee of the Board of NVIDIA Corporation (\"NVIDIA\").",
+   "supports": "Stevens re-appointed 2008-09-03."
+  },
+  {
+   "id": "e105",
+   "form": "8-K",
+   "accession": "0001045810-08-000022",
+   "filing_date": "2008-09-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581008000022/form8kbod.htm",
+   "quote": "Mr. Stevens fills a vacancy created by an increase in the size of the Board of Directors from eight to nine.",
+   "supports": "Board size 8 to 9 on Stevens' return."
+  },
+  {
+   "id": "e106",
+   "form": "8-K",
+   "accession": "0001045810-08-000022",
+   "filing_date": "2008-09-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581008000022/form8kbod.htm",
+   "quote": "Mr. Stevens served previously as a member of the NVIDIA Board from 1993 until June 2006.",
+   "supports": "Stevens' first stint ended June 2006."
+  },
+  {
+   "id": "e107",
+   "form": "DEF 14A",
+   "accession": "0001193125-06-110604",
+   "filing_date": "2006-05-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000119312506110604/ddef14a.htm",
+   "quote": "Mark A. Stevens is retiring from the Board upon the expiration of his term of service which will occur as of the date of the annual meeting.",
+   "supports": "Stevens retired at the 2006 annual meeting."
+  },
+  {
+   "id": "e108",
+   "form": "DEF 14A",
+   "accession": "0001193125-06-110604",
+   "filing_date": "2006-05-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000119312506110604/ddef14a.htm",
+   "quote": "Immediately upon Mr. Stevens’ retirement, the number of directors on our Board will be reduced from nine to eight",
+   "supports": "Board size 9 to 8 on Stevens' 2006 retirement."
+  },
+  {
+   "id": "e109",
+   "form": "10-Q",
+   "accession": "0001193125-06-243229",
+   "filing_date": "2006-11-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000119312506243229/d10q.htm",
+   "quote": "At the Annual Meeting of Stockholders held on June 22, 2006, the following proposals were adopted by the margin indicated.",
+   "supports": "2006 annual meeting held 2006-06-22 (Stevens' first-stint end)."
+  },
+  {
+   "id": "e110",
+   "form": "8-K",
+   "accession": "0001045810-05-000016",
+   "filing_date": "2005-05-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581005000016/perryboardappointment.htm",
+   "quote": "On May 16, 2005, effective as of May 17, 2005, the Board of Directors (the “Board”) of NVIDIA Corporation (the “Company”), elected Mark Perry as a new member of the Board.",
+   "supports": "Perry elected 2005-05-16, effective 2005-05-17."
+  },
+  {
+   "id": "e111",
+   "form": "8-K",
+   "accession": "0001045810-05-000016",
+   "filing_date": "2005-05-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581005000016/perryboardappointment.htm",
+   "quote": "Mr. Perry fills a vacancy created by an increase in the size of the Board from eight to nine.",
+   "supports": "Board size 8 to 9 on Perry's election."
+  },
+  {
+   "id": "e112",
+   "form": "4",
+   "accession": "0001197649-26-000012",
+   "filing_date": "2026-09-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000119764926000012/wk-form4_1789765856.xml",
+   "quote": "HUANG JEN HSUN",
+   "supports": "Jen-Hsun Huang reporting-owner CIK; director + officer (President and CEO). Period of report 2026-09-16.",
+   "xml_fields": {
+    "rptOwnerCik": "0001197649",
+    "rptOwnerName": "HUANG JEN HSUN",
+    "periodOfReport": "2026-09-16"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": "President and CEO"
+   }
+  },
+  {
+   "id": "e113",
+   "form": "4",
+   "accession": "0001197647-26-000009",
+   "filing_date": "2026-09-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000119764726000009/wk-form4_1788555631.xml",
+   "quote": "COXE TENCH",
+   "supports": "Tench Coxe reporting-owner CIK; director. Period of report 2026-09-02.",
+   "xml_fields": {
+    "rptOwnerCik": "0001197647",
+    "rptOwnerName": "COXE TENCH",
+    "periodOfReport": "2026-09-02"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e114",
+   "form": "4",
+   "accession": "0001197650-26-000002",
+   "filing_date": "2026-06-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000119765026000002/wk-form4_1782767025.xml",
+   "quote": "JONES HARVEY C",
+   "supports": "Harvey C. Jones reporting-owner CIK; director. Period of report 2026-06-25.",
+   "xml_fields": {
+    "rptOwnerCik": "0001197650",
+    "rptOwnerName": "JONES HARVEY C",
+    "periodOfReport": "2026-06-25"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e115",
+   "form": "4",
+   "accession": "0001197652-26-000007",
+   "filing_date": "2026-06-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000119765226000007/wk-form4_1782767137.xml",
+   "quote": "SEAWELL A BROOKE",
+   "supports": "A. Brooke Seawell reporting-owner CIK; director. Period of report 2026-06-25.",
+   "xml_fields": {
+    "rptOwnerCik": "0001197652",
+    "rptOwnerName": "SEAWELL A BROOKE",
+    "periodOfReport": "2026-06-25"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e116",
+   "form": "4",
+   "accession": "0001199039-26-000016",
+   "filing_date": "2026-09-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000119903926000016/wk-form4_1790110579.xml",
+   "quote": "STEVENS MARK A",
+   "supports": "Mark A. Stevens reporting-owner CIK; director. Period of report 2026-09-18.",
+   "xml_fields": {
+    "rptOwnerCik": "0001199039",
+    "rptOwnerName": "STEVENS MARK A",
+    "periodOfReport": "2026-09-18"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e117",
+   "form": "3",
+   "accession": "0001209191-08-050967",
+   "filing_date": "2008-09-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000120919108050967/doc3.xml",
+   "quote": "STEVENS MARK A",
+   "supports": "Mark A. Stevens Form 3 for his 2008 return to the board; event date 2008-09-03 matches the 8-K. Period of report 2008-09-03.",
+   "xml_fields": {
+    "rptOwnerCik": "0001199039",
+    "rptOwnerName": "STEVENS MARK A",
+    "periodOfReport": "2008-09-03"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e118",
+   "form": "4",
+   "accession": "0001219888-26-000002",
+   "filing_date": "2026-06-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000121988826000002/wk-form4_1782766973.xml",
+   "quote": "HUDSON DAWN E",
+   "supports": "Dawn Hudson reporting-owner CIK; director. Period of report 2026-06-25.",
+   "xml_fields": {
+    "rptOwnerCik": "0001219888",
+    "rptOwnerName": "HUDSON DAWN E",
+    "periodOfReport": "2026-06-25"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e119",
+   "form": "3",
+   "accession": "0001045810-13-000066",
+   "filing_date": "2013-07-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581013000066/wf-form3_137478474195391.xml",
+   "quote": "HUDSON DAWN E",
+   "supports": "Dawn Hudson Form 3; event date 2013-07-18 matches the 8-K appointment date. Period of report 2013-07-18.",
+   "xml_fields": {
+    "rptOwnerCik": "0001219888",
+    "rptOwnerName": "HUDSON DAWN E",
+    "periodOfReport": "2013-07-18"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e120",
+   "form": "4",
+   "accession": "0001768670-26-000004",
+   "filing_date": "2026-06-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000176867026000004/wk-form4_1782767093.xml",
+   "quote": "Neal Stephen C",
+   "supports": "Stephen C. Neal reporting-owner CIK; director. Period of report 2026-06-25.",
+   "xml_fields": {
+    "rptOwnerCik": "0001768670",
+    "rptOwnerName": "Neal Stephen C",
+    "periodOfReport": "2026-06-25"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e121",
+   "form": "3",
+   "accession": "0001045810-19-000066",
+   "filing_date": "2019-04-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581019000066/wf-form3_155485074088662.xml",
+   "quote": "Neal Stephen C",
+   "supports": "Stephen C. Neal Form 3; event date 2019-03-30 matches the 8-K appointment date. Period of report 2019-03-30.",
+   "xml_fields": {
+    "rptOwnerCik": "0001768670",
+    "rptOwnerName": "Neal Stephen C",
+    "periodOfReport": "2019-03-30"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e122",
+   "form": "4",
+   "accession": "0001818224-26-000006",
+   "filing_date": "2026-06-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000181822426000006/wk-form4_1782766926.xml",
+   "quote": "Dabiri John",
+   "supports": "John O. Dabiri reporting-owner CIK; director. Period of report 2026-06-25.",
+   "xml_fields": {
+    "rptOwnerCik": "0001818224",
+    "rptOwnerName": "Dabiri John",
+    "periodOfReport": "2026-06-25"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e123",
+   "form": "3",
+   "accession": "0001045810-20-000137",
+   "filing_date": "2020-07-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581020000137/wf-form3_159536746325000.xml",
+   "quote": "Dabiri John",
+   "supports": "John O. Dabiri Form 3; event date 2020-07-13 matches the 8-K appointment date. Period of report 2020-07-13.",
+   "xml_fields": {
+    "rptOwnerCik": "0001818224",
+    "rptOwnerName": "Dabiri John",
+    "periodOfReport": "2020-07-13"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e124",
+   "form": "4",
+   "accession": "0001725292-26-000004",
+   "filing_date": "2026-06-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000172529226000004/wk-form4_1782767179.xml",
+   "quote": "Shah Aarti S.",
+   "supports": "Aarti Shah reporting-owner CIK; director. Period of report 2026-06-25.",
+   "xml_fields": {
+    "rptOwnerCik": "0001725292",
+    "rptOwnerName": "Shah Aarti S.",
+    "periodOfReport": "2026-06-25"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e125",
+   "form": "3",
+   "accession": "0001045810-20-000184",
+   "filing_date": "2020-11-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581020000184/wf-form3_160564525276405.xml",
+   "quote": "Shah Aarti S.",
+   "supports": "Aarti Shah Form 3; event date 2020-11-09 matches the 8-K appointment date. Period of report 2020-11-09.",
+   "xml_fields": {
+    "rptOwnerCik": "0001725292",
+    "rptOwnerName": "Shah Aarti S.",
+    "periodOfReport": "2020-11-09"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e126",
+   "form": "4",
+   "accession": "0001284116-26-000004",
+   "filing_date": "2026-06-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000128411626000004/wk-form4_1782767057.xml",
+   "quote": "LORA MELISSA",
+   "supports": "Melissa B. Lora reporting-owner CIK; director. Period of report 2026-06-25.",
+   "xml_fields": {
+    "rptOwnerCik": "0001284116",
+    "rptOwnerName": "LORA MELISSA",
+    "periodOfReport": "2026-06-25"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e127",
+   "form": "3",
+   "accession": "0001045810-23-000166",
+   "filing_date": "2023-08-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000166/wk-form3_1690928142.xml",
+   "quote": "LORA MELISSA",
+   "supports": "Melissa B. Lora Form 3; event date 2023-07-24 matches the 8-K appointment date. Period of report 2023-07-24.",
+   "xml_fields": {
+    "rptOwnerCik": "0001284116",
+    "rptOwnerName": "LORA MELISSA",
+    "periodOfReport": "2023-07-24"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e128",
+   "form": "3",
+   "accession": "0001310264-26-000002",
+   "filing_date": "2026-07-15",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000131026426000002/wk-form3_1784149389.xml",
+   "quote": "NORA JOHNSON SUZANNE M",
+   "supports": "Suzanne Nora Johnson Form 3; event date 2026-07-13 matches the 8-K effective date. Period of report 2026-07-13.",
+   "xml_fields": {
+    "rptOwnerCik": "0001310264",
+    "rptOwnerName": "NORA JOHNSON SUZANNE M",
+    "periodOfReport": "2026-07-13"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e129",
+   "form": "4",
+   "accession": "0001225208-19-008530",
+   "filing_date": "2019-05-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000122520819008530/doc4.xml",
+   "quote": "GAITHER JAMES C",
+   "supports": "James C. Gaither reporting-owner CIK; director. Period of report 2019-05-23.",
+   "xml_fields": {
+    "rptOwnerCik": "0001199037",
+    "rptOwnerName": "GAITHER JAMES C",
+    "periodOfReport": "2019-05-23"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e130",
+   "form": "3",
+   "accession": "0001045810-15-000042",
+   "filing_date": "2015-03-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581015000042/wf-form3_142671013303601.xml",
+   "quote": "MCCAFFERY MICHAEL G",
+   "supports": "Michael G. McCaffery Form 3; event date 2015-03-11 matches the 8-K appointment date. Period of report 2015-03-11.",
+   "xml_fields": {
+    "rptOwnerCik": "0001256735",
+    "rptOwnerName": "MCCAFFERY MICHAEL G",
+    "periodOfReport": "2015-03-11"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e131",
+   "form": "3",
+   "accession": "0001045810-15-000041",
+   "filing_date": "2015-03-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581015000041/wf-form3_142671009453679.xml",
+   "quote": "Drell Persis",
+   "supports": "Persis S. Drell Form 3; event date 2015-03-11 matches the 8-K appointment date. Period of report 2015-03-11.",
+   "xml_fields": {
+    "rptOwnerCik": "0001636665",
+    "rptOwnerName": "Drell Persis",
+    "periodOfReport": "2015-03-11"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e132",
+   "form": "3",
+   "accession": "0001190270-05-000004",
+   "filing_date": "2005-05-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000119027005000004/edgar.xml",
+   "quote": "PERRY MARK L",
+   "supports": "Mark L. Perry Form 3; event date 2005-05-17 matches the 8-K effective date. Period of report 2005-05-17.",
+   "xml_fields": {
+    "rptOwnerCik": "0001190270",
+    "rptOwnerName": "PERRY MARK L",
+    "periodOfReport": "2005-05-17"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e133",
+   "form": "3",
+   "accession": "0001209191-11-061451",
+   "filing_date": "2011-12-15",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000120919111061451/doc3.xml",
+   "quote": "BURGESS ROBERT K",
+   "supports": "Robert K. Burgess Form 3; event date 2011-12-08 matches the 8-K appointment date. Period of report 2011-12-08.",
+   "xml_fields": {
+    "rptOwnerCik": "0001198782",
+    "rptOwnerName": "BURGESS ROBERT K",
+    "periodOfReport": "2011-12-08"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e134",
+   "form": "3",
+   "accession": "0001045810-24-000302",
+   "filing_date": "2024-11-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000302/wk-form3_1731448005.xml",
+   "quote": "Ochoa Ellen",
+   "supports": "Ellen Ochoa Form 3; event date 2024-11-07 matches the 8-K appointment date. Period of report 2024-11-07.",
+   "xml_fields": {
+    "rptOwnerCik": "0001641111",
+    "rptOwnerName": "Ochoa Ellen",
+    "periodOfReport": "2024-11-07"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  }
+ ],
+ "conflicts": [
+  {
+   "description": "Gaither's start year. The IPO prospectus says he had been a director 'since December 1998', the 2019 proxy table says 'Director Since 1998', and the 2020 proxy's '22 years as a Board member' also points to 1998. But one sentence of the 2020 proxy says he 'has served on our Board since 1999'. Kept December 1998 (the contemporaneous prospectus).",
+   "evidence_refs": [
+    "e007",
+    "e097",
+    "e093",
+    "e092"
+   ]
+  },
+  {
+   "description": "Hudson's appointment day. EDGAR's index metadata for her 8-K lists a report date of 2013-07-17, but the 8-K cover ('earliest event reported') and body both say July 18, 2013, and her Form 3 event date is 2013-07-18. Kept 2013-07-18.",
+   "evidence_refs": [
+    "e101",
+    "e102",
+    "e119"
+   ]
+  },
+  {
+   "description": "Board-size bookkeeping has gaps. No filing states an increase when Dabiri and Shah joined in 2020 (11 members after the 2020 meeting, 13 nominees in 2021). Nor does any filing record a reduction after Ochoa (July 2025), Burgess (December 2025) and Drell (January 2026) left, yet the May 2026 8-K increases the board 'from ten to eleven'. Only disclosed changes are recorded as BOARD_SIZE_CHANGE events.",
+   "evidence_refs": [
+    "e090",
+    "e069",
+    "e011",
+    "e053"
+   ]
+  }
+ ],
+ "open_questions": [
+  "Exact date of Robert K. Burgess's death. The 2026 proxy says only 'December 2025'. No 8-K was filed and no other filing gives the day, so his end date is month precision.",
+  "Suzanne Nora Johnson (joined 2026-07-13) has no independence determination in any filing through 2026-09-23. Her 8-K and the 2026 proxy put her on the Audit Committee, which implies independence under Nasdaq rules, but no independence role is recorded until the 2027 proxy states it.",
+  "Pre-IPO start dates are disclosed only to the month (Huang April 1993, Coxe and Stevens June 1993, Jones November 1993, Seawell December 1997, Gaither December 1998). For Huang the month comes from 'since its inception' plus the April 1993 incorporation. EDGAR full-text search starts in 2001 and finds no more precise date.",
+  "Stevens' first stint is recorded as ending on the 2006 annual meeting date (2006-06-22). The 2006 proxy says he retires at that meeting and the 2006 10-Q confirms it was held then. No 8-K Item 5.07 existed at the time.",
+  "Independence roles are aligned to board tenure. The filings give point-in-time determinations only (every proxy says all directors except Huang are independent). Pre-IPO tenure has no determination.",
+  "Burgess's committee after the 2025 meeting (NCGC) appears only in the 2025 proxy's forward-looking 'After 2025 Meeting' column. The recorded committee snapshot uses the 'Until 2025 Meeting' column (CC).",
+  "Other-board lists come from NVIDIA's own bios in each person's latest NVIDIA proxy and were not checked against other issuers' filings. Most bios do not say whether a company is public (public_company_stated_in_source=false). Gaither's 2019 bio names only non-profits."
+ ],
+ "coverage": [
+  {
+   "scope": "current_board",
+   "period_start": "2026-10-04",
+   "period_end": "2026-10-04",
+   "level": "complete",
+   "method": "Roster checked against the 2026 DEF 14A, the 2026 Item 5.07 results, and every 8-K (including all with Item 5.02), Form 3 and Form 4 filed after the proxy through 2026-09-23, the latest filing in the EDGAR submissions feed."
+  },
+  {
+   "scope": "board_history",
+   "period_start": "2020-01-01",
+   "period_end": "2026-10-04",
+   "level": "complete",
+   "method": "Every DEF 14A from 2019 to 2026 and every 8-K with Item 5.02 or 5.07 from 2019 to 2026 reviewed. Annual-meeting slates compared year over year. Departures dated from 8-K Item 5.02, from the Item 5.07 meeting date for directors who did not stand, or (Burgess) from the 2026 proxy."
+  },
+  {
+   "scope": "board_history",
+   "period_start": "1993-04-01",
+   "period_end": "2019-12-31",
+   "level": "partial",
+   "method": "Pre-2020 seats only for directors serving in 2020 or later. Reconstructed from the IPO prospectus, proxies, appointment 8-Ks and Forms 3. Other pre-2020 directors (e.g., William J. Miller, Steven Chu) are not recorded."
+  }
+ ]
+}

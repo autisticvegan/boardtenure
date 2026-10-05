@@ -196,7 +196,7 @@ def tenure_performance(
     pre-listing join, and must not be measured from the first stored close."""
     res = TenureResult(status="ok", is_open=is_open)
     if not series:
-        res.status = "no_price_history"
+        res.status = "history_gap"  # no stored prices yet; not the same as leaving before listing
         return res
     days = [p.day for p in series]
     res.data_through = days[-1]

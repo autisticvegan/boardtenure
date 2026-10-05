@@ -1,0 +1,4049 @@
+{
+ "company": {
+  "cik": "0001559720",
+  "ticker": "ABNB",
+  "legal_name": "Airbnb, Inc.",
+  "common_name": "Airbnb",
+  "exchange": "Nasdaq Global Select Market",
+  "ipo_prospectus_date": "2020-12-09",
+  "ipo_date": "2020-12-10",
+  "state_of_incorporation": "Delaware",
+  "incorporated": "2008-06-27 as AirBed & Breakfast, Inc.; renamed Airbnb, Inc. on 2010-11-15",
+  "dual_class": "Class A (1 vote), Class B (20 votes, held mainly by the founders), Class C and H (no votes); Class B still outstanding per the 2026 proxy",
+  "classified_board": true,
+  "notes": "CIK verified via data.sec.gov submissions JSON (name 'Airbnb, Inc.', ticker ABNB, Nasdaq, state DE). First trading day 2020-12-10 per the FY2020 10-K; IPO closed 2020-12-14. Three-class staggered board since the IPO. Chesky is combined CEO and Chair, and Chenault is lead director. The founders have a Nominating Agreement (2020-11-27) obliging the company to nominate them."
+ },
+ "as_of": "2026-10-04",
+ "sources_reviewed_through": "2026-09-30 (latest filing in EDGAR submissions feed fetched 2026-10-04)",
+ "people": [
+  {
+   "key": "brian-chesky",
+   "full_name": "Brian Chesky",
+   "aliases": [
+    "Chesky Brian"
+   ],
+   "sec_cik": "0001834152",
+   "bio_other_public_boards": []
+  },
+  {
+   "key": "joseph-gebbia",
+   "full_name": "Joseph Gebbia",
+   "aliases": [
+    "Joe Gebbia",
+    "Gebbia Joseph"
+   ],
+   "sec_cik": "0001834171",
+   "bio_other_public_boards": [
+    {
+     "company": "Tesla, Inc.",
+     "status": "current",
+     "years": "since September 2022",
+     "source_ref": "e172",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "nathan-blecharczyk",
+   "full_name": "Nathan Blecharczyk",
+   "aliases": [
+    "Blecharczyk Nathan"
+   ],
+   "sec_cik": "0001834147",
+   "bio_other_public_boards": []
+  },
+  {
+   "key": "angela-ahrendts",
+   "full_name": "Angela Ahrendts",
+   "aliases": [
+    "Ahrendts Angela J"
+   ],
+   "sec_cik": "0001196612",
+   "bio_other_public_boards": [
+    {
+     "company": "Ralph Lauren Corporation",
+     "status": "current",
+     "years": "since August 2018",
+     "source_ref": "e164",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "WPP plc",
+     "status": "current",
+     "years": "since June 2020",
+     "source_ref": "e165",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Burberry plc",
+     "status": "former",
+     "years": "July 2006 to April 2014 (director and CEO)",
+     "source_ref": "e166",
+     "public_company_stated_in_source": false
+    }
+   ]
+  },
+  {
+   "key": "kenneth-chenault",
+   "full_name": "Kenneth Chenault",
+   "aliases": [
+    "Chenault Kenneth I"
+   ],
+   "sec_cik": "0001180524",
+   "bio_other_public_boards": [
+    {
+     "company": "Berkshire Hathaway Inc.",
+     "status": "current",
+     "years": "since May 2020",
+     "source_ref": "e168",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Catalyst Partners Acquisition Corp.",
+     "status": "current",
+     "years": "since May 2021",
+     "source_ref": "e167",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "International Business Machines Corporation",
+     "status": "former",
+     "years": "October 1998 to February 2019",
+     "source_ref": "e169",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "The Procter & Gamble Company",
+     "status": "former",
+     "years": "April 2008 to February 2019",
+     "source_ref": "e169",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Meta Platforms, Inc. (formerly Facebook, Inc.)",
+     "status": "former",
+     "years": "February 2018 to May 2020",
+     "source_ref": "e170",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "American Express Company",
+     "status": "former",
+     "years": "Chairman and CEO April 2001 through January 2018",
+     "source_ref": "e171",
+     "public_company_stated_in_source": true,
+     "note": "bio describes American Express as publicly-held; the board role is as Chairman"
+    }
+   ]
+  },
+  {
+   "key": "amrita-ahuja",
+   "full_name": "Amrita Ahuja",
+   "aliases": [
+    "Ahuja Amrita"
+   ],
+   "sec_cik": "0001765417",
+   "bio_other_public_boards": []
+  },
+  {
+   "key": "jeffrey-jordan",
+   "full_name": "Jeffrey Jordan",
+   "aliases": [
+    "Jeff Jordan",
+    "Jordan Jeffrey D"
+   ],
+   "sec_cik": "0001209185",
+   "bio_other_public_boards": [
+    {
+     "company": "OpenTable, Inc.",
+     "status": "former",
+     "years": "2007 until 2013",
+     "source_ref": "e173",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Pinterest, Inc.",
+     "status": "former",
+     "years": "October 2011 until May 2024",
+     "source_ref": "e173",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Accolade, Inc.",
+     "status": "former",
+     "years": "July 2016 to April 2025",
+     "source_ref": "e174",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Maplebear Inc. (d/b/a Instacart)",
+     "status": "former",
+     "years": "June 2014 until May 2024",
+     "source_ref": "e174",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "alfred-lin",
+   "full_name": "Alfred Lin",
+   "aliases": [
+    "Lin Alfred"
+   ],
+   "sec_cik": "0001790330",
+   "bio_other_public_boards": [
+    {
+     "company": "DoorDash, Inc.",
+     "status": "current",
+     "years": "since 2014",
+     "source_ref": "e175",
+     "public_company_stated_in_source": true,
+     "note": "bio names it 'DoorDash'"
+    }
+   ]
+  },
+  {
+   "key": "james-manyika",
+   "full_name": "James Manyika",
+   "aliases": [
+    "Manyika James"
+   ],
+   "sec_cik": "0001986501",
+   "bio_other_public_boards": []
+  },
+  {
+   "key": "ann-mather",
+   "full_name": "Ann Mather",
+   "aliases": [
+    "Mather Ann"
+   ],
+   "sec_cik": "0001244892",
+   "bio_other_public_boards": [
+    {
+     "company": "Bumble Inc.",
+     "status": "current",
+     "years": "since March 2020 (as of the 2021 proxy, her last)",
+     "source_ref": "e072",
+     "public_company_stated_in_source": false
+    },
+    {
+     "company": "Arista Networks, Inc.",
+     "status": "current",
+     "years": "since 2013 (as of the 2021 proxy)",
+     "source_ref": "e072",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Alphabet Inc.",
+     "status": "current",
+     "years": "since 2005 (as of the 2021 proxy)",
+     "source_ref": "e072",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Glu Mobile Inc.",
+     "status": "current",
+     "years": "since 2005 (as of the 2021 proxy)",
+     "source_ref": "e073",
+     "public_company_stated_in_source": true
+    },
+    {
+     "company": "Netflix, Inc.",
+     "status": "current",
+     "years": "since 2010 (as of the 2021 proxy)",
+     "source_ref": "e073",
+     "public_company_stated_in_source": true
+    }
+   ]
+  },
+  {
+   "key": "belinda-johnson",
+   "full_name": "Belinda Johnson",
+   "aliases": [
+    "Belinda J. Johnson",
+    "Johnson Belinda J."
+   ],
+   "sec_cik": "0001694150",
+   "bio_other_public_boards": [
+    {
+     "company": "PayPal Holdings, Inc.",
+     "status": "current",
+     "years": "not stated (as of the 2022 proxy, her last bio)",
+     "source_ref": "e085",
+     "public_company_stated_in_source": true
+    }
+   ]
+  }
+ ],
+ "memberships": [
+  {
+   "person_key": "brian-chesky",
+   "start_date": null,
+   "start_date_precision": null,
+   "start_date_basis": "not disclosed: bios say only that he co-founded the company in 2008 and is a director; 2012 Form D lists him as a director (upper bound)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e008",
+    "e011",
+    "e037",
+    "e027",
+    "e177",
+    "e183",
+    "e142",
+    "e145",
+    "e148",
+    "e150",
+    "e038",
+    "e053"
+   ],
+   "board_class": "I",
+   "notes": "Co-founder, CEO and Chairman. Board start not disclosed in any SEC filing; on the board no later than 2012-10-23 (Form D). Class I; re-elected 2021 and 2024 (term to 2027). Form 3 date (2020-12-09) is the IPO, not his start."
+  },
+  {
+   "person_key": "joseph-gebbia",
+   "start_date": null,
+   "start_date_precision": null,
+   "start_date_basis": "not disclosed: bios say only that he co-founded the company in 2008 and is a director; 2012 Form D lists him as a director (upper bound)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e009",
+    "e012",
+    "e037",
+    "e028",
+    "e179",
+    "e185",
+    "e143",
+    "e146",
+    "e151",
+    "e039",
+    "e054"
+   ],
+   "board_class": "II",
+   "notes": "Co-founder. Executive officer (Chairman of Samara and Airbnb.org) at IPO; former executive officer and advisor from 2022 (advisor agreement effective 2022-08-23). Class II; elected 2022, re-elected 2025 (term to 2028)."
+  },
+  {
+   "person_key": "nathan-blecharczyk",
+   "start_date": null,
+   "start_date_precision": null,
+   "start_date_basis": "not disclosed: bios say only that he co-founded the company in 2008 and is a director; 2012 Form D lists him as a director (upper bound)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e010",
+    "e013",
+    "e037",
+    "e029",
+    "e181",
+    "e187",
+    "e144",
+    "e147",
+    "e149",
+    "e152",
+    "e040",
+    "e051"
+   ],
+   "board_class": "III",
+   "notes": "Co-founder and Chief Strategy Officer. Class III; re-elected 2023 and 2026 (term to 2029)."
+  },
+  {
+   "person_key": "angela-ahrendts",
+   "start_date": "2019-05-01",
+   "start_date_precision": "day",
+   "start_date_basis": "424B4 director-compensation footnote 'appointed ... effective May 1, 2019' (bios: 'May 2019')",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e015",
+    "e014",
+    "e153",
+    "e027",
+    "e177",
+    "e183",
+    "e142",
+    "e145",
+    "e042",
+    "e049"
+   ],
+   "board_class": "I",
+   "notes": "Pre-IPO independent director. Class I; re-elected 2021 and 2024 (term to 2027)."
+  },
+  {
+   "person_key": "kenneth-chenault",
+   "start_date": "2018-01",
+   "start_date_precision": "month",
+   "start_date_basis": "prospectus/proxy bio 'joined our board of directors in January 2018'",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e016",
+    "e154",
+    "e027",
+    "e177",
+    "e183",
+    "e142",
+    "e145",
+    "e044",
+    "e052"
+   ],
+   "board_class": "I",
+   "notes": "Pre-IPO independent director; lead director since before the IPO. Class I; re-elected 2021 and 2024 (term to 2027)."
+  },
+  {
+   "person_key": "amrita-ahuja",
+   "start_date": "2021-12-14",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02: appointed 2021-12-13 effective 2021-12-14 (Form 3 event date agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e079",
+    "e047",
+    "e080",
+    "e179",
+    "e185",
+    "e143",
+    "e146",
+    "e050"
+   ],
+   "board_class": "II",
+   "notes": "Appointed as Class II director and audit committee member. Elected 2022, re-elected 2025 (term to 2028). Audit committee chair per the 2026 proxy."
+  },
+  {
+   "person_key": "jeffrey-jordan",
+   "start_date": "2011-08",
+   "start_date_precision": "month",
+   "start_date_basis": "prospectus/proxy bio 'joined our board of directors in August 2011'",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e020",
+    "e155",
+    "e037",
+    "e023",
+    "e028",
+    "e179",
+    "e185",
+    "e143",
+    "e146",
+    "e043",
+    "e055"
+   ],
+   "board_class": "II",
+   "notes": "Pre-IPO director (Andreessen Horowitz partner; investor designee per the prospectus). Class II; re-elected 2022 and 2025 (term to 2028)."
+  },
+  {
+   "person_key": "alfred-lin",
+   "start_date": "2012-11",
+   "start_date_precision": "month",
+   "start_date_basis": "prospectus/proxy bio 'joined our board of directors in November 2012'",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e021",
+    "e156",
+    "e023",
+    "e029",
+    "e181",
+    "e187",
+    "e144",
+    "e147",
+    "e045",
+    "e056"
+   ],
+   "board_class": "III",
+   "notes": "Pre-IPO director (Sequoia partner; investor designee per the prospectus). Class III; re-elected 2023 and 2026 (term to 2029)."
+  },
+  {
+   "person_key": "james-manyika",
+   "start_date": "2023-09-07",
+   "start_date_precision": "day",
+   "start_date_basis": "8-K Item 5.02 appointment effective 2023-09-07 (Form 3 event date agrees)",
+   "end_date": null,
+   "end_date_precision": null,
+   "end_reason": null,
+   "is_current": true,
+   "confidence": "high",
+   "evidence_refs": [
+    "e113",
+    "e115",
+    "e048",
+    "e117",
+    "e116",
+    "e147",
+    "e187",
+    "e144",
+    "e057"
+   ],
+   "board_class": "III",
+   "notes": "Appointed as Class III director and stakeholder committee chair. Elected 2026 (term to 2029)."
+  },
+  {
+   "person_key": "ann-mather",
+   "start_date": "2018-08",
+   "start_date_precision": "month",
+   "start_date_basis": "prospectus/proxy bio 'joined our board of directors in August 2018'",
+   "end_date": "2021-12-15",
+   "end_date_precision": "day",
+   "end_reason": "resigned",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e022",
+    "e062",
+    "e063",
+    "e074",
+    "e075",
+    "e076",
+    "e077",
+    "e078",
+    "e041"
+   ],
+   "board_class": "II",
+   "notes": "Pre-IPO independent director; audit chair at IPO. Resignation tendered 2021-11-02, effective 2021-12-15; disclosed in the Q3 2021 10-Q (Item 5), not an 8-K. Not due to any disagreement."
+  },
+  {
+   "person_key": "belinda-johnson",
+   "start_date": "2020-03-01",
+   "start_date_precision": "day",
+   "start_date_basis": "424B4 'joined our board of directors effective March 1, 2020' (bio: 'March 2020')",
+   "end_date": "2023-06-01",
+   "end_date_precision": "day",
+   "end_reason": "did_not_stand",
+   "is_current": false,
+   "confidence": "high",
+   "evidence_refs": [
+    "e019",
+    "e018",
+    "e017",
+    "e071",
+    "e084",
+    "e086",
+    "e029",
+    "e098",
+    "e100",
+    "e180",
+    "e181",
+    "e112",
+    "e046"
+   ],
+   "board_class": "III",
+   "notes": "Former COO (to 2020-03-01) who moved to the board as a non-employee, non-independent director. Did not stand for re-election; term ended at the 2023-06-01 annual meeting."
+  }
+ ],
+ "roles": [
+  {
+   "person_key": "brian-chesky",
+   "role": "chair",
+   "start_date": null,
+   "end_date": null,
+   "precision": null,
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e008",
+    "e141",
+    "e148",
+    "e038"
+   ],
+   "notes": "Chairman of the Board at the IPO and through the 2026 proxy. Start date not disclosed."
+  },
+  {
+   "person_key": "brian-chesky",
+   "role": "ceo_director",
+   "start_date": null,
+   "end_date": null,
+   "precision": null,
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e008",
+    "e150",
+    "e148",
+    "e038"
+   ],
+   "notes": "CEO-director throughout public-company history. CEO start date not disclosed."
+  },
+  {
+   "person_key": "brian-chesky",
+   "role": "non_independent_director",
+   "start_date": null,
+   "end_date": null,
+   "precision": null,
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e060",
+    "e139"
+   ],
+   "notes": "Not independent in every determination (IPO through 2026)."
+  },
+  {
+   "person_key": "joseph-gebbia",
+   "role": "executive_director",
+   "start_date": null,
+   "end_date": "2022",
+   "precision": null,
+   "end_precision": "year",
+   "confidence": "medium",
+   "evidence_refs": [
+    "e009",
+    "e083",
+    "e103",
+    "e094",
+    "e095",
+    "e096",
+    "e097"
+   ],
+   "notes": "Executive officer (Chairman of Samara and Airbnb.org; later Chairman of Airbnb.org) while a director. Still listed as an executive officer on 2022-04-22; an independent-contractor advisor from 2022-08-23. The exact employment end date is not disclosed.",
+   "officer_title": "Chairman of Samara and Airbnb.org"
+  },
+  {
+   "person_key": "joseph-gebbia",
+   "role": "non_independent_director",
+   "start_date": null,
+   "end_date": null,
+   "precision": null,
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e060",
+    "e094",
+    "e120",
+    "e139"
+   ],
+   "notes": "Never found independent: first as an executive officer, then as a former executive officer (and advisor)."
+  },
+  {
+   "person_key": "nathan-blecharczyk",
+   "role": "executive_director",
+   "start_date": null,
+   "end_date": null,
+   "precision": null,
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e010",
+    "e149",
+    "e040",
+    "e051"
+   ],
+   "notes": "Chief Strategy Officer and director throughout public-company history. Start not disclosed.",
+   "officer_title": "Chief Strategy Officer"
+  },
+  {
+   "person_key": "nathan-blecharczyk",
+   "role": "non_independent_director",
+   "start_date": null,
+   "end_date": null,
+   "precision": null,
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e060",
+    "e139"
+   ],
+   "notes": "Not independent in every determination."
+  },
+  {
+   "person_key": "kenneth-chenault",
+   "role": "lead_independent_director",
+   "start_date": null,
+   "end_date": null,
+   "precision": null,
+   "end_precision": null,
+   "confidence": "high",
+   "evidence_refs": [
+    "e025",
+    "e024",
+    "e061",
+    "e140",
+    "e141"
+   ],
+   "notes": "Lead director ('lead independent director' in the director-compensation policy) since before the IPO; already appointed when the S-1 was filed 2020-11-16. Appointment date not disclosed."
+  },
+  {
+   "person_key": "kenneth-chenault",
+   "role": "independent_director",
+   "start_date": "2018-01",
+   "end_date": null,
+   "precision": "month",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e026",
+    "e059",
+    "e138"
+   ],
+   "notes": "Independent at the IPO and in every proxy."
+  },
+  {
+   "person_key": "angela-ahrendts",
+   "role": "independent_director",
+   "start_date": "2019-05-01",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e026",
+    "e059",
+    "e138"
+   ],
+   "notes": "Independent at the IPO and in every proxy."
+  },
+  {
+   "person_key": "jeffrey-jordan",
+   "role": "independent_director",
+   "start_date": "2011-08",
+   "end_date": null,
+   "precision": "month",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e026",
+    "e059",
+    "e138"
+   ],
+   "notes": "Independent at the IPO and in every proxy (investor designee pre-IPO)."
+  },
+  {
+   "person_key": "alfred-lin",
+   "role": "independent_director",
+   "start_date": "2012-11",
+   "end_date": null,
+   "precision": "month",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e026",
+    "e059",
+    "e138"
+   ],
+   "notes": "Independent at the IPO and in every proxy (investor designee pre-IPO)."
+  },
+  {
+   "person_key": "amrita-ahuja",
+   "role": "independent_director",
+   "start_date": "2021-12-14",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e082",
+    "e102",
+    "e119",
+    "e138"
+   ],
+   "notes": "Independent in every proxy since 2022."
+  },
+  {
+   "person_key": "james-manyika",
+   "role": "independent_director",
+   "start_date": "2023-09-07",
+   "end_date": null,
+   "precision": "day",
+   "end_precision": null,
+   "confidence": "medium",
+   "evidence_refs": [
+    "e119",
+    "e129",
+    "e138"
+   ],
+   "notes": "Independent in every proxy since 2024."
+  },
+  {
+   "person_key": "ann-mather",
+   "role": "independent_director",
+   "start_date": "2018-08",
+   "end_date": "2021-12-15",
+   "precision": "month",
+   "end_precision": "day",
+   "confidence": "medium",
+   "evidence_refs": [
+    "e026",
+    "e059",
+    "e076"
+   ],
+   "notes": "Independent at the IPO and in the 2021 proxy."
+  },
+  {
+   "person_key": "belinda-johnson",
+   "role": "non_independent_director",
+   "start_date": "2020-03-01",
+   "end_date": "2023-06-01",
+   "precision": "day",
+   "end_precision": "day",
+   "confidence": "high",
+   "evidence_refs": [
+    "e060",
+    "e101",
+    "e071",
+    "e017"
+   ],
+   "notes": "Not independent as the former COO; a non-employee director from 2020-03-01."
+  }
+ ],
+ "committees": [
+  {
+   "person_key": "jeffrey-jordan",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001193125-20-315318",
+   "as_of_date": "2020-12-11",
+   "evidence_refs": [
+    "e030"
+   ]
+  },
+  {
+   "person_key": "alfred-lin",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001193125-20-315318",
+   "as_of_date": "2020-12-11",
+   "evidence_refs": [
+    "e030"
+   ]
+  },
+  {
+   "person_key": "ann-mather",
+   "committee": "audit",
+   "role": "chair",
+   "as_of_filing": "0001193125-20-315318",
+   "as_of_date": "2020-12-11",
+   "evidence_refs": [
+    "e030"
+   ]
+  },
+  {
+   "person_key": "kenneth-chenault",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001193125-20-315318",
+   "as_of_date": "2020-12-11",
+   "evidence_refs": [
+    "e031"
+   ]
+  },
+  {
+   "person_key": "alfred-lin",
+   "committee": "compensation",
+   "role": "chair",
+   "as_of_filing": "0001193125-20-315318",
+   "as_of_date": "2020-12-11",
+   "evidence_refs": [
+    "e031",
+    "e032"
+   ]
+  },
+  {
+   "person_key": "angela-ahrendts",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001193125-20-315318",
+   "as_of_date": "2020-12-11",
+   "evidence_refs": [
+    "e031"
+   ]
+  },
+  {
+   "person_key": "kenneth-chenault",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001193125-20-315318",
+   "as_of_date": "2020-12-11",
+   "evidence_refs": [
+    "e033"
+   ]
+  },
+  {
+   "person_key": "jeffrey-jordan",
+   "committee": "nominating_governance",
+   "role": "chair",
+   "as_of_filing": "0001193125-20-315318",
+   "as_of_date": "2020-12-11",
+   "evidence_refs": [
+    "e033",
+    "e034"
+   ]
+  },
+  {
+   "person_key": "ann-mather",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001193125-20-315318",
+   "as_of_date": "2020-12-11",
+   "evidence_refs": [
+    "e033"
+   ]
+  },
+  {
+   "person_key": "brian-chesky",
+   "committee": "stakeholder",
+   "role": "member",
+   "as_of_filing": "0001193125-20-315318",
+   "as_of_date": "2020-12-11",
+   "evidence_refs": [
+    "e035"
+   ]
+  },
+  {
+   "person_key": "joseph-gebbia",
+   "committee": "stakeholder",
+   "role": "member",
+   "as_of_filing": "0001193125-20-315318",
+   "as_of_date": "2020-12-11",
+   "evidence_refs": [
+    "e035"
+   ]
+  },
+  {
+   "person_key": "nathan-blecharczyk",
+   "committee": "stakeholder",
+   "role": "member",
+   "as_of_filing": "0001193125-20-315318",
+   "as_of_date": "2020-12-11",
+   "evidence_refs": [
+    "e035"
+   ]
+  },
+  {
+   "person_key": "angela-ahrendts",
+   "committee": "stakeholder",
+   "role": "member",
+   "as_of_filing": "0001193125-20-315318",
+   "as_of_date": "2020-12-11",
+   "evidence_refs": [
+    "e035"
+   ]
+  },
+  {
+   "person_key": "belinda-johnson",
+   "committee": "stakeholder",
+   "role": "chair",
+   "as_of_filing": "0001193125-20-315318",
+   "as_of_date": "2020-12-11",
+   "evidence_refs": [
+    "e035"
+   ]
+  },
+  {
+   "person_key": "jeffrey-jordan",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001193125-21-145242",
+   "as_of_date": "2021-04-30",
+   "evidence_refs": [
+    "e064"
+   ]
+  },
+  {
+   "person_key": "alfred-lin",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001193125-21-145242",
+   "as_of_date": "2021-04-30",
+   "evidence_refs": [
+    "e064"
+   ]
+  },
+  {
+   "person_key": "ann-mather",
+   "committee": "audit",
+   "role": "chair",
+   "as_of_filing": "0001193125-21-145242",
+   "as_of_date": "2021-04-30",
+   "evidence_refs": [
+    "e064",
+    "e065"
+   ]
+  },
+  {
+   "person_key": "angela-ahrendts",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001193125-21-145242",
+   "as_of_date": "2021-04-30",
+   "evidence_refs": [
+    "e066"
+   ]
+  },
+  {
+   "person_key": "kenneth-chenault",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001193125-21-145242",
+   "as_of_date": "2021-04-30",
+   "evidence_refs": [
+    "e066"
+   ]
+  },
+  {
+   "person_key": "alfred-lin",
+   "committee": "compensation",
+   "role": "chair",
+   "as_of_filing": "0001193125-21-145242",
+   "as_of_date": "2021-04-30",
+   "evidence_refs": [
+    "e066",
+    "e067"
+   ]
+  },
+  {
+   "person_key": "kenneth-chenault",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001193125-21-145242",
+   "as_of_date": "2021-04-30",
+   "evidence_refs": [
+    "e068"
+   ]
+  },
+  {
+   "person_key": "jeffrey-jordan",
+   "committee": "nominating_governance",
+   "role": "chair",
+   "as_of_filing": "0001193125-21-145242",
+   "as_of_date": "2021-04-30",
+   "evidence_refs": [
+    "e068",
+    "e069"
+   ]
+  },
+  {
+   "person_key": "ann-mather",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001193125-21-145242",
+   "as_of_date": "2021-04-30",
+   "evidence_refs": [
+    "e068"
+   ]
+  },
+  {
+   "person_key": "brian-chesky",
+   "committee": "stakeholder",
+   "role": "member",
+   "as_of_filing": "0001193125-21-145242",
+   "as_of_date": "2021-04-30",
+   "evidence_refs": [
+    "e070"
+   ]
+  },
+  {
+   "person_key": "joseph-gebbia",
+   "committee": "stakeholder",
+   "role": "member",
+   "as_of_filing": "0001193125-21-145242",
+   "as_of_date": "2021-04-30",
+   "evidence_refs": [
+    "e070"
+   ]
+  },
+  {
+   "person_key": "nathan-blecharczyk",
+   "committee": "stakeholder",
+   "role": "member",
+   "as_of_filing": "0001193125-21-145242",
+   "as_of_date": "2021-04-30",
+   "evidence_refs": [
+    "e070"
+   ]
+  },
+  {
+   "person_key": "angela-ahrendts",
+   "committee": "stakeholder",
+   "role": "member",
+   "as_of_filing": "0001193125-21-145242",
+   "as_of_date": "2021-04-30",
+   "evidence_refs": [
+    "e070"
+   ]
+  },
+  {
+   "person_key": "belinda-johnson",
+   "committee": "stakeholder",
+   "role": "chair",
+   "as_of_filing": "0001193125-21-145242",
+   "as_of_date": "2021-04-30",
+   "evidence_refs": [
+    "e070"
+   ]
+  },
+  {
+   "person_key": "amrita-ahuja",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001193125-21-357564",
+   "as_of_date": "2021-12-15",
+   "evidence_refs": [
+    "e079"
+   ],
+   "effective_date": "2021-12-14"
+  },
+  {
+   "person_key": "amrita-ahuja",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001193125-22-115317",
+   "as_of_date": "2022-04-22",
+   "evidence_refs": [
+    "e087"
+   ]
+  },
+  {
+   "person_key": "jeffrey-jordan",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001193125-22-115317",
+   "as_of_date": "2022-04-22",
+   "evidence_refs": [
+    "e087"
+   ]
+  },
+  {
+   "person_key": "alfred-lin",
+   "committee": "audit",
+   "role": "chair",
+   "as_of_filing": "0001193125-22-115317",
+   "as_of_date": "2022-04-22",
+   "evidence_refs": [
+    "e087",
+    "e088"
+   ]
+  },
+  {
+   "person_key": "angela-ahrendts",
+   "committee": "compensation",
+   "role": "chair",
+   "as_of_filing": "0001193125-22-115317",
+   "as_of_date": "2022-04-22",
+   "evidence_refs": [
+    "e089",
+    "e090"
+   ]
+  },
+  {
+   "person_key": "kenneth-chenault",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001193125-22-115317",
+   "as_of_date": "2022-04-22",
+   "evidence_refs": [
+    "e089"
+   ]
+  },
+  {
+   "person_key": "alfred-lin",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001193125-22-115317",
+   "as_of_date": "2022-04-22",
+   "evidence_refs": [
+    "e089"
+   ]
+  },
+  {
+   "person_key": "kenneth-chenault",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001193125-22-115317",
+   "as_of_date": "2022-04-22",
+   "evidence_refs": [
+    "e091"
+   ]
+  },
+  {
+   "person_key": "jeffrey-jordan",
+   "committee": "nominating_governance",
+   "role": "chair",
+   "as_of_filing": "0001193125-22-115317",
+   "as_of_date": "2022-04-22",
+   "evidence_refs": [
+    "e091",
+    "e092"
+   ]
+  },
+  {
+   "person_key": "brian-chesky",
+   "committee": "stakeholder",
+   "role": "member",
+   "as_of_filing": "0001193125-22-115317",
+   "as_of_date": "2022-04-22",
+   "evidence_refs": [
+    "e093"
+   ]
+  },
+  {
+   "person_key": "joseph-gebbia",
+   "committee": "stakeholder",
+   "role": "member",
+   "as_of_filing": "0001193125-22-115317",
+   "as_of_date": "2022-04-22",
+   "evidence_refs": [
+    "e093"
+   ]
+  },
+  {
+   "person_key": "nathan-blecharczyk",
+   "committee": "stakeholder",
+   "role": "member",
+   "as_of_filing": "0001193125-22-115317",
+   "as_of_date": "2022-04-22",
+   "evidence_refs": [
+    "e093"
+   ]
+  },
+  {
+   "person_key": "angela-ahrendts",
+   "committee": "stakeholder",
+   "role": "member",
+   "as_of_filing": "0001193125-22-115317",
+   "as_of_date": "2022-04-22",
+   "evidence_refs": [
+    "e093"
+   ]
+  },
+  {
+   "person_key": "belinda-johnson",
+   "committee": "stakeholder",
+   "role": "chair",
+   "as_of_filing": "0001193125-22-115317",
+   "as_of_date": "2022-04-22",
+   "evidence_refs": [
+    "e093"
+   ]
+  },
+  {
+   "person_key": "amrita-ahuja",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001193125-23-109099",
+   "as_of_date": "2023-04-21",
+   "evidence_refs": [
+    "e104"
+   ]
+  },
+  {
+   "person_key": "jeffrey-jordan",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001193125-23-109099",
+   "as_of_date": "2023-04-21",
+   "evidence_refs": [
+    "e104"
+   ]
+  },
+  {
+   "person_key": "alfred-lin",
+   "committee": "audit",
+   "role": "chair",
+   "as_of_filing": "0001193125-23-109099",
+   "as_of_date": "2023-04-21",
+   "evidence_refs": [
+    "e104",
+    "e105"
+   ]
+  },
+  {
+   "person_key": "angela-ahrendts",
+   "committee": "compensation",
+   "role": "chair",
+   "as_of_filing": "0001193125-23-109099",
+   "as_of_date": "2023-04-21",
+   "evidence_refs": [
+    "e106",
+    "e107"
+   ]
+  },
+  {
+   "person_key": "kenneth-chenault",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001193125-23-109099",
+   "as_of_date": "2023-04-21",
+   "evidence_refs": [
+    "e106"
+   ]
+  },
+  {
+   "person_key": "alfred-lin",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001193125-23-109099",
+   "as_of_date": "2023-04-21",
+   "evidence_refs": [
+    "e106"
+   ]
+  },
+  {
+   "person_key": "kenneth-chenault",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001193125-23-109099",
+   "as_of_date": "2023-04-21",
+   "evidence_refs": [
+    "e108"
+   ]
+  },
+  {
+   "person_key": "jeffrey-jordan",
+   "committee": "nominating_governance",
+   "role": "chair",
+   "as_of_filing": "0001193125-23-109099",
+   "as_of_date": "2023-04-21",
+   "evidence_refs": [
+    "e108",
+    "e109"
+   ]
+  },
+  {
+   "person_key": "brian-chesky",
+   "committee": "stakeholder",
+   "role": "member",
+   "as_of_filing": "0001193125-23-109099",
+   "as_of_date": "2023-04-21",
+   "evidence_refs": [
+    "e110"
+   ]
+  },
+  {
+   "person_key": "joseph-gebbia",
+   "committee": "stakeholder",
+   "role": "member",
+   "as_of_filing": "0001193125-23-109099",
+   "as_of_date": "2023-04-21",
+   "evidence_refs": [
+    "e110"
+   ]
+  },
+  {
+   "person_key": "nathan-blecharczyk",
+   "committee": "stakeholder",
+   "role": "member",
+   "as_of_filing": "0001193125-23-109099",
+   "as_of_date": "2023-04-21",
+   "evidence_refs": [
+    "e110"
+   ]
+  },
+  {
+   "person_key": "angela-ahrendts",
+   "committee": "stakeholder",
+   "role": "member",
+   "as_of_filing": "0001193125-23-109099",
+   "as_of_date": "2023-04-21",
+   "evidence_refs": [
+    "e110"
+   ]
+  },
+  {
+   "person_key": "belinda-johnson",
+   "committee": "stakeholder",
+   "role": "chair",
+   "as_of_filing": "0001193125-23-109099",
+   "as_of_date": "2023-04-21",
+   "evidence_refs": [
+    "e110"
+   ]
+  },
+  {
+   "person_key": "james-manyika",
+   "committee": "stakeholder",
+   "role": "chair",
+   "as_of_filing": "0001193125-23-232474",
+   "as_of_date": "2023-09-11",
+   "evidence_refs": [
+    "e113"
+   ],
+   "effective_date": "2023-09-07"
+  },
+  {
+   "person_key": "angela-ahrendts",
+   "committee": "stakeholder",
+   "role": "member",
+   "as_of_filing": "0001193125-23-232474",
+   "as_of_date": "2023-09-11",
+   "evidence_refs": [
+    "e113",
+    "e114"
+   ],
+   "effective_date": "2023-09-07"
+  },
+  {
+   "person_key": "amrita-ahuja",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001193125-24-102960",
+   "as_of_date": "2024-04-19",
+   "evidence_refs": [
+    "e121"
+   ]
+  },
+  {
+   "person_key": "jeffrey-jordan",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001193125-24-102960",
+   "as_of_date": "2024-04-19",
+   "evidence_refs": [
+    "e121"
+   ]
+  },
+  {
+   "person_key": "alfred-lin",
+   "committee": "audit",
+   "role": "chair",
+   "as_of_filing": "0001193125-24-102960",
+   "as_of_date": "2024-04-19",
+   "evidence_refs": [
+    "e121",
+    "e122"
+   ]
+  },
+  {
+   "person_key": "angela-ahrendts",
+   "committee": "compensation",
+   "role": "chair",
+   "as_of_filing": "0001193125-24-102960",
+   "as_of_date": "2024-04-19",
+   "evidence_refs": [
+    "e123",
+    "e124"
+   ]
+  },
+  {
+   "person_key": "kenneth-chenault",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001193125-24-102960",
+   "as_of_date": "2024-04-19",
+   "evidence_refs": [
+    "e123"
+   ]
+  },
+  {
+   "person_key": "alfred-lin",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001193125-24-102960",
+   "as_of_date": "2024-04-19",
+   "evidence_refs": [
+    "e123"
+   ]
+  },
+  {
+   "person_key": "kenneth-chenault",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001193125-24-102960",
+   "as_of_date": "2024-04-19",
+   "evidence_refs": [
+    "e125"
+   ]
+  },
+  {
+   "person_key": "jeffrey-jordan",
+   "committee": "nominating_governance",
+   "role": "chair",
+   "as_of_filing": "0001193125-24-102960",
+   "as_of_date": "2024-04-19",
+   "evidence_refs": [
+    "e125",
+    "e126"
+   ]
+  },
+  {
+   "person_key": "brian-chesky",
+   "committee": "stakeholder",
+   "role": "member",
+   "as_of_filing": "0001193125-24-102960",
+   "as_of_date": "2024-04-19",
+   "evidence_refs": [
+    "e127"
+   ]
+  },
+  {
+   "person_key": "joseph-gebbia",
+   "committee": "stakeholder",
+   "role": "member",
+   "as_of_filing": "0001193125-24-102960",
+   "as_of_date": "2024-04-19",
+   "evidence_refs": [
+    "e127"
+   ]
+  },
+  {
+   "person_key": "nathan-blecharczyk",
+   "committee": "stakeholder",
+   "role": "member",
+   "as_of_filing": "0001193125-24-102960",
+   "as_of_date": "2024-04-19",
+   "evidence_refs": [
+    "e127"
+   ]
+  },
+  {
+   "person_key": "james-manyika",
+   "committee": "stakeholder",
+   "role": "chair",
+   "as_of_filing": "0001193125-24-102960",
+   "as_of_date": "2024-04-19",
+   "evidence_refs": [
+    "e127"
+   ]
+  },
+  {
+   "person_key": "angela-ahrendts",
+   "committee": "stakeholder",
+   "role": "member",
+   "as_of_filing": "0001193125-24-102960",
+   "as_of_date": "2024-04-19",
+   "evidence_refs": [
+    "e127"
+   ]
+  },
+  {
+   "person_key": "amrita-ahuja",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001193125-25-096938",
+   "as_of_date": "2025-04-25",
+   "evidence_refs": [
+    "e130"
+   ]
+  },
+  {
+   "person_key": "jeffrey-jordan",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001193125-25-096938",
+   "as_of_date": "2025-04-25",
+   "evidence_refs": [
+    "e130"
+   ]
+  },
+  {
+   "person_key": "alfred-lin",
+   "committee": "audit",
+   "role": "chair",
+   "as_of_filing": "0001193125-25-096938",
+   "as_of_date": "2025-04-25",
+   "evidence_refs": [
+    "e130",
+    "e131"
+   ]
+  },
+  {
+   "person_key": "angela-ahrendts",
+   "committee": "compensation",
+   "role": "chair",
+   "as_of_filing": "0001193125-25-096938",
+   "as_of_date": "2025-04-25",
+   "evidence_refs": [
+    "e132",
+    "e133"
+   ]
+  },
+  {
+   "person_key": "kenneth-chenault",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001193125-25-096938",
+   "as_of_date": "2025-04-25",
+   "evidence_refs": [
+    "e132"
+   ]
+  },
+  {
+   "person_key": "alfred-lin",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001193125-25-096938",
+   "as_of_date": "2025-04-25",
+   "evidence_refs": [
+    "e132"
+   ]
+  },
+  {
+   "person_key": "kenneth-chenault",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001193125-25-096938",
+   "as_of_date": "2025-04-25",
+   "evidence_refs": [
+    "e134"
+   ]
+  },
+  {
+   "person_key": "jeffrey-jordan",
+   "committee": "nominating_governance",
+   "role": "chair",
+   "as_of_filing": "0001193125-25-096938",
+   "as_of_date": "2025-04-25",
+   "evidence_refs": [
+    "e134",
+    "e135"
+   ]
+  },
+  {
+   "person_key": "brian-chesky",
+   "committee": "stakeholder",
+   "role": "member",
+   "as_of_filing": "0001193125-25-096938",
+   "as_of_date": "2025-04-25",
+   "evidence_refs": [
+    "e136"
+   ]
+  },
+  {
+   "person_key": "joseph-gebbia",
+   "committee": "stakeholder",
+   "role": "member",
+   "as_of_filing": "0001193125-25-096938",
+   "as_of_date": "2025-04-25",
+   "evidence_refs": [
+    "e136"
+   ]
+  },
+  {
+   "person_key": "nathan-blecharczyk",
+   "committee": "stakeholder",
+   "role": "member",
+   "as_of_filing": "0001193125-25-096938",
+   "as_of_date": "2025-04-25",
+   "evidence_refs": [
+    "e136"
+   ]
+  },
+  {
+   "person_key": "james-manyika",
+   "committee": "stakeholder",
+   "role": "chair",
+   "as_of_filing": "0001193125-25-096938",
+   "as_of_date": "2025-04-25",
+   "evidence_refs": [
+    "e136"
+   ]
+  },
+  {
+   "person_key": "angela-ahrendts",
+   "committee": "stakeholder",
+   "role": "member",
+   "as_of_filing": "0001193125-25-096938",
+   "as_of_date": "2025-04-25",
+   "evidence_refs": [
+    "e136"
+   ]
+  },
+  {
+   "person_key": "amrita-ahuja",
+   "committee": "audit",
+   "role": "chair",
+   "as_of_filing": "0001193125-26-175062",
+   "as_of_date": "2026-04-24",
+   "evidence_refs": [
+    "e157",
+    "e158"
+   ]
+  },
+  {
+   "person_key": "jeffrey-jordan",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001193125-26-175062",
+   "as_of_date": "2026-04-24",
+   "evidence_refs": [
+    "e157"
+   ]
+  },
+  {
+   "person_key": "alfred-lin",
+   "committee": "audit",
+   "role": "member",
+   "as_of_filing": "0001193125-26-175062",
+   "as_of_date": "2026-04-24",
+   "evidence_refs": [
+    "e157"
+   ]
+  },
+  {
+   "person_key": "angela-ahrendts",
+   "committee": "compensation",
+   "role": "chair",
+   "as_of_filing": "0001193125-26-175062",
+   "as_of_date": "2026-04-24",
+   "evidence_refs": [
+    "e159",
+    "e160"
+   ]
+  },
+  {
+   "person_key": "kenneth-chenault",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001193125-26-175062",
+   "as_of_date": "2026-04-24",
+   "evidence_refs": [
+    "e159"
+   ]
+  },
+  {
+   "person_key": "alfred-lin",
+   "committee": "compensation",
+   "role": "member",
+   "as_of_filing": "0001193125-26-175062",
+   "as_of_date": "2026-04-24",
+   "evidence_refs": [
+    "e159"
+   ]
+  },
+  {
+   "person_key": "kenneth-chenault",
+   "committee": "nominating_governance",
+   "role": "member",
+   "as_of_filing": "0001193125-26-175062",
+   "as_of_date": "2026-04-24",
+   "evidence_refs": [
+    "e161"
+   ]
+  },
+  {
+   "person_key": "jeffrey-jordan",
+   "committee": "nominating_governance",
+   "role": "chair",
+   "as_of_filing": "0001193125-26-175062",
+   "as_of_date": "2026-04-24",
+   "evidence_refs": [
+    "e161",
+    "e162"
+   ]
+  },
+  {
+   "person_key": "brian-chesky",
+   "committee": "stakeholder",
+   "role": "member",
+   "as_of_filing": "0001193125-26-175062",
+   "as_of_date": "2026-04-24",
+   "evidence_refs": [
+    "e163"
+   ]
+  },
+  {
+   "person_key": "joseph-gebbia",
+   "committee": "stakeholder",
+   "role": "member",
+   "as_of_filing": "0001193125-26-175062",
+   "as_of_date": "2026-04-24",
+   "evidence_refs": [
+    "e163"
+   ]
+  },
+  {
+   "person_key": "nathan-blecharczyk",
+   "committee": "stakeholder",
+   "role": "member",
+   "as_of_filing": "0001193125-26-175062",
+   "as_of_date": "2026-04-24",
+   "evidence_refs": [
+    "e163"
+   ]
+  },
+  {
+   "person_key": "james-manyika",
+   "committee": "stakeholder",
+   "role": "chair",
+   "as_of_filing": "0001193125-26-175062",
+   "as_of_date": "2026-04-24",
+   "evidence_refs": [
+    "e163"
+   ]
+  },
+  {
+   "person_key": "angela-ahrendts",
+   "committee": "stakeholder",
+   "role": "member",
+   "as_of_filing": "0001193125-26-175062",
+   "as_of_date": "2026-04-24",
+   "evidence_refs": [
+    "e163"
+   ]
+  }
+ ],
+ "events": [
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "jeffrey-jordan",
+   "event_date": "2011-08",
+   "announced_date": null,
+   "evidence_refs": [
+    "e020",
+    "e155"
+   ],
+   "summary": "Jeffrey Jordan joins the board (Andreessen Horowitz).",
+   "event_date_precision": "month"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "alfred-lin",
+   "event_date": "2012-11",
+   "announced_date": null,
+   "evidence_refs": [
+    "e021",
+    "e156"
+   ],
+   "summary": "Alfred Lin joins the board (Sequoia).",
+   "event_date_precision": "month"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "kenneth-chenault",
+   "event_date": "2018-01",
+   "announced_date": null,
+   "evidence_refs": [
+    "e016",
+    "e154"
+   ],
+   "summary": "Kenneth Chenault joins the board.",
+   "event_date_precision": "month"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "ann-mather",
+   "event_date": "2018-08",
+   "announced_date": null,
+   "evidence_refs": [
+    "e022"
+   ],
+   "summary": "Ann Mather joins the board.",
+   "event_date_precision": "month"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "angela-ahrendts",
+   "event_date": "2019-05-01",
+   "announced_date": null,
+   "evidence_refs": [
+    "e015",
+    "e014"
+   ],
+   "summary": "Angela Ahrendts joins the board.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "belinda-johnson",
+   "event_date": "2020-03-01",
+   "announced_date": null,
+   "evidence_refs": [
+    "e019",
+    "e071",
+    "e036"
+   ],
+   "summary": "Belinda Johnson steps down as COO and joins the board as a non-employee director.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "amrita-ahuja",
+   "event_date": "2021-12-14",
+   "announced_date": "2021-12-15",
+   "evidence_refs": [
+    "e079",
+    "e047"
+   ],
+   "summary": "Amrita Ahuja appointed (Class II; audit committee).",
+   "event_date_precision": "day",
+   "decision_date": "2021-12-13"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "ann-mather",
+   "event_date": "2021-12-15",
+   "announced_date": "2021-11-05",
+   "evidence_refs": [
+    "e074",
+    "e075",
+    "e076"
+   ],
+   "summary": "Ann Mather resigns (notice 2021-11-02), effective 2021-12-15; not due to a disagreement.",
+   "event_date_precision": "day",
+   "decision_date": "2021-11-02"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "joseph-gebbia",
+   "event_date": "2022",
+   "announced_date": null,
+   "evidence_refs": [
+    "e083",
+    "e094",
+    "e095",
+    "e097"
+   ],
+   "summary": "Gebbia stops being an executive officer and becomes a non-employee director and paid advisor (advisor agreement effective 2022-08-23). Exact date not disclosed.",
+   "event_date_precision": "year"
+  },
+  {
+   "type": "BOARD_LEAVE",
+   "person_key": "belinda-johnson",
+   "event_date": "2023-06-01",
+   "announced_date": "2023-04-17",
+   "evidence_refs": [
+    "e098",
+    "e100",
+    "e180",
+    "e181",
+    "e112"
+   ],
+   "summary": "Belinda Johnson does not stand for re-election; term ends at the 2023 annual meeting.",
+   "event_date_precision": "day",
+   "decision_date": "2023-04-11"
+  },
+  {
+   "type": "BOARD_SIZE_CHANGE",
+   "person_key": null,
+   "event_date": "2023-06-01",
+   "announced_date": "2023-04-21",
+   "evidence_refs": [
+    "e099"
+   ],
+   "summary": "Authorized directors reduced 9 -> 8 effective at the 2023 annual meeting.",
+   "event_date_precision": "day",
+   "from_size": 9,
+   "to_size": 8
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "angela-ahrendts",
+   "event_date": "2023-06-01",
+   "announced_date": "2023-04-21",
+   "evidence_refs": [
+    "e111"
+   ],
+   "summary": "Ahrendts becomes stakeholder committee chair, succeeding Johnson.",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "BOARD_JOIN",
+   "person_key": "james-manyika",
+   "event_date": "2023-09-07",
+   "announced_date": "2023-09-11",
+   "evidence_refs": [
+    "e113",
+    "e048"
+   ],
+   "summary": "James Manyika appointed (Class III; stakeholder committee chair).",
+   "event_date_precision": "day"
+  },
+  {
+   "type": "ROLE_CHANGE",
+   "person_key": "james-manyika",
+   "event_date": "2023-09-07",
+   "announced_date": "2023-09-11",
+   "evidence_refs": [
+    "e113",
+    "e114"
+   ],
+   "summary": "Manyika replaces Ahrendts as stakeholder committee chair; Ahrendts stays a member.",
+   "event_date_precision": "day"
+  }
+ ],
+ "context_events": [
+  {
+   "type": "IPO",
+   "event_date": "2020-12-10",
+   "announced_date": "2020-12-09",
+   "evidence_refs": [
+    "e001",
+    "e002",
+    "e004",
+    "e003",
+    "e005",
+    "e006",
+    "e007",
+    "e026"
+   ],
+   "summary": "Prospectus dated 2020-12-09; first trade 2020-12-10; closed 2020-12-14 at $68.00. Nine directors at IPO in three classes; five independent."
+  },
+  {
+   "type": "BOARD_SIZE_SNAPSHOT",
+   "event_date": "2020-12-09",
+   "board_size": 9,
+   "evidence_refs": [
+    "e007"
+   ],
+   "summary": "Prospectus: nine directors."
+  },
+  {
+   "type": "BOARD_SIZE_SNAPSHOT",
+   "event_date": "2021-04-30",
+   "board_size": 9,
+   "evidence_refs": [
+    "e058"
+   ],
+   "summary": "2021 proxy: nine directors (five independent)."
+  },
+  {
+   "type": "BOARD_SIZE_SNAPSHOT",
+   "event_date": "2022-04-22",
+   "board_size": 9,
+   "evidence_refs": [
+    "e081"
+   ],
+   "summary": "2022 proxy: nine directors (five independent). Ahuja in, Mather out (Dec 2021)."
+  },
+  {
+   "type": "BOARD_SIZE_SNAPSHOT",
+   "event_date": "2023-04-21",
+   "board_size": 9,
+   "evidence_refs": [
+    "e099"
+   ],
+   "summary": "2023 proxy: nine directors, eight after the annual meeting."
+  },
+  {
+   "type": "BOARD_SIZE_SNAPSHOT",
+   "event_date": "2024-04-19",
+   "board_size": 9,
+   "evidence_refs": [
+    "e118"
+   ],
+   "summary": "2024 proxy: nine directors (six independent). The 8-K appointing Manyika did not state a size increase."
+  },
+  {
+   "type": "BOARD_SIZE_SNAPSHOT",
+   "event_date": "2025-04-25",
+   "board_size": 9,
+   "evidence_refs": [
+    "e128"
+   ],
+   "summary": "2025 proxy: nine directors (six independent)."
+  },
+  {
+   "type": "BOARD_SIZE_SNAPSHOT",
+   "event_date": "2026-04-24",
+   "board_size": 9,
+   "evidence_refs": [
+    "e137"
+   ],
+   "summary": "2026 proxy: nine directors (six independent)."
+  },
+  {
+   "type": "ANNUAL_MEETING",
+   "event_date": "2021-06-22",
+   "evidence_refs": [
+    "e176",
+    "e177"
+   ],
+   "summary": "Class I: Ahrendts, Chesky, Chenault elected to 2024."
+  },
+  {
+   "type": "ANNUAL_MEETING",
+   "event_date": "2022-06-01",
+   "evidence_refs": [
+    "e178",
+    "e179"
+   ],
+   "summary": "Class II: Ahuja, Gebbia, Jordan elected to 2025."
+  },
+  {
+   "type": "ANNUAL_MEETING",
+   "event_date": "2023-06-01",
+   "evidence_refs": [
+    "e180",
+    "e181"
+   ],
+   "summary": "Class III: Blecharczyk, Lin elected to 2026; Johnson's term ends."
+  },
+  {
+   "type": "ANNUAL_MEETING",
+   "event_date": "2024-06-05",
+   "evidence_refs": [
+    "e182",
+    "e183"
+   ],
+   "summary": "Class I: Chesky, Ahrendts, Chenault elected to 2027."
+  },
+  {
+   "type": "ANNUAL_MEETING",
+   "event_date": "2025-06-04",
+   "evidence_refs": [
+    "e184",
+    "e185"
+   ],
+   "summary": "Class II: Ahuja, Gebbia, Jordan elected to 2028."
+  },
+  {
+   "type": "ANNUAL_MEETING",
+   "event_date": "2026-06-05",
+   "evidence_refs": [
+    "e186",
+    "e187"
+   ],
+   "summary": "Class III: Blecharczyk, Lin, Manyika elected to 2029."
+  },
+  {
+   "type": "OFFICER_CHANGE_NOT_BOARD",
+   "event_date": "2023-12-04",
+   "announced_date": "2023-12-08",
+   "evidence_refs": [
+    "e188"
+   ],
+   "summary": "Stephenson to Chief Business Officer; Mertz to CFO (2024-03-01). Neither is a director; listed to show this Item 5.02 is not a board change."
+  },
+  {
+   "type": "OFFICER_CHANGE_NOT_BOARD",
+   "event_date": "2025-11-18",
+   "announced_date": "2025-11-21",
+   "evidence_refs": [
+    "e189"
+   ],
+   "summary": "CTO Aristotle Balogh to depart. Not a director; this is the last Item 5.02 8-K through 2026-10-04."
+  }
+ ],
+ "evidence": [
+  {
+   "id": "e001",
+   "form": "10-K",
+   "accession": "0001559720-21-000010",
+   "filing_date": "2021-02-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972021000010/airbnb-10k.htm",
+   "quote": "The registrant’s Class A common stock began trading on the Nasdaq Global Select Market on December 10, 2020.",
+   "supports": "IPO first trading day 2020-12-10 (FY2020 10-K cover)."
+  },
+  {
+   "id": "e002",
+   "form": "10-K",
+   "accession": "0001559720-21-000010",
+   "filing_date": "2021-02-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972021000010/airbnb-10k.htm",
+   "quote": "Our Class A common stock has been listed on the Nasdaq Global Select Market under the symbol “ABNB” since December 10, 2020.",
+   "supports": "Listing venue and ticker; listed since 2020-12-10."
+  },
+  {
+   "id": "e003",
+   "form": "8-K",
+   "accession": "0001193125-20-316959",
+   "filing_date": "2020-12-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312520316959/d44016d8k.htm",
+   "quote": "On December 14, 2020, the Company completed its initial public offering of 56,323,531 shares of its Class A common stock at a price to the public of $68.00 per share",
+   "supports": "IPO closed 2020-12-14 at $68.00."
+  },
+  {
+   "id": "e004",
+   "form": "424B4",
+   "accession": "0001193125-20-315318",
+   "filing_date": "2020-12-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312520315318/d81668d424b4.htm",
+   "quote": "Prospectus dated December 9, 2020",
+   "supports": "Final prospectus date (pricing) 2020-12-09."
+  },
+  {
+   "id": "e005",
+   "form": "424B4",
+   "accession": "0001193125-20-315318",
+   "filing_date": "2020-12-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312520315318/d81668d424b4.htm",
+   "quote": "We were incorporated on June 27, 2008 as AirBed & Breakfast, Inc., a Delaware corporation.",
+   "supports": "Incorporation date and state."
+  },
+  {
+   "id": "e006",
+   "form": "424B4",
+   "accession": "0001193125-20-315318",
+   "filing_date": "2020-12-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312520315318/d81668d424b4.htm",
+   "quote": "Class B common stock is entitled to 20 votes and is convertible at any time into one share of Class A common stock.",
+   "supports": "Dual-class structure (Class B 20 votes/share)."
+  },
+  {
+   "id": "e007",
+   "form": "424B4",
+   "accession": "0001193125-20-315318",
+   "filing_date": "2020-12-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312520315318/d81668d424b4.htm",
+   "quote": "Our board of directors currently consists of nine directors, five of whom will qualify as “independent” under the Nasdaq Listing Rules.",
+   "supports": "Board size at IPO: nine; five independent."
+  },
+  {
+   "id": "e008",
+   "form": "424B4",
+   "accession": "0001193125-20-315318",
+   "filing_date": "2020-12-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312520315318/d81668d424b4.htm",
+   "quote": "Brian Chesky(4) 39 Chief Executive Officer, Head of Community, Co-Founder, and Chairman of the Board",
+   "supports": "At IPO Chesky is CEO and Chairman of the Board (and stakeholder committee member).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e009",
+   "form": "424B4",
+   "accession": "0001193125-20-315318",
+   "filing_date": "2020-12-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312520315318/d81668d424b4.htm",
+   "quote": "Joseph Gebbia(4) 39 Chairman of Samara and Airbnb.org, Co-Founder, and Director",
+   "supports": "At IPO Gebbia is an executive officer (Chairman of Samara and Airbnb.org) and director.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e010",
+   "form": "424B4",
+   "accession": "0001193125-20-315318",
+   "filing_date": "2020-12-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312520315318/d81668d424b4.htm",
+   "quote": "Nathan Blecharczyk(4) 37 Chief Strategy Officer, Chairman of Airbnb China, Co-Founder, and Director",
+   "supports": "At IPO Blecharczyk is an executive officer (Chief Strategy Officer) and director.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e011",
+   "form": "424B4",
+   "accession": "0001193125-20-315318",
+   "filing_date": "2020-12-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312520315318/d81668d424b4.htm",
+   "quote": "Mr. Chesky co-founded our company in 2008 and serves as our Chief Executive Officer and Head of Community. He is also a member of our board of directors.",
+   "supports": "Chesky bio: co-founder (2008), CEO, director; no board-start date given."
+  },
+  {
+   "id": "e012",
+   "form": "424B4",
+   "accession": "0001193125-20-315318",
+   "filing_date": "2020-12-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312520315318/d81668d424b4.htm",
+   "quote": "Mr. Gebbia co-founded our company in 2008 and serves as our Chairman of Samara and Airbnb.org. He is also a member of our board of directors.",
+   "supports": "Gebbia bio: co-founder (2008), executive, director; no board-start date given."
+  },
+  {
+   "id": "e013",
+   "form": "424B4",
+   "accession": "0001193125-20-315318",
+   "filing_date": "2020-12-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312520315318/d81668d424b4.htm",
+   "quote": "Mr. Blecharczyk co-founded our company in 2008 and serves as our Chief Strategy Officer and Chairman of Airbnb China. He is also a member of our board of directors.",
+   "supports": "Blecharczyk bio: co-founder (2008), executive, director; no board-start date given."
+  },
+  {
+   "id": "e014",
+   "form": "424B4",
+   "accession": "0001193125-20-315318",
+   "filing_date": "2020-12-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312520315318/d81668d424b4.htm",
+   "quote": "Angela Ahrendts. Ms. Ahrendts joined our board of directors in May 2019.",
+   "supports": "Ahrendts board start May 2019."
+  },
+  {
+   "id": "e015",
+   "form": "424B4",
+   "accession": "0001193125-20-315318",
+   "filing_date": "2020-12-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312520315318/d81668d424b4.htm",
+   "quote": "Ms. Ahrendts was appointed as a member of our board of directors effective May 1, 2019.",
+   "supports": "Ahrendts board start day 2019-05-01 (director compensation footnote)."
+  },
+  {
+   "id": "e016",
+   "form": "424B4",
+   "accession": "0001193125-20-315318",
+   "filing_date": "2020-12-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312520315318/d81668d424b4.htm",
+   "quote": "Kenneth Chenault. Mr. Chenault joined our board of directors in January 2018.",
+   "supports": "Chenault board start January 2018."
+  },
+  {
+   "id": "e017",
+   "form": "424B4",
+   "accession": "0001193125-20-315318",
+   "filing_date": "2020-12-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312520315318/d81668d424b4.htm",
+   "quote": "Ms. Johnson served as our Chief Operating Officer from February 2018 through March 2020.",
+   "supports": "Johnson was COO until March 2020 (former executive; non-independent)."
+  },
+  {
+   "id": "e018",
+   "form": "424B4",
+   "accession": "0001193125-20-315318",
+   "filing_date": "2020-12-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312520315318/d81668d424b4.htm",
+   "quote": "Ms. Johnson joined our board of directors in March 2020.",
+   "supports": "Johnson board start March 2020."
+  },
+  {
+   "id": "e019",
+   "form": "424B4",
+   "accession": "0001193125-20-315318",
+   "filing_date": "2020-12-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312520315318/d81668d424b4.htm",
+   "quote": "Ms. Johnson stepped down from her position as Chief Operating Officer and joined our board of directors effective March 1, 2020.",
+   "supports": "Johnson board start day 2020-03-01."
+  },
+  {
+   "id": "e020",
+   "form": "424B4",
+   "accession": "0001193125-20-315318",
+   "filing_date": "2020-12-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312520315318/d81668d424b4.htm",
+   "quote": "Jeffrey Jordan. Mr. Jordan joined our board of directors in August 2011.",
+   "supports": "Jordan board start August 2011."
+  },
+  {
+   "id": "e021",
+   "form": "424B4",
+   "accession": "0001193125-20-315318",
+   "filing_date": "2020-12-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312520315318/d81668d424b4.htm",
+   "quote": "Alfred Lin. Mr. Lin joined our board of directors in November 2012.",
+   "supports": "Lin board start November 2012."
+  },
+  {
+   "id": "e022",
+   "form": "424B4",
+   "accession": "0001193125-20-315318",
+   "filing_date": "2020-12-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312520315318/d81668d424b4.htm",
+   "quote": "Ann Mather. Ms. Mather joined our board of directors in August 2018.",
+   "supports": "Mather board start August 2018."
+  },
+  {
+   "id": "e023",
+   "form": "424B4",
+   "accession": "0001193125-20-315318",
+   "filing_date": "2020-12-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312520315318/d81668d424b4.htm",
+   "quote": "Messrs. Jordan and Lin did not receive any compensation for their service on our board of directors because each is an employee of a stockholder who has a contractual right to nominate directors to our board of directors.",
+   "supports": "Jordan (Andreessen Horowitz) and Lin (Sequoia) sat as investor designees pre-IPO."
+  },
+  {
+   "id": "e024",
+   "form": "424B4",
+   "accession": "0001193125-20-315318",
+   "filing_date": "2020-12-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312520315318/d81668d424b4.htm",
+   "quote": "Our board of directors has appointed Mr. Chenault to serve as our lead director.",
+   "supports": "Chenault lead director at IPO."
+  },
+  {
+   "id": "e025",
+   "form": "S-1",
+   "accession": "0001193125-20-294801",
+   "filing_date": "2020-11-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312520294801/d81668ds1.htm",
+   "quote": "Our board of directors has appointed Mr. Chenault to serve as our lead director.",
+   "supports": "Chenault already appointed lead director when the S-1 was filed 2020-11-16 (appointment date itself not disclosed)."
+  },
+  {
+   "id": "e026",
+   "form": "424B4",
+   "accession": "0001193125-20-315318",
+   "filing_date": "2020-12-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312520315318/d81668d424b4.htm",
+   "quote": "our board of directors has determined that Messrs. Chenault, Jordan, and Lin and Mmes. Ahrendts and Mather qualify as independent directors in accordance with the Nasdaq Listing Rules.",
+   "supports": "IPO independence: Chenault, Jordan, Lin, Ahrendts, Mather."
+  },
+  {
+   "id": "e027",
+   "form": "424B4",
+   "accession": "0001193125-20-315318",
+   "filing_date": "2020-12-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312520315318/d81668d424b4.htm",
+   "quote": "the Class I directors will be Messrs. Chesky and Chenault, and Ms. Ahrendts, and their terms will expire at the annual meeting of stockholders to be held in 2021;",
+   "supports": "Class I at IPO: Chesky, Chenault, Ahrendts."
+  },
+  {
+   "id": "e028",
+   "form": "424B4",
+   "accession": "0001193125-20-315318",
+   "filing_date": "2020-12-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312520315318/d81668d424b4.htm",
+   "quote": "the Class II directors will be Messrs. Gebbia and Jordan, and Ms. Mather, and their terms will expire at the annual meeting of stockholders to be held in 2022; and",
+   "supports": "Class II at IPO: Gebbia, Jordan, Mather."
+  },
+  {
+   "id": "e029",
+   "form": "424B4",
+   "accession": "0001193125-20-315318",
+   "filing_date": "2020-12-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312520315318/d81668d424b4.htm",
+   "quote": "the Class III directors will be Messrs. Blecharczyk and Lin, and Ms. Johnson, and their terms will expire at the annual meeting of stockholders to be held in 2023.",
+   "supports": "Class III at IPO: Blecharczyk, Lin, Johnson."
+  },
+  {
+   "id": "e030",
+   "form": "424B4",
+   "accession": "0001193125-20-315318",
+   "filing_date": "2020-12-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312520315318/d81668d424b4.htm",
+   "quote": "Our audit, risk and compliance committee consists of Messrs. Jordan and Lin and Ms. Mather. Our board of directors has determined that all members are independent under the Nasdaq Listing Rules and Rule 10A-3(b)(1) of the Exchange Act. The chair of our audit, risk and compliance committee is Ms. Mather.",
+   "supports": "IPO audit committee: Jordan, Lin, Mather (chair)."
+  },
+  {
+   "id": "e031",
+   "form": "424B4",
+   "accession": "0001193125-20-315318",
+   "filing_date": "2020-12-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312520315318/d81668d424b4.htm",
+   "quote": "compensation committee consists of Messrs. Chenault and Lin and Ms. Ahrendts.",
+   "supports": "IPO compensation committee: Chenault, Lin, Ahrendts."
+  },
+  {
+   "id": "e032",
+   "form": "424B4",
+   "accession": "0001193125-20-315318",
+   "filing_date": "2020-12-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312520315318/d81668d424b4.htm",
+   "quote": "The chair of our leadership development, belonging and compensation committee is Mr. Lin.",
+   "supports": "IPO compensation committee chair: Lin."
+  },
+  {
+   "id": "e033",
+   "form": "424B4",
+   "accession": "0001193125-20-315318",
+   "filing_date": "2020-12-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312520315318/d81668d424b4.htm",
+   "quote": "Our nominating and corporate governance committee consists of Messrs. Chenault and Jordan and Ms. Mather.",
+   "supports": "IPO NCG: Chenault, Jordan, Mather."
+  },
+  {
+   "id": "e034",
+   "form": "424B4",
+   "accession": "0001193125-20-315318",
+   "filing_date": "2020-12-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312520315318/d81668d424b4.htm",
+   "quote": "The chair of our nominating and corporate governance committee is Mr. Jordan.",
+   "supports": "IPO NCG chair: Jordan."
+  },
+  {
+   "id": "e035",
+   "form": "424B4",
+   "accession": "0001193125-20-315318",
+   "filing_date": "2020-12-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312520315318/d81668d424b4.htm",
+   "quote": "It consists of Messrs. Blecharczyk, Chesky, and Gebbia and Mmes. Ahrendts and Johnson. The chair of our stakeholder committee is Ms. Johnson.",
+   "supports": "IPO stakeholder committee: three founders, Ahrendts, Johnson (chair)."
+  },
+  {
+   "id": "e036",
+   "form": "424B4",
+   "accession": "0001193125-20-315318",
+   "filing_date": "2020-12-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312520315318/d81668d424b4.htm",
+   "quote": "This individual was an executive officer of the Company until March 1, 2020, at which time this individual ceased being an executive officer and was appointed to the Company’s board of",
+   "supports": "Corroborates the 2020-03-01 executive-to-director transition (individual unnamed in this note; matches Johnson's dated disclosure)."
+  },
+  {
+   "id": "e037",
+   "form": "D",
+   "accession": "0001559720-12-000002",
+   "filing_date": "2012-10-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972012000002/primary_doc.xml",
+   "quote": "Brian Chesky c/o Airbnb, Inc. 99 Rhode Island St. San Francisco CA CALIFORNIA 94103 Executive Officer Director Nathan Blecharczyk c/o Airbnb, Inc. 99 Rhode Island St. San Francisco CA CALIFORNIA 94103 Executive Officer Director Joe Gebbia c/o Airbnb, Inc. 99 Rhode Island St. San Francisco CA CALIFORNIA 94103 Executive Officer Director",
+   "supports": "2012 Form D (signed 2012-10-23) lists all three founders as Executive Officer and Director: their board seats predate 2012-10-24 (upper bound only, not a start date)."
+  },
+  {
+   "id": "e038",
+   "form": "3",
+   "accession": "0000899243-20-033226",
+   "filing_date": "2020-12-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000089924320033226/doc3.xml",
+   "quote": "Chesky Brian",
+   "supports": "Chesky reporting-owner CIK; director + officer (CEO and Chairman). IPO Form 3, NOT the board start.",
+   "xml_fields": {
+    "rptOwnerCik": "0001834152",
+    "rptOwnerName": "Chesky Brian",
+    "periodOfReport": "2020-12-09"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": "CEO and Chairman"
+   }
+  },
+  {
+   "id": "e039",
+   "form": "3",
+   "accession": "0000899243-20-033227",
+   "filing_date": "2020-12-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000089924320033227/doc3.xml",
+   "quote": "Gebbia Joseph",
+   "supports": "Gebbia reporting-owner CIK; director + officer at IPO. IPO Form 3, NOT the board start.",
+   "xml_fields": {
+    "rptOwnerCik": "0001834171",
+    "rptOwnerName": "Gebbia Joseph",
+    "periodOfReport": "2020-12-09"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "isOfficer": true
+   }
+  },
+  {
+   "id": "e040",
+   "form": "3",
+   "accession": "0000899243-20-033229",
+   "filing_date": "2020-12-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000089924320033229/doc3.xml",
+   "quote": "Blecharczyk Nathan",
+   "supports": "Blecharczyk reporting-owner CIK; director + officer (Chief Strategy Officer). IPO Form 3, NOT the board start.",
+   "xml_fields": {
+    "rptOwnerCik": "0001834147",
+    "rptOwnerName": "Blecharczyk Nathan",
+    "periodOfReport": "2020-12-09"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "officerTitle": "Chief Strategy Officer"
+   }
+  },
+  {
+   "id": "e041",
+   "form": "3",
+   "accession": "0000899243-20-033233",
+   "filing_date": "2020-12-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000089924320033233/doc3.xml",
+   "quote": "MATHER ANN",
+   "supports": "Mather reporting-owner CIK; director. IPO Form 3, NOT the board start.",
+   "xml_fields": {
+    "rptOwnerCik": "0001244892",
+    "rptOwnerName": "MATHER ANN",
+    "periodOfReport": "2020-12-09"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e042",
+   "form": "3",
+   "accession": "0000899243-20-033236",
+   "filing_date": "2020-12-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000089924320033236/doc3.xml",
+   "quote": "AHRENDTS ANGELA J",
+   "supports": "Ahrendts reporting-owner CIK; director. IPO Form 3, NOT the board start.",
+   "xml_fields": {
+    "rptOwnerCik": "0001196612",
+    "rptOwnerName": "AHRENDTS ANGELA J",
+    "periodOfReport": "2020-12-09"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e043",
+   "form": "3",
+   "accession": "0000899243-20-033237",
+   "filing_date": "2020-12-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000089924320033237/doc3.xml",
+   "quote": "JORDAN JEFFREY D",
+   "supports": "Jordan reporting-owner CIK; director. IPO Form 3, NOT the board start.",
+   "xml_fields": {
+    "rptOwnerCik": "0001209185",
+    "rptOwnerName": "JORDAN JEFFREY D",
+    "periodOfReport": "2020-12-09"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e044",
+   "form": "3",
+   "accession": "0000899243-20-033248",
+   "filing_date": "2020-12-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000089924320033248/doc3.xml",
+   "quote": "CHENAULT KENNETH I",
+   "supports": "Chenault reporting-owner CIK; director. IPO Form 3, NOT the board start.",
+   "xml_fields": {
+    "rptOwnerCik": "0001180524",
+    "rptOwnerName": "CHENAULT KENNETH I",
+    "periodOfReport": "2020-12-09"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e045",
+   "form": "3",
+   "accession": "0000899243-20-033249",
+   "filing_date": "2020-12-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000089924320033249/doc3.xml",
+   "quote": "Lin Alfred",
+   "supports": "Lin reporting-owner CIK; director (also filed as 10% owner). IPO Form 3, NOT the board start.",
+   "xml_fields": {
+    "rptOwnerCik": "0001790330",
+    "rptOwnerName": "Lin Alfred",
+    "periodOfReport": "2020-12-09"
+   },
+   "xml_relationship": {
+    "isDirector": true,
+    "isTenPercentOwner": true
+   }
+  },
+  {
+   "id": "e046",
+   "form": "3",
+   "accession": "0000899243-20-033251",
+   "filing_date": "2020-12-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000089924320033251/doc3.xml",
+   "quote": "Johnson Belinda J.",
+   "supports": "Johnson reporting-owner CIK; director. IPO Form 3, NOT the board start.",
+   "xml_fields": {
+    "rptOwnerCik": "0001694150",
+    "rptOwnerName": "Johnson Belinda J.",
+    "periodOfReport": "2020-12-09"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e047",
+   "form": "3",
+   "accession": "0000899243-21-048607",
+   "filing_date": "2021-12-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000089924321048607/doc3.xml",
+   "quote": "Ahuja Amrita",
+   "supports": "Ahuja reporting-owner CIK; Form 3 event date 2021-12-14 = appointment effective date.",
+   "xml_fields": {
+    "rptOwnerCik": "0001765417",
+    "rptOwnerName": "Ahuja Amrita",
+    "periodOfReport": "2021-12-14"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e048",
+   "form": "3",
+   "accession": "0000950170-23-047524",
+   "filing_date": "2023-09-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000095017023047524/ownership.xml",
+   "quote": "Manyika James",
+   "supports": "Manyika reporting-owner CIK; Form 3 event date 2023-09-07 = appointment date.",
+   "xml_fields": {
+    "rptOwnerCik": "0001986501",
+    "rptOwnerName": "Manyika James",
+    "periodOfReport": "2023-09-07"
+   },
+   "xml_relationship": {
+    "isDirector": true
+   }
+  },
+  {
+   "id": "e049",
+   "form": "4",
+   "accession": "0001193125-26-242599",
+   "filing_date": "2026-05-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526242599/ownership.xml",
+   "quote": "AHRENDTS ANGELA J",
+   "supports": "Ahrendts still reporting as a director (Form 4, 2026-05-25 annual grant).",
+   "xml_fields": {
+    "rptOwnerCik": "0001196612",
+    "rptOwnerName": "AHRENDTS ANGELA J",
+    "periodOfReport": "2026-05-25",
+    "isDirector": "true"
+   }
+  },
+  {
+   "id": "e050",
+   "form": "4",
+   "accession": "0001193125-26-242619",
+   "filing_date": "2026-05-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526242619/ownership.xml",
+   "quote": "Ahuja Amrita",
+   "supports": "Ahuja still reporting as a director (Form 4, 2026-05-25).",
+   "xml_fields": {
+    "rptOwnerCik": "0001765417",
+    "rptOwnerName": "Ahuja Amrita",
+    "periodOfReport": "2026-05-25",
+    "isDirector": "true"
+   }
+  },
+  {
+   "id": "e051",
+   "form": "4",
+   "accession": "0001193125-26-409120",
+   "filing_date": "2026-09-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526409120/ownership.xml",
+   "quote": "Blecharczyk Nathan",
+   "supports": "Blecharczyk still reporting as a director (Form 4, 2026-09-28).",
+   "xml_fields": {
+    "rptOwnerCik": "0001834147",
+    "rptOwnerName": "Blecharczyk Nathan",
+    "periodOfReport": "2026-09-28",
+    "isDirector": "true"
+   }
+  },
+  {
+   "id": "e052",
+   "form": "4",
+   "accession": "0001193125-26-345303",
+   "filing_date": "2026-08-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526345303/ownership.xml",
+   "quote": "CHENAULT KENNETH I",
+   "supports": "Chenault still reporting as a director (Form 4, 2026-08-07).",
+   "xml_fields": {
+    "rptOwnerCik": "0001180524",
+    "rptOwnerName": "CHENAULT KENNETH I",
+    "periodOfReport": "2026-08-07",
+    "isDirector": "true"
+   }
+  },
+  {
+   "id": "e053",
+   "form": "4/A",
+   "accession": "0001193125-26-379365",
+   "filing_date": "2026-09-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526379365/ownership.xml",
+   "quote": "Chesky Brian",
+   "supports": "Chesky still reporting as director and CEO and Chairman (Form 4/A, 2026-08-28).",
+   "xml_fields": {
+    "rptOwnerCik": "0001834152",
+    "rptOwnerName": "Chesky Brian",
+    "periodOfReport": "2026-08-28",
+    "isDirector": "true"
+   }
+  },
+  {
+   "id": "e054",
+   "form": "4",
+   "accession": "0001193125-26-369145",
+   "filing_date": "2026-08-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526369145/ownership.xml",
+   "quote": "Gebbia Joseph",
+   "supports": "Gebbia still reporting as a director (Form 4, 2026-08-24).",
+   "xml_fields": {
+    "rptOwnerCik": "0001834171",
+    "rptOwnerName": "Gebbia Joseph",
+    "periodOfReport": "2026-08-24",
+    "isDirector": "true"
+   }
+  },
+  {
+   "id": "e055",
+   "form": "4",
+   "accession": "0001193125-26-242603",
+   "filing_date": "2026-05-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526242603/ownership.xml",
+   "quote": "JORDAN JEFFREY D",
+   "supports": "Jordan still reporting as a director (Form 4, 2026-05-25).",
+   "xml_fields": {
+    "rptOwnerCik": "0001209185",
+    "rptOwnerName": "JORDAN JEFFREY D",
+    "periodOfReport": "2026-05-25",
+    "isDirector": "true"
+   }
+  },
+  {
+   "id": "e056",
+   "form": "4",
+   "accession": "0001790330-26-000007",
+   "filing_date": "2026-08-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000179033026000007/form4.xml",
+   "quote": "Lin Alfred",
+   "supports": "Lin still reporting as a director (Form 4, 2026-08-11).",
+   "xml_fields": {
+    "rptOwnerCik": "0001790330",
+    "rptOwnerName": "Lin Alfred",
+    "periodOfReport": "2026-08-11",
+    "isDirector": "1"
+   }
+  },
+  {
+   "id": "e057",
+   "form": "4",
+   "accession": "0001193125-26-242601",
+   "filing_date": "2026-05-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526242601/ownership.xml",
+   "quote": "Manyika James",
+   "supports": "Manyika still reporting as a director (Form 4, 2026-05-25).",
+   "xml_fields": {
+    "rptOwnerCik": "0001986501",
+    "rptOwnerName": "Manyika James",
+    "periodOfReport": "2026-05-25",
+    "isDirector": "true"
+   }
+  },
+  {
+   "id": "e058",
+   "form": "DEF 14A",
+   "accession": "0001193125-21-145242",
+   "filing_date": "2021-04-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312521145242/d44566ddef14a.htm",
+   "quote": "Our board of directors currently consists of nine directors.",
+   "supports": "2021 proxy: nine directors."
+  },
+  {
+   "id": "e059",
+   "form": "DEF 14A",
+   "accession": "0001193125-21-145242",
+   "filing_date": "2021-04-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312521145242/d44566ddef14a.htm",
+   "quote": "our board of directors has determined that Messrs. Chenault, Jordan, and Lin and Mmes. Ahrendts and Mather qualify as independent directors",
+   "supports": "2021 independence: Chenault, Jordan, Lin, Ahrendts, Mather."
+  },
+  {
+   "id": "e060",
+   "form": "DEF 14A",
+   "accession": "0001193125-21-145242",
+   "filing_date": "2021-04-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312521145242/d44566ddef14a.htm",
+   "quote": "Messrs. Blecharczyk, Chesky, and Gebbia, and Ms. Johnson are not considered independent by virtue of their positions as our executive officers and for Ms. Johnson, former Chief Operating Officer.",
+   "supports": "2021: founders and Johnson not independent."
+  },
+  {
+   "id": "e061",
+   "form": "DEF 14A",
+   "accession": "0001193125-21-145242",
+   "filing_date": "2021-04-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312521145242/d44566ddef14a.htm",
+   "quote": "Our board of directors has appointed Mr. Chenault to serve as our lead director.",
+   "supports": "2021: Chenault lead director."
+  },
+  {
+   "id": "e062",
+   "form": "DEF 14A",
+   "accession": "0001193125-21-145242",
+   "filing_date": "2021-04-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312521145242/d44566ddef14a.htm",
+   "quote": "Ann Mather 60 II Yes Chair Member",
+   "supports": "2021 table: Mather Class II, independent, audit chair, NCG member.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e063",
+   "form": "DEF 14A",
+   "accession": "0001193125-21-145242",
+   "filing_date": "2021-04-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312521145242/d44566ddef14a.htm",
+   "quote": "the Class II directors are Messrs. Gebbia and Jordan, and Ms. Mather, and their terms will expire at the annual meeting of stockholders to be held in 2022",
+   "supports": "2021: Mather Class II."
+  },
+  {
+   "id": "e064",
+   "form": "DEF 14A",
+   "accession": "0001193125-21-145242",
+   "filing_date": "2021-04-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312521145242/d44566ddef14a.htm",
+   "quote": "Our audit, risk and compliance committee consists of Messrs. Jordan and Lin and Ms. Mather.",
+   "supports": "2021 audit committee: Jordan, Lin, Mather."
+  },
+  {
+   "id": "e065",
+   "form": "DEF 14A",
+   "accession": "0001193125-21-145242",
+   "filing_date": "2021-04-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312521145242/d44566ddef14a.htm",
+   "quote": "The chair of our audit, risk and compliance committee is Ms. Mather.",
+   "supports": "2021 audit chair: Mather."
+  },
+  {
+   "id": "e066",
+   "form": "DEF 14A",
+   "accession": "0001193125-21-145242",
+   "filing_date": "2021-04-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312521145242/d44566ddef14a.htm",
+   "quote": "Our leadership development, belonging and compensation committee consists of Ms. Ahrendts and Messrs. Chenault and Lin.",
+   "supports": "2021 compensation committee: Ahrendts, Chenault, Lin."
+  },
+  {
+   "id": "e067",
+   "form": "DEF 14A",
+   "accession": "0001193125-21-145242",
+   "filing_date": "2021-04-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312521145242/d44566ddef14a.htm",
+   "quote": "The chair of our leadership development, belonging and compensation committee is Mr. Lin.",
+   "supports": "2021 compensation chair: Lin."
+  },
+  {
+   "id": "e068",
+   "form": "DEF 14A",
+   "accession": "0001193125-21-145242",
+   "filing_date": "2021-04-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312521145242/d44566ddef14a.htm",
+   "quote": "Our nominating and corporate governance committee consists of Messrs. Chenault and Jordan and Ms. Mather.",
+   "supports": "2021 NCG: Chenault, Jordan, Mather."
+  },
+  {
+   "id": "e069",
+   "form": "DEF 14A",
+   "accession": "0001193125-21-145242",
+   "filing_date": "2021-04-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312521145242/d44566ddef14a.htm",
+   "quote": "The chair of our nominating and corporate governance committee is Mr. Jordan.",
+   "supports": "2021 NCG chair: Jordan."
+  },
+  {
+   "id": "e070",
+   "form": "DEF 14A",
+   "accession": "0001193125-21-145242",
+   "filing_date": "2021-04-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312521145242/d44566ddef14a.htm",
+   "quote": "It consists of Messrs. Blecharczyk, Chesky, and Gebbia and Mmes. Ahrendts and Johnson. The chair of our stakeholder committee is Ms. Johnson.",
+   "supports": "2021 stakeholder committee: founders, Ahrendts, Johnson (chair)."
+  },
+  {
+   "id": "e071",
+   "form": "DEF 14A",
+   "accession": "0001193125-21-145242",
+   "filing_date": "2021-04-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312521145242/d44566ddef14a.htm",
+   "quote": "During 2020, Ms. Johnson served as our Chief Operating Officer until March 1, 2020 at which time she began serving as a non-employee director.",
+   "supports": "Johnson non-employee director from 2020-03-01."
+  },
+  {
+   "id": "e072",
+   "form": "DEF 14A",
+   "accession": "0001193125-21-145242",
+   "filing_date": "2021-04-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312521145242/d44566ddef14a.htm",
+   "quote": "Ms. Mather has served on the board of directors of Bumble Inc., a social network company, since March 2020, Arista Networks, Inc., a publicly-held computer networking company, since 2013, Alphabet Inc. (the successor issuer to, and parent holding company of, Google, Inc.), a publicly-held global technology company, since 2005,",
+   "supports": "Mather other boards (2021 proxy, her last): Bumble, Arista Networks, Alphabet."
+  },
+  {
+   "id": "e073",
+   "form": "DEF 14A",
+   "accession": "0001193125-21-145242",
+   "filing_date": "2021-04-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312521145242/d44566ddef14a.htm",
+   "quote": "Glu Mobile Inc., a publicly-held publisher of mobile games, since 2005, and Netflix, Inc., a publicly-held global TV and movie streaming company, since 2010.",
+   "supports": "Mather other boards (2021 proxy): Glu Mobile, Netflix."
+  },
+  {
+   "id": "e074",
+   "form": "10-Q",
+   "accession": "0001559720-21-000017",
+   "filing_date": "2021-11-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972021000017/abnb-20210930.htm",
+   "quote": "On November 2, 2021, Ann Mather tendered her resignation from the board of directors of the Company, effective as of December 15, 2021.",
+   "supports": "Mather resignation: notice 2021-11-02, effective 2021-12-15 (disclosed in 10-Q Item 5, no 8-K)."
+  },
+  {
+   "id": "e075",
+   "form": "10-Q",
+   "accession": "0001559720-21-000017",
+   "filing_date": "2021-11-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972021000017/abnb-20210930.htm",
+   "quote": "Ms. Mather’s resignation was not due to any disagreement with the Company on any matter relating to the Company's operations, policies or practices.",
+   "supports": "Mather resignation not due to disagreement."
+  },
+  {
+   "id": "e076",
+   "form": "DEF 14A",
+   "accession": "0001193125-22-115317",
+   "filing_date": "2022-04-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312522115317/d278253ddef14a.htm",
+   "quote": "Ms. Mather resigned from the board of directors effective December 15, 2021.",
+   "supports": "2022 proxy confirms Mather resignation effective 2021-12-15."
+  },
+  {
+   "id": "e077",
+   "form": "DEF 14A",
+   "accession": "0001193125-22-115317",
+   "filing_date": "2022-04-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312522115317/d278253ddef14a.htm",
+   "quote": "During 2021, Ann Mather served on our audit committee until her resignation on December 15, 2021, and Mr. Chenault also served on our audit committee from January 1, 2021 to December 14, 2021.",
+   "supports": "Mather on audit until 2021-12-15; Chenault on audit 2021-01-01 to 2021-12-14 (see conflicts)."
+  },
+  {
+   "id": "e078",
+   "form": "DEF 14A",
+   "accession": "0001193125-22-115317",
+   "filing_date": "2022-04-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312522115317/d278253ddef14a.htm",
+   "quote": "Ms. Mather served on our nominating and corporate governance committee until her resignation on December 15, 2021.",
+   "supports": "Mather on NCG until 2021-12-15."
+  },
+  {
+   "id": "e079",
+   "form": "8-K",
+   "accession": "0001193125-21-357564",
+   "filing_date": "2021-12-15",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312521357564/d33645d8k.htm",
+   "quote": "On December 13, 2021, the Board of Directors (the “Board”) of Airbnb, Inc. (the “Company”) appointed Amrita Ahuja to serve as a Class II director on the Board and as a member of the Audit, Risk and Compliance Committee of the Board (the “Audit Committee”), in each case, effective as of December 14, 2021,",
+   "supports": "Ahuja appointed 2021-12-13, effective 2021-12-14; Class II; audit committee member."
+  },
+  {
+   "id": "e080",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-175062",
+   "filing_date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526175062/d936646ddef14a.htm",
+   "quote": "Amrita Ahuja. Ms. Ahuja joined our board of directors in December 2021.",
+   "supports": "Ahuja bio: joined December 2021."
+  },
+  {
+   "id": "e081",
+   "form": "DEF 14A",
+   "accession": "0001193125-22-115317",
+   "filing_date": "2022-04-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312522115317/d278253ddef14a.htm",
+   "quote": "Our board of directors currently consists of nine directors.",
+   "supports": "2022 proxy: nine directors."
+  },
+  {
+   "id": "e082",
+   "form": "DEF 14A",
+   "accession": "0001193125-22-115317",
+   "filing_date": "2022-04-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312522115317/d278253ddef14a.htm",
+   "quote": "our board of directors has determined that Messrs. Chenault, Jordan, and Lin and Mses. Ahrendts and Ahuja qualify as independent directors",
+   "supports": "2022 independence: Chenault, Jordan, Lin, Ahrendts, Ahuja."
+  },
+  {
+   "id": "e083",
+   "form": "DEF 14A",
+   "accession": "0001193125-22-115317",
+   "filing_date": "2022-04-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312522115317/d278253ddef14a.htm",
+   "quote": "Joseph Gebbia* 40 Chairman of Airbnb.org, Co-Founder, and Director",
+   "supports": "2022 proxy (as of 2022-04-22) still lists Gebbia among current executive officers.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e084",
+   "form": "DEF 14A",
+   "accession": "0001193125-22-115317",
+   "filing_date": "2022-04-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312522115317/d278253ddef14a.htm",
+   "quote": "Belinda Johnson. Ms. Johnson joined our board of directors in March 2020.",
+   "supports": "Johnson bio (2022 proxy, her last bio): joined March 2020."
+  },
+  {
+   "id": "e085",
+   "form": "DEF 14A",
+   "accession": "0001193125-22-115317",
+   "filing_date": "2022-04-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312522115317/d278253ddef14a.htm",
+   "quote": "Ms. Johnson currently serves on the Board of Directors of PayPal Holdings, Inc., a publicly-held technology platform and digital payments company.",
+   "supports": "Johnson other board: PayPal Holdings (current as of 2022 proxy)."
+  },
+  {
+   "id": "e086",
+   "form": "DEF 14A",
+   "accession": "0001193125-22-115317",
+   "filing_date": "2022-04-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312522115317/d278253ddef14a.htm",
+   "quote": "Belinda Johnson 55 Ill Chair",
+   "supports": "2022 table: Johnson Class III, not independent, stakeholder chair.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e087",
+   "form": "DEF 14A",
+   "accession": "0001193125-22-115317",
+   "filing_date": "2022-04-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312522115317/d278253ddef14a.htm",
+   "quote": "Our audit, risk and compliance committee consists of Ms. Ahuja and Messrs. Jordan and Lin.",
+   "supports": "2022 audit committee: Ahuja, Jordan, Lin."
+  },
+  {
+   "id": "e088",
+   "form": "DEF 14A",
+   "accession": "0001193125-22-115317",
+   "filing_date": "2022-04-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312522115317/d278253ddef14a.htm",
+   "quote": "The chair of our audit, risk and compliance committee is Mr. Lin.",
+   "supports": "2022 audit chair: Lin."
+  },
+  {
+   "id": "e089",
+   "form": "DEF 14A",
+   "accession": "0001193125-22-115317",
+   "filing_date": "2022-04-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312522115317/d278253ddef14a.htm",
+   "quote": "Our leadership development, belonging and compensation committee consists of Ms. Ahrendts and Messrs. Chenault and Lin.",
+   "supports": "2022 compensation committee: Ahrendts, Chenault, Lin."
+  },
+  {
+   "id": "e090",
+   "form": "DEF 14A",
+   "accession": "0001193125-22-115317",
+   "filing_date": "2022-04-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312522115317/d278253ddef14a.htm",
+   "quote": "The chair of our leadership development, belonging and compensation committee is Ms. Ahrendts.",
+   "supports": "2022 compensation chair: Ahrendts."
+  },
+  {
+   "id": "e091",
+   "form": "DEF 14A",
+   "accession": "0001193125-22-115317",
+   "filing_date": "2022-04-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312522115317/d278253ddef14a.htm",
+   "quote": "Our nominating and corporate governance committee consists of Messrs. Chenault and Jordan.",
+   "supports": "2022 NCG: Chenault, Jordan."
+  },
+  {
+   "id": "e092",
+   "form": "DEF 14A",
+   "accession": "0001193125-22-115317",
+   "filing_date": "2022-04-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312522115317/d278253ddef14a.htm",
+   "quote": "The chair of our nominating and corporate governance committee is Mr. Jordan.",
+   "supports": "2022 NCG chair: Jordan."
+  },
+  {
+   "id": "e093",
+   "form": "DEF 14A",
+   "accession": "0001193125-22-115317",
+   "filing_date": "2022-04-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312522115317/d278253ddef14a.htm",
+   "quote": "It consists of Messrs. Blecharczyk, Chesky, and Gebbia and Mses. Ahrendts and Johnson. The chair of our stakeholder committee is Ms. Johnson.",
+   "supports": "2022 stakeholder committee: founders, Ahrendts, Johnson (chair)."
+  },
+  {
+   "id": "e094",
+   "form": "DEF 14A",
+   "accession": "0001193125-23-109099",
+   "filing_date": "2023-04-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312523109099/d406835ddef14a.htm",
+   "quote": "for Mr. Gebbia, as a former executive officer and current advisor to the Company.",
+   "supports": "2023 proxy: Gebbia is a former executive officer and current advisor (not independent)."
+  },
+  {
+   "id": "e095",
+   "form": "10-Q",
+   "accession": "0001559720-22-000019",
+   "filing_date": "2022-11-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972022000019/exh101-advisoragreement_q3.htm",
+   "quote": "THIS ADVISOR AGREEMENT (the “Agreement”) is made and entered into as of August 23, 2022 (the “Effective Date”), by and between Airbnb, Inc., a Delaware corporation (the “Company”), and Joe Gebbia, an individual (the “Advisor”).",
+   "supports": "Gebbia advisor agreement effective 2022-08-23 (EX-10.1 to Q3 2022 10-Q)."
+  },
+  {
+   "id": "e096",
+   "form": "10-Q",
+   "accession": "0001559720-22-000019",
+   "filing_date": "2022-11-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972022000019/exh101-advisoragreement_q3.htm",
+   "quote": "The Advisor’s relationship with the Company is that of an independent contractor,",
+   "supports": "Under the advisor agreement Gebbia is an independent contractor, not an employee."
+  },
+  {
+   "id": "e097",
+   "form": "DEF 14A",
+   "accession": "0001193125-24-102960",
+   "filing_date": "2024-04-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312524102960/d636281ddef14a.htm",
+   "quote": "On August 23, 2022, we entered into an advisor agreement with Mr. Gebbia that provides for the payment of $3,333 per month in exchange for his advice and other services reasonably requested by the Company’s management from time to time, along with continued service-based vesting of certain RSUs and stock options granted to him during his employment with us.",
+   "supports": "2024 proxy: advisor agreement 2022-08-23; his employment had ended."
+  },
+  {
+   "id": "e098",
+   "form": "8-K",
+   "accession": "0001193125-23-103771",
+   "filing_date": "2023-04-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312523103771/d493300d8k.htm",
+   "quote": "On April 11, 2023, Belinda Johnson provided notice of her decision to not stand for re-election as a member of the Board of Directors of Airbnb, Inc. (the “Company”) when her current term expires at the Company’s 2023 annual meeting of stockholders.",
+   "supports": "Johnson will not stand for re-election (notice 2023-04-11)."
+  },
+  {
+   "id": "e099",
+   "form": "DEF 14A",
+   "accession": "0001193125-23-109099",
+   "filing_date": "2023-04-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312523109099/d406835ddef14a.htm",
+   "quote": "Our board of directors currently consists of nine directors, and in accordance with our amended and restated bylaws, our board of directors has approved a reduction in the authorized number of directors to eight effective as of the Annual Meeting.",
+   "supports": "Board 9 -> 8 effective at the 2023 annual meeting."
+  },
+  {
+   "id": "e100",
+   "form": "DEF 14A",
+   "accession": "0001193125-23-109099",
+   "filing_date": "2023-04-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312523109099/d406835ddef14a.htm",
+   "quote": "Ms. Johnson is not standing for re-election at the Annual Meeting.",
+   "supports": "2023 proxy: Johnson not standing."
+  },
+  {
+   "id": "e101",
+   "form": "DEF 14A",
+   "accession": "0001193125-23-109099",
+   "filing_date": "2023-04-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312523109099/d406835ddef14a.htm",
+   "quote": "Ms. Johnson previously was not considered independent by virtue of her former position as our Chief Operating Officer.",
+   "supports": "Johnson not independent (former COO)."
+  },
+  {
+   "id": "e102",
+   "form": "DEF 14A",
+   "accession": "0001193125-23-109099",
+   "filing_date": "2023-04-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312523109099/d406835ddef14a.htm",
+   "quote": "our board of directors has determined that Messrs. Chenault, Jordan, and Lin and Mses. Ahrendts and Ahuja qualify as independent directors",
+   "supports": "2023 independence: Chenault, Jordan, Lin, Ahrendts, Ahuja."
+  },
+  {
+   "id": "e103",
+   "form": "DEF 14A",
+   "accession": "0001193125-23-109099",
+   "filing_date": "2023-04-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312523109099/d406835ddef14a.htm",
+   "quote": "Mr. Gebbia co-founded our company in 2008 and serves as a member of our board of directors and the Chairman of Airbnb.org.",
+   "supports": "2023 Gebbia bio."
+  },
+  {
+   "id": "e104",
+   "form": "DEF 14A",
+   "accession": "0001193125-23-109099",
+   "filing_date": "2023-04-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312523109099/d406835ddef14a.htm",
+   "quote": "Our audit, risk and compliance committee consists of Ms. Ahuja and Messrs. Jordan and Lin.",
+   "supports": "2023 audit committee: Ahuja, Jordan, Lin."
+  },
+  {
+   "id": "e105",
+   "form": "DEF 14A",
+   "accession": "0001193125-23-109099",
+   "filing_date": "2023-04-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312523109099/d406835ddef14a.htm",
+   "quote": "The chair of our audit, risk and compliance committee is Mr. Lin.",
+   "supports": "2023 audit chair: Lin."
+  },
+  {
+   "id": "e106",
+   "form": "DEF 14A",
+   "accession": "0001193125-23-109099",
+   "filing_date": "2023-04-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312523109099/d406835ddef14a.htm",
+   "quote": "Our leadership development, belonging and compensation committee consists of Ms. Ahrendts and Messrs. Chenault and Lin.",
+   "supports": "2023 compensation committee: Ahrendts, Chenault, Lin."
+  },
+  {
+   "id": "e107",
+   "form": "DEF 14A",
+   "accession": "0001193125-23-109099",
+   "filing_date": "2023-04-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312523109099/d406835ddef14a.htm",
+   "quote": "The chair of our leadership development, belonging and compensation committee is Ms. Ahrendts.",
+   "supports": "2023 compensation chair: Ahrendts."
+  },
+  {
+   "id": "e108",
+   "form": "DEF 14A",
+   "accession": "0001193125-23-109099",
+   "filing_date": "2023-04-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312523109099/d406835ddef14a.htm",
+   "quote": "Our nominating and corporate governance committee consists of Messrs. Chenault and Jordan.",
+   "supports": "2023 NCG: Chenault, Jordan."
+  },
+  {
+   "id": "e109",
+   "form": "DEF 14A",
+   "accession": "0001193125-23-109099",
+   "filing_date": "2023-04-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312523109099/d406835ddef14a.htm",
+   "quote": "The chair of our nominating and corporate governance committee is Mr. Jordan.",
+   "supports": "2023 NCG chair: Jordan."
+  },
+  {
+   "id": "e110",
+   "form": "DEF 14A",
+   "accession": "0001193125-23-109099",
+   "filing_date": "2023-04-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312523109099/d406835ddef14a.htm",
+   "quote": "It consists of Messrs. Blecharczyk, Chesky, and Gebbia and Mses. Ahrendts and Johnson. The chair of our stakeholder committee is Ms. Johnson.",
+   "supports": "2023 stakeholder committee: founders, Ahrendts, Johnson (chair)."
+  },
+  {
+   "id": "e111",
+   "form": "DEF 14A",
+   "accession": "0001193125-23-109099",
+   "filing_date": "2023-04-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312523109099/d406835ddef14a.htm",
+   "quote": "our Board of Directors has appointed Ms. Ahrendts as chair of the stakeholder committee effective as of June 1, 2023.",
+   "supports": "Ahrendts stakeholder chair from 2023-06-01."
+  },
+  {
+   "id": "e112",
+   "form": "DEF 14A",
+   "accession": "0001193125-24-102960",
+   "filing_date": "2024-04-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312524102960/d636281ddef14a.htm",
+   "quote": "Ms. Johnson’s term on the board of directors expired on June 1, 2023.",
+   "supports": "Johnson's board term ended 2023-06-01."
+  },
+  {
+   "id": "e113",
+   "form": "8-K",
+   "accession": "0001193125-23-232474",
+   "filing_date": "2023-09-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312523232474/d547868d8k.htm",
+   "quote": "On September 7, 2023, the Board of Directors (the “Board”) of Airbnb, Inc. (the “Company”) appointed James Manyika to serve as a Class III director on the Board and as a member and, in place of Angela Ahrendts, as the Chair of the Stakeholder Committee of the Board (the “Stakeholder Committee”), in each case, effective as of September 7, 2023,",
+   "supports": "Manyika appointed 2023-09-07; Class III; stakeholder committee chair replacing Ahrendts."
+  },
+  {
+   "id": "e114",
+   "form": "8-K",
+   "accession": "0001193125-23-232474",
+   "filing_date": "2023-09-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312523232474/d547868d8k.htm",
+   "quote": "Ms. Ahrendts will continue to serve as a member of the Stakeholder Committee.",
+   "supports": "Ahrendts remains stakeholder member after 2023-09-07."
+  },
+  {
+   "id": "e115",
+   "form": "8-K",
+   "accession": "0001193125-23-232474",
+   "filing_date": "2023-09-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312523232474/d547868d8k.htm",
+   "quote": "Mr. Manyika is not a party to any transaction required to be disclosed pursuant to Item 404(a) of Regulation S-K.",
+   "supports": "Manyika: no Item 404(a) transactions."
+  },
+  {
+   "id": "e116",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-175062",
+   "filing_date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526175062/d936646ddef14a.htm",
+   "quote": "James Manyika. Mr. Manyika joined our board of directors in September 2023.",
+   "supports": "Manyika bio: joined September 2023."
+  },
+  {
+   "id": "e117",
+   "form": "DEF 14A",
+   "accession": "0001193125-24-102960",
+   "filing_date": "2024-04-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312524102960/d636281ddef14a.htm",
+   "quote": "Mr. Manyika received an annual grant of 1,497 RSUs on September 7, 2023 with a grant date fair value of $214,475, in connection with his appointment on such date.",
+   "supports": "Manyika appointment date 2023-09-07 (2024 proxy)."
+  },
+  {
+   "id": "e118",
+   "form": "DEF 14A",
+   "accession": "0001193125-24-102960",
+   "filing_date": "2024-04-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312524102960/d636281ddef14a.htm",
+   "quote": "Our board of directors currently consists of nine directors.",
+   "supports": "2024 proxy: nine directors."
+  },
+  {
+   "id": "e119",
+   "form": "DEF 14A",
+   "accession": "0001193125-24-102960",
+   "filing_date": "2024-04-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312524102960/d636281ddef14a.htm",
+   "quote": "our board of directors has determined that Messrs. Chenault, Jordan, Lin and Manyika and Mses. Ahrendts and Ahuja qualify as independent directors",
+   "supports": "2024 independence: Chenault, Jordan, Lin, Manyika, Ahrendts, Ahuja."
+  },
+  {
+   "id": "e120",
+   "form": "DEF 14A",
+   "accession": "0001193125-24-102960",
+   "filing_date": "2024-04-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312524102960/d636281ddef14a.htm",
+   "quote": "for Mr. Gebbia, as a former executive officer.",
+   "supports": "2024 proxy: Gebbia not independent as a former executive officer."
+  },
+  {
+   "id": "e121",
+   "form": "DEF 14A",
+   "accession": "0001193125-24-102960",
+   "filing_date": "2024-04-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312524102960/d636281ddef14a.htm",
+   "quote": "Our audit, risk and compliance committee consists of Ms. Ahuja and Messrs. Jordan and Lin.",
+   "supports": "2024 audit committee: Ahuja, Jordan, Lin."
+  },
+  {
+   "id": "e122",
+   "form": "DEF 14A",
+   "accession": "0001193125-24-102960",
+   "filing_date": "2024-04-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312524102960/d636281ddef14a.htm",
+   "quote": "The Chair of our audit, risk and compliance committee is Mr. Lin.",
+   "supports": "2024 audit chair: Lin."
+  },
+  {
+   "id": "e123",
+   "form": "DEF 14A",
+   "accession": "0001193125-24-102960",
+   "filing_date": "2024-04-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312524102960/d636281ddef14a.htm",
+   "quote": "Our leadership development, belonging and compensation committee consists of Ms. Ahrendts and Messrs. Chenault and Lin.",
+   "supports": "2024 compensation committee: Ahrendts, Chenault, Lin."
+  },
+  {
+   "id": "e124",
+   "form": "DEF 14A",
+   "accession": "0001193125-24-102960",
+   "filing_date": "2024-04-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312524102960/d636281ddef14a.htm",
+   "quote": "The Chair of our leadership development, belonging and compensation committee is Ms. Ahrendts.",
+   "supports": "2024 compensation chair: Ahrendts."
+  },
+  {
+   "id": "e125",
+   "form": "DEF 14A",
+   "accession": "0001193125-24-102960",
+   "filing_date": "2024-04-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312524102960/d636281ddef14a.htm",
+   "quote": "Our nominating and corporate governance committee consists of Messrs. Chenault and Jordan.",
+   "supports": "2024 NCG: Chenault, Jordan."
+  },
+  {
+   "id": "e126",
+   "form": "DEF 14A",
+   "accession": "0001193125-24-102960",
+   "filing_date": "2024-04-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312524102960/d636281ddef14a.htm",
+   "quote": "The Chair of our nominating and corporate governance committee is Mr. Jordan.",
+   "supports": "2024 NCG chair: Jordan."
+  },
+  {
+   "id": "e127",
+   "form": "DEF 14A",
+   "accession": "0001193125-24-102960",
+   "filing_date": "2024-04-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312524102960/d636281ddef14a.htm",
+   "quote": "It consists of Messrs. Blecharczyk, Chesky, Gebbia and Manyika and Ms. Ahrendts. The Chair of our stakeholder committee is Mr. Manyika.",
+   "supports": "2024 stakeholder committee: founders, Manyika (chair), Ahrendts."
+  },
+  {
+   "id": "e128",
+   "form": "DEF 14A",
+   "accession": "0001193125-25-096938",
+   "filing_date": "2025-04-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312525096938/d842295ddef14a.htm",
+   "quote": "Our board of directors currently consists of nine directors.",
+   "supports": "2025 proxy: nine directors."
+  },
+  {
+   "id": "e129",
+   "form": "DEF 14A",
+   "accession": "0001193125-25-096938",
+   "filing_date": "2025-04-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312525096938/d842295ddef14a.htm",
+   "quote": "our board of directors has determined that Messrs. Chenault, Jordan, Lin and Manyika and Mses. Ahrendts and Ahuja qualify as independent directors",
+   "supports": "2025 independence: Chenault, Jordan, Lin, Manyika, Ahrendts, Ahuja."
+  },
+  {
+   "id": "e130",
+   "form": "DEF 14A",
+   "accession": "0001193125-25-096938",
+   "filing_date": "2025-04-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312525096938/d842295ddef14a.htm",
+   "quote": "Our audit, risk and compliance committee consists of Ms. Ahuja and Messrs. Jordan and Lin.",
+   "supports": "2025 audit committee: Ahuja, Jordan, Lin."
+  },
+  {
+   "id": "e131",
+   "form": "DEF 14A",
+   "accession": "0001193125-25-096938",
+   "filing_date": "2025-04-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312525096938/d842295ddef14a.htm",
+   "quote": "The Chair of our audit, risk and compliance committee is Mr. Lin.",
+   "supports": "2025 audit chair: Lin."
+  },
+  {
+   "id": "e132",
+   "form": "DEF 14A",
+   "accession": "0001193125-25-096938",
+   "filing_date": "2025-04-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312525096938/d842295ddef14a.htm",
+   "quote": "Our people and compensation committee consists of Ms. Ahrendts and Messrs. Chenault and Lin.",
+   "supports": "2025 compensation committee: Ahrendts, Chenault, Lin."
+  },
+  {
+   "id": "e133",
+   "form": "DEF 14A",
+   "accession": "0001193125-25-096938",
+   "filing_date": "2025-04-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312525096938/d842295ddef14a.htm",
+   "quote": "The Chair of our people and compensation committee is Ms. Ahrendts.",
+   "supports": "2025 compensation chair: Ahrendts."
+  },
+  {
+   "id": "e134",
+   "form": "DEF 14A",
+   "accession": "0001193125-25-096938",
+   "filing_date": "2025-04-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312525096938/d842295ddef14a.htm",
+   "quote": "Our nominating and corporate governance committee consists of Messrs. Chenault and Jordan.",
+   "supports": "2025 NCG: Chenault, Jordan."
+  },
+  {
+   "id": "e135",
+   "form": "DEF 14A",
+   "accession": "0001193125-25-096938",
+   "filing_date": "2025-04-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312525096938/d842295ddef14a.htm",
+   "quote": "The Chair of our nominating and corporate governance committee is Mr. Jordan.",
+   "supports": "2025 NCG chair: Jordan."
+  },
+  {
+   "id": "e136",
+   "form": "DEF 14A",
+   "accession": "0001193125-25-096938",
+   "filing_date": "2025-04-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312525096938/d842295ddef14a.htm",
+   "quote": "It consists of Messrs. Blecharczyk, Chesky, Gebbia and Manyika and Ms. Ahrendts. The Chair of our stakeholder committee is Mr. Manyika.",
+   "supports": "2025 stakeholder committee: founders, Manyika (chair), Ahrendts."
+  },
+  {
+   "id": "e137",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-175062",
+   "filing_date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526175062/d936646ddef14a.htm",
+   "quote": "Our board of directors currently consists of nine directors.",
+   "supports": "2026 proxy: nine directors."
+  },
+  {
+   "id": "e138",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-175062",
+   "filing_date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526175062/d936646ddef14a.htm",
+   "quote": "our board of directors has determined that Messrs. Chenault, Jordan, Lin and Manyika and Mses. Ahrendts and Ahuja qualify as independent directors",
+   "supports": "2026 independence: Chenault, Jordan, Lin, Manyika, Ahrendts, Ahuja."
+  },
+  {
+   "id": "e139",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-175062",
+   "filing_date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526175062/d936646ddef14a.htm",
+   "quote": "Messrs. Blecharczyk, Chesky and Gebbia are not considered independent.",
+   "supports": "2026: the three founders are not independent."
+  },
+  {
+   "id": "e140",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-175062",
+   "filing_date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526175062/d936646ddef14a.htm",
+   "quote": "Our board of directors has appointed Mr. Chenault to serve as our lead director.",
+   "supports": "2026: Chenault lead director."
+  },
+  {
+   "id": "e141",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-175062",
+   "filing_date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526175062/d936646ddef14a.htm",
+   "quote": "under which our Chief Executive Officer, Mr. Chesky, serves as Chairperson of our board of directors and Mr. Chenault serves as lead director, is effective.",
+   "supports": "2026 leadership: Chesky CEO and Chair; Chenault lead director."
+  },
+  {
+   "id": "e142",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-175062",
+   "filing_date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526175062/d936646ddef14a.htm",
+   "quote": "the Class I directors are Messrs. Chesky and Chenault, and Ms. Ahrendts, and their terms will expire at the annual meeting of stockholders to be held in 2027;",
+   "supports": "2026 Class I: Chesky, Chenault, Ahrendts (to 2027)."
+  },
+  {
+   "id": "e143",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-175062",
+   "filing_date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526175062/d936646ddef14a.htm",
+   "quote": "the Class II directors are Messrs. Gebbia and Jordan, and Ms. Ahuja, and their terms will expire at the annual meeting of stockholders to be held in 2028; and",
+   "supports": "2026 Class II: Gebbia, Jordan, Ahuja (to 2028)."
+  },
+  {
+   "id": "e144",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-175062",
+   "filing_date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526175062/d936646ddef14a.htm",
+   "quote": "the Class III directors are Messrs. Blecharczyk, Lin and Manyika, and their terms will expire at this Annual Meeting.",
+   "supports": "2026 Class III: Blecharczyk, Lin, Manyika (up for election 2026)."
+  },
+  {
+   "id": "e145",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-175062",
+   "filing_date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526175062/d936646ddef14a.htm",
+   "quote": "Brian Chesky 44 I Member Angela Ahrendts 65 I Yes Chair Member Kenneth Chenault 74 I Yes Member Member",
+   "supports": "2026 table, Class I rows: Chesky (not independent; stakeholder), Ahrendts (independent; comp chair, stakeholder), Chenault (independent; comp, NCG).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e146",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-175062",
+   "filing_date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526175062/d936646ddef14a.htm",
+   "quote": "Amrita Ahuja 46 II Yes Chair Joseph Gebbia 44 II Member Jeffrey Jordan 67 II Yes Member Chair",
+   "supports": "2026 table, Class II rows: Ahuja (audit chair), Gebbia (not independent; stakeholder), Jordan (audit, NCG chair).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e147",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-175062",
+   "filing_date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526175062/d936646ddef14a.htm",
+   "quote": "Nathan Blecharczyk 42 III Member Alfred Lin 53 III Yes Member Member James Manyika 60 III Yes Chair",
+   "supports": "2026 table, Class III rows: Blecharczyk (not independent; stakeholder), Lin (audit, comp), Manyika (stakeholder chair).",
+   "quote_from_table": true
+  },
+  {
+   "id": "e148",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-175062",
+   "filing_date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526175062/d936646ddef14a.htm",
+   "quote": "Brian Chesky* 44 Chief Executive Officer, Co-Founder, and Chairman of the Board",
+   "supports": "2026: Chesky is CEO and Chairman of the Board.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e149",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-175062",
+   "filing_date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526175062/d936646ddef14a.htm",
+   "quote": "Nathan Blecharczyk* 42 Chief Strategy Officer, Co-Founder, and Director",
+   "supports": "2026: Blecharczyk is Chief Strategy Officer and director.",
+   "quote_from_table": true
+  },
+  {
+   "id": "e150",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-175062",
+   "filing_date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526175062/d936646ddef14a.htm",
+   "quote": "Brian Chesky. Mr. Chesky co-founded our Company in 2008 and serves as our Chief Executive Officer. Mr. Chesky is also a member of our board of directors.",
+   "supports": "2026 Chesky bio (no board-start date)."
+  },
+  {
+   "id": "e151",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-175062",
+   "filing_date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526175062/d936646ddef14a.htm",
+   "quote": "Mr. Gebbia co-founded our Company in 2008 and serves as a member of our board of directors.",
+   "supports": "2026 Gebbia bio: director only (no executive title)."
+  },
+  {
+   "id": "e152",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-175062",
+   "filing_date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526175062/d936646ddef14a.htm",
+   "quote": "Mr. Blecharczyk co-founded our Company in 2008 and serves as our Chief Strategy Officer. Mr. Blecharczyk is also a member of our board of directors.",
+   "supports": "2026 Blecharczyk bio (no board-start date)."
+  },
+  {
+   "id": "e153",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-175062",
+   "filing_date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526175062/d936646ddef14a.htm",
+   "quote": "Angela Ahrendts. Ms. Ahrendts joined our board of directors in May 2019.",
+   "supports": "2026 Ahrendts bio: joined May 2019."
+  },
+  {
+   "id": "e154",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-175062",
+   "filing_date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526175062/d936646ddef14a.htm",
+   "quote": "Kenneth Chenault. Mr. Chenault joined our board of directors in January 2018.",
+   "supports": "2026 Chenault bio: joined January 2018."
+  },
+  {
+   "id": "e155",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-175062",
+   "filing_date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526175062/d936646ddef14a.htm",
+   "quote": "Jeffrey Jordan. Mr. Jordan joined our board of directors in August 2011.",
+   "supports": "2026 Jordan bio: joined August 2011."
+  },
+  {
+   "id": "e156",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-175062",
+   "filing_date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526175062/d936646ddef14a.htm",
+   "quote": "Alfred Lin. Mr. Lin joined our board of directors in November 2012.",
+   "supports": "2026 Lin bio: joined November 2012."
+  },
+  {
+   "id": "e157",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-175062",
+   "filing_date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526175062/d936646ddef14a.htm",
+   "quote": "Our audit, risk and compliance committee consists of Ms. Ahuja and Messrs. Jordan and Lin.",
+   "supports": "2026 audit committee: Ahuja, Jordan, Lin."
+  },
+  {
+   "id": "e158",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-175062",
+   "filing_date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526175062/d936646ddef14a.htm",
+   "quote": "The Chair of our audit, risk and compliance committee is Ms. Ahuja.",
+   "supports": "2026 audit chair: Ahuja."
+  },
+  {
+   "id": "e159",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-175062",
+   "filing_date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526175062/d936646ddef14a.htm",
+   "quote": "Our people and compensation committee consists of Ms. Ahrendts and Messrs. Chenault and Lin.",
+   "supports": "2026 compensation committee: Ahrendts, Chenault, Lin."
+  },
+  {
+   "id": "e160",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-175062",
+   "filing_date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526175062/d936646ddef14a.htm",
+   "quote": "The Chair of our people and compensation committee is Ms. Ahrendts.",
+   "supports": "2026 compensation chair: Ahrendts."
+  },
+  {
+   "id": "e161",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-175062",
+   "filing_date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526175062/d936646ddef14a.htm",
+   "quote": "Our nominating and corporate governance committee consists of Messrs. Chenault and Jordan.",
+   "supports": "2026 NCG: Chenault, Jordan."
+  },
+  {
+   "id": "e162",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-175062",
+   "filing_date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526175062/d936646ddef14a.htm",
+   "quote": "The Chair of our nominating and corporate governance committee is Mr. Jordan.",
+   "supports": "2026 NCG chair: Jordan."
+  },
+  {
+   "id": "e163",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-175062",
+   "filing_date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526175062/d936646ddef14a.htm",
+   "quote": "It consists of Messrs. Blecharczyk, Chesky, Gebbia and Manyika and Ms. Ahrendts. The Chair of our stakeholder committee is Mr. Manyika.",
+   "supports": "2026 stakeholder committee: founders, Manyika (chair), Ahrendts."
+  },
+  {
+   "id": "e164",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-175062",
+   "filing_date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526175062/d936646ddef14a.htm",
+   "quote": "Ms. Ahrendts has served as a director of the Ralph Lauren Corporation, a publicly-held fashion company, since August 2018.",
+   "supports": "Ahrendts: Ralph Lauren director since August 2018."
+  },
+  {
+   "id": "e165",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-175062",
+   "filing_date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526175062/d936646ddef14a.htm",
+   "quote": "Ms. Ahrendts has served as a director of WPP plc, a publicly-held creative transformation company with expertise in communications, experience, commerce and technology, since June 2020.",
+   "supports": "Ahrendts: WPP director since June 2020."
+  },
+  {
+   "id": "e166",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-175062",
+   "filing_date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526175062/d936646ddef14a.htm",
+   "quote": "Prior to joining Apple, Ms. Ahrendts served as a director and Chief Executive Officer of Burberry plc, a global luxury fashion company, from July 2006 to April 2014.",
+   "supports": "Ahrendts: former Burberry director and CEO 2006-2014."
+  },
+  {
+   "id": "e167",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-175062",
+   "filing_date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526175062/d936646ddef14a.htm",
+   "quote": "Mr. Chenault has served on the board of directors of Catalyst Partners Acquisition Corp., a publicly-held investment company, since May 2021.",
+   "supports": "Chenault: Catalyst Partners Acquisition Corp. since May 2021."
+  },
+  {
+   "id": "e168",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-175062",
+   "filing_date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526175062/d936646ddef14a.htm",
+   "quote": "Mr. Chenault has served on the board of directors of Berkshire Hathaway Inc., a publicly-held multinational conglomerate holding company, since May 2020.",
+   "supports": "Chenault: Berkshire Hathaway since May 2020."
+  },
+  {
+   "id": "e169",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-175062",
+   "filing_date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526175062/d936646ddef14a.htm",
+   "quote": "Mr. Chenault also served on the board of directors of International Business Machines Corporation, a publicly-held multinational technology company, from October 1998 to February 2019, The Procter & Gamble Company, a publicly-held global consumer goods company, from April 2008 to February 2019,",
+   "supports": "Chenault former boards: IBM, P&G."
+  },
+  {
+   "id": "e170",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-175062",
+   "filing_date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526175062/d936646ddef14a.htm",
+   "quote": "and Meta Platforms, Inc. (formerly Facebook, Inc.), a publicly-held global technology company, from February 2018 to May 2020.",
+   "supports": "Chenault former board: Meta Platforms (same sentence)."
+  },
+  {
+   "id": "e171",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-175062",
+   "filing_date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526175062/d936646ddef14a.htm",
+   "quote": "joining American Express in 1993 and serving as Chairman and Chief Executive Officer from April 2001 through January 2018.",
+   "supports": "Chenault: former Chairman and CEO of American Express (a publicly-held company per the same sentence), 2001-2018."
+  },
+  {
+   "id": "e172",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-175062",
+   "filing_date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526175062/d936646ddef14a.htm",
+   "quote": "Since September 2022, Mr. Gebbia has served on the board of directors of Tesla, Inc., a publicly-held automotive and clean energy company.",
+   "supports": "Gebbia: Tesla director since September 2022."
+  },
+  {
+   "id": "e173",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-175062",
+   "filing_date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526175062/d936646ddef14a.htm",
+   "quote": "Mr. Jordan served as a member of the boards of directors of publicly-traded companies, including OpenTable, Inc. from 2007 until 2013 (then a publicly-traded company), Pinterest, Inc. from October 2011 until May 2024,",
+   "supports": "Jordan former public boards: OpenTable, Pinterest."
+  },
+  {
+   "id": "e174",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-175062",
+   "filing_date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526175062/d936646ddef14a.htm",
+   "quote": "Accolade, Inc. from July 2016 to April 2025 and Maplebear Inc. (d/b/a Instacart) from June 2014 until May 2024.",
+   "supports": "Jordan former public boards (same sentence, listed as publicly-traded): Accolade, Maplebear (Instacart)."
+  },
+  {
+   "id": "e175",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-175062",
+   "filing_date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526175062/d936646ddef14a.htm",
+   "quote": "Mr. Lin represents Sequoia on our board of directors as well as on the board of directors of several other companies, including DoorDash, a publicly-held food-delivery and local logistics platform, since 2014,",
+   "supports": "Lin: DoorDash director since 2014 (Sequoia designee)."
+  },
+  {
+   "id": "e176",
+   "form": "8-K",
+   "accession": "0001193125-21-200533",
+   "filing_date": "2021-06-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312521200533/d193066d8k.htm",
+   "quote": "On June 22, 2021, Airbnb, Inc. (the “Company”) held its 2021 Annual Meeting of Stockholders",
+   "supports": "2021 annual meeting 2021-06-22."
+  },
+  {
+   "id": "e177",
+   "form": "8-K",
+   "accession": "0001193125-21-200533",
+   "filing_date": "2021-06-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312521200533/d193066d8k.htm",
+   "quote": "The Company’s stockholders elected Angela Ahrendts, Brian Chesky, and Kenneth Chenault as members of the Company’s board of directors as Class I directors for a three-year term.",
+   "supports": "Class I re-elected 2021: Ahrendts, Chesky, Chenault."
+  },
+  {
+   "id": "e178",
+   "form": "8-K",
+   "accession": "0001193125-22-169254",
+   "filing_date": "2022-06-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312522169254/d339522d8k.htm",
+   "quote": "On June 1, 2022, Airbnb, Inc. (the “Company”) held its 2022 Annual Meeting of Stockholders",
+   "supports": "2022 annual meeting 2022-06-01."
+  },
+  {
+   "id": "e179",
+   "form": "8-K",
+   "accession": "0001193125-22-169254",
+   "filing_date": "2022-06-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312522169254/d339522d8k.htm",
+   "quote": "The Company’s stockholders elected Amrita Ahuja, Joseph Gebbia and Jeffrey Jordan as members of the Company’s board of directors as Class II directors for a three-year term.",
+   "supports": "Class II elected 2022: Ahuja, Gebbia, Jordan."
+  },
+  {
+   "id": "e180",
+   "form": "8-K",
+   "accession": "0001193125-23-162506",
+   "filing_date": "2023-06-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312523162506/d480147d8k.htm",
+   "quote": "On June 1, 2023, Airbnb, Inc. (the “Company”) held its 2023 Annual Meeting of Stockholders",
+   "supports": "2023 annual meeting 2023-06-01 (Johnson's term ends)."
+  },
+  {
+   "id": "e181",
+   "form": "8-K",
+   "accession": "0001193125-23-162506",
+   "filing_date": "2023-06-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312523162506/d480147d8k.htm",
+   "quote": "The Company’s stockholders elected Nathan Blecharczyk and Alfred Lin as members of the Company’s board of directors as Class III directors for a three-year term.",
+   "supports": "Class III re-elected 2023: Blecharczyk, Lin (Johnson not on slate)."
+  },
+  {
+   "id": "e182",
+   "form": "8-K",
+   "accession": "0001193125-24-157426",
+   "filing_date": "2024-06-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312524157426/d841286d8k.htm",
+   "quote": "On June 5, 2024, Airbnb, Inc. (the “Company”) held its 2024 Annual Meeting of Stockholders",
+   "supports": "2024 annual meeting 2024-06-05."
+  },
+  {
+   "id": "e183",
+   "form": "8-K",
+   "accession": "0001193125-24-157426",
+   "filing_date": "2024-06-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312524157426/d841286d8k.htm",
+   "quote": "The Company’s stockholders elected Brian Chesky, Angela Ahrendts and Kenneth Chenault as members of the Company’s board of directors as Class I directors for a three-year term.",
+   "supports": "Class I re-elected 2024: Chesky, Ahrendts, Chenault."
+  },
+  {
+   "id": "e184",
+   "form": "8-K",
+   "accession": "0001193125-25-137216",
+   "filing_date": "2025-06-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312525137216/d930295d8k.htm",
+   "quote": "On June 4, 2025, Airbnb, Inc. (the “Company”) held its 2025 Annual Meeting of Stockholders",
+   "supports": "2025 annual meeting 2025-06-04."
+  },
+  {
+   "id": "e185",
+   "form": "8-K",
+   "accession": "0001193125-25-137216",
+   "filing_date": "2025-06-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312525137216/d930295d8k.htm",
+   "quote": "The Company’s stockholders elected Amrita Ahuja, Joseph Gebbia and Jeffrey Jordan as members of the Company’s board of directors as Class II directors for a three-year term.",
+   "supports": "Class II re-elected 2025: Ahuja, Gebbia, Jordan."
+  },
+  {
+   "id": "e186",
+   "form": "8-K",
+   "accession": "0001559720-26-000018",
+   "filing_date": "2026-06-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972026000018/abnb-20260605.htm",
+   "quote": "On June 5, 2026, Airbnb, Inc. (the “Company”) held its 2026 Annual Meeting of Stockholders",
+   "supports": "2026 annual meeting 2026-06-05."
+  },
+  {
+   "id": "e187",
+   "form": "8-K",
+   "accession": "0001559720-26-000018",
+   "filing_date": "2026-06-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972026000018/abnb-20260605.htm",
+   "quote": "The Company’s stockholders elected Nathan Blecharczyk, Alfred Lin and James Manyika as members of the Company’s board of directors as Class III directors for a three-year term.",
+   "supports": "Class III re-elected 2026: Blecharczyk, Lin, Manyika."
+  },
+  {
+   "id": "e188",
+   "form": "8-K",
+   "accession": "0001193125-23-291772",
+   "filing_date": "2023-12-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312523291772/d636215d8k.htm",
+   "quote": "On December 4, 2023, the Board of Directors of the Company (the “Board”) appointed Dave Stephenson, the Company’s Chief Financial Officer, as the Company’s Chief Business Officer effective as of January 1, 2024.",
+   "supports": "Dec 2023 Item 5.02 is officer-only (Stephenson CBO; Mertz CFO). Not a board change."
+  },
+  {
+   "id": "e189",
+   "form": "8-K",
+   "accession": "0001193125-25-291024",
+   "filing_date": "2025-11-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312525291024/d41935d8k.htm",
+   "quote": "On November 18, 2025, Aristotle Balogh notified Airbnb, Inc. (the “Company”) that he will depart from his role as Chief Technology Officer of the Company in December 2025",
+   "supports": "Nov 2025 Item 5.02 is officer-only (CTO departure). Not a board change."
+  },
+  {
+   "id": "e190",
+   "form": "DEF 14A",
+   "accession": "0001193125-21-145242",
+   "filing_date": "2021-04-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312521145242/d44566ddef14a.htm",
+   "quote": "Audit, Risk and Compliance Committee Ann Mather (Chair) Jeffrey Jordan Alfred Lin Vote Required",
+   "supports": "2021 proxy audit committee report is signed by Mather (Chair), Jordan and Lin only.",
+   "quote_from_table": true
+  }
+ ],
+ "conflicts": [
+  {
+   "description": "Chenault's 2021 audit committee seat. The 2022 proxy says he 'also served on our audit committee from January 1, 2021 to December 14, 2021'. But the 2021 proxy (filed 2021-04-30) contradicts this. It names only Jordan, Lin and Mather as audit members and lists Chenault only on the compensation and nominating committees. Its audit committee report is signed by Mather, Jordan and Lin alone. Committee rows follow each filing as written, so no audit row is recorded for Chenault.",
+   "evidence_refs": [
+    "e077",
+    "e064",
+    "e066",
+    "e068",
+    "e190",
+    "e030"
+   ]
+  }
+ ],
+ "open_questions": [
+  "Founders' board start dates (Chesky, Gebbia, Blecharczyk) are not in any SEC filing. Bios say only that they co-founded the company in 2008 (incorporated 2008-06-27). The 2012 Form D lists all three as directors, so they were on the board no later than 2012-10-23. Start dates are left null.",
+  "Chesky's start dates as Chair and as CEO are not disclosed. He holds both roles at the IPO and in every proxy through 2026.",
+  "When Chenault was appointed lead director is not disclosed. He already held the role in the S-1 filed 2020-11-16.",
+  "Gebbia's exact employment end date is not disclosed. The 2022 proxy (2022-04-22) still lists him as an executive officer. His advisor agreement, effective 2022-08-23, makes him an independent contractor. So the executive role ended in 2022 (recorded at year precision).",
+  "Undated committee-chair changes: Lin replaced Mather as audit chair, and Ahrendts replaced Lin as compensation chair, between the 2021 proxy (2021-04-30) and the 2022 proxy (2022-04-22). Ahuja replaced Lin as audit chair between the 2025 proxy (2025-04-25) and the 2026 proxy (2026-04-24). No filing dates these changes.",
+  "Board size around appointments is not stated. Ahuja joined 2021-12-14 and Mather left 2021-12-15. Authorized size went 9 -> 8 at the 2023-06-01 meeting, but the Manyika 8-K (2023-09-07) does not say it was raised back to 9. The 2024 proxy says nine directors.",
+  "Mather's resignation was disclosed only in the Q3 2021 10-Q (Item 5 Other Information) and the 2022 proxy. No 8-K Item 5.02 was found for it.",
+  "Pre-IPO departed directors are not tracked. For example, Greg McAdoo appears as a director on the 2012 Form D, but no filing reviewed gives his dates.",
+  "Independence roles span each director's tenure, but the filings only give point-in-time determinations (the IPO prospectus and each proxy).",
+  "Other-board lists come from Airbnb's own bios (2026 proxy for current directors; the 2021 proxy for Mather; the 2022 proxy for Johnson). They are not checked against other issuers' filings, and Mather's and Johnson's 'current' boards are only as of those proxies."
+ ],
+ "coverage": [
+  {
+   "scope": "current_board",
+   "period_start": "2026-10-04",
+   "period_end": "2026-10-04",
+   "level": "complete",
+   "method": "Roster checked against the 2026 DEF 14A (2026-04-24), the 2026-06-05 annual-meeting 8-K and every 8-K through 2026-09-30. No Item 5.02 8-K was filed after 2025-11-21, and that one was officer-only. Also checked: the 10-Q Item 5 sections through 2026-08-06, every Form 3 (none after 2024-03-07, and that one was the CFO), and Forms 4 filed May-Sept 2026 by all nine directors."
+  },
+  {
+   "scope": "board_history",
+   "period_start": "2020-12-10",
+   "period_end": "2026-10-04",
+   "level": "complete",
+   "method": "Reviewed the IPO 424B4 and S-1, every DEF 14A (2021-2026), every 8-K with Item 5.02 or 5.07, the Other Information item (Item 5/9B) of every 10-Q and 10-K since the IPO, and every Form 3. Joins dated from 8-Ks and Forms 3; departures from the 10-Q, 8-Ks and annual-meeting 8-Ks."
+  },
+  {
+   "scope": "board_history",
+   "period_start": "2008-06-27",
+   "period_end": "2020-12-09",
+   "level": "partial",
+   "method": "Pre-IPO seats reconstructed only from IPO prospectus and proxy biographies (plus the 2012 Form D roster). Pre-IPO departures are not covered."
+  }
+ ]
+}
