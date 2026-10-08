@@ -4,6 +4,7 @@
 
 import { fmtDate, pct, type Precision } from "./format";
 import type { RankScope, SeatRef } from "./queries";
+import { officerTitle } from "./roles";
 
 export const ROCKET = 0.25;
 export const ROUGH = -0.2;
@@ -11,7 +12,12 @@ export const WHITE_KNUCKLE_MDD = -0.8;
 export const SHORT_RECORD_YEARS = 5;
 export const MIN_SEAT_DAYS = 365;
 export const MIN_DIRECTOR_DAYS = 730;
+export const MIN_DIRECTOR_YEARS = MIN_DIRECTOR_DAYS / 365;
 export const TOP_PCT_MAX = 25;
+export const NEW_COMPANY_DAYS = 30;
+
+/** 0.25 -> "25%", -0.8 -> "80%": rule thresholds for hint text, so a re-tuned constant re-words its hint. */
+const thresholdPct = (x: number) => `${Math.round(Math.abs(x) * 100)}%`;
 
 // ---- scope ---------------------------------------------------------------
 
@@ -108,25 +114,27 @@ export function tagsFor(seat: TaggableSeat, max = 2): Tag[] {
     out.push({
       key: "white-knuckle",
       label: "White-knuckle seat",
-      hint: "The stock fell 80% or more from a peak during this seat and still beat the S&P 500 overall.",
+      hint: `The stock fell ${thresholdPct(WHITE_KNUCKLE_MDD)} or more from a peak during this seat and still beat the S&P 500 overall.`,
     });
   }
   if (seat.annualized_excess != null && seat.annualized_excess >= ROCKET) {
-    out.push({ key: "rocket", label: "Rode the rocket", hint: "The stock beat the S&P 500 by 25% or more a year during this seat." });
+    out.push({ key: "rocket", label: "Rode the rocket", hint: `The stock beat the S&P 500 by ${thresholdPct(ROCKET)} or more a year during this seat.` });
   }
   if (seat.annualized_excess != null && seat.annualized_excess <= ROUGH) {
-    out.push({ key: "rough", label: "Rough ride", hint: "The stock trailed the S&P 500 by 20% or more a year during this seat." });
+    out.push({ key: "rough", label: "Rough ride", hint: `The stock trailed the S&P 500 by ${thresholdPct(ROUGH)} or more a year during this seat.` });
   }
   return out.slice(0, max);
 }
 
 export const CHIP_HINT = {
-  short: "Under 5 scored years. Short windows swing further from the S&P in both directions.",
-  exec: (title: string | null) =>
-    `Held while an employee${title ? ` (${title})` : ""}. Left out of Non-exec seats scores.`,
+  short: `Under ${SHORT_RECORD_YEARS} scored years. Short windows swing further from the S&P in both directions.`,
+  exec: (title: string | null) => {
+    const t = officerTitle(title);
+    return `Held while an employee${t ? ` (${t})` : ""}. Left out of Non-exec seats scores.`;
+  },
   ipo: (date: string | null) =>
     `Joined before the stock listed. Measured from the first trading day${date ? ` (${fmtDate(date)})` : ""}, not the join date.`,
-  current: "Seat is ongoing. The figure moves with daily closes.",
+  current: "Seat is ongoing; measured through the latest daily close.",
   isNew: (date: string) => `Added ${fmtDate(date)}.`,
 };
 
@@ -136,18 +144,25 @@ export function shortRecord(d: { scored_years: number }): boolean {
 
 export function isNewCompany(createdAt: string, asOf: string): boolean {
   const days = (Date.parse(asOf) - Date.parse(createdAt.slice(0, 10))) / 86_400_000;
-  return days >= 0 && days < 30;
+  return days >= 0 && days < NEW_COMPANY_DAYS;
 }
 
 // ---- unranked reasons --------------------------------------------------------------
 
-/** Why a seat isn't counted in the scope's score (null when it is). */
+export const EXEC_SEAT_REASON = "Exec seat · counted under All seats";
+
+/**
+ * Why a seat isn't counted in the scope's score (null when it is). A seat measured from the first
+ * trading day that is short only because the stock listed late reads "Under 1 year after listing",
+ * so it never contradicts a longer membership shown beside it.
+ */
 export function seatReason(seat: SeatRef, scope: RankScope): string | null {
   if (seat.in_scope) return null;
-  if (seat.rank_eligible && seat.executive_seat && scope === "independent") return "Exec seat · counted under All seats";
+  if (seat.rank_eligible && seat.executive_seat && scope === "independent") return EXEC_SEAT_REASON;
+  const under = seat.start_anchor_reason === "first_trade" ? "Under 1 year after listing" : "Under 1 year";
   switch (seat.perf_status) {
     case "too_short":
-      return "Under 1 year";
+      return under;
     case "approximate":
       return `≈ Dates known to the ${approxPrecision(seat)}`;
     case "unknown_dates":
@@ -157,7 +172,7 @@ export function seatReason(seat: SeatRef, scope: RankScope): string | null {
     case "no_price_history":
       return "Before listing";
     case "ok":
-      return (seat.calendar_days ?? 0) < MIN_SEAT_DAYS ? "Under 1 year" : null;
+      return (seat.calendar_days ?? 0) < MIN_SEAT_DAYS ? under : null;
     default:
       return null;
   }
@@ -168,18 +183,45 @@ function approxPrecision(seat: SeatRef): "year" | "month" {
   return p.includes("year") ? "year" : "month";
 }
 
-export function directorReason(d: { scored_years: number }): string {
-  return d.scored_years > 0
-    ? `Needs 2 scored years · has ${d.scored_years.toFixed(1)}`
-    : "Only unscored seats";
+/**
+ * Scored years for "needs 2 scored years" copy, rounded DOWN to one decimal so 1.996 reads "1.9",
+ * never "2.0" beside the 2-year threshold.
+ */
+export function floorYears(y: number): string {
+  return (Math.floor(y * 10 + 1e-9) / 10).toFixed(1);
+}
+
+/**
+ * Under Non-exec seats, someone whose only scored seats are exec seats: ranked under All seats,
+ * left out here. Not "unscored" and not warming up.
+ */
+export function onlyExecSeats(seats: SeatRef[], scope: RankScope): boolean {
+  return scope === "independent" && !seats.some((s) => s.in_scope) && seats.some((s) => s.rank_eligible && s.executive_seat);
+}
+
+export const EXEC_ONLY_REASON = "Only exec seats · counted under All seats";
+
+export function directorReason(d: { scored_years: number }, execOnly = false): string {
+  if (d.scored_years > 0) return `Needs ${MIN_DIRECTOR_YEARS} scored years · has ${floorYears(d.scored_years)}`;
+  return execOnly ? EXEC_ONLY_REASON : "Only unscored seats";
+}
+
+/** Warming-up chip hint (§5.2). `around` is eligibleAround()'s date, when it found one. */
+export function warmingHint(scoredYears: number, around: string | null): string {
+  return `Needs ${MIN_DIRECTOR_YEARS} scored years (has ${floorYears(scoredYears)}).${
+    around ? ` Could be ranked around ${fmtDate(around, "month")} if the seat continues.` : ""
+  }`;
 }
 
 /**
  * Earliest date the person would reach 2 scored years if their current exact seats continue,
  * stepping day by day up to 1,100 days past dataThrough. Null when nothing qualifies.
+ * Under Non-exec seats an exec seat never counts, so it can't bring anyone into the ranking.
  */
-export function eligibleAround(seats: SeatRef[], dataThrough: string): string | null {
-  const live = seats.filter((s) => s.seat_status === "current" && s.perf_status === "ok" && s.start_anchor_date);
+export function eligibleAround(seats: SeatRef[], dataThrough: string, scope: RankScope): string | null {
+  const live = seats.filter((s) =>
+    s.seat_status === "current" && s.perf_status === "ok" && s.start_anchor_date &&
+    !(scope === "independent" && s.executive_seat));
   if (live.length === 0) return null;
   const done = seats
     .filter((s) => s.in_scope && s.seat_status === "former")
@@ -202,6 +244,7 @@ export function seatWindow(start: string | null, end: string | null, current: bo
   return `${m(start)} – ${current ? "present" : m(end)}`;
 }
 
+/** Measured years, floored like floorYears() so 729 days reads "1.9", never "2.0" beside a 2-year rule. */
 export function years(days: number | null | undefined): string {
-  return days == null ? "—" : (days / 365.25).toFixed(1);
+  return days == null ? "—" : floorYears(days / 365.25);
 }

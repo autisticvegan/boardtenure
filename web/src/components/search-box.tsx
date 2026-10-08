@@ -17,19 +17,7 @@ export function SearchBox({ autoFocus = false, size = "sm" }: { autoFocus?: bool
   const [active, setActive] = useState(0);
   const [loading, setLoading] = useState(false);
 
-  // "/" or Cmd/Ctrl-K focuses search from anywhere.
-  useEffect(() => {
-    if (size === "lg") return;
-    const onKey = (e: KeyboardEvent) => {
-      const typing = (e.target as HTMLElement)?.closest("input, textarea, [contenteditable]");
-      if ((e.key === "k" && (e.metaKey || e.ctrlKey)) || (e.key === "/" && !typing)) {
-        e.preventDefault();
-        input.current?.focus();
-      }
-    };
-    window.addEventListener("keydown", onKey);
-    return () => window.removeEventListener("keydown", onKey);
-  }, [size]);
+  // No global shortcut ("/" or ⌘K): phase 1 has no single-key shortcuts (§7, §10.21). Tab reaches it.
 
   useEffect(() => {
     const term = q.trim();
@@ -103,6 +91,7 @@ export function SearchBox({ autoFocus = false, size = "sm" }: { autoFocus?: bool
             }
           }}
           placeholder={big ? "Search a company, ticker, or director" : "Search companies, tickers, directors"}
+          aria-label="Search companies, tickers and directors"
           className={`flex-1 min-w-0 bg-transparent outline-none placeholder:text-ink-3 ${big ? "text-[16px]" : "text-[13px]"}`}
           role="combobox"
           aria-expanded={open && shown.length > 0}
@@ -112,11 +101,6 @@ export function SearchBox({ autoFocus = false, size = "sm" }: { autoFocus?: bool
           spellCheck={false}
           autoComplete="off"
         />
-        {!big && (
-          <kbd className="hidden sm:inline-flex items-center rounded border border-line px-1.5 text-[11px] text-ink-3 font-sans">
-            ⌘K
-          </kbd>
-        )}
       </div>
       {open && q.trim() && (
         <ul
@@ -138,7 +122,9 @@ export function SearchBox({ autoFocus = false, size = "sm" }: { autoFocus?: bool
                 go(h);
               }}
               onMouseEnter={() => setActive(i)}
-              className={`flex items-center gap-3 px-3 py-2 cursor-pointer ${i === active ? "bg-surface-2" : ""}`}
+              className={`flex items-center gap-3 px-3 py-2 cursor-pointer ${
+                i === active ? "bg-surface-3 shadow-[inset_3px_0_0_var(--focus)]" : ""
+              }`}
             >
               <span
                 className={`grid place-items-center h-6 min-w-6 rounded text-[10px] font-semibold tracking-wide ${h.kind === "company" ? "bg-accent-wash text-accent-ink px-1.5" : "bg-surface-3 text-ink-2"}`}

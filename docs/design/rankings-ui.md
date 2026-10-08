@@ -968,7 +968,7 @@ If `single_seat_ranked / ranked_directors < 0.5`, bullet 3 becomes: "{n} of {N} 
 9. "Warming up: needs 2 scored years (has {1.4})."
 10. "Who had the best seat in the house?"
 
-**Forbidden.** The test `web/tests/copy-lint.test.mjs` uses `node:test` and needs no new dependency. Add `"test:copy": "node --test tests/"` to `package.json`. It reads every `src/**/*.{ts,tsx}` file except `src/app/admin/**` (via `fs.readdirSync(dir, { recursive: true })`) and fails on:
+**Forbidden.** The test `web/tests/copy-lint.test.mjs` uses `node:test` and needs no new dependency. Add `"test:copy": "node --test \"tests/**/*.test.mjs\""` to `package.json` (Node 22 rejects a bare directory). It reads every `src/**/*.{ts,tsx}` file except `src/app/admin/**` (via `fs.readdirSync(dir, { recursive: true })`) and fails on:
 
 | Pattern (case-insensitive) | Reason / use instead |
 |---|---|
@@ -1071,3 +1071,15 @@ Other facts:
 | P1c | Company, director and seat pages; `/companies`; methodology section; `/random` | §4.3–4.8 |
 | P1d | Copy lint and checks | `npm run test:copy` passes. A keyboard-only pass reaches every podium card, dot, table row and filter. axe reports 0 violations. Reduced motion shows final states instantly. Tooltips dismiss with Esc |
 | P2 | `/compare` (seat vs seat, always-log, series-1/2), career small multiples | Validator run E passes. No loss marks on the compare chart |
+
+## 13. Amendments after the build (2026-10-07)
+
+* **Verbatim filing quotes are exempt from §9.** Machine-verified SEC quotes in Sources render exactly as filed, even if
+  they say "founder". Our own notes (`start_basis`, board-event summaries) are cleaned at render time by `plainNote()`.
+* **P0-4 not adopted.** Prices are daily closes; the refresh job stays weekly. Copy says only "Daily closes through {date}".
+* **New labels:** "Only exec seats" (reason and unranked group), "Under 1 year after listing" (reason), "Smallest lag"
+  (company callout when every seat trailed), and the Current chip hint "Seat is ongoing; measured through the latest daily close."
+* **Years are floored** everywhere, so "1.9 yrs" never reads as 2.0 next to the 2-year threshold.
+* **Layout:** wide table columns appear from 1200px, not `lg`; table chips may wrap; unscored timeline bars use 0.7 opacity
+  for contrast.
+* **Copy lint** also scans `docs/methodology.md` prose (code and the literal-count rule are skipped there).

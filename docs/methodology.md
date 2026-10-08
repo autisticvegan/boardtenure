@@ -10,8 +10,8 @@ and every stored result records the version that produced it.
 Tenure performance is **descriptive**. "LYFT returned −30.2% during Jane Doe's tenure"
 states what the stock did while that person held a board seat. It does not say the
 director caused it. A board is a group. Directors overlap, and the market, the sector
-and company events drive most of any stock's return. The product never ranks or describes
-a director as having *produced* a return.
+and company events drive most of any stock's return. The product never credits a director
+with a return.
 
 ## Tenure dates
 
@@ -60,8 +60,7 @@ trading day:
   displayed.
 * **Left before the stock listed.** There is no measurable tenure (`no_price_history`).
 * **Current directors.** The end anchor is the latest stored close (`latest_close`), shown with
-  its date ("through Oct 2, 2026"). Prices refresh weekly, so this close is at most about a
-  week old. The site reports history, not live quotes.
+  its date ("through Oct 2, 2026"). The site reports history, not live quotes.
 * **Left after the stock stopped trading** (acquisition, delisting). The end anchor is the
   last trading day (`last_trade`). Acquisition consideration is not yet modeled.
 
@@ -79,7 +78,7 @@ For start anchor `s` and end anchor `e` with total-return index `TR`:
 | Price return | `PR(e) / PR(s) − 1` |
 | Annualized return | `(1 + total)^(365.25 / calendar_days) − 1`, **only when the window is ≥ 365 calendar days**; shorter windows show "—" because annualizing them exaggerates |
 | Benchmark return | the same as-of rule and formula applied to the benchmark over the same anchor days |
-| Relative return | `total − benchmark`, in **percentage points** ("underperformed the S&P 500 by 18.4 pp") |
+| Relative return | `total − benchmark`, in **percentage points** ("LYFT trailed the S&P 500 by 18.4 pp") |
 | Excess (geometric) | `(1 + total) / (1 + benchmark) − 1`, shown in detail views |
 | Max drawdown | the largest peak-to-trough decline of `TR` between the anchors, with its peak and trough dates |
 
@@ -103,27 +102,27 @@ is small at tenure horizons. The UI labels it "S&P 500 (SPY)", never as the inde
 (Nasdaq Composite, Russell 2000, sector ETFs) use the same mechanism through the `benchmark`
 table.
 
-## Aggregates (director track records)
+## Aggregates (director track records in the API)
 
-A director's track record aggregates their tenures across companies. To avoid misleading
-summaries:
+The API's director track record (`/api/v1/directors/{id}/performance`) aggregates a person's
+tenures across companies. The site's standings use the per-director score under "Rankings"
+below instead. To avoid misleading summaries:
 
 * Point statistics (mean/median total return, % positive) use only tenures with
   `status = ok`. Approximate tenures are counted and shown separately, never averaged in.
 * Annualized aggregates use only tenures of at least one year.
-* **Medians are the headline.** Means are shown with them because a single outlier
-  dominates the mean for most directors.
+* **Medians lead.** Means are returned with them because a single outlier dominates the mean
+  for most directors.
 * Concurrent seats overlap in time and share market conditions. They are not independent
   observations, and the UI never presents a track record as statistically significant.
 * "Company-years served" sums tenure lengths across seats, so two concurrent seats held
   for a year count as two company-years.
-* Rankings (future) require a minimum tenure length and number of completed tenures and are
-  shown benchmark-relative by default.
 
 ## Rankings
 
-Rankings order **stock performance during board tenure**, not director skill. A higher rank means
-the company's stock beat the S&P 500 by more per year while that person held the seat.
+Rankings order **stock performance during board tenure**: a stat line about the stock,
+not a skill rating. A higher rank means the company's stock beat the S&P 500 by more per year while
+that person held the seat.
 
 **Per seat.** The ranking metric is annualized excess return against SPY total return:
 
@@ -142,12 +141,12 @@ person's eligible seats:
 A director is ranked only with **at least two scored years** in total. Each row also shows the
 number of scored seats and how many of them beat SPY.
 
-**Executive seats.** CEOs, founders and other employee-directors are flagged (`executive_seat`). The
-"independent directors only" view recomputes the score from non-executive seats alone, because
-founders measured from the IPO otherwise dominate.
+**Executive seats.** CEOs and other employee-directors are flagged (`executive_seat`). The
+**Non-exec seats** view recomputes the score from non-executive seats alone, because exec seats
+measured from the first trading day otherwise dominate.
 
-**Caveats shown in the UI.** Seats held at the same time share market conditions. Founders' and
-other pre-IPO directors' seats are measured from the first trading day. Coverage is limited to the
+**Caveats shown in the UI.** Seats held at the same time share market conditions. Pre-IPO
+directors' seats are measured from the first trading day. Coverage is limited to the
 companies we track.
 
 ## Confidence

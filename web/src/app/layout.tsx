@@ -23,8 +23,14 @@ export default async function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="en" className={`${inter.variable} ${mono.variable}`}>
       <body className="min-h-dvh flex flex-col text-[14px] leading-[22px]">
+        <a href="#main"
+           className="sr-only focus:not-sr-only focus:fixed focus:z-50 focus:left-4 focus:top-[calc(env(safe-area-inset-top,0px)+8px)] focus:rounded-lg focus:bg-surface-3 focus:px-4 focus:py-2.5 focus:text-[13px] focus:font-semibold focus:text-ink">
+          Skip to content
+        </a>
         <SiteHeader />
-        <main className="flex-1 w-full max-w-[1240px] mx-auto px-4 sm:px-6 py-6 sm:py-8">{children}</main>
+        <main id="main" tabIndex={-1} className="flex-1 w-full max-w-[1240px] mx-auto px-4 sm:px-6 py-6 sm:py-8 focus:outline-none">
+          {children}
+        </main>
         <footer className="border-t border-line mt-12">
           <div className="max-w-[1240px] mx-auto px-4 sm:px-6 py-8 grid gap-6 sm:grid-cols-[2fr_1fr_1fr] text-[13px] leading-5 text-ink-2">
             <div className="space-y-3 max-w-prose">

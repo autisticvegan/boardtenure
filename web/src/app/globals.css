@@ -125,8 +125,23 @@ body {
 .anim-rise-sm { animation: rise-sm 300ms ease-out both; }
 .anim-grow { animation: grow-x 360ms ease-out both; }
 .anim-fade { animation: fade-in 160ms ease-out both; }
+.anim-tip { animation: fade-in 120ms ease-out both; } /* tooltips: 120ms in, instant out (§8.4) */
 
 :focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+
+/*
+ * Focus never lands under sticky chrome (WCAG 2.4.11). scroll-padding reserves the 56px header,
+ * plus the mobile sticky scope bar on the dashboard, the sticky FilterBar and table head on
+ * /rankings (FilterBar publishes --filters-h on :root), and sticky table heads elsewhere.
+ */
+html { scroll-padding-top: calc(env(safe-area-inset-top, 0px) + 64px); }
+@media (max-width: 767.98px) {
+  html:has([data-sticky-scope]) { scroll-padding-top: calc(env(safe-area-inset-top, 0px) + 126px); }
+}
+@media (min-width: 768px) {
+  html:has([data-sticky-head]) { scroll-padding-top: calc(env(safe-area-inset-top, 0px) + 104px); }
+  html:has([data-rankings]) { scroll-padding-top: calc(env(safe-area-inset-top, 0px) + 104px + var(--filters-h, 64px)); }
+}
 
 @media (prefers-reduced-motion: reduce) {
   .skeleton { animation: none; }

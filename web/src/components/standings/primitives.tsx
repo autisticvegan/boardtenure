@@ -4,6 +4,7 @@ import type { ReactNode } from "react";
 import { fmtDate, pct, pp } from "@/lib/format";
 import type { RankScope } from "@/lib/queries";
 import { perYear, rankLabel, SCOPE_LABEL, SCOPE_NOTE, srRank } from "@/lib/standings";
+import { Tooltip } from "./tooltip";
 
 const EPS = 0.0005; // |x| < 0.05% reads as level
 
@@ -12,8 +13,8 @@ const EPS = 0.0005; // |x| < 0.05% reads as level
 type SignedKind = "perYear" | "pct" | "pp";
 const SIZE: Record<string, string> = {
   table: "",
-  xl: "text-[40px] leading-[44px] sm:text-[56px] sm:leading-[60px] font-extrabold tracking-[-0.03em]",
-  l: "text-[32px] leading-[36px] sm:text-[40px] sm:leading-[44px] font-extrabold tracking-[-0.03em]",
+  xl: "text-[40px] leading-[44px] md:text-[56px] md:leading-[60px] font-extrabold tracking-[-0.03em]",
+  l: "text-[32px] leading-[36px] md:text-[40px] md:leading-[44px] font-extrabold tracking-[-0.03em]",
   m: "text-[32px] leading-[36px] font-extrabold tracking-[-0.02em]",
 };
 
@@ -50,7 +51,7 @@ export function RankBadge({ rank, tie, of, medal = false, size = "md" }: {
   if (medal && rank <= 3) {
     return (
       <span
-        className={`inline-grid place-items-center ${DISC[size]} ${tie ? "px-2 rounded-full" : "rounded-full"} font-bold num text-ink-on-mark shrink-0`}
+        className={`inline-grid place-items-center ${DISC[size]} ${tie ? "px-2 rounded-full" : "rounded-full"} font-bold num text-ink-on-mark shrink-0 whitespace-nowrap`}
         style={{ background: MEDAL[rank - 1] }}
       >
         <span aria-hidden>{tie ? label : rank}</span>
@@ -59,7 +60,7 @@ export function RankBadge({ rank, tie, of, medal = false, size = "md" }: {
     );
   }
   return (
-    <span className="inline-grid place-items-center min-w-10 h-7 px-1.5 rounded-md bg-surface-3 text-ink-2 text-[15px] leading-5 font-bold num shrink-0">
+    <span className="inline-grid place-items-center min-w-10 h-7 px-1.5 rounded-md bg-surface-3 text-ink-2 text-[15px] leading-5 font-bold num shrink-0 whitespace-nowrap">
       <span aria-hidden>{label}</span>
       <span className="sr-only">{srRank(rank, tie, of)}</span>
     </span>
@@ -70,19 +71,39 @@ export function RankBadge({ rank, tie, of, medal = false, size = "md" }: {
 
 export type ChipKind = "short" | "exec" | "ipo" | "current" | "new" | "warming" | "reason" | "tag";
 
-/** A fact chip. Plain span (rows and cards are links; links never nest). Definitions live in ChipKey. */
-export function Chip({ kind, label, hint }: { kind: ChipKind; label: string; hint?: string }) {
-  const base = "inline-flex items-center gap-1 rounded-full px-2 py-[2px] text-[11px] leading-[14px] font-semibold whitespace-nowrap";
+/**
+ * A fact chip. By default a plain span: rows and cards are links and links never nest, so the
+ * definitions live in ChipKey. `interactive` (only outside links) makes it a button whose hint
+ * opens in a Tooltip on hover or focus.
+ */
+export function Chip({ kind, label, hint, interactive = false, wrap = false }: {
+  kind: ChipKind; label: string; hint?: string; interactive?: boolean;
+  /** Let a long label wrap (table cells), so the chip never forces the table wider than the page. */
+  wrap?: boolean;
+}) {
+  const base = `inline-flex items-center gap-1 px-2 py-[2px] text-[11px] leading-[14px] font-semibold ${
+    wrap ? "rounded-[10px] whitespace-normal" : "rounded-full whitespace-nowrap"}`;
   const look =
     kind === "tag" ? "bg-accent-wash text-accent-ink"
     : kind === "reason" || kind === "warming" ? "bg-surface-3 text-ink-2 border border-dashed border-line-strong"
     : "bg-surface-3 text-ink-2 border border-line-strong";
-  return (
-    <span className={`${base} ${look}`} title={hint}>
-      {kind === "warming" && <span aria-hidden>·</span>}
+  // Reason and warming chips lead with "≈" or "·" (§5.1): the label's own "≈", else a "·".
+  const lead = (kind === "warming" || kind === "reason") && !label.startsWith("≈");
+  const body = (
+    <>
+      {lead && <span aria-hidden>·</span>}
       {label}
-    </span>
+    </>
   );
+  if (interactive && hint) {
+    return (
+      <Tooltip content={<span className="block text-ink-2">{hint}</span>}
+               buttonClassName="inline-flex items-center min-h-6 max-md:min-h-11 rounded-full cursor-help">
+        <span className={`${base} ${look}`}>{body}</span>
+      </Tooltip>
+    );
+  }
+  return <span className={`${base} ${look}`} title={hint}>{body}</span>;
 }
 
 // ---- ExcessBar -----------------------------------------------------------------
@@ -126,7 +147,10 @@ export function ExcessBar({ value, domain, size = "sm", width = 120, animate = f
 
 // ---- ScopeToggle ---------------------------------------------------------------
 
-/** Two-segment scope switch made of links (no client JS). */
+/**
+ * Two-segment scope switch made of links (no client JS). With `sticky` it sticks under the header
+ * below md; the note renders after the sticky bar so the bar stays one control tall.
+ */
 export function ScopeToggle({ scope, hrefFor, note = false, sticky = false }: {
   scope: RankScope; hrefFor: (s: RankScope) => string; note?: boolean; sticky?: boolean;
 }) {
@@ -138,7 +162,7 @@ export function ScopeToggle({ scope, hrefFor, note = false, sticky = false }: {
         href={hrefFor(s)}
         aria-current={active ? "true" : undefined}
         scroll={false}
-        className={`grid place-items-center px-3 min-h-11 md:min-h-9 text-[13px] font-semibold rounded-md transition-colors ${
+        className={`grid place-items-center px-3 min-h-11 md:min-h-9 text-[13px] font-semibold whitespace-nowrap rounded-md transition-colors ${
           active ? "bg-surface-3 text-ink shadow-[inset_0_-2px_0_var(--accent)]" : "text-ink-2 hover:text-ink"
         }`}
       >
@@ -146,18 +170,23 @@ export function ScopeToggle({ scope, hrefFor, note = false, sticky = false }: {
       </Link>
     );
   };
+  // Below md the segments split the full width; from md up each keeps its own width.
   return (
-    <div className={sticky ? "md:static sticky z-20 bg-bg/95 backdrop-blur py-2 -mx-4 px-4 md:mx-0 md:px-0 md:py-0" : ""}
-         style={sticky ? { top: "calc(env(safe-area-inset-top, 0px) + 56px)" } : undefined}>
-      <div className="flex flex-wrap items-center gap-x-3 gap-y-2">
-        <span className="text-[12px] leading-4 text-ink-3">Seats counted</span>
-        <div className="inline-flex flex-1 md:flex-none rounded-lg border border-line bg-surface p-0.5 [&>*]:flex-1">
-          {seg("independent")}
-          {seg("all")}
+    <>
+      <div className={sticky ? "md:static sticky z-20 bg-bg/95 backdrop-blur py-2 -mx-4 px-4 sm:-mx-6 sm:px-6 md:mx-0 md:px-0 md:py-0" : ""}
+           style={sticky ? { top: "calc(env(safe-area-inset-top, 0px) + 56px)" } : undefined}
+           data-sticky-scope={sticky ? "" : undefined}>
+        <div className="flex flex-wrap items-center gap-x-3 gap-y-2">
+          <span aria-hidden className="text-[12px] leading-4 text-ink-3">Seats counted</span>
+          <div role="group" aria-label="Seats counted"
+               className="inline-flex flex-1 md:flex-none rounded-lg border border-line bg-surface p-0.5 max-md:[&>*]:flex-1">
+            {seg("independent")}
+            {seg("all")}
+          </div>
         </div>
       </div>
       {note && <p className="mt-2 text-[12px] leading-4 text-ink-3 max-w-[60ch]">{SCOPE_NOTE[scope]}</p>}
-    </div>
+    </>
   );
 }
 

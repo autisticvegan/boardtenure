@@ -8,11 +8,11 @@ export function SiteHeader() {
       style={{ top: "env(safe-area-inset-top, 0px)" }}
     >
       <div className="max-w-[1240px] mx-auto px-4 sm:px-6 h-14 flex items-center gap-3 sm:gap-5">
-        <Link href="/" className="flex items-center gap-2 shrink-0" aria-label="BoardTenure standings home">
+        <Link href="/" className="flex items-center justify-center gap-2 shrink-0 max-md:min-h-11 max-md:min-w-11" aria-label="BoardTenure standings home">
           <Logo />
           <span className="hidden sm:inline font-bold tracking-tight text-[15px]">BoardTenure</span>
         </Link>
-        <Link href="/rankings" className="shrink-0 text-[13px] font-semibold text-ink hover:text-accent-ink">
+        <Link href="/rankings" className="inline-flex items-center max-md:min-h-11 shrink-0 text-[13px] font-semibold text-ink hover:text-accent-ink">
           Standings
         </Link>
         <div className="flex-1 min-w-0 max-w-[460px]">

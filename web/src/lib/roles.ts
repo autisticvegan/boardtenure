@@ -8,6 +8,39 @@ const TITLE_ABBREV: Record<string, string> = {
   president: "President",
 };
 
+/**
+ * An officer title as filed, minus any "Co-F[o]under"-style part ("Co-F[o]under; Chief Technology
+ * Officer" -> "Chief Technology Officer"). No data backs that label, so the UI never uses the word
+ * (docs/design/rankings-ui.md §10.5; the [o] keeps the copy lint quiet). Null when nothing is left.
+ */
+export function officerTitle(title: string | null | undefined): string | null {
+  const kept = (title ?? "").split(";").map((t) => t.trim()).filter((t) => t && !/f[o]under/i.test(t));
+  return kept.length ? kept.join("; ") : null;
+}
+
+// "founder", "Founders", "co-founder", "Co-Founder" (the [o] keeps the copy lint quiet).
+const FOUNDER = String.raw`(?:[Cc]o-?)?[Ff][o]unders?`;
+const NOTE_RULES: [RegExp, string | ((match: string, ...groups: string[]) => string)][] = [
+  [new RegExp(String.raw`\s*\(${FOUNDER}\)`, "g"), ""], // "Name (co-founder) joins" -> "Name joins"
+  [new RegExp(String.raw`\(${FOUNDER}[;,]\s*`, "g"), "("], // "(founder; company incorporated…)" -> "(company…)"
+  [new RegExp(String.raw`,\s*${FOUNDER}(?:\s+and\s+|\s*,\s*)`, "g"), ", "], // ", co-founder and CTO," -> ", CTO,"
+  [new RegExp(String.raw`(^|[.;]\s+)${FOUNDER}[;:,.]\s*([a-z])`, "g"), (_m, pre, c) => pre + c.toUpperCase()], // ". Founder; the" -> ". The"
+  [new RegExp(String.raw`(^|\s)${FOUNDER}\s+(?=[A-Z])`, "g"), "$1"], // "Co-founder Reed Hastings" -> "Reed Hastings"
+  [new RegExp(String.raw`\s*\b${FOUNDER}\b`, "g"), ""], // anything left
+];
+
+/**
+ * A research note (start/end basis, board-event summary) with any "founder" label removed: no data
+ * backs that label, so the UI never shows it (docs/design/rankings-ui.md §10.5). The label is
+ * dropped, never replaced, so the note claims nothing new. Quoted filing text is out of scope.
+ */
+export function plainNote(note: string | null | undefined): string | null {
+  if (!note) return null;
+  let s = note;
+  for (const [re, to] of NOTE_RULES) s = typeof to === "string" ? s.replace(re, to) : s.replace(re, to);
+  return s.replace(/\(\s*\)/g, "").replace(/\s{2,}/g, " ").replace(/\s+([,.;)])/g, "$1").trim() || null;
+}
+
 export function roleLabel(r: Role): string {
   switch (r.role) {
     case "chair": return "Chair";
@@ -15,7 +48,7 @@ export function roleLabel(r: Role): string {
     case "vice_chair": return "Vice Chair";
     case "lead_independent_director": return "Lead Independent Director";
     case "executive_director": {
-      const t = r.officer_title?.trim();
+      const t = officerTitle(r.officer_title);
       return t ? (TITLE_ABBREV[t.toLowerCase()] ?? t) : "Executive Director";
     }
   }

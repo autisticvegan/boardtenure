@@ -581,8 +581,8 @@ export const getLeaderboardStats = cache(async (scope: RankScope): Promise<Leade
            (SELECT percentile_cont(0.5) WITHIN GROUP (ORDER BY sr.annualized_excess) FROM seat_ranking sr
              WHERE ${inScope(scope)}) AS median_seat_excess,
            (SELECT count(*) FROM director_scorecard d WHERE ${eligible} AND ${seatsCol} = 1)::int AS single_seat_ranked,
-           (SELECT count(*) FROM (SELECT person_id FROM seat_ranking GROUP BY person_id
-                                  HAVING count(DISTINCT company_id) > 1) x)::int AS multi_board_people,
+           (SELECT count(*) FROM (SELECT sr.person_id FROM seat_ranking sr WHERE ${inScope(scope)}
+                                  GROUP BY sr.person_id HAVING count(DISTINCT sr.company_id) >= 2) x)::int AS multi_board_people,
            (SELECT count(*) FROM director_scorecard d WHERE NOT ${eligible})::int AS unranked_people,
            (SELECT count(*) FROM director_scorecard)::int AS people,
            (SELECT count(*) FROM seat_ranking)::int AS seats,
@@ -719,22 +719,24 @@ export type MultiBoardPerson = {
   seats: SeatRef[];
 };
 
-/** People with seats on 2+ tracked companies (any seat status), with every seat. */
+/**
+ * People with scored seats on 2+ distinct tracked companies in the scope (P0-2). `boards` counts
+ * those companies; `seats` is every seat, with `in_scope` marking the ones that count.
+ */
 export const getMultiBoard = cache(async (scope: RankScope): Promise<MultiBoardPerson[]> => {
   return sql<MultiBoardPerson[]>`
     WITH multi AS (
-      SELECT person_id, count(DISTINCT company_id)::int AS boards FROM seat_ranking
-      GROUP BY person_id HAVING count(DISTINCT company_id) > 1)
-    SELECT p.slug, p.full_name, m.boards,
-           (SELECT max(sr.annualized_excess) - min(sr.annualized_excess) FROM seat_ranking sr
-             WHERE sr.person_id = m.person_id AND ${inScope(scope)}
-             HAVING count(DISTINCT sr.company_id) >= 2) AS spread,
+      SELECT sr.person_id, count(DISTINCT sr.company_id)::int AS boards,
+             max(sr.annualized_excess) - min(sr.annualized_excess) AS spread
+      FROM seat_ranking sr WHERE ${inScope(scope)}
+      GROUP BY sr.person_id HAVING count(DISTINCT sr.company_id) >= 2)
+    SELECT p.slug, p.full_name, m.boards, m.spread,
            (SELECT json_agg(${seatRefJson(scope)} ORDER BY sr.annualized_excess DESC NULLS LAST)
             FROM seat_ranking sr JOIN company c ON c.id = sr.company_id
             LEFT JOIN security sec ON sec.company_id = c.id AND sec.is_primary
             WHERE sr.person_id = m.person_id) AS seats
     FROM multi m JOIN person p ON p.id = m.person_id
-    ORDER BY spread DESC NULLS LAST, m.boards DESC, p.full_name`;
+    ORDER BY m.spread DESC NULLS LAST, m.boards DESC, p.full_name`;
 });
 
 /** One director's standing in both scopes (null when not ranked there). */

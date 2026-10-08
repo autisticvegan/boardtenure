@@ -7,30 +7,36 @@ export function Card({ title, action, children, className = "", pad = true }: {
   title?: ReactNode; action?: ReactNode; children: ReactNode; className?: string; pad?: boolean;
 }) {
   return (
-    <section className={`rounded-xl border border-line bg-surface ${className}`}>
+    <section className={`rounded-[14px] border border-line bg-surface shadow-card ${className}`}>
       {(title || action) && (
-        <header className="flex items-center justify-between gap-3 px-4 sm:px-5 pt-4 pb-1">
-          {title && <h2 className="text-[13px] font-semibold tracking-tight text-ink">{title}</h2>}
-          {action && <div className="text-[12px] text-ink-3">{action}</div>}
+        <header className="flex flex-wrap items-center justify-between gap-x-3 gap-y-1 px-4 sm:px-5 pt-4 sm:pt-5 pb-1">
+          {title && <h2 className="text-[15px] leading-5 font-[650] text-ink">{title}</h2>}
+          {action && <div className="text-[12px] leading-4 text-ink-3">{action}</div>}
         </header>
       )}
-      <div className={pad ? "px-4 sm:px-5 pb-4 pt-2" : ""}>{children}</div>
+      <div className={pad ? `px-4 sm:px-5 pb-4 sm:pb-5 ${title || action ? "pt-2" : "pt-4 sm:pt-5"}` : ""}>{children}</div>
     </section>
   );
 }
 
-export function Stat({ label, value, sub, valueClass = "" }: {
-  label: string; value: ReactNode; sub?: ReactNode; valueClass?: string;
+const STAT_VALUE = {
+  default: "text-[22px] leading-7 font-semibold tracking-tight",
+  hero: "text-[40px] leading-[44px] font-extrabold tracking-[-0.03em]",
+};
+
+export function Stat({ label, value, sub, valueClass = "", size = "default" }: {
+  label: ReactNode; value: ReactNode; sub?: ReactNode; valueClass?: string; size?: keyof typeof STAT_VALUE;
 }) {
   return (
     <div className="min-w-0">
-      <div className="text-[12px] text-ink-3">{label}</div>
-      <div className={`mt-0.5 text-[22px] font-semibold tracking-tight leading-tight ${valueClass}`}>{value}</div>
-      {sub && <div className="mt-0.5 text-[12px] text-ink-3 truncate">{sub}</div>}
+      <div className="text-[12px] leading-4 text-ink-3">{label}</div>
+      <div className={`mt-0.5 ${STAT_VALUE[size]} ${valueClass}`}>{value}</div>
+      {sub && <div className="mt-0.5 text-[12px] leading-4 text-ink-3 truncate">{sub}</div>}
     </div>
   );
 }
 
+/** Small label. `accent` is UI chrome; `warn` is for data quality only and always carries "!" plus text. */
 export function Badge({ children, tone = "neutral", title }: {
   children: ReactNode; tone?: "neutral" | "accent" | "warn"; title?: string;
 }) {
@@ -39,6 +45,7 @@ export function Badge({ children, tone = "neutral", title }: {
     : "bg-surface-2 text-ink-2";
   return (
     <span title={title} className={`inline-flex items-center gap-1 rounded px-1.5 py-px text-[11px] font-medium whitespace-nowrap ${cls}`}>
+      {tone === "warn" && <span aria-hidden className="font-bold">!</span>}
       {children}
     </span>
   );

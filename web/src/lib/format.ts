@@ -19,7 +19,10 @@ export function pct(x: number | null | undefined, digits = 1, signed = true): st
 export function pp(x: number | null | undefined, digits = 1): string {
   if (x == null || !Number.isFinite(x)) return "—";
   const v = x * 100;
-  const s = Math.abs(v).toFixed(digits);
+  // Same grouping as pct(): "+622,482 pp" at 1,000 and above.
+  const d = Math.abs(v) >= 1000 ? 0 : digits;
+  const s = Math.abs(v).toLocaleString("en-US", { minimumFractionDigits: d, maximumFractionDigits: d });
+  if (s === (0).toFixed(d)) return `${s} pp`;
   return `${v < 0 ? MINUS : "+"}${s} pp`;
 }
 
@@ -77,12 +80,17 @@ export function todayIso(): string {
   return new Date().toISOString().slice(0, 10);
 }
 
+/** Years to one decimal, rounded down: 729 days reads "1.9", never "2.0" next to a 2-year rule. */
+function floorYrs(days: number): string {
+  return (Math.floor((days / 365.25) * 10 + 1e-9) / 10).toFixed(1);
+}
+
 /** "4.2 yrs", "8 mo", "3 wk". Imprecise starts are prefixed with "~". */
 export function tenureLength(start: string | null, end: string | null, precision: Precision = "day"): string {
   if (!start || precision === "unknown") return "—";
   const days = daysBetween(start, end ?? todayIso());
   const approx = precision === "day" ? "" : "~";
-  if (days >= 365) return `${approx}${(days / 365.25).toFixed(1)} yrs`;
+  if (days >= 365) return `${approx}${floorYrs(days)} yrs`;
   if (days >= 60) return `${approx}${Math.round(days / 30.44)} mo`;
   return `${approx}${Math.max(1, Math.round(days / 7))} wk`;
 }
