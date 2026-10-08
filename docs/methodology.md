@@ -149,6 +149,44 @@ measured from the first trading day otherwise dominate.
 directors' seats are measured from the first trading day. Coverage is limited to the
 companies we track.
 
+## Executive pay
+
+Executive pay pages set what a company reported paying its named executive officers against how
+its stock did over the same period. Like everything else here, the numbers are descriptive: an
+executive works with a board, other executives and a market, and the stock's path during their
+tenure doesn't show what they caused.
+
+**Pay.** The Summary Compensation Table total from the proxy statement (and, for years before
+listing, the IPO prospectus): salary, bonus, the grant-date fair value of stock and option awards,
+non-equity incentive pay, the change in pension value and deferred-compensation earnings, and all
+other compensation. Equity is valued when granted, not at what it was later worth. A fiscal year
+appears in up to three proxies; every appearance is stored, the newest filing's figures are used,
+and a quality check flags any year whose figures changed between filings. Only named executive
+officers are covered, since proxies don't disclose other officers' pay.
+
+**Tenure.** The span from the effective date a person became an executive officer to the date
+they stopped being one (a move to an advisory or non-officer role ends it). Consecutive titles
+(say, CFO then president) merge into one span. Dates follow the precision rules above.
+
+**Pay window.** The stock is measured with the board-tenure rules from the start of the officer
+tenure (the first trading day if the tenure began before listing) to the end of the tenure or the
+end of the last fiscal year with reported pay, whichever comes first. Pay counts every fiscal year
+with reported pay that overlaps that window, so pay and the stock cover the same years. Years
+before listing are shown but not counted.
+
+| statistic | formula |
+|---|---|
+| Pay per year | window pay ÷ fiscal years counted |
+| Stock vs S&P per year | annualized excess, as for board seats |
+| Starting market value | cover-page shares outstanding (all classes, from the 10-K/10-Q nearest on or before the window start, else the first within 120 days after) × the start anchor's close |
+| Shareholders vs S&P | `starting market value × (total − benchmark)`: what a holder of the whole company at the start ended with, minus the same money in SPY |
+| Per $1 of pay | `shareholders vs S&P ÷ window pay` |
+
+**Compensation actually paid.** For CEOs the page also shows the proxy's pay-versus-performance
+table (Item 402(v)), whose "compensation actually paid" marks equity awards to year-end value. A
+quality check compares the table's cumulative shareholder return with our total-return index over
+the same dates.
+
 ## Confidence
 
 | level | rule |

@@ -211,6 +211,73 @@ CHECKS: list[Check] = [
                x.payload::json
         FROM extracted_fact x
         WHERE x.fact_type = 'insider_relationship' AND x.status = 'needs_review'"""),
+
+    # -- executive pay ---------------------------------------------------------------
+    Check("exec_comp_restated", "warning", """
+        SELECT ec.company_id || '-' || ec.person_id || '-' || ec.fiscal_year, 2, ec.company_id, ec.person_id,
+               'person', ec.person_id,
+               p.full_name || ': FY' || ec.fiscal_year || ' pay differs between proxies (latest filing wins)',
+               json_build_object('totals', json_agg(DISTINCT ec.total))
+        FROM executive_comp ec JOIN person p ON p.id = ec.person_id
+        GROUP BY ec.company_id, ec.person_id, ec.fiscal_year, p.full_name
+        HAVING count(DISTINCT ec.total) > 1"""),
+
+    Check("exec_comp_components_mismatch", "warning", """
+        SELECT ec.id::text, 2, ec.company_id, ec.person_id, 'executive_comp', ec.id,
+               p.full_name || ': FY' || ec.fiscal_year || ' pay components don''t add up to the reported total',
+               json_build_object('sum', ec.salary + ec.bonus + ec.stock_awards + ec.option_awards
+                                        + ec.non_equity_incentive + ec.pension_nqdc + ec.all_other,
+                                 'total', ec.total)
+        FROM executive_comp ec JOIN person p ON p.id = ec.person_id
+        WHERE ec.salary + ec.bonus + ec.stock_awards + ec.option_awards + ec.non_equity_incentive
+              + ec.pension_nqdc + ec.all_other <> ec.total"""),
+
+    Check("neo_without_position", "error", """
+        SELECT ec.company_id || '-' || ec.person_id, 1, ec.company_id, ec.person_id, 'person', ec.person_id,
+               p.full_name || ': has reported pay but no officer tenure on record', '{}'::json
+        FROM (SELECT DISTINCT company_id, person_id FROM executive_comp) ec JOIN person p ON p.id = ec.person_id
+        WHERE NOT EXISTS (SELECT 1 FROM executive_position x WHERE x.company_id = ec.company_id
+                            AND x.person_id = ec.person_id)"""),
+
+    Check("exec_position_gap", "warning", """
+        SELECT a.id || '-' || b.id, 2, a.company_id, a.person_id, 'executive_position', b.id,
+               p.full_name || ': gap between officer positions is counted inside the merged tenure',
+               json_build_object('ended', a.end_date, 'next_started', b.start_date)
+        FROM executive_position a
+        JOIN LATERAL (SELECT * FROM executive_position b WHERE b.company_id = a.company_id
+                        AND b.person_id = a.person_id AND b.start_date > a.start_date
+                      ORDER BY b.start_date LIMIT 1) b ON true
+        JOIN person p ON p.id = a.person_id
+        WHERE a.end_date IS NOT NULL AND b.start_date - a.end_date > 31"""),
+
+    # The company's own cumulative TSR (value of $100) against our total-return index over the
+    # same dates: a cross-check of the price and dividend data behind every return on the site.
+    Check("pvp_tsr_mismatch", "warning", """
+        SELECT v.company_id || '-' || v.fiscal_year, 2, v.company_id, NULL::bigint, 'company', v.company_id,
+               'FY' || v.fiscal_year || ' TSR in the proxy (' || round(v.tsr_value_of_100::numeric, 2)
+                 || ') differs from our index (' || round((100 * e.tr / b.tr)::numeric, 2) || ') by over 2%',
+               json_build_object('base', v.tsr_base_date, 'base_anchor', b.trade_date, 'end_anchor', e.trade_date)
+        FROM pay_vs_performance_latest v
+        JOIN security s ON s.company_id = v.company_id AND s.is_primary
+        JOIN LATERAL (SELECT trade_date, tr_index AS tr FROM price_daily WHERE security_id = s.id
+                        AND trade_date <= v.tsr_base_date ORDER BY trade_date DESC LIMIT 1) b ON true
+        JOIN LATERAL (SELECT trade_date, tr_index AS tr FROM price_daily WHERE security_id = s.id
+                        AND trade_date <= make_date(v.fiscal_year, 12, 31) ORDER BY trade_date DESC LIMIT 1) e ON true
+        WHERE v.tsr_value_of_100 IS NOT NULL
+          AND abs(100 * e.tr / b.tr - v.tsr_value_of_100) / v.tsr_value_of_100 > 0.02"""),
+
+    Check("pvp_sct_mismatch", "warning", """
+        SELECT pp.source_document_id || '-' || pp.fiscal_year || '-' || pp.person_id, 2, v.company_id, pp.person_id,
+               'person', pp.person_id,
+               p.full_name || ': FY' || pp.fiscal_year || ' pay-vs-performance total differs from the Summary'
+                 || ' Compensation Table',
+               json_build_object('pvp', pp.sct_total, 'sct', ec.total)
+        FROM pay_vs_performance_peo pp
+        JOIN pay_vs_performance v USING (source_document_id, fiscal_year)
+        JOIN person p ON p.id = pp.person_id
+        JOIN executive_comp ec ON ec.source_document_id = pp.source_document_id AND ec.person_id = pp.person_id
+                              AND ec.fiscal_year = pp.fiscal_year
+        WHERE pp.sct_total IS DISTINCT FROM ec.total"""),
 ]
 
 

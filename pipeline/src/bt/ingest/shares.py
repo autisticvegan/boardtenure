@@ -9,7 +9,8 @@ classes trade at different prices (stated in the UI).
 from __future__ import annotations
 
 import json
-from datetime import date
+import re
+from datetime import date, datetime
 from decimal import Decimal
 
 import psycopg
@@ -18,6 +19,7 @@ from lxml import etree
 from bt import rawstore
 from bt.ingest import reference
 from bt.sources.sec import Edgar
+from bt.text import document_text
 
 CONCEPT = "dei:EntityCommonStockSharesOutstanding"
 
@@ -56,8 +58,42 @@ def update_company(conn: psycopg.Connection, edgar: Edgar, company_id: int, cik:
     filing = next((f for f in edgar.filings(cik, include_history=False) if f.form in ("10-Q", "10-K")), None)
     if filing is None:
         return None
+    return _record_cover(conn, edgar, company_id, filing)
+
+
+def load_history(conn: psycopg.Connection, edgar: Edgar, company_id: int, cik: str) -> list[dict]:
+    """Cover-page share counts from every 10-K/10-Q, so market value can be measured at any
+    tenure start (executive pay windows), not just today."""
+    out = []
+    for f in edgar.filings(cik, include_history=True):
+        if f.form in ("10-Q", "10-K") and f.primary_document.endswith((".htm", ".html")):
+            row = _record_cover(conn, edgar, company_id, f)
+            if row:
+                out.append(row)
+    return out
+
+
+_COVER_DATE = re.compile(r"As of ([A-Z][a-z]+ \d{1,2}, \d{4}),?(.{0,400})")
+_COVER_CLASS = re.compile(r"(Class [A-Z]) common stock outstanding (?:was|were) ([\d,]+)")
+
+
+def parse_cover_text(raw: bytes, filename: str) -> tuple[date | None, list[dict]]:
+    """Fallback for covers filed before inline XBRL: "As of April 30, 2019, the number of shares
+    of the registrant's Class A common stock outstanding was 277,828,438 and ... Class B ..."."""
+    head = " ".join(document_text(raw, filename).splitlines()[:120])
+    for m in _COVER_DATE.finditer(head):
+        classes = [{"class": c, "shares": int(n.replace(",", ""))} for c, n in _COVER_CLASS.findall(m.group(2))]
+        if classes:
+            as_of = datetime.strptime(m.group(1), "%B %d, %Y").date()
+            return as_of, [{**c, "instant": as_of.isoformat()} for c in classes]
+    return None, []
+
+
+def _record_cover(conn: psycopg.Connection, edgar: Edgar, company_id: int, filing) -> dict | None:
     obj = edgar.document(filing)
     as_of, classes = parse_cover_shares(rawstore.read(obj.key))
+    if not as_of or not classes:
+        as_of, classes = parse_cover_text(rawstore.read(obj.key), filing.primary_document)
     if not as_of or not classes:
         return None
     src = reference.source_ids(conn)["sec_edgar"]

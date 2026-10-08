@@ -84,24 +84,9 @@ def _verify_xml_fields(raw: bytes, fields: dict) -> bool:
     return True
 
 
-def load(conn: psycopg.Connection, path: Path) -> Stats:
-    data = json.loads(path.read_text())
-    st = Stats()
-    sources = reference.ensure_sources(conn)
-    c = data["company"]
-    exchange = next((v for k, v in EXCHANGES.items() if k in c.get("exchange", "").lower()), None)
-    company_id, _ = reference.ensure_company(conn, reference.CompanySpec(
-        slug=c["ticker"].lower(), cik=c["cik"], legal_name=c["legal_name"],
-        common_name=c.get("common_name") or re.sub(r",? Inc\.?$", "", c["legal_name"]),
-        symbol=c["ticker"], exchange=exchange or "",
-        # Long-listed issuers have no IPO in range; the listing year still bounds price-history gaps.
-        ipo_date=(date.fromisoformat(c["ipo_date"]) if c.get("ipo_date")
-                  else date(int(c["listed_since_year"]), 1, 1) if c.get("listed_since_year") else None),
-        state_of_incorporation=c.get("state_of_incorporation"),
-    ))
-    cik = c["cik"]
-
-    # -- documents and evidence -------------------------------------------------
+def load_evidence(conn: psycopg.Connection, data: dict, path: Path, company_id: int, cik: str, source_id: int,
+                  st: Stats) -> tuple[dict[str, int], dict[str, bool], dict[str, int]]:
+    """Register each cited filing and store its quote with the machine verification result."""
     texts = _TextCache()
     ev_id: dict[str, int] = {}
     ev_ok: dict[str, bool] = {}
@@ -120,7 +105,7 @@ def load(conn: psycopg.Connection, path: Path) -> Stats:
                ON CONFLICT (source_id, external_id) DO UPDATE SET sha256 = EXCLUDED.sha256,
                  byte_size = EXCLUDED.byte_size, doc_type = EXCLUDED.doc_type
                RETURNING id""",
-            (sources["sec_edgar"], f"{e['accession']}/{filename}", e["form"], company_id, e["url"],
+            (source_id, f"{e['accession']}/{filename}", e["form"], company_id, e["url"],
              date.fromisoformat(e["filing_date"]), datetime.fromtimestamp(obj.path.stat().st_mtime, UTC),
              obj.sha256, obj.uri, obj.size, "text/xml" if filename.endswith(".xml") else "text/html"),
         ).fetchone()["id"]
@@ -147,6 +132,28 @@ def load(conn: psycopg.Connection, path: Path) -> Stats:
         st.evidence += 1
     st.documents = len({e["url"] for e in data["evidence"]})
 
+    return ev_id, ev_ok, doc_by_accession
+
+
+def load(conn: psycopg.Connection, path: Path) -> Stats:
+    data = json.loads(path.read_text())
+    st = Stats()
+    sources = reference.ensure_sources(conn)
+    c = data["company"]
+    exchange = next((v for k, v in EXCHANGES.items() if k in c.get("exchange", "").lower()), None)
+    company_id, _ = reference.ensure_company(conn, reference.CompanySpec(
+        slug=c["ticker"].lower(), cik=c["cik"], legal_name=c["legal_name"],
+        common_name=c.get("common_name") or re.sub(r",? Inc\.?$", "", c["legal_name"]),
+        symbol=c["ticker"], exchange=exchange or "",
+        # Long-listed issuers have no IPO in range; the listing year still bounds price-history gaps.
+        ipo_date=(date.fromisoformat(c["ipo_date"]) if c.get("ipo_date")
+                  else date(int(c["listed_since_year"]), 1, 1) if c.get("listed_since_year") else None),
+        state_of_incorporation=c.get("state_of_incorporation"),
+    ))
+    cik = c["cik"]
+
+    ev_id, ev_ok, doc_by_accession = load_evidence(conn, data, path, company_id, cik, sources["sec_edgar"], st)
+
     def link(refs: list[str], subject_type: str, subject_id: int, fld: str = "*") -> None:
         for r in refs:
             conn.execute(
@@ -162,26 +169,8 @@ def load(conn: psycopg.Connection, path: Path) -> Stats:
     # -- people --------------------------------------------------------------------
     person_id: dict[str, int] = {}
     for p in data["people"]:
-        pid = _resolve_person(conn, p)
+        pid = upsert_person(conn, p)
         person_id[p["key"]] = pid
-        conn.execute(
-            """INSERT INTO person_alias (person_id, alias, alias_type) VALUES (%s, %s, 'other')
-               ON CONFLICT (person_id, normalized_alias) DO NOTHING""",
-            (pid, p["full_name"]),
-        )
-        for alias in p.get("aliases", []):
-            conformed = alias.split()[0].lower() == p["full_name"].split()[-1].lower()
-            conn.execute(
-                """INSERT INTO person_alias (person_id, alias, alias_type) VALUES (%s, %s, %s)
-                   ON CONFLICT (person_id, normalized_alias) DO NOTHING""",
-                (pid, alias, "sec_conformed" if conformed else "other"),
-            )
-        if p.get("sec_cik"):
-            conn.execute(
-                """INSERT INTO person_identifier (scheme, value, person_id) VALUES ('sec_cik', %s, %s)
-                   ON CONFLICT (scheme, value) DO UPDATE SET person_id = EXCLUDED.person_id""",
-                (p["sec_cik"], pid),
-            )
         conn.execute("DELETE FROM extracted_fact WHERE fact_type = 'other_board_disclosed' AND resolved_person_id = %s",
                      (pid,))
         for ob in p.get("bio_other_public_boards", []):
@@ -365,6 +354,30 @@ def load(conn: psycopg.Connection, path: Path) -> Stats:
                  datetime.fromisoformat(data["as_of"]).replace(tzinfo=UTC), f"research:{path.name}"),
             )
     return st
+
+
+def upsert_person(conn: psycopg.Connection, p: dict) -> int:
+    """Resolve a researched person (CIK first) and record their name forms and CIK."""
+    pid = _resolve_person(conn, p)
+    conn.execute(
+        """INSERT INTO person_alias (person_id, alias, alias_type) VALUES (%s, %s, 'other')
+           ON CONFLICT (person_id, normalized_alias) DO NOTHING""",
+        (pid, p["full_name"]),
+    )
+    for alias in p.get("aliases", []):
+        conformed = alias.split()[0].lower() == p["full_name"].split()[-1].lower()
+        conn.execute(
+            """INSERT INTO person_alias (person_id, alias, alias_type) VALUES (%s, %s, %s)
+               ON CONFLICT (person_id, normalized_alias) DO NOTHING""",
+            (pid, alias, "sec_conformed" if conformed else "other"),
+        )
+    if p.get("sec_cik"):
+        conn.execute(
+            """INSERT INTO person_identifier (scheme, value, person_id) VALUES ('sec_cik', %s, %s)
+               ON CONFLICT (scheme, value) DO UPDATE SET person_id = EXCLUDED.person_id""",
+            (p["sec_cik"], pid),
+        )
+    return pid
 
 
 def _resolve_person(conn: psycopg.Connection, p: dict) -> int:

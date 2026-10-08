@@ -73,7 +73,7 @@ def cmd_prices_reindex(args: argparse.Namespace) -> None:
 
 
 def cmd_analytics_recompute(args: argparse.Namespace) -> None:
-    from bt.analytics import tenure
+    from bt.analytics import exec_pay, tenure
 
     with db.session("pipeline:analytics") as conn:
         ids = None
@@ -81,6 +81,7 @@ def cmd_analytics_recompute(args: argparse.Namespace) -> None:
             ids = [conn.execute("SELECT id FROM company WHERE slug = %s", (args.company.lower(),))
                    .fetchone()["id"]]
         print("tenure rows:", tenure.recompute(conn, ids))
+        print("executive performance rows:", exec_pay.recompute(conn, ids))
 
 
 def cmd_seed_board(args: argparse.Namespace) -> None:
@@ -121,10 +122,18 @@ def cmd_sec_shares(args: argparse.Namespace) -> None:
     from bt.ingest import shares
     from bt.sources.sec import Edgar
 
-    edgar = Edgar(settings().require_sec_user_agent())
+    # History walks every 10-K/10-Q; stay well under EDGAR's limit alongside other fetchers.
+    edgar = Edgar(settings().require_sec_user_agent(), max_rps=2 if args.history else 5.0)
     with db.session("pipeline:sec-shares") as conn:
         for c in conn.execute("SELECT id, slug, cik FROM company WHERE cik IS NOT NULL ORDER BY slug").fetchall():
-            print(c["slug"], shares.update_company(conn, edgar, c["id"], c["cik"]))
+            if args.history and c["slug"] not in args.history:
+                continue
+            if args.history:
+                rows = shares.load_history(conn, edgar, c["id"], c["cik"])
+                print(c["slug"], f"{len(rows)} cover dates", rows[-1]["as_of"] if rows else None, "→",
+                      rows[0]["as_of"] if rows else None)
+            else:
+                print(c["slug"], shares.update_company(conn, edgar, c["id"], c["cik"]))
             conn.commit()
 
 
@@ -138,8 +147,8 @@ def cmd_refresh(args: argparse.Namespace) -> None:
 
 def cmd_seed_all(args: argparse.Namespace) -> None:
     """Load every researched board file and prototype price file, then recompute and validate."""
-    from bt.analytics import tenure
-    from bt.ingest import prices, reference, seed_board
+    from bt.analytics import exec_pay, tenure
+    from bt.ingest import prices, reference, seed_board, seed_comp
     from bt.quality import checks
 
     seed_dir = Path(args.dir)
@@ -156,6 +165,15 @@ def cmd_seed_all(args: argparse.Namespace) -> None:
             conn.commit()
             print(f"{path.name}: {st.people} people, {st.memberships} seats, "
                   f"{st.verified}/{st.evidence} quotes verified")
+        for path in sorted(seed_dir.glob("*_exec_comp_research.json")):
+            blocking = [f for f in seed_comp.verify_file(path) if not f.startswith("WARN")]
+            if blocking:
+                print(f"SKIP {path.name}: {len(blocking)} verification problem(s), first: {blocking[0]}")
+                continue
+            cst = seed_comp.load(conn, path)
+            conn.commit()
+            print(f"{path.name}: {cst.positions} positions, {cst.comp_rows} pay rows, "
+                  f"{cst.board.verified}/{cst.board.evidence} quotes verified")
         src = reference.source_ids(conn)
         for csv_path in sorted((seed_dir / "prices").glob("*.csv")):
             if csv_path.stem.endswith("_actions"):
@@ -180,18 +198,37 @@ def cmd_seed_all(args: argparse.Namespace) -> None:
             print(f"prices {symbol}: {len(bars)} bars {bars[0].day if bars else ''}..{bars[-1].day if bars else ''}, "
                   f"{n_actions} actions new/changed")
         print("tenure rows:", tenure.recompute(conn))
+        print("executive performance rows:", exec_pay.recompute(conn))
         issues = {k: v for k, v in checks.run(conn).items() if v}
         print("quality:", json.dumps(issues))
 
 
 def cmd_seed_verify(args: argparse.Namespace) -> None:
-    from bt.ingest import seed_board
+    from bt.ingest import seed_board, seed_comp
 
-    failures = seed_board.verify_file(Path(args.path))
+    path = Path(args.path)
+    failures = (seed_comp if path.name.endswith("_exec_comp_research.json") else seed_board).verify_file(path)
     for f in failures:
         print(f)
-    print(f"{len(failures)} problem(s)")
-    sys.exit(1 if failures else 0)
+    blocking = [f for f in failures if not f.startswith("WARN")]
+    print(f"{len(blocking)} problem(s), {len(failures) - len(blocking)} warning(s)")
+    sys.exit(1 if blocking else 0)
+
+
+def cmd_seed_comp(args: argparse.Namespace) -> None:
+    from bt.analytics import exec_pay
+    from bt.ingest import seed_comp
+
+    path = Path(args.path)
+    blocking = [f for f in seed_comp.verify_file(path) if not f.startswith("WARN")]
+    if blocking:
+        print("\n".join(blocking))
+        sys.exit(f"{len(blocking)} verification problem(s); nothing loaded")
+    with db.session("pipeline:seed-comp") as conn:
+        st = seed_comp.load(conn, path)
+        print(f"{path.name}: {st.people} people, {st.positions} positions, {st.comp_rows} pay rows, "
+              f"{st.pvp_rows} pay-vs-performance rows, {st.board.verified}/{st.board.evidence} quotes verified")
+        print("executive performance rows:", exec_pay.recompute(conn))
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -228,6 +265,9 @@ def build_parser() -> argparse.ArgumentParser:
     sa = sd.add_parser("all", help="load every board file and prototype price file, recompute, validate")
     sa.add_argument("--dir", default=str(Path(__file__).resolve().parents[3] / "data" / "seed"))
     sa.set_defaults(fn=cmd_seed_all)
+    sc = sd.add_parser("comp", help="load a researched executive-pay JSON file and recompute executive performance")
+    sc.add_argument("path")
+    sc.set_defaults(fn=cmd_seed_comp)
     sv = sd.add_parser("verify", help="verify a board JSON file's quotes against cached filings (no DB)")
     sv.add_argument("path")
     sv.set_defaults(fn=cmd_seed_verify)
@@ -240,8 +280,10 @@ def build_parser() -> argparse.ArgumentParser:
     ss.add_argument("--company")
     ss.set_defaults(fn=cmd_sec_sync)
 
-    sp.add_parser("shares", help="refresh shares outstanding from latest 10-K/10-Q covers").set_defaults(
-        fn=cmd_sec_shares)
+    sh = sp.add_parser("shares", help="refresh shares outstanding from latest 10-K/10-Q covers")
+    sh.add_argument("--history", nargs="+", metavar="SLUG",
+                    help="load every 10-K/10-Q cover for these companies instead of the latest")
+    sh.set_defaults(fn=cmd_sec_shares)
 
     dp = sub.add_parser("refresh", help="run the scheduled (weekly) refresh: prices, filings, analytics, checks")
     dp.add_argument("--skip-prices", action="store_true")

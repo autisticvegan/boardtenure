@@ -16,6 +16,7 @@ import {
   getBoard, getBoardEvents, getCompany, getCompanyLeaderboard, getCoverage, getDefaultBenchmark, getReturnSeries,
   getSeatRankings, type CompanyHeader, type CompanySeat, type Membership, type RankScope,
 } from "@/lib/queries";
+import { getPayCompanies } from "@/lib/queries-pay";
 import { plainNote, shortTag } from "@/lib/roles";
 import { barDomain, parseScope, seatReason, withScope } from "@/lib/standings";
 import { median } from "@/lib/track-record";
@@ -110,9 +111,9 @@ function CompanySkeleton() {
 }
 
 async function CompanyBody({ company, scope, status }: { company: CompanyHeader; scope: RankScope; status: SeatStatusFilter }) {
-  const [board, events, bench, seats, scopeSeats] = await Promise.all([
+  const [board, events, bench, seats, scopeSeats, payCompanies] = await Promise.all([
     getBoard(company.id), getBoardEvents(company.id), getDefaultBenchmark(),
-    getCompanyLeaderboard(company.id, scope), getSeatRankings(scope),
+    getCompanyLeaderboard(company.id, scope), getSeatRankings(scope), getPayCompanies(),
   ]);
   const asOf = company.last_date ?? todayIso();
   const series = company.security_id
@@ -228,6 +229,19 @@ async function CompanyBody({ company, scope, status }: { company: CompanyHeader;
             ))}
           </div>
         </section>
+      )}
+
+      {payCompanies.has(company.id) && (
+        <Link href={`/c/${company.slug}/pay`}
+              className="group flex flex-wrap items-center justify-between gap-x-6 gap-y-1 rounded-[14px] border border-line bg-surface px-5 py-4 shadow-card hover:border-line-strong">
+          <span className="min-w-0">
+            <span className="block text-[11px] leading-[14px] uppercase tracking-[0.08em] text-ink-3">Executive pay</span>
+            <span className="block mt-1 text-[15px] leading-5 font-semibold text-ink">
+              What {company.common_name} paid its top executives, against how the stock did while they served
+            </span>
+          </span>
+          <span className="text-[13px] font-semibold text-accent-ink group-hover:underline underline-offset-2">Pay vs the stock →</span>
+        </Link>
       )}
 
       <section aria-labelledby="who-sat-when">

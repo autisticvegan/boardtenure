@@ -13,8 +13,8 @@ _COLUMNS = [
     "status", "is_open", "start_anchor_date", "start_anchor_reason", "end_anchor_date", "end_anchor_reason",
     "start_close", "end_close", "calendar_days", "trading_days", "total_return", "price_return",
     "annualized_return", "bench_total_return", "bench_annualized_return", "relative_return_pp",
-    "excess_return", "annualized_excess", "max_drawdown", "mdd_peak_date", "mdd_trough_date", "return_low", "return_high",
-    "data_through",
+    "excess_return", "annualized_excess", "max_drawdown", "mdd_peak_date", "mdd_trough_date", "return_low",
+    "return_high", "data_through",
 ]
 
 

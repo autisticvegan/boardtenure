@@ -1,0 +1,902 @@
+{
+ "neo_pay": [
+  {
+   "name": "Logan Green",
+   "fiscal_year": 2018,
+   "total": 1338431,
+   "stock_awards": 0,
+   "title": "Chief Executive Officer and Co-Founder",
+   "accession": "0001759509-21-000026"
+  },
+  {
+   "name": "Logan Green",
+   "fiscal_year": 2019,
+   "total": 801564,
+   "stock_awards": 0,
+   "title": "Chief Executive Officer and Co-Founder",
+   "accession": "0001759509-22-000034"
+  },
+  {
+   "name": "Logan Green",
+   "fiscal_year": 2020,
+   "total": 1018107,
+   "stock_awards": 0,
+   "title": "Chief Executive Officer and Co-Founder",
+   "accession": "0001759509-23-000049"
+  },
+  {
+   "name": "Logan Green",
+   "fiscal_year": 2021,
+   "total": 13909482,
+   "stock_awards": 13400182,
+   "title": "Co-Founder, Board Chair and former Chief Executive Officer",
+   "accession": "0001759509-24-000055"
+  },
+  {
+   "name": "Logan Green",
+   "fiscal_year": 2022,
+   "total": 13316696,
+   "stock_awards": 12842695,
+   "title": "Co-Founder, Board Chair and former Chief Executive Officer",
+   "accession": "0001759509-24-000055"
+  },
+  {
+   "name": "Logan Green",
+   "fiscal_year": 2023,
+   "total": 814400,
+   "stock_awards": 260005,
+   "title": "Co-Founder, Board Chair and former Chief Executive Officer",
+   "accession": "0001759509-24-000055"
+  },
+  {
+   "name": "John Zimmer",
+   "fiscal_year": 2018,
+   "total": 415674,
+   "stock_awards": 0,
+   "title": "President and Co-Founder",
+   "accession": "0001759509-21-000026"
+  },
+  {
+   "name": "John Zimmer",
+   "fiscal_year": 2019,
+   "total": 2012450,
+   "stock_awards": 0,
+   "title": "President and Co-Founder",
+   "accession": "0001759509-22-000034"
+  },
+  {
+   "name": "John Zimmer",
+   "fiscal_year": 2020,
+   "total": 2484052,
+   "stock_awards": 0,
+   "title": "President and Co-Founder",
+   "accession": "0001759509-23-000049"
+  },
+  {
+   "name": "John Zimmer",
+   "fiscal_year": 2021,
+   "total": 14887670,
+   "stock_awards": 13400182,
+   "title": "Co-Founder, Vice Chair and former President",
+   "accession": "0001759509-24-000055"
+  },
+  {
+   "name": "John Zimmer",
+   "fiscal_year": 2022,
+   "total": 13938937,
+   "stock_awards": 12842695,
+   "title": "Co-Founder, Vice Chair and former President",
+   "accession": "0001759509-24-000055"
+  },
+  {
+   "name": "John Zimmer",
+   "fiscal_year": 2023,
+   "total": 1474398,
+   "stock_awards": 260005,
+   "title": "Co-Founder, Vice Chair and former President",
+   "accession": "0001759509-24-000055"
+  },
+  {
+   "name": "Ran Makavy",
+   "fiscal_year": 2018,
+   "total": 6747402,
+   "stock_awards": 6352500,
+   "title": "Former Executive Vice President and Chief Product Officer",
+   "accession": "0001759509-21-000026"
+  },
+  {
+   "name": "Ran Makavy",
+   "fiscal_year": 2019,
+   "total": 19619958,
+   "stock_awards": 19083456,
+   "title": "Former Executive Vice President and Chief Product Officer",
+   "accession": "0001759509-21-000026"
+  },
+  {
+   "name": "Ran Makavy",
+   "fiscal_year": 2020,
+   "total": 3096276,
+   "stock_awards": 2702285,
+   "title": "Former Executive Vice President and Chief Product Officer",
+   "accession": "0001759509-21-000026"
+  },
+  {
+   "name": "Jon McNeill",
+   "fiscal_year": 2018,
+   "total": 32840826,
+   "stock_awards": 32000006,
+   "title": "former Chief Operating Officer",
+   "accession": "0001193125-20-120957"
+  },
+  {
+   "name": "Jon McNeill",
+   "fiscal_year": 2019,
+   "total": 3616936,
+   "stock_awards": 3345336,
+   "title": "former Chief Operating Officer",
+   "accession": "0001193125-20-120957"
+  },
+  {
+   "name": "Brian Roberts",
+   "fiscal_year": 2019,
+   "total": 9567634,
+   "stock_awards": 9123624,
+   "title": "Former Chief Financial Officer",
+   "accession": "0001759509-22-000034"
+  },
+  {
+   "name": "Brian Roberts",
+   "fiscal_year": 2020,
+   "total": 10485596,
+   "stock_awards": 10065886,
+   "title": "Former Chief Financial Officer",
+   "accession": "0001759509-22-000034"
+  },
+  {
+   "name": "Brian Roberts",
+   "fiscal_year": 2021,
+   "total": 6860194,
+   "stock_awards": 6404964,
+   "title": "Former Chief Financial Officer",
+   "accession": "0001759509-22-000034"
+  },
+  {
+   "name": "Kristin Sverchek",
+   "fiscal_year": 2019,
+   "total": 5985436,
+   "stock_awards": 5550192,
+   "title": "President of Business Affairs",
+   "accession": "0001759509-22-000034"
+  },
+  {
+   "name": "Kristin Sverchek",
+   "fiscal_year": 2020,
+   "total": 3587814,
+   "stock_awards": 3168168,
+   "title": "President of Business Affairs",
+   "accession": "0001759509-23-000049"
+  },
+  {
+   "name": "Kristin Sverchek",
+   "fiscal_year": 2021,
+   "total": 10561849,
+   "stock_awards": 10071927,
+   "title": "President",
+   "accession": "0001759509-24-000055"
+  },
+  {
+   "name": "Kristin Sverchek",
+   "fiscal_year": 2022,
+   "total": 539338,
+   "stock_awards": 0,
+   "title": "President",
+   "accession": "0001759509-25-000069"
+  },
+  {
+   "name": "Kristin Sverchek",
+   "fiscal_year": 2023,
+   "total": 6636982,
+   "stock_awards": 5334032,
+   "title": "President",
+   "accession": "0001759509-25-000069"
+  },
+  {
+   "name": "Kristin Sverchek",
+   "fiscal_year": 2024,
+   "total": 8486411,
+   "stock_awards": 6404571,
+   "title": "President",
+   "accession": "0001759509-25-000069"
+  },
+  {
+   "name": "Eisar Lipkovitz",
+   "fiscal_year": 2020,
+   "total": 9271850,
+   "stock_awards": 8852794,
+   "title": "Former Executive Vice President, Rideshare and Engineering",
+   "accession": "0001759509-21-000026"
+  },
+  {
+   "name": "Ashwin Raj",
+   "fiscal_year": 2021,
+   "total": 7337826,
+   "stock_awards": 6871827,
+   "title": "Former Executive Vice President, Head of Rideshare",
+   "accession": "0001759509-24-000055"
+  },
+  {
+   "name": "Ashwin Raj",
+   "fiscal_year": 2022,
+   "total": 8259136,
+   "stock_awards": 7719041,
+   "title": "Former Executive Vice President, Head of Rideshare",
+   "accession": "0001759509-24-000055"
+  },
+  {
+   "name": "Ashwin Raj",
+   "fiscal_year": 2023,
+   "total": 606594,
+   "stock_awards": 0,
+   "title": "Former Executive Vice President, Head of Rideshare",
+   "accession": "0001759509-24-000055"
+  },
+  {
+   "name": "Elaine Paul",
+   "fiscal_year": 2022,
+   "total": 16861276,
+   "stock_awards": 14707974,
+   "title": "Former Chief Financial Officer",
+   "accession": "0001759509-24-000055"
+  },
+  {
+   "name": "Elaine Paul",
+   "fiscal_year": 2023,
+   "total": 722690,
+   "stock_awards": 0,
+   "title": "Former Chief Financial Officer",
+   "accession": "0001759509-24-000055"
+  },
+  {
+   "name": "Lisa Blackwood-Kapral",
+   "fiscal_year": 2023,
+   "total": 2077925,
+   "stock_awards": 1600211,
+   "title": "Former Interim Chief Financial Officer",
+   "accession": "0001759509-24-000055"
+  },
+  {
+   "name": "David Risher",
+   "fiscal_year": 2023,
+   "total": 78238027,
+   "stock_awards": 73322375,
+   "title": "Chief Executive Officer and member of our board of directors",
+   "accession": "0001628280-26-024680"
+  },
+  {
+   "name": "David Risher",
+   "fiscal_year": 2024,
+   "total": 1321239,
+   "stock_awards": 0,
+   "title": "Chief Executive Officer and member of our board of directors",
+   "accession": "0001628280-26-024680"
+  },
+  {
+   "name": "David Risher",
+   "fiscal_year": 2025,
+   "total": 2824088,
+   "stock_awards": 0,
+   "title": "Chief Executive Officer and member of our board of directors",
+   "accession": "0001628280-26-024680"
+  },
+  {
+   "name": "Erin Brewer",
+   "fiscal_year": 2023,
+   "total": 21883660,
+   "stock_awards": 21257110,
+   "title": "Chief Financial Officer",
+   "accession": "0001628280-26-024680"
+  },
+  {
+   "name": "Erin Brewer",
+   "fiscal_year": 2024,
+   "total": 4285530,
+   "stock_awards": 3301341,
+   "title": "Chief Financial Officer",
+   "accession": "0001628280-26-024680"
+  },
+  {
+   "name": "Erin Brewer",
+   "fiscal_year": 2025,
+   "total": 5971370,
+   "stock_awards": 4957594,
+   "title": "Chief Financial Officer",
+   "accession": "0001628280-26-024680"
+  },
+  {
+   "name": "Lindsay Llewellyn",
+   "fiscal_year": 2024,
+   "total": 7974793,
+   "stock_awards": 7181452,
+   "title": "Chief Legal and Business Officer and Corporate Secretary",
+   "accession": "0001628280-26-024680"
+  },
+  {
+   "name": "Lindsay Llewellyn",
+   "fiscal_year": 2025,
+   "total": 5333477,
+   "stock_awards": 3869811,
+   "title": "Chief Legal and Business Officer and Corporate Secretary",
+   "accession": "0001628280-26-024680"
+  }
+ ],
+ "tenures": [
+  {
+   "name": "Logan Green",
+   "title": "Chief Executive Officer",
+   "start": "2007",
+   "start_precision": "year",
+   "end": "2023-04-17",
+   "end_precision": "day",
+   "quote": "has served as our Chief Executive Officer and as a member of our board of directors since our founding",
+   "accession": "0001759509-21-000026",
+   "end_quote": "has decided to transition from his role as CEO, effective as of April 17, 2023",
+   "end_accession": "0001193125-23-080628",
+   "flag": "start year inferred: bio says 'since our founding'; S-1 says 'We were incorporated in 2007 as Bounder Web, Inc.'"
+  },
+  {
+   "name": "John Zimmer",
+   "title": "Chief Operating Officer",
+   "start": "2008-07",
+   "start_precision": "month",
+   "end": "2013-03",
+   "end_precision": "month",
+   "quote": "previously served as our Chief Operating Officer from July 2008 until March 2013",
+   "accession": "0001759509-21-000026",
+   "end_quote": "previously served as our Chief Operating Officer from July 2008 until March 2013",
+   "end_accession": "0001759509-21-000026",
+   "flag": "pre-IPO (Zimride-era) role"
+  },
+  {
+   "name": "John Zimmer",
+   "title": "President",
+   "start": "2013-03",
+   "start_precision": "month",
+   "end": "2023-06-30",
+   "end_precision": "day",
+   "quote": "has served as our President since March 2013",
+   "accession": "0001759509-21-000026",
+   "end_quote": "has decided to transition from his role as President, effective as of June 30, 2023",
+   "end_accession": "0001193125-23-080628"
+  },
+  {
+   "name": "Ran Makavy",
+   "title": "Executive Vice President, Rideshare Technology",
+   "start": "2017-12",
+   "start_precision": "month",
+   "end": "2019-02",
+   "end_precision": "month",
+   "quote": "previously served as our Executive Vice President, Rideshare Technology from December 2017 to",
+   "accession": "0001193125-19-059849",
+   "end_quote": "served as our Executive Vice President and Chief Product Officer since February 2019",
+   "end_accession": "0001193125-19-059849",
+   "flag": "pre-IPO; S-1 lists him among executive officers 'as of December 31, 2018' (when this was his title per bio) but prints the CPO title in that table"
+  },
+  {
+   "name": "Ran Makavy",
+   "title": "Executive Vice President and Chief Product Officer",
+   "start": "2019-02",
+   "start_precision": "month",
+   "end": "2020-03",
+   "end_precision": "month",
+   "quote": "served as our Executive Vice President and Chief Product Officer since February 2019",
+   "accession": "0001193125-19-059849",
+   "end_quote": "Mr. Makavy previously served as our Executive Vice President and Chief Product Officer until March 2020",
+   "end_accession": "0001193125-20-120957",
+   "flag": "8-K 0001193125-20-056699 announced on Feb 28, 2020 that he 'will no longer serve' (no effective date); 2020 proxy: transitioned to EVP, Strategic Initiatives 'and ceased to be an executive officer'; left Lyft Dec 2020"
+  },
+  {
+   "name": "Jon McNeill",
+   "title": "Chief Operating Officer",
+   "start": "2018-03",
+   "start_precision": "month",
+   "end": "2019-07-29",
+   "end_precision": "day",
+   "quote": "Mr. McNeill has served as our Chief Operating Officer since March 2018",
+   "accession": "0001193125-19-059849",
+   "end_quote": "Effective July 29, 2019, Jon McNeill, Lyft, Inc.’s (the “Company”) Chief Operating Officer, left the Company.",
+   "end_accession": "0001193125-19-205639"
+  },
+  {
+   "name": "Brian Roberts",
+   "title": "Chief Financial Officer",
+   "start": "2014-11",
+   "start_precision": "month",
+   "end": "2021-12-01",
+   "end_precision": "day",
+   "quote": "Mr. Roberts has served as our Chief Financial Officer since November 2014",
+   "accession": "0001193125-19-059849",
+   "end_quote": "Brian Roberts, the Company’s Chief Financial Officer who has resigned as an employee effective December 1, 2021",
+   "end_accession": "0001193125-21-346659",
+   "flag": "advisor through June 1, 2022 (non-officer); Logan Green was interim principal financial officer 2021-12-01 to Paul's start"
+  },
+  {
+   "name": "Kristin Sverchek",
+   "title": "General Counsel",
+   "start": "2012-11",
+   "start_precision": "month",
+   "end": "2021-11-01",
+   "end_precision": "day",
+   "quote": "Ms. Sverchek has served as our General Counsel since November 2012",
+   "accession": "0001193125-19-059849",
+   "end_quote": "Lindsay Llewellyn, Vice President, Associate General Counsel, was appointed as the Company’s General Counsel and Secretary, effective November 1, 2021",
+   "end_accession": "0001759509-21-000057",
+   "flag": "later bios say 'General Counsel from November 2012 to October 2021'"
+  },
+  {
+   "name": "Kristin Sverchek",
+   "title": "Secretary",
+   "start": "2015-10",
+   "start_precision": "month",
+   "end": "2021-11-01",
+   "end_precision": "day",
+   "quote": "as our Secretary since October 2015",
+   "accession": "0001193125-19-059849",
+   "end_quote": "Lindsay Llewellyn, Vice President, Associate General Counsel, was appointed as the Company’s General Counsel and Secretary, effective November 1, 2021",
+   "end_accession": "0001759509-21-000057",
+   "flag": "printed jointly as 'General Counsel and Secretary'; later bios say Secretary 'to October 2021'"
+  },
+  {
+   "name": "Kristin Sverchek",
+   "title": "President of Business Affairs",
+   "start": "2021-11-01",
+   "start_precision": "day",
+   "end": "2023-07-01",
+   "end_precision": "day",
+   "quote": "announced the appointment of Kristin Sverchek, its General Counsel and Secretary, as its President of Business Affairs, effective November 1, 2021",
+   "accession": "0001759509-21-000057",
+   "end_quote": "Ms. Sverchek will become the Company’s President, effective as of July 1, 2023",
+   "end_accession": "0001759509-23-000040",
+   "flag": "end = start of President role; 2024 proxy bio says PBA 'From November 2021 to June 2023'"
+  },
+  {
+   "name": "Kristin Sverchek",
+   "title": "President",
+   "start": "2023-07-01",
+   "start_precision": "day",
+   "end": "2024-08-20",
+   "end_precision": "day",
+   "quote": "Ms. Sverchek will become the Company’s President, effective as of July 1, 2023",
+   "accession": "0001759509-23-000040",
+   "end_quote": "Ms. Sverchek will depart the Company as an employee effective August 20, 2024",
+   "end_accession": "0001193125-24-182862",
+   "flag": "non-employee advisor through Nov 30, 2024"
+  },
+  {
+   "name": "Eisar Lipkovitz",
+   "title": "Executive Vice President, Rideshare and Engineering",
+   "start": "2020-03",
+   "start_precision": "month",
+   "end": "2021-03",
+   "end_precision": "month",
+   "quote": "Mr. Lipkovitz has served as our Executive Vice President, Rideshare and Engineering since March 2020",
+   "accession": "0001193125-20-120957",
+   "end_quote": "Mr. Lipkovitz previously served as our Executive Vice President, Rideshare and Engineering until March 2021, at which point he transitioned into a new role as Executive Vice President, Revenue and Market Operations and ceased to be an executive officer",
+   "end_accession": "0001759509-21-000026",
+   "flag": "8-K 0001193125-20-056699 (Feb 28, 2020) announced the new title; Form 3 0001209191-20-024090 event date 2020-03-31; 8-K 0001193125-21-089547 announced the step-down on Mar 22, 2021 (no effective date). Prior title EVP, Engineering (Feb 4, 2019-Mar 2020) was not an executive-officer role (no Form 3, not in S-1)"
+  },
+  {
+   "name": "Ashwin Raj",
+   "title": "Head of Rideshare",
+   "start": "2021-08",
+   "start_precision": "month",
+   "end": "2022-11",
+   "end_precision": "month",
+   "quote": "Mr. Raj has served as our Head of Rideshare since August 2021",
+   "accession": "0001759509-22-000034",
+   "end_quote": "He previously served as our Head of Rideshare from August 2021 to November 2022",
+   "end_accession": "0001759509-23-000049",
+   "flag": "Section 16 Form 3 0001209191-21-062956 event date 2021-10-26 ('Head of Rideshare'); interim Head of Rideshare from Mar 22, 2021 (8-K 0001193125-21-089547) was not an executive-officer role (absent from the 3/31/2021 exec-officer table)"
+  },
+  {
+   "name": "Ashwin Raj",
+   "title": "Executive Vice President, Head of Rideshare",
+   "start": "2022-11",
+   "start_precision": "month",
+   "end": "2023-05-22",
+   "end_precision": "day",
+   "quote": "Mr. Raj has served as our Executive Vice President, Head of Rideshare since November 2022",
+   "accession": "0001759509-23-000049",
+   "end_quote": "Mr. Raj transitioned from his role as Executive Vice President, Head of Rideshare of the Company, effective as of May 22, 2023",
+   "end_accession": "0001759509-24-000055",
+   "flag": "no 8-K for his departure; MOU dated Mar 27, 2023; advisor through Nov 30, 2023"
+  },
+  {
+   "name": "Elaine Paul",
+   "title": "Chief Financial Officer",
+   "start": "2022-01-03",
+   "start_precision": "day",
+   "end": "2023-05-19",
+   "end_precision": "day",
+   "quote": "announced the appointment of Elaine Paul as the Chief Financial Officer of the Company, effective January 3, 2022",
+   "accession": "0001193125-21-346659",
+   "end_quote": "Elaine Paul, the Company’s current CFO, will depart the Company effective May 19, 2023",
+   "end_accession": "0001759509-23-000067",
+   "flag": "2022 proxy says 'appointed as our Chief Financial Officer effective January 4, 2022' and her Form 3 0001209191-22-003261 event date is 2022-01-04; advisor through Nov 30, 2023"
+  },
+  {
+   "name": "Lisa Blackwood-Kapral",
+   "title": "Chief Accounting Officer",
+   "start": "2019-07-08",
+   "start_precision": "day",
+   "end": "2025-03-06",
+   "end_precision": "day",
+   "quote": "On July 8, 2019, Lyft, Inc. (the “Company”) announced that Lisa Blackwood-Kapral will join the Company as Chief Accounting Officer, effective immediately",
+   "accession": "0001193125-19-190540",
+   "end_quote": "Lisa Blackwood-Kapral, the Company’s Chief Accounting Officer (“CAO”), will depart the Company effective March 6, 2025",
+   "end_accession": "0001759509-25-000031",
+   "flag": "principal accounting officer / Section 16 officer (Form 3 0001209191-19-041971) but never listed in a proxy 'executive officers' table; include only if PAO counts as an executive officer"
+  },
+  {
+   "name": "Lisa Blackwood-Kapral",
+   "title": "Interim Chief Financial Officer",
+   "start": "2023-05-19",
+   "start_precision": "day",
+   "end": "2023-07-10",
+   "end_precision": "day",
+   "quote": "Lisa Blackwood-Kapral, the Company’s Chief Accounting Officer, will serve as interim CFO and principal financial officer during the period between Ms. Paul’s departure and the Effective Date",
+   "accession": "0001759509-23-000067",
+   "end_quote": "Ms. Brewer’s service as CFO began July 10, 2023",
+   "end_accession": "0001759509-24-000055"
+  },
+  {
+   "name": "David Risher",
+   "title": "Chief Executive Officer",
+   "start": "2023-04-17",
+   "start_precision": "day",
+   "end": null,
+   "end_precision": null,
+   "quote": "appointed David Risher, a member of the Board since July 2021, to serve as CEO, effective as of April 17, 2023",
+   "accession": "0001193125-23-080628",
+   "flag": "same 8-K said he would be 'President and CEO, effective as of July 1, 2023'; superseded by 8-K 0001759509-23-000040 (Sverchek named President instead)"
+  },
+  {
+   "name": "Erin Brewer",
+   "title": "Chief Financial Officer",
+   "start": "2023-07-10",
+   "start_precision": "day",
+   "end": "2026-09-28",
+   "end_precision": "day",
+   "quote": "Ms. Brewer is expected to start on July 10, 2023",
+   "accession": "0001759509-23-000067",
+   "end_quote": "effective as of September 28, 2026 (the “Effective Date”). Erin Brewer, the Company’s current CFO, will retire from her position as CFO, effective as of the Effective Date",
+   "end_accession": "0001628280-26-061020",
+   "flag": "start confirmed by 2024 proxy ('Ms. Brewer’s service as CFO began July 10, 2023'); advisor through Dec 15, 2026; successor Michael Brous"
+  },
+  {
+   "name": "Erin Brewer",
+   "title": "Interim Chief Accounting Officer",
+   "start": "2025-03-06",
+   "start_precision": "day",
+   "end": "2025-07-07",
+   "end_precision": "day",
+   "quote": "Effective upon Ms. Blackwood-Kapral’s departure, Erin Brewer, the Company’s Chief Financial Officer (“CFO”), will serve as interim CAO and principal accounting officer",
+   "accession": "0001759509-25-000031",
+   "end_quote": "Stephen Hope will join the Company as Chief Accounting Officer, effective July 7, 2025",
+   "end_accession": "0001759509-25-000113",
+   "flag": "concurrent with CFO role; same PAO caveat as Blackwood-Kapral's CAO entry"
+  },
+  {
+   "name": "Lindsay Llewellyn",
+   "title": "Chief Legal Officer and Secretary",
+   "start": "2024-07",
+   "start_precision": "month",
+   "end": "2025-07",
+   "end_precision": "month",
+   "quote": "Ms. Llewellyn has served as our Chief Legal Officer and Secretary since July 2024",
+   "accession": "0001759509-25-000069",
+   "end_quote": "She previously served as our Chief Legal Officer and Secretary from July 2024 to July 2025",
+   "end_accession": "0001628280-26-024680",
+   "flag": "no 8-K; promotion letter agreement dated July 22, 2024 (2025 proxy); Form 3 0001415889-24-022262 event date 2024-08-21 ('CHIEF LEGAL OFFICER, SECRETARY'). Earlier General Counsel and Secretary (Nov 1, 2021-Jul 2024) was not an executive-officer role (absent from 2022-2024 exec-officer tables, no Form 3)"
+  },
+  {
+   "name": "Lindsay Llewellyn",
+   "title": "Chief Legal and Business Officer and Corporate Secretary",
+   "start": "2025-07",
+   "start_precision": "month",
+   "end": null,
+   "end_precision": null,
+   "quote": "Ms. Llewellyn has served as our Chief Legal and Business Officer and Corporate Secretary since July 2025",
+   "accession": "0001628280-26-024680",
+   "flag": "also interim Chief People Officer Nov 2024-Jul 2025 (2026 proxy), not listed as an executive-officer title"
+  }
+ ],
+ "pvp": [
+  {
+   "fiscal_year": 2022,
+   "peos": [
+    {
+     "name": "Logan Green",
+     "sct_total": 13316696,
+     "cap": -175368
+    }
+   ],
+   "non_peo_avg_sct_total": 9899672,
+   "non_peo_avg_cap": 435982,
+   "tsr_value_of_100": 25.79,
+   "tsr_base_date": "2019-12-31 (stated: 'the last trading day prior to the first day of the earliest listed fiscal year', FY2020)",
+   "accession": "0001759509-23-000049"
+  },
+  {
+   "fiscal_year": 2021,
+   "peos": [
+    {
+     "name": "Logan Green",
+     "sct_total": 13909482,
+     "cap": 10301180
+    }
+   ],
+   "non_peo_avg_sct_total": 9911885,
+   "non_peo_avg_cap": 6656512,
+   "tsr_value_of_100": 86.97,
+   "tsr_base_date": "2019-12-31 (stated: 'the last trading day prior to the first day of the earliest listed fiscal year', FY2020)",
+   "accession": "0001759509-23-000049"
+  },
+  {
+   "fiscal_year": 2020,
+   "peos": [
+    {
+     "name": "Logan Green",
+     "sct_total": 1018107,
+     "cap": 271707
+    }
+   ],
+   "non_peo_avg_sct_total": 5785118,
+   "non_peo_avg_cap": 7594625,
+   "tsr_value_of_100": 114.2,
+   "tsr_base_date": "2019-12-31 (stated: 'the last trading day prior to the first day of the earliest listed fiscal year', FY2020)",
+   "accession": "0001759509-23-000049"
+  },
+  {
+   "fiscal_year": 2023,
+   "peos": [
+    {
+     "name": "David Risher",
+     "sct_total": 78238027,
+     "cap": 135370642
+    },
+    {
+     "name": "Logan Green",
+     "sct_total": 814400,
+     "cap": 1293268
+    }
+   ],
+   "non_peo_avg_sct_total": 5567041,
+   "non_peo_avg_cap": 7383033,
+   "tsr_value_of_100": 34.84,
+   "tsr_base_date": "2019-12-31 (stated: 'the last trading day prior to the first day of the earliest listed fiscal year', FY2020)",
+   "accession": "0001759509-24-000055"
+  },
+  {
+   "fiscal_year": 2022,
+   "peos": [
+    {
+     "name": "Logan Green",
+     "sct_total": 13316696,
+     "cap": -175368
+    }
+   ],
+   "non_peo_avg_sct_total": 9899672,
+   "non_peo_avg_cap": 435982,
+   "tsr_value_of_100": 25.62,
+   "tsr_base_date": "2019-12-31 (stated: 'the last trading day prior to the first day of the earliest listed fiscal year', FY2020)",
+   "accession": "0001759509-24-000055"
+  },
+  {
+   "fiscal_year": 2021,
+   "peos": [
+    {
+     "name": "Logan Green",
+     "sct_total": 13909482,
+     "cap": 10301180
+    }
+   ],
+   "non_peo_avg_sct_total": 9911885,
+   "non_peo_avg_cap": 6656512,
+   "tsr_value_of_100": 99.33,
+   "tsr_base_date": "2019-12-31 (stated: 'the last trading day prior to the first day of the earliest listed fiscal year', FY2020)",
+   "accession": "0001759509-24-000055"
+  },
+  {
+   "fiscal_year": 2020,
+   "peos": [
+    {
+     "name": "Logan Green",
+     "sct_total": 1018107,
+     "cap": 271707
+    }
+   ],
+   "non_peo_avg_sct_total": 5785118,
+   "non_peo_avg_cap": 7594625,
+   "tsr_value_of_100": 114.2,
+   "tsr_base_date": "2019-12-31 (stated: 'the last trading day prior to the first day of the earliest listed fiscal year', FY2020)",
+   "accession": "0001759509-24-000055"
+  },
+  {
+   "fiscal_year": 2024,
+   "peos": [
+    {
+     "name": "David Risher",
+     "sct_total": 1321239,
+     "cap": -41057391
+    }
+   ],
+   "non_peo_avg_sct_total": 6915578,
+   "non_peo_avg_cap": 2930776,
+   "tsr_value_of_100": 29.99,
+   "tsr_base_date": "2019-12-31 (stated: 'the last trading day prior to the first day of the earliest listed fiscal year', FY2020)",
+   "accession": "0001759509-25-000069"
+  },
+  {
+   "fiscal_year": 2023,
+   "peos": [
+    {
+     "name": "David Risher",
+     "sct_total": 78238027,
+     "cap": 135370642
+    },
+    {
+     "name": "Logan Green",
+     "sct_total": 814400,
+     "cap": 1293268
+    }
+   ],
+   "non_peo_avg_sct_total": 5567041,
+   "non_peo_avg_cap": 7383033,
+   "tsr_value_of_100": 34.84,
+   "tsr_base_date": "2019-12-31 (stated: 'the last trading day prior to the first day of the earliest listed fiscal year', FY2020)",
+   "accession": "0001759509-25-000069"
+  },
+  {
+   "fiscal_year": 2022,
+   "peos": [
+    {
+     "name": "Logan Green",
+     "sct_total": 13316696,
+     "cap": -175368
+    }
+   ],
+   "non_peo_avg_sct_total": 9899672,
+   "non_peo_avg_cap": 435982,
+   "tsr_value_of_100": 25.62,
+   "tsr_base_date": "2019-12-31 (stated: 'the last trading day prior to the first day of the earliest listed fiscal year', FY2020)",
+   "accession": "0001759509-25-000069"
+  },
+  {
+   "fiscal_year": 2021,
+   "peos": [
+    {
+     "name": "Logan Green",
+     "sct_total": 13909482,
+     "cap": 10301180
+    }
+   ],
+   "non_peo_avg_sct_total": 9911885,
+   "non_peo_avg_cap": 6656512,
+   "tsr_value_of_100": 99.33,
+   "tsr_base_date": "2019-12-31 (stated: 'the last trading day prior to the first day of the earliest listed fiscal year', FY2020)",
+   "accession": "0001759509-25-000069"
+  },
+  {
+   "fiscal_year": 2020,
+   "peos": [
+    {
+     "name": "Logan Green",
+     "sct_total": 1018107,
+     "cap": 271707
+    }
+   ],
+   "non_peo_avg_sct_total": 5785118,
+   "non_peo_avg_cap": 7594625,
+   "tsr_value_of_100": 114.2,
+   "tsr_base_date": "2019-12-31 (stated: 'the last trading day prior to the first day of the earliest listed fiscal year', FY2020)",
+   "accession": "0001759509-25-000069"
+  },
+  {
+   "fiscal_year": 2025,
+   "peos": [
+    {
+     "name": "David Risher",
+     "sct_total": 2824088,
+     "cap": 36986888
+    }
+   ],
+   "non_peo_avg_sct_total": 5652424,
+   "non_peo_avg_cap": 13690709,
+   "tsr_value_of_100": 39.43,
+   "tsr_base_date": "2020-12-31 (stated: 'the last trading day prior to the first day of the earliest listed fiscal year reported', FY2021)",
+   "accession": "0001628280-26-024680"
+  },
+  {
+   "fiscal_year": 2024,
+   "peos": [
+    {
+     "name": "David Risher",
+     "sct_total": 1321239,
+     "cap": -41057391
+    }
+   ],
+   "non_peo_avg_sct_total": 6915578,
+   "non_peo_avg_cap": 2930776,
+   "tsr_value_of_100": 26.26,
+   "tsr_base_date": "2020-12-31 (stated: 'the last trading day prior to the first day of the earliest listed fiscal year reported', FY2021)",
+   "accession": "0001628280-26-024680"
+  },
+  {
+   "fiscal_year": 2023,
+   "peos": [
+    {
+     "name": "David Risher",
+     "sct_total": 78238027,
+     "cap": 135370642
+    },
+    {
+     "name": "Logan Green",
+     "sct_total": 814400,
+     "cap": 1293268
+    }
+   ],
+   "non_peo_avg_sct_total": 5567041,
+   "non_peo_avg_cap": 7383033,
+   "tsr_value_of_100": 30.51,
+   "tsr_base_date": "2020-12-31 (stated: 'the last trading day prior to the first day of the earliest listed fiscal year reported', FY2021)",
+   "accession": "0001628280-26-024680"
+  },
+  {
+   "fiscal_year": 2022,
+   "peos": [
+    {
+     "name": "Logan Green",
+     "sct_total": 13316696,
+     "cap": -175368
+    }
+   ],
+   "non_peo_avg_sct_total": 9899672,
+   "non_peo_avg_cap": 435982,
+   "tsr_value_of_100": 22.43,
+   "tsr_base_date": "2020-12-31 (stated: 'the last trading day prior to the first day of the earliest listed fiscal year reported', FY2021)",
+   "accession": "0001628280-26-024680"
+  },
+  {
+   "fiscal_year": 2021,
+   "peos": [
+    {
+     "name": "Logan Green",
+     "sct_total": 13909482,
+     "cap": 10301180
+    }
+   ],
+   "non_peo_avg_sct_total": 9911885,
+   "non_peo_avg_cap": 6656512,
+   "tsr_value_of_100": 86.97,
+   "tsr_base_date": "2020-12-31 (stated: 'the last trading day prior to the first day of the earliest listed fiscal year reported', FY2021)",
+   "accession": "0001628280-26-024680"
+  }
+ ],
+ "notes": [
+  "2025 proxy is a contested DEFC14A (0001759509-25-000069, filed 2025-04-24; Engine Capital also filed a DEFC14A); the 2025-05-23 DEFR14A (0001759509-25-000096) only withdraws Ariel Cohen's nomination and has no comp changes. There is no plain 'DEF 14A' for 2025.",
+  "TSR restatement: the 2023 proxy's PvP printed 2021 $86.97 and 2022 $25.79 (S&P 500 IT $133.35 / $71.09), which are one-year returns (42.73/49.13, 11.02/42.73), not cumulative from the stated 12/31/2019 base. The 2024 proxy shows the cumulative values for the same years: 2021 $99.33, 2022 $25.62 (S&P IT $189.64 / $134.82). The 2026 proxy moves the base to 12/31/2020, so its values ($86.97, $22.43, $30.51, $26.26, $39.43) differ from earlier tables by design.",
+  "PvP 2026 drops FY2020 and says Green was PEO for fiscal 2021-2023; SCT/CAP figures for overlapping years are identical across all four PvP tables (only TSR and peer TSR changed).",
+  "SCT figure revisions: McNeill FY2018 total was 32,420,826 in the S-1 (bonus 'not yet been determined'); the 424B4 and 2020 proxy report 32,840,826 incl. a $420,000 pro-rated 2018 bonus. No other (person, year) total changed across filings.",
+  "Roberts FY2021 stock_awards 6,404,964 = 2021 RSU grant-date value 6,895,989 plus net incremental fair value from the Dec 1, 2021 modification of his 2019-2021 RSUs (-302,925 + 436,154 - 624,254); separation cash $75,000 (8-K).",
+  "Sverchek FY2024 total 8,486,411 includes all_other 1,651,840: $1,608,010 severance (cash $1,137,500, COBRA $33,462, $437,048 ASC 718 charge for accelerated RSUs) plus $34,071 advisory fees. The 2025 SCT still prints her title as 'President' (CD&A: 'former President'). Her FY2022 total is only 539,338 (no equity grant in 2022).",
+  "Paul FY2023 and Raj FY2023 each include $340,966 severance (6 months salary $325,000 + COBRA). Paul FY2022 includes a $1,500,000 sign-on bonus and 14,707,974 new-hire RSUs.",
+  "Green/Zimmer FY2023: stock awards 260,005 each are RSUs under Founder Transition Agreements; all_other includes advisory+COBRA fees ($319,653 Green, $240,966 Zimmer) and salary includes director fees ($63,544 Green, $20,110 Zimmer).",
+  "Risher FY2023 78,238,027: 73,322,375 grant-date value of a 12,250,000-share stock-price PSU (sole equity award for the first four years; none expected until 2027) plus $4,250,000 bonus ($3,250,000 sign-on + $1,000,000 guaranteed 2023 bonus). His CAP swung from +135.4M (2023) to -41.1M (2024) to +37.0M (2025).",
+  "Co-founder personal security drives all_other: Zimmer $2,064,823 (2020), $1,569,567 (2019), $1,004,566 (2021); Green $935,105 (2018).",
+  "2021 'Bonus' column for Green/Zimmer/Sverchek/Roberts (32,712) and Raj (20,596) is a one-time payment of 105% of the 2020 COVID salary reduction.",
+  "Zimmer FY2018 (415,674) is reported only in the 2020/2021 proxies; he was not an S-1 NEO (S-1 NEOs were Green, Makavy, McNeill).",
+  "Tenure-date conflicts: Paul start Jan 3, 2022 (8-K) vs Jan 4, 2022 (2022 proxy, Form 3); Makavy CPO end announced Feb 28, 2020 (8-K) vs 'until March 2020' (proxy); Lipkovitz new title announced Feb 28, 2020 vs 'since March 2020' (bio) vs Form 3 2020-03-31; Raj Head of Rideshare 'since August 2021' vs Form 3 2021-10-26; Llewellyn CLO 'since July 2024' vs Form 3 2024-08-21; Sverchek GC/Secretary end Nov 1, 2021 (8-K) vs 'to October 2021' (bios).",
+  "Inclusion rule used for tenures: a title counts if it appears in a filing's executive-officer table or carries Section 16 officer status (Form 3). Borderline entries carry a 'flag' (Makavy pre-IPO EVP Rideshare Technology; Blackwood-Kapral CAO; Brewer interim CAO). Excluded: Raj interim Head of Rideshare, Llewellyn General Counsel and Secretary, Llewellyn interim Chief People Officer, Lipkovitz EVP Engineering, Roberts SVP Partnerships (Oct-Nov 2014), Makavy EVP Strategic Initiatives, Green Board Chair / Zimmer Vice Chair (board roles).",
+  "Brewer is retiring as CFO effective 2026-09-28 (8-K 0001628280-26-061020); Michael Brous succeeds her (Form 3 event 2026-09-28)."
+ ]
+}

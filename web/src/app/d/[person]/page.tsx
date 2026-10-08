@@ -10,12 +10,13 @@ import { firstName } from "@/components/standings/seat-summary";
 import { Chip, SectionHead, Signed } from "@/components/standings/primitives";
 import { Busy, CardSkeleton, TableSkeleton } from "@/components/standings/skeletons";
 import { Card, Confidence, Relative, TenureReturn, Annualized } from "@/components/ui";
-import { fmtDate, pct, tenureLength, type Precision } from "@/lib/format";
+import { compactMoney, fmtDate, pct, tenureLength, type Precision } from "@/lib/format";
 import {
   getCareer, getDataThrough, getDefaultBenchmark, getDirectorRank, getDirectorRankings, getLeaderboardStats, getOtherBoards,
   getPerson,
   type CareerSeat, type PersonHeader, type RankScope, type SeatRef,
 } from "@/lib/queries";
+import { getPersonExecPay } from "@/lib/queries-pay";
 import { getPersonSeats } from "@/lib/queries-people";
 import { primaryRole } from "@/lib/roles";
 import { barDomain, CHIP_HINT, parseScope, seatReason, seatWindow, withScope, years } from "@/lib/standings";
@@ -65,9 +66,10 @@ function DirectorSkeleton({ name }: { name: string }) {
 }
 
 async function DirectorBody({ person, scope }: { person: PersonHeader; scope: RankScope }) {
-  const [career, bench, otherBoards, standing, seats, rankings, dataThrough, stats] = await Promise.all([
+  const [career, bench, otherBoards, standing, seats, rankings, dataThrough, stats, execPay] = await Promise.all([
     getCareer(person.id), getDefaultBenchmark(), getOtherBoards(person.id), getDirectorRank(person.id),
     getPersonSeats(person.id, scope), getDirectorRankings(scope), getDataThrough(), getLeaderboardStats(scope),
+    getPersonExecPay(person.id),
   ]);
   const ranked = scope === "all" ? standing.all : standing.independent;
   const other = scope === "all" ? standing.independent : standing.all;
@@ -191,6 +193,32 @@ async function DirectorBody({ person, scope }: { person: PersonHeader; scope: Ra
         </Card>
         <div className="mt-3"><ChipKey /></div>
       </section>
+
+      {execPay.length > 0 && (
+        <section aria-labelledby="exec-pay">
+          <SectionHead id="exec-pay" title="Pay as an executive"
+                       sub="Reported pay while a named executive officer, against the stock over the same years." />
+          <div className="grid gap-4 sm:grid-cols-2">
+            {execPay.map((x) => (
+              <Link key={x.company_slug} href={`/c/${x.company_slug}/pay`}
+                    className="block rounded-[14px] border border-line bg-surface px-5 py-4 shadow-card hover:border-line-strong">
+                <span className="block text-[11px] leading-[14px] uppercase tracking-[0.08em] text-ink-3">{x.company_name}</span>
+                <span className="mt-1 flex flex-wrap items-baseline gap-x-3">
+                  <span className="text-[24px] leading-[30px] font-bold text-ink">{compactMoney(x.pay_total)}</span>
+                  <span className="text-[13px] text-ink-3">reported over {x.pay_years} fiscal {x.pay_years === 1 ? "year" : "years"}</span>
+                </span>
+                <span className="mt-1 block text-[13px] leading-5 text-ink-2">
+                  Stock vs the S&amp;P 500:{" "}
+                  {x.annualized_excess != null
+                    ? <Signed value={x.annualized_excess} kind="perYear" />
+                    : <Signed value={x.relative_return_pp} kind="pp" />}
+                  <span className="text-accent-ink ml-2">Pay vs the stock →</span>
+                </span>
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
 
       {untracked.length > 0 && (
         <section aria-labelledby="other-boards">

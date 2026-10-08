@@ -1,7 +1,7 @@
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 import type { Metadata } from "next";
-import { marked } from "marked";
+import { Marked } from "marked";
 import { HowItWorks } from "@/components/standings/how-it-works";
 import { getLeaderboardStats } from "@/lib/queries";
 import { DEFAULT_SCOPE } from "@/lib/standings";
@@ -9,6 +9,16 @@ import { DEFAULT_SCOPE } from "@/lib/standings";
 export const metadata: Metadata = { title: "Methodology" };
 // How the standings work carries live counts; a day-long cache is fresh enough for daily closes.
 export const revalidate = 86400;
+
+// Section headings get ids ("## Executive pay" -> #executive-pay) so other pages can deep-link.
+const marked = new Marked({
+  renderer: {
+    heading({ tokens, depth, text }) {
+      const id = text.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+      return `<h${depth} id="${id}" class="scroll-mt-20">${this.parser.parseInline(tokens)}</h${depth}>\n`;
+    },
+  },
+});
 
 // Single source of truth: the repository's docs/methodology.md. Its title and intro stay first;
 // "How the standings work" is the first section, ahead of the doc's own sections.
