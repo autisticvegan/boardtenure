@@ -15,6 +15,7 @@ export const revalidate = 3600;
 
 const MIN_DAYS = 365;
 const LIST_LEN = 8;
+const LEVEL = 0.0005; // |x| under 0.05%/yr reads as level, so it sits in neither list
 
 /** Spearman rank correlation (average ranks for ties). */
 function spearman(xs: number[], ys: number[]): number | null {
@@ -65,8 +66,8 @@ export default async function PayOverviewPage() {
   const lastYear = Math.max(...companies.map((c) => c.last_year));
   const payTotal = companies.reduce((a, c) => a + c.pay_total, 0);
 
-  const trailed = scored.filter((e) => e.annualized_excess! < 0).slice(0, LIST_LEN); // already by pay/yr desc
-  const beatList = scored.filter((e) => e.annualized_excess! > 0).slice(0, LIST_LEN);
+  const trailed = scored.filter((e) => e.annualized_excess! <= -LEVEL).slice(0, LIST_LEN); // already by pay/yr desc
+  const beatList = scored.filter((e) => e.annualized_excess! >= LEVEL).slice(0, LIST_LEN);
   const dots: ScatterDot[] = scored.map((e) => ({
     key: `${e.company_slug}-${e.person_id}`,
     name: `${lastName(e.full_name)} (${e.symbol ?? e.company_name})`,
