@@ -1,4 +1,4 @@
-"""`bt` — BoardTenure pipeline command line."""
+"""`bt` — Boardtape pipeline command line."""
 
 from __future__ import annotations
 
@@ -130,8 +130,9 @@ def cmd_sec_shares(args: argparse.Namespace) -> None:
                 continue
             if args.history:
                 rows = shares.load_history(conn, edgar, c["id"], c["cik"])
+                older = shares.load_companyfacts(conn, edgar, c["id"], c["cik"])
                 print(c["slug"], f"{len(rows)} cover dates", rows[-1]["as_of"] if rows else None, "→",
-                      rows[0]["as_of"] if rows else None)
+                      rows[0]["as_of"] if rows else None, f"+ {older} older from XBRL company facts")
             else:
                 print(c["slug"], shares.update_company(conn, edgar, c["id"], c["cik"]))
             conn.commit()

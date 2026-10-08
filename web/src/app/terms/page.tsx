@@ -9,7 +9,7 @@ export default function TermsPage() {
       <p><em>Draft. To be reviewed before public launch.</em></p>
       <h2>Informational use only</h2>
       <p>
-        BoardTenure presents historical stock performance during directors&rsquo; board tenures. It is not investment
+        Boardtape presents historical stock performance during directors&rsquo; board tenures. It is not investment
         advice, and tenure returns do not imply that any director caused a company&rsquo;s performance.
       </p>
       <h2>Automated access</h2>

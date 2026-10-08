@@ -1,6 +1,15 @@
 from datetime import date
 
-from bt.analytics.exec_pay import counted_years, merge_positions, pay_window_end, pay_window_start, year_window
+from bt.analytics.exec_pay import (
+    counted_years,
+    fy_start,
+    merge_positions,
+    pay_window_end,
+    pay_window_start,
+    relevant_positions,
+    shares_at,
+    year_window,
+)
 from bt.ingest.seed_comp import missing_amounts
 
 BLOCK = ("Logan Green Chief Executive Officer 2022 1 — 18,000,083 — — — 12,345 18,012,429 "
@@ -71,3 +80,27 @@ def test_counted_years_skip_pre_listing_and_the_year_ending_on_the_window_start(
             (2023, date(2023, 12, 31))]
     assert counted_years(paid, date(2017, 12, 31), date(2023, 12, 31), date(2019, 3, 29)) == [2019, 2022, 2023]
     assert counted_years(paid, date(2022, 12, 31), date(2023, 12, 31), date(2019, 3, 29)) == [2023]
+
+
+def test_shares_are_restated_across_splits():
+    covers = [(date(2020, 7, 20), 186_000_000), (date(2020, 10, 19), 948_000_000)]
+    splits = [(date(2020, 8, 31), 5.0)]
+    # Cover before a 5-for-1 split, anchor after it: the count is in post-split units.
+    assert shares_at(covers, date(2020, 9, 30), splits) == (930_000_000, date(2020, 7, 20))
+    assert shares_at(covers, date(2020, 8, 28), splits) == (186_000_000, date(2020, 7, 20))
+    # Only a later cover exists (IPO lookahead) and a split falls in between: divide back.
+    assert shares_at([(date(2020, 10, 19), 948_000_000)], date(2020, 8, 1), splits) == (189_600_000, date(2020, 10, 19))
+
+
+def test_fiscal_year_start_uses_the_actual_prior_year_end():
+    prev = {date(2025, 1, 26): date(2024, 1, 28)}
+    assert fy_start(date(2025, 1, 26), prev) == date(2024, 1, 28)
+    assert fy_start(date(2025, 12, 31)) == date(2024, 12, 31)
+
+
+def test_earlier_stint_before_paid_years_is_dropped():
+    rows = [pos("CFO", date(2008, 7, 1), "month", date(2015, 11, 30), "day"),
+            pos("CFO", date(2017, 3, 2), "day", date(2019, 3, 13), "day")]
+    kept = relevant_positions(rows, date(2017, 12, 31))
+    assert [r["start_date"] for r in kept] == [date(2017, 3, 2)]
+    assert merge_positions(kept)["start"] == date(2017, 3, 2)

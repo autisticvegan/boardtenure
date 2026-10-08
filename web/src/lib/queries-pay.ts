@@ -135,61 +135,97 @@ export const getPayVsPerformance = cache(async (companyId: number): Promise<PvpY
             JOIN LATERAL (SELECT tr_index FROM price_daily WHERE security_id = s.id AND trade_date <= v.tsr_base_date
                           ORDER BY trade_date DESC LIMIT 1) b ON true
             JOIN LATERAL (SELECT tr_index FROM price_daily WHERE security_id = s.id
-                            AND trade_date <= make_date(v.fiscal_year, 12, 31)
+                            AND trade_date <= coalesce(v.fiscal_year_end, make_date(v.fiscal_year, 12, 31))
                           ORDER BY trade_date DESC LIMIT 1) e ON true
           WHERE s.company_id = v.company_id AND s.is_primary) AS our_tsr_value_of_100
   FROM pay_vs_performance_latest v
   WHERE v.company_id = ${companyId}
   ORDER BY v.fiscal_year DESC`);
 
-/** The stock and SPY from the first trade to the end of the last fiscal year with reported pay. */
+/** The company's whole pay window: every counted executive-year, the stock vs SPY over those years. */
 export type PaySpan = {
   first_year: number;
   last_year: number;
   start_anchor: string | null;
+  start_anchor_reason: string | null;
   end_anchor: string | null;
   total_return: number | null;
   bench_total_return: number | null;
+  annualized_excess: number | null;
   pay_total: number;
   people: number;
-  start_close: number | null;
-  start_shares: number | null;
-  start_shares_as_of: string | null;
+  exec_years: number;
+  start_market_cap: number | null;
 };
+
+const SPAN_COLUMNS = sql`
+  cp.first_pay_year AS first_year, cp.last_pay_year AS last_year, cp.start_anchor_date::text AS start_anchor,
+  cp.start_anchor_reason, cp.end_anchor_date::text AS end_anchor, cp.total_return, cp.bench_total_return,
+  cp.annualized_excess, cp.pay_total, cp.people, cp.exec_years, cp.start_market_cap`;
 
 export const getPaySpan = cache(async (companyId: number): Promise<PaySpan | null> => {
   const rows = await sql<PaySpan[]>`
-    WITH span AS (
-      SELECT min(ec.fiscal_year) AS first_year, max(ec.fiscal_year) AS last_year, max(ec.fiscal_year_end) AS last_end,
-             sum(ec.total) AS pay_total, count(DISTINCT ec.person_id)::int AS people
-      FROM executive_comp_latest ec
-      JOIN security s ON s.company_id = ec.company_id AND s.is_primary
-      WHERE ec.company_id = ${companyId}
-        AND ec.fiscal_year_end >= (SELECT min(trade_date) FROM price_daily WHERE security_id = s.id)
-    ),
-    sec AS (SELECT s.id FROM security s WHERE s.company_id = ${companyId} AND s.is_primary),
-    spy AS (SELECT security_id AS id FROM benchmark WHERE code = 'sp500'),
-    a AS (SELECT pd.trade_date, pd.tr_index, pd.close FROM price_daily pd, sec WHERE pd.security_id = sec.id
-          ORDER BY pd.trade_date LIMIT 1),
-    -- Same rule as executive windows: the cover count on or before the start, else the first within 120 days.
-    sh AS (SELECT so.shares, so.as_of_date FROM shares_outstanding so, a
-           WHERE so.company_id = ${companyId} AND so.as_of_date <= a.trade_date + 120
-           ORDER BY (so.as_of_date <= a.trade_date) DESC,
-                    CASE WHEN so.as_of_date <= a.trade_date THEN a.trade_date - so.as_of_date
-                         ELSE so.as_of_date - a.trade_date END
-           LIMIT 1),
-    z AS (SELECT pd.trade_date, pd.tr_index FROM price_daily pd, sec, span
-          WHERE pd.security_id = sec.id AND pd.trade_date <= span.last_end ORDER BY pd.trade_date DESC LIMIT 1),
-    ba AS (SELECT pd.tr_index FROM price_daily pd, spy, a WHERE pd.security_id = spy.id AND pd.trade_date <= a.trade_date
-           ORDER BY pd.trade_date DESC LIMIT 1),
-    bz AS (SELECT pd.tr_index FROM price_daily pd, spy, z WHERE pd.security_id = spy.id AND pd.trade_date <= z.trade_date
-           ORDER BY pd.trade_date DESC LIMIT 1)
-    SELECT span.first_year, span.last_year, a.trade_date::text AS start_anchor, z.trade_date::text AS end_anchor,
-           z.tr_index / a.tr_index - 1 AS total_return, bz.tr_index / ba.tr_index - 1 AS bench_total_return,
-           span.pay_total, span.people, a.close AS start_close, sh.shares AS start_shares,
-           sh.as_of_date::text AS start_shares_as_of
-    FROM span CROSS JOIN a CROSS JOIN z CROSS JOIN ba CROSS JOIN bz LEFT JOIN sh ON true
-    WHERE span.first_year IS NOT NULL`;
+    SELECT ${SPAN_COLUMNS} FROM company_pay_performance cp JOIN benchmark b ON b.id = cp.benchmark_id
+    WHERE b.code = 'sp500' AND cp.company_id = ${companyId}`;
+  return rows[0] ?? null;
+});
+
+export type CompanyPay = PaySpan & {
+  company_id: number; slug: string; common_name: string; symbol: string | null;
+  median_pay_per_year: number | null; ceos: string[];
+};
+
+/** One row per company with executive pay on file, for the cross-company pay page. */
+export const getPayCompaniesOverview = cache(async (): Promise<CompanyPay[]> => sql<CompanyPay[]>`
+  SELECT c.id AS company_id, c.slug, c.common_name, s.symbol, ${SPAN_COLUMNS},
+         (SELECT percentile_cont(0.5) WITHIN GROUP (ORDER BY ec.total) FROM executive_comp_latest ec
+            WHERE ec.company_id = c.id AND ec.fiscal_year BETWEEN cp.first_pay_year AND cp.last_pay_year) AS median_pay_per_year,
+         coalesce((SELECT array_agg(DISTINCT p.full_name) FROM pay_vs_performance_peo pp
+                     JOIN pay_vs_performance v USING (source_document_id, fiscal_year)
+                     JOIN person p ON p.id = pp.person_id WHERE v.company_id = c.id), '{}') AS ceos
+  FROM company_pay_performance cp
+  JOIN benchmark b ON b.id = cp.benchmark_id AND b.code = 'sp500'
+  JOIN company c ON c.id = cp.company_id
+  LEFT JOIN security s ON s.company_id = c.id AND s.is_primary
+  ORDER BY c.common_name`);
+
+export type ExecPayAcross = ExecPay & {
+  company_slug: string; company_name: string; symbol: string | null; is_ceo: boolean;
+};
+
+/** Every executive pay window across companies. is_ceo: a PEO in any pay-versus-performance table,
+ * or a chief-executive title. */
+export const getAllExecPay = cache(async (): Promise<ExecPayAcross[]> => sql<ExecPayAcross[]>`
+  SELECT epp.person_id, p.slug AS person_slug, p.full_name, epp.titles, epp.is_current,
+         epp.tenure_start::text, epp.tenure_start_precision, epp.tenure_end::text, epp.tenure_end_precision,
+         epp.status, epp.start_anchor_date::text, epp.start_anchor_reason, epp.end_anchor_date::text,
+         epp.calendar_days, epp.total_return, epp.bench_total_return, epp.relative_return_pp, epp.annualized_excess,
+         epp.return_low, epp.return_high, epp.start_market_cap, epp.start_shares_as_of::text,
+         epp.pay_years, epp.pay_total, epp.equity_awards, epp.first_pay_year, epp.last_pay_year, epp.pay_per_year,
+         epp.excess_wealth, epp.excess_wealth_per_pay_dollar,
+         EXISTS (SELECT 1 FROM board_membership m WHERE m.company_id = epp.company_id AND m.person_id = epp.person_id)
+           AS has_seat,
+         NULL::text AS tenure_status, NULL::text AS tenure_end_anchor, NULL::float AS tenure_total_return,
+         NULL::float AS tenure_bench_total_return, NULL::float AS tenure_annualized_excess,
+         c.slug AS company_slug, c.common_name AS company_name, s.symbol,
+         (EXISTS (SELECT 1 FROM pay_vs_performance_peo pp JOIN pay_vs_performance v USING (source_document_id, fiscal_year)
+                  WHERE v.company_id = epp.company_id AND pp.person_id = epp.person_id)
+          OR EXISTS (SELECT 1 FROM unnest(epp.titles) t WHERE t ~* '(chief executive|\mceo\M)')) AS is_ceo
+  FROM executive_pay_performance epp
+  JOIN person p ON p.id = epp.person_id
+  JOIN company c ON c.id = epp.company_id
+  LEFT JOIN security s ON s.company_id = c.id AND s.is_primary
+  WHERE epp.pay_years > 0
+  ORDER BY epp.pay_per_year DESC NULLS LAST`);
+
+/** The single largest reported executive-year, to flag when one award dominates the totals. */
+export const getBiggestExecYear = cache(async () => {
+  const rows = await sql<{ full_name: string; company_name: string; fiscal_year: number; total: number }[]>`
+    SELECT p.full_name, c.common_name AS company_name, ec.fiscal_year, ec.total
+    FROM executive_comp_latest ec JOIN person p ON p.id = ec.person_id JOIN company c ON c.id = ec.company_id
+    JOIN company_pay_performance cp ON cp.company_id = ec.company_id
+    WHERE ec.fiscal_year BETWEEN cp.first_pay_year AND cp.last_pay_year
+    ORDER BY ec.total DESC LIMIT 1`;
   return rows[0] ?? null;
 });
 

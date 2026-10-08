@@ -89,6 +89,42 @@ def parse_cover_text(raw: bytes, filename: str) -> tuple[date | None, list[dict]
     return None, []
 
 
+def load_companyfacts(conn: psycopg.Connection, edgar: Edgar, company_id: int, cik: str) -> int:
+    """Older cover counts from XBRL company facts (dei:EntityCommonStockSharesOutstanding, tagged
+    since about 2009), only for dates before the first parsed cover. Company facts drop class
+    dimensions, so multi-class issuers are skipped: their undimensioned value can be one class."""
+    first = conn.execute("SELECT min(as_of_date) AS d, max(jsonb_array_length(class_breakdown)) AS classes "
+                         "FROM shares_outstanding WHERE company_id = %s", (company_id,)).fetchone()
+    if first["classes"] and first["classes"] > 1:
+        return 0
+    url = f"https://data.sec.gov/api/xbrl/companyfacts/CIK{int(cik):010d}.json"
+    raw = edgar.get(url)
+    obj = rawstore.put(f"sec/_api/companyfacts/CIK{int(cik):010d}.json", raw)
+    facts = json.loads(raw).get("facts", {}).get("dei", {}).get("EntityCommonStockSharesOutstanding", {})
+    src = reference.source_ids(conn)["sec_edgar"]
+    doc_id = conn.execute(
+        """INSERT INTO source_document (source_id, external_id, doc_type, company_id, url, retrieved_at, sha256,
+                                        storage_uri, byte_size, content_type)
+           VALUES (%s, %s, 'XBRL companyfacts', %s, %s, now(), %s, %s, %s, 'application/json')
+           ON CONFLICT (source_id, external_id) DO UPDATE SET sha256 = EXCLUDED.sha256, retrieved_at = now()
+           RETURNING id""",
+        (src, f"companyfacts/CIK{int(cik):010d}", company_id, url, obj.sha256, obj.uri, obj.size),
+    ).fetchone()["id"]
+    n = 0
+    for f in facts.get("units", {}).get("shares", []):
+        as_of = date.fromisoformat(f["end"])
+        if f.get("form") not in ("10-K", "10-Q") or (first["d"] and as_of >= first["d"]):
+            continue
+        n += conn.execute(
+            """INSERT INTO shares_outstanding (company_id, as_of_date, shares, class_breakdown, source_document_id)
+               VALUES (%s, %s, %s, %s, %s) ON CONFLICT (company_id, as_of_date) DO NOTHING""",
+            (company_id, as_of, int(f["val"]),
+             json.dumps([{"class": "common", "shares": int(f["val"]), "instant": f["end"], "accession": f["accn"]}]),
+             doc_id),
+        ).rowcount
+    return n
+
+
 def _record_cover(conn: psycopg.Connection, edgar: Edgar, company_id: int, filing) -> dict | None:
     obj = edgar.document(filing)
     as_of, classes = parse_cover_shares(rawstore.read(obj.key))

@@ -39,7 +39,7 @@ def user_agent() -> str:
         for line in env.read_text().splitlines():
             if line.startswith("SEC_USER_AGENT="):
                 ua = line.split("=", 1)[1].strip()
-    return ua or "BoardTenure research@example.com"
+    return ua or "Boardtape research@example.com"
 
 
 def cache_path(url: str) -> Path:

@@ -220,7 +220,7 @@ CHECKS: list[Check] = [
                json_build_object('totals', json_agg(DISTINCT ec.total))
         FROM executive_comp ec JOIN person p ON p.id = ec.person_id
         GROUP BY ec.company_id, ec.person_id, ec.fiscal_year, p.full_name
-        HAVING count(DISTINCT ec.total) > 1"""),
+        HAVING max(ec.total) - min(ec.total) > 1  -- $1 rounding fixes between proxies aren't restatements"""),
 
     Check("exec_comp_components_mismatch", "warning", """
         SELECT ec.id::text, 2, ec.company_id, ec.person_id, 'executive_comp', ec.id,
@@ -229,8 +229,9 @@ CHECKS: list[Check] = [
                                         + ec.non_equity_incentive + ec.pension_nqdc + ec.all_other,
                                  'total', ec.total)
         FROM executive_comp ec JOIN person p ON p.id = ec.person_id
-        WHERE ec.salary + ec.bonus + ec.stock_awards + ec.option_awards + ec.non_equity_incentive
-              + ec.pension_nqdc + ec.all_other <> ec.total"""),
+        WHERE abs(ec.salary + ec.bonus + ec.stock_awards + ec.option_awards + ec.non_equity_incentive
+                  + ec.pension_nqdc + ec.all_other - ec.total) > 1  -- tables round each cell
+    """),
 
     Check("neo_without_position", "error", """
         SELECT ec.company_id || '-' || ec.person_id, 1, ec.company_id, ec.person_id, 'person', ec.person_id,
@@ -262,7 +263,8 @@ CHECKS: list[Check] = [
         JOIN LATERAL (SELECT trade_date, tr_index AS tr FROM price_daily WHERE security_id = s.id
                         AND trade_date <= v.tsr_base_date ORDER BY trade_date DESC LIMIT 1) b ON true
         JOIN LATERAL (SELECT trade_date, tr_index AS tr FROM price_daily WHERE security_id = s.id
-                        AND trade_date <= make_date(v.fiscal_year, 12, 31) ORDER BY trade_date DESC LIMIT 1) e ON true
+                        AND trade_date <= coalesce(v.fiscal_year_end, make_date(v.fiscal_year, 12, 31))
+                      ORDER BY trade_date DESC LIMIT 1) e ON true
         WHERE v.tsr_value_of_100 IS NOT NULL
           AND abs(100 * e.tr / b.tr - v.tsr_value_of_100) / v.tsr_value_of_100 > 0.02"""),
 
@@ -277,7 +279,7 @@ CHECKS: list[Check] = [
         JOIN person p ON p.id = pp.person_id
         JOIN executive_comp ec ON ec.source_document_id = pp.source_document_id AND ec.person_id = pp.person_id
                               AND ec.fiscal_year = pp.fiscal_year
-        WHERE pp.sct_total IS DISTINCT FROM ec.total"""),
+        WHERE pp.sct_total IS NULL OR abs(pp.sct_total - ec.total) > 1"""),
 ]
 
 

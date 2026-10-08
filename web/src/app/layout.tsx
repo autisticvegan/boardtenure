@@ -11,7 +11,7 @@ const inter = Inter({ variable: "--font-inter", subsets: ["latin"] });
 const mono = JetBrains_Mono({ variable: "--font-mono-face", subsets: ["latin"], weight: ["400", "500"] });
 
 export const metadata: Metadata = {
-  title: { default: "Standings: board seats ranked by stock vs the S&P 500 · BoardTenure", template: "%s · BoardTenure" },
+  title: { default: "Standings: board seats ranked by stock vs the S&P 500 · Boardtape", template: "%s · Boardtape" },
   description:
     "How each company's stock did against the S&P 500 while every director held a board seat, ranked. Every date cites an SEC filing.",
 };
@@ -34,7 +34,7 @@ export default async function RootLayout({ children }: LayoutProps<"/">) {
         <footer className="border-t border-line mt-12">
           <div className="max-w-[1240px] mx-auto px-4 sm:px-6 py-8 grid gap-6 sm:grid-cols-[2fr_1fr_1fr] text-[13px] leading-5 text-ink-2">
             <div className="space-y-3 max-w-prose">
-              <p className="font-semibold text-ink">BoardTenure</p>
+              <p className="font-semibold text-ink">Boardtape</p>
               <p>{FOOTER_DISCLAIMER}</p>
               <p className="text-ink-3 text-[12px] leading-4">
                 {stats.data_through && <><AsOf date={stats.data_through} /> · </>}

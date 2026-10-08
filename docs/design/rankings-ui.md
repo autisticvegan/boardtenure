@@ -1,4 +1,4 @@
-# BoardTenure Standings: rankings UI build spec
+# Boardtape Standings: rankings UI build spec
 
 Status: final build spec, 2026-10-05. Base direction: **League Night**, the unanimous judge winner. It adds grafts from **The Ledger** and **Leaderboard Terminal**, and fixes every problem the judges raised.
 
@@ -193,7 +193,7 @@ Section names below are the exact H2 text. Placeholders `{…}` are computed. Ex
 
 ### 4.1 `/` Standings dashboard (server component)
 
-`<title>`: "Standings: board seats ranked by stock vs the S&P 500 · BoardTenure"
+`<title>`: "Standings: board seats ranked by stock vs the S&P 500 · Boardtape"
 
 | # | Section | Contents | Microcopy |
 |---|---|---|---|
@@ -217,7 +217,7 @@ Dashboard empty state, when nobody is ranked: H1 stays. Replace sections 2–7 w
 
 ### 4.2 `/rankings` Standings table
 
-`<title>`: "Full standings · BoardTenure". The page is dynamic (it reads `searchParams`, which is a Promise in Next 16; `await` it).
+`<title>`: "Full standings · Boardtape". The page is dynamic (it reads `searchParams`, which is a Promise in Next 16; `await` it).
 
 * **H1:** "Standings"
 * **Sub:** "Ranked by how the stock did against the S&P 500 per year during each seat. Ranks stay out of everyone ranked, even when you filter."
@@ -257,7 +257,7 @@ Empty state when no rows match the filters:
 
 ### 4.3 `/c/[slug]` Company page, re-centred on its board
 
-`<title>`: "{Company} ({SYM}) board standings: stock vs the S&P 500 by director seat · BoardTenure"
+`<title>`: "{Company} ({SYM}) board standings: stock vs the S&P 500 by director seat · Boardtape"
 
 | # | Section | Contents and microcopy |
 |---|---|---|
@@ -273,7 +273,7 @@ Empty state when no rows match the filters:
 
 ### 4.4 `/d/[person]` Director page
 
-`<title>`: "{Name}: board seats and stock vs the S&P 500 · BoardTenure"
+`<title>`: "{Name}: board seats and stock vs the S&P 500 · Boardtape"
 
 | # | Section | Contents and microcopy |
 |---|---|---|

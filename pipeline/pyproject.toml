@@ -1,7 +1,7 @@
 [project]
-name = "boardtenure-pipeline"
+name = "boardtape-pipeline"
 version = "0.1.0"
-description = "Ingestion, reconciliation, validation and analytics jobs for BoardTenure"
+description = "Ingestion, reconciliation, validation and analytics jobs for Boardtape"
 requires-python = ">=3.12"
 dependencies = [
   "httpx>=0.27",

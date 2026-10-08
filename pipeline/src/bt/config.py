@@ -40,7 +40,7 @@ class Settings:
         if not self.sec_user_agent:
             raise SystemExit(
                 "SEC_USER_AGENT is not set. EDGAR requires a declared User-Agent such as "
-                "'BoardTenure you@yourdomain.com'; set it in .env."
+                "'Boardtape you@yourdomain.com'; set it in .env."
             )
         return self.sec_user_agent
 

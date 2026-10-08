@@ -17,7 +17,7 @@ export const revalidate = 3600;
 
 export async function generateMetadata({ params }: PageProps<"/c/[slug]/pay">): Promise<Metadata> {
   const c = await getCompany((await params).slug);
-  return c ? { title: `${c.common_name} executive pay vs the stock · BoardTenure` } : {};
+  return c ? { title: `${c.common_name} executive pay vs the stock · Boardtape` } : {};
 }
 
 const tenureLabel = (e: ExecPay) =>
@@ -45,9 +45,8 @@ export default async function PayPage({ params }: PageProps<"/c/[slug]/pay">) {
   const paid = execs.filter((e) => (e.pay_total ?? 0) > 0);
   const execYears = years.filter((y) => y.in_pay_window);
   const medianPay = median(execYears.map((y) => y.total));
-  const spanMcap = span?.start_shares && span.start_close ? span.start_shares * span.start_close : null;
-  const spanGap = spanMcap != null && span?.total_return != null && span.bench_total_return != null
-    ? spanMcap * (span.total_return - span.bench_total_return) : null;
+  const spanGap = span?.start_market_cap != null && span.total_return != null && span.bench_total_return != null
+    ? span.start_market_cap * (span.total_return - span.bench_total_return) : null;
 
   const dots: ScatterDot[] = paid
     .filter((e) => e.annualized_excess != null && e.pay_per_year != null)
@@ -93,8 +92,8 @@ export default async function PayPage({ params }: PageProps<"/c/[slug]/pay">) {
         <dl className="grid grid-cols-2 md:grid-cols-4 gap-px overflow-hidden rounded-[14px] border border-line bg-line shadow-card">
           <Tile label={`reported pay, FY${span.first_year}–FY${span.last_year}`} value={compactMoney(span.pay_total)} />
           <Tile label="median pay per executive-year" value={compactMoney(medianPay)} />
-          <Tile label={`${sym} vs S&P 500 since listing, per year`}
-                value={<Signed value={annualizedExcess(span)} kind="perYear" />} />
+          <Tile label={`${sym} vs S&P 500 per year over those years`}
+                value={<Signed value={span.annualized_excess} kind="perYear" />} />
           <Tile label="shareholders vs the same money in the S&P 500"
                 value={<SignedMoney value={spanGap} />} />
         </dl>
@@ -403,12 +402,6 @@ function Record({ kicker, title, figure, detail }: { kicker: string; title: stri
   );
 }
 
-function annualizedExcess(s: { total_return: number | null; bench_total_return: number | null; start_anchor: string | null; end_anchor: string | null }) {
-  if (s.total_return == null || s.bench_total_return == null || !s.start_anchor || !s.end_anchor) return null;
-  const days = (Date.parse(s.end_anchor) - Date.parse(s.start_anchor)) / 86_400_000;
-  if (days < 365) return null;
-  return ((1 + s.total_return) / (1 + s.bench_total_return)) ** (365.25 / days) - 1;
-}
 
 const share = (part: number, total: number) => (total > 0 ? part / total : 0);
 const signedWord = (x: number | null) => (x == null ? "—" : `${x < 0 ? "−" : "+"}${compactMoney(Math.abs(x))}`);

@@ -182,6 +182,21 @@ before listing are shown but not counted.
 | Shareholders vs S&P | `starting market value × (total − benchmark)`: what a holder of the whole company at the start ended with, minus the same money in SPY |
 | Per $1 of pay | `shareholders vs S&P ÷ window pay` |
 
+**Share counts** come from 10-K/10-Q covers (inline XBRL, plain-text covers before that, and
+XBRL company facts for older single-class filers). A count dated before a stock split is restated
+into the split-adjusted units of the close it's multiplied by. A person who left and later returned
+is measured from the stint that overlaps their paid years, not across the gap.
+
+**Fiscal years** use each company's own year ends (NVIDIA's end in late January, Intel's on the
+last Saturday of December); a year starts at the previous year's end.
+
+**Across companies.** "Per $1 of pay" grows with company size, so it compares executives only
+within a company. Cross-company views use pay per year against the stock vs the S&P 500 per year,
+only for pay windows of at least a year, and lead with medians because single awards can be orders
+of magnitude larger than the rest (a CEO performance grant counts in full in the year it is reported).
+The rank correlation shown is Spearman's, over those windows; executives at the same company share
+one stock, so they aren't independent observations.
+
 **Compensation actually paid.** For CEOs the page also shows the proxy's pay-versus-performance
 table (Item 402(v)), whose "compensation actually paid" marks equity awards to year-end value. A
 quality check compares the table's cumulative shareholder return with our total-return index over

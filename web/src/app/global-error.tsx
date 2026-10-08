@@ -13,7 +13,7 @@ export default function GlobalError({ error, retry }: { error: Error & { digest?
   return (
     <html lang="en" style={{ colorScheme: "dark", background: "#0b0d12" }}>
       <body className="min-h-dvh text-[14px] leading-[22px]" style={{ margin: 0, background: "#0b0d12", color: "#f5f7fa" }}>
-        <title>BoardTenure</title>
+        <title>Boardtape</title>
         <main className="w-full max-w-[1240px] mx-auto px-4 sm:px-6 py-16 md:py-24" role="alert">
           <div className="mx-auto max-w-[520px] rounded-[14px] border border-line bg-surface shadow-card p-5 text-center">
             <p className="text-[15px] leading-6 text-ink">Couldn&rsquo;t load the standings. Try again in a minute.</p>

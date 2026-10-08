@@ -3,6 +3,7 @@ import Link from "next/link";
 import { BoardStrips } from "@/components/standings/board-strips";
 import { DistributionDots, type DistPoint } from "@/components/standings/distribution-dots";
 import { scopedTickers } from "@/components/standings/director-card";
+import { PayTeaser } from "@/components/pay/pay-teaser";
 import { HowItWorks } from "@/components/standings/how-it-works";
 import { ManyHats } from "@/components/standings/many-hats";
 import { pickPodium, Podium } from "@/components/standings/podium";
@@ -14,7 +15,7 @@ import { getBoardStrips, getDirectorRankings, getLeaderboardStats, getMultiBoard
 import { barDomain, parseScope, withScope } from "@/lib/standings";
 
 // Reads the scope from searchParams, so it renders per request.
-export const metadata: Metadata = { title: { absolute: "Standings: board seats ranked by stock vs the S&P 500 · BoardTenure" } };
+export const metadata: Metadata = { title: { absolute: "Standings: board seats ranked by stock vs the S&P 500 · Boardtape" } };
 
 const LINK = "text-accent-ink hover:underline underline-offset-2";
 
@@ -135,6 +136,9 @@ export default async function Home({ searchParams }: PageProps<"/">) {
             )}
           </>
         )}
+
+        {/* Executive pay, across companies */}
+        <PayTeaser />
 
         {/* 8. How the standings work */}
         <HowItWorks stats={stats} scope={scope} />

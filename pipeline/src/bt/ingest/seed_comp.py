@@ -34,6 +34,24 @@ class CompStats:
     pvp_rows: int = 0
 
 
+PVP_AMOUNT_FIELDS = ["non_peo_avg_sct_total", "non_peo_avg_cap"]
+
+
+def amount(row: dict, field: str) -> float | None:
+    """A dollar figure, converting ones the filing printed in millions (`<field>_usd_millions`)."""
+    if row.get(field) is not None:
+        return row[field]
+    m = row.get(f"{field}_usd_millions")
+    return None if m is None else round(m * 1_000_000)
+
+
+def printed(row: dict, field: str) -> float | None:
+    """The figure as it appears in the filing's table (millions stay millions), for quote checks."""
+    if row.get(field) is not None:
+        return row[field]
+    return row.get(f"{field}_usd_millions")
+
+
 def numbers_in(text: str) -> set[float]:
     return {float(m.group(1).replace(",", "") + ("." + m.group(2) if m.group(2) else ""))
             for m in _NUMBER.finditer(text)}
@@ -63,8 +81,14 @@ def missing_amounts(quote: str, year: int, amounts: list[float]) -> list[float]:
     return best
 
 
-def _fy_end(fy: int, mmdd: str) -> date:
-    m, d = (int(x) for x in mmdd.split("-"))
+def fy_end_for(data: dict, fy: int, row: dict | None = None) -> date:
+    """A fiscal year's last day: the row's own date, else the file's per-year map (52/53-week
+    years such as NVIDIA's late-January ends), else the file's month-day."""
+    if row and row.get("fiscal_year_end"):
+        return date.fromisoformat(row["fiscal_year_end"])
+    if str(fy) in data.get("fiscal_year_ends", {}):
+        return date.fromisoformat(data["fiscal_year_ends"][str(fy)])
+    m, d = (int(x) for x in data.get("fiscal_year_end", "12-31").split("-"))
     return date(fy, m, d)
 
 
@@ -99,8 +123,8 @@ def check_file(data: dict, quote_ok: dict[str, bool] | None = None) -> list[str]
         if e is None:
             problems.append(f"{tag}: unknown evidence ref {r['evidence_ref']}")
             continue
-        amounts = [x for p in r["peos"] for x in (p["sct_total"], p["cap"])] + [
-            r.get("non_peo_avg_sct_total"), r.get("non_peo_avg_cap"), r.get("tsr_value_of_100")]
+        amounts = [printed(p, f) for p in r["peos"] for f in ("sct_total", "cap")] + [
+            printed(r, f) for f in PVP_AMOUNT_FIELDS] + [r.get("tsr_value_of_100")]
         found = numbers_in(normalize_for_match(e["quote"]))
         miss = [a for a in amounts if a and float(abs(a)) not in found]
         if miss:
@@ -184,14 +208,13 @@ def load(conn: psycopg.Connection, path: Path) -> CompStats:
     conn.execute("DELETE FROM executive_position WHERE company_id = %s AND NOT is_locked AND NOT (id = ANY(%s))",
                  (company_id, keep))
 
-    fy_mmdd = data.get("fiscal_year_end", "12-31")
     conn.execute("DELETE FROM executive_comp WHERE company_id = %s", (company_id,))
     for r in data["comp"]:
         cid = conn.execute(
             f"""INSERT INTO executive_comp (company_id, person_id, fiscal_year, fiscal_year_end, source_document_id,
                   evidence_id, listed_title, notes, {", ".join(COMP_FIELDS)})
                 VALUES (%s, %s, %s, %s, %s, %s, %s, %s, {", ".join(["%s"] * len(COMP_FIELDS))}) RETURNING id""",
-            (company_id, person_id[r["person_key"]], r["fiscal_year"], _fy_end(r["fiscal_year"], fy_mmdd),
+            (company_id, person_id[r["person_key"]], r["fiscal_year"], fy_end_for(data, r["fiscal_year"], r),
              ev_doc[r["evidence_ref"]], ev_id[r["evidence_ref"]], r.get("listed_title"), r.get("notes") or None,
              *[r[f] for f in COMP_FIELDS]),
         ).fetchone()["id"]
@@ -202,12 +225,14 @@ def load(conn: psycopg.Connection, path: Path) -> CompStats:
     for r in data.get("pay_vs_performance", []):
         doc = ev_doc[r["evidence_ref"]]
         conn.execute(
-            """INSERT INTO pay_vs_performance (source_document_id, fiscal_year, company_id, evidence_id,
-                 non_peo_avg_sct_total, non_peo_avg_cap, tsr_value_of_100, peer_tsr_value_of_100, peer_group,
-                 tsr_base_date, net_income_usd, company_selected_measure, company_selected_measure_value, notes)
-               VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)""",
-            (doc, r["fiscal_year"], company_id, ev_id[r["evidence_ref"]], r.get("non_peo_avg_sct_total"),
-             r.get("non_peo_avg_cap"), r.get("tsr_value_of_100"), r.get("peer_tsr_value_of_100"), r.get("peer_group"),
+            """INSERT INTO pay_vs_performance (source_document_id, fiscal_year, fiscal_year_end, company_id,
+                 evidence_id, non_peo_avg_sct_total, non_peo_avg_cap, tsr_value_of_100, peer_tsr_value_of_100,
+                 peer_group, tsr_base_date, net_income_usd, company_selected_measure, company_selected_measure_value,
+                 notes)
+               VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)""",
+            (doc, r["fiscal_year"], fy_end_for(data, r["fiscal_year"]), company_id, ev_id[r["evidence_ref"]],
+             amount(r, "non_peo_avg_sct_total"), amount(r, "non_peo_avg_cap"), r.get("tsr_value_of_100"),
+             r.get("peer_tsr_value_of_100"), r.get("peer_group"),
              _parse_long_date(r.get("tsr_base_date")), r.get("net_income_usd"), r.get("company_selected_measure"),
              r.get("company_selected_measure_value"), r.get("notes") or None),
         )
@@ -215,7 +240,7 @@ def load(conn: psycopg.Connection, path: Path) -> CompStats:
             conn.execute(
                 """INSERT INTO pay_vs_performance_peo (source_document_id, fiscal_year, person_id, sct_total, cap)
                    VALUES (%s, %s, %s, %s, %s)""",
-                (doc, r["fiscal_year"], person_id[p["person_key"]], p["sct_total"], p["cap"]))
+                (doc, r["fiscal_year"], person_id[p["person_key"]], amount(p, "sct_total"), amount(p, "cap")))
         st.pvp_rows += 1
     conn.execute(
         """DELETE FROM evidence_link el WHERE subject_type IN ('executive_position', 'executive_comp')
