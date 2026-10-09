@@ -6,6 +6,11 @@ quotes. Boardtape measures every director's tenure and every named executive's p
 the S&P 500 (via SPY total return), and sets reported executive pay beside it. Each board date and
 pay figure cites the SEC filing it came from.
 
+The same app also serves **Heads I Win** (`web/src/app/hiw/`), a companion site on executive pay
+when shareholders lose: a screen of every proxy's pay-versus-performance table, golden parachutes
+and executives who were rehired after large shareholder losses. Locally it answers on
+http://absurd.localhost:3107 (set `HIW_HOSTS` for other hostnames).
+
 The numbers are descriptive. They don't imply that a director or executive caused a company's
 performance. See [docs/methodology.md](docs/methodology.md).
 

@@ -202,6 +202,36 @@ table (Item 402(v)), whose "compensation actually paid" marks equity awards to y
 quality check compares the table's cumulative shareholder return with our total-return index over
 the same dates.
 
+## Board pay
+
+**Director pay** is the proxy's Director Compensation table: what each non-employee director was paid
+for the fiscal year (cash fees, stock and option awards at grant-date value, other pay). Board cost is
+the sum over directors; the newest filing's figures are used.
+
+**Does pay follow the stock?** Each board-year's median director pay is compared with the year
+before, split by how the stock did against the S&P 500 in that prior year, when the year's pay was
+set. Boards whose pay was stopped for reasons unrelated to results (Tesla, under a court settlement
+over earlier director awards) are left out of this comparison. The sample is small; the page reports
+counts and medians, not a fitted effect.
+
+**What stock data can detect.** A seat's per-year result against the S&P 500 has a standard error of
+about σ ÷ √years, where σ is the annualized standard deviation of the stock's daily return minus
+SPY's since 2016. The smallest effect a single seat could distinguish from chance is about twice
+that, at the company's median scored seat length. A director's break-even, the value they'd have to
+add to cover their pay, is their pay as a share of the company's market value. Because every director
+on a board shares one stock, no stock-return record can split a result between them.
+
+## Heads I Win (the companion site)
+
+The companion site screens every company that files Item 402(v) pay-versus-performance tables, using
+the SEC's XBRL frames (one value per company per period, from the latest filing that reports it):
+CEO reported pay, CEO compensation actually paid, and cumulative TSR ($100 invested at the table's
+start). For each company the screen uses the latest proxy's own table, summing pay over exactly the
+years that table's TSR covers. A company is named on the site only after the proxy behind it has been
+fetched and every figure shown has been matched to a fact in that filing. Years with two CEOs are
+tagged per person and are left out of the sums, which understates pay. Exit packages and
+"failing up" cases are researched filing by filing with machine-verified quotes, like board dates.
+
 ## Confidence
 
 | level | rule |

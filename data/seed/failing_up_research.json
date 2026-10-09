@@ -1,0 +1,1533 @@
+{
+ "as_of": "2026-10-08",
+ "method": "Candidates came from (a) known CEO/NEO moves 2015-2025 and (b) EDGAR full-text searches of 8-K Item 5.02 announcements for phrases such as 'most recently served as Chief Executive Officer of', 'previously served as Chairman and Chief Executive Officer of', and 'Chief Financial Officer of <company>' / 'Chief Executive Officer of <company>' for companies whose stock fell. Every fact was then checked in filings only (no news): the A-company stock test uses A's 10-K Item 5 performance-graph table or proxy pay-versus-performance TSR, B's pay uses B's proxy Summary Compensation Table, and tenure/exit dates use 8-Ks and proxies. A case qualifies when a tabulated window whose base date and end point both fall inside the person's CEO/NEO tenure at A shows a loss of at least 40% or a shortfall of at least 50 points against an index or peer group in the same table, and the person became CEO/NEO of a US-listed B within 3 years of leaving A. To avoid cherry-picked windows, a case was rejected if a longer or earlier in-tenure table window in A's own filings showed outperformance or fell below the threshold. Cases were also rejected when tables were image-only, row labels were missing, or B's pay appeared only outside a proxy. Quotes are verbatim from bt.text.document_text output (whitespace normalized). Exit pay is recorded only where a filing quantifies it.",
+ "cases": [
+  {
+   "id": "case-01",
+   "person": {
+    "name": "Marvin R. Ellison",
+    "sec_cik": "0001350382"
+   },
+   "from": {
+    "company": "J. C. Penney Company, Inc.",
+    "cik": "0001166126",
+    "ticker": "JCP",
+    "role": "President and CEO-Designee (from Nov 2014), Chief Executive Officer (from Aug 2015), Chairman (from Aug 2016)",
+    "start": "2014-11-01",
+    "end": "2018-06-01",
+    "exit_description": "resigned ('resigning as the Company's Chairman of the Board, effective immediately, and as the Company's Chief Executive Officer and a director ... effective June 1, 2018'; 'not a result of any disagreement')",
+    "stock": {
+     "company_value_of_100": 49.0,
+     "comparison_name": "S&P 500",
+     "comparison_value_of_100": 147.0,
+     "period_start": "2015-01-31",
+     "period_end": "2018-02-03",
+     "evidence_refs": [
+      "f001",
+      "f002",
+      "f003",
+      "f004"
+     ]
+    },
+    "exit_pay": {
+     "total": null,
+     "description": "No severance disclosed; JCPenney's proxy covering fiscal 2018 says NEOs who left voluntarily in fiscal 2018 received no fiscal 2018 bonus and forfeited their annual long-term equity incentive awards.",
+     "evidence_refs": [
+      "f008"
+     ]
+    }
+   },
+   "to": {
+    "company": "Lowe's Companies, Inc.",
+    "cik": "0000060667",
+    "ticker": "LOW",
+    "role": "President and Chief Executive Officer",
+    "start": "2018-07-02",
+    "pay": [
+     {
+      "fiscal_year": 2018,
+      "total": 14302791,
+      "evidence_ref": "f011"
+     }
+    ]
+   },
+   "notes": "Table points are fiscal year-ends (last trading day); the '2015' column is the fiscal 2014 base (FY ended Jan 31, 2015) and the '2018' column is fiscal 2017 (FY ended Feb 3, 2018). Ellison was a named executive officer from fiscal 2014 (f005), so the whole window lies within his tenure. Tenure dates also in f006, f010; departure f007; Lowe's appointment f009."
+  },
+  {
+   "id": "case-02",
+   "person": {
+    "name": "Brenton L. (Brent) Saunders",
+    "sec_cik": "0001268854"
+   },
+   "from": {
+    "company": "Allergan plc (formerly Actavis plc)",
+    "cik": "0001578845",
+    "ticker": "AGN",
+    "role": "President and Chief Executive Officer (Chairman from Oct 2016)",
+    "start": "2014-07",
+    "end": "2020-05",
+    "exit_description": "roles ended when Allergan was acquired by AbbVie Inc. ('he held these roles until 2020 when Allergan was acquired by AbbVie Inc.')",
+    "stock": {
+     "company_value_of_100": 78.05,
+     "comparison_name": "S&P 500",
+     "comparison_value_of_100": 173.86,
+     "period_start": "2014-12-31",
+     "period_end": "2019-12-31",
+     "evidence_refs": [
+      "f012",
+      "f013"
+     ]
+    },
+    "exit_pay": {
+     "total": 38662295,
+     "description": "Estimate from Allergan's merger proxy golden-parachute table ('Change in Control Compensation'): cash $14,882,877, equity $23,625,381, perquisites/benefits $154,037, total $38,662,295, assuming a qualifying termination immediately after closing. The actual amount paid at the May 2020 closing is not stated in the filings reviewed.",
+     "evidence_refs": [
+      "f014",
+      "f017",
+      "f018"
+     ]
+    }
+   },
+   "to": {
+    "company": "Bausch + Lomb Corporation",
+    "cik": "0001860742",
+    "ticker": "BLCO",
+    "role": "Chairman of the Board and Chief Executive Officer",
+    "start": "2023-03-06",
+    "pay": [
+     {
+      "fiscal_year": 2023,
+      "total": 45309051,
+      "evidence_ref": "f019"
+     }
+    ]
+   },
+   "notes": "Tenure per B+L proxy (f014) and B+L release (f015); B+L start date f016. Between Allergan and B+L he co-founded and chaired the SPAC Vesper Healthcare (f014). B+L was a majority-owned, separately NYSE-listed subsidiary of Bausch Health at the time."
+  },
+  {
+   "id": "case-03",
+   "person": {
+    "name": "Joseph R. Hinrichs",
+    "sec_cik": "0001422651"
+   },
+   "from": {
+    "company": "Ford Motor Company",
+    "cik": "0000037996",
+    "ticker": "F",
+    "role": "Named executive officer: President of the Americas (2012-2017), President of Global Operations (2017-2019), President, Automotive (2019-2020)",
+    "start": "2012",
+    "end": "2020-03-01",
+    "exit_description": "retired ('Effective March 1, 2020, Mr. Hinrichs retired from Ford')",
+    "stock": {
+     "company_value_of_100": 81.0,
+     "comparison_name": "S&P 500",
+     "comparison_value_of_100": 174.0,
+     "period_start": "2014-12-31",
+     "period_end": "2019-12-31",
+     "evidence_refs": [
+      "f020",
+      "f021"
+     ]
+    },
+    "exit_pay": {
+     "total": 8219479,
+     "description": "Ford's 2020 proxy table of 'incremental benefits paid to him as a result of his retirement' totals $8,219,479 (pro-rata bonus estimate $291,667, performance units $2,068,825, RSUs $5,837,533, vehicles $21,454). Separately the Committee approved severance equal to two years' base salary paid ratably, ceasing if re-employed; that amount is not quantified in the quoted table.",
+     "evidence_refs": [
+      "f024",
+      "f025"
+     ]
+    }
+   },
+   "to": {
+    "company": "CSX Corporation",
+    "cik": "0000277948",
+    "ticker": "CSX",
+    "role": "President and Chief Executive Officer",
+    "start": "2022-09-26",
+    "pay": [
+     {
+      "fiscal_year": 2022,
+      "total": 8348517,
+      "evidence_ref": "f028"
+     }
+    ]
+   },
+   "notes": "Named executive officer in Ford's proxies for 2014 (f022) and 2019 (f023); roles/dates per CSX 8-K (f027). CSX appointment f026 (within 3 years of the March 2020 retirement)."
+  },
+  {
+   "id": "case-04",
+   "person": {
+    "name": "Martin J. Schroeter",
+    "sec_cik": "0001594465"
+   },
+   "from": {
+    "company": "International Business Machines Corporation",
+    "cik": "0000051143",
+    "ticker": "IBM",
+    "role": "Named executive officer: SVP and Chief Financial Officer (2014-2017), SVP Global Markets (2018-2020)",
+    "start": "2014",
+    "end": "2020-06-30",
+    "exit_description": "retired ('decided to retire from the Company on June 30, 2020, after a 28-year career with IBM')",
+    "stock": {
+     "company_value_of_100": 101.93,
+     "comparison_name": "S&P 500 Stock Index",
+     "comparison_value_of_100": 173.86,
+     "period_start": "2014-12-31",
+     "period_end": "2019-12-31",
+     "evidence_refs": [
+      "f029",
+      "f030"
+     ]
+    },
+    "exit_pay": {
+     "total": null,
+     "description": "No separation payment disclosed in the IBM filings reviewed.",
+     "evidence_refs": []
+    }
+   },
+   "to": {
+    "company": "Kyndryl Holdings, Inc.",
+    "cik": "0001867072",
+    "ticker": "KD",
+    "role": "Chairman and Chief Executive Officer",
+    "start": "2021-01",
+    "pay": [
+     {
+      "fiscal_year": 2021,
+      "total": 26377162,
+      "evidence_ref": "f037"
+     }
+    ]
+   },
+   "notes": "Qualifies on the shortfall test (IBM $101.93 vs S&P 500 $173.86; vs S&P IT $250.89), not on the loss test. NEO for 2014 (f031) and 2019 (f032); retirement announced in an 8-K (f033). Caveat: B is IBM's own spin-off. He rejoined IBM in January 2021 in a non-executive-officer role as CEO-designate of the business that became Kyndryl (f034, f035); Kyndryl listed November 2021, and its 2021 SCT includes amounts paid by IBM before November 3, 2021 (f036)."
+  },
+  {
+   "id": "case-05",
+   "person": {
+    "name": "Bernardo Hees",
+    "sec_cik": "0001552354"
+   },
+   "from": {
+    "company": "The Kraft Heinz Company",
+    "cik": "0001637459",
+    "ticker": "KHC",
+    "role": "Chief Executive Officer",
+    "start": "2015-07",
+    "end": "2019-06",
+    "exit_description": "left the company ('will leave the Company effective June 30, 2019 to focus on other projects as a Partner of 3G Capital'); severance paid under separation agreement",
+    "stock": {
+     "company_value_of_100": 67.49,
+     "comparison_name": "S&P 500",
+     "comparison_value_of_100": 129.11,
+     "period_start": "2015-07-06",
+     "period_end": "2018-12-28",
+     "evidence_refs": [
+      "f038",
+      "f039"
+     ]
+    },
+    "exit_pay": {
+     "total": 1000000,
+     "description": "Separation pay of $1,000,000 (12 months' base salary) in the 2019 All Other Compensation table, plus a pro-rata 2019 annual bonus at 85% performance (2019 non-equity incentive compensation $1,084,000).",
+     "evidence_refs": [
+      "f041",
+      "f042",
+      "f043"
+     ]
+    }
+   },
+   "to": {
+    "company": "Avis Budget Group, Inc.",
+    "cik": "0000723612",
+    "ticker": "CAR",
+    "role": "Executive Chairman",
+    "start": "2020-07",
+    "pay": [
+     {
+      "fiscal_year": 2020,
+      "total": 3823124,
+      "evidence_ref": "f045"
+     },
+     {
+      "fiscal_year": 2021,
+      "total": 5009036,
+      "evidence_ref": "f045"
+     }
+    ]
+   },
+   "notes": "Kraft Heinz's 10-K window starts on the company's first trading day (July 6, 2015), i.e. the start of his CEO tenure. Qualifies on the shortfall test, not the loss test. Departure f040; Avis role and KHC dates f044. Executive Chairman is an NEO in Avis's SCT."
+  },
+  {
+   "id": "case-06",
+   "person": {
+    "name": "Richard Dickson",
+    "sec_cik": "0001482551"
+   },
+   "from": {
+    "company": "Mattel, Inc.",
+    "cik": "0000063276",
+    "ticker": "MAT",
+    "role": "Named executive officer: Chief Brands Officer (May 2014), President and Chief Operating Officer (Apr 2015 - Aug 2023)",
+    "start": "2014-05-20",
+    "end": "2023-08-03",
+    "exit_description": "stepped down / voluntary termination ('will step down from his position effective August 3, 2023 to take the role of president and chief executive officer at another public company')",
+    "stock": {
+     "company_value_of_100": 50.95,
+     "comparison_name": "S&P 500",
+     "comparison_value_of_100": 173.8,
+     "period_start": "2014-12-31",
+     "period_end": "2019-12-31",
+     "evidence_refs": [
+      "f046",
+      "f047"
+     ]
+    },
+    "exit_pay": {
+     "total": null,
+     "description": "No severance disclosed; not eligible for a 2023 MIP payout and forfeited 2023 LTI awards on voluntary termination.",
+     "evidence_refs": [
+      "f051",
+      "f052"
+     ]
+    }
+   },
+   "to": {
+    "company": "The Gap, Inc.",
+    "cik": "0000039911",
+    "ticker": "GAP",
+    "role": "President and Chief Executive Officer",
+    "start": "2023-08-22",
+    "pay": [
+     {
+      "fiscal_year": 2023,
+      "total": 14365008,
+      "evidence_ref": "f054"
+     }
+    ]
+   },
+   "notes": "The Dec 2014 base is the first table base after his May 2014 start (f049). A later Mattel table with a Dec 2017 base (f048) also shows Mattel below the S&P 500 at every year-end ($115.99 vs $156.77 at Dec 2022), though by less than 50 points at 2022. Departure f050; Gap appointment f053."
+  },
+  {
+   "id": "case-07",
+   "person": {
+    "name": "Mala Murthy",
+    "sec_cik": "0001780955"
+   },
+   "from": {
+    "company": "Teladoc Health, Inc.",
+    "cik": "0001477449",
+    "ticker": "TDOC",
+    "role": "Chief Financial Officer (also acting CEO April-June 2024)",
+    "start": "2019-06",
+    "end": "2025-11-21",
+    "exit_description": "resigned ('Ms. Murthy resigned from the Company effective on November 21, 2025')",
+    "stock": {
+     "company_value_of_100": 11.0,
+     "comparison_name": "S&P 500 Health Care Index (pay-versus-performance peer group TSR)",
+     "comparison_value_of_100": 147.0,
+     "period_start": "2019-12-31",
+     "period_end": "2024-12-31",
+     "evidence_refs": [
+      "f055",
+      "f057",
+      "f059"
+     ]
+    },
+    "exit_pay": {
+     "total": null,
+     "description": "No severance disclosed for her resignation in the Teladoc proxy covering 2025.",
+     "evidence_refs": [
+      "f062"
+     ]
+    }
+   },
+   "to": {
+    "company": "TriNet Group, Inc.",
+    "cik": "0000937098",
+    "ticker": "TNET",
+    "role": "Executive Vice President and Chief Financial Officer",
+    "start": "2025-11-28",
+    "pay": [
+     {
+      "fiscal_year": 2025,
+      "total": 5242062,
+      "evidence_ref": "f063"
+     }
+    ]
+   },
+   "notes": "Source is the proxy's pay-versus-performance table (Teladoc's 10-K graph is image-only). The PvP text does not restate its base date; the table's first year is 2020, so under Item 402(v) the $100 base is the last trading day of 2019, consistent with the 10-K's five-year period (f059). The 2020 value was $239 (f056) before falling to $11 by 2024. Tenure f061, acting-CEO period f058, TriNet appointment f060."
+  },
+  {
+   "id": "case-08",
+   "person": {
+    "name": "Neill P. Reynolds",
+    "sec_cik": "0001748095"
+   },
+   "from": {
+    "company": "Wolfspeed, Inc. (formerly Cree, Inc.)",
+    "cik": "0000895419",
+    "ticker": "WOLF",
+    "role": "Executive Vice President and Chief Financial Officer",
+    "start": "2018-08-27",
+    "end": "2025-05-29",
+    "exit_description": "departure agreed with the company; 'separated from the Company effective May 29, 2025' under a Separation Agreement and Release of Claims",
+    "stock": {
+     "company_value_of_100": 40.5,
+     "comparison_name": "Nasdaq Composite Index",
+     "comparison_value_of_100": 230.8,
+     "period_start": "2019-06-28",
+     "period_end": "2024-06-30",
+     "evidence_refs": [
+      "f064",
+      "f065"
+     ]
+    },
+    "exit_pay": {
+     "total": 100000,
+     "description": "Sole separation payment: a $100,000 lump sum (superseding an earlier agreement for 12 months' salary and target bonus).",
+     "evidence_refs": [
+      "f067",
+      "f069"
+     ]
+    }
+   },
+   "to": {
+    "company": "Ralliant Corporation",
+    "cik": "0002041385",
+    "ticker": "RAL",
+    "role": "Senior Vice President - Chief Financial Officer",
+    "start": "2025-06-02",
+    "pay": [
+     {
+      "fiscal_year": 2025,
+      "total": 4802096,
+      "evidence_ref": "f071"
+     }
+    ]
+   },
+   "notes": "Both tests met: a loss of more than 40% and a shortfall against Nasdaq ($230.80) and the Philadelphia Semiconductor Index ($402.02). June 2019 is the first table base after his August 2018 start (f066). Departure f067, f068; Ralliant appointment f070."
+  },
+  {
+   "id": "case-09",
+   "person": {
+    "name": "Sanjeev Narula",
+    "sec_cik": "0001820590"
+   },
+   "from": {
+    "company": "Viatris Inc.",
+    "cik": "0001792044",
+    "ticker": "VTRS",
+    "role": "Chief Financial Officer",
+    "start": "2020-11",
+    "end": "2024-03-05",
+    "exit_description": "departed; severance 'based on a termination without cause'",
+    "stock": {
+     "company_value_of_100": 77.34,
+     "comparison_name": "S&P 500",
+     "comparison_value_of_100": 153.35,
+     "period_start": "2020-11-16",
+     "period_end": "2023-12-31",
+     "evidence_refs": [
+      "f072",
+      "f073"
+     ]
+    },
+    "exit_pay": {
+     "total": 3700000,
+     "description": "Severance of $3,700,000 (two times base salary and target bonus) plus $84,522 in lieu of accrued vacation; pro-rata 2024 bonus and pro-rata PRSUs also described.",
+     "evidence_refs": [
+      "f076",
+      "f077"
+     ]
+    }
+   },
+   "to": {
+    "company": "Phathom Pharmaceuticals, Inc.",
+    "cik": "0001783183",
+    "ticker": "PHAT",
+    "role": "Chief Financial and Business Officer",
+    "start": "2025-10-06",
+    "pay": [
+     {
+      "fiscal_year": 2025,
+      "total": 3617962,
+      "evidence_ref": "f078"
+     }
+    ]
+   },
+   "notes": "Viatris's window runs from its first day of trading after the Mylan/Upjohn combination, i.e. his whole CFO tenure. Qualifies on the shortfall test (S&P 500 $153.35; Dow Jones U.S. Pharmaceuticals $141.08), not the loss test. In between he was CFO of Intra-Cellular Therapies from Aug 2024 to Apr 2025 (f075). That company was acquired before filing a proxy with him in its SCT, so B is Phathom (f074), within 3 years of his March 2024 departure from Viatris."
+  }
+ ],
+ "evidence": [
+  {
+   "id": "f001",
+   "form": "10-K",
+   "accession": "0001166126-20-000022",
+   "filing_date": "2020-03-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/1166126/000116612620000022/jcp-0201202010k.htm",
+   "quote": "The graph assumes $100 invested at the closing price of our common stock on the NYSE and each index as of the last trading day of our fiscal year 2014 and assumes that all dividends, if applicable, were reinvested on the date paid. The points on the graph represent fiscal year-end amounts based on the last trading day of each fiscal year.",
+   "supports": "JCPenney performance graph base: last trading day of fiscal 2014, dividends reinvested"
+  },
+  {
+   "id": "f002",
+   "form": "10-K",
+   "accession": "0001166126-20-000022",
+   "filing_date": "2020-03-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/1166126/000116612620000022/jcp-0201202010k.htm",
+   "quote": "2015 2016 2017 2018 2019 2020 JCPenney $100 $100 $89 $49 $18 $10 S&P 500 100 99 120 147 147 179 S&P Department Stores 100 72 58 72 76 54",
+   "supports": "JCPenney $100 -> $49 vs S&P 500 $147 at the fiscal 2017 year-end point (column labeled 2018)"
+  },
+  {
+   "id": "f003",
+   "form": "10-K",
+   "accession": "0001166126-15-000013",
+   "filing_date": "2015-03-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/1166126/000116612615000013/jcp-0131201510k.htm",
+   "quote": "For the fiscal year ended January 31, 2015",
+   "supports": "Fiscal 2014 (graph base year) ended January 31, 2015"
+  },
+  {
+   "id": "f004",
+   "form": "10-K",
+   "accession": "0001166126-18-000014",
+   "filing_date": "2018-03-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/1166126/000116612618000014/jcp-0203201810k.htm",
+   "quote": "For the fiscal year ended February 3, 2018",
+   "supports": "Fiscal 2017 (the 2018 graph column) ended February 3, 2018"
+  },
+  {
+   "id": "f005",
+   "form": "DEF 14A",
+   "accession": "0001193125-15-101787",
+   "filing_date": "2015-03-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/1166126/000119312515101787/d857803ddef14a.htm",
+   "quote": "fiscal year ended January 31, 2015, our named executive officers consisted of the following individuals. On October 13, 2014, we announced that Marvin R. Ellison would be joining the Company as President and CEO-Designee, effective November 1, 2014. Name Title Myron E. Ullman, III Chief Executive Officer Marvin R. Ellison President and CEO-Designee",
+   "supports": "Ellison was a JCPenney named executive officer from fiscal 2014 (joined November 1, 2014)"
+  },
+  {
+   "id": "f006",
+   "form": "DEF 14A",
+   "accession": "0001193125-15-101787",
+   "filing_date": "2015-03-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/1166126/000119312515101787/d857803ddef14a.htm",
+   "quote": "on November 1, 2014, Marvin R. Ellison joined the Company as President and CEO-Designee. Mr. Ellison will become Chief Executive Officer on August 1, 2015.",
+   "supports": "Ellison start dates at JCPenney"
+  },
+  {
+   "id": "f007",
+   "form": "8-K",
+   "accession": "0001166126-18-000021",
+   "filing_date": "2018-05-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1166126/000116612618000021/jcpenney8-kmay2018.htm",
+   "quote": "Marvin R. Ellison is resigning as the Company’s Chairman of the Board, effective immediately, and as the Company’s Chief Executive Officer and a director of the Company, effective June 1, 2018. Mr. Ellison’s resignation is not a result of any disagreement with the Company or its management.",
+   "supports": "Ellison resigned from JCPenney effective June 1, 2018"
+  },
+  {
+   "id": "f008",
+   "form": "DEF 14A",
+   "accession": "0001193125-19-094713",
+   "filing_date": "2019-04-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/1166126/000119312519094713/d646995ddef14a.htm",
+   "quote": "None of the named executive officers who left the Company voluntarily before the end of fiscal 2018 received any payout under the annual cash bonus program for fiscal 2018. These individuals also forfeited their annual long-term equity incentive awards upon departure.",
+   "supports": "No fiscal 2018 bonus and forfeited annual LTI awards for voluntary departures (incl. Ellison)"
+  },
+  {
+   "id": "f009",
+   "form": "8-K",
+   "accession": "0001193125-18-170222",
+   "filing_date": "2018-05-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/60667/000119312518170222/d577212d8k.htm",
+   "quote": "On May 20, 2018, the Board of Directors of Lowe’s Companies, Inc. (the “Company”) appointed Marvin R. Ellison as President and Chief Executive Officer, in each case, effective as of July 2, 2018",
+   "supports": "Ellison became Lowe's President and CEO effective July 2, 2018"
+  },
+  {
+   "id": "f010",
+   "form": "DEF 14A",
+   "accession": "0001193125-19-110021",
+   "filing_date": "2019-04-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/60667/000119312519110021/d687530ddef14a.htm",
+   "quote": "Mr. Ellison has served as President and Chief Executive Officer of Lowe’s since July 2018. Mr. Ellison previously served as Chief Executive Officer of J. C. Penney Company, Inc., a department store retailer, from August 2015 to May 2018 and Chairman of the Board from August 2016 to May 2018. He served as President of J. C. Penney from November 2014 to July 2015.",
+   "supports": "Ellison's JCPenney roles and dates per Lowe's proxy"
+  },
+  {
+   "id": "f011",
+   "form": "DEF 14A",
+   "accession": "0001193125-19-110021",
+   "filing_date": "2019-04-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/60667/000119312519110021/d687530ddef14a.htm",
+   "quote": "Marvin R. Ellison President and Chief Executive Officer 2018 864,423 1,712,912 7,643,542 3,881,205 0 200,709 14,302,791",
+   "supports": "Lowe's Summary Compensation Table: Ellison fiscal 2018 total $14,302,791"
+  },
+  {
+   "id": "f012",
+   "form": "10-K",
+   "accession": "0001564590-20-005038",
+   "filing_date": "2020-02-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/1578845/000156459020005038/agn-10k_20191231.htm",
+   "quote": "The graph tracks the performance of a $100 investment in our Ordinary Shares and in each of the indexes (with reinvestment of all dividends, if any) on December 31, 2014 with relative performance tracked through December 31, 2019.",
+   "supports": "Allergan graph base December 31, 2014 through December 31, 2019"
+  },
+  {
+   "id": "f013",
+   "form": "10-K",
+   "accession": "0001564590-20-005038",
+   "filing_date": "2020-02-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/1578845/000156459020005038/agn-10k_20191231.htm",
+   "quote": "12/14 12/15 12/16 12/17 12/18 12/19 Allergan plc $ 100.00 $ 121.40 $ 81.59 $ 64.38 $ 53.52 $ 78.05 S&P 500 $ 100.00 $ 101.38 $ 113.51 $ 138.29 $ 132.23 $ 173.86",
+   "supports": "Allergan $100 -> $78.05 vs S&P 500 $173.86 (Dec 2014 - Dec 2019)"
+  },
+  {
+   "id": "f014",
+   "form": "DEF 14A",
+   "accession": "0001308179-24-000628",
+   "filing_date": "2024-04-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1860742/000130817924000628/lblco2024_def14a.htm",
+   "quote": "has served as our Chairman of the Board and Chief Executive Officer since March 2023. He is currently the Chairman of The Beauty Health Company. He was Co-Founder and Chairman of Vesper Healthcare Acquisitions Corp., a specialty purpose acquisition company from July 2020 to May 2021. He was Chairman, President and Chief Executive Officer of Allergan and served in the role of President and Chief Executive Officer from July 2014 to May 2020 and Chairman from October 2016 to May 2020",
+   "supports": "Saunders' Allergan tenure (July 2014 - May 2020) and B+L role since March 2023"
+  },
+  {
+   "id": "f015",
+   "form": "8-K",
+   "accession": "0001193125-23-039729",
+   "filing_date": "2023-02-15",
+   "url": "https://www.sec.gov/Archives/edgar/data/1860742/000119312523039729/d451228dex991.htm",
+   "quote": "His role as president and CEO of Allergan began in 2014 and his added role of chairman began in 2016; he held these roles until 2020 when Allergan was acquired by AbbVie Inc.",
+   "supports": "Saunders' Allergan roles ended with the AbbVie acquisition in 2020"
+  },
+  {
+   "id": "f016",
+   "form": "8-K",
+   "accession": "0001193125-23-040332",
+   "filing_date": "2023-02-15",
+   "url": "https://www.sec.gov/Archives/edgar/data/885590/000119312523040332/d807348d8k.htm",
+   "quote": "issued a press release announcing, among other things, the appointment of Brent Saunders as Chief Executive Officer and chair of the board of directors of Bausch + Lomb, effective March 6, 2023",
+   "supports": "Saunders' B+L start date (March 6, 2023)"
+  },
+  {
+   "id": "f017",
+   "form": "DEFM14A",
+   "accession": "0001193125-19-245800",
+   "filing_date": "2019-09-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1578845/000119312519245800/d788814ddefm14a.htm",
+   "quote": "each named executive officer experiences a termination without cause or resigns with good reason immediately following the completion of the transaction; and",
+   "supports": "Golden-parachute table assumption (qualifying termination at closing)"
+  },
+  {
+   "id": "f018",
+   "form": "DEFM14A",
+   "accession": "0001193125-19-245800",
+   "filing_date": "2019-09-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1578845/000119312519245800/d788814ddefm14a.htm",
+   "quote": "Change in Control Compensation Name Cash ($)(1) Equity ($)(2) Pension/ NQDC ($)(3) Perquisites/ Benefits ($)(4) Tax Reimbursement ($)(5) Total ($) Brenton L. Saunders 14,882,877 23,625,381 — 154,037 — 38,662,295",
+   "supports": "Estimated change-in-control compensation for Saunders: $38,662,295"
+  },
+  {
+   "id": "f019",
+   "form": "DEF 14A",
+   "accession": "0001308179-24-000628",
+   "filing_date": "2024-04-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1860742/000130817924000628/lblco2024_def14a.htm",
+   "quote": "Brenton L. Saunders(6) Chairman of the Board and Chief Executive Officer 2023 1,396,923 6,500,000 27,870,000 7,305,493 2,181,436 55,199 45,309,051",
+   "supports": "B+L Summary Compensation Table: Saunders 2023 total $45,309,051"
+  },
+  {
+   "id": "f020",
+   "form": "10-K",
+   "accession": "0000037996-20-000010",
+   "filing_date": "2020-02-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799620000010/f1231201910-k.htm",
+   "quote": "The following graph compares the cumulative total shareholder return on our Common Stock with the total return on the S&P 500 Index and the Dow Jones Automobiles & Parts Titans 30 Index for the five year period ended December 31, 2019. It shows the growth of a $100 investment on December 31, 2014, including the reinvestment of all dividends.",
+   "supports": "Ford graph base December 31, 2014 through December 31, 2019"
+  },
+  {
+   "id": "f021",
+   "form": "10-K",
+   "accession": "0000037996-20-000010",
+   "filing_date": "2020-02-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799620000010/f1231201910-k.htm",
+   "quote": "2014 2015 2016 2017 2018 2019 Ford Motor Company 100 95 87 95 62 81 S&P 500 100 101 114 138 132 174",
+   "supports": "Ford $100 -> $81 vs S&P 500 $174 (Dec 2014 - Dec 2019)"
+  },
+  {
+   "id": "f022",
+   "form": "DEF 14A",
+   "accession": "0001047469-15-002836",
+   "filing_date": "2015-03-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/37996/000104746915002836/a2223357zdef14a.htm",
+   "quote": "Named Executives are: • Mark Fields, President and Chief Executive Officer* • Robert L. Shanks, Executive Vice President and Chief Financial Officer • William Clay Ford, Jr., Executive Chairman • Joseph R. Hinrichs, Executive Vice President — The Americas",
+   "supports": "Hinrichs was a Ford named executive officer for 2014"
+  },
+  {
+   "id": "f023",
+   "form": "DEF 14A",
+   "accession": "0001047469-20-002039",
+   "filing_date": "2020-04-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/37996/000104746920002039/a2240860zdef14a.htm",
+   "quote": "• Joseph R. Hinrichs, President, Automotive***",
+   "supports": "Hinrichs was a Ford named executive officer for 2019"
+  },
+  {
+   "id": "f024",
+   "form": "DEF 14A",
+   "accession": "0001047469-20-002039",
+   "filing_date": "2020-04-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/37996/000104746920002039/a2240860zdef14a.htm",
+   "quote": "March 1, 2020, Mr. Hinrichs retired from Ford. In addition to the compensation and benefits Mr. Hinrichs is entitled to receive as a retirement eligible executive at Ford, the Committee approved certain compensation and benefits for Mr. Hinrichs as follows: (i) severance payments equal to two-year's base salary to be paid ratably over two years, which payments will cease if Mr. Hinrichs is re-employed during that time and (ii) benefits under our Select Retirement Plan",
+   "supports": "Hinrichs retired March 1, 2020; severance of two years' base salary approved"
+  },
+  {
+   "id": "f025",
+   "form": "DEF 14A",
+   "accession": "0001047469-20-002039",
+   "filing_date": "2020-04-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/37996/000104746920002039/a2240860zdef14a.htm",
+   "quote": "The table below shows the incremental benefits paid to him as a result of his retirement. Joseph R. Hinrichs Compensation: Incentive Bonus Plan 1 291,667 Performance Units 2 2,068,825 Restricted Stock Units 3 5,837,533 Evaluation Vehicles 4 21,454 Total: 8,219,479",
+   "supports": "Incremental retirement benefits for Hinrichs: $8,219,479"
+  },
+  {
+   "id": "f026",
+   "form": "8-K",
+   "accession": "0000950103-22-015759",
+   "filing_date": "2022-09-15",
+   "url": "https://www.sec.gov/Archives/edgar/data/277948/000095010322015759/dp180343_8k.htm",
+   "quote": "its Board of Directors appointed Joseph R. Hinrichs as the Company’s new President and Chief Executive Officer, and as a member of the Board of Directors, effective September 26, 2022.",
+   "supports": "Hinrichs became CSX President and CEO effective September 26, 2022"
+  },
+  {
+   "id": "f027",
+   "form": "8-K",
+   "accession": "0000950103-22-015759",
+   "filing_date": "2022-09-15",
+   "url": "https://www.sec.gov/Archives/edgar/data/277948/000095010322015759/dp180343_8k.htm",
+   "quote": "previously serving as President of Ford Motor Company’s global automotive business, from 2019 to 2020. In that role, Mr. Hinrichs led the company’s $160 billion automotive operations, and he previously held other positions at Ford, including President of Global Operations (from 2017 to 2019), President of the Americas (from 2012 to 2017) and President of Asia Pacific and Africa (from 2009 to 2012).",
+   "supports": "Hinrichs' Ford roles and dates"
+  },
+  {
+   "id": "f028",
+   "form": "DEF 14A",
+   "accession": "0000277948-23-000015",
+   "filing_date": "2023-03-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/277948/000027794823000015/csx-20230324.htm",
+   "quote": "Joseph R. Hinrichs(1) President and Chief Executive Officer 2022 376,515 — 7,000,026 — 852,806 — 119,170 8,348,517",
+   "supports": "CSX Summary Compensation Table: Hinrichs 2022 total $8,348,517"
+  },
+  {
+   "id": "f029",
+   "form": "10-K (Exhibit 13)",
+   "accession": "0001558370-20-001334",
+   "filing_date": "2020-02-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/51143/000155837020001334/ibm-20191231xex13907c3.htm",
+   "quote": "Each graph assumes $100 invested on December 31 (of the initial year shown in the graph) in IBM common stock and $100 invested on the same date in each of the S&P indices. The comparisons assume that all dividends are reinvested.",
+   "supports": "IBM graph base convention (Dec 31 of initial year, dividends reinvested)"
+  },
+  {
+   "id": "f030",
+   "form": "10-K (Exhibit 13)",
+   "accession": "0001558370-20-001334",
+   "filing_date": "2020-02-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/51143/000155837020001334/ibm-20191231xex13907c3.htm",
+   "quote": "(U.S. Dollar) 2014 2015 2016 2017 2018 2019 International Business Machines $ 100.00 $ 88.59 $ 110.90 $ 106.49 $ 82.49 $ 101.93 S & P 500 100.00 101.38 113.51 138.29 132.23 173.86 S & P Information Technology 100.00 105.92 120.59 167.42 166.94 250.89",
+   "supports": "IBM $100 -> $101.93 vs S&P 500 $173.86 and S&P IT $250.89 (Dec 2014 - Dec 2019)"
+  },
+  {
+   "id": "f031",
+   "form": "DEF 14A",
+   "accession": "0001104659-15-018205",
+   "filing_date": "2015-03-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/51143/000110465915018205/a15-1543_1def14a.htm",
+   "quote": "2014 Compensation Decisions for Messrs. Schroeter, Keverian, Mills and Kelly The Compensation Committee also made decisions for the following named executive officers, noting the key points below: Martin J. Schroeter, Senior Vice President and Chief Financial Officer",
+   "supports": "Schroeter was an IBM named executive officer for 2014 (as CFO)"
+  },
+  {
+   "id": "f032",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-067199",
+   "filing_date": "2020-03-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/51143/000119312520067199/d845103ddef14a.htm",
+   "quote": "2019 Annual Incentive Decisions for Mr. Kavanaugh, Mr. Schroeter, Dr. Kelly, and Ms. Browdy The Compensation Committee also made decisions for the following named executive officers (NEOs)",
+   "supports": "Schroeter was an IBM named executive officer for 2019"
+  },
+  {
+   "id": "f033",
+   "form": "8-K",
+   "accession": "0001104659-20-044219",
+   "filing_date": "2020-04-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/51143/000110465920044219/tm2015115-1_8k.htm",
+   "quote": "Item 5.02(b). Departure of Named Executive Officer. On April 3, 2020, Martin J. Schroeter, Senior Vice President, Global Markets, Global Financing, Marketing & Communications, decided to retire from the Company on June 30, 2020, after a 28-year career with IBM.",
+   "supports": "Schroeter retired from IBM June 30, 2020"
+  },
+  {
+   "id": "f034",
+   "form": "8-K",
+   "accession": "0001104659-21-009428",
+   "filing_date": "2021-01-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/51143/000110465921009428/tm214501d1_8k.htm",
+   "quote": "As previously disclosed by the Company, Mr. Schroeter retired on June 30, 2020. In January 2021, he rejoined the Company in a non-Executive Officer role as Chief Executive Officer of the independent company that will be created following the separation of the Company's Managed Infrastructure Services business.",
+   "supports": "Schroeter rejoined IBM in January 2021 to lead the business that became Kyndryl"
+  },
+  {
+   "id": "f035",
+   "form": "DEF 14A",
+   "accession": "0001104659-22-071028",
+   "filing_date": "2022-06-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/1867072/000110465922071028/tm2133863-2_def14a.htm",
+   "quote": "Mr. Schroeter was named the first chief executive officer of Kyndryl in January 2021. Previously, Mr. Schroeter served in a variety of business line and finance executive positions at IBM including senior vice president of global markets from 2018 until 2020",
+   "supports": "Schroeter named Kyndryl CEO January 2021; IBM roles"
+  },
+  {
+   "id": "f036",
+   "form": "DEF 14A",
+   "accession": "0001104659-22-071028",
+   "filing_date": "2022-06-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/1867072/000110465922071028/tm2133863-2_def14a.htm",
+   "quote": "The following table presents summary information regarding the total compensation awarded to, earned by, or paid to each of our NEOs for their service in fiscal 2021. Prior to November 3, 2021, such amounts were paid by IBM. Beginning November 3, 2021, such amounts were paid by us.",
+   "supports": "Kyndryl 2021 SCT includes pre-spin amounts paid by IBM"
+  },
+  {
+   "id": "f037",
+   "form": "DEF 14A",
+   "accession": "0001104659-22-071028",
+   "filing_date": "2022-06-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/1867072/000110465922071028/tm2133863-2_def14a.htm",
+   "quote": "Martin Schroeter Chairman and Chief Executive Officer 2021 962,122 300,000 18,849,141 4,198,987 2,000,000 — 66,912 26,377,162 13,062,081",
+   "supports": "Kyndryl Summary Compensation Table: Schroeter 2021 total $26,377,162"
+  },
+  {
+   "id": "f038",
+   "form": "10-K",
+   "accession": "0001637459-19-000049",
+   "filing_date": "2019-06-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/1637459/000163745919000049/form10-k2018.htm",
+   "quote": "This graph covers the period from July 6, 2015 (the first day our common stock began trading on Nasdaq) through December 28, 2018 (the last trading day of our fiscal year 2018). The graph shows total shareholder return assuming $100 was invested on July 6, 2015 and the dividends were reinvested on a daily basis.",
+   "supports": "Kraft Heinz graph base July 6, 2015 through December 28, 2018"
+  },
+  {
+   "id": "f039",
+   "form": "10-K",
+   "accession": "0001637459-19-000049",
+   "filing_date": "2019-06-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/1637459/000163745919000049/form10-k2018.htm",
+   "quote": "Kraft Heinz S&P 500 S&P Consumer Staples Food and Soft Drink Products July 6, 2015 $ 100.00 $ 100.00 $ 100.00 December 31, 2015 102.07 99.85 110.18 December 30, 2016 125.99 111.79 114.98 December 29, 2017 115.44 136.20 128.53 December 28, 2018 67.49 129.11 121.93",
+   "supports": "Kraft Heinz $100 -> $67.49 vs S&P 500 $129.11 (Jul 2015 - Dec 2018)"
+  },
+  {
+   "id": "f040",
+   "form": "8-K",
+   "accession": "0001637459-19-000029",
+   "filing_date": "2019-04-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1637459/000163745919000029/form8-kitem502.htm",
+   "quote": "On April 22, 2019, the Company announced that Bernardo Hees, the Company's Chief Executive Officer, will leave the Company effective June 30, 2019 to focus on other projects as a Partner of 3G Capital.",
+   "supports": "Hees' departure from Kraft Heinz"
+  },
+  {
+   "id": "f041",
+   "form": "DEF 14A",
+   "accession": "0001637459-20-000046",
+   "filing_date": "2020-03-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1637459/000163745920000046/kraft-heinzproxy2020.htm",
+   "quote": "On June 5, 2019, the Committee approved the following severance terms for Mr. Hees, which became payable pursuant to Mr. Hees’ separation agreement and subject to his execution of a release of claims against Kraft Heinz: (1) a severance payment equal to 12 months of base salary, and (2) a pro-rata payment of his annual bonus under the PBP assuming performance at 85%",
+   "supports": "Hees severance terms"
+  },
+  {
+   "id": "f042",
+   "form": "DEF 14A",
+   "accession": "0001637459-20-000046",
+   "filing_date": "2020-03-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1637459/000163745920000046/kraft-heinzproxy2020.htm",
+   "quote": "Separation Pay(e) ($) Tax Support and Payments ($) Total ($) Mr. Patricio 19,600 475,506 1,710 23,124 18,230 152,308 — — 690,478 Mr. Hees 19,600 42,536 1,311 149,457 — — 1,000,000 — 1,212,904",
+   "supports": "Hees separation pay $1,000,000 (All Other Compensation table)"
+  },
+  {
+   "id": "f043",
+   "form": "DEF 14A",
+   "accession": "0001637459-20-000046",
+   "filing_date": "2020-03-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1637459/000163745920000046/kraft-heinzproxy2020.htm",
+   "quote": "Bernardo Hees, Former Chief Executive Officer 2019 536,538 — — — 1,084,000 — 1,212,904 2,833,442",
+   "supports": "Hees 2019 SCT row at Kraft Heinz (non-equity incentive $1,084,000)"
+  },
+  {
+   "id": "f044",
+   "form": "DEF 14A",
+   "accession": "0001140361-22-013779",
+   "filing_date": "2022-04-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/723612/000114036122013779/ny20003130x1_def14a.htm",
+   "quote": "Mr. Hees, age 52, has been a director since February 2020 and Executive Chairman since July 2020. Previously, Mr. Hees served as Chief Executive Officer of The Kraft Heinz Company from 2015 to June 2019.",
+   "supports": "Hees became Avis Budget Executive Chairman July 2020; KHC CEO 2015 - June 2019"
+  },
+  {
+   "id": "f045",
+   "form": "DEF 14A",
+   "accession": "0001140361-22-013779",
+   "filing_date": "2022-04-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/723612/000114036122013779/ny20003130x1_def14a.htm",
+   "quote": "Hees, Bernardo Executive Chairman 2021 500,000 500,000 3,500,010 — 500,000 — 9,026 5,009,036 2020 229,616 — 3,519,262 — — — 74,246 3,823,124",
+   "supports": "Avis Budget Summary Compensation Table: Hees 2020 $3,823,124; 2021 $5,009,036"
+  },
+  {
+   "id": "f046",
+   "form": "10-K",
+   "accession": "0001628280-20-002192",
+   "filing_date": "2020-02-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/63276/000162828020002192/mat1231201910-k.htm",
+   "quote": "The Cumulative Total Return listed below assumes an initial investment of $100 on December 31, 2014 and reinvestment of dividends.",
+   "supports": "Mattel graph base December 31, 2014"
+  },
+  {
+   "id": "f047",
+   "form": "10-K",
+   "accession": "0001628280-20-002192",
+   "filing_date": "2020-02-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/63276/000162828020002192/mat1231201910-k.htm",
+   "quote": "December 31, 2014 2015 2016 2017 2018 2019 Cumulative Total Return: Mattel, Inc. $ 100.00 $ 93.43 $ 99.45 $ 57.83 $ 37.56 $ 50.95 S&P 500 $ 100.00 $ 101.37 $ 113.49 $ 138.26 $ 132.19 $ 173.80",
+   "supports": "Mattel $100 -> $50.95 vs S&P 500 $173.80 (Dec 2014 - Dec 2019)"
+  },
+  {
+   "id": "f048",
+   "form": "10-K",
+   "accession": "0001628280-23-004416",
+   "filing_date": "2023-02-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/63276/000162828023004416/mat-20221231.htm",
+   "quote": "2017 2018 2019 2020 2021 2022 Cumulative Total Return: Mattel, Inc. $ 100.00 $ 64.95 $ 88.10 $ 113.46 $ 140.18 $ 115.99 S&P 500 $ 100.00 $ 95.61 $ 125.70 $ 148.81 $ 191.48 $ 156.77",
+   "supports": "Later Mattel window (base Dec 2017) also below the S&P 500 at every year-end"
+  },
+  {
+   "id": "f049",
+   "form": "DEF 14A",
+   "accession": "0001193125-15-123925",
+   "filing_date": "2015-04-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/63276/000119312515123925/d856437ddef14a.htm",
+   "quote": "Richard Dickson Chief Brands Officer (on May 20, 2014, Mr. Dickson commenced employment with us as Chief Brands Officer; on January 13, 2015, he was promoted to President, Chief Brands Officer; on April 2, 2015, he was promoted to President and Chief Operating Officer)",
+   "supports": "Dickson listed among Mattel named executives for 2014; start May 20, 2014"
+  },
+  {
+   "id": "f050",
+   "form": "8-K",
+   "accession": "0001628280-23-025710",
+   "filing_date": "2023-07-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/63276/000162828023025710/mat-20230721.htm",
+   "quote": "On July 21, 2023, Mattel’s President and Chief Operating Officer, Richard Dickson, informed the Company that he will step down from his position effective August 3, 2023 to take the role of president and chief executive officer at another public company.",
+   "supports": "Dickson stepped down from Mattel effective August 3, 2023"
+  },
+  {
+   "id": "f051",
+   "form": "DEF 14A",
+   "accession": "0001628280-24-016582",
+   "filing_date": "2024-04-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/63276/000162828024016582/mattel2024proxy.htm",
+   "quote": "In connection with Mr. Dickson’s voluntary termination of employment in August 2023, he was not eligible to earn a payout under the 2023 MIP.",
+   "supports": "No 2023 annual bonus on departure"
+  },
+  {
+   "id": "f052",
+   "form": "DEF 14A",
+   "accession": "0001628280-24-016582",
+   "filing_date": "2024-04-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/63276/000162828024016582/mattel2024proxy.htm",
+   "quote": "Mr. Dickson forfeited his 2023 LTI awards in connection with his voluntary termination of employment in August 2023.",
+   "supports": "Forfeited 2023 LTI on departure"
+  },
+  {
+   "id": "f053",
+   "form": "8-K",
+   "accession": "0000039911-23-000082",
+   "filing_date": "2023-07-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/39911/000003991123000082/gps-20230718.htm",
+   "quote": "On July 18, 2023, the Board of Directors (the \"Board\") of The Gap, Inc. (the \"Company\") appointed Richard Dickson as the Company's Chief Executive Officer (\"CEO\") and President, effective August 22, 2023",
+   "supports": "Dickson became Gap CEO effective August 22, 2023"
+  },
+  {
+   "id": "f054",
+   "form": "DEF 14A",
+   "accession": "0000950170-24-037000",
+   "filing_date": "2024-03-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/39911/000095017024037000/gps-20240326.htm",
+   "quote": "Richard Dickson 2023 697,159 — 11,542,892 — 1,802,511 — 322,446 14,365,008 President and CEO, Gap Inc.",
+   "supports": "Gap Summary Compensation Table: Dickson fiscal 2023 total $14,365,008"
+  },
+  {
+   "id": "f055",
+   "form": "DEF 14A",
+   "accession": "0001477449-25-000040",
+   "filing_date": "2025-04-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1477449/000147744925000040/tdoc-20250408.htm",
+   "quote": "Value of Initial Fixed $100 Investment Based On: ($) Net Loss ($ thousands) Company- Selected Measure: Revenue ($ thousands)(5) Total Shareholder Return Peer Group Total Shareholder Return(4) 2024 9,366,276 (1,253,029) 5,230,694 (1,085,718) 16,061,267 5,304,696 3,215,121 (1,060,253) 11 147 (1,001,245) 2,569,574",
+   "supports": "Teladoc pay-versus-performance: TSR $11 vs peer group $147 for 2024"
+  },
+  {
+   "id": "f056",
+   "form": "DEF 14A",
+   "accession": "0001477449-25-000040",
+   "filing_date": "2025-04-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1477449/000147744925000040/tdoc-20250408.htm",
+   "quote": "2020 8,455,584 54,668,602 — — — — 2,614,048 12,280,174 239 113 (485,136) 1,093,962",
+   "supports": "Teladoc PvP 2020 row (first year of table): TSR $239 vs peer $113"
+  },
+  {
+   "id": "f057",
+   "form": "DEF 14A",
+   "accession": "0001477449-25-000040",
+   "filing_date": "2025-04-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1477449/000147744925000040/tdoc-20250408.htm",
+   "quote": "(4)The peer group used for calculating Peer Group Total Shareholder Return is the S&P 500 Health Care Index.",
+   "supports": "PvP peer group is the S&P 500 Health Care Index"
+  },
+  {
+   "id": "f058",
+   "form": "DEF 14A",
+   "accession": "0001477449-25-000040",
+   "filing_date": "2025-04-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1477449/000147744925000040/tdoc-20250408.htm",
+   "quote": "Mr. Gorevic was our CEO from 2020 to April 2024, Ms. Murthy was our acting CEO from April 2024 to June 2024, and Mr. Divita was our CEO from June 2024 to December 2024.",
+   "supports": "Murthy was acting CEO April-June 2024"
+  },
+  {
+   "id": "f059",
+   "form": "10-K",
+   "accession": "0001477449-25-000005",
+   "filing_date": "2025-02-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1477449/000147744925000005/tdoc-20241231.htm",
+   "quote": "The following graph compares the cumulative total stockholder return on our common stock with the comparable cumulative total return of the Russell 2000 Composite Index and the S&P 500 Health Care Index for each of the five fiscal years ended December 31, 2024, assuming an investment of $100 at the beginning of such period",
+   "supports": "Teladoc's five-year measurement period 2020-2024 starts at the beginning of fiscal 2020 (10-K graph itself is image-only)"
+  },
+  {
+   "id": "f060",
+   "form": "8-K",
+   "accession": "0000937098-25-000184",
+   "filing_date": "2025-10-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/937098/000093709825000184/tnet-20251023.htm",
+   "quote": "On October 23, 2025, the Company's Board of Directors (the “Board”) appointed Ms. Mala Murthy as the Chief Financial Officer and Executive Vice-President of the Company, effective November 28, 2025 (the “Effective Date”).",
+   "supports": "Murthy became TriNet CFO effective November 28, 2025"
+  },
+  {
+   "id": "f061",
+   "form": "8-K",
+   "accession": "0000937098-25-000184",
+   "filing_date": "2025-10-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/937098/000093709825000184/tnet-20251023.htm",
+   "quote": "Ms. Murthy, age 61, will have served as Chief Financial Officer of Teladoc Health, Inc. from June 2019 until November 2025.",
+   "supports": "Murthy Teladoc CFO tenure June 2019 - November 2025"
+  },
+  {
+   "id": "f062",
+   "form": "DEF 14A",
+   "accession": "0001477449-26-000020",
+   "filing_date": "2026-04-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/1477449/000147744926000020/tdoc-20260406.htm",
+   "quote": "(1)Ms. Murthy resigned from the Company effective on November 21, 2025.",
+   "supports": "Murthy resigned from Teladoc November 21, 2025"
+  },
+  {
+   "id": "f063",
+   "form": "DEF 14A",
+   "accession": "0000937098-26-000018",
+   "filing_date": "2026-04-15",
+   "url": "https://www.sec.gov/Archives/edgar/data/937098/000093709826000018/tnet-20260413.htm",
+   "quote": "Mala Murthy Executive Vice President, Chief Financial Officer 2025 54,167 560,548(4) 4,600,098 — 27,249(5) 5,242,062",
+   "supports": "TriNet Summary Compensation Table: Murthy 2025 total $5,242,062"
+  },
+  {
+   "id": "f064",
+   "form": "10-K",
+   "accession": "0000895419-24-000062",
+   "filing_date": "2024-08-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/895419/000089541924000062/wolf-20240630.htm",
+   "quote": "The following graph and related table compare the cumulative total return on our common stock with the cumulative total returns of the Nasdaq Composite Index and the Philadelphia Semiconductor Index, assuming an investment of $100.00 on June 28, 2019 and the reinvestment of dividends.",
+   "supports": "Wolfspeed graph base June 28, 2019"
+  },
+  {
+   "id": "f065",
+   "form": "10-K",
+   "accession": "0000895419-24-000062",
+   "filing_date": "2024-08-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/895419/000089541924000062/wolf-20240630.htm",
+   "quote": "6/28/2019 6/28/2020 6/27/2021 6/26/2022 6/25/2023 6/30/2024 Wolfspeed, Inc. $100.00 $102.78 $175.49 $127.09 $88.01 $40.50 Nasdaq Composite Index 100.00 123.12 182.53 148.57 174.25 230.80 Philadelphia Semiconductor Index 100.00 134.13 229.27 194.74 254.85 402.02",
+   "supports": "Wolfspeed $100 -> $40.50 vs Nasdaq Composite $230.80 (Jun 2019 - Jun 2024)"
+  },
+  {
+   "id": "f066",
+   "form": "8-K",
+   "accession": "0000895419-18-000054",
+   "filing_date": "2018-07-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/895419/000089541918000054/form8k072318.htm",
+   "quote": "approved the appointment of Mr. Neill Reynolds, 43, as the Executive Vice President and Chief Financial Officer (“CFO”) of the Company, effective August 27, 2018 (the “Start Date”).",
+   "supports": "Reynolds' Cree/Wolfspeed start date"
+  },
+  {
+   "id": "f067",
+   "form": "8-K",
+   "accession": "0000895419-25-000041",
+   "filing_date": "2025-04-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/895419/000089541925000041/wolfspeed-20250426.htm",
+   "quote": "the Company and its Executive Vice President and Chief Financial Officer, Neill P. Reynolds, have agreed that he will be departing the Company effective May 30, 2025. Upon execution of a separation agreement, Mr. Reynolds will receive a one-time cash payment equal to the approximate value of twelve (12) months of Mr. Reynolds’ regular salary and an annual bonus at target",
+   "supports": "Reynolds' departure agreed"
+  },
+  {
+   "id": "f068",
+   "form": "DEF 14A",
+   "accession": "0000895419-25-000121",
+   "filing_date": "2025-10-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/895419/000089541925000121/wolf-20251023.htm",
+   "quote": "Mr. Reynolds, who previously served as our Executive Vice President and Chief Financial Officer, separated from the Company effective May 29, 2025.",
+   "supports": "Reynolds separated May 29, 2025"
+  },
+  {
+   "id": "f069",
+   "form": "DEF 14A",
+   "accession": "0000895419-25-000121",
+   "filing_date": "2025-10-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/895419/000089541925000121/wolf-20251023.htm",
+   "quote": "Pursuant to the Separation Agreement and Release of Claims, Mr. Reynolds’ sole separation payment and benefit was a single lump sum cash payment of $100,000 paid following the execution of a customary release of claims in favor of the Company.",
+   "supports": "Reynolds' exit pay: $100,000 lump sum"
+  },
+  {
+   "id": "f070",
+   "form": "8-K (Ex. 99.1)",
+   "accession": "0001104659-25-064115",
+   "filing_date": "2025-06-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/2041385/000110465925064115/tm2429554d14_ex99-1.htm",
+   "quote": "Mr. Reynolds’ appointment as Senior Vice President — Chief Financial Officer of Ralliant will be effective June 2, 2025. Prior to joining Ralliant, Mr. Reynolds served as Executive Vice President and Chief Financial Officer of Wolfspeed, Inc. from 2018 to 2025.",
+   "supports": "Reynolds became Ralliant CFO effective June 2, 2025"
+  },
+  {
+   "id": "f071",
+   "form": "DEF 14A",
+   "accession": "0002041385-26-000035",
+   "filing_date": "2026-04-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/2041385/000204138526000035/ral-20260422.htm",
+   "quote": "Neill Reynolds Senior Vice President – Chief Financial Officer 2025 348,558 500,000 1,775,375 1,791,735 328,603 — 57,825 4,802,096",
+   "supports": "Ralliant Summary Compensation Table: Reynolds 2025 total $4,802,096"
+  },
+  {
+   "id": "f072",
+   "form": "10-K",
+   "accession": "0001792044-24-000008",
+   "filing_date": "2024-02-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1792044/000179204424000008/vtrs-20231231.htm",
+   "quote": "The graph tracks the performance of a $100 investment in our common stock and in each index (with the reinvestment of all dividends) from November 16, 2020 to December 31, 2023.",
+   "supports": "Viatris graph base November 16, 2020 through December 31, 2023"
+  },
+  {
+   "id": "f073",
+   "form": "10-K",
+   "accession": "0001792044-24-000008",
+   "filing_date": "2024-02-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1792044/000179204424000008/vtrs-20231231.htm",
+   "quote": "November 16, 2020 December 31, 2020 December 31, 2021 December 31, 2022 December 31, 2023 Viatris Inc. 100.00 119.67 88.40 75.78 77.34 S&P 500 100.00 115.21 148.28 121.43 153.35 Dow Jones U.S. Pharmaceuticals 100.00 104.70 130.85 141.10 141.08",
+   "supports": "Viatris $100 -> $77.34 vs S&P 500 $153.35 (Nov 2020 - Dec 2023)"
+  },
+  {
+   "id": "f074",
+   "form": "8-K",
+   "accession": "0001193125-25-230984",
+   "filing_date": "2025-10-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/1783183/000119312525230984/d76139d8k.htm",
+   "quote": "Effective October 6, 2025, Sanjeev Narula was appointed as the Chief Financial and Business Officer of Phathom Pharmaceuticals, Inc. (the “Company”).",
+   "supports": "Narula became Phathom Chief Financial and Business Officer October 6, 2025"
+  },
+  {
+   "id": "f075",
+   "form": "8-K",
+   "accession": "0001193125-25-230984",
+   "filing_date": "2025-10-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/1783183/000119312525230984/d76139d8k.htm",
+   "quote": "Mr. Narula, age 65, served as Executive Vice President, Chief Financial Officer of Intra-Cellular Therapies, Inc., a publicly-traded biopharmaceutical company, from August 2024 until April 2025 when Intra-Cellular Therapies, Inc. was acquired by Johnson & Johnson. Mr. Narula previously served as Chief Financial Officer of Viatris Inc., a publicly-traded biopharmaceutical company, from November 2020, when Mylan N.V. combined with Pfizer Inc.’s Upjohn business to form Viatris Inc., until March 2024.",
+   "supports": "Narula's Viatris tenure (Nov 2020 - Mar 2024) and interim Intra-Cellular CFO role"
+  },
+  {
+   "id": "f076",
+   "form": "DEF 14A",
+   "accession": "0001140361-25-039263",
+   "filing_date": "2025-10-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1792044/000114036125039263/ny20055082x771_def14a.htm",
+   "quote": "Sanjeev Narula, our former Chief Financial Officer, departed from the Company effective March 5, 2024. Mr. Narula received severance benefits based on a termination without cause equal to two times his base salary and target bonus.",
+   "supports": "Narula departed Viatris March 5, 2024; termination without cause severance"
+  },
+  {
+   "id": "f077",
+   "form": "DEF 14A",
+   "accession": "0001140361-25-039263",
+   "filing_date": "2025-10-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1792044/000114036125039263/ny20055082x771_def14a.htm",
+   "quote": "For Mr. Narula, the amount reflects a severance amount of $3,700,000 and payment in lieu of accrued vacation ($84,522) in connection with his separation as an executive of the Company.",
+   "supports": "Narula exit pay: $3,700,000 severance plus $84,522 accrued vacation"
+  },
+  {
+   "id": "f078",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-144570",
+   "filing_date": "2026-04-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/1783183/000119312526144570/phat-20260406.htm",
+   "quote": "Sanjeev Narula 2025 131,442 — 1,671,840 1,726,000 81,494 7,186 3,617,962 Chief Financial and Business Officer",
+   "supports": "Phathom Summary Compensation Table: Narula 2025 total $3,617,962"
+  },
+  {
+   "id": "f079",
+   "form": "10-K",
+   "accession": "0000885590-22-000010",
+   "filing_date": "2022-02-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/885590/000088559022000010/bhc-20211231.htm",
+   "quote": "As of December 31, 2016 2017 2018 2019 2020 2021 Bausch Health Companies Inc. $100 $143 $127 $206 $143 $190 S&P 500 $100 $122 $116 $153 $181 $233",
+   "supports": "Bausch Health base Dec 2016: $190 vs S&P 500 $233 at Dec 2021; $206 vs $153 at Dec 2019"
+  },
+  {
+   "id": "f080",
+   "form": "10-K",
+   "accession": "0000885590-23-000009",
+   "filing_date": "2023-02-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/885590/000088559023000009/bhc-20221231.htm",
+   "quote": "As of December 31, 2017 2018 2019 2020 2021 2022 Bausch Health Companies Inc. $100 $89 $144 $100 $133 $30 S&P 500 $100 $96 $126 $149 $192 $157",
+   "supports": "Bausch Health base Dec 2017: $133 vs S&P 500 $192 at Dec 2021"
+  },
+  {
+   "id": "f081",
+   "form": "DEF 14A",
+   "accession": "0001193125-22-136867",
+   "filing_date": "2022-05-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/885590/000119312522136867/d296110ddef14a.htm",
+   "quote": "Mr. Papa has been Chairman of the Board and Chief Executive Officer of the Company since May 2016.",
+   "supports": "Papa BHC CEO since May 2016"
+  },
+  {
+   "id": "f082",
+   "form": "DEF 14A",
+   "accession": "0001140361-23-017057",
+   "filing_date": "2023-04-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/885590/000114036123017057/ny20007033x1_def14a.htm",
+   "quote": "Upon the occurrence of the B+L IPO in May 2022, Mr. Appio succeeded Mr. Papa as Chief Executive Officer of BHC",
+   "supports": "Papa ceased to be BHC CEO in May 2022"
+  },
+  {
+   "id": "f083",
+   "form": "10-K",
+   "accession": "0000950170-22-004076",
+   "filing_date": "2022-03-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/885639/000095017022004076/kss-20220129.htm",
+   "quote": "Jan 28, 2017 Feb 3, 2018 Feb 2, 2019 Feb 1, 2020 Jan 30, 2021 Jan 29, 2022 Kohl’s Corporation $100.00 $171.53 $186.59 $125.80 $134.46 $186.92 S&P 500 Index 100.00 122.83 122.76 149.23 174.97 211.72",
+   "supports": "Kohl's base Jan 2017: $186.92 vs S&P 500 $211.72 at Jan 2022"
+  },
+  {
+   "id": "f084",
+   "form": "10-K",
+   "accession": "0000950170-23-008444",
+   "filing_date": "2023-03-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/885639/000095017023008444/kss-20230128.htm",
+   "quote": "Feb 3, 2018 Feb 2, 2019 Feb 1, 2020 Jan 30, 2021 Jan 29, 2022 Jan 28, 2023 Kohl’s Corporation $100.00 $108.79 $73.34 $78.39 $108.98 $60.28 S&P 500 Index 100.00 99.94 121.49 142.45 172.36 160.94",
+   "supports": "Kohl's base Feb 2018: $108.98 vs S&P 500 $172.36 at Jan 2022"
+  },
+  {
+   "id": "f085",
+   "form": "10-K",
+   "accession": "0000950170-22-004076",
+   "filing_date": "2022-03-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/885639/000095017022004076/kss-20220129.htm",
+   "quote": "Ms. Gass has served as our Chief Executive Officer and as a director since May 2018. Ms. Gass was promoted to CEO-elect in October 2017. She was named Chief Merchandising and Customer Officer in June 2015, and joined the Company in 2013 as Chief Customer Officer.",
+   "supports": "Gass' Kohl's roles and dates"
+  },
+  {
+   "id": "f086",
+   "form": "10-K",
+   "accession": "0001434729-13-000004",
+   "filing_date": "2013-02-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/1434729/000143472913000004/hsni-123112x10k.htm",
+   "quote": "8/12/2008 12/31/2008 12/31/2009 12/31/2010 12/31/2011 12/31/2012 HSN, Inc. 100.00 66.70 185.23 281.19 333.87 513.66 S&P 500 Retailing Index 100.00 80.07 119.94 150.35 157.40 198.30",
+   "supports": "HSN from 2008 spin-off: $513.66 vs S&P 500 Retailing $198.30 at Dec 2012"
+  },
+  {
+   "id": "f087",
+   "form": "10-K",
+   "accession": "0001434729-17-000004",
+   "filing_date": "2017-02-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1434729/000143472917000004/hsni-123116x10kdoc.htm",
+   "quote": "12/31/2011 12/31/2012 12/31/2013 12/31/2014 12/31/2015 12/31/2016 HSN, Inc. 100.00 153.87 176.54 219.24 172.57 120.50 Russell 2000 Index 100.00 116.35 161.52 169.43 161.95 196.45",
+   "supports": "HSN base Dec 2011: $120.50 vs Russell 2000 $196.45 at Dec 2016"
+  },
+  {
+   "id": "f088",
+   "form": "10-K",
+   "accession": "0001193125-12-505211",
+   "filing_date": "2012-12-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/801898/000119312512505211/d413371d10k.htm",
+   "quote": "10/26/2007 10/31/2008 10/30/2009 10/29/2010 10/28/2011 10/26/2012 Joy Global Inc. 100 52 93 133 173 118 S&P 500 100 64 70 82 88 102",
+   "supports": "Joy Global base Oct 2007: $118 vs S&P 500 $102 at Oct 2012"
+  },
+  {
+   "id": "f089",
+   "form": "10-K",
+   "accession": "0000801898-16-000280",
+   "filing_date": "2016-12-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/801898/000080189816000280/joy-10282016x10xk.htm",
+   "quote": "10/28/2011 10/26/2012 10/25/2013 10/31/2014 10/30/2015 10/28/2016 Joy Global Inc. $ 100.00 $ 68.20 $ 65.19 $ 59.83 $ 19.98 $ 32.48 S&P 500 100.00 115.21 146.52 171.82 180.75 188.90",
+   "supports": "Joy Global base Oct 2011: $32.48 vs S&P 500 $188.90 at Oct 2016"
+  },
+  {
+   "id": "f090",
+   "form": "DEF 14A",
+   "accession": "0000801898-08-000038",
+   "filing_date": "2008-01-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/801898/000080189808000038/finalproxy.htm",
+   "quote": "Edward L. Doheny II, Mark E. Readinger, and Dennis R. Winkleman, who were the three most highly compensated executive officers, other than the Chief Executive Officer and Chief Financial Officer, in fiscal 2007.",
+   "supports": "Doheny was a Joy Global named executive officer for fiscal 2007"
+  },
+  {
+   "id": "f091",
+   "form": "8-K",
+   "accession": "0001193125-17-279249",
+   "filing_date": "2017-09-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/1012100/000119312517279249/d453079d8k.htm",
+   "quote": "Before becoming Chief Executive Officer of Joy Global in December 2013, he was an Executive Vice President at Joy Global, as well as President and Chief Operating Officer of its Underground Equipment division.",
+   "supports": "Doheny's Joy Global CEO start (December 2013)"
+  },
+  {
+   "id": "f092",
+   "form": "10-K",
+   "accession": "0001585583-19-000011",
+   "filing_date": "2019-03-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/1585583/000158558319000011/tacofy201810-k.htm",
+   "quote": "for the period January 8, 2014 (the first day our common stock was traded following our initial public offering) through January 1, 2019.",
+   "supports": "Del Taco graph base predates Paul Murphy's tenure as CEO of the listed company"
+  },
+  {
+   "id": "f093",
+   "form": "DEF 14A",
+   "accession": "0001193125-24-087279",
+   "filing_date": "2024-04-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/30697/000119312524087279/d544550ddef14a.htm",
+   "quote": "2023 8,596,408 1,412,451 2,746,501 686,555 97.84 163.00 204.4 535.9",
+   "supports": "Wendy's PvP 2023: TSR $97.84 vs peer $163.00 (base December 27, 2019)"
+  },
+  {
+   "id": "f094",
+   "form": "DEF 14A",
+   "accession": "0001193125-24-087279",
+   "filing_date": "2024-04-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/30697/000119312524087279/d544550ddef14a.htm",
+   "quote": "Assumes an initial investment of $100 on December 27, 2019, the last trading day of fiscal 2019 and a reinvestment of all dividends when received.",
+   "supports": "Wendy's PvP base date"
+  },
+  {
+   "id": "f095",
+   "form": "10-K",
+   "accession": "0001628280-24-007209",
+   "filing_date": "2024-02-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1811210/000162828024007209/lcid-20231231.htm",
+   "quote": "The following graph shows a comparison, from September 18, 2020 through December 31, 2023, of the cumulative total return on our common stock",
+   "supports": "Lucid graph base (Sept 18, 2020) predates Sherry House's May 2021 start"
+  },
+  {
+   "id": "f096",
+   "form": "8-K",
+   "accession": "0000037996-25-000009",
+   "filing_date": "2025-02-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799625000009/f-20250205.htm",
+   "quote": "Prior to joining Ford, Ms. House served as the Chief Financial Officer of Lucid Motors from May 2021 until December 2023.",
+   "supports": "Sherry House's Lucid tenure"
+  },
+  {
+   "id": "f097",
+   "form": "8-K",
+   "accession": "0001193125-22-298839",
+   "filing_date": "2022-12-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/1771917/000119312522298839/d433348d8k.htm",
+   "quote": "He previously served as Executive Vice President and Chief Commercial Officer of Allergan from May 2016 until Allergan’s acquisition by AbbVie Inc. in May 2020.",
+   "supports": "Bill Meury's Allergan tenure"
+  },
+  {
+   "id": "f098",
+   "form": "8-K",
+   "accession": "0001367644-24-000006",
+   "filing_date": "2024-02-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/1367644/000136764424000006/ebs-20240220.htm",
+   "quote": "appointed Joseph C. Papa as President and CEO of the Company, effective February 21, 2024.",
+   "supports": "Papa became Emergent BioSolutions CEO February 21, 2024"
+  },
+  {
+   "id": "f099",
+   "form": "DEF 14A",
+   "accession": "0001367644-25-000080",
+   "filing_date": "2025-03-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/1367644/000136764425000080/ebs-20250321.htm",
+   "quote": "Joseph Papa President, Chief Executive Officer and Director 2024 800,000 1,000,000 516,000 1,973,050 1,566,474 7,038 5,862,562",
+   "supports": "Emergent SCT: Papa 2024 total $5,862,562"
+  },
+  {
+   "id": "f100",
+   "form": "DEF 14A",
+   "accession": "0001308179-24-000628",
+   "filing_date": "2024-04-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1860742/000130817924000628/lblco2024_def14a.htm",
+   "quote": "For Mr. Papa, (i) a pro-rated payment to Mr. Papa in the amount of $1,200,000 in lieu of an annual bonus for 2023; (ii) a cash severance payment in the amount of $8 million; and (iii) $30,283 for continued health benefits for two years at active employee rates",
+   "supports": "Papa's severance from Bausch + Lomb"
+  },
+  {
+   "id": "f101",
+   "form": "DEF 14A",
+   "accession": "0001193125-18-108114",
+   "filing_date": "2018-04-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/1012100/000119312518108114/d554645ddef14a.htm",
+   "quote": "Edward L. Doheny II4 2017 335,417 0 2,030,800 502,180 13,500 2,881,896 Chief Operating Officer and CEO-Designate",
+   "supports": "Sealed Air SCT: Doheny 2017 total $2,881,896"
+  },
+  {
+   "id": "f102",
+   "form": "DEF 14A",
+   "accession": "0001193125-19-097192",
+   "filing_date": "2019-04-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/1012100/000119312519097192/d685314ddef14a.htm",
+   "quote": "Edward L. Doheny II 2018 1,150,000 0 7,725,109 0 59,118 8,934,227 President and CEO",
+   "supports": "Sealed Air proxy summary: Doheny 2018 total $8,934,227"
+  },
+  {
+   "id": "f103",
+   "form": "DEFM14A",
+   "accession": "0001047469-16-015233",
+   "filing_date": "2016-09-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/801898/000104746916015233/a2229566zdefm14a.htm",
+   "quote": "Named Executive Officer Cash ($)(1) Equity ($)(2) Perquisites / Benefits ($)(3) Total ($) Edward L. Doheny II 6,600,696 15,503,952 125,125 22,229,773",
+   "supports": "Joy Global merger-proxy parachute estimate for Doheny: $22,229,773"
+  },
+  {
+   "id": "f104",
+   "form": "8-K",
+   "accession": "0001144204-17-019159",
+   "filing_date": "2017-04-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/801898/000114420417019159/v463567_8k.htm",
+   "quote": "at the Effective Time, the employment of Edward L. Doheny II, President and Chief Executive Officer, James M. Sullivan, Chief Financial Officer, and Sean D. Major, Executive Vice President, General Counsel and Secretary were terminated. These employment terminations were treated as severance qualifying terminations for purposes of the employment agreements between each officer and the Company.",
+   "supports": "Doheny's Joy Global employment ended at the Komatsu merger (closing April 5, 2017)"
+  },
+  {
+   "id": "f105",
+   "form": "8-K",
+   "accession": "0001104659-23-005605",
+   "filing_date": "2023-01-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/1353283/000110465923005605/tm234144d1_8k.htm",
+   "quote": "From 2014 to 2021, Mr. Roberts served as Chief Financial Officer of Lyft, Inc., a transportation platform company",
+   "supports": "Brian Roberts' Lyft tenure"
+  },
+  {
+   "id": "f106",
+   "form": "10-K/A",
+   "accession": "0000950170-24-031505",
+   "filing_date": "2024-03-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/1771917/000095017024031505/krtx-20231231.htm",
+   "quote": "Bill Meury has served as our President and Chief Executive Officer, and as member of our board of directors, since January 2023.",
+   "supports": "Meury's Karuna role disclosed in a 10-K/A (Part III), not a proxy"
+  },
+  {
+   "id": "f107",
+   "form": "8-K",
+   "accession": "0001144204-17-019159",
+   "filing_date": "2017-04-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/801898/000114420417019159/v463567_8k.htm",
+   "quote": "the closing on April 5, 2017 (the “Closing Date”)",
+   "supports": "Joy Global/Komatsu merger closing date"
+  }
+ ],
+ "rejected": [
+  {
+   "name": "Joseph C. Papa (Bausch Health -> Emergent BioSolutions)",
+   "reason": "Ambiguous within tenure (BHC CEO since May 2016; succeeded in May 2022). The threshold is met only with a Dec 2017 base ($133 vs S&P 500 $192 at Dec 2021). The longer Dec 2016-based table shows $190 vs $233 at Dec 2021, below the 50-point bar, and BHC was ahead of the S&P 500 at Dec 2019 ($206 vs $153). B side checks out: Emergent CEO from Feb 21, 2024, 2024 SCT total $5,862,562; Bausch + Lomb severance included an $8 million cash payment.",
+   "evidence_refs": [
+    "f079",
+    "f080",
+    "f081",
+    "f082",
+    "f098",
+    "f099",
+    "f100"
+   ]
+  },
+  {
+   "name": "Michelle Gass (Kohl's -> Levi Strauss)",
+   "reason": "Ambiguous: the threshold is met only for the Feb 3, 2018 base ($108.98 vs S&P 500 $172.36 at Jan 29, 2022). The Jan 28, 2017-based table shows $186.92 vs $211.72 at Jan 29, 2022, below the 50-point bar. Kohl's sharpest drop appears at the Jan 28, 2023 point ($60.28), after her departure.",
+   "evidence_refs": [
+    "f083",
+    "f084",
+    "f085"
+   ]
+  },
+  {
+   "name": "Mindy Grossman (HSN -> Weight Watchers)",
+   "reason": "The Dec 2011 - Dec 2016 window shows a large shortfall ($120.50 vs Russell 2000 $196.45). But from the Aug 12, 2008 spin-off to Dec 2012, also within her CEO tenure, HSN was $513.66 vs S&P 500 Retailing $198.30, so the earlier part of her tenure contradicts the result.",
+   "evidence_refs": [
+    "f086",
+    "f087"
+   ]
+  },
+  {
+   "name": "Edward L. (Ted) Doheny II (Joy Global -> Sealed Air)",
+   "reason": "No Joy Global table period starts inside his CEO tenure (December 2013 to the April 5, 2017 merger closing). The Oct 2011 - Oct 2016 window ($32.48 vs S&P 500 $188.90) lies within his longer NEO tenure (an NEO for fiscal 2007), but the Oct 2007 - Oct 2012 window in that same NEO tenure shows Joy at $118 vs $102. B side: Sealed Air 2017 SCT $2,881,896 and 2018 $8,934,227; Joy merger-proxy parachute estimate $22,229,773.",
+   "evidence_refs": [
+    "f088",
+    "f089",
+    "f090",
+    "f091",
+    "f101",
+    "f102",
+    "f103",
+    "f104",
+    "f107"
+   ]
+  },
+  {
+   "name": "Irwin D. Simon (Hain Celestial -> Aphria/Tilray)",
+   "reason": "Hain's 10-K performance graphs for his final fiscal years are image-only, with no tabulated values to quote, and no pay-versus-performance table existed then.",
+   "evidence_refs": []
+  },
+  {
+   "name": "Stephen I. Chazen (Occidental -> Magnolia Oil & Gas)",
+   "reason": "Occidental's 10-K performance tables from his CEO years are unlabeled in the text; series names appear only in the graph image, so the company row can't be identified verbatim.",
+   "evidence_refs": []
+  },
+  {
+   "name": "William (Bill) Meury (Allergan -> Karuna Therapeutics)",
+   "reason": "A side qualifies (Allergan NEO; $78.05 vs S&P 500 $173.86, Dec 2014 - Dec 2019; at Allergan until the AbbVie acquisition in May 2020). His Karuna pay appears only in Karuna's FY2023 10-K/A Part III; no Karuna proxy reports it. Fails the 'proxy SCT' criterion as written.",
+   "evidence_refs": [
+    "f012",
+    "f013",
+    "f097",
+    "f106"
+   ]
+  },
+  {
+   "name": "Scott W. Wine (Polaris -> CNH Industrial)",
+   "reason": "The two Polaris tables checked cover only the late part of a long tenure, and earlier windows were not tested. CNH reported his early pay in a 20-F and 10-Ks; its first proxy SCT covers only his final, partial year.",
+   "evidence_refs": []
+  },
+  {
+   "name": "Todd Penegor (Wendy's -> Papa John's)",
+   "reason": "The Wendy's 10-Ks reviewed contain no tabulated graph. The only table is pay-versus-performance from Dec 27, 2019 ($97.84 vs peer $163.00 at 2023), which covers only part of his CEO tenure, so the full tenure can't be tested.",
+   "evidence_refs": [
+    "f093",
+    "f094"
+   ]
+  },
+  {
+   "name": "Paul J.B. Murphy III (Del Taco -> Red Robin)",
+   "reason": "Del Taco's graph base (Jan 8, 2014, the predecessor SPAC's first trading day) predates his tenure as CEO of the listed company, which began with the later business combination. No in-tenure base exists.",
+   "evidence_refs": [
+    "f092"
+   ]
+  },
+  {
+   "name": "Sherry House (Lucid -> Ford)",
+   "reason": "Lucid's graph base (September 18, 2020, the SPAC period) predates her May 2021 start, and the graph is image-only. No in-tenure table period exists.",
+   "evidence_refs": [
+    "f095",
+    "f096"
+   ]
+  },
+  {
+   "name": "Brian Roberts (Lyft -> Splunk)",
+   "reason": "Lyft's 10-K stock performance graphs are image-only, so no table value can be quoted; Lyft's pay-versus-performance tables were not checked.",
+   "evidence_refs": [
+    "f105"
+   ]
+  },
+  {
+   "name": "Matthew Harbaugh (Mallinckrodt -> NuVasive)",
+   "reason": "Mallinckrodt's 10-K performance graphs for his final years as CFO are image-only, with no tabulated values.",
+   "evidence_refs": []
+  }
+ ]
+}

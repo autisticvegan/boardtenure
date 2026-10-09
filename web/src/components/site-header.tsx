@@ -22,6 +22,7 @@ export function SiteHeader() {
           <SearchBox />
         </div>
         <nav className="hidden md:flex items-center gap-5 text-[13px] text-ink-2 ml-auto">
+          <Link className="hover:text-ink transition-colors" href="/boards">Boards</Link>
           <Link className="hover:text-ink transition-colors" href="/companies">Companies</Link>
           <Link className="hover:text-ink transition-colors" href="/methodology">Methodology</Link>
         </nav>

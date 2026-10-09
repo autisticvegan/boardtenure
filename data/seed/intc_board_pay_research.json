@@ -1,0 +1,3748 @@
+{
+  "company": {
+    "cik": "0000050863",
+    "ticker": "INTC"
+  },
+  "as_of": "2026-10-08",
+  "sources_reviewed_through": "2026-08-28 (latest filing in the EDGAR submissions feed fetched 2026-10-09 UTC)",
+  "fiscal_year_end": "12-28",
+  "fiscal_year_end_basis": "Copied from intc_exec_comp_research.json: Intel's 52/53-week fiscal year ends on the last Saturday in December; per-year end dates in fiscal_year_ends come from the 10-K covers.",
+  "fiscal_year_ends": {
+    "2016": "2016-12-31",
+    "2017": "2017-12-30",
+    "2018": "2018-12-29",
+    "2019": "2019-12-28",
+    "2020": "2020-12-26",
+    "2021": "2021-12-25",
+    "2022": "2022-12-31",
+    "2023": "2023-12-30",
+    "2024": "2024-12-28",
+    "2025": "2025-12-27"
+  },
+  "people": [
+    {
+      "key": "charlene-barshefsky",
+      "full_name": "Charlene Barshefsky",
+      "aliases": [
+        "BARSHEFSKY CHARLENE",
+        "Ambassador Barshefsky"
+      ],
+      "sec_cik": "0001145766",
+      "in_board_file": false
+    },
+    {
+      "key": "aneel-bhusri",
+      "full_name": "Aneel Bhusri",
+      "aliases": [
+        "BHUSRI ANEEL"
+      ],
+      "sec_cik": "0001196579",
+      "in_board_file": false
+    },
+    {
+      "key": "reed-hundt",
+      "full_name": "Reed E. Hundt",
+      "aliases": [
+        "Reed Hundt",
+        "HUNDT REED E",
+        "R. Hunt"
+      ],
+      "sec_cik": "0001188928",
+      "in_board_file": true
+    },
+    {
+      "key": "omar-ishrak",
+      "full_name": "Omar Ishrak",
+      "aliases": [
+        "Dr. Omar Ishrak",
+        "ISHRAK OMAR"
+      ],
+      "sec_cik": "0001523102",
+      "in_board_file": true
+    },
+    {
+      "key": "risa-lavizzo-mourey",
+      "full_name": "Risa J. Lavizzo-Mourey",
+      "aliases": [
+        "Dr. Risa Lavizzo-Mourey",
+        "Risa Lavizzo-Mourey",
+        "LAVIZZO-MOUREY RISA J"
+      ],
+      "sec_cik": "0001034465",
+      "in_board_file": true
+    },
+    {
+      "key": "tsu-jae-king-liu",
+      "full_name": "Tsu-Jae King Liu",
+      "aliases": [
+        "Dr. Tsu-Jae King Liu",
+        "Dr. Liu",
+        "Liu Tsu-Jae King"
+      ],
+      "sec_cik": "0001679204",
+      "in_board_file": true
+    },
+    {
+      "key": "david-pottruck",
+      "full_name": "David S. Pottruck",
+      "aliases": [
+        "POTTRUCK DAVID S",
+        "David Pottruck"
+      ],
+      "sec_cik": "0001185987",
+      "in_board_file": false
+    },
+    {
+      "key": "gregory-smith",
+      "full_name": "Gregory D. Smith",
+      "aliases": [
+        "Greg Smith",
+        "G. Smith",
+        "Smith Gregory D"
+      ],
+      "sec_cik": "0001484277",
+      "in_board_file": true
+    },
+    {
+      "key": "andrew-wilson",
+      "full_name": "Andrew Wilson",
+      "aliases": [
+        "Andrew M. Wilson",
+        "Wilson Andrew"
+      ],
+      "sec_cik": "0001545193",
+      "in_board_file": true
+    },
+    {
+      "key": "frank-yeary",
+      "full_name": "Frank D. Yeary",
+      "aliases": [
+        "Frank Yeary",
+        "Yeary Frank D"
+      ],
+      "sec_cik": "0001458902",
+      "in_board_file": true
+    },
+    {
+      "key": "david-yoffie",
+      "full_name": "David B. Yoffie",
+      "aliases": [
+        "YOFFIE DAVID B",
+        "David Yoffie",
+        "Dr. Yoffie"
+      ],
+      "sec_cik": "0001188937",
+      "in_board_file": false
+    },
+    {
+      "key": "james-goetz",
+      "full_name": "James J. Goetz",
+      "aliases": [
+        "Jim Goetz",
+        "James (Jim) J. Goetz",
+        "GOETZ JAMES J"
+      ],
+      "sec_cik": "0001219231",
+      "in_board_file": true
+    },
+    {
+      "key": "alyssa-henry",
+      "full_name": "Alyssa H. Henry",
+      "aliases": [
+        "Alyssa Henry",
+        "Henry Alyssa"
+      ],
+      "sec_cik": "0001658470",
+      "in_board_file": true
+    },
+    {
+      "key": "dion-weisler",
+      "full_name": "Dion J. Weisler",
+      "aliases": [
+        "Dion Weisler",
+        "WEISLER DION J"
+      ],
+      "sec_cik": "0001580693",
+      "in_board_file": true
+    },
+    {
+      "key": "andrea-goldsmith",
+      "full_name": "Andrea J. Goldsmith",
+      "aliases": [
+        "Dr. Andrea J. Goldsmith",
+        "Andrea Goldsmith",
+        "Goldsmith Andrea Jo"
+      ],
+      "sec_cik": "0001730514",
+      "in_board_file": true
+    },
+    {
+      "key": "barbara-novick",
+      "full_name": "Barbara G. Novick",
+      "aliases": [
+        "Barbara Novick",
+        "NOVICK BARBARA"
+      ],
+      "sec_cik": "0001059222",
+      "in_board_file": true
+    },
+    {
+      "key": "lip-bu-tan",
+      "full_name": "Lip-Bu Tan",
+      "aliases": [
+        "TAN LIP BU",
+        "Lip Bu Tan"
+      ],
+      "sec_cik": "0001008463",
+      "in_board_file": true
+    },
+    {
+      "key": "stacy-smith",
+      "full_name": "Stacy J. Smith",
+      "aliases": [
+        "S. Smith",
+        "Smith Stacy J"
+      ],
+      "sec_cik": "0001415529",
+      "in_board_file": true
+    },
+    {
+      "key": "craig-barratt",
+      "full_name": "Craig H. Barratt",
+      "aliases": [
+        "Dr. Craig H. Barratt",
+        "Craig Barratt",
+        "BARRATT CRAIG H"
+      ],
+      "sec_cik": "0001277620",
+      "in_board_file": true
+    },
+    {
+      "key": "eric-meurice",
+      "full_name": "Eric Meurice",
+      "aliases": [
+        "Meurice Eric"
+      ],
+      "sec_cik": "0001372258",
+      "in_board_file": true
+    },
+    {
+      "key": "steve-sanghi",
+      "full_name": "Steve Sanghi",
+      "aliases": [
+        "SANGHI STEVE",
+        "Sanghi Steve"
+      ],
+      "sec_cik": "0001181928",
+      "in_board_file": true
+    },
+    {
+      "key": "brian-krzanich",
+      "full_name": "Brian M. Krzanich",
+      "aliases": [
+        "Brian Krzanich",
+        "Krzanich Brian M"
+      ],
+      "sec_cik": "0001538580",
+      "in_board_file": false
+    },
+    {
+      "key": "todd-underwood",
+      "full_name": "Todd M. Underwood",
+      "aliases": [
+        "Todd Underwood",
+        "UNDERWOOD TODD M"
+      ],
+      "sec_cik": "0001766545",
+      "in_board_file": false
+    },
+    {
+      "key": "venkata-renduchintala",
+      "full_name": "Venkata S.M. Renduchintala",
+      "aliases": [
+        "Murthy Renduchintala",
+        "Dr. Venkata S.M. (\"Murthy\") Renduchintala",
+        "Venkata Renduchintala",
+        "RENDUCHINTALA VENKATA S M"
+      ],
+      "sec_cik": "0001559658",
+      "in_board_file": false
+    },
+    {
+      "key": "robert-swan",
+      "full_name": "Robert H. Swan",
+      "aliases": [
+        "Bob Swan",
+        "Robert (\"Bob\") H. Swan",
+        "Robert Swan",
+        "SWAN ROBERT HOLMES"
+      ],
+      "sec_cik": "0001218363",
+      "in_board_file": true
+    },
+    {
+      "key": "navin-shenoy",
+      "full_name": "Navin Shenoy",
+      "aliases": [
+        "Shenoy Navin"
+      ],
+      "sec_cik": "0001723693",
+      "in_board_file": false
+    },
+    {
+      "key": "gregory-bryant",
+      "full_name": "Gregory M. Bryant",
+      "aliases": [
+        "Gregory Bryant",
+        "Bryant Gregory M"
+      ],
+      "sec_cik": "0001788745",
+      "in_board_file": false
+    },
+    {
+      "key": "george-davis",
+      "full_name": "George S. Davis",
+      "aliases": [
+        "George Davis",
+        "Davis George S"
+      ],
+      "sec_cik": "0001379532",
+      "in_board_file": false
+    },
+    {
+      "key": "steven-rodgers",
+      "full_name": "Steven R. Rodgers",
+      "aliases": [
+        "Steven Rodgers",
+        "Rodgers Steven Ralph"
+      ],
+      "sec_cik": "0001741659",
+      "in_board_file": false
+    },
+    {
+      "key": "sandra-rivera",
+      "full_name": "Sandra L. Rivera",
+      "aliases": [
+        "Sandra Rivera",
+        "Rivera Sandra L"
+      ],
+      "sec_cik": "0001790475",
+      "in_board_file": false
+    },
+    {
+      "key": "patrick-gelsinger",
+      "full_name": "Patrick P. Gelsinger",
+      "aliases": [
+        "Pat Gelsinger",
+        "Patrick Gelsinger",
+        "GELSINGER PATRICK P"
+      ],
+      "sec_cik": "0001316331",
+      "in_board_file": true
+    },
+    {
+      "key": "justin-hotard",
+      "full_name": "Justin Hotard",
+      "aliases": [
+        "Hotard Justin"
+      ],
+      "sec_cik": "0001848136",
+      "in_board_file": false
+    },
+    {
+      "key": "christoph-schell",
+      "full_name": "Christoph Schell",
+      "aliases": [
+        "Schell Christoph",
+        "Christopher Schell"
+      ],
+      "sec_cik": "0001793234",
+      "in_board_file": false
+    },
+    {
+      "key": "michelle-johnston-holthaus",
+      "full_name": "Michelle Johnston Holthaus",
+      "aliases": [
+        "Michelle Holthaus",
+        "Holthaus Michelle Johnston",
+        "Michelle Johnson Holthaus"
+      ],
+      "sec_cik": "0001860540",
+      "in_board_file": false
+    },
+    {
+      "key": "april-miller-boise",
+      "full_name": "April Miller Boise",
+      "aliases": [
+        "Miller Boise April"
+      ],
+      "sec_cik": "0001680881",
+      "in_board_file": false
+    }
+  ],
+  "director_comp": [
+    {
+      "person_key": "charlene-barshefsky",
+      "fiscal_year": 2018,
+      "accession": "0001193125-19-095785",
+      "listed_name": "Charlene Barshefsky",
+      "fees_cash": 52500,
+      "stock_awards": 0,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 0,
+      "total": 52500,
+      "evidence_ref": "d001",
+      "notes": "Retired from the Board in May 2018 and was not granted RSUs or OSUs in 2018 (footnote 3). 2019 proxy 'Director Compensation for Fiscal Year 2018' table. Columns: Fees Earned or Paid in Cash, Stock Awards (OSUs and RSUs, grant-date fair value), Change in Pension Value and NQDC Earnings, All Other Compensation, Total; no option or non-equity incentive columns (recorded 0). All Other Compensation = Intel Foundation matching charitable contributions (footnote 2)."
+    },
+    {
+      "person_key": "aneel-bhusri",
+      "fiscal_year": 2018,
+      "accession": "0001193125-19-095785",
+      "listed_name": "Aneel Bhusri",
+      "fees_cash": 0,
+      "stock_awards": 369300,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 0,
+      "total": 369300,
+      "evidence_ref": "d002",
+      "notes": "Lead Director. Stock awards include 3,150 RSUs granted in 2018 in lieu of his 2017 annual cash retainer; his 2018 cash retainer, Lead Director fee and committee chair/co-chair fees were paid in RSUs granted in 2019 (footnote 4), hence no cash fees. 2019 proxy 'Director Compensation for Fiscal Year 2018' table. Columns: Fees Earned or Paid in Cash, Stock Awards (OSUs and RSUs, grant-date fair value), Change in Pension Value and NQDC Earnings, All Other Compensation, Total; no option or non-equity incentive columns (recorded 0). All Other Compensation = Intel Foundation matching charitable contributions (footnote 2)."
+    },
+    {
+      "person_key": "reed-hundt",
+      "fiscal_year": 2018,
+      "accession": "0001193125-19-095785",
+      "listed_name": "Reed E. Hundt",
+      "fees_cash": 115000,
+      "stock_awards": 221000,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 5000,
+      "total": 341000,
+      "evidence_ref": "d003",
+      "notes": "All other = $5,000 Intel Foundation matching gift. 2019 proxy 'Director Compensation for Fiscal Year 2018' table. Columns: Fees Earned or Paid in Cash, Stock Awards (OSUs and RSUs, grant-date fair value), Change in Pension Value and NQDC Earnings, All Other Compensation, Total; no option or non-equity incentive columns (recorded 0). All Other Compensation = Intel Foundation matching charitable contributions (footnote 2)."
+    },
+    {
+      "person_key": "omar-ishrak",
+      "fiscal_year": 2018,
+      "accession": "0001193125-19-095785",
+      "listed_name": "Omar Ishrak",
+      "fees_cash": 110000,
+      "stock_awards": 221000,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 0,
+      "total": 331000,
+      "evidence_ref": "d004",
+      "notes": "2019 proxy 'Director Compensation for Fiscal Year 2018' table. Columns: Fees Earned or Paid in Cash, Stock Awards (OSUs and RSUs, grant-date fair value), Change in Pension Value and NQDC Earnings, All Other Compensation, Total; no option or non-equity incentive columns (recorded 0). All Other Compensation = Intel Foundation matching charitable contributions (footnote 2)."
+    },
+    {
+      "person_key": "risa-lavizzo-mourey",
+      "fiscal_year": 2018,
+      "accession": "0001193125-19-095785",
+      "listed_name": "Risa Lavizzo-Mourey",
+      "fees_cash": 0,
+      "stock_awards": 182500,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 5000,
+      "total": 187500,
+      "evidence_ref": "d005",
+      "notes": "Joined in 2018; prorated fees and stock awards for a partial year (awards granted May 2018); her 2018 cash retainer was paid in RSUs granted in 2019 (footnote 5). All other = $5,000 matching gift. 2019 proxy 'Director Compensation for Fiscal Year 2018' table. Columns: Fees Earned or Paid in Cash, Stock Awards (OSUs and RSUs, grant-date fair value), Change in Pension Value and NQDC Earnings, All Other Compensation, Total; no option or non-equity incentive columns (recorded 0). All Other Compensation = Intel Foundation matching charitable contributions (footnote 2)."
+    },
+    {
+      "person_key": "tsu-jae-king-liu",
+      "fiscal_year": 2018,
+      "accession": "0001193125-19-095785",
+      "listed_name": "Tsu-Jae King Liu",
+      "fees_cash": 105000,
+      "stock_awards": 221000,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 5000,
+      "total": 331000,
+      "evidence_ref": "d006",
+      "notes": "All other = $5,000 matching gift. 2019 proxy 'Director Compensation for Fiscal Year 2018' table. Columns: Fees Earned or Paid in Cash, Stock Awards (OSUs and RSUs, grant-date fair value), Change in Pension Value and NQDC Earnings, All Other Compensation, Total; no option or non-equity incentive columns (recorded 0). All Other Compensation = Intel Foundation matching charitable contributions (footnote 2)."
+    },
+    {
+      "person_key": "david-pottruck",
+      "fiscal_year": 2018,
+      "accession": "0001193125-19-095785",
+      "listed_name": "David S. Pottruck",
+      "fees_cash": 55000,
+      "stock_awards": 221000,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 5000,
+      "total": 281000,
+      "evidence_ref": "d007",
+      "notes": "Retired from the Board in May 2018; all RSUs and OSUs granted to him in 2018 were canceled upon retirement (footnote 3), though the table still reports their $221,000 grant-date value. All other = $5,000 matching gift. 2019 proxy 'Director Compensation for Fiscal Year 2018' table. Columns: Fees Earned or Paid in Cash, Stock Awards (OSUs and RSUs, grant-date fair value), Change in Pension Value and NQDC Earnings, All Other Compensation, Total; no option or non-equity incentive columns (recorded 0). All Other Compensation = Intel Foundation matching charitable contributions (footnote 2)."
+    },
+    {
+      "person_key": "gregory-smith",
+      "fiscal_year": 2018,
+      "accession": "0001193125-19-095785",
+      "listed_name": "Gregory D. Smith",
+      "fees_cash": 131250,
+      "stock_awards": 221000,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 2000,
+      "total": 354250,
+      "evidence_ref": "d008",
+      "notes": "All other = $2,000 matching gift. 2019 proxy 'Director Compensation for Fiscal Year 2018' table. Columns: Fees Earned or Paid in Cash, Stock Awards (OSUs and RSUs, grant-date fair value), Change in Pension Value and NQDC Earnings, All Other Compensation, Total; no option or non-equity incentive columns (recorded 0). All Other Compensation = Intel Foundation matching charitable contributions (footnote 2)."
+    },
+    {
+      "person_key": "andrew-wilson",
+      "fiscal_year": 2018,
+      "accession": "0001193125-19-095785",
+      "listed_name": "Andrew Wilson",
+      "fees_cash": 101250,
+      "stock_awards": 221000,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 0,
+      "total": 322250,
+      "evidence_ref": "d009",
+      "notes": "2019 proxy 'Director Compensation for Fiscal Year 2018' table. Columns: Fees Earned or Paid in Cash, Stock Awards (OSUs and RSUs, grant-date fair value), Change in Pension Value and NQDC Earnings, All Other Compensation, Total; no option or non-equity incentive columns (recorded 0). All Other Compensation = Intel Foundation matching charitable contributions (footnote 2)."
+    },
+    {
+      "person_key": "frank-yeary",
+      "fiscal_year": 2018,
+      "accession": "0001193125-19-095785",
+      "listed_name": "Frank D. Yeary",
+      "fees_cash": 125000,
+      "stock_awards": 221000,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 0,
+      "total": 346000,
+      "evidence_ref": "d010",
+      "notes": "Elected to defer his cash compensation until retirement from the Board (footnote 6). 2019 proxy 'Director Compensation for Fiscal Year 2018' table. Columns: Fees Earned or Paid in Cash, Stock Awards (OSUs and RSUs, grant-date fair value), Change in Pension Value and NQDC Earnings, All Other Compensation, Total; no option or non-equity incentive columns (recorded 0). All Other Compensation = Intel Foundation matching charitable contributions (footnote 2)."
+    },
+    {
+      "person_key": "david-yoffie",
+      "fiscal_year": 2018,
+      "accession": "0001193125-19-095785",
+      "listed_name": "David B. Yoffie",
+      "fees_cash": 95000,
+      "stock_awards": 221000,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 47000,
+      "all_other": 5000,
+      "total": 368000,
+      "evidence_ref": "d011",
+      "notes": "Retired from the Board in May 2018; his 2018 RSUs and OSUs were canceled on retirement (footnote 3). Pension/NQDC $47,000 = net actuarial change in his benefit under the Board retirement program that ended in 1998 (an annual benefit equal to the annual retainer, paid for nine years after leaving the Board; footnote 7). All other = $5,000 matching gift. 2019 proxy 'Director Compensation for Fiscal Year 2018' table. Columns: Fees Earned or Paid in Cash, Stock Awards (OSUs and RSUs, grant-date fair value), Change in Pension Value and NQDC Earnings, All Other Compensation, Total; no option or non-equity incentive columns (recorded 0). All Other Compensation = Intel Foundation matching charitable contributions (footnote 2)."
+    },
+    {
+      "person_key": "aneel-bhusri",
+      "fiscal_year": 2019,
+      "accession": "0001193125-20-091451",
+      "listed_name": "Aneel Bhusri",
+      "fees_cash": 160000,
+      "stock_awards": 348300,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 0,
+      "total": 508300,
+      "evidence_ref": "d012",
+      "notes": "Lead Director. Stock awards include 3,355 RSUs granted January 2019 in lieu of his 2018 Lead Director and committee chair/co-chair fees (footnote 3). 2020 proxy 'Director Compensation for Fiscal Year 2019' table. Columns: Fees Earned or Paid in Cash, Stock Awards (RSUs), All Other Compensation, Total; option, non-equity and pension/NQDC columns absent (recorded 0). All Other Compensation = Intel Foundation matching charitable contributions."
+    },
+    {
+      "person_key": "james-goetz",
+      "fiscal_year": 2019,
+      "accession": "0001193125-20-091451",
+      "listed_name": "James J. Goetz",
+      "fees_cash": 22500,
+      "stock_awards": 0,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 0,
+      "total": 22500,
+      "evidence_ref": "d013",
+      "notes": "Joined the Board 2019-11-13; footnote 4 says he was granted 2,080 RSUs on May 13, 2020 (the 2021 proxy dates that grant January 30, 2020; see conflicts). 2020 proxy 'Director Compensation for Fiscal Year 2019' table. Columns: Fees Earned or Paid in Cash, Stock Awards (RSUs), All Other Compensation, Total; option, non-equity and pension/NQDC columns absent (recorded 0). All Other Compensation = Intel Foundation matching charitable contributions."
+    },
+    {
+      "person_key": "reed-hundt",
+      "fiscal_year": 2019,
+      "accession": "0001193125-20-091451",
+      "listed_name": "Reed E. Hundt",
+      "fees_cash": 107500,
+      "stock_awards": 194600,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 10000,
+      "total": 312100,
+      "evidence_ref": "d014",
+      "notes": "All other = $10,000 matching gift. 2020 proxy 'Director Compensation for Fiscal Year 2019' table. Columns: Fees Earned or Paid in Cash, Stock Awards (RSUs), All Other Compensation, Total; option, non-equity and pension/NQDC columns absent (recorded 0). All Other Compensation = Intel Foundation matching charitable contributions."
+    },
+    {
+      "person_key": "omar-ishrak",
+      "fiscal_year": 2019,
+      "accession": "0001193125-20-091451",
+      "listed_name": "Omar Ishrak",
+      "fees_cash": 127500,
+      "stock_awards": 194600,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 0,
+      "total": 322100,
+      "evidence_ref": "d015",
+      "notes": "2020 proxy 'Director Compensation for Fiscal Year 2019' table. Columns: Fees Earned or Paid in Cash, Stock Awards (RSUs), All Other Compensation, Total; option, non-equity and pension/NQDC columns absent (recorded 0). All Other Compensation = Intel Foundation matching charitable contributions."
+    },
+    {
+      "person_key": "risa-lavizzo-mourey",
+      "fiscal_year": 2019,
+      "accession": "0001193125-20-091451",
+      "listed_name": "Risa Lavizzo-Mourey",
+      "fees_cash": 0,
+      "stock_awards": 281000,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 9000,
+      "total": 290000,
+      "evidence_ref": "d016",
+      "notes": "Stock awards include 1,887 RSUs granted January 2019 in lieu of her 2018 annual cash retainer (footnote 5). All other = $9,000 matching gift. 2020 proxy 'Director Compensation for Fiscal Year 2019' table. Columns: Fees Earned or Paid in Cash, Stock Awards (RSUs), All Other Compensation, Total; option, non-equity and pension/NQDC columns absent (recorded 0). All Other Compensation = Intel Foundation matching charitable contributions."
+    },
+    {
+      "person_key": "tsu-jae-king-liu",
+      "fiscal_year": 2019,
+      "accession": "0001193125-20-091451",
+      "listed_name": "Tsu-Jae King Liu",
+      "fees_cash": 116300,
+      "stock_awards": 194600,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 0,
+      "total": 310900,
+      "evidence_ref": "d017",
+      "notes": "2020 proxy 'Director Compensation for Fiscal Year 2019' table. Columns: Fees Earned or Paid in Cash, Stock Awards (RSUs), All Other Compensation, Total; option, non-equity and pension/NQDC columns absent (recorded 0). All Other Compensation = Intel Foundation matching charitable contributions."
+    },
+    {
+      "person_key": "gregory-smith",
+      "fiscal_year": 2019,
+      "accession": "0001193125-20-091451",
+      "listed_name": "Gregory D. Smith",
+      "fees_cash": 125000,
+      "stock_awards": 194600,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 10000,
+      "total": 329600,
+      "evidence_ref": "d018",
+      "notes": "All other = $10,000 matching gift. 2020 proxy 'Director Compensation for Fiscal Year 2019' table. Columns: Fees Earned or Paid in Cash, Stock Awards (RSUs), All Other Compensation, Total; option, non-equity and pension/NQDC columns absent (recorded 0). All Other Compensation = Intel Foundation matching charitable contributions."
+    },
+    {
+      "person_key": "andrew-wilson",
+      "fiscal_year": 2019,
+      "accession": "0001193125-20-091451",
+      "listed_name": "Andrew Wilson",
+      "fees_cash": 121300,
+      "stock_awards": 194600,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 0,
+      "total": 315900,
+      "evidence_ref": "d019",
+      "notes": "2020 proxy 'Director Compensation for Fiscal Year 2019' table. Columns: Fees Earned or Paid in Cash, Stock Awards (RSUs), All Other Compensation, Total; option, non-equity and pension/NQDC columns absent (recorded 0). All Other Compensation = Intel Foundation matching charitable contributions."
+    },
+    {
+      "person_key": "frank-yeary",
+      "fiscal_year": 2019,
+      "accession": "0001193125-20-091451",
+      "listed_name": "Frank D. Yeary",
+      "fees_cash": 125000,
+      "stock_awards": 194600,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 0,
+      "total": 319600,
+      "evidence_ref": "d020",
+      "notes": "Elected to defer his 2019 annual cash compensation until retirement from the Board (footnote 6). 2020 proxy 'Director Compensation for Fiscal Year 2019' table. Columns: Fees Earned or Paid in Cash, Stock Awards (RSUs), All Other Compensation, Total; option, non-equity and pension/NQDC columns absent (recorded 0). All Other Compensation = Intel Foundation matching charitable contributions."
+    },
+    {
+      "person_key": "james-goetz",
+      "fiscal_year": 2020,
+      "accession": "0001193125-21-098458",
+      "listed_name": "James J. Goetz",
+      "fees_cash": 0,
+      "stock_awards": 343500,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 0,
+      "total": 343500,
+      "evidence_ref": "d021",
+      "notes": "Stock awards include the 2,080 RSUs granted January 30, 2020 for joining in November 2019; he elected RSUs in lieu of his 2020 cash fees, granted January 2021 (footnote 3). 2021 proxy 'Director Compensation for Fiscal Year 2020' table. Columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total; option, non-equity and pension/NQDC columns absent (recorded 0). All Other Compensation = Intel Foundation matching charitable contributions."
+    },
+    {
+      "person_key": "alyssa-henry",
+      "fiscal_year": 2020,
+      "accession": "0001193125-21-098458",
+      "listed_name": "Alyssa Henry",
+      "fees_cash": 22500,
+      "stock_awards": 305200,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 0,
+      "total": 327700,
+      "evidence_ref": "d022",
+      "notes": "Joined the Board 2020-01-15 and was granted 1,486 RSUs on January 30, 2020; from Q2 2020 elected RSUs in lieu of cash fees, granted January 2021 (footnote 4). 2021 proxy 'Director Compensation for Fiscal Year 2020' table. Columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total; option, non-equity and pension/NQDC columns absent (recorded 0). All Other Compensation = Intel Foundation matching charitable contributions."
+    },
+    {
+      "person_key": "reed-hundt",
+      "fiscal_year": 2020,
+      "accession": "0001193125-21-098458",
+      "listed_name": "Reed Hundt",
+      "fees_cash": 50000,
+      "stock_awards": 0,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 0,
+      "total": 50000,
+      "evidence_ref": "d023",
+      "notes": "Retired from the Board in May 2020 (footnote 5); no 2020 equity award. 2021 proxy 'Director Compensation for Fiscal Year 2020' table. Columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total; option, non-equity and pension/NQDC columns absent (recorded 0). All Other Compensation = Intel Foundation matching charitable contributions."
+    },
+    {
+      "person_key": "omar-ishrak",
+      "fiscal_year": 2020,
+      "accession": "0001193125-21-098458",
+      "listed_name": "Omar Ishrak",
+      "fees_cash": 305000,
+      "stock_awards": 209500,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 0,
+      "total": 514500,
+      "evidence_ref": "d024",
+      "notes": "Independent Board Chairman for 2020 (Lead Director in January 2020); fees include the $175,000 independent chairman retainer, paid pro rata, added for 2020. 2021 proxy 'Director Compensation for Fiscal Year 2020' table. Columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total; option, non-equity and pension/NQDC columns absent (recorded 0). All Other Compensation = Intel Foundation matching charitable contributions."
+    },
+    {
+      "person_key": "risa-lavizzo-mourey",
+      "fiscal_year": 2020,
+      "accession": "0001193125-21-098458",
+      "listed_name": "Risa Lavizzo-Mourey",
+      "fees_cash": 0,
+      "stock_awards": 311300,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 10000,
+      "total": 321300,
+      "evidence_ref": "d025",
+      "notes": "Granted 1,580 RSUs on January 30, 2020 in lieu of her 2019 annual cash retainer, and elected RSUs in lieu of her 2020 cash fees (footnote 6). All other = $10,000 matching gift. 2021 proxy 'Director Compensation for Fiscal Year 2020' table. Columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total; option, non-equity and pension/NQDC columns absent (recorded 0). All Other Compensation = Intel Foundation matching charitable contributions."
+    },
+    {
+      "person_key": "tsu-jae-king-liu",
+      "fiscal_year": 2020,
+      "accession": "0001193125-21-098458",
+      "listed_name": "Tsu-Jae King Liu",
+      "fees_cash": 120000,
+      "stock_awards": 209500,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 10000,
+      "total": 339500,
+      "evidence_ref": "d026",
+      "notes": "All other = $10,000 matching gift. 2021 proxy 'Director Compensation for Fiscal Year 2020' table. Columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total; option, non-equity and pension/NQDC columns absent (recorded 0). All Other Compensation = Intel Foundation matching charitable contributions."
+    },
+    {
+      "person_key": "gregory-smith",
+      "fiscal_year": 2020,
+      "accession": "0001193125-21-098458",
+      "listed_name": "Gregory D. Smith",
+      "fees_cash": 125000,
+      "stock_awards": 209500,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 10000,
+      "total": 344500,
+      "evidence_ref": "d027",
+      "notes": "All other = $10,000 matching gift. 2021 proxy 'Director Compensation for Fiscal Year 2020' table. Columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total; option, non-equity and pension/NQDC columns absent (recorded 0). All Other Compensation = Intel Foundation matching charitable contributions."
+    },
+    {
+      "person_key": "dion-weisler",
+      "fiscal_year": 2020,
+      "accession": "0001193125-21-098458",
+      "listed_name": "Dion J. Weisler",
+      "fees_cash": 50000,
+      "stock_awards": 165100,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 0,
+      "total": 215100,
+      "evidence_ref": "d028",
+      "notes": "Joined the Board 2020-06-15 and was granted 3,534 RSUs on July 30, 2020; from Q4 2020 elected RSUs in lieu of cash fees, granted January 2021 (footnote 7). 2021 proxy 'Director Compensation for Fiscal Year 2020' table. Columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total; option, non-equity and pension/NQDC columns absent (recorded 0). All Other Compensation = Intel Foundation matching charitable contributions."
+    },
+    {
+      "person_key": "andrew-wilson",
+      "fiscal_year": 2020,
+      "accession": "0001193125-21-098458",
+      "listed_name": "Andrew Wilson",
+      "fees_cash": 115000,
+      "stock_awards": 209500,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 0,
+      "total": 324500,
+      "evidence_ref": "d029",
+      "notes": "2021 proxy 'Director Compensation for Fiscal Year 2020' table. Columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total; option, non-equity and pension/NQDC columns absent (recorded 0). All Other Compensation = Intel Foundation matching charitable contributions."
+    },
+    {
+      "person_key": "frank-yeary",
+      "fiscal_year": 2020,
+      "accession": "0001193125-21-098458",
+      "listed_name": "Frank D. Yeary",
+      "fees_cash": 120000,
+      "stock_awards": 209500,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 5000,
+      "total": 334500,
+      "evidence_ref": "d030",
+      "notes": "Elected to defer his 2020 annual cash compensation until retirement (footnote 8). All other = $5,000 matching gift. 2021 proxy 'Director Compensation for Fiscal Year 2020' table. Columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total; option, non-equity and pension/NQDC columns absent (recorded 0). All Other Compensation = Intel Foundation matching charitable contributions."
+    },
+    {
+      "person_key": "james-goetz",
+      "fiscal_year": 2021,
+      "accession": "0000050863-22-000011",
+      "listed_name": "James J. Goetz",
+      "fees_cash": 0,
+      "stock_awards": 284900,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 0,
+      "total": 284900,
+      "evidence_ref": "d031",
+      "notes": "Granted 1,631 RSUs on January 30, 2021 in lieu of his 2020 cash retainer; elected RSUs in lieu of his 2021 cash fees, granted January 2022 (footnote 3). 2022 proxy 'Director Compensation For Fiscal Year 2021' table (footnote markers print as a separate figure after the name). Columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total; option, non-equity and pension/NQDC columns absent (recorded 0). All Other Compensation = Intel Foundation matching charitable contributions."
+    },
+    {
+      "person_key": "andrea-goldsmith",
+      "fiscal_year": 2021,
+      "accession": "0000050863-22-000011",
+      "listed_name": "Andrea J. Goldsmith",
+      "fees_cash": 45000,
+      "stock_awards": 131900,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 0,
+      "total": 176900,
+      "evidence_ref": "d032",
+      "notes": "Joined the Board 2021-09-01 and was granted 2,793 RSUs on October 30, 2021 (footnote 4). 2022 proxy 'Director Compensation For Fiscal Year 2021' table (footnote markers print as a separate figure after the name). Columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total; option, non-equity and pension/NQDC columns absent (recorded 0). All Other Compensation = Intel Foundation matching charitable contributions."
+    },
+    {
+      "person_key": "alyssa-henry",
+      "fiscal_year": 2021,
+      "accession": "0000050863-22-000011",
+      "listed_name": "Alyssa H. Henry",
+      "fees_cash": 0,
+      "stock_awards": 281200,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 0,
+      "total": 281200,
+      "evidence_ref": "d033",
+      "notes": "Granted 1,563 RSUs on January 30, 2021 in lieu of her 2020 cash retainer; elected RSUs in lieu of her 2021 cash fees, granted January 2022 (footnote 5). 2022 proxy 'Director Compensation For Fiscal Year 2021' table (footnote markers print as a separate figure after the name). Columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total; option, non-equity and pension/NQDC columns absent (recorded 0). All Other Compensation = Intel Foundation matching charitable contributions."
+    },
+    {
+      "person_key": "omar-ishrak",
+      "fiscal_year": 2021,
+      "accession": "0000050863-22-000011",
+      "listed_name": "Omar Ishrak",
+      "fees_cash": 277500,
+      "stock_awards": 195400,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 0,
+      "total": 472900,
+      "evidence_ref": "d034",
+      "notes": "Board Chair. 2022 proxy 'Director Compensation For Fiscal Year 2021' table (footnote markers print as a separate figure after the name). Columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total; option, non-equity and pension/NQDC columns absent (recorded 0). All Other Compensation = Intel Foundation matching charitable contributions."
+    },
+    {
+      "person_key": "risa-lavizzo-mourey",
+      "fiscal_year": 2021,
+      "accession": "0000050863-22-000011",
+      "listed_name": "Risa Lavizzo-Mourey",
+      "fees_cash": 123800,
+      "stock_awards": 304800,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 10000,
+      "total": 438600,
+      "evidence_ref": "d035",
+      "notes": "Granted 1,993 RSUs on January 30, 2021 in lieu of her 2020 cash retainer (footnote 6). All other = $10,000 matching gift. 2022 proxy 'Director Compensation For Fiscal Year 2021' table (footnote markers print as a separate figure after the name). Columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total; option, non-equity and pension/NQDC columns absent (recorded 0). All Other Compensation = Intel Foundation matching charitable contributions."
+    },
+    {
+      "person_key": "tsu-jae-king-liu",
+      "fiscal_year": 2021,
+      "accession": "0000050863-22-000011",
+      "listed_name": "Tsu-Jae King Liu",
+      "fees_cash": 108800,
+      "stock_awards": 195400,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 1000,
+      "total": 305200,
+      "evidence_ref": "d036",
+      "notes": "All other = $1,000 matching gift. 2022 proxy 'Director Compensation For Fiscal Year 2021' table (footnote markers print as a separate figure after the name). Columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total; option, non-equity and pension/NQDC columns absent (recorded 0). All Other Compensation = Intel Foundation matching charitable contributions."
+    },
+    {
+      "person_key": "gregory-smith",
+      "fiscal_year": 2021,
+      "accession": "0000050863-22-000011",
+      "listed_name": "Gregory D. Smith",
+      "fees_cash": 125000,
+      "stock_awards": 195400,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 10000,
+      "total": 330400,
+      "evidence_ref": "d037",
+      "notes": "Deferred his 2021 annual cash compensation until retirement (footnote 7). All other = $10,000 matching gift. 2022 proxy 'Director Compensation For Fiscal Year 2021' table (footnote markers print as a separate figure after the name). Columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total; option, non-equity and pension/NQDC columns absent (recorded 0). All Other Compensation = Intel Foundation matching charitable contributions."
+    },
+    {
+      "person_key": "dion-weisler",
+      "fiscal_year": 2021,
+      "accession": "0000050863-22-000011",
+      "listed_name": "Dion J. Weisler",
+      "fees_cash": 0,
+      "stock_awards": 220300,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 0,
+      "total": 220300,
+      "evidence_ref": "d038",
+      "notes": "Granted 453 RSUs on January 30, 2021 in lieu of his Q4 2020 cash retainer; elected RSUs in lieu of his 2021 cash fees, granted January 2022 (footnote 8). 2022 proxy 'Director Compensation For Fiscal Year 2021' table (footnote markers print as a separate figure after the name). Columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total; option, non-equity and pension/NQDC columns absent (recorded 0). All Other Compensation = Intel Foundation matching charitable contributions."
+    },
+    {
+      "person_key": "andrew-wilson",
+      "fiscal_year": 2021,
+      "accession": "0000050863-22-000011",
+      "listed_name": "Andrew Wilson",
+      "fees_cash": 57500,
+      "stock_awards": 0,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 0,
+      "total": 57500,
+      "evidence_ref": "d039",
+      "notes": "Retired from the Board in May 2021 and did not receive an equity award (footnote 9); the Stock Awards cell prints 'N/A' (recorded 0). 2022 proxy 'Director Compensation For Fiscal Year 2021' table (footnote markers print as a separate figure after the name). Columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total; option, non-equity and pension/NQDC columns absent (recorded 0). All Other Compensation = Intel Foundation matching charitable contributions."
+    },
+    {
+      "person_key": "frank-yeary",
+      "fiscal_year": 2021,
+      "accession": "0000050863-22-000011",
+      "listed_name": "Frank D. Yeary",
+      "fees_cash": 120000,
+      "stock_awards": 195400,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 0,
+      "total": 315400,
+      "evidence_ref": "d040",
+      "notes": "Deferred his 2021 annual cash compensation until retirement (footnote 7). 2022 proxy 'Director Compensation For Fiscal Year 2021' table (footnote markers print as a separate figure after the name). Columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total; option, non-equity and pension/NQDC columns absent (recorded 0). All Other Compensation = Intel Foundation matching charitable contributions."
+    },
+    {
+      "person_key": "james-goetz",
+      "fiscal_year": 2022,
+      "accession": "0000050863-23-000021",
+      "listed_name": "James J. Goetz",
+      "fees_cash": 0,
+      "stock_awards": 277400,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 0,
+      "total": 277400,
+      "evidence_ref": "d041",
+      "notes": "Granted 1,703 RSUs on January 31, 2022 in lieu of his 2021 cash retainer; elected RSUs in lieu of his 2022 cash fees, granted January 2023 (footnote 3). 2023 proxy 'Director Compensation For Fiscal Year 2022' table (footnote markers print as a separate figure after the name). Columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total; option, non-equity and pension/NQDC columns absent (recorded 0)."
+    },
+    {
+      "person_key": "andrea-goldsmith",
+      "fiscal_year": 2022,
+      "accession": "0000050863-23-000021",
+      "listed_name": "Andrea J. Goldsmith",
+      "fees_cash": 93800,
+      "stock_awards": 198000,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 0,
+      "total": 291800,
+      "evidence_ref": "d042",
+      "notes": "Deferred her 2022 annual cash compensation until retirement (footnote 4). 2023 proxy 'Director Compensation For Fiscal Year 2022' table (footnote markers print as a separate figure after the name). Columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total; option, non-equity and pension/NQDC columns absent (recorded 0)."
+    },
+    {
+      "person_key": "alyssa-henry",
+      "fiscal_year": 2022,
+      "accession": "0000050863-23-000021",
+      "listed_name": "Alyssa H. Henry",
+      "fees_cash": 0,
+      "stock_awards": 299500,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 0,
+      "total": 299500,
+      "evidence_ref": "d043",
+      "notes": "Granted 2,176 RSUs on January 31, 2022 in lieu of her 2021 cash retainer; elected RSUs in lieu of her 2022 cash fees (footnote 5). 2023 proxy 'Director Compensation For Fiscal Year 2022' table (footnote markers print as a separate figure after the name). Columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total; option, non-equity and pension/NQDC columns absent (recorded 0)."
+    },
+    {
+      "person_key": "omar-ishrak",
+      "fiscal_year": 2022,
+      "accession": "0000050863-23-000021",
+      "listed_name": "Omar Ishrak",
+      "fees_cash": 278800,
+      "stock_awards": 198000,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 10000,
+      "total": 486800,
+      "evidence_ref": "d044",
+      "notes": "All other = $10,000 matching gift. 2023 proxy 'Director Compensation For Fiscal Year 2022' table (footnote markers print as a separate figure after the name). Columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total; option, non-equity and pension/NQDC columns absent (recorded 0)."
+    },
+    {
+      "person_key": "risa-lavizzo-mourey",
+      "fiscal_year": 2022,
+      "accession": "0000050863-23-000021",
+      "listed_name": "Risa Lavizzo-Mourey",
+      "fees_cash": 135000,
+      "stock_awards": 198000,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 10000,
+      "total": 343000,
+      "evidence_ref": "d045",
+      "notes": "All other = $10,000 matching gift. 2023 proxy 'Director Compensation For Fiscal Year 2022' table (footnote markers print as a separate figure after the name). Columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total; option, non-equity and pension/NQDC columns absent (recorded 0)."
+    },
+    {
+      "person_key": "tsu-jae-king-liu",
+      "fiscal_year": 2022,
+      "accession": "0000050863-23-000021",
+      "listed_name": "Tsu-Jae King Liu",
+      "fees_cash": 105000,
+      "stock_awards": 198000,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 10000,
+      "total": 313000,
+      "evidence_ref": "d046",
+      "notes": "All other = $10,000 matching gift. 2023 proxy 'Director Compensation For Fiscal Year 2022' table (footnote markers print as a separate figure after the name). Columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total; option, non-equity and pension/NQDC columns absent (recorded 0)."
+    },
+    {
+      "person_key": "barbara-novick",
+      "fiscal_year": 2022,
+      "accession": "0000050863-23-000021",
+      "listed_name": "Barbara G. Novick",
+      "fees_cash": 28800,
+      "stock_awards": 0,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 0,
+      "total": 28800,
+      "evidence_ref": "d047",
+      "notes": "Joined the Board 2022-12-01; her initial RSU award was to be granted in Q1 2023 (footnote 6). 2023 proxy 'Director Compensation For Fiscal Year 2022' table (footnote markers print as a separate figure after the name). Columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total; option, non-equity and pension/NQDC columns absent (recorded 0)."
+    },
+    {
+      "person_key": "gregory-smith",
+      "fiscal_year": 2022,
+      "accession": "0000050863-23-000021",
+      "listed_name": "Gregory D. Smith",
+      "fees_cash": 125000,
+      "stock_awards": 198000,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 10000,
+      "total": 333000,
+      "evidence_ref": "d048",
+      "notes": "Deferred his 2022 annual cash compensation until retirement (footnote 4). All other = $10,000 matching gift. 2023 proxy 'Director Compensation For Fiscal Year 2022' table (footnote markers print as a separate figure after the name). Columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total; option, non-equity and pension/NQDC columns absent (recorded 0)."
+    },
+    {
+      "person_key": "lip-bu-tan",
+      "fiscal_year": 2022,
+      "accession": "0000050863-23-000021",
+      "listed_name": "Lip-Bu Tan",
+      "fees_cash": 0,
+      "stock_awards": 149700,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 62500,
+      "total": 212200,
+      "evidence_ref": "d049",
+      "notes": "Joined the Board 2022-09-01 and was granted 5,524 RSUs on October 30, 2022 (footnote 7). All other $62,500 = compensation 'as an advisory board committee member prior to becoming a director' (footnote 2). 2023 proxy 'Director Compensation For Fiscal Year 2022' table (footnote markers print as a separate figure after the name). Columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total; option, non-equity and pension/NQDC columns absent (recorded 0)."
+    },
+    {
+      "person_key": "dion-weisler",
+      "fiscal_year": 2022,
+      "accession": "0000050863-23-000021",
+      "listed_name": "Dion J. Weisler",
+      "fees_cash": 0,
+      "stock_awards": 298400,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 0,
+      "total": 298400,
+      "evidence_ref": "d050",
+      "notes": "Granted 2,152 RSUs on January 31, 2022 in lieu of his 2021 cash retainer; elected RSUs in lieu of his 2022 cash fees (footnote 8). 2023 proxy 'Director Compensation For Fiscal Year 2022' table (footnote markers print as a separate figure after the name). Columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total; option, non-equity and pension/NQDC columns absent (recorded 0)."
+    },
+    {
+      "person_key": "frank-yeary",
+      "fiscal_year": 2022,
+      "accession": "0000050863-23-000021",
+      "listed_name": "Frank D. Yeary",
+      "fees_cash": 125000,
+      "stock_awards": 198000,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 11000,
+      "total": 334000,
+      "evidence_ref": "d051",
+      "notes": "Deferred his 2022 annual cash compensation until retirement (footnote 4). All other = $11,000 matching gift. 2023 proxy 'Director Compensation For Fiscal Year 2022' table (footnote markers print as a separate figure after the name). Columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total; option, non-equity and pension/NQDC columns absent (recorded 0)."
+    },
+    {
+      "person_key": "james-goetz",
+      "fiscal_year": 2023,
+      "accession": "0000050863-24-000057",
+      "listed_name": "James J. Goetz",
+      "fees_cash": 0,
+      "stock_awards": 374400,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 0,
+      "total": 374400,
+      "evidence_ref": "d052",
+      "notes": "RSUs in lieu of cash for 2022 fees (3,203, granted 2023-01-30), 2023 fees (2,642) and the restored Q4 2023 retainer (138). 2024 proxy 'Director Compensation Table' (Total Compensation for FY 2023). Columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total; the row's last two figures are Outstanding Equity Awards at FYE 2023 (# and market value), not compensation. All Other Compensation = Intel Foundation matching charitable contributions. From 2023-03-01 to 2023-09-30 the cash retainer was cut 25% (Austerity Measures)."
+    },
+    {
+      "person_key": "andrea-goldsmith",
+      "fiscal_year": 2023,
+      "accession": "0000050863-24-000057",
+      "listed_name": "Andrea J. Goldsmith",
+      "fees_cash": 91900,
+      "stock_awards": 205700,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 0,
+      "total": 297600,
+      "evidence_ref": "d053",
+      "notes": "Deferred her 2023 annual cash compensation until retirement. 2024 proxy 'Director Compensation Table' (Total Compensation for FY 2023). Columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total; the row's last two figures are Outstanding Equity Awards at FYE 2023 (# and market value), not compensation. All Other Compensation = Intel Foundation matching charitable contributions. From 2023-03-01 to 2023-09-30 the cash retainer was cut 25% (Austerity Measures)."
+    },
+    {
+      "person_key": "alyssa-henry",
+      "fiscal_year": 2023,
+      "accession": "0000050863-24-000057",
+      "listed_name": "Alyssa H. Henry",
+      "fees_cash": 0,
+      "stock_awards": 372100,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 0,
+      "total": 372100,
+      "evidence_ref": "d054",
+      "notes": "RSUs in lieu of cash for 2022 fees (3,462), 2023 fees (2,317) and Q4 2023 (138). 2024 proxy 'Director Compensation Table' (Total Compensation for FY 2023). Columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total; the row's last two figures are Outstanding Equity Awards at FYE 2023 (# and market value), not compensation. All Other Compensation = Intel Foundation matching charitable contributions. From 2023-03-01 to 2023-09-30 the cash retainer was cut 25% (Austerity Measures)."
+    },
+    {
+      "person_key": "omar-ishrak",
+      "fiscal_year": 2023,
+      "accession": "0000050863-24-000057",
+      "listed_name": "Omar Ishrak",
+      "fees_cash": 132000,
+      "stock_awards": 205700,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 2000,
+      "total": 339700,
+      "evidence_ref": "d055",
+      "notes": "2024 proxy 'Director Compensation Table' (Total Compensation for FY 2023). Columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total; the row's last two figures are Outstanding Equity Awards at FYE 2023 (# and market value), not compensation. All Other Compensation = Intel Foundation matching charitable contributions. From 2023-03-01 to 2023-09-30 the cash retainer was cut 25% (Austerity Measures)."
+    },
+    {
+      "person_key": "risa-lavizzo-mourey",
+      "fiscal_year": 2023,
+      "accession": "0000050863-24-000057",
+      "listed_name": "Risa Lavizzo-Mourey",
+      "fees_cash": 121900,
+      "stock_awards": 205700,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 0,
+      "total": 327600,
+      "evidence_ref": "d056",
+      "notes": "2024 proxy 'Director Compensation Table' (Total Compensation for FY 2023). Columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total; the row's last two figures are Outstanding Equity Awards at FYE 2023 (# and market value), not compensation. All Other Compensation = Intel Foundation matching charitable contributions. From 2023-03-01 to 2023-09-30 the cash retainer was cut 25% (Austerity Measures)."
+    },
+    {
+      "person_key": "tsu-jae-king-liu",
+      "fiscal_year": 2023,
+      "accession": "0000050863-24-000057",
+      "listed_name": "Tsu-Jae King Liu",
+      "fees_cash": 76900,
+      "stock_awards": 205700,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 0,
+      "total": 282600,
+      "evidence_ref": "d057",
+      "notes": "2024 proxy 'Director Compensation Table' (Total Compensation for FY 2023). Columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total; the row's last two figures are Outstanding Equity Awards at FYE 2023 (# and market value), not compensation. All Other Compensation = Intel Foundation matching charitable contributions. From 2023-03-01 to 2023-09-30 the cash retainer was cut 25% (Austerity Measures)."
+    },
+    {
+      "person_key": "barbara-novick",
+      "fiscal_year": 2023,
+      "accession": "0000050863-24-000057",
+      "listed_name": "Barbara G. Novick",
+      "fees_cash": 0,
+      "stock_awards": 387600,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 2000,
+      "total": 389600,
+      "evidence_ref": "d058",
+      "notes": "Annual equity award of 3,174 RSUs on 2023-01-30 for her December 2022 appointment plus RSUs in lieu of 2023 cash fees (3,129 and 138). 2024 proxy 'Director Compensation Table' (Total Compensation for FY 2023). Columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total; the row's last two figures are Outstanding Equity Awards at FYE 2023 (# and market value), not compensation. All Other Compensation = Intel Foundation matching charitable contributions. From 2023-03-01 to 2023-09-30 the cash retainer was cut 25% (Austerity Measures)."
+    },
+    {
+      "person_key": "gregory-smith",
+      "fiscal_year": 2023,
+      "accession": "0000050863-24-000057",
+      "listed_name": "Gregory D. Smith",
+      "fees_cash": 111900,
+      "stock_awards": 205700,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 2000,
+      "total": 319600,
+      "evidence_ref": "d059",
+      "notes": "Deferred his 2023 annual cash compensation until retirement. 2024 proxy 'Director Compensation Table' (Total Compensation for FY 2023). Columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total; the row's last two figures are Outstanding Equity Awards at FYE 2023 (# and market value), not compensation. All Other Compensation = Intel Foundation matching charitable contributions. From 2023-03-01 to 2023-09-30 the cash retainer was cut 25% (Austerity Measures)."
+    },
+    {
+      "person_key": "lip-bu-tan",
+      "fiscal_year": 2023,
+      "accession": "0000050863-24-000057",
+      "listed_name": "Lip-Bu Tan",
+      "fees_cash": 0,
+      "stock_awards": 791500,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 0,
+      "total": 791500,
+      "evidence_ref": "d060",
+      "notes": "Stock awards include the first installment (14,076 RSUs, 2023-10-30) of an additional award for expanded oversight of Intel Foundry for 12 months, on top of his annual director pay, plus RSUs in lieu of cash (779, 2,317 and 138). The second installment was granted 2024-01-30. 2024 proxy 'Director Compensation Table' (Total Compensation for FY 2023). Columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total; the row's last two figures are Outstanding Equity Awards at FYE 2023 (# and market value), not compensation. All Other Compensation = Intel Foundation matching charitable contributions. From 2023-03-01 to 2023-09-30 the cash retainer was cut 25% (Austerity Measures)."
+    },
+    {
+      "person_key": "dion-weisler",
+      "fiscal_year": 2023,
+      "accession": "0000050863-24-000057",
+      "listed_name": "Dion J. Weisler",
+      "fees_cash": 0,
+      "stock_awards": 409500,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 0,
+      "total": 409500,
+      "evidence_ref": "d061",
+      "notes": "RSUs in lieu of cash for 2022 fees (3,982), 2023 fees (3,129) and Q4 2023 (138). 2024 proxy 'Director Compensation Table' (Total Compensation for FY 2023). Columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total; the row's last two figures are Outstanding Equity Awards at FYE 2023 (# and market value), not compensation. All Other Compensation = Intel Foundation matching charitable contributions. From 2023-03-01 to 2023-09-30 the cash retainer was cut 25% (Austerity Measures)."
+    },
+    {
+      "person_key": "frank-yeary",
+      "fiscal_year": 2023,
+      "accession": "0000050863-24-000057",
+      "listed_name": "Frank D. Yeary",
+      "fees_cash": 246400,
+      "stock_awards": 205700,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 0,
+      "total": 452100,
+      "evidence_ref": "d062",
+      "notes": "Board Chair; deferred his 2023 annual cash compensation until retirement. 2024 proxy 'Director Compensation Table' (Total Compensation for FY 2023). Columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total; the row's last two figures are Outstanding Equity Awards at FYE 2023 (# and market value), not compensation. All Other Compensation = Intel Foundation matching charitable contributions. From 2023-03-01 to 2023-09-30 the cash retainer was cut 25% (Austerity Measures)."
+    },
+    {
+      "person_key": "james-goetz",
+      "fiscal_year": 2024,
+      "accession": "0000050863-25-000054",
+      "listed_name": "James J. Goetz",
+      "fees_cash": 0,
+      "stock_awards": 315100,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 0,
+      "total": 315100,
+      "evidence_ref": "d063",
+      "notes": "RSUs in lieu of 2024 cash fees (3,294 RSUs, 2024-05-08). 2025 proxy 'Director Compensation Table' (Total Compensation for FY 2024). Columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total; the row's last two figures are Outstanding Equity Awards at FYE 2024 (# and market value), not compensation. All Other Compensation = Intel Foundation matching charitable contributions. For 2024 the annual cash retainer rose from $90,000 to $100,000 and the annual equity award from $220,000 to $250,000."
+    },
+    {
+      "person_key": "andrea-goldsmith",
+      "fiscal_year": 2024,
+      "accession": "0000050863-25-000054",
+      "listed_name": "Andrea J. Goldsmith",
+      "fees_cash": 116300,
+      "stock_awards": 218100,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 0,
+      "total": 334400,
+      "evidence_ref": "d064",
+      "notes": "Deferred her 2024 annual cash compensation until retirement. 2025 proxy 'Director Compensation Table' (Total Compensation for FY 2024). Columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total; the row's last two figures are Outstanding Equity Awards at FYE 2024 (# and market value), not compensation. All Other Compensation = Intel Foundation matching charitable contributions. For 2024 the annual cash retainer rose from $90,000 to $100,000 and the annual equity award from $220,000 to $250,000."
+    },
+    {
+      "person_key": "alyssa-henry",
+      "fiscal_year": 2024,
+      "accession": "0000050863-25-000054",
+      "listed_name": "Alyssa H. Henry",
+      "fees_cash": 0,
+      "stock_awards": 315100,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 0,
+      "total": 315100,
+      "evidence_ref": "d065",
+      "notes": "RSUs in lieu of 2024 cash fees (3,294 RSUs). 2025 proxy 'Director Compensation Table' (Total Compensation for FY 2024). Columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total; the row's last two figures are Outstanding Equity Awards at FYE 2024 (# and market value), not compensation. All Other Compensation = Intel Foundation matching charitable contributions. For 2024 the annual cash retainer rose from $90,000 to $100,000 and the annual equity award from $220,000 to $250,000."
+    },
+    {
+      "person_key": "omar-ishrak",
+      "fiscal_year": 2024,
+      "accession": "0000050863-25-000054",
+      "listed_name": "Omar Ishrak",
+      "fees_cash": 120000,
+      "stock_awards": 218100,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 2000,
+      "total": 340100,
+      "evidence_ref": "d066",
+      "notes": "Deferred his 2024 annual cash compensation until retirement. 2025 proxy 'Director Compensation Table' (Total Compensation for FY 2024). Columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total; the row's last two figures are Outstanding Equity Awards at FYE 2024 (# and market value), not compensation. All Other Compensation = Intel Foundation matching charitable contributions. For 2024 the annual cash retainer rose from $90,000 to $100,000 and the annual equity award from $220,000 to $250,000."
+    },
+    {
+      "person_key": "risa-lavizzo-mourey",
+      "fiscal_year": 2024,
+      "accession": "0000050863-25-000054",
+      "listed_name": "Risa Lavizzo-Mourey",
+      "fees_cash": 146300,
+      "stock_awards": 218100,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 5000,
+      "total": 369400,
+      "evidence_ref": "d067",
+      "notes": "2025 proxy 'Director Compensation Table' (Total Compensation for FY 2024). Columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total; the row's last two figures are Outstanding Equity Awards at FYE 2024 (# and market value), not compensation. All Other Compensation = Intel Foundation matching charitable contributions. For 2024 the annual cash retainer rose from $90,000 to $100,000 and the annual equity award from $220,000 to $250,000."
+    },
+    {
+      "person_key": "tsu-jae-king-liu",
+      "fiscal_year": 2024,
+      "accession": "0000050863-25-000054",
+      "listed_name": "Tsu-Jae King Liu",
+      "fees_cash": 101300,
+      "stock_awards": 218100,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 5000,
+      "total": 324400,
+      "evidence_ref": "d068",
+      "notes": "2025 proxy 'Director Compensation Table' (Total Compensation for FY 2024). Columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total; the row's last two figures are Outstanding Equity Awards at FYE 2024 (# and market value), not compensation. All Other Compensation = Intel Foundation matching charitable contributions. For 2024 the annual cash retainer rose from $90,000 to $100,000 and the annual equity award from $220,000 to $250,000."
+    },
+    {
+      "person_key": "barbara-novick",
+      "fiscal_year": 2024,
+      "accession": "0000050863-25-000054",
+      "listed_name": "Barbara G. Novick",
+      "fees_cash": 0,
+      "stock_awards": 324900,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 5000,
+      "total": 329900,
+      "evidence_ref": "d069",
+      "notes": "RSUs in lieu of 2024 cash fees (3,628 RSUs). 2025 proxy 'Director Compensation Table' (Total Compensation for FY 2024). Columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total; the row's last two figures are Outstanding Equity Awards at FYE 2024 (# and market value), not compensation. All Other Compensation = Intel Foundation matching charitable contributions. For 2024 the annual cash retainer rose from $90,000 to $100,000 and the annual equity award from $220,000 to $250,000."
+    },
+    {
+      "person_key": "gregory-smith",
+      "fiscal_year": 2024,
+      "accession": "0000050863-25-000054",
+      "listed_name": "Gregory D. Smith",
+      "fees_cash": 140000,
+      "stock_awards": 218100,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 0,
+      "total": 358100,
+      "evidence_ref": "d070",
+      "notes": "Deferred his 2024 annual cash compensation until retirement. 2025 proxy 'Director Compensation Table' (Total Compensation for FY 2024). Columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total; the row's last two figures are Outstanding Equity Awards at FYE 2024 (# and market value), not compensation. All Other Compensation = Intel Foundation matching charitable contributions. For 2024 the annual cash retainer rose from $90,000 to $100,000 and the annual equity award from $220,000 to $250,000."
+    },
+    {
+      "person_key": "stacy-smith",
+      "fiscal_year": 2024,
+      "accession": "0000050863-25-000054",
+      "listed_name": "Stacy J. Smith",
+      "fees_cash": 26300,
+      "stock_awards": 326900,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 0,
+      "total": 353200,
+      "evidence_ref": "d071",
+      "notes": "Appointed March 2024; granted 1,001 RSUs on 2024-04-30 for the appointment, the 7,403-RSU annual award and 2,665 RSUs in lieu of cash. 2025 proxy 'Director Compensation Table' (Total Compensation for FY 2024). Columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total; the row's last two figures are Outstanding Equity Awards at FYE 2024 (# and market value), not compensation. All Other Compensation = Intel Foundation matching charitable contributions. For 2024 the annual cash retainer rose from $90,000 to $100,000 and the annual equity award from $220,000 to $250,000."
+    },
+    {
+      "person_key": "lip-bu-tan",
+      "fiscal_year": 2024,
+      "accession": "0000050863-25-000054",
+      "listed_name": "Lip-Bu Tan",
+      "fees_cash": 0,
+      "stock_awards": 758700,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 0,
+      "total": 758700,
+      "evidence_ref": "d072",
+      "notes": "Stock awards include the second installment of his Intel Foundry oversight award (10,629 RSUs, 2024-01-30) and 2,887 RSUs in lieu of cash; he 'forfeited [them] upon his departure from the Board on August 22, 2024 along with other unvested equity awards' (see conflicts on the departure date). He returned as CEO 2025-03-18. 2025 proxy 'Director Compensation Table' (Total Compensation for FY 2024). Columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total; the row's last two figures are Outstanding Equity Awards at FYE 2024 (# and market value), not compensation. All Other Compensation = Intel Foundation matching charitable contributions. For 2024 the annual cash retainer rose from $90,000 to $100,000 and the annual equity award from $220,000 to $250,000."
+    },
+    {
+      "person_key": "dion-weisler",
+      "fiscal_year": 2024,
+      "accession": "0000050863-25-000054",
+      "listed_name": "Dion J. Weisler",
+      "fees_cash": 0,
+      "stock_awards": 334700,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 0,
+      "total": 334700,
+      "evidence_ref": "d073",
+      "notes": "RSUs in lieu of 2024 cash fees (3,961 RSUs). 2025 proxy 'Director Compensation Table' (Total Compensation for FY 2024). Columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total; the row's last two figures are Outstanding Equity Awards at FYE 2024 (# and market value), not compensation. All Other Compensation = Intel Foundation matching charitable contributions. For 2024 the annual cash retainer rose from $90,000 to $100,000 and the annual equity award from $220,000 to $250,000."
+    },
+    {
+      "person_key": "frank-yeary",
+      "fiscal_year": 2024,
+      "accession": "0000050863-25-000054",
+      "listed_name": "Frank D. Yeary",
+      "fees_cash": 296300,
+      "stock_awards": 218100,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 0,
+      "total": 514400,
+      "evidence_ref": "d074",
+      "notes": "Board Chair (Interim Executive Chair from December 2024); deferred his 2024 annual cash compensation. His $700,000 interim Executive Chair award falls in FY2025. 2025 proxy 'Director Compensation Table' (Total Compensation for FY 2024). Columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total; the row's last two figures are Outstanding Equity Awards at FYE 2024 (# and market value), not compensation. All Other Compensation = Intel Foundation matching charitable contributions. For 2024 the annual cash retainer rose from $90,000 to $100,000 and the annual equity award from $220,000 to $250,000."
+    },
+    {
+      "person_key": "craig-barratt",
+      "fiscal_year": 2025,
+      "accession": "0000050863-26-000061",
+      "listed_name": "Craig H. Barratt",
+      "fees_cash": 25000,
+      "stock_awards": 0,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 0,
+      "total": 25000,
+      "evidence_ref": "d075",
+      "notes": "Joined the Board 2025-11-10 (board file); cash fees only for FY2025. 2026 proxy 'Director Compensation Table' (Total Compensation for FY 2025). Columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total; the row's last two figures are Outstanding Equity Awards at FYE 2025 (# and market value), not compensation. All Other Compensation = Intel Foundation matching charitable contributions. (The 2026-03-24 DEFR14A re-files this proxy verbatim and was not double-counted.)"
+    },
+    {
+      "person_key": "james-goetz",
+      "fiscal_year": 2025,
+      "accession": "0000050863-26-000061",
+      "listed_name": "James J. Goetz",
+      "fees_cash": 115000,
+      "stock_awards": 252200,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 0,
+      "total": 367200,
+      "evidence_ref": "d076",
+      "notes": "2026 proxy 'Director Compensation Table' (Total Compensation for FY 2025). Columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total; the row's last two figures are Outstanding Equity Awards at FYE 2025 (# and market value), not compensation. All Other Compensation = Intel Foundation matching charitable contributions. (The 2026-03-24 DEFR14A re-files this proxy verbatim and was not double-counted.)"
+    },
+    {
+      "person_key": "andrea-goldsmith",
+      "fiscal_year": 2025,
+      "accession": "0000050863-26-000061",
+      "listed_name": "Andrea J. Goldsmith",
+      "fees_cash": 125000,
+      "stock_awards": 252200,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 0,
+      "total": 377200,
+      "evidence_ref": "d077",
+      "notes": "2026 proxy 'Director Compensation Table' (Total Compensation for FY 2025). Columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total; the row's last two figures are Outstanding Equity Awards at FYE 2025 (# and market value), not compensation. All Other Compensation = Intel Foundation matching charitable contributions. (The 2026-03-24 DEFR14A re-files this proxy verbatim and was not double-counted.)"
+    },
+    {
+      "person_key": "alyssa-henry",
+      "fiscal_year": 2025,
+      "accession": "0000050863-26-000061",
+      "listed_name": "Alyssa H. Henry",
+      "fees_cash": 180000,
+      "stock_awards": 252200,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 0,
+      "total": 432200,
+      "evidence_ref": "d078",
+      "notes": "Fees include $60,000 for serving as Lead Independent Director while Mr. Yeary was Interim Executive Chair in 2025. 2026 proxy 'Director Compensation Table' (Total Compensation for FY 2025). Columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total; the row's last two figures are Outstanding Equity Awards at FYE 2025 (# and market value), not compensation. All Other Compensation = Intel Foundation matching charitable contributions. (The 2026-03-24 DEFR14A re-files this proxy verbatim and was not double-counted.)"
+    },
+    {
+      "person_key": "omar-ishrak",
+      "fiscal_year": 2025,
+      "accession": "0000050863-26-000061",
+      "listed_name": "Omar Ishrak",
+      "fees_cash": 62500,
+      "stock_awards": 0,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 0,
+      "total": 62500,
+      "evidence_ref": "d079",
+      "notes": "Left the Board at the May 2025 annual meeting (did not stand); no 2025 equity award; deferred his 2025 cash compensation. 2026 proxy 'Director Compensation Table' (Total Compensation for FY 2025). Columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total; the row's last two figures are Outstanding Equity Awards at FYE 2025 (# and market value), not compensation. All Other Compensation = Intel Foundation matching charitable contributions. (The 2026-03-24 DEFR14A re-files this proxy verbatim and was not double-counted.)"
+    },
+    {
+      "person_key": "tsu-jae-king-liu",
+      "fiscal_year": 2025,
+      "accession": "0000050863-26-000061",
+      "listed_name": "Tsu-Jae King Liu",
+      "fees_cash": 52500,
+      "stock_awards": 0,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 0,
+      "total": 52500,
+      "evidence_ref": "d080",
+      "notes": "Left the Board at the May 2025 annual meeting (did not stand); no 2025 equity award. 2026 proxy 'Director Compensation Table' (Total Compensation for FY 2025). Columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total; the row's last two figures are Outstanding Equity Awards at FYE 2025 (# and market value), not compensation. All Other Compensation = Intel Foundation matching charitable contributions. (The 2026-03-24 DEFR14A re-files this proxy verbatim and was not double-counted.)"
+    },
+    {
+      "person_key": "risa-lavizzo-mourey",
+      "fiscal_year": 2025,
+      "accession": "0000050863-26-000061",
+      "listed_name": "Risa Lavizzo-Mourey",
+      "fees_cash": 75000,
+      "stock_awards": 0,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 0,
+      "total": 75000,
+      "evidence_ref": "d081",
+      "notes": "Left the Board at the May 2025 annual meeting (did not stand); no 2025 equity award. 2026 proxy 'Director Compensation Table' (Total Compensation for FY 2025). Columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total; the row's last two figures are Outstanding Equity Awards at FYE 2025 (# and market value), not compensation. All Other Compensation = Intel Foundation matching charitable contributions. (The 2026-03-24 DEFR14A re-files this proxy verbatim and was not double-counted.)"
+    },
+    {
+      "person_key": "eric-meurice",
+      "fiscal_year": 2025,
+      "accession": "0000050863-26-000061",
+      "listed_name": "Eric Meurice",
+      "fees_cash": 120000,
+      "stock_awards": 353700,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 0,
+      "total": 473700,
+      "evidence_ref": "d082",
+      "notes": "Appointed December 2024; stock awards include 5,132 RSUs granted 2025-01-30 for the appointment plus the 12,552-RSU annual award. 2026 proxy 'Director Compensation Table' (Total Compensation for FY 2025). Columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total; the row's last two figures are Outstanding Equity Awards at FYE 2025 (# and market value), not compensation. All Other Compensation = Intel Foundation matching charitable contributions. (The 2026-03-24 DEFR14A re-files this proxy verbatim and was not double-counted.)"
+    },
+    {
+      "person_key": "barbara-novick",
+      "fiscal_year": 2025,
+      "accession": "0000050863-26-000061",
+      "listed_name": "Barbara G. Novick",
+      "fees_cash": 0,
+      "stock_awards": 393500,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 5000,
+      "total": 398500,
+      "evidence_ref": "d083",
+      "notes": "Took 2025 cash fees as 7,030 RSUs in lieu of cash. 2026 proxy 'Director Compensation Table' (Total Compensation for FY 2025). Columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total; the row's last two figures are Outstanding Equity Awards at FYE 2025 (# and market value), not compensation. All Other Compensation = Intel Foundation matching charitable contributions. (The 2026-03-24 DEFR14A re-files this proxy verbatim and was not double-counted.)"
+    },
+    {
+      "person_key": "steve-sanghi",
+      "fiscal_year": 2025,
+      "accession": "0000050863-26-000061",
+      "listed_name": "Steve Sanghi",
+      "fees_cash": 115000,
+      "stock_awards": 353700,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 0,
+      "total": 468700,
+      "evidence_ref": "d084",
+      "notes": "Appointed December 2024; stock awards include 5,132 RSUs granted 2025-01-30 for the appointment plus the 12,552-RSU annual award. 2026 proxy 'Director Compensation Table' (Total Compensation for FY 2025). Columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total; the row's last two figures are Outstanding Equity Awards at FYE 2025 (# and market value), not compensation. All Other Compensation = Intel Foundation matching charitable contributions. (The 2026-03-24 DEFR14A re-files this proxy verbatim and was not double-counted.)"
+    },
+    {
+      "person_key": "gregory-smith",
+      "fiscal_year": 2025,
+      "accession": "0000050863-26-000061",
+      "listed_name": "Gregory D. Smith",
+      "fees_cash": 138800,
+      "stock_awards": 252200,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 0,
+      "total": 391000,
+      "evidence_ref": "d085",
+      "notes": "Deferred his 2025 annual cash compensation until retirement. 2026 proxy 'Director Compensation Table' (Total Compensation for FY 2025). Columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total; the row's last two figures are Outstanding Equity Awards at FYE 2025 (# and market value), not compensation. All Other Compensation = Intel Foundation matching charitable contributions. (The 2026-03-24 DEFR14A re-files this proxy verbatim and was not double-counted.)"
+    },
+    {
+      "person_key": "stacy-smith",
+      "fiscal_year": 2025,
+      "accession": "0000050863-26-000061",
+      "listed_name": "Stacy J. Smith",
+      "fees_cash": 132500,
+      "stock_awards": 252200,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 0,
+      "total": 384700,
+      "evidence_ref": "d086",
+      "notes": "2026 proxy 'Director Compensation Table' (Total Compensation for FY 2025). Columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total; the row's last two figures are Outstanding Equity Awards at FYE 2025 (# and market value), not compensation. All Other Compensation = Intel Foundation matching charitable contributions. (The 2026-03-24 DEFR14A re-files this proxy verbatim and was not double-counted.)"
+    },
+    {
+      "person_key": "dion-weisler",
+      "fiscal_year": 2025,
+      "accession": "0000050863-26-000061",
+      "listed_name": "Dion J. Weisler",
+      "fees_cash": 140000,
+      "stock_awards": 252200,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 0,
+      "total": 392200,
+      "evidence_ref": "d087",
+      "notes": "2026 proxy 'Director Compensation Table' (Total Compensation for FY 2025). Columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total; the row's last two figures are Outstanding Equity Awards at FYE 2025 (# and market value), not compensation. All Other Compensation = Intel Foundation matching charitable contributions. (The 2026-03-24 DEFR14A re-files this proxy verbatim and was not double-counted.)"
+    },
+    {
+      "person_key": "frank-yeary",
+      "fiscal_year": 2025,
+      "accession": "0000050863-26-000061",
+      "listed_name": "Frank D. Yeary",
+      "fees_cash": 0,
+      "stock_awards": 1241000,
+      "option_awards": 0,
+      "non_equity_incentive": 0,
+      "pension_nqdc": 0,
+      "all_other": 0,
+      "total": 1241000,
+      "evidence_ref": "d088",
+      "notes": "Took all 2025 cash compensation as 49,205 RSUs in lieu of cash, 'which includes his compensation of $700,000 for serving as Interim Executive Chair in 2025' (December 2024 - March 2025); hence $0 cash and $1,241,000 stock. Did not stand for re-election in 2026. 2026 proxy 'Director Compensation Table' (Total Compensation for FY 2025). Columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total; the row's last two figures are Outstanding Equity Awards at FYE 2025 (# and market value), not compensation. All Other Compensation = Intel Foundation matching charitable contributions. (The 2026-03-24 DEFR14A re-files this proxy verbatim and was not double-counted.)"
+    }
+  ],
+  "exits": [
+    {
+      "person_key": "brian-krzanich",
+      "role": "Chief Executive Officer",
+      "exit_date": "2018-06-20",
+      "exit_date_precision": "day",
+      "exit_type": "resigned",
+      "basis": "actual",
+      "severance_cash": 0,
+      "accelerated_equity_value": null,
+      "consulting_fees": null,
+      "other_exit_pay": 399800,
+      "total_exit_pay": 36706300,
+      "evidence_refs": [
+        "d201",
+        "d202",
+        "d203",
+        "d204",
+        "d205",
+        "d206",
+        "d207"
+      ],
+      "notes": "8-K: he 'resigned as Chief Executive Officer and a member of Intel's Board of Directors' on 2018-06-20; the 2019 proxy: he 'did not receive any severance benefits' (severance 0) and forfeited 58,372 RSUs. Retirement-eligible (Rule of 75), so 87,430 RSUs and 668,274 OSU shares vested under pre-existing terms. The proxy's Potential Payments row reports what he actually received: RSU acceleration $4,087,400 + OSUs $32,219,100 (at target and the FY2018 year-end price of $46.75; OSUs still pay 0-200% on performance; the 2016 grant actually paid $8,022,700) = $36,306,500 of accelerated equity. That sum is not printed in the filing, so accelerated_equity_value is left null; total_exit_pay is the $36,706,300 the table states. other_exit_pay = $399,800 of continued personal security through November 2018 'as a result of ongoing threats post-employment'. Not counted: broad-based payouts of accrued sabbatical ($228,700), vacation ($223,100) and holiday pay ($5,600), a prorated quarterly incentive cash payment ($66,500) and a $300 anniversary gift; no 2018 annual incentive cash. The filings reviewed give no reason for the resignation."
+    },
+    {
+      "person_key": "todd-underwood",
+      "role": "Interim Chief Financial Officer",
+      "exit_date": "2019-04-02",
+      "exit_date_precision": "day",
+      "exit_type": "other",
+      "basis": "actual",
+      "severance_cash": null,
+      "accelerated_equity_value": null,
+      "consulting_fees": null,
+      "other_exit_pay": null,
+      "total_exit_pay": null,
+      "evidence_refs": [
+        "d210",
+        "d211",
+        "d212"
+      ],
+      "notes": "Not a departure: when Davis became CFO, 'Mr. Underwood returned to his prior role' (2020 proxy), so his executive-officer tenure ended 2019-04-02 while he stayed employed (later CVP and CFO of the Client Computing Group). He resigned from Intel effective 2021-02-02 (8-K) while not an executive officer. No filing reviewed discloses any exit payment; all components null. His April 2019 interim-CFO RSUs/PSUs could accelerate only on a termination without cause or a good-reason resignation, which the filings do not report."
+    },
+    {
+      "person_key": "venkata-renduchintala",
+      "role": "Executive Vice President; Group President, Technology, Systems Architecture and Client Group, and Chief Engineering Officer",
+      "exit_date": "2020-08-03",
+      "exit_date_precision": "day",
+      "exit_type": "terminated_without_cause",
+      "basis": "actual",
+      "severance_cash": 1800000,
+      "accelerated_equity_value": 0,
+      "consulting_fees": null,
+      "other_exit_pay": null,
+      "total_exit_pay": 1843700,
+      "evidence_refs": [
+        "d220",
+        "d221",
+        "d222",
+        "d223",
+        "d224",
+        "d225",
+        "d226"
+      ],
+      "notes": "8-K: his role 'would be eliminated' 'as a result of organizational changes' to TSCG; the 2021 proxy calls it an 'involuntary termination of employment' (the proxy's 'Involuntary Termination' column means termination without cause by Intel). Separation Agreement and General Release (release, confidentiality/IP reconfirmation, non-disparagement, cooperation). Actual exit pay: $1,800,000 separation cash; outplacement $22,500 and healthcare supplemental $21,200 (= $43,700 other exit pay, a sum the filing does not print, so other_exit_pay is null); total_exit_pay = the $1,843,700 the Potential Payments table states. No equity acceleration ('did not have any shares that were eligible for acceleration'); all unvested RSUs, PSUs and Strategic Growth Equity Awards forfeited. Not counted: accrued vacation ($162,600), sabbatical ($101,600) and holiday pay ($8,100)."
+    },
+    {
+      "person_key": "robert-swan",
+      "role": "Chief Executive Officer",
+      "exit_date": "2021-02-15",
+      "exit_date_precision": "day",
+      "exit_type": "terminated_without_cause",
+      "basis": "actual",
+      "severance_cash": 0,
+      "accelerated_equity_value": 38449529,
+      "consulting_fees": 0,
+      "other_exit_pay": 0,
+      "total_exit_pay": 38449529,
+      "evidence_refs": [
+        "d230",
+        "d231",
+        "d232",
+        "d233",
+        "d234",
+        "d235"
+      ],
+      "notes": "8-K: 'Mr. Swan's employment will be terminated without cause' effective 2021-02-15 (he also left the Board). He 'did not receive or become entitled to any additional payments or benefits' beyond existing arrangements, so severance, consulting and other exit pay are 0. Retirement-eligible (Rule of Age 60): annual PSUs' time conditions deemed met, interim-CEO RSUs accelerated and PSUs retained, Cash Incentive-Related PSUs accelerated. accelerated_equity_value = $38,449,529, valued at the 2021-02-12 close ($61.81) in the 2021 proxy, of which $29,264,068 remained subject to performance; he forfeited awards with a $54,767,260 target value (including all Strategic Growth Equity Awards). The 2022 proxy restates the vested amount as $25,174,600 (FY2021 year-end price, actual 2019 PSU payout; see conflicts). total_exit_pay = plain sum of the recorded components. Not counted: accrued vacation ($192,300), sabbatical ($110,600) and holiday pay ($9,600)."
+    },
+    {
+      "person_key": "navin-shenoy",
+      "role": "Executive Vice President and General Manager, Data Platforms Group",
+      "exit_date": "2021-07-06",
+      "exit_date_precision": "day",
+      "exit_type": "terminated_without_cause",
+      "basis": "actual",
+      "severance_cash": 1800000,
+      "accelerated_equity_value": 0,
+      "consulting_fees": null,
+      "other_exit_pay": null,
+      "total_exit_pay": 1846200,
+      "evidence_refs": [
+        "d240",
+        "d241",
+        "d242",
+        "d243",
+        "d244",
+        "d245"
+      ],
+      "notes": "8-K: separation 'in connection with the restructuring of the Data Platforms Group'; 2022 proxy: 'involuntary termination of employment on July 6, 2021' with a Separation Agreement and General Release. Actual exit pay: $1,800,000 separation payment; outplacement $22,500 and healthcare supplemental $23,700 (= $46,200 other exit pay, not printed as one figure, so other_exit_pay is null); total_exit_pay = the $1,846,200 the Potential Payments table states for what he received. All unvested equity forfeited (accelerated equity 0). Not counted: accrued vacation ($134,600), sabbatical ($185,100) and holiday pay ($6,700)."
+    },
+    {
+      "person_key": "gregory-bryant",
+      "role": "Executive Vice President and General Manager, Client Computing Group",
+      "exit_date": "2022-01-31",
+      "exit_date_precision": "day",
+      "exit_type": "resigned",
+      "basis": "estimated",
+      "severance_cash": 0,
+      "accelerated_equity_value": 10357700,
+      "consulting_fees": null,
+      "other_exit_pay": 0,
+      "total_exit_pay": 10357700,
+      "evidence_refs": [
+        "d250",
+        "d251",
+        "d252",
+        "d253"
+      ],
+      "notes": "8-K: he 'notified Intel of his decision to resign, effective as of January 31, 2022, in order to pursue another career opportunity' (the 2022 proxy says he ceased to be an executive officer on 2022-01-21). No filing reports what he actually received; the 2022 proxy's hypothetical Voluntary Separation column (as of 2021-12-25, $51.31/share; 2019 PSUs at actual payout) shows Rule-of-75 retirement acceleration of RSUs $1,492,400 + PSUs $8,865,300 = $10,357,700 (the printed total) and no cash. Severance and other exit pay are 0 per that table (he had no severance arrangement; only Gelsinger and Davis had offer-letter severance)."
+    },
+    {
+      "person_key": "george-davis",
+      "role": "Executive Vice President and Chief Financial Officer",
+      "exit_date": "2022-05-06",
+      "exit_date_precision": "day",
+      "exit_type": "retired",
+      "basis": "actual",
+      "severance_cash": 0,
+      "accelerated_equity_value": 0,
+      "consulting_fees": 0,
+      "other_exit_pay": 0,
+      "total_exit_pay": 0,
+      "evidence_refs": [
+        "d260",
+        "d261",
+        "d262",
+        "d263",
+        "d264"
+      ],
+      "notes": "Stepped down as CFO on 2022-01-17 (officer tenure end) and served as Executive Advisor until he 'retired from Intel on May 6, 2022'. 2023 proxy: 'not entitled to any separation pay or other special benefits' and 'did not have any accelerated equity awards or other payments' (all components 0; his offer-letter severance applied only to a termination without cause or good-reason resignation). Not counted as exit pay: his 2022 pay while still an employee-advisor (salary $366,100; an RSU award with $244,500 grant-date value that vested 2022-04-30; accrued sabbatical $56,900 and $21,300 for late delivery of amounts owed)."
+    },
+    {
+      "person_key": "steven-rodgers",
+      "role": "Executive Vice President and General Counsel",
+      "exit_date": "2022-05-31",
+      "exit_date_precision": "day",
+      "exit_type": "retired",
+      "basis": "estimated",
+      "severance_cash": 0,
+      "accelerated_equity_value": 9444300,
+      "consulting_fees": null,
+      "other_exit_pay": 0,
+      "total_exit_pay": 9444300,
+      "evidence_refs": [
+        "d270",
+        "d271",
+        "d272",
+        "d253"
+      ],
+      "notes": "8-K: he 'notified Intel of his decision to retire from the company on May 31, 2022' (the announced date; no later filing confirms the day); interim GC from 2022-02-09. Not an NEO in the 2023 proxy, so no filing reports what he actually received. Estimate = the 2022 proxy's Voluntary Separation or Retirement column (as of 2021-12-25): Rule-of-75 retirement acceleration of RSUs $866,000 + PSUs $8,578,300 = $9,444,300 (printed total), no cash. He leased an Intel-owned residence (moved there at Intel's request after threats) with an option to buy it at Intel's cost at the end of the lease; the filings do not say whether that was exercised."
+    },
+    {
+      "person_key": "sandra-rivera",
+      "role": "Executive Vice President and General Manager, Data Center and AI Group",
+      "exit_date": "2023-12-31",
+      "exit_date_precision": "day",
+      "exit_type": "other",
+      "basis": "actual",
+      "severance_cash": null,
+      "accelerated_equity_value": null,
+      "consulting_fees": null,
+      "other_exit_pay": null,
+      "total_exit_pay": null,
+      "evidence_refs": [
+        "d280",
+        "d281",
+        "d282"
+      ],
+      "notes": "Not a departure from Intel: she ceased to head DCAI effective 2023-12-31 (8-K; the 2024 proxy says she ceased to be an executive officer 'as of the end of our 2023 fiscal year', 2023-12-30) and became CEO of Altera ('an Intel company', formerly PSG) under a new offer letter ($900,000 salary, 150% target bonus, PSG equity including about $25,000,000 of 'staking grants', and 1x salary-plus-bonus severance on a later termination without cause). No exit payment from her Intel executive role is disclosed; all components null. Her later departure from Altera is not covered by the Intel filings reviewed."
+    },
+    {
+      "person_key": "patrick-gelsinger",
+      "role": "Chief Executive Officer",
+      "exit_date": "2024-12-01",
+      "exit_date_precision": "day",
+      "exit_type": "resigned",
+      "basis": "actual",
+      "severance_cash": 7853450,
+      "accelerated_equity_value": 0,
+      "consulting_fees": null,
+      "other_exit_pay": 0,
+      "total_exit_pay": 7853450,
+      "evidence_refs": [
+        "d290",
+        "d291",
+        "d292",
+        "d293",
+        "d294",
+        "d295",
+        "d296",
+        "d297"
+      ],
+      "notes": "8-K: he 'resigned from the Company and the Board of Directors ... effective immediately' on 2024-12-01; the agreement is titled a 'Retirement and Separation Agreement' and the press release says he 'retired' (see conflicts). 2025 proxy: 'The Board had discussions with Mr. Gelsinger regarding his resignation' and chose to pay severance 'consistent with those benefits he would have received had his employment been terminated by the company without cause under his offer letter', plus a prorated bonus. severance_cash = $7,853,450 total severance = $7,031,250 (18 months of $1,250,000 salary + 1.5x the $3,437,500 target bonus, paid over 18 months) + $822,200 prorated (11/12) 2024 bonus at 26.1% actual performance. He 'forfeited all his outstanding unvested equity awards, including his new hire awards' (accelerated equity 0; table 'Other' 0). Given in exchange for a release, confidentiality/IP affirmation and litigation cooperation. Not counted: accrued vacation ($192,300), sabbatical ($94,200), holiday pay ($19,200), $24,000 for late delivery of amounts owed, and 2024 residential security ($248,900)."
+    },
+    {
+      "person_key": "justin-hotard",
+      "role": "Executive Vice President and General Manager, Data Center and AI Group",
+      "exit_date": "2025-03-01",
+      "exit_date_precision": "day",
+      "exit_type": "resigned",
+      "basis": "actual",
+      "severance_cash": 0,
+      "accelerated_equity_value": 0,
+      "consulting_fees": 0,
+      "other_exit_pay": 0,
+      "total_exit_pay": 0,
+      "evidence_refs": [
+        "d300",
+        "d301",
+        "d302",
+        "d303"
+      ],
+      "notes": "2025 proxy: he 'resigned and departed from the company in March 2025 to pursue another opportunity' and 'did not receive any severance payments or benefits on his separation' (all components 0). He forfeited the unvested part of his make-whole equity and repaid $691,518, a prorated part of his $1,500,000 make-whole cash bonus, because he left within two years of its payment (a repayment, not recorded as negative exit pay). No 8-K reported his departure."
+    },
+    {
+      "person_key": "christoph-schell",
+      "role": "Executive Vice President, Chief Commercial Officer and General Manager, Sales, Marketing and Communications Group",
+      "exit_date": "2025-06-30",
+      "exit_date_precision": "day",
+      "exit_type": "resigned",
+      "basis": "actual",
+      "severance_cash": 0,
+      "accelerated_equity_value": 0,
+      "consulting_fees": 0,
+      "other_exit_pay": 0,
+      "total_exit_pay": 0,
+      "evidence_refs": [
+        "d310",
+        "d311",
+        "d312",
+        "d313",
+        "d314"
+      ],
+      "notes": "8-K: he 'notified Intel of his decision to resign, effective as of June 30, 2025, in order to pursue another career opportunity' (the 8-K spells his name 'Christopher'). 2026 proxy: 'not entitled to any severance pay or other benefits' and no equity acceleration; he 'forfeited all of his outstanding equity awards' and earned no 2025 bonus. The Potential Payments table reports what he actually received: nothing. Not counted: accrued vacation ($98,100), sabbatical ($50,200) and holiday pay ($13,100)."
+    },
+    {
+      "person_key": "michelle-johnston-holthaus",
+      "role": "Chief Executive Officer, Intel Products",
+      "exit_date": "2026-03-01",
+      "exit_date_precision": "day",
+      "exit_type": "resigned",
+      "basis": "estimated",
+      "severance_cash": 4500000,
+      "accelerated_equity_value": 13842200,
+      "consulting_fees": null,
+      "other_exit_pay": 53000,
+      "total_exit_pay": 18395200,
+      "evidence_refs": [
+        "d320",
+        "d321",
+        "d322",
+        "d323",
+        "d324"
+      ],
+      "notes": "She 'notified Intel ... of her decision to resign for Good Reason' on 2025-09-07 (8-K) under her February 2025 letter agreement, which extended Executive Severance Plan benefits to a good-reason resignation within two years of a new CEO; she stayed in a non-executive role and left Intel 2026-03-01, when she 'became entitled to severance benefits' under the plan. No filing yet states the amounts paid. Estimate = the 2026 proxy's Involuntary Termination column (as of 2025-12-27, $36.20/share): cash severance $4,500,000 (1.5x salary plus target bonus, paid over 18 months), Rule-of-75 retirement acceleration of RSUs $2,845,400 + PSUs $10,996,800 = $13,842,200 (printed as her voluntary-column total), other $53,000 (lump sum for 18 months of group health premiums), total $18,395,200 (printed). Outplacement for up to 18 months is not quantified. Also received a separate $1,500,000 interim co-CEO payment in Q1 2025 (pay for service, not exit pay)."
+    },
+    {
+      "person_key": "april-miller-boise",
+      "role": "Executive Vice President and Chief Legal Officer",
+      "exit_date": "2026-06-01",
+      "exit_date_precision": "day",
+      "exit_type": "terminated_without_cause",
+      "basis": "estimated",
+      "severance_cash": 3093800,
+      "accelerated_equity_value": 0,
+      "consulting_fees": null,
+      "other_exit_pay": 45100,
+      "total_exit_pay": 3138900,
+      "evidence_refs": [
+        "d330",
+        "d331",
+        "d332",
+        "d333"
+      ],
+      "notes": "8-K: on 2026-03-30 'Intel Corporation determined that April Miller Boise ... will separate from Intel effective as of June 1, 2026' and that she 'will be entitled to severance benefits' under the Executive Severance Plan. The plan pays 'on a termination of employment by us without cause'; the filings do not say 'without cause' about her directly, so exit_type is inferred from her plan entitlement. Her officer role passed to a successor around 2026-05-13 (exec comp file). No filing yet states the amounts paid. Estimate = the 2026 proxy's Involuntary Termination column (as of 2025-12-27): cash severance $3,093,800 + other $45,100 (18 months of health premiums) = $3,138,900 (printed); no equity acceleration because 'none of the equity awards that were outstanding as of December 27, 2025 were eligible' under the plan (awards more than a year old by 2026-06-01 could get prorated vesting, which is not quantified). Outplacement not quantified."
+    }
+  ],
+  "evidence": [
+    {
+      "id": "d001",
+      "form": "DEF 14A",
+      "accession": "0001193125-19-095785",
+      "filing_date": "2019-04-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312519095785/d648184ddef14a.htm",
+      "quote": "Charlene Barshefsky3 52,500 — — — 52,500",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Charlene Barshefsky, fiscal year 2018."
+    },
+    {
+      "id": "d002",
+      "form": "DEF 14A",
+      "accession": "0001193125-19-095785",
+      "filing_date": "2019-04-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312519095785/d648184ddef14a.htm",
+      "quote": "Aneel Bhusri4 — 369,300 — — 369,300",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Aneel Bhusri, fiscal year 2018."
+    },
+    {
+      "id": "d003",
+      "form": "DEF 14A",
+      "accession": "0001193125-19-095785",
+      "filing_date": "2019-04-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312519095785/d648184ddef14a.htm",
+      "quote": "Reed E. Hundt 115,000 221,000 — 5,000 341,000",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Reed E. Hundt, fiscal year 2018."
+    },
+    {
+      "id": "d004",
+      "form": "DEF 14A",
+      "accession": "0001193125-19-095785",
+      "filing_date": "2019-04-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312519095785/d648184ddef14a.htm",
+      "quote": "Omar Ishrak 110,000 221,000 — — 331,000",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Omar Ishrak, fiscal year 2018."
+    },
+    {
+      "id": "d005",
+      "form": "DEF 14A",
+      "accession": "0001193125-19-095785",
+      "filing_date": "2019-04-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312519095785/d648184ddef14a.htm",
+      "quote": "Risa Lavizzo-Mourey5 — 182,500 — 5,000 187,500",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Risa Lavizzo-Mourey, fiscal year 2018."
+    },
+    {
+      "id": "d006",
+      "form": "DEF 14A",
+      "accession": "0001193125-19-095785",
+      "filing_date": "2019-04-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312519095785/d648184ddef14a.htm",
+      "quote": "Tsu-Jae King Liu 105,000 221,000 — 5,000 331,000",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Tsu-Jae King Liu, fiscal year 2018."
+    },
+    {
+      "id": "d007",
+      "form": "DEF 14A",
+      "accession": "0001193125-19-095785",
+      "filing_date": "2019-04-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312519095785/d648184ddef14a.htm",
+      "quote": "David S. Pottruck3 55,000 221,000 — 5,000 281,000",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for David S. Pottruck, fiscal year 2018."
+    },
+    {
+      "id": "d008",
+      "form": "DEF 14A",
+      "accession": "0001193125-19-095785",
+      "filing_date": "2019-04-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312519095785/d648184ddef14a.htm",
+      "quote": "Gregory D. Smith 131,250 221,000 — 2,000 354,250",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Gregory D. Smith, fiscal year 2018."
+    },
+    {
+      "id": "d009",
+      "form": "DEF 14A",
+      "accession": "0001193125-19-095785",
+      "filing_date": "2019-04-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312519095785/d648184ddef14a.htm",
+      "quote": "Andrew Wilson 101,250 221,000 — — 322,250",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Andrew Wilson, fiscal year 2018."
+    },
+    {
+      "id": "d010",
+      "form": "DEF 14A",
+      "accession": "0001193125-19-095785",
+      "filing_date": "2019-04-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312519095785/d648184ddef14a.htm",
+      "quote": "Frank D. Yeary6 125,000 221,000 — — 346,000",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Frank D. Yeary, fiscal year 2018."
+    },
+    {
+      "id": "d011",
+      "form": "DEF 14A",
+      "accession": "0001193125-19-095785",
+      "filing_date": "2019-04-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312519095785/d648184ddef14a.htm",
+      "quote": "David B. Yoffie3,7 95,000 221,000 47,000 5,000 368,000",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for David B. Yoffie, fiscal year 2018."
+    },
+    {
+      "id": "d012",
+      "form": "DEF 14A",
+      "accession": "0001193125-20-091451",
+      "filing_date": "2020-03-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312520091451/d835759ddef14a.htm",
+      "quote": "Aneel Bhusri3 160,000 348,300 — 508,300",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Aneel Bhusri, fiscal year 2019."
+    },
+    {
+      "id": "d013",
+      "form": "DEF 14A",
+      "accession": "0001193125-20-091451",
+      "filing_date": "2020-03-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312520091451/d835759ddef14a.htm",
+      "quote": "James J. Goetz4 22,500 — — 22,500",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for James J. Goetz, fiscal year 2019."
+    },
+    {
+      "id": "d014",
+      "form": "DEF 14A",
+      "accession": "0001193125-20-091451",
+      "filing_date": "2020-03-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312520091451/d835759ddef14a.htm",
+      "quote": "Reed E. Hundt 107,500 194,600 10,000 312,100",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Reed E. Hundt, fiscal year 2019."
+    },
+    {
+      "id": "d015",
+      "form": "DEF 14A",
+      "accession": "0001193125-20-091451",
+      "filing_date": "2020-03-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312520091451/d835759ddef14a.htm",
+      "quote": "Omar Ishrak 127,500 194,600 — 322,100",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Omar Ishrak, fiscal year 2019."
+    },
+    {
+      "id": "d016",
+      "form": "DEF 14A",
+      "accession": "0001193125-20-091451",
+      "filing_date": "2020-03-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312520091451/d835759ddef14a.htm",
+      "quote": "Risa Lavizzo-Mourey5 — 281,000 9,000 290,000",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Risa Lavizzo-Mourey, fiscal year 2019."
+    },
+    {
+      "id": "d017",
+      "form": "DEF 14A",
+      "accession": "0001193125-20-091451",
+      "filing_date": "2020-03-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312520091451/d835759ddef14a.htm",
+      "quote": "Tsu-Jae King Liu 116,300 194,600 — 310,900",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Tsu-Jae King Liu, fiscal year 2019."
+    },
+    {
+      "id": "d018",
+      "form": "DEF 14A",
+      "accession": "0001193125-20-091451",
+      "filing_date": "2020-03-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312520091451/d835759ddef14a.htm",
+      "quote": "Gregory D. Smith 125,000 194,600 10,000 329,600",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Gregory D. Smith, fiscal year 2019."
+    },
+    {
+      "id": "d019",
+      "form": "DEF 14A",
+      "accession": "0001193125-20-091451",
+      "filing_date": "2020-03-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312520091451/d835759ddef14a.htm",
+      "quote": "Andrew Wilson 121,300 194,600 — 315,900",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Andrew Wilson, fiscal year 2019."
+    },
+    {
+      "id": "d020",
+      "form": "DEF 14A",
+      "accession": "0001193125-20-091451",
+      "filing_date": "2020-03-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312520091451/d835759ddef14a.htm",
+      "quote": "Frank D. Yeary6 125,000 194,600 — 319,600",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Frank D. Yeary, fiscal year 2019."
+    },
+    {
+      "id": "d021",
+      "form": "DEF 14A",
+      "accession": "0001193125-21-098458",
+      "filing_date": "2021-03-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312521098458/d86711ddef14a.htm",
+      "quote": "James J. Goetz3 — 343,500 — 343,500",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for James J. Goetz, fiscal year 2020."
+    },
+    {
+      "id": "d022",
+      "form": "DEF 14A",
+      "accession": "0001193125-21-098458",
+      "filing_date": "2021-03-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312521098458/d86711ddef14a.htm",
+      "quote": "Alyssa Henry4 22,500 305,200 — 327,700",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Alyssa Henry, fiscal year 2020."
+    },
+    {
+      "id": "d023",
+      "form": "DEF 14A",
+      "accession": "0001193125-21-098458",
+      "filing_date": "2021-03-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312521098458/d86711ddef14a.htm",
+      "quote": "Reed Hundt5 50,000 — — 50,000",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Reed Hundt, fiscal year 2020."
+    },
+    {
+      "id": "d024",
+      "form": "DEF 14A",
+      "accession": "0001193125-21-098458",
+      "filing_date": "2021-03-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312521098458/d86711ddef14a.htm",
+      "quote": "Omar Ishrak 305,000 209,500 — 514,500",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Omar Ishrak, fiscal year 2020."
+    },
+    {
+      "id": "d025",
+      "form": "DEF 14A",
+      "accession": "0001193125-21-098458",
+      "filing_date": "2021-03-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312521098458/d86711ddef14a.htm",
+      "quote": "Risa Lavizzo-Mourey6 — 311,300 10,000 321,300",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Risa Lavizzo-Mourey, fiscal year 2020."
+    },
+    {
+      "id": "d026",
+      "form": "DEF 14A",
+      "accession": "0001193125-21-098458",
+      "filing_date": "2021-03-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312521098458/d86711ddef14a.htm",
+      "quote": "Tsu-Jae King Liu 120,000 209,500 10,000 339,500",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Tsu-Jae King Liu, fiscal year 2020."
+    },
+    {
+      "id": "d027",
+      "form": "DEF 14A",
+      "accession": "0001193125-21-098458",
+      "filing_date": "2021-03-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312521098458/d86711ddef14a.htm",
+      "quote": "Gregory D. Smith 125,000 209,500 10,000 344,500",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Gregory D. Smith, fiscal year 2020."
+    },
+    {
+      "id": "d028",
+      "form": "DEF 14A",
+      "accession": "0001193125-21-098458",
+      "filing_date": "2021-03-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312521098458/d86711ddef14a.htm",
+      "quote": "Dion J. Weisler7 50,000 165,100 — 215,100",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Dion J. Weisler, fiscal year 2020."
+    },
+    {
+      "id": "d029",
+      "form": "DEF 14A",
+      "accession": "0001193125-21-098458",
+      "filing_date": "2021-03-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312521098458/d86711ddef14a.htm",
+      "quote": "Andrew Wilson 115,000 209,500 — 324,500",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Andrew Wilson, fiscal year 2020."
+    },
+    {
+      "id": "d030",
+      "form": "DEF 14A",
+      "accession": "0001193125-21-098458",
+      "filing_date": "2021-03-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312521098458/d86711ddef14a.htm",
+      "quote": "Frank D. Yeary8 120,000 209,500 5,000 334,500",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Frank D. Yeary, fiscal year 2020."
+    },
+    {
+      "id": "d031",
+      "form": "DEF 14A",
+      "accession": "0000050863-22-000011",
+      "filing_date": "2022-03-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086322000011/proxy2022.htm",
+      "quote": "James J. Goetz 3 — 284,900 — 284,900",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for James J. Goetz, fiscal year 2021."
+    },
+    {
+      "id": "d032",
+      "form": "DEF 14A",
+      "accession": "0000050863-22-000011",
+      "filing_date": "2022-03-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086322000011/proxy2022.htm",
+      "quote": "Andrea J. Goldsmith 4 45,000 131,900 — 176,900",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Andrea J. Goldsmith, fiscal year 2021."
+    },
+    {
+      "id": "d033",
+      "form": "DEF 14A",
+      "accession": "0000050863-22-000011",
+      "filing_date": "2022-03-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086322000011/proxy2022.htm",
+      "quote": "Alyssa H. Henry 5 — 281,200 — 281,200",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Alyssa H. Henry, fiscal year 2021."
+    },
+    {
+      "id": "d034",
+      "form": "DEF 14A",
+      "accession": "0000050863-22-000011",
+      "filing_date": "2022-03-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086322000011/proxy2022.htm",
+      "quote": "Omar Ishrak 277,500 195,400 — 472,900",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Omar Ishrak, fiscal year 2021."
+    },
+    {
+      "id": "d035",
+      "form": "DEF 14A",
+      "accession": "0000050863-22-000011",
+      "filing_date": "2022-03-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086322000011/proxy2022.htm",
+      "quote": "Risa Lavizzo-Mourey 6 123,800 304,800 10,000 438,600",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Risa Lavizzo-Mourey, fiscal year 2021."
+    },
+    {
+      "id": "d036",
+      "form": "DEF 14A",
+      "accession": "0000050863-22-000011",
+      "filing_date": "2022-03-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086322000011/proxy2022.htm",
+      "quote": "Tsu-Jae King Liu 108,800 195,400 1,000 305,200",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Tsu-Jae King Liu, fiscal year 2021."
+    },
+    {
+      "id": "d037",
+      "form": "DEF 14A",
+      "accession": "0000050863-22-000011",
+      "filing_date": "2022-03-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086322000011/proxy2022.htm",
+      "quote": "Gregory D. Smith 7 125,000 195,400 10,000 330,400",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Gregory D. Smith, fiscal year 2021."
+    },
+    {
+      "id": "d038",
+      "form": "DEF 14A",
+      "accession": "0000050863-22-000011",
+      "filing_date": "2022-03-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086322000011/proxy2022.htm",
+      "quote": "Dion J. Weisler 8 — 220,300 — 220,300",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Dion J. Weisler, fiscal year 2021."
+    },
+    {
+      "id": "d039",
+      "form": "DEF 14A",
+      "accession": "0000050863-22-000011",
+      "filing_date": "2022-03-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086322000011/proxy2022.htm",
+      "quote": "Andrew Wilson 9 57,500 N/A — 57,500",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Andrew Wilson, fiscal year 2021."
+    },
+    {
+      "id": "d040",
+      "form": "DEF 14A",
+      "accession": "0000050863-22-000011",
+      "filing_date": "2022-03-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086322000011/proxy2022.htm",
+      "quote": "Frank D. Yeary 7 120,000 195,400 — 315,400",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Frank D. Yeary, fiscal year 2021."
+    },
+    {
+      "id": "d041",
+      "form": "DEF 14A",
+      "accession": "0000050863-23-000021",
+      "filing_date": "2023-03-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086323000021/intc-20230327.htm",
+      "quote": "James J. Goetz 3 — 277,400 — 277,400",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for James J. Goetz, fiscal year 2022."
+    },
+    {
+      "id": "d042",
+      "form": "DEF 14A",
+      "accession": "0000050863-23-000021",
+      "filing_date": "2023-03-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086323000021/intc-20230327.htm",
+      "quote": "Andrea J. Goldsmith 4 93,800 198,000 — 291,800",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Andrea J. Goldsmith, fiscal year 2022."
+    },
+    {
+      "id": "d043",
+      "form": "DEF 14A",
+      "accession": "0000050863-23-000021",
+      "filing_date": "2023-03-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086323000021/intc-20230327.htm",
+      "quote": "Alyssa H. Henry 5 — 299,500 — 299,500",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Alyssa H. Henry, fiscal year 2022."
+    },
+    {
+      "id": "d044",
+      "form": "DEF 14A",
+      "accession": "0000050863-23-000021",
+      "filing_date": "2023-03-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086323000021/intc-20230327.htm",
+      "quote": "Omar Ishrak 278,800 198,000 10,000 486,800",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Omar Ishrak, fiscal year 2022."
+    },
+    {
+      "id": "d045",
+      "form": "DEF 14A",
+      "accession": "0000050863-23-000021",
+      "filing_date": "2023-03-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086323000021/intc-20230327.htm",
+      "quote": "Risa Lavizzo-Mourey 135,000 198,000 10,000 343,000",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Risa Lavizzo-Mourey, fiscal year 2022."
+    },
+    {
+      "id": "d046",
+      "form": "DEF 14A",
+      "accession": "0000050863-23-000021",
+      "filing_date": "2023-03-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086323000021/intc-20230327.htm",
+      "quote": "Tsu-Jae King Liu 105,000 198,000 10,000 313,000",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Tsu-Jae King Liu, fiscal year 2022."
+    },
+    {
+      "id": "d047",
+      "form": "DEF 14A",
+      "accession": "0000050863-23-000021",
+      "filing_date": "2023-03-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086323000021/intc-20230327.htm",
+      "quote": "Barbara G. Novick 6 28,800 — — 28,800",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Barbara G. Novick, fiscal year 2022."
+    },
+    {
+      "id": "d048",
+      "form": "DEF 14A",
+      "accession": "0000050863-23-000021",
+      "filing_date": "2023-03-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086323000021/intc-20230327.htm",
+      "quote": "Gregory D. Smith 4 125,000 198,000 10,000 333,000",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Gregory D. Smith, fiscal year 2022."
+    },
+    {
+      "id": "d049",
+      "form": "DEF 14A",
+      "accession": "0000050863-23-000021",
+      "filing_date": "2023-03-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086323000021/intc-20230327.htm",
+      "quote": "Lip-Bu Tan 7 — 149,700 62,500 212,200",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Lip-Bu Tan, fiscal year 2022."
+    },
+    {
+      "id": "d050",
+      "form": "DEF 14A",
+      "accession": "0000050863-23-000021",
+      "filing_date": "2023-03-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086323000021/intc-20230327.htm",
+      "quote": "Dion J. Weisler 8 — 298,400 — 298,400",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Dion J. Weisler, fiscal year 2022."
+    },
+    {
+      "id": "d051",
+      "form": "DEF 14A",
+      "accession": "0000050863-23-000021",
+      "filing_date": "2023-03-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086323000021/intc-20230327.htm",
+      "quote": "Frank D. Yeary 4 125,000 198,000 11,000 334,000",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Frank D. Yeary, fiscal year 2022."
+    },
+    {
+      "id": "d052",
+      "form": "DEF 14A",
+      "accession": "0000050863-24-000057",
+      "filing_date": "2024-03-28",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086324000057/intc-20240327.htm",
+      "quote": "James J. Goetz — 374,400 — 374,400 13,135 660,000",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for James J. Goetz, fiscal year 2023."
+    },
+    {
+      "id": "d053",
+      "form": "DEF 14A",
+      "accession": "0000050863-24-000057",
+      "filing_date": "2024-03-28",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086324000057/intc-20240327.htm",
+      "quote": "Andrea J. Goldsmith 91,900 205,700 — 297,600 7,152 359,400",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Andrea J. Goldsmith, fiscal year 2023."
+    },
+    {
+      "id": "d054",
+      "form": "DEF 14A",
+      "accession": "0000050863-24-000057",
+      "filing_date": "2024-03-28",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086324000057/intc-20240327.htm",
+      "quote": "Alyssa H. Henry — 372,100 — 372,100 13,069 656,700",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Alyssa H. Henry, fiscal year 2023."
+    },
+    {
+      "id": "d055",
+      "form": "DEF 14A",
+      "accession": "0000050863-24-000057",
+      "filing_date": "2024-03-28",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086324000057/intc-20240327.htm",
+      "quote": "Omar Ishrak 132,000 205,700 2,000 339,700 7,152 359,400",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Omar Ishrak, fiscal year 2023."
+    },
+    {
+      "id": "d056",
+      "form": "DEF 14A",
+      "accession": "0000050863-24-000057",
+      "filing_date": "2024-03-28",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086324000057/intc-20240327.htm",
+      "quote": "Risa Lavizzo-Mourey 121,900 205,700 — 327,600 13,298 668,200",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Risa Lavizzo-Mourey, fiscal year 2023."
+    },
+    {
+      "id": "d057",
+      "form": "DEF 14A",
+      "accession": "0000050863-24-000057",
+      "filing_date": "2024-03-28",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086324000057/intc-20240327.htm",
+      "quote": "Tsu-Jae King Liu 76,900 205,700 — 282,600 7,152 359,400",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Tsu-Jae King Liu, fiscal year 2023."
+    },
+    {
+      "id": "d058",
+      "form": "DEF 14A",
+      "accession": "0000050863-24-000057",
+      "filing_date": "2024-03-28",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086324000057/intc-20240327.htm",
+      "quote": "Barbara G. Novick — 387,600 2,000 389,600 10,419 523,600",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Barbara G. Novick, fiscal year 2023."
+    },
+    {
+      "id": "d059",
+      "form": "DEF 14A",
+      "accession": "0000050863-24-000057",
+      "filing_date": "2024-03-28",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086324000057/intc-20240327.htm",
+      "quote": "Gregory D. Smith 111,900 205,700 2,000 319,600 26,111 1,312,100",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Gregory D. Smith, fiscal year 2023."
+    },
+    {
+      "id": "d060",
+      "form": "DEF 14A",
+      "accession": "0000050863-24-000057",
+      "filing_date": "2024-03-28",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086324000057/intc-20240327.htm",
+      "quote": "Lip-Bu Tan — 791,500 — 791,500 24,462 1,229,200",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Lip-Bu Tan, fiscal year 2023."
+    },
+    {
+      "id": "d061",
+      "form": "DEF 14A",
+      "accession": "0000050863-24-000057",
+      "filing_date": "2024-03-28",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086324000057/intc-20240327.htm",
+      "quote": "Dion J. Weisler — 409,500 — 409,500 14,401 723,700",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Dion J. Weisler, fiscal year 2023."
+    },
+    {
+      "id": "d062",
+      "form": "DEF 14A",
+      "accession": "0000050863-24-000057",
+      "filing_date": "2024-03-28",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086324000057/intc-20240327.htm",
+      "quote": "Frank D. Yeary 246,400 205,700 — 452,100 25,603 1,286,600",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Frank D. Yeary, fiscal year 2023."
+    },
+    {
+      "id": "d063",
+      "form": "DEF 14A",
+      "accession": "0000050863-25-000054",
+      "filing_date": "2025-03-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000054/intc-20250327.htm",
+      "quote": "James J. Goetz — 315,100 — 315,100 10,697 217,100",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for James J. Goetz, fiscal year 2024."
+    },
+    {
+      "id": "d064",
+      "form": "DEF 14A",
+      "accession": "0000050863-25-000054",
+      "filing_date": "2025-03-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000054/intc-20250327.htm",
+      "quote": "Andrea J. Goldsmith 116,300 218,100 — 334,400 7,403 150,300",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Andrea J. Goldsmith, fiscal year 2024."
+    },
+    {
+      "id": "d065",
+      "form": "DEF 14A",
+      "accession": "0000050863-25-000054",
+      "filing_date": "2025-03-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000054/intc-20250327.htm",
+      "quote": "Alyssa H. Henry — 315,100 — 315,100 10,697 217,100",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Alyssa H. Henry, fiscal year 2024."
+    },
+    {
+      "id": "d066",
+      "form": "DEF 14A",
+      "accession": "0000050863-25-000054",
+      "filing_date": "2025-03-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000054/intc-20250327.htm",
+      "quote": "Omar Ishrak 120,000 218,100 2,000 340,100 14,555 295,500",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Omar Ishrak, fiscal year 2024."
+    },
+    {
+      "id": "d067",
+      "form": "DEF 14A",
+      "accession": "0000050863-25-000054",
+      "filing_date": "2025-03-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000054/intc-20250327.htm",
+      "quote": "Risa Lavizzo-Mourey 146,300 218,100 5,000 369,400 13,549 275,000",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Risa Lavizzo-Mourey, fiscal year 2024."
+    },
+    {
+      "id": "d068",
+      "form": "DEF 14A",
+      "accession": "0000050863-25-000054",
+      "filing_date": "2025-03-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000054/intc-20250327.htm",
+      "quote": "Tsu-Jae King Liu 101,300 218,100 5,000 324,400 7,403 150,300",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Tsu-Jae King Liu, fiscal year 2024."
+    },
+    {
+      "id": "d069",
+      "form": "DEF 14A",
+      "accession": "0000050863-25-000054",
+      "filing_date": "2025-03-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000054/intc-20250327.htm",
+      "quote": "Barbara G. Novick — 324,900 5,000 329,900 21,450 435,400",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Barbara G. Novick, fiscal year 2024."
+    },
+    {
+      "id": "d070",
+      "form": "DEF 14A",
+      "accession": "0000050863-25-000054",
+      "filing_date": "2025-03-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000054/intc-20250327.htm",
+      "quote": "Gregory D. Smith 140,000 218,100 — 358,100 33,514 680,300",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Gregory D. Smith, fiscal year 2024."
+    },
+    {
+      "id": "d071",
+      "form": "DEF 14A",
+      "accession": "0000050863-25-000054",
+      "filing_date": "2025-03-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000054/intc-20250327.htm",
+      "quote": "Stacy J. Smith 26,300 326,900 — 353,200 10,068 204,400",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Stacy J. Smith, fiscal year 2024."
+    },
+    {
+      "id": "d072",
+      "form": "DEF 14A",
+      "accession": "0000050863-25-000054",
+      "filing_date": "2025-03-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000054/intc-20250327.htm",
+      "quote": "Lip-Bu Tan — 758,700 — 758,700 — —",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Lip-Bu Tan, fiscal year 2024."
+    },
+    {
+      "id": "d073",
+      "form": "DEF 14A",
+      "accession": "0000050863-25-000054",
+      "filing_date": "2025-03-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000054/intc-20250327.htm",
+      "quote": "Dion J. Weisler — 334,700 — 334,700 11,364 230,700",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Dion J. Weisler, fiscal year 2024."
+    },
+    {
+      "id": "d074",
+      "form": "DEF 14A",
+      "accession": "0000050863-25-000054",
+      "filing_date": "2025-03-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000054/intc-20250327.htm",
+      "quote": "Frank D. Yeary 296,300 218,100 — 514,400 33,006 670,000",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Frank D. Yeary, fiscal year 2024."
+    },
+    {
+      "id": "d075",
+      "form": "DEF 14A",
+      "accession": "0000050863-26-000061",
+      "filing_date": "2026-03-23",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000061/proxy2026.htm",
+      "quote": "Craig H. Barratt 25,000 — — 25,000 — —",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Craig H. Barratt, fiscal year 2025."
+    },
+    {
+      "id": "d076",
+      "form": "DEF 14A",
+      "accession": "0000050863-26-000061",
+      "filing_date": "2026-03-23",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000061/proxy2026.htm",
+      "quote": "James J. Goetz 115,000 252,200 — 367,200 12,552 454,400",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for James J. Goetz, fiscal year 2025."
+    },
+    {
+      "id": "d077",
+      "form": "DEF 14A",
+      "accession": "0000050863-26-000061",
+      "filing_date": "2026-03-23",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000061/proxy2026.htm",
+      "quote": "Andrea J. Goldsmith 125,000 252,200 — 377,200 12,552 454,400",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Andrea J. Goldsmith, fiscal year 2025."
+    },
+    {
+      "id": "d078",
+      "form": "DEF 14A",
+      "accession": "0000050863-26-000061",
+      "filing_date": "2026-03-23",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000061/proxy2026.htm",
+      "quote": "Alyssa H. Henry 180,000 252,200 — 432,200 12,552 454,400",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Alyssa H. Henry, fiscal year 2025."
+    },
+    {
+      "id": "d079",
+      "form": "DEF 14A",
+      "accession": "0000050863-26-000061",
+      "filing_date": "2026-03-23",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000061/proxy2026.htm",
+      "quote": "Omar Ishrak 62,500 — — 62,500 — —",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Omar Ishrak, fiscal year 2025."
+    },
+    {
+      "id": "d080",
+      "form": "DEF 14A",
+      "accession": "0000050863-26-000061",
+      "filing_date": "2026-03-23",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000061/proxy2026.htm",
+      "quote": "Tsu-Jae King Liu 52,500 — — 52,500 — —",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Tsu-Jae King Liu, fiscal year 2025."
+    },
+    {
+      "id": "d081",
+      "form": "DEF 14A",
+      "accession": "0000050863-26-000061",
+      "filing_date": "2026-03-23",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000061/proxy2026.htm",
+      "quote": "Risa Lavizzo-Mourey 75,000 — — 75,000 — —",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Risa Lavizzo-Mourey, fiscal year 2025."
+    },
+    {
+      "id": "d082",
+      "form": "DEF 14A",
+      "accession": "0000050863-26-000061",
+      "filing_date": "2026-03-23",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000061/proxy2026.htm",
+      "quote": "Eric Meurice 120,000 353,700 — 473,700 12,552 454,400",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Eric Meurice, fiscal year 2025."
+    },
+    {
+      "id": "d083",
+      "form": "DEF 14A",
+      "accession": "0000050863-26-000061",
+      "filing_date": "2026-03-23",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000061/proxy2026.htm",
+      "quote": "Barbara G. Novick — 393,500 5,000 398,500 41,032 1,485,400",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Barbara G. Novick, fiscal year 2025."
+    },
+    {
+      "id": "d084",
+      "form": "DEF 14A",
+      "accession": "0000050863-26-000061",
+      "filing_date": "2026-03-23",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000061/proxy2026.htm",
+      "quote": "Steve Sanghi 115,000 353,700 — 468,700 12,552 454,400",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Steve Sanghi, fiscal year 2025."
+    },
+    {
+      "id": "d085",
+      "form": "DEF 14A",
+      "accession": "0000050863-26-000061",
+      "filing_date": "2026-03-23",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000061/proxy2026.htm",
+      "quote": "Gregory D. Smith 138,800 252,200 — 391,000 46,066 1,667,600",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Gregory D. Smith, fiscal year 2025."
+    },
+    {
+      "id": "d086",
+      "form": "DEF 14A",
+      "accession": "0000050863-26-000061",
+      "filing_date": "2026-03-23",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000061/proxy2026.htm",
+      "quote": "Stacy J. Smith 132,500 252,200 — 384,700 12,552 454,400",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Stacy J. Smith, fiscal year 2025."
+    },
+    {
+      "id": "d087",
+      "form": "DEF 14A",
+      "accession": "0000050863-26-000061",
+      "filing_date": "2026-03-23",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000061/proxy2026.htm",
+      "quote": "Dion J. Weisler 140,000 252,200 — 392,200 12,552 454,400",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Dion J. Weisler, fiscal year 2025."
+    },
+    {
+      "id": "d088",
+      "form": "DEF 14A",
+      "accession": "0000050863-26-000061",
+      "filing_date": "2026-03-23",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000061/proxy2026.htm",
+      "quote": "Frank D. Yeary — 1,241,000 — 1,241,000 59,617 2,158,100",
+      "quote_from_table": true,
+      "supports": "Director Compensation table row for Frank D. Yeary, fiscal year 2025."
+    },
+    {
+      "id": "d101",
+      "form": "4",
+      "accession": "0001127602-18-002514",
+      "filing_date": "2018-01-25",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000112760218002514/form4.xml",
+      "quote": "INTEL CORP INTC 0001145766 BARSHEFSKY CHARLENE",
+      "quote_from_table": false,
+      "supports": "Charlene Barshefsky's SEC reporting-owner CIK (Form 4 for Intel)."
+    },
+    {
+      "id": "d102",
+      "form": "4",
+      "accession": "0001127602-19-003377",
+      "filing_date": "2019-02-01",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000112760219003377/form4.xml",
+      "quote": "INTEL CORP INTC 0001196579 BHUSRI ANEEL",
+      "quote_from_table": false,
+      "supports": "Aneel Bhusri's SEC reporting-owner CIK (Form 4 for Intel)."
+    },
+    {
+      "id": "d103",
+      "form": "4",
+      "accession": "0001127602-18-002521",
+      "filing_date": "2018-01-25",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000112760218002521/form4.xml",
+      "quote": "INTEL CORP INTC 0001185987 POTTRUCK DAVID S",
+      "quote_from_table": false,
+      "supports": "David S. Pottruck's SEC reporting-owner CIK (Form 4 for Intel)."
+    },
+    {
+      "id": "d104",
+      "form": "4",
+      "accession": "0001127602-18-016992",
+      "filing_date": "2018-05-10",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000112760218016992/form4.xml",
+      "quote": "INTEL CORP INTC 0001188937 YOFFIE DAVID B",
+      "quote_from_table": false,
+      "supports": "David B. Yoffie's SEC reporting-owner CIK (Form 4 for Intel)."
+    },
+    {
+      "id": "d110",
+      "form": "DEF 14A",
+      "accession": "0001193125-21-098458",
+      "filing_date": "2021-03-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312521098458/d86711ddef14a.htm",
+      "quote": "Mr. Goetz (i) joined the Board on November 13, 2019, and was granted 2,080 RSUs on January 30, 2020",
+      "quote_from_table": false,
+      "supports": "2021 proxy dates Goetz's 2,080-RSU joining grant January 30, 2020."
+    },
+    {
+      "id": "d111",
+      "form": "DEF 14A",
+      "accession": "0001193125-20-091451",
+      "filing_date": "2020-03-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312520091451/d835759ddef14a.htm",
+      "quote": "Mr. Goetz joined the Board on November 13, 2019, and was granted 2,080 RSUs on May 13, 2020",
+      "quote_from_table": false,
+      "supports": "2020 proxy dates the same 2,080-RSU grant May 13, 2020 (conflict)."
+    },
+    {
+      "id": "d112",
+      "form": "DEF 14A",
+      "accession": "0000050863-25-000054",
+      "filing_date": "2025-03-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000054/intc-20250327.htm",
+      "quote": "which he forfeited upon his departure from the Board on August 22, 2024 along with other unvested equity awards",
+      "quote_from_table": false,
+      "supports": "Tan forfeited his second Foundry-oversight installment and other unvested director equity on leaving the Board; proxy dates the departure 2024-08-22."
+    },
+    {
+      "id": "d113",
+      "form": "8-K",
+      "accession": "0000050863-24-000134",
+      "filing_date": "2024-08-22",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086324000134/intc-20240819.htm",
+      "quote": "On August 19, 2024, Lip-Bu Tan informed the board of directors (the “Board”) of Intel Corporation (the “Company”) that he was resigning from the Board, effective immediately.",
+      "quote_from_table": false,
+      "supports": "8-K dates Tan's Board resignation 2024-08-19, effective immediately (conflict with the proxy's August 22)."
+    },
+    {
+      "id": "d114",
+      "form": "DEF 14A",
+      "accession": "0000050863-25-000054",
+      "filing_date": "2025-03-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000054/intc-20250327.htm",
+      "quote": "For 2024, the Board made various changes to the annual Board and committee compensation for non-employee directors as summarized below. The non-employee directors had not had increases in their annual cash retainer and annual equity award for almost the prior ten years",
+      "quote_from_table": false,
+      "supports": "First director retainer increase in about ten years took effect for 2024 ($90,000 to $100,000 cash; $220,000 to $250,000 equity)."
+    },
+    {
+      "id": "d115",
+      "form": "DEF 14A",
+      "accession": "0000050863-24-000057",
+      "filing_date": "2024-03-28",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086324000057/intc-20240327.htm",
+      "quote": "the Board and Board Chair temporarily reduced their respective cash retainer portion of directors’ fees and additional Chair cash retainer by 25%, resulting in an annual cash retainer of $76,900 and Chair cash retainer of $149,500 for 2023.",
+      "quote_from_table": false,
+      "supports": "2023 austerity cut of 25% to director cash retainers (March 1 - September 30, 2023)."
+    },
+    {
+      "id": "d116",
+      "form": "DEF 14A",
+      "accession": "0000050863-26-000061",
+      "filing_date": "2026-03-23",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000061/proxy2026.htm",
+      "quote": "For such service, upon the recommendation of the Governance Committee, the Board awarded Mr. Yeary RSUs (in accordance with prior elections he made) with a target valuation of $700,000 that vested immediately upon the grant of such RSUs in May 2025.",
+      "quote_from_table": false,
+      "supports": "Yeary's $700,000 Interim Executive Chair award (in FY2025 stock awards)."
+    },
+    {
+      "id": "d201",
+      "form": "8-K",
+      "accession": "0001193125-18-199045",
+      "filing_date": "2018-06-21",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312518199045/d598882d8k.htm",
+      "quote": "On June 21, 2018, Intel Corporation (“Intel”) announced that, on June 20, 2018, Brian M. Krzanich resigned as Chief Executive Officer and a member of Intel’s Board of Directors (the “Board”).",
+      "quote_from_table": false,
+      "supports": "Krzanich resigned as CEO and director on 2018-06-20."
+    },
+    {
+      "id": "d202",
+      "form": "DEF 14A",
+      "accession": "0001193125-19-095785",
+      "filing_date": "2019-04-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312519095785/d648184ddef14a.htm",
+      "quote": "In connection with his resignation, Mr. Krzanich did not receive any severance benefits and forfeited a total of 58,372 RSUs",
+      "quote_from_table": false,
+      "supports": "Krzanich received no severance; forfeited 58,372 RSUs."
+    },
+    {
+      "id": "d203",
+      "form": "DEF 14A",
+      "accession": "0001193125-19-095785",
+      "filing_date": "2019-04-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312519095785/d648184ddef14a.htm",
+      "quote": "Brian M. Krzanich3 Valuation of RSU Vesting Acceleration 4,087,400 Valuation of OSUs 32,219,100 Other 399,800 Total 36,706,300",
+      "quote_from_table": true,
+      "supports": "Potential Payments table row for Krzanich (actual amounts on resignation): RSU acceleration $4,087,400, OSUs $32,219,100, other $399,800, total $36,706,300."
+    },
+    {
+      "id": "d204",
+      "form": "DEF 14A",
+      "accession": "0001193125-19-095785",
+      "filing_date": "2019-04-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312519095785/d648184ddef14a.htm",
+      "quote": "Mr. Krzanich resigned from Intel in June 2018. Amounts above reflect what he actually received upon his resignation unless otherwise noted.",
+      "quote_from_table": false,
+      "supports": "The Krzanich row reports actual amounts."
+    },
+    {
+      "id": "d205",
+      "form": "DEF 14A",
+      "accession": "0001193125-19-095785",
+      "filing_date": "2019-04-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312519095785/d648184ddef14a.htm",
+      "quote": "Amounts under the Other row represent $399,800 for continued personal security arrangements following his resignation as a result of ongoing threats post-employment.",
+      "quote_from_table": false,
+      "supports": "Krzanich's $399,800 'Other' = post-employment personal security."
+    },
+    {
+      "id": "d206",
+      "form": "DEF 14A",
+      "accession": "0001193125-19-095785",
+      "filing_date": "2019-04-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312519095785/d648184ddef14a.htm",
+      "quote": "The total amount of accelerated OSU awards for Mr. Krzanich shown in the table above is based on the price per share of Intel common stock on the last trading day of the fiscal year ($46.75 on December 28, 2018), with the value of the OSUs based on their target amount.",
+      "quote_from_table": false,
+      "supports": "OSU acceleration valued at target and the FY2018 year-end price."
+    },
+    {
+      "id": "d207",
+      "form": "DEF 14A",
+      "accession": "0001193125-19-095785",
+      "filing_date": "2019-04-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312519095785/d648184ddef14a.htm",
+      "quote": "which include $399,800 for continued personal security arrangements through November 2018 as a result of ongoing threats post-employment and the following benefits under broad-based programs: $228,700 for accrued but unused sabbatical leave; $223,100 for accrued but unused vacation; $66,500 for prorated Quarterly Incentive Cash Payment; $5,600 for accrued but unused holiday pay; and $300 for his 30th year anniversary gift.",
+      "quote_from_table": false,
+      "supports": "Krzanich's 2018 All Other Compensation: post-employment security plus broad-based accrued-leave payouts."
+    },
+    {
+      "id": "d210",
+      "form": "DEF 14A",
+      "accession": "0001193125-20-091451",
+      "filing_date": "2020-03-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312520091451/d835759ddef14a.htm",
+      "quote": "In April 2019, the Board appointed George S. Davis as our CFO, and Mr. Underwood returned to his prior role. Accordingly, Mr. Underwood is a listed officer for 2019 due to his service as interim CFO, but he is not a current Intel executive officer.",
+      "quote_from_table": false,
+      "supports": "Underwood returned to his prior (non-executive) role when Davis became CFO."
+    },
+    {
+      "id": "d211",
+      "form": "DEF 14A",
+      "accession": "0001193125-20-091451",
+      "filing_date": "2020-03-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312520091451/d835759ddef14a.htm",
+      "quote": "Excludes Mr. Underwood who ceased to be an executive officer on April 2, 2019",
+      "quote_from_table": false,
+      "supports": "Underwood ceased to be an executive officer 2019-04-02."
+    },
+    {
+      "id": "d212",
+      "form": "8-K",
+      "accession": "0001193125-21-014847",
+      "filing_date": "2021-01-22",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312521014847/d54581d8k.htm",
+      "quote": "On January 19, 2021, Todd M. Underwood, Corporate Vice President, Chief Financial Officer of the Client Computing Group and former interim Chief Financial Officer, informed Intel Corporation (“Intel”) of his resignation, effective February 2, 2021.",
+      "quote_from_table": false,
+      "supports": "Underwood later resigned from Intel effective 2021-02-02."
+    },
+    {
+      "id": "d220",
+      "form": "8-K",
+      "accession": "0001193125-20-199804",
+      "filing_date": "2020-07-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312520199804/d95148d8k.htm",
+      "quote": "On July 24, 2020, Intel Corporation (“Intel”) determined that as a result of organizational changes to Intel’s Technology, Systems Architecture & Client Group (“TSCG”), Dr. Venkata Renduchintala’s role as Group President, TSCG and Chief Engineering Officer would be eliminated. Dr. Renduchintala will depart from Intel, effective as of August 3, 2020.",
+      "quote_from_table": false,
+      "supports": "Renduchintala's role eliminated; departs 2020-08-03."
+    },
+    {
+      "id": "d221",
+      "form": "8-K",
+      "accession": "0001193125-20-220333",
+      "filing_date": "2020-08-14",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312520220333/d229439d8k.htm",
+      "quote": "pursuant to which he provided a customary release in favor of Intel, reconfirmed his obligations under existing agreements pertaining to confidentiality and intellectual property ownership, and committed to non-disparagement and cooperation provisions, and pursuant to which he will receive a separation payment of $1,800,000 and certain other benefits.",
+      "quote_from_table": false,
+      "supports": "Renduchintala Separation Agreement: $1,800,000 separation payment."
+    },
+    {
+      "id": "d222",
+      "form": "DEF 14A",
+      "accession": "0001193125-21-098458",
+      "filing_date": "2021-03-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312521098458/d86711ddef14a.htm",
+      "quote": "Dr. Renduchintala did not have any shares that were eligible for acceleration when he departed the company on August 3, 2020. In connection with Dr. Renduchintala’s involuntary termination of employment with the company and in accordance with a Separation Agreement and General Release of Claims",
+      "quote_from_table": false,
+      "supports": "No equity acceleration; departure characterized as an involuntary termination."
+    },
+    {
+      "id": "d223",
+      "form": "DEF 14A",
+      "accession": "0001193125-21-098458",
+      "filing_date": "2021-03-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312521098458/d86711ddef14a.htm",
+      "quote": "he received a separation cash payment of $1,800,000 as well as cash payments for outplacement ($22,500), and healthcare supplemental benefits ($21,200). Dr. Renduchintala forfeited all his outstanding equity awards that were not vested at the time of his termination of employment",
+      "quote_from_table": false,
+      "supports": "Renduchintala actual exit pay: $1,800,000 separation, $22,500 outplacement, $21,200 healthcare supplemental; unvested equity forfeited."
+    },
+    {
+      "id": "d224",
+      "form": "DEF 14A",
+      "accession": "0001193125-21-098458",
+      "filing_date": "2021-03-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312521098458/d86711ddef14a.htm",
+      "quote": "Venkata S.M. Renduchintala6 Valuation of RSUs Vesting Acceleration — — — Valuation of PSUs/OSUs Vesting Acceleration — — — Other — 1,843,700 — Total — 1,843,700 —",
+      "quote_from_table": true,
+      "supports": "Potential Payments row for Renduchintala (what he received): other $1,843,700, total $1,843,700."
+    },
+    {
+      "id": "d225",
+      "form": "DEF 14A",
+      "accession": "0001193125-21-098458",
+      "filing_date": "2021-03-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312521098458/d86711ddef14a.htm",
+      "quote": "except for Dr. Renduchintala, for whom the table reports what he received in connection with his departure from the company on August 3, 2020.",
+      "quote_from_table": false,
+      "supports": "The Renduchintala row reports actual amounts."
+    },
+    {
+      "id": "d226",
+      "form": "DEF 14A",
+      "accession": "0001193125-21-098458",
+      "filing_date": "2021-03-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312521098458/d86711ddef14a.htm",
+      "quote": "Amounts for Dr. Renduchintala also include cash payments representing separation payments ($1,800,000), accrued but unused vacation ($162,600), accrued but unused sabbatical ($101,600), outplacement ($22,500), healthcare supplemental ($21,200), and holiday pay ($8,100).",
+      "quote_from_table": false,
+      "supports": "Renduchintala's 2020 All Other Compensation exit items."
+    },
+    {
+      "id": "d230",
+      "form": "8-K",
+      "accession": "0001193125-21-009142",
+      "filing_date": "2021-01-14",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312521009142/d82915d8k.htm",
+      "quote": "On January 13, 2021, Intel announced that it had determined that Robert (“Bob”) H. Swan will depart from Intel, effective as of February 15, 2021. Mr. Swan’s employment will be terminated without cause.",
+      "quote_from_table": false,
+      "supports": "Swan terminated without cause effective 2021-02-15."
+    },
+    {
+      "id": "d231",
+      "form": "DEF 14A",
+      "accession": "0001193125-21-098458",
+      "filing_date": "2021-03-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312521098458/d86711ddef14a.htm",
+      "quote": "Of the $38,449,529 disclosed value of the equity awards that are vesting in connection with Mr. Swan’s termination of employment without cause, awards valued at $29,264,068 as of his termination date are subject to further performance requirements and may not be earned at all. Mr. Swan forfeited awards with a target value of $54,767,260 as of his termination date.",
+      "quote_from_table": false,
+      "supports": "Swan's accelerated/continued equity: $38,449,529 at the termination date ($29,264,068 still performance-contingent); $54,767,260 forfeited."
+    },
+    {
+      "id": "d232",
+      "form": "DEF 14A",
+      "accession": "0001193125-21-098458",
+      "filing_date": "2021-03-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312521098458/d86711ddef14a.htm",
+      "quote": "He did not receive or become entitled to any additional payments or benefits in connection with his termination of employment, other than pursuant to his existing arrangements.",
+      "quote_from_table": false,
+      "supports": "Swan received no severance or other payments beyond existing equity terms."
+    },
+    {
+      "id": "d233",
+      "form": "DEF 14A",
+      "accession": "0000050863-22-000011",
+      "filing_date": "2022-03-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086322000011/proxy2022.htm",
+      "quote": "Of the $25,174,600 disclosed in the table above that vested in connection with Mr. Swan’s termination of employment without cause, awards valued at $10,309,000 are subject to further performance requirements and may not be earned at all.",
+      "quote_from_table": false,
+      "supports": "2022 proxy restates Swan's vesting equity at $25,174,600 (FY2021 year-end price and actual 2019 PSU payout) (conflict)."
+    },
+    {
+      "id": "d234",
+      "form": "DEF 14A",
+      "accession": "0000050863-22-000011",
+      "filing_date": "2022-03-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086322000011/proxy2022.htm",
+      "quote": "Amounts to Mr. Swan also include cash payments representing accrued but unused vacation ($192,300), accrued but unused sabbatical ($110,600), and holiday pay ($9,600).",
+      "quote_from_table": false,
+      "supports": "Swan's 2021 accrued-leave payouts (broad-based)."
+    },
+    {
+      "id": "d235",
+      "form": "DEF 14A",
+      "accession": "0001193125-21-098458",
+      "filing_date": "2021-03-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312521098458/d86711ddef14a.htm",
+      "quote": "Valued using the closing Intel stock price on February 12, 2021 ($61.81) as the market was closed on Mr. Swan’s termination date of February 15, 2021.",
+      "quote_from_table": false,
+      "supports": "Swan's equity valued at the 2021-02-12 close."
+    },
+    {
+      "id": "d240",
+      "form": "8-K",
+      "accession": "0001193125-21-214206",
+      "filing_date": "2021-07-13",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312521214206/d193436d8k.htm",
+      "quote": "Mr. Shenoy’s separation from Intel was in connection with the restructuring of the Data Platforms Group.",
+      "quote_from_table": false,
+      "supports": "Shenoy separation tied to the DPG restructuring."
+    },
+    {
+      "id": "d241",
+      "form": "DEF 14A",
+      "accession": "0000050863-22-000011",
+      "filing_date": "2022-03-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086322000011/proxy2022.htm",
+      "quote": "In connection with Mr. Shenoy’s involuntary termination of employment on July 6, 2021, the company entered into a Separation Agreement and General Release of Claims with him.",
+      "quote_from_table": false,
+      "supports": "Shenoy involuntarily terminated 2021-07-06."
+    },
+    {
+      "id": "d242",
+      "form": "DEF 14A",
+      "accession": "0000050863-22-000011",
+      "filing_date": "2022-03-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086322000011/proxy2022.htm",
+      "quote": "he received a separation payment of $1,800,000 as well as cash payments for outplacement and healthcare supplemental benefits. Mr. Shenoy forfeited all his outstanding equity awards that were not vested at the time of his termination of employment.",
+      "quote_from_table": false,
+      "supports": "Shenoy: $1,800,000 separation payment; unvested equity forfeited."
+    },
+    {
+      "id": "d243",
+      "form": "DEF 14A",
+      "accession": "0000050863-22-000011",
+      "filing_date": "2022-03-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086322000011/proxy2022.htm",
+      "quote": "Navin Shenoy Valuation of RSUs Vesting Acceleration Valuation of PSUs Vesting Acceleration Other 1,846,200 Total — 1,846,200 —",
+      "quote_from_table": true,
+      "supports": "Potential Payments row for Shenoy (what he received): other $1,846,200, total $1,846,200."
+    },
+    {
+      "id": "d244",
+      "form": "DEF 14A",
+      "accession": "0000050863-22-000011",
+      "filing_date": "2022-03-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086322000011/proxy2022.htm",
+      "quote": "except for Messrs. Swan and Shenoy, for whom the table reports what they received in connection with their departure from the company (on February 15, 2021 for Mr. Swan and on July 6, 2021 for Mr. Shenoy).",
+      "quote_from_table": false,
+      "supports": "The Swan and Shenoy rows report actual amounts; the others are hypothetical as of 2021-12-25."
+    },
+    {
+      "id": "d245",
+      "form": "DEF 14A",
+      "accession": "0000050863-22-000011",
+      "filing_date": "2022-03-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086322000011/proxy2022.htm",
+      "quote": "Amounts for Mr. Shenoy also include cash payments representing separation payments ($1,800,000), accrued but unused vacation ($134,600), accrued but unused sabbatical ($185,100), outplacement ($22,500), healthcare supplemental ($23,700), and holiday pay ($6,700).",
+      "quote_from_table": false,
+      "supports": "Shenoy's 2021 All Other Compensation exit items."
+    },
+    {
+      "id": "d250",
+      "form": "8-K",
+      "accession": "0001193125-22-005658",
+      "filing_date": "2022-01-10",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312522005658/d270836d8k.htm",
+      "quote": "On January 5, 2022, Gregory M. Bryant, Executive Vice President and General Manager of the Client Computing Group (“CCG”) of Intel notified Intel of his decision to resign, effective as of January 31, 2022, in order to pursue another career opportunity.",
+      "quote_from_table": false,
+      "supports": "Bryant resigned effective 2022-01-31 to pursue another opportunity."
+    },
+    {
+      "id": "d251",
+      "form": "DEF 14A",
+      "accession": "0000050863-22-000011",
+      "filing_date": "2022-03-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086322000011/proxy2022.htm",
+      "quote": "Gregory M. Bryant 4 Valuation of RSUs Vesting Acceleration 1,492,400 Valuation of PSUs Vesting Acceleration 8,865,300 Other Total 10,357,700 — —",
+      "quote_from_table": true,
+      "supports": "Potential Payments row for Bryant (hypothetical as of 2021-12-25): voluntary separation RSU $1,492,400 + PSU $8,865,300 = $10,357,700."
+    },
+    {
+      "id": "d252",
+      "form": "DEF 14A",
+      "accession": "0000050863-22-000011",
+      "filing_date": "2022-03-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086322000011/proxy2022.htm",
+      "quote": "4Mr. Bryant is retirement eligible under the Rule of 75 under our equity program. This means he will receive accelerated vesting of his equity awards in the event of his voluntary retirement or an involuntary termination as he is retirement eligible.",
+      "quote_from_table": false,
+      "supports": "Bryant's acceleration comes from Rule-of-75 retirement eligibility."
+    },
+    {
+      "id": "d253",
+      "form": "DEF 14A",
+      "accession": "0000050863-22-000011",
+      "filing_date": "2022-03-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086322000011/proxy2022.htm",
+      "quote": "assuming that the triggering events occurred on December 25, 2021, based on the price per share of Intel common stock on the last trading day of the fiscal year ($51.31 on December 23, 2021)",
+      "quote_from_table": false,
+      "supports": "Valuation date and price for the 2022 proxy Potential Payments table."
+    },
+    {
+      "id": "d260",
+      "form": "8-K",
+      "accession": "0001193125-22-005658",
+      "filing_date": "2022-01-10",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312522005658/d270836d8k.htm",
+      "quote": "In connection with the appointment of Mr. Zinsner as Chief Financial Officer, George Davis will step down as Chief Financial Officer and principal accounting officer as of the Effective Date and will serve as Executive Advisor until he retires from Intel in May 2022.",
+      "quote_from_table": false,
+      "supports": "Davis steps down as CFO 2022-01-17, Executive Advisor until retiring in May 2022."
+    },
+    {
+      "id": "d261",
+      "form": "DEF 14A",
+      "accession": "0000050863-23-000021",
+      "filing_date": "2023-03-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086323000021/intc-20230327.htm",
+      "quote": "▪Mr. Davis was not entitled to any separation pay or other special benefits in connection with his retirement.",
+      "quote_from_table": false,
+      "supports": "Davis: no separation pay."
+    },
+    {
+      "id": "d262",
+      "form": "DEF 14A",
+      "accession": "0000050863-23-000021",
+      "filing_date": "2023-03-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086323000021/intc-20230327.htm",
+      "quote": "3Mr. Davis retired from Intel on May 6, 2022 and did not have any accelerated equity awards or other payments.",
+      "quote_from_table": false,
+      "supports": "Davis retired 2022-05-06 with no accelerated equity or other payments."
+    },
+    {
+      "id": "d263",
+      "form": "DEF 14A",
+      "accession": "0000050863-23-000021",
+      "filing_date": "2023-03-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086323000021/intc-20230327.htm",
+      "quote": "George S. Davis 7 2022 366,100 — 244,500 — 45,100 — 106,800 762,500",
+      "quote_from_table": true,
+      "supports": "Davis's 2022 SCT row (pay while Executive Advisor, not exit pay)."
+    },
+    {
+      "id": "d264",
+      "form": "DEF 14A",
+      "accession": "0000050863-23-000021",
+      "filing_date": "2023-03-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086323000021/intc-20230327.htm",
+      "quote": "He received an RSU award that vested on April 30, 2022.",
+      "quote_from_table": false,
+      "supports": "Davis RSU award vested 2022-04-30 while Executive Advisor."
+    },
+    {
+      "id": "d270",
+      "form": "8-K",
+      "accession": "0001193125-22-032684",
+      "filing_date": "2022-02-09",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312522032684/d261091d8k.htm",
+      "quote": "On February 5, 2022, Steven R. Rodgers, Executive Vice President and General Counsel of Intel Corporation (“Intel”), notified Intel of his decision to retire from the company on May 31, 2022.",
+      "quote_from_table": false,
+      "supports": "Rodgers to retire 2022-05-31."
+    },
+    {
+      "id": "d271",
+      "form": "DEF 14A",
+      "accession": "0000050863-22-000011",
+      "filing_date": "2022-03-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086322000011/proxy2022.htm",
+      "quote": "Steven R. Rodgers 2 Valuation of RSUs Vesting Acceleration 866,000 866,000 1,450,400 Valuation of PSUs Vesting Acceleration 8,578,300 8,578,300 11,750,600 Other Total 9,444,300 9,444,300 13,201,000",
+      "quote_from_table": true,
+      "supports": "Potential Payments row for Rodgers (hypothetical as of 2021-12-25): voluntary retirement RSU $866,000 + PSU $8,578,300 = $9,444,300."
+    },
+    {
+      "id": "d272",
+      "form": "DEF 14A",
+      "accession": "0000050863-22-000011",
+      "filing_date": "2022-03-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086322000011/proxy2022.htm",
+      "quote": "2Ms. Rivera and Mr. Rogers are retirement eligible under the Rule of 75 under our equity program. This means they will receive accelerated vesting of their equity awards in the event of their respective voluntary retirement or an involuntary termination as they are retirement eligible.",
+      "quote_from_table": false,
+      "supports": "Rodgers' acceleration comes from Rule-of-75 retirement eligibility."
+    },
+    {
+      "id": "d280",
+      "form": "8-K",
+      "accession": "0000050863-24-000003",
+      "filing_date": "2024-01-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086324000003/intc-20231229.htm",
+      "quote": "Ms. Rivera will cease to be the head of Intel’s Data Center and AI Group, effective as of December 31, 2023.",
+      "quote_from_table": false,
+      "supports": "Rivera ceases to head DCAI effective 2023-12-31."
+    },
+    {
+      "id": "d281",
+      "form": "DEF 14A",
+      "accession": "0000050863-24-000057",
+      "filing_date": "2024-03-28",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086324000057/intc-20240327.htm",
+      "quote": "At the beginning of 2024, Ms. Rivera, former Executive Vice President and GM, Data Center and AI Group, assumed the role of Chief Executive Officer of Altera, an Intel company (formerly Programmable Solutions Group), and ceased to serve as an executive officer of Intel as of the end of our 2023 fiscal year.",
+      "quote_from_table": false,
+      "supports": "Rivera moved to CEO of Altera (an Intel company) and ceased to be an Intel executive officer."
+    },
+    {
+      "id": "d282",
+      "form": "8-K",
+      "accession": "0000050863-23-000092",
+      "filing_date": "2023-10-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086323000092/intc-20231002.htm",
+      "quote": "In connection with her appointment as PSG Chief Executive Officer, Intel entered into an offer letter with Ms. Rivera (the “Offer Letter”) setting forth the terms of her employment with PSG.",
+      "quote_from_table": false,
+      "supports": "Rivera continued employment under a new PSG (Altera) offer letter."
+    },
+    {
+      "id": "d290",
+      "form": "8-K",
+      "accession": "0000050863-24-000173",
+      "filing_date": "2024-12-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086324000173/intc-20241201.htm",
+      "quote": "On December 1, 2024, Patrick Gelsinger, Chief Executive Officer and director of Intel Corporation (the “Company”), resigned from the Company and the Board of Directors (the “Board”), effective immediately.",
+      "quote_from_table": false,
+      "supports": "Gelsinger resigned as CEO and director 2024-12-01."
+    },
+    {
+      "id": "d291",
+      "form": "DEF 14A",
+      "accession": "0000050863-25-000054",
+      "filing_date": "2025-03-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000054/intc-20250327.htm",
+      "quote": "The Board had discussions with Mr. Gelsinger regarding his resignation from the company, and the Board ultimately decided to provide Mr. Gelsinger with certain severance payments consistent with those benefits he would have received had his employment been terminated by the company without cause under his offer letter",
+      "quote_from_table": false,
+      "supports": "Severance granted on resignation as if terminated without cause."
+    },
+    {
+      "id": "d292",
+      "form": "DEF 14A",
+      "accession": "0000050863-25-000054",
+      "filing_date": "2025-03-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000054/intc-20250327.htm",
+      "quote": "Patrick P. Gelsinger Valuation of RSUs Vesting Acceleration — — — Valuation of PSUs Vesting Acceleration — — — Cash Severance Payment 7,853,450 — — Other — — — Total 7,853,450 — —",
+      "quote_from_table": true,
+      "supports": "Potential Payments row for Gelsinger (what he received): cash severance $7,853,450, no equity acceleration, total $7,853,450."
+    },
+    {
+      "id": "d293",
+      "form": "DEF 14A",
+      "accession": "0000050863-25-000054",
+      "filing_date": "2025-03-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000054/intc-20250327.htm",
+      "quote": "(i)$7,031,250, payable in installments over an 18-month period in accordance with the company’s payroll practices, representing: (a) 18 months of his annual base salary of $1,250,000; (b) 1.5 times his target cash bonus opportunity of $3,437,500 (ii)$822,200, representing a prorated portion (11/12) of his annual cash bonus for 2024",
+      "quote_from_table": false,
+      "supports": "Gelsinger severance = $7,031,250 (18 months salary + 1.5x target bonus) + $822,200 prorated 2024 bonus."
+    },
+    {
+      "id": "d294",
+      "form": "DEF 14A",
+      "accession": "0000050863-25-000054",
+      "filing_date": "2025-03-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000054/intc-20250327.htm",
+      "quote": "Mr. Gelsinger forfeited all his outstanding unvested equity awards, including his new hire awards.",
+      "quote_from_table": false,
+      "supports": "Gelsinger forfeited all unvested equity."
+    },
+    {
+      "id": "d295",
+      "form": "8-K",
+      "accession": "0000050863-24-000173",
+      "filing_date": "2024-12-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086324000173/a12012024form8-kex991.htm",
+      "quote": "today announced that CEO Pat Gelsinger retired from the company after a distinguished 40-plus-year career and has stepped down from the board of directors, effective Dec. 1, 2024.",
+      "quote_from_table": false,
+      "supports": "Press release (Ex. 99.1) calls the departure a retirement (conflict with 'resigned')."
+    },
+    {
+      "id": "d296",
+      "form": "DEF 14A",
+      "accession": "0000050863-25-000054",
+      "filing_date": "2025-03-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000054/intc-20250327.htm",
+      "quote": "except for Mr. Gelsinger, for whom the table reports what he received in connection with his resignation from the company on December 1, 2024.",
+      "quote_from_table": false,
+      "supports": "The Gelsinger row reports actual amounts."
+    },
+    {
+      "id": "d297",
+      "form": "DEF 14A",
+      "accession": "0000050863-25-000054",
+      "filing_date": "2025-03-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000054/intc-20250327.htm",
+      "quote": "Total Severance of $7,853,450",
+      "quote_from_table": false,
+      "supports": "Gelsinger total severance."
+    },
+    {
+      "id": "d300",
+      "form": "DEF 14A",
+      "accession": "0000050863-25-000054",
+      "filing_date": "2025-03-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000054/intc-20250327.htm",
+      "quote": "Mr. Hotard Termination Payments. Mr. Hotard resigned from the company and departed from Intel in March 2025. He did not receive any severance payments or benefits on his separation from the company.",
+      "quote_from_table": false,
+      "supports": "Hotard resigned March 2025 with no severance payments or benefits."
+    },
+    {
+      "id": "d301",
+      "form": "DEF 14A",
+      "accession": "0000050863-25-000054",
+      "filing_date": "2025-03-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000054/intc-20250327.htm",
+      "quote": "(iv) Mr. Hotard on February 1, 2024 (departed March 1, 2025)",
+      "quote_from_table": false,
+      "supports": "Hotard departed 2025-03-01."
+    },
+    {
+      "id": "d302",
+      "form": "DEF 14A",
+      "accession": "0000050863-25-000054",
+      "filing_date": "2025-03-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000054/intc-20250327.htm",
+      "quote": "In connection with his departure from Intel in March 2025, he forfeited the unvested portion of his make-whole equity awards. He also repaid a prorated portion of the make-whole cash bonus amount ($691,518) as a result of his departure occurring within two years of the bonus payment date.",
+      "quote_from_table": false,
+      "supports": "Hotard forfeited unvested make-whole equity and repaid $691,518 of his make-whole cash bonus."
+    },
+    {
+      "id": "d303",
+      "form": "DEF 14A",
+      "accession": "0000050863-25-000054",
+      "filing_date": "2025-03-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000054/intc-20250327.htm",
+      "quote": "Mr. Hotard resigned and departed from the company in March 2025 to pursue another opportunity.",
+      "quote_from_table": false,
+      "supports": "Hotard left to pursue another opportunity."
+    },
+    {
+      "id": "d310",
+      "form": "8-K",
+      "accession": "0000050863-25-000079",
+      "filing_date": "2025-04-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000079/intc-20250428.htm",
+      "quote": "On April 28, 2025, Christopher Schell, Executive Vice President, Chief Commercial Officer, and General Manager of Sales, Marketing and Communications, notified Intel of his decision to resign, effective as of June 30, 2025, in order to pursue another career opportunity.",
+      "quote_from_table": false,
+      "supports": "Schell resigned effective 2025-06-30 to pursue another opportunity."
+    },
+    {
+      "id": "d311",
+      "form": "DEF 14A",
+      "accession": "0000050863-26-000061",
+      "filing_date": "2026-03-23",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000061/proxy2026.htm",
+      "quote": "Mr. Schell's departure was a resignation and, as such, he was not entitled to any severance pay or other benefits.",
+      "quote_from_table": false,
+      "supports": "Schell: no severance or other benefits."
+    },
+    {
+      "id": "d312",
+      "form": "DEF 14A",
+      "accession": "0000050863-26-000061",
+      "filing_date": "2026-03-23",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000061/proxy2026.htm",
+      "quote": "Schell Departure. Mr. Schell was not entitled to any severance payments or equity acceleration upon his resignation from Intel on June 30, 2025, as reflected in the table above.",
+      "quote_from_table": false,
+      "supports": "Schell: no severance or equity acceleration."
+    },
+    {
+      "id": "d313",
+      "form": "DEF 14A",
+      "accession": "0000050863-26-000061",
+      "filing_date": "2026-03-23",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000061/proxy2026.htm",
+      "quote": "Schell Equity Awards. Mr. Schell resigned from Intel effective June 30, 2025 and forfeited all of his outstanding equity awards.",
+      "quote_from_table": false,
+      "supports": "Schell forfeited all outstanding equity."
+    },
+    {
+      "id": "d314",
+      "form": "DEF 14A",
+      "accession": "0000050863-26-000061",
+      "filing_date": "2026-03-23",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000061/proxy2026.htm",
+      "quote": "amounts for Mr. Schell are cash payments representing accrued but unused vacation ($98,100), accrued but unused sabbatical ($50,200), and holiday pay ($13,100).",
+      "quote_from_table": false,
+      "supports": "Schell's 2025 accrued-leave payouts (broad-based)."
+    },
+    {
+      "id": "d320",
+      "form": "8-K",
+      "accession": "0000050863-25-000149",
+      "filing_date": "2025-09-08",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000149/intc-20250907.htm",
+      "quote": "On September 7, 2025, Michelle Johnston Holthaus, Chief Executive Officer of Intel Products, notified Intel Corporation (“Intel”) of her decision to resign for Good Reason (as defined in her Offer Letter, dated as of February 28, 2025). In connection with her resignation, Ms. Johnston Holthaus has agreed to remain employed by Intel in a non-executive role through March 1, 2026 to ensure a smooth transition.",
+      "quote_from_table": false,
+      "supports": "Johnston Holthaus resigned for Good Reason 2025-09-07; non-executive role through 2026-03-01."
+    },
+    {
+      "id": "d321",
+      "form": "DEF 14A",
+      "accession": "0000050863-26-000061",
+      "filing_date": "2026-03-23",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000061/proxy2026.htm",
+      "quote": "Upon her departure on March 1, 2026, Ms. Johnston Holthaus became entitled to severance benefits in accordance with the terms and conditions of the Executive Severance Plan in exchange for a release of claims.",
+      "quote_from_table": false,
+      "supports": "Johnston Holthaus entitled to Executive Severance Plan benefits on leaving 2026-03-01."
+    },
+    {
+      "id": "d322",
+      "form": "DEF 14A",
+      "accession": "0000050863-26-000061",
+      "filing_date": "2026-03-23",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000061/proxy2026.htm",
+      "quote": "Michelle Johnston Holthaus Valuation of RSUs Vesting Acceleration 2,845,400 2,845,400 — 23,981,400 Valuation of PSUs Vesting Acceleration 10,996,800 10,996,800 — 24,003,600 Cash Severance Payment — 4,500,000 — — Other — 53,000 — — Total 13,842,200 18,395,200 — 47,985,000",
+      "quote_from_table": true,
+      "supports": "Potential Payments row for Johnston Holthaus (hypothetical as of 2025-12-27): involuntary termination = RSU $2,845,400 + PSU $10,996,800 (= $13,842,200, the voluntary-column total) + cash severance $4,500,000 + other $53,000 = $18,395,200."
+    },
+    {
+      "id": "d323",
+      "form": "DEF 14A",
+      "accession": "0000050863-26-000061",
+      "filing_date": "2026-03-23",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000061/proxy2026.htm",
+      "quote": "assuming that the triggering events occurred on December 27, 2025, based on the price per share of Intel common stock on the last trading day of the fiscal year ($36.20 on December 26, 2025)",
+      "quote_from_table": false,
+      "supports": "Valuation date and price for the 2026 proxy Potential Payments table."
+    },
+    {
+      "id": "d324",
+      "form": "DEF 14A",
+      "accession": "0000050863-26-000061",
+      "filing_date": "2026-03-23",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000061/proxy2026.htm",
+      "quote": "Other. Represents a cash payment approximately equal to 18 months of the monthly premium for the NEO’s and his or her dependents’ participation in the Company’s group health plans payable pursuant to the Executive Severance Plan.",
+      "quote_from_table": false,
+      "supports": "'Other' = lump sum for 18 months of group health premiums."
+    },
+    {
+      "id": "d330",
+      "form": "8-K",
+      "accession": "0000050863-26-000069",
+      "filing_date": "2026-04-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000069/intc-20260330.htm",
+      "quote": "On March 30,2026, Intel Corporation determined that April Miller Boise, Intel’s Executive Vice President and Chief Legal Officer, will separate from Intel effective as of June 1, 2026. Upon her departure on June 1, 2026, Ms. Miller Boise will be entitled to severance benefits in accordance with the terms and conditions of the Intel Corporation Executive Severance Plan, as previously disclosed, in exchange for a release of claims in favor of Intel.",
+      "quote_from_table": false,
+      "supports": "Miller Boise to separate 2026-06-01 with Executive Severance Plan benefits."
+    },
+    {
+      "id": "d331",
+      "form": "DEF 14A",
+      "accession": "0000050863-26-000061",
+      "filing_date": "2026-03-23",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000061/proxy2026.htm",
+      "quote": "April Miller Boise Valuation of RSUs Vesting Acceleration — — — 6,252,700 Valuation of PSUs Vesting Acceleration — — — 9,683,000 Cash Severance Payment — 3,093,800 — — Other — 45,100 — — Total — 3,138,900 — 15,935,700",
+      "quote_from_table": true,
+      "supports": "Potential Payments row for Miller Boise (hypothetical as of 2025-12-27): involuntary termination = cash severance $3,093,800 + other $45,100 = $3,138,900; no equity acceleration."
+    },
+    {
+      "id": "d332",
+      "form": "DEF 14A",
+      "accession": "0000050863-26-000061",
+      "filing_date": "2026-03-23",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000061/proxy2026.htm",
+      "quote": "Pursuant to the Executive Severance Plan, on a termination of employment by us without cause (as defined in the Executive Severance Plan), subject to the NEO’s execution and non-revocation of a release of claims in favor of us, each of our NEOs (other than the CEO) will be eligible to receive the following severance benefits:",
+      "quote_from_table": false,
+      "supports": "Executive Severance Plan pays on a termination without cause."
+    },
+    {
+      "id": "d333",
+      "form": "DEF 14A",
+      "accession": "0000050863-26-000061",
+      "filing_date": "2026-03-23",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000061/proxy2026.htm",
+      "quote": "None of the equity awards that were outstanding as of December 27, 2025 were eligible for accelerated vesting under the Executive Severance Plan or the Tan Offer Letter.",
+      "quote_from_table": false,
+      "supports": "No ESP equity acceleration as of FY2025 year-end."
+    }
+  ],
+  "conflicts": [
+    {
+      "description": "Swan's accelerated equity is valued two ways: the 2021 proxy says $38,449,529 was vesting on his termination without cause (valued at the 2021-02-12 close of $61.81; $29,264,068 still performance-contingent), while the 2022 proxy's Potential Payments table re-marks the same awards at $25,174,600 (FY2021 year-end price $51.31 and the actual 2019 PSU payout; $10,309,000 performance-contingent). Recorded $38,449,529, the value at the departure date.",
+      "evidence_refs": [
+        "d231",
+        "d235",
+        "d233"
+      ]
+    },
+    {
+      "description": "Goetz's 2,080-RSU joining grant is dated May 13, 2020 in the 2020 proxy (footnote 4) and January 30, 2020 in the 2021 proxy (footnote 3). Either way it is a 2020 grant: it is in his FY2020 stock awards and absent from FY2019.",
+      "evidence_refs": [
+        "d111",
+        "d110"
+      ]
+    },
+    {
+      "description": "Lip-Bu Tan's first Board departure: the 8-K says he resigned 2024-08-19 'effective immediately', while the 2025 proxy's director-pay footnote says he forfeited awards 'upon his departure from the Board on August 22, 2024'. No amount depends on it; the board file uses the 8-K date.",
+      "evidence_refs": [
+        "d113",
+        "d112"
+      ]
+    },
+    {
+      "description": "Gelsinger's exit is a resignation in the 8-K Item 5.02 and the 2025 proxy, but the press release (Ex. 99.1) says he 'retired' and the agreement is a 'Retirement and Separation Agreement'. Recorded exit_type 'resigned'; the severance was paid as if he had been terminated without cause.",
+      "evidence_refs": [
+        "d290",
+        "d291",
+        "d295"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Johnston Holthaus (left 2026-03-01) and Miller Boise (left 2026-06-01): only the 2026 proxy's hypothetical FY2025 year-end estimates exist; the 2027 proxy should report actual severance, health-premium payments and any prorated equity vesting.",
+    "Bryant (resigned 2022-01-31) and Rodgers (retired 2022-05-31) were not NEOs in the 2023 proxy, so no filing reports what they actually received; recorded amounts are the 2022 proxy's hypothetical voluntary-retirement acceleration as of 2021-12-25.",
+    "Krzanich's 2017 and 2018 OSUs vested on resignation but paid out later at 0-200% of target; the 2019 proxy values them at target ($13,087,100 and $11,109,300), and later filings reviewed do not give the actual payouts.",
+    "Rivera's later departure as Altera CEO (after Intel sold a majority of Altera) is not in Intel's proxies; any payment then is not covered."
+  ],
+  "coverage": [
+    {
+      "scope": "director_compensation",
+      "period_start": "2017-12-31",
+      "period_end": "2025-12-27",
+      "level": "complete",
+      "method": "Director Compensation table rows from all eight DEF 14As filed 2019-04-03 through 2026-03-23 (fiscal years 2018-2025; 88 rows). The 2026-03-24 DEFR14A is a verbatim re-filing of the 2026 proxy (text diff shows only cover-page changes) and was not double-counted. No 10-K/A Part III or other proxy with a director pay table was filed in the period (EDGAR submissions feed through 2026-08-28). Employee directors (Krzanich, Bryant as Chairman, Swan, Gelsinger, Tan as CEO) are not in the tables. Rows parsed from sec_text output and each quote is the full printed row."
+    },
+    {
+      "scope": "executive_exits",
+      "period_start": "2018-06-20",
+      "period_end": "2026-10-08",
+      "level": "complete",
+      "method": "Every NEO in intc_exec_comp_research.json whose officer tenure ended (14 people; Zinsner, Tan and Chandrasekaran remain in office, and Zinsner's interim co-CEO and PAO stints were not exits). Sources: CD&A departure sections, SCT All Other Compensation footnotes and Potential Payments tables of the following proxy, plus 8-K Item 5.02. 10 exits are actual and 4 (Bryant, Rodgers, Johnston Holthaus, Miller Boise) are hypothetical Potential Payments estimates. Broad-based accrued-leave payouts are noted but not counted. The 8-K exhibits with the full separation agreements (Renduchintala, Shenoy) were not read beyond the 8-K text."
+    }
+  ]
+}

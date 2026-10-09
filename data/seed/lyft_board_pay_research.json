@@ -1,0 +1,2535 @@
+{
+ "company": {
+  "cik": "0001759509",
+  "ticker": "LYFT"
+ },
+ "as_of": "2026-10-08",
+ "sources_reviewed_through": "2026-10-02 (latest filing in the EDGAR submissions feed fetched 2026-10-09 UTC)",
+ "fiscal_year_end": "12-31",
+ "people": [
+  {
+   "key": "sean-aggarwal",
+   "full_name": "Prashant (Sean) Aggarwal",
+   "aliases": [
+    "Sean Aggarwal",
+    "Prashant Aggarwal",
+    "Aggarwal Prashant"
+   ],
+   "sec_cik": "0001558267",
+   "in_board_file": true
+  },
+  {
+   "key": "ben-horowitz",
+   "full_name": "Benjamin A. Horowitz",
+   "aliases": [
+    "Ben Horowitz",
+    "HOROWITZ BENJAMIN A"
+   ],
+   "sec_cik": "0001166586",
+   "in_board_file": true
+  },
+  {
+   "key": "valerie-jarrett",
+   "full_name": "Valerie B. Jarrett",
+   "aliases": [
+    "Valerie Jarrett",
+    "JARRETT VALERIE B"
+   ],
+   "sec_cik": "0001208575",
+   "in_board_file": true
+  },
+  {
+   "key": "david-lawee",
+   "full_name": "David Lawee",
+   "aliases": [
+    "Lawee David"
+   ],
+   "sec_cik": "0001760864",
+   "in_board_file": true
+  },
+  {
+   "key": "hiroshi-mikitani",
+   "full_name": "Hiroshi Mikitani",
+   "aliases": [
+    "Hiroshi “Mickey” Mikitani",
+    "Mickey Mikitani",
+    "Mikitani Hiroshi"
+   ],
+   "sec_cik": "0001760624",
+   "in_board_file": true
+  },
+  {
+   "key": "ann-miura-ko",
+   "full_name": "R. Ann Miura-Ko",
+   "aliases": [
+    "Ann Miura-Ko",
+    "Miura-Ko R. Ann"
+   ],
+   "sec_cik": "0001760220",
+   "in_board_file": true
+  },
+  {
+   "key": "maggie-wilderotter",
+   "full_name": "Mary Agnes (Maggie) Wilderotter",
+   "aliases": [
+    "Maggie Wilderotter",
+    "Mary Agnes Wilderotter",
+    "Wilderotter Mary Agnes"
+   ],
+   "sec_cik": "0001180610",
+   "in_board_file": true
+  },
+  {
+   "key": "ariel-cohen",
+   "full_name": "Ariel M. Cohen",
+   "aliases": [
+    "Ariel Cohen",
+    "Cohen Ariel M."
+   ],
+   "sec_cik": "0001853730",
+   "in_board_file": true
+  },
+  {
+   "key": "david-risher",
+   "full_name": "John David Risher",
+   "aliases": [
+    "David Risher",
+    "Risher John David"
+   ],
+   "sec_cik": "0001869638",
+   "in_board_file": true
+  },
+  {
+   "key": "jill-beggs",
+   "full_name": "Jill Beggs",
+   "aliases": [
+    "Beggs Jill"
+   ],
+   "sec_cik": "0002006278",
+   "in_board_file": true
+  },
+  {
+   "key": "logan-green",
+   "full_name": "Logan Green",
+   "aliases": [
+    "Green Logan"
+   ],
+   "sec_cik": "0001677874",
+   "in_board_file": true
+  },
+  {
+   "key": "dave-stephenson",
+   "full_name": "David E. Stephenson",
+   "aliases": [
+    "Dave Stephenson",
+    "David Stephenson",
+    "Stephenson Dave"
+   ],
+   "sec_cik": "0001834164",
+   "in_board_file": true
+  },
+  {
+   "key": "betsey-stevenson",
+   "full_name": "Betsey Stevenson",
+   "aliases": [
+    "Stevenson Betsey"
+   ],
+   "sec_cik": "0002000921",
+   "in_board_file": true
+  },
+  {
+   "key": "janey-whiteside",
+   "full_name": "Janey Whiteside",
+   "aliases": [
+    "Whiteside Janey"
+   ],
+   "sec_cik": "0001973495",
+   "in_board_file": true
+  },
+  {
+   "key": "john-zimmer",
+   "full_name": "John Patrick Zimmer",
+   "aliases": [
+    "John Zimmer",
+    "Zimmer John Patrick"
+   ],
+   "sec_cik": "0001766269",
+   "in_board_file": true
+  },
+  {
+   "key": "jon-mcneill",
+   "full_name": "Jon McNeill",
+   "aliases": [
+    "McNeill Jon"
+   ],
+   "sec_cik": "0001670512",
+   "in_board_file": false
+  },
+  {
+   "key": "ran-makavy",
+   "full_name": "Ran Makavy",
+   "aliases": [
+    "Makavy Ran I.",
+    "Ran I. Makavy"
+   ],
+   "sec_cik": "0001760231",
+   "in_board_file": false
+  },
+  {
+   "key": "eisar-lipkovitz",
+   "full_name": "Eisar Lipkovitz",
+   "aliases": [
+    "Lipkovitz Eisar"
+   ],
+   "sec_cik": "0001807751",
+   "in_board_file": false
+  },
+  {
+   "key": "brian-roberts",
+   "full_name": "Brian Roberts",
+   "aliases": [
+    "Roberts Brian Keith",
+    "Brian Keith Roberts"
+   ],
+   "sec_cik": "0001760943",
+   "in_board_file": false
+  },
+  {
+   "key": "elaine-paul",
+   "full_name": "Elaine Paul",
+   "aliases": [
+    "Paul Elaine"
+   ],
+   "sec_cik": "0001904069",
+   "in_board_file": false
+  },
+  {
+   "key": "ashwin-raj",
+   "full_name": "Ashwin Raj",
+   "aliases": [
+    "Raj Ashwin"
+   ],
+   "sec_cik": "0001890460",
+   "in_board_file": false
+  },
+  {
+   "key": "kristin-sverchek",
+   "full_name": "Kristin Sverchek",
+   "aliases": [
+    "Sverchek Kristin"
+   ],
+   "sec_cik": "0001759510",
+   "in_board_file": false
+  },
+  {
+   "key": "lisa-blackwood-kapral",
+   "full_name": "Lisa Blackwood-Kapral",
+   "aliases": [
+    "BLACKWOOD-KAPRAL LISA"
+   ],
+   "sec_cik": "0001651687",
+   "in_board_file": false
+  },
+  {
+   "key": "erin-brewer",
+   "full_name": "Erin Brewer",
+   "aliases": [
+    "Brewer Erin"
+   ],
+   "sec_cik": "0001675948",
+   "in_board_file": false
+  }
+ ],
+ "director_comp": [
+  {
+   "person_key": "sean-aggarwal",
+   "fiscal_year": 2019,
+   "accession": "0001193125-20-120957",
+   "listed_name": "Sean Aggarwal",
+   "fees_cash": 82581,
+   "stock_awards": 259979,
+   "option_awards": 0,
+   "non_equity_incentive": 0,
+   "pension_nqdc": 0,
+   "all_other": 0,
+   "total": 342560,
+   "evidence_ref": "d001",
+   "notes": "Table columns: Fees Earned or Paid in Cash, Stock Awards, Total (no option, non-equity incentive, pension/NQDC or all-other columns; recorded as 0). Board Chair. Cash fees are a partial year (policy effective at the IPO); the stock award is the June 11, 2019 RSU grant made as if an annual meeting had been held."
+  },
+  {
+   "person_key": "ben-horowitz",
+   "fiscal_year": 2019,
+   "accession": "0001193125-20-120957",
+   "listed_name": "Ben Horowitz",
+   "fees_cash": 36914,
+   "stock_awards": 259979,
+   "option_awards": 0,
+   "non_equity_incentive": 0,
+   "pension_nqdc": 0,
+   "all_other": 0,
+   "total": 296893,
+   "evidence_ref": "d002",
+   "notes": "Table columns: Fees Earned or Paid in Cash, Stock Awards, Total (no option, non-equity incentive, pension/NQDC or all-other columns; recorded as 0)."
+  },
+  {
+   "person_key": "valerie-jarrett",
+   "fiscal_year": 2019,
+   "accession": "0001193125-20-120957",
+   "listed_name": "Valerie Jarrett",
+   "fees_cash": 41861,
+   "stock_awards": 259979,
+   "option_awards": 0,
+   "non_equity_incentive": 0,
+   "pension_nqdc": 0,
+   "all_other": 0,
+   "total": 301840,
+   "evidence_ref": "d003",
+   "notes": "Table columns: Fees Earned or Paid in Cash, Stock Awards, Total (no option, non-equity incentive, pension/NQDC or all-other columns; recorded as 0)."
+  },
+  {
+   "person_key": "david-lawee",
+   "fiscal_year": 2019,
+   "accession": "0001193125-20-120957",
+   "listed_name": "David Lawee",
+   "fees_cash": 49472,
+   "stock_awards": 259979,
+   "option_awards": 0,
+   "non_equity_incentive": 0,
+   "pension_nqdc": 0,
+   "all_other": 0,
+   "total": 309451,
+   "evidence_ref": "d004",
+   "notes": "Table columns: Fees Earned or Paid in Cash, Stock Awards, Total (no option, non-equity incentive, pension/NQDC or all-other columns; recorded as 0)."
+  },
+  {
+   "person_key": "hiroshi-mikitani",
+   "fiscal_year": 2019,
+   "accession": "0001193125-20-120957",
+   "listed_name": "Hiroshi Mikitani",
+   "fees_cash": 30444,
+   "stock_awards": 259979,
+   "option_awards": 0,
+   "non_equity_incentive": 0,
+   "pension_nqdc": 0,
+   "all_other": 0,
+   "total": 290423,
+   "evidence_ref": "d005",
+   "notes": "Table columns: Fees Earned or Paid in Cash, Stock Awards, Total (no option, non-equity incentive, pension/NQDC or all-other columns; recorded as 0)."
+  },
+  {
+   "person_key": "ann-miura-ko",
+   "fiscal_year": 2019,
+   "accession": "0001193125-20-120957",
+   "listed_name": "Ann Miura-Ko",
+   "fees_cash": 38817,
+   "stock_awards": 259979,
+   "option_awards": 0,
+   "non_equity_incentive": 0,
+   "pension_nqdc": 0,
+   "all_other": 0,
+   "total": 298796,
+   "evidence_ref": "d006",
+   "notes": "Table columns: Fees Earned or Paid in Cash, Stock Awards, Total (no option, non-equity incentive, pension/NQDC or all-other columns; recorded as 0). Footnote (5): 'Ms. Miura-Ko voluntarily forfeited her award immediately following the grant and prior to vesting.' The $259,979 grant-date value is recorded as printed even though it was forfeited."
+  },
+  {
+   "person_key": "maggie-wilderotter",
+   "fiscal_year": 2019,
+   "accession": "0001193125-20-120957",
+   "listed_name": "Mary Agnes (Maggie) Wilderotter",
+   "fees_cash": 49472,
+   "stock_awards": 259979,
+   "option_awards": 0,
+   "non_equity_incentive": 0,
+   "pension_nqdc": 0,
+   "all_other": 0,
+   "total": 309451,
+   "evidence_ref": "d007",
+   "notes": "Table columns: Fees Earned or Paid in Cash, Stock Awards, Total (no option, non-equity incentive, pension/NQDC or all-other columns; recorded as 0)."
+  },
+  {
+   "person_key": "sean-aggarwal",
+   "fiscal_year": 2020,
+   "accession": "0001759509-21-000026",
+   "listed_name": "Sean Aggarwal",
+   "fees_cash": 100363,
+   "stock_awards": 260001,
+   "option_awards": 0,
+   "non_equity_incentive": 0,
+   "pension_nqdc": 0,
+   "all_other": 0,
+   "total": 360364,
+   "evidence_ref": "d008",
+   "notes": "Table columns: Fees Earned or Paid in Cash, Stock Awards, Total (no option, non-equity incentive, pension/NQDC or all-other columns; recorded as 0). Directors voluntarily gave up 30% of their Q2 2020 cash fees (COVID-19)."
+  },
+  {
+   "person_key": "valerie-jarrett",
+   "fiscal_year": 2020,
+   "accession": "0001759509-21-000026",
+   "listed_name": "Valerie Jarrett",
+   "fees_cash": 50875,
+   "stock_awards": 260001,
+   "option_awards": 0,
+   "non_equity_incentive": 0,
+   "pension_nqdc": 0,
+   "all_other": 0,
+   "total": 310876,
+   "evidence_ref": "d009",
+   "notes": "Table columns: Fees Earned or Paid in Cash, Stock Awards, Total (no option, non-equity incentive, pension/NQDC or all-other columns; recorded as 0). Directors voluntarily gave up 30% of their Q2 2020 cash fees (COVID-19)."
+  },
+  {
+   "person_key": "david-lawee",
+   "fiscal_year": 2020,
+   "accession": "0001759509-21-000026",
+   "listed_name": "David Lawee",
+   "fees_cash": 60125,
+   "stock_awards": 260001,
+   "option_awards": 0,
+   "non_equity_incentive": 0,
+   "pension_nqdc": 0,
+   "all_other": 0,
+   "total": 320126,
+   "evidence_ref": "d010",
+   "notes": "Table columns: Fees Earned or Paid in Cash, Stock Awards, Total (no option, non-equity incentive, pension/NQDC or all-other columns; recorded as 0). Directors voluntarily gave up 30% of their Q2 2020 cash fees (COVID-19)."
+  },
+  {
+   "person_key": "ann-miura-ko",
+   "fiscal_year": 2020,
+   "accession": "0001759509-21-000026",
+   "listed_name": "Ann Miura-Ko",
+   "fees_cash": 47175,
+   "stock_awards": 260001,
+   "option_awards": 0,
+   "non_equity_incentive": 0,
+   "pension_nqdc": 0,
+   "all_other": 0,
+   "total": 307176,
+   "evidence_ref": "d011",
+   "notes": "Table columns: Fees Earned or Paid in Cash, Stock Awards, Total (no option, non-equity incentive, pension/NQDC or all-other columns; recorded as 0). Directors voluntarily gave up 30% of their Q2 2020 cash fees (COVID-19)."
+  },
+  {
+   "person_key": "maggie-wilderotter",
+   "fiscal_year": 2020,
+   "accession": "0001759509-21-000026",
+   "listed_name": "Mary Agnes (Maggie) Wilderotter",
+   "fees_cash": 60125,
+   "stock_awards": 260001,
+   "option_awards": 0,
+   "non_equity_incentive": 0,
+   "pension_nqdc": 0,
+   "all_other": 0,
+   "total": 320126,
+   "evidence_ref": "d012",
+   "notes": "Table columns: Fees Earned or Paid in Cash, Stock Awards, Total (no option, non-equity incentive, pension/NQDC or all-other columns; recorded as 0). Directors voluntarily gave up 30% of their Q2 2020 cash fees (COVID-19)."
+  },
+  {
+   "person_key": "ben-horowitz",
+   "fiscal_year": 2020,
+   "accession": "0001759509-21-000026",
+   "listed_name": "Ben Horowitz, former",
+   "fees_cash": 19587,
+   "stock_awards": 0,
+   "option_awards": 0,
+   "non_equity_incentive": 0,
+   "pension_nqdc": 0,
+   "all_other": 0,
+   "total": 19587,
+   "evidence_ref": "d013",
+   "notes": "Table columns: Fees Earned or Paid in Cash, Stock Awards, Total (no option, non-equity incentive, pension/NQDC or all-other columns; recorded as 0). Directors voluntarily gave up 30% of their Q2 2020 cash fees (COVID-19). Listed as 'Ben Horowitz, former'. Did not stand for re-election in June 2020, so received no 2020 annual equity award; partial-year cash."
+  },
+  {
+   "person_key": "hiroshi-mikitani",
+   "fiscal_year": 2020,
+   "accession": "0001759509-21-000026",
+   "listed_name": "Hiroshi Mikitani, former",
+   "fees_cash": 23739,
+   "stock_awards": 260001,
+   "option_awards": 0,
+   "non_equity_incentive": 0,
+   "pension_nqdc": 0,
+   "all_other": 0,
+   "total": 283740,
+   "evidence_ref": "d014",
+   "notes": "Table columns: Fees Earned or Paid in Cash, Stock Awards, Total (no option, non-equity incentive, pension/NQDC or all-other columns; recorded as 0). Directors voluntarily gave up 30% of their Q2 2020 cash fees (COVID-19). Listed as 'Hiroshi Mikitani, former'. Resigned August 2020 (partial-year cash). He received the June 19, 2020 annual award ($260,001) but is not in the 2020 year-end outstanding-awards table; the filing does not say what happened to its unvested portion."
+  },
+  {
+   "person_key": "sean-aggarwal",
+   "fiscal_year": 2021,
+   "accession": "0001759509-22-000034",
+   "listed_name": "Sean Aggarwal",
+   "fees_cash": 108500,
+   "stock_awards": 260014,
+   "option_awards": 0,
+   "non_equity_incentive": 0,
+   "pension_nqdc": 0,
+   "all_other": 0,
+   "total": 368514,
+   "evidence_ref": "d015",
+   "notes": "Table columns: Fee Earned or Paid in Cash, Stock Awards, All Other Compensation (Lyft Pink membership benefits), Total; a blank All Other cell is recorded as 0."
+  },
+  {
+   "person_key": "ariel-cohen",
+   "fiscal_year": 2021,
+   "accession": "0001759509-22-000034",
+   "listed_name": "Ariel Cohen",
+   "fees_cash": 36779,
+   "stock_awards": 303339,
+   "option_awards": 0,
+   "non_equity_incentive": 0,
+   "pension_nqdc": 0,
+   "all_other": 0,
+   "total": 340118,
+   "evidence_ref": "d016",
+   "notes": "Table columns: Fee Earned or Paid in Cash, Stock Awards, All Other Compensation (Lyft Pink membership benefits), Total; a blank All Other cell is recorded as 0. Joined March 2021. Footnote (2): stock awards = $43,325 Initial Award + $260,014 Annual Award."
+  },
+  {
+   "person_key": "valerie-jarrett",
+   "fiscal_year": 2021,
+   "accession": "0001759509-22-000034",
+   "listed_name": "Valerie Jarrett",
+   "fees_cash": 55000,
+   "stock_awards": 260014,
+   "option_awards": 0,
+   "non_equity_incentive": 0,
+   "pension_nqdc": 0,
+   "all_other": 41,
+   "total": 315055,
+   "evidence_ref": "d017",
+   "notes": "Table columns: Fee Earned or Paid in Cash, Stock Awards, All Other Compensation (Lyft Pink membership benefits), Total; a blank All Other cell is recorded as 0. All other $41 = Lyft Pink membership benefits."
+  },
+  {
+   "person_key": "david-lawee",
+   "fiscal_year": 2021,
+   "accession": "0001759509-22-000034",
+   "listed_name": "David Lawee",
+   "fees_cash": 62622,
+   "stock_awards": 260014,
+   "option_awards": 0,
+   "non_equity_incentive": 0,
+   "pension_nqdc": 0,
+   "all_other": 0,
+   "total": 322636,
+   "evidence_ref": "d018",
+   "notes": "Table columns: Fee Earned or Paid in Cash, Stock Awards, All Other Compensation (Lyft Pink membership benefits), Total; a blank All Other cell is recorded as 0."
+  },
+  {
+   "person_key": "ann-miura-ko",
+   "fiscal_year": 2021,
+   "accession": "0001759509-22-000034",
+   "listed_name": "Ann Miura-Ko",
+   "fees_cash": 51000,
+   "stock_awards": 260014,
+   "option_awards": 0,
+   "non_equity_incentive": 0,
+   "pension_nqdc": 0,
+   "all_other": 0,
+   "total": 311014,
+   "evidence_ref": "d019",
+   "notes": "Table columns: Fee Earned or Paid in Cash, Stock Awards, All Other Compensation (Lyft Pink membership benefits), Total; a blank All Other cell is recorded as 0."
+  },
+  {
+   "person_key": "david-risher",
+   "fiscal_year": 2021,
+   "accession": "0001759509-22-000034",
+   "listed_name": "David Risher",
+   "fees_cash": 21522,
+   "stock_awards": 238318,
+   "option_awards": 0,
+   "non_equity_incentive": 0,
+   "pension_nqdc": 0,
+   "all_other": 0,
+   "total": 259840,
+   "evidence_ref": "d020",
+   "notes": "Table columns: Fee Earned or Paid in Cash, Stock Awards, All Other Compensation (Lyft Pink membership benefits), Total; a blank All Other cell is recorded as 0. Joined July 9, 2021. Stock award is his Initial Award only (no 2021 Annual Award)."
+  },
+  {
+   "person_key": "maggie-wilderotter",
+   "fiscal_year": 2021,
+   "accession": "0001759509-22-000034",
+   "listed_name": "Maggie Wilderotter",
+   "fees_cash": 65000,
+   "stock_awards": 260014,
+   "option_awards": 0,
+   "non_equity_incentive": 0,
+   "pension_nqdc": 0,
+   "all_other": 0,
+   "total": 325014,
+   "evidence_ref": "d021",
+   "notes": "Table columns: Fee Earned or Paid in Cash, Stock Awards, All Other Compensation (Lyft Pink membership benefits), Total; a blank All Other cell is recorded as 0."
+  },
+  {
+   "person_key": "sean-aggarwal",
+   "fiscal_year": 2022,
+   "accession": "0001759509-23-000049",
+   "listed_name": "Sean Aggarwal",
+   "fees_cash": 108500,
+   "stock_awards": 260000,
+   "option_awards": 0,
+   "non_equity_incentive": 0,
+   "pension_nqdc": 0,
+   "all_other": 25,
+   "total": 368525,
+   "evidence_ref": "d022",
+   "notes": "Table columns: Fee Earned or Paid in Cash, Stock Awards, All Other Compensation (Lyft Pink membership benefits), Total."
+  },
+  {
+   "person_key": "ariel-cohen",
+   "fiscal_year": 2022,
+   "accession": "0001759509-23-000049",
+   "listed_name": "Ariel Cohen",
+   "fees_cash": 24250,
+   "stock_awards": 272126,
+   "option_awards": 0,
+   "non_equity_incentive": 0,
+   "pension_nqdc": 0,
+   "all_other": 91,
+   "total": 296467,
+   "evidence_ref": "d023",
+   "notes": "Table columns: Fee Earned or Paid in Cash, Stock Awards, All Other Compensation (Lyft Pink membership benefits), Total. Elected RSUs in lieu of part of his 2022 cash fees; Stock Awards $272,126 exceeds the $260,000 annual award (not broken down in the filing)."
+  },
+  {
+   "person_key": "valerie-jarrett",
+   "fiscal_year": 2022,
+   "accession": "0001759509-23-000049",
+   "listed_name": "Valerie Jarrett",
+   "fees_cash": 55000,
+   "stock_awards": 260000,
+   "option_awards": 0,
+   "non_equity_incentive": 0,
+   "pension_nqdc": 0,
+   "all_other": 166,
+   "total": 315166,
+   "evidence_ref": "d024",
+   "notes": "Table columns: Fee Earned or Paid in Cash, Stock Awards, All Other Compensation (Lyft Pink membership benefits), Total."
+  },
+  {
+   "person_key": "david-lawee",
+   "fiscal_year": 2022,
+   "accession": "0001759509-23-000049",
+   "listed_name": "David Lawee",
+   "fees_cash": 30000,
+   "stock_awards": 275001,
+   "option_awards": 0,
+   "non_equity_incentive": 0,
+   "pension_nqdc": 0,
+   "all_other": 0,
+   "total": 305001,
+   "evidence_ref": "d025",
+   "notes": "Table columns: Fee Earned or Paid in Cash, Stock Awards, All Other Compensation (Lyft Pink membership benefits), Total. Elected RSUs in lieu of part of his 2022 cash fees; in this year's table the in-lieu RSUs appear to sit in Stock Awards ($275,001 vs the $260,000 annual award). The filing does not break the figure down."
+  },
+  {
+   "person_key": "ann-miura-ko",
+   "fiscal_year": 2022,
+   "accession": "0001759509-23-000049",
+   "listed_name": "Ann Miura-Ko",
+   "fees_cash": 51000,
+   "stock_awards": 260000,
+   "option_awards": 0,
+   "non_equity_incentive": 0,
+   "pension_nqdc": 0,
+   "all_other": 0,
+   "total": 311000,
+   "evidence_ref": "d026",
+   "notes": "Table columns: Fee Earned or Paid in Cash, Stock Awards, All Other Compensation (Lyft Pink membership benefits), Total."
+  },
+  {
+   "person_key": "david-risher",
+   "fiscal_year": 2022,
+   "accession": "0001759509-23-000049",
+   "listed_name": "David Risher",
+   "fees_cash": 22500,
+   "stock_awards": 271247,
+   "option_awards": 0,
+   "non_equity_incentive": 0,
+   "pension_nqdc": 0,
+   "all_other": 0,
+   "total": 293747,
+   "evidence_ref": "d027",
+   "notes": "Table columns: Fee Earned or Paid in Cash, Stock Awards, All Other Compensation (Lyft Pink membership benefits), Total. Elected RSUs in lieu of part of his 2022 cash fees; Stock Awards $271,247 exceeds the $260,000 annual award (not broken down in the filing)."
+  },
+  {
+   "person_key": "maggie-wilderotter",
+   "fiscal_year": 2022,
+   "accession": "0001759509-23-000049",
+   "listed_name": "Maggie Wilderotter",
+   "fees_cash": 65000,
+   "stock_awards": 260000,
+   "option_awards": 0,
+   "non_equity_incentive": 0,
+   "pension_nqdc": 0,
+   "all_other": 0,
+   "total": 325000,
+   "evidence_ref": "d028",
+   "notes": "Table columns: Fee Earned or Paid in Cash, Stock Awards, All Other Compensation (Lyft Pink membership benefits), Total."
+  },
+  {
+   "person_key": "sean-aggarwal",
+   "fiscal_year": 2023,
+   "accession": "0001759509-24-000055",
+   "listed_name": "Sean Aggarwal",
+   "fees_cash": 94508,
+   "stock_awards": 260005,
+   "option_awards": 0,
+   "non_equity_incentive": 0,
+   "pension_nqdc": 0,
+   "all_other": 173,
+   "total": 354686,
+   "evidence_ref": "d029",
+   "notes": "Table columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation (Lyft Pink membership benefits), Total. Lead Independent Director from April 2023. All other $173 = Lyft Pink membership benefits."
+  },
+  {
+   "person_key": "jill-beggs",
+   "fiscal_year": 2023,
+   "accession": "0001759509-24-000055",
+   "listed_name": "Jill Beggs",
+   "fees_cash": 136,
+   "stock_awards": 108333,
+   "option_awards": 0,
+   "non_equity_incentive": 0,
+   "pension_nqdc": 0,
+   "all_other": 0,
+   "total": 108469,
+   "evidence_ref": "d030",
+   "notes": "Table columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation (Lyft Pink membership benefits), Total. Joined December 31, 2023; outstanding-awards table shows a 7,227-unit grant dated 12/31/2023."
+  },
+  {
+   "person_key": "ariel-cohen",
+   "fiscal_year": 2023,
+   "accession": "0001759509-24-000055",
+   "listed_name": "Ariel Cohen",
+   "fees_cash": 48490,
+   "stock_awards": 260005,
+   "option_awards": 0,
+   "non_equity_incentive": 0,
+   "pension_nqdc": 0,
+   "all_other": 107,
+   "total": 308602,
+   "evidence_ref": "d031",
+   "notes": "Table columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation (Lyft Pink membership benefits), Total. Footnote (4): 4,452 RSUs ($48,490) received in lieu of cash retainers, reported in the fees column. All other $107 = Lyft Pink membership benefits."
+  },
+  {
+   "person_key": "logan-green",
+   "fiscal_year": 2023,
+   "accession": "0001759509-24-000055",
+   "listed_name": "Logan Green",
+   "fees_cash": 63544,
+   "stock_awards": 260005,
+   "option_awards": 0,
+   "non_equity_incentive": 0,
+   "pension_nqdc": 0,
+   "all_other": 0,
+   "total": 323549,
+   "evidence_ref": "d032",
+   "notes": "Table columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation (Lyft Pink membership benefits), Total. Non-employee director from April 17, 2023 (CEO before that). The $260,005 RSU is the award under his Founder Transition Agreement, in place of a 2023 Annual Award. The same $63,544 fees and $260,005 award are also included in his FY2023 Summary Compensation Table row (salary and stock awards), so adding the two tables double-counts them."
+  },
+  {
+   "person_key": "valerie-jarrett",
+   "fiscal_year": 2023,
+   "accession": "0001759509-24-000055",
+   "listed_name": "Valerie Jarrett",
+   "fees_cash": 43043,
+   "stock_awards": 260005,
+   "option_awards": 0,
+   "non_equity_incentive": 0,
+   "pension_nqdc": 0,
+   "all_other": 0,
+   "total": 303048,
+   "evidence_ref": "d033",
+   "notes": "Table columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation (Lyft Pink membership benefits), Total. Resigned October 2023 (partial-year cash)."
+  },
+  {
+   "person_key": "david-lawee",
+   "fiscal_year": 2023,
+   "accession": "0001759509-24-000055",
+   "listed_name": "David Lawee",
+   "fees_cash": 64362,
+   "stock_awards": 260005,
+   "option_awards": 0,
+   "non_equity_incentive": 0,
+   "pension_nqdc": 0,
+   "all_other": 0,
+   "total": 324367,
+   "evidence_ref": "d034",
+   "notes": "Table columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation (Lyft Pink membership benefits), Total. Footnote (4): 5,891 RSUs ($64,362) received in lieu of cash retainers, reported in the fees column."
+  },
+  {
+   "person_key": "ann-miura-ko",
+   "fiscal_year": 2023,
+   "accession": "0001759509-24-000055",
+   "listed_name": "Ann Miura-Ko",
+   "fees_cash": 23401,
+   "stock_awards": 0,
+   "option_awards": 0,
+   "non_equity_incentive": 0,
+   "pension_nqdc": 0,
+   "all_other": 0,
+   "total": 23401,
+   "evidence_ref": "d035",
+   "notes": "Table columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation (Lyft Pink membership benefits), Total. Did not stand for re-election in June 2023 (partial-year cash; no 2023 award). Footnote (4): 1,296 RSUs ($12,753) received in lieu of cash retainers, reported in the fees column."
+  },
+  {
+   "person_key": "david-risher",
+   "fiscal_year": 2023,
+   "accession": "0001759509-24-000055",
+   "listed_name": "David Risher",
+   "fees_cash": 13046,
+   "stock_awards": 0,
+   "option_awards": 0,
+   "non_equity_incentive": 0,
+   "pension_nqdc": 0,
+   "all_other": 0,
+   "total": 13046,
+   "evidence_ref": "d036",
+   "notes": "Table columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation (Lyft Pink membership benefits), Total. Non-employee director until he became CEO on April 17, 2023. Footnote (4): he received 1,136 RSUs (grant-date value $11,178) in lieu of retainers. The FY2023 SCT says his salary 'includes $1,868 in director fees received in the form of 1,136 RSUs with a total grant date fair value of $11,178' (see conflicts)."
+  },
+  {
+   "person_key": "dave-stephenson",
+   "fiscal_year": 2023,
+   "accession": "0001759509-24-000055",
+   "listed_name": "Dave Stephenson",
+   "fees_cash": 56026,
+   "stock_awards": 346668,
+   "option_awards": 0,
+   "non_equity_incentive": 0,
+   "pension_nqdc": 0,
+   "all_other": 0,
+   "total": 402694,
+   "evidence_ref": "d037",
+   "notes": "Table columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation (Lyft Pink membership benefits), Total. Joined February 2023. Stock Awards $346,668 (above the $260,000 annual award; not broken down in the filing). Footnote (4): 4,236 RSUs ($47,832) received in lieu of cash retainers, reported in the fees column."
+  },
+  {
+   "person_key": "betsey-stevenson",
+   "fiscal_year": 2023,
+   "accession": "0001759509-24-000055",
+   "listed_name": "Betsey Stevenson",
+   "fees_cash": 5625,
+   "stock_awards": 130000,
+   "option_awards": 0,
+   "non_equity_incentive": 0,
+   "pension_nqdc": 0,
+   "all_other": 0,
+   "total": 135625,
+   "evidence_ref": "d038",
+   "notes": "Table columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation (Lyft Pink membership benefits), Total. Joined November 2023 (partial-year cash); outstanding-awards table shows a 12,500-unit grant dated 11/16/2023."
+  },
+  {
+   "person_key": "janey-whiteside",
+   "fiscal_year": 2023,
+   "accession": "0001759509-24-000055",
+   "listed_name": "Janey Whiteside",
+   "fees_cash": 21390,
+   "stock_awards": 216667,
+   "option_awards": 0,
+   "non_equity_incentive": 0,
+   "pension_nqdc": 0,
+   "all_other": 0,
+   "total": 238057,
+   "evidence_ref": "d039",
+   "notes": "Table columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation (Lyft Pink membership benefits), Total. Joined July 2023 (partial-year cash). Footnote (4): 1,045 RSUs ($13,219) received in lieu of cash retainers, reported in the fees column."
+  },
+  {
+   "person_key": "maggie-wilderotter",
+   "fiscal_year": 2023,
+   "accession": "0001759509-24-000055",
+   "listed_name": "Maggie Wilderotter",
+   "fees_cash": 44004,
+   "stock_awards": 260005,
+   "option_awards": 0,
+   "non_equity_incentive": 0,
+   "pension_nqdc": 0,
+   "all_other": 0,
+   "total": 304009,
+   "evidence_ref": "d040",
+   "notes": "Table columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation (Lyft Pink membership benefits), Total. Resigned October 2023 (partial-year cash)."
+  },
+  {
+   "person_key": "john-zimmer",
+   "fiscal_year": 2023,
+   "accession": "0001759509-24-000055",
+   "listed_name": "John Zimmer",
+   "fees_cash": 20110,
+   "stock_awards": 260005,
+   "option_awards": 0,
+   "non_equity_incentive": 0,
+   "pension_nqdc": 0,
+   "all_other": 9,
+   "total": 280124,
+   "evidence_ref": "d041",
+   "notes": "Table columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation (Lyft Pink membership benefits), Total. Non-employee director from June 30, 2023 (President before that). The $260,005 RSU is the award under his Founder Transition Agreement. The same $20,110 fees and $260,005 award are also included in his FY2023 Summary Compensation Table row. All other $9 = Lyft Pink membership benefits."
+  },
+  {
+   "person_key": "sean-aggarwal",
+   "fiscal_year": 2024,
+   "accession": "0001759509-25-000069",
+   "listed_name": "Sean Aggarwal",
+   "fees_cash": 94500,
+   "stock_awards": 260003,
+   "option_awards": 0,
+   "non_equity_incentive": 0,
+   "pension_nqdc": 0,
+   "all_other": 0,
+   "total": 354503,
+   "evidence_ref": "d042",
+   "notes": "Table columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total."
+  },
+  {
+   "person_key": "jill-beggs",
+   "fiscal_year": 2024,
+   "accession": "0001759509-25-000069",
+   "listed_name": "Jill Beggs",
+   "fees_cash": 50000,
+   "stock_awards": 260003,
+   "option_awards": 0,
+   "non_equity_incentive": 0,
+   "pension_nqdc": 0,
+   "all_other": 0,
+   "total": 310003,
+   "evidence_ref": "d043",
+   "notes": "Table columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total."
+  },
+  {
+   "person_key": "ariel-cohen",
+   "fiscal_year": 2024,
+   "accession": "0001759509-25-000069",
+   "listed_name": "Ariel Cohen",
+   "fees_cash": 48511,
+   "stock_awards": 260003,
+   "option_awards": 0,
+   "non_equity_incentive": 0,
+   "pension_nqdc": 0,
+   "all_other": 0,
+   "total": 308514,
+   "evidence_ref": "d044",
+   "notes": "Table columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total. Footnote (3): 3,505 RSUs ($48,511) received in lieu of cash retainers, reported in the fees column."
+  },
+  {
+   "person_key": "logan-green",
+   "fiscal_year": 2024,
+   "accession": "0001759509-25-000069",
+   "listed_name": "Logan Green",
+   "fees_cash": 90000,
+   "stock_awards": 260003,
+   "option_awards": 0,
+   "non_equity_incentive": 0,
+   "pension_nqdc": 0,
+   "all_other": 119870,
+   "total": 469873,
+   "evidence_ref": "d045",
+   "notes": "Table columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total. All other $119,870 = $112,500 consulting fees + $7,370 COBRA payments 'in connection with his transition from his role as our chief executive officer' (footnote 2); recorded again in his exit row."
+  },
+  {
+   "person_key": "david-lawee",
+   "fiscal_year": 2024,
+   "accession": "0001759509-25-000069",
+   "listed_name": "David Lawee",
+   "fees_cash": 70006,
+   "stock_awards": 260003,
+   "option_awards": 0,
+   "non_equity_incentive": 0,
+   "pension_nqdc": 0,
+   "all_other": 0,
+   "total": 330009,
+   "evidence_ref": "d046",
+   "notes": "Table columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total. Footnote (3): 5,058 RSUs ($70,006) received in lieu of cash retainers, reported in the fees column."
+  },
+  {
+   "person_key": "dave-stephenson",
+   "fiscal_year": 2024,
+   "accession": "0001759509-25-000069",
+   "listed_name": "Dave Stephenson",
+   "fees_cash": 65008,
+   "stock_awards": 260003,
+   "option_awards": 0,
+   "non_equity_incentive": 0,
+   "pension_nqdc": 0,
+   "all_other": 0,
+   "total": 325011,
+   "evidence_ref": "d047",
+   "notes": "Table columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total. Footnote (3): 4,697 RSUs ($65,008) received in lieu of cash retainers, reported in the fees column."
+  },
+  {
+   "person_key": "betsey-stevenson",
+   "fiscal_year": 2024,
+   "accession": "0001759509-25-000069",
+   "listed_name": "Betsey Stevenson",
+   "fees_cash": 45010,
+   "stock_awards": 260003,
+   "option_awards": 0,
+   "non_equity_incentive": 0,
+   "pension_nqdc": 0,
+   "all_other": 0,
+   "total": 305013,
+   "evidence_ref": "d048",
+   "notes": "Table columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total. Footnote (3): 3,252 RSUs ($45,010) received in lieu of cash retainers, reported in the fees column."
+  },
+  {
+   "person_key": "janey-whiteside",
+   "fiscal_year": 2024,
+   "accession": "0001759509-25-000069",
+   "listed_name": "Janey Whiteside",
+   "fees_cash": 53493,
+   "stock_awards": 260003,
+   "option_awards": 0,
+   "non_equity_incentive": 0,
+   "pension_nqdc": 0,
+   "all_other": 0,
+   "total": 313496,
+   "evidence_ref": "d049",
+   "notes": "Table columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total. Footnote (3): 3,865 RSUs ($53,493) received in lieu of cash retainers, reported in the fees column."
+  },
+  {
+   "person_key": "john-zimmer",
+   "fiscal_year": 2024,
+   "accession": "0001759509-25-000069",
+   "listed_name": "John Zimmer",
+   "fees_cash": 40000,
+   "stock_awards": 260003,
+   "option_awards": 0,
+   "non_equity_incentive": 0,
+   "pension_nqdc": 0,
+   "all_other": 200805,
+   "total": 500808,
+   "evidence_ref": "d050",
+   "notes": "Table columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total. All other $200,805 = $187,500 consulting fees + $13,305 COBRA payments 'in connection with his transition from his role as our president' (footnote 2); recorded again in his exit row."
+  },
+  {
+   "person_key": "sean-aggarwal",
+   "fiscal_year": 2025,
+   "accession": "0001628280-26-024680",
+   "listed_name": "Sean Aggarwal",
+   "fees_cash": 104080,
+   "stock_awards": 260003,
+   "option_awards": 0,
+   "non_equity_incentive": 0,
+   "pension_nqdc": 0,
+   "all_other": 0,
+   "total": 364083,
+   "evidence_ref": "d051",
+   "notes": "Table columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total. Board Chair from August 2025 (Lead Independent Director before that)."
+  },
+  {
+   "person_key": "jill-beggs",
+   "fiscal_year": 2025,
+   "accession": "0001628280-26-024680",
+   "listed_name": "Jill Beggs",
+   "fees_cash": 50000,
+   "stock_awards": 260003,
+   "option_awards": 0,
+   "non_equity_incentive": 0,
+   "pension_nqdc": 0,
+   "all_other": 0,
+   "total": 310003,
+   "evidence_ref": "d052",
+   "notes": "Table columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total."
+  },
+  {
+   "person_key": "ariel-cohen",
+   "fiscal_year": 2025,
+   "accession": "0001628280-26-024680",
+   "listed_name": "Ariel Cohen",
+   "fees_cash": 19049,
+   "stock_awards": 0,
+   "option_awards": 0,
+   "non_equity_incentive": 0,
+   "pension_nqdc": 0,
+   "all_other": 0,
+   "total": 19049,
+   "evidence_ref": "d053",
+   "notes": "Table columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total. Resigned May 2025 before the 2025 annual meeting (partial-year cash, no 2025 annual award). Footnote (3): 1,086 RSUs ($12,120) received in lieu of cash retainers, reported in the fees column."
+  },
+  {
+   "person_key": "logan-green",
+   "fiscal_year": 2025,
+   "accession": "0001628280-26-024680",
+   "listed_name": "Logan Green",
+   "fees_cash": 56006,
+   "stock_awards": 260003,
+   "option_awards": 0,
+   "non_equity_incentive": 0,
+   "pension_nqdc": 0,
+   "all_other": 0,
+   "total": 316009,
+   "evidence_ref": "d054",
+   "notes": "Table columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total. Board Chair until he resigned from the board on August 14, 2025. He received the 2025 annual award ($260,003) but is not in the 2025 year-end outstanding-awards table; the filing does not say whether its unvested units were forfeited."
+  },
+  {
+   "person_key": "david-lawee",
+   "fiscal_year": 2025,
+   "accession": "0001628280-26-024680",
+   "listed_name": "David Lawee",
+   "fees_cash": 66028,
+   "stock_awards": 260003,
+   "option_awards": 0,
+   "non_equity_incentive": 0,
+   "pension_nqdc": 0,
+   "all_other": 0,
+   "total": 326031,
+   "evidence_ref": "d055",
+   "notes": "Table columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total. Footnote (3): 4,371 RSUs ($66,028) received in lieu of cash retainers, reported in the fees column."
+  },
+  {
+   "person_key": "dave-stephenson",
+   "fiscal_year": 2025,
+   "accession": "0001628280-26-024680",
+   "listed_name": "Dave Stephenson",
+   "fees_cash": 65001,
+   "stock_awards": 260003,
+   "option_awards": 0,
+   "non_equity_incentive": 0,
+   "pension_nqdc": 0,
+   "all_other": 0,
+   "total": 325004,
+   "evidence_ref": "d056",
+   "notes": "Table columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total. Footnote (3): 4,254 RSUs ($65,001) received in lieu of cash retainers, reported in the fees column."
+  },
+  {
+   "person_key": "betsey-stevenson",
+   "fiscal_year": 2025,
+   "accession": "0001628280-26-024680",
+   "listed_name": "Betsey Stevenson",
+   "fees_cash": 48587,
+   "stock_awards": 260003,
+   "option_awards": 0,
+   "non_equity_incentive": 0,
+   "pension_nqdc": 0,
+   "all_other": 0,
+   "total": 308590,
+   "evidence_ref": "d057",
+   "notes": "Table columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total."
+  },
+  {
+   "person_key": "janey-whiteside",
+   "fiscal_year": 2025,
+   "accession": "0001628280-26-024680",
+   "listed_name": "Janey Whiteside",
+   "fees_cash": 53498,
+   "stock_awards": 260003,
+   "option_awards": 0,
+   "non_equity_incentive": 0,
+   "pension_nqdc": 0,
+   "all_other": 0,
+   "total": 313501,
+   "evidence_ref": "d058",
+   "notes": "Table columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total. Footnote (3): 3,501 RSUs ($53,498) received in lieu of cash retainers, reported in the fees column."
+  },
+  {
+   "person_key": "john-zimmer",
+   "fiscal_year": 2025,
+   "accession": "0001628280-26-024680",
+   "listed_name": "John Zimmer",
+   "fees_cash": 24892,
+   "stock_awards": 260003,
+   "option_awards": 0,
+   "non_equity_incentive": 0,
+   "pension_nqdc": 0,
+   "all_other": 4045,
+   "total": 288940,
+   "evidence_ref": "d059",
+   "notes": "Table columns: Fees Earned or Paid in Cash, Stock Awards, All Other Compensation, Total. Vice Chair until he resigned from the board on August 14, 2025. All other $4,045 = 'security fees' (footnote 4). Not in the 2025 year-end outstanding-awards table; the filing does not say what happened to the unvested part of his 2025 award."
+  }
+ ],
+ "exits": [
+  {
+   "person_key": "jon-mcneill",
+   "role": "Chief Operating Officer",
+   "exit_date": "2019-07-29",
+   "exit_date_precision": "day",
+   "exit_type": "other",
+   "basis": "actual",
+   "severance_cash": null,
+   "accelerated_equity_value": null,
+   "consulting_fees": null,
+   "other_exit_pay": null,
+   "total_exit_pay": null,
+   "evidence_refs": [
+    "d101",
+    "d102",
+    "d103",
+    "d104",
+    "d105"
+   ],
+   "notes": "The 8-K and the 2020 proxy say only that he 'left the Company' (no reason given), so exit_type is 'other'. No filing reports any separation payment: his FY2019 SCT row shows All Other Compensation of $1,600 (ride credits) and he is not in the 2020 Potential Payments table, which covers only NEOs employed at 2019-12-31. His amended employment agreement gave 12 months of extra time-based vesting if he was 'involuntarily terminated' in his first 24 months (he joined March 2018). No filing says whether that applied. All components are null because none is quantified."
+  },
+  {
+   "person_key": "ran-makavy",
+   "role": "Executive Vice President and Chief Product Officer",
+   "exit_date": "2020-12-01",
+   "exit_date_precision": "month",
+   "exit_type": "other",
+   "basis": "actual",
+   "severance_cash": 0,
+   "accelerated_equity_value": 0,
+   "consulting_fees": null,
+   "other_exit_pay": 0,
+   "total_exit_pay": 0,
+   "evidence_refs": [
+    "d111",
+    "d112",
+    "d113",
+    "d114"
+   ],
+   "notes": "His officer role ended in March 2020 (8-K: he 'will no longer serve' as EVP and CPO). He stayed on as EVP, Strategic Initiatives (not an officer) and 'left the Company in December 2020' (no day or reason given; exit_date is month precision). In the 2021 proxy's Potential Payments table, his row (qualifying termination not in connection with a change of control) shows dashes for base salary, COBRA, accelerated equity and total. Because he had already left, that row is read as the actual amount: nothing. His FY2020 SCT All Other Compensation ($1,106) has no severance item. Consulting is null because no advisory arrangement is disclosed."
+  },
+  {
+   "person_key": "eisar-lipkovitz",
+   "role": "Executive Vice President, Rideshare and Engineering",
+   "exit_date": "2021-05-31",
+   "exit_date_precision": "day",
+   "exit_type": "other",
+   "basis": "actual",
+   "severance_cash": 225000,
+   "accelerated_equity_value": null,
+   "consulting_fees": 0,
+   "other_exit_pay": 11843,
+   "total_exit_pay": 236843,
+   "evidence_refs": [
+    "d121",
+    "d122",
+    "d123",
+    "d113"
+   ],
+   "notes": "He 'will step down' as EVP, Rideshare and Engineering (8-K 2021-03-22) and stopped being an executive officer in March 2021. His employment was expected to 'terminate' on 2021-05-31, when he would get Executive Severance Plan severance and COBRA. No filing states the reason beyond 'step down', so exit_type is 'other'. The amounts come from the 2021 proxy's Potential Payments row, which the proxy says is 'the amount expected to be provided to him upon his expected employment termination date on May 31, 2021': $225,000 base salary (6 months) and $11,843 COBRA (recorded as other_exit_pay), with a dash for accelerated equity. The filing states the total of $236,843. As an advisor to 2021-11-20 he got 'no compensation other than continued vesting', so consulting_fees is 0. The value of that continued vesting is not quantified (accelerated_equity_value is null). He was not an NEO in later proxies, so no filing confirms the actual payment or date."
+  },
+  {
+   "person_key": "brian-roberts",
+   "role": "Chief Financial Officer",
+   "exit_date": "2021-12-01",
+   "exit_date_precision": "day",
+   "exit_type": "resigned",
+   "basis": "actual",
+   "severance_cash": 75000,
+   "accelerated_equity_value": null,
+   "consulting_fees": null,
+   "other_exit_pay": null,
+   "total_exit_pay": null,
+   "evidence_refs": [
+    "d131",
+    "d132",
+    "d133",
+    "d134",
+    "d135"
+   ],
+   "notes": "He 'resigned as an employee effective December 1, 2021' and so forfeited Executive Severance Plan benefits. Under a separation agreement he got a $75,000 cash payment for a release of claims. Under a consulting agreement to 2022-06-01, his consideration was continued vesting of 73,793 RSUs (14,627 + 40,686 + 18,480 shares). No market value of those shares is stated; the ASC 718 modification figures in the proxy are a net $491,025 benefit to the company, which is not a value received. So accelerated_equity_value is null. 'Accelerated vesting was not provided.' No cash consulting fee is described, so consulting_fees is null. His vested options' post-termination exercise period was extended to the original term (not valued). The FY2021 SCT All Other of $1,941 is final-paycheck wages and life insurance, not exit pay. total_exit_pay is null because the continued vesting is not valued."
+  },
+  {
+   "person_key": "logan-green",
+   "role": "Chief Executive Officer",
+   "exit_date": "2023-04-17",
+   "exit_date_precision": "day",
+   "exit_type": "other",
+   "basis": "actual",
+   "severance_cash": 0,
+   "accelerated_equity_value": null,
+   "consulting_fees": 450000,
+   "other_exit_pay": null,
+   "total_exit_pay": null,
+   "evidence_refs": [
+    "d141",
+    "d142",
+    "d143",
+    "d144",
+    "d145",
+    "d146",
+    "d148",
+    "d149"
+   ],
+   "notes": "He 'has decided to transition from his role as CEO' (8-K 2023-03-27). He became non-employee Board Chair and a one-year non-employee advisor, so exit_type is 'other'. Severance is 0: he is 'not entitled to severance benefits under the Executive Severance Plan'. consulting_fees of $450,000 is the Advisory Cash Fee in his Transition Agreement (equal to his final base salary, paid over 12 months). The agreement also pays 12 months of COBRA premiums, but no filing gives a full-period amount, so other_exit_pay is null. Payments actually reported: FY2023 SCT 'advisory and COBRA fees' of $319,653, and in the FY2024 director table $112,500 of consulting fees plus $7,370 of COBRA. Those add up to less than $450,000 (see conflicts). His equity kept vesting while he stayed a service provider (not valued). Time-based awards would accelerate only if his board service ended other than by voluntary resignation. He resigned from the board on 2025-08-14, so no acceleration is reported. The $260,005 RSU granted under the agreement at the 2023 annual meeting is treated as director pay (it is in the FY2023 director table), not exit pay. The FY2023 SCT also lists $15,000 of attorney fees, which the filing does not tie to the transition. total_exit_pay is null because the COBRA total and the continued vesting are not quantified."
+  },
+  {
+   "person_key": "elaine-paul",
+   "role": "Chief Financial Officer",
+   "exit_date": "2023-05-19",
+   "exit_date_precision": "day",
+   "exit_type": "mutual",
+   "basis": "actual",
+   "severance_cash": 325000,
+   "accelerated_equity_value": null,
+   "consulting_fees": 0,
+   "other_exit_pay": 15966,
+   "total_exit_pay": 340966,
+   "evidence_refs": [
+    "d151",
+    "d152",
+    "d153",
+    "d154",
+    "d155",
+    "d156",
+    "d157"
+   ],
+   "notes": "The 8-K says the company and Ms. Paul 'mutually agreed to terms pursuant to which she would step down as CFO'. The 2024 proxy calls it her 'resignation of employment' (see conflicts). The 8-K says the departure was not the result of any dispute or disagreement. She got $325,000 cash (six months' salary) plus a lump sum for six months of COBRA. The 2024 Potential Payments row, which the proxy says shows the actual payments, gives COBRA as $15,966, a dash for accelerated equity, and a total of $340,966. The SCT footnote calls the $340,966 'severance'. She was an advisor to 2023-11-30, paid only in continued vesting: no advisory fee appears in her FY2023 SCT All Other, so consulting_fees is 0. The value of that continued vesting is not quantified (null); awards vesting after 2023-11-30 were forfeited. Her FY2023 relocation services ($77,697) and tax gross-ups ($40,729) continue a 2022 relocation benefit and are not described as exit pay, so they are excluded. total_exit_pay is the filing-stated $340,966, which equals the recorded components."
+  },
+  {
+   "person_key": "ashwin-raj",
+   "role": "Executive Vice President, Head of Rideshare",
+   "exit_date": "2023-05-22",
+   "exit_date_precision": "day",
+   "exit_type": "resigned",
+   "basis": "actual",
+   "severance_cash": 325000,
+   "accelerated_equity_value": null,
+   "consulting_fees": 0,
+   "other_exit_pay": 15966,
+   "total_exit_pay": 340966,
+   "evidence_refs": [
+    "d161",
+    "d164",
+    "d153",
+    "d154",
+    "d155",
+    "d162",
+    "d163"
+   ],
+   "notes": "The 2023-03-27 8-K says that, as part of the CEO transition, the rideshare organization would report directly to the CEO and he 'will step down' as EVP, Head of Rideshare on 2023-05-22. The 2024 proxy describes his 'resignation of employment', so exit_type is 'resigned'. His terms were first set in a 2023-03-27 memorandum of understanding. He got $325,000 cash (about six months' salary) and $15,966 for six months of COBRA (actual per the 2024 Potential Payments row), with a dash for accelerated equity and a total of $340,966. The SCT footnote calls the $340,966 'severance'. He was an advisor to 2023-11-30, paid only in continued vesting: no advisory fee appears in his FY2023 SCT, so consulting_fees is 0. The value of that continued vesting is not quantified (null); awards vesting after 2023-11-30 were forfeited. total_exit_pay is the filing-stated $340,966, which equals the recorded components."
+  },
+  {
+   "person_key": "john-zimmer",
+   "role": "President",
+   "exit_date": "2023-06-30",
+   "exit_date_precision": "day",
+   "exit_type": "other",
+   "basis": "actual",
+   "severance_cash": 0,
+   "accelerated_equity_value": null,
+   "consulting_fees": 450000,
+   "other_exit_pay": null,
+   "total_exit_pay": null,
+   "evidence_refs": [
+    "d141",
+    "d142",
+    "d144",
+    "d145",
+    "d147",
+    "d148",
+    "d149"
+   ],
+   "notes": "He 'has decided to transition from his role as President' (8-K 2023-03-27). He stayed Vice Chair as a non-employee director and became a one-year non-employee advisor, so exit_type is 'other'. Severance is 0: he is 'not entitled to severance benefits under the Executive Severance Plan'. consulting_fees of $450,000 is the advisory cash payment in his Transition Agreement (equal to his final base salary). The agreement also pays 12 months of COBRA premiums, but no full-period amount is stated, so other_exit_pay is null. Payments actually reported: FY2023 SCT 'advisory and COBRA fees' of $240,966, and in the FY2024 director table $187,500 of consulting fees plus $13,305 of COBRA. Those add up to less than $450,000 (see conflicts). His equity kept vesting while he stayed a service provider (not valued). He resigned from the board on 2025-08-14, so the agreement's acceleration on a non-voluntary end of board service did not apply. The $260,005 RSU granted under the agreement is treated as director pay. The FY2023 SCT also lists $15,000 of attorney fees and $704,388 of personal security, which the filing does not tie to the transition. total_exit_pay is null."
+  },
+  {
+   "person_key": "kristin-sverchek",
+   "role": "President",
+   "exit_date": "2024-08-20",
+   "exit_date_precision": "day",
+   "exit_type": "mutual",
+   "basis": "actual",
+   "severance_cash": 1137500,
+   "accelerated_equity_value": 2368992,
+   "consulting_fees": 34071,
+   "other_exit_pay": 33462,
+   "total_exit_pay": null,
+   "evidence_refs": [
+    "d181",
+    "d182",
+    "d183",
+    "d184",
+    "d185",
+    "d186",
+    "d187",
+    "d188",
+    "d189"
+   ],
+   "notes": "The 8-K says she 'and the Company agreed to terms pursuant to which Ms. Sverchek will depart the Company as an employee'. It also says 'the circumstances of Ms. Sverchek's departure' qualified her for Executive Severance Plan benefits and that the departure was not the result of any dispute or disagreement. Severance cash is $1,137,500 = $650,000 (12 months' salary, enhanced under her 2023 President letter agreement) + $487,500 (prorated 2024 bonus). The SCT footnote states the $1,137,500 total. Her President letter-agreement RSUs vested in full: $2,368,992 at the $11.29 close on 2024-08-20, per the 2025 Potential Payments row, which the proxy says shows the actual payments. The SCT instead shows a $437,048 ASC 718 charge, which it says 'is not reflective of the actual amount received'. Advisory fees of $34,071 (a $10,000 monthly retainer to 2024-11-30) appear in the FY2024 SCT. Her other equity kept vesting during the advisory period (not valued), and awards vesting after 2024-11-30 were forfeited. other_exit_pay is the $33,462 COBRA lump sum. total_exit_pay is null: the filing's stated total of $3,539,954 (salary + bonus + COBRA + equity) leaves out the $34,071 advisory fees, and the plain sum of the recorded components ($3,574,025) is not stated in any filing."
+  },
+  {
+   "person_key": "lisa-blackwood-kapral",
+   "role": "Chief Accounting Officer",
+   "exit_date": "2025-03-06",
+   "exit_date_precision": "day",
+   "exit_type": "other",
+   "basis": "estimated",
+   "severance_cash": 200000,
+   "accelerated_equity_value": 0,
+   "consulting_fees": null,
+   "other_exit_pay": 15966,
+   "total_exit_pay": 215966,
+   "evidence_refs": [
+    "d171",
+    "d155",
+    "d172"
+   ],
+   "notes": "The 8-K says only that she 'will depart the Company effective March 6, 2025' and that the departure 'is not the result of any dispute or disagreement'. No reason is given, so exit_type is 'other'. She was an NEO only for FY2023, as interim CFO. No filing discloses what she actually received: she was not an NEO in the 2025 or 2026 proxies, and no separation agreement was filed. The 2024 proxy's Potential Payments table is the only quantification. It is hypothetical, as of 2023-12-31, for a qualifying termination not in connection with a change of control: $200,000 base salary (six months), $15,966 COBRA, a dash for accelerated equity, total $215,966. Those figures are recorded as an estimate. They apply only if her 2025 departure was a qualifying (involuntary or good-reason) termination, which the filings do not say."
+  },
+  {
+   "person_key": "erin-brewer",
+   "role": "Chief Financial Officer",
+   "exit_date": "2026-09-28",
+   "exit_date_precision": "day",
+   "exit_type": "retired",
+   "basis": "actual",
+   "severance_cash": null,
+   "accelerated_equity_value": null,
+   "consulting_fees": null,
+   "other_exit_pay": null,
+   "total_exit_pay": null,
+   "evidence_refs": [
+    "d191",
+    "d192",
+    "d193"
+   ],
+   "notes": "She 'will retire from her position as CFO' effective 2026-09-28 (8-K 2026-09-09), and the departure 'is not the result of any dispute or disagreement'. She serves as an advisor from 2026-09-28 to 2026-12-15. The only consideration disclosed is continued vesting of her outstanding equity during that term (not valued); no cash consulting fee is described. The 8-K mentions no severance or other cash. All components are null until the 2027 proxy (FY2026 SCT) reports what was paid."
+  }
+ ],
+ "evidence": [
+  {
+   "id": "d001",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-120957",
+   "filing_date": "2020-04-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312520120957/d920070ddef14a.htm",
+   "quote": "Sean Aggarwal 82,581 259,979 342,560",
+   "quote_from_table": true,
+   "supports": "FY2019 Non-Employee Director Compensation table row for Sean Aggarwal: fees $82,581, stock awards $259,979, total $342,560."
+  },
+  {
+   "id": "d002",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-120957",
+   "filing_date": "2020-04-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312520120957/d920070ddef14a.htm",
+   "quote": "Ben Horowitz 36,914 259,979 296,893",
+   "quote_from_table": true,
+   "supports": "FY2019 Non-Employee Director Compensation table row for Ben Horowitz: fees $36,914, stock awards $259,979, total $296,893."
+  },
+  {
+   "id": "d003",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-120957",
+   "filing_date": "2020-04-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312520120957/d920070ddef14a.htm",
+   "quote": "Valerie Jarrett 41,861 259,979 301,840",
+   "quote_from_table": true,
+   "supports": "FY2019 Non-Employee Director Compensation table row for Valerie Jarrett: fees $41,861, stock awards $259,979, total $301,840."
+  },
+  {
+   "id": "d004",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-120957",
+   "filing_date": "2020-04-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312520120957/d920070ddef14a.htm",
+   "quote": "David Lawee 49,472 259,979 309,451",
+   "quote_from_table": true,
+   "supports": "FY2019 Non-Employee Director Compensation table row for David Lawee: fees $49,472, stock awards $259,979, total $309,451."
+  },
+  {
+   "id": "d005",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-120957",
+   "filing_date": "2020-04-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312520120957/d920070ddef14a.htm",
+   "quote": "Hiroshi Mikitani 30,444 259,979 290,423",
+   "quote_from_table": true,
+   "supports": "FY2019 Non-Employee Director Compensation table row for Hiroshi Mikitani: fees $30,444, stock awards $259,979, total $290,423."
+  },
+  {
+   "id": "d006",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-120957",
+   "filing_date": "2020-04-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312520120957/d920070ddef14a.htm",
+   "quote": "Ann Miura-Ko 38,817 259,979 (5) 298,796",
+   "quote_from_table": true,
+   "supports": "FY2019 Non-Employee Director Compensation table row for Ann Miura-Ko: fees $38,817, stock awards $259,979, total $298,796."
+  },
+  {
+   "id": "d007",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-120957",
+   "filing_date": "2020-04-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312520120957/d920070ddef14a.htm",
+   "quote": "Mary Agnes (Maggie) Wilderotter 49,472 259,979 309,451",
+   "quote_from_table": true,
+   "supports": "FY2019 Non-Employee Director Compensation table row for Mary Agnes (Maggie) Wilderotter: fees $49,472, stock awards $259,979, total $309,451."
+  },
+  {
+   "id": "d008",
+   "form": "DEF 14A",
+   "accession": "0001759509-21-000026",
+   "filing_date": "2021-04-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950921000026/a2021proxystatement.htm",
+   "quote": "Sean Aggarwal 100,363 260,001 360,364",
+   "quote_from_table": true,
+   "supports": "FY2020 Non-Employee Director Compensation table row for Sean Aggarwal: fees $100,363, stock awards $260,001, total $360,364."
+  },
+  {
+   "id": "d009",
+   "form": "DEF 14A",
+   "accession": "0001759509-21-000026",
+   "filing_date": "2021-04-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950921000026/a2021proxystatement.htm",
+   "quote": "Valerie Jarrett 50,875 260,001 310,876",
+   "quote_from_table": true,
+   "supports": "FY2020 Non-Employee Director Compensation table row for Valerie Jarrett: fees $50,875, stock awards $260,001, total $310,876."
+  },
+  {
+   "id": "d010",
+   "form": "DEF 14A",
+   "accession": "0001759509-21-000026",
+   "filing_date": "2021-04-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950921000026/a2021proxystatement.htm",
+   "quote": "David Lawee 60,125 260,001 320,126",
+   "quote_from_table": true,
+   "supports": "FY2020 Non-Employee Director Compensation table row for David Lawee: fees $60,125, stock awards $260,001, total $320,126."
+  },
+  {
+   "id": "d011",
+   "form": "DEF 14A",
+   "accession": "0001759509-21-000026",
+   "filing_date": "2021-04-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950921000026/a2021proxystatement.htm",
+   "quote": "Ann Miura-Ko 47,175 260,001 307,176",
+   "quote_from_table": true,
+   "supports": "FY2020 Non-Employee Director Compensation table row for Ann Miura-Ko: fees $47,175, stock awards $260,001, total $307,176."
+  },
+  {
+   "id": "d012",
+   "form": "DEF 14A",
+   "accession": "0001759509-21-000026",
+   "filing_date": "2021-04-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950921000026/a2021proxystatement.htm",
+   "quote": "Mary Agnes (Maggie) Wilderotter 60,125 260,001 320,126",
+   "quote_from_table": true,
+   "supports": "FY2020 Non-Employee Director Compensation table row for Mary Agnes (Maggie) Wilderotter: fees $60,125, stock awards $260,001, total $320,126."
+  },
+  {
+   "id": "d013",
+   "form": "DEF 14A",
+   "accession": "0001759509-21-000026",
+   "filing_date": "2021-04-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950921000026/a2021proxystatement.htm",
+   "quote": "Ben Horowitz, former(3) 19,587 — 19,587",
+   "quote_from_table": true,
+   "supports": "FY2020 Non-Employee Director Compensation table row for Ben Horowitz, former: fees $19,587, stock awards $0, total $19,587."
+  },
+  {
+   "id": "d014",
+   "form": "DEF 14A",
+   "accession": "0001759509-21-000026",
+   "filing_date": "2021-04-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950921000026/a2021proxystatement.htm",
+   "quote": "Hiroshi Mikitani, former 23,739 260,001 283,740",
+   "quote_from_table": true,
+   "supports": "FY2020 Non-Employee Director Compensation table row for Hiroshi Mikitani, former: fees $23,739, stock awards $260,001, total $283,740."
+  },
+  {
+   "id": "d015",
+   "form": "DEF 14A",
+   "accession": "0001759509-22-000034",
+   "filing_date": "2022-04-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950922000034/a2022proxystatement.htm",
+   "quote": "Sean Aggarwal 108,500 260,014 368,514",
+   "quote_from_table": true,
+   "supports": "FY2021 Non-Employee Director Compensation table row for Sean Aggarwal: fees $108,500, stock awards $260,014, total $368,514."
+  },
+  {
+   "id": "d016",
+   "form": "DEF 14A",
+   "accession": "0001759509-22-000034",
+   "filing_date": "2022-04-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950922000034/a2022proxystatement.htm",
+   "quote": "Ariel Cohen 36,779 303,339 340,118",
+   "quote_from_table": true,
+   "supports": "FY2021 Non-Employee Director Compensation table row for Ariel Cohen: fees $36,779, stock awards $303,339, total $340,118."
+  },
+  {
+   "id": "d017",
+   "form": "DEF 14A",
+   "accession": "0001759509-22-000034",
+   "filing_date": "2022-04-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950922000034/a2022proxystatement.htm",
+   "quote": "Valerie Jarrett 55,000 260,014 41 315,055",
+   "quote_from_table": true,
+   "supports": "FY2021 Non-Employee Director Compensation table row for Valerie Jarrett: fees $55,000, stock awards $260,014, all other $41, total $315,055."
+  },
+  {
+   "id": "d018",
+   "form": "DEF 14A",
+   "accession": "0001759509-22-000034",
+   "filing_date": "2022-04-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950922000034/a2022proxystatement.htm",
+   "quote": "David Lawee 62,622 260,014 322,636",
+   "quote_from_table": true,
+   "supports": "FY2021 Non-Employee Director Compensation table row for David Lawee: fees $62,622, stock awards $260,014, total $322,636."
+  },
+  {
+   "id": "d019",
+   "form": "DEF 14A",
+   "accession": "0001759509-22-000034",
+   "filing_date": "2022-04-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950922000034/a2022proxystatement.htm",
+   "quote": "Ann Miura-Ko 51,000 260,014 311,014",
+   "quote_from_table": true,
+   "supports": "FY2021 Non-Employee Director Compensation table row for Ann Miura-Ko: fees $51,000, stock awards $260,014, total $311,014."
+  },
+  {
+   "id": "d020",
+   "form": "DEF 14A",
+   "accession": "0001759509-22-000034",
+   "filing_date": "2022-04-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950922000034/a2022proxystatement.htm",
+   "quote": "David Risher 21,522 238,318 259,840",
+   "quote_from_table": true,
+   "supports": "FY2021 Non-Employee Director Compensation table row for David Risher: fees $21,522, stock awards $238,318, total $259,840."
+  },
+  {
+   "id": "d021",
+   "form": "DEF 14A",
+   "accession": "0001759509-22-000034",
+   "filing_date": "2022-04-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950922000034/a2022proxystatement.htm",
+   "quote": "Maggie Wilderotter 65,000 260,014 325,014",
+   "quote_from_table": true,
+   "supports": "FY2021 Non-Employee Director Compensation table row for Maggie Wilderotter: fees $65,000, stock awards $260,014, total $325,014."
+  },
+  {
+   "id": "d022",
+   "form": "DEF 14A",
+   "accession": "0001759509-23-000049",
+   "filing_date": "2023-05-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950923000049/lyft-20230501.htm",
+   "quote": "Sean Aggarwal 108,500 260,000 25 368,525",
+   "quote_from_table": true,
+   "supports": "FY2022 Non-Employee Director Compensation table row for Sean Aggarwal: fees $108,500, stock awards $260,000, all other $25, total $368,525."
+  },
+  {
+   "id": "d023",
+   "form": "DEF 14A",
+   "accession": "0001759509-23-000049",
+   "filing_date": "2023-05-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950923000049/lyft-20230501.htm",
+   "quote": "Ariel Cohen 24,250 272,126 91 296,467",
+   "quote_from_table": true,
+   "supports": "FY2022 Non-Employee Director Compensation table row for Ariel Cohen: fees $24,250, stock awards $272,126, all other $91, total $296,467."
+  },
+  {
+   "id": "d024",
+   "form": "DEF 14A",
+   "accession": "0001759509-23-000049",
+   "filing_date": "2023-05-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950923000049/lyft-20230501.htm",
+   "quote": "Valerie Jarrett 55,000 260,000 166 315,166",
+   "quote_from_table": true,
+   "supports": "FY2022 Non-Employee Director Compensation table row for Valerie Jarrett: fees $55,000, stock awards $260,000, all other $166, total $315,166."
+  },
+  {
+   "id": "d025",
+   "form": "DEF 14A",
+   "accession": "0001759509-23-000049",
+   "filing_date": "2023-05-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950923000049/lyft-20230501.htm",
+   "quote": "David Lawee 30,000 275,001 – 305,001",
+   "quote_from_table": true,
+   "supports": "FY2022 Non-Employee Director Compensation table row for David Lawee: fees $30,000, stock awards $275,001, total $305,001."
+  },
+  {
+   "id": "d026",
+   "form": "DEF 14A",
+   "accession": "0001759509-23-000049",
+   "filing_date": "2023-05-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950923000049/lyft-20230501.htm",
+   "quote": "Ann Miura-Ko 51,000 260,000 – 311,000",
+   "quote_from_table": true,
+   "supports": "FY2022 Non-Employee Director Compensation table row for Ann Miura-Ko: fees $51,000, stock awards $260,000, total $311,000."
+  },
+  {
+   "id": "d027",
+   "form": "DEF 14A",
+   "accession": "0001759509-23-000049",
+   "filing_date": "2023-05-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950923000049/lyft-20230501.htm",
+   "quote": "David Risher 22,500 271,247 – 293,747",
+   "quote_from_table": true,
+   "supports": "FY2022 Non-Employee Director Compensation table row for David Risher: fees $22,500, stock awards $271,247, total $293,747."
+  },
+  {
+   "id": "d028",
+   "form": "DEF 14A",
+   "accession": "0001759509-23-000049",
+   "filing_date": "2023-05-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950923000049/lyft-20230501.htm",
+   "quote": "Maggie Wilderotter 65,000 260,000 – 325,000",
+   "quote_from_table": true,
+   "supports": "FY2022 Non-Employee Director Compensation table row for Maggie Wilderotter: fees $65,000, stock awards $260,000, total $325,000."
+  },
+  {
+   "id": "d029",
+   "form": "DEF 14A",
+   "accession": "0001759509-24-000055",
+   "filing_date": "2024-04-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950924000055/lyft-20240425.htm",
+   "quote": "Sean Aggarwal 94,508 260,005 173 354,686",
+   "quote_from_table": true,
+   "supports": "FY2023 Non-Employee Director Compensation table row for Sean Aggarwal: fees $94,508, stock awards $260,005, all other $173, total $354,686."
+  },
+  {
+   "id": "d030",
+   "form": "DEF 14A",
+   "accession": "0001759509-24-000055",
+   "filing_date": "2024-04-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950924000055/lyft-20240425.htm",
+   "quote": "Jill Beggs 136 108,333 — 108,469",
+   "quote_from_table": true,
+   "supports": "FY2023 Non-Employee Director Compensation table row for Jill Beggs: fees $136, stock awards $108,333, total $108,469."
+  },
+  {
+   "id": "d031",
+   "form": "DEF 14A",
+   "accession": "0001759509-24-000055",
+   "filing_date": "2024-04-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950924000055/lyft-20240425.htm",
+   "quote": "Ariel Cohen 48,490 (4) 260,005 107 308,602",
+   "quote_from_table": true,
+   "supports": "FY2023 Non-Employee Director Compensation table row for Ariel Cohen: fees $48,490, stock awards $260,005, all other $107, total $308,602."
+  },
+  {
+   "id": "d032",
+   "form": "DEF 14A",
+   "accession": "0001759509-24-000055",
+   "filing_date": "2024-04-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950924000055/lyft-20240425.htm",
+   "quote": "Logan Green 63,544 260,005 — 323,549",
+   "quote_from_table": true,
+   "supports": "FY2023 Non-Employee Director Compensation table row for Logan Green: fees $63,544, stock awards $260,005, total $323,549."
+  },
+  {
+   "id": "d033",
+   "form": "DEF 14A",
+   "accession": "0001759509-24-000055",
+   "filing_date": "2024-04-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950924000055/lyft-20240425.htm",
+   "quote": "Valerie Jarrett 43,043 260,005 — 303,048",
+   "quote_from_table": true,
+   "supports": "FY2023 Non-Employee Director Compensation table row for Valerie Jarrett: fees $43,043, stock awards $260,005, total $303,048."
+  },
+  {
+   "id": "d034",
+   "form": "DEF 14A",
+   "accession": "0001759509-24-000055",
+   "filing_date": "2024-04-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950924000055/lyft-20240425.htm",
+   "quote": "David Lawee 64,362 (4) 260,005 — 324,367",
+   "quote_from_table": true,
+   "supports": "FY2023 Non-Employee Director Compensation table row for David Lawee: fees $64,362, stock awards $260,005, total $324,367."
+  },
+  {
+   "id": "d035",
+   "form": "DEF 14A",
+   "accession": "0001759509-24-000055",
+   "filing_date": "2024-04-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950924000055/lyft-20240425.htm",
+   "quote": "Ann Miura-Ko 23,401 (4) — — 23,401",
+   "quote_from_table": true,
+   "supports": "FY2023 Non-Employee Director Compensation table row for Ann Miura-Ko: fees $23,401, stock awards $0, total $23,401."
+  },
+  {
+   "id": "d036",
+   "form": "DEF 14A",
+   "accession": "0001759509-24-000055",
+   "filing_date": "2024-04-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950924000055/lyft-20240425.htm",
+   "quote": "David Risher 13,046 (4) — — 13,046",
+   "quote_from_table": true,
+   "supports": "FY2023 Non-Employee Director Compensation table row for David Risher: fees $13,046, stock awards $0, total $13,046."
+  },
+  {
+   "id": "d037",
+   "form": "DEF 14A",
+   "accession": "0001759509-24-000055",
+   "filing_date": "2024-04-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950924000055/lyft-20240425.htm",
+   "quote": "Dave Stephenson 56,026 (4) 346,668 — 402,694",
+   "quote_from_table": true,
+   "supports": "FY2023 Non-Employee Director Compensation table row for Dave Stephenson: fees $56,026, stock awards $346,668, total $402,694."
+  },
+  {
+   "id": "d038",
+   "form": "DEF 14A",
+   "accession": "0001759509-24-000055",
+   "filing_date": "2024-04-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950924000055/lyft-20240425.htm",
+   "quote": "Betsey Stevenson 5,625 130,000 — 135,625",
+   "quote_from_table": true,
+   "supports": "FY2023 Non-Employee Director Compensation table row for Betsey Stevenson: fees $5,625, stock awards $130,000, total $135,625."
+  },
+  {
+   "id": "d039",
+   "form": "DEF 14A",
+   "accession": "0001759509-24-000055",
+   "filing_date": "2024-04-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950924000055/lyft-20240425.htm",
+   "quote": "Janey Whiteside 21,390 (4) 216,667 — 238,057",
+   "quote_from_table": true,
+   "supports": "FY2023 Non-Employee Director Compensation table row for Janey Whiteside: fees $21,390, stock awards $216,667, total $238,057."
+  },
+  {
+   "id": "d040",
+   "form": "DEF 14A",
+   "accession": "0001759509-24-000055",
+   "filing_date": "2024-04-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950924000055/lyft-20240425.htm",
+   "quote": "Maggie Wilderotter 44,004 260,005 — 304,009",
+   "quote_from_table": true,
+   "supports": "FY2023 Non-Employee Director Compensation table row for Maggie Wilderotter: fees $44,004, stock awards $260,005, total $304,009."
+  },
+  {
+   "id": "d041",
+   "form": "DEF 14A",
+   "accession": "0001759509-24-000055",
+   "filing_date": "2024-04-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950924000055/lyft-20240425.htm",
+   "quote": "John Zimmer 20,110 260,005 9 280,124",
+   "quote_from_table": true,
+   "supports": "FY2023 Non-Employee Director Compensation table row for John Zimmer: fees $20,110, stock awards $260,005, all other $9, total $280,124."
+  },
+  {
+   "id": "d042",
+   "form": "DEFC14A",
+   "accession": "0001759509-25-000069",
+   "filing_date": "2025-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950925000069/lyft-20250424.htm",
+   "quote": "Sean Aggarwal 94,500 260,003 — 354,503",
+   "quote_from_table": true,
+   "supports": "FY2024 Non-Employee Director Compensation table row for Sean Aggarwal: fees $94,500, stock awards $260,003, total $354,503."
+  },
+  {
+   "id": "d043",
+   "form": "DEFC14A",
+   "accession": "0001759509-25-000069",
+   "filing_date": "2025-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950925000069/lyft-20250424.htm",
+   "quote": "Jill Beggs 50,000 260,003 — 310,003",
+   "quote_from_table": true,
+   "supports": "FY2024 Non-Employee Director Compensation table row for Jill Beggs: fees $50,000, stock awards $260,003, total $310,003."
+  },
+  {
+   "id": "d044",
+   "form": "DEFC14A",
+   "accession": "0001759509-25-000069",
+   "filing_date": "2025-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950925000069/lyft-20250424.htm",
+   "quote": "Ariel Cohen 48,511 (3) 260,003 — 308,514",
+   "quote_from_table": true,
+   "supports": "FY2024 Non-Employee Director Compensation table row for Ariel Cohen: fees $48,511, stock awards $260,003, total $308,514."
+  },
+  {
+   "id": "d045",
+   "form": "DEFC14A",
+   "accession": "0001759509-25-000069",
+   "filing_date": "2025-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950925000069/lyft-20250424.htm",
+   "quote": "Logan Green 90,000 260,003 119,870 469,873",
+   "quote_from_table": true,
+   "supports": "FY2024 Non-Employee Director Compensation table row for Logan Green: fees $90,000, stock awards $260,003, all other $119,870, total $469,873."
+  },
+  {
+   "id": "d046",
+   "form": "DEFC14A",
+   "accession": "0001759509-25-000069",
+   "filing_date": "2025-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950925000069/lyft-20250424.htm",
+   "quote": "David Lawee 70,006 (3) 260,003 — 330,009",
+   "quote_from_table": true,
+   "supports": "FY2024 Non-Employee Director Compensation table row for David Lawee: fees $70,006, stock awards $260,003, total $330,009."
+  },
+  {
+   "id": "d047",
+   "form": "DEFC14A",
+   "accession": "0001759509-25-000069",
+   "filing_date": "2025-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950925000069/lyft-20250424.htm",
+   "quote": "Dave Stephenson 65,008 (3) 260,003 — 325,011",
+   "quote_from_table": true,
+   "supports": "FY2024 Non-Employee Director Compensation table row for Dave Stephenson: fees $65,008, stock awards $260,003, total $325,011."
+  },
+  {
+   "id": "d048",
+   "form": "DEFC14A",
+   "accession": "0001759509-25-000069",
+   "filing_date": "2025-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950925000069/lyft-20250424.htm",
+   "quote": "Betsey Stevenson 45,010 (3) 260,003 — 305,013",
+   "quote_from_table": true,
+   "supports": "FY2024 Non-Employee Director Compensation table row for Betsey Stevenson: fees $45,010, stock awards $260,003, total $305,013."
+  },
+  {
+   "id": "d049",
+   "form": "DEFC14A",
+   "accession": "0001759509-25-000069",
+   "filing_date": "2025-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950925000069/lyft-20250424.htm",
+   "quote": "Janey Whiteside 53,493 (3) 260,003 — 313,496",
+   "quote_from_table": true,
+   "supports": "FY2024 Non-Employee Director Compensation table row for Janey Whiteside: fees $53,493, stock awards $260,003, total $313,496."
+  },
+  {
+   "id": "d050",
+   "form": "DEFC14A",
+   "accession": "0001759509-25-000069",
+   "filing_date": "2025-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950925000069/lyft-20250424.htm",
+   "quote": "John Zimmer 40,000 260,003 200,805 500,808",
+   "quote_from_table": true,
+   "supports": "FY2024 Non-Employee Director Compensation table row for John Zimmer: fees $40,000, stock awards $260,003, all other $200,805, total $500,808."
+  },
+  {
+   "id": "d051",
+   "form": "DEF 14A",
+   "accession": "0001628280-26-024680",
+   "filing_date": "2026-04-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000162828026024680/lyft-20260410.htm",
+   "quote": "Sean Aggarwal 104,080 260,003 — 364,083",
+   "quote_from_table": true,
+   "supports": "FY2025 Non-Employee Director Compensation table row for Sean Aggarwal: fees $104,080, stock awards $260,003, total $364,083."
+  },
+  {
+   "id": "d052",
+   "form": "DEF 14A",
+   "accession": "0001628280-26-024680",
+   "filing_date": "2026-04-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000162828026024680/lyft-20260410.htm",
+   "quote": "Jill Beggs 50,000 260,003 — 310,003",
+   "quote_from_table": true,
+   "supports": "FY2025 Non-Employee Director Compensation table row for Jill Beggs: fees $50,000, stock awards $260,003, total $310,003."
+  },
+  {
+   "id": "d053",
+   "form": "DEF 14A",
+   "accession": "0001628280-26-024680",
+   "filing_date": "2026-04-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000162828026024680/lyft-20260410.htm",
+   "quote": "Ariel Cohen 19,049 (2)(3) — — 19,049",
+   "quote_from_table": true,
+   "supports": "FY2025 Non-Employee Director Compensation table row for Ariel Cohen: fees $19,049, stock awards $0, total $19,049."
+  },
+  {
+   "id": "d054",
+   "form": "DEF 14A",
+   "accession": "0001628280-26-024680",
+   "filing_date": "2026-04-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000162828026024680/lyft-20260410.htm",
+   "quote": "Logan Green 56,006 260,003 — 316,009",
+   "quote_from_table": true,
+   "supports": "FY2025 Non-Employee Director Compensation table row for Logan Green: fees $56,006, stock awards $260,003, total $316,009."
+  },
+  {
+   "id": "d055",
+   "form": "DEF 14A",
+   "accession": "0001628280-26-024680",
+   "filing_date": "2026-04-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000162828026024680/lyft-20260410.htm",
+   "quote": "David Lawee 66,028 (3) 260,003 — 326,031",
+   "quote_from_table": true,
+   "supports": "FY2025 Non-Employee Director Compensation table row for David Lawee: fees $66,028, stock awards $260,003, total $326,031."
+  },
+  {
+   "id": "d056",
+   "form": "DEF 14A",
+   "accession": "0001628280-26-024680",
+   "filing_date": "2026-04-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000162828026024680/lyft-20260410.htm",
+   "quote": "Dave Stephenson 65,001 (3) 260,003 — 325,004",
+   "quote_from_table": true,
+   "supports": "FY2025 Non-Employee Director Compensation table row for Dave Stephenson: fees $65,001, stock awards $260,003, total $325,004."
+  },
+  {
+   "id": "d057",
+   "form": "DEF 14A",
+   "accession": "0001628280-26-024680",
+   "filing_date": "2026-04-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000162828026024680/lyft-20260410.htm",
+   "quote": "Betsey Stevenson 48,587 260,003 — 308,590",
+   "quote_from_table": true,
+   "supports": "FY2025 Non-Employee Director Compensation table row for Betsey Stevenson: fees $48,587, stock awards $260,003, total $308,590."
+  },
+  {
+   "id": "d058",
+   "form": "DEF 14A",
+   "accession": "0001628280-26-024680",
+   "filing_date": "2026-04-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000162828026024680/lyft-20260410.htm",
+   "quote": "Janey Whiteside 53,498 (3) 260,003 — 313,501",
+   "quote_from_table": true,
+   "supports": "FY2025 Non-Employee Director Compensation table row for Janey Whiteside: fees $53,498, stock awards $260,003, total $313,501."
+  },
+  {
+   "id": "d059",
+   "form": "DEF 14A",
+   "accession": "0001628280-26-024680",
+   "filing_date": "2026-04-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000162828026024680/lyft-20260410.htm",
+   "quote": "John Zimmer 24,892 260,003 4,045 (4) 288,940",
+   "quote_from_table": true,
+   "supports": "FY2025 Non-Employee Director Compensation table row for John Zimmer: fees $24,892, stock awards $260,003, all other $4,045, total $288,940."
+  },
+  {
+   "id": "d101",
+   "form": "8-K",
+   "accession": "0001193125-19-205639",
+   "filing_date": "2019-07-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312519205639/d754911d8k.htm",
+   "quote": "Effective July 29, 2019, Jon McNeill, Lyft, Inc.’s (the “Company”) Chief Operating Officer, left the Company.",
+   "quote_from_table": false,
+   "supports": "McNeill left the company 2019-07-29 (8-K Item 5.02); the 8-K says nothing about separation pay."
+  },
+  {
+   "id": "d102",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-120957",
+   "filing_date": "2020-04-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312520120957/d920070ddef14a.htm",
+   "quote": "Mr. McNeill left the Company in July 2019.",
+   "quote_from_table": false,
+   "supports": "2020 proxy: McNeill left in July 2019."
+  },
+  {
+   "id": "d103",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-120957",
+   "filing_date": "2020-04-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312520120957/d920070ddef14a.htm",
+   "quote": "Jon McNeill former Chief Operating Officer(3) 2019 270,000 — 3,345,336 1,600 3,616,936",
+   "quote_from_table": true,
+   "supports": "FY2019 SCT row for McNeill: All Other Compensation $1,600 (ride credits per footnote 2); no severance appears in the 2019 row."
+  },
+  {
+   "id": "d104",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-120957",
+   "filing_date": "2020-04-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312520120957/d920070ddef14a.htm",
+   "quote": "Mr. McNeill signed an employment agreement providing for certain accelerated vesting rights in the event that his employment is terminated under qualifying circumstances.",
+   "quote_from_table": false,
+   "supports": "McNeill's employment agreement gave accelerated vesting on a qualifying termination; the proxy does not say it was triggered."
+  },
+  {
+   "id": "d105",
+   "form": "424B4",
+   "accession": "0001193125-19-091446",
+   "filing_date": "2019-03-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312519091446/d721841d424b4.htm",
+   "quote": "Additionally, in the event that Mr. McNeill’s employment is “involuntarily terminated” (as defined in Mr. McNeill’s employment agreement) during the first 24 months of his continuous service, then the-time based vesting condition of any equity compensation award held by him at the time of such involuntary termination will be satisfied as to a number of shares underlying the applicable equity award that would have satisfied that condition had he remained continuously employed by us for an additional 12 months",
+   "quote_from_table": false,
+   "supports": "IPO prospectus: McNeill's agreement gives 12 months of extra time-based vesting on an involuntary termination in his first 24 months."
+  },
+  {
+   "id": "d111",
+   "form": "8-K",
+   "accession": "0001193125-20-056699",
+   "filing_date": "2020-02-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312520056699/d872189d8k.htm",
+   "quote": "announced that Ran Makavy will no longer serve as Executive Vice President and Chief Product Officer. Mr. Makavy will remain at Lyft as Executive Vice President, Strategic Initiatives.",
+   "quote_from_table": false,
+   "supports": "Makavy's officer role ended (8-K 2020-02-28); he stayed as a non-officer EVP."
+  },
+  {
+   "id": "d112",
+   "form": "DEF 14A",
+   "accession": "0001759509-21-000026",
+   "filing_date": "2021-04-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950921000026/a2021proxystatement.htm",
+   "quote": "Mr. Makavy left the Company in December 2020.",
+   "quote_from_table": false,
+   "supports": "2021 proxy: Makavy left the company in December 2020."
+  },
+  {
+   "id": "d113",
+   "form": "DEF 14A",
+   "accession": "0001759509-21-000026",
+   "filing_date": "2021-04-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950921000026/a2021proxystatement.htm",
+   "quote": "Eisar Lipkovitz 225,000 11,843 — 236,843 Ran Makavy — — — —",
+   "quote_from_table": true,
+   "supports": "2021 proxy Potential Payments table, 'Qualifying Termination Not in Connection with a Change of Control': Lipkovitz $225,000 base salary + $11,843 COBRA + no accelerated equity = $236,843 (the amount expected on his 2021-05-31 termination); Makavy (who left in December 2020) shows dashes in every column."
+  },
+  {
+   "id": "d114",
+   "form": "DEF 14A",
+   "accession": "0001759509-21-000026",
+   "filing_date": "2021-04-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950921000026/a2021proxystatement.htm",
+   "quote": "For Mr. Makavy, (i) the 2020 amount reflects $896 in ride credits for use on the Lyft platform, and $210 in life insurance premiums",
+   "quote_from_table": false,
+   "supports": "FY2020 SCT All Other Compensation for Makavy has no severance item."
+  },
+  {
+   "id": "d121",
+   "form": "8-K",
+   "accession": "0001193125-21-089547",
+   "filing_date": "2021-03-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312521089547/d151411d8k.htm",
+   "quote": "Eisar Lipkovitz will step down as Executive Vice President, Rideshare and Engineering. Mr. Lipkovitz is expected to remain employed with the Company as its Executive Vice President of Revenue and Market Operations through May 31, 2021.",
+   "quote_from_table": false,
+   "supports": "Lipkovitz steps down (8-K 2021-03-22); employment expected to end 2021-05-31."
+  },
+  {
+   "id": "d122",
+   "form": "DEF 14A",
+   "accession": "0001759509-21-000026",
+   "filing_date": "2021-04-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950921000026/a2021proxystatement.htm",
+   "quote": "In connection with the Lipkovitz Transition, we announced that Mr. Lipkovitz is expected to remain employed with the Company through May 31, 2021, at which time, his employment with the Company will terminate. Upon his employment termination date, he will receive the severance and COBRA reimbursements under the Executive Severance Plan, provided he timely signs and does not revoke a release of claims in accordance with the Executive Severance Plan. Following his employment termination date, Mr. Lipkovitz is expected to continue to serve as an advisor to the Company until November 20, 2021 during which period, he will receive no compensation other than continued vesting of his outstanding equity awards, while he remains a service provider to the Company.",
+   "quote_from_table": false,
+   "supports": "Lipkovitz gets plan severance and COBRA on termination, then an advisory period to 2021-11-20 paid only in continued vesting."
+  },
+  {
+   "id": "d123",
+   "form": "DEF 14A",
+   "accession": "0001759509-21-000026",
+   "filing_date": "2021-04-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950921000026/a2021proxystatement.htm",
+   "quote": "provided, that in the case of Mr. Lipkovitz, the amount presented is the amount expected to be provided to him upon his expected employment termination date on May 31, 2021, as described in the preceding paragraph:",
+   "quote_from_table": false,
+   "supports": "The Potential Payments row for Lipkovitz is his expected actual severance, not a hypothetical."
+  },
+  {
+   "id": "d131",
+   "form": "8-K",
+   "accession": "0001193125-21-346659",
+   "filing_date": "2021-12-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312521346659/d263692d8k.htm",
+   "quote": "Ms. Paul will succeed Brian Roberts, the Company’s Chief Financial Officer who has resigned as an employee effective December 1, 2021.",
+   "quote_from_table": false,
+   "supports": "Roberts resigned as an employee effective 2021-12-01 (8-K Item 5.02)."
+  },
+  {
+   "id": "d132",
+   "form": "DEF 14A",
+   "accession": "0001759509-22-000034",
+   "filing_date": "2022-04-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950922000034/a2022proxystatement.htm",
+   "quote": "As part of Mr. Roberts’ transition and separation, on December 1, 2021, we entered into a separation agreement with him pursuant to which he received a cash payment in the amount of $75,000 in exchange for a release of claims in favor of the Company. In addition, Mr. Roberts entered into a consulting agreement with us (the “Consulting Agreement”) pursuant to which he agreed to provide transition services to us following his departure until June 1, 2022, unless earlier terminated (the “Consulting Term”). In exchange for Mr. Roberts’ services, his outstanding equity awards continue to vest during the Consulting Term in accordance with the original vesting schedule, provided that he remains as a service provider to us. Based on the Consulting Term, the board of directors approved the following modifications to Mr. Roberts’s outstanding awards: (i) continued vesting of 14,627 shares out of the total 117,020 shares associated with his 2021 RSU award, (ii) continued vesting of 40,686 shares out of the total 325,489 shares associated with his 2020 RSU award, and (iii) continued vesting of 18,480 shares out of the total 126,717 shares associated with his 2019 RSU awards, each vesting in accordance with the original vesting schedule.",
+   "quote_from_table": false,
+   "supports": "Roberts: $75,000 cash for a release; consulting to 2022-06-01 paid in continued vesting of 14,627 + 40,686 + 18,480 RSUs."
+  },
+  {
+   "id": "d133",
+   "form": "DEF 14A",
+   "accession": "0001759509-22-000034",
+   "filing_date": "2022-04-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950922000034/a2022proxystatement.htm",
+   "quote": "The remaining unvested shares held by Mr. Roberts were forfeited upon termination of his employment with us. Accelerated vesting was not provided.",
+   "quote_from_table": false,
+   "supports": "No accelerated vesting for Roberts; other unvested shares forfeited."
+  },
+  {
+   "id": "d134",
+   "form": "DEF 14A",
+   "accession": "0001759509-22-000034",
+   "filing_date": "2022-04-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950922000034/a2022proxystatement.htm",
+   "quote": "Upon his resignation of employment, Mr. Roberts forfeited his right to receive any severance benefits under the Executive Severance Plan and the Death/Disability Benefit Policy.",
+   "quote_from_table": false,
+   "supports": "Roberts received no Executive Severance Plan benefits."
+  },
+  {
+   "id": "d135",
+   "form": "DEF 14A",
+   "accession": "0001759509-22-000034",
+   "filing_date": "2022-04-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950922000034/a2022proxystatement.htm",
+   "quote": "the post-termination exercise period of all of Mr. Roberts’ stock options, to the extent vested and exercisable at the end of the Consulting Term, will be extended until the original maximum term of such stock options.",
+   "quote_from_table": false,
+   "supports": "Roberts' option exercise period extended (not valued)."
+  },
+  {
+   "id": "d141",
+   "form": "8-K",
+   "accession": "0001193125-23-080628",
+   "filing_date": "2023-03-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312523080628/d467235d8k.htm",
+   "quote": "Logan Green, its co-founder and Chief Executive Officer (“CEO”), has decided to transition from his role as CEO, effective as of April 17, 2023, and John Zimmer, its co-founder and President, has decided to transition from his role as President, effective as of June 30, 2023.",
+   "quote_from_table": false,
+   "supports": "Green's and Zimmer's officer exits and how the 8-K describes them."
+  },
+  {
+   "id": "d142",
+   "form": "8-K",
+   "accession": "0001193125-23-080628",
+   "filing_date": "2023-03-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312523080628/d467235d8k.htm",
+   "quote": "Pursuant to the Transition Agreements, each of Mr. Green and Mr. Zimmer will serve as a non-employee advisor to the Company for a period of one year following the date he ceases to be an employee of the Company and receive cash payments of $450,000 and cash payments equal to the sum of the cost of premiums for 12 months for continued COBRA coverage.",
+   "quote_from_table": false,
+   "supports": "Founder Transition Agreements: $450,000 advisory cash plus 12 months of COBRA cost each."
+  },
+  {
+   "id": "d143",
+   "form": "8-K",
+   "accession": "0001193125-23-080628",
+   "filing_date": "2023-03-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312523080628/d467235dex102.htm",
+   "quote": "Advisory Cash Fee. The Company will pay you an amount in cash equal to $450,000 (the “Advisory Cash Fee”). The Advisory Cash Fee will be paid to you in 12 equal monthly installments or, at the Company’s option, in semi-monthly installments over 12 months, following the Transition Date, in accordance with the Company’s standard payroll practices.",
+   "quote_from_table": false,
+   "supports": "Green Transition Agreement (Exhibit 10.2): $450,000 Advisory Cash Fee paid over 12 months."
+  },
+  {
+   "id": "d144",
+   "form": "DEF 14A",
+   "accession": "0001759509-24-000055",
+   "filing_date": "2024-04-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950924000055/lyft-20240425.htm",
+   "quote": "As compensation for such advisory services, each will receive cash payments of $450,000 (equal to their final base salaries as employees) and cash payments equal to the sum of the cost of premiums for 12 months of continued COBRA coverage. Any equity awards held by Messrs. Green and Zimmer will continue to vest pursuant to the pre-existing terms of their original award agreements so long as Mr. Green or Mr. Zimmer, as applicable, remains a service provider to the Company. Any equity awards subject to time-based vesting conditions, will be subject to 100% vesting acceleration in the event of termination of service from the board of directors, other than by reason of voluntary resignation from the board of directors.",
+   "quote_from_table": false,
+   "supports": "2024 proxy: founders' advisory pay ($450,000 + COBRA), continued vesting, and acceleration only on a non-voluntary end of board service."
+  },
+  {
+   "id": "d145",
+   "form": "DEF 14A",
+   "accession": "0001759509-24-000055",
+   "filing_date": "2024-04-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950924000055/lyft-20240425.htm",
+   "quote": "Neither Mr. Green nor Mr. Zimmer is entitled to severance benefits under the Executive Severance Plan and each of them has forfeited their right to receive any benefits under the Death/Disability Benefit Policy, effective as of their transitions from employment with the Company.",
+   "quote_from_table": false,
+   "supports": "No Executive Severance Plan severance for either founder."
+  },
+  {
+   "id": "d146",
+   "form": "DEF 14A",
+   "accession": "0001759509-24-000055",
+   "filing_date": "2024-04-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950924000055/lyft-20240425.htm",
+   "quote": "For Mr. Green, (i) the 2023 amount reflects $15,422 in personal security services, $15,000 in attorney fees, $340 in taxable meals, $174 in tax gross-ups, $70 in life insurance premiums, and $319,653 for advisory and COBRA fees",
+   "quote_from_table": false,
+   "supports": "FY2023 SCT All Other Compensation for Green includes $319,653 of advisory and COBRA fees."
+  },
+  {
+   "id": "d147",
+   "form": "DEF 14A",
+   "accession": "0001759509-24-000055",
+   "filing_date": "2024-04-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950924000055/lyft-20240425.htm",
+   "quote": "For Mr. Zimmer, (i) the 2023 amount reflects $704,388 in personal security services, $15,000 in attorney fees, $105 in taxable meals, $56 in tax gross-ups, $9 for Lyft Pink Membership, $105 in life insurance premiums, and $240,966 for advisory and COBRA fees",
+   "quote_from_table": false,
+   "supports": "FY2023 SCT All Other Compensation for Zimmer includes $240,966 of advisory and COBRA fees."
+  },
+  {
+   "id": "d148",
+   "form": "DEFC14A",
+   "accession": "0001759509-25-000069",
+   "filing_date": "2025-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950925000069/lyft-20250424.htm",
+   "quote": "For Mr. Green, reflects $112,500 in consulting fees and $7,370 in COBRA payments, both in connection with his transition from his role as our chief executive officer. For Mr. Zimmer, reflects $187,500 in consulting fees and $13,305 in COBRA payments, both in connection with his transition from his role as our president.",
+   "quote_from_table": false,
+   "supports": "FY2024 Director Compensation table footnote: the founders' 2024 consulting fees and COBRA payments from their executive transitions."
+  },
+  {
+   "id": "d149",
+   "form": "8-K",
+   "accession": "0001759509-25-000134",
+   "filing_date": "2025-08-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950925000134/lyft-20250813.htm",
+   "quote": "Logan Green, Chair of the Board of Directors of the Company (the “Board”), and John Zimmer, Vice Chair of the Board, had resigned from the Board effective August 14, 2025, marking the successful completion of a two-year transition plan.",
+   "quote_from_table": false,
+   "supports": "Founders resigned from the board 2025-08-14 (a voluntary resignation, so the agreements' board-termination acceleration would not apply)."
+  },
+  {
+   "id": "d151",
+   "form": "8-K",
+   "accession": "0001759509-23-000067",
+   "filing_date": "2023-05-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950923000067/lyft-20230515.htm",
+   "quote": "On May 15, 2023, the Company and Ms. Paul mutually agreed to terms pursuant to which she would step down as CFO. In connection with her departure Ms. Paul will receive a cash payment of $325,000 (reflecting six months base salary) and a lump sum payment equal to the cost of six months of COBRA coverage, subject to execution of a release of claims in favor of the Company and other released parties, as provided for under the Severance Plan.",
+   "quote_from_table": false,
+   "supports": "Paul: mutual agreement to step down; $325,000 cash plus six months of COBRA (8-K Item 5.02)."
+  },
+  {
+   "id": "d152",
+   "form": "8-K",
+   "accession": "0001759509-23-000067",
+   "filing_date": "2023-05-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950923000067/lyft-20230515.htm",
+   "quote": "Elaine Paul, the Company’s current CFO, will depart the Company effective May 19, 2023.",
+   "quote_from_table": false,
+   "supports": "Paul's departure date 2023-05-19."
+  },
+  {
+   "id": "d153",
+   "form": "DEF 14A",
+   "accession": "0001759509-24-000055",
+   "filing_date": "2024-04-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950924000055/lyft-20240425.htm",
+   "quote": "Pursuant to the terms of their agreements, Ms. Paul and Mr. Raj each received a $325,000 lump-sum cash payment (which was equal to approximately 6 months of their annual base salary) and a lump-sum cash payment equal to the sum of the cost of COBRA premiums for 6 months, and transitioned to a consulting position in May 2023, pursuant to which they provided advisory services to the Company following their resignation of employment with the Company.",
+   "quote_from_table": false,
+   "supports": "2024 proxy: Paul and Raj each received $325,000 plus six months of COBRA; proxy calls it their 'resignation of employment'."
+  },
+  {
+   "id": "d154",
+   "form": "DEF 14A",
+   "accession": "0001759509-24-000055",
+   "filing_date": "2024-04-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950924000055/lyft-20240425.htm",
+   "quote": "As compensation for such advisory services, outstanding equity awards held by Ms. Paul and Mr. Raj continued to vest, provided that Ms. Paul or Mr. Raj, as applicable, remained a service provider to the Company through the applicable vesting date. Under the terms of Ms. Paul’s and Mr. Raj’s consulting agreements, all or any portion of any equity award scheduled to vest following November 30, 2023 was forfeited as of May 2023.",
+   "quote_from_table": false,
+   "supports": "Paul's and Raj's advisory pay was continued vesting to 2023-11-30 only."
+  },
+  {
+   "id": "d155",
+   "form": "DEF 14A",
+   "accession": "0001759509-24-000055",
+   "filing_date": "2024-04-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950924000055/lyft-20240425.htm",
+   "quote": "if he or she had terminated employment with Lyft effective December 31, 2023, provided that in the case of Ms. Paul and Mr. Raj, the amounts presented are the severance payments made to them prior to December 31, 2023:",
+   "quote_from_table": false,
+   "supports": "2024 Potential Payments table: Paul's and Raj's rows are actual payments; other rows (incl. Blackwood-Kapral) are hypothetical as of 2023-12-31."
+  },
+  {
+   "id": "d156",
+   "form": "DEF 14A",
+   "accession": "0001759509-24-000055",
+   "filing_date": "2024-04-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950924000055/lyft-20240425.htm",
+   "quote": "Elaine Paul 325,000 - 15,966 - 340,966",
+   "quote_from_table": true,
+   "supports": "Paul's actual severance: $325,000 base salary + $15,966 COBRA, no accelerated equity, total $340,966."
+  },
+  {
+   "id": "d157",
+   "form": "DEF 14A",
+   "accession": "0001759509-24-000055",
+   "filing_date": "2024-04-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950924000055/lyft-20240425.htm",
+   "quote": "For Ms. Paul, (i) the 2023 amount reflects $77,697 in relocation services, $710 in taxable meals, $40,729 in tax gross-ups, $88 in life insurance premiums, and $340,966 in severance",
+   "quote_from_table": false,
+   "supports": "FY2023 SCT All Other Compensation for Paul: $340,966 severance (no advisory fees)."
+  },
+  {
+   "id": "d161",
+   "form": "8-K",
+   "accession": "0001193125-23-080628",
+   "filing_date": "2023-03-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312523080628/d467235d8k.htm",
+   "quote": "Ashwin Raj will step down as Executive Vice President, Head of Rideshare on May 22, 2023. Following Mr. Raj’s departure as an employee, he is expected to continue to serve as an advisor to the Company until November 30, 2023 during which period, in exchange for his services, his outstanding equity awards will continue to vest, provided that he remains as a service provider to the Company.",
+   "quote_from_table": false,
+   "supports": "Raj steps down 2023-05-22 as part of the CEO transition (8-K 2023-03-27); advisor to 2023-11-30 paid in continued vesting."
+  },
+  {
+   "id": "d162",
+   "form": "DEF 14A",
+   "accession": "0001759509-24-000055",
+   "filing_date": "2024-04-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950924000055/lyft-20240425.htm",
+   "quote": "Ashwin Raj 325,000 - 15,966 - 340,966",
+   "quote_from_table": true,
+   "supports": "Raj's actual severance: $325,000 base salary + $15,966 COBRA, no accelerated equity, total $340,966."
+  },
+  {
+   "id": "d163",
+   "form": "DEF 14A",
+   "accession": "0001759509-24-000055",
+   "filing_date": "2024-04-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950924000055/lyft-20240425.htm",
+   "quote": "For Mr. Raj, (i) the 2023 amount reflects $312 in taxable meals, $165 in tax gross-ups, $63 in Trip Action Rewards, $88 in life insurance premiums, and $340,966 in severance",
+   "quote_from_table": false,
+   "supports": "FY2023 SCT All Other Compensation for Raj: $340,966 severance (no advisory fees)."
+  },
+  {
+   "id": "d164",
+   "form": "DEF 14A",
+   "accession": "0001759509-24-000055",
+   "filing_date": "2024-04-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950924000055/lyft-20240425.htm",
+   "quote": "On March 27, 2023, we had entered into a memorandum of understanding with Mr. Raj setting forth the terms and conditions of Mr. Raj’s separation of employment, which were substantially similar to the terms of his subsequent separation and consulting agreements.",
+   "quote_from_table": false,
+   "supports": "Raj's separation terms were set in a March 27, 2023 memorandum of understanding."
+  },
+  {
+   "id": "d171",
+   "form": "8-K",
+   "accession": "0001759509-25-000031",
+   "filing_date": "2025-03-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950925000031/lyft-20250303.htm",
+   "quote": "On March 3, 2025, Lyft, Inc. (the “Company”) announced that Lisa Blackwood-Kapral, the Company’s Chief Accounting Officer (“CAO”), will depart the Company effective March 6, 2025. Ms. Blackwood-Kapral’s departure is not the result of any dispute or disagreement with the Company, its board of directors, or its management, or any matter relating to the Company’s operations, policies or practices.",
+   "quote_from_table": false,
+   "supports": "Blackwood-Kapral departs 2025-03-06 (8-K Item 5.02); no pay terms disclosed."
+  },
+  {
+   "id": "d172",
+   "form": "DEF 14A",
+   "accession": "0001759509-24-000055",
+   "filing_date": "2024-04-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950924000055/lyft-20240425.htm",
+   "quote": "Lisa Blackwood-Kapral 200,000 - 15,966 - 215,966",
+   "quote_from_table": true,
+   "supports": "Blackwood-Kapral's hypothetical severance on a qualifying termination at 2023-12-31: $200,000 base salary + $15,966 COBRA, total $215,966."
+  },
+  {
+   "id": "d181",
+   "form": "8-K",
+   "accession": "0001193125-24-182862",
+   "filing_date": "2024-07-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312524182862/d837844d8k.htm",
+   "quote": "announced that Kristin Sverchek, the Company’s President, and the Company agreed to terms pursuant to which Ms. Sverchek will depart the Company as an employee effective August 20, 2024.",
+   "quote_from_table": false,
+   "supports": "Sverchek's departure was agreed between her and the company, effective 2024-08-20 (8-K Item 5.02)."
+  },
+  {
+   "id": "d182",
+   "form": "8-K",
+   "accession": "0001193125-24-182862",
+   "filing_date": "2024-07-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312524182862/d837844d8k.htm",
+   "quote": "The circumstances of Ms. Sverchek’s departure from the Company qualify her to receive severance benefits under the Company’s Executive Change in Control and Severance Plan (the “Severance Plan”).",
+   "quote_from_table": false,
+   "supports": "Sverchek's departure qualified for Severance Plan benefits."
+  },
+  {
+   "id": "d183",
+   "form": "DEFC14A",
+   "accession": "0001759509-25-000069",
+   "filing_date": "2025-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950925000069/lyft-20250424.htm",
+   "quote": "Pursuant to the terms of her agreement, Ms. Sverchek received a $650,000 lump-sum cash payment (which was equal to approximately 12 months of her annual base salary), 100% vesting of the unvested portion of the restricted stock units (“RSUs”) granted pursuant to the agreement between the Company and Ms. Sverchek entered into on April 26, 2023 (the “Letter Agreement”), and a lump-sum cash payment equal to the sum of the cost of COBRA premiums for 12 months, plus a cash payment of $487,500 (reflecting payment in an amount equal to the bonus payable under the Letter Agreement, but prorated to reflect Ms. Sverchek’s months of employment in 2024)",
+   "quote_from_table": false,
+   "supports": "Sverchek: $650,000 salary severance + $487,500 prorated bonus + 12 months COBRA + full vesting of her 2023 Letter Agreement RSUs."
+  },
+  {
+   "id": "d184",
+   "form": "DEFC14A",
+   "accession": "0001759509-25-000069",
+   "filing_date": "2025-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950925000069/lyft-20250424.htm",
+   "quote": "As compensation for such advisory services, Ms. Sverchek received a monthly retainer of $10,000 and outstanding equity awards held by Ms. Sverchek continued to vest, provided that Ms. Sverchek remained a service provider to the Company through the applicable vesting date.",
+   "quote_from_table": false,
+   "supports": "Sverchek's advisory pay to 2024-11-30: $10,000/month plus continued vesting."
+  },
+  {
+   "id": "d185",
+   "form": "DEFC14A",
+   "accession": "0001759509-25-000069",
+   "filing_date": "2025-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950925000069/lyft-20250424.htm",
+   "quote": "$34,071 for advisory fees, and $1,608,010 in severance, comprised of a cash payment of $1,137,500, a COBRA payment of $33,462 and $437,048 in stock-based compensation charges recognized in accordance with ASC 718 for the accelerated equity for Ms. Sverchek (which is not reflective of the actual amount received by Ms. Sverchek)",
+   "quote_from_table": false,
+   "supports": "FY2024 SCT All Other Compensation for Sverchek: $34,071 advisory fees; severance cash $1,137,500, COBRA $33,462, and a $437,048 ASC 718 charge for the accelerated equity."
+  },
+  {
+   "id": "d186",
+   "form": "DEFC14A",
+   "accession": "0001759509-25-000069",
+   "filing_date": "2025-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950925000069/lyft-20250424.htm",
+   "quote": "provided that in the case of Ms. Sverchek, the amounts presented are the severance payments made to her prior to December 31, 2024:",
+   "quote_from_table": false,
+   "supports": "2025 Potential Payments table: Sverchek's row is the actual severance."
+  },
+  {
+   "id": "d187",
+   "form": "DEFC14A",
+   "accession": "0001759509-25-000069",
+   "filing_date": "2025-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950925000069/lyft-20250424.htm",
+   "quote": "Kristin Sverchek 650,000 487,500 33,462 2,368,992 3,539,954",
+   "quote_from_table": true,
+   "supports": "Sverchek's actual severance: $650,000 salary + $487,500 bonus + $33,462 COBRA + $2,368,992 accelerated equity = $3,539,954."
+  },
+  {
+   "id": "d188",
+   "form": "DEFC14A",
+   "accession": "0001759509-25-000069",
+   "filing_date": "2025-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950925000069/lyft-20250424.htm",
+   "quote": "The value of accelerated equity for Ms. Sverchek based on the stock price of $11.29, the closing price of a share of our Class A common stock on August 20, 2024.",
+   "quote_from_table": false,
+   "supports": "The $2,368,992 accelerated-equity value uses the $11.29 close on the 2024-08-20 separation date."
+  },
+  {
+   "id": "d189",
+   "form": "DEFC14A",
+   "accession": "0001759509-25-000069",
+   "filing_date": "2025-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950925000069/lyft-20250424.htm",
+   "quote": "Under the terms of Ms. Sverchek’s consulting agreements, all or any portion of any equity award scheduled to vest following November 30, 2024 was forfeited as of July 2024.",
+   "quote_from_table": false,
+   "supports": "Sverchek's awards vesting after 2024-11-30 were forfeited."
+  },
+  {
+   "id": "d191",
+   "form": "8-K",
+   "accession": "0001628280-26-061020",
+   "filing_date": "2026-09-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000162828026061020/lyft-20260906.htm",
+   "quote": "On September 9, 2026, Lyft, Inc. (the “Company”) announced the appointment of Michael Brous as the Chief Financial Officer (“CFO”) of the Company, effective as of September 28, 2026 (the “Effective Date”). Erin Brewer, the Company’s current CFO, will retire from her position as CFO, effective as of the Effective Date.",
+   "quote_from_table": false,
+   "supports": "Brewer retires as CFO effective 2026-09-28 (8-K Item 5.02)."
+  },
+  {
+   "id": "d192",
+   "form": "8-K",
+   "accession": "0001628280-26-061020",
+   "filing_date": "2026-09-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000162828026061020/lyft-20260906.htm",
+   "quote": "In exchange for her services during the Consulting Term, Ms. Brewer will continue to vest in her outstanding equity awards during the Consulting Term in accordance with the original vesting schedule, subject to Ms. Brewer’s continuous service with the Company or its subsidiaries or affiliates through the applicable vesting dates.",
+   "quote_from_table": false,
+   "supports": "Brewer's consulting term (2026-09-28 to 2026-12-15) is paid in continued vesting."
+  },
+  {
+   "id": "d193",
+   "form": "8-K",
+   "accession": "0001628280-26-061020",
+   "filing_date": "2026-09-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1759509/000162828026061020/lyft-20260906.htm",
+   "quote": "Ms. Brewer’s departure is not the result of any dispute or disagreement with the Company, its board of directors, or its management, or any matter relating to the Company’s operations, policies or practices.",
+   "quote_from_table": false,
+   "supports": "8-K: no dispute or disagreement behind Brewer's departure."
+  }
+ ],
+ "conflicts": [
+  {
+   "description": "Founders' advisory fees. The 8-K, Green's Transition Agreement (Exhibit 10.2) and the 2024 proxy say each founder would receive $450,000 of advisory cash over 12 months, plus 12 months of COBRA premiums. The amounts reported as paid are lower. Green: FY2023 SCT 'advisory and COBRA fees' $319,653, plus FY2024 director table $112,500 consulting and $7,370 COBRA, for $439,523 in all. Zimmer: $240,966, plus $187,500 and $13,305, for $441,771 in all. Even before COBRA is taken out, each total is below $450,000. No filing explains the gap (for example, an installment paid outside the two years). The exit rows record the $450,000 agreement amount.",
+   "evidence_refs": [
+    "d142",
+    "d143",
+    "d144",
+    "d146",
+    "d147",
+    "d148"
+   ]
+  },
+  {
+   "description": "Elaine Paul's exit type. The 2023-05-16 8-K says the company and Ms. Paul 'mutually agreed to terms pursuant to which she would step down as CFO'. The 2024 proxy describes Paul's and Raj's 'resignation of employment'. Recorded as 'mutual', the 8-K's more specific wording. Raj, for whom no mutual-agreement wording appears, is recorded as 'resigned'.",
+   "evidence_refs": [
+    "d151",
+    "d153"
+   ]
+  },
+  {
+   "description": "Double reporting in FY2023. Green's ($63,544 fees, $260,005 RSU) and Zimmer's ($20,110 fees, $260,005 RSU) non-employee director pay appears both in the FY2023 Director Compensation table and in their FY2023 Summary Compensation Table rows (salary includes the director fees; stock awards include the RSU). Risher's pre-CEO director fees appear in the director table ($13,046 including RSUs in lieu worth $11,178). The SCT says his salary 'includes $1,868 in director fees received in the form of 1,136 RSUs with a total grant date fair value of $11,178': the share count matches the director table, but the dollar figure does not, and $13,046 - $11,178 = $1,868. Director rows are recorded as printed; anyone adding them to the exec comp file should take out the overlap.",
+   "evidence_refs": [
+    "d032",
+    "d041",
+    "d036"
+   ]
+  },
+  {
+   "description": "How RSUs taken in lieu of cash are reported changed. In the FY2022 table (2023 proxy), directors who took RSUs instead of cash (Lawee, Cohen, Risher) show lower cash fees and Stock Awards above the $260,000 annual award ($275,001, $272,126 and $271,247). From the FY2023 table on, such RSUs are 'reported as though they had been paid in cash' in the fees column. Rows are recorded as printed, so the cash/stock split is not comparable across these years; totals are.",
+   "evidence_refs": [
+    "d025",
+    "d023",
+    "d027",
+    "d034",
+    "d031"
+   ]
+  }
+ ],
+ "open_questions": [
+  "Erin Brewer retired as CFO on 2026-09-28. Whether she gets anything beyond continued vesting during her advisory term (to 2026-12-15) will first appear in the 2027 proxy (FY2026 SCT).",
+  "Lisa Blackwood-Kapral (left 2025-03-06): no filing says whether her departure was a qualifying termination or what she was paid. Her exit row uses the 2023 year-end hypothetical (basis 'estimated'). The Q1 2025 10-Q filed no separation agreement.",
+  "Jon McNeill (left 2019-07-29): his agreement gave 12 months of extra vesting on an involuntary termination in his first 24 months. No filing says whether it was triggered, or whether he got any cash.",
+  "Eisar Lipkovitz: the 2021 proxy gives the expected severance ($236,843) and termination date (2021-05-31). No later filing confirms either, because he was not an NEO in the 2022 proxy.",
+  "The founders' 2025 annual director RSUs ($260,003 each, granted 2025-06-05): Green and Zimmer resigned from the board on 2025-08-14, before the first quarterly vest date, and are absent from the 2025 year-end outstanding-awards table. No filing says the awards were forfeited. Their Transition Agreements accelerate time-based awards only when board service ends other than by voluntary resignation.",
+  "Mikitani's 2020 annual award ($260,001, granted 2020-06-19, resigned 2020-08-31) and Miura-Ko's forfeited 2019 award are recorded at grant-date value as printed. Neither table shows the value realized.",
+  "The IPO prospectus (424B4, 2019-03-29) has a FY2018 non-employee director table (only Jarrett $225,389 and Wilderotter $450,778 got stock awards; everyone else shows dashes). It is not a proxy, so it is not recorded here."
+ ],
+ "coverage": [
+  {
+   "scope": "director_compensation",
+   "period_start": "2019-01-01",
+   "period_end": "2025-12-31",
+   "level": "complete",
+   "method": "Director Compensation table rows from every Lyft proxy filed 2019-2026: DEF 14A 2020-04-27 (FY2019), 2021-04-28 (FY2020), 2022-04-29 (FY2021), 2023-05-01 (FY2022), 2024-04-25 (FY2023), the 2025 DEFC14A 0001759509-25-000069 filed 2025-04-24 (FY2024; that year's annual proxy was a contested solicitation), and DEF 14A 2026-04-10 (FY2025). That is one row per (filing, director), 59 rows. No proxy was filed in 2019 (IPO 2019-03-29; first annual meeting 2020). Checked and found to have no director table: the 2022 10-K/A (Part III incorporated by reference to the 2022 proxy), the 2025 DEFR14A (board-change supplement), and Engine Capital's DEFC14A (0000921895-25-001184). Every row's components sum exactly to its printed total. No Lyft director table has option, non-equity incentive or pension/NQDC columns."
+  },
+  {
+   "scope": "executive_exits",
+   "period_start": "2019-03-29",
+   "period_end": "2026-10-02",
+   "level": "complete",
+   "method": "One exit row for each of the 11 NEOs in lyft_exec_comp_research.json whose employment or officer tenure ended through 2026-10-02 (title changes and interim roles are not exits): McNeill, Makavy, Lipkovitz, Roberts, Green, Paul, Raj, Zimmer, Sverchek, Blackwood-Kapral and Brewer. Sources: the proxy after each departure (CD&A transition and separation sections, SCT All Other Compensation footnotes, Potential Payments tables, which Lyft uses to report actual severance for departed NEOs), every 8-K Item 5.02 in the EDGAR submissions feed through 2026-10-02, the Green Transition Agreement (8-K Exhibit 10.2), and the exhibit lists of the 10-Qs following each departure. Advisory-period continued vesting is never valued in the filings, so accelerated_equity_value is null except for Sverchek's contractual full vesting."
+  }
+ ]
+}
