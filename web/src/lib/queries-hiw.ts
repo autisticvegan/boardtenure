@@ -270,7 +270,7 @@ const CONTEXT_OF = sql`CASE x.exit_type WHEN 'terminated_without_cause' THEN 'te
  * Every researched exit package: the deep-research cases across US companies plus the exits of the
  * six fully researched companies (whose stock figure is our own tenure return vs SPY, as $100).
  */
-export const getAllChutes = cache(async (): Promise<Chute[]> => sql<Chute[]>`
+export const getAllChutes = cache(async (): Promise<Chute[]> => dedupeChutes(await sql<Chute[]>`
   SELECT g.id AS key, g.company_name AS company, g.ticker, g.person_name AS person, g.role, g.context, g.exit_type,
          g.exit_words, g.tenure_end AS exit_date, g.tenure_start, g.basis, g.severance_cash, g.bonus, g.equity,
          g.pension_deferred, g.benefits_other, g.consulting, g.tax_gross_up, g.total, g.total_is_stated,
@@ -294,4 +294,18 @@ export const getAllChutes = cache(async (): Promise<Chute[]> => sql<Chute[]>`
   JOIN benchmark b ON b.code = 'sp500'
   LEFT JOIN executive_tenure_performance t ON t.company_id = x.company_id AND t.person_id = x.person_id
    AND t.benchmark_id = b.id AND t.window_kind = 'tenure'
-  WHERE x.basis = 'actual'`);
+  WHERE x.basis = 'actual'`));
+
+/** One receipt per person and company: research slices can overlap (a CEO pushed out ahead of a merger).
+ * Prefer what was actually paid over an estimate, then the more fully itemised record. */
+function dedupeChutes(rows: Chute[]): Chute[] {
+  const key = (c: Chute) => `${c.person.trim().split(/\s+/).pop()?.toLowerCase()}|${c.company.toLowerCase().split(/[\s,.]+/)[0]}`;
+  const score = (c: Chute) => (c.basis === "actual" ? 2 : 0) + (c.value_of_100 != null ? 1 : 0);
+  const best = new Map<string, Chute>();
+  for (const c of rows) {
+    const k = key(c);
+    const cur = best.get(k);
+    if (!cur || score(c) > score(cur)) best.set(k, c);
+  }
+  return [...best.values()];
+}

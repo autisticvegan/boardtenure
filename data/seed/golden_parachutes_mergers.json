@@ -426,6 +426,256 @@
       "stock": null,
       "clawback_or_forfeiture": null,
       "notes": "Item 402(t) estimate (assumed closing 2023-11-17). Dealy was President and COO when the table was prepared and became CEO on 2024-01-01. The merger closed in May 2024; no later Pioneer filing states the actual payout. No in-tenure TSR table for his CEO tenure."
+    },
+    {
+      "id": "mergers-11",
+      "person": {
+        "name": "Rami Rahim",
+        "sec_cik": "0001560849"
+      },
+      "company": {
+        "name": "Juniper Networks, Inc.",
+        "cik": "1043604",
+        "ticker": "JNPR"
+      },
+      "role": "Chief Executive Officer",
+      "tenure_start": "2014-11",
+      "tenure_end": null,
+      "exit_type": "change_in_control",
+      "context": "merger",
+      "exit_words": "a termination of employment by Juniper and/or Parent without \"cause\" or by the executive officer for \"good reason\"",
+      "basis": "estimated",
+      "pay": {
+        "severance_cash": 14500000,
+        "bonus": null,
+        "equity": 35436029,
+        "pension_deferred": null,
+        "benefits_other": 40410,
+        "consulting": null,
+        "tax_gross_up": null,
+        "total": 49976439,
+        "total_is_stated": true
+      },
+      "pay_evidence_refs": [
+        "m070",
+        "m071",
+        "m072",
+        "m073"
+      ],
+      "stock": {
+        "company_value_of_100": 175.65,
+        "comparison_name": "S&P 500",
+        "comparison_value_of_100": 196.85,
+        "period_start": "2019-12-31",
+        "period_end": "2024-12-31",
+        "evidence_refs": [
+          "m074"
+        ]
+      },
+      "clawback_or_forfeiture": null,
+      "notes": "Item 402(t) estimate in the Hewlett Packard Enterprise merger proxy (assumed closing 2024-02-21, $40.00 per share). Cash of $14,500,000 = $2,000,000 salary severance + $3,500,000 target bonus severance + a $9,000,000 Retention Cash Award under his offer letter from HPE; all double-trigger. The proxy describes a 'Parent Offer Letter', i.e. Rahim was expected to stay with HPE after the July 2025 closing, so no departure or payout is disclosed; tenure_end is left null. The 2024 TSR year-end includes the pending $40 deal price."
+    },
+    {
+      "id": "mergers-12",
+      "person": {
+        "name": "David B. Burritt",
+        "sec_cik": null
+      },
+      "company": {
+        "name": "United States Steel Corporation",
+        "cik": "1163302",
+        "ticker": "X"
+      },
+      "role": "President and Chief Executive Officer",
+      "tenure_start": "2017-05",
+      "tenure_end": null,
+      "exit_type": "change_in_control",
+      "context": "merger",
+      "exit_words": "experienced a termination of employment without cause",
+      "basis": "estimated",
+      "pay": {
+        "severance_cash": 13082891,
+        "bonus": null,
+        "equity": 53838987,
+        "pension_deferred": 4011997,
+        "benefits_other": 100789,
+        "consulting": null,
+        "tax_gross_up": null,
+        "total": 72037484,
+        "total_is_stated": true
+      },
+      "pay_evidence_refs": [
+        "m080",
+        "m081",
+        "m082",
+        "m085",
+        "m086"
+      ],
+      "stock": {
+        "company_value_of_100": 436.12,
+        "comparison_name": "S&P 600 Steel Index",
+        "comparison_value_of_100": 309.51,
+        "period_start": "2019-12-31",
+        "period_end": "2023-12-31",
+        "evidence_refs": [
+          "m083",
+          "m084"
+        ]
+      },
+      "clawback_or_forfeiture": null,
+      "notes": "Item 402(t) estimate in the Nippon Steel merger proxy (assumed termination 2024-03-08, $55.00 per share). Cash is 2.5x salary plus bonus. The stated total also includes $1,002,820 in an 'Other' column (enhanced retirement and savings benefits), not split into a separate field. Burritt did NOT leave at the 2025-06-18 closing: the 8-K says the board elected him President and CEO of the surviving company, so the double-trigger amounts were not triggered by any disclosed departure; tenure_end is null. The FY2023 TSR year-end follows the 2023-12-18 deal announcement."
+    },
+    {
+      "id": "mergers-13",
+      "person": {
+        "name": "Peter R. Ingram",
+        "sec_cik": "0001345061"
+      },
+      "company": {
+        "name": "Hawaiian Holdings, Inc.",
+        "cik": "1172222",
+        "ticker": "HA"
+      },
+      "role": "President and Chief Executive Officer",
+      "tenure_start": "2018-03-01",
+      "tenure_end": "2024-09-18",
+      "exit_type": "change_in_control",
+      "context": "merger",
+      "exit_words": "resigned from their positions as officers of Hawaiian",
+      "basis": "estimated",
+      "pay": {
+        "severance_cash": 7329000,
+        "bonus": null,
+        "equity": 5837346,
+        "pension_deferred": null,
+        "benefits_other": null,
+        "consulting": null,
+        "tax_gross_up": null,
+        "total": 13166346,
+        "total_is_stated": true
+      },
+      "pay_evidence_refs": [
+        "m090",
+        "m091",
+        "m092",
+        "m093"
+      ],
+      "stock": {
+        "company_value_of_100": 80.23,
+        "comparison_name": "NYSE ARCA Airline Index",
+        "comparison_value_of_100": 81.53,
+        "period_start": "2020-12-31",
+        "period_end": "2023-12-31",
+        "evidence_refs": [
+          "m094",
+          "m095"
+        ]
+      },
+      "clawback_or_forfeiture": null,
+      "notes": "Item 402(t) estimate in the Alaska Air Group merger proxy (assumed closing 2024-12-31, $18.00 per share). Cash of $7,329,000 = $2,325,000 salary severance (36 months) + $2,682,000 target bonus severance (300%) + $72,000 in lieu of COBRA + $2,250,000 accelerated 2024 cash incentives. Merger closed 2024-09-18; no later Hawaiian filing states the actual payout. Stock is the 2024 proxy's PvP TSR (2021-2023, $100 at the day before FY2021); the 10-K graph was image-only."
+    },
+    {
+      "id": "mergers-14",
+      "person": {
+        "name": "Steven A. Cahillane",
+        "sec_cik": "0001416390"
+      },
+      "company": {
+        "name": "Kellanova",
+        "cik": "55067",
+        "ticker": "K"
+      },
+      "role": "Chairman, President and Chief Executive Officer",
+      "tenure_start": "2017-10",
+      "tenure_end": "2025-12-11",
+      "exit_type": "change_in_control",
+      "context": "merger",
+      "exit_words": "resigned as an officer of the Company",
+      "basis": "estimated",
+      "pay": {
+        "severance_cash": 7020000,
+        "bonus": 1467616,
+        "equity": 66164385,
+        "pension_deferred": null,
+        "benefits_other": 91024,
+        "consulting": null,
+        "tax_gross_up": 16218989,
+        "total": 90987976,
+        "total_is_stated": true
+      },
+      "pay_evidence_refs": [
+        "m100",
+        "m101",
+        "m102",
+        "m103",
+        "m104",
+        "m105"
+      ],
+      "stock": {
+        "company_value_of_100": 99.45,
+        "comparison_name": "S&P 500 Packaged Foods and Meats Index",
+        "comparison_value_of_100": 119.68,
+        "period_start": "2019-12-27",
+        "period_end": "2023-12-30",
+        "evidence_refs": [
+          "m106",
+          "m107"
+        ]
+      },
+      "clawback_or_forfeiture": null,
+      "notes": "Item 402(t) estimate in the Mars merger proxy ($83.50 per share). Includes a $16,218,989 excise-tax gross-up; the stated total also includes $25,962 of accrued vacation. Merger closed 2025-12-11; no later Kellanova filing states the actual payout. Kellanova's 10-K carries no performance graph, so stock is the 2024 proxy's PvP TSR (the 2023 spin-off of WK Kellogg Co falls inside the window)."
+    },
+    {
+      "id": "mergers-15",
+      "person": {
+        "name": "Robert M. Bakish",
+        "sec_cik": "0001347876"
+      },
+      "company": {
+        "name": "Paramount Global",
+        "cik": "813828",
+        "ticker": "PARA"
+      },
+      "role": "President and Chief Executive Officer",
+      "tenure_start": "2019-12-04",
+      "tenure_end": "2024-04-30",
+      "exit_type": "terminated_without_cause",
+      "context": "termination",
+      "exit_words": "stepped down from his position as President and Chief Executive Officer",
+      "basis": "actual",
+      "pay": {
+        "severance_cash": 24800000,
+        "bonus": 10364885,
+        "equity": 27817864,
+        "pension_deferred": null,
+        "benefits_other": 88160,
+        "consulting": null,
+        "tax_gross_up": null,
+        "total": 69295909,
+        "total_is_stated": true
+      },
+      "pay_evidence_refs": [
+        "m110",
+        "m111",
+        "m112",
+        "m113",
+        "m114",
+        "m115",
+        "m116"
+      ],
+      "stock": {
+        "company_value_of_100": 39.86,
+        "comparison_name": "S&P 500 Media and Entertainment Index",
+        "comparison_value_of_100": 155.53,
+        "period_start": "2019-12-31",
+        "period_end": "2023-12-31",
+        "evidence_refs": [
+          "m117",
+          "m118"
+        ]
+      },
+      "clawback_or_forfeiture": null,
+      "notes": "Actual payments per Paramount's 2025 proxy. The Skydance information statement's golden parachute table estimated $49,248,918 for Bakish under the CIC Plan (2.5x salary plus target bonus), but that enhancement applied only if a change in control occurred by 2025-04-30; the Skydance deal closed in August 2025, so the 2025 proxy's 'Actual Termination Payments' row ($69,295,909, including $27,817,864 of equity acceleration/continuation) is used. severance_cash shows the $24,800,000 annual-bonus continuation; a further $6,200,000 salary continuation and $25,000 outplacement are in the stated total. Stock is Class B PvP TSR, $100 at 2019 year-end (Bakish became CEO 2019-12-04)."
     }
   ],
   "evidence": [
@@ -815,6 +1065,321 @@
       "url": "https://www.sec.gov/Archives/edgar/data/1038357/000119312523279894/d484671d8k.htm",
       "quote": "his previously announced appointment as the Company's Chief Executive Officer effective January 1, 2024",
       "supports": "Dealy CEO from 2024-01-01"
+    },
+    {
+      "id": "m070",
+      "form": "DEFM14A",
+      "accession": "0001193125-24-046175",
+      "filing_date": "2024-02-26",
+      "url": "https://www.sec.gov/Archives/edgar/data/1043604/000119312524046175/d84254ddefm14a.htm",
+      "quote": "Name Cash ($) (1) Equity ($) (2) Perquisites/ Benefits ($) (3) Total ($) (4) Rami Rahim 14,500,000 35,436,029 40,410 49,976,439",
+      "supports": "Golden Parachute Compensation table row for Rahim"
+    },
+    {
+      "id": "m071",
+      "form": "DEFM14A",
+      "accession": "0001193125-24-046175",
+      "filing_date": "2024-02-26",
+      "url": "https://www.sec.gov/Archives/edgar/data/1043604/000119312524046175/d84254ddefm14a.htm",
+      "quote": "Retention Cash Award ($) Total ($) Rami Rahim 2,000,000 3,500,000 9,000,000 14,500,000",
+      "supports": "Rahim cash breakdown: salary severance, target bonus severance, $9,000,000 Retention Cash Award"
+    },
+    {
+      "id": "m072",
+      "form": "DEFM14A",
+      "accession": "0001193125-24-046175",
+      "filing_date": "2024-02-26",
+      "url": "https://www.sec.gov/Archives/edgar/data/1043604/000119312524046175/d84254ddefm14a.htm",
+      "quote": "Each named executive officer of Juniper experiences a qualifying termination of employment (i.e., a termination of employment by Juniper and/or Parent without \"cause\" or by the executive officer for \"good reason,\"",
+      "supports": "GP table termination assumption"
+    },
+    {
+      "id": "m073",
+      "form": "10-K",
+      "accession": "0001043604-25-000025",
+      "filing_date": "2025-02-21",
+      "url": "https://www.sec.gov/Archives/edgar/data/1043604/000104360425000025/jnpr-20241231.htm",
+      "quote": "RAMI RAHIM joined Juniper in January 1997 and became Chief Executive Officer of Juniper and a member of the Board of Directors in November 2014.",
+      "supports": "Rahim CEO since November 2014"
+    },
+    {
+      "id": "m074",
+      "form": "10-K",
+      "accession": "0001043604-25-000025",
+      "filing_date": "2025-02-21",
+      "url": "https://www.sec.gov/Archives/edgar/data/1043604/000104360425000025/jnpr-20241231.htm",
+      "quote": "As of December 31, 2019 2020 2021 2022 2023 2024 JNPR $ 100.00 $ 94.62 $ 154.58 $ 142.09 $ 135.00 $ 175.65 S&P 500 $ 100.00 $ 118.39 $ 152.34 $ 124.73 $ 157.48 $ 196.85",
+      "supports": "Five-year cumulative total stockholder return, $100 invested 2019-12-31"
+    },
+    {
+      "id": "m080",
+      "form": "DEFM14A",
+      "accession": "0001104659-24-033546",
+      "filing_date": "2024-03-12",
+      "url": "https://www.sec.gov/Archives/edgar/data/1163302/000110465924033546/tm243679-12_defm14a.htm",
+      "quote": "David B. Burritt $ 13,082,891 $ 53,838,987 $ 4,011,997 $ 100,789 $ 1,002,820 $ 72,037,484 President & Chief Executive Officer",
+      "supports": "Golden parachute table row for Burritt: cash, equity, pension/NQDC, perquisites/benefits, other, total"
+    },
+    {
+      "id": "m081",
+      "form": "DEFM14A",
+      "accession": "0001104659-24-033546",
+      "filing_date": "2024-03-12",
+      "url": "https://www.sec.gov/Archives/edgar/data/1163302/000110465924033546/tm243679-12_defm14a.htm",
+      "quote": "each such named executive officer experienced a termination of employment without cause on March 8, 2024 (which is the latest practicable date to determine such amount before the filing of this proxy statement); and (ii) a per share price of USS common stock of $55.00",
+      "supports": "GP table assumptions"
+    },
+    {
+      "id": "m082",
+      "form": "DEFM14A",
+      "accession": "0001104659-24-033546",
+      "filing_date": "2024-03-12",
+      "url": "https://www.sec.gov/Archives/edgar/data/1163302/000110465924033546/tm243679-12_defm14a.htm",
+      "quote": "The amounts set forth in this column include the increase in retirement and savings benefits to a named executive officer in the event of a termination in connection with a change in control",
+      "supports": "'Other' column = enhanced retirement and savings benefits"
+    },
+    {
+      "id": "m083",
+      "form": "DEF 14A",
+      "accession": "0001104659-24-035006",
+      "filing_date": "2024-03-15",
+      "url": "https://www.sec.gov/Archives/edgar/data/1163302/000110465924035006/tm2332710d3_def14a.htm",
+      "quote": "2023 $16,733,927 $56,705,104 $5,429,691 $13,068,626 $436.12 $309.51",
+      "supports": "PvP table FY2023: company TSR 436.12 vs peer group TSR 309.51"
+    },
+    {
+      "id": "m084",
+      "form": "DEF 14A",
+      "accession": "0001104659-24-035006",
+      "filing_date": "2024-03-15",
+      "url": "https://www.sec.gov/Archives/edgar/data/1163302/000110465924035006/tm2332710d3_def14a.htm",
+      "quote": "the peer group Total Shareholder Return reflects the S&P 600 Steel Index. Dollar values assume an initial $100 investment for the cumulative period from December 31, 2019 through December 31, 2023",
+      "supports": "TSR window and peer index"
+    },
+    {
+      "id": "m085",
+      "form": "DEF 14A",
+      "accession": "0001104659-24-035006",
+      "filing_date": "2024-03-15",
+      "url": "https://www.sec.gov/Archives/edgar/data/1163302/000110465924035006/tm2332710d3_def14a.htm",
+      "quote": "Mr. Burritt was the Chief Executive Officer (CEO) of the Corporation for all years shown.",
+      "supports": "Burritt CEO throughout the TSR window"
+    },
+    {
+      "id": "m086",
+      "form": "8-K",
+      "accession": "0001104659-25-062586",
+      "filing_date": "2025-06-25",
+      "url": "https://www.sec.gov/Archives/edgar/data/1163302/000110465925062586/tm2518973d1_8k.htm",
+      "quote": "officers were removed and the Board elected David B. Burritt as President and Chief Executive Officer",
+      "supports": "Burritt re-elected CEO after the 2025-06-18 closing"
+    },
+    {
+      "id": "m090",
+      "form": "DEFM14A",
+      "accession": "0001193125-24-004804",
+      "filing_date": "2024-01-09",
+      "url": "https://www.sec.gov/Archives/edgar/data/1172222/000119312524004804/d585124ddefm14a.htm",
+      "quote": "Golden Parachute Compensation Name Cash ($)(1) Equity ($)(2) Perquisites/ Benefits ($)(3) Total ($)(4) Peter R. Ingram 7,329,000 5,837,346 - 13,166,346",
+      "supports": "Golden Parachute Compensation table row for Ingram"
+    },
+    {
+      "id": "m091",
+      "form": "DEFM14A",
+      "accession": "0001193125-24-004804",
+      "filing_date": "2024-01-09",
+      "url": "https://www.sec.gov/Archives/edgar/data/1172222/000119312524004804/d585124ddefm14a.htm",
+      "quote": "Peter R. Ingram 2,325,000 2,682,000 - 72,000 2,250,000 7,329,000",
+      "supports": "Ingram cash breakdown: salary severance, target bonus severance, payment in lieu of COBRA, 2024 cash incentives"
+    },
+    {
+      "id": "m092",
+      "form": "8-K",
+      "accession": "0001193125-24-221104",
+      "filing_date": "2024-09-18",
+      "url": "https://www.sec.gov/Archives/edgar/data/1172222/000119312524221104/d871990d8k.htm",
+      "quote": "As a result of the Merger, at the Effective Time, Peter Ingram, Aaron Alter and Shannon Okinaka resigned from their positions as officers of Hawaiian.",
+      "supports": "Ingram resigned at the 2024-09-18 closing"
+    },
+    {
+      "id": "m093",
+      "form": "DEF 14A",
+      "accession": "0001172222-24-000032",
+      "filing_date": "2024-04-01",
+      "url": "https://www.sec.gov/Archives/edgar/data/1172222/000117222224000032/ha-20240401.htm",
+      "quote": "Mr. Ingram has been a member of our Board of Directors and the President and Chief Executive Officer for both Hawaiian Airlines, Inc. (\"Hawaiian\"), and its parent company, Hawaiian Holdings, Inc., since March 1, 2018.",
+      "supports": "Ingram CEO since 2018-03-01"
+    },
+    {
+      "id": "m094",
+      "form": "DEF 14A",
+      "accession": "0001172222-24-000032",
+      "filing_date": "2024-04-01",
+      "url": "https://www.sec.gov/Archives/edgar/data/1172222/000117222224000032/ha-20240401.htm",
+      "quote": "2023 $ 4,525,350 $ 7,408,143 $ 1,796,370 $ 2,680,888 $ 80.23 $ 81.53",
+      "supports": "PvP table FY2023: TSR 80.23 vs peer group 81.53"
+    },
+    {
+      "id": "m095",
+      "form": "DEF 14A",
+      "accession": "0001172222-24-000032",
+      "filing_date": "2024-04-01",
+      "url": "https://www.sec.gov/Archives/edgar/data/1172222/000117222224000032/ha-20240401.htm",
+      "quote": "The peer group used is the NYSE ARCA Airline Index, as used in the Company's performance graph in our Annual Report.",
+      "supports": "Peer index"
+    },
+    {
+      "id": "m100",
+      "form": "DEFM14A",
+      "accession": "0001193125-24-226970",
+      "filing_date": "2024-09-26",
+      "url": "https://www.sec.gov/Archives/edgar/data/55067/000119312524226970/d893453ddefm14a.htm",
+      "quote": "Name Cash ($)(1) Equity ($)(2) Perquisites/ Benefits ($)(3) Tax Reimbursement ($)(4) Total ($) Steven A. Cahillane $ 8,513,578 $ 66,164,385 $ 91,024 $ 16,218,989 $ 90,987,976",
+      "supports": "Golden parachute table row for Cahillane"
+    },
+    {
+      "id": "m101",
+      "form": "DEFM14A",
+      "accession": "0001193125-24-226970",
+      "filing_date": "2024-09-26",
+      "url": "https://www.sec.gov/Archives/edgar/data/55067/000119312524226970/d893453ddefm14a.htm",
+      "quote": "Name Cash Severance ($) Prorated Target Annual Bonus ($) Accrued but Unpaid Vacation ($) Steven A. Cahillane $ 7,020,000 $ 1,467,616 $ 25,962",
+      "supports": "Cahillane cash breakdown"
+    },
+    {
+      "id": "m102",
+      "form": "DEFM14A",
+      "accession": "0001193125-24-226970",
+      "filing_date": "2024-09-26",
+      "url": "https://www.sec.gov/Archives/edgar/data/55067/000119312524226970/d893453ddefm14a.htm",
+      "quote": "Amounts shown reflect the estimated gross-up payments in respect of any Excise Tax for each named executive officer following a resignation from employment for \"good reason\" upon the Closing",
+      "supports": "Tax column is an excise-tax gross-up"
+    },
+    {
+      "id": "m103",
+      "form": "DEFM14A",
+      "accession": "0001193125-24-226970",
+      "filing_date": "2024-09-26",
+      "url": "https://www.sec.gov/Archives/edgar/data/55067/000119312524226970/d893453ddefm14a.htm",
+      "quote": "each named executive officer experiences a COC Termination or a Qualifying Termination at or immediately following the Effective Time",
+      "supports": "GP table termination assumption"
+    },
+    {
+      "id": "m104",
+      "form": "8-K",
+      "accession": "0001193125-25-315130",
+      "filing_date": "2025-12-11",
+      "url": "https://www.sec.gov/Archives/edgar/data/55067/000119312525315130/d90636d8k.htm",
+      "quote": "following the Effective Time, (i) each of Steve Cahillane, Nicolas Amaya, Shumit Kapoor, David Lawlor, John Renwick and Kurt Forche resigned as an officer of the Company",
+      "supports": "Cahillane resigned at the 2025-12-11 closing"
+    },
+    {
+      "id": "m105",
+      "form": "DEF 14A",
+      "accession": "0000055067-24-000010",
+      "filing_date": "2024-03-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/55067/000005506724000010/k-20240303.htm",
+      "quote": "including in 2017 in connection with Mr. Cahillane's appointment as CEO and as a director of the Company.",
+      "supports": "Cahillane appointed CEO in 2017"
+    },
+    {
+      "id": "m106",
+      "form": "DEF 14A",
+      "accession": "0000055067-24-000010",
+      "filing_date": "2024-03-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/55067/000005506724000010/k-20240303.htm",
+      "quote": "2023 17,038,641 5,856,863 (4) 4,832,424 1,803,963 (4) 99.45 119.68",
+      "supports": "PvP table FY2023: TSR 99.45 vs peer group 119.68"
+    },
+    {
+      "id": "m107",
+      "form": "DEF 14A",
+      "accession": "0000055067-24-000010",
+      "filing_date": "2024-03-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/55067/000005506724000010/k-20240303.htm",
+      "quote": "Company and Peer Group TSR reflects the Company's peer group (S&P 500 Packaged Foods and Meats Index) as reflected in our Annual Report on the Form 10-K pursuant to Item 201(e) of Regulation S-K for the fiscal year ended December 30, 2023. Each year reflects what the cumulative value of $100 would be, including the reinvestment of dividends, if such amount were invested on December 27, 2019.",
+      "supports": "TSR base date and peer index"
+    },
+    {
+      "id": "m110",
+      "form": "DEF 14A",
+      "accession": "0001140361-25-021135",
+      "filing_date": "2025-06-02",
+      "url": "https://www.sec.gov/Archives/edgar/data/813828/000114036125021135/ny20047871x1_def14a.htm",
+      "quote": "Robert M. Bakish Actual Termination Payments 6,200,000 24,800,000 10,364,885 88,160 25,000 27,817,864 69,295,909",
+      "supports": "Actual termination payments: salary continuation, annual bonus continuation, pro-rata bonus, medical/dental/life, outplacement, equity acceleration/continuation, total"
+    },
+    {
+      "id": "m111",
+      "form": "DEF 14A",
+      "accession": "0001140361-25-021135",
+      "filing_date": "2025-06-02",
+      "url": "https://www.sec.gov/Archives/edgar/data/813828/000114036125021135/ny20047871x1_def14a.htm",
+      "quote": "Termination Scenario Continuation of Salary and Other Cash Compensation ($) Annual Bonus Continuation ($) Pro-Rata Bonus for Year of Termination ($) Continuation of Medical, Dental & Life Insurance ($) Outplacement Assistance ($) Total Acceleration/ Continuation of Equity Awards ($) Total ($)",
+      "supports": "Column headings of the Bakish termination table"
+    },
+    {
+      "id": "m112",
+      "form": "DEF 14A",
+      "accession": "0001140361-25-021135",
+      "filing_date": "2025-06-02",
+      "url": "https://www.sec.gov/Archives/edgar/data/813828/000114036125021135/ny20047871x1_def14a.htm",
+      "quote": "Mr. Bakish remained eligible to have his current severance entitlements and benefits under the transition agreement adjusted to the more favorable terms under the CIC Plan described above in the event that a Change in Control occurred on or before April 30, 2025.",
+      "supports": "CIC enhancement window ended 2025-04-30"
+    },
+    {
+      "id": "m113",
+      "form": "DEFM14C",
+      "accession": "0001193125-25-026059",
+      "filing_date": "2025-02-13",
+      "url": "https://www.sec.gov/Archives/edgar/data/813828/000119312525026059/d813356ddefm14c.htm",
+      "quote": "Robert M. Bakish(5) 49,114,885 0 134,033 49,248,918",
+      "supports": "Golden Parachute Compensation table row for Bakish (estimated CIC-enhanced amount)"
+    },
+    {
+      "id": "m114",
+      "form": "DEFM14C",
+      "accession": "0001193125-25-026059",
+      "filing_date": "2025-02-13",
+      "url": "https://www.sec.gov/Archives/edgar/data/813828/000119312525026059/d813356ddefm14c.htm",
+      "quote": "Mr. Bakish stepped down from his position as President and Chief Executive Officer of Paramount effective April 30, 2024 and, on April 29, 2024, entered into a transition services agreement and general release of claims with Paramount",
+      "supports": "Bakish stepped down 2024-04-30"
+    },
+    {
+      "id": "m115",
+      "form": "DEFM14C",
+      "accession": "0001193125-25-026059",
+      "filing_date": "2025-02-13",
+      "url": "https://www.sec.gov/Archives/edgar/data/813828/000119312525026059/d813356ddefm14c.htm",
+      "quote": "Pursuant to the transition agreement, the termination of Mr. Bakish's employment on October 31, 2024 was deemed a termination without cause",
+      "supports": "Termination deemed without cause, 2024-10-31"
+    },
+    {
+      "id": "m116",
+      "form": "DEF 14A",
+      "accession": "0001140361-25-021135",
+      "filing_date": "2025-06-02",
+      "url": "https://www.sec.gov/Archives/edgar/data/813828/000114036125021135/ny20047871x1_def14a.htm",
+      "quote": "On August 13, 2019, Viacom entered into an employment agreement with Mr. Bakish, pursuant to which, upon the closing of the ViacomCBS Merger, he became our President and Chief Executive Officer.",
+      "supports": "Bakish became CEO at the ViacomCBS merger closing (2019-12-04)"
+    },
+    {
+      "id": "m117",
+      "form": "DEF 14A",
+      "accession": "0001193125-24-105026",
+      "filing_date": "2024-04-22",
+      "url": "https://www.sec.gov/Archives/edgar/data/813828/000119312524105026/d558817ddef14a.htm",
+      "quote": "2023 31,257,129 22,339,289 5,006,453 3,950,514 Class B 39.86 155.53",
+      "supports": "PvP table FY2023: Class B TSR 39.86 vs peer group 155.53"
+    },
+    {
+      "id": "m118",
+      "form": "DEF 14A",
+      "accession": "0001193125-24-105026",
+      "filing_date": "2024-04-22",
+      "url": "https://www.sec.gov/Archives/edgar/data/813828/000119312524105026/d558817ddef14a.htm",
+      "quote": "namely, the S&P 500 Media and Entertainment Index, for purposes of this disclosure.",
+      "supports": "Peer group index"
     }
   ],
   "rejected": []

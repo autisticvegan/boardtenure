@@ -105,7 +105,7 @@ def load(conn: psycopg.Connection, path: Path) -> int:
                   {", ".join(PAY_FIELDS)},
                   total_is_stated, value_of_100, comparison_name, comparison_value_of_100, stock_period_start,
                   stock_period_end, clawback_or_forfeiture, notes, source_urls, evidence_ids)
-                VALUES ({", ".join(["%s"] * (14 + len(PAY_FIELDS) + 11))})
+                VALUES ({", ".join(["%s"] * (14 + len(PAY_FIELDS) + 10))})
                 ON CONFLICT (id) DO NOTHING""",
             (c["id"], slice_, c["person"]["name"], c["person"].get("sec_cik"), c["company"]["name"],
              c["company"].get("cik"), c["company"].get("ticker"), c["role"], c.get("tenure_start"), c.get("tenure_end"),

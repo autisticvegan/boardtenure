@@ -13,8 +13,10 @@ export function Receipt({ company, person, role, left, items, total, totalStated
   const listed = items.filter((i) => i.value != null && i.value !== 0);
   // A stated total can include parts the filing doesn't break out; show the difference as its own line.
   const parts = listed.reduce((a, i) => a + (i.value ?? 0), 0);
-  const rest = totalStated && total != null && total - parts > Math.max(1, total * 0.01) ? total - parts : null;
-  const shown = rest != null ? [...listed, { label: "Not itemized in the filing", value: rest }] : listed;
+  const rest = total != null && total - parts > Math.max(1, total * 0.01) ? total - parts : null;
+  const shown = rest != null
+    ? [...listed, { label: totalStated ? "Not itemized in the filing" : "Other disclosed parts", value: rest }]
+    : listed;
   return (
     <article className="hiw-receipt relative px-5 pt-5 pb-7 text-[12.5px] leading-5 shadow-card">
       <div className="text-center">

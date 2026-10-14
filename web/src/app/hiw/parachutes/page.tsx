@@ -33,11 +33,14 @@ function monthsBetween(a: string | null, b: string | null): number | null {
 }
 
 const yearOf = (s: string | null) => s?.slice(0, 4) ?? "";
+const clip = (s: string, n: number) => (s.length > n ? `${s.slice(0, n).replace(/\s+\S*$/, "")}…` : s);
 
 export default async function Parachutes({ searchParams }: PageProps<"/hiw/parachutes">) {
   const sp = await searchParams;
   const kind = (KINDS.find((k) => k.key === sp.kind)?.key ?? "all") as Kind;
-  const all = (await getAllChutes()).filter((c) => (c.total ?? 0) > 0);
+  const everything = await getAllChutes();
+  const all = everything.filter((c) => (c.total ?? 0) > 0);
+  const clawed = everything.filter((c) => c.clawback_or_forfeiture && (kind === "all" || c.context === kind));
   const rows = all.filter((c) => kind === "all" || c.context === kind).sort((a, b) => (b.total ?? 0) - (a.total ?? 0));
   const sum = rows.reduce((a, c) => a + (c.total ?? 0), 0);
   const fell = rows.filter((c) => c.value_of_100 != null && c.value_of_100 < 100);
@@ -86,6 +89,30 @@ export default async function Parachutes({ searchParams }: PageProps<"/hiw/parac
         {rows.map((c) => <ChuteReceipt key={c.key} c={c} />)}
       </div>
 
+      {clawed.length > 0 && (
+        <section aria-labelledby="clawed" className="space-y-4">
+          <div>
+            <div className="text-[12px] font-bold uppercase tracking-[0.16em] text-gain-ink">The rare exception</div>
+            <h2 id="clawed" className="mt-1 text-[28px] leading-8 font-extrabold tracking-[-0.02em] text-ink">Clawed back, forfeited, or left with nothing</h2>
+            <p className="mt-1 text-[14px] leading-5 text-ink-2 max-w-[70ch]">
+              Sometimes the parachute doesn&apos;t open: pay forfeited on the way out, or money handed back later.
+            </p>
+          </div>
+          <ul className="grid gap-3 md:grid-cols-2">
+            {clawed.map((c) => (
+              <li key={c.key} className="rounded-[14px] border border-gain/40 bg-surface px-5 py-4 shadow-card">
+                <div className="text-[11px] leading-[14px] uppercase tracking-[0.1em] text-ink-3">{c.company} · {yearOf(c.exit_date)}</div>
+                <div className="mt-1 text-[16px] leading-6 font-bold text-ink">{c.person}</div>
+                <p className="mt-1 text-[13px] leading-5 text-ink-2">{c.clawback_or_forfeiture}</p>
+                {c.source_urls[0] && (
+                  <a href={c.source_urls[0]} target="_blank" rel="noreferrer" className="mt-1 inline-block text-[12px] text-ink-3 underline underline-offset-2 hover:text-ink-2">source</a>
+                )}
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
       <p className="text-[12px] leading-4 text-ink-3 max-w-[80ch]">
         &ldquo;Estimated&rdquo; packages come from tables a company files before the exit, such as a merger proxy&apos;s golden
         parachute table; the rest are what filings say was paid. Stock vesting is valued as the filing values it. The
@@ -104,7 +131,7 @@ function ChuteReceipt({ c }: { c: Chute }) {
       company={c.ticker ? `${c.company} (${c.ticker})` : c.company}
       person={c.person}
       role={c.role}
-      left={[c.exit_words ? `“${c.exit_words}”` : null, yearOf(c.exit_date)].filter(Boolean).join(" · ")}
+      left={[c.exit_words ? `“${clip(c.exit_words, 110)}”` : null, yearOf(c.exit_date)].filter(Boolean).join(" · ")}
       items={[
         { label: "Severance", value: c.severance_cash },
         { label: "Bonus on the way out", value: c.bonus },
