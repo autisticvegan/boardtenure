@@ -12,6 +12,8 @@ import { median } from "@/lib/track-record";
 export const metadata: Metadata = { title: "What boards cost" };
 export const revalidate = 3600;
 
+const UNTESTED = new Set(["tsla", "amzn"]);
+
 // A seat's record distinguishes an effect from chance at about two standard errors.
 const Z = 2;
 
@@ -27,9 +29,10 @@ export default async function BoardsPage() {
   const [years, detect, reactions, biggest] = await Promise.all([
     getBoardYears(), getDetectability(), getReactionStats(), getBiggestReactions(),
   ]);
-  // Tesla's board took no pay from 2021 under a court settlement over its earlier awards, so its
-  // years say nothing about how pay responds to results; they stay in the tables, not the test.
-  const tested = years.filter((y) => y.slug !== "tsla" && y.prev_median_paid && y.median_paid && y.prior_relative_pp != null);
+  // Left out of the pay-response test (kept in the tables): Tesla's board took no pay from 2021 under a
+  // court settlement over earlier awards, and Amazon grants directors stock only every few years, so
+  // its year-to-year medians track who got a grant, not a pay decision.
+  const tested = years.filter((y) => !UNTESTED.has(y.slug) && y.prev_median_paid && y.median_paid && y.prior_relative_pp != null);
   const change = (y: BoardYear) => y.median_paid! / y.prev_median_paid! - 1;
   const afterTrail = tested.filter((y) => y.prior_relative_pp! < 0);
   const afterBeat = tested.filter((y) => y.prior_relative_pp! >= 0);
@@ -85,8 +88,9 @@ export default async function BoardsPage() {
           </Card>
         </div>
         <p className="mt-3 text-[12px] leading-4 text-ink-3 max-w-[80ch]">
-          {tested.length} board-years at {new Set(tested.map((y) => y.slug)).size} companies; Tesla is left out because a court
-          settlement over earlier director awards stopped its board&apos;s pay from 2021. Director stock grants are usually a
+          {tested.length} board-years at {new Set(tested.map((y) => y.slug)).size} companies. Left out: Tesla, where a court
+          settlement over earlier director awards stopped the board&apos;s pay from 2021, and Amazon, which grants directors
+          stock only every few years. Director stock grants are usually a
           fixed dollar target set by policy, so year-to-year moves mostly reflect policy changes, first-year grants and
           grant-date prices. A small sample: read it as &ldquo;no sign pay falls after bad years&rdquo;, not a measured effect.
         </p>

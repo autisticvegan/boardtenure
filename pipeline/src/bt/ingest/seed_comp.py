@@ -53,8 +53,11 @@ def printed(row: dict, field: str) -> float | None:
 
 
 def numbers_in(text: str) -> set[float]:
-    return {float(m.group(1).replace(",", "") + ("." + m.group(2) if m.group(2) else ""))
-            for m in _NUMBER.finditer(text)}
+    out = {float(m.group(1).replace(",", "") + ("." + m.group(2) if m.group(2) else ""))
+           for m in _NUMBER.finditer(text)}
+    # Typesetting slips print a thousands separator as a space ("$409 903"); also read those as one number.
+    out |= {float(m.group(0).replace(" ", "")) for m in re.finditer(r"(?<![\d,.])\d{1,3}(?: \d{3})+(?![\d,])", text)}
+    return out
 
 
 def row_segments(quote: str, year: int) -> list[str]:

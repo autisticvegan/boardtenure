@@ -133,3 +133,10 @@ def test_sale_value_uses_split_adjusted_end_price():
     # $973 before a 10-for-1 split is $97.30 in today's units; 1,000 shares then are 10,000 now.
     assert Decimal("973") / split_factor_after(splits, date(2025, 4, 17)) == Decimal("97.3")
     assert Decimal(1000) * split_factor_after(splits, date(2025, 4, 17)) == 10000
+
+
+
+def test_numbers_read_space_separated_thousands():
+    from bt.ingest.seed_comp import numbers_in
+    found = numbers_in("Maynard Webb 35,000 374,903 $409 903")
+    assert {35000, 374903, 409903} <= found

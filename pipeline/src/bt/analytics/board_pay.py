@@ -38,7 +38,8 @@ def recompute(conn: psycopg.Connection) -> int:
             """SELECT fiscal_year, max(fiscal_year_end) AS fy_end, count(*)::int AS listed,
                       count(*) FILTER (WHERE total > 0)::int AS paid, sum(total) AS board_total,
                       array_agg(total) FILTER (WHERE total > 0) AS totals
-               FROM director_comp_latest WHERE company_id = %s GROUP BY fiscal_year ORDER BY fiscal_year""",
+               FROM director_comp_latest WHERE company_id = %s AND NOT excluded_from_board_cost
+               GROUP BY fiscal_year ORDER BY fiscal_year""",
             (company_id,)).fetchall()
         ends = {y["fiscal_year"]: y["fy_end"] for y in years}
         rel: dict[int, float | None] = {}

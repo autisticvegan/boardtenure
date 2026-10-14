@@ -117,7 +117,7 @@ export default async function HiwHome() {
 
       <div className="grid gap-6 lg:grid-cols-2">
         {heads.length > 0 && (
-          <section aria-labelledby="heads" className="space-y-4">
+          <section aria-labelledby="heads" className="min-w-0 space-y-4">
             <Head id="heads" kicker="Heads I win" title="Even marked down, still way up." href="/heads-i-win"
                   sub="Shareholders lost money; CEO pay “actually paid”, with stock awards at year-end prices, still added up to this." />
             <div className="space-y-3">
@@ -126,7 +126,7 @@ export default async function HiwHome() {
           </section>
         )}
         {failing.length > 0 && (
-          <section aria-labelledby="failing" className="space-y-4">
+          <section aria-labelledby="failing" className="min-w-0 space-y-4">
             <Head id="failing" kicker="Failing up" title="Next job, bigger check." href="/failing-up"
                   sub="Shareholders lost big by one company's own figures; another company hired them as an executive next." />
             <ol className="space-y-3">

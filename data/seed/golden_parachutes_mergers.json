@@ -1,0 +1,821 @@
+{
+  "as_of": "2026-10-14",
+  "slice": "mergers",
+  "method": "TBD",
+  "cases": [
+    {
+      "id": "mergers-01",
+      "person": {
+        "name": "Parag Agrawal",
+        "sec_cik": "0001897113"
+      },
+      "company": {
+        "name": "Twitter, Inc.",
+        "cik": "1418091",
+        "ticker": "TWTR"
+      },
+      "role": "Chief Executive Officer",
+      "tenure_start": "2021-11-29",
+      "tenure_end": "2022-10-27",
+      "exit_type": "change_in_control",
+      "context": "merger",
+      "exit_words": "Each NEO experiences an involuntary termination on September 30, 2022",
+      "basis": "estimated",
+      "pay": {
+        "severance_cash": 1000000,
+        "bonus": null,
+        "equity": 56352227,
+        "pension_deferred": null,
+        "benefits_other": 9172,
+        "consulting": null,
+        "tax_gross_up": null,
+        "total": 57361400,
+        "total_is_stated": true
+      },
+      "pay_evidence_refs": [
+        "m001",
+        "m002",
+        "m003",
+        "m006"
+      ],
+      "stock": null,
+      "clawback_or_forfeiture": null,
+      "notes": "Item 402(t) estimate in the merger proxy, assuming an involuntary termination on 2022-09-30 at $54.20 per share; the merger closed 2022-10-27 and Twitter stopped filing with the SEC, so no later SEC filing states what was actually paid. Twitter's 10-K performance graphs were published as images with no data table, so stock is null. Cash is 100% of base salary; equity is 100% acceleration of unvested RSUs and PSUs (PSUs at target)."
+    },
+    {
+      "id": "mergers-02",
+      "person": {
+        "name": "Ned Segal",
+        "sec_cik": "0001575833"
+      },
+      "company": {
+        "name": "Twitter, Inc.",
+        "cik": "1418091",
+        "ticker": "TWTR"
+      },
+      "role": "Chief Financial Officer",
+      "tenure_start": "2017-08",
+      "tenure_end": "2022-10-27",
+      "exit_type": "change_in_control",
+      "context": "merger",
+      "exit_words": "Each NEO experiences an involuntary termination on September 30, 2022",
+      "basis": "estimated",
+      "pay": {
+        "severance_cash": 600000,
+        "bonus": null,
+        "equity": 43836418,
+        "pension_deferred": null,
+        "benefits_other": 31730,
+        "consulting": null,
+        "tax_gross_up": null,
+        "total": 44468148,
+        "total_is_stated": true
+      },
+      "pay_evidence_refs": [
+        "m001",
+        "m002",
+        "m004"
+      ],
+      "stock": null,
+      "clawback_or_forfeiture": null,
+      "notes": "Item 402(t) estimate in the merger proxy, assuming an involuntary termination on 2022-09-30 at $54.20 per share; the merger closed 2022-10-27 and Twitter stopped filing with the SEC, so no later SEC filing states what was actually paid. Twitter's 10-K performance graphs were published as images with no data table, so stock is null. Segal, like Agrawal, had 100% acceleration of unvested equity (other NEOs 50%)."
+    },
+    {
+      "id": "mergers-03",
+      "person": {
+        "name": "Vijaya Gadde",
+        "sec_cik": "0001590851"
+      },
+      "company": {
+        "name": "Twitter, Inc.",
+        "cik": "1418091",
+        "ticker": "TWTR"
+      },
+      "role": "Chief Legal Officer",
+      "tenure_start": "2018-02",
+      "tenure_end": "2022-10-27",
+      "exit_type": "change_in_control",
+      "context": "merger",
+      "exit_words": "Each NEO experiences an involuntary termination on September 30, 2022",
+      "basis": "estimated",
+      "pay": {
+        "severance_cash": 600000,
+        "bonus": null,
+        "equity": 19381216,
+        "pension_deferred": null,
+        "benefits_other": 31730,
+        "consulting": null,
+        "tax_gross_up": null,
+        "total": 20012946,
+        "total_is_stated": true
+      },
+      "pay_evidence_refs": [
+        "m001",
+        "m002",
+        "m005"
+      ],
+      "stock": null,
+      "clawback_or_forfeiture": null,
+      "notes": "Item 402(t) estimate in the merger proxy, assuming an involuntary termination on 2022-09-30 at $54.20 per share; the merger closed 2022-10-27 and Twitter stopped filing with the SEC, so no later SEC filing states what was actually paid. Twitter's 10-K performance graphs were published as images with no data table, so stock is null. Equity is 50% acceleration of unvested RSUs and PSUs (PSUs at target)."
+    },
+    {
+      "id": "mergers-04",
+      "person": {
+        "name": "Timothy C. Wentworth",
+        "sec_cik": "0001252016"
+      },
+      "company": {
+        "name": "Walgreens Boots Alliance, Inc.",
+        "cik": "1618921",
+        "ticker": "WBA"
+      },
+      "role": "Chief Executive Officer",
+      "tenure_start": "2023-10-23",
+      "tenure_end": "2025-08-28",
+      "exit_type": "change_in_control",
+      "context": "merger",
+      "exit_words": "voluntarily resigned from all of their respective positions with the Company and its subsidiaries",
+      "basis": "estimated",
+      "pay": {
+        "severance_cash": 11250000,
+        "bonus": 542466,
+        "equity": 14964099,
+        "pension_deferred": null,
+        "benefits_other": 36827,
+        "consulting": null,
+        "tax_gross_up": null,
+        "total": 26793392,
+        "total_is_stated": true
+      },
+      "pay_evidence_refs": [
+        "m010",
+        "m011",
+        "m012",
+        "m013",
+        "m014"
+      ],
+      "stock": null,
+      "clawback_or_forfeiture": null,
+      "notes": "Item 402(t) estimate in the Sycamore Partners take-private proxy, assuming a qualifying termination on an assumed closing of 2025-11-05. The deal closed 2025-08-28 and the closing 8-K says Wentworth 'voluntarily resigned' at completion; no later SEC filing states the actual payout. Equity value assumes maximum payout of the $3.00 DAP Rights. No in-tenure TSR table: the FY2024 pay-versus-performance TSR ($100 on 2020-08-31 -> $30.15 vs $152.12 for the S&P 500 Health Care Index) starts before his tenure."
+    },
+    {
+      "id": "mergers-05",
+      "person": {
+        "name": "Robert A. Kotick",
+        "sec_cik": "0001091423"
+      },
+      "company": {
+        "name": "Activision Blizzard, Inc.",
+        "cik": "718877",
+        "ticker": "ATVI"
+      },
+      "role": "Chief Executive Officer",
+      "tenure_start": "1991-02",
+      "tenure_end": "2023-10-13",
+      "exit_type": "change_in_control",
+      "context": "merger",
+      "exit_words": "terminated by Activision Blizzard or its affiliates (including Microsoft) without \"cause\" or the named executive officer resigned for \"good reason\"",
+      "basis": "estimated",
+      "pay": {
+        "severance_cash": 14369130,
+        "bonus": null,
+        "equity": 0,
+        "pension_deferred": null,
+        "benefits_other": 219762,
+        "consulting": null,
+        "tax_gross_up": null,
+        "total": 14588892,
+        "total_is_stated": true
+      },
+      "pay_evidence_refs": [
+        "m020",
+        "m021",
+        "m022",
+        "m023",
+        "m024",
+        "m027"
+      ],
+      "stock": {
+        "company_value_of_100": 124.63,
+        "comparison_name": "S&P 500",
+        "comparison_value_of_100": 156.89,
+        "period_start": "2017-12-31",
+        "period_end": "2022-12-31",
+        "evidence_refs": [
+          "m025",
+          "m026"
+        ]
+      },
+      "clawback_or_forfeiture": null,
+      "notes": "Item 402(t) estimate in the Microsoft merger proxy (assumed closing 2022-03-08). The table shows $0 equity: Kotick held no unvested awards that would accelerate, so his already-owned shares are not in the parachute. The merger closed 2023-10-13 and Activision stopped filing; tenure_end is the closing date (when he left the board per the 8-K); Activision filed nothing on his later departure as CEO, so no SEC filing states the actual payout. Benefits are two years of health coverage plus supplemental life insurance through October 2026."
+    },
+    {
+      "id": "mergers-06",
+      "person": {
+        "name": "Gary Steele",
+        "sec_cik": "0001547434"
+      },
+      "company": {
+        "name": "Splunk Inc.",
+        "cik": "1353283",
+        "ticker": "SPLK"
+      },
+      "role": "President and Chief Executive Officer",
+      "tenure_start": "2022-04-11",
+      "tenure_end": "2024-03",
+      "exit_type": "change_in_control",
+      "context": "merger",
+      "exit_words": "a termination of employment by Splunk and/or Parent without \"cause\" or by the executive officer for \"good reason\"",
+      "basis": "estimated",
+      "pay": {
+        "severance_cash": 9842123,
+        "bonus": null,
+        "equity": 90343609,
+        "pension_deferred": null,
+        "benefits_other": 30802,
+        "consulting": null,
+        "tax_gross_up": null,
+        "total": 100216534,
+        "total_is_stated": true
+      },
+      "pay_evidence_refs": [
+        "m030",
+        "m031",
+        "m032",
+        "m033"
+      ],
+      "stock": null,
+      "clawback_or_forfeiture": null,
+      "notes": "Item 402(t) estimate in the Cisco merger proxy (assumed closing 2023-10-15). Cash of $9,842,123 = $1,800,000 salary severance + $2,250,000 bonus severance + $792,123 prorated target bonus + $5,000,000 retention bonus. Equity assumes post-FY2023 PSUs at maximum; part of it vests at closing regardless of termination. The proxy refers to a 'Parent Employment Agreement' with Cisco, i.e. Steele was expected to stay on after the March 2024 closing. No in-tenure TSR table (Splunk filed no 10-K after FY2023, and its PvP TSR starts 2020-01-31)."
+    },
+    {
+      "id": "mergers-07",
+      "person": {
+        "name": "Rangarajan (Raghu) Raghuram",
+        "sec_cik": "0001567874"
+      },
+      "company": {
+        "name": "VMware, Inc.",
+        "cik": "1124610",
+        "ticker": "VMW"
+      },
+      "role": "Chief Executive Officer",
+      "tenure_start": "2021-06",
+      "tenure_end": "2023-11-22",
+      "exit_type": "change_in_control",
+      "context": "merger",
+      "exit_words": "terminated by VMware without cause or by the named executive officer for good reason",
+      "basis": "estimated",
+      "pay": {
+        "severance_cash": 6000000,
+        "bonus": null,
+        "equity": 46510167,
+        "pension_deferred": null,
+        "benefits_other": 70797,
+        "consulting": null,
+        "tax_gross_up": null,
+        "total": 52580964,
+        "total_is_stated": true
+      },
+      "pay_evidence_refs": [
+        "m040",
+        "m041",
+        "m042",
+        "m043"
+      ],
+      "stock": null,
+      "clawback_or_forfeiture": null,
+      "notes": "Item 402(t) estimate in the Broadcom merger proxy/prospectus (assumed effective time 2022-09-30, $130.09 per share). Severance is 2.0x highest salary plus target bonus; equity is double-trigger RSU/PSU acceleration. The merger closed 2023-11-22; no later VMware filing states the actual payout. No in-tenure TSR table."
+    },
+    {
+      "id": "mergers-08",
+      "person": {
+        "name": "John B. Hess",
+        "sec_cik": "0001087997"
+      },
+      "company": {
+        "name": "Hess Corporation",
+        "cik": "4447",
+        "ticker": "HES"
+      },
+      "role": "Chief Executive Officer",
+      "tenure_start": "1995",
+      "tenure_end": "2025-07-18",
+      "exit_type": "change_in_control",
+      "context": "merger",
+      "exit_words": "ceased to be directors or officers of Hess at the Effective Time",
+      "basis": "estimated",
+      "pay": {
+        "severance_cash": 15896400,
+        "bonus": 2365000,
+        "equity": 43628159,
+        "pension_deferred": 4700000,
+        "benefits_other": 98955,
+        "consulting": null,
+        "tax_gross_up": 34513867,
+        "total": 101202381,
+        "total_is_stated": true
+      },
+      "pay_evidence_refs": [
+        "m050",
+        "m051",
+        "m052",
+        "m053",
+        "m054",
+        "m056"
+      ],
+      "stock": {
+        "company_value_of_100": 214.51,
+        "comparison_name": "S&P 500",
+        "comparison_value_of_100": 196.85,
+        "period_start": "2019-12-31",
+        "period_end": "2024-12-31",
+        "evidence_refs": [
+          "m055"
+        ]
+      },
+      "clawback_or_forfeiture": null,
+      "notes": "Item 402(t) estimate in the Chevron merger proxy/prospectus (assumed closing 2024-12-31, $150.25 per share). Includes a $34,513,867 excise-tax make-whole. Pension is three extra years of service and age credit. Hess was retirement eligible, so his unvested awards would also vest on retirement. The merger closed 2025-07-18; no later Hess filing states the actual payout."
+    },
+    {
+      "id": "mergers-09",
+      "person": {
+        "name": "Scott D. Sheffield",
+        "sec_cik": "0001034316"
+      },
+      "company": {
+        "name": "Pioneer Natural Resources Company",
+        "cik": "1038357",
+        "ticker": "PXD"
+      },
+      "role": "Chief Executive Officer",
+      "tenure_start": "2019-02",
+      "tenure_end": "2023-12-31",
+      "exit_type": "change_in_control",
+      "context": "merger",
+      "exit_words": "the expiration of his transition services upon the closing of the Transaction will be considered a termination by the Company without cause",
+      "basis": "estimated",
+      "pay": {
+        "severance_cash": 11661000,
+        "bonus": 2110685,
+        "equity": 111339477,
+        "pension_deferred": null,
+        "benefits_other": 710786,
+        "consulting": null,
+        "tax_gross_up": null,
+        "total": 125821948,
+        "total_is_stated": true
+      },
+      "pay_evidence_refs": [
+        "m060",
+        "m061",
+        "m062",
+        "m063",
+        "m064",
+        "m067"
+      ],
+      "stock": {
+        "company_value_of_100": 178.11,
+        "comparison_name": "S&P Oil & Gas Exploration & Production Index",
+        "comparison_value_of_100": 191.5,
+        "period_start": "2019-12-31",
+        "period_end": "2022-12-31",
+        "evidence_refs": [
+          "m065",
+          "m066"
+        ]
+      },
+      "clawback_or_forfeiture": null,
+      "notes": "Item 402(t) estimate in the ExxonMobil merger proxy/prospectus (assumed closing 2023-11-17, $248.90 per share). Equity vests single-trigger at the merger (performance units at maximum). Sheffield retired as CEO on 2023-12-31 and became a non-executive Special Advisor until the May 2024 closing, which his transition letter treats as a termination without cause. Stock is the 2023 proxy's pay-versus-performance TSR (3-year window, which by rule starts at 2019 year-end, inside his 2019-2023 CEO stint)."
+    },
+    {
+      "id": "mergers-10",
+      "person": {
+        "name": "Richard P. Dealy",
+        "sec_cik": "0001121919"
+      },
+      "company": {
+        "name": "Pioneer Natural Resources Company",
+        "cik": "1038357",
+        "ticker": "PXD"
+      },
+      "role": "Chief Executive Officer",
+      "tenure_start": "2024-01-01",
+      "tenure_end": "2024-05",
+      "exit_type": "change_in_control",
+      "context": "merger",
+      "exit_words": "each Pioneer named executive officer experiences a qualifying termination immediately following consummation of the Merger",
+      "basis": "estimated",
+      "pay": {
+        "severance_cash": 4738901,
+        "bonus": 675419,
+        "equity": 36235103,
+        "pension_deferred": null,
+        "benefits_other": 680307,
+        "consulting": null,
+        "tax_gross_up": null,
+        "total": 42329730,
+        "total_is_stated": true
+      },
+      "pay_evidence_refs": [
+        "m060",
+        "m061",
+        "m062",
+        "m068"
+      ],
+      "stock": null,
+      "clawback_or_forfeiture": null,
+      "notes": "Item 402(t) estimate (assumed closing 2023-11-17). Dealy was President and COO when the table was prepared and became CEO on 2024-01-01. The merger closed in May 2024; no later Pioneer filing states the actual payout. No in-tenure TSR table for his CEO tenure."
+    }
+  ],
+  "evidence": [
+    {
+      "id": "m001",
+      "form": "DEFM14A",
+      "accession": "0001193125-22-202163",
+      "filing_date": "2022-07-26",
+      "url": "https://www.sec.gov/Archives/edgar/data/1418091/000119312522202163/d283119ddefm14a.htm",
+      "quote": "Name Cash ($) (1) Equity ($) (2) Perquisites Benefits ($) (3) Total ($) Parag Agrawal 1,000,000 56,352,227 9,172 57,361,400 Ned Segal 600,000 43,836,418 31,730 44,468,148 Vijaya Gadde 600,000 19,381,216 31,730 20,012,946",
+      "supports": "Golden Parachute Compensation table rows for Agrawal, Segal and Gadde (cash, equity, perquisites/benefits, total)"
+    },
+    {
+      "id": "m002",
+      "form": "DEFM14A",
+      "accession": "0001193125-22-202163",
+      "filing_date": "2022-07-26",
+      "url": "https://www.sec.gov/Archives/edgar/data/1418091/000119312522202163/d283119ddefm14a.htm",
+      "quote": "Each NEO experiences an involuntary termination on September 30, 2022, based on the terms of the severance policy and, for Mr. Agrawal, the Agrawal offer letter. • A price per share of our common stock of $54.20.",
+      "supports": "Golden parachute table assumptions: involuntary termination at an assumed closing; $54.20 per share"
+    },
+    {
+      "id": "m003",
+      "form": "DEF 14A",
+      "accession": "0001140361-22-014049",
+      "filing_date": "2022-04-12",
+      "url": "https://www.sec.gov/Archives/edgar/data/1418091/000114036122014049/ny20001921x3_def14a.htm",
+      "quote": "Our board of directors unanimously appointed Parag Agrawal, our then CTO, as Twitter's new CEO and a member of our board of directors as of November 29, 2021.",
+      "supports": "Agrawal became CEO on 2021-11-29"
+    },
+    {
+      "id": "m004",
+      "form": "DEF 14A",
+      "accession": "0001140361-22-014049",
+      "filing_date": "2022-04-12",
+      "url": "https://www.sec.gov/Archives/edgar/data/1418091/000114036122014049/ny20001921x3_def14a.htm",
+      "quote": "Ned Segal has served as our Chief Financial Officer since August 2017.",
+      "supports": "Segal tenure start"
+    },
+    {
+      "id": "m005",
+      "form": "DEF 14A",
+      "accession": "0001140361-22-014049",
+      "filing_date": "2022-04-12",
+      "url": "https://www.sec.gov/Archives/edgar/data/1418091/000114036122014049/ny20001921x3_def14a.htm",
+      "quote": "Vijaya Gadde has served as our Chief Legal Officer since February 2018 and as Secretary since August 2013.",
+      "supports": "Gadde tenure start"
+    },
+    {
+      "id": "m006",
+      "form": "8-K",
+      "accession": "0001193125-22-272772",
+      "filing_date": "2022-10-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1418091/000119312522272772/d411753d8k.htm",
+      "quote": "On October 27, 2022, and as a result of the consummation of the Merger, Mr. Musk became the sole director of Twitter.",
+      "supports": "Merger closed 2022-10-27"
+    },
+    {
+      "id": "m010",
+      "form": "DEFM14A",
+      "accession": "0001193125-25-137049",
+      "filing_date": "2025-06-06",
+      "url": "https://www.sec.gov/Archives/edgar/data/1618921/000119312525137049/d942554ddefm14a.htm",
+      "quote": "Named Executive Officer Cash ($)(1) Equity($)(2) Perquisites/ Benefits ($)(3) Total ($)(4) Stefano Pessina - 15,531,746 - 15,531,746 Timothy C. Wentworth 11,792,466 14,964,099 36,827 26,793,392",
+      "supports": "Golden Parachute Compensation table row for Wentworth"
+    },
+    {
+      "id": "m011",
+      "form": "DEFM14A",
+      "accession": "0001193125-25-137049",
+      "filing_date": "2025-06-06",
+      "url": "https://www.sec.gov/Archives/edgar/data/1618921/000119312525137049/d942554ddefm14a.htm",
+      "quote": "Named Executive Officer Cash Severance ($) Pro-rated Bonus($) Pension Supplement ($) Retention Bonus ($) Total ($) Stefano Pessina - - - - - Timothy C. Wentworth 11,250,000 542,466 - - 11,792,466",
+      "supports": "Breakdown of Wentworth's cash: severance (2.5x salary plus target bonus) and pro-rated target bonus"
+    },
+    {
+      "id": "m012",
+      "form": "DEFM14A",
+      "accession": "0001193125-25-137049",
+      "filing_date": "2025-06-06",
+      "url": "https://www.sec.gov/Archives/edgar/data/1618921/000119312525137049/d942554ddefm14a.htm",
+      "quote": "a lump sum cash severance payment equal to two and a half times such executive's base salary and target bonus and (ii) a pro-rated target annual bonus for the year of termination",
+      "supports": "Severance formula"
+    },
+    {
+      "id": "m013",
+      "form": "8-K",
+      "accession": "0001193125-25-190603",
+      "filing_date": "2025-08-28",
+      "url": "https://www.sec.gov/Archives/edgar/data/1618921/000119312525190603/d87240d8k.htm",
+      "quote": "Effective upon completion of the Merger, the following named executive officers of the Company voluntarily resigned from all of their respective positions with the Company and its subsidiaries: Timothy C. Wentworth and Mary Langowski.",
+      "supports": "Wentworth resigned at closing (2025-08-28)"
+    },
+    {
+      "id": "m014",
+      "form": "DEFM14A",
+      "accession": "0001193125-25-137049",
+      "filing_date": "2025-06-06",
+      "url": "https://www.sec.gov/Archives/edgar/data/1618921/000119312525137049/d942554ddefm14a.htm",
+      "quote": "who stepped down as Interim Chief Executive Officer, effective October 23, 2023, and resumed her service as director.",
+      "supports": "Interim CEO Graham stepped down 2023-10-23 (Wentworth's start)"
+    },
+    {
+      "id": "m020",
+      "form": "DEFM14A",
+      "accession": "0001104659-22-036155",
+      "filing_date": "2022-03-21",
+      "url": "https://www.sec.gov/Archives/edgar/data/718877/000110465922036155/tm225196-4_defm14a.htm",
+      "quote": "Robert A. Kotick $ 14,369,130 $ 0 $ 219,762 $ 14,588,892",
+      "supports": "Golden Parachute Compensation table row for Kotick (cash, equity, perquisites/benefits, total)"
+    },
+    {
+      "id": "m021",
+      "form": "DEFM14A",
+      "accession": "0001104659-22-036155",
+      "filing_date": "2022-03-21",
+      "url": "https://www.sec.gov/Archives/edgar/data/718877/000110465922036155/tm225196-4_defm14a.htm",
+      "quote": "For Mr. Kotick, the amount in this column represents severance and, pursuant to his employment agreement with Activision Blizzard, is equal to three times the sum of his current annual base salary and his 2016 target bonus.",
+      "supports": "Kotick's cash is 3x salary plus his 2016 target bonus"
+    },
+    {
+      "id": "m022",
+      "form": "DEFM14A",
+      "accession": "0001104659-22-036155",
+      "filing_date": "2022-03-21",
+      "url": "https://www.sec.gov/Archives/edgar/data/718877/000110465922036155/tm225196-4_defm14a.htm",
+      "quote": "Mr. Kotick does not currently hold any equity awards for which vesting would accelerate upon the closing of the merger or upon a termination of employment following the closing of the merger.",
+      "supports": "No accelerated equity for Kotick"
+    },
+    {
+      "id": "m023",
+      "form": "DEFM14A",
+      "accession": "0001104659-22-036155",
+      "filing_date": "2022-03-21",
+      "url": "https://www.sec.gov/Archives/edgar/data/718877/000110465922036155/tm225196-4_defm14a.htm",
+      "quote": "the table below sets forth the estimated amounts of the payments and benefits that each named executive officer of Activision Blizzard would have received in connection with the merger, assuming the merger closed on March 8, 2022 and, immediately thereafter, the employment of the named executive officer was terminated by Activision Blizzard or its affiliates (including Microsoft) without \"cause\" or the named executive officer resigned for \"good reason\"",
+      "supports": "GP table assumptions"
+    },
+    {
+      "id": "m024",
+      "form": "10-K",
+      "accession": "0001628280-23-004842",
+      "filing_date": "2023-02-23",
+      "url": "https://www.sec.gov/Archives/edgar/data/718877/000162828023004842/atvi-20221231.htm",
+      "quote": "Mr. Kotick was our Chairman and Chief Executive Officer from February 1991 until July 2008, when he became our President and Chief Executive Officer.",
+      "supports": "Kotick CEO since February 1991"
+    },
+    {
+      "id": "m025",
+      "form": "10-K",
+      "accession": "0001628280-23-004842",
+      "filing_date": "2023-02-23",
+      "url": "https://www.sec.gov/Archives/edgar/data/718877/000162828023004842/atvi-20221231.htm",
+      "quote": "Fiscal year ending December 31: 12/17 12/18 12/19 12/20 12/21 12/22 Activision Blizzard, Inc. $ 100.00 $ 73.93 $ 95.09 $ 149.55 $ 107.68 $ 124.63 Nasdaq Composite 100.00 97.16 132.81 192.47 235.15 158.65 S&P 500 100.00 95.62 125.72 148.85 191.58 156.89",
+      "supports": "Five-year cumulative total return, $100 invested 2017-12-31"
+    },
+    {
+      "id": "m026",
+      "form": "10-K",
+      "accession": "0001628280-23-004842",
+      "filing_date": "2023-02-23",
+      "url": "https://www.sec.gov/Archives/edgar/data/718877/000162828023004842/atvi-20221231.htm",
+      "quote": "The graph and table assume that $100 was invested on December 31, 2017, and that dividends were reinvested daily.",
+      "supports": "TSR base date"
+    },
+    {
+      "id": "m027",
+      "form": "8-K",
+      "accession": "0001104659-23-108985",
+      "filing_date": "2023-10-13",
+      "url": "https://www.sec.gov/Archives/edgar/data/718877/000110465923108985/tm2328253d1_8k.htm",
+      "quote": "each of Reveta Bowers, Kerry Carr, Robert Corti, Brian Kelly, Robert Kotick, Barry Meyer, Robert Morgado, Peter Nolan and Dawn Ostroff resigned and ceased to be directors of the Company",
+      "supports": "Kotick left the board at the 2023-10-13 closing"
+    },
+    {
+      "id": "m030",
+      "form": "DEFM14A",
+      "accession": "0001140361-23-050211",
+      "filing_date": "2023-10-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/1353283/000114036123050211/ny20011269x2_defm14a.htm",
+      "quote": "Name Cash ($)(1) Equity ($)(2) Perquisites/ Benefits ($)(3) Total ($)(4) Gary Steele $9,842,123 $90,343,609 $30,802 $100,216,534",
+      "supports": "Golden Parachute Compensation table row for Steele"
+    },
+    {
+      "id": "m031",
+      "form": "DEFM14A",
+      "accession": "0001140361-23-050211",
+      "filing_date": "2023-10-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/1353283/000114036123050211/ny20011269x2_defm14a.htm",
+      "quote": "Gary Steele $1,800,000 $2,250,000 $792,123 $5,000,000 $9,842,123",
+      "supports": "Steele cash breakdown: salary severance, bonus severance, prorated target bonus, retention bonus"
+    },
+    {
+      "id": "m032",
+      "form": "DEFM14A",
+      "accession": "0001140361-23-050211",
+      "filing_date": "2023-10-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/1353283/000114036123050211/ny20011269x2_defm14a.htm",
+      "quote": "Each named executive officer of Splunk experiences a qualifying termination of employment (i.e., a termination of employment by Splunk and/or Parent without \"cause\" or by the executive officer for \"good reason,\"",
+      "supports": "GP table termination assumption"
+    },
+    {
+      "id": "m033",
+      "form": "DEF 14A",
+      "accession": "0001308179-23-000851",
+      "filing_date": "2023-05-09",
+      "url": "https://www.sec.gov/Archives/edgar/data/1353283/000130817923000851/splk4148431-def14a.htm",
+      "quote": "Since Mr. Steele was appointed CEO effective April 11, 2022",
+      "supports": "Steele CEO from 2022-04-11"
+    },
+    {
+      "id": "m040",
+      "form": "DEFM14A",
+      "accession": "0001140361-22-035833",
+      "filing_date": "2022-10-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/1124610/000114036122035833/ny20005454x1_defm14a.htm",
+      "quote": "Golden Parachute Compensation Name Cash ($)(1) Equity ($)(2) Total ($) Raghu Raghuram $6,070,797 $46,510,167 $52,580,964",
+      "supports": "Golden Parachute Compensation table row for Raghuram"
+    },
+    {
+      "id": "m041",
+      "form": "DEFM14A",
+      "accession": "0001140361-22-035833",
+      "filing_date": "2022-10-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/1124610/000114036122035833/ny20005454x1_defm14a.htm",
+      "quote": "Name Severance ($) Health Insurance Premium Payments ($) Total ($) Raghu Raghuram $6,000,000 $70,797 $6,070,797",
+      "supports": "Raghuram cash breakdown: severance and health insurance premium payments"
+    },
+    {
+      "id": "m042",
+      "form": "DEFM14A",
+      "accession": "0001140361-22-035833",
+      "filing_date": "2022-10-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/1124610/000114036122035833/ny20005454x1_defm14a.htm",
+      "quote": "The employment of each named executive officer was terminated by VMware without cause or by the named executive officer for good reason, in either case, on or immediately following the effective time of the second merger.",
+      "supports": "GP table termination assumption"
+    },
+    {
+      "id": "m043",
+      "form": "10-K",
+      "accession": "0001124610-23-000015",
+      "filing_date": "2023-03-28",
+      "url": "https://www.sec.gov/Archives/edgar/data/1124610/000112461023000015/vmw-20230203.htm",
+      "quote": "Rangarajan (Raghu) Raghuram has served as VMware's Chief Executive Officer and a director of VMware since June 2021.",
+      "supports": "Raghuram CEO since June 2021"
+    },
+    {
+      "id": "m050",
+      "form": "DEFM14A",
+      "accession": "0001193125-24-118240",
+      "filing_date": "2024-04-26",
+      "url": "https://www.sec.gov/Archives/edgar/data/4447/000119312524118240/d821055ddefm14a.htm",
+      "quote": "Named Executive Officer (1) Cash ($)(1) Equity($)(2) Pension ($)(3) Perquisite/ Benefits($)(4) Tax Reimbursement ($)(5) Total ($) John B. Hess 18,261,400 43,628,159 4,700,000 98,955 34,513,867 101,202,381",
+      "supports": "Golden parachute table row for John Hess"
+    },
+    {
+      "id": "m051",
+      "form": "DEFM14A",
+      "accession": "0001193125-24-118240",
+      "filing_date": "2024-04-26",
+      "url": "https://www.sec.gov/Archives/edgar/data/4447/000119312524118240/d821055ddefm14a.htm",
+      "quote": "Named Executive Officer Severance ($) Prorated Bonus ($) Total ($) John B. Hess 15,896,400 2,365,000 18,261,400",
+      "supports": "John Hess cash breakdown: 3x severance and prorated bonus"
+    },
+    {
+      "id": "m052",
+      "form": "DEFM14A",
+      "accession": "0001193125-24-118240",
+      "filing_date": "2024-04-26",
+      "url": "https://www.sec.gov/Archives/edgar/data/4447/000119312524118240/d821055ddefm14a.htm",
+      "quote": "Tax Reimbursements. Includes the estimated amount of the make-whole payment to be paid to the applicable tax authority for the excise tax imposed on the payments and benefits to the applicable named executive officer in connection with a change of control by reason of Section 4999 of the Internal Revenue Code.",
+      "supports": "The tax column is a 280G excise-tax make-whole (gross-up)"
+    },
+    {
+      "id": "m053",
+      "form": "DEFM14A",
+      "accession": "0001193125-24-118240",
+      "filing_date": "2024-04-26",
+      "url": "https://www.sec.gov/Archives/edgar/data/4447/000119312524118240/d821055ddefm14a.htm",
+      "quote": "The employment of each executive officer of Hess was terminated by Chevron without \"cause\" or due to the executive officer's resignation for \"good reason\"",
+      "supports": "GP table termination assumption"
+    },
+    {
+      "id": "m054",
+      "form": "10-K",
+      "accession": "0001628280-25-008716",
+      "filing_date": "2025-02-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/4447/000162828025008716/hes-20241231.htm",
+      "quote": "Mr. Hess has been Chief Executive Officer of the Corporation since 1995 and employed by the Corporation since 1977.",
+      "supports": "John Hess CEO since 1995"
+    },
+    {
+      "id": "m055",
+      "form": "10-K",
+      "accession": "0001628280-25-008716",
+      "filing_date": "2025-02-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/4447/000162828025008716/hes-20241231.htm",
+      "quote": "Years Ended December 31, 2019 2020 2021 2022 2023 2024 Hess Corporation $100.00 $80.81 $114.85 $222.88 $229.38 $214.51 S&P 500 $100.00 $118.39 $152.34 $124.73 $157.48 $196.85",
+      "supports": "Five-year shareholder return, $100 invested at 2019 year-end"
+    },
+    {
+      "id": "m056",
+      "form": "8-K",
+      "accession": "0000950142-25-001950",
+      "filing_date": "2025-07-18",
+      "url": "https://www.sec.gov/Archives/edgar/data/4447/000095014225001950/eh250651090_8k.htm",
+      "quote": "all of the directors and officers of Hess immediately prior to the Effective Time ceased to be directors or officers of Hess at the Effective Time",
+      "supports": "All Hess officers ceased to be officers at the 2025-07-18 closing"
+    },
+    {
+      "id": "m060",
+      "form": "DEFM14A",
+      "accession": "0001193125-24-003822",
+      "filing_date": "2024-01-08",
+      "url": "https://www.sec.gov/Archives/edgar/data/1038357/000119312524003822/d558063ddefm14a.htm",
+      "quote": "Name Cash ($)(1) Equity ($)(2) Pension/ NQDC ($)(3) Perquisites/ Benefits ($)(4) Total ($) Scott D. Sheffield $ 13,771,685 $ 111,339,477 $ - $ 710,786 $ 125,821,948 Richard P. Dealy $ 5,414,320 $ 36,235,103 $ - $ 680,307 $ 42,329,730",
+      "supports": "Golden parachute table rows for Sheffield and Dealy"
+    },
+    {
+      "id": "m061",
+      "form": "DEFM14A",
+      "accession": "0001193125-24-003822",
+      "filing_date": "2024-01-08",
+      "url": "https://www.sec.gov/Archives/edgar/data/1038357/000119312524003822/d558063ddefm14a.htm",
+      "quote": "Name 2.99x Salary & Bonus ($) Pro-Rated Target Bonus ($) Total ($) Scott D. Sheffield $ 11,661,000 $ 2,110,685 $ 13,771,685 Richard P. Dealy $ 4,738,901 $ 675,419 $ 5,414,320",
+      "supports": "Cash breakdown: 2.99x salary and bonus, pro-rated target bonus"
+    },
+    {
+      "id": "m062",
+      "form": "DEFM14A",
+      "accession": "0001193125-24-003822",
+      "filing_date": "2024-01-08",
+      "url": "https://www.sec.gov/Archives/edgar/data/1038357/000119312524003822/d558063ddefm14a.htm",
+      "quote": "each Pioneer named executive officer experiences a qualifying termination immediately following consummation of the Merger",
+      "supports": "GP table termination assumption"
+    },
+    {
+      "id": "m063",
+      "form": "8-K",
+      "accession": "0001193125-23-279894",
+      "filing_date": "2023-11-17",
+      "url": "https://www.sec.gov/Archives/edgar/data/1038357/000119312523279894/d484671d8k.htm",
+      "quote": "Mr. Sheffield will also remain eligible for the severance payments and benefits provided under his change in control agreement, as described below, and the expiration of his transition services upon the closing of the Transaction will be considered a termination by the Company without cause.",
+      "supports": "Sheffield's end of service at closing counts as a termination without cause"
+    },
+    {
+      "id": "m064",
+      "form": "DEF 14A",
+      "accession": "0001038357-23-000050",
+      "filing_date": "2023-04-13",
+      "url": "https://www.sec.gov/Archives/edgar/data/1038357/000103835723000050/pxd-20230412.htm",
+      "quote": "Mr. Sheffield was appointed the Company's Chief Executive Officer in February 2019",
+      "supports": "Sheffield's current CEO stint began February 2019"
+    },
+    {
+      "id": "m065",
+      "form": "DEF 14A",
+      "accession": "0001038357-23-000050",
+      "filing_date": "2023-04-13",
+      "url": "https://www.sec.gov/Archives/edgar/data/1038357/000103835723000050/pxd-20230412.htm",
+      "quote": "2022 19,055,854 10,083,432 6,345,087 5,615,801 178.11 191.50",
+      "supports": "PvP table FY2022: company TSR 178.11, peer group TSR 191.50"
+    },
+    {
+      "id": "m066",
+      "form": "DEF 14A",
+      "accession": "0001038357-23-000050",
+      "filing_date": "2023-04-13",
+      "url": "https://www.sec.gov/Archives/edgar/data/1038357/000103835723000050/pxd-20230412.htm",
+      "quote": "Column (g). For the relevant fiscal year, represents the cumulative TSR of the S&P Oil & Gas Exploration & Production Index (\"Peer Group TSR\")",
+      "supports": "Peer group = S&P Oil & Gas Exploration & Production Index"
+    },
+    {
+      "id": "m067",
+      "form": "8-K",
+      "accession": "0001193125-23-279894",
+      "filing_date": "2023-11-17",
+      "url": "https://www.sec.gov/Archives/edgar/data/1038357/000119312523279894/d484671d8k.htm",
+      "quote": "previously announced on April 26, 2023 that Scott D. Sheffield will retire as the Company's Chief Executive Officer effective as of the end of day on December 31, 2023",
+      "supports": "Sheffield retired as CEO 2023-12-31"
+    },
+    {
+      "id": "m068",
+      "form": "8-K",
+      "accession": "0001193125-23-279894",
+      "filing_date": "2023-11-17",
+      "url": "https://www.sec.gov/Archives/edgar/data/1038357/000119312523279894/d484671d8k.htm",
+      "quote": "his previously announced appointment as the Company's Chief Executive Officer effective January 1, 2024",
+      "supports": "Dealy CEO from 2024-01-01"
+    }
+  ],
+  "rejected": []
+}

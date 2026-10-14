@@ -120,11 +120,11 @@ def load(conn: psycopg.Connection, path: Path) -> BoardPayStats:
     for r in data.get("director_comp", []):
         conn.execute(
             f"""INSERT INTO director_comp (company_id, person_id, fiscal_year, fiscal_year_end, source_document_id,
-                  evidence_id, listed_name, notes, {", ".join(DIRECTOR_FIELDS)})
-                VALUES (%s, %s, %s, %s, %s, %s, %s, %s, {", ".join(["%s"] * len(DIRECTOR_FIELDS))})""",
+                  evidence_id, listed_name, notes, excluded_from_board_cost, {", ".join(DIRECTOR_FIELDS)})
+                VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, {", ".join(["%s"] * len(DIRECTOR_FIELDS))})""",
             (company_id, person_id[r["person_key"]], r["fiscal_year"], fy_end_for(data, r["fiscal_year"], r),
              ev_doc[r["evidence_ref"]], ev_id[r["evidence_ref"]], r.get("listed_name"), r.get("notes") or None,
-             *[r.get(f, 0) for f in DIRECTOR_FIELDS]))
+             bool(r.get("excluded_from_board_cost")), *[r.get(f, 0) for f in DIRECTOR_FIELDS]))
         st.director_rows += 1
 
     conn.execute("DELETE FROM executive_exit WHERE company_id = %s", (company_id,))

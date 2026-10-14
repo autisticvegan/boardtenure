@@ -25,7 +25,7 @@ export function CaseCard({ c, rank, metric = "pay" }: { c: ScreenCase; rank?: nu
   const pay = metric === "cap" ? c.peo_cap_sum : c.peo_sct_sum;
   return (
     <Link href={`/case/${c.cik}`}
-          className="group block rounded-[14px] border border-line bg-surface px-5 py-4 shadow-card hover:border-line-strong">
+          className="group block min-w-0 rounded-[14px] border border-line bg-surface px-5 py-4 shadow-card hover:border-line-strong">
       <div className="flex items-baseline justify-between gap-3">
         <div className="min-w-0">
           <div className="text-[11px] leading-[14px] uppercase tracking-[0.08em] text-ink-3">
