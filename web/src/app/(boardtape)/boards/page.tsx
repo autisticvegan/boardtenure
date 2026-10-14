@@ -4,7 +4,9 @@ import type { ReactNode } from "react";
 import { SectionHead, Signed } from "@/components/standings/primitives";
 import { Card } from "@/components/ui";
 import { compactMoney } from "@/lib/format";
-import { getBoardYears, getDetectability, type BoardYear } from "@/lib/queries-boards";
+import {
+  getBiggestReactions, getBoardYears, getDetectability, getReactionStats, type BigReaction, type BoardYear, type ReactionStat,
+} from "@/lib/queries-boards";
 import { median } from "@/lib/track-record";
 
 export const metadata: Metadata = { title: "What boards cost" };
@@ -22,7 +24,9 @@ function tinyPct(x: number | null | undefined): string {
 }
 
 export default async function BoardsPage() {
-  const [years, detect] = await Promise.all([getBoardYears(), getDetectability()]);
+  const [years, detect, reactions, biggest] = await Promise.all([
+    getBoardYears(), getDetectability(), getReactionStats(), getBiggestReactions(),
+  ]);
   // Tesla's board took no pay from 2021 under a court settlement over its earlier awards, so its
   // years say nothing about how pay responds to results; they stay in the tables, not the test.
   const tested = years.filter((y) => y.slug !== "tsla" && y.prev_median_paid && y.median_paid && y.prior_relative_pp != null);
@@ -87,6 +91,8 @@ export default async function BoardsPage() {
           grant-date prices. A small sample: read it as &ldquo;no sign pay falls after bad years&rdquo;, not a measured effect.
         </p>
       </section>
+
+      <Reactions stats={reactions} biggest={biggest} directorPay={medianDirector} />
 
       <section aria-labelledby="too-small">
         <SectionHead id="too-small" title="Too small to measure"
@@ -180,5 +186,94 @@ function Tile({ value, label }: { value: ReactNode; label: string }) {
       <dt className="mt-0.5 text-[12px] leading-4 text-ink-3">{label}</dt>
       <dd className="text-[24px] leading-[30px] font-bold tracking-[-0.01em] text-ink whitespace-nowrap">{value}</dd>
     </div>
+  );
+}
+
+const REACTION_LABEL: Record<ReactionStat["category"], string> = {
+  appointed: "Director appointed mid-year",
+  elected: "Director elected at the annual meeting",
+  resigned: "Director resigned",
+  not_standing: "Director won't stand again",
+  exec_change: "CEO or executive joins or leaves the board",
+};
+
+/** Mean three-day abnormal return per kind of board change, with a 95% interval, on one scale. */
+function Reactions({ stats, biggest, directorPay }: { stats: ReactionStat[]; biggest: BigReaction[]; directorPay: number | null }) {
+  if (stats.length === 0) return null;
+  const ci = (s: ReactionStat) => 1.96 * s.sd_car / Math.sqrt(s.n);
+  const dom = Math.max(0.02, ...stats.map((s) => Math.abs(s.mean_car) + ci(s)));
+  const x = (v: number) => `${50 + (v / dom) * 50}%`;
+  const appointed = stats.find((s) => s.category === "appointed");
+  const bound = appointed ? ci(appointed) : null;
+  const excluded = stats.filter((s) => Math.abs(s.mean_car) > ci(s));
+  return (
+    <section aria-labelledby="reactions">
+      <SectionHead id="reactions" title="How the market reacted"
+                   sub="When a board change was announced, how the stock moved over three trading days compared with what its usual relationship to the S&P 500 predicted. This uses the market's own reaction instead of years of noisy returns." />
+      <Card>
+        <ul className="space-y-4">
+          {stats.map((s) => {
+            const half = ci(s);
+            return (
+              <li key={s.category} className="grid gap-x-6 gap-y-1 md:grid-cols-[260px_1fr_150px] items-center">
+                <div className="text-[13px] leading-5 text-ink">{REACTION_LABEL[s.category]} <span className="text-ink-3">· {s.n}</span></div>
+                <div aria-hidden className="relative h-6">
+                  <span className="absolute inset-y-0 left-1/2 w-px bg-zero" />
+                  <span className="absolute top-1/2 h-0.5 -translate-y-1/2 bg-ink-3" style={{ left: x(s.mean_car - half), right: `calc(100% - ${x(s.mean_car + half)})` }} />
+                  <span className={`absolute top-1/2 h-3 w-3 -translate-x-1/2 -translate-y-1/2 rounded-full ${s.mean_car >= 0 ? "bg-gain" : "bg-loss"}`} style={{ left: x(s.mean_car) }} />
+                </div>
+                <div className="text-[13px] leading-5 text-right">
+                  <Signed value={s.mean_car} kind="pct" digits={2} /> <span className="text-ink-3">± {(half * 100).toFixed(2)}</span>
+                  <div className="text-[11px] leading-4 text-ink-3">median <Signed value={s.median_car} kind="pct" digits={2} /> · {Math.round(s.pct_positive * 100)}% rose</div>
+                </div>
+                <span className="sr-only">Mean {(s.mean_car * 100).toFixed(2)}%, 95% interval {((s.mean_car - half) * 100).toFixed(2)}% to {((s.mean_car + half) * 100).toFixed(2)}%.</span>
+              </li>
+            );
+          })}
+        </ul>
+        <div aria-hidden className="mt-2 md:ml-[284px] md:mr-[174px] flex justify-between text-[11px] text-ink-3">
+          <span>−{(dom * 100).toFixed(1)}%</span><span>0</span><span>+{(dom * 100).toFixed(1)}%</span>
+        </div>
+      </Card>
+      <div className="mt-3 space-y-2 text-[12px] leading-4 text-ink-3 max-w-[80ch]">
+        <p>
+          Dot: mean abnormal return over days −1 to +1 around the announcement; line: 95% interval. An interval that
+          crosses zero means no reaction distinguishable from chance.
+          {excluded.map((s) => (
+            <span key={s.category}>
+              {" "}{REACTION_LABEL[s.category]}: the interval excludes zero, but weighting each event by its own stock&apos;s
+              usual noise (z = {s.z.toFixed(1)}) {Math.abs(s.z) >= 1.96 ? "confirms it" : "doesn't confirm it"}, and the
+              median is <Signed value={s.median_car} kind="pct" digits={2} />.
+            </span>
+          ))}
+          {" "}With {stats.length} kinds tested, one landing near the edge by chance is expected, and a three-day window
+          can&apos;t separate a board change from other news the same days.
+        </p>
+        {bound != null && appointed?.median_market_cap != null && (
+          <p>
+            The bound is the informative part: the average reaction to a new director is within about
+            ±{(bound * 100).toFixed(1)}% of zero, which at a typical company here is up to{" "}
+            {compactMoney(bound * appointed.median_market_cap)} of market value either way, against board seats paid
+            about {compactMoney(directorPay)} a year. This data can&apos;t rule out directors being worth far more, or far
+            less, than they&apos;re paid.
+          </p>
+        )}
+      </div>
+      {biggest.length > 0 && (
+        <details className="mt-3 rounded-[14px] border border-line bg-surface px-5 py-3 text-[13px] leading-5">
+          <summary className="cursor-pointer text-ink-2 font-semibold">The largest moves</summary>
+          <ul className="mt-2 space-y-1">
+            {biggest.map((b) => (
+              <li key={`${b.slug}-${b.day0}`} className="flex flex-wrap gap-x-3">
+                <Signed value={b.car} kind="pct" digits={1} className="w-16" />
+                <span className="text-ink">{b.common_name}</span>
+                <span className="text-ink-3">{b.day0}</span>
+                <span className="text-ink-2">{b.summary}</span>
+              </li>
+            ))}
+          </ul>
+        </details>
+      )}
+    </section>
   );
 }

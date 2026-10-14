@@ -73,7 +73,7 @@ def cmd_prices_reindex(args: argparse.Namespace) -> None:
 
 
 def cmd_analytics_recompute(args: argparse.Namespace) -> None:
-    from bt.analytics import board_pay, exec_pay, tenure
+    from bt.analytics import board_pay, event_study, exec_pay, tenure
 
     with db.session("pipeline:analytics") as conn:
         ids = None
@@ -83,6 +83,7 @@ def cmd_analytics_recompute(args: argparse.Namespace) -> None:
         print("tenure rows:", tenure.recompute(conn, ids))
         print("executive performance rows:", exec_pay.recompute(conn, ids))
         print("board pay years:", board_pay.recompute(conn))
+        print("board change events:", event_study.recompute(conn))
 
 
 def cmd_seed_board(args: argparse.Namespace) -> None:
@@ -165,7 +166,7 @@ def cmd_refresh(args: argparse.Namespace) -> None:
 
 def cmd_seed_all(args: argparse.Namespace) -> None:
     """Load every researched board file and prototype price file, then recompute and validate."""
-    from bt.analytics import board_pay, exec_pay, tenure
+    from bt.analytics import board_pay, event_study, exec_pay, tenure
     from bt.ingest import prices, reference, seed_board, seed_board_pay, seed_comp
     from bt.quality import checks
 
@@ -226,6 +227,7 @@ def cmd_seed_all(args: argparse.Namespace) -> None:
         print("tenure rows:", tenure.recompute(conn))
         print("executive performance rows:", exec_pay.recompute(conn))
         print("board pay years:", board_pay.recompute(conn))
+        print("board change events:", event_study.recompute(conn))
         issues = {k: v for k, v in checks.run(conn).items() if v}
         print("quality:", json.dumps(issues))
 

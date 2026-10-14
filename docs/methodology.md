@@ -221,6 +221,17 @@ that, at the company's median scored seat length. A director's break-even, the v
 add to cover their pay, is their pay as a share of the company's market value. Because every director
 on a board shares one stock, no stock-return record can split a result between them.
 
+**How the market reacted.** For each announced board join or departure, a market model is fitted
+by regressing the stock's daily total return on SPY's over trading days −250 to −31 before the
+announcement. The abnormal return is the actual return minus the model's prediction, summed over days
+−1, 0 and +1 (day 0 is the first trading day on or after the announcement date). Announcements by
+one company on one day are one event. Kinds of change are kept apart: mid-year appointments and
+resignations are news, while elections at the annual meeting and decisions not to stand were disclosed
+earlier in the proxy. CEO and other executive changes are their own kind. Each kind reports its mean
+with a cross-sectional 95% interval, its median, the share of events that rose, and a standardized
+test that weights each event by its stock's own noise. A three-day window can't separate a board
+change from other news on the same days.
+
 ## Heads I Win (the companion site)
 
 The companion site screens every company that files Item 402(v) pay-versus-performance tables, using

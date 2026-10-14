@@ -14,7 +14,7 @@ from datetime import date, timedelta
 
 import psycopg
 
-from bt.analytics import board_pay, exec_pay, tenure
+from bt.analytics import board_pay, event_study, exec_pay, tenure
 from bt.config import settings
 from bt.ingest import prices, reference
 from bt.quality import checks
@@ -91,7 +91,8 @@ def run(conn: psycopg.Connection, *, skip_prices: bool = False, skip_sec: bool =
         ("prices", lambda: None if skip_prices else update_prices(conn, date.today())),
         ("sec", lambda: None if skip_sec else update_sec(conn)),
         ("analytics", lambda: {"tenure_rows": tenure.recompute(conn), "executive_rows": exec_pay.recompute(conn),
-                                       "board_pay_years": board_pay.recompute(conn)}),
+                                       "board_pay_years": board_pay.recompute(conn),
+                                       "board_events": event_study.recompute(conn)}),
         ("quality", lambda: checks.run(conn)),
     ]
     for name, fn in stages:
