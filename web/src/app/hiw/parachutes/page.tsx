@@ -62,9 +62,10 @@ export default async function Parachutes({ searchParams }: PageProps<"/hiw/parac
       </header>
 
       <dl className="grid grid-cols-2 md:grid-cols-4 gap-px overflow-hidden rounded-[14px] border border-line bg-line shadow-card">
-        <Tile value={compactMoney(sum)} label={`paid on the way out across ${rows.length} exits`} />
+        <Tile value={compactMoney(sum)} label={`paid or promised on the way out, across ${rows.length} exits`} />
         <Tile value={compactMoney(median(rows.map((c) => c.total ?? 0)))} label="the median exit package" />
-        <Tile value={top ? compactMoney(top.total) : "—"} label={top ? `the biggest: ${top.person}, ${top.company}` : "the biggest"} />
+        <Tile value={top ? compactMoney(top.total) : "—"}
+              label={top ? `the biggest: ${top.person}, ${top.company}${top.basis === "estimated" ? " (estimated in the merger filing)" : ""}` : "the biggest"} />
         <Tile value={fell.length ? `${fell.length} of ${rows.filter((c) => c.value_of_100 != null).length}` : "—"}
               label="exits where shareholders' $100 had shrunk while they served" />
       </dl>
