@@ -34,7 +34,7 @@ export default async function CasePage({ params }: PageProps<"/hiw/case/[cik]">)
         </p>
       </header>
       <div className="grid gap-4 sm:grid-cols-3">
-        <Big value={compactMoney(c.peo_sct_sum)} label="reported CEO pay over these years" />
+        <Big value={compactMoney(c.peo_sct_sum)} label={c.ceos.length > 1 ? "reported CEO pay over these years, every CEO combined" : "reported CEO pay over these years"} />
         <Big value={compactMoney(c.peo_cap_sum)} label="CEO pay “actually paid” (stock awards at year-end value)" />
         <Big value={hundred(c.tsr_value_of_100)} label="what $100 invested at the start was worth at the end" tone={c.tsr_value_of_100 < 100 ? "loss" : "gain"} />
       </div>

@@ -30,6 +30,8 @@ PVP_CONCEPTS = [
     ("ecd", "NonPeoNeoAvgCompActuallyPaidAmt", "USD"),
 ]
 FIRST_YEAR = 2020  # Item 402(v) tables reach back to fiscal 2020
+# Public float from 10-K covers (instant, mid-year): the size check behind the plausibility screen.
+FLOAT_CONCEPT = ("dei", "EntityPublicFloat", "USD")
 
 
 def _units_for(raw: dict, unit: str) -> str:
@@ -68,6 +70,33 @@ def load_frames(conn: psycopg.Connection, edgar: Edgar, last_year: int | None = 
     return stats
 
 
+def load_float_frames(conn: psycopg.Connection, edgar: Edgar, last_year: int | None = None) -> int:
+    last_year = last_year or datetime.now(UTC).year - 1
+    taxonomy, concept, unit = FLOAT_CONCEPT
+    n = 0
+    for year in range(FIRST_YEAR, last_year + 1):
+        frame = f"CY{year}Q2I"
+        try:
+            raw = edgar.get(f"{DATA}/{taxonomy}/{concept}/{unit}/{frame}.json")
+        except Exception as e:
+            if "404" in str(e):
+                continue
+            raise
+        rawstore.put(f"sec/_api/frames/{taxonomy}/{concept}/{unit}/{frame}.json", raw)
+        rows = [(taxonomy, concept, unit, frame, int(d["cik"]), d["entityName"], d["accn"], None,
+                 date.fromisoformat(d["end"]), d["val"]) for d in json.loads(raw)["data"]]
+        with conn.cursor() as cur:
+            cur.executemany(
+                """INSERT INTO xbrl_frame_fact (taxonomy, concept, unit, frame, cik, entity_name, accession,
+                     period_start, period_end, value)
+                   VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+                   ON CONFLICT (taxonomy, concept, unit, frame, cik) DO UPDATE SET value = EXCLUDED.value,
+                     accession = EXCLUDED.accession, period_end = EXCLUDED.period_end, fetched_at = now()""", rows)
+        conn.commit()
+        n += len(rows)
+    return n
+
+
 def load_tickers(conn: psycopg.Connection, edgar: Edgar) -> int:
     raw = edgar.get("https://www.sec.gov/files/company_tickers.json")
     rawstore.put("sec/_api/company_tickers.json", raw)
@@ -84,43 +113,97 @@ IX = {"ix": "http://www.xbrl.org/2013/inlineXBRL", "xbrli": "http://www.xbrl.org
 CHECKED = ("PeoTotalCompAmt", "PeoActuallyPaidCompAmt", "TotalShareholderRtnAmt")
 
 
-def _ixbrl_facts(raw: bytes) -> tuple[dict, list[str]]:
-    """(concept, period_end) -> values for undimensioned ecd facts (a table may repeat a figure
-    rounded), plus the tagged CEO names."""
+PEO_CONCEPTS = ("PeoTotalCompAmt", "PeoActuallyPaidCompAmt")
+
+
+def member_name(member: str) -> str | None:
+    """'lyft:LoganGreenMember' -> 'Logan Green' (members usually spell the full name)."""
+    local = member.split(":", 1)[-1]
+    local = re.sub(r"Member$", "", local)
+    words = re.findall(r"[A-Z][a-z]+|[A-Z]+(?![a-z])|\d+", local)
+    if len(words) < 2 or any(w.lower() in {"peo", "ceo", "former", "current", "first", "second"} for w in words):
+        return None
+    return " ".join(words)
+
+
+def _ixbrl_facts(raw: bytes) -> dict:
+    """Pay-versus-performance facts in an inline-XBRL proxy:
+      undim:  (concept, period_end) -> [values] for undimensioned ecd facts (a figure may repeat rounded)
+      dims:   (concept, period_end, member) -> value for per-person CEO facts (ecd:IndividualAxis)
+      names:  tagged CEO names in order; member_names: member -> tagged name"""
     root = etree.fromstring(raw, parser=etree.XMLParser(recover=True, huge_tree=True, resolve_entities=False,
                                                         no_network=True))
     contexts = {}
     for ctx in root.iterfind(".//xbrli:context", IX):
         end = ctx.findtext(".//xbrli:endDate", namespaces=IX) or ctx.findtext(".//xbrli:instant", namespaces=IX)
-        dims = ctx.find(".//xbrldi:explicitMember", IX) is not None or ctx.find(".//xbrldi:typedMember", IX) is not None
-        contexts[ctx.get("id")] = (end, dims)
-    facts = {}
+        members = [(m.get("dimension"), (m.text or "").strip()) for m in ctx.iterfind(".//xbrldi:explicitMember", IX)]
+        typed = ctx.find(".//xbrldi:typedMember", IX) is not None
+        contexts[ctx.get("id")] = (end, members, typed)
+    undim, dims = {}, {}
     for el in root.iterfind(".//ix:nonFraction", IX):
         name = el.get("name", "")
         if not name.startswith("ecd:"):
             continue
-        end, dims = contexts.get(el.get("contextRef"), (None, True))
-        if dims or not end:
-            continue
+        end, members, typed = contexts.get(el.get("contextRef"), (None, [], True))
         text = "".join(el.itertext()).replace(",", "").strip()
-        if not re.fullmatch(r"[\d.]+", text):
+        if not end or not re.fullmatch(r"[\d.]+", text):
             continue
         v = Decimal(text) * (Decimal(10) ** int(el.get("scale") or 0))
         if el.get("sign") == "-":
             v = -v
-        facts.setdefault((name.split(":", 1)[1], end), []).append(v)
-    names = []
+        concept = name.split(":", 1)[1]
+        if not members and not typed:
+            undim.setdefault((concept, end), []).append(v)
+        elif concept in PEO_CONCEPTS and len(members) == 1 and members[0][0] == "ecd:IndividualAxis":
+            dims[(concept, end, members[0][1])] = v
+    names, member_names = [], {}
     for el in root.iterfind(".//ix:nonNumeric", IX):
-        if el.get("name") == "ecd:PeoName":
-            n = re.sub(r"\s+", " ", "".join(el.itertext())).strip()
-            if n and n not in names:
-                names.append(n)
-    return facts, names
+        if el.get("name") != "ecd:PeoName":
+            continue
+        n = re.sub(r"\s+", " ", "".join(el.itertext())).strip()
+        _, members, _ = contexts.get(el.get("contextRef"), (None, [], False))
+        for dim, m in members:
+            if dim == "ecd:IndividualAxis" and n:
+                member_names.setdefault(m, n)
+        if n and n not in names:
+            names.append(n)
+    return {"undim": undim, "dims": dims, "names": names, "member_names": member_names}
 
 
-def check_cases(conn: psycopg.Connection, edgar: Edgar, top: int = 60) -> list[dict]:
-    """Fetch the proxy behind each top screened case, read its tagged CEO names and confirm every
-    frame value we display for that filing is a fact in it."""
+def _proxy_doc(edgar: Edgar, cik: int, acc: str) -> tuple[str, bytes] | None:
+    folder = f"https://www.sec.gov/Archives/edgar/data/{cik}/{acc.replace('-', '')}"
+    items = edgar.get_json(f"{folder}/index.json")["directory"]["item"]
+    docs = sorted((i for i in items if i["name"].lower().endswith((".htm", ".html"))
+                   and not i["name"].lower().startswith(("r", "fs"))),
+                  key=lambda i: -int(i.get("size") or 0))
+    for d in docs[:3]:
+        key = rawstore.sec_key(cik, acc, d["name"])
+        if not rawstore.exists(key):
+            rawstore.put(key, edgar.get(f"{folder}/{d['name']}"))
+        raw = rawstore.read(key)
+        if b"ecd:" in raw:
+            return f"{folder}/{d['name']}", raw
+    return None
+
+
+def _display_names(parsed: dict) -> list[str]:
+    """Full names from members where they spell one; otherwise the tagged text."""
+    out = []
+    members = sorted({m for (_, _, m) in parsed["dims"]})
+    for m in members:
+        n = member_name(m) or parsed["member_names"].get(m)
+        if n and n not in out:
+            out.append(n)
+    for n in parsed["names"]:
+        if not any(n.split()[-1] in o for o in out) and n not in out:
+            out.append(n)
+    return out
+
+
+def check_cases(conn: psycopg.Connection, edgar: Edgar, top: int = 60, gaps: bool = False) -> list[dict]:
+    """Fetch the proxy behind each case, read its CEO names and per-person CEO facts, and confirm
+    every undimensioned frame value we display for that filing is a fact in it. Cases: the top of
+    each list, plus (gaps=True) every company with years missing CEO pay in the frames."""
     rows = conn.execute(
         """(SELECT cik, accession FROM pvp_screen WHERE tsr_value_of_100 < 100 AND peo_sct_sum IS NOT NULL
             ORDER BY peo_sct_sum DESC LIMIT %s)
@@ -129,36 +212,37 @@ def check_cases(conn: psycopg.Connection, edgar: Edgar, top: int = 60) -> list[d
             ORDER BY peo_cap_sum DESC LIMIT %s)
            UNION
            (SELECT cik, accession FROM pvp_screen WHERE tsr_value_of_100 < 50 AND span_years >= 3
-              AND peo_sct_sum IS NOT NULL ORDER BY tsr_value_of_100 LIMIT %s)""", (top, top, top // 2)).fetchall()
+              AND peo_sct_sum IS NOT NULL ORDER BY tsr_value_of_100 LIMIT %s)
+           UNION
+           (SELECT cik, accession FROM pvp_screen WHERE %s AND peo_years < span_years
+              AND cik NOT IN (SELECT cik FROM pvp_case WHERE accession = pvp_screen.accession))""",
+        (top, top, top // 2, gaps)).fetchall()
     out = []
     for r in rows:
-        acc = r["accession"]
-        folder = f"https://www.sec.gov/Archives/edgar/data/{r['cik']}/{acc.replace('-', '')}"
-        items = edgar.get_json(f"{folder}/index.json")["directory"]["item"]
-        docs = sorted((i for i in items if i["name"].lower().endswith((".htm", ".html"))
-                       and not i["name"].lower().startswith(("r", "fs"))),
-                      key=lambda i: -int(i.get("size") or 0))
-        found = None
-        for d in docs[:3]:
-            key = rawstore.sec_key(r["cik"], acc, d["name"])
-            if not rawstore.exists(key):
-                rawstore.put(key, edgar.get(f"{folder}/{d['name']}"))
-            raw = rawstore.read(key)
-            if b"ecd:" in raw:
-                found = (d["name"], raw)
-                break
-        if not found:
+        cik, acc = r["cik"], r["accession"]
+        try:
+            doc = _proxy_doc(edgar, cik, acc)
+        except Exception as e:  # one unreadable filing shouldn't stop the batch
+            out.append({"cik": cik, "error": str(e)[:200]})
             continue
-        facts, names = _ixbrl_facts(found[1])
+        if not doc:
+            continue
+        parsed = _ixbrl_facts(doc[1])
+        conn.execute("DELETE FROM pvp_peo_fact WHERE cik = %s AND accession = %s", (cik, acc))
+        for (concept, end, member), v in parsed["dims"].items():
+            conn.execute(
+                """INSERT INTO pvp_peo_fact (cik, accession, period_end, member, peo_name, concept, value)
+                   VALUES (%s, %s, %s, %s, %s, %s, %s)""",
+                (cik, acc, end, member, member_name(member) or parsed["member_names"].get(member), concept, v))
         frame_rows = conn.execute(
             """SELECT concept, period_end, value FROM xbrl_frame_fact
-               WHERE cik = %s AND accession = %s AND concept = ANY(%s)""", (r["cik"], acc, list(CHECKED))).fetchall()
+               WHERE cik = %s AND accession = %s AND concept = ANY(%s)""", (cik, acc, list(CHECKED))).fetchall()
         mismatches = []
         for fr in frame_rows:
             want = Decimal(str(fr["value"]))
-            got = facts.get((fr["concept"], fr["period_end"].isoformat()), [])
-            # A zero frame with no undimensioned fact is a year tagged per person (two CEOs): it only
-            # leaves that year out of the sums, which understates pay, so it doesn't fail the check.
+            got = parsed["undim"].get((fr["concept"], fr["period_end"].isoformat()), [])
+            # A zero frame with no undimensioned fact is a year tagged per person (two CEOs); the
+            # per-person facts above cover it.
             if want == 0 and not got:
                 continue
             if not any(abs(want - g) <= max(Decimal("0.5"), abs(g) * Decimal("0.005")) for g in got):
@@ -170,8 +254,9 @@ def check_cases(conn: psycopg.Connection, edgar: Edgar, top: int = 60) -> list[d
                ON CONFLICT (cik) DO UPDATE SET accession = EXCLUDED.accession, doc_url = EXCLUDED.doc_url,
                  peo_names = EXCLUDED.peo_names, verified = EXCLUDED.verified,
                  checked_facts = EXCLUDED.checked_facts, mismatches = EXCLUDED.mismatches, checked_at = now()""",
-            (r["cik"], acc, f"{folder}/{found[0]}", names, not mismatches and len(frame_rows) > 0, len(frame_rows),
+            (cik, acc, doc[0], _display_names(parsed), not mismatches and len(frame_rows) > 0, len(frame_rows),
              json.dumps(mismatches)))
         conn.commit()
-        out.append({"cik": r["cik"], "names": names, "checked": len(frame_rows), "mismatches": len(mismatches)})
+        out.append({"cik": cik, "checked": len(frame_rows), "mismatches": len(mismatches),
+                    "peo_facts": len(parsed["dims"])})
     return out

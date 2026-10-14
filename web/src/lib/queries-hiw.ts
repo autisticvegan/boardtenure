@@ -33,19 +33,19 @@ const CASE_COLUMNS = sql`
 
 /** Verified cases where $100 invested at the table's start was worth less than `below` at the end. */
 export const getPaidAnyway = cache(async (below = 50, limit = 100): Promise<ScreenCase[]> => sql<ScreenCase[]>`
-  SELECT ${CASE_COLUMNS} FROM pvp_screen s JOIN pvp_case c ON c.cik = s.cik AND c.verified
+  SELECT ${CASE_COLUMNS} FROM pvp_screen_ok s JOIN pvp_case c ON c.cik = s.cik AND c.verified AND NOT s.implausible
   WHERE s.tsr_value_of_100 < ${below} AND s.span_years >= 3 AND s.peo_sct_sum IS NOT NULL
   ORDER BY s.peo_sct_sum DESC LIMIT ${limit}`);
 
 /** Verified cases where shareholders lost money but CEO pay "actually paid" still summed positive. */
 export const getHeadsIWin = cache(async (limit = 100): Promise<ScreenCase[]> => sql<ScreenCase[]>`
-  SELECT ${CASE_COLUMNS} FROM pvp_screen s JOIN pvp_case c ON c.cik = s.cik AND c.verified
+  SELECT ${CASE_COLUMNS} FROM pvp_screen_ok s JOIN pvp_case c ON c.cik = s.cik AND c.verified AND NOT s.implausible
   WHERE s.tsr_value_of_100 < 100 AND s.peo_cap_sum > 0 AND s.span_years >= 3
   ORDER BY s.peo_cap_sum DESC LIMIT ${limit}`);
 
 export const getScreenCase = cache(async (cik: number): Promise<ScreenCase | null> => {
   const rows = await sql<ScreenCase[]>`
-    SELECT ${CASE_COLUMNS} FROM pvp_screen s JOIN pvp_case c ON c.cik = s.cik AND c.verified
+    SELECT ${CASE_COLUMNS} FROM pvp_screen_ok s JOIN pvp_case c ON c.cik = s.cik AND c.verified AND NOT s.implausible
     WHERE s.cik = ${cik}`;
   return rows[0] ?? null;
 });
@@ -74,6 +74,7 @@ export const getScreenYears = cache(async (cik: number, accession: string): Prom
 
 export type ScreenStats = {
   companies: number;
+  flagged: number;
   full_tables: number;
   lost_money: number;
   lost_half: number;
@@ -98,10 +99,11 @@ export type ScreenStats = {
 export const getScreenStats = cache(async (): Promise<ScreenStats> => {
   const rows = await sql<ScreenStats[]>`
     WITH full_t AS (
-      SELECT *, peo_sct_sum / peo_years AS pay_per_year FROM pvp_screen
-      WHERE span_years >= 3 AND peo_years = span_years AND peo_sct_sum IS NOT NULL
+      SELECT *, peo_sct_sum / peo_years AS pay_per_year FROM pvp_screen_ok
+      WHERE span_years >= 3 AND peo_years = span_years AND peo_sct_sum IS NOT NULL AND NOT implausible
     )
     SELECT (SELECT count(*)::int FROM pvp_screen) AS companies,
+           (SELECT count(*)::int FROM pvp_screen_ok WHERE implausible) AS flagged,
            count(*)::int AS full_tables,
            count(*) FILTER (WHERE tsr_value_of_100 < 100)::int AS lost_money,
            count(*) FILTER (WHERE tsr_value_of_100 < 50)::int AS lost_half,
@@ -195,3 +197,37 @@ export const getFailingUp = cache(async (): Promise<FailingUp[]> => sql<FailingU
          from_value_of_100, comparison_name, comparison_value_of_100, period_start::text, period_end::text,
          exit_pay_total, exit_pay_description, to_company, to_ticker, to_role, to_start, pay, notes, source_urls
   FROM failing_up_case ORDER BY comparison_value_of_100 - from_value_of_100 DESC`);
+
+export type ExecSale = {
+  company_slug: string;
+  company_name: string;
+  full_name: string;
+  titles: string[];
+  window_start: string;
+  window_end: string;
+  is_current: boolean;
+  filings: number;
+  proceeds: number;
+  avg_price_adj: number | null;
+  end_close_adj: number | null;
+  value_at_end: number | null;
+  plan_share: number | null;
+  total_return: number | null;
+  bench_total_return: number | null;
+  pay_total: number | null;
+};
+
+/** Executives' open-market stock sales during their officer tenure, largest first. */
+export const getExecutiveSales = cache(async (): Promise<ExecSale[]> => sql<ExecSale[]>`
+  SELECT c.slug AS company_slug, c.common_name AS company_name, p.full_name, t.titles, s.window_start::text,
+         s.window_end::text, t.is_current, s.filings, s.proceeds, s.avg_price_adj, s.end_close_adj, s.value_at_end,
+         s.plan_share, t.total_return, t.bench_total_return, pp.pay_total
+  FROM executive_sales s
+  JOIN person p ON p.id = s.person_id
+  JOIN company c ON c.id = s.company_id
+  JOIN benchmark b ON b.code = 'sp500'
+  JOIN executive_tenure_performance t ON t.company_id = s.company_id AND t.person_id = s.person_id
+   AND t.benchmark_id = b.id AND t.window_kind = 'tenure'
+  LEFT JOIN executive_pay_performance pp ON pp.company_id = s.company_id AND pp.person_id = s.person_id
+  WHERE s.proceeds > 0
+  ORDER BY s.proceeds DESC`);

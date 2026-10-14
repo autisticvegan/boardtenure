@@ -17,6 +17,7 @@ const THEME = {
 const NAV = [
   ["/paid-anyway", "Paid anyway"],
   ["/heads-i-win", "Heads I win"],
+  ["/sold", "What they sold"],
   ["/parachutes", "Golden parachutes"],
   ["/failing-up", "Failing up"],
   ["/about", "How we know"],

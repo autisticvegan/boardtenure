@@ -17,7 +17,13 @@ export default function About() {
         figure shown is in that filing.</p>
       <p>&ldquo;Reported pay&rdquo; is the Summary Compensation Table total: salary, bonus, stock and option awards at their
         value when granted, incentive pay and other compensation. A large grant counts in full in the year it&apos;s
-        made. Years with two CEOs are tagged per person and are left out of the sums, which understates pay.</p>
+        made. Years with two CEOs, and companies that tag the CEO by name, are tagged per person; we read those
+        figures from the proxy itself, and where more than one person was CEO in a year, &ldquo;CEO pay&rdquo; combines them.</p>
+      <p>Tagged figures can carry the wrong scale: a company that tags dollars as thousands reports every figure
+        1,000 times too large. Where every year&apos;s average for the other executives is above $100 million, or every
+        CEO figure is under $1,000, the company is held out of the lists and statistics until checked by hand.</p>
+      <p>A few companies don&apos;t tag the table in a way the SEC&apos;s data captures, so they&apos;re missing from the
+        screen; among the largest are Intel and Tesla, which Boardtape covers by hand from their proxies.</p>
       <h2 className="text-[20px] leading-7 font-bold text-ink">Exit pay and careers</h2>
       <p>Golden parachutes and failing-up cases are researched filing by filing: separation agreements, 8-K
         announcements, the proxy after a departure, each company&apos;s own stock-performance tables. Every number is

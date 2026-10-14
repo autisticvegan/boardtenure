@@ -73,7 +73,7 @@ def cmd_prices_reindex(args: argparse.Namespace) -> None:
 
 
 def cmd_analytics_recompute(args: argparse.Namespace) -> None:
-    from bt.analytics import board_pay, event_study, exec_pay, tenure
+    from bt.analytics import board_pay, event_study, exec_pay, insider_sales, tenure
 
     with db.session("pipeline:analytics") as conn:
         ids = None
@@ -84,6 +84,7 @@ def cmd_analytics_recompute(args: argparse.Namespace) -> None:
         print("executive performance rows:", exec_pay.recompute(conn, ids))
         print("board pay years:", board_pay.recompute(conn))
         print("board change events:", event_study.recompute(conn))
+        print("executive sales windows:", insider_sales.recompute(conn))
 
 
 def cmd_seed_board(args: argparse.Namespace) -> None:
@@ -150,10 +151,34 @@ def cmd_screen_pvp(args: argparse.Namespace) -> None:
         print("tickers:", screen.load_tickers(conn, edgar))
         stats = screen.load_frames(conn, edgar)
         print(json.dumps(stats, indent=1))
+        print("public float facts:", screen.load_float_frames(conn, edgar))
         n = conn.execute("SELECT count(*) AS n FROM pvp_screen").fetchone()["n"]
         print("companies screened:", n)
-        cases = screen.check_cases(conn, edgar, args.top)
-        print(f"cases checked: {len(cases)}, verified: {sum(1 for c in cases if not c['mismatches'] and c['checked'])}")
+        cases = screen.check_cases(conn, edgar, args.top, gaps=args.gaps)
+        ok = [c for c in cases if "error" not in c]
+        print(f"cases checked: {len(ok)}, verified: {sum(1 for c in ok if not c['mismatches'] and c['checked'])}, "
+              f"per-person CEO facts: {sum(c['peo_facts'] for c in ok)}, errors: {len(cases) - len(ok)}")
+
+
+def cmd_insiders_load(args: argparse.Namespace) -> None:
+    """Forms 4/5 transactions for every named executive with pay on file at the given companies."""
+    from datetime import date
+
+    from bt.config import settings
+    from bt.ingest import insider_tx
+    from bt.sources.sec import Edgar
+
+    edgar = Edgar(settings().require_sec_user_agent(), max_rps=2)
+    with db.session("pipeline:insiders") as conn:
+        people = conn.execute(
+            """SELECT DISTINCT c.id AS company_id, c.slug, c.cik, p.id AS person_id, p.full_name, pi.value AS owner_cik
+               FROM executive_comp ec JOIN company c ON c.id = ec.company_id JOIN person p ON p.id = ec.person_id
+               JOIN person_identifier pi ON pi.person_id = p.id AND pi.scheme = 'sec_cik'
+               WHERE c.slug = ANY(%s) ORDER BY c.slug, p.full_name""", (args.companies,)).fetchall()
+        for r in people:
+            n = insider_tx.load_owner(conn, edgar, r["person_id"], r["owner_cik"], r["company_id"], r["cik"],
+                                      date(args.since, 1, 1))
+            print(r["slug"], r["full_name"], n)
 
 
 def cmd_refresh(args: argparse.Namespace) -> None:
@@ -166,7 +191,7 @@ def cmd_refresh(args: argparse.Namespace) -> None:
 
 def cmd_seed_all(args: argparse.Namespace) -> None:
     """Load every researched board file and prototype price file, then recompute and validate."""
-    from bt.analytics import board_pay, event_study, exec_pay, tenure
+    from bt.analytics import board_pay, event_study, exec_pay, insider_sales, tenure
     from bt.ingest import prices, reference, seed_board, seed_board_pay, seed_comp
     from bt.quality import checks
 
@@ -228,6 +253,7 @@ def cmd_seed_all(args: argparse.Namespace) -> None:
         print("executive performance rows:", exec_pay.recompute(conn))
         print("board pay years:", board_pay.recompute(conn))
         print("board change events:", event_study.recompute(conn))
+        print("executive sales windows:", insider_sales.recompute(conn))
         issues = {k: v for k, v in checks.run(conn).items() if v}
         print("quality:", json.dumps(issues))
 
@@ -348,9 +374,17 @@ def build_parser() -> argparse.ArgumentParser:
                     help="load every 10-K/10-Q cover for these companies instead of the latest")
     sh.set_defaults(fn=cmd_sec_shares)
 
+    ip = sub.add_parser("insiders").add_subparsers(required=True)
+    il = ip.add_parser("load", help="load Forms 4/5 transactions for named executives at these companies")
+    il.add_argument("companies", nargs="+", metavar="SLUG")
+    il.add_argument("--since", type=int, default=2016, help="first filing year")
+    il.set_defaults(fn=cmd_insiders_load)
+
     scp = sub.add_parser("screen").add_subparsers(required=True)
     sp_pvp = scp.add_parser("pvp", help="load every filer's pay-versus-performance facts from SEC XBRL frames")
     sp_pvp.add_argument("--top", type=int, default=60, help="how many top cases to verify against their proxy")
+    sp_pvp.add_argument("--gaps", action="store_true",
+                        help="also read per-person CEO pay from the proxy of every company missing CEO years")
     sp_pvp.set_defaults(fn=cmd_screen_pvp)
 
     dp = sub.add_parser("refresh", help="run the scheduled (weekly) refresh: prices, filings, analytics, checks")

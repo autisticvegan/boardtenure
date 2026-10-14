@@ -104,3 +104,21 @@ def test_earlier_stint_before_paid_years_is_dropped():
     kept = relevant_positions(rows, date(2017, 12, 31))
     assert [r["start_date"] for r in kept] == [date(2017, 3, 2)]
     assert merge_positions(kept)["start"] == date(2017, 3, 2)
+
+
+def test_member_names_read_as_full_names():
+    from bt.ingest.screen import member_name
+    assert member_name("lyft:LoganGreenMember") == "Logan Green"
+    assert member_name("abc:JohnASmithMember") == "John A Smith"
+    assert member_name("abc:FormerPeoMember") is None
+    assert member_name("abc:PeoMember") is None
+
+
+def test_split_factor_restates_to_latest_share_basis():
+    from decimal import Decimal
+
+    from bt.analytics.insider_sales import split_factor_after
+    splits = [(date(2021, 7, 20), Decimal(4)), (date(2024, 6, 10), Decimal(10))]
+    assert split_factor_after(splits, date(2020, 1, 1)) == 40
+    assert split_factor_after(splits, date(2022, 1, 1)) == 10
+    assert split_factor_after(splits, date(2024, 6, 10)) == 1

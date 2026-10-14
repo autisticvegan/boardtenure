@@ -37,7 +37,9 @@ export function CaseCard({ c, rank, metric = "pay" }: { c: ScreenCase; rank?: nu
         </div>
         <div className="text-right shrink-0">
           <div className="text-[24px] leading-[28px] font-extrabold text-accent-ink num">{compactMoney(pay)}</div>
-          <div className="text-[11px] leading-4 text-ink-3">{metric === "cap" ? "CEO pay actually paid" : "to the CEO"}</div>
+          <div className="text-[11px] leading-4 text-ink-3">
+            {metric === "cap" ? "CEO pay actually paid" : (ceoNames(c.ceos)?.includes(" and ") ? "to its CEOs" : "to the CEO")}
+          </div>
         </div>
       </div>
       <div className="mt-3 flex items-center gap-3">
