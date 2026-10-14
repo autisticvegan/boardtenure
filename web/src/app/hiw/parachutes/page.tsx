@@ -40,7 +40,7 @@ export default async function Parachutes({ searchParams }: PageProps<"/hiw/parac
   const kind = (KINDS.find((k) => k.key === sp.kind)?.key ?? "all") as Kind;
   const everything = await getAllChutes();
   const all = everything.filter((c) => (c.total ?? 0) > 0);
-  const clawed = everything.filter((c) => c.clawback_or_forfeiture && (kind === "all" || c.context === kind));
+  const clawed = everything.filter((c) => (c.clawback_or_forfeiture || c.total === 0) && (kind === "all" || c.context === kind));
   const rows = all.filter((c) => kind === "all" || c.context === kind).sort((a, b) => (b.total ?? 0) - (a.total ?? 0));
   const sum = rows.reduce((a, c) => a + (c.total ?? 0), 0);
   const fell = rows.filter((c) => c.value_of_100 != null && c.value_of_100 < 100);
@@ -104,7 +104,9 @@ export default async function Parachutes({ searchParams }: PageProps<"/hiw/parac
               <li key={c.key} className="rounded-[14px] border border-gain/40 bg-surface px-5 py-4 shadow-card">
                 <div className="text-[11px] leading-[14px] uppercase tracking-[0.1em] text-ink-3">{c.company} · {yearOf(c.exit_date)}</div>
                 <div className="mt-1 text-[16px] leading-6 font-bold text-ink">{c.person}</div>
-                <p className="mt-1 text-[13px] leading-5 text-ink-2">{c.clawback_or_forfeiture}</p>
+                <p className="mt-1 text-[13px] leading-5 text-ink-2">
+                  {c.clawback_or_forfeiture ?? (c.exit_words ? <>No exit pay disclosed; the filing: &ldquo;{clip(c.exit_words, 160)}&rdquo;</> : "No exit pay disclosed.")}
+                </p>
                 {c.source_urls[0] && (
                   <a href={c.source_urls[0]} target="_blank" rel="noreferrer" className="mt-1 inline-block text-[12px] text-ink-3 underline underline-offset-2 hover:text-ink-2">source</a>
                 )}
