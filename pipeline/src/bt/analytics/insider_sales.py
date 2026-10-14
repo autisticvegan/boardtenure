@@ -50,7 +50,8 @@ def recompute(conn: psycopg.Connection) -> int:
         shares_adj = sum(r["shares"] * split_factor_after(splits, r["transaction_date"]) for r in rows)
         proceeds = sum(r["shares"] * r["price"] for r in rows)
         plan = sum(r["shares"] * r["price"] for r in rows if r["under_10b5_1"])
-        end_adj = (float(Decimal(w["end_close"]) * split_factor_after(splits, w["e"]))
+        # A price before a later split is that many times today's units: divide (shares multiply).
+        end_adj = (float(Decimal(w["end_close"]) / split_factor_after(splits, w["e"]))
                    if w["end_close"] is not None else None)
         conn.execute(
             """INSERT INTO executive_sales (company_id, person_id, window_start, window_end, sales, filings,

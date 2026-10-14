@@ -3,14 +3,16 @@ import type { ReactNode } from "react";
 import { CaseCard } from "@/components/hiw/case-card";
 import { hundred } from "@/components/hiw/hundred";
 import { compactMoney } from "@/lib/format";
-import { getHeadsIWin, getPaidAnyway, getParachutes, getScreenStats } from "@/lib/queries-hiw";
+import { getExecutiveSales, getHeadsIWin, getPaidAnyway, getParachutes, getScreenStats } from "@/lib/queries-hiw";
 
 export const revalidate = 3600;
 
 export default async function HiwHome() {
-  const [stats, paid, heads, chutes] = await Promise.all([
-    getScreenStats(), getPaidAnyway(50, 6), getHeadsIWin(3), getParachutes(),
+  const [stats, paid, heads, chutes, sales] = await Promise.all([
+    getScreenStats(), getPaidAnyway(50, 6), getHeadsIWin(3), getParachutes(), getExecutiveSales(),
   ]);
+  const soldBefore = sales.filter((s) => s.value_at_end != null && s.proceeds > s.value_at_end)
+    .sort((a, b) => (b.proceeds - b.value_at_end!) - (a.proceeds - a.value_at_end!)).slice(0, 3);
   const capPct = stats.lost_with_cap ? Math.round((stats.lost_cap_positive / stats.lost_with_cap) * 100) : null;
   const topChutes = chutes.filter((c) => (c.total_exit_pay ?? 0) > 0).slice(0, 3);
 
@@ -63,6 +65,24 @@ export default async function HiwHome() {
           {heads.map((c) => <CaseCard key={c.cik} c={c} metric="cap" />)}
         </div>
       </section>
+
+      {soldBefore.length > 0 && (
+        <section aria-labelledby="sold" className="space-y-4">
+          <Head id="sold" title="What they sold" href="/sold"
+                sub="Stock executives sold while in office, against what the same shares were worth when they left." />
+          <div className="grid gap-4 md:grid-cols-3">
+            {soldBefore.map((s) => (
+              <Link key={`${s.company_slug}-${s.full_name}`} href="/sold"
+                    className="block rounded-[14px] border border-line bg-surface px-5 py-4 shadow-card hover:border-line-strong">
+                <div className="text-[11px] leading-[14px] uppercase tracking-[0.08em] text-ink-3">{s.company_name}</div>
+                <div className="mt-1 text-[16px] leading-6 font-semibold text-ink">{s.full_name}</div>
+                <div className="mt-2 text-[28px] leading-[32px] font-extrabold text-accent-ink num">{compactMoney(s.proceeds)}</div>
+                <div className="text-[12px] leading-4 text-ink-3">sold; the same shares were worth {compactMoney(s.value_at_end)} at the end</div>
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
 
       {topChutes.length > 0 && (
         <section aria-labelledby="chutes" className="space-y-4">
