@@ -1,7 +1,7 @@
 {
   "as_of": "2026-10-14",
   "slice": "mergers",
-  "method": "TBD",
+  "method": "Started from the brief's candidate list plus other large deals with poor pre-deal target returns (Anadarko, Allergan, Warner Bros. Discovery, Frontier, Time Warner, Nielsen, Dish, Catalent, Kenvue, Aetna, Monsanto, Express Scripts). For each target I pulled the definitive merger proxy or information statement (DEFM14A/DEFM14C) from the target's EDGAR submissions index and recorded the CEO row (plus other NEOs where notable) of the Item 402(t) golden parachute table, with every column it itemises and the sub-tables that split cash into severance and bonus. Severance is the Cash column when its parts are not each printed as a single figure; any component left out of a field is named in the notes and is included in the stated total. Exit words come from the target's closing 8-K (Item 5.02) where it names the officer, otherwise from the table's termination assumption. basis is 'estimated' for every 402(t) figure; Paramount's Bakish is 'actual' because the 2025 proxy states his actual termination payments (the change-in-control enhancement lapsed before the deal closed). Stock: the target's own cumulative TSR from its last 10-K performance-graph table, or where the 10-K graph was image-only or absent, the latest proxy pay-versus-performance table, using only windows that start and end inside the executive's tenure. Executives who stayed with the acquirer after closing (so the double-trigger parachute was not triggered by any disclosed exit) and deals that were never completed are listed under rejected. Reporting-owner CIKs come from EDGAR full-text search of the executives' Form 3/4 filings.",
   "cases": [
     {
       "id": "mergers-01",
@@ -171,7 +171,7 @@
       },
       "role": "Chief Executive Officer",
       "tenure_start": "1991-02",
-      "tenure_end": "2023-10-13",
+      "tenure_end": "2023-12-29",
       "exit_type": "change_in_control",
       "context": "merger",
       "exit_words": "terminated by Activision Blizzard or its affiliates (including Microsoft) without \"cause\" or the named executive officer resigned for \"good reason\"",
@@ -207,49 +207,10 @@
         ]
       },
       "clawback_or_forfeiture": null,
-      "notes": "Item 402(t) estimate in the Microsoft merger proxy (assumed closing 2022-03-08). The table shows $0 equity: Kotick held no unvested awards that would accelerate, so his already-owned shares are not in the parachute. The merger closed 2023-10-13 and Activision stopped filing; tenure_end is the closing date (when he left the board per the 8-K); Activision filed nothing on his later departure as CEO, so no SEC filing states the actual payout. Benefits are two years of health coverage plus supplemental life insurance through October 2026."
+      "notes": "Item 402(t) estimate in the Microsoft merger proxy (assumed closing 2022-03-08). The table shows $0 equity: Kotick held no unvested awards that would accelerate, so his already-owned shares are not in the parachute. The merger closed 2023-10-13 (he left the board then, per the 8-K) and Activision stopped filing; he stayed on as CEO under Microsoft until 2023-12-29 (date from Microsoft's public announcement, not an SEC filing), and no SEC filing states the actual payout. Benefits are two years of health coverage plus supplemental life insurance through October 2026."
     },
     {
       "id": "mergers-06",
-      "person": {
-        "name": "Gary Steele",
-        "sec_cik": "0001547434"
-      },
-      "company": {
-        "name": "Splunk Inc.",
-        "cik": "1353283",
-        "ticker": "SPLK"
-      },
-      "role": "President and Chief Executive Officer",
-      "tenure_start": "2022-04-11",
-      "tenure_end": "2024-03",
-      "exit_type": "change_in_control",
-      "context": "merger",
-      "exit_words": "a termination of employment by Splunk and/or Parent without \"cause\" or by the executive officer for \"good reason\"",
-      "basis": "estimated",
-      "pay": {
-        "severance_cash": 9842123,
-        "bonus": null,
-        "equity": 90343609,
-        "pension_deferred": null,
-        "benefits_other": 30802,
-        "consulting": null,
-        "tax_gross_up": null,
-        "total": 100216534,
-        "total_is_stated": true
-      },
-      "pay_evidence_refs": [
-        "m030",
-        "m031",
-        "m032",
-        "m033"
-      ],
-      "stock": null,
-      "clawback_or_forfeiture": null,
-      "notes": "Item 402(t) estimate in the Cisco merger proxy (assumed closing 2023-10-15). Cash of $9,842,123 = $1,800,000 salary severance + $2,250,000 bonus severance + $792,123 prorated target bonus + $5,000,000 retention bonus. Equity assumes post-FY2023 PSUs at maximum; part of it vests at closing regardless of termination. The proxy refers to a 'Parent Employment Agreement' with Cisco, i.e. Steele was expected to stay on after the March 2024 closing. No in-tenure TSR table (Splunk filed no 10-K after FY2023, and its PvP TSR starts 2020-01-31)."
-    },
-    {
-      "id": "mergers-07",
       "person": {
         "name": "Rangarajan (Raghu) Raghuram",
         "sec_cik": "0001567874"
@@ -264,7 +225,7 @@
       "tenure_end": "2023-11-22",
       "exit_type": "change_in_control",
       "context": "merger",
-      "exit_words": "terminated by VMware without cause or by the named executive officer for good reason",
+      "exit_words": "were removed as officers of the Company",
       "basis": "estimated",
       "pay": {
         "severance_cash": 6000000,
@@ -281,14 +242,15 @@
         "m040",
         "m041",
         "m042",
-        "m043"
+        "m043",
+        "m044"
       ],
       "stock": null,
       "clawback_or_forfeiture": null,
       "notes": "Item 402(t) estimate in the Broadcom merger proxy/prospectus (assumed effective time 2022-09-30, $130.09 per share). Severance is 2.0x highest salary plus target bonus; equity is double-trigger RSU/PSU acceleration. The merger closed 2023-11-22; no later VMware filing states the actual payout. No in-tenure TSR table."
     },
     {
-      "id": "mergers-08",
+      "id": "mergers-07",
       "person": {
         "name": "John B. Hess",
         "sec_cik": "0001087997"
@@ -338,7 +300,7 @@
       "notes": "Item 402(t) estimate in the Chevron merger proxy/prospectus (assumed closing 2024-12-31, $150.25 per share). Includes a $34,513,867 excise-tax make-whole. Pension is three extra years of service and age credit. Hess was retirement eligible, so his unvested awards would also vest on retirement. The merger closed 2025-07-18; no later Hess filing states the actual payout."
     },
     {
-      "id": "mergers-09",
+      "id": "mergers-08",
       "person": {
         "name": "Scott D. Sheffield",
         "sec_cik": "0001034316"
@@ -389,7 +351,7 @@
       "notes": "Item 402(t) estimate in the ExxonMobil merger proxy/prospectus (assumed closing 2023-11-17, $248.90 per share). Equity vests single-trigger at the merger (performance units at maximum). Sheffield retired as CEO on 2023-12-31 and became a non-executive Special Advisor until the May 2024 closing, which his transition letter treats as a termination without cause. Stock is the 2023 proxy's pay-versus-performance TSR (3-year window, which by rule starts at 2019 year-end, inside his 2019-2023 CEO stint)."
     },
     {
-      "id": "mergers-10",
+      "id": "mergers-09",
       "person": {
         "name": "Richard P. Dealy",
         "sec_cik": "0001121919"
@@ -428,105 +390,7 @@
       "notes": "Item 402(t) estimate (assumed closing 2023-11-17). Dealy was President and COO when the table was prepared and became CEO on 2024-01-01. The merger closed in May 2024; no later Pioneer filing states the actual payout. No in-tenure TSR table for his CEO tenure."
     },
     {
-      "id": "mergers-11",
-      "person": {
-        "name": "Rami Rahim",
-        "sec_cik": "0001560849"
-      },
-      "company": {
-        "name": "Juniper Networks, Inc.",
-        "cik": "1043604",
-        "ticker": "JNPR"
-      },
-      "role": "Chief Executive Officer",
-      "tenure_start": "2014-11",
-      "tenure_end": null,
-      "exit_type": "change_in_control",
-      "context": "merger",
-      "exit_words": "a termination of employment by Juniper and/or Parent without \"cause\" or by the executive officer for \"good reason\"",
-      "basis": "estimated",
-      "pay": {
-        "severance_cash": 14500000,
-        "bonus": null,
-        "equity": 35436029,
-        "pension_deferred": null,
-        "benefits_other": 40410,
-        "consulting": null,
-        "tax_gross_up": null,
-        "total": 49976439,
-        "total_is_stated": true
-      },
-      "pay_evidence_refs": [
-        "m070",
-        "m071",
-        "m072",
-        "m073"
-      ],
-      "stock": {
-        "company_value_of_100": 175.65,
-        "comparison_name": "S&P 500",
-        "comparison_value_of_100": 196.85,
-        "period_start": "2019-12-31",
-        "period_end": "2024-12-31",
-        "evidence_refs": [
-          "m074"
-        ]
-      },
-      "clawback_or_forfeiture": null,
-      "notes": "Item 402(t) estimate in the Hewlett Packard Enterprise merger proxy (assumed closing 2024-02-21, $40.00 per share). Cash of $14,500,000 = $2,000,000 salary severance + $3,500,000 target bonus severance + a $9,000,000 Retention Cash Award under his offer letter from HPE; all double-trigger. The proxy describes a 'Parent Offer Letter', i.e. Rahim was expected to stay with HPE after the July 2025 closing, so no departure or payout is disclosed; tenure_end is left null. The 2024 TSR year-end includes the pending $40 deal price."
-    },
-    {
-      "id": "mergers-12",
-      "person": {
-        "name": "David B. Burritt",
-        "sec_cik": null
-      },
-      "company": {
-        "name": "United States Steel Corporation",
-        "cik": "1163302",
-        "ticker": "X"
-      },
-      "role": "President and Chief Executive Officer",
-      "tenure_start": "2017-05",
-      "tenure_end": null,
-      "exit_type": "change_in_control",
-      "context": "merger",
-      "exit_words": "experienced a termination of employment without cause",
-      "basis": "estimated",
-      "pay": {
-        "severance_cash": 13082891,
-        "bonus": null,
-        "equity": 53838987,
-        "pension_deferred": 4011997,
-        "benefits_other": 100789,
-        "consulting": null,
-        "tax_gross_up": null,
-        "total": 72037484,
-        "total_is_stated": true
-      },
-      "pay_evidence_refs": [
-        "m080",
-        "m081",
-        "m082",
-        "m085",
-        "m086"
-      ],
-      "stock": {
-        "company_value_of_100": 436.12,
-        "comparison_name": "S&P 600 Steel Index",
-        "comparison_value_of_100": 309.51,
-        "period_start": "2019-12-31",
-        "period_end": "2023-12-31",
-        "evidence_refs": [
-          "m083",
-          "m084"
-        ]
-      },
-      "clawback_or_forfeiture": null,
-      "notes": "Item 402(t) estimate in the Nippon Steel merger proxy (assumed termination 2024-03-08, $55.00 per share). Cash is 2.5x salary plus bonus. The stated total also includes $1,002,820 in an 'Other' column (enhanced retirement and savings benefits), not split into a separate field. Burritt did NOT leave at the 2025-06-18 closing: the 8-K says the board elected him President and CEO of the surviving company, so the double-trigger amounts were not triggered by any disclosed departure; tenure_end is null. The FY2023 TSR year-end follows the 2023-12-18 deal announcement."
-    },
-    {
-      "id": "mergers-13",
+      "id": "mergers-10",
       "person": {
         "name": "Peter R. Ingram",
         "sec_cik": "0001345061"
@@ -575,7 +439,7 @@
       "notes": "Item 402(t) estimate in the Alaska Air Group merger proxy (assumed closing 2024-12-31, $18.00 per share). Cash of $7,329,000 = $2,325,000 salary severance (36 months) + $2,682,000 target bonus severance (300%) + $72,000 in lieu of COBRA + $2,250,000 accelerated 2024 cash incentives. Merger closed 2024-09-18; no later Hawaiian filing states the actual payout. Stock is the 2024 proxy's PvP TSR (2021-2023, $100 at the day before FY2021); the 10-K graph was image-only."
     },
     {
-      "id": "mergers-14",
+      "id": "mergers-11",
       "person": {
         "name": "Steven A. Cahillane",
         "sec_cik": "0001416390"
@@ -626,7 +490,7 @@
       "notes": "Item 402(t) estimate in the Mars merger proxy ($83.50 per share). Includes a $16,218,989 excise-tax gross-up; the stated total also includes $25,962 of accrued vacation. Merger closed 2025-12-11; no later Kellanova filing states the actual payout. Kellanova's 10-K carries no performance graph, so stock is the 2024 proxy's PvP TSR (the 2023 spin-off of WK Kellogg Co falls inside the window)."
     },
     {
-      "id": "mergers-15",
+      "id": "mergers-12",
       "person": {
         "name": "Robert M. Bakish",
         "sec_cik": "0001347876"
@@ -676,6 +540,357 @@
       },
       "clawback_or_forfeiture": null,
       "notes": "Actual payments per Paramount's 2025 proxy. The Skydance information statement's golden parachute table estimated $49,248,918 for Bakish under the CIC Plan (2.5x salary plus target bonus), but that enhancement applied only if a change in control occurred by 2025-04-30; the Skydance deal closed in August 2025, so the 2025 proxy's 'Actual Termination Payments' row ($69,295,909, including $27,817,864 of equity acceleration/continuation) is used. severance_cash shows the $24,800,000 annual-bonus continuation; a further $6,200,000 salary continuation and $25,000 outplacement are in the stated total. Stock is Class B PvP TSR, $100 at 2019 year-end (Bakish became CEO 2019-12-04)."
+    },
+    {
+      "id": "mergers-13",
+      "person": {
+        "name": "R. A. (Al) Walker",
+        "sec_cik": "0001018198"
+      },
+      "company": {
+        "name": "Anadarko Petroleum Corporation",
+        "cik": "773910",
+        "ticker": "APC"
+      },
+      "role": "Chairman and Chief Executive Officer",
+      "tenure_start": "2012-05",
+      "tenure_end": "2019-08-08",
+      "exit_type": "change_in_control",
+      "context": "merger",
+      "exit_words": "ceased to be directors or officers of the Company at the Effective Time",
+      "basis": "estimated",
+      "pay": {
+        "severance_cash": 20800000,
+        "bonus": null,
+        "equity": 58827224,
+        "pension_deferred": 690300,
+        "benefits_other": 364154,
+        "consulting": null,
+        "tax_gross_up": 17415358,
+        "total": 98097036,
+        "total_is_stated": true
+      },
+      "pay_evidence_refs": [
+        "m120",
+        "m121",
+        "m122",
+        "m123",
+        "m125"
+      ],
+      "stock": {
+        "company_value_of_100": 58.19,
+        "comparison_name": "S&P 500",
+        "comparison_value_of_100": 150.33,
+        "period_start": "2013-12-31",
+        "period_end": "2018-12-31",
+        "evidence_refs": [
+          "m124"
+        ]
+      },
+      "clawback_or_forfeiture": null,
+      "notes": "Item 402(t) estimate in the Occidental merger proxy (assumed closing 2019-09-30). Cash of $20,800,000 = $13,000,000 cash severance + $3,900,000 CIC bonus + $3,900,000 2019 bonus. Includes a $17,415,358 tax reimbursement. The merger closed 2019-08-08 and all officers ceased to serve; no later Anadarko filing states the actual payout."
+    },
+    {
+      "id": "mergers-14",
+      "person": {
+        "name": "Brenton L. Saunders",
+        "sec_cik": "0001268854"
+      },
+      "company": {
+        "name": "Allergan plc",
+        "cik": "1578845",
+        "ticker": "AGN"
+      },
+      "role": "Chairman, President and Chief Executive Officer",
+      "tenure_start": "2014-07",
+      "tenure_end": "2020-05-08",
+      "exit_type": "change_in_control",
+      "context": "merger",
+      "exit_words": "each of Allergan's executive officers no longer serves in their respective positions at Allergan",
+      "basis": "estimated",
+      "pay": {
+        "severance_cash": 13050000,
+        "bonus": 1832877,
+        "equity": 23625381,
+        "pension_deferred": null,
+        "benefits_other": 154037,
+        "consulting": null,
+        "tax_gross_up": null,
+        "total": 38662295,
+        "total_is_stated": true
+      },
+      "pay_evidence_refs": [
+        "m130",
+        "m131",
+        "m132",
+        "m134",
+        "m135"
+      ],
+      "stock": {
+        "company_value_of_100": 78.05,
+        "comparison_name": "S&P 500",
+        "comparison_value_of_100": 173.86,
+        "period_start": "2014-12-31",
+        "period_end": "2019-12-31",
+        "evidence_refs": [
+          "m133"
+        ]
+      },
+      "clawback_or_forfeiture": null,
+      "notes": "Item 402(t) estimate in the AbbVie scheme proxy (assumed effective time 2019-08-12, $165.48 per share). The pro rata bonus is single-trigger; the 3x lump-sum severance is double-trigger. The transaction closed 2020-05-08; no later Allergan filing states the actual payout. Saunders became CEO of the company (then Actavis plc) in July 2014 with the Forest Laboratories acquisition; the TSR window starts after that."
+    },
+    {
+      "id": "mergers-15",
+      "person": {
+        "name": "Nick Jeffery",
+        "sec_cik": "0001859463"
+      },
+      "company": {
+        "name": "Frontier Communications Parent, Inc.",
+        "cik": "20520",
+        "ticker": "FYBR"
+      },
+      "role": "President and Chief Executive Officer",
+      "tenure_start": "2021-03",
+      "tenure_end": "2026-01-20",
+      "exit_type": "change_in_control",
+      "context": "merger",
+      "exit_words": "resignations for Good Reason",
+      "basis": "estimated",
+      "pay": {
+        "severance_cash": 9751781,
+        "bonus": null,
+        "equity": 49914711,
+        "pension_deferred": null,
+        "benefits_other": 29540,
+        "consulting": null,
+        "tax_gross_up": null,
+        "total": 59696032,
+        "total_is_stated": true
+      },
+      "pay_evidence_refs": [
+        "m140",
+        "m141",
+        "m142",
+        "m143",
+        "m144"
+      ],
+      "stock": {
+        "company_value_of_100": 128.76,
+        "comparison_name": "S&P Midcap 400 Index",
+        "comparison_value_of_100": 114.28,
+        "period_start": "2021-05-04",
+        "period_end": "2024-12-31",
+        "evidence_refs": [
+          "m145",
+          "m146"
+        ]
+      },
+      "clawback_or_forfeiture": null,
+      "notes": "Item 402(t) estimate in the Verizon merger proxy (assumed closing 2024-10-01, $38.50 per share). Severance is 2x salary plus target bonus plus a prorated bonus. The merger closed 2026-01-20; Jeffery resigned at closing (treated as Good Reason) under a separation agreement that pays the 2026 prorated bonus at target; no filing states the actual total. TSR starts at the 2021-05-04 post-bankruptcy listing; the 2024 year-end includes the pending deal price. The 10-K also shows the S&P 500 Telecom Services Index at 89.57."
+    },
+    {
+      "id": "mergers-16",
+      "person": {
+        "name": "David M. Zaslav",
+        "sec_cik": "0001318285"
+      },
+      "company": {
+        "name": "Warner Bros. Discovery, Inc.",
+        "cik": "1437107",
+        "ticker": "WBD"
+      },
+      "role": "President and Chief Executive Officer",
+      "tenure_start": "2007-01",
+      "tenure_end": "2026-10-06",
+      "exit_type": "change_in_control",
+      "context": "merger",
+      "exit_words": "will be separating from employment with WBD",
+      "basis": "estimated",
+      "pay": {
+        "severance_cash": 34219178,
+        "bonus": null,
+        "equity": 517204781,
+        "pension_deferred": null,
+        "benefits_other": 44195,
+        "consulting": null,
+        "tax_gross_up": 335368021,
+        "total": 886836175,
+        "total_is_stated": true
+      },
+      "pay_evidence_refs": [
+        "m150",
+        "m151",
+        "m152",
+        "m153",
+        "m154",
+        "m155",
+        "m156",
+        "m157",
+        "m159",
+        "m165"
+      ],
+      "stock": {
+        "company_value_of_100": 96,
+        "comparison_name": "S&P 500 Media and Entertainment Index",
+        "comparison_value_of_100": 228,
+        "period_start": "2020-12-31",
+        "period_end": "2025-12-31",
+        "evidence_refs": [
+          "m162",
+          "m163",
+          "m164"
+        ]
+      },
+      "clawback_or_forfeiture": null,
+      "notes": "Item 402(t) estimate in the Skydance (Paramount Skydance) merger proxy (assumed effective time 2026-03-11, $31.00 base merger consideration); the merger closed 2026-10-06 at $31.01666668 per share. Cash = $6,000,000 salary severance + $28,219,178 bonus severance. Equity is mostly single-trigger 'CEO Awards' ($443,131,800 of options, plus RSUs and PRSUs) that vest on consummation. The $335,368,021 excise-tax reimbursement was estimated for a March 2026 closing; the proxy says the actual amount is expected to decline significantly with time (none if closing slipped to 2027), and no filing yet states the actual amount. Zaslav has been CEO since 2007 (Discovery, the same registrant), so the PvP TSR window (2020-12-31 to 2025-12-31) is inside his tenure; the 2025 value reflects the bidding for the company."
+    },
+    {
+      "id": "mergers-17",
+      "person": {
+        "name": "Gunnar Wiedenfels",
+        "sec_cik": "0001694392"
+      },
+      "company": {
+        "name": "Warner Bros. Discovery, Inc.",
+        "cik": "1437107",
+        "ticker": "WBD"
+      },
+      "role": "Chief Financial Officer",
+      "tenure_start": "2017-04",
+      "tenure_end": "2026-10-16",
+      "exit_type": "change_in_control",
+      "context": "merger",
+      "exit_words": "will be separating from employment with WBD",
+      "basis": "estimated",
+      "pay": {
+        "severance_cash": 6610625,
+        "bonus": null,
+        "equity": 113146795,
+        "pension_deferred": null,
+        "benefits_other": 266283,
+        "consulting": null,
+        "tax_gross_up": null,
+        "total": 120023703,
+        "total_is_stated": true
+      },
+      "pay_evidence_refs": [
+        "m150",
+        "m151",
+        "m155",
+        "m156",
+        "m157",
+        "m158",
+        "m160"
+      ],
+      "stock": {
+        "company_value_of_100": 96,
+        "comparison_name": "S&P 500 Media and Entertainment Index",
+        "comparison_value_of_100": 228,
+        "period_start": "2020-12-31",
+        "period_end": "2025-12-31",
+        "evidence_refs": [
+          "m162",
+          "m163",
+          "m164"
+        ]
+      },
+      "clawback_or_forfeiture": null,
+      "notes": "Item 402(t) estimate in the Skydance (Paramount Skydance) merger proxy (assumed effective time 2026-03-11, $31.00 base merger consideration); the merger closed 2026-10-06 at $31.01666668 per share. Cash = $2,142,400 salary severance + $4,468,225 bonus severance; equity is double-trigger acceleration (mostly PRSUs). Not in the table: a $2,142,401 cash transaction bonus granted 2026-09-30 per the closing 8-K."
+    },
+    {
+      "id": "mergers-18",
+      "person": {
+        "name": "Bruce L. Campbell",
+        "sec_cik": "0001421985"
+      },
+      "company": {
+        "name": "Warner Bros. Discovery, Inc.",
+        "cik": "1437107",
+        "ticker": "WBD"
+      },
+      "role": "Chief Revenue and Strategy Officer",
+      "tenure_start": "2015-10",
+      "tenure_end": "2026-10-16",
+      "exit_type": "change_in_control",
+      "context": "merger",
+      "exit_words": "will be separating from employment with WBD",
+      "basis": "estimated",
+      "pay": {
+        "severance_cash": 18805973,
+        "bonus": null,
+        "equity": 102676898,
+        "pension_deferred": null,
+        "benefits_other": 43347,
+        "consulting": null,
+        "tax_gross_up": null,
+        "total": 121526218,
+        "total_is_stated": true
+      },
+      "pay_evidence_refs": [
+        "m150",
+        "m151",
+        "m155",
+        "m156",
+        "m157",
+        "m158",
+        "m161"
+      ],
+      "stock": {
+        "company_value_of_100": 96,
+        "comparison_name": "S&P 500 Media and Entertainment Index",
+        "comparison_value_of_100": 228,
+        "period_start": "2020-12-31",
+        "period_end": "2025-12-31",
+        "evidence_refs": [
+          "m162",
+          "m163",
+          "m164"
+        ]
+      },
+      "clawback_or_forfeiture": null,
+      "notes": "Item 402(t) estimate in the Skydance (Paramount Skydance) merger proxy (assumed effective time 2026-03-11, $31.00 base merger consideration); the merger closed 2026-10-06 at $31.01666668 per share. Cash = $5,892,000 salary severance + $12,913,973 bonus severance; equity is double-trigger PRSU acceleration. Not in the table: a $2,946,000 cash transaction bonus granted 2026-09-30 per the closing 8-K. tenure_start is when he became Chief Distribution Officer; he held earlier senior roles at Discovery."
+    },
+    {
+      "id": "mergers-19",
+      "person": {
+        "name": "Jeffrey L. Bewkes",
+        "sec_cik": "0001237443"
+      },
+      "company": {
+        "name": "Time Warner Inc.",
+        "cik": "1105705",
+        "ticker": "TWX"
+      },
+      "role": "Chairman and Chief Executive Officer",
+      "tenure_start": "2008-01",
+      "tenure_end": "2018-06",
+      "exit_type": "change_in_control",
+      "context": "merger",
+      "exit_words": "resigned from the board of directors of Time Warner",
+      "basis": "estimated",
+      "pay": {
+        "severance_cash": 44522603,
+        "bonus": null,
+        "equity": 23383255,
+        "pension_deferred": null,
+        "benefits_other": 1213332,
+        "consulting": null,
+        "tax_gross_up": null,
+        "total": 69119189,
+        "total_is_stated": true
+      },
+      "pay_evidence_refs": [
+        "m170",
+        "m171",
+        "m172",
+        "m173",
+        "m174",
+        "m175"
+      ],
+      "stock": null,
+      "clawback_or_forfeiture": null,
+      "notes": "Item 402(t) estimate in the AT&T merger proxy/prospectus (assumed closing 2017-10-22, $87.67 per share). Cash is 2x salary + 2x average annual bonus + a pro-rated bonus under his employment agreement; the proxy's supplemental table shows none of his amounts are payable solely because of the transaction (they are owed on any covered termination). The merger closed in June 2018 and Time Warner became Warner Media, LLC; no later filing located states the actual payout. Time Warner's 10-K carried no performance-graph table, so stock is null."
     }
   ],
   "evidence": [
@@ -849,42 +1064,6 @@
       "url": "https://www.sec.gov/Archives/edgar/data/718877/000110465923108985/tm2328253d1_8k.htm",
       "quote": "each of Reveta Bowers, Kerry Carr, Robert Corti, Brian Kelly, Robert Kotick, Barry Meyer, Robert Morgado, Peter Nolan and Dawn Ostroff resigned and ceased to be directors of the Company",
       "supports": "Kotick left the board at the 2023-10-13 closing"
-    },
-    {
-      "id": "m030",
-      "form": "DEFM14A",
-      "accession": "0001140361-23-050211",
-      "filing_date": "2023-10-30",
-      "url": "https://www.sec.gov/Archives/edgar/data/1353283/000114036123050211/ny20011269x2_defm14a.htm",
-      "quote": "Name Cash ($)(1) Equity ($)(2) Perquisites/ Benefits ($)(3) Total ($)(4) Gary Steele $9,842,123 $90,343,609 $30,802 $100,216,534",
-      "supports": "Golden Parachute Compensation table row for Steele"
-    },
-    {
-      "id": "m031",
-      "form": "DEFM14A",
-      "accession": "0001140361-23-050211",
-      "filing_date": "2023-10-30",
-      "url": "https://www.sec.gov/Archives/edgar/data/1353283/000114036123050211/ny20011269x2_defm14a.htm",
-      "quote": "Gary Steele $1,800,000 $2,250,000 $792,123 $5,000,000 $9,842,123",
-      "supports": "Steele cash breakdown: salary severance, bonus severance, prorated target bonus, retention bonus"
-    },
-    {
-      "id": "m032",
-      "form": "DEFM14A",
-      "accession": "0001140361-23-050211",
-      "filing_date": "2023-10-30",
-      "url": "https://www.sec.gov/Archives/edgar/data/1353283/000114036123050211/ny20011269x2_defm14a.htm",
-      "quote": "Each named executive officer of Splunk experiences a qualifying termination of employment (i.e., a termination of employment by Splunk and/or Parent without \"cause\" or by the executive officer for \"good reason,\"",
-      "supports": "GP table termination assumption"
-    },
-    {
-      "id": "m033",
-      "form": "DEF 14A",
-      "accession": "0001308179-23-000851",
-      "filing_date": "2023-05-09",
-      "url": "https://www.sec.gov/Archives/edgar/data/1353283/000130817923000851/splk4148431-def14a.htm",
-      "quote": "Since Mr. Steele was appointed CEO effective April 11, 2022",
-      "supports": "Steele CEO from 2022-04-11"
     },
     {
       "id": "m040",
@@ -1065,114 +1244,6 @@
       "url": "https://www.sec.gov/Archives/edgar/data/1038357/000119312523279894/d484671d8k.htm",
       "quote": "his previously announced appointment as the Company's Chief Executive Officer effective January 1, 2024",
       "supports": "Dealy CEO from 2024-01-01"
-    },
-    {
-      "id": "m070",
-      "form": "DEFM14A",
-      "accession": "0001193125-24-046175",
-      "filing_date": "2024-02-26",
-      "url": "https://www.sec.gov/Archives/edgar/data/1043604/000119312524046175/d84254ddefm14a.htm",
-      "quote": "Name Cash ($) (1) Equity ($) (2) Perquisites/ Benefits ($) (3) Total ($) (4) Rami Rahim 14,500,000 35,436,029 40,410 49,976,439",
-      "supports": "Golden Parachute Compensation table row for Rahim"
-    },
-    {
-      "id": "m071",
-      "form": "DEFM14A",
-      "accession": "0001193125-24-046175",
-      "filing_date": "2024-02-26",
-      "url": "https://www.sec.gov/Archives/edgar/data/1043604/000119312524046175/d84254ddefm14a.htm",
-      "quote": "Retention Cash Award ($) Total ($) Rami Rahim 2,000,000 3,500,000 9,000,000 14,500,000",
-      "supports": "Rahim cash breakdown: salary severance, target bonus severance, $9,000,000 Retention Cash Award"
-    },
-    {
-      "id": "m072",
-      "form": "DEFM14A",
-      "accession": "0001193125-24-046175",
-      "filing_date": "2024-02-26",
-      "url": "https://www.sec.gov/Archives/edgar/data/1043604/000119312524046175/d84254ddefm14a.htm",
-      "quote": "Each named executive officer of Juniper experiences a qualifying termination of employment (i.e., a termination of employment by Juniper and/or Parent without \"cause\" or by the executive officer for \"good reason,\"",
-      "supports": "GP table termination assumption"
-    },
-    {
-      "id": "m073",
-      "form": "10-K",
-      "accession": "0001043604-25-000025",
-      "filing_date": "2025-02-21",
-      "url": "https://www.sec.gov/Archives/edgar/data/1043604/000104360425000025/jnpr-20241231.htm",
-      "quote": "RAMI RAHIM joined Juniper in January 1997 and became Chief Executive Officer of Juniper and a member of the Board of Directors in November 2014.",
-      "supports": "Rahim CEO since November 2014"
-    },
-    {
-      "id": "m074",
-      "form": "10-K",
-      "accession": "0001043604-25-000025",
-      "filing_date": "2025-02-21",
-      "url": "https://www.sec.gov/Archives/edgar/data/1043604/000104360425000025/jnpr-20241231.htm",
-      "quote": "As of December 31, 2019 2020 2021 2022 2023 2024 JNPR $ 100.00 $ 94.62 $ 154.58 $ 142.09 $ 135.00 $ 175.65 S&P 500 $ 100.00 $ 118.39 $ 152.34 $ 124.73 $ 157.48 $ 196.85",
-      "supports": "Five-year cumulative total stockholder return, $100 invested 2019-12-31"
-    },
-    {
-      "id": "m080",
-      "form": "DEFM14A",
-      "accession": "0001104659-24-033546",
-      "filing_date": "2024-03-12",
-      "url": "https://www.sec.gov/Archives/edgar/data/1163302/000110465924033546/tm243679-12_defm14a.htm",
-      "quote": "David B. Burritt $ 13,082,891 $ 53,838,987 $ 4,011,997 $ 100,789 $ 1,002,820 $ 72,037,484 President & Chief Executive Officer",
-      "supports": "Golden parachute table row for Burritt: cash, equity, pension/NQDC, perquisites/benefits, other, total"
-    },
-    {
-      "id": "m081",
-      "form": "DEFM14A",
-      "accession": "0001104659-24-033546",
-      "filing_date": "2024-03-12",
-      "url": "https://www.sec.gov/Archives/edgar/data/1163302/000110465924033546/tm243679-12_defm14a.htm",
-      "quote": "each such named executive officer experienced a termination of employment without cause on March 8, 2024 (which is the latest practicable date to determine such amount before the filing of this proxy statement); and (ii) a per share price of USS common stock of $55.00",
-      "supports": "GP table assumptions"
-    },
-    {
-      "id": "m082",
-      "form": "DEFM14A",
-      "accession": "0001104659-24-033546",
-      "filing_date": "2024-03-12",
-      "url": "https://www.sec.gov/Archives/edgar/data/1163302/000110465924033546/tm243679-12_defm14a.htm",
-      "quote": "The amounts set forth in this column include the increase in retirement and savings benefits to a named executive officer in the event of a termination in connection with a change in control",
-      "supports": "'Other' column = enhanced retirement and savings benefits"
-    },
-    {
-      "id": "m083",
-      "form": "DEF 14A",
-      "accession": "0001104659-24-035006",
-      "filing_date": "2024-03-15",
-      "url": "https://www.sec.gov/Archives/edgar/data/1163302/000110465924035006/tm2332710d3_def14a.htm",
-      "quote": "2023 $16,733,927 $56,705,104 $5,429,691 $13,068,626 $436.12 $309.51",
-      "supports": "PvP table FY2023: company TSR 436.12 vs peer group TSR 309.51"
-    },
-    {
-      "id": "m084",
-      "form": "DEF 14A",
-      "accession": "0001104659-24-035006",
-      "filing_date": "2024-03-15",
-      "url": "https://www.sec.gov/Archives/edgar/data/1163302/000110465924035006/tm2332710d3_def14a.htm",
-      "quote": "the peer group Total Shareholder Return reflects the S&P 600 Steel Index. Dollar values assume an initial $100 investment for the cumulative period from December 31, 2019 through December 31, 2023",
-      "supports": "TSR window and peer index"
-    },
-    {
-      "id": "m085",
-      "form": "DEF 14A",
-      "accession": "0001104659-24-035006",
-      "filing_date": "2024-03-15",
-      "url": "https://www.sec.gov/Archives/edgar/data/1163302/000110465924035006/tm2332710d3_def14a.htm",
-      "quote": "Mr. Burritt was the Chief Executive Officer (CEO) of the Corporation for all years shown.",
-      "supports": "Burritt CEO throughout the TSR window"
-    },
-    {
-      "id": "m086",
-      "form": "8-K",
-      "accession": "0001104659-25-062586",
-      "filing_date": "2025-06-25",
-      "url": "https://www.sec.gov/Archives/edgar/data/1163302/000110465925062586/tm2518973d1_8k.htm",
-      "quote": "officers were removed and the Board elected David B. Burritt as President and Chief Executive Officer",
-      "supports": "Burritt re-elected CEO after the 2025-06-18 closing"
     },
     {
       "id": "m090",
@@ -1380,7 +1451,461 @@
       "url": "https://www.sec.gov/Archives/edgar/data/813828/000119312524105026/d558817ddef14a.htm",
       "quote": "namely, the S&P 500 Media and Entertainment Index, for purposes of this disclosure.",
       "supports": "Peer group index"
+    },
+    {
+      "id": "m044",
+      "form": "8-K",
+      "accession": "0001193125-23-282097",
+      "filing_date": "2023-11-22",
+      "url": "https://www.sec.gov/Archives/edgar/data/1124610/000119312523282097/d559518d8k.htm",
+      "quote": "all of the incumbent officers of the Company as of immediately prior to the Effective Time, were removed as officers of the Company.",
+      "supports": "All VMware officers removed at the 2023-11-22 closing"
+    },
+    {
+      "id": "m120",
+      "form": "DEFM14A",
+      "accession": "0001140361-19-012802",
+      "filing_date": "2019-07-11",
+      "url": "https://www.sec.gov/Archives/edgar/data/773910/000114036119012802/nt10002584x1_defm14a.htm",
+      "quote": "Name Cash(1) Equity(2) Pension/ NQDC(3) Perquisites/ Benefits(4) Tax Reimbursement (5) Total Al Walker $ 20,800,000 $ 58,827,224 $ 690,300 $ 364,154 $ 17,415,358 $ 98,097,036",
+      "supports": "Golden Parachute Compensation table row for Walker"
+    },
+    {
+      "id": "m121",
+      "form": "DEFM14A",
+      "accession": "0001140361-19-012802",
+      "filing_date": "2019-07-11",
+      "url": "https://www.sec.gov/Archives/edgar/data/773910/000114036119012802/nt10002584x1_defm14a.htm",
+      "quote": "Name Cash Severance CIC Bonus 2019 Bonus Transaction Bonus Total Al Walker $ 13,000,000 $ 3,900,000 $ 3,900,000 - $ 20,800,000",
+      "supports": "Walker cash breakdown: cash severance, CIC bonus, 2019 bonus"
+    },
+    {
+      "id": "m122",
+      "form": "DEFM14A",
+      "accession": "0001140361-19-012802",
+      "filing_date": "2019-07-11",
+      "url": "https://www.sec.gov/Archives/edgar/data/773910/000114036119012802/nt10002584x1_defm14a.htm",
+      "quote": "(ii) each of the NEOs experiences a qualifying termination as of the closing date of the merger",
+      "supports": "GP table termination assumption"
+    },
+    {
+      "id": "m123",
+      "form": "10-K",
+      "accession": "0000773910-19-000009",
+      "filing_date": "2019-02-14",
+      "url": "https://www.sec.gov/Archives/edgar/data/773910/000077391019000009/apc201810k-10k.htm",
+      "quote": "Mr. Walker was named Chairman of the Board of the Company in May 2013, in addition to the role of Chief Executive Officer and director, both of which he assumed in May 2012.",
+      "supports": "Walker CEO since May 2012"
+    },
+    {
+      "id": "m124",
+      "form": "10-K",
+      "accession": "0000773910-19-000009",
+      "filing_date": "2019-02-14",
+      "url": "https://www.sec.gov/Archives/edgar/data/773910/000077391019000009/apc201810k-10k.htm",
+      "quote": "Fiscal Year Ended December 31 2013 2014 2015 2016 2017 2018 Anadarko Petroleum Corporation $ 100.00 $ 105.14 $ 62.88 $ 90.58 $ 69.96 $ 58.19 S&P 500 100.00 113.69 115.26 129.05 157.22 150.33",
+      "supports": "Five-year cumulative total return, $100 invested 2013-12-31"
+    },
+    {
+      "id": "m125",
+      "form": "8-K",
+      "accession": "0000950157-19-000863",
+      "filing_date": "2019-08-08",
+      "url": "https://www.sec.gov/Archives/edgar/data/773910/000095015719000863/form8k.htm",
+      "quote": "In connection with the Merger, all of the directors and officers of the Company immediately prior to the Effective Time ceased to be directors or officers of the Company at the Effective Time.",
+      "supports": "All Anadarko officers ceased at the 2019-08-08 closing"
+    },
+    {
+      "id": "m130",
+      "form": "DEFM14A",
+      "accession": "0001193125-19-245800",
+      "filing_date": "2019-09-16",
+      "url": "https://www.sec.gov/Archives/edgar/data/1578845/000119312519245800/d788814ddefm14a.htm",
+      "quote": "Name Cash ($)(1) Equity ($)(2) Pension/ NQDC ($)(3) Perquisites/ Benefits ($)(4) Tax Reimbursement ($)(5) Total ($) Brenton L. Saunders 14,882,877 23,625,381 - 154,037 - 38,662,295",
+      "supports": "Change in Control Compensation table row for Saunders"
+    },
+    {
+      "id": "m131",
+      "form": "DEFM14A",
+      "accession": "0001193125-19-245800",
+      "filing_date": "2019-09-16",
+      "url": "https://www.sec.gov/Archives/edgar/data/1578845/000119312519245800/d788814ddefm14a.htm",
+      "quote": "Name Pro Rata Bonus ($) Lump Sum Severance Payment ($) Brenton L. Saunders 1,832,877 13,050,000",
+      "supports": "Saunders cash breakdown: pro rata bonus and 3x lump-sum severance"
+    },
+    {
+      "id": "m132",
+      "form": "DEFM14A",
+      "accession": "0001193125-19-245800",
+      "filing_date": "2019-09-16",
+      "url": "https://www.sec.gov/Archives/edgar/data/1578845/000119312519245800/d788814ddefm14a.htm",
+      "quote": "each named executive officer experiences a termination without cause or resigns with good reason immediately following the completion of the transaction",
+      "supports": "GP table termination assumption"
+    },
+    {
+      "id": "m133",
+      "form": "10-K",
+      "accession": "0001564590-20-005038",
+      "filing_date": "2020-02-18",
+      "url": "https://www.sec.gov/Archives/edgar/data/1578845/000156459020005038/agn-10k_20191231.htm",
+      "quote": "12/14 12/15 12/16 12/17 12/18 12/19 Allergan plc $ 100.00 $ 121.40 $ 81.59 $ 64.38 $ 53.52 $ 78.05 S&P 500 $ 100.00 $ 101.38 $ 113.51 $ 138.29 $ 132.23 $ 173.86",
+      "supports": "Five-year cumulative total return, $100 invested 2014-12-31"
+    },
+    {
+      "id": "m134",
+      "form": "DEF 14A",
+      "accession": "0001047469-19-001547",
+      "filing_date": "2019-03-22",
+      "url": "https://www.sec.gov/Archives/edgar/data/1578845/000104746919001547/a2238122zdef14a.htm",
+      "quote": "Mr. Saunders joined the Board of Directors in July 2014 and began serving as our Chairman of the Board in October 2016.",
+      "supports": "Saunders joined the board in July 2014"
+    },
+    {
+      "id": "m135",
+      "form": "8-K",
+      "accession": "0001193125-20-137717",
+      "filing_date": "2020-05-08",
+      "url": "https://www.sec.gov/Archives/edgar/data/1578845/000119312520137717/d927229d8k.htm",
+      "quote": "In addition, as of the effective time of the Scheme, each of Allergan's executive officers no longer serves in their respective positions at Allergan.",
+      "supports": "All Allergan executive officers left at the 2020-05-08 closing"
+    },
+    {
+      "id": "m140",
+      "form": "DEFM14A",
+      "accession": "0001140361-24-042981",
+      "filing_date": "2024-10-07",
+      "url": "https://www.sec.gov/Archives/edgar/data/20520/000114036124042981/ny20035822x3_defm14a.htm",
+      "quote": "Name Severance ($)(1) Equity Awards ($)(2) Perquisites/ Benefits ($)(3) Total ($) Nick Jeffery 9,751,781 49,914,711 29,540 59,696,032",
+      "supports": "Potential Payments to Named Executive Officers table row for Jeffery"
+    },
+    {
+      "id": "m141",
+      "form": "DEFM14A",
+      "accession": "0001140361-24-042981",
+      "filing_date": "2024-10-07",
+      "url": "https://www.sec.gov/Archives/edgar/data/20520/000114036124042981/ny20035822x3_defm14a.htm",
+      "quote": "an assumption that each named executive officer experiences a qualifying termination of employment immediately",
+      "supports": "GP table termination assumption"
+    },
+    {
+      "id": "m142",
+      "form": "8-K",
+      "accession": "0001140361-26-001612",
+      "filing_date": "2026-01-20",
+      "url": "https://www.sec.gov/Archives/edgar/data/20520/000114036126001612/ef20063382_8k.htm",
+      "quote": "The resignations of the Departing Executives will be treated as resignations for Good Reason (as such term is defined in their employment agreements).",
+      "supports": "Jeffery's resignation at closing treated as for Good Reason"
+    },
+    {
+      "id": "m143",
+      "form": "8-K",
+      "accession": "0001140361-26-001612",
+      "filing_date": "2026-01-20",
+      "url": "https://www.sec.gov/Archives/edgar/data/20520/000114036126001612/ef20063382_8k.htm",
+      "quote": "In connection with the consummation of the Merger, each of John Stratton, Nick Jeffery, Scott Beasley and Mark Nielsen ceased to be an executive officer of the Company",
+      "supports": "Jeffery ceased to be an officer at the 2026-01-20 closing"
+    },
+    {
+      "id": "m144",
+      "form": "DEF 14A",
+      "accession": "0001140361-25-012956",
+      "filing_date": "2025-04-09",
+      "url": "https://www.sec.gov/Archives/edgar/data/20520/000114036125012956/ny20041528x1_def14a.htm",
+      "quote": "When I joined Frontier in March 2021, we were a bankrupt company",
+      "supports": "Jeffery joined Frontier in March 2021 (CEO letter)"
+    },
+    {
+      "id": "m145",
+      "form": "10-K",
+      "accession": "0001562762-25-000028",
+      "filing_date": "2025-02-20",
+      "url": "https://www.sec.gov/Archives/edgar/data/20520/000156276225000028/fybr-20241231x10k.htm",
+      "quote": "5/21 12/24 Frontier Communications Parent, Inc. 100 128.76 S&P Midcap 400 Index 100 114.28 S&P 500 Telecom Services Index 100 89.57",
+      "supports": "Cumulative total return from 2021-05-04 listing to 2024-12-31"
+    },
+    {
+      "id": "m146",
+      "form": "10-K",
+      "accession": "0001562762-25-000028",
+      "filing_date": "2025-02-20",
+      "url": "https://www.sec.gov/Archives/edgar/data/20520/000156276225000028/fybr-20241231x10k.htm",
+      "quote": "The graph assumes $100 was invested at the open of market on May 4, 2021 in our common stock.",
+      "supports": "TSR base date"
+    },
+    {
+      "id": "m150",
+      "form": "DEFM14A",
+      "accession": "0001193125-26-125075",
+      "filing_date": "2026-03-26",
+      "url": "https://www.sec.gov/Archives/edgar/data/1437107/000119312526125075/d115093ddefm14a.htm",
+      "quote": "Name Cash ($)(1) Equity ($)(2) Perquisites/ Benefits ($)(3) Tax Reimbursement ($)(4) Total ($) David Zaslav 34,219,178 517,204,781 44,195 335,368,021 886,836,175 Gunnar Wiedenfels 6,610,625 113,146,795 266,283 - 120,023,703 Bruce L. Campbell 18,805,973 102,676,898 43,347 - 121,526,218",
+      "supports": "Golden parachute table rows for Zaslav, Wiedenfels and Campbell"
+    },
+    {
+      "id": "m151",
+      "form": "DEFM14A",
+      "accession": "0001193125-26-125075",
+      "filing_date": "2026-03-26",
+      "url": "https://www.sec.gov/Archives/edgar/data/1437107/000119312526125075/d115093ddefm14a.htm",
+      "quote": "Name Salary Severance ($)(a) Bonus Severance ($)(b) Total ($) David Zaslav 6,000,000 28,219,178 34,219,178 Gunnar Wiedenfels 2,142,400 4,468,225 6,610,625 Bruce L. Campbell 5,892,000 12,913,973 18,805,973",
+      "supports": "Cash breakdown: salary severance and bonus severance"
+    },
+    {
+      "id": "m152",
+      "form": "DEFM14A",
+      "accession": "0001193125-26-125075",
+      "filing_date": "2026-03-26",
+      "url": "https://www.sec.gov/Archives/edgar/data/1437107/000119312526125075/d115093ddefm14a.htm",
+      "quote": "Mr. Zaslav's CEO Awards are \"single trigger\" awards that vest solely as a result of the consummation of the Merger",
+      "supports": "Zaslav's CEO Awards vest at closing regardless of termination"
+    },
+    {
+      "id": "m153",
+      "form": "DEFM14A",
+      "accession": "0001193125-26-125075",
+      "filing_date": "2026-03-26",
+      "url": "https://www.sec.gov/Archives/edgar/data/1437107/000119312526125075/d115093ddefm14a.htm",
+      "quote": "David Zaslav 443,131,800 60,867,415 13,205,566 517,204,781",
+      "supports": "Zaslav equity breakdown: options, RSUs, PRSUs"
+    },
+    {
+      "id": "m154",
+      "form": "DEFM14A",
+      "accession": "0001193125-26-125075",
+      "filing_date": "2026-03-26",
+      "url": "https://www.sec.gov/Archives/edgar/data/1437107/000119312526125075/d115093ddefm14a.htm",
+      "quote": "the actual amount of such payment is based on mechanical rules under the Code that are expected to cause it to significantly decline with the passage of time. For example, based on current estimates from WBD's outside tax advisors, if the Effective Time were to occur in 2027, no Excise Tax Reimbursement Payment would be expected to be made to Mr. Zaslav.",
+      "supports": "Excise-tax reimbursement estimate expected to decline with time"
+    },
+    {
+      "id": "m155",
+      "form": "DEFM14A",
+      "accession": "0001193125-26-125075",
+      "filing_date": "2026-03-26",
+      "url": "https://www.sec.gov/Archives/edgar/data/1437107/000119312526125075/d115093ddefm14a.htm",
+      "quote": "each executive officer and non-employee director experienced a qualifying termination (as defined below) on March 11, 2026 immediately following the Effective Time.",
+      "supports": "GP table termination assumption"
+    },
+    {
+      "id": "m156",
+      "form": "8-K",
+      "accession": "0001193125-26-415055",
+      "filing_date": "2026-10-06",
+      "url": "https://www.sec.gov/Archives/edgar/data/1437107/000119312526415055/d200872d8k.htm",
+      "quote": "In addition, each of Messrs. Zaslav, Wiedenfels and Campbell and Ms. Aiyar will be separating from employment with WBD, in the case of Mr. Zaslav, as of October 6, 2026, and in the case of Messrs. Wiedenfels and Campbell and Ms. Aiyar, as of October 16, 2026.",
+      "supports": "Zaslav separated 2026-10-06; Wiedenfels and Campbell 2026-10-16"
+    },
+    {
+      "id": "m157",
+      "form": "8-K",
+      "accession": "0001193125-26-415055",
+      "filing_date": "2026-10-06",
+      "url": "https://www.sec.gov/Archives/edgar/data/1437107/000119312526415055/d200872d8k.htm",
+      "quote": "Each officer has entered or will enter into a separation agreement and general release of claims with WBD pursuant to which he or she is eligible to receive separation benefits applicable upon a termination without cause",
+      "supports": "Separation benefits as for a termination without cause"
+    },
+    {
+      "id": "m158",
+      "form": "8-K",
+      "accession": "0001193125-26-415055",
+      "filing_date": "2026-10-06",
+      "url": "https://www.sec.gov/Archives/edgar/data/1437107/000119312526415055/d200872d8k.htm",
+      "quote": "Mr. Wiedenfels, $2,142,401; Mr. Campbell, $2,946,000; and Mr. Perrette, $2,850,000.",
+      "supports": "Transaction bonuses granted 2026-09-30 (not in the GP table)"
+    },
+    {
+      "id": "m159",
+      "form": "10-K",
+      "accession": "0001437107-26-000020",
+      "filing_date": "2026-02-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/1437107/000143710726000020/wbd-20251231.htm",
+      "quote": "Prior to the closing, Mr. Zaslav served as Discovery Inc.'s (\"Discovery\") President and Chief Executive Officer from January 2007 until April 2022",
+      "supports": "Zaslav CEO of the company (as Discovery) since January 2007"
+    },
+    {
+      "id": "m160",
+      "form": "10-K",
+      "accession": "0001437107-26-000020",
+      "filing_date": "2026-02-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/1437107/000143710726000020/wbd-20251231.htm",
+      "quote": "Prior to the closing, Mr. Wiedenfels served as Discovery's Chief Financial Officer from April 2017 until April 2022.",
+      "supports": "Wiedenfels CFO since April 2017"
+    },
+    {
+      "id": "m161",
+      "form": "10-K",
+      "accession": "0001437107-26-000020",
+      "filing_date": "2026-02-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/1437107/000143710726000020/wbd-20251231.htm",
+      "quote": "Mr. Campbell has served in several senior executive roles at Discovery, including as Chief Distribution Officer from October 2015 to April 2022",
+      "supports": "Campbell senior executive since at least October 2015"
+    },
+    {
+      "id": "m162",
+      "form": "DEF 14A",
+      "accession": "0001437107-26-000046",
+      "filing_date": "2026-04-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/1437107/000143710726000046/wbd-20260429.htm",
+      "quote": "2025 $ 165,009,366 $ 636,141,723 $ 21,430,910 $ 109,407,589 $ 96 $ 228",
+      "supports": "PvP table FY2025: WBD TSR 96 vs peer group 228"
+    },
+    {
+      "id": "m163",
+      "form": "DEF 14A",
+      "accession": "0001437107-26-000046",
+      "filing_date": "2026-04-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/1437107/000143710726000046/wbd-20260429.htm",
+      "quote": "Value of Fixed Initial $100 Investment on December 31, 2020",
+      "supports": "PvP TSR base date"
+    },
+    {
+      "id": "m164",
+      "form": "DEF 14A",
+      "accession": "0001437107-26-000046",
+      "filing_date": "2026-04-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/1437107/000143710726000046/wbd-20260429.htm",
+      "quote": "Peer group used for purposes of this column is the S&P 500 Media and Entertainment Index.",
+      "supports": "Peer index"
+    },
+    {
+      "id": "m165",
+      "form": "8-K",
+      "accession": "0001193125-26-415055",
+      "filing_date": "2026-10-06",
+      "url": "https://www.sec.gov/Archives/edgar/data/1437107/000119312526415055/d200872d8k.htm",
+      "quote": "was automatically canceled and converted into the right to receive an amount in cash equal to $31.01666668, without interest, which includes the Ticking Consideration",
+      "supports": "Per-share merger consideration paid at the 2026-10-06 closing"
+    },
+    {
+      "id": "m170",
+      "form": "DEFM14A",
+      "accession": "0001193125-17-005295",
+      "filing_date": "2017-01-09",
+      "url": "https://www.sec.gov/Archives/edgar/data/1105705/000119312517005295/d249981ddefm14a.htm",
+      "quote": "Golden Parachute Compensation(1) Name(2) Cash ($)(3) Equity ($)(4) Perquisites / Benefits ($)(5) Total ($)(6) Mr. Bewkes 44,522,603 23,383,255 1,213,332 69,119,189",
+      "supports": "Golden Parachute Compensation table row for Bewkes"
+    },
+    {
+      "id": "m171",
+      "form": "DEFM14A",
+      "accession": "0001193125-17-005295",
+      "filing_date": "2017-01-09",
+      "url": "https://www.sec.gov/Archives/edgar/data/1105705/000119312517005295/d249981ddefm14a.htm",
+      "quote": "Amounts Payable in Connection with the Transaction Name Cash ($) Equity ($) Total ($) Mr. Bewkes - - -",
+      "supports": "None of Bewkes's amounts are payable only because of the transaction"
+    },
+    {
+      "id": "m172",
+      "form": "DEFM14A",
+      "accession": "0001193125-17-005295",
+      "filing_date": "2017-01-09",
+      "url": "https://www.sec.gov/Archives/edgar/data/1105705/000119312517005295/d249981ddefm14a.htm",
+      "quote": "A significant portion of the total amounts in the table above reflects amounts that are payable upon any covered termination without regard to the transaction.",
+      "supports": "Table amounts are mostly payable on any covered termination"
+    },
+    {
+      "id": "m173",
+      "form": "DEFM14A",
+      "accession": "0001193125-17-005295",
+      "filing_date": "2017-01-09",
+      "url": "https://www.sec.gov/Archives/edgar/data/1105705/000119312517005295/d249981ddefm14a.htm",
+      "quote": "immediately following the first effective time, the employment of each named executive officer of Time Warner is terminated without cause, or each named executive officer resigns due to a \"material breach\" of his employment agreement or for \"good reason\" under his equity award agreements",
+      "supports": "GP table termination assumption"
+    },
+    {
+      "id": "m174",
+      "form": "10-K",
+      "accession": "0001193125-18-053619",
+      "filing_date": "2018-02-22",
+      "url": "https://www.sec.gov/Archives/edgar/data/1105705/000119312518053619/d504160d10k.htm",
+      "quote": "Mr. Bewkes served as President and Chief Executive Officer from January 2008",
+      "supports": "Bewkes CEO since January 2008"
+    },
+    {
+      "id": "m175",
+      "form": "8-K",
+      "accession": "0000950157-18-000694",
+      "filing_date": "2018-06-18",
+      "url": "https://www.sec.gov/Archives/edgar/data/1105705/000095015718000694/form8-k.htm",
+      "quote": "each of the directors of Time Warner (Jeffrey L. Bewkes, William P. Barr, Robert C. Clark, Mathias Döpfner, Jessica P. Einhorn, Carlos M. Gutierrez, Fred Hassan, Paul D. Wachter and Deborah C. Wright) resigned from the board of directors of Time Warner.",
+      "supports": "Bewkes left the board at the 2018 AT&T closing"
     }
   ],
-  "rejected": []
+  "rejected": [
+    {
+      "name": "Gary Steele",
+      "company": "Splunk Inc.",
+      "reason": "Golden parachute table estimates $100,216,534 (DEFM14A 2023-10-30), but the proxy describes a Parent Employment Agreement with Cisco and he stayed on after the March 2024 closing; no exit or payout disclosed."
+    },
+    {
+      "name": "Rami Rahim",
+      "company": "Juniper Networks, Inc.",
+      "reason": "Table estimates $49,976,439 (DEFM14A 2024-02-26), including a $9,000,000 HPE retention award under a Parent Offer Letter; he stayed with HPE after the July 2025 closing, so no exit or payout disclosed."
+    },
+    {
+      "name": "David B. Burritt",
+      "company": "United States Steel Corporation",
+      "reason": "Table estimates $72,037,484 (DEFM14A 2024-03-12), but the 2025-06-25 8-K says the board re-elected him President and CEO after the Nippon Steel closing; double-trigger amounts not triggered by any disclosed exit."
+    },
+    {
+      "name": "David Kenny",
+      "company": "Nielsen Holdings plc",
+      "reason": "Table estimates $35,555,849 (DEFM14A 2022-07-08), but the 2022-10-11 closing 8-K says Nielsen's officers continued as officers after the take-private; no in-tenure TSR table either."
+    },
+    {
+      "name": "Stefano Pessina",
+      "company": "Walgreens Boots Alliance, Inc.",
+      "reason": "Executive Chairman, $15,531,746 equity-only row; he reinvested in the Sycamore take-private and was re-appointed a director at closing (8-K 2025-08-28), so not an exit."
+    },
+    {
+      "name": "Ted Christie",
+      "company": "Spirit Airlines, Inc.",
+      "reason": "The JetBlue merger was blocked in court and terminated in 2024 (the earlier Frontier deal was also terminated), so no change-in-control parachute was ever triggered."
+    },
+    {
+      "name": "Vivek Sankaran",
+      "company": "Albertsons Companies, Inc.",
+      "reason": "The Kroger merger was terminated in December 2024 after court injunctions; no change in control."
+    },
+    {
+      "name": "John D. Idol",
+      "company": "Capri Holdings Limited",
+      "reason": "The Tapestry merger was terminated in November 2024 after the FTC won an injunction; no change in control."
+    },
+    {
+      "name": "Erik Carlson",
+      "company": "DISH Network Corporation",
+      "reason": "The EchoStar merger information statement (DEFM14C 2023-11-07) tabulates 402(t) amounts only for EchoStar's CEO ($2,185,200); no DISH executive parachute is quantified."
+    },
+    {
+      "name": "Timothy C. Wentworth",
+      "company": "Express Scripts Holding Company",
+      "reason": "In the 2018 Cigna merger he signed a retention agreement and continued as President, Express Scripts under Cigna (DEFM14A 2018-07-16); not an exit. He appears in this file for Walgreens instead."
+    },
+    {
+      "name": "Mark T. Bertolini",
+      "company": "Aetna Inc.",
+      "reason": "Golden parachute total $18,731,508 (DEFM14A 2018-02-09); smaller than the cases kept and not pursued further."
+    },
+    {
+      "name": "Hugh Grant",
+      "company": "Monsanto Company",
+      "reason": "Golden parachute total $18,859,920 (DEFM14A 2016-11-10); smaller than the cases kept and not pursued further."
+    },
+    {
+      "name": "Alessandro Maselli",
+      "company": "Catalent, Inc.",
+      "reason": "Golden parachute total $13,527,630 (DEFM14A 2024-04-15) and no TSR table inside his tenure (CEO from July 2022)."
+    },
+    {
+      "name": "Kirk L. Perry",
+      "company": "Kenvue Inc.",
+      "reason": "Golden parachute total $6,742,835 (DEFM14A 2025-12-16, Kimberly-Clark merger); small, and the filings checked do not yet show the merger closed."
+    },
+    {
+      "name": "Endo / Rite Aid executives",
+      "company": "Endo International plc; Rite Aid Corporation",
+      "reason": "Their losses came through bankruptcy, not a completed merger, so there is no Item 402(t) merger table; Rite Aid's mergers with Walgreens and Albertsons were both terminated. Out of scope for this slice."
+    }
+  ]
 }
