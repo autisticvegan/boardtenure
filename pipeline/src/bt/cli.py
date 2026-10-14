@@ -181,6 +181,24 @@ def cmd_insiders_load(args: argparse.Namespace) -> None:
             print(r["slug"], r["full_name"], n)
 
 
+def cmd_sec_index(args: argparse.Namespace) -> None:
+    """Store every filing's form, date and 8-K items for tracked companies (EDGAR submissions)."""
+    from bt.config import settings
+    from bt.sources.sec import Edgar
+
+    edgar = Edgar(settings().require_sec_user_agent(), max_rps=2)
+    with db.session("pipeline:sec-index") as conn:
+        for c in conn.execute("SELECT slug, cik FROM company WHERE cik IS NOT NULL ORDER BY slug").fetchall():
+            rows = [(int(c["cik"]), f.accession, f.form, f.filing_date, list(f.items))
+                    for f in edgar.filings(c["cik"], include_history=True)]
+            with conn.cursor() as cur:
+                cur.executemany(
+                    """INSERT INTO filing_index (cik, accession, form, filing_date, items) VALUES (%s, %s, %s, %s, %s)
+                       ON CONFLICT (cik, accession) DO UPDATE SET items = EXCLUDED.items""", rows)
+            conn.commit()
+            print(c["slug"], len(rows))
+
+
 def cmd_refresh(args: argparse.Namespace) -> None:
     from bt.jobs import refresh
 
@@ -259,11 +277,13 @@ def cmd_seed_all(args: argparse.Namespace) -> None:
 
 
 def cmd_seed_verify(args: argparse.Namespace) -> None:
-    from bt.ingest import seed_board, seed_board_pay, seed_comp
+    from bt.ingest import seed_board, seed_board_pay, seed_comp, seed_failing_up, seed_parachutes
 
     path = Path(args.path)
     mod = (seed_comp if path.name.endswith("_exec_comp_research.json")
-           else seed_board_pay if path.name.endswith("_board_pay_research.json") else seed_board)
+           else seed_board_pay if path.name.endswith("_board_pay_research.json")
+           else seed_parachutes if path.name.startswith("golden_parachutes_")
+           else seed_failing_up if path.name.startswith("failing_up") else seed_board)
     failures = mod.verify_file(path)
     for f in failures:
         print(f)
@@ -296,6 +316,20 @@ def cmd_seed_failing_up(args: argparse.Namespace) -> None:
         sys.exit(f"{len(problems)} verification problem(s); nothing loaded")
     with db.session("pipeline:seed-failing-up") as conn:
         print(f"{path.name}: {seed_failing_up.load(conn, path)} cases")
+
+
+def cmd_seed_parachutes(args: argparse.Namespace) -> None:
+    from bt.ingest import seed_parachutes
+
+    paths = sorted(Path(args.dir).glob("golden_parachutes_*.json"))
+    with db.session("pipeline:seed-parachutes") as conn:
+        for path in paths:
+            problems = [p for p in seed_parachutes.verify_file(path) if not p.startswith("WARN")]
+            if problems:
+                print(f"SKIP {path.name}: {len(problems)} problem(s), first: {problems[0]}")
+                continue
+            print(f"{path.name}: {seed_parachutes.load(conn, path)} cases")
+            conn.commit()
 
 
 def cmd_seed_comp(args: argparse.Namespace) -> None:
@@ -354,6 +388,9 @@ def build_parser() -> argparse.ArgumentParser:
     sfu = sd.add_parser("failing-up", help="load the researched failing-up cases JSON file")
     sfu.add_argument("path")
     sfu.set_defaults(fn=cmd_seed_failing_up)
+    sgp = sd.add_parser("parachutes", help="load every data/seed/golden_parachutes_*.json file")
+    sgp.add_argument("--dir", default=str(Path(__file__).resolve().parents[3] / "data" / "seed"))
+    sgp.set_defaults(fn=cmd_seed_parachutes)
     sc = sd.add_parser("comp", help="load a researched executive-pay JSON file and recompute executive performance")
     sc.add_argument("path")
     sc.set_defaults(fn=cmd_seed_comp)
@@ -369,6 +406,8 @@ def build_parser() -> argparse.ArgumentParser:
     ss.add_argument("--company")
     ss.set_defaults(fn=cmd_sec_sync)
 
+    sp.add_parser("index", help="store every filing's form, date and 8-K items for tracked companies").set_defaults(
+        fn=cmd_sec_index)
     sh = sp.add_parser("shares", help="refresh shares outstanding from latest 10-K/10-Q covers")
     sh.add_argument("--history", nargs="+", metavar="SLUG",
                     help="load every 10-K/10-Q cover for these companies instead of the latest")

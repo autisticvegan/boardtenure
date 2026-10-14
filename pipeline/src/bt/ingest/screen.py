@@ -205,14 +205,14 @@ def check_cases(conn: psycopg.Connection, edgar: Edgar, top: int = 60, gaps: boo
     every undimensioned frame value we display for that filing is a fact in it. Cases: the top of
     each list, plus (gaps=True) every company with years missing CEO pay in the frames."""
     rows = conn.execute(
-        """(SELECT cik, accession FROM pvp_screen WHERE tsr_value_of_100 < 100 AND peo_sct_sum IS NOT NULL
-            ORDER BY peo_sct_sum DESC LIMIT %s)
+        """(SELECT cik, accession FROM pvp_screen_ok WHERE notable AND NOT implausible AND tsr_value_of_100 < 100
+              AND peo_sct_sum IS NOT NULL ORDER BY peo_sct_sum DESC LIMIT %s)
            UNION
-           (SELECT cik, accession FROM pvp_screen WHERE tsr_value_of_100 < 100 AND peo_cap_sum > 0
-            ORDER BY peo_cap_sum DESC LIMIT %s)
+           (SELECT cik, accession FROM pvp_screen_ok WHERE notable AND NOT implausible AND tsr_value_of_100 < 100
+              AND peo_cap_sum > 0 ORDER BY peo_cap_sum DESC LIMIT %s)
            UNION
-           (SELECT cik, accession FROM pvp_screen WHERE tsr_value_of_100 < 50 AND span_years >= 3
-              AND peo_sct_sum IS NOT NULL ORDER BY tsr_value_of_100 LIMIT %s)
+           (SELECT cik, accession FROM pvp_screen_ok WHERE notable AND NOT implausible AND tsr_value_of_100 < 50
+              AND span_years >= 3 AND peo_sct_sum IS NOT NULL ORDER BY tsr_value_of_100 LIMIT %s)
            UNION
            (SELECT cik, accession FROM pvp_screen WHERE %s AND peo_years < span_years
               AND cik NOT IN (SELECT cik FROM pvp_case WHERE accession = pvp_screen.accession))""",

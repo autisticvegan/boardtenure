@@ -1,78 +1,137 @@
 import type { Metadata } from "next";
-import { compactMoney, pct } from "@/lib/format";
-import { getParachutes } from "@/lib/queries-hiw";
+import Link from "next/link";
+import { Receipt } from "@/components/hiw/receipt";
+import { compactMoney } from "@/lib/format";
+import { getAllChutes, type Chute } from "@/lib/queries-hiw";
+import { median } from "@/lib/track-record";
 
 export const metadata: Metadata = { title: "Golden parachutes" };
 export const revalidate = 3600;
 
-const TYPE: Record<string, string> = {
-  resigned: "resigned", retired: "retired", terminated_without_cause: "terminated without cause",
-  terminated_for_cause: "terminated for cause", mutual: "mutual departure", death: "died",
-  change_in_control: "change in control", other: "left",
+const KINDS = [
+  { key: "all", label: "Everything" },
+  { key: "termination", label: "Shown the door" },
+  { key: "merger", label: "Sold the company" },
+  { key: "resignation", label: "Resigned" },
+  { key: "retirement", label: "Retired" },
+] as const;
+type Kind = (typeof KINDS)[number]["key"];
+
+const STAMP: Record<string, string> = {
+  terminated_without_cause: "terminated", terminated_for_cause: "for cause", mutual: "mutual",
+  resigned: "resigned", retired: "retired", change_in_control: "sold", death: "died", other: "left",
 };
 
-export default async function Parachutes() {
-  const rows = (await getParachutes()).filter((r) => (r.total_exit_pay ?? 0) > 0);
+/** Months between two partial dates ("2023-04-17", "2023-04", "2023"); null if either is missing. */
+function monthsBetween(a: string | null, b: string | null): number | null {
+  const parse = (s: string | null) => {
+    const m = s?.match(/^(\d{4})(?:-(\d{2}))?/);
+    return m ? Number(m[1]) * 12 + (m[2] ? Number(m[2]) - 1 : 6) : null;
+  };
+  const x = parse(a), y = parse(b);
+  return x != null && y != null && y > x ? y - x : null;
+}
+
+const yearOf = (s: string | null) => s?.slice(0, 4) ?? "";
+
+export default async function Parachutes({ searchParams }: PageProps<"/hiw/parachutes">) {
+  const sp = await searchParams;
+  const kind = (KINDS.find((k) => k.key === sp.kind)?.key ?? "all") as Kind;
+  const all = (await getAllChutes()).filter((c) => (c.total ?? 0) > 0);
+  const rows = all.filter((c) => kind === "all" || c.context === kind).sort((a, b) => (b.total ?? 0) - (a.total ?? 0));
+  const sum = rows.reduce((a, c) => a + (c.total ?? 0), 0);
+  const fell = rows.filter((c) => c.value_of_100 != null && c.value_of_100 < 100);
+  const trailed = rows.filter((c) => c.value_of_100 != null && c.comparison_value_of_100 != null && c.value_of_100 < c.comparison_value_of_100);
+  const top = rows[0];
+
   return (
-    <div className="space-y-8">
-      <header className="max-w-[820px] space-y-3">
-        <h1 className="text-[36px] leading-[40px] sm:text-[48px] sm:leading-[52px] font-extrabold tracking-[-0.03em] text-ink">Golden parachutes</h1>
-        <p className="text-[16px] leading-7 text-ink-2">
-          What departing executives received on the way out: severance, stock whose vesting was sped up or continued
-          because they left, consulting fees and benefits, as their companies disclosed them. Beside each: how the stock
-          did against the S&amp;P 500 while they were an officer.
-        </p>
-        <p className="text-[12px] leading-4 text-ink-3">
-          Companies researched so far: Lyft, Uber, Tesla, NVIDIA, Intel and Netflix. Only amounts a filing states were
-          paid or are payable for that departure; hypothetical &ldquo;potential payments&rdquo; aren&apos;t shown.
+    <div className="space-y-10">
+      <header className="max-w-[860px] space-y-4">
+        <div className="text-[12px] font-bold uppercase tracking-[0.16em] text-accent-ink">Golden parachutes</div>
+        <h1 className="text-[40px] leading-[44px] sm:text-[60px] sm:leading-[62px] font-extrabold tracking-[-0.035em] text-ink">
+          The exit is the bonus.
+        </h1>
+        <p className="text-[17px] leading-7 text-ink-2">
+          What executives were paid on the way out: severance, stock that kept vesting after they left, consulting
+          deals, pensions topped up, taxes covered. Every line is from the company&apos;s own filings, beside what $100 of
+          its stock did while they were in charge.
         </p>
       </header>
-      <ol className="space-y-3">
-        {rows.map((r) => (
-          <li key={`${r.company_slug}-${r.full_name}`} className="rounded-[14px] border border-line bg-surface px-5 py-4 shadow-card">
-            <div className="flex flex-wrap items-baseline justify-between gap-x-6 gap-y-2">
-              <div className="min-w-0">
-                <div className="text-[11px] leading-[14px] uppercase tracking-[0.08em] text-ink-3">
-                  {r.company_name} · {r.role} · {TYPE[r.exit_type] ?? r.exit_type}{r.exit_date && ` ${r.exit_date.slice(0, 7)}`}
-                </div>
-                <div className="mt-1 text-[18px] leading-6 font-semibold text-ink">{r.full_name}</div>
-              </div>
-              <div className="text-right">
-                <div className="text-[28px] leading-[32px] font-extrabold text-accent-ink num">{compactMoney(r.total_exit_pay)}</div>
-                <div className="text-[12px] leading-4 text-ink-3">on the way out</div>
-              </div>
-            </div>
-            <dl className="mt-3 grid grid-cols-2 sm:grid-cols-4 gap-x-6 gap-y-2 text-[13px] leading-5">
-              <Item label="Severance cash" value={r.severance_cash} />
-              <Item label="Stock vesting sped up or kept" value={r.accelerated_equity_value} />
-              <Item label="Consulting fees" value={r.consulting_fees} />
-              <div>
-                <dt className="text-[12px] leading-4 text-ink-3">Stock vs S&amp;P while an officer</dt>
-                <dd className={`num font-semibold ${(r.tenure_total_return ?? 0) - (r.tenure_bench_total_return ?? 0) < 0 ? "text-loss-ink" : "text-gain-ink"}`}>
-                  {r.tenure_total_return != null ? <>{pct(r.tenure_total_return, 0)} vs {pct(r.tenure_bench_total_return, 0)}</> : "—"}
-                </dd>
-              </div>
-            </dl>
-            {r.source_urls?.length > 0 && (
-              <p className="mt-2 text-[12px] leading-4 text-ink-3">
-                Sources:{" "}
-                {r.source_urls.map((u, i) => (
-                  <a key={u} href={u} target="_blank" rel="noreferrer" className="underline underline-offset-2 hover:text-ink-2 mr-2">filing {i + 1}</a>
-                ))}
-              </p>
-            )}
-          </li>
+
+      <dl className="grid grid-cols-2 md:grid-cols-4 gap-px overflow-hidden rounded-[14px] border border-line bg-line shadow-card">
+        <Tile value={compactMoney(sum)} label={`paid on the way out across ${rows.length} exits`} />
+        <Tile value={compactMoney(median(rows.map((c) => c.total ?? 0)))} label="the median exit package" />
+        <Tile value={top ? compactMoney(top.total) : "—"} label={top ? `the biggest: ${top.person}, ${top.company}` : "the biggest"} />
+        <Tile value={fell.length ? `${fell.length} of ${rows.filter((c) => c.value_of_100 != null).length}` : "—"}
+              label="exits where shareholders' $100 had shrunk while they served" />
+      </dl>
+      {trailed.length > 0 && (
+        <p className="-mt-6 text-[13px] leading-5 text-ink-2">
+          In {trailed.length} of these, the stock also trailed the comparison the company itself chose. The package paid out anyway.
+        </p>
+      )}
+
+      <nav aria-label="Filter by how they left" className="flex flex-wrap gap-2">
+        {KINDS.map((k) => (
+          <Link key={k.key} href={k.key === "all" ? "/parachutes" : `/parachutes?kind=${k.key}`} scroll={false}
+                aria-current={kind === k.key ? "true" : undefined}
+                className={`min-h-11 inline-flex items-center rounded-full px-4 text-[13px] font-semibold border transition ${
+                  kind === k.key ? "bg-accent text-ink-on-mark border-accent" : "border-line-strong text-ink-2 hover:text-ink"}`}>
+            {k.label}
+          </Link>
         ))}
-      </ol>
+      </nav>
+
+      <div className="grid gap-6 sm:grid-cols-2 xl:grid-cols-3 items-start">
+        {rows.map((c) => <ChuteReceipt key={c.key} c={c} />)}
+      </div>
+
+      <p className="text-[12px] leading-4 text-ink-3 max-w-[80ch]">
+        &ldquo;Estimated&rdquo; packages come from tables a company files before the exit, such as a merger proxy&apos;s golden
+        parachute table; the rest are what filings say was paid. Stock vesting is valued as the filing values it. The
+        $100 figure is the company&apos;s own shareholder-return table over a window inside the person&apos;s tenure (for the
+        companies Boardtape tracks in full, our own measure against SPY). These are facts about pay and stock; they
+        don&apos;t say what any one person caused. <Link href="/about" className="underline underline-offset-2 hover:text-ink-2">How we know</Link>
+      </p>
     </div>
   );
 }
 
-function Item({ label, value }: { label: string; value: number | null }) {
+function ChuteReceipt({ c }: { c: Chute }) {
+  const months = monthsBetween(c.tenure_start, c.exit_date);
   return (
-    <div>
-      <dt className="text-[12px] leading-4 text-ink-3">{label}</dt>
-      <dd className="num text-ink">{value == null ? <span className="text-ink-3">not stated</span> : compactMoney(value)}</dd>
+    <Receipt
+      company={c.ticker ? `${c.company} (${c.ticker})` : c.company}
+      person={c.person}
+      role={c.role}
+      left={[c.exit_words ? `“${c.exit_words}”` : null, yearOf(c.exit_date)].filter(Boolean).join(" · ")}
+      items={[
+        { label: "Severance", value: c.severance_cash },
+        { label: "Bonus on the way out", value: c.bonus },
+        { label: "Stock that kept vesting", value: c.equity },
+        { label: "Pension / deferred pay", value: c.pension_deferred },
+        { label: "Consulting after leaving", value: c.consulting },
+        { label: "Benefits and other", value: c.benefits_other },
+        { label: "Taxes covered", value: c.tax_gross_up },
+      ]}
+      total={c.total}
+      totalStated={c.total_is_stated}
+      basis={c.basis}
+      value100={c.value_of_100}
+      comparison={c.comparison_name}
+      comparison100={c.comparison_value_of_100}
+      perMonth={months && c.total ? c.total / months : null}
+      sources={c.source_urls}
+      stamp={STAMP[c.exit_type] ?? "left"}
+    />
+  );
+}
+
+function Tile({ value, label }: { value: string; label: string }) {
+  return (
+    <div className="flex flex-col-reverse justify-end min-w-0 bg-surface px-4 py-3 md:px-5 md:py-4">
+      <dt className="mt-0.5 text-[12px] leading-4 text-ink-3">{label}</dt>
+      <dd className="text-[26px] leading-[32px] font-extrabold tracking-[-0.01em] text-accent-ink whitespace-nowrap">{value}</dd>
     </div>
   );
 }

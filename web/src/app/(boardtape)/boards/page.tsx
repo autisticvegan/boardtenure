@@ -209,14 +209,16 @@ function Reactions({ stats, biggest, directorPay }: { stats: ReactionStat[]; big
   return (
     <section aria-labelledby="reactions">
       <SectionHead id="reactions" title="How the market reacted"
-                   sub="When a board change was announced, how the stock moved over three trading days compared with what its usual relationship to the S&P 500 predicted. This uses the market's own reaction instead of years of noisy returns." />
+                   sub="When a board change was announced, how the stock moved over three trading days compared with what its usual relationship to the S&P 500 predicted. Announcements that landed with earnings, another material filing or other board changes are set aside, so the move is the board change's alone." />
       <Card>
         <ul className="space-y-4">
           {stats.map((s) => {
             const half = ci(s);
             return (
               <li key={s.category} className="grid gap-x-6 gap-y-1 md:grid-cols-[260px_1fr_150px] items-center">
-                <div className="text-[13px] leading-5 text-ink">{REACTION_LABEL[s.category]} <span className="text-ink-3">· {s.n}</span></div>
+                <div className="text-[13px] leading-5 text-ink">{REACTION_LABEL[s.category]} <span className="text-ink-3">· {s.n}</span>
+                  {s.set_aside > 0 && <span className="block text-[11px] leading-4 text-ink-3">{s.set_aside} set aside for other news</span>}
+                </div>
                 <div aria-hidden className="relative h-6">
                   <span className="absolute inset-y-0 left-1/2 w-px bg-zero" />
                   <span className="absolute top-1/2 h-0.5 -translate-y-1/2 bg-ink-3" style={{ left: x(s.mean_car - half), right: `calc(100% - ${x(s.mean_car + half)})` }} />
@@ -269,6 +271,11 @@ function Reactions({ stats, biggest, directorPay }: { stats: ReactionStat[]; big
                 <span className="text-ink">{b.common_name}</span>
                 <span className="text-ink-3">{b.day0}</span>
                 <span className="text-ink-2">{b.summary}</span>
+                {(b.near_earnings || b.other_news) && (
+                  <span className="text-[11px] leading-4 rounded-full border border-line-strong px-2 text-ink-3">
+                    {b.near_earnings ? "earnings that day" : "other filing that day"}
+                  </span>
+                )}
               </li>
             ))}
           </ul>

@@ -61,6 +61,7 @@ export type ReactionStat = {
   pct_positive: number;
   median_market_cap: number | null;
   z: number;  // standardized: each event's move divided by its own stock's three-day noise
+  set_aside: number;  // same-day earnings, other material 8-Ks, or several board changes at once
 };
 
 /** Market reaction to board changes (director_event), by kind of change. */
@@ -69,13 +70,19 @@ export const getReactionStats = cache(async (): Promise<ReactionStat[]> => sql<R
          percentile_cont(0.5) WITHIN GROUP (ORDER BY car) AS median_car, stddev(car) AS sd_car,
          avg((car > 0)::int) AS pct_positive,
          percentile_cont(0.5) WITHIN GROUP (ORDER BY start_market_cap) AS median_market_cap,
-         sum(car / (sigma * sqrt(3))) / sqrt(count(*)) AS z
-  FROM director_event GROUP BY category ORDER BY count(*) DESC`);
+         sum(car / (sigma * sqrt(3))) / sqrt(count(*)) AS z,
+         (SELECT count(*)::int FROM director_event d2 WHERE d2.category = d.category
+            AND (d2.near_earnings OR d2.other_news OR d2.bundled)) AS set_aside
+  FROM director_event d
+  WHERE NOT (near_earnings OR other_news OR bundled)
+  GROUP BY category ORDER BY count(*) DESC`);
 
-export type BigReaction = { slug: string; common_name: string; day0: string; car: number; summary: string };
+export type BigReaction = {
+  slug: string; common_name: string; day0: string; car: number; summary: string; near_earnings: boolean; other_news: boolean;
+};
 
 /** The largest three-day moves either way, so readers can see what else happened those days. */
 export const getBiggestReactions = cache(async (limit = 6): Promise<BigReaction[]> => sql<BigReaction[]>`
-  SELECT c.slug, c.common_name, d.day0::text, d.car, d.summaries[1] AS summary
+  SELECT c.slug, c.common_name, d.day0::text, d.car, d.summaries[1] AS summary, d.near_earnings, d.other_news
   FROM director_event d JOIN company c ON c.id = d.company_id
   ORDER BY abs(d.car) DESC LIMIT ${limit}`);

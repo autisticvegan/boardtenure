@@ -1,0 +1,37 @@
+-- Golden parachutes researched across US public companies (not only tracked ones): what an executive
+-- received on the way out, the words the filing used, and the company's own shareholder return over
+-- their tenure where a filing table covers it. Every figure is quoted and machine-verified.
+CREATE TABLE golden_parachute (
+  id                       text PRIMARY KEY,
+  research_slice           text NOT NULL,
+  person_name              text NOT NULL,
+  person_cik               text,
+  company_name             text NOT NULL,
+  company_cik              text,
+  ticker                   text,
+  role                     text NOT NULL,
+  tenure_start             text,
+  tenure_end               text,
+  exit_type                text NOT NULL,
+  exit_words               text,
+  context                  text NOT NULL CHECK (context IN ('termination', 'resignation', 'retirement', 'merger', 'other')),
+  basis                    text NOT NULL CHECK (basis IN ('actual', 'estimated')),
+  severance_cash           numeric(16, 0),
+  bonus                    numeric(16, 0),
+  equity                   numeric(16, 0),
+  pension_deferred         numeric(16, 0),
+  benefits_other           numeric(16, 0),
+  consulting               numeric(16, 0),
+  tax_gross_up             numeric(16, 0),
+  total                    numeric(16, 0),
+  total_is_stated          boolean NOT NULL,
+  value_of_100             double precision,
+  comparison_name          text,
+  comparison_value_of_100  double precision,
+  stock_period_start       date,
+  stock_period_end         date,
+  clawback_or_forfeiture   text,
+  notes                    text,
+  source_urls              text[] NOT NULL,
+  evidence_ids             bigint[] NOT NULL
+);

@@ -24,6 +24,8 @@ from bt.analytics.returns import METHODOLOGY_VERSION
 from bt.ingest.prices import load_series
 
 EST_FIRST, EST_LAST = -250, -31
+# 8-K items that are the board change itself or routine; any other item that day is other news.
+ROUTINE_ITEMS = {"5.02", "5.03", "5.07", "7.01", "9.01"}
 MIN_EST = 120
 
 EXEC = re.compile(r"\b(CEO|Chief Executive|President|executive chair|Executive Chairman|co-founder|founder)\b", re.I)
@@ -96,16 +98,23 @@ def recompute(conn: psycopg.Connection) -> int:
                 continue
             alpha, beta, sigma = market_model([ri[i] for i in est], [rm[i] for i in est])
             ar = [ri[i] - alpha - beta * rm[i] for i in (i0 - 1, i0, i0 + 1)]
+            lo, hi = days[i0 - 1], days[i0 + 1]
+            news = conn.execute(
+                """SELECT bool_or(form IN ('10-Q', '10-K') OR '2.02' = ANY(items)) AS earnings,
+                          bool_or(form IN ('8-K', '8-K/A') AND NOT (items <@ %s::text[])) AS other
+                   FROM filing_index f JOIN company c ON c.cik::bigint = f.cik
+                   WHERE c.id = %s AND f.filing_date BETWEEN %s AND %s""",
+                (list(ROUTINE_ITEMS), company_id, lo, hi)).fetchone()
             shares, _ = shares_at(covers, days[i0 - 1], splits)
             mcap = round(shares * series[i0 - 1].close) if shares else None
             conn.execute(
                 """INSERT INTO director_event (company_id, day0, announced_date, category, people, event_ids, summaries,
                      bundled, n_estimation, alpha, beta, sigma, ar_m1, ar_0, ar_p1, car, start_market_cap,
-                     methodology_version)
-                   VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)""",
+                     methodology_version, near_earnings, other_news)
+                   VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)""",
                 (company_id, days[i0], min(e["announced_date"] for e in g), category,
                  sorted({e["person_id"] for e in g if e["person_id"]}), [e["id"] for e in g],
                  [e["summary"] for e in g], day_count[i0] > 1, len(est), alpha, beta, sigma, *ar, sum(ar), mcap,
-                 METHODOLOGY_VERSION))
+                 METHODOLOGY_VERSION, bool(news["earnings"]), bool(news["other"])))
             n += 1
     return n

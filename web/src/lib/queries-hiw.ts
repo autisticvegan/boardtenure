@@ -31,16 +31,17 @@ const CASE_COLUMNS = sql`
   s.span_years, s.peo_years, s.tsr_value_of_100, s.peer_tsr_value_of_100, s.peo_sct_sum, s.peo_cap_sum,
   s.peo_sct_latest, s.accession, c.doc_url`;
 
-/** Verified cases where $100 invested at the table's start was worth less than `below` at the end. */
+/** Verified cases where $100 invested at the table's start was worth less than `below` at the end.
+ * Named lists feature notable companies (public float of at least $500M); statistics use every company. */
 export const getPaidAnyway = cache(async (below = 50, limit = 100): Promise<ScreenCase[]> => sql<ScreenCase[]>`
   SELECT ${CASE_COLUMNS} FROM pvp_screen_ok s JOIN pvp_case c ON c.cik = s.cik AND c.verified AND NOT s.implausible
-  WHERE s.tsr_value_of_100 < ${below} AND s.span_years >= 3 AND s.peo_sct_sum IS NOT NULL
+  WHERE s.notable AND s.tsr_value_of_100 < ${below} AND s.span_years >= 3 AND s.peo_sct_sum IS NOT NULL
   ORDER BY s.peo_sct_sum DESC LIMIT ${limit}`);
 
 /** Verified cases where shareholders lost money but CEO pay "actually paid" still summed positive. */
 export const getHeadsIWin = cache(async (limit = 100): Promise<ScreenCase[]> => sql<ScreenCase[]>`
   SELECT ${CASE_COLUMNS} FROM pvp_screen_ok s JOIN pvp_case c ON c.cik = s.cik AND c.verified AND NOT s.implausible
-  WHERE s.tsr_value_of_100 < 100 AND s.peo_cap_sum > 0 AND s.span_years >= 3
+  WHERE s.notable AND s.tsr_value_of_100 < 100 AND s.peo_cap_sum > 0 AND s.span_years >= 3
   ORDER BY s.peo_cap_sum DESC LIMIT ${limit}`);
 
 export const getScreenCase = cache(async (cik: number): Promise<ScreenCase | null> => {
@@ -231,3 +232,66 @@ export const getExecutiveSales = cache(async (): Promise<ExecSale[]> => sql<Exec
   LEFT JOIN executive_pay_performance pp ON pp.company_id = s.company_id AND pp.person_id = s.person_id
   WHERE s.proceeds > 0
   ORDER BY s.proceeds DESC`);
+
+export type Chute = {
+  key: string;
+  company: string;
+  ticker: string | null;
+  person: string;
+  role: string;
+  context: "termination" | "resignation" | "retirement" | "merger" | "other";
+  exit_type: string;
+  exit_words: string | null;
+  exit_date: string | null;
+  tenure_start: string | null;
+  basis: "actual" | "estimated";
+  severance_cash: number | null;
+  bonus: number | null;
+  equity: number | null;
+  pension_deferred: number | null;
+  benefits_other: number | null;
+  consulting: number | null;
+  tax_gross_up: number | null;
+  total: number | null;
+  total_is_stated: boolean;
+  value_of_100: number | null;
+  comparison_name: string | null;
+  comparison_value_of_100: number | null;
+  clawback_or_forfeiture: string | null;
+  notes: string | null;
+  source_urls: string[];
+};
+
+const CONTEXT_OF = sql`CASE x.exit_type WHEN 'terminated_without_cause' THEN 'termination' WHEN 'terminated_for_cause' THEN 'termination'
+  WHEN 'mutual' THEN 'termination' WHEN 'resigned' THEN 'resignation' WHEN 'retired' THEN 'retirement'
+  WHEN 'change_in_control' THEN 'merger' ELSE 'other' END`;
+
+/**
+ * Every researched exit package: the deep-research cases across US companies plus the exits of the
+ * six fully researched companies (whose stock figure is our own tenure return vs SPY, as $100).
+ */
+export const getAllChutes = cache(async (): Promise<Chute[]> => sql<Chute[]>`
+  SELECT g.id AS key, g.company_name AS company, g.ticker, g.person_name AS person, g.role, g.context, g.exit_type,
+         g.exit_words, g.tenure_end AS exit_date, g.tenure_start, g.basis, g.severance_cash, g.bonus, g.equity,
+         g.pension_deferred, g.benefits_other, g.consulting, g.tax_gross_up, g.total, g.total_is_stated,
+         g.value_of_100, g.comparison_name, g.comparison_value_of_100, g.clawback_or_forfeiture, g.notes, g.source_urls
+  FROM golden_parachute g
+  UNION ALL
+  SELECT 'x' || x.id, c.common_name, s.symbol, p.full_name, coalesce(x.role, ''), ${CONTEXT_OF}, x.exit_type, NULL,
+         x.exit_date::text, t.tenure_start::text, x.basis, x.severance_cash, NULL, x.accelerated_equity_value, NULL,
+         x.other_exit_pay, x.consulting_fees, NULL,
+         coalesce(x.total_exit_pay, nullif(coalesce(x.severance_cash, 0) + coalesce(x.accelerated_equity_value, 0)
+                  + coalesce(x.consulting_fees, 0) + coalesce(x.other_exit_pay, 0), 0)),
+         x.total_exit_pay IS NOT NULL,
+         CASE WHEN t.total_return IS NOT NULL THEN 100 * (1 + t.total_return) END, 'S&P 500 (SPY)',
+         CASE WHEN t.bench_total_return IS NOT NULL THEN 100 * (1 + t.bench_total_return) END, NULL, x.notes,
+         coalesce((SELECT array_agg(DISTINCT sd.url) FROM evidence e JOIN source_document sd ON sd.id = e.source_document_id
+                   WHERE e.id = ANY(x.evidence_ids)), '{}')
+  FROM executive_exit x
+  JOIN person p ON p.id = x.person_id
+  JOIN company c ON c.id = x.company_id
+  LEFT JOIN security s ON s.company_id = c.id AND s.is_primary
+  JOIN benchmark b ON b.code = 'sp500'
+  LEFT JOIN executive_tenure_performance t ON t.company_id = x.company_id AND t.person_id = x.person_id
+   AND t.benchmark_id = b.id AND t.window_kind = 'tenure'
+  WHERE x.basis = 'actual'`);
