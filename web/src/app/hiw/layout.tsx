@@ -21,7 +21,9 @@ const NAV = [
   ["/raise", "The raise"],
   ["/ratio", "The ratio"],
   ["/sold", "What they sold"],
+  ["/hellos", "Golden hellos"],
   ["/parachutes", "Golden parachutes"],
+  ["/layoffs", "Layoffs"],
   ["/failing-up", "Failing up"],
   ["/about", "How we know"],
 ] as const;
@@ -40,7 +42,8 @@ export default function HiwLayout({ children }: { children: ReactNode }) {
             <span aria-hidden className="inline-grid place-items-center h-7 w-7 rounded-full bg-accent text-ink-on-mark text-[13px] font-black">$</span>
             Heads I Win
           </Link>
-          <nav aria-label="Sections" className="flex flex-wrap items-center gap-x-5 gap-y-1 text-[13px] text-ink-2">
+          <nav aria-label="Sections"
+               className="flex items-center gap-x-5 text-[13px] text-ink-2 whitespace-nowrap max-md:w-full max-md:overflow-x-auto max-md:-mx-4 max-md:px-4 md:flex-wrap md:gap-y-1">
             {NAV.map(([href, label]) => (
               <Link key={href} href={href} className="inline-flex items-center max-md:min-h-11 hover:text-accent-ink">{label}</Link>
             ))}

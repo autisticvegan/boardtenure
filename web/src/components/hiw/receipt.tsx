@@ -5,9 +5,9 @@ import { hundred } from "./hundred";
 
 export type ReceiptItem = { label: string; value: number | null };
 
-export function Receipt({ cik, company, person, role, left, items, total, totalStated, basis, value100, comparison,
+export function Receipt({ title = "Exit receipt", estimatedNote = "estimated in the filing, before the exit", cik, company, person, role, left, items, total, totalStated, basis, value100, comparison,
                           comparison100, perMonth, sources, stamp }: {
-  cik?: number | null; company: string; person: string; role: string; left: string; items: ReceiptItem[]; total: number | null;
+  title?: string; estimatedNote?: string; cik?: number | null; company: string; person: string; role: string; left: string; items: ReceiptItem[]; total: number | null;
   totalStated: boolean; basis: "actual" | "estimated"; value100: number | null; comparison: string | null;
   comparison100: number | null; perMonth: number | null; sources: string[]; stamp: string;
 }) {
@@ -22,7 +22,7 @@ export function Receipt({ cik, company, person, role, left, items, total, totalS
     <article className="hiw-receipt relative px-5 pt-5 pb-7 text-[12.5px] leading-5 shadow-card">
       <div className="text-center">
         {cik != null && <div className="mb-2 flex justify-center"><Logo cik={cik} size={34} /></div>}
-        <div className="text-[11px] tracking-[0.2em] uppercase opacity-70">Exit receipt</div>
+        <div className="text-[11px] tracking-[0.2em] uppercase opacity-70">{title}</div>
         <div className="mt-1 text-[16px] leading-6 font-bold">{company}</div>
         <div className="text-[11px] opacity-70">{left}</div>
       </div>
@@ -32,14 +32,14 @@ export function Receipt({ cik, company, person, role, left, items, total, totalS
       <hr />
       <div className="space-y-1">
         {shown.length === 0 && <div className="opacity-70">No exit pay disclosed</div>}
-        {shown.map((i) => (
-          <div key={i.label} className="leader"><span>{i.label}</span><span className="tabular-nums">{compactMoney(i.value)}</span></div>
+        {shown.map((i, n) => (
+          <div key={`${n}-${i.label}`} className="leader"><span>{i.label}</span><span className="tabular-nums">{compactMoney(i.value)}</span></div>
         ))}
       </div>
       <hr />
       <div className="leader text-[15px] font-black"><span>TOTAL</span><span className="tabular-nums">{compactMoney(total)}</span></div>
       {!totalStated && shown.length > 1 && <div className="text-[10.5px] opacity-60">sum of the disclosed parts</div>}
-      {basis === "estimated" && <div className="text-[10.5px] opacity-60">estimated in the filing, before the exit</div>}
+      {basis === "estimated" && <div className="text-[10.5px] opacity-60">{estimatedNote}</div>}
       {perMonth != null && <div className="mt-1 text-[11.5px] opacity-80">≈ {compactMoney(perMonth)} per month in the job</div>}
       {value100 != null && (
         <>

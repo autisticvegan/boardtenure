@@ -382,3 +382,28 @@ export const getPayRatioStats = cache(async () => {
     WHERE r.verified`;
   return rows[0];
 });
+
+export type HiwFigure = { key: string; label: string; value: number; unit: "usd" | "people" | "pct" | "shares" | "x"; fiscal_year?: number };
+export type HiwCase = {
+  id: string;
+  kind: "golden_hello" | "layoffs";
+  company_name: string;
+  cik: number | null;
+  ticker: string | null;
+  person_name: string | null;
+  role: string | null;
+  event_date: string | null;
+  headline: string;
+  figures: HiwFigure[];
+  notes: string | null;
+  source_urls: string[];
+};
+
+/** Researched cases of a newer kind (data/seed/hiw_*.json), most recent first. */
+export const getHiwCases = cache(async (kind: HiwCase["kind"]): Promise<HiwCase[]> => sql<HiwCase[]>`
+  SELECT id, kind, company_name, nullif(regexp_replace(company_cik, '\D', '', 'g'), '')::bigint AS cik, ticker,
+         person_name, role, event_date, headline, figures, notes, source_urls
+  FROM hiw_case WHERE kind = ${kind}
+  ORDER BY event_date DESC NULLS LAST, id`);
+
+export const fig = (c: HiwCase, key: string) => c.figures.find((f) => f.key === key);

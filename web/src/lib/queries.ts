@@ -341,6 +341,7 @@ export async function search(q: string, limit = 8): Promise<SearchHit[]> {
 
 export type CompanyListItem = {
   slug: string;
+  cik: string | null;
   common_name: string;
   symbol: string | null;
   current_directors: number;
@@ -349,7 +350,7 @@ export type CompanyListItem = {
 
 export const listCompanies = cache(async (): Promise<CompanyListItem[]> => {
   return sql<CompanyListItem[]>`
-    SELECT c.slug, c.common_name, s.symbol,
+    SELECT c.slug, c.cik, c.common_name, s.symbol,
            count(*) FILTER (WHERE m.status = 'current')::int AS current_directors,
            count(*) FILTER (WHERE m.status = 'former')::int AS former_directors
     FROM company c

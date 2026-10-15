@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { Logo } from "@/components/logo";
 import { Chip, ScopeToggle, Signed } from "@/components/standings/primitives";
 import { Card } from "@/components/ui";
 import { todayIso } from "@/lib/format";
@@ -15,6 +16,7 @@ const TH = "py-2.5 text-[11px] leading-[14px] font-semibold uppercase tracking-[
 export default async function CompaniesPage({ searchParams }: PageProps<"/companies">) {
   const scope = parseScope(await searchParams);
   const [companies, strips] = await Promise.all([listCompanies(), getBoardStrips(scope)]);
+  const cikBySlug = new Map(companies.map((c) => [c.slug, c.cik]));
   const counts = new Map(companies.map((c) => [c.slug, c]));
   const today = todayIso();
 
@@ -56,8 +58,8 @@ export default async function CompaniesPage({ searchParams }: PageProps<"/compan
                   <td className="pl-4 sm:pl-5 pr-3 py-2.5 font-mono text-[12px] text-ink-2 hidden sm:table-cell">{c.symbol}</td>
                   <td className="pl-4 sm:pl-3 pr-3 py-2.5">
                     <span className="flex flex-wrap items-center gap-x-2 gap-y-1">
-                      <Link className="inline-flex items-center max-md:min-h-11 font-medium text-ink hover:text-accent-ink" href={withScope(`/c/${c.slug}`, scope)}>
-                        {c.common_name}
+                      <Link className="inline-flex items-center gap-2 max-md:min-h-11 font-medium text-ink hover:text-accent-ink" href={withScope(`/c/${c.slug}`, scope)}>
+                        <Logo cik={cikBySlug.get(c.slug)} size={22} />{c.common_name}
                       </Link>
                       <span className="sm:hidden font-mono text-[11px] text-ink-3">{c.symbol}</span>
                       {isNew && <Chip interactive kind="new" label="New" hint={CHIP_HINT.isNew(c.created_at)} />}

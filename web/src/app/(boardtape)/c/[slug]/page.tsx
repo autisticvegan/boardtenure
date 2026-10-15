@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { Logo } from "@/components/logo";
 import { notFound } from "next/navigation";
 import { Suspense } from "react";
 import { BoardTimeline, type TimelineRow } from "@/components/board-timeline";
@@ -64,6 +65,7 @@ export default async function CompanyPage({ params, searchParams }: PageProps<"/
               <span aria-current="page">{company.symbol ?? company.common_name}</span>
             </nav>
             <div className="flex items-center gap-3 flex-wrap">
+              <Logo cik={company.cik} size={40} />
               <h1 className="text-[26px] leading-8 sm:text-[32px] sm:leading-[38px] font-bold tracking-[-0.02em] text-ink">
                 {company.common_name}
               </h1>
