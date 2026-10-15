@@ -188,6 +188,8 @@ export type FailingUp = {
   to_role: string;
   to_start: string | null;
   to_kind: "executive" | "director";
+  from_cik: number | null;
+  to_cik: number | null;
   other_comparisons: { name: string; value_of_100: number }[];
   pay: { fiscal_year: number; total: number }[];
   notes: string | null;
@@ -199,11 +201,12 @@ export const getFailingUp = cache(async (): Promise<FailingUp[]> => sql<FailingU
   SELECT id, person_name, from_company, from_ticker, from_role, from_start, from_end, exit_description,
          from_value_of_100, comparison_name, comparison_value_of_100, period_start::text, period_end::text,
          exit_pay_total, exit_pay_description, to_company, to_ticker, to_role, to_start, to_kind, other_comparisons, pay, notes,
-         source_urls
+         source_urls, from_cik, to_cik
   FROM failing_up_case ORDER BY comparison_value_of_100 - from_value_of_100 DESC`);
 
 export type ExecSale = {
   company_slug: string;
+  company_cik: string | null;
   company_name: string;
   full_name: string;
   titles: string[];
@@ -223,7 +226,8 @@ export type ExecSale = {
 
 /** Executives' open-market stock sales during their officer tenure, largest first. */
 export const getExecutiveSales = cache(async (): Promise<ExecSale[]> => sql<ExecSale[]>`
-  SELECT c.slug AS company_slug, c.common_name AS company_name, p.full_name, t.titles, s.window_start::text,
+  SELECT c.slug AS company_slug, c.cik AS company_cik, c.common_name AS company_name, p.full_name, t.titles,
+         s.window_start::text,
          s.window_end::text, t.is_current, s.filings, s.proceeds, s.avg_price_adj, s.end_close_adj, s.value_at_end,
          s.plan_share, t.total_return, t.bench_total_return, pp.pay_total
   FROM executive_sales s
@@ -238,6 +242,7 @@ export const getExecutiveSales = cache(async (): Promise<ExecSale[]> => sql<Exec
 
 export type Chute = {
   key: string;
+  cik: number | null;
   company: string;
   ticker: string | null;
   person: string;
@@ -274,13 +279,14 @@ const CONTEXT_OF = sql`CASE x.exit_type WHEN 'terminated_without_cause' THEN 'te
  * six fully researched companies (whose stock figure is our own tenure return vs SPY, as $100).
  */
 export const getAllChutes = cache(async (): Promise<Chute[]> => dedupeChutes(await sql<Chute[]>`
-  SELECT g.id AS key, g.company_name AS company, g.ticker, g.person_name AS person, g.role, g.context, g.exit_type,
+  SELECT g.id AS key, nullif(regexp_replace(g.company_cik, '\D', '', 'g'), '')::bigint AS cik, g.company_name AS company,
+         g.ticker, g.person_name AS person, g.role, g.context, g.exit_type,
          g.exit_words, g.tenure_end AS exit_date, g.tenure_start, g.basis, g.severance_cash, g.bonus, g.equity,
          g.pension_deferred, g.benefits_other, g.consulting, g.tax_gross_up, g.total, g.total_is_stated,
          g.value_of_100, g.comparison_name, g.comparison_value_of_100, g.clawback_or_forfeiture, g.notes, g.source_urls
   FROM golden_parachute g
   UNION ALL
-  SELECT 'x' || x.id, c.common_name, s.symbol, p.full_name, coalesce(x.role, ''), ${CONTEXT_OF}, x.exit_type, NULL,
+  SELECT 'x' || x.id, nullif(regexp_replace(c.cik, '\D', '', 'g'), '')::bigint, c.common_name, s.symbol, p.full_name, coalesce(x.role, ''), ${CONTEXT_OF}, x.exit_type, NULL,
          x.exit_date::text, t.tenure_start::text, x.basis, x.severance_cash, NULL, x.accelerated_equity_value, NULL,
          x.other_exit_pay, x.consulting_fees, NULL,
          coalesce(x.total_exit_pay, nullif(coalesce(x.severance_cash, 0) + coalesce(x.accelerated_equity_value, 0)
@@ -344,3 +350,35 @@ export const getRaisesAnyway = cache(async (drop = 0.3, limit = 24): Promise<Rai
   WHERE c.ret <= ${-drop} AND c.sct > c.sct_prev AND NOT c.new_ceo_base
   ORDER BY c.sct - c.sct_prev DESC
   LIMIT ${limit}`);
+
+export type PayRatio = {
+  cik: number;
+  entity_name: string;
+  tickers: string | null;
+  fiscal_year: number | null;
+  ratio: number;
+  ceo_pay: number;
+  median_pay: number;
+  doc_url: string;
+  quote: string;
+};
+
+/** CEO pay ratios from the latest proxy, verified (CEO pay / median pay reproduce the stated ratio),
+ *  at well-known companies. */
+export const getPayRatios = cache(async (): Promise<PayRatio[]> => sql<PayRatio[]>`
+  SELECT r.cik, s.entity_name, s.tickers, r.fiscal_year, r.ratio, r.ceo_pay::float8 AS ceo_pay,
+         r.median_pay::float8 AS median_pay, r.doc_url, r.quote
+  FROM pay_ratio r JOIN pvp_screen_ok s ON s.cik = r.cik AND s.notable AND NOT s.implausible
+  WHERE r.verified
+  ORDER BY r.ratio DESC`);
+
+export const getPayRatioStats = cache(async () => {
+  const rows = await sql<{ n: number; n_all: number; median: number; median_all: number; median_worker: number }[]>`
+    SELECT count(*) FILTER (WHERE s.notable)::int AS n, count(*)::int AS n_all,
+           percentile_cont(0.5) WITHIN GROUP (ORDER BY r.ratio) FILTER (WHERE s.notable) AS median,
+           percentile_cont(0.5) WITHIN GROUP (ORDER BY r.ratio) AS median_all,
+           percentile_cont(0.5) WITHIN GROUP (ORDER BY r.median_pay) FILTER (WHERE s.notable) AS median_worker
+    FROM pay_ratio r JOIN pvp_screen_ok s ON s.cik = r.cik AND NOT s.implausible
+    WHERE r.verified`;
+  return rows[0];
+});

@@ -1,12 +1,13 @@
 // A golden parachute as a receipt: line items, a total, and what shareholders got meanwhile.
+import { Logo } from "@/components/logo";
 import { compactMoney } from "@/lib/format";
 import { hundred } from "./hundred";
 
 export type ReceiptItem = { label: string; value: number | null };
 
-export function Receipt({ company, person, role, left, items, total, totalStated, basis, value100, comparison,
+export function Receipt({ cik, company, person, role, left, items, total, totalStated, basis, value100, comparison,
                           comparison100, perMonth, sources, stamp }: {
-  company: string; person: string; role: string; left: string; items: ReceiptItem[]; total: number | null;
+  cik?: number | null; company: string; person: string; role: string; left: string; items: ReceiptItem[]; total: number | null;
   totalStated: boolean; basis: "actual" | "estimated"; value100: number | null; comparison: string | null;
   comparison100: number | null; perMonth: number | null; sources: string[]; stamp: string;
 }) {
@@ -20,6 +21,7 @@ export function Receipt({ company, person, role, left, items, total, totalStated
   return (
     <article className="hiw-receipt relative px-5 pt-5 pb-7 text-[12.5px] leading-5 shadow-card">
       <div className="text-center">
+        {cik != null && <div className="mb-2 flex justify-center"><Logo cik={cik} size={34} /></div>}
         <div className="text-[11px] tracking-[0.2em] uppercase opacity-70">Exit receipt</div>
         <div className="mt-1 text-[16px] leading-6 font-bold">{company}</div>
         <div className="text-[11px] opacity-70">{left}</div>

@@ -17,6 +17,11 @@ from bt.ingest.seed_comp import numbers_in
 from bt.text import find_quote, normalize_for_match
 
 
+def _cik(v: str | None) -> int | None:
+    digits = re.sub(r"\D", "", v or "")
+    return int(digits) if digits else None
+
+
 def _key(e: dict) -> str:
     m = re.search(r"/Archives/edgar/data/(\d+)/", e["url"])
     return rawstore.sec_key(m.group(1), e["accession"], e["url"].rsplit("/", 1)[-1])
@@ -79,8 +84,9 @@ def load(conn: psycopg.Connection, path: Path) -> int:
             f"""INSERT INTO failing_up_case (id, person_name, person_cik, from_company, from_ticker, from_role,
                  from_start, from_end, exit_description, from_value_of_100, comparison_name, comparison_value_of_100,
                  period_start, period_end, exit_pay_total, exit_pay_description, to_company, to_ticker, to_role,
-                 to_start, pay, notes, source_urls, evidence_ids, to_kind, source_file, other_comparisons)
-               VALUES ({", ".join(["%s"] * 27)})""",
+                 to_start, pay, notes, source_urls, evidence_ids, to_kind, source_file, other_comparisons,
+                 from_cik, to_cik)
+               VALUES ({", ".join(["%s"] * 29)})""",
             (c["id"], c["person"]["name"], c["person"].get("sec_cik"), f["company"], f.get("ticker"), f["role"],
              f.get("start"), f.get("end"), f.get("exit_description"), st["company_value_of_100"],
              st["comparison_name"], st["comparison_value_of_100"],
@@ -91,5 +97,6 @@ def load(conn: psycopg.Connection, path: Path) -> int:
              c.get("notes") or None, sorted({url[r] for r in refs}), [ev_id[r] for r in refs],
              t.get("kind", "executive"), path.name,
              json.dumps([{"name": o["name"], "value_of_100": o["value_of_100"]}
-                         for o in st.get("other_comparisons", [])])))
+                         for o in st.get("other_comparisons", [])]),
+             _cik(f.get("cik")), _cik(t.get("cik"))))
     return len(data["cases"])

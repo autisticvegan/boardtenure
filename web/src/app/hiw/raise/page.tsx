@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { companyLabel } from "@/components/hiw/case-card";
 import { Face } from "@/components/hiw/face";
+import { Logo } from "@/components/logo";
 import { compactMoney } from "@/lib/format";
 import { getRaisesAnyway } from "@/lib/queries-hiw";
 import { getPayAsymmetry } from "@/lib/queries-pay";
@@ -25,7 +26,7 @@ export default async function Raise() {
       <header className="max-w-[860px] space-y-4">
         <div className="text-[12px] font-bold uppercase tracking-[0.16em] text-accent-ink">The raise</div>
         <h1 className="text-[40px] leading-[44px] sm:text-[60px] sm:leading-[62px] font-extrabold tracking-[-0.035em] text-ink">
-          The stock fell. <span className="text-accent-ink">The pay went up.</span>
+          The stock fell. <span className="text-accent-ink hiw-gold-text">The pay went up.</span>
         </h1>
         <p className="text-[17px] leading-7 text-ink-2">
           Same CEO, back-to-back years, {a.sample.companies.toLocaleString("en-US")} companies, straight from each
@@ -70,7 +71,10 @@ export default async function Raise() {
                       <div className="text-[11px] leading-[14px] uppercase tracking-[0.08em] text-ink-3">
                         <span className="text-accent-ink font-bold mr-1.5">#{i + 1}</span>{ticker ?? "—"} · FY{r.fiscal_year}
                       </div>
-                      <div className="mt-1 text-[16px] leading-6 font-semibold text-ink truncate">{name}</div>
+                      <div className="mt-1 flex items-center gap-2 min-w-0">
+                        <Logo cik={r.cik} size={26} />
+                        <span className="text-[16px] leading-6 font-semibold text-ink truncate">{name}</span>
+                      </div>
                       <div className="text-[12px] leading-4 text-ink-3 truncate">CEO: {r.peo_name}</div>
                     </div>
                     <div className="text-right shrink-0">

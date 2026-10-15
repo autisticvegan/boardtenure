@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { hundred } from "@/components/hiw/hundred";
+import { Logo } from "@/components/logo";
 import { compactMoney } from "@/lib/format";
 import { getFailingUp, type FailingUp } from "@/lib/queries-hiw";
 import { median } from "@/lib/track-record";
@@ -82,7 +83,9 @@ function CaseRow({ c }: { c: FailingUp }) {
     <li className="rounded-[14px] border border-line bg-surface shadow-card overflow-hidden">
       <div className="grid md:grid-cols-[1fr_auto_1fr]">
         <div className="min-w-0 px-5 py-4">
-          <div className="text-[11px] leading-[14px] uppercase tracking-[0.08em] text-ink-3">Before · {c.from_company}</div>
+          <div className="flex items-center gap-2 text-[11px] leading-[14px] uppercase tracking-[0.08em] text-ink-3">
+            <Logo cik={c.from_cik} size={24} />Before · {c.from_company}
+          </div>
           <div className="mt-1 text-[18px] leading-6 font-semibold text-ink">{c.person_name}</div>
           <div className="text-[12px] leading-4 text-ink-3">{c.from_role} · {c.from_start?.slice(0, 7)} to {c.from_end?.slice(0, 7)}</div>
           <div className="mt-3 flex items-baseline gap-3">
@@ -103,8 +106,8 @@ function CaseRow({ c }: { c: FailingUp }) {
         </div>
         <div aria-hidden className="hidden md:grid place-items-center px-2 text-[28px] text-accent-ink">→</div>
         <div className="min-w-0 px-5 py-4 border-t md:border-t-0 md:border-l border-line bg-surface-2">
-          <div className="text-[11px] leading-[14px] uppercase tracking-[0.08em] text-ink-3">
-            {seat ? "Then a seat on the board of" : "Next"} · {c.to_company}
+          <div className="flex items-center gap-2 text-[11px] leading-[14px] uppercase tracking-[0.08em] text-ink-3">
+            <Logo cik={c.to_cik} size={24} />{seat ? "Then a seat on the board of" : "Next"} · {c.to_company}
           </div>
           <div className="mt-1 text-[15px] leading-6 font-semibold text-ink">{c.to_role}</div>
           <div className="text-[12px] leading-4 text-ink-3">from {c.to_start?.slice(0, 7)}</div>

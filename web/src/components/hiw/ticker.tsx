@@ -1,5 +1,6 @@
 // A ticker-tape band of real cases. The list is rendered twice so the loop is seamless; screen readers
 // get one copy, and hovering pauses it.
+import { Logo } from "@/components/logo";
 import { compactMoney } from "@/lib/format";
 import type { ScreenCase } from "@/lib/queries-hiw";
 import { companyLabel } from "./case-card";
@@ -15,6 +16,7 @@ export function Ticker({ cases }: { cases: ScreenCase[] }) {
     <ul aria-hidden={hidden || undefined} className="flex shrink-0 items-center">
       {items.map((i) => (
         <li key={i.key} className="flex items-center gap-2 px-5 text-[13px] leading-5 whitespace-nowrap border-r border-line">
+          <Logo cik={i.key} size={20} />
           <span className="font-mono font-bold text-ink">{i.label}</span>
           <span className="text-ink-3">CEO</span>
           <span className="font-mono font-semibold text-accent-ink">▲ {i.pay}</span>

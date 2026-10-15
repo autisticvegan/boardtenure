@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Logo } from "@/components/logo";
 import { compactMoney } from "@/lib/format";
 import type { ScreenCase } from "@/lib/queries-hiw";
 import { HundredBar, hundred } from "./hundred";
@@ -14,7 +15,7 @@ export const span = (c: Pick<ScreenCase, "first_frame" | "latest_frame">) =>
   `${c.first_frame.slice(2)}–${c.latest_frame.slice(2)}`;
 
 export function companyLabel(c: Pick<ScreenCase, "entity_name" | "tickers">) {
-  const name = c.entity_name.replace(/\s*\/[A-Z]{2}\/?$/, "").replace(/,?\s+(INC|CORP|CORPORATION|HOLDINGS?|CO)\.?$/i, "");
+  const name = c.entity_name.replace(/\s*\/\s*[A-Z]{2}\/?$/, "").replace(/,?\s+(INC|CORP|CORPORATION|HOLDINGS?|CO)\.?$/i, "");
   const titled = name === name.toUpperCase() ? name.toLowerCase().replace(/\b\w/g, (m) => m.toUpperCase()) : name;
   return { name: titled, ticker: c.tickers?.split(", ")[0] ?? null };
 }
@@ -32,11 +33,14 @@ export function CaseCard({ c, rank, metric = "pay" }: { c: ScreenCase; rank?: nu
             {rank != null && <span className="text-accent-ink font-bold mr-1.5">#{rank}</span>}
             {ticker ?? "—"} · {span(c)}
           </div>
-          <div className="mt-1 text-[16px] leading-6 font-semibold text-ink truncate group-hover:text-accent-ink">{name}</div>
+          <div className="mt-1 flex items-center gap-2 min-w-0">
+            <Logo cik={c.cik} size={26} />
+            <span className="text-[16px] leading-6 font-semibold text-ink truncate group-hover:text-accent-ink">{name}</span>
+          </div>
           {who && <div className="text-[12px] leading-4 text-ink-3 truncate">CEO: {who}</div>}
         </div>
         <div className="text-right shrink-0">
-          <div className="text-[24px] leading-[28px] font-extrabold text-accent-ink num">{compactMoney(pay)}</div>
+          <div className="text-[24px] leading-[28px] font-extrabold text-accent-ink num hiw-greedy">{compactMoney(pay)}</div>
           <div className="text-[11px] leading-4 text-ink-3">
             {metric === "cap" ? "CEO pay actually paid" : (ceoNames(c.ceos)?.includes(" and ") ? "to its CEOs" : "to the CEO")}
           </div>

@@ -11,7 +11,7 @@ export function Face({ side, tone, title, value, sub }: { side: string; tone: "g
           <div className="text-[14px] leading-5 text-ink-2">{title}</div>
         </div>
       </div>
-      <div className={`mt-4 text-[64px] leading-[64px] font-black tracking-[-0.04em] num ${tone === "gain" ? "text-gain-ink" : "text-ink"}`}>{value}</div>
+      <div className={`mt-4 w-fit origin-left hiw-greedy text-[64px] leading-[64px] font-black tracking-[-0.04em] num ${tone === "gain" ? "text-gain-ink" : "text-ink"}`}>{value}</div>
       <div className="mt-2 text-[13px] leading-5 text-ink-3">{sub}</div>
     </div>
   );

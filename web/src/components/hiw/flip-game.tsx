@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { Logo } from "@/components/logo";
 import { useState } from "react";
 
 export type FlipCase = { cik: number; name: string; ticker: string | null; ceo: string | null; pay: string; tsr: string; span: string };
@@ -39,7 +40,9 @@ export function FlipGame({ cases }: { cases: FlipCase[] }) {
             <div className="rounded-[14px] bg-[rgba(217,89,38,0.12)] border border-loss/40 px-5 py-4">
               <div className="text-[11px] leading-[14px] uppercase tracking-[0.12em] font-bold text-loss-ink">Tails · you</div>
               <div className="mt-1 text-[36px] leading-[40px] font-extrabold text-loss-ink num">$100 → {pick.tsr}</div>
-              <div className="text-[12px] leading-4 text-ink-2">{pick.name}{pick.ticker && ` (${pick.ticker})`}, same years</div>
+              <div className="mt-1 flex items-center gap-2 text-[12px] leading-4 text-ink-2">
+                <Logo cik={pick.cik} size={22} />{pick.name}{pick.ticker && ` (${pick.ticker})`}, same years
+              </div>
             </div>
             <Link href={`/case/${pick.cik}`} className="sm:col-span-2 text-[13px] font-semibold text-accent-ink hover:underline underline-offset-2">
               See the numbers and the filing →

@@ -3,21 +3,24 @@ import type { ReactNode } from "react";
 import { CaseCard, ceoNames, companyLabel, span } from "@/components/hiw/case-card";
 import { Coin } from "@/components/hiw/coin";
 import { Face } from "@/components/hiw/face";
+import { MakeItRain } from "@/components/hiw/greed-fx";
 import { FlipGame, type FlipCase } from "@/components/hiw/flip-game";
 import { hundred } from "@/components/hiw/hundred";
 import { Ticker } from "@/components/hiw/ticker";
+import { Logo } from "@/components/logo";
 import { compactMoney } from "@/lib/format";
 import { getPayAsymmetry } from "@/lib/queries-pay";
+import { caughtUpAt, ratioLabel } from "@/lib/ratio";
 import {
-  getAllChutes, getExecutiveSales, getFailingUp, getHeadsIWin, getPaidAnyway, getScreenStats,
+  getAllChutes, getExecutiveSales, getFailingUp, getHeadsIWin, getPaidAnyway, getPayRatios, getPayRatioStats, getScreenStats,
 } from "@/lib/queries-hiw";
 
 export const revalidate = 3600;
 
 export default async function HiwHome() {
-  const [stats, paid, deck, heads, chutes, sales, failing, asym] = await Promise.all([
+  const [stats, paid, deck, heads, chutes, sales, failing, asym, ratios, ratioStats] = await Promise.all([
     getScreenStats(), getPaidAnyway(50, 24), getPaidAnyway(100, 120), getHeadsIWin(3), getAllChutes(), getExecutiveSales(),
-    getFailingUp(), getPayAsymmetry(),
+    getFailingUp(), getPayAsymmetry(), getPayRatios(), getPayRatioStats(),
   ]);
   const up = asym?.buckets_same.at(-1);
   const down = asym?.buckets_same[0];
@@ -38,12 +41,13 @@ export default async function HiwHome() {
       <section className="pt-2 md:pt-8 grid gap-8 md:grid-cols-[1fr_auto] items-center">
         <div className="max-w-[820px]">
           <h1 className="text-[44px] leading-[46px] sm:text-[72px] sm:leading-[72px] font-black tracking-[-0.045em] text-ink">
-            Heads, I win.<br /><span className="text-accent-ink">Tails, you lose.</span>
+            Heads, I win.<br /><span className="text-accent-ink hiw-gold-text">Tails, you lose.</span>
           </h1>
           <p className="mt-5 text-[18px] leading-8 text-ink-2 max-w-[60ch]">
             The stock falls. The pay doesn&apos;t. A running tally of what America&apos;s public companies paid the people
             at the top while their shareholders lost money, straight from the companies&apos; own filings.
           </p>
+          <div className="mt-5"><MakeItRain /></div>
           <p className="mt-3 text-[13px] leading-5 text-ink-3">
             {stats.companies.toLocaleString("en-US")} companies screened · pay tables through {stats.latest_year?.slice(2)} ·{" "}
             <Link href="/about" className="underline underline-offset-2 hover:text-ink-2">how we know</Link>
@@ -86,6 +90,29 @@ export default async function HiwHome() {
 
       <FlipGame cases={flipCases} />
 
+      {ratios.length > 0 && (
+        <section aria-labelledby="the-ratio" className="space-y-5">
+          <Head id="the-ratio" kicker="The ratio" title={`Your year, done by ${caughtUpAt(ratioStats.median)}.`} href="/ratio"
+                sub={`At the median well-known company the CEO made ${Math.round(ratioStats.median)} times the median worker's pay. The biggest gaps:`} />
+          <div className="grid gap-4 md:grid-cols-3">
+            {ratios.slice(0, 3).map((r) => {
+              const { name } = companyLabel(r);
+              return (
+                <Link key={r.cik} href="/ratio" className="group block rounded-[18px] border border-line bg-surface px-5 py-5 shadow-card hover:border-accent/60">
+                  <div className="flex items-center gap-2 text-[11px] leading-[14px] uppercase tracking-[0.1em] text-ink-3">
+                    <Logo cik={r.cik} size={24} /><span className="truncate">{name}</span>
+                  </div>
+                  <div className="mt-3 text-[38px] leading-[42px] font-black text-accent-ink num hiw-greedy w-fit origin-left">{ratioLabel(r.ratio)}</div>
+                  <div className="text-[12px] leading-4 text-ink-3">
+                    CEO {compactMoney(r.ceo_pay)} · median worker {compactMoney(r.median_pay)} · caught up by {caughtUpAt(r.ratio)}
+                  </div>
+                </Link>
+              );
+            })}
+          </div>
+        </section>
+      )}
+
       <section aria-labelledby="paid-anyway" className="space-y-5">
         <Head id="paid-anyway" kicker="Paid anyway" title="Your $100 shrank. Their paycheck didn't." href="/paid-anyway"
               sub="The most CEO pay at well-known companies where $100 invested was worth less than $50 by the end." />
@@ -102,9 +129,11 @@ export default async function HiwHome() {
             {topChutes.map((c) => (
               <Link key={c.key} href="/parachutes"
                     className="group block rounded-[18px] border border-line bg-surface px-5 py-5 shadow-card hover:border-accent/60">
-                <div className="text-[11px] leading-[14px] uppercase tracking-[0.1em] text-ink-3">{c.company}</div>
-                <div className="mt-1 text-[17px] leading-6 font-bold text-ink group-hover:text-accent-ink">{c.person}</div>
-                <div className="mt-3 text-[34px] leading-[38px] font-black text-accent-ink num">{compactMoney(c.total)}</div>
+                <div className="flex items-center gap-2 text-[11px] leading-[14px] uppercase tracking-[0.1em] text-ink-3">
+                  <Logo cik={c.cik} size={24} />{c.company}
+                </div>
+                <div className="mt-2 text-[17px] leading-6 font-bold text-ink group-hover:text-accent-ink">{c.person}</div>
+                <div className="mt-3 text-[34px] leading-[38px] font-black text-accent-ink num hiw-greedy origin-left w-fit">{compactMoney(c.total)}</div>
                 <div className="text-[12px] leading-4 text-ink-3">
                   on the way out{c.value_of_100 != null && <> · shareholders&apos; $100 → <span className="text-loss-ink font-semibold">{hundred(c.value_of_100)}</span></>}
                 </div>
@@ -122,7 +151,9 @@ export default async function HiwHome() {
             {soldBefore.map((s) => (
               <Link key={`${s.company_slug}-${s.full_name}`} href="/sold"
                     className="group block rounded-[18px] border border-line bg-surface px-5 py-5 shadow-card hover:border-accent/60">
-                <div className="text-[11px] leading-[14px] uppercase tracking-[0.1em] text-ink-3">{s.company_name}</div>
+                <div className="flex items-center gap-2 text-[11px] leading-[14px] uppercase tracking-[0.1em] text-ink-3">
+                  <Logo cik={s.company_cik} size={24} />{s.company_name}
+                </div>
                 <div className="mt-1 text-[17px] leading-6 font-bold text-ink group-hover:text-accent-ink">{s.full_name}</div>
                 <div className="mt-3 flex items-baseline gap-2">
                   <span className="text-[30px] leading-[34px] font-black text-accent-ink num">{compactMoney(s.proceeds)}</span>

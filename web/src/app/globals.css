@@ -205,3 +205,22 @@ html { scroll-padding-top: calc(env(safe-area-inset-top, 0px) + 64px); }
 /* A short pop for the coin-flip result. */
 @keyframes hiw-pop { from { opacity: 0; transform: scale(.92) translateY(8px); } to { opacity: 1; transform: none; } }
 .hiw-pop { animation: hiw-pop 260ms cubic-bezier(.2, .9, .3, 1.2) both; }
+
+/* Greed mode (Heads I Win): small motion touches; the effects canvas lives in components/hiw/greed-fx.tsx */
+@keyframes hiw-spin { to { transform: rotate(360deg); } }
+.hiw-spin-slow { animation: hiw-spin 4s linear infinite; }
+@keyframes hiw-wiggle {
+  0%, 100% { transform: rotate(0) scale(1); }
+  25% { transform: rotate(-3deg) scale(1.04); }
+  75% { transform: rotate(3deg) scale(1.04); }
+}
+[data-greed="on"] .hiw-greedy:hover { animation: hiw-wiggle 380ms ease-in-out infinite; }
+@keyframes hiw-glint { from { background-position: -200% 0; } to { background-position: 200% 0; } }
+[data-greed="on"] .hiw-gold-text {
+  background: linear-gradient(100deg, var(--accent-ink) 40%, #fff6d0 50%, var(--accent-ink) 60%) 0 0 / 200% 100%;
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+  animation: hiw-glint 3.2s linear infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+  .hiw-spin-slow, [data-greed="on"] .hiw-greedy:hover, [data-greed="on"] .hiw-gold-text { animation: none; }
+}

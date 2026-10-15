@@ -131,6 +131,7 @@ function ChuteReceipt({ c }: { c: Chute }) {
   const months = monthsBetween(c.tenure_start, c.exit_date);
   return (
     <Receipt
+      cik={c.cik}
       company={c.ticker ? `${c.company} (${c.ticker})` : c.company}
       person={c.person}
       role={c.role}

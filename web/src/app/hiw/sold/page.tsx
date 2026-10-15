@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Logo } from "@/components/logo";
 import { compactMoney, pct } from "@/lib/format";
 import { getExecutiveSales, type ExecSale } from "@/lib/queries-hiw";
 
@@ -75,7 +76,7 @@ function Row({ r }: { r: ExecSale }) {
   return (
     <tr className="border-b border-line last:border-0 align-top">
       <th scope="row" className="font-normal text-left px-4 py-3">
-        <span className="font-semibold text-ink">{r.full_name}</span>
+        <span className="flex items-center gap-2"><Logo cik={r.company_cik} size={24} /><span className="font-semibold text-ink">{r.full_name}</span></span>
         <div className="text-[12px] leading-4 text-ink-3">{r.company_name} · {primaryTitle(r.titles)}</div>
         <div className="text-[12px] leading-4 text-ink-3">{r.window_start} – {r.is_current ? "present" : r.window_end} · {r.filings} filings</div>
       </th>

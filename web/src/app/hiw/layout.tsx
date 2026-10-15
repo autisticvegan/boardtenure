@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import type { CSSProperties, ReactNode } from "react";
+import { GreedFX } from "@/components/hiw/greed-fx";
 
 export const metadata: Metadata = {
   title: { default: "Heads I Win: executive pay when shareholders lose", template: "%s · Heads I Win" },
@@ -18,6 +19,7 @@ const NAV = [
   ["/paid-anyway", "Paid anyway"],
   ["/heads-i-win", "Heads I win"],
   ["/raise", "The raise"],
+  ["/ratio", "The ratio"],
   ["/sold", "What they sold"],
   ["/parachutes", "Golden parachutes"],
   ["/failing-up", "Failing up"],
@@ -27,6 +29,7 @@ const NAV = [
 export default function HiwLayout({ children }: { children: ReactNode }) {
   return (
     <div style={THEME} className="flex-1 flex flex-col">
+      <GreedFX />
       <a href="#main"
          className="sr-only focus:not-sr-only focus:fixed focus:z-50 focus:left-4 focus:top-4 focus:rounded-lg focus:bg-surface-3 focus:px-4 focus:py-2.5 focus:text-[13px] focus:font-semibold focus:text-ink">
         Skip to content

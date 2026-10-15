@@ -30,6 +30,14 @@ export default function About() {
         years count, a new CEO&apos;s first year isn&apos;t used as the starting year, and pay under $100,000 is left out.
         The stock&apos;s return for a year comes from the same table&apos;s $100 figures. Boardtape publishes the full
         test, including standard errors and the same comparison against the year before.</p>
+      <h2 className="text-[20px] leading-7 font-bold text-ink">The ratio</h2>
+      <p>Most US public companies must report the ratio of their CEO&apos;s annual pay to their median employee&apos;s. We read
+        the passage from each company&apos;s latest proxy and keep a ratio only when the CEO pay and median pay printed
+        beside it reproduce it. Companies choose how to find the median employee, and many count part-time and overseas
+        staff, which pulls the median down.</p>
+      <h2 className="text-[20px] leading-7 font-bold text-ink">Logos</h2>
+      <p>Company icons identify companies; they come from each company&apos;s own website (found through Wikidata or the
+        company&apos;s proxy) or Wikimedia Commons, and belong to their owners. Companies without one get a lettered badge.</p>
       <h2 className="text-[20px] leading-7 font-bold text-ink">Exit pay and careers</h2>
       <p>Golden parachutes and failing-up cases are researched filing by filing: separation agreements, 8-K
         announcements, the proxy after a departure, each company&apos;s own stock-performance tables. Every number is

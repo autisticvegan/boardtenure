@@ -171,6 +171,22 @@ def cmd_screen_panel(args: argparse.Namespace) -> None:
         print(json.dumps(screen.load_panel(conn, edgar, args.limit, args.reverse), indent=1))
 
 
+def cmd_screen_ratios(args: argparse.Namespace) -> None:
+    from bt.ingest import pay_ratio
+
+    with db.session("pipeline:pay-ratio") as conn:
+        print(json.dumps(pay_ratio.extract(conn), indent=1))
+
+
+def cmd_logos_fetch(args: argparse.Namespace) -> None:
+    from bt.ingest import logos
+
+    with db.session("pipeline:logos") as conn:
+        print(json.dumps(logos.fetch(conn, refresh=args.refresh, limit=args.limit), indent=1))
+        print("from proxies:", json.dumps(logos.fill_from_proxies(conn)))
+        print("tones classified:", logos.classify(conn))
+
+
 def cmd_insiders_load(args: argparse.Namespace) -> None:
     """Forms 4/5 transactions for every named executive with pay on file at the given companies."""
     from datetime import date
@@ -228,6 +244,7 @@ def cmd_seed_all(args: argparse.Namespace) -> None:
         seed_board_pay,
         seed_comp,
         seed_failing_up,
+        seed_hiw_cases,
         seed_parachutes,
     )
     from bt.quality import checks
@@ -263,7 +280,8 @@ def cmd_seed_all(args: argparse.Namespace) -> None:
             conn.commit()
             print(f"{path.name}: {cst.positions} positions, {cst.comp_rows} pay rows, "
                   f"{cst.board.verified}/{cst.board.evidence} quotes verified")
-        for prefix, mod in (("golden_parachutes_", seed_parachutes), ("failing_up", seed_failing_up)):
+        for prefix, mod in (("golden_parachutes_", seed_parachutes), ("failing_up", seed_failing_up),
+                            ("hiw_", seed_hiw_cases)):
             for path in sorted(seed_dir.glob(f"{prefix}*.json")):
                 blocking = [f for f in mod.verify_file(path) if not f.startswith("WARN")]
                 if blocking:
@@ -305,13 +323,14 @@ def cmd_seed_all(args: argparse.Namespace) -> None:
 
 
 def cmd_seed_verify(args: argparse.Namespace) -> None:
-    from bt.ingest import seed_board, seed_board_pay, seed_comp, seed_failing_up, seed_parachutes
+    from bt.ingest import seed_board, seed_board_pay, seed_comp, seed_failing_up, seed_hiw_cases, seed_parachutes
 
     path = Path(args.path)
     mod = (seed_comp if path.name.endswith("_exec_comp_research.json")
            else seed_board_pay if path.name.endswith("_board_pay_research.json")
            else seed_parachutes if path.name.startswith("golden_parachutes_")
-           else seed_failing_up if path.name.startswith("failing_up") else seed_board)
+           else seed_failing_up if path.name.startswith("failing_up")
+           else seed_hiw_cases if path.name.startswith("hiw_") else seed_board)
     failures = mod.verify_file(path)
     for f in failures:
         print(f)
@@ -346,6 +365,20 @@ def cmd_seed_failing_up(args: argparse.Namespace) -> None:
     with db.session("pipeline:seed-failing-up") as conn:
         for path in paths:
             print(f"{path.name}: {seed_failing_up.load(conn, path)} cases")
+
+
+def cmd_seed_hiw(args: argparse.Namespace) -> None:
+    from bt.ingest import seed_hiw_cases
+
+    paths = sorted(Path(args.dir).glob("hiw_*.json"))
+    for path in paths:
+        problems = seed_hiw_cases.verify_file(path)
+        if problems:
+            print("\n".join(problems))
+            sys.exit(f"{path.name}: {len(problems)} verification problem(s); nothing loaded")
+    with db.session("pipeline:seed-hiw") as conn:
+        for path in paths:
+            print(f"{path.name}: {seed_hiw_cases.load(conn, path)} cases")
 
 
 def cmd_seed_parachutes(args: argparse.Namespace) -> None:
@@ -419,6 +452,9 @@ def build_parser() -> argparse.ArgumentParser:
     sfu.add_argument("path", nargs="?")
     sfu.add_argument("--dir", default=str(Path(__file__).resolve().parents[3] / "data" / "seed"))
     sfu.set_defaults(fn=cmd_seed_failing_up)
+    shc = sd.add_parser("hiw", help="load every data/seed/hiw_*.json file (golden hellos, layoffs)")
+    shc.add_argument("--dir", default=str(Path(__file__).resolve().parents[3] / "data" / "seed"))
+    shc.set_defaults(fn=cmd_seed_hiw)
     sgp = sd.add_parser("parachutes", help="load every data/seed/golden_parachutes_*.json file")
     sgp.add_argument("--dir", default=str(Path(__file__).resolve().parents[3] / "data" / "seed"))
     sgp.set_defaults(fn=cmd_seed_parachutes)
@@ -460,6 +496,14 @@ def build_parser() -> argparse.ArgumentParser:
     sp_pan.add_argument("--limit", type=int, help="at most this many filings (default: all not yet read)")
     sp_pan.add_argument("--reverse", action="store_true", help="work from the highest CIK down")
     sp_pan.set_defaults(fn=cmd_screen_panel)
+    sp_rat = scp.add_parser("ratios", help="read CEO pay ratios from the cached latest proxies (run after panel)")
+    sp_rat.set_defaults(fn=cmd_screen_ratios)
+
+    lg = sub.add_parser("logos").add_subparsers(required=True)
+    lf = lg.add_parser("fetch", help="fetch company icons (Wikidata website -> site icon, else Commons logo)")
+    lf.add_argument("--refresh", action="store_true", help="re-fetch companies already on file")
+    lf.add_argument("--limit", type=int)
+    lf.set_defaults(fn=cmd_logos_fetch)
 
     dp = sub.add_parser("refresh", help="run the scheduled (weekly) refresh: prices, filings, analytics, checks")
     dp.add_argument("--skip-prices", action="store_true")
