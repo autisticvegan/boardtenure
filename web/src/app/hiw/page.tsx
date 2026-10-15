@@ -5,6 +5,7 @@ import { Coin } from "@/components/hiw/coin";
 import { Face } from "@/components/hiw/face";
 import { MakeItRain } from "@/components/hiw/greed-fx";
 import { FlipGame, type FlipCase } from "@/components/hiw/flip-game";
+import { GreedMeter } from "@/components/hiw/greed-meter";
 import { hundred } from "@/components/hiw/hundred";
 import { Ticker } from "@/components/hiw/ticker";
 import { Logo } from "@/components/logo";
@@ -16,6 +17,8 @@ import {
 } from "@/lib/queries-hiw";
 
 export const revalidate = 3600;
+
+const TOP_PAID = 10;
 
 export default async function HiwHome() {
   const [stats, paid, deck, heads, chutes, sales, failing, asym, ratios, ratioStats] = await Promise.all([
@@ -47,6 +50,10 @@ export default async function HiwHome() {
             The stock falls. The pay doesn&apos;t. A running tally of what America&apos;s public companies paid the people
             at the top while their shareholders lost money, straight from the companies&apos; own filings.
           </p>
+          {ratios.length > 0 && (
+            <GreedMeter ceos={TOP_PAID} medianWorker={ratioStats.median_worker}
+                        ceoPayTotal={[...ratios].sort((a, b) => b.ceo_pay - a.ceo_pay).slice(0, TOP_PAID).reduce((a, r) => a + r.ceo_pay, 0)} />
+          )}
           <div className="mt-5"><MakeItRain /></div>
           <p className="mt-3 text-[13px] leading-5 text-ink-3">
             {stats.companies.toLocaleString("en-US")} companies screened · pay tables through {stats.latest_year?.slice(2)} ·{" "}
