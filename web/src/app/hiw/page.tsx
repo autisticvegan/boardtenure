@@ -209,9 +209,37 @@ export default async function HiwHome() {
           </section>
         )}
       </div>
+
+      <nav aria-labelledby="more-greed" className="space-y-4">
+        <h2 id="more-greed" className="text-[26px] leading-8 font-extrabold tracking-[-0.02em] text-ink">More greed</h2>
+        <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+          {SECTIONS.map(([href, emoji, title, sub]) => (
+            <li key={href}>
+              <Link href={href} className="group flex h-full items-start gap-3 rounded-[14px] border border-line bg-surface px-4 py-3 hover:border-accent/60">
+                <span aria-hidden className="text-[26px] leading-8 hiw-greedy">{emoji}</span>
+                <span className="min-w-0">
+                  <span className="block text-[15px] leading-6 font-bold text-ink group-hover:text-accent-ink">{title}</span>
+                  <span className="block text-[12px] leading-4 text-ink-3">{sub}</span>
+                </span>
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </nav>
     </div>
   );
 }
+
+const SECTIONS = [
+  ["/paid-anyway", "💸", "Paid anyway", "Big pay where $100 of stock became less than $50"],
+  ["/raise", "📈", "The raise", "Stock down 40% in a year; pay barely moved"],
+  ["/ratio", "⏰", "The ratio", "When the CEO finished earning your year"],
+  ["/hellos", "👋", "Golden hellos", "Paid millions to show up"],
+  ["/parachutes", "🪂", "Golden parachutes", "Paid millions to leave"],
+  ["/layoffs", "✂️", "Layoffs", "Jobs cut, CEO pay and buybacks, side by side"],
+  ["/failing-up", "🪜", "Failing up", "Shareholders came up short; hired anyway"],
+  ["/sold", "🏦", "What they sold", "Stock sold while in charge"],
+] as const;
 
 function Stat({ value, label, sub }: { value: ReactNode; label: string; sub: string }) {
   return (

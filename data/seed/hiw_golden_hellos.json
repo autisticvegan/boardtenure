@@ -1,0 +1,2287 @@
+{
+  "as_of": "2026-10-15",
+  "slice": "hello",
+  "method": "Started from the brief's list of well-known 2023-2026 CEO hires and added others found while scanning household-name companies. For each one, listed the company's filings from the EDGAR submissions API, read the Item 5.02 appointment 8-K (and offer-letter exhibit where the 8-K summary left out perks), and took first-year pay from the Summary Compensation Table (or the pay-ratio sentence quoting it) in the next proxy. Kept cases where the filings put a number on a hiring payment (sign-on cash, make-whole or inducement equity, or perks tied to the move) and a first-year SCT total exists. Executive CIKs come from the reporting-owner field of each person's first Form 4. Internal promotions, hires without a filed first-year SCT, and hires with no hiring award were rejected. Summed keys (sign_on_cash, make_whole_equity, sign_on_equity, other_perks) never overlap: a part of an award that is really annual pay uses first_annual_grant, conditional amounts use possible_extra, and caps or 'up to' allowances are replaced by the amount the next proxy's All Other Compensation table reports as actually paid. other_perks covers relocation, housing, commuting, hire-negotiation legal fees, and aircraft use only where the hiring terms grant it. All quotes were copied from the scripts/sec_text.py rendering of the cached filing.",
+  "cases": [
+    {
+      "id": "hello-01",
+      "kind": "golden_hello",
+      "company": {
+        "name": "Starbucks Corporation",
+        "cik": "829224",
+        "ticker": "SBUX"
+      },
+      "person": {
+        "name": "Brian Niccol",
+        "role": "Chairman and Chief Executive Officer",
+        "sec_cik": "1628588"
+      },
+      "date": "2024-08-13",
+      "headline": "A cash signing bonus of $10,000,000 and a replacement equity grant of $75,000,000; not required to relocate to Seattle",
+      "figures": [
+        {
+          "key": "sign_on_cash",
+          "label": "cash signing bonus",
+          "printed": 10000000,
+          "scale": null,
+          "unit": "usd",
+          "evidence_refs": [
+            "h001"
+          ]
+        },
+        {
+          "key": "make_whole_equity",
+          "label": "replacement equity grant for forfeited Chipotle awards (target value)",
+          "printed": 75000000,
+          "scale": null,
+          "unit": "usd",
+          "evidence_refs": [
+            "h002"
+          ]
+        },
+        {
+          "key": "other_perks",
+          "label": "company jet between his home and Seattle headquarters, fiscal 2024",
+          "printed": 72398,
+          "scale": null,
+          "unit": "usd",
+          "evidence_refs": [
+            "h096"
+          ]
+        },
+        {
+          "key": "other_perks",
+          "label": "other personal use of company jet, fiscal 2024",
+          "printed": 19367,
+          "scale": null,
+          "unit": "usd",
+          "evidence_refs": [
+            "h096"
+          ]
+        },
+        {
+          "key": "other_perks",
+          "label": "temporary housing in Seattle, fiscal 2024",
+          "printed": 143567,
+          "scale": null,
+          "unit": "usd",
+          "evidence_refs": [
+            "h095"
+          ]
+        },
+        {
+          "key": "other_perks",
+          "label": "legal fees for negotiating his employment, fiscal 2024",
+          "printed": 48671,
+          "scale": null,
+          "unit": "usd",
+          "evidence_refs": [
+            "h095"
+          ]
+        },
+        {
+          "key": "first_year_pay",
+          "label": "fiscal 2024 Summary Compensation Table total (started Sept. 9, 2024)",
+          "printed": 95801676,
+          "scale": null,
+          "unit": "usd",
+          "fiscal_year": 2024,
+          "evidence_refs": [
+            "h006"
+          ]
+        }
+      ],
+      "notes": "Sign-on cash and replacement grant: Item 5.02 of the 8-K filed 2024-08-14. Commuting by company jet, personal jet use up to $250,000 a year, temporary housing and the Newport Beach remote office: the offer letter filed as Exhibit 10.1 to the same 8-K. Amounts actually spent on jet travel, housing and legal fees: footnote 3 to the FY2024 All Other Compensation table in the 2025 proxy (the proxy also lists $127,765 of physical security). First-year pay: FY2024 SCT in the same proxy; the $5,000,000 Bonus column is the first half of the signing bonus, and Stock Awards ($90,291,772) is mostly the replacement grant valued under ASC 718 (the proxy says the PRSU accounting value came in above target after the stock rose on his appointment).",
+      "evidence_refs": [
+        "h003",
+        "h004",
+        "h005"
+      ]
+    },
+    {
+      "id": "hello-02",
+      "kind": "golden_hello",
+      "company": {
+        "name": "The Boeing Company",
+        "cik": "12927",
+        "ticker": "BA"
+      },
+      "person": {
+        "name": "Robert K. (Kelly) Ortberg",
+        "role": "President and Chief Executive Officer",
+        "sec_cik": "1377692"
+      },
+      "date": "2024-07-31",
+      "headline": "A cash award of $1,250,000, plus restricted stock units and a performance option each valued at approximately $8,000,000",
+      "figures": [
+        {
+          "key": "sign_on_cash",
+          "label": "cash award at hire",
+          "printed": 1250000,
+          "scale": null,
+          "unit": "usd",
+          "evidence_refs": [
+            "h007"
+          ]
+        },
+        {
+          "key": "sign_on_equity",
+          "label": "restricted stock units at hire (approx.)",
+          "printed": 8000000,
+          "scale": null,
+          "unit": "usd",
+          "evidence_refs": [
+            "h008"
+          ]
+        },
+        {
+          "key": "sign_on_equity",
+          "label": "performance stock option at hire (approx.)",
+          "printed": 8000000,
+          "scale": null,
+          "unit": "usd",
+          "evidence_refs": [
+            "h009"
+          ]
+        },
+        {
+          "key": "other_perks",
+          "label": "relocation assistance including aircraft usage, 2024",
+          "printed": 313321,
+          "scale": null,
+          "unit": "usd",
+          "evidence_refs": [
+            "h012"
+          ]
+        },
+        {
+          "key": "annual_target_pay",
+          "label": "2025 total target compensation",
+          "printed": 22000000,
+          "scale": null,
+          "unit": "usd",
+          "fiscal_year": 2025,
+          "evidence_refs": [
+            "h011"
+          ]
+        },
+        {
+          "key": "first_year_pay",
+          "label": "2024 Summary Compensation Table total (started Aug. 8, 2024)",
+          "printed": 18388629,
+          "scale": null,
+          "unit": "usd",
+          "fiscal_year": 2024,
+          "evidence_refs": [
+            "h010"
+          ]
+        }
+      ],
+      "notes": "Hiring awards: Item 5.02 of the 8-K filed 2024-07-31 (the 8-K also lists a $1,500,000 salary, a $3,000,000 2025 bonus target, a $17,500,000 2025 long-term incentive target and relocation benefits). 2025 target total, relocation cost and the 2024 SCT total: 2025 proxy. The two $8,000,000 equity awards are separate grants that share a printed value. The same footnote lists a further $130,762 of aircraft usage; it is not counted here because Boeing requires its CEO to use company aircraft for all travel, so it is not a hiring term."
+    },
+    {
+      "id": "hello-03",
+      "kind": "golden_hello",
+      "company": {
+        "name": "Intel Corporation",
+        "cik": "50863",
+        "ticker": "INTC"
+      },
+      "person": {
+        "name": "Lip-Bu Tan",
+        "role": "Chief Executive Officer",
+        "sec_cik": "1008463"
+      },
+      "date": "2025-03-14",
+      "headline": "New hire equity awards: performance stock options valued at $25,000,000 and performance stock units valued at $17,000,000",
+      "figures": [
+        {
+          "key": "sign_on_equity",
+          "label": "New Hire Options (performance stock options), grant date value",
+          "printed": 25000000,
+          "scale": null,
+          "unit": "usd",
+          "evidence_refs": [
+            "h013"
+          ]
+        },
+        {
+          "key": "sign_on_equity",
+          "label": "New Hire PSUs, target valuation",
+          "printed": 17000000,
+          "scale": null,
+          "unit": "usd",
+          "evidence_refs": [
+            "h014"
+          ]
+        },
+        {
+          "key": "first_year_pay",
+          "label": "2025 Summary Compensation Table total (started March 18, 2025)",
+          "printed": 92990900,
+          "scale": null,
+          "unit": "usd",
+          "fiscal_year": 2025,
+          "evidence_refs": [
+            "h016"
+          ]
+        }
+      ],
+      "notes": "New-hire awards: Item 5.02 of the 8-K filed 2025-03-14, which also lists 2025 annual awards of $14,400,000 in TSR PSUs and $9,600,000 in options, a $1,000,000 salary and a 200% bonus target. The same 8-K says Tan agreed to buy $25,000,000 of Intel shares; the New Hire PSUs vest only if he holds them. First-year pay: 2025 SCT in the 2026 proxy.",
+      "evidence_refs": [
+        "h015"
+      ]
+    },
+    {
+      "id": "hello-04",
+      "kind": "golden_hello",
+      "company": {
+        "name": "NIKE, Inc.",
+        "cik": "320187",
+        "ticker": "NKE"
+      },
+      "person": {
+        "name": "Elliott Hill",
+        "role": "President and Chief Executive Officer",
+        "sec_cik": "1371578"
+      },
+      "date": "2024-09-19",
+      "headline": "To make him whole for forfeited compensation: a one-time cash payment of $4,000,000 and a one-time RSU award of $3,000,000",
+      "figures": [
+        {
+          "key": "sign_on_cash",
+          "label": "New Hire Cash Award (make-whole cash)",
+          "printed": 4000000,
+          "scale": null,
+          "unit": "usd",
+          "evidence_refs": [
+            "h017",
+            "h019"
+          ]
+        },
+        {
+          "key": "make_whole_equity",
+          "label": "New Hire RSU Award (make-whole equity)",
+          "printed": 3000000,
+          "scale": null,
+          "unit": "usd",
+          "evidence_refs": [
+            "h017",
+            "h018"
+          ]
+        },
+        {
+          "key": "other_perks",
+          "label": "relocation-related benefits incl. tax gross-ups, fiscal 2025",
+          "printed": 75614,
+          "scale": null,
+          "unit": "usd",
+          "evidence_refs": [
+            "h021"
+          ]
+        },
+        {
+          "key": "first_year_pay",
+          "label": "fiscal 2025 Summary Compensation Table total (started Oct. 14, 2024)",
+          "printed": 26018068,
+          "scale": null,
+          "unit": "usd",
+          "fiscal_year": 2025,
+          "evidence_refs": [
+            "h020"
+          ]
+        }
+      ],
+      "notes": "Make-whole awards: Item 5.02 of the 8-K filed 2024-09-19 (Hill had retired from Nike in 2020 and was an operating partner at BDT & MSD Partners; the 8-K says the awards replace forfeited compensation 'from his prior roles'). The same 8-K sets a $1,500,000 salary, 200% bonus target, a $15,500,000 annual long-term incentive target and the Relocation Policy. Relocation cost and first-year pay: FY2025 SCT and footnote 6 in the 2025 proxy; fiscal 2025 ended May 31, 2025. The same footnote lists $243,649 of personal aircraft use, not counted here because aircraft use is not among the hiring terms in the 8-K."
+    },
+    {
+      "id": "hello-05",
+      "kind": "golden_hello",
+      "company": {
+        "name": "UnitedHealth Group Incorporated",
+        "cik": "731766",
+        "ticker": "UNH"
+      },
+      "person": {
+        "name": "Stephen J. Hemsley",
+        "role": "Chief Executive Officer",
+        "sec_cik": "1180162"
+      },
+      "date": "2025-05-14",
+      "headline": "One time $60,000,000 equity award in nonqualified stock options with cliff vesting after three years",
+      "figures": [
+        {
+          "key": "sign_on_equity",
+          "label": "one-time option award; no annual equity awards in his first three years",
+          "printed": 60000000,
+          "scale": null,
+          "unit": "usd",
+          "evidence_refs": [
+            "h023"
+          ]
+        },
+        {
+          "key": "first_year_pay",
+          "label": "2025 Summary Compensation Table total (CEO from May 12, 2025)",
+          "printed": 60938062,
+          "scale": null,
+          "unit": "usd",
+          "fiscal_year": 2025,
+          "evidence_refs": [
+            "h024"
+          ]
+        }
+      ],
+      "notes": "Hemsley, already board chair, returned as CEO and kept the chair role. Option award: Item 5.02 of the 8-K filed 2025-05-14, which also sets a $1,000,000 salary and no annual cash incentive, and says there will be no additional annual equity awards for three years. First-year pay: 2025 SCT in the 2026 proxy, which reflects only his compensation as CEO.",
+      "evidence_refs": [
+        "h022"
+      ]
+    },
+    {
+      "id": "hello-07",
+      "kind": "golden_hello",
+      "company": {
+        "name": "Kohl's Corporation",
+        "cik": "885639",
+        "ticker": "KSS"
+      },
+      "person": {
+        "name": "J. Ashley Buchanan",
+        "role": "Chief Executive Officer",
+        "sec_cik": "1798910"
+      },
+      "date": "2024-11-25",
+      "headline": "A gross cash signing incentive of $3,750,000 and recruitment awards of $2,000,000 and $15,000,000; terminated for Cause on April 30, 2025",
+      "figures": [
+        {
+          "key": "sign_on_cash",
+          "label": "gross cash signing incentive",
+          "printed": 3750000,
+          "scale": null,
+          "unit": "usd",
+          "evidence_refs": [
+            "h030"
+          ]
+        },
+        {
+          "key": "sign_on_equity",
+          "label": "one-time recruitment RSU award (one-year vesting)",
+          "printed": 2000000,
+          "scale": null,
+          "unit": "usd",
+          "evidence_refs": [
+            "h031"
+          ]
+        },
+        {
+          "key": "sign_on_equity",
+          "label": "one-time recruitment RSU award (three-year vesting)",
+          "printed": 15000000,
+          "scale": null,
+          "unit": "usd",
+          "evidence_refs": [
+            "h032"
+          ]
+        },
+        {
+          "key": "other_perks",
+          "label": "personal use of company aircraft, fiscal 2024",
+          "printed": 15742,
+          "scale": null,
+          "unit": "usd",
+          "evidence_refs": [
+            "h097"
+          ]
+        },
+        {
+          "key": "clawed_back",
+          "label": "pro rata signing incentive repaid after termination for Cause",
+          "printed": 2500000,
+          "scale": null,
+          "unit": "usd",
+          "evidence_refs": [
+            "h036"
+          ]
+        },
+        {
+          "key": "first_year_pay",
+          "label": "fiscal 2024 Summary Compensation Table total (started Jan. 15, 2025)",
+          "printed": 20907736,
+          "scale": null,
+          "unit": "usd",
+          "fiscal_year": 2024,
+          "evidence_refs": [
+            "h034"
+          ]
+        }
+      ],
+      "notes": "Hiring package: Item 5.02 of the 8-K filed 2024-11-25 (also a $1,475,000 salary, an annual long-term incentive target of no less than $9,000,000, and up to 30 hours a year of personal aircraft use capped at $180,000). Aircraft cost actually incurred: the 'Company Owned or Chartered Aircraft' column of the FY2024 All Other Compensation table in the 2025 proxy. First-year pay: FY2024 SCT in the same proxy; fiscal 2024 ended Feb. 1, 2025, so the $20,907,736 covers about 2.5 weeks of employment (salary $67,045). The 8-K filed 2025-05-01 says the board terminated him for Cause on April 30, 2025, that he must repay $2,500,000 of the signing incentive, and that he forfeits all equity awards he received, including the recruitment awards (granted at $2,000,000 and $15,000,000; the 8-K does not put a value on the forfeiture). The SCT figures are grant values, not what he kept.",
+      "evidence_refs": [
+        "h033",
+        "h035"
+      ]
+    },
+    {
+      "id": "hello-08",
+      "kind": "golden_hello",
+      "company": {
+        "name": "The Hershey Company",
+        "cik": "47111",
+        "ticker": "HSY"
+      },
+      "person": {
+        "name": "Kirk Tanner",
+        "role": "President and Chief Executive Officer",
+        "sec_cik": "1671693"
+      },
+      "date": "2025-07-08",
+      "headline": "Sign-On Awards of $7,000,000 in restricted stock units and $4,000,000 in performance stock units, 17 months after he became Wendy's CEO",
+      "figures": [
+        {
+          "key": "sign_on_equity",
+          "label": "Sign-On RSU Award",
+          "printed": 7000000,
+          "scale": null,
+          "unit": "usd",
+          "evidence_refs": [
+            "h037"
+          ]
+        },
+        {
+          "key": "sign_on_equity",
+          "label": "Sign-On PSU Award",
+          "printed": 4000000,
+          "scale": null,
+          "unit": "usd",
+          "evidence_refs": [
+            "h037"
+          ]
+        },
+        {
+          "key": "first_year_pay",
+          "label": "2025 Summary Compensation Table total (started Aug. 18, 2025)",
+          "printed": 16806399,
+          "scale": null,
+          "unit": "usd",
+          "fiscal_year": 2025,
+          "evidence_refs": [
+            "h039"
+          ]
+        }
+      ],
+      "notes": "Sign-On Awards: Item 5.02 of the 8-K filed 2025-07-08, which also grants pro-rata 2025 awards of $1,181,250 (RSUs) and $2,193,750 (PSUs), a $1,250,000 salary, a 180% bonus target, relocation, and a $9,000,000 annual equity target. The same 8-K says he had been Wendy's CEO since February 2024 (see hello-09 for his Wendy's sign-on award). First-year pay: 2025 SCT in the 2026 proxy.",
+      "evidence_refs": [
+        "h038"
+      ]
+    },
+    {
+      "id": "hello-09",
+      "kind": "golden_hello",
+      "company": {
+        "name": "The Wendy's Company",
+        "cik": "30697",
+        "ticker": "WEN"
+      },
+      "person": {
+        "name": "Kirk Tanner",
+        "role": "President and Chief Executive Officer",
+        "sec_cik": "1671693"
+      },
+      "date": "2024-01-18",
+      "headline": "A one-time equity award with a grant date fair value (at target) of $9 million",
+      "figures": [
+        {
+          "key": "sign_on_equity",
+          "label": "one-time equity award at hire (target)",
+          "printed": 9,
+          "scale": "million",
+          "unit": "usd",
+          "evidence_refs": [
+            "h040"
+          ]
+        },
+        {
+          "key": "first_year_pay",
+          "label": "2024 Summary Compensation Table total (started Feb. 5, 2024)",
+          "printed": 17308117,
+          "scale": null,
+          "unit": "usd",
+          "fiscal_year": 2024,
+          "evidence_refs": [
+            "h042"
+          ]
+        }
+      ],
+      "notes": "One-time award: Item 5.02 of the 8-K filed 2024-01-18 (two-thirds RSUs, one-third relative-TSR PSUs; also a $1 million salary, 175% bonus target and a $6 million 2024 long-term incentive target). The same 8-K says the board terminated his predecessor, Todd Penegor, without cause (see hello-23). First-year pay: 2024 SCT in the 2025 proxy. Tanner left to become Hershey's CEO in August 2025 (hello-08).",
+      "evidence_refs": [
+        "h041"
+      ]
+    },
+    {
+      "id": "hello-10",
+      "kind": "golden_hello",
+      "company": {
+        "name": "Victoria's Secret & Co.",
+        "cik": "1856437",
+        "ticker": "VSXY"
+      },
+      "person": {
+        "name": "Hillary Super",
+        "role": "Chief Executive Officer",
+        "sec_cik": "2035839"
+      },
+      "date": "2024-08-14",
+      "headline": "A one-time cash bonus of $1,000,000 and a one-time equity award of $5,750,000 in restricted stock units",
+      "figures": [
+        {
+          "key": "sign_on_cash",
+          "label": "one-time cash bonus",
+          "printed": 1000000,
+          "scale": null,
+          "unit": "usd",
+          "evidence_refs": [
+            "h043"
+          ]
+        },
+        {
+          "key": "make_whole_equity",
+          "label": "RSUs to buy out unvested equity at her prior employer (part of a $5.75M one-time award)",
+          "printed": 2750000,
+          "scale": null,
+          "unit": "usd",
+          "evidence_refs": [
+            "h044",
+            "h045"
+          ]
+        },
+        {
+          "key": "first_annual_grant",
+          "label": "rest of that award: a 40% pro-rata portion of her target annual award",
+          "printed": 3000000,
+          "scale": null,
+          "unit": "usd",
+          "evidence_refs": [
+            "h045"
+          ]
+        },
+        {
+          "key": "other_perks",
+          "label": "relocation, fiscal 2024",
+          "printed": 757993,
+          "scale": null,
+          "unit": "usd",
+          "evidence_refs": [
+            "h046"
+          ]
+        },
+        {
+          "key": "first_year_pay",
+          "label": "fiscal 2024 Summary Compensation Table total (started Sept. 9, 2024)",
+          "printed": 8533370,
+          "scale": null,
+          "unit": "usd",
+          "fiscal_year": 2024,
+          "evidence_refs": [
+            "h047"
+          ]
+        }
+      ],
+      "notes": "Cash bonus and RSU award: Item 5.02 of the 8-K filed 2024-08-14 (also a $1,200,000 salary, 175% bonus target and a $7,700,000 2025 annual equity award). The 2025 proxy splits the $5,750,000 one-time RSU award into a $2,750,000 buy-out of unvested equity at her prior employer and a $3,000,000 pro-rata portion of her $7,700,000 target annual award; only the buy-out is counted as a hiring award. The FY2024 SCT Bonus column shows no amount for her. Ticker: VSCO on the 2024 8-K cover, VSXY on 2026 filings. Fiscal 2024 ended Feb. 1, 2025.",
+      "evidence_refs": [
+        "h048"
+      ]
+    },
+    {
+      "id": "hello-11",
+      "kind": "golden_hello",
+      "company": {
+        "name": "Hertz Global Holdings, Inc.",
+        "cik": "1657853",
+        "ticker": "HTZ"
+      },
+      "person": {
+        "name": "Wayne (Gil) West",
+        "role": "Chief Executive Officer",
+        "sec_cik": "1599979"
+      },
+      "date": "2024-03-18",
+      "headline": "Sign-On Grants with a total grant date value of $33 million",
+      "figures": [
+        {
+          "key": "sign_on_equity",
+          "label": "Sign-On Grants, in place of his 2024 and 2025 annual equity awards",
+          "printed": 33,
+          "scale": "million",
+          "unit": "usd",
+          "evidence_refs": [
+            "h049"
+          ]
+        },
+        {
+          "key": "first_year_pay",
+          "label": "2024 Summary Compensation Table total (started April 1, 2024)",
+          "printed": 35180881,
+          "scale": null,
+          "unit": "usd",
+          "fiscal_year": 2024,
+          "evidence_refs": [
+            "h050"
+          ]
+        }
+      ],
+      "notes": "Sign-On Grants: Item 5.02 of the 8-K filed 2024-03-18, which says they stand in for his 2024 and 2025 annual equity awards (45.45% RSUs, 54.55% PSUs tied to stock price over five years), and also sets a $1,500,000 salary with a guaranteed 2024 bonus of no less than 112.5% of base salary. First-year pay: 2024 SCT in the 2025 proxy."
+    },
+    {
+      "id": "hello-12",
+      "kind": "golden_hello",
+      "company": {
+        "name": "Peloton Interactive, Inc.",
+        "cik": "1639825",
+        "ticker": "PTON"
+      },
+      "person": {
+        "name": "Peter Stern",
+        "role": "Chief Executive Officer and President",
+        "sec_cik": "1431302"
+      },
+      "date": "2024-10-31",
+      "headline": "A discretionary signing bonus of $1,000,000 and equity awards valued at $20,000,000",
+      "figures": [
+        {
+          "key": "sign_on_cash",
+          "label": "discretionary signing bonus",
+          "printed": 1000000,
+          "scale": null,
+          "unit": "usd",
+          "evidence_refs": [
+            "h051"
+          ]
+        },
+        {
+          "key": "sign_on_equity",
+          "label": "new hire equity awards (options, RSUs and PSUs)",
+          "printed": 20000000,
+          "scale": null,
+          "unit": "usd",
+          "evidence_refs": [
+            "h051"
+          ]
+        },
+        {
+          "key": "other_perks",
+          "label": "relocation benefits, fiscal 2025",
+          "printed": 7819,
+          "scale": null,
+          "unit": "usd",
+          "evidence_refs": [
+            "h098"
+          ]
+        },
+        {
+          "key": "first_year_pay",
+          "label": "fiscal 2025 Summary Compensation Table total (started Jan. 1, 2025)",
+          "printed": 18236835,
+          "scale": null,
+          "unit": "usd",
+          "fiscal_year": 2025,
+          "evidence_refs": [
+            "h052"
+          ]
+        }
+      ],
+      "notes": "Offer terms: Item 5.02 of the 8-K filed 2024-10-31 ($5,000,000 options, $10,000,000 RSUs, $5,000,000 PSUs; $1,250,000 salary; relocation and security benefits). Relocation cost: SCT footnote in the 2025 proxy, which also lists $182,254 for security. First-year pay: the pay-ratio section of the 2025 proxy, quoting the FY2025 SCT; fiscal 2025 ended June 30, 2025, six months after he started."
+    },
+    {
+      "id": "hello-13",
+      "kind": "golden_hello",
+      "company": {
+        "name": "Starbucks Corporation",
+        "cik": "829224",
+        "ticker": "SBUX"
+      },
+      "person": {
+        "name": "Laxman Narasimhan",
+        "role": "Chief Executive Officer",
+        "sec_cik": "1620455"
+      },
+      "date": "2022-09-01",
+      "headline": "A cash signing bonus of $1,600,000 and a replacement equity grant with a target value of $9,250,000",
+      "figures": [
+        {
+          "key": "sign_on_cash",
+          "label": "cash signing bonus",
+          "printed": 1600000,
+          "scale": null,
+          "unit": "usd",
+          "evidence_refs": [
+            "h053"
+          ]
+        },
+        {
+          "key": "make_whole_equity",
+          "label": "replacement equity grant for forfeited Reckitt awards (target value)",
+          "printed": 9250000,
+          "scale": null,
+          "unit": "usd",
+          "evidence_refs": [
+            "h053"
+          ]
+        },
+        {
+          "key": "first_year_pay",
+          "label": "fiscal 2022 Summary Compensation Table total (no salary that year; 8-K expected an Oct. 1, 2022 start)",
+          "printed": 8793825,
+          "scale": null,
+          "unit": "usd",
+          "fiscal_year": 2022,
+          "evidence_refs": [
+            "h054"
+          ]
+        },
+        {
+          "key": "first_year_pay",
+          "label": "fiscal 2023 Summary Compensation Table total (first full year; CEO from March 2023)",
+          "printed": 14604531,
+          "scale": null,
+          "unit": "usd",
+          "fiscal_year": 2023,
+          "evidence_refs": [
+            "h054"
+          ]
+        }
+      ],
+      "notes": "Announced in 2022 but included because he took over as CEO in March 2023. Signing bonus and replacement grant: Item 5.02 of the 8-K filed 2022-09-01. SCT rows: the 2024 proxy (filed as DEFC14A during a proxy contest). His FY2022 row (the 8-K expected an Oct. 1, 2022 start) shows no salary, the $1,600,000 bonus and $7,186,870 of stock. The 8-K filed 2024-08-14 says he stopped being CEO on Aug. 12, 2024 and was replaced by Brian Niccol (hello-01).",
+      "evidence_refs": [
+        "h055"
+      ]
+    },
+    {
+      "id": "hello-14",
+      "kind": "golden_hello",
+      "company": {
+        "name": "3M Company",
+        "cik": "66740",
+        "ticker": "MMM"
+      },
+      "person": {
+        "name": "William M. Brown",
+        "role": "Chief Executive Officer",
+        "sec_cik": "1350633"
+      },
+      "date": "2024-03-12",
+      "headline": "A hiring bonus of $3,000,000 and two special one-time inducement awards of $2,500,000 each",
+      "figures": [
+        {
+          "key": "sign_on_cash",
+          "label": "hiring bonus",
+          "printed": 3000000,
+          "scale": null,
+          "unit": "usd",
+          "evidence_refs": [
+            "h056"
+          ]
+        },
+        {
+          "key": "sign_on_equity",
+          "label": "one-time inducement RSU grant",
+          "printed": 2500000,
+          "scale": null,
+          "unit": "usd",
+          "evidence_refs": [
+            "h057"
+          ]
+        },
+        {
+          "key": "sign_on_equity",
+          "label": "one-time inducement performance share award",
+          "printed": 2500000,
+          "scale": null,
+          "unit": "usd",
+          "evidence_refs": [
+            "h058"
+          ]
+        },
+        {
+          "key": "first_year_pay",
+          "label": "2024 Summary Compensation Table total (started May 1, 2024)",
+          "printed": 21191031,
+          "scale": null,
+          "unit": "usd",
+          "fiscal_year": 2024,
+          "evidence_refs": [
+            "h059"
+          ]
+        }
+      ],
+      "notes": "Hiring bonus and inducement awards: Item 5.02 of the 8-K filed 2024-03-12, which also grants pro-rata 2024 performance shares and options of $4,333,333 each, a $1,800,000 salary and a $3,150,000 bonus target; the board waived 3M's mandatory retirement age of 65 for him. First-year pay: 2024 SCT in the 2025 proxy."
+    },
+    {
+      "id": "hello-15",
+      "kind": "golden_hello",
+      "company": {
+        "name": "V.F. Corporation",
+        "cik": "103379",
+        "ticker": "VFC"
+      },
+      "person": {
+        "name": "Bracken Darrell",
+        "role": "President and Chief Executive Officer",
+        "sec_cik": "1452606"
+      },
+      "date": "2023-06-20",
+      "headline": "Make-whole equity awards with an aggregate grant date fair value of $3,000,000",
+      "figures": [
+        {
+          "key": "make_whole_equity",
+          "label": "make-whole equity awards (half RSUs, half options)",
+          "printed": 3000000,
+          "scale": null,
+          "unit": "usd",
+          "evidence_refs": [
+            "h060"
+          ]
+        },
+        {
+          "key": "first_year_pay",
+          "label": "fiscal 2024 Summary Compensation Table total (started July 17, 2023)",
+          "printed": 13535399,
+          "scale": null,
+          "unit": "usd",
+          "fiscal_year": 2024,
+          "evidence_refs": [
+            "h061"
+          ]
+        }
+      ],
+      "notes": "Make-whole awards: Item 5.02 of the 8-K filed 2023-06-20 (also a $1,300,000 salary, 175% bonus target, a $9,000,000 fiscal 2024 long-term incentive opportunity, relocation benefits, and two times salary as severance if terminated without cause in his first two years). Darrell was previously CEO of Logitech. First-year pay: FY2024 SCT in the 2024 proxy."
+    },
+    {
+      "id": "hello-16",
+      "kind": "golden_hello",
+      "company": {
+        "name": "The Gap, Inc.",
+        "cik": "39911",
+        "ticker": "GAP"
+      },
+      "person": {
+        "name": "Richard Dickson",
+        "role": "President and Chief Executive Officer",
+        "sec_cik": "1482551"
+      },
+      "date": "2023-07-26",
+      "headline": "An initial bonus of $350,000, a $4,000,000 inducement grant and two $4,250,000 make-whole grants",
+      "figures": [
+        {
+          "key": "sign_on_cash",
+          "label": "initial bonus",
+          "printed": 350000,
+          "scale": null,
+          "unit": "usd",
+          "evidence_refs": [
+            "h062"
+          ]
+        },
+        {
+          "key": "sign_on_equity",
+          "label": "inducement RSU grant",
+          "printed": 4000000,
+          "scale": null,
+          "unit": "usd",
+          "evidence_refs": [
+            "h063"
+          ]
+        },
+        {
+          "key": "make_whole_equity",
+          "label": "make-whole RSU grant",
+          "printed": 4250000,
+          "scale": null,
+          "unit": "usd",
+          "evidence_refs": [
+            "h064"
+          ]
+        },
+        {
+          "key": "make_whole_equity",
+          "label": "make-whole performance RSU grant",
+          "printed": 4250000,
+          "scale": null,
+          "unit": "usd",
+          "evidence_refs": [
+            "h065"
+          ]
+        },
+        {
+          "key": "other_perks",
+          "label": "commuting costs, fiscal 2023",
+          "printed": 33254,
+          "scale": null,
+          "unit": "usd",
+          "evidence_refs": [
+            "h068"
+          ]
+        },
+        {
+          "key": "first_year_pay",
+          "label": "fiscal 2023 Summary Compensation Table total (started Aug. 22, 2023)",
+          "printed": 14365008,
+          "scale": null,
+          "unit": "usd",
+          "fiscal_year": 2023,
+          "evidence_refs": [
+            "h067"
+          ]
+        }
+      ],
+      "notes": "Hiring awards: Item 5.02 of the 8-K filed 2023-07-26 (also a $1,400,000 salary, a 2023 bonus of no less than target, and an additional $1,000,000 initial bonus if Mattel ended his employment before July 31, 2023 and he forfeited equity). The 2024 proxy says the $350,000 signing bonus 'will be reflected in the Summary Compensation Tables in future years when the performance condition is satisfied'; the FY2023 Bonus column is blank. Commuting cost: SCT footnote in the 2024 proxy. Dickson had been a Gap director since 2022. Fiscal 2023 ended Feb. 3, 2024.",
+      "evidence_refs": [
+        "h066"
+      ]
+    },
+    {
+      "id": "hello-17",
+      "kind": "golden_hello",
+      "company": {
+        "name": "The Goodyear Tire & Rubber Company",
+        "cik": "42582",
+        "ticker": "GT"
+      },
+      "person": {
+        "name": "Mark W. Stewart",
+        "role": "Chief Executive Officer and President",
+        "sec_cik": "1975675"
+      },
+      "date": "2024-01-18",
+      "headline": "A one-time signing bonus of $8,560,000 and a one-time award of $11,415,000 in replacement of forfeited awards at his prior employer",
+      "figures": [
+        {
+          "key": "sign_on_cash",
+          "label": "one-time signing bonus, paid 50% in cash and 50% in fully-vested stock",
+          "printed": 8560000,
+          "scale": null,
+          "unit": "usd",
+          "evidence_refs": [
+            "h069"
+          ]
+        },
+        {
+          "key": "make_whole_equity",
+          "label": "replacement award for forfeited Stellantis awards (PSUs and RSUs)",
+          "printed": 11415000,
+          "scale": null,
+          "unit": "usd",
+          "evidence_refs": [
+            "h069"
+          ]
+        },
+        {
+          "key": "other_perks",
+          "label": "relocation expenses, 2024 (plus $24,184 in tax gross-ups)",
+          "printed": 75487,
+          "scale": null,
+          "unit": "usd",
+          "evidence_refs": [
+            "h071"
+          ]
+        },
+        {
+          "key": "first_year_pay",
+          "label": "2024 Summary Compensation Table total (started Jan. 29, 2024)",
+          "printed": 25706039,
+          "scale": null,
+          "unit": "usd",
+          "fiscal_year": 2024,
+          "evidence_refs": [
+            "h070",
+            "h072"
+          ]
+        }
+      ],
+      "notes": "Hiring awards: Item 5.02 of the 8-K filed 2024-01-18 (also a $1,400,000 salary, 160% bonus target and a $9,000,000 2024 long-term incentive grant); he must repay them if his prior employer pays him any of those values. First-year pay and relocation: 2024 SCT and footnote 6 in the 2025 proxy; the $4,280,000 in the Bonus column equals half of the $8,560,000 signing bonus, which the 8-K says was paid 50% in cash. The same proxy's pay ratio puts the median Goodyear employee at $51,465 for 2024. The proxy also reports $559,912 of personal security for him.",
+      "evidence_refs": [
+        "h072"
+      ]
+    },
+    {
+      "id": "hello-18",
+      "kind": "golden_hello",
+      "company": {
+        "name": "Harley-Davidson, Inc.",
+        "cik": "793952",
+        "ticker": "HOG"
+      },
+      "person": {
+        "name": "Artie Starrs",
+        "role": "President and Chief Executive Officer",
+        "sec_cik": "1732105"
+      },
+      "date": "2025-08-04",
+      "headline": "A one-time cash award of $2,000,000 and a one-time equity grant of $4,500,000 in restricted stock units",
+      "figures": [
+        {
+          "key": "sign_on_cash",
+          "label": "one-time cash award",
+          "printed": 2000000,
+          "scale": null,
+          "unit": "usd",
+          "evidence_refs": [
+            "h073"
+          ]
+        },
+        {
+          "key": "sign_on_equity",
+          "label": "One-Time RSU Award",
+          "printed": 4500000,
+          "scale": null,
+          "unit": "usd",
+          "evidence_refs": [
+            "h073"
+          ]
+        },
+        {
+          "key": "first_year_pay",
+          "label": "2025 Summary Compensation Table total (started Oct. 1, 2025)",
+          "printed": 8591990,
+          "scale": null,
+          "unit": "usd",
+          "fiscal_year": 2025,
+          "evidence_refs": [
+            "h074"
+          ]
+        }
+      ],
+      "notes": "Hiring awards: Item 5.02 of the 8-K filed 2025-08-04 (also a pro-rated 2025 RSU award of $1,625,000, a $1,200,000 salary, a relocation package and $6,500,000 annual long-term incentive grants from 2026). Starrs was CEO of Topgolf. First-year pay: 2025 SCT in the 2026 proxy, covering three months as CEO."
+    },
+    {
+      "id": "hello-19",
+      "kind": "golden_hello",
+      "company": {
+        "name": "Bath & Body Works, Inc.",
+        "cik": "701985",
+        "ticker": "BBWI"
+      },
+      "person": {
+        "name": "Daniel Heaf",
+        "role": "Chief Executive Officer",
+        "sec_cik": "2070125"
+      },
+      "date": "2025-05-19",
+      "headline": "One-time awards of $2,500,000 in restricted stock units and $2,500,000 in performance share units, plus a travel allowance until he relocates",
+      "figures": [
+        {
+          "key": "sign_on_equity",
+          "label": "Sign-On RSUs",
+          "printed": 2500000,
+          "scale": null,
+          "unit": "usd",
+          "evidence_refs": [
+            "h075"
+          ]
+        },
+        {
+          "key": "sign_on_equity",
+          "label": "one-time performance share units",
+          "printed": 2500000,
+          "scale": null,
+          "unit": "usd",
+          "evidence_refs": [
+            "h076"
+          ]
+        },
+        {
+          "key": "other_perks",
+          "label": "commuting expense stipend, fiscal 2025",
+          "printed": 135385,
+          "scale": null,
+          "unit": "usd",
+          "evidence_refs": [
+            "h099"
+          ]
+        },
+        {
+          "key": "other_perks",
+          "label": "relocation, fiscal 2025",
+          "printed": 112471,
+          "scale": null,
+          "unit": "usd",
+          "evidence_refs": [
+            "h099"
+          ]
+        },
+        {
+          "key": "first_year_pay",
+          "label": "fiscal 2025 Summary Compensation Table total (started May 16, 2025)",
+          "printed": 6587902,
+          "scale": null,
+          "unit": "usd",
+          "fiscal_year": 2025,
+          "evidence_refs": [
+            "h078"
+          ]
+        }
+      ],
+      "notes": "Hiring awards and the travel allowance of up to $200,000 a year until he relocates: Item 5.02 of the 8-K filed 2025-05-19 (also a $1,350,000 salary, 190% bonus target and an $8,000,000 annual equity opportunity from fiscal 2026). Heaf came from Nike. Amounts actually paid for commuting and relocation: the FY2025 All Other Compensation table in the 2026 proxy, which also says he did not use the contracted private jet for personal travel. First-year pay: FY2025 SCT in the same proxy, whose pay-ratio section puts the median associate's annual total compensation at $9,602.99.",
+      "evidence_refs": [
+        "h077",
+        "h079"
+      ]
+    },
+    {
+      "id": "hello-20",
+      "kind": "golden_hello",
+      "company": {
+        "name": "Dollar General Corporation",
+        "cik": "29534",
+        "ticker": "DG"
+      },
+      "person": {
+        "name": "Todd J. Vasos",
+        "role": "Chief Executive Officer",
+        "sec_cik": "1243183"
+      },
+      "date": "2023-10-12",
+      "headline": "A one-time option on 250,000 shares and reimbursement of personal air travel to and from his residences",
+      "figures": [
+        {
+          "key": "sign_on_equity",
+          "label": "one-time option on 250,000 shares (grant date fair value)",
+          "printed": 7952550,
+          "scale": null,
+          "unit": "usd",
+          "evidence_refs": [
+            "h080",
+            "h100"
+          ]
+        },
+        {
+          "key": "other_perks",
+          "label": "personal airplane use and related ground transportation, fiscal 2023",
+          "printed": 104090,
+          "scale": null,
+          "unit": "usd",
+          "evidence_refs": [
+            "h101"
+          ]
+        },
+        {
+          "key": "first_year_pay",
+          "label": "fiscal 2023 Summary Compensation Table total (returned as CEO Oct. 12, 2023)",
+          "printed": 8980117,
+          "scale": null,
+          "unit": "usd",
+          "fiscal_year": 2023,
+          "evidence_refs": [
+            "h083"
+          ]
+        }
+      ],
+      "notes": "Vasos returned as CEO six months after retiring (he was CEO 2015-2022). Option and air travel terms: Item 5.02 of the 8-K filed 2023-10-12 (also a $1,400,000 salary and 150% bonus target; the option vests Oct. 12, 2027; air travel reimbursed up to $500,000 a year). Option value: FY2023 Grants of Plan-Based Awards table; air travel actually paid: All Other Compensation footnote; first-year pay: FY2023 SCT; all in the 2024 proxy, which also says he received no annual equity awards in 2023 because of his retirement.",
+      "evidence_refs": [
+        "h081",
+        "h082"
+      ]
+    },
+    {
+      "id": "hello-21",
+      "kind": "golden_hello",
+      "company": {
+        "name": "Bumble Inc.",
+        "cik": "1830043",
+        "ticker": "BMBL"
+      },
+      "person": {
+        "name": "Lidiane Jones",
+        "role": "Chief Executive Officer",
+        "sec_cik": "2004616"
+      },
+      "date": "2023-11-06",
+      "headline": "An initial cash signing bonus of $1,000,000 and an initial equity grant of $11,000,000 in options and $11,000,000 in restricted stock units",
+      "figures": [
+        {
+          "key": "sign_on_cash",
+          "label": "initial cash signing bonus",
+          "printed": 1000000,
+          "scale": null,
+          "unit": "usd",
+          "evidence_refs": [
+            "h084"
+          ]
+        },
+        {
+          "key": "sign_on_equity",
+          "label": "sign-on stock options, also meant to cover her first-year equity",
+          "printed": 11000000,
+          "scale": null,
+          "unit": "usd",
+          "evidence_refs": [
+            "h084",
+            "h102"
+          ]
+        },
+        {
+          "key": "sign_on_equity",
+          "label": "sign-on RSUs, also meant to cover her first-year equity",
+          "printed": 11000000,
+          "scale": null,
+          "unit": "usd",
+          "evidence_refs": [
+            "h084",
+            "h102"
+          ]
+        },
+        {
+          "key": "first_year_pay",
+          "label": "2024 Summary Compensation Table total (started Jan. 2, 2024)",
+          "printed": 23503322,
+          "scale": null,
+          "unit": "usd",
+          "fiscal_year": 2024,
+          "evidence_refs": [
+            "h085"
+          ]
+        }
+      ],
+      "notes": "Hiring awards: Item 5.02 of the 8-K filed 2023-11-06 (also a $650,000 salary and a $6,000,000 2025 annual equity award). The 2025 proxy says the $22,000,000 sign-on grant was meant both to cover her first-year equity and to offset equity forfeited at her former employer, without splitting the two. First-year pay: 2024 SCT in the 2025 proxy, which lists her as Former Chief Executive Officer."
+    },
+    {
+      "id": "hello-22",
+      "kind": "golden_hello",
+      "company": {
+        "name": "Under Armour, Inc.",
+        "cik": "1336917",
+        "ticker": "UAA"
+      },
+      "person": {
+        "name": "Stephanie C. Linnartz",
+        "role": "President and Chief Executive Officer",
+        "sec_cik": "1600555"
+      },
+      "date": "2022-12-21",
+      "headline": "A sign-on RSU grant with a grant date fair value of $11.0 million and a sign-on cash bonus of $375,000",
+      "figures": [
+        {
+          "key": "sign_on_cash",
+          "label": "sign-on cash bonus",
+          "printed": 375000,
+          "scale": null,
+          "unit": "usd",
+          "evidence_refs": [
+            "h086"
+          ]
+        },
+        {
+          "key": "possible_extra",
+          "label": "up to $6.0 million more sign-on cash, depending on whether she received prior awards (not counted)",
+          "printed": 6,
+          "scale": "million",
+          "unit": "usd",
+          "evidence_refs": [
+            "h088"
+          ]
+        },
+        {
+          "key": "sign_on_equity",
+          "label": "sign-on RSU grant",
+          "printed": 11,
+          "scale": "million",
+          "unit": "usd",
+          "evidence_refs": [
+            "h087"
+          ]
+        },
+        {
+          "key": "first_year_pay",
+          "label": "fiscal 2023 Summary Compensation Table total (started Feb. 27, 2023; fiscal year ended March 31, 2023)",
+          "printed": 11300000,
+          "scale": null,
+          "unit": "usd",
+          "fiscal_year": 2023,
+          "evidence_refs": [
+            "h089"
+          ]
+        }
+      ],
+      "notes": "Announced December 2022; she started Feb. 27, 2023. Sign-on terms: Item 5.02 of the 8-K filed 2022-12-21 (also a $1.3 million salary and an $8.0 million fiscal 2024 annual equity award). First-year pay: FY2023 SCT in the 2023 proxy, covering about one month. The 8-K filed 2024-03-13 says she would step down effective March 31, 2024; the 2024 proxy says the unvested tranches of the sign-on RSU award were then accelerated (about $7.3 million of grant date value). No filing checked says whether the possible extra $6.0 million was paid.",
+      "evidence_refs": [
+        "h090",
+        "h103"
+      ]
+    },
+    {
+      "id": "hello-23",
+      "kind": "golden_hello",
+      "company": {
+        "name": "Papa John's International, Inc.",
+        "cik": "901491",
+        "ticker": "PZZA"
+      },
+      "person": {
+        "name": "Todd A. Penegor",
+        "role": "President and Chief Executive Officer",
+        "sec_cik": "1578490"
+      },
+      "date": "2024-08-05",
+      "headline": "Sign-on compensation of $1.25 million in restricted stock and an additional $150,000 payment for relocation",
+      "figures": [
+        {
+          "key": "sign_on_equity",
+          "label": "sign-on restricted stock",
+          "printed": 1.25,
+          "scale": "million",
+          "unit": "usd",
+          "evidence_refs": [
+            "h091"
+          ]
+        },
+        {
+          "key": "other_perks",
+          "label": "additional relocation and moving payment",
+          "printed": 150000,
+          "scale": null,
+          "unit": "usd",
+          "evidence_refs": [
+            "h092"
+          ]
+        },
+        {
+          "key": "first_year_pay",
+          "label": "2024 Summary Compensation Table total (started July 31, 2024)",
+          "printed": 4816730,
+          "scale": null,
+          "unit": "usd",
+          "fiscal_year": 2024,
+          "evidence_refs": [
+            "h094"
+          ]
+        }
+      ],
+      "notes": "Sign-on and relocation terms: Item 5.02 of the 8-K filed 2024-08-05 (also a $1,000,000 salary, 150% bonus target, initial annual equity of $5 million a year pro-rated to $2.5 million for 2024, and a $250,000 cash transition bonus). Penegor ran Wendy's until February 2024, when Wendy's board terminated him without cause and hired Kirk Tanner (hello-09). First-year pay: the pay-ratio section of the 2025 proxy quoting his 2024 SCT total.",
+      "evidence_refs": [
+        "h093",
+        "h041"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "h001",
+      "form": "8-K",
+      "accession": "0001193125-24-200724",
+      "filing_date": "2024-08-14",
+      "url": "https://www.sec.gov/Archives/edgar/data/829224/000119312524200724/d848513d8k.htm",
+      "quote": "Pursuant to the Offer Letter, Mr. Niccol will receive a cash signing bonus of $10,000,000, in consideration for cash incentive opportunities that are being forfeited from his current employer, as well as equity that would have vested within approximately the next six months",
+      "supports": "Starbucks: Niccol's $10,000,000 cash signing bonus"
+    },
+    {
+      "id": "h002",
+      "form": "8-K",
+      "accession": "0001193125-24-200724",
+      "filing_date": "2024-08-14",
+      "url": "https://www.sec.gov/Archives/edgar/data/829224/000119312524200724/d848513d8k.htm",
+      "quote": "Mr. Niccol will also receive a replacement equity grant with a targeted grant date fair value of $75,000,000, subject to certain adjustments based on the per share closing price of the Company’s common stock on the grant date, in respect of certain equity awards of his current employer that will be forfeited upon his joining the Company.",
+      "supports": "Starbucks: Niccol's $75,000,000 replacement (make-whole) equity grant"
+    },
+    {
+      "id": "h003",
+      "form": "8-K",
+      "accession": "0001193125-24-200724",
+      "filing_date": "2024-08-14",
+      "url": "https://www.sec.gov/Archives/edgar/data/829224/000119312524200724/d848513dex101.htm",
+      "quote": "During your employment with the Company, you will not be required to relocate to the Company’s headquarters (currently in Seattle, Washington). You agree to commute from your residence to the Company’s headquarters (and engage in other business travel) as is required to perform your duties and responsibilities.",
+      "supports": "Starbucks offer letter (Exhibit 10.1): no requirement to relocate to Seattle; commute instead"
+    },
+    {
+      "id": "h004",
+      "form": "8-K",
+      "accession": "0001193125-24-200724",
+      "filing_date": "2024-08-14",
+      "url": "https://www.sec.gov/Archives/edgar/data/829224/000119312524200724/d848513dex101.htm",
+      "quote": "Promptly following the Start Date, the Company will establish, with your assistance, a small remote office in Newport Beach, California.",
+      "supports": "Starbucks offer letter (Exhibit 10.1): remote office in Newport Beach"
+    },
+    {
+      "id": "h005",
+      "form": "8-K",
+      "accession": "0001193125-24-200724",
+      "filing_date": "2024-08-14",
+      "url": "https://www.sec.gov/Archives/edgar/data/829224/000119312524200724/d848513dex101.htm",
+      "quote": "You will be eligible to use the Company aircraft for (i) business-related travel in accordance with the Company’s travel policy, (ii) travel between your city of residence and the Company’s headquarters in Seattle, Washington and (iii) your personal travel in accordance with the Company’s policies, up to a maximum amount of $250,000 per year",
+      "supports": "Starbucks offer letter (Exhibit 10.1): company aircraft for commuting, plus personal travel up to $250,000 a year"
+    },
+    {
+      "id": "h006",
+      "form": "DEF 14A",
+      "accession": "0001213900-25-006516",
+      "filing_date": "2025-01-24",
+      "url": "https://www.sec.gov/Archives/edgar/data/829224/000121390025006516/ea0224926-02.htm",
+      "quote": "Brian Niccol chairman and chief executive officer 2024 $61,538 $5,000,000 $90,291,772 $30,295 $418,071 $95,801,676",
+      "supports": "Starbucks FY2024 Summary Compensation Table row for Niccol: total $95,801,676"
+    },
+    {
+      "id": "h095",
+      "form": "DEF 14A",
+      "accession": "0001213900-25-006516",
+      "filing_date": "2025-01-24",
+      "url": "https://www.sec.gov/Archives/edgar/data/829224/000121390025006516/ea0224926-02.htm",
+      "quote": "Mr. Niccol’s expenses include temporary housing expenses in the amount of $143,567 (which includes $77,445 of tax-related payments); $6,303 in COBRA reimbursements; $48,671 in reimbursements in legal fees incurred in negotiating the terms of his employment (which includes $20,691 of tax-related payments)",
+      "supports": "Starbucks: Niccol's FY2024 temporary housing and hire-negotiation legal fees"
+    },
+    {
+      "id": "h096",
+      "form": "DEF 14A",
+      "accession": "0001213900-25-006516",
+      "filing_date": "2025-01-24",
+      "url": "https://www.sec.gov/Archives/edgar/data/829224/000121390025006516/ea0224926-02.htm",
+      "quote": "include $72,398 of expenses related to his use of Starbucks aircraft for travel between his city of primary residence and Starbucks headquarters and $19,367 related to his other personal use of Company aircraft",
+      "supports": "Starbucks: Niccol's FY2024 commuting flights and other personal aircraft use"
+    },
+    {
+      "id": "h007",
+      "form": "8-K",
+      "accession": "0000012927-24-000058",
+      "filing_date": "2024-07-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/12927/000001292724000058/ba-20240730.htm",
+      "quote": "A cash award of $1,250,000, payable in December 2024 subject to Mr. Ortberg’s continued employment through the payment date",
+      "supports": "Boeing: Ortberg's $1,250,000 cash award at hire"
+    },
+    {
+      "id": "h008",
+      "form": "8-K",
+      "accession": "0000012927-24-000058",
+      "filing_date": "2024-07-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/12927/000001292724000058/ba-20240730.htm",
+      "quote": "An award of restricted stock units valued at approximately $8,000,000, which will vest in three annual installments on each of the first, second and third anniversaries of the grant date",
+      "supports": "Boeing: Ortberg's RSU award at hire, about $8,000,000"
+    },
+    {
+      "id": "h009",
+      "form": "8-K",
+      "accession": "0000012927-24-000058",
+      "filing_date": "2024-07-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/12927/000001292724000058/ba-20240730.htm",
+      "quote": "An award of a performance option valued at approximately $8,000,000, which will vest in three installments of 25%, 25%, and 50% on each of the second, third and fourth anniversaries of the grant date",
+      "supports": "Boeing: Ortberg's performance option at hire, about $8,000,000"
+    },
+    {
+      "id": "h010",
+      "form": "DEF 14A",
+      "accession": "0001193125-25-049921",
+      "filing_date": "2025-03-07",
+      "url": "https://www.sec.gov/Archives/edgar/data/12927/000119312525049921/d816992ddef14a.htm",
+      "quote": "Robert K. Ortberg President and CEO 2024 525,000 1,250,000 (7) 7,999,900 7,999,946 0 0 613,783 18,388,629",
+      "supports": "Boeing 2024 Summary Compensation Table row for Ortberg: total $18,388,629"
+    },
+    {
+      "id": "h011",
+      "form": "DEF 14A",
+      "accession": "0001193125-25-049921",
+      "filing_date": "2025-03-07",
+      "url": "https://www.sec.gov/Archives/edgar/data/12927/000119312525049921/d816992ddef14a.htm",
+      "quote": "Mr. Ortberg’s 2025 total target compensation for 2025 of $22,000,000 approximates the market median for his role.",
+      "supports": "Boeing: Ortberg's 2025 total target compensation $22,000,000"
+    },
+    {
+      "id": "h012",
+      "form": "DEF 14A",
+      "accession": "0001193125-25-049921",
+      "filing_date": "2025-03-07",
+      "url": "https://www.sec.gov/Archives/edgar/data/12927/000119312525049921/d816992ddef14a.htm",
+      "quote": "for Mr. Ortberg, $313,321 for relocation assistance including aircraft usage, and $130,762 for aircraft usage",
+      "supports": "Boeing: Ortberg's 2024 relocation (incl. aircraft) and aircraft perquisites"
+    },
+    {
+      "id": "h013",
+      "form": "8-K",
+      "accession": "0000050863-25-000036",
+      "filing_date": "2025-03-14",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000036/intc-20250310.htm",
+      "quote": "Performance-based stock options based on relative total shareholder return metrics (“New Hire Options”), with a target number of Intel shares subject to the grant having a grant date value of $25,000,000",
+      "supports": "Intel: Tan's New Hire Options, $25,000,000"
+    },
+    {
+      "id": "h014",
+      "form": "8-K",
+      "accession": "0000050863-25-000036",
+      "filing_date": "2025-03-14",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000036/intc-20250310.htm",
+      "quote": "Performance stock units (“New Hire PSUs”) based on the appreciation in Intel’s closing stock price over the three-year period following the grant date, with a target number of Intel shares subject to the grant having a target valuation of $17,000,000",
+      "supports": "Intel: Tan's New Hire PSUs, $17,000,000"
+    },
+    {
+      "id": "h015",
+      "form": "8-K",
+      "accession": "0000050863-25-000036",
+      "filing_date": "2025-03-14",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000036/intc-20250310.htm",
+      "quote": "Mr. Tan also agrees to purchase Intel shares from Intel within 30 days following his employment start date having a target valuation of $25,000,000.",
+      "supports": "Intel: Tan agreed to buy $25,000,000 of Intel stock"
+    },
+    {
+      "id": "h016",
+      "form": "DEF 14A",
+      "accession": "0000050863-26-000061",
+      "filing_date": "2026-03-23",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000061/proxy2026.htm",
+      "quote": "Lip-Bu Tan 2025 746,200 — 49,639,500 39,523,200 2,374,000 708,000 92,990,900",
+      "supports": "Intel 2025 Summary Compensation Table row for Tan: total $92,990,900"
+    },
+    {
+      "id": "h017",
+      "form": "8-K",
+      "accession": "0000320187-24-000053",
+      "filing_date": "2024-09-19",
+      "url": "https://www.sec.gov/Archives/edgar/data/320187/000032018724000053/nke-20240919.htm",
+      "quote": "In addition, in order to make him whole for certain forfeited compensation from his prior roles, Mr. Hill will receive certain one-time equity and cash awards as soon as reasonably practicable following the Effective Date, as follows:",
+      "supports": "Nike: Hill's one-time awards are to make him whole for forfeited compensation"
+    },
+    {
+      "id": "h018",
+      "form": "8-K",
+      "accession": "0000320187-24-000053",
+      "filing_date": "2024-09-19",
+      "url": "https://www.sec.gov/Archives/edgar/data/320187/000032018724000053/nke-20240919.htm",
+      "quote": "A one-time RSU award with a target grant value of $3,000,000 (the “New Hire RSU Award”).",
+      "supports": "Nike: Hill's $3,000,000 New Hire RSU Award"
+    },
+    {
+      "id": "h019",
+      "form": "8-K",
+      "accession": "0000320187-24-000053",
+      "filing_date": "2024-09-19",
+      "url": "https://www.sec.gov/Archives/edgar/data/320187/000032018724000053/nke-20240919.htm",
+      "quote": "A one-time cash payment equal to $4,000,000 (the “New Hire Cash Award”) payable in connection with his commencement of employment.",
+      "supports": "Nike: Hill's $4,000,000 New Hire Cash Award"
+    },
+    {
+      "id": "h020",
+      "form": "DEF 14A",
+      "accession": "0000320187-25-000048",
+      "filing_date": "2025-07-17",
+      "url": "https://www.sec.gov/Archives/edgar/data/320187/000032018725000048/nke-20250717.htm",
+      "quote": "Elliott Hill President and Chief Executive Officer 2025 951,923 4,000,000 14,887,893 5,832,678 — 345,574 26,018,068",
+      "supports": "Nike FY2025 Summary Compensation Table row for Hill: total $26,018,068"
+    },
+    {
+      "id": "h021",
+      "form": "DEF 14A",
+      "accession": "0000320187-25-000048",
+      "filing_date": "2025-07-17",
+      "url": "https://www.sec.gov/Archives/edgar/data/320187/000032018725000048/nke-20250717.htm",
+      "quote": "The amount for Mr. Hill includes $243,649 in aggregate incremental cost to the Company for personal use of the Company's aircraft, $75,614 in relocation-related benefits, including $31,993 in tax gross-ups in accordance with our standard relocation policy",
+      "supports": "Nike: Hill's FY2025 aircraft and relocation perquisites"
+    },
+    {
+      "id": "h022",
+      "form": "8-K",
+      "accession": "0000731766-25-000134",
+      "filing_date": "2025-05-14",
+      "url": "https://www.sec.gov/Archives/edgar/data/731766/000073176625000134/unh-20250512.htm",
+      "quote": "On May 12, 2025, the Board of Directors of the Company (the “Board”) appointed Steve Hemsley as the Chief Executive Officer of the Company, beginning on the Effective Date.",
+      "supports": "UnitedHealth: Hemsley appointed CEO May 12, 2025"
+    },
+    {
+      "id": "h023",
+      "form": "8-K",
+      "accession": "0000731766-25-000134",
+      "filing_date": "2025-05-14",
+      "url": "https://www.sec.gov/Archives/edgar/data/731766/000073176625000134/unh-20250512.htm",
+      "quote": "One time $60,000,000 equity award in nonqualified stock options with cliff vesting after three years; no additional annual equity awards during the first three years of Mr. Hemsley’s employment",
+      "supports": "UnitedHealth: Hemsley's one-time $60,000,000 option award"
+    },
+    {
+      "id": "h024",
+      "form": "DEF 14A",
+      "accession": "0001104659-26-046125",
+      "filing_date": "2026-04-21",
+      "url": "https://www.sec.gov/Archives/edgar/data/731766/000110465926046125/tm261387-6_def14a.htm",
+      "quote": "Stephen Hemsley Chief Executive Officer 2025 596,154 — — 60,000,024 — 341,884 60,938,062",
+      "supports": "UnitedHealth 2025 Summary Compensation Table row for Hemsley: total $60,938,062"
+    },
+    {
+      "id": "h030",
+      "form": "8-K",
+      "accession": "0001193125-24-265228",
+      "filing_date": "2024-11-25",
+      "url": "https://www.sec.gov/Archives/edgar/data/885639/000119312524265228/d867536d8k.htm",
+      "quote": "A gross cash signing incentive of $3,750,000;",
+      "supports": "Kohl's: Buchanan's $3,750,000 cash signing incentive"
+    },
+    {
+      "id": "h031",
+      "form": "8-K",
+      "accession": "0001193125-24-265228",
+      "filing_date": "2024-11-25",
+      "url": "https://www.sec.gov/Archives/edgar/data/885639/000119312524265228/d867536d8k.htm",
+      "quote": "A one-time recruitment award of restricted stock units valued at $2,000,000 on the grant date, vesting on the first anniversary of the grant date",
+      "supports": "Kohl's: Buchanan's $2,000,000 recruitment RSU award"
+    },
+    {
+      "id": "h032",
+      "form": "8-K",
+      "accession": "0001193125-24-265228",
+      "filing_date": "2024-11-25",
+      "url": "https://www.sec.gov/Archives/edgar/data/885639/000119312524265228/d867536d8k.htm",
+      "quote": "A one-time recruitment award of restricted stock units valued at $15,000,000, vesting over a three-year period following the grant date",
+      "supports": "Kohl's: Buchanan's $15,000,000 recruitment RSU award"
+    },
+    {
+      "id": "h033",
+      "form": "8-K",
+      "accession": "0001193125-24-265228",
+      "filing_date": "2024-11-25",
+      "url": "https://www.sec.gov/Archives/edgar/data/885639/000119312524265228/d867536d8k.htm",
+      "quote": "as well as up to 30 hours per year of personal use of company aircraft subject to a cap of $180,000 per year",
+      "supports": "Kohl's: personal aircraft use capped at $180,000 a year"
+    },
+    {
+      "id": "h034",
+      "form": "DEF 14A",
+      "accession": "0001558370-25-004025",
+      "filing_date": "2025-03-28",
+      "url": "https://www.sec.gov/Archives/edgar/data/885639/000155837025004025/kss-20250514xdef14a.htm",
+      "quote": "Ashley Buchanan (6) 2024 67,045 3,750,000 17,000,000 — — 90,691 20,907,736",
+      "supports": "Kohl's FY2024 Summary Compensation Table row for Buchanan: total $20,907,736"
+    },
+    {
+      "id": "h035",
+      "form": "8-K",
+      "accession": "0001193125-25-109074",
+      "filing_date": "2025-05-01",
+      "url": "https://www.sec.gov/Archives/edgar/data/885639/000119312525109074/d925446d8k.htm",
+      "quote": "On April 30, 2025, the Board of Directors (the “Board”) of the Company terminated J. Ashley Buchanan as the Company’s Chief Executive Officer for Cause",
+      "supports": "Kohl's: Buchanan terminated for Cause on April 30, 2025"
+    },
+    {
+      "id": "h036",
+      "form": "8-K",
+      "accession": "0001193125-25-109074",
+      "filing_date": "2025-05-01",
+      "url": "https://www.sec.gov/Archives/edgar/data/885639/000119312525109074/d925446d8k.htm",
+      "quote": "Mr. Buchanan will forfeit all equity awards he received from the Company, including the recruitment awards made as of January 15, 2025. In accordance with the terms of the Signing Incentive Reimbursement Agreement between Mr. Buchanan and Kohl’s, Inc., Mr. Buchanan will also be required to reimburse Kohl’s, Inc. for a pro rata portion of his signing incentive in the amount of $2,500,000.",
+      "supports": "Kohl's: Buchanan forfeits the recruitment awards and must repay $2,500,000 of the signing incentive"
+    },
+    {
+      "id": "h097",
+      "form": "DEF 14A",
+      "accession": "0001558370-25-004025",
+      "filing_date": "2025-03-28",
+      "url": "https://www.sec.gov/Archives/edgar/data/885639/000155837025004025/kss-20250514xdef14a.htm",
+      "quote": "Accounts Insurance Expenses Expenses Allowance Reimbursement Coverage (a) Aircraft (b) Benefits Expenses (c) Other (d) Total Name ($) ($) ($) ($) ($) ($) ($) ($) ($) ($) ($) ($) Ashley Buchanan — 675 — 1,800 429 50,000 15,742 — 10,232 11,813 90,691",
+      "supports": "Kohl's FY2024 All Other Compensation table: Buchanan's 'Company Owned or Chartered Aircraft' column is $15,742 (the personal tax advisory cell is blank)"
+    },
+    {
+      "id": "h037",
+      "form": "8-K",
+      "accession": "0000047111-25-000095",
+      "filing_date": "2025-07-08",
+      "url": "https://www.sec.gov/Archives/edgar/data/47111/000004711125000095/hsy-20250706.htm",
+      "quote": "Mr. Tanner will be granted (i) a restricted stock unit award having an aggregate value of $7,000,000 (the “RSU Award”), (ii) a performance stock unit award having an aggregate value of $4,000,000 (the “PSU Award” and, together with the RSU Award, the “Sign-On Awards”)",
+      "supports": "Hershey: Tanner's Sign-On Awards, $7,000,000 RSUs and $4,000,000 PSUs"
+    },
+    {
+      "id": "h038",
+      "form": "8-K",
+      "accession": "0000047111-25-000095",
+      "filing_date": "2025-07-08",
+      "url": "https://www.sec.gov/Archives/edgar/data/47111/000004711125000095/hsy-20250706.htm",
+      "quote": "Mr. Tanner, age 57, currently serves as the President and Chief Executive Officer and a director of The Wendy’s Company (“Wendy’s”). He began serving in this role in February 2024.",
+      "supports": "Hershey 8-K: Tanner had been Wendy's CEO since February 2024"
+    },
+    {
+      "id": "h039",
+      "form": "DEF 14A",
+      "accession": "0001628280-26-021065",
+      "filing_date": "2026-03-25",
+      "url": "https://www.sec.gov/Archives/edgar/data/47111/000162828026021065/hsy-20260325.htm",
+      "quote": "Mr. Tanner 2025 456,731 — 14,674,113 — 1,358,052 — 317,503 16,806,399",
+      "supports": "Hershey 2025 Summary Compensation Table row for Tanner: total $16,806,399"
+    },
+    {
+      "id": "h040",
+      "form": "8-K",
+      "accession": "0001193125-24-010240",
+      "filing_date": "2024-01-18",
+      "url": "https://www.sec.gov/Archives/edgar/data/30697/000119312524010240/d701059d8k.htm",
+      "quote": "In addition, the Employment Letter provides for a one-time equity award with a grant date fair value (at target) of $9 million",
+      "supports": "Wendy's: Tanner's one-time $9 million equity award"
+    },
+    {
+      "id": "h041",
+      "form": "8-K",
+      "accession": "0001193125-24-010240",
+      "filing_date": "2024-01-18",
+      "url": "https://www.sec.gov/Archives/edgar/data/30697/000119312524010240/d701059d8k.htm",
+      "quote": "In addition, the Board has terminated Mr. Penegor’s employment with the Company, without cause, as of a date to be agreed that is on or after the Effective Date and no later than February 29, 2024.",
+      "supports": "Wendy's: predecessor Todd Penegor terminated without cause"
+    },
+    {
+      "id": "h042",
+      "form": "DEF 14A",
+      "accession": "0001193125-25-072382",
+      "filing_date": "2025-04-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/30697/000119312525072382/d879104ddef14a.htm",
+      "quote": "Kirk Tanner (6) (President and CEO) 2024 901,370 — 13,499,964 1,499,997 1,237,250 169,536 17,308,117",
+      "supports": "Wendy's 2024 Summary Compensation Table row for Tanner: total $17,308,117"
+    },
+    {
+      "id": "h043",
+      "form": "8-K",
+      "accession": "0001856437-24-000022",
+      "filing_date": "2024-08-14",
+      "url": "https://www.sec.gov/Archives/edgar/data/1856437/000185643724000022/vsco-20240812.htm",
+      "quote": "(iii) a one-time cash bonus of $1,000,000, subject to repayment in full if Ms. Super is terminated by the Company for Cause (as defined therein) or voluntarily leaves the Company within one year following her start date",
+      "supports": "Victoria's Secret: Super's $1,000,000 one-time cash bonus"
+    },
+    {
+      "id": "h044",
+      "form": "8-K",
+      "accession": "0001856437-24-000022",
+      "filing_date": "2024-08-14",
+      "url": "https://www.sec.gov/Archives/edgar/data/1856437/000185643724000022/vsco-20240812.htm",
+      "quote": "Ms. Super will be awarded (i) a one-time equity award having an aggregate grant date value of $5,750,000, in the form of restricted stock units",
+      "supports": "Victoria's Secret: Super's $5,750,000 one-time RSU award"
+    },
+    {
+      "id": "h045",
+      "form": "DEF 14A",
+      "accession": "0001193125-25-100634",
+      "filing_date": "2025-04-28",
+      "url": "https://www.sec.gov/Archives/edgar/data/1856437/000119312525100634/d849679ddef14a.htm",
+      "quote": "This award was designed to buy out an estimated $2,750,000 in unvested equity at her then-current employer and the balance of $3,000,000 is a 40% pro-rata portion of her target annual award of $7,700,000.",
+      "supports": "Victoria's Secret proxy: $2,750,000 of the RSU award bought out unvested equity"
+    },
+    {
+      "id": "h046",
+      "form": "DEF 14A",
+      "accession": "0001193125-25-100634",
+      "filing_date": "2025-04-28",
+      "url": "https://www.sec.gov/Archives/edgar/data/1856437/000119312525100634/d849679ddef14a.htm",
+      "quote": "Other amount reflects one-time expenses incurred in connection with Ms. Super’s personal security ($11,181) and relocation ($757,993) pursuant to the Company’s relocation policy.",
+      "supports": "Victoria's Secret: Super's FY2024 relocation cost $757,993"
+    },
+    {
+      "id": "h047",
+      "form": "DEF 14A",
+      "accession": "0001193125-25-100634",
+      "filing_date": "2025-04-28",
+      "url": "https://www.sec.gov/Archives/edgar/data/1856437/000119312525100634/d849679ddef14a.htm",
+      "quote": "Hillary Super 2024 481,319 – 5,750,004 – 1,532,621 769,426 8,533,370",
+      "supports": "Victoria's Secret FY2024 Summary Compensation Table row for Super: total $8,533,370"
+    },
+    {
+      "id": "h048",
+      "form": "8-K",
+      "accession": "0001856437-24-000022",
+      "filing_date": "2024-08-14",
+      "url": "https://www.sec.gov/Archives/edgar/data/1856437/000185643724000022/vsco-20240812.htm",
+      "quote": "On August 12, 2024, the Board of Directors of the Company (the “Board”) terminated Martin Waters as Chief Executive Officer (“CEO”) of the Company, effective as of August 13, 2024.",
+      "supports": "Victoria's Secret: predecessor terminated the same day Super was appointed"
+    },
+    {
+      "id": "h049",
+      "form": "8-K",
+      "accession": "0001104659-24-035260",
+      "filing_date": "2024-03-18",
+      "url": "https://www.sec.gov/Archives/edgar/data/1657853/000110465924035260/tm249059d1_8k.htm",
+      "quote": "The Sign-On Grants represent Mr. West’s annual equity awards under the Incentive Plan for the 2024 and 2025 fiscal years and have a total grant date value of $33 million",
+      "supports": "Hertz: West's Sign-On Grants, $33 million"
+    },
+    {
+      "id": "h050",
+      "form": "DEF 14A",
+      "accession": "0001104659-25-033050",
+      "filing_date": "2025-04-08",
+      "url": "https://www.sec.gov/Archives/edgar/data/1657853/000110465925033050/tm252516-5_def14a.htm",
+      "quote": "Wayne (“Gil”) West Chief Executive Officer 2024 1,125,001 1,181,250 32,322,862 506,250 45,519 35,180,881",
+      "supports": "Hertz 2024 Summary Compensation Table row for West: total $35,180,881"
+    },
+    {
+      "id": "h051",
+      "form": "8-K",
+      "accession": "0001639825-24-000164",
+      "filing_date": "2024-10-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1639825/000163982524000164/pton-20241025.htm",
+      "quote": "(iii) a discretionary signing bonus of $1,000,000, and (iv) equity awards valued at $20,000,000 in the aggregate on the date of grant",
+      "supports": "Peloton: Stern's $1,000,000 signing bonus and $20,000,000 of equity awards"
+    },
+    {
+      "id": "h052",
+      "form": "DEF 14A",
+      "accession": "0001193125-25-249989",
+      "filing_date": "2025-10-24",
+      "url": "https://www.sec.gov/Archives/edgar/data/1639825/000119312525249989/d29886ddef14a.htm",
+      "quote": "As set forth in the Summary Compensation Table, the total annual compensation for Mr. Stern, our Chief Executive Officer and President, was $18,236,835 for Fiscal 2025.",
+      "supports": "Peloton: Stern's FY2025 Summary Compensation Table total $18,236,835"
+    },
+    {
+      "id": "h098",
+      "form": "DEF 14A",
+      "accession": "0001193125-25-249989",
+      "filing_date": "2025-10-24",
+      "url": "https://www.sec.gov/Archives/edgar/data/1639825/000119312525249989/d29886ddef14a.htm",
+      "quote": "(ii) $7,819 for relocation benefits as part of Mr. Stern’s new hire arrangements",
+      "supports": "Peloton: Stern's FY2025 relocation benefits $7,819"
+    },
+    {
+      "id": "h053",
+      "form": "8-K",
+      "accession": "0001193125-22-236650",
+      "filing_date": "2022-09-01",
+      "url": "https://www.sec.gov/Archives/edgar/data/829224/000119312522236650/d322468d8k.htm",
+      "quote": "In connection with his appointment as chief executive officer-elect, Mr. Narasimhan will receive a cash signing bonus of $1,600,000, in consideration for cash incentive opportunities that are being forfeited from his current employer. Mr. Narasimhan will also receive a replacement equity grant with a target value of $9,250,000 in respect of certain equity awards of his current employer that will be forfeited upon his joining the Company.",
+      "supports": "Starbucks: Narasimhan's $1,600,000 signing bonus and $9,250,000 replacement grant"
+    },
+    {
+      "id": "h054",
+      "form": "DEFC14A",
+      "accession": "0001193125-24-014772",
+      "filing_date": "2024-01-25",
+      "url": "https://www.sec.gov/Archives/edgar/data/829224/000119312524014772/d523441ddefc14a.htm",
+      "quote": "Laxman Narasimhan 2023 $ 1,275,000 — $ 9,717,954 $ 2,885,480 $ 726,097 $ 14,604,531 chief executive officer 2022 — $ 1,600,000 $ 7,186,870 — $ 6,955 $ 8,793,825",
+      "supports": "Starbucks Summary Compensation Table rows for Narasimhan: FY2022 $8,793,825, FY2023 $14,604,531"
+    },
+    {
+      "id": "h055",
+      "form": "8-K",
+      "accession": "0001193125-24-200724",
+      "filing_date": "2024-08-14",
+      "url": "https://www.sec.gov/Archives/edgar/data/829224/000119312524200724/d848513d8k.htm",
+      "quote": "On August 13, 2024, the Company announced that effective as of August 12, 2024, Laxman Narasimhan would no longer serve as the Company’s chief executive officer or as a member of the Board.",
+      "supports": "Starbucks: Narasimhan out as CEO August 12, 2024"
+    },
+    {
+      "id": "h056",
+      "form": "8-K",
+      "accession": "0000066740-24-000029",
+      "filing_date": "2024-03-12",
+      "url": "https://www.sec.gov/Archives/edgar/data/66740/000006674024000029/mmm-20240308.htm",
+      "quote": "He also will receive a hiring bonus of $3,000,000",
+      "supports": "3M: Brown's $3,000,000 hiring bonus"
+    },
+    {
+      "id": "h057",
+      "form": "8-K",
+      "accession": "0000066740-24-000029",
+      "filing_date": "2024-03-12",
+      "url": "https://www.sec.gov/Archives/edgar/data/66740/000006674024000029/mmm-20240308.htm",
+      "quote": "(i) a special one-time inducement restricted stock unit grant covering a number of shares of 3M common stock determined by dividing $2,500,000 by the closing sales price for a share of 3M common stock on the grant date",
+      "supports": "3M: Brown's $2,500,000 inducement RSU grant"
+    },
+    {
+      "id": "h058",
+      "form": "8-K",
+      "accession": "0000066740-24-000029",
+      "filing_date": "2024-03-12",
+      "url": "https://www.sec.gov/Archives/edgar/data/66740/000006674024000029/mmm-20240308.htm",
+      "quote": "(ii) a special one-time inducement 2024 performance share award with a target number of performance shares determined by dividing $2,500,000 by the closing sales price",
+      "supports": "3M: Brown's $2,500,000 inducement performance share award"
+    },
+    {
+      "id": "h059",
+      "form": "DEF 14A",
+      "accession": "0000066740-25-000029",
+      "filing_date": "2025-03-26",
+      "url": "https://www.sec.gov/Archives/edgar/data/66740/000006674025000029/mmm-20250325.htm",
+      "quote": "William M. Brown(7)(8) 2024 1,200,000 3,000,000 9,333,492 4,333,801 2,711,725 — 612,013 21,191,031",
+      "supports": "3M 2024 Summary Compensation Table row for Brown: total $21,191,031"
+    },
+    {
+      "id": "h060",
+      "form": "8-K",
+      "accession": "0001193125-23-169577",
+      "filing_date": "2023-06-20",
+      "url": "https://www.sec.gov/Archives/edgar/data/103379/000119312523169577/d487860d8k.htm",
+      "quote": "In respect of certain compensation that Mr. Darrell forfeited from his prior employer, he will be granted equity awards (the “make-whole equity awards”) with an aggregate grant date fair value of $3,000,000",
+      "supports": "VF: Darrell's $3,000,000 make-whole equity awards"
+    },
+    {
+      "id": "h061",
+      "form": "DEF 14A",
+      "accession": "0001193125-24-158686",
+      "filing_date": "2024-06-11",
+      "url": "https://www.sec.gov/Archives/edgar/data/103379/000119312524158686/d396550ddef14a.htm",
+      "quote": "Bracken Darrell,(8) President and Chief Executive Officer 2024 $ 919,945 $ -0- $ 6,456,280 $ 6,020,284 $ -0- $ -0- $ 138,890 $ 13,535,399",
+      "supports": "VF FY2024 Summary Compensation Table row for Darrell: total $13,535,399"
+    },
+    {
+      "id": "h062",
+      "form": "8-K",
+      "accession": "0000039911-23-000082",
+      "filing_date": "2023-07-26",
+      "url": "https://www.sec.gov/Archives/edgar/data/39911/000003991123000082/gps-20230718.htm",
+      "quote": "Mr. Dickson will also receive (a) an initial bonus of $350,000",
+      "supports": "Gap: Dickson's $350,000 initial bonus"
+    },
+    {
+      "id": "h063",
+      "form": "8-K",
+      "accession": "0000039911-23-000082",
+      "filing_date": "2023-07-26",
+      "url": "https://www.sec.gov/Archives/edgar/data/39911/000003991123000082/gps-20230718.htm",
+      "quote": "(a) on the Effective Date, an inducement grant of restricted stock units covering shares of common stock with a value of $4,000,000",
+      "supports": "Gap: Dickson's $4,000,000 inducement RSU grant"
+    },
+    {
+      "id": "h064",
+      "form": "8-K",
+      "accession": "0000039911-23-000082",
+      "filing_date": "2023-07-26",
+      "url": "https://www.sec.gov/Archives/edgar/data/39911/000003991123000082/gps-20230718.htm",
+      "quote": "(b) on the Effective Date, a make-whole grant of restricted stock units covering shares of common stock with a value of $4,250,000",
+      "supports": "Gap: Dickson's $4,250,000 make-whole RSU grant"
+    },
+    {
+      "id": "h065",
+      "form": "8-K",
+      "accession": "0000039911-23-000082",
+      "filing_date": "2023-07-26",
+      "url": "https://www.sec.gov/Archives/edgar/data/39911/000003991123000082/gps-20230718.htm",
+      "quote": "(c) on the Effective Date, a make-whole grant of performance-based restricted stock units covering a target number of shares of common stock with a value of $4,250,000 for the 2023-2025 performance cycle",
+      "supports": "Gap: Dickson's $4,250,000 make-whole PRSU grant"
+    },
+    {
+      "id": "h066",
+      "form": "8-K",
+      "accession": "0000039911-23-000082",
+      "filing_date": "2023-07-26",
+      "url": "https://www.sec.gov/Archives/edgar/data/39911/000003991123000082/gps-20230718.htm",
+      "quote": "The Company has also agreed to provide Mr. Dickson temporary housing and commuting expenses for up to one year to assist him with his relocation.",
+      "supports": "Gap: temporary housing and commuting expenses for up to one year"
+    },
+    {
+      "id": "h067",
+      "form": "DEF 14A",
+      "accession": "0000950170-24-037000",
+      "filing_date": "2024-03-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/39911/000095017024037000/gps-20240326.htm",
+      "quote": "Richard Dickson 2023 697,159 — 11,542,892 — 1,802,511 — 322,446 14,365,008",
+      "supports": "Gap FY2023 Summary Compensation Table row for Dickson: total $14,365,008"
+    },
+    {
+      "id": "h068",
+      "form": "DEF 14A",
+      "accession": "0000950170-24-037000",
+      "filing_date": "2024-03-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/39911/000095017024037000/gps-20240326.htm",
+      "quote": "For Mr. Dickson, this amount reflects $33,254 in commuting costs",
+      "supports": "Gap: Dickson's FY2023 commuting costs"
+    },
+    {
+      "id": "h069",
+      "form": "8-K",
+      "accession": "0001193125-24-009655",
+      "filing_date": "2024-01-18",
+      "url": "https://www.sec.gov/Archives/edgar/data/42582/000119312524009655/d733884d8k.htm",
+      "quote": "Mr. Stewart will also receive (1) a one-time signing bonus of $8,560,000, paid 50% in cash and 50% in fully-vested Company common stock and (2) a one-time long-term incentive award with a grant value of $11,415,000, delivered $9,805,000 in performance share units and $1,610,000 in restricted stock units, in replacement of forfeited awards at his prior employer.",
+      "supports": "Goodyear: Stewart's $8,560,000 signing bonus and $11,415,000 replacement award"
+    },
+    {
+      "id": "h070",
+      "form": "DEF 14A",
+      "accession": "0001193125-25-051087",
+      "filing_date": "2025-03-10",
+      "url": "https://www.sec.gov/Archives/edgar/data/42582/000119312525051087/d913110ddef14a.htm",
+      "quote": "Mark W. Stewart8 2024 $ 1,299,487 $ 4,280,000 $ 16,798,406 $ — $2,267,021 $ — $1,061,125 $ 25,706,039",
+      "supports": "Goodyear 2024 Summary Compensation Table row for Stewart: total $25,706,039"
+    },
+    {
+      "id": "h071",
+      "form": "DEF 14A",
+      "accession": "0001193125-25-051087",
+      "filing_date": "2025-03-10",
+      "url": "https://www.sec.gov/Archives/edgar/data/42582/000119312525051087/d913110ddef14a.htm",
+      "quote": "Relocation expenses and related tax gross-ups under our global relocation policy with a value of $75,487 and $24,184, respectively, were provided to Mr. Stewart.",
+      "supports": "Goodyear: Stewart's 2024 relocation expenses"
+    },
+    {
+      "id": "h072",
+      "form": "DEF 14A",
+      "accession": "0001193125-25-051087",
+      "filing_date": "2025-03-10",
+      "url": "https://www.sec.gov/Archives/edgar/data/42582/000119312525051087/d913110ddef14a.htm",
+      "quote": "For 2024, the annual total compensation of the CEO, as set forth in the Summary Compensation Table, was $25,706,039, and the median of the annual total compensation of all employees, other than the CEO, was $51,465",
+      "supports": "Goodyear pay ratio: CEO $25,706,039 vs. median employee $51,465"
+    },
+    {
+      "id": "h073",
+      "form": "8-K",
+      "accession": "0000793952-25-000166",
+      "filing_date": "2025-08-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/793952/000079395225000166/hog-20250730.htm",
+      "quote": "Under the Offer Letter, Mr. Starrs will also receive: (i) a one-time cash award of $2,000,000, which he will be required to repay if he voluntarily terminates his employment within 12 months of the Effective Date; (ii) a one-time equity grant consisting of restricted stock units with a grant date value of $4,500,000 (the “One-Time RSU Award”)",
+      "supports": "Harley-Davidson: Starrs's $2,000,000 cash award and $4,500,000 RSU award"
+    },
+    {
+      "id": "h074",
+      "form": "DEF 14A",
+      "accession": "0000793952-26-000022",
+      "filing_date": "2026-04-09",
+      "url": "https://www.sec.gov/Archives/edgar/data/793952/000079395226000022/hog-20260409.htm",
+      "quote": "Artie Starrs President and Chief Executive Officer 2025 $ 304,000 $ 2,000,000 $ 6,125,019 $ — $ — $ — $ 162,971 $ 8,591,990",
+      "supports": "Harley-Davidson 2025 Summary Compensation Table row for Starrs: total $8,591,990"
+    },
+    {
+      "id": "h075",
+      "form": "8-K",
+      "accession": "0001193125-25-122148",
+      "filing_date": "2025-05-19",
+      "url": "https://www.sec.gov/Archives/edgar/data/701985/000119312525122148/d910619d8k.htm",
+      "quote": "(iv) a one-time award of restricted stock units with a grant date fair value of $2,500,000 (“Sign-On RSUs”)",
+      "supports": "Bath & Body Works: Heaf's $2,500,000 Sign-On RSUs"
+    },
+    {
+      "id": "h076",
+      "form": "8-K",
+      "accession": "0001193125-25-122148",
+      "filing_date": "2025-05-19",
+      "url": "https://www.sec.gov/Archives/edgar/data/701985/000119312525122148/d910619d8k.htm",
+      "quote": "(v) a one-time award of performance share units with a grant date fair value of $2,500,000",
+      "supports": "Bath & Body Works: Heaf's $2,500,000 one-time PSU award"
+    },
+    {
+      "id": "h077",
+      "form": "8-K",
+      "accession": "0001193125-25-122148",
+      "filing_date": "2025-05-19",
+      "url": "https://www.sec.gov/Archives/edgar/data/701985/000119312525122148/d910619d8k.htm",
+      "quote": "(vi) relocation assistance and an allowance of up to $200,000 (prorated for a partial year) for travel and related costs for him and his family until his relocation is complete (no later than June 30, 2027)",
+      "supports": "Bath & Body Works: travel allowance up to $200,000 until relocation"
+    },
+    {
+      "id": "h078",
+      "form": "DEF 14A",
+      "accession": "0001140361-26-017465",
+      "filing_date": "2026-04-28",
+      "url": "https://www.sec.gov/Archives/edgar/data/701985/000114036126017465/ny20054083x771_def14a.htm",
+      "quote": "Daniel Heaf Chief Executive Officer 2025 913,846 — 5,043,771 — 358,953 — 271,332 6,587,902",
+      "supports": "Bath & Body Works FY2025 Summary Compensation Table row for Heaf: total $6,587,902"
+    },
+    {
+      "id": "h079",
+      "form": "DEF 14A",
+      "accession": "0001140361-26-017465",
+      "filing_date": "2026-04-28",
+      "url": "https://www.sec.gov/Archives/edgar/data/701985/000114036126017465/ny20054083x771_def14a.htm",
+      "quote": "the median of the annual total compensation of all our associates (except our Chief Executive Officers) was $9,602.99;",
+      "supports": "Bath & Body Works pay ratio: median associate $9,602.99"
+    },
+    {
+      "id": "h099",
+      "form": "DEF 14A",
+      "accession": "0001140361-26-017465",
+      "filing_date": "2026-04-28",
+      "url": "https://www.sec.gov/Archives/edgar/data/701985/000114036126017465/ny20054083x771_def14a.htm",
+      "quote": "Personal Use of Company Aircraft(a) ($) Commuting Expense Stipend(b) ($) Relocation(c) ($) Severance Pay(d) ($) Total ($) Mr. Heaf 291 — 14,000 3,999 5,186 — 135,385 112,471 — 271,332",
+      "supports": "Bath & Body Works FY2025 All Other Compensation table: Heaf's commuting expense stipend $135,385 and relocation $112,471"
+    },
+    {
+      "id": "h080",
+      "form": "8-K",
+      "accession": "0001104659-23-108865",
+      "filing_date": "2023-10-12",
+      "url": "https://www.sec.gov/Archives/edgar/data/29534/000110465923108865/tm2328316d1_8k.htm",
+      "quote": "Furthermore, Mr. Vasos will receive a one-time award of a nonqualified option to purchase 250,000 shares of the Company’s common stock (the “Option”)",
+      "supports": "Dollar General: Vasos's one-time option on 250,000 shares"
+    },
+    {
+      "id": "h081",
+      "form": "8-K",
+      "accession": "0001104659-23-108865",
+      "filing_date": "2023-10-12",
+      "url": "https://www.sec.gov/Archives/edgar/data/29534/000110465923108865/tm2328316d1_8k.htm",
+      "quote": "The Company also will reimburse Mr. Vasos up to $500,000 per calendar year (prorated for the 2023 calendar year) for personal air travel to and from his residences and for personal visits with his immediate family members in locations within the continental United States.",
+      "supports": "Dollar General: up to $500,000 a year for personal air travel"
+    },
+    {
+      "id": "h082",
+      "form": "8-K",
+      "accession": "0001104659-23-108865",
+      "filing_date": "2023-10-12",
+      "url": "https://www.sec.gov/Archives/edgar/data/29534/000110465923108865/tm2328316d1_8k.htm",
+      "quote": "Mr. Vasos, age 62, previously served as the Company’s Chief Executive Officer from June 2015 to November 2022 when he transitioned to Senior Advisor. He retired from this role in April 2023.",
+      "supports": "Dollar General: Vasos was CEO 2015-2022 and retired in April 2023"
+    },
+    {
+      "id": "h083",
+      "form": "DEF 14A",
+      "accession": "0001104659-24-044304",
+      "filing_date": "2024-04-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/29534/000110465924044304/tm2332854d3_def14a.htm",
+      "quote": "Todd J. Vasos, Chief Executive Officer 2023 652,461 — 7,952,550 — 375,106 8,980,117",
+      "supports": "Dollar General FY2023 Summary Compensation Table row for Vasos: total $8,980,117"
+    },
+    {
+      "id": "h100",
+      "form": "DEF 14A",
+      "accession": "0001104659-24-044304",
+      "filing_date": "2024-04-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/29534/000110465924044304/tm2332854d3_def14a.htm",
+      "quote": "10/17/2023 — — — — — — — 250,000 117.33 7,952,550",
+      "supports": "Dollar General FY2023 Grants of Plan-Based Awards row: option on 250,000 shares at $117.33, grant date fair value $7,952,550"
+    },
+    {
+      "id": "h101",
+      "form": "DEF 14A",
+      "accession": "0001104659-24-044304",
+      "filing_date": "2024-04-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/29534/000110465924044304/tm2332854d3_def14a.htm",
+      "quote": "Mr. Vasos, for whom the aggregate incremental cost of personal airplane usage and related ground transportation totaled $104,090",
+      "supports": "Dollar General: Vasos's FY2023 personal airplane and ground transportation cost $104,090"
+    },
+    {
+      "id": "h084",
+      "form": "8-K",
+      "accession": "0001193125-23-270887",
+      "filing_date": "2023-11-06",
+      "url": "https://www.sec.gov/Archives/edgar/data/1830043/000119312523270887/d579036d8k.htm",
+      "quote": "(iii) an initial cash signing bonus of $1,000,000, (iv) an initial equity grant comprised of (A) options to acquire shares of the Company with a grant date fair value of $11,000,000 and (B) restricted stock units with a grant date fair value of $11,000,000",
+      "supports": "Bumble: Jones's $1,000,000 signing bonus and $22,000,000 initial equity grant"
+    },
+    {
+      "id": "h085",
+      "form": "DEF 14A",
+      "accession": "0001193125-25-084347",
+      "filing_date": "2025-04-17",
+      "url": "https://www.sec.gov/Archives/edgar/data/1830043/000119312525084347/d925958ddef14a.htm",
+      "quote": "Lidiane Jones Former Chief Executive Officer 2024 647,917 1,000,000 10,851,090 10,800,689 189,826 13,800 23,503,322",
+      "supports": "Bumble 2024 Summary Compensation Table row for Jones: total $23,503,322"
+    },
+    {
+      "id": "h102",
+      "form": "DEF 14A",
+      "accession": "0001193125-25-084347",
+      "filing_date": "2025-04-17",
+      "url": "https://www.sec.gov/Archives/edgar/data/1830043/000119312525084347/d925958ddef14a.htm",
+      "quote": "This grant was intended both to cover equity compensation for her first year and offset equity forfeited at her former employer.",
+      "supports": "Bumble proxy: the sign-on grant also covered her first-year equity"
+    },
+    {
+      "id": "h086",
+      "form": "8-K",
+      "accession": "0001193125-22-310083",
+      "filing_date": "2022-12-21",
+      "url": "https://www.sec.gov/Archives/edgar/data/1336917/000119312522310083/d419360d8k.htm",
+      "quote": "Ms. Linnartz will also receive a one-time sign-on cash bonus of $375,000 (the “Sign-On Bonus”)",
+      "supports": "Under Armour: Linnartz's $375,000 sign-on cash bonus"
+    },
+    {
+      "id": "h087",
+      "form": "8-K",
+      "accession": "0001193125-22-310083",
+      "filing_date": "2022-12-21",
+      "url": "https://www.sec.gov/Archives/edgar/data/1336917/000119312522310083/d419360d8k.htm",
+      "quote": "In addition, she will receive a sign-on RSU grant (the “Sign-On Award”) with a grant date fair value of $11.0 million, which vests in three equal annual installments",
+      "supports": "Under Armour: Linnartz's $11.0 million sign-on RSU grant"
+    },
+    {
+      "id": "h088",
+      "form": "8-K",
+      "accession": "0001193125-22-310083",
+      "filing_date": "2022-12-21",
+      "url": "https://www.sec.gov/Archives/edgar/data/1336917/000119312522310083/d419360d8k.htm",
+      "quote": "Ms. Linnartz is also eligible to receive an additional one-time sign-on cash bonus of up to $6.0 million, depending on whether she receives prior awards upon which the value of this additional bonus was based.",
+      "supports": "Under Armour: possible additional sign-on cash bonus of up to $6.0 million"
+    },
+    {
+      "id": "h089",
+      "form": "DEF 14A",
+      "accession": "0001193125-23-176149",
+      "filing_date": "2023-06-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/1336917/000119312523176149/d501082ddef14a.htm",
+      "quote": "Stephanie Linnartz(4) 2023 125,000 175,000 11,000,000 — — — 11,300,000 President and Chief Executive Officer",
+      "supports": "Under Armour FY2023 Summary Compensation Table row for Linnartz: total $11,300,000"
+    },
+    {
+      "id": "h090",
+      "form": "8-K",
+      "accession": "0001193125-24-066880",
+      "filing_date": "2024-03-13",
+      "url": "https://www.sec.gov/Archives/edgar/data/1336917/000119312524066880/d790474d8k.htm",
+      "quote": "On March 13, 2024, Under Armour, Inc. (the “Company”) issued a press release announcing that Stephanie C. Linnartz, the Company’s President and Chief Executive Officer (and principal executive officer), will be stepping down from her officer roles and as a member of the Company’s Board of Directors (the “Board”), in each case effective as of the close of business March 31, 2024.",
+      "supports": "Under Armour: Linnartz stepping down effective March 31, 2024"
+    },
+    {
+      "id": "h103",
+      "form": "DEF 14A",
+      "accession": "0001193125-24-170497",
+      "filing_date": "2024-06-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/1336917/000119312524170497/d30897ddef14a.htm",
+      "quote": "the unvested tranches of Ms. Linnartz’s sign-on restricted stock unit award received in connection with her hiring were accelerated (representing a grant date value of approximately $7.3 million)",
+      "supports": "Under Armour 2024 proxy: Linnartz's unvested sign-on RSUs accelerated on departure"
+    },
+    {
+      "id": "h091",
+      "form": "8-K",
+      "accession": "0001628280-24-034527",
+      "filing_date": "2024-08-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/901491/000162828024034527/pzza-20240731.htm",
+      "quote": "In addition, Mr. Penegor was granted sign-on compensation, consisting of $1.25 million in restricted stock, which was granted on July 31, 2024, one-third of which will vest on each anniversary of the grant date.",
+      "supports": "Papa John's: Penegor's $1.25 million sign-on restricted stock"
+    },
+    {
+      "id": "h092",
+      "form": "8-K",
+      "accession": "0001628280-24-034527",
+      "filing_date": "2024-08-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/901491/000162828024034527/pzza-20240731.htm",
+      "quote": "Mr. Penegor is also entitled to relocation benefits consistent with Company policy for executive officers, plus an additional $150,000 payment to cover relocation and moving expenses.",
+      "supports": "Papa John's: additional $150,000 relocation payment"
+    },
+    {
+      "id": "h093",
+      "form": "8-K",
+      "accession": "0001628280-24-034527",
+      "filing_date": "2024-08-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/901491/000162828024034527/pzza-20240731.htm",
+      "quote": "Prior to joining the Company, Mr. Penegor, 59, served as President, Chief Executive Officer and a member of the board of directors of The Wendy’s Company from 2016 through February 2024",
+      "supports": "Papa John's 8-K: Penegor was Wendy's CEO through February 2024"
+    },
+    {
+      "id": "h094",
+      "form": "DEF 14A",
+      "accession": "0001628280-25-015058",
+      "filing_date": "2025-03-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/901491/000162828025015058/pzza-20250326.htm",
+      "quote": "We annualized Mr. Penegor's compensation for 2024 by adding his \"Total\" 2024 compensation from the Summary Compensation Table ($4,816,730)",
+      "supports": "Papa John's: Penegor's 2024 Summary Compensation Table total $4,816,730"
+    }
+  ],
+  "rejected": [
+    {
+      "name": "Walgreens Boots Alliance (Tim Wentworth, 2023)",
+      "reason": "The 8-K filed 2023-10-11 calls his $12,000,000 grant an 'initial incentive equity grant', but the proxy filed 2024-12-13 says it was his fiscal 2024 annual equity grant on the same terms as other executives. The only other hiring terms are relocation benefits, which the proxy says he did not use in fiscal 2024, and personal use of corporate aircraft up to 75 hours a year, which the proxy describes as a board security requirement it does not consider a perquisite ($179,394 in fiscal 2024). No actual sign-on payment is left."
+    },
+    {
+      "name": "Kraft Heinz (Steve Cahillane, appointed Dec. 2025, effective Jan. 1, 2026)",
+      "reason": "8-K filed 2025-12-16 quantifies an $11,000,000 Sign-on Award and a $200,000 yearly personal plane allowance, but his first-year (2026) Summary Compensation Table will not be filed until the 2027 proxy and no total is printed, so the case cannot meet the first_year_pay/sign_on_total requirement yet."
+    },
+    {
+      "name": "Disney (Josh D'Amaro, appointed Feb. 2, 2026)",
+      "reason": "Internal successor (Chairman of Disney Experiences); 8-K filed 2026-02-03 sets salary and a $26,250,000 annual LTI target but no hiring award, and his first-year SCT is not filed yet."
+    },
+    {
+      "name": "Union Pacific (Jim Vena, 2023)",
+      "reason": "Appointment 8-Ks (2023-07-26, 2023-08-11) give only salary, bonus target and a 2024 equity target; no sign-on, make-whole or inducement award found, and the 2024 proxy mentions none."
+    },
+    {
+      "name": "Chipotle (Scott Boatwright, 2024)",
+      "reason": "Internal promotion: joined Chipotle in 2017 and was interim CEO from August 2024 (8-K filed 2024-11-12); not a hiring package."
+    },
+    {
+      "name": "CVS Health (David Joyner, 2024)",
+      "reason": "Internal promotion from Executive Vice President and President of Pharmacy Services (8-K filed 2024-10-18); not a hiring package."
+    },
+    {
+      "name": "Five Below (Winnie Park, 2024)",
+      "reason": "Checked the 8-K filed 2024-12-04: only a $1,000,000 initial RSU grant beyond normal pay; left out as a small package at a lower-profile company."
+    },
+    {
+      "name": "Wolfspeed (Robert Feurle, 2025)",
+      "reason": "Checked the 8-K filed 2025-03-27 ($1,000,000 sign-on cash, $200,000 relocation, inducement RSUs and options); left out as lower-profile and because the company's later restructuring complicates any first-year comparison. Not finished."
+    },
+    {
+      "name": "Paramount, Kenvue",
+      "reason": "Not researched in this pass; Paramount's 2024 co-CEOs were internal and Kenvue's 2025 CEO is interim, so neither looked like a hiring-package case."
+    }
+  ]
+}

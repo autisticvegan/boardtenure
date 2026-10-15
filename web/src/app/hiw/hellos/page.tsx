@@ -50,7 +50,7 @@ export default async function Hellos() {
         <p className="text-[17px] leading-7 text-ink-2">
           Before a new CEO has done a day&apos;s work: cash for signing, stock to replace what they left on the table at their
           last job, a grant for joining, and sometimes a jet between home and the office. Every line is from the
-          company&apos;s own filings, 2023 onward.
+          company&apos;s own filings, for hires announced from late 2022 on.
         </p>
         <MakeItRain label="Throw a welcome party" />
       </header>
@@ -60,7 +60,7 @@ export default async function Hellos() {
       ) : (
         <>
           <dl className="grid grid-cols-2 md:grid-cols-3 gap-px overflow-hidden rounded-[14px] border border-line bg-line shadow-card">
-            <Tile value={String(ranked.length)} label="new CEOs and top executives, 2023 onward" />
+            <Tile value={String(ranked.length)} label="new CEOs and top executives, hired from late 2022 on" />
             <Tile value={compactMoney(median(totals))} label="the median welcome package, before any regular pay" />
             <Tile value={top ? compactMoney(top.total ?? top.first?.value) : "—"}
                   label={top ? `the biggest: ${top.c.person_name}, ${top.c.company_name}` : "the biggest"} />

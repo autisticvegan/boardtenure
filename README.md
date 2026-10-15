@@ -46,7 +46,9 @@ Market-wide data (Heads I Win and Boardtape's `/pay/asymmetry`):
 ```bash
 uv run bt screen pvp --gaps        # every filer's pay-versus-performance facts (XBRL frames)
 uv run bt screen panel             # each screened company's latest proxy: CEO by year, pay, TSR
-uv run bt seed parachutes && uv run bt seed failing-up
+uv run bt screen ratios            # CEO pay ratios from those proxies (verified against printed amounts)
+uv run bt logos fetch              # company icons into the raw store (not committed)
+uv run bt seed parachutes && uv run bt seed failing-up && uv run bt seed hiw
 uv run bt analytics recompute      # includes the same-CEO pay-change test
 ```
 

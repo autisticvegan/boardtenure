@@ -281,6 +281,21 @@ dropped if any other in-tenure table window at least as long shows the stock ahe
 The next role (an executive officer listed in the next company's Summary Compensation Table, or a
 non-employee director paid under its Director Compensation table) must begin after the window ends and
 within three years of leaving. Pay is that company's reported total for each fiscal year on file.
+**The ratio.** CEO pay ratios (Item 402(u)) are read from each screened company's latest proxy. A
+ratio is kept only when two amounts printed in the same passage, the CEO's annual total compensation
+and the median employee's, reproduce it within rounding; the year is the one the passage describes.
+"Caught up by" divides the year by the ratio, as if pay arrived evenly.
+
+**Golden hellos and layoffs.** Researched case by case from 8-Ks, offer letters, inducement filings,
+10-Ks and the next proxy (data/seed/hiw_*.json). Each figure records the number as printed and its
+scale word, and must appear in its quotes. A welcome package sums sign-on cash, make-whole and sign-on
+equity and perks actually paid; caps, conditional amounts, regular annual grants and parts already
+inside another figure are shown but not added. Layoff cards put the company's own job count beside
+the CEO's Summary Compensation Table total and the 10-K's buybacks for that fiscal year.
+
+**Logos** identify companies. They come from each company's website (via Wikidata, or the site its
+own proxy names, checked against its name or ticker) or Wikimedia Commons, are kept in the raw store
+rather than the repository, and are served on a chip; companies without one get a lettered badge.
 
 ## Confidence
 
