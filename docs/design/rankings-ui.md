@@ -761,7 +761,7 @@ WCAG contrast, computed with the validator's exported `contrast()`:
 
 ### 6.3 Validator results (recorded output)
 
-Command: `node /private/tmp/claude-502/bundled-skills/2.1.286/838577d6d7d01fc3e75aa9091a6adace/dataviz/scripts/validate_palette.js "<hexes>" --mode dark --surface "<surface>" --pairs <all|adjacent>`
+Command (the dataviz skill's palette validator): `node validate_palette.js "<hexes>" --mode dark --surface "<surface>" --pairs <all|adjacent>`
 
 **A. Gain/loss marks**, `"#199e70,#d95926" --surface "#141821" --pairs all`: **ALL CHECKS PASS**
 
