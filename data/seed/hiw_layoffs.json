@@ -1,0 +1,2508 @@
+{
+  "as_of": "2026-10-15",
+  "slice": "lay",
+  "method": "Started from the brief's list of well-known 2023-2026 layoffs plus EDGAR submissions and full-text searches for Item 2.05 8-Ks and phrases like 'reduce our workforce' and 'positions' at large companies. Kept a case only if a filing (8-K, often Item 2.05 or the CEO's message as an exhibit, or the 10-K/10-Q) states the count or percentage, and the CEO in office at the announcement has a Summary Compensation Table total for that fiscal year. Pay is the SCT total for the fiscal year in which the cuts were announced; buybacks, dividends and severance are from the same fiscal year's 10-K where it states them in dollars. Every quote was cut verbatim from the cached filing text.",
+  "cases": [
+    {
+      "id": "lay-01",
+      "kind": "layoffs",
+      "company": {
+        "name": "Alphabet Inc.",
+        "cik": "1652044",
+        "ticker": "GOOGL"
+      },
+      "person": {
+        "name": "Sundar Pichai",
+        "role": "Chief Executive Officer"
+      },
+      "date": "2023-01-20",
+      "headline": "\"We've decided to reduce our workforce by approximately 12,000 roles.\"",
+      "figures": [
+        {
+          "key": "jobs_cut",
+          "label": "roles eliminated",
+          "printed": 12000,
+          "scale": null,
+          "unit": "people",
+          "evidence_refs": [
+            "j001"
+          ]
+        },
+        {
+          "key": "ceo_pay",
+          "label": "CEO total pay, 2023 (Summary Compensation Table)",
+          "printed": 8802824,
+          "scale": null,
+          "unit": "usd",
+          "fiscal_year": 2023,
+          "evidence_refs": [
+            "j004"
+          ]
+        },
+        {
+          "key": "ceo_pay_prior",
+          "label": "CEO total pay, 2022",
+          "printed": 225985145,
+          "scale": null,
+          "unit": "usd",
+          "fiscal_year": 2022,
+          "evidence_refs": [
+            "j004"
+          ]
+        },
+        {
+          "key": "restructuring_cost",
+          "label": "severance and related charges, 2023",
+          "printed": 2.1,
+          "scale": "billion",
+          "unit": "usd",
+          "evidence_refs": [
+            "j002"
+          ]
+        },
+        {
+          "key": "buybacks",
+          "label": "share repurchases, 2023",
+          "printed": 62.2,
+          "scale": "billion",
+          "unit": "usd",
+          "fiscal_year": 2023,
+          "evidence_refs": [
+            "j003"
+          ]
+        }
+      ],
+      "notes": "Cuts announced in Pichai's January 20, 2023 email, filed as an 8-K. Severance ($2.1 billion) and buybacks ($62.2 billion) are from the 2023 10-K. Pay is the 2024 proxy's Summary Compensation Table; Pichai's 2022 total includes a $218,037,684 stock award, which is why 2022 is far above 2023."
+    },
+    {
+      "id": "lay-02",
+      "kind": "layoffs",
+      "company": {
+        "name": "Microsoft Corporation",
+        "cik": "789019",
+        "ticker": "MSFT"
+      },
+      "person": {
+        "name": "Satya Nadella",
+        "role": "Chairman and Chief Executive Officer"
+      },
+      "date": "2023-01-18",
+      "headline": "Workforce reductions of approximately 10,000 employees by the end of the third fiscal quarter of 2023",
+      "figures": [
+        {
+          "key": "jobs_cut",
+          "label": "jobs cut",
+          "printed": 10000,
+          "scale": null,
+          "unit": "people",
+          "evidence_refs": [
+            "j005",
+            "j006"
+          ]
+        },
+        {
+          "key": "ceo_pay",
+          "label": "CEO total pay, fiscal 2023",
+          "printed": 48512537,
+          "scale": null,
+          "unit": "usd",
+          "fiscal_year": 2023,
+          "evidence_refs": [
+            "j009"
+          ]
+        },
+        {
+          "key": "ceo_pay_prior",
+          "label": "CEO total pay, fiscal 2022",
+          "printed": 54946310,
+          "scale": null,
+          "unit": "usd",
+          "fiscal_year": 2022,
+          "evidence_refs": [
+            "j009"
+          ]
+        },
+        {
+          "key": "restructuring_cost",
+          "label": "employee severance expenses",
+          "printed": 800,
+          "scale": "million",
+          "unit": "usd",
+          "evidence_refs": [
+            "j006"
+          ]
+        },
+        {
+          "key": "buybacks",
+          "label": "share repurchases, fiscal 2023",
+          "printed": 18.4,
+          "scale": "billion",
+          "unit": "usd",
+          "fiscal_year": 2023,
+          "evidence_refs": [
+            "j007"
+          ]
+        },
+        {
+          "key": "dividends",
+          "label": "dividends declared, fiscal 2023",
+          "printed": 20.2,
+          "scale": "billion",
+          "unit": "usd",
+          "fiscal_year": 2023,
+          "evidence_refs": [
+            "j008"
+          ]
+        }
+      ],
+      "notes": "Microsoft's fiscal year ends June 30; the January 2023 cuts fall in fiscal 2023. Cut count from the January 18, 2023 8-K and the fiscal 2023 10-K; severance, buybacks and dividends declared from the 10-K; pay from the October 2023 proxy."
+    },
+    {
+      "id": "lay-03",
+      "kind": "layoffs",
+      "company": {
+        "name": "Meta Platforms, Inc.",
+        "cik": "1326801",
+        "ticker": "META"
+      },
+      "person": {
+        "name": "Mark Zuckerberg",
+        "role": "Chief Executive Officer"
+      },
+      "date": "2023-03-14",
+      "headline": "\"Overall, we expect to reduce our team size by around 10,000 people\"",
+      "figures": [
+        {
+          "key": "jobs_cut",
+          "label": "jobs cut (2023 Restructuring)",
+          "printed": 10000,
+          "scale": null,
+          "unit": "people",
+          "evidence_refs": [
+            "j010",
+            "j011"
+          ]
+        },
+        {
+          "key": "ceo_pay",
+          "label": "CEO total pay, 2023",
+          "printed": 24399968,
+          "scale": null,
+          "unit": "usd",
+          "fiscal_year": 2023,
+          "evidence_refs": [
+            "j013"
+          ]
+        },
+        {
+          "key": "ceo_pay_prior",
+          "label": "CEO total pay, 2022",
+          "printed": 27110418,
+          "scale": null,
+          "unit": "usd",
+          "fiscal_year": 2022,
+          "evidence_refs": [
+            "j013"
+          ]
+        },
+        {
+          "key": "restructuring_cost",
+          "label": "severance and related personnel costs, 2023",
+          "printed": 1.2,
+          "scale": "billion",
+          "unit": "usd",
+          "evidence_refs": [
+            "j011"
+          ]
+        },
+        {
+          "key": "buybacks",
+          "label": "share repurchases, 2023",
+          "printed": 20.03,
+          "scale": "billion",
+          "unit": "usd",
+          "fiscal_year": 2023,
+          "evidence_refs": [
+            "j012"
+          ]
+        }
+      ],
+      "evidence_refs": [
+        "j087"
+      ],
+      "notes": "Zuckerberg's March 14, 2023 post was filed as Exhibit 99.1 to an 8-K; the 2023 10-K confirms approximately 10,000 employees and $1.20 billion of severance. Buybacks ($20.03 billion) include the 1% excise tax accrual. Zuckerberg's salary is $1; nearly all of his reported pay is 'all other compensation', which the proxy says includes about $9.4 million of personal security costs and a $14,000,000 pre-tax allowance for personal security in 2023."
+    },
+    {
+      "id": "lay-04",
+      "kind": "layoffs",
+      "company": {
+        "name": "Salesforce, Inc.",
+        "cik": "1108524",
+        "ticker": "CRM"
+      },
+      "person": {
+        "name": "Marc Benioff",
+        "role": "Chair and Co-Chief Executive Officer"
+      },
+      "date": "2023-01-04",
+      "headline": "A reduction of the Company's current workforce by approximately 10 percent",
+      "figures": [
+        {
+          "key": "pct_workforce",
+          "label": "share of workforce cut",
+          "printed": 10,
+          "scale": null,
+          "unit": "pct",
+          "evidence_refs": [
+            "j014"
+          ]
+        },
+        {
+          "key": "ceo_pay",
+          "label": "CEO total pay, fiscal 2023",
+          "printed": 29868893,
+          "scale": null,
+          "unit": "usd",
+          "fiscal_year": 2023,
+          "evidence_refs": [
+            "j017"
+          ]
+        },
+        {
+          "key": "ceo_pay_prior",
+          "label": "CEO total pay, fiscal 2022",
+          "printed": 28602112,
+          "scale": null,
+          "unit": "usd",
+          "fiscal_year": 2022,
+          "evidence_refs": [
+            "j017"
+          ]
+        },
+        {
+          "key": "restructuring_cost",
+          "label": "employee-related restructuring charges, fiscal 2023",
+          "printed": 683,
+          "scale": "million",
+          "unit": "usd",
+          "evidence_refs": [
+            "j015"
+          ]
+        },
+        {
+          "key": "buybacks",
+          "label": "share repurchases, fiscal 2023",
+          "printed": 4.0,
+          "scale": "billion",
+          "unit": "usd",
+          "fiscal_year": 2023,
+          "evidence_refs": [
+            "j016"
+          ]
+        }
+      ],
+      "evidence_refs": [
+        "j088"
+      ],
+      "notes": "Salesforce's fiscal 2023 ended January 31, 2023, so the January 4, 2023 announcement falls in fiscal 2023 (the 10-K says the employee actions were expected to finish in fiscal 2024). The proxy describes Benioff as Chair of the Board and CEO, formerly Co-CEO (with Bret Taylor, formerly Vice Chair and Co-CEO). $683 million is the employee-related part of $828 million of fiscal 2023 restructuring costs."
+    },
+    {
+      "id": "lay-05",
+      "kind": "layoffs",
+      "company": {
+        "name": "Intel Corporation",
+        "cik": "50863",
+        "ticker": "INTC"
+      },
+      "person": {
+        "name": "Patrick P. Gelsinger",
+        "role": "Chief Executive Officer"
+      },
+      "date": "2024-08-01",
+      "headline": "\"Intel expects to reduce headcount by greater than 15% with the majority completed by the end of 2024.\"",
+      "figures": [
+        {
+          "key": "pct_workforce",
+          "label": "headcount reduction",
+          "printed": 15,
+          "scale": null,
+          "unit": "pct",
+          "evidence_refs": [
+            "j018"
+          ]
+        },
+        {
+          "key": "ceo_pay",
+          "label": "CEO total pay, 2024",
+          "printed": 27429900,
+          "scale": null,
+          "unit": "usd",
+          "fiscal_year": 2024,
+          "evidence_refs": [
+            "j021"
+          ]
+        },
+        {
+          "key": "ceo_pay_prior",
+          "label": "CEO total pay, 2023",
+          "printed": 16855400,
+          "scale": null,
+          "unit": "usd",
+          "fiscal_year": 2023,
+          "evidence_refs": [
+            "j021"
+          ]
+        },
+        {
+          "key": "restructuring_cost",
+          "label": "employee severance and benefit charges, 2024",
+          "printed": 2.2,
+          "scale": "billion",
+          "unit": "usd",
+          "evidence_refs": [
+            "j019"
+          ]
+        }
+      ],
+      "evidence_refs": [
+        "j020",
+        "j090"
+      ],
+      "notes": "The release says 'greater than 15%'; the 2024 10-K describes an approximate 15% decrease in the core Intel workforce. Intel made no stock repurchases in 2024 (its most recent was in the first quarter of 2021) and suspended its dividend starting Q4 2024, so there is no buyback figure. The 2025 proxy lists Gelsinger as Former CEO."
+    },
+    {
+      "id": "lay-06",
+      "kind": "layoffs",
+      "company": {
+        "name": "Intel Corporation",
+        "cik": "50863",
+        "ticker": "INTC"
+      },
+      "person": {
+        "name": "Lip-Bu Tan",
+        "role": "Chief Executive Officer"
+      },
+      "date": "2025-07-24",
+      "headline": "Headcount reduction initiatives \"will reduce our core Intel workforce by 15% by the end of fiscal 2025\"",
+      "figures": [
+        {
+          "key": "pct_workforce",
+          "label": "core workforce reduction",
+          "printed": 15,
+          "scale": null,
+          "unit": "pct",
+          "evidence_refs": [
+            "j022"
+          ]
+        },
+        {
+          "key": "ceo_pay",
+          "label": "CEO total pay, 2025",
+          "printed": 92990900,
+          "scale": null,
+          "unit": "usd",
+          "fiscal_year": 2025,
+          "evidence_refs": [
+            "j024"
+          ]
+        },
+        {
+          "key": "restructuring_cost",
+          "label": "employee severance and exit charges, Q2 2025",
+          "printed": 1.4,
+          "scale": "billion",
+          "unit": "usd",
+          "evidence_refs": [
+            "j023"
+          ]
+        }
+      ],
+      "notes": "Item 2.05 8-K filed July 24, 2025. Tan's 2025 total is from the 2026 proxy (salary $746,200; the rest is mostly stock and option awards). He has no prior-year row. No buyback figure is included."
+    },
+    {
+      "id": "lay-07",
+      "kind": "layoffs",
+      "company": {
+        "name": "Cisco Systems, Inc.",
+        "cik": "858877",
+        "ticker": "CSCO"
+      },
+      "person": {
+        "name": "Charles H. Robbins",
+        "role": "Chair and Chief Executive Officer"
+      },
+      "date": "2024-02-14",
+      "headline": "A restructuring plan that \"will impact approximately 5 percent of Cisco's global workforce\"",
+      "figures": [
+        {
+          "key": "pct_workforce",
+          "label": "share of global workforce",
+          "printed": 5,
+          "scale": null,
+          "unit": "pct",
+          "evidence_refs": [
+            "j025"
+          ]
+        },
+        {
+          "key": "ceo_pay",
+          "label": "CEO total pay, fiscal 2024",
+          "printed": 39202654,
+          "scale": null,
+          "unit": "usd",
+          "fiscal_year": 2024,
+          "evidence_refs": [
+            "j028"
+          ]
+        },
+        {
+          "key": "ceo_pay_prior",
+          "label": "CEO total pay, fiscal 2023",
+          "printed": 31843708,
+          "scale": null,
+          "unit": "usd",
+          "fiscal_year": 2023,
+          "evidence_refs": [
+            "j028"
+          ]
+        },
+        {
+          "key": "restructuring_cost",
+          "label": "restructuring charges, fiscal 2024",
+          "printed": 654,
+          "scale": "million",
+          "unit": "usd",
+          "evidence_refs": [
+            "j026"
+          ]
+        },
+        {
+          "key": "buybacks",
+          "label": "share repurchases, fiscal 2024",
+          "printed": 5.8,
+          "scale": "billion",
+          "unit": "usd",
+          "fiscal_year": 2024,
+          "evidence_refs": [
+            "j027"
+          ]
+        },
+        {
+          "key": "dividends",
+          "label": "cash dividends, fiscal 2024",
+          "printed": 6.4,
+          "scale": "billion",
+          "unit": "usd",
+          "fiscal_year": 2024,
+          "evidence_refs": [
+            "j027"
+          ]
+        }
+      ],
+      "notes": "Cisco's fiscal 2024 ended July 27, 2024. Cut share from the February 14, 2024 Item 2.05 8-K; charges, buybacks and dividends from the fiscal 2024 10-K; pay from the October 2024 proxy. A second cut (about 7%) followed in August 2024; see the next case."
+    },
+    {
+      "id": "lay-08",
+      "kind": "layoffs",
+      "company": {
+        "name": "Cisco Systems, Inc.",
+        "cik": "858877",
+        "ticker": "CSCO"
+      },
+      "person": {
+        "name": "Charles H. Robbins",
+        "role": "Chair and Chief Executive Officer"
+      },
+      "date": "2024-08-14",
+      "headline": "A restructuring plan \"expected to impact approximately 7 percent of Cisco's global workforce\"",
+      "figures": [
+        {
+          "key": "pct_workforce",
+          "label": "share of global workforce",
+          "printed": 7,
+          "scale": null,
+          "unit": "pct",
+          "evidence_refs": [
+            "j029"
+          ]
+        },
+        {
+          "key": "ceo_pay",
+          "label": "CEO total pay, fiscal 2025",
+          "printed": 52838751,
+          "scale": null,
+          "unit": "usd",
+          "fiscal_year": 2025,
+          "evidence_refs": [
+            "j032"
+          ]
+        },
+        {
+          "key": "ceo_pay_prior",
+          "label": "CEO total pay, fiscal 2024",
+          "printed": 39202654,
+          "scale": null,
+          "unit": "usd",
+          "fiscal_year": 2024,
+          "evidence_refs": [
+            "j032"
+          ]
+        },
+        {
+          "key": "restructuring_cost",
+          "label": "restructuring charges, fiscal 2025",
+          "printed": 744,
+          "scale": "million",
+          "unit": "usd",
+          "evidence_refs": [
+            "j030"
+          ]
+        },
+        {
+          "key": "buybacks",
+          "label": "share repurchases, fiscal 2025",
+          "printed": 6.0,
+          "scale": "billion",
+          "unit": "usd",
+          "fiscal_year": 2025,
+          "evidence_refs": [
+            "j031"
+          ]
+        },
+        {
+          "key": "dividends",
+          "label": "cash dividends, fiscal 2025",
+          "printed": 6.4,
+          "scale": "billion",
+          "unit": "usd",
+          "fiscal_year": 2025,
+          "evidence_refs": [
+            "j031"
+          ]
+        }
+      ],
+      "notes": "Announced August 14, 2024, the first quarter of fiscal 2025 (ended July 26, 2025). The 2025 proxy's table adds a column after Total ('Total as Adjusted for Alternative Stock Award Values', $41,266,351 for fiscal 2025); the figure here is the standard Total column."
+    },
+    {
+      "id": "lay-09",
+      "kind": "layoffs",
+      "company": {
+        "name": "United Parcel Service, Inc.",
+        "cik": "1090727",
+        "ticker": "UPS"
+      },
+      "person": {
+        "name": "Carol Tomé",
+        "role": "Chief Executive Officer"
+      },
+      "date": "2025-04-29",
+      "headline": "\"We reduced our operational workforce by approximately 48,000 positions, including 15,000 fewer seasonal positions\"",
+      "figures": [
+        {
+          "key": "jobs_cut",
+          "label": "operational positions cut in 2025",
+          "printed": 48000,
+          "scale": null,
+          "unit": "people",
+          "evidence_refs": [
+            "j034"
+          ]
+        },
+        {
+          "key": "ceo_pay",
+          "label": "CEO total pay, 2025",
+          "printed": 22878788,
+          "scale": null,
+          "unit": "usd",
+          "fiscal_year": 2025,
+          "evidence_refs": [
+            "j036"
+          ]
+        },
+        {
+          "key": "ceo_pay_prior",
+          "label": "CEO total pay, 2024",
+          "printed": 24063977,
+          "scale": null,
+          "unit": "usd",
+          "fiscal_year": 2024,
+          "evidence_refs": [
+            "j036"
+          ]
+        },
+        {
+          "key": "buybacks",
+          "label": "share repurchases, 2025",
+          "printed": 1.0,
+          "scale": "billion",
+          "unit": "usd",
+          "fiscal_year": 2025,
+          "evidence_refs": [
+            "j035"
+          ]
+        },
+        {
+          "key": "dividends",
+          "label": "dividends paid, 2025",
+          "printed": 5.4,
+          "scale": "billion",
+          "unit": "usd",
+          "fiscal_year": 2025,
+          "evidence_refs": [
+            "j035"
+          ]
+        }
+      ],
+      "evidence_refs": [
+        "j033"
+      ],
+      "notes": "The April 29, 2025 earnings release (8-K Exhibit 99.1) planned approximately 20,000 operational position cuts in 2025; the 2025 10-K reports the actual reduction of approximately 48,000 positions, including 15,000 fewer seasonal positions. Buybacks and dividends from the 2025 10-K; pay from the 2026 proxy."
+    },
+    {
+      "id": "lay-10",
+      "kind": "layoffs",
+      "company": {
+        "name": "The Boeing Company",
+        "cik": "12927",
+        "ticker": "BA"
+      },
+      "person": {
+        "name": "Robert K. (Kelly) Ortberg",
+        "role": "President and Chief Executive Officer"
+      },
+      "date": "2024-10-11",
+      "headline": "\"We plan to reduce the size of our total workforce by roughly 10 percent\"",
+      "figures": [
+        {
+          "key": "pct_workforce",
+          "label": "share of total workforce",
+          "printed": 10,
+          "scale": null,
+          "unit": "pct",
+          "evidence_refs": [
+            "j037"
+          ]
+        },
+        {
+          "key": "ceo_pay",
+          "label": "CEO total pay, 2024",
+          "printed": 18388629,
+          "scale": null,
+          "unit": "usd",
+          "fiscal_year": 2024,
+          "evidence_refs": [
+            "j038"
+          ]
+        }
+      ],
+      "notes": "The plan was announced October 11, 2024 and is described in the Q3 2024 10-Q. Ortberg's 2024 total is a partial year (salary $525,000) and includes $7,999,900 of stock awards and $7,999,946 of option awards. No buyback or dividend figure is included."
+    },
+    {
+      "id": "lay-11",
+      "kind": "layoffs",
+      "company": {
+        "name": "Starbucks Corporation",
+        "cik": "829224",
+        "ticker": "SBUX"
+      },
+      "person": {
+        "name": "Brian Niccol",
+        "role": "Chairman and Chief Executive Officer"
+      },
+      "date": "2025-09-25",
+      "headline": "\"The difficult decision to eliminate approximately 900 current non-retail partner roles and close many open positions\"",
+      "figures": [
+        {
+          "key": "jobs_cut",
+          "label": "non-retail roles eliminated",
+          "printed": 900,
+          "scale": null,
+          "unit": "people",
+          "evidence_refs": [
+            "j039"
+          ]
+        },
+        {
+          "key": "ceo_pay",
+          "label": "CEO total pay, fiscal 2025",
+          "printed": 30992773,
+          "scale": null,
+          "unit": "usd",
+          "fiscal_year": 2025,
+          "evidence_refs": [
+            "j043",
+            "j044"
+          ]
+        },
+        {
+          "key": "ceo_pay_prior",
+          "label": "CEO total pay, fiscal 2024",
+          "printed": 95801676,
+          "scale": null,
+          "unit": "usd",
+          "fiscal_year": 2024,
+          "evidence_refs": [
+            "j044"
+          ]
+        },
+        {
+          "key": "restructuring_cost",
+          "label": "estimated employee separation benefits",
+          "printed": 150,
+          "scale": "million",
+          "unit": "usd",
+          "evidence_refs": [
+            "j040"
+          ]
+        },
+        {
+          "key": "dividends",
+          "label": "returned to shareholders, fiscal 2025 (dividends; no buybacks)",
+          "printed": 2.8,
+          "scale": "billion",
+          "unit": "usd",
+          "fiscal_year": 2025,
+          "evidence_refs": [
+            "j041",
+            "j042"
+          ]
+        }
+      ],
+      "evidence_refs": [
+        "j091"
+      ],
+      "notes": "Niccol's September 25, 2025 letter was filed as Exhibit 99.1 to an Item 2.05 8-K that also covers coffeehouse closures and about $1 billion of total restructuring charges. Starbucks made no share repurchases in fiscal 2025, so the $2.8 billion returned to shareholders was dividends. Niccol joined in September 2024; his fiscal 2024 total ($95,801,676) includes $90,291,772 of stock awards."
+    },
+    {
+      "id": "lay-12",
+      "kind": "layoffs",
+      "company": {
+        "name": "The Procter & Gamble Company",
+        "cik": "80424",
+        "ticker": "PG"
+      },
+      "person": {
+        "name": "Jon R. Moeller",
+        "role": "Chairman, President and Chief Executive Officer"
+      },
+      "date": "2025-06-05",
+      "headline": "\"Expects to reduce up to 7,000 roles, or approximately 15% of our current non-manufacturing workforce\"",
+      "figures": [
+        {
+          "key": "jobs_cut",
+          "label": "roles to be cut (up to)",
+          "printed": 7000,
+          "scale": null,
+          "unit": "people",
+          "evidence_refs": [
+            "j045"
+          ]
+        },
+        {
+          "key": "pct_workforce",
+          "label": "share of non-manufacturing workforce",
+          "printed": 15,
+          "scale": null,
+          "unit": "pct",
+          "evidence_refs": [
+            "j045"
+          ]
+        },
+        {
+          "key": "ceo_pay",
+          "label": "CEO total pay, fiscal 2025",
+          "printed": 21909816,
+          "scale": null,
+          "unit": "usd",
+          "fiscal_year": 2025,
+          "evidence_refs": [
+            "j047"
+          ]
+        },
+        {
+          "key": "ceo_pay_prior",
+          "label": "CEO total pay, fiscal 2024",
+          "printed": 22963881,
+          "scale": null,
+          "unit": "usd",
+          "fiscal_year": 2024,
+          "evidence_refs": [
+            "j047"
+          ]
+        },
+        {
+          "key": "buybacks",
+          "label": "share repurchases, fiscal 2025",
+          "printed": 6.5,
+          "scale": "billion",
+          "unit": "usd",
+          "fiscal_year": 2025,
+          "evidence_refs": [
+            "j046"
+          ]
+        }
+      ],
+      "notes": "Announced June 5, 2025 (Item 7.01 8-K), in the last month of fiscal 2025 (ended June 30, 2025); the cuts run through fiscal 2027. The proxy labels the year '2024-25'. Moeller moved to Executive Chairman on January 1, 2026, per the proxy."
+    },
+    {
+      "id": "lay-13",
+      "kind": "layoffs",
+      "company": {
+        "name": "Verizon Communications Inc.",
+        "cik": "732712",
+        "ticker": "VZ"
+      },
+      "person": {
+        "name": "Daniel Schulman",
+        "role": "Chief Executive Officer"
+      },
+      "date": "2025-11-20",
+      "headline": "\"The workforce reduction will include the elimination of over 13,000 positions\"",
+      "figures": [
+        {
+          "key": "jobs_cut",
+          "label": "positions eliminated (over)",
+          "printed": 13000,
+          "scale": null,
+          "unit": "people",
+          "evidence_refs": [
+            "j048"
+          ]
+        },
+        {
+          "key": "ceo_pay",
+          "label": "CEO total pay, 2025",
+          "printed": 34311016,
+          "scale": null,
+          "unit": "usd",
+          "fiscal_year": 2025,
+          "evidence_refs": [
+            "j052"
+          ]
+        },
+        {
+          "key": "restructuring_cost",
+          "label": "pre-tax severance charges, 2025",
+          "printed": 1.7,
+          "scale": "billion",
+          "unit": "usd",
+          "evidence_refs": [
+            "j049"
+          ]
+        },
+        {
+          "key": "dividends",
+          "label": "dividends paid, 2025",
+          "printed": 11.5,
+          "scale": "billion",
+          "unit": "usd",
+          "fiscal_year": 2025,
+          "evidence_refs": [
+            "j051"
+          ]
+        }
+      ],
+      "evidence_refs": [
+        "j050",
+        "j053",
+        "j089"
+      ],
+      "notes": "Schulman became CEO effective October 4, 2025, when Hans Vestberg stepped down; Schulman's 2025 total (salary $375,000) is mostly stock awards ($32,774,795). The same proxy reports former CEO Hans Vestberg's 2025 total as $31,175,022. Verizon did not repurchase shares in 2025."
+    },
+    {
+      "id": "lay-14",
+      "kind": "layoffs",
+      "company": {
+        "name": "3M Company",
+        "cik": "66740",
+        "ticker": "MMM"
+      },
+      "person": {
+        "name": "Michael F. Roman",
+        "role": "Chairman and Chief Executive Officer"
+      },
+      "date": "2023-04-25",
+      "headline": "Restructuring actions that \"will impact approximately 6,000 positions globally, in addition to the reduction of 2,500 global manufacturing roles announced in January 2023\"",
+      "figures": [
+        {
+          "key": "jobs_cut",
+          "label": "positions affected (April 2023 actions)",
+          "printed": 6000,
+          "scale": null,
+          "unit": "people",
+          "evidence_refs": [
+            "j054",
+            "j055"
+          ]
+        },
+        {
+          "key": "ceo_pay",
+          "label": "CEO total pay, 2023",
+          "printed": 16424566,
+          "scale": null,
+          "unit": "usd",
+          "fiscal_year": 2023,
+          "evidence_refs": [
+            "j057"
+          ]
+        },
+        {
+          "key": "ceo_pay_prior",
+          "label": "CEO total pay, 2022",
+          "printed": 14031387,
+          "scale": null,
+          "unit": "usd",
+          "fiscal_year": 2022,
+          "evidence_refs": [
+            "j057"
+          ]
+        },
+        {
+          "key": "restructuring_cost",
+          "label": "2023 pre-tax charge",
+          "printed": 437,
+          "scale": "million",
+          "unit": "usd",
+          "evidence_refs": [
+            "j055"
+          ]
+        },
+        {
+          "key": "buybacks",
+          "label": "share repurchases, 2023",
+          "printed": 33,
+          "scale": "million",
+          "unit": "usd",
+          "fiscal_year": 2023,
+          "evidence_refs": [
+            "j056"
+          ]
+        }
+      ],
+      "notes": "The 6,000 positions are in addition to 2,500 manufacturing roles announced in January 2023 (both from the April 25, 2023 earnings release filed as Exhibit 99.1). The $437 million charge and the $33 million of 2023 buybacks (versus $1.5 billion in 2022) are from the 2023 10-K."
+    },
+    {
+      "id": "lay-15",
+      "kind": "layoffs",
+      "company": {
+        "name": "Southwest Airlines Co.",
+        "cik": "92380",
+        "ticker": "LUV"
+      },
+      "person": {
+        "name": "Robert E. Jordan",
+        "role": "Chief Executive Officer and President"
+      },
+      "date": "2025-02-17",
+      "headline": "A reduction of the Company's current workforce \"by approximately 1,750 Employee roles, or 15% of corporate positions\"",
+      "figures": [
+        {
+          "key": "jobs_cut",
+          "label": "roles cut",
+          "printed": 1750,
+          "scale": null,
+          "unit": "people",
+          "evidence_refs": [
+            "j058"
+          ]
+        },
+        {
+          "key": "pct_workforce",
+          "label": "share of corporate positions",
+          "printed": 15,
+          "scale": null,
+          "unit": "pct",
+          "evidence_refs": [
+            "j058"
+          ]
+        },
+        {
+          "key": "ceo_pay",
+          "label": "CEO total pay, 2025",
+          "printed": 16587882,
+          "scale": null,
+          "unit": "usd",
+          "fiscal_year": 2025,
+          "evidence_refs": [
+            "j060"
+          ]
+        },
+        {
+          "key": "ceo_pay_prior",
+          "label": "CEO total pay, 2024",
+          "printed": 10562384,
+          "scale": null,
+          "unit": "usd",
+          "fiscal_year": 2024,
+          "evidence_refs": [
+            "j060"
+          ]
+        },
+        {
+          "key": "buybacks",
+          "label": "share repurchases, 2025",
+          "printed": 2.6,
+          "scale": "billion",
+          "unit": "usd",
+          "fiscal_year": 2025,
+          "evidence_refs": [
+            "j059"
+          ]
+        }
+      ],
+      "notes": "Employees were told February 17, 2025 (Item 2.05 8-K filed February 18). The 15% is of corporate positions, not the whole workforce. Buybacks from the 2025 10-K; pay from the 2026 proxy."
+    },
+    {
+      "id": "lay-16",
+      "kind": "layoffs",
+      "company": {
+        "name": "eBay Inc.",
+        "cik": "1065088",
+        "ticker": "EBAY"
+      },
+      "person": {
+        "name": "Jamie Iannone",
+        "role": "President and Chief Executive Officer"
+      },
+      "date": "2024-01-23",
+      "headline": "A reduction of the Company's current workforce \"by approximately 1,000 employee roles, or 9%\"",
+      "figures": [
+        {
+          "key": "jobs_cut",
+          "label": "roles cut",
+          "printed": 1000,
+          "scale": null,
+          "unit": "people",
+          "evidence_refs": [
+            "j061"
+          ]
+        },
+        {
+          "key": "pct_workforce",
+          "label": "share of workforce",
+          "printed": 9,
+          "scale": null,
+          "unit": "pct",
+          "evidence_refs": [
+            "j061"
+          ]
+        },
+        {
+          "key": "ceo_pay",
+          "label": "CEO total pay, 2024",
+          "printed": 20349650,
+          "scale": null,
+          "unit": "usd",
+          "fiscal_year": 2024,
+          "evidence_refs": [
+            "j063"
+          ]
+        },
+        {
+          "key": "ceo_pay_prior",
+          "label": "CEO total pay, 2023",
+          "printed": 21560669,
+          "scale": null,
+          "unit": "usd",
+          "fiscal_year": 2023,
+          "evidence_refs": [
+            "j063"
+          ]
+        },
+        {
+          "key": "buybacks",
+          "label": "share repurchases, 2024",
+          "printed": 3.1,
+          "scale": "billion",
+          "unit": "usd",
+          "fiscal_year": 2024,
+          "evidence_refs": [
+            "j062"
+          ]
+        },
+        {
+          "key": "dividends",
+          "label": "cash dividends, 2024",
+          "printed": 533,
+          "scale": "million",
+          "unit": "usd",
+          "fiscal_year": 2024,
+          "evidence_refs": [
+            "j062"
+          ]
+        }
+      ],
+      "notes": "Announced January 23, 2024 (Item 2.05 8-K filed January 24); the 8-K says most of the $90-110 million of charges would be booked in Q4 2023, with the actions substantially complete in 2024. Pay and buybacks are for 2024."
+    },
+    {
+      "id": "lay-17",
+      "kind": "layoffs",
+      "company": {
+        "name": "Intuit Inc.",
+        "cik": "896878",
+        "ticker": "INTU"
+      },
+      "person": {
+        "name": "Sasan K. Goodarzi",
+        "role": "President and Chief Executive Officer"
+      },
+      "date": "2024-07-10",
+      "headline": "\"Approximately 1,800 employees will exit the Company\"",
+      "figures": [
+        {
+          "key": "jobs_cut",
+          "label": "employees exiting",
+          "printed": 1800,
+          "scale": null,
+          "unit": "people",
+          "evidence_refs": [
+            "j064"
+          ]
+        },
+        {
+          "key": "ceo_pay",
+          "label": "CEO total pay, fiscal 2024",
+          "printed": 36572360,
+          "scale": null,
+          "unit": "usd",
+          "fiscal_year": 2024,
+          "evidence_refs": [
+            "j066"
+          ]
+        },
+        {
+          "key": "ceo_pay_prior",
+          "label": "CEO total pay, fiscal 2023",
+          "printed": 27305429,
+          "scale": null,
+          "unit": "usd",
+          "fiscal_year": 2023,
+          "evidence_refs": [
+            "j066"
+          ]
+        },
+        {
+          "key": "buybacks",
+          "label": "share repurchases, fiscal 2024",
+          "printed": 2.0,
+          "scale": "billion",
+          "unit": "usd",
+          "fiscal_year": 2024,
+          "evidence_refs": [
+            "j065"
+          ]
+        },
+        {
+          "key": "dividends",
+          "label": "cash dividends paid, fiscal 2024",
+          "printed": 1.0,
+          "scale": "billion",
+          "unit": "usd",
+          "fiscal_year": 2024,
+          "evidence_refs": [
+            "j065"
+          ]
+        }
+      ],
+      "notes": "Intuit's fiscal 2024 ended July 31, 2024; the July 10, 2024 Item 2.05 8-K says the company expected to hire a nearly equivalent number of employees in fiscal 2025."
+    },
+    {
+      "id": "lay-18",
+      "kind": "layoffs",
+      "company": {
+        "name": "Workday, Inc.",
+        "cik": "1327811",
+        "ticker": "WDAY"
+      },
+      "person": {
+        "name": "Carl M. Eschenbach",
+        "role": "Chief Executive Officer"
+      },
+      "date": "2025-02-05",
+      "headline": "\"The elimination of approximately 1,750 positions, or 8.5% of Workday's current workforce\"",
+      "figures": [
+        {
+          "key": "jobs_cut",
+          "label": "positions eliminated",
+          "printed": 1750,
+          "scale": null,
+          "unit": "people",
+          "evidence_refs": [
+            "j067"
+          ]
+        },
+        {
+          "key": "pct_workforce",
+          "label": "share of workforce",
+          "printed": 8.5,
+          "scale": null,
+          "unit": "pct",
+          "evidence_refs": [
+            "j067"
+          ]
+        },
+        {
+          "key": "ceo_pay",
+          "label": "CEO total pay, fiscal 2026",
+          "printed": 26031706,
+          "scale": null,
+          "unit": "usd",
+          "fiscal_year": 2026,
+          "evidence_refs": [
+            "j069"
+          ]
+        },
+        {
+          "key": "ceo_pay_prior",
+          "label": "CEO total pay, fiscal 2025",
+          "printed": 26173192,
+          "scale": null,
+          "unit": "usd",
+          "fiscal_year": 2025,
+          "evidence_refs": [
+            "j069"
+          ]
+        },
+        {
+          "key": "buybacks",
+          "label": "share repurchases, fiscal 2026",
+          "printed": 2.9,
+          "scale": "billion",
+          "unit": "usd",
+          "fiscal_year": 2026,
+          "evidence_refs": [
+            "j068"
+          ]
+        }
+      ],
+      "notes": "Announced February 5, 2025, the first week of fiscal 2026 (ended January 31, 2026), when most of the charges were expected. The 2026 proxy lists Eschenbach as Former Chief Executive Officer."
+    },
+    {
+      "id": "lay-19",
+      "kind": "layoffs",
+      "company": {
+        "name": "The Estée Lauder Companies Inc.",
+        "cik": "1001250",
+        "ticker": "EL"
+      },
+      "person": {
+        "name": "Stéphane de La Faverie",
+        "role": "President and Chief Executive Officer"
+      },
+      "date": "2025-02-04",
+      "headline": "An estimated \"net reduction in the range of approximately 5,800 to 7,000 positions globally\"",
+      "figures": [
+        {
+          "key": "jobs_cut",
+          "label": "net positions cut (low end of 5,800-7,000 estimate)",
+          "printed": 5800,
+          "scale": null,
+          "unit": "people",
+          "evidence_refs": [
+            "j070"
+          ]
+        },
+        {
+          "key": "ceo_pay",
+          "label": "CEO total pay, fiscal 2025",
+          "printed": 9613508,
+          "scale": null,
+          "unit": "usd",
+          "fiscal_year": 2025,
+          "evidence_refs": [
+            "j071"
+          ]
+        },
+        {
+          "key": "ceo_pay_prior",
+          "label": "total pay, fiscal 2024 (before becoming CEO)",
+          "printed": 5936922,
+          "scale": null,
+          "unit": "usd",
+          "fiscal_year": 2024,
+          "evidence_refs": [
+            "j071"
+          ]
+        }
+      ],
+      "notes": "The February 4, 2025 Item 2.05 8-K raised the estimate to approximately 5,800 to 7,000 positions, about 9-11% of positions as of June 30, 2023. Estée Lauder's fiscal 2025 ended June 30, 2025. de La Faverie became CEO during fiscal 2025, so his fiscal 2024 row reflects a prior role."
+    },
+    {
+      "id": "lay-20",
+      "kind": "layoffs",
+      "company": {
+        "name": "Zoom Communications, Inc.",
+        "cik": "1585521",
+        "ticker": "ZM"
+      },
+      "person": {
+        "name": "Eric S. Yuan",
+        "role": "Founder and Chief Executive Officer"
+      },
+      "date": "2023-02-07",
+      "headline": "\"Reduce our team by approximately 15% and say goodbye to around 1,300 hardworking, talented colleagues\"",
+      "figures": [
+        {
+          "key": "jobs_cut",
+          "label": "employees cut",
+          "printed": 1300,
+          "scale": null,
+          "unit": "people",
+          "evidence_refs": [
+            "j074"
+          ]
+        },
+        {
+          "key": "pct_workforce",
+          "label": "share of workforce",
+          "printed": 15,
+          "scale": null,
+          "unit": "pct",
+          "evidence_refs": [
+            "j072",
+            "j074"
+          ]
+        },
+        {
+          "key": "ceo_pay",
+          "label": "CEO total pay, fiscal 2024",
+          "printed": 28082133,
+          "scale": null,
+          "unit": "usd",
+          "fiscal_year": 2024,
+          "evidence_refs": [
+            "j075"
+          ]
+        },
+        {
+          "key": "ceo_pay_prior",
+          "label": "CEO total pay, fiscal 2023",
+          "printed": 75959683,
+          "scale": null,
+          "unit": "usd",
+          "fiscal_year": 2023,
+          "evidence_refs": [
+            "j075"
+          ]
+        }
+      ],
+      "evidence_refs": [
+        "j073"
+      ],
+      "notes": "The same 8-K cut Yuan's base salary 98% to $10,000 for fiscal 2024 (ended January 31, 2024); his fiscal 2024 Summary Compensation Table shows salary of $10,039 and stock awards of $26,246,026, for a total of $28,082,133."
+    },
+    {
+      "id": "lay-21",
+      "kind": "layoffs",
+      "company": {
+        "name": "Snap Inc.",
+        "cik": "1564408",
+        "ticker": "SNAP"
+      },
+      "person": {
+        "name": "Evan Spiegel",
+        "role": "Co-Founder and Chief Executive Officer"
+      },
+      "date": "2024-02-05",
+      "headline": "\"A plan to reduce our global headcount by approximately 10% of our global full time employees\"",
+      "figures": [
+        {
+          "key": "pct_workforce",
+          "label": "share of full-time employees",
+          "printed": 10,
+          "scale": null,
+          "unit": "pct",
+          "evidence_refs": [
+            "j076"
+          ]
+        },
+        {
+          "key": "ceo_pay",
+          "label": "CEO total pay, 2024",
+          "printed": 3298781,
+          "scale": null,
+          "unit": "usd",
+          "fiscal_year": 2024,
+          "evidence_refs": [
+            "j077"
+          ]
+        },
+        {
+          "key": "ceo_pay_prior",
+          "label": "CEO total pay, 2023",
+          "printed": 3339731,
+          "scale": null,
+          "unit": "usd",
+          "fiscal_year": 2023,
+          "evidence_refs": [
+            "j077"
+          ]
+        }
+      ],
+      "notes": "Snap reports executive pay in Part III of its 10-K. Spiegel's salary is $1; his total is almost entirely 'all other compensation' (the 10-K describes an executive security policy covering him). No buyback figure: the 10-K's 2024 repurchase amounts appear only in a table in thousands."
+    },
+    {
+      "id": "lay-22",
+      "kind": "layoffs",
+      "company": {
+        "name": "Hasbro, Inc.",
+        "cik": "46080",
+        "ticker": "HAS"
+      },
+      "person": {
+        "name": "Chris Cocks",
+        "role": "Chief Executive Officer"
+      },
+      "date": "2023-01-26",
+      "headline": "\"The elimination of approximately 1,000 positions from its global workforce this year, or approximately 15% of global full-time employees\"",
+      "figures": [
+        {
+          "key": "jobs_cut",
+          "label": "positions to be eliminated (January 2023)",
+          "printed": 1000,
+          "scale": null,
+          "unit": "people",
+          "evidence_refs": [
+            "j078"
+          ]
+        },
+        {
+          "key": "pct_workforce",
+          "label": "share of global full-time employees",
+          "printed": 15,
+          "scale": null,
+          "unit": "pct",
+          "evidence_refs": [
+            "j078"
+          ]
+        },
+        {
+          "key": "ceo_pay",
+          "label": "CEO total pay, 2023",
+          "printed": 15110869,
+          "scale": null,
+          "unit": "usd",
+          "fiscal_year": 2023,
+          "evidence_refs": [
+            "j082"
+          ]
+        },
+        {
+          "key": "ceo_pay_prior",
+          "label": "CEO total pay, 2022",
+          "printed": 9443047,
+          "scale": null,
+          "unit": "usd",
+          "fiscal_year": 2022,
+          "evidence_refs": [
+            "j082"
+          ]
+        },
+        {
+          "key": "dividends",
+          "label": "dividends paid, 2023",
+          "printed": 388.0,
+          "scale": "million",
+          "unit": "usd",
+          "fiscal_year": 2023,
+          "evidence_refs": [
+            "j081"
+          ]
+        }
+      ],
+      "evidence_refs": [
+        "j079",
+        "j080"
+      ],
+      "notes": "Announced in a January 26, 2023 press release filed with an 8-K. A December 11, 2023 Item 2.05 8-K added approximately 900 more positions. Hasbro made no share repurchases in 2023; dividends and 'no repurchases' are from the 2023 10-K."
+    },
+    {
+      "id": "lay-23",
+      "kind": "layoffs",
+      "company": {
+        "name": "Peloton Interactive, Inc.",
+        "cik": "1639825",
+        "ticker": "PTON"
+      },
+      "person": {
+        "name": "Barry McCarthy",
+        "role": "Chief Executive Officer and President"
+      },
+      "date": "2024-05-02",
+      "headline": "\"Reduce global headcount by approximately 15%, which impacts roughly 400 Peloton team members\"",
+      "figures": [
+        {
+          "key": "jobs_cut",
+          "label": "team members affected",
+          "printed": 400,
+          "scale": null,
+          "unit": "people",
+          "evidence_refs": [
+            "j083"
+          ]
+        },
+        {
+          "key": "pct_workforce",
+          "label": "share of global headcount",
+          "printed": 15,
+          "scale": null,
+          "unit": "pct",
+          "evidence_refs": [
+            "j083"
+          ]
+        },
+        {
+          "key": "ceo_pay",
+          "label": "CEO total pay, fiscal 2024",
+          "printed": 9515710,
+          "scale": null,
+          "unit": "usd",
+          "fiscal_year": 2024,
+          "evidence_refs": [
+            "j084"
+          ]
+        },
+        {
+          "key": "ceo_pay_prior",
+          "label": "CEO total pay, fiscal 2023",
+          "printed": 1094631,
+          "scale": null,
+          "unit": "usd",
+          "fiscal_year": 2023,
+          "evidence_refs": [
+            "j084"
+          ]
+        }
+      ],
+      "notes": "Peloton's fiscal 2024 ended June 30, 2024. The October 2024 proxy lists McCarthy as Former Chief Executive Officer and President; his fiscal 2024 total includes $8,351,910 of stock awards."
+    },
+    {
+      "id": "lay-24",
+      "kind": "layoffs",
+      "company": {
+        "name": "Lyft, Inc.",
+        "cik": "1759509",
+        "ticker": "LYFT"
+      },
+      "person": {
+        "name": "David Risher",
+        "role": "Chief Executive Officer"
+      },
+      "date": "2023-04-27",
+      "headline": "\"The termination of approximately 1,072 employees, representing 26% of the Company's employees\"",
+      "figures": [
+        {
+          "key": "jobs_cut",
+          "label": "employees terminated",
+          "printed": 1072,
+          "scale": null,
+          "unit": "people",
+          "evidence_refs": [
+            "j085"
+          ]
+        },
+        {
+          "key": "pct_workforce",
+          "label": "share of employees",
+          "printed": 26,
+          "scale": null,
+          "unit": "pct",
+          "evidence_refs": [
+            "j085"
+          ]
+        },
+        {
+          "key": "ceo_pay",
+          "label": "CEO total pay, 2023",
+          "printed": 78238027,
+          "scale": null,
+          "unit": "usd",
+          "fiscal_year": 2023,
+          "evidence_refs": [
+            "j086"
+          ]
+        }
+      ],
+      "notes": "Item 2.05 8-K filed April 27, 2023. Risher's 2023 total (from the 2024 proxy) is his first year as CEO: salary $514,969, $4,250,000 in the bonus column, and $73,322,375 of stock awards. No buyback figure is included."
+    }
+  ],
+  "evidence": [
+    {
+      "id": "j001",
+      "form": "8-K",
+      "accession": "0001193125-23-011424",
+      "filing_date": "2023-01-20",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312523011424/d454494d8k.htm",
+      "quote": "I have some difficult news to share. We've decided to reduce our workforce by approximately 12,000 roles.",
+      "supports": "Alphabet: Sundar Pichai's January 2023 email (filed as an 8-K) announcing approximately 12,000 role eliminations"
+    },
+    {
+      "id": "j002",
+      "form": "10-K",
+      "accession": "0001652044-24-000022",
+      "filing_date": "2024-01-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204424000022/goog-20231231.htm",
+      "quote": "We have a company-wide effort underway to re-engineer our cost base. As part of this program, in January 2023, we announced a reduction of our workforce. As a result, total employee severance and related charges recorded during the year ended December 31, 2023 were $2.1 billion.",
+      "supports": "Alphabet: employee severance and related charges of $2.1 billion in 2023 for the January 2023 workforce reduction"
+    },
+    {
+      "id": "j003",
+      "form": "10-K",
+      "accession": "0001652044-24-000022",
+      "filing_date": "2024-01-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204424000022/goog-20231231.htm",
+      "quote": "During 2023 we repurchased and subsequently retired 528 million shares for $62.2 billion.",
+      "supports": "Alphabet: $62.2 billion of share repurchases in 2023"
+    },
+    {
+      "id": "j004",
+      "form": "DEF 14A",
+      "accession": "0001308179-24-000612",
+      "filing_date": "2024-04-26",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000130817924000612/lgoog2024_def14a.htm",
+      "quote": "Sundar Pichai Chief Executive Officer, Alphabet and Google, and Director 2023 2,000,000 - - 6,802,824 (7) 8,802,824 2022 2,000,000 218,037,684 - 5,947,461 225,985,145",
+      "supports": "Alphabet: Summary Compensation Table rows for Pichai: 2023 total $8,802,824; 2022 total $225,985,145 (2022 includes a $218,037,684 stock award)"
+    },
+    {
+      "id": "j005",
+      "form": "8-K",
+      "accession": "0001193125-23-009934",
+      "filing_date": "2023-01-18",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312523009934/d447690d8k.htm",
+      "quote": "On January 18, 2023, Microsoft Corporation announced to its employees a series of actions it is taking in response to macroeconomic conditions and changing customer priorities. These actions include workforce reductions of approximately 10,000 employees by the end of the third fiscal quarter of 2023, changes to our hardware portfolio, and lease consolidation to create higher density across our workspaces. Collectively these actions will result in a charge of $1.2 billion in the second quarter of our 2023 fiscal year",
+      "supports": "Microsoft: January 18, 2023 announcement of workforce reductions of approximately 10,000 employees and a $1.2 billion charge"
+    },
+    {
+      "id": "j006",
+      "form": "10-K",
+      "accession": "0000950170-23-035122",
+      "filing_date": "2023-07-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017023035122/msft-20230630.htm",
+      "quote": "On January 18, 2023, we announced a decision to reduce our overall workforce by approximately 10,000 jobs through the third quarter of fiscal year 2023. During the three months ended December 31, 2022, we recorded $800 million of employee severance expenses related to these job eliminations",
+      "supports": "Microsoft: $800 million of employee severance expenses for the approximately 10,000 job eliminations"
+    },
+    {
+      "id": "j007",
+      "form": "10-K",
+      "accession": "0000950170-23-035122",
+      "filing_date": "2023-07-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017023035122/msft-20230630.htm",
+      "quote": "During fiscal years 2023 and 2022, we repurchased 69 million shares and 95 million shares of our common stock for $18.4 billion and $28.0 billion, respectively, through our share repurchase programs.",
+      "supports": "Microsoft: $18.4 billion of share repurchases in fiscal 2023 (FY ended June 30, 2023)"
+    },
+    {
+      "id": "j008",
+      "form": "10-K",
+      "accession": "0000950170-23-035122",
+      "filing_date": "2023-07-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017023035122/msft-20230630.htm",
+      "quote": "During fiscal year 2023 and 2022, our Board of Directors declared quarterly dividends of $0.68 per share and $0.62 per share, totaling $20.2 billion and $18.6 billion, respectively.",
+      "supports": "Microsoft: dividends declared of $20.2 billion in fiscal 2023"
+    },
+    {
+      "id": "j009",
+      "form": "DEF 14A",
+      "accession": "0001193125-23-259247",
+      "filing_date": "2023-10-19",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312523259247/d356108ddef14a.htm",
+      "quote": "Satya Nadella Chairman and Chief Executive Officer 2023 2,500,000 0 39,236,137 6,414,750 361,650 48,512,537 2022 2,500,000 0 42,269,560 10,066,500 110,250 54,946,310",
+      "supports": "Microsoft: Summary Compensation Table rows for Nadella: FY2023 total $48,512,537; FY2022 total $54,946,310"
+    },
+    {
+      "id": "j010",
+      "form": "8-K",
+      "accession": "0001326801-23-000035",
+      "filing_date": "2023-03-14",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000035/mar142023exhibit991.htm",
+      "quote": "Overall, we expect to reduce our team size by around 10,000 people and to close around 5,000 additional open roles that we haven't yet hired.",
+      "supports": "Meta: Mark Zuckerberg's March 14, 2023 post (Exhibit 99.1) announcing a reduction of around 10,000 people"
+    },
+    {
+      "id": "j011",
+      "form": "10-K",
+      "accession": "0001326801-24-000012",
+      "filing_date": "2024-02-02",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000012/meta-20231231.htm",
+      "quote": "In March 2023, we announced three rounds of planned layoffs to further reduce our company size by approximately 10,000 employees across the Family of Apps (FoA) and Reality Labs (RL) segments (the 2023 Restructuring). Impacted employees in our recruiting, technology, and business groups were notified during March 2023 to May 2023. As of December 31, 2023, we have completed these employee layoffs. In certain regions, a small portion of the impacted employees continue to be included in our reported headcount through 2024. We recognized $1.20 billion pre-tax severance and related personnel costs across the FoA and RL segments during the year ended December 31, 2023",
+      "supports": "Meta: the 2023 Restructuring cut approximately 10,000 employees; $1.20 billion of severance and related personnel costs in 2023"
+    },
+    {
+      "id": "j012",
+      "form": "10-K",
+      "accession": "0001326801-24-000012",
+      "filing_date": "2024-02-02",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000012/meta-20231231.htm",
+      "quote": "In 2023, we repurchased and subsequently retired 92 million shares of our Class A common stock for an aggregate amount of $20.03 billion, which includes the 1% excise tax accruals as a result of the Inflation Reduction Act of 2022.",
+      "supports": "Meta: $20.03 billion of Class A share repurchases in 2023 (including the 1% excise tax accrual)"
+    },
+    {
+      "id": "j013",
+      "form": "DEF 14A",
+      "accession": "0001326801-24-000034",
+      "filing_date": "2024-04-19",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000034/meta-20240418.htm",
+      "quote": "Mark Zuckerberg 2023 1 - - 24,399,967(4) 24,399,968 Chief Executive Officer 2022 1 - - 27,110,417(4) 27,110,418",
+      "supports": "Meta: Summary Compensation Table rows for Zuckerberg: 2023 total $24,399,968 (salary $1; all other compensation $24,399,967); 2022 total $27,110,418"
+    },
+    {
+      "id": "j014",
+      "form": "8-K",
+      "accession": "0001108524-23-000003",
+      "filing_date": "2023-01-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852423000003/crm-20230104.htm",
+      "quote": "On January 4, 2023, Salesforce, Inc. (the \"Company\") announced a restructuring plan (the \"Plan\") intended to reduce operating costs, improve operating margins, and continue advancing the Company's ongoing commitment to profitable growth. The Plan includes a reduction of the Company's current workforce by approximately 10 percent and select real estate exits and office space reductions within certain markets.",
+      "supports": "Salesforce: Item 2.05 restructuring plan including a workforce reduction of approximately 10 percent"
+    },
+    {
+      "id": "j015",
+      "form": "10-K",
+      "accession": "0001108524-23-000011",
+      "filing_date": "2023-03-08",
+      "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852423000011/crm-20230131.htm",
+      "quote": "In fiscal 2023, approximately $828 million of costs were incurred related to the January 2023 restructuring plan, of which approximately $683 million relates to employee transition, severance payments, employee benefits and stock-based compensation expense and $145 million relates to exit charges associated with office space reductions.",
+      "supports": "Salesforce: $683 million of the fiscal 2023 restructuring costs related to employee transition, severance, benefits and stock-based compensation"
+    },
+    {
+      "id": "j016",
+      "form": "10-K",
+      "accession": "0001108524-23-000011",
+      "filing_date": "2023-03-08",
+      "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852423000011/crm-20230131.htm",
+      "quote": "During the fiscal year ended January 31, 2023, we repurchased approximately 28 million shares of our common stock for approximately $4.0 billion",
+      "supports": "Salesforce: approximately $4.0 billion of share repurchases in fiscal 2023 (FY ended January 31, 2023)"
+    },
+    {
+      "id": "j017",
+      "form": "DEF 14A",
+      "accession": "0001193125-23-122123",
+      "filing_date": "2023-04-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/1108524/000119312523122123/d406753ddef14a.htm",
+      "quote": "Marc Benioff 2023 $ 1,550,000 $ 3,750(3) $ 14,760,156 $ 9,840,007 $ 2,170,000 $ 1,544,980 (4) $ 29,868,893 Chair of the Board and 2022 $ 1,550,000 - $ 13,500,117 $ 9,000,018 $ 3,100,000 $ 1,451,977 $ 28,602,112",
+      "supports": "Salesforce: Summary Compensation Table rows for Benioff: FY2023 total $29,868,893; FY2022 total $28,602,112"
+    },
+    {
+      "id": "j018",
+      "form": "8-K",
+      "accession": "0000050863-24-000122",
+      "filing_date": "2024-08-01",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086324000122/q224_earningsrelease.htm",
+      "quote": "Intel expects to reduce headcount by greater than 15% with the majority completed by the end of 2024.",
+      "supports": "Intel: August 1, 2024 earnings release (Exhibit 99.1) announcing a headcount reduction of greater than 15%"
+    },
+    {
+      "id": "j019",
+      "form": "10-K",
+      "accession": "0000050863-25-000009",
+      "filing_date": "2025-01-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000009/intc-20241228.htm",
+      "quote": "Employee severance and benefit arrangements includes net charges relating to the 2024 Restructuring Plan of $2.2 billion in 2024.",
+      "supports": "Intel: $2.2 billion of employee severance and benefit charges under the 2024 Restructuring Plan"
+    },
+    {
+      "id": "j020",
+      "form": "10-K",
+      "accession": "0000050863-25-000009",
+      "filing_date": "2025-01-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000009/intc-20241228.htm",
+      "quote": "Our capital allocation strategy historically included returning excess cash to stockholders through dividends and stock repurchases. Our most recent stock repurchase was in the first quarter of 2021 and we suspended the declaration of quarterly dividends starting with the fourth quarter of 2024.",
+      "supports": "Intel: last stock repurchase was in Q1 2021; quarterly dividends suspended starting Q4 2024"
+    },
+    {
+      "id": "j021",
+      "form": "DEF 14A",
+      "accession": "0000050863-25-000054",
+      "filing_date": "2025-03-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000054/intc-20250327.htm",
+      "quote": "Patrick P. Gelsinger 2024 1,145,800 - 24,625,700 822,200 - 836,200 27,429,900 Former CEO 2023 1,067,700 - 12,426,800 2,886,000 112,000 362,900 16,855,400",
+      "supports": "Intel: Summary Compensation Table rows for Gelsinger (listed as Former CEO): 2024 total $27,429,900; 2023 total $16,855,400"
+    },
+    {
+      "id": "j022",
+      "form": "8-K",
+      "accession": "0000050863-25-000107",
+      "filing_date": "2025-07-24",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000107/intc-20250724.htm",
+      "quote": "The Company expects these headcount reduction initiatives will reduce our core Intel workforce by 15% by the end of fiscal 2025.",
+      "supports": "Intel: Item 2.05 2025 Restructuring Plan to reduce the core Intel workforce by 15% by the end of fiscal 2025"
+    },
+    {
+      "id": "j023",
+      "form": "8-K",
+      "accession": "0000050863-25-000107",
+      "filing_date": "2025-07-24",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000107/intc-20250724.htm",
+      "quote": "Headcount reductions: The Company is recognizing pre-tax employee severance and related employee exit charges of $1.4 billion in the second quarter of 2025",
+      "supports": "Intel: $1.4 billion of employee severance and related exit charges in Q2 2025"
+    },
+    {
+      "id": "j024",
+      "form": "DEF 14A",
+      "accession": "0000050863-26-000061",
+      "filing_date": "2026-03-23",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000061/proxy2026.htm",
+      "quote": "Lip-Bu Tan 2025 746,200 - 49,639,500 39,523,200 2,374,000 708,000 92,990,900",
+      "supports": "Intel: Summary Compensation Table row for Lip-Bu Tan: 2025 total $92,990,900 (salary $746,200)"
+    },
+    {
+      "id": "j025",
+      "form": "8-K",
+      "accession": "0001193125-24-036201",
+      "filing_date": "2024-02-14",
+      "url": "https://www.sec.gov/Archives/edgar/data/858877/000119312524036201/d719981d8k.htm",
+      "quote": "On February 14, 2024, Cisco announced a restructuring plan in order to realign the organization and enable further investment in key priority areas. This restructuring plan will impact approximately 5 percent of Cisco's global workforce.",
+      "supports": "Cisco: Item 2.05 February 2024 restructuring plan impacting approximately 5 percent of the global workforce"
+    },
+    {
+      "id": "j026",
+      "form": "10-K",
+      "accession": "0000858877-24-000017",
+      "filing_date": "2024-09-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887724000017/csco-20240727.htm",
+      "quote": "In the third quarter of fiscal 2024, we initiated a restructuring plan in order to realign the organization and enable further investment in key priority areas, of which approximately 5% of our global workforce would be impacted. In connection with this plan, we incurred charges of $654 million for fiscal 2024 and the plan is substantially complete.",
+      "supports": "Cisco: $654 million of charges in fiscal 2024 for the plan impacting approximately 5% of the workforce"
+    },
+    {
+      "id": "j027",
+      "form": "10-K",
+      "accession": "0000858877-24-000017",
+      "filing_date": "2024-09-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887724000017/csco-20240727.htm",
+      "quote": "cash returned to stockholders in the form of cash dividends of $6.4 billion and repurchases of common stock of $5.8 billion",
+      "supports": "Cisco: fiscal 2024 cash dividends of $6.4 billion and repurchases of $5.8 billion"
+    },
+    {
+      "id": "j028",
+      "form": "DEF 14A",
+      "accession": "0001104659-24-109859",
+      "filing_date": "2024-10-18",
+      "url": "https://www.sec.gov/Archives/edgar/data/858877/000110465924109859/tm2414474d2_def14a.htm",
+      "quote": "Charles H. Robbins Chair and Chief Executive Officer 2024 $ 1,390,000 - $ 35,373,892 $ 2,356,328 $ 82,434 $ 39,202,654 2023 $ 1,390,000 - $ 24,108,979 $ 6,266,676 $ 78,053 $ 31,843,708",
+      "supports": "Cisco: Summary Compensation Table rows for Robbins: FY2024 total $39,202,654; FY2023 total $31,843,708"
+    },
+    {
+      "id": "j029",
+      "form": "8-K",
+      "accession": "0001193125-24-200636",
+      "filing_date": "2024-08-14",
+      "url": "https://www.sec.gov/Archives/edgar/data/858877/000119312524200636/d878533d8k.htm",
+      "quote": "On August 14, 2024, Cisco announced a restructuring plan to allow it to invest in key growth opportunities and drive more efficiencies in its business. This restructuring plan is expected to impact approximately 7 percent of Cisco's global workforce.",
+      "supports": "Cisco: Item 2.05 August 2024 restructuring plan expected to impact approximately 7 percent of the global workforce"
+    },
+    {
+      "id": "j030",
+      "form": "10-K",
+      "accession": "0000858877-25-000111",
+      "filing_date": "2025-09-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887725000111/csco-20250726.htm",
+      "quote": "In the first quarter of fiscal 2025, we announced a restructuring plan in order to allow us to invest in key growth opportunities and drive more efficiencies in our business. This restructuring plan is expected to impact approximately 7% of our global workforce with estimated pre-tax charges of approximately $1 billion. In connection with this restructuring plan, we incurred charges of $744 million during fiscal 2025.",
+      "supports": "Cisco: $744 million of charges in fiscal 2025 for the plan impacting approximately 7% of the workforce"
+    },
+    {
+      "id": "j031",
+      "form": "10-K",
+      "accession": "0000858877-25-000111",
+      "filing_date": "2025-09-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887725000111/csco-20250726.htm",
+      "quote": "cash returned to stockholders in the form of cash dividends of $6.4 billion and repurchases of common stock of $6.0 billion",
+      "supports": "Cisco: fiscal 2025 cash dividends of $6.4 billion and repurchases of $6.0 billion"
+    },
+    {
+      "id": "j032",
+      "form": "DEF 14A",
+      "accession": "0000858877-25-000150",
+      "filing_date": "2025-10-28",
+      "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887725000150/csco-20251027.htm",
+      "quote": "Charles H. Robbins 2025 1,390,000 - 45,870,690 5,117,424 460,637 52,838,751 41,266,351 Chair and Chief Executive Officer 2024 1,390,000 - 35,373,892 2,356,328 82,434 39,202,654 39,848,592",
+      "supports": "Cisco: Summary Compensation Table rows for Robbins: FY2025 total $52,838,751 and FY2024 total $39,202,654 (the column after Total is 'Total as Adjusted for Alternative Stock Award Values')"
+    },
+    {
+      "id": "j033",
+      "form": "8-K",
+      "accession": "0001090727-25-000046",
+      "filing_date": "2025-04-29",
+      "url": "https://www.sec.gov/Archives/edgar/data/1090727/000109072725000046/exhibit991-earningspressre.htm",
+      "quote": "We expect to reduce our operational workforce by approximately 20,000 positions during 2025 and close 73 leased and owned buildings by the end of June 2025.",
+      "supports": "UPS: April 29, 2025 earnings release (Exhibit 99.1) planning approximately 20,000 operational position cuts in 2025"
+    },
+    {
+      "id": "j034",
+      "form": "10-K",
+      "accession": "0001628280-26-008432",
+      "filing_date": "2026-02-17",
+      "url": "https://www.sec.gov/Archives/edgar/data/1090727/000162828026008432/ups-20251231.htm",
+      "quote": "We reduced our operational workforce by approximately 48,000 positions, including 15,000 fewer seasonal positions, and closed daily operations at 93 leased and owned buildings, 85 of which have been permanently closed in 2025.",
+      "supports": "UPS: operational workforce reduced by approximately 48,000 positions in 2025, including 15,000 fewer seasonal positions"
+    },
+    {
+      "id": "j035",
+      "form": "10-K",
+      "accession": "0001628280-26-008432",
+      "filing_date": "2026-02-17",
+      "url": "https://www.sec.gov/Archives/edgar/data/1090727/000162828026008432/ups-20251231.htm",
+      "quote": "During 2025, we returned $6.4 billion in cash to shareholders by completing $1.0 billion of share repurchases and paying $5.4 billion in dividends.",
+      "supports": "UPS: $1.0 billion of share repurchases and $5.4 billion of dividends paid in 2025"
+    },
+    {
+      "id": "j036",
+      "form": "DEF 14A",
+      "accession": "0001628280-26-019856",
+      "filing_date": "2026-03-19",
+      "url": "https://www.sec.gov/Archives/edgar/data/1090727/000162828026019856/ups-20260319.htm",
+      "quote": "Carol Tomé Chief Executive Officer 2025 1,509,713 - 17,550,546 1,358,754 2,264,569 - 195,206 22,878,788 2024 1,509,713 - 18,283,138 1,358,768 2,747,677 - 164,681 24,063,977",
+      "supports": "UPS: Summary Compensation Table rows for Tomé: 2025 total $22,878,788; 2024 total $24,063,977"
+    },
+    {
+      "id": "j037",
+      "form": "10-Q",
+      "accession": "0000012927-24-000082",
+      "filing_date": "2024-10-23",
+      "url": "https://www.sec.gov/Archives/edgar/data/12927/000001292724000082/ba-20240930.htm",
+      "quote": "On October 11, 2024, we announced that we plan to reduce the size of our total workforce by roughly 10 percent.",
+      "supports": "Boeing: plan announced October 11, 2024 to cut the total workforce by roughly 10 percent"
+    },
+    {
+      "id": "j038",
+      "form": "DEF 14A",
+      "accession": "0001193125-25-049921",
+      "filing_date": "2025-03-07",
+      "url": "https://www.sec.gov/Archives/edgar/data/12927/000119312525049921/d816992ddef14a.htm",
+      "quote": "Robert K. Ortberg President and CEO 2024 525,000 1,250,000 (7) 7,999,900 7,999,946 0 0 613,783 18,388,629",
+      "supports": "Boeing: Summary Compensation Table row for Ortberg: 2024 total $18,388,629 (salary $525,000)"
+    },
+    {
+      "id": "j039",
+      "form": "8-K",
+      "accession": "0000829224-25-000067",
+      "filing_date": "2025-09-25",
+      "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922425000067/exhibit991.htm",
+      "quote": "Second, we're further reducing non-retail headcount and expenses. This includes the difficult decision to eliminate approximately 900 current non-retail partner roles and close many open positions.",
+      "supports": "Starbucks: Brian Niccol's September 25, 2025 letter (Exhibit 99.1) eliminating approximately 900 non-retail partner roles"
+    },
+    {
+      "id": "j040",
+      "form": "8-K",
+      "accession": "0000829224-25-000067",
+      "filing_date": "2025-09-25",
+      "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922425000067/sbux-20250923.htm",
+      "quote": "The Company estimates that it will incur approximately $1 billion related to the store closures, support organization transformation, and other restructuring activities, with 90% of the expenses attributable to the North America business. The Company further expects that a significant portion of these charges will be incurred in fiscal year 2025. Of the total restructuring charges incurred, the Company estimates a breakdown of approximately $150 million related to employee separation benefits",
+      "supports": "Starbucks: Item 2.05 estimate of approximately $1 billion of restructuring charges, approximately $150 million of it for employee separation benefits"
+    },
+    {
+      "id": "j041",
+      "form": "10-K",
+      "accession": "0000829224-25-000114",
+      "filing_date": "2025-11-14",
+      "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922425000114/sbux-20250928.htm",
+      "quote": "We returned $2.8 billion and $3.8 billion to our shareholders in fiscal 2025 and fiscal 2024, respectively, through dividends and share repurchases.",
+      "supports": "Starbucks: $2.8 billion returned to shareholders in fiscal 2025 through dividends and share repurchases"
+    },
+    {
+      "id": "j042",
+      "form": "10-K",
+      "accession": "0000829224-25-000114",
+      "filing_date": "2025-11-14",
+      "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922425000114/sbux-20250928.htm",
+      "quote": "During the fiscal year ended September 28, 2025, we made no share repurchases.",
+      "supports": "Starbucks: no share repurchases in fiscal 2025, so the $2.8 billion returned was dividends"
+    },
+    {
+      "id": "j043",
+      "form": "DEF 14A",
+      "accession": "0001213900-26-007780",
+      "filing_date": "2026-01-26",
+      "url": "https://www.sec.gov/Archives/edgar/data/829224/000121390026007780/ea0270973-01.htm",
+      "quote": "Brian Niccol Fiscal Year 2025 Summary Compensation Table Total $30,992,773",
+      "supports": "Starbucks: Niccol's FY2025 Summary Compensation Table total of $30,992,773 (pay-versus-performance reconciliation)"
+    },
+    {
+      "id": "j044",
+      "form": "DEF 14A",
+      "accession": "0001213900-26-007780",
+      "filing_date": "2026-01-26",
+      "url": "https://www.sec.gov/Archives/edgar/data/829224/000121390026007780/ea0270973-01.htm",
+      "quote": "Brian Niccol chairman and chief executive officer 2025 2024 $1,599,998 $61,538 $5,000,000 $5,000,000 $19,881,585 $90,291,772 $1,971,000 $30,295 $2,540,190 $418,071 $30,992,773 $95,801,676",
+      "supports": "Starbucks: Summary Compensation Table row for Niccol with FY2025 and FY2024 columns side by side; totals $30,992,773 (FY2025) and $95,801,676 (FY2024)"
+    },
+    {
+      "id": "j045",
+      "form": "8-K",
+      "accession": "0000080424-25-000050",
+      "filing_date": "2025-06-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042425000050/deutschebankpresentation.htm",
+      "quote": "The Company also expects to reduce up to 7,000 roles, or approximately 15% of our current non-manufacturing workforce.",
+      "supports": "P&G: June 5, 2025 Item 7.01 announcement of up to 7,000 role cuts, approximately 15% of the non-manufacturing workforce"
+    },
+    {
+      "id": "j046",
+      "form": "10-K",
+      "accession": "0000080424-25-000076",
+      "filing_date": "2025-08-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042425000076/pg-20250630.htm",
+      "quote": "The total value of the shares purchased under the share repurchase plan was $6.5 billion.",
+      "supports": "P&G: $6.5 billion of share repurchases in fiscal 2025 (FY ended June 30, 2025)"
+    },
+    {
+      "id": "j047",
+      "form": "DEF 14A",
+      "accession": "0001193125-25-191749",
+      "filing_date": "2025-08-29",
+      "url": "https://www.sec.gov/Archives/edgar/data/80424/000119312525191749/d875382ddef14a.htm",
+      "quote": "Jon R. Moeller Chairman of the Board, President, and CEO 2024-25 1,637,500 1,887,600 11,519,645 6,562,515 0 0 302,556 21,909,816 2023-24 1,600,000 4,086,400 11,301,824 5,600,006 0 0 375,651 22,963,881",
+      "supports": "P&G: Summary Compensation Table rows for Moeller: fiscal 2024-25 total $21,909,816; fiscal 2023-24 total $22,963,881"
+    },
+    {
+      "id": "j048",
+      "form": "8-K",
+      "accession": "0000732712-25-000119",
+      "filing_date": "2025-11-20",
+      "url": "https://www.sec.gov/Archives/edgar/data/732712/000073271225000119/vz-20251120.htm",
+      "quote": "On November 20, 2025, Verizon Communications Inc. (Verizon) announced that it expects to record a severance charge in the range of $1.6 billion to $1.8 billion in the fourth quarter of 2025 in connection with its plans to reduce its workforce as it implements its previously announced plan to reduce its cost structure. The workforce reduction will include the elimination of over 13,000 positions, with over 80% of the affected employees exiting the business in December 2025.",
+      "supports": "Verizon: November 20, 2025 8-K: elimination of over 13,000 positions; expected severance charge of $1.6 billion to $1.8 billion"
+    },
+    {
+      "id": "j049",
+      "form": "10-K",
+      "accession": "0000732712-26-000007",
+      "filing_date": "2026-02-17",
+      "url": "https://www.sec.gov/Archives/edgar/data/732712/000073271226000007/vz-20251231.htm",
+      "quote": "During 2025, we recorded pre-tax severance charges of $1.7 billion principally as a result of separations in connection with our workforce reduction initiatives.",
+      "supports": "Verizon: $1.7 billion of pre-tax severance charges in 2025"
+    },
+    {
+      "id": "j050",
+      "form": "10-K",
+      "accession": "0000732712-26-000007",
+      "filing_date": "2026-02-17",
+      "url": "https://www.sec.gov/Archives/edgar/data/732712/000073271226000007/vz-20251231.htm",
+      "quote": "During the years ended December 31, 2025 and 2024, Verizon did not repurchase any shares of the Company's common stock under our share buyback program which was authorized by the Board in February 2020.",
+      "supports": "Verizon: no share repurchases in 2025 or 2024"
+    },
+    {
+      "id": "j051",
+      "form": "10-K",
+      "accession": "0000732712-26-000007",
+      "filing_date": "2026-02-17",
+      "url": "https://www.sec.gov/Archives/edgar/data/732712/000073271226000007/vz-20251231.htm",
+      "quote": "During 2025, we paid $11.5 billion in dividends.",
+      "supports": "Verizon: $11.5 billion of dividends paid in 2025"
+    },
+    {
+      "id": "j052",
+      "form": "DEF 14A",
+      "accession": "0001308179-26-000210",
+      "filing_date": "2026-04-06",
+      "url": "https://www.sec.gov/Archives/edgar/data/732712/000130817926000210/vz014688_def14a.htm",
+      "quote": "Daniel Schulman* Chief Executive Officer 2025 375,000 0 32,774,795 0 937,500 0 223,721 34,311,016",
+      "supports": "Verizon: Summary Compensation Table row for Schulman: 2025 total $34,311,016 (salary $375,000)"
+    },
+    {
+      "id": "j053",
+      "form": "DEF 14A",
+      "accession": "0001308179-26-000210",
+      "filing_date": "2026-04-06",
+      "url": "https://www.sec.gov/Archives/edgar/data/732712/000130817926000210/vz014688_def14a.htm",
+      "quote": "Hans Vestberg* Former Chairman and Chief Executive Officer 2025 1,500,000 0 25,000,035 0 3,750,000 1,534 923,453 31,175,022",
+      "supports": "Verizon: Summary Compensation Table row for former CEO Vestberg: 2025 total $31,175,022"
+    },
+    {
+      "id": "j054",
+      "form": "8-K",
+      "accession": "0000066740-23-000023",
+      "filing_date": "2023-04-25",
+      "url": "https://www.sec.gov/Archives/edgar/data/66740/000006674023000023/a2023q1-8kerexx991.htm",
+      "quote": "These restructuring actions are expected to affect all functions, businesses, and geographies and will impact approximately 6,000 positions globally, in addition to the reduction of 2,500 global manufacturing roles announced in January 2023.",
+      "supports": "3M: April 25, 2023 earnings release (Exhibit 99.1): approximately 6,000 positions, in addition to 2,500 manufacturing roles announced in January 2023"
+    },
+    {
+      "id": "j055",
+      "form": "10-K",
+      "accession": "0000066740-24-000016",
+      "filing_date": "2024-02-07",
+      "url": "https://www.sec.gov/Archives/edgar/data/66740/000006674024000016/mmm-20231231.htm",
+      "quote": "During 2023, management approved and committed to undertake associated actions impacting approximately 6,000 positions resulting in a 2023 pre-tax charge of $437 million.",
+      "supports": "3M: approximately 6,000 positions; 2023 pre-tax charge of $437 million"
+    },
+    {
+      "id": "j056",
+      "form": "10-K",
+      "accession": "0000066740-24-000016",
+      "filing_date": "2024-02-07",
+      "url": "https://www.sec.gov/Archives/edgar/data/66740/000006674024000016/mmm-20231231.htm",
+      "quote": "In 2023, the Company purchased $33 million of its own stock, compared to $1.5 billion of stock purchases in 2022.",
+      "supports": "3M: $33 million of share repurchases in 2023"
+    },
+    {
+      "id": "j057",
+      "form": "DEF 14A",
+      "accession": "0000066740-24-000037",
+      "filing_date": "2024-03-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/66740/000006674024000037/mmm-20240326.htm",
+      "quote": "Michael F. Roman 2023 1,464,544 - 6,000,053 5,999,289 2,665,470 - 295,210 16,424,566 Chairman of the Board and Chief Executive Officer 2022 1,406,250 - 5,500,066 5,500,883 1,327,676 - 296,512 14,031,387",
+      "supports": "3M: Summary Compensation Table rows for Roman: 2023 total $16,424,566; 2022 total $14,031,387"
+    },
+    {
+      "id": "j058",
+      "form": "8-K",
+      "accession": "0001193125-25-028035",
+      "filing_date": "2025-02-18",
+      "url": "https://www.sec.gov/Archives/edgar/data/92380/000119312525028035/d907526d8k.htm",
+      "quote": "the Company informed Employees of the Reduction, which provides for a reduction of the Company's current workforce by approximately 1,750 Employee roles, or 15% of corporate positions.",
+      "supports": "Southwest: Item 2.05 reduction of approximately 1,750 Employee roles, or 15% of corporate positions"
+    },
+    {
+      "id": "j059",
+      "form": "10-K",
+      "accession": "0000092380-26-000004",
+      "filing_date": "2026-02-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/92380/000009238026000004/luv-20251231.htm",
+      "quote": "The Company repurchased $2.6 billion of its common stock in 2025 through a series of accelerated share repurchase programs",
+      "supports": "Southwest: $2.6 billion of share repurchases in 2025"
+    },
+    {
+      "id": "j060",
+      "form": "DEF 14A",
+      "accession": "0001193125-26-127237",
+      "filing_date": "2026-03-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/92380/000119312526127237/d121727ddef14a.htm",
+      "quote": "Robert E. Jordan Chief Executive Officer & President 2025 844,792 - 13,075,072 2,031,160 - 636,858 16,587,882 2024 798,958 - 7,012,553 2,108,600 - 642,273 10,562,384",
+      "supports": "Southwest: Summary Compensation Table rows for Jordan: 2025 total $16,587,882; 2024 total $10,562,384"
+    },
+    {
+      "id": "j061",
+      "form": "8-K",
+      "accession": "0001552781-24-000014",
+      "filing_date": "2024-01-24",
+      "url": "https://www.sec.gov/Archives/edgar/data/1065088/000155278124000014/e24018_ebay-8k.htm",
+      "quote": "the Company announced the Plan, which includes a reduction of the Company's current workforce by approximately 1,000 employee roles, or 9%.",
+      "supports": "eBay: Item 2.05 workforce reduction of approximately 1,000 employee roles, or 9%"
+    },
+    {
+      "id": "j062",
+      "form": "10-K",
+      "accession": "0001065088-25-000037",
+      "filing_date": "2025-02-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/1065088/000106508825000037/ebay-20241231.htm",
+      "quote": "We repurchased $3.1 billion of common stock and paid $533 million in cash dividends.",
+      "supports": "eBay: $3.1 billion of share repurchases and $533 million of cash dividends in 2024"
+    },
+    {
+      "id": "j063",
+      "form": "DEF 14A",
+      "accession": "0001104659-25-042545",
+      "filing_date": "2025-04-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/1065088/000110465925042545/tm2424429-2_def14a.htm",
+      "quote": "Jamie Iannone President and Chief Executive Officer (\"CEO\") 2024 1,000,000 - 16,315,235 - 2,895,000 - 139,415 20,349,650 2023 1,000,000 - 12,904,448 4,141,196 3,330,000 - 185,025 21,560,669",
+      "supports": "eBay: Summary Compensation Table rows for Iannone: 2024 total $20,349,650; 2023 total $21,560,669"
+    },
+    {
+      "id": "j064",
+      "form": "8-K",
+      "accession": "0000896878-24-000030",
+      "filing_date": "2024-07-10",
+      "url": "https://www.sec.gov/Archives/edgar/data/896878/000089687824000030/intu-20240710.htm",
+      "quote": "As part of the Plan, approximately 1,800 employees will exit the Company and the Company will close its Boise and Edmonton sites in service to growing technology teams and capabilities in strategic locations.",
+      "supports": "Intuit: Item 2.05 plan under which approximately 1,800 employees will exit the company"
+    },
+    {
+      "id": "j065",
+      "form": "10-K",
+      "accession": "0000896878-24-000039",
+      "filing_date": "2024-09-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/896878/000089687824000039/intu-20240731.htm",
+      "quote": "During the same period, we used $4.2 billion for the repayment of debt, $2.0 billion for the repurchase of shares of our common stock under our stock repurchase programs, $1.0 billion for the payment of cash dividends",
+      "supports": "Intuit: fiscal 2024 uses of cash included $2.0 billion of share repurchases and $1.0 billion of cash dividends"
+    },
+    {
+      "id": "j066",
+      "form": "DEF 14A",
+      "accession": "0000896878-24-000061",
+      "filing_date": "2024-11-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/896878/000089687824000061/intu-20241126.htm",
+      "quote": "Sasan K. Goodarzi President and Chief Executive Officer 2024 1,200,000 (4) 24,247,389 8,650,027 2,280,000 (4) 194,944 (5) 36,572,360 2023 1,100,000 17,840,333 6,375,096 1,980,000 10,000 27,305,429",
+      "supports": "Intuit: Summary Compensation Table rows for Goodarzi: FY2024 total $36,572,360; FY2023 total $27,305,429"
+    },
+    {
+      "id": "j067",
+      "form": "8-K",
+      "accession": "0001327811-25-000030",
+      "filing_date": "2025-02-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/1327811/000132781125000030/wday-20250205.htm",
+      "quote": "On February 5, 2025, Workday announced a restructuring Plan intended to prioritize its investments and continue advancing Workday's ongoing focus on durable growth. The Plan is expected to result in the elimination of approximately 1,750 positions, or 8.5% of Workday's current workforce.",
+      "supports": "Workday: Item 2.05 elimination of approximately 1,750 positions, or 8.5% of the workforce"
+    },
+    {
+      "id": "j068",
+      "form": "10-K",
+      "accession": "0001327811-26-000014",
+      "filing_date": "2026-03-06",
+      "url": "https://www.sec.gov/Archives/edgar/data/1327811/000132781126000014/wday-20260131.htm",
+      "quote": "During fiscal 2026, we repurchased approximately 12.8 million shares of our Class A common stock for $2.9 billion as part of our share repurchase programs.",
+      "supports": "Workday: $2.9 billion of share repurchases in fiscal 2026 (FY ended January 31, 2026)"
+    },
+    {
+      "id": "j069",
+      "form": "DEF 14A",
+      "accession": "0001104659-26-055687",
+      "filing_date": "2026-05-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/1327811/000110465926055687/tm261347-2_def14a.htm",
+      "quote": "Carl M. Eschenbach Former Chief Executive Officer and Director 2026 1,037,808 - 22,982,993 1,556,712 454,194(6) 26,031,706 2025 1,000,000 - 23,909,133 1,225,500 38,559 26,173,192",
+      "supports": "Workday: Summary Compensation Table rows for Eschenbach (listed as Former CEO): FY2026 total $26,031,706; FY2025 total $26,173,192"
+    },
+    {
+      "id": "j070",
+      "form": "8-K",
+      "accession": "0001001250-25-000009",
+      "filing_date": "2025-02-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/1001250/000100125025000009/el-20250203.htm",
+      "quote": "In connection with the Restructuring Program, the Company now estimates a net reduction in the range of approximately 5,800 to 7,000 positions globally, which is about 9-11% of its positions including temporary and part-time employees as of June 30, 2023. This net reduction takes into account the elimination of positions after retraining and redeployment of certain employees in select areas.",
+      "supports": "Estée Lauder: Item 2.05 updated estimate of a net reduction of approximately 5,800 to 7,000 positions, about 9-11% of positions"
+    },
+    {
+      "id": "j071",
+      "form": "DEF 14A",
+      "accession": "0001104659-25-093184",
+      "filing_date": "2025-09-25",
+      "url": "https://www.sec.gov/Archives/edgar/data/1001250/000110465925093184/tm2523020-3_def14a.htm",
+      "quote": "Stéphane de La Faverie﻿(7) President and Chief Executive Officer 2025 $ 1,375,000 $ 0 $ 5,392,422 $ 1,348,109 $ 1,181,100 $ 167,378 $ 149,499 $ 9,613,508 2024 1,250,000 0 2,281,418 1,140,583 1,152,250 56,836 55,835 5,936,922",
+      "supports": "Estée Lauder: Summary Compensation Table rows for de La Faverie (President and CEO): FY2025 total $9,613,508; FY2024 total $5,936,922"
+    },
+    {
+      "id": "j072",
+      "form": "8-K",
+      "accession": "0001193125-23-026913",
+      "filing_date": "2023-02-07",
+      "url": "https://www.sec.gov/Archives/edgar/data/1585521/000119312523026913/d460719d8k.htm",
+      "quote": "On February 7, 2023, Zoom Video Communications, Inc. (the \"Company\") announced a restructuring plan (the \"Plan\") intended to reduce operating costs and continue advancing the Company's ongoing commitment to profitable growth. The Plan includes a reduction of the Company's current workforce by approximately 15 percent.",
+      "supports": "Zoom: Item 2.05 workforce reduction of approximately 15 percent"
+    },
+    {
+      "id": "j073",
+      "form": "8-K",
+      "accession": "0001193125-23-026913",
+      "filing_date": "2023-02-07",
+      "url": "https://www.sec.gov/Archives/edgar/data/1585521/000119312523026913/d460719d8k.htm",
+      "quote": "In connection with the Plan, the Company temporarily reduced the base salaries of its executive officers by 20% for fiscal 2024, and temporarily reduced the base salary of Eric S. Yuan, the Company's founder and CEO, by 98% to $10,000 for fiscal 2024.",
+      "supports": "Zoom: Eric Yuan's base salary temporarily cut 98% to $10,000 for fiscal 2024"
+    },
+    {
+      "id": "j074",
+      "form": "8-K",
+      "accession": "0001193125-23-026913",
+      "filing_date": "2023-02-07",
+      "url": "https://www.sec.gov/Archives/edgar/data/1585521/000119312523026913/d460719dex991.htm",
+      "quote": "We have made the tough but necessary decision to reduce our team by approximately 15% and say goodbye to around 1,300 hardworking, talented colleagues.",
+      "supports": "Zoom: Eric Yuan's message (Exhibit 99.1): about 15%, around 1,300 colleagues"
+    },
+    {
+      "id": "j075",
+      "form": "DEF 14A",
+      "accession": "0001585521-24-000078",
+      "filing_date": "2024-05-02",
+      "url": "https://www.sec.gov/Archives/edgar/data/1585521/000158552124000078/zm-20240502.htm",
+      "quote": "Eric S. Yuan, President and Chief Executive Officer 2024 10,039 26,246,026 721 1,825,347(3) 28,082,133 2023 402,962 74,311,158 - 1,245,563 75,959,683",
+      "supports": "Zoom: Summary Compensation Table rows for Yuan: FY2024 total $28,082,133 (salary $10,039; stock awards $26,246,026); FY2023 total $75,959,683"
+    },
+    {
+      "id": "j076",
+      "form": "8-K",
+      "accession": "0001193125-24-023571",
+      "filing_date": "2024-02-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/1564408/000119312524023571/d768969d8k.htm",
+      "quote": "On February 5, 2024, we announced a plan to reduce our global headcount by approximately 10% of our global full time employees.",
+      "supports": "Snap: Item 2.05 reduction of global headcount by approximately 10%"
+    },
+    {
+      "id": "j077",
+      "form": "10-K",
+      "accession": "0001564408-25-000019",
+      "filing_date": "2025-02-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/1564408/000156440825000019/snap-20241231.htm",
+      "quote": "Evan Spiegel 2024 $ 1 $ - $ - $ - $ 3,298,780 (2) $ 3,298,781 Co-Founder and Chief 2023 1 - - - 3,339,730 3,339,731",
+      "supports": "Snap: Summary Compensation Table rows for Spiegel (in the 10-K's Part III): 2024 total $3,298,781 (salary $1); 2023 total $3,339,731"
+    },
+    {
+      "id": "j078",
+      "form": "8-K",
+      "accession": "0000046080-23-000008",
+      "filing_date": "2023-01-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/46080/000004608023000008/releasedatedjanuary262023.htm",
+      "quote": "In alignment with this program's objectives, the Company is undertaking organizational changes that will result in the elimination of approximately 1,000 positions from its global workforce this year, or approximately 15% of global full-time employees.",
+      "supports": "Hasbro: January 26, 2023 press release (8-K exhibit) eliminating approximately 1,000 positions this year, approximately 15% of global full-time employees"
+    },
+    {
+      "id": "j079",
+      "form": "8-K",
+      "accession": "0000046080-23-000097",
+      "filing_date": "2023-12-11",
+      "url": "https://www.sec.gov/Archives/edgar/data/46080/000004608023000097/has-20231209.htm",
+      "quote": "The Company currently anticipates that approximately 900 incremental positions will be eliminated as part of the Additional Actions, which are expected to be substantially completed over the next 18 to 24 months.",
+      "supports": "Hasbro: December 2023 Item 2.05 plan to eliminate approximately 900 more positions"
+    },
+    {
+      "id": "j080",
+      "form": "10-K",
+      "accession": "0000046080-24-000034",
+      "filing_date": "2024-02-28",
+      "url": "https://www.sec.gov/Archives/edgar/data/46080/000004608024000034/has-20231231.htm",
+      "quote": "There were no repurchases of the Company's Common Stock during 2023.",
+      "supports": "Hasbro: no share repurchases in 2023"
+    },
+    {
+      "id": "j081",
+      "form": "10-K",
+      "accession": "0000046080-24-000034",
+      "filing_date": "2024-02-28",
+      "url": "https://www.sec.gov/Archives/edgar/data/46080/000004608024000034/has-20231231.htm",
+      "quote": "Dividends paid were $388.0 million in 2023, $385.3 million in 2022 and $374.5 million in 2021",
+      "supports": "Hasbro: dividends paid of $388.0 million in 2023"
+    },
+    {
+      "id": "j082",
+      "form": "DEF 14A",
+      "accession": "0001193125-24-085438",
+      "filing_date": "2024-04-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/46080/000119312524085438/d814749ddef14a.htm",
+      "quote": "Chris Cocks 2023 $ 1,500,000 $ 0 $ 7,875,020 $ 3,086,034 $ 1,944,000 $ 0 $ 705,815 $ 15,110,869 Chief Executive Officer 2022 $ 1,257,692 $ 0 $ 5,625,079 $ 2,246,689 $ 0 $ 1,121 $ 312,466 $ 9,443,047",
+      "supports": "Hasbro: Summary Compensation Table rows for Cocks: 2023 total $15,110,869; 2022 total $9,443,047"
+    },
+    {
+      "id": "j083",
+      "form": "8-K",
+      "accession": "0001639825-24-000049",
+      "filing_date": "2024-05-02",
+      "url": "https://www.sec.gov/Archives/edgar/data/1639825/000163982524000049/ptonpressreleaserestructur.htm",
+      "quote": "Reduce global headcount by approximately 15%, which impacts roughly 400 Peloton team members.",
+      "supports": "Peloton: May 2, 2024 press release (Exhibit 99.2): approximately 15% of global headcount, roughly 400 team members"
+    },
+    {
+      "id": "j084",
+      "form": "DEF 14A",
+      "accession": "0001193125-24-241065",
+      "filing_date": "2024-10-22",
+      "url": "https://www.sec.gov/Archives/edgar/data/1639825/000119312524241065/d877660ddef14a.htm",
+      "quote": "BARRY MCCARTHY Former Chief Executive Officer and President 2024 1,150,000 - 8,351,910 (8) 13,800 (5) 9,515,710 2023 1,076,923 - - 17,708 1,094,631",
+      "supports": "Peloton: Summary Compensation Table rows for McCarthy (listed as Former CEO and President): FY2024 total $9,515,710; FY2023 total $1,094,631"
+    },
+    {
+      "id": "j085",
+      "form": "8-K",
+      "accession": "0001759509-23-000036",
+      "filing_date": "2023-04-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950923000036/lyft-20230427.htm",
+      "quote": "On April 27, 2023, Lyft, Inc. (the \"Company\") announced a restructuring plan as part of its efforts to reduce operating costs. The plan involves the termination of approximately 1,072 employees, representing 26% of the Company's employees. The Company has also decided to scale back hiring and has eliminated over 250 open positions.",
+      "supports": "Lyft: Item 2.05 termination of approximately 1,072 employees, 26% of employees"
+    },
+    {
+      "id": "j086",
+      "form": "DEF 14A",
+      "accession": "0001759509-24-000055",
+      "filing_date": "2024-04-25",
+      "url": "https://www.sec.gov/Archives/edgar/data/1759509/000175950924000055/lyft-20240425.htm",
+      "quote": "David Risher 2023 514,969 4,250,000 73,322,375 - 150,683 78,238,027",
+      "supports": "Lyft: Summary Compensation Table row for Risher: 2023 total $78,238,027 (salary $514,969; stock awards $73,322,375)"
+    },
+    {
+      "id": "j087",
+      "form": "DEF 14A",
+      "accession": "0001326801-24-000034",
+      "filing_date": "2024-04-19",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000034/meta-20240418.htm",
+      "quote": "The amounts reported include approximately $9,431,139, $14,829,245, and $15,195,103 in 2023, 2022, and 2021, respectively, for costs related to personal security for Mr. Zuckerberg at his residences and during personal travel pursuant to Mr. Zuckerberg's overall security program. The amounts reported for each year also include an annual pre-tax allowance of $14,000,000 in 2023 and $10,000,000 in each of 2022 and 2021 to cover additional costs related to Mr. Zuckerberg and his family's personal security.",
+      "supports": "Meta: Zuckerberg's 'all other compensation' includes about $9.4 million of personal security costs and a $14,000,000 pre-tax security allowance in 2023"
+    },
+    {
+      "id": "j088",
+      "form": "DEF 14A",
+      "accession": "0001193125-23-122123",
+      "filing_date": "2023-04-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/1108524/000119312523122123/d406753ddef14a.htm",
+      "quote": "Marc Benioff, our Chair of the Board and Chief Executive Officer (\"CEO\"), formerly our Co-Chief Executive Officer (\"Co-CEO\"); • Bret Taylor, formerly our Vice Chair of the Board and Co-CEO;",
+      "supports": "Salesforce: Benioff was formerly Co-CEO alongside Bret Taylor"
+    },
+    {
+      "id": "j089",
+      "form": "DEF 14A",
+      "accession": "0001308179-26-000210",
+      "filing_date": "2026-04-06",
+      "url": "https://www.sec.gov/Archives/edgar/data/732712/000130817926000210/vz014688_def14a.htm",
+      "quote": "Mr. Daniel Schulman was appointed Verizon's Chief Executive Officer effective October 4, 2025, when Mr. Hans Vestberg stepped down as Chairman and Chief Executive Officer on that date.",
+      "supports": "Verizon: Schulman became CEO effective October 4, 2025, when Vestberg stepped down"
+    },
+    {
+      "id": "j090",
+      "form": "10-K",
+      "accession": "0000050863-25-000009",
+      "filing_date": "2025-01-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000009/intc-20241228.htm",
+      "quote": "The headcount actions in connection with the 2024 Restructuring Plan are expected to result in an approximate 15% decrease in our core Intel workforce by early 2025.",
+      "supports": "Intel: the 2024 10-K describes the cut as an approximate 15% decrease in the core Intel workforce by early 2025"
+    },
+    {
+      "id": "j091",
+      "form": "10-K",
+      "accession": "0000829224-25-000114",
+      "filing_date": "2025-11-14",
+      "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922425000114/sbux-20250928.htm",
+      "quote": "Brian Niccol joined Starbucks as chairman and chief executive officer in September 2024.",
+      "supports": "Starbucks: Niccol joined as chairman and CEO in September 2024 (fiscal 2024 ended September 29, 2024)"
+    }
+  ],
+  "rejected": [
+    {
+      "name": "Amazon (Andy Jassy), 2023 and 2025 corporate cuts",
+      "reason": "No SEC filing states a role count or percentage: the 10-Q/10-K report only estimated severance ($470 million in Q1 2023; $2.7 billion in 2025 'primarily related to planned role eliminations'). The 18,000 and 14,000 figures came from blog posts that were not filed. Amazon also made no buybacks in 2023-2025."
+    },
+    {
+      "name": "Tesla (Elon Musk), April 2024 cut of more than 10%",
+      "reason": "Musk's 2024 Summary Compensation Table row is all dashes, so there is no printed CEO pay figure for the year of the cuts."
+    },
+    {
+      "name": "Disney (Bob Iger), 7,000 jobs in 2023",
+      "reason": "The 7,000 figure was given on the earnings call; neither the 8-K release, the 10-Qs nor the fiscal 2023 10-K state a job count (only severance charges)."
+    },
+    {
+      "name": "Nike (John Donahoe), February 2024 cut of about 2%",
+      "reason": "The December 2023 Item 2.05 8-K and fiscal 2024 10-K describe only 'a net reduction of our global workforce' and $400-450 million of charges, with no count or percentage."
+    },
+    {
+      "name": "PayPal (Alex Chriss), January 2024 cut of about 2,500 roles",
+      "reason": "The 2024 10-K describes a 'global workforce reduction' with $307 million of charges but gives no count or percentage; no Item 2.05 8-K was filed."
+    },
+    {
+      "name": "Chevron (Mike Wirth), 2025 plan to cut 15-20% of workforce",
+      "reason": "The 10-Ks describe $2-3 billion of structural cost reductions and severance accruals but never state the percentage or a headcount."
+    },
+    {
+      "name": "Citigroup (Jane Fraser), 20,000 roles",
+      "reason": "Full-text search found no 10-K, 10-Q or 8-K with the 20,000 figure; the 10-K mentions restructuring charges and 'significant reductions in functional roles' only."
+    },
+    {
+      "name": "Target, October 2025 corporate cuts (about 1,800 roles)",
+      "reason": "No filing found with the role count."
+    },
+    {
+      "name": "CVS Health, 2023 corporate workforce cuts",
+      "reason": "The 10-Q reports $344 million of severance for 'corporate workforce optimization' but no count."
+    },
+    {
+      "name": "Walgreens Boots Alliance, October 2024 plan",
+      "reason": "The Item 2.05 8-K counts store closures (about 1,200-1,300), not jobs; it says most store workers would be redeployed."
+    },
+    {
+      "name": "HP Inc., November 2025 plan (4,000-6,000 employees)",
+      "reason": "Falls in fiscal 2026, whose CEO pay has not been disclosed yet; the earlier 4,000-6,000 plan was announced in November 2022."
+    },
+    {
+      "name": "Microsoft 2025 cuts (about 15,000 in May and July 2025)",
+      "reason": "The fiscal 2025 10-K gives no job count; only the January 2023 cut has a filed number (included)."
+    },
+    {
+      "name": "Accenture, March 2023 (about 19,000 people)",
+      "reason": "The 10-Q states the number, but Accenture plc is incorporated in Ireland; left out to keep the set to US companies."
+    },
+    {
+      "name": "Dell Technologies, February 2023 (about 5%)",
+      "reason": "Confirmed in an Item 2.05 8-K, but left out: the announcement came three days into fiscal 2024 while the charges went into fiscal 2023, so the pay year is ambiguous; Michael Dell's Summary Compensation Table total was $2,797,308 for fiscal 2023."
+    }
+  ]
+}

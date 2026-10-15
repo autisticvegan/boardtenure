@@ -74,7 +74,7 @@ export default async function Hellos() {
                   company={c.ticker ? `${c.company_name} (${c.ticker})` : c.company_name}
                   person={c.person_name ?? ""}
                   role={c.role ?? ""}
-                  left={[c.event_date?.slice(0, 7), c.headline.length < 90 ? `“${c.headline}”` : null].filter(Boolean).join(" · ")}
+                  left={[c.event_date?.slice(0, 7), c.headline.length < 90 ? `“${c.headline.replace(/^["“']+|["”']+$/g, "")}”` : null].filter(Boolean).join(" · ")}
                   items={parts(c).map((f) => ({ label: f.label, value: f.value }))}
                   total={total}
                   totalStated={stated}
@@ -96,6 +96,12 @@ export default async function Hellos() {
                     ↩ {f.label}: {compactMoney(f.value)}
                   </p>
                 ))}
+                {c.notes && (
+                  <details className="px-1 text-[12px] leading-4 text-ink-3">
+                    <summary className="cursor-pointer select-none hover:text-ink-2">Notes on these figures</summary>
+                    <p className="mt-1">{c.notes}</p>
+                  </details>
+                )}
                 {first && (
                   <p className="px-1 text-[12px] leading-4 text-ink-3">
                     First-year reported pay{first.fiscal_year ? ` (FY${first.fiscal_year})` : ""}:{" "}

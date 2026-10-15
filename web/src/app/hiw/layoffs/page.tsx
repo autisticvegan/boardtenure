@@ -34,7 +34,7 @@ export default async function Layoffs() {
       ) : (
         <>
           <dl className="grid grid-cols-2 md:grid-cols-3 gap-px overflow-hidden rounded-[14px] border border-line bg-line shadow-card">
-            <Tile value={people(jobs)} tone="loss" label={`jobs cut, as the companies counted them, across ${cases.length} announcements`} />
+            <Tile value={people(jobs)} tone="loss" label={`jobs and roles cut, as each company counted them, across ${cases.length} announcements`} />
             <Tile value={compactMoney(ceoPay)} label="paid to those companies' CEOs for the same years" />
             <Tile value={buybacks ? compactMoney(buybacks) : "—"} label="spent buying back their own stock in those years, where the 10-K says" />
           </dl>
@@ -68,10 +68,13 @@ function Row({ c }: { c: HiwCase }) {
           </div>
           <div className="mt-3 flex flex-wrap items-baseline gap-x-3">
             {cut && <span className="text-[34px] leading-[38px] font-black text-loss-ink num">{people(cut.value)}</span>}
-            {cut && <span className="text-[13px] text-ink-3">jobs</span>}
-            {pct && <span className="text-[15px] font-bold text-loss-ink num">{cut ? `(${pct.value}% of staff)` : `${pct.value}% of staff`}</span>}
+            {cut && <span className="text-[13px] text-ink-3">{cut.label}</span>}
           </div>
-          <p className="mt-2 text-[13px] leading-5 text-ink-2">&ldquo;{c.headline}&rdquo;</p>
+          <div className="flex flex-wrap items-baseline gap-x-2">
+            {pct && <span className={`${cut ? "text-[15px]" : "text-[34px] leading-[38px]"} font-black text-loss-ink num`}>{pct.value}%</span>}
+            {pct && <span className="text-[13px] text-ink-3">{pct.label}</span>}
+          </div>
+          <p className="mt-2 text-[13px] leading-5 text-ink-2">&ldquo;{c.headline.replace(/^["“']+|["”']+$/g, "")}&rdquo;</p>
           {cost && <p className="mt-1 text-[12px] leading-4 text-ink-3">{cost.label}: {compactMoney(cost.value)}</p>}
         </div>
         <div className="min-w-0 px-5 py-4 border-t md:border-t-0 md:border-l border-line bg-surface-2 space-y-3">
@@ -96,6 +99,12 @@ function Row({ c }: { c: HiwCase }) {
           )}
         </div>
       </div>
+      {c.notes && (
+        <details className="px-5 py-2 border-t border-line text-[12px] leading-4 text-ink-3">
+          <summary className="cursor-pointer select-none hover:text-ink-2">Notes on these figures</summary>
+          <p className="mt-1 max-w-[90ch]">{c.notes}</p>
+        </details>
+      )}
       <p className="px-5 py-2 border-t border-line text-[12px] leading-4 text-ink-3">
         Sources:{" "}
         {c.source_urls.map((u, i) => (
