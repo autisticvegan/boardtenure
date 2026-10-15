@@ -20,6 +20,12 @@
      "company_value_of_100": 49.0,
      "comparison_name": "S&P 500",
      "comparison_value_of_100": 147.0,
+     "other_comparisons": [
+      {
+       "name": "S&P Department Stores",
+       "value_of_100": 72.0
+      }
+     ],
      "period_start": "2015-01-31",
      "period_end": "2018-02-03",
      "evidence_refs": [
@@ -71,11 +77,18 @@
      "company_value_of_100": 78.05,
      "comparison_name": "S&P 500",
      "comparison_value_of_100": 173.86,
+     "other_comparisons": [
+      {
+       "name": "Dow Jones US Pharmaceuticals",
+       "value_of_100": 145.72
+      }
+     ],
      "period_start": "2014-12-31",
      "period_end": "2019-12-31",
      "evidence_refs": [
       "f012",
-      "f013"
+      "f013",
+      "f108"
      ]
     },
     "exit_pay": {
@@ -122,11 +135,18 @@
      "company_value_of_100": 81.0,
      "comparison_name": "S&P 500",
      "comparison_value_of_100": 174.0,
+     "other_comparisons": [
+      {
+       "name": "Dow Jones Automobiles & Parts Titans 30",
+       "value_of_100": 105.0
+      }
+     ],
      "period_start": "2014-12-31",
      "period_end": "2019-12-31",
      "evidence_refs": [
       "f020",
-      "f021"
+      "f021",
+      "f109"
      ]
     },
     "exit_pay": {
@@ -172,6 +192,12 @@
      "company_value_of_100": 101.93,
      "comparison_name": "S&P 500 Stock Index",
      "comparison_value_of_100": 173.86,
+     "other_comparisons": [
+      {
+       "name": "S & P Information Technology",
+       "value_of_100": 250.89
+      }
+     ],
      "period_start": "2014-12-31",
      "period_end": "2019-12-31",
      "evidence_refs": [
@@ -219,6 +245,12 @@
      "company_value_of_100": 67.49,
      "comparison_name": "S&P 500",
      "comparison_value_of_100": 129.11,
+     "other_comparisons": [
+      {
+       "name": "S&P Consumer Staples Food and Soft Drink Products",
+       "value_of_100": 121.93
+      }
+     ],
      "period_start": "2015-07-06",
      "period_end": "2018-12-28",
      "evidence_refs": [
@@ -275,11 +307,18 @@
      "company_value_of_100": 50.95,
      "comparison_name": "S&P 500",
      "comparison_value_of_100": 173.8,
+     "other_comparisons": [
+      {
+       "name": "S&P 500 Consumer Discretionary",
+       "value_of_100": 185.18
+      }
+     ],
      "period_start": "2014-12-31",
      "period_end": "2019-12-31",
      "evidence_refs": [
       "f046",
-      "f047"
+      "f047",
+      "f110"
      ]
     },
     "exit_pay": {
@@ -325,6 +364,7 @@
      "company_value_of_100": 11.0,
      "comparison_name": "S&P 500 Health Care Index (pay-versus-performance peer group TSR)",
      "comparison_value_of_100": 147.0,
+     "other_comparisons": [],
      "period_start": "2019-12-31",
      "period_end": "2024-12-31",
      "evidence_refs": [
@@ -375,6 +415,12 @@
      "company_value_of_100": 40.5,
      "comparison_name": "Nasdaq Composite Index",
      "comparison_value_of_100": 230.8,
+     "other_comparisons": [
+      {
+       "name": "Philadelphia Semiconductor Index",
+       "value_of_100": 402.02
+      }
+     ],
      "period_start": "2019-06-28",
      "period_end": "2024-06-30",
      "evidence_refs": [
@@ -425,6 +471,12 @@
      "company_value_of_100": 77.34,
      "comparison_name": "S&P 500",
      "comparison_value_of_100": 153.35,
+     "other_comparisons": [
+      {
+       "name": "Dow Jones U.S. Pharmaceuticals",
+       "value_of_100": 141.08
+      }
+     ],
      "period_start": "2020-11-16",
      "period_end": "2023-12-31",
      "evidence_refs": [
@@ -1421,6 +1473,33 @@
    "url": "https://www.sec.gov/Archives/edgar/data/801898/000114420417019159/v463567_8k.htm",
    "quote": "the closing on April 5, 2017 (the “Closing Date”)",
    "supports": "Joy Global/Komatsu merger closing date"
+  },
+  {
+   "id": "f108",
+   "form": "10-K",
+   "accession": "0001564590-20-005038",
+   "filing_date": "2020-02-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/1578845/000156459020005038/agn-10k_20191231.htm",
+   "quote": "12/14 12/15 12/16 12/17 12/18 12/19 Allergan plc $ 100.00 $ 121.40 $ 81.59 $ 64.38 $ 53.52 $ 78.05 S&P 500 $ 100.00 $ 101.38 $ 113.51 $ 138.29 $ 132.23 $ 173.86 Dow Jones US Pharmaceuticals $ 100.00 $ 106.21 $ 103.90 $ 116.41 $ 126.16 $ 145.72",
+   "supports": "Allergan table including Dow Jones US Pharmaceuticals $145.72 at Dec 2019"
+  },
+  {
+   "id": "f109",
+   "form": "10-K",
+   "accession": "0000037996-20-000010",
+   "filing_date": "2020-02-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799620000010/f1231201910-k.htm",
+   "quote": "2014 2015 2016 2017 2018 2019 Ford Motor Company 100 95 87 95 62 81 S&P 500 100 101 114 138 132 174 Dow Jones Automobiles & Parts Titans 30 100 99 97 118 92 105",
+   "supports": "Ford table including Dow Jones Automobiles & Parts Titans 30 at 105 at 2019"
+  },
+  {
+   "id": "f110",
+   "form": "10-K",
+   "accession": "0001628280-20-002192",
+   "filing_date": "2020-02-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/63276/000162828020002192/mat1231201910-k.htm",
+   "quote": "December 31, 2014 2015 2016 2017 2018 2019 Cumulative Total Return: Mattel, Inc. $ 100.00 $ 93.43 $ 99.45 $ 57.83 $ 37.56 $ 50.95 S&P 500 $ 100.00 $ 101.37 $ 113.49 $ 138.26 $ 132.19 $ 173.80 S&P 500 Consumer Discretionary $ 100.00 $ 110.11 $ 116.75 $ 143.57 $ 144.74 $ 185.18",
+   "supports": "Mattel table including S&P 500 Consumer Discretionary $185.18 at Dec 2019"
   }
  ],
  "rejected": [

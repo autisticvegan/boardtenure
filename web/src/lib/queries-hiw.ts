@@ -188,6 +188,7 @@ export type FailingUp = {
   to_role: string;
   to_start: string | null;
   to_kind: "executive" | "director";
+  other_comparisons: { name: string; value_of_100: number }[];
   pay: { fiscal_year: number; total: number }[];
   notes: string | null;
   source_urls: string[];
@@ -197,7 +198,7 @@ export type FailingUp = {
 export const getFailingUp = cache(async (): Promise<FailingUp[]> => sql<FailingUp[]>`
   SELECT id, person_name, from_company, from_ticker, from_role, from_start, from_end, exit_description,
          from_value_of_100, comparison_name, comparison_value_of_100, period_start::text, period_end::text,
-         exit_pay_total, exit_pay_description, to_company, to_ticker, to_role, to_start, to_kind, pay, notes,
+         exit_pay_total, exit_pay_description, to_company, to_ticker, to_role, to_start, to_kind, other_comparisons, pay, notes,
          source_urls
   FROM failing_up_case ORDER BY comparison_value_of_100 - from_value_of_100 DESC`);
 

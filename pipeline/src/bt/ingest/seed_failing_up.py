@@ -40,7 +40,8 @@ def check(data: dict, quote_ok: dict[str, bool] | None = None) -> list[str]:
         if c["to"].get("kind", "executive") not in ("executive", "director"):
             problems.append(f"{c['id']}: to.kind must be executive or director")
         st = c["from"]["stock"]
-        need(f"{c['id']} stock", st["evidence_refs"], [st["company_value_of_100"], st["comparison_value_of_100"]])
+        need(f"{c['id']} stock", st["evidence_refs"], [st["company_value_of_100"], st["comparison_value_of_100"]]
+             + [o["value_of_100"] for o in st.get("other_comparisons", [])])
         xp = c["from"].get("exit_pay") or {}
         if xp.get("total"):
             need(f"{c['id']} exit pay", xp.get("evidence_refs", []), [xp["total"]])
@@ -78,8 +79,8 @@ def load(conn: psycopg.Connection, path: Path) -> int:
             f"""INSERT INTO failing_up_case (id, person_name, person_cik, from_company, from_ticker, from_role,
                  from_start, from_end, exit_description, from_value_of_100, comparison_name, comparison_value_of_100,
                  period_start, period_end, exit_pay_total, exit_pay_description, to_company, to_ticker, to_role,
-                 to_start, pay, notes, source_urls, evidence_ids, to_kind, source_file)
-               VALUES ({", ".join(["%s"] * 26)})""",
+                 to_start, pay, notes, source_urls, evidence_ids, to_kind, source_file, other_comparisons)
+               VALUES ({", ".join(["%s"] * 27)})""",
             (c["id"], c["person"]["name"], c["person"].get("sec_cik"), f["company"], f.get("ticker"), f["role"],
              f.get("start"), f.get("end"), f.get("exit_description"), st["company_value_of_100"],
              st["comparison_name"], st["comparison_value_of_100"],
@@ -88,5 +89,7 @@ def load(conn: psycopg.Connection, path: Path) -> int:
              xp.get("total"), xp.get("description"), t["company"], t.get("ticker"), t["role"], t.get("start"),
              json.dumps([{"fiscal_year": p["fiscal_year"], "total": p["total"]} for p in t["pay"]]),
              c.get("notes") or None, sorted({url[r] for r in refs}), [ev_id[r] for r in refs],
-             t.get("kind", "executive"), path.name))
+             t.get("kind", "executive"), path.name,
+             json.dumps([{"name": o["name"], "value_of_100": o["value_of_100"]}
+                         for o in st.get("other_comparisons", [])])))
     return len(data["cases"])

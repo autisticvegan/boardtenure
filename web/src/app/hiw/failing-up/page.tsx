@@ -29,7 +29,7 @@ export default async function FailingUpPage({ searchParams }: PageProps<"/hiw/fa
       <header className="max-w-[860px] space-y-4">
         <div className="text-[12px] font-bold uppercase tracking-[0.16em] text-accent-ink">Failing up</div>
         <h1 className="text-[40px] leading-[44px] sm:text-[60px] sm:leading-[62px] font-extrabold tracking-[-0.035em] text-ink">
-          Shareholders lost. They got hired anyway.
+          Shareholders came up short. They got hired anyway.
         </h1>
         <p className="text-[17px] leading-7 text-ink-2">
           They held a top job at a public company while its shareholders lost at least 40%, or trailed the company&apos;s own chosen
@@ -64,7 +64,8 @@ export default async function FailingUpPage({ searchParams }: PageProps<"/hiw/fa
 
       <p className="text-[12px] leading-4 text-ink-3 max-w-[80ch]">
         Each window is a cumulative-return table from the first company&apos;s own 10-K or proxy that starts and ends inside
-        the person&apos;s tenure; a case was dropped if a longer or earlier in-tenure table showed the stock doing better.
+        the person&apos;s tenure; a case was dropped if any other in-tenure table at least as long showed the stock ahead
+        of its comparison.
         The next role began after that window ended and within three years of leaving. Pay is the next company&apos;s
         Summary Compensation Table total for executives, or its Director Compensation table total for directors. A strict,
         short list: candidates with ambiguous windows were left out. These are facts about pay and stock; they don&apos;t
@@ -85,10 +86,15 @@ function CaseRow({ c }: { c: FailingUp }) {
           <div className="mt-1 text-[18px] leading-6 font-semibold text-ink">{c.person_name}</div>
           <div className="text-[12px] leading-4 text-ink-3">{c.from_role} · {c.from_start?.slice(0, 7)} to {c.from_end?.slice(0, 7)}</div>
           <div className="mt-3 flex items-baseline gap-3">
-            <span className="text-[28px] leading-[32px] font-extrabold text-loss-ink num">{hundred(c.from_value_of_100)}</span>
+            <span className={`text-[28px] leading-[32px] font-extrabold num ${c.from_value_of_100 < 100 ? "text-loss-ink" : "text-ink"}`}>{hundred(c.from_value_of_100)}</span>
             <span className="text-[12px] leading-4 text-ink-3">
               from $100, {c.period_start?.slice(0, 7)} to {c.period_end?.slice(0, 7)}<br />
               {c.comparison_name}: {hundred(c.comparison_value_of_100)}
+              {c.other_comparisons.map((o) => (
+                <span key={o.name} className="block">
+                  {o.name}: <span className={o.value_of_100 < c.from_value_of_100 ? "text-ink-2 font-semibold" : ""}>{hundred(o.value_of_100)}</span>
+                </span>
+              ))}
             </span>
           </div>
           {c.exit_pay_total != null && (
@@ -103,7 +109,7 @@ function CaseRow({ c }: { c: FailingUp }) {
           <div className="mt-1 text-[15px] leading-6 font-semibold text-ink">{c.to_role}</div>
           <div className="text-[12px] leading-4 text-ink-3">from {c.to_start?.slice(0, 7)}</div>
           <div className="mt-3 flex flex-wrap gap-x-5 gap-y-1">
-            {pay.map((p) => (
+            {pay.filter((p) => p.total > 0).map((p) => (
               <div key={p.fiscal_year}>
                 <div className="text-[24px] leading-[28px] font-extrabold text-accent-ink num">{compactMoney(p.total)}</div>
                 <div className="text-[12px] leading-4 text-ink-3">{seat ? "for the seat" : "paid"}, FY{p.fiscal_year}</div>

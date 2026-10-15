@@ -274,6 +274,14 @@ fetched and every figure shown has been matched to a fact in that filing. Years 
 tagged per person and are left out of the sums, which understates pay. Exit packages and
 "failing up" cases are researched filing by filing with machine-verified quotes, like board dates.
 
+**Failing up.** A case needs a cumulative-return table in the first company's own 10-K or proxy whose
+base date and end point both fall inside the person's tenure in the role, showing a loss of at least
+40% or a shortfall of at least 50 points against an index or peer group in the same table. It is
+dropped if any other in-tenure table window at least as long shows the stock ahead of its comparison.
+The next role (an executive officer listed in the next company's Summary Compensation Table, or a
+non-employee director paid under its Director Compensation table) must begin after the window ends and
+within three years of leaving. Pay is that company's reported total for each fiscal year on file.
+
 ## Confidence
 
 | level | rule |

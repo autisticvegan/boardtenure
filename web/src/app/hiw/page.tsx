@@ -147,7 +147,7 @@ export default async function HiwHome() {
         )}
         {failing.length > 0 && (
           <section aria-labelledby="failing" className="min-w-0 space-y-4">
-            <Head id="failing" kicker="Failing up" title="Shareholders lost. They got hired anyway." href="/failing-up"
+            <Head id="failing" kicker="Failing up" title="Shareholders came up short. They got hired anyway." href="/failing-up"
                   sub="Shareholders lost big by one company's own figures; another company hired them as an executive next." />
             <ol className="space-y-3">
               {failing.slice(0, 3).map((f) => (
@@ -158,7 +158,10 @@ export default async function HiwHome() {
                       <div className="text-[12px] leading-4 text-ink-3 truncate">{f.from_company} → {f.to_company}</div>
                     </div>
                     <div className="text-right shrink-0">
-                      <div className="text-[13px] text-ink-3">$100 → <span className="text-loss-ink font-bold num">{hundred(f.from_value_of_100)}</span></div>
+                      <div className="text-[13px] text-ink-3">
+                        $100 → <span className={`${f.from_value_of_100 < 100 ? "text-loss-ink" : "text-ink"} font-bold num`}>{hundred(f.from_value_of_100)}</span>
+                        <span className="text-[11px]"> vs {hundred(f.comparison_value_of_100)}</span>
+                      </div>
                       <div className="text-[13px] text-ink-3">then <span className="text-accent-ink font-bold num">{compactMoney(f.pay[0]?.total)}</span></div>
                     </div>
                   </Link>

@@ -1,0 +1,2250 @@
+{
+ "as_of": "2026-10-14",
+ "slice": "fux",
+ "method": "Slice fux: executives of company A who became named executive officers of company B. Candidates came from (a) the market screen of CEO changes at companies whose pay-versus-performance TSR showed heavy losses, (b) EDGAR full-text searches of 8-K Item 5.02 filings (2016-2026) for appointments describing a prior role as 'Chief Financial Officer of', 'Chief Executive Officer of', 'President of' or 'Chief Operating Officer of' a company whose stock fell, and name searches on departing CEOs, CFOs and other named executives of such companies, and (c) known executive moves. Every fact was then checked in SEC filings only: A's stock test uses A's 10-K Item 5 performance-graph table or a proxy pay-versus-performance table, B's pay uses B's proxy Summary Compensation Table 'Total' column, and tenure and exit dates come from 8-Ks and proxies. A case qualifies when a tabulated window whose base date and end point both fall inside the person's tenure as a named executive officer of A shows a loss of at least 40% ($100 to $60 or less) or a shortfall of at least 50 points against an index or peer group in the same table, A's public float reached about $500 million, and the person became a named executive officer of a US-listed B after the loss window and no later than three years after leaving A. The longest in-tenure window was used (the earliest in-tenure base, then the latest in-tenure point from a table with that base); a case was rejected if a longer or earlier-based in-tenure window in A's own filings failed the test. Intermediate points inside the chosen window are shown in the notes, including any where A was ahead. Cases were rejected when the only in-tenure graphs were image-only or untabulated, when the in-tenure window missed both bars, or when B came more than three years after A. Pay years reported only outside a proxy (for example in 10-K Part III) are mentioned in notes, not recorded. Quotes are verbatim from bt.text.document_text output (whitespace and typographic variants normalized). Exit pay is recorded only where a filing quantifies it.",
+ "cases": [
+  {
+   "id": "fux-01",
+   "person": {
+    "name": "Margaret C. (Meg) Whitman",
+    "sec_cik": "0001079816"
+   },
+   "from": {
+    "company": "Hewlett-Packard Company (now HP Inc.)",
+    "cik": "0000047217",
+    "ticker": "HPQ",
+    "role": "President and Chief Executive Officer (also Chairman from July 2014)",
+    "start": "2011-09",
+    "end": "2015-10-31",
+    "exit_description": "her HP role ended with the company's split ('Hewlett Packard Enterprise which separated from HP on November 1, 2015'); she became HPE's CEO",
+    "stock": {
+     "company_value_of_100": 110.97,
+     "comparison_name": "S&P 500 Index",
+     "comparison_value_of_100": 180.69,
+     "other_comparisons": [
+      {
+       "name": "S&P Information Technology Index",
+       "value_of_100": 185.55
+      }
+     ],
+     "period_start": "2011-10-31",
+     "period_end": "2015-10-31",
+     "evidence_refs": [
+      "x067",
+      "x068",
+      "x070"
+     ]
+    },
+    "exit_pay": {
+     "total": null,
+     "description": "No HP separation payment found in the filings reviewed; she moved directly to the CEO job at Hewlett Packard Enterprise when HP split.",
+     "evidence_refs": []
+    }
+   },
+   "to": {
+    "company": "Hewlett Packard Enterprise Company",
+    "cik": "0001645590",
+    "ticker": "HPE",
+    "kind": "executive",
+    "role": "President and Chief Executive Officer",
+    "start": "2015-11-01",
+    "pay": [
+     {
+      "fiscal_year": 2016,
+      "total": 35564351,
+      "evidence_ref": "x071"
+     },
+     {
+      "fiscal_year": 2017,
+      "total": 17084122,
+      "evidence_ref": "x071"
+     },
+     {
+      "fiscal_year": 2018,
+      "total": 750042,
+      "evidence_ref": "x072"
+     }
+    ]
+   },
+   "notes": "Qualifies on the shortfall test ($110.97 vs S&P 500 $180.69 at the October 2015 fiscal year-end; S&P Information Technology $185.55), not the loss test; the table's October 2012 point was $53.26 (x068). HP's fiscal year ends October 31, and the October 31, 2011 base is the first year-end after she became CEO in September 2011 (x070). The October 2016 point ($136.00 vs $188.82) is after her HP CEO tenure. Caveat: B is HP's own spin-off; HP split on November 1, 2015 (x069) and she led HPE from that date (x070). HPE's 2018 proxy also shows a fiscal 2015 total of $17,135,546 for her (x071), the year before the split, which is not recorded as B pay. She retired as HPE CEO effective February 1, 2018 (x073), so fiscal 2018 is a partial year."
+  },
+  {
+   "id": "fux-02",
+   "person": {
+    "name": "Anthony P. DiSilvestro",
+    "sec_cik": "0001285140"
+   },
+   "from": {
+    "company": "Campbell Soup Company",
+    "cik": "0000016732",
+    "ticker": "CPB",
+    "role": "Senior Vice President and Chief Financial Officer",
+    "start": "2014-05",
+    "end": "2019-09-30",
+    "exit_description": "removed from the CFO role ('Mr. DiSilvestro was removed from the same role effective September 30, 2019'); 'As a result of his termination without cause, Mr. DiSilvestro left the Company on March 31, 2020'",
+    "stock": {
+     "company_value_of_100": 113.0,
+     "comparison_name": "S&P 500",
+     "comparison_value_of_100": 174.0,
+     "other_comparisons": [
+      {
+       "name": "S&P Packaged Foods Group",
+       "value_of_100": 141.0
+      }
+     ],
+     "period_start": "2014-08-01",
+     "period_end": "2019-07-28",
+     "evidence_refs": [
+      "x025",
+      "x026",
+      "x027"
+     ]
+    },
+    "exit_pay": {
+     "total": 1406000,
+     "description": "Severance under Campbell's Executive Severance Plan equal to two times base salary, $1,406,000 of salary continuation, plus $16,902 of accrued vacation and $23,526 of health and welfare benefits; his outstanding long-term incentive awards kept vesting, valued at $2,814,406 at July 31, 2020.",
+     "evidence_refs": [
+      "x030",
+      "x031"
+     ]
+    }
+   },
+   "to": {
+    "company": "Mattel, Inc.",
+    "cik": "0000063276",
+    "ticker": "MAT",
+    "kind": "executive",
+    "role": "Chief Financial Officer",
+    "start": "2020-08-11",
+    "pay": [
+     {
+      "fiscal_year": 2020,
+      "total": 4128968,
+      "evidence_ref": "x032"
+     },
+     {
+      "fiscal_year": 2021,
+      "total": 4907512,
+      "evidence_ref": "x032"
+     },
+     {
+      "fiscal_year": 2022,
+      "total": 3595566,
+      "evidence_ref": "x032"
+     },
+     {
+      "fiscal_year": 2023,
+      "total": 5305604,
+      "evidence_ref": "x033"
+     },
+     {
+      "fiscal_year": 2024,
+      "total": 5098826,
+      "evidence_ref": "x033"
+     },
+     {
+      "fiscal_year": 2025,
+      "total": 541039,
+      "evidence_ref": "x033"
+     }
+    ]
+   },
+   "notes": "Qualifies on the shortfall test (Campbell $113 vs S&P 500 $174 at July 28, 2019; S&P Packaged Foods $141), not the loss test. Campbell was ahead of the S&P 500 at the 2015 and 2016 points ($121 and $156) before falling to $108 in 2018 (x026). The August 1, 2014 base is the first table base after his May 2014 start as CFO (x027). Exit: x029 (8-K said he was leaving 'to pursue other interests'), x133. He joined Mattel as an Executive Advisor on June 29, 2020 and became CFO on August 11, 2020 (x028); Campbell's October 2020 proxy says he 'is currently receiving severance benefits' (x030). Mattel's 2025 figure covers January 1 to May 15, 2025, when he left (x033). Keurig Dr Pepper named him CFO effective November 25, 2025 (x034)."
+  },
+  {
+   "id": "fux-03",
+   "person": {
+    "name": "Todd E. Vogensen",
+    "sec_cik": "0001612135"
+   },
+   "from": {
+    "company": "Chico's FAS, Inc.",
+    "cik": "0000897429",
+    "ticker": "CHS",
+    "role": "Executive Vice President and Chief Financial Officer",
+    "start": "2014-06",
+    "end": "2020-01-17",
+    "exit_description": "resigned ('notified Chico's FAS, Inc. ... of his decision to resign from the Company as Executive Vice President, Chief Financial Officer and Assistant Corporate Secretary, effective January 17, 2020')",
+    "stock": {
+     "company_value_of_100": 39.0,
+     "comparison_name": "S&P 500 Index",
+     "comparison_value_of_100": 147.0,
+     "other_comparisons": [
+      {
+       "name": "S&P 500 Apparel Retail Index",
+       "value_of_100": 129.0
+      }
+     ],
+     "period_start": "2015-01-31",
+     "period_end": "2019-02-02",
+     "evidence_refs": [
+      "x060",
+      "x061",
+      "x064"
+     ]
+    },
+    "exit_pay": {
+     "total": null,
+     "description": "No severance: 'Mr. Vogensen's resignation does not entitle him to severance benefits under the Company's Executive Severance Plan.'",
+     "evidence_refs": [
+      "x065"
+     ]
+    }
+   },
+   "to": {
+    "company": "Party City Holdco Inc.",
+    "cik": "0001592058",
+    "ticker": "PRTY",
+    "kind": "executive",
+    "role": "Chief Financial Officer",
+    "start": "2020-02-03",
+    "pay": [
+     {
+      "fiscal_year": 2020,
+      "total": 2443907,
+      "evidence_ref": "x066"
+     },
+     {
+      "fiscal_year": 2021,
+      "total": 1781769,
+      "evidence_ref": "x066"
+     }
+    ]
+   },
+   "notes": "Both tests met (a 61% loss; S&P 500 Apparel Retail $129 at the same point). Chico's fiscal year ends around January 31; the January 31, 2015 base is the first fiscal year-end after he became CFO in June 2014 (x064). The table's last point (February 1, 2020: $29 vs $179) falls after his January 17, 2020 departure (x065), so the window ends at the February 2, 2019 point. Float about $2.36 billion in August 2014 (x062). Party City appointment x063. Party City filed no proxy after April 2022, so only 2020 and 2021 are recorded."
+  },
+  {
+   "id": "fux-04",
+   "person": {
+    "name": "Thomas C. Gentile III",
+    "sec_cik": "0001643493"
+   },
+   "from": {
+    "company": "Spirit AeroSystems Holdings, Inc.",
+    "cik": "0001364885",
+    "ticker": "SPR",
+    "role": "Executive Vice President and Chief Operating Officer (from April 2016); President and Chief Executive Officer (from August 2016)",
+    "start": "2016-04-01",
+    "end": "2023-09-30",
+    "exit_description": "ceased to be CEO under a Separation Agreement ('Thomas C. Gentile III ceased to serve as the President and Chief Executive Officer ... and as a member of the Board of Directors'), effective September 30, 2023",
+    "stock": {
+     "company_value_of_100": 75.32,
+     "comparison_name": "S&P 500 Index",
+     "comparison_value_of_100": 233.41,
+     "other_comparisons": [
+      {
+       "name": "S&P 500 Aerospace & Defense Index",
+       "value_of_100": 160.98
+      }
+     ],
+     "period_start": "2016-12-31",
+     "period_end": "2021-12-31",
+     "evidence_refs": [
+      "x044",
+      "x045",
+      "x047",
+      "x048"
+     ]
+    },
+    "exit_pay": {
+     "total": 1300000,
+     "description": "Cash severance of one year's base salary, $1,300,000, paid over 12 months, plus COBRA payments, outplacement of up to $100,000, up to $25,000 of attorney's fees, and continued vesting of 91,978 time-based RSUs.",
+     "evidence_refs": [
+      "x050"
+     ]
+    }
+   },
+   "to": {
+    "company": "Hexcel Corporation",
+    "cik": "0000717605",
+    "ticker": "HXL",
+    "kind": "executive",
+    "role": "Chief Executive Officer and President",
+    "start": "2024-05-01",
+    "pay": [
+     {
+      "fiscal_year": 2024,
+      "total": 9595136,
+      "evidence_ref": "x052"
+     },
+     {
+      "fiscal_year": 2025,
+      "total": 7252875,
+      "evidence_ref": "x052"
+     }
+    ]
+   },
+   "notes": "Qualifies on the shortfall test for the longest in-tenure window, from the Dec 2016 base (his first year-end): $75.32 vs S&P 500 $233.41 (S&P 500 Aerospace & Defense $160.98) at Dec 2021 (x045). Spirit was ahead of the S&P 500 at the 2017 and 2018 points ($150.42, $124.97). The next table (Dec 2017 base) shows a 66% loss, $34.43 vs $156.88 at Dec 2022 (x046). He joined as COO April 1, 2016 (x047) and became CEO August 1, 2016 (x048); tables with a Dec 2015 base start before his tenure. Departure x049; Hexcel appointment x051."
+  },
+  {
+   "id": "fux-05",
+   "person": {
+    "name": "Maryann T. Mannen",
+    "sec_cik": "0001408964"
+   },
+   "from": {
+    "company": "TechnipFMC plc",
+    "cik": "0001681459",
+    "ticker": "FTI",
+    "role": "Executive Vice President and Chief Financial Officer",
+    "start": "2017-01-17",
+    "end": "2021-01-25",
+    "exit_description": "left to become CFO of Marathon Petroleum ('Ms. Mannen left the Company, effective January 25, 2021')",
+    "stock": {
+     "company_value_of_100": 28.03,
+     "comparison_name": "S&P 500 Index",
+     "comparison_value_of_100": 178.32,
+     "other_comparisons": [
+      {
+       "name": "PHLX Oil Services Index",
+       "value_of_100": 25.88
+      }
+     ],
+     "period_start": "2017-01-17",
+     "period_end": "2020-12-31",
+     "evidence_refs": [
+      "x018",
+      "x019",
+      "x021"
+     ]
+    },
+    "exit_pay": {
+     "total": null,
+     "description": "No separation payment disclosed; TechnipFMC's 2021 proxy says only that she 'left the Company, effective January 25, 2021.'",
+     "evidence_refs": [
+      "x022"
+     ]
+    }
+   },
+   "to": {
+    "company": "Marathon Petroleum Corporation",
+    "cik": "0001510295",
+    "ticker": "MPC",
+    "kind": "executive",
+    "role": "Executive Vice President and CFO; later President and CEO",
+    "start": "2021-01-25",
+    "pay": [
+     {
+      "fiscal_year": 2021,
+      "total": 11152153,
+      "evidence_ref": "x023"
+     },
+     {
+      "fiscal_year": 2022,
+      "total": 7718410,
+      "evidence_ref": "x023"
+     },
+     {
+      "fiscal_year": 2023,
+      "total": 8683978,
+      "evidence_ref": "x024"
+     },
+     {
+      "fiscal_year": 2024,
+      "total": 14388817,
+      "evidence_ref": "x024"
+     },
+     {
+      "fiscal_year": 2025,
+      "total": 19016261,
+      "evidence_ref": "x024"
+     }
+    ]
+   },
+   "notes": "Both tests met against the S&P 500 (a 72% loss). The table's sector index, the PHLX Oil Services Index, fell further, to $25.88 (x019). The base is TechnipFMC's first trading day after the FMC Technologies-Technip combination, when she became TechnipFMC's CFO (x021); she had been CFO of FMC Technologies, a separate registrant, from 2014. MPC appointment x020; MPC's 2026 proxy lists her as President and CEO (x024)."
+  },
+  {
+   "id": "fux-06",
+   "person": {
+    "name": "Anant Bhalla",
+    "sec_cik": "0001709369"
+   },
+   "from": {
+    "company": "Brighthouse Financial, Inc.",
+    "cik": "0001685040",
+    "ticker": "BHF",
+    "role": "Executive Vice President and Chief Financial Officer",
+    "start": "2016-08",
+    "end": "2019-03-14",
+    "exit_description": "departure announced February 28, 2019 ('the departure of Anant Bhalla, the Company's Chief Financial Officer, effective March 14, 2019'), with a separation agreement under the Severance Plan",
+    "stock": {
+     "company_value_of_100": 49.38,
+     "comparison_name": "S&P 500",
+     "comparison_value_of_100": 103.9,
+     "other_comparisons": [
+      {
+       "name": "S&P 500 Financials",
+       "value_of_100": 96.7
+      },
+      {
+       "name": "S&P 500 Insurance",
+       "value_of_100": 91.2
+      }
+     ],
+     "period_start": "2017-08-07",
+     "period_end": "2018-12-31",
+     "evidence_refs": [
+      "x010",
+      "x011",
+      "x013"
+     ]
+    },
+    "exit_pay": {
+     "total": null,
+     "description": "His March 15, 2019 separation agreement paid Severance Plan cash of $600,000 (salary), $840,000 (STI target), $168,000 (prorated STI) and $23,845 (COBRA and outplacement), plus an additional $500,000; together $2,131,845, a sum the filing does not print.",
+     "evidence_refs": [
+      "x015"
+     ]
+    }
+   },
+   "to": {
+    "company": "American Equity Investment Life Holding Company",
+    "cik": "0001039828",
+    "ticker": "AEL",
+    "kind": "executive",
+    "role": "President (from January 27, 2020) and Chief Executive Officer (from March 1, 2020)",
+    "start": "2020-01-27",
+    "pay": [
+     {
+      "fiscal_year": 2020,
+      "total": 9417160,
+      "evidence_ref": "x017"
+     },
+     {
+      "fiscal_year": 2021,
+      "total": 7625826,
+      "evidence_ref": "x017"
+     },
+     {
+      "fiscal_year": 2022,
+      "total": 46595558,
+      "evidence_ref": "x017"
+     }
+    ]
+   },
+   "notes": "Both tests met (a 51% loss; S&P 500 Financials $96.70). The base is Brighthouse's first day of regular-way trading after its spin-off from MetLife; he had been its CFO since August 2016 (x013). The table's points are quarter-ends; the next year-end (Dec 2019) falls after his March 14, 2019 departure (x014). Float about $4.8 billion (x012). AEL appointment x016. AEL filed no proxy after April 2023 (its 2023 Part III appeared in a 10-K/A), so 2023 is not recorded."
+  },
+  {
+   "id": "fux-07",
+   "person": {
+    "name": "Bryan C. Hanson",
+    "sec_cik": "0001524349"
+   },
+   "from": {
+    "company": "Zimmer Biomet Holdings, Inc.",
+    "cik": "0001136869",
+    "ticker": "ZBH",
+    "role": "President and Chief Executive Officer (also Chairman)",
+    "start": "2017-12-19",
+    "end": "2023-08-22",
+    "exit_description": "stepped down ('notified the Company that he planned to step down as Chairman of the Board, President and Chief Executive Officer'), effective August 22, 2023",
+    "stock": {
+     "company_value_of_100": 113.18,
+     "comparison_name": "S&P 500 Health Care Equipment Index",
+     "comparison_value_of_100": 171.25,
+     "other_comparisons": [
+      {
+       "name": "S&P 500 Stock Index",
+       "value_of_100": 156.88
+      },
+      {
+       "name": "Peer Group",
+       "value_of_100": 165.99
+      }
+     ],
+     "period_start": "2017-12-31",
+     "period_end": "2022-12-31",
+     "evidence_refs": [
+      "x087",
+      "x088",
+      "x089"
+     ]
+    },
+    "exit_pay": {
+     "total": null,
+     "description": "None: 'Mr. Hanson's voluntary resignation will not trigger a right to receive any severance compensation or benefits'.",
+     "evidence_refs": [
+      "x090"
+     ]
+    }
+   },
+   "to": {
+    "company": "Solventum Corporation",
+    "cik": "0001964738",
+    "ticker": "SOLV",
+    "kind": "executive",
+    "role": "Chief Executive Officer",
+    "start": "2024-04-01",
+    "pay": [
+     {
+      "fiscal_year": 2024,
+      "total": 39959767,
+      "evidence_ref": "x095"
+     },
+     {
+      "fiscal_year": 2025,
+      "total": 20139981,
+      "evidence_ref": "x095"
+     }
+    ]
+   },
+   "notes": "Qualifies on the shortfall test only: Zimmer Biomet rose 13% while the S&P 500 Health Care Equipment Index reached $171.25 and the company's own peer group $165.99 (x088); against the S&P 500 ($156.88) the gap is 44 points, below the bar. The Dec 31, 2017 base is in tenure (he became CEO December 19, 2017, x089); he left before the Dec 2023 point. 3M hired him effective September 1, 2023 as CEO of its health care business and of the company it planned to spin off (x091); he was a 3M named executive officer for 2023 (x038) with a 3M Summary Compensation Table total of $23,896,231 (x092). That business became Solventum, which separated from 3M on April 1, 2024 (x094), with him as CEO (x093). B is recorded as Solventum, the job he was hired for; the 3M year is in these notes."
+  },
+  {
+   "id": "fux-08",
+   "person": {
+    "name": "Alexander W. Pease",
+    "sec_cik": "0001515026"
+   },
+   "from": {
+    "company": "CommScope Holding Company, Inc.",
+    "cik": "0001517228",
+    "ticker": "COMM",
+    "role": "Executive Vice President and Chief Financial Officer",
+    "start": "2018-04-02",
+    "end": "2021-11-01",
+    "exit_description": "resigned ('informed the Company of his decision to resign as an officer of the Company, effective November 1, 2021')",
+    "stock": {
+     "company_value_of_100": 81.76,
+     "comparison_name": "S&P 500 Index",
+     "comparison_value_of_100": 149.83,
+     "other_comparisons": [
+      {
+       "name": "S&P 1500 Communications Equipment Index",
+       "value_of_100": 109.8
+      }
+     ],
+     "period_start": "2018-12-31",
+     "period_end": "2020-12-31",
+     "evidence_refs": [
+      "x074",
+      "x075",
+      "x076"
+     ]
+    },
+    "exit_pay": {
+     "total": null,
+     "description": "No severance: 'Mr. Pease did not receive any severance in connection with his resignation.'",
+     "evidence_refs": [
+      "x078"
+     ]
+    }
+   },
+   "to": {
+    "company": "WestRock Company",
+    "cik": "0001732845",
+    "ticker": "WRK",
+    "kind": "executive",
+    "role": "Executive Vice President and Chief Financial Officer",
+    "start": "2021-11-10",
+    "pay": [
+     {
+      "fiscal_year": 2022,
+      "total": 8544517,
+      "evidence_ref": "x080"
+     },
+     {
+      "fiscal_year": 2023,
+      "total": 3573651,
+      "evidence_ref": "x080"
+     }
+    ]
+   },
+   "notes": "Qualifies on the shortfall test (S&P 1500 Communications Equipment $109.80 at the same point). Dec 31, 2018 is the first table base after his April 2, 2018 start (x076); CommScope's Dec 2017-based table starts before his tenure. The Dec 2021 point ($67.36 vs $190.13) falls after his November 1, 2021 resignation (x077). WestRock appointment x079. WestRock's fiscal year ends September 30; it filed no proxy after December 2023, so fiscal 2022-2023 are recorded."
+  },
+  {
+   "id": "fux-09",
+   "person": {
+    "name": "Scott M. Haralson",
+    "sec_cik": "0001677460"
+   },
+   "from": {
+    "company": "Spirit Airlines, Inc.",
+    "cik": "0001498710",
+    "ticker": "SAVE",
+    "role": "Senior Vice President and Chief Financial Officer (from October 2018); Executive Vice President and CFO (from February 2023)",
+    "start": "2018-10-16",
+    "end": "2024-06-14",
+    "exit_description": "left for another CFO job ('departing to become CFO of a larger, publicly traded company outside of the airline industry'), staying 'through June 14, 2024'",
+    "stock": {
+     "company_value_of_100": 28.3,
+     "comparison_name": "S&P 500 Index",
+     "comparison_value_of_100": 207.04,
+     "other_comparisons": [
+      {
+       "name": "NYSE ARCA Airline Index",
+       "value_of_100": 76.93
+      }
+     ],
+     "period_start": "2018-12-31",
+     "period_end": "2023-12-31",
+     "evidence_refs": [
+      "x081",
+      "x082",
+      "x083"
+     ]
+    },
+    "exit_pay": {
+     "total": null,
+     "description": "No separation payment found in the filings reviewed; he left to take another CFO job.",
+     "evidence_refs": []
+    }
+   },
+   "to": {
+    "company": "Hertz Global Holdings, Inc.",
+    "cik": "0001657853",
+    "ticker": "HTZ",
+    "kind": "executive",
+    "role": "Executive Vice President and Chief Financial Officer",
+    "start": "2024-06-17",
+    "pay": [
+     {
+      "fiscal_year": 2024,
+      "total": 8729228,
+      "evidence_ref": "x086"
+     },
+     {
+      "fiscal_year": 2025,
+      "total": 3474720,
+      "evidence_ref": "x086"
+     }
+    ]
+   },
+   "notes": "Both tests met (a 72% loss; NYSE Arca Airline Index $76.93). Dec 31, 2018 is the first year-end after he became CFO on October 16, 2018 (x083). Departure x084; Hertz start date June 17, 2024 (x085)."
+  },
+  {
+   "id": "fux-10",
+   "person": {
+    "name": "William J. Kelley Jr.",
+    "sec_cik": "0001488301"
+   },
+   "from": {
+    "company": "TreeHouse Foods, Inc.",
+    "cik": "0001320695",
+    "ticker": "THS",
+    "role": "Executive Vice President and Chief Financial Officer (interim from November 2019, permanent from February 2020)",
+    "start": "2019-11",
+    "end": "2022-06-30",
+    "exit_description": "resigned ('will step down as Executive Vice President and Chief Financial Officer to pursue another professional opportunity'), remaining 'through June 30, 2022'",
+    "stock": {
+     "company_value_of_100": 83.57,
+     "comparison_name": "S&P SmallCap 600 Index",
+     "comparison_value_of_100": 141.13,
+     "other_comparisons": [
+      {
+       "name": "S&P Food & Beverage Select Index",
+       "value_of_100": 138.63
+      }
+     ],
+     "period_start": "2019-12-31",
+     "period_end": "2021-12-31",
+     "evidence_refs": [
+      "x053",
+      "x054",
+      "x055"
+     ]
+    },
+    "exit_pay": {
+     "total": null,
+     "description": "None: he 'forfeited his PBRSU Award and Option Award at the time of his voluntary resignation.'",
+     "evidence_refs": [
+      "x058"
+     ]
+    }
+   },
+   "to": {
+    "company": "Utz Brands, Inc.",
+    "cik": "0001739566",
+    "ticker": "UTZ",
+    "kind": "executive",
+    "role": "Executive Vice President, Chief Financial Officer and Principal Accounting Officer",
+    "start": "2025-05-01",
+    "pay": [
+     {
+      "fiscal_year": 2025,
+      "total": 1586004,
+      "evidence_ref": "x059"
+     }
+    ]
+   },
+   "notes": "Qualifies on the shortfall test (S&P Food & Beverage Select $138.63 at the same point), not the loss test. Dec 31, 2019 is the first year-end after he became interim CFO in November 2019 (x055); the Dec 2022 point ($101.81 vs $118.41) falls after his June 30, 2022 departure (x057). Between TreeHouse and Utz he was CFO of Tropicana Brands Group (x055). Utz CFO effective May 1, 2025 (x056), about two years and ten months after he left TreeHouse."
+  },
+  {
+   "id": "fux-11",
+   "person": {
+    "name": "Monish Patolawala",
+    "sec_cik": "0001815253"
+   },
+   "from": {
+    "company": "3M Company",
+    "cik": "0000066740",
+    "ticker": "MMM",
+    "role": "Senior Vice President and CFO (from July 2020); EVP, Chief Financial and Transformation Officer (from October 2021); President and CFO (from September 2023)",
+    "start": "2020-07-01",
+    "end": "2024-07-31",
+    "exit_description": "resigned ('has announced his intention to resign from 3M Company, effective July 31, 2024')",
+    "stock": {
+     "company_value_of_100": 71.0,
+     "comparison_name": "Dow Jones Industrial Average (pay-versus-performance peer group TSR)",
+     "comparison_value_of_100": 131.0,
+     "other_comparisons": [],
+     "period_start": "2020-12-31",
+     "period_end": "2023-12-31",
+     "evidence_refs": [
+      "x035",
+      "x036",
+      "x037",
+      "x038"
+     ]
+    },
+    "exit_pay": {
+     "total": null,
+     "description": "None: 3M's 2025 proxy says he 'was not eligible to receive, and did not receive, any severance payments or benefits under the Executive Severance Plan or otherwise.'",
+     "evidence_refs": [
+      "x041"
+     ]
+    }
+   },
+   "to": {
+    "company": "Archer-Daniels-Midland Company",
+    "cik": "0000007084",
+    "ticker": "ADM",
+    "kind": "executive",
+    "role": "Executive Vice President and Chief Financial Officer",
+    "start": "2024-08-01",
+    "pay": [
+     {
+      "fiscal_year": 2024,
+      "total": 19957043,
+      "evidence_ref": "x043"
+     },
+     {
+      "fiscal_year": 2025,
+      "total": 11035368,
+      "evidence_ref": "x043"
+     }
+    ]
+   },
+   "notes": "Source is 3M's 2026 pay-versus-performance table (3M's 10-K text has no performance graph). The table covers 2021-2025 (x035), so under Item 402(v) its $100 base is the last trading day of 2020, after his July 1, 2020 start (x039); 3M's 2023 value is 71 vs the DJIA's 131, with 105 vs 121 at 2021 and 74 vs 113 at 2022 (x036, x037). Earlier 3M PvP tables use a Dec 2019 base, before his tenure. The 2024 point falls after his July 31, 2024 departure (x040). Qualifies on the shortfall test, not the loss test. Roles x134; ADM appointment x042."
+  },
+  {
+   "id": "fux-12",
+   "person": {
+    "name": "Naveen Chopra",
+    "sec_cik": "0001565390"
+   },
+   "from": {
+    "company": "Paramount Global (ViacomCBS Inc. until 2022)",
+    "cik": "0000813828",
+    "ticker": "PARA",
+    "role": "Executive Vice President, Chief Financial Officer",
+    "start": "2020-08-10",
+    "end": "2025-06-27",
+    "exit_description": "resigned ('notified the Company of his decision to resign from his position, effective June 27, 2025'; 'not the result of any disagreement with the Company')",
+    "stock": {
+     "company_value_of_100": 31.0,
+     "comparison_name": "S&P 500",
+     "comparison_value_of_100": 166.0,
+     "other_comparisons": [
+      {
+       "name": "S&P 500 Media & Entertainment Index",
+       "value_of_100": 165.0
+      }
+     ],
+     "period_start": "2020-12-31",
+     "period_end": "2024-12-31",
+     "evidence_refs": [
+      "x096",
+      "x097",
+      "x098"
+     ]
+    },
+    "exit_pay": {
+     "total": null,
+     "description": "No separation payment found in the filings reviewed; he resigned.",
+     "evidence_refs": [
+      "x099"
+     ]
+    }
+   },
+   "to": {
+    "company": "Roblox Corporation",
+    "cik": "0001315098",
+    "ticker": "RBLX",
+    "kind": "executive",
+    "role": "Chief Financial Officer",
+    "start": "2025-06-30",
+    "pay": [
+     {
+      "fiscal_year": 2025,
+      "total": 43813738,
+      "evidence_ref": "x101"
+     }
+    ]
+   },
+   "notes": "The table is in the 2025 10-K of Paramount Skydance Corporation, A's successor after the August 2025 merger; it tracks Paramount Global Class B shares from Dec 31, 2020, the first year-end of his tenure (x096). Both tests met (a 69% loss; S&P 500 Media & Entertainment $165). Paramount Global's own tables use a Dec 2019 base, before he started (x102). The Dec 2025 point ($40 vs $196) falls after his June 2025 departure. Roblox start date x100."
+  },
+  {
+   "id": "fux-13",
+   "person": {
+    "name": "Michael Nuzzo",
+    "sec_cik": "0001443251"
+   },
+   "from": {
+    "company": "Petco Health and Wellness Company, Inc.",
+    "cik": "0001826470",
+    "ticker": "WOOF",
+    "role": "Chief Financial Officer (May 2015 - August 2021); Chief Operating Officer and President of Petco Services (from July 2019)",
+    "start": "2015-05",
+    "end": "2022-08-13",
+    "exit_description": "stepped down ('Mr. Nuzzo stepped down from his current role on August 8, 2022 and will be leaving the Company, effective as of August 13, 2022') and signed a separation agreement",
+    "stock": {
+     "company_value_of_100": 47.35,
+     "comparison_name": "NASDAQ Composite",
+     "comparison_value_of_100": 97.17,
+     "other_comparisons": [
+      {
+       "name": "S&P Retail",
+       "value_of_100": 96.0
+      }
+     ],
+     "period_start": "2021-01-14",
+     "period_end": "2022-07-29",
+     "evidence_refs": [
+      "x103",
+      "x104",
+      "x107"
+     ]
+    },
+    "exit_pay": {
+     "total": 1318015,
+     "description": "Lump sum of $1,318,015 (18 months of base salary, 18 months of health premiums and 50% of his target fiscal 2022 bonus), plus accelerated vesting of 2,472,055 Common Series C Units in Scooby LP.",
+     "evidence_refs": [
+      "x110"
+     ]
+    }
+   },
+   "to": {
+    "company": "Xponential Fitness, Inc.",
+    "cik": "0001802156",
+    "ticker": "XPOF",
+    "kind": "executive",
+    "role": "Chief Executive Officer",
+    "start": "2025-08-07",
+    "pay": [
+     {
+      "fiscal_year": 2025,
+      "total": 4691109,
+      "evidence_ref": "x112"
+     }
+    ]
+   },
+   "notes": "Petco began trading on January 14, 2021. The 2022 10-K table's points are quarterly; its 7/22 point (shown here as the last trading day of July 2022) is the last before his August 13, 2022 departure (x109), so the window ends there. Loss test met ($47.35); the shortfall vs Nasdaq is 49.8 points, just under 50. The earlier 10-K table with the same base showed $62.24 vs $111.23 at January 2022 (x106). He was a named executive officer as COO and President of Petco Services (x108). Float about $1.66 billion (x105). Between Petco and Xponential he was CEO of Eyemart Express; Xponential named him CEO effective August 7, 2025 (x111), six days inside three years of his Petco exit."
+  },
+  {
+   "id": "fux-14",
+   "person": {
+    "name": "Catherine R. (Cathy) Smith",
+    "sec_cik": "0001322028"
+   },
+   "from": {
+    "company": "Bright Health Group, Inc. (now NeueHealth, Inc.)",
+    "cik": "0001671284",
+    "ticker": "BHG",
+    "role": "Chief Financial and Administrative Officer",
+    "start": "2020-01",
+    "end": "2023-05-12",
+    "exit_description": "resigned ('informed the Company that she plans to resign to pursue other opportunities, effective May 12, 2023')",
+    "stock": {
+     "company_value_of_100": 3.91,
+     "comparison_name": "S&P 500 Index",
+     "comparison_value_of_100": 92.13,
+     "other_comparisons": [
+      {
+       "name": "S&P Health Care Index",
+       "value_of_100": 111.3
+      }
+     ],
+     "period_start": "2021-06-24",
+     "period_end": "2022-12-31",
+     "evidence_refs": [
+      "x001",
+      "x002",
+      "x004"
+     ]
+    },
+    "exit_pay": {
+     "total": null,
+     "description": "No separation payment found in the filings reviewed; she resigned.",
+     "evidence_refs": [
+      "x005"
+     ]
+    }
+   },
+   "to": {
+    "company": "Nordstrom, Inc.",
+    "cik": "0000072333",
+    "ticker": "JWN",
+    "kind": "executive",
+    "role": "Chief Financial Officer and Treasurer",
+    "start": "2023-05-29",
+    "pay": [
+     {
+      "fiscal_year": 2023,
+      "total": 8516426,
+      "evidence_ref": "x007"
+     }
+    ]
+   },
+   "notes": "Both tests met (a 96% loss; S&P Health Care Index $111.30). The base is Bright Health's June 24, 2021 NYSE debut, when she was already CFO (x004); float about $5.07 billion (x003). The table's points are quarter-ends. Nordstrom appointment x006. Nordstrom's fiscal 2024 compensation ($3,938,224) appears only in its fiscal 2024 10-K, not a proxy, so it is not recorded (x008). In March 2025 Starbucks named her its CFO (x009)."
+  }
+ ],
+ "evidence": [
+  {
+   "id": "x001",
+   "form": "10-K",
+   "accession": "0001671284-23-000014",
+   "filing_date": "2023-03-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1671284/000167128423000014/bhg-20221231.htm",
+   "quote": "The following graph and related information shows a comparison of the cumulative total return for our common stock, Standard & Poor's 500 Index (\"S&P 500 Index\") and the Standard & Poor's Health Care Index (\"S&P Health Care Index\") between June 24, 2021 (the date our common stock commenced trading on the NYSE) through December 31, 2022.",
+   "supports": "Bright Health performance table runs from its June 24, 2021 NYSE debut through December 31, 2022"
+  },
+  {
+   "id": "x002",
+   "form": "10-K",
+   "accession": "0001671284-23-000014",
+   "filing_date": "2023-03-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1671284/000167128423000014/bhg-20221231.htm",
+   "quote": "6/24/2021 6/30/2021 9/30/2021 12/31/21 3/31/2022 6/30/2022 9/30/2022 12/31/22 Bright Health Group $ 100.00 $ 103.13 $ 49.04 $ 20.67 $ 11.60 $ 10.94 $ 6.31 $ 3.91 S&P 500 Index $ 100.00 $ 100.74 $ 101.33 $ 112.50 $ 107.33 $ 90.05 $ 85.65 $ 92.13 S&P Health Care Index $ 100.00 $ 100.66 $ 102.11 $ 113.51 $ 110.59 $ 104.05 $ 98.66 $ 111.30",
+   "supports": "Bright Health $100 -> $3.91 vs S&P 500 $92.13 (Jun 24, 2021 - Dec 31, 2022)"
+  },
+  {
+   "id": "x003",
+   "form": "10-K",
+   "accession": "0001671284-22-000018",
+   "filing_date": "2022-03-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/1671284/000167128422000018/bhg-20211231.htm",
+   "quote": "The aggregate market value of voting stock held by non-affiliates of the Registrant on June 30, 2021, based on the closing price of $17.16 for shares of the Registrant's common stock as reported by the New York Stock Exchange, was approximately $5,069,104,601.",
+   "supports": "Bright Health public float about $5.07 billion at June 30, 2021"
+  },
+  {
+   "id": "x004",
+   "form": "10-K",
+   "accession": "0001671284-22-000018",
+   "filing_date": "2022-03-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/1671284/000167128422000018/bhg-20211231.htm",
+   "quote": "Catherine R. Smith has served as our Chief Financial and Administrative Officer since January 2020.",
+   "supports": "Smith was Bright Health's CFO from January 2020"
+  },
+  {
+   "id": "x005",
+   "form": "8-K",
+   "accession": "0001628280-23-015281",
+   "filing_date": "2023-05-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/1671284/000162828023015281/bhg-20230501.htm",
+   "quote": "On May 1, 2023, Cathy Smith, Chief Financial and Administrative Officer of Bright Health Group, Inc. (\"Bright Health\" or the \"Company\"), informed the Company that she plans to resign to pursue other opportunities, effective May 12, 2023.",
+   "supports": "Smith resigned from Bright Health effective May 12, 2023"
+  },
+  {
+   "id": "x006",
+   "form": "8-K",
+   "accession": "0001213900-23-038127",
+   "filing_date": "2023-05-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/72333/000121390023038127/ea178161-8k_nordstrom.htm",
+   "quote": "the Company announced the appointment, effective May 29, 2023, of Cathy R. Smith to serve as Chief Financial Officer and Treasurer. Ms. Smith, age 59, joins Nordstrom from Bright Health Group where she has served as chief financial and administrative officer since 2020.",
+   "supports": "Smith became Nordstrom CFO effective May 29, 2023"
+  },
+  {
+   "id": "x007",
+   "form": "DEF 14A",
+   "accession": "0000072333-24-000046",
+   "filing_date": "2024-04-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/72333/000007233324000046/nord-20240411.htm",
+   "quote": "Cathy R. Smith 2023 605,769 550,000 6,499,973 - 787,500 - 73,184 8,516,426",
+   "supports": "Nordstrom Summary Compensation Table: Smith fiscal 2023 total $8,516,426"
+  },
+  {
+   "id": "x008",
+   "form": "10-K",
+   "accession": "0000072333-25-000039",
+   "filing_date": "2025-03-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/72333/000007233325000039/jwn-20250201.htm",
+   "quote": "Catherine R. Smith 2024 875,000 - 1,458,322 - 1,476,563 - 128,339 3,938,224",
+   "supports": "Nordstrom fiscal 2024 SCT row (in the 10-K's Part III, not a proxy): $3,938,224"
+  },
+  {
+   "id": "x009",
+   "form": "8-K",
+   "accession": "0000829224-25-000016",
+   "filing_date": "2025-03-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922425000016/sbux-20250304.htm",
+   "quote": "On March 4, 2025, Starbucks Corporation (the \"Company\" or \"Starbucks\") announced the appointment of Cathy R. Smith as executive vice president, chief financial officer and designated Ms. Smith as the Company's principal financial officer and principal accounting officer, effective, in each case, as of a date to be determined",
+   "supports": "Smith named Starbucks CFO in March 2025"
+  },
+  {
+   "id": "x010",
+   "form": "10-K",
+   "accession": "0001685040-19-000009",
+   "filing_date": "2019-02-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1685040/000168504019000009/brighthouse-12312018x10k.htm",
+   "quote": "The graph and table below present BHF's cumulative total shareholder return relative to the performance of (1) the Standard & Poor's 500 Index, (2) the Standard & Poor's 500 Financials Index and (3) the Standard & Poor's 500 Insurance Index, respectively, for the two-year period ended December 31, 2018, commencing August 7, 2017 (our initial day of \"regular-way\" trading on the Nasdaq).",
+   "supports": "Brighthouse table base: August 7, 2017, its first day of regular-way trading"
+  },
+  {
+   "id": "x011",
+   "form": "10-K",
+   "accession": "0001685040-19-000009",
+   "filing_date": "2019-02-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1685040/000168504019000009/brighthouse-12312018x10k.htm",
+   "quote": "Aug 7 Sep 30 Dec 31 Mar 31 Jun 30 Sep 30 Dec 31 BHF common stock $ 100.00 $ 98.51 $ 95.01 $ 83.28 $ 64.92 $ 71.68 $ 49.38 S&P 500 $ 100.00 $ 101.89 $ 108.66 $ 107.84 $ 111.54 $ 120.14 $ 103.90 S&P 500 Financials $ 100.00 $ 102.36 $ 111.19 $ 110.13 $ 106.65 $ 111.29 $ 96.70 S&P 500 Insurance $ 100.00 $ 99.36 $ 102.71 $ 100.31 $ 95.35 $ 102.03 $ 91.20",
+   "supports": "Brighthouse $100 -> $49.38 vs S&P 500 $103.90 (Aug 7, 2017 - Dec 31, 2018)"
+  },
+  {
+   "id": "x012",
+   "form": "10-K",
+   "accession": "0001685040-19-000009",
+   "filing_date": "2019-02-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1685040/000168504019000009/brighthouse-12312018x10k.htm",
+   "quote": "As of June 29, 2018, the last business day of the registrant's most recently completed second fiscal quarter, the aggregate market value of the registrant's common stock held by non-affiliates of the registrant was approximately $4.8 billion.",
+   "supports": "Brighthouse public float about $4.8 billion at June 29, 2018"
+  },
+  {
+   "id": "x013",
+   "form": "10-K",
+   "accession": "0001167609-18-000005",
+   "filing_date": "2018-03-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1685040/000116760918000005/brighthouse-12312017x10k.htm",
+   "quote": "Anant Bhalla Business Experience: • Executive Vice President and Chief Financial Officer, Brighthouse Financial, Inc. (August 2016 - present)",
+   "supports": "Bhalla was Brighthouse CFO from August 2016"
+  },
+  {
+   "id": "x014",
+   "form": "8-K",
+   "accession": "0001193125-19-055741",
+   "filing_date": "2019-02-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1685040/000119312519055741/d693100d8k.htm",
+   "quote": "announcing the departure of Anant Bhalla, the Company's Chief Financial Officer, effective March 14, 2019.",
+   "supports": "Bhalla departed Brighthouse effective March 14, 2019"
+  },
+  {
+   "id": "x015",
+   "form": "DEF 14A",
+   "accession": "0001193125-20-123575",
+   "filing_date": "2020-04-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1685040/000119312520123575/d889482ddef14a.htm",
+   "quote": "Mr. Bhalla received cash payments under the Severance Plan of (a) $600,000 representing his annual salary, (b) $840,000 related to his annual STI target, (c) $168,000 representing a prorated amount in lieu of his full participation in the STI Plan, and (d) $23,845 representing COBRA and outplacement services, as well as an additional cash payment of $500,000.",
+   "supports": "Bhalla's separation payments"
+  },
+  {
+   "id": "x016",
+   "form": "8-K",
+   "accession": "0001104659-20-002695",
+   "filing_date": "2020-01-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1039828/000110465920002695/tm201628-1_8k.htm",
+   "quote": "announced the appointment of Anant Bhalla, age 41, to the position of President, effective as of January 27, 2020 and Chief Executive Officer, effective as of March 1, 2020.",
+   "supports": "Bhalla became AEL President January 27, 2020 and CEO March 1, 2020"
+  },
+  {
+   "id": "x017",
+   "form": "DEF 14A",
+   "accession": "0001039828-23-000066",
+   "filing_date": "2023-04-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1039828/000103982823000066/ael-20230428.htm",
+   "quote": "Anant Bhalla Chief Executive Officer & President 2022 1,000,000 - 41,820,516 - 2,512,582 1,262,460 46,595,558 2021 1,000,000 - 2,267,068 1,596,052 2,684,702 78,004 7,625,826 2020 795,512 1,107,681 2,854,608 2,914,434 1,716,537 28,388 9,417,160",
+   "supports": "AEL Summary Compensation Table: Bhalla 2022 $46,595,558; 2021 $7,625,826; 2020 $9,417,160"
+  },
+  {
+   "id": "x018",
+   "form": "10-K",
+   "accession": "0001681459-21-000043",
+   "filing_date": "2021-03-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/1681459/000168145921000043/fti-20201231.htm",
+   "quote": "The graph below compares the cumulative total shareholder return on our ordinary shares for the period from January 17, 2017 to December 31, 2020 with the Standard & Poor's 500 Index (\"S&P 500 Index\") and PHLX Oil Services Index. The comparison assumes $100 was invested, including reinvestment of dividends, if any, in our ordinary shares on January 17, 2017 and in both of the indexes on the same date.",
+   "supports": "TechnipFMC table base: January 17, 2017 (first trading day after the merger)"
+  },
+  {
+   "id": "x019",
+   "form": "10-K",
+   "accession": "0001681459-21-000043",
+   "filing_date": "2021-03-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/1681459/000168145921000043/fti-20201231.htm",
+   "quote": "December 31 2017 2018 2019 2020 TechnipFMC plc $ 87.76 $ 55.89 $ 62.63 $ 28.03 S&P 500 Index 119.82 114.56 150.62 178.32 PHLX Oil Services Index 82.00 44.93 44.68 25.88",
+   "supports": "TechnipFMC $100 -> $28.03 vs S&P 500 $178.32 and PHLX Oil Services $25.88 (Jan 17, 2017 - Dec 31, 2020)"
+  },
+  {
+   "id": "x020",
+   "form": "8-K",
+   "accession": "0001510295-21-000009",
+   "filing_date": "2021-01-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029521000009/mpc-20210107.htm",
+   "quote": "announced the appointment of Maryann T. Mannen to serve as its Executive Vice President and Chief Financial Officer effective January 25, 2021.",
+   "supports": "Mannen became MPC CFO effective January 25, 2021"
+  },
+  {
+   "id": "x021",
+   "form": "8-K",
+   "accession": "0001510295-21-000009",
+   "filing_date": "2021-01-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029521000009/mpc-20210107.htm",
+   "quote": "Ms. Mannen, 58, previously served as Executive Vice President and Chief Financial Officer of TechnipFMC (a successor to FMC Technologies, Inc.), a global leader in subsea, onshore/offshore, and surface projects for the energy industry, from January 2017 to January 2021.",
+   "supports": "Mannen was TechnipFMC CFO January 2017 - January 2021"
+  },
+  {
+   "id": "x022",
+   "form": "DEF 14A",
+   "accession": "0001140361-21-012279",
+   "filing_date": "2021-04-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1681459/000114036121012279/nc10012072x1_def14a.htm",
+   "quote": "Ms. Mannen left the Company, effective January 25, 2021.",
+   "supports": "Mannen left TechnipFMC January 25, 2021"
+  },
+  {
+   "id": "x023",
+   "form": "DEF 14A",
+   "accession": "0001510295-24-000033",
+   "filing_date": "2024-03-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029524000033/mpc-20240313.htm",
+   "quote": "Maryann T. Mannen Executive Vice President and CFO* 2023 987,808 5,440,600 1,786,200 258,509 210,861 8,683,978 2022 943,835 4,660,985 1,681,500 226,420 205,670 7,718,410 2021 865,323 8,472,236 1,620,300 80,304 113,990 11,152,153",
+   "supports": "MPC Summary Compensation Table: Mannen 2023 $8,683,978; 2022 $7,718,410; 2021 $11,152,153"
+  },
+  {
+   "id": "x024",
+   "form": "DEF 14A",
+   "accession": "0001510295-26-000023",
+   "filing_date": "2026-03-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000023/mpc-20260316.htm",
+   "quote": "Maryann T. Mannen President and CEO 2025 1,400,000 13,391,322 3,303,300 467,458 454,181 19,016,261 2024 1,196,312 9,196,582 3,380,500 295,011 320,412 14,388,817 2023 987,808 5,440,600 1,786,200 258,509 210,861 8,683,978",
+   "supports": "MPC Summary Compensation Table: Mannen 2025 $19,016,261; 2024 $14,388,817"
+  },
+  {
+   "id": "x025",
+   "form": "10-K",
+   "accession": "0000016732-19-000070",
+   "filing_date": "2019-09-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/16732/000001673219000070/cpb-7282019x10xk.htm",
+   "quote": "The graph assumes that $100 was invested on August 1, 2014, in each of our stock, the S&P 500 and the S&P Packaged Foods Group, and that all dividends were reinvested. The total cumulative dollar returns shown on the graph represent the value that such investments would have had on July 28, 2019.",
+   "supports": "Campbell table base August 1, 2014, end July 28, 2019"
+  },
+  {
+   "id": "x026",
+   "form": "10-K",
+   "accession": "0000016732-19-000070",
+   "filing_date": "2019-09-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/16732/000001673219000070/cpb-7282019x10xk.htm",
+   "quote": "2014 2015 2016 2017 2018 2019 Campbell 100 121 156 136 108 113 S&P 500 100 112 118 137 159 174 S&P Packaged Foods Group 100 125 147 138 129 141",
+   "supports": "Campbell $100 -> $113 vs S&P 500 $174 (Aug 2014 - Jul 2019)"
+  },
+  {
+   "id": "x027",
+   "form": "8-K",
+   "accession": "0001193125-20-176525",
+   "filing_date": "2020-06-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/63276/000119312520176525/d949667d8k.htm",
+   "quote": "Mr. DiSilvestro, age 61, served as Senior Vice President and CFO of Campbell Soup Company from May 2014 to September 2019.",
+   "supports": "DiSilvestro was Campbell CFO May 2014 - September 2019"
+  },
+  {
+   "id": "x028",
+   "form": "DEF 14A",
+   "accession": "0001206774-21-001094",
+   "filing_date": "2021-04-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/63276/000120677421001094/mat3833161-def14a.htm",
+   "quote": "Mr. DiSilvestro joined Mattel as an Executive Advisor on June 29, 2020 and commenced service as CFO effective August 11, 2020.",
+   "supports": "DiSilvestro became Mattel CFO August 11, 2020"
+  },
+  {
+   "id": "x029",
+   "form": "8-K",
+   "accession": "0000016732-19-000059",
+   "filing_date": "2019-08-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/16732/000001673219000059/cfoappointment8-k.htm",
+   "quote": "The Company has announced that Anthony P. DiSilvestro, Senior Vice President and Chief Financial Officer, will be leaving his role effective September 30, 2019 and departing the Company on October 15, 2019 to pursue other interests.",
+   "supports": "DiSilvestro left the Campbell CFO role effective September 30, 2019"
+  },
+  {
+   "id": "x030",
+   "form": "DEF 14A",
+   "accession": "0001206774-20-002817",
+   "filing_date": "2020-10-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/16732/000120677420002817/cpb3773881-def14a.htm",
+   "quote": "Mr. DiSilvestro is currently receiving severance benefits under the Campbell Soup Company Executive Severance Plan equal to two times his base salary or, $1,406,000, and two years of medical benefits and life insurance.",
+   "supports": "DiSilvestro severance: two times base salary, $1,406,000"
+  },
+  {
+   "id": "x031",
+   "form": "DEF 14A",
+   "accession": "0001206774-20-002817",
+   "filing_date": "2020-10-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/16732/000120677420002817/cpb3773881-def14a.htm",
+   "quote": "Mr. DiSilvestro's role as Senior Vice President and Chief Financial Officer of the Company ended on September 30, 2019, and Mr. DiSilvestro ceased to be an executive officer of the Company as of that date. Mr. DiSilvestro ceased to be an employee on March 31, 2020 at which point he received the benefits to which he was entitled under the Executive Severance Benefit Plan as described on page 65. Pursuant to the plan, Mr. DiSilvestro received or will receive the following amounts provided he complies with his non-competition obligations as described on page 65: $1,406,000 of salary continuation and $16,902 of accrued vacation, each of which has been or will be paid in cash, and $23,526 of health and welfare benefits. Mr. DiSilvestro's outstanding long-term incentive awards will be treated in accordance with the terms established for involuntary termination without cause. The value of Mr. DiSilvestro's outstanding long-term incentive awards that will vest and be paid out in accordance with their terms, is $2,814,406 (based on a stock price of $49.57, which was our closing stock price on July 31, 2020, the last trading day of fiscal 2020).",
+   "supports": "Campbell termination without cause; severance and LTI amounts"
+  },
+  {
+   "id": "x032",
+   "form": "DEF 14A",
+   "accession": "0001628280-23-010153",
+   "filing_date": "2023-03-31",
+   "url": "https://www.sec.gov/Archives/edgar/data/63276/000162828023010153/mat-20230331.htm",
+   "quote": "Anthony DiSilvestro Chief Financial Officer 2022 900,000 - 2,187,503 312,503 - - 195,560 3,595,566 2021 900,000 - 1,575,018 524,999 1,800,000 - 107,495 4,907,512 2020 457,377 - 1,574,999 525,001 1,530,000 - 41,591 4,128,968",
+   "supports": "Mattel Summary Compensation Table: DiSilvestro 2022 $3,595,566; 2021 $4,907,512; 2020 $4,128,968"
+  },
+  {
+   "id": "x033",
+   "form": "DEF 14A",
+   "accession": "0001308179-26-000276",
+   "filing_date": "2026-04-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/63276/000130817926000276/mat-20260414.htm",
+   "quote": "Anthony DiSilvestro Former Chief Financial Officer 2025 332,877 - - 208,162 541,039 2024 900,000 - 2,499,999 - 1,593,900 104,927 5,098,826 2023 900,000 - 2,406,250 343,748 1,546,380 109,226 5,305,604",
+   "supports": "Mattel Summary Compensation Table: DiSilvestro 2025 $541,039; 2024 $5,098,826; 2023 $5,305,604"
+  },
+  {
+   "id": "x034",
+   "form": "8-K",
+   "accession": "0001418135-25-000131",
+   "filing_date": "2025-11-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1418135/000141813525000131/kdp-20251121.htm",
+   "quote": "On November 25, 2025, Keurig Dr Pepper Inc. (the \"Company\") announced the appointment of Anthony DiSilvestro as Chief Financial Officer of the Company, effective as of November 25, 2025.",
+   "supports": "DiSilvestro became KDP CFO November 25, 2025"
+  },
+  {
+   "id": "x035",
+   "form": "DEF 14A",
+   "accession": "0000066740-26-000151",
+   "filing_date": "2026-03-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/66740/000006674026000151/mmm-20260324.htm",
+   "quote": "Pay versus performance table. Provided below is tabular compensation data for the Company's Chief Executive Officer (CEO) (our Principal Executive Officer) and our NEOs other than the CEO for 2025, 2024, 2023, 2022, and 2021.",
+   "supports": "3M PvP table covers 2021-2025 (so its $100 base is the end of 2020)"
+  },
+  {
+   "id": "x036",
+   "form": "DEF 14A",
+   "accession": "0000066740-26-000151",
+   "filing_date": "2026-03-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/66740/000006674026000151/mmm-20260324.htm",
+   "quote": "2023 16,424,566 15,615,060 11,186,064 11,580,343 71 131 (6,995) (1.3%) 2022 14,031,387 152,482 5,322,998 1,852,154 74 113 5,777 1.2% 2021 18,200,584 18,438,692 5,527,247 3,553,621 105 121 5,921 8.8%",
+   "supports": "3M PvP: TSR 71 vs peer (DJIA) 131 at 2023; 74 vs 113 at 2022; 105 vs 121 at 2021"
+  },
+  {
+   "id": "x037",
+   "form": "DEF 14A",
+   "accession": "0000066740-26-000151",
+   "filing_date": "2026-03-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/66740/000006674026000151/mmm-20260324.htm",
+   "quote": "(3)Reflects total shareholder return indexed to $100 for the Dow Jones Industrial Average (DJIA) Index, which serves as the benchmark peer group reported in the performance graph included in the Company's Annual Report on Form 10-K for the year ended December 31, 2025, and assuming reinvestment of all dividends, where applicable.",
+   "supports": "3M PvP peer group is the Dow Jones Industrial Average"
+  },
+  {
+   "id": "x038",
+   "form": "DEF 14A",
+   "accession": "0000066740-26-000151",
+   "filing_date": "2026-03-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/66740/000006674026000151/mmm-20260324.htm",
+   "quote": "2023 Michael F. Roman Monish Patolawala, Peter D. Gibbons, Bryan C. Hanson, and Kevin H. Rhodes 2022 Michael F. Roman Monish Patolawala, Peter D. Gibbons, Jeffrey R. Lavers, Mojdeh Poul, and Michael G. Vale",
+   "supports": "Patolawala was a 3M NEO in 2021, 2022 and 2023 (and Hanson in 2023)"
+  },
+  {
+   "id": "x039",
+   "form": "8-K",
+   "accession": "0001104659-20-069216",
+   "filing_date": "2020-06-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/66740/000110465920069216/tm2021663-1_8k.htm",
+   "quote": "3M announced the appointment of Monish Patolawala as Senior Vice President and Chief Financial Officer, effective July 1, 2020.",
+   "supports": "Patolawala became 3M CFO July 1, 2020"
+  },
+  {
+   "id": "x040",
+   "form": "8-K",
+   "accession": "0000066740-24-000070",
+   "filing_date": "2024-07-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/66740/000006674024000070/mmm-20240703.htm",
+   "quote": "Monish Patolawala, President and Chief Financial Officer, has announced his intention to resign from 3M Company, effective July 31, 2024.",
+   "supports": "Patolawala resigned from 3M effective July 31, 2024"
+  },
+  {
+   "id": "x041",
+   "form": "DEF 14A",
+   "accession": "0000066740-25-000029",
+   "filing_date": "2025-03-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/66740/000006674025000029/mmm-20250325.htm",
+   "quote": "He was not eligible to receive, and did not receive, any severance payments or benefits under the Executive Severance Plan or otherwise.",
+   "supports": "No 3M severance for Patolawala"
+  },
+  {
+   "id": "x042",
+   "form": "8-K",
+   "accession": "0001193125-24-177070",
+   "filing_date": "2024-07-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/7084/000119312524177070/d826908d8k.htm",
+   "quote": "appointed Monish Patolawala to serve as the Company's Executive Vice President and Chief Financial Officer, effective August 1, 2024.",
+   "supports": "Patolawala became ADM CFO August 1, 2024"
+  },
+  {
+   "id": "x043",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-126218",
+   "filing_date": "2026-03-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/7084/000119312526126218/d911479ddef14a.htm",
+   "quote": "M. PATOLAWALA(6) Executive Vice President and Chief Financial Officer 2025 1,425,000 - 6,950,068 1,821,791 41,866 796,643 11,035,368 2024 593,750 1,400,000 16,950,064 524,222 14,835 474,172 19,957,043",
+   "supports": "ADM Summary Compensation Table: Patolawala 2025 $11,035,368; 2024 $19,957,043"
+  },
+  {
+   "id": "x044",
+   "form": "10-K",
+   "accession": "0001628280-22-002704",
+   "filing_date": "2022-02-15",
+   "url": "https://www.sec.gov/Archives/edgar/data/1364885/000162828022002704/spr-20211231.htm",
+   "quote": "The following graph shows a comparison from December 31, 2016 through December 31, 2021 of the cumulative total return of our Common Stock, Standard & Poor's 500 Stock Index, and the Standard & Poor's 500 Aerospace & Defense Index.",
+   "supports": "Spirit AeroSystems table base December 31, 2016"
+  },
+  {
+   "id": "x045",
+   "form": "10-K",
+   "accession": "0001628280-22-002704",
+   "filing_date": "2022-02-15",
+   "url": "https://www.sec.gov/Archives/edgar/data/1364885/000162828022002704/spr-20211231.htm",
+   "quote": "Base Period 12/31/16 12/31/2017 12/31/2018 12/31/2019 12/31/2020 12/31/2021 Spirit AeroSystems Holdings, Inc. 100 150.42 124.97 127.06 68.27 75.32 S&P 500 Index 100 121.83 116.49 153.17 181.35 233.41 S&P 500 Aerospace & Defense Index 100 141.38 129.97 169.39 142.18 160.98",
+   "supports": "Spirit AeroSystems $100 -> $75.32 vs S&P 500 $233.41 (Dec 2016 - Dec 2021)"
+  },
+  {
+   "id": "x046",
+   "form": "10-K",
+   "accession": "0001628280-23-004051",
+   "filing_date": "2023-02-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1364885/000162828023004051/spr-20221231.htm",
+   "quote": "Base Period 12/31/17 12/31/2018 12/31/2019 12/31/2020 12/31/2021 12/31/2022 Spirit AeroSystems Holdings, Inc. 100 83.08 84.47 45.38 50.07 34.43 S&P 500 Index 100 95.62 125.72 148.85 191.58 156.88 S&P 500 Aerospace & Defense Index 100 91.93 119.81 100.56 113.86 133.64",
+   "supports": "Spirit AeroSystems $100 -> $34.43 vs S&P 500 $156.88 (Dec 2017 - Dec 2022)"
+  },
+  {
+   "id": "x047",
+   "form": "8-K",
+   "accession": "0001104659-16-096927",
+   "filing_date": "2016-02-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1364885/000110465916096927/a16-4522_18k.htm",
+   "quote": "Thomas C. Gentile has been appointed Executive Vice President and Chief Operating Officer of Spirit AeroSystems Holdings, Inc. (the \"Company\") and its wholly-owned subsidiary, Spirit AeroSystems, Inc. (\"Spirit\"), effective April 1, 2016.",
+   "supports": "Gentile joined Spirit as EVP and COO April 1, 2016"
+  },
+  {
+   "id": "x048",
+   "form": "8-K",
+   "accession": "0001104659-16-135433",
+   "filing_date": "2016-07-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1364885/000110465916135433/a16-15754_18k.htm",
+   "quote": "in recognition of Mr. Gentile's appointment as President and Chief Executive Officer of the Company, the Board approved the modification of his compensation arrangements, effective as of August 1, 2016.",
+   "supports": "Gentile became Spirit President and CEO August 1, 2016"
+  },
+  {
+   "id": "x049",
+   "form": "8-K",
+   "accession": "0001104659-23-105625",
+   "filing_date": "2023-10-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1364885/000110465923105625/tm2327332d1_8k.htm",
+   "quote": "Effective as of September 30, 2023 (the \"Separation Date\"), Thomas C. Gentile III ceased to serve as the President and Chief Executive Officer of Spirit AeroSystems Holdings, Inc. (the \"Company\") and as a member of the Board of Directors",
+   "supports": "Gentile ceased to be Spirit CEO September 30, 2023"
+  },
+  {
+   "id": "x050",
+   "form": "8-K",
+   "accession": "0001104659-23-105625",
+   "filing_date": "2023-10-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1364885/000110465923105625/tm2327332d1_8k.htm",
+   "quote": "Cash severance equal to one year of Mr. Gentile's current annualized base salary, or $1,300,000, to be paid in substantially equal installments on the Employer's regular payroll dates during the 12-month period following the Separation Date; and · Additional cash payments equal to the cost necessary to maintain continued medical and dental benefit coverage under the Consolidated Omnibus Budget Reconciliation Act of 1985, as amended (\"COBRA\"), for the 12-month period following the Separation Date, to be paid in substantially equal monthly installments during the 12-month period following the Separation Date. In addition to the obligations under the Gentile Employment Agreement, the Separation Agreement provides (i) for payment equal to the cost necessary to maintain continued medical and dental coverage under COBRA for an additional one-month period following the Separation Date and continued vision coverage under COBRA, (ii) for outplacement services for a period of 12 months following the Separation Date, not to exceed $100,000, (iii) for reimbursement of up to $25,000 in attorney's fees incurred by Mr. Gentile in connection with the negotiation of the Separation Agreement, and (iv) that 91,978 of his outstanding time-based restricted stock units",
+   "supports": "Gentile cash severance $1,300,000"
+  },
+  {
+   "id": "x051",
+   "form": "8-K",
+   "accession": "0000930413-24-001263",
+   "filing_date": "2024-04-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/717605/000093041324001263/c108777_8k-ixbrl.htm",
+   "quote": "The offer letter provides for the appointment of Mr. Gentile as Chief Executive Officer and President, effective as of May 1, 2024.",
+   "supports": "Gentile became Hexcel CEO May 1, 2024"
+  },
+  {
+   "id": "x052",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-135884",
+   "filing_date": "2026-04-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/717605/000119312526135884/hxl-20260401.htm",
+   "quote": "Thomas C. Gentile III 2025 1,100,000 - 3,374,961 1,685,259 923,230 - 169,425 7,252,875 Chairman, CEO 2024 736,339 250,000 4,228,232 2,611,707 1,543,960 - 224,898 9,595,136",
+   "supports": "Hexcel Summary Compensation Table: Gentile 2025 $7,252,875; 2024 $9,595,136"
+  },
+  {
+   "id": "x053",
+   "form": "10-K",
+   "accession": "0001320695-25-000007",
+   "filing_date": "2025-02-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/1320695/000132069525000007/ths-20241231.htm",
+   "quote": "The graph assumes an investment of $100 on December 31, 2019 in each of TreeHouse Foods' common stock, the stocks comprising the S&P SmallCap 600 Index, and the S&P Food & Beverage Select Index.",
+   "supports": "TreeHouse table base December 31, 2019"
+  },
+  {
+   "id": "x054",
+   "form": "10-K",
+   "accession": "0001320695-25-000007",
+   "filing_date": "2025-02-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/1320695/000132069525000007/ths-20241231.htm",
+   "quote": "Company Name/Index 12/31/2019 12/31/2020 12/31/2021 12/31/2022 12/31/2023 12/31/2024 TreeHouse Foods, Inc. 100 $ 87.61 $ 83.57 $ 101.81 $ 85.46 $ 72.43 S&P SmallCap 600 Index 100 111.29 141.13 118.41 137.42 149.37 S&P Food & Beverage Select Index 100 119.76 138.63 136.87 139.82 147.23",
+   "supports": "TreeHouse $100 -> $83.57 vs S&P SmallCap 600 $141.13 at Dec 31, 2021"
+  },
+  {
+   "id": "x055",
+   "form": "8-K",
+   "accession": "0001739566-25-000058",
+   "filing_date": "2025-04-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1739566/000173956625000058/utz-20250416.htm",
+   "quote": "On April 17, 2025, the Company announced the appointment of William J. Kelley Jr. to the position of Executive Vice President, Chief Financial Officer and Principal Accounting Officer, effective as of the CFO Effective Date. Mr. Kelley, 60, most recently served as global chief financial officer of Tropicana Brands Group, Inc. (\"Tropicana\"), a manufacturer of fresh and chilled juices and juice drinks, from July 2022 through January 2025. Prior to joining Tropicana, Mr. Kelley served as executive vice president and chief financial officer of TreeHouse Foods, Inc., a manufacturer of private label foods and beverages (NYSE: THS), in an interim capacity from November 2019 to February 2020 and in a permanent capacity from February 2020 to June 2022.",
+   "supports": "Kelley became Utz CFO; TreeHouse CFO (interim from November 2019) until June 2022"
+  },
+  {
+   "id": "x056",
+   "form": "8-K",
+   "accession": "0001739566-25-000058",
+   "filing_date": "2025-04-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1739566/000173956625000058/utz-20250416.htm",
+   "quote": "On April 16, 2025, the Company and Ajay Kataria, the Company's Executive Vice President, Chief Financial Officer and Principal Accounting Officer, mutually determined that, effective as of May 1, 2025, (the \"CFO Effective Date\"), Mr. Kataria would no longer serve in his roles as the Company's Executive Vice President, Chief Financial Officer and Principal Accounting Officer (the",
+   "supports": "Utz CFO Effective Date May 1, 2025"
+  },
+  {
+   "id": "x057",
+   "form": "8-K",
+   "accession": "0001320695-22-000141",
+   "filing_date": "2022-06-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/1320695/000132069522000141/ths-20220601.htm",
+   "quote": "today announced that William J. Kelley Jr. will step down as Executive Vice President and Chief Financial Officer to pursue another professional opportunity. Mr. Kelley's decision to resign is not the result of any dispute or disagreement with the Company on any matter relating to its accounting or financial policies or procedures or its financial statements disclosure. Mr. Kelley will remain with the Company through June 30, 2022 to ensure a smooth transition.",
+   "supports": "Kelley left TreeHouse June 30, 2022"
+  },
+  {
+   "id": "x058",
+   "form": "DEF 14A",
+   "accession": "0001320695-23-000013",
+   "filing_date": "2023-03-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1320695/000132069523000013/ths-20230313.htm",
+   "quote": "Mr. Kelley forfeited his PBRSU Award and Option Award at the time of his voluntary resignation.",
+   "supports": "Kelley's exit: voluntary resignation, awards forfeited"
+  },
+  {
+   "id": "x059",
+   "form": "DEF 14A",
+   "accession": "0001193125-26-103020",
+   "filing_date": "2026-03-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1739566/000119312526103020/utz-20260311.htm",
+   "quote": "William J. Kelley, Jr. 2025 380,385 50,000(2) 870,419 - 285,200 - 1,586,004",
+   "supports": "Utz Summary Compensation Table: Kelley 2025 $1,586,004"
+  },
+  {
+   "id": "x060",
+   "form": "10-K",
+   "accession": "0000897429-20-000052",
+   "filing_date": "2020-03-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/897429/000089742920000052/chs21202010-k.htm",
+   "quote": "Cumulative total return for each of the periods shown in the Performance Graph is measured assuming an initial investment of $100 on January 31, 2015 and the reinvestment of dividends.",
+   "supports": "Chico's table base January 31, 2015"
+  },
+  {
+   "id": "x061",
+   "form": "10-K",
+   "accession": "0000897429-20-000052",
+   "filing_date": "2020-03-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/897429/000089742920000052/chs21202010-k.htm",
+   "quote": "01/31/15 01/30/16 01/28/17 02/03/18 02/02/19 02/01/20 Chico's FAS, Inc. $ 100 $ 64 $ 80 $ 61 $ 39 $ 29 S&P 500 Index 100 99 120 147 147 179 S&P 500 Apparel Retail Index 100 108 107 114 129 151",
+   "supports": "Chico's $100 -> $39 vs S&P 500 $147 at Feb 2, 2019"
+  },
+  {
+   "id": "x062",
+   "form": "10-K",
+   "accession": "0000897429-15-000087",
+   "filing_date": "2015-03-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/897429/000089742915000087/chs131201510-k.htm",
+   "quote": "Approximately $2,360,000,000 as of August 2, 2014",
+   "supports": "Chico's public float about $2.36 billion"
+  },
+  {
+   "id": "x063",
+   "form": "8-K",
+   "accession": "0001193125-20-004294",
+   "filing_date": "2020-01-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1592058/000119312520004294/d826215d8k.htm",
+   "quote": "the Company announced that Todd Vogensen, age 50, will be joining the Company as Chief Financial Officer, effective February 3, 2020.",
+   "supports": "Vogensen became Party City CFO February 3, 2020"
+  },
+  {
+   "id": "x064",
+   "form": "8-K",
+   "accession": "0001193125-20-004294",
+   "filing_date": "2020-01-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1592058/000119312520004294/d826215d8k.htm",
+   "quote": "Mr. Vogensen served as the Executive Vice President and Chief Financial Officer of Chico's FAS from June 2014 through January 2020",
+   "supports": "Vogensen was Chico's CFO June 2014 - January 2020"
+  },
+  {
+   "id": "x065",
+   "form": "8-K",
+   "accession": "0000897429-20-000002",
+   "filing_date": "2020-01-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/897429/000089742920000002/icrupdatedoutlook8-k.htm",
+   "quote": "On January 6, 2020, Todd E. Vogensen notified Chico's FAS, Inc. (the \"Company\") of his decision to resign from the Company as Executive Vice President, Chief Financial Officer and Assistant Corporate Secretary, effective January 17, 2020. Mr. Vogensen's resignation does not entitle him to severance benefits under the Company's Executive Severance Plan.",
+   "supports": "Vogensen resigned effective January 17, 2020; no severance"
+  },
+  {
+   "id": "x066",
+   "form": "DEF 14A",
+   "accession": "0001140361-22-015841",
+   "filing_date": "2022-04-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1592058/000114036122015841/ny20002157x1_def14a.htm",
+   "quote": "Todd E. Vogensen Chief Financial Officer 2021 641,346 0 519,998 0 599,206 21,219 1,781,769 2020 531,250 420,000 695,000 0 387,019 410,638 2,443,907",
+   "supports": "Party City Summary Compensation Table: Vogensen 2021 $1,781,769; 2020 $2,443,907"
+  },
+  {
+   "id": "x067",
+   "form": "10-K",
+   "accession": "0000047217-16-000093",
+   "filing_date": "2016-12-15",
+   "url": "https://www.sec.gov/Archives/edgar/data/47217/000004721716000093/hp-103116x10k1.htm",
+   "quote": "The graph below shows the cumulative total stockholder return assuming the investment of $100 at the market close on October 31, 2011 (and the reinvestment of dividends thereafter) in each of HP common stock, the S&P 500 Index, and the S&P Information Technology Index.",
+   "supports": "HP table base October 31, 2011"
+  },
+  {
+   "id": "x068",
+   "form": "10-K",
+   "accession": "0000047217-16-000093",
+   "filing_date": "2016-12-15",
+   "url": "https://www.sec.gov/Archives/edgar/data/47217/000004721716000093/hp-103116x10k1.htm",
+   "quote": "10/11 10/12 10/13 10/14 10/15 10/16 HP Inc. $ 100.00 $ 53.26 $ 96.37 $ 144.63 $ 110.97 $ 136.00 S&P 500 Index $ 100.00 $ 115.20 $ 146.49 $ 171.77 $ 180.69 $ 188.82 S&P Information Technology Index $ 100.00 $ 110.71 $ 132.76 $ 166.88 $ 185.55 $ 205.64",
+   "supports": "HP $100 -> $110.97 vs S&P 500 $180.69 at October 2015"
+  },
+  {
+   "id": "x069",
+   "form": "10-K",
+   "accession": "0001047469-15-009251",
+   "filing_date": "2015-12-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/47217/000104746915009251/a2226745z10-k.htm",
+   "quote": "includes the results of Hewlett Packard Enterprise which separated from HP on November 1, 2015",
+   "supports": "HPE separated from HP on November 1, 2015"
+  },
+  {
+   "id": "x070",
+   "form": "DEF 14A",
+   "accession": "0001193125-16-460462",
+   "filing_date": "2016-02-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1645590/000119312516460462/d73207ddef14a.htm",
+   "quote": "Ms. Whitman has served as President and Chief Executive Officer of Hewlett Packard Enterprise since November 2015. Prior to that, Ms. Whitman served as President, Chief Executive Officer, and Chairman of Hewlett-Packard Company from July 2014 to November 2015 and President and Chief Executive Officer of Hewlett-Packard Company from September 2011 to November 2015.",
+   "supports": "Whitman HP CEO September 2011 - November 2015; HPE CEO from November 2015"
+  },
+  {
+   "id": "x071",
+   "form": "DEF 14A",
+   "accession": "0001047469-18-000792",
+   "filing_date": "2018-02-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/1645590/000104746918000792/a2234431zdef14a.htm",
+   "quote": "Margaret C. Whitman 2017 1,500,053 - 6,502,023 8,743,885 - - 338,161 17,084,122 Chief Executive Officer 2016 1,500,058 - 18,970,393 11,729,190 3,081,189 - 283,521 35,564,351 2015 1,500,058 - 7,771,200 5,113,585 2,453,262 - 297,441 17,135,546",
+   "supports": "HPE Summary Compensation Table: Whitman 2017 $17,084,122; 2016 $35,564,351; 2015 $17,135,546"
+  },
+  {
+   "id": "x072",
+   "form": "DEF 14A",
+   "accession": "0001047469-19-000476",
+   "filing_date": "2019-02-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1645590/000104746919000476/a2237647zdef14a.htm",
+   "quote": "Margaret C. Whitman(9) 2018 588,366 - - - - - 161,676 750,042",
+   "supports": "HPE Summary Compensation Table: Whitman 2018 $750,042"
+  },
+  {
+   "id": "x073",
+   "form": "DEF 14A",
+   "accession": "0001047469-19-000476",
+   "filing_date": "2019-02-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1645590/000104746919000476/a2237647zdef14a.htm",
+   "quote": "Ms. Whitman and the Board mutually agreed that her retirement date would be effective as of February 1, 2018",
+   "supports": "Whitman retired as HPE CEO February 1, 2018"
+  },
+  {
+   "id": "x074",
+   "form": "10-K",
+   "accession": "0000950170-24-022519",
+   "filing_date": "2024-02-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1517228/000095017024022519/comm-20231231.htm",
+   "quote": "The following graph compares cumulative total return on $100 invested on December 31, 2018 in each of CommScope's Common Stock, the Standard & Poor's 500 Stock Index (S&P 500 Index) and the Standard & Poor's 1500 Communications Equipment Index (S&P 1500 Communications Equipment). The return of the Standard & Poor's indices is calculated assuming reinvestment of dividends. CommScope has not paid any dividends on its common stock over this period.",
+   "supports": "CommScope table base December 31, 2018"
+  },
+  {
+   "id": "x075",
+   "form": "10-K",
+   "accession": "0000950170-24-022519",
+   "filing_date": "2024-02-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1517228/000095017024022519/comm-20231231.htm",
+   "quote": "Company / Index 12/31/2018 12/31/2019 12/31/2020 12/31/2021 12/31/2022 12/31/2023 CommScope Holding Company, Inc. 100 86.58 81.76 67.36 44.84 17.21 S&P 500 Index 100 128.88 149.83 190.13 153.16 190.27 S&P 1500 Communications Equipment Index 100 111.62 109.80 159.85 124.37 142.07",
+   "supports": "CommScope $100 -> $81.76 vs S&P 500 $149.83 at Dec 31, 2020"
+  },
+  {
+   "id": "x076",
+   "form": "8-K",
+   "accession": "0001193125-18-098621",
+   "filing_date": "2018-03-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1517228/000119312518098621/d553027d8k.htm",
+   "quote": "announced the appointment of Alexander W. Pease as executive vice president and chief financial officer, effective April 2, 2018.",
+   "supports": "Pease became CommScope CFO April 2, 2018"
+  },
+  {
+   "id": "x077",
+   "form": "8-K",
+   "accession": "0000950170-21-002278",
+   "filing_date": "2021-10-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1517228/000095017021002278/comm-20211021.htm",
+   "quote": "On October 21, 2021, Alexander W. Pease, Executive Vice President and Chief Financial Officer of CommScope Holding Company, Inc. (the \"Company\"), informed the Company of his decision to resign as an officer of the Company, effective November 1, 2021.",
+   "supports": "Pease resigned from CommScope effective November 1, 2021"
+  },
+  {
+   "id": "x078",
+   "form": "DEF 14A",
+   "accession": "0001193125-22-081624",
+   "filing_date": "2022-03-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1517228/000119312522081624/d308209ddef14a.htm",
+   "quote": "Mr. Pease did not receive any severance in connection with his resignation.",
+   "supports": "No CommScope severance for Pease"
+  },
+  {
+   "id": "x079",
+   "form": "8-K",
+   "accession": "0001157523-21-001409",
+   "filing_date": "2021-11-15",
+   "url": "https://www.sec.gov/Archives/edgar/data/1732845/000115752321001409/a52531601.htm",
+   "quote": "On November 10, 2021, the board of directors of the Company appointed Alexander W. Pease as executive vice president and chief financial officer of WestRock Company.",
+   "supports": "Pease became WestRock CFO November 10, 2021"
+  },
+  {
+   "id": "x080",
+   "form": "DEF 14A",
+   "accession": "0001193125-23-293896",
+   "filing_date": "2023-12-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1732845/000119312523293896/d862309ddef14a.htm",
+   "quote": "Alexander W. Pease (6) Executive Vice President and CFO 2023 772,500 - 1,985,123 584,766 - 231,262 3,573,651 2022 673,295 585,000 6,021,728 849,936 - 414,558 8,544,517",
+   "supports": "WestRock Summary Compensation Table: Pease fiscal 2023 $3,573,651; fiscal 2022 $8,544,517"
+  },
+  {
+   "id": "x081",
+   "form": "10-K",
+   "accession": "0001498710-24-000117",
+   "filing_date": "2024-02-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1498710/000149871024000117/save-20231231.htm",
+   "quote": "The following graph compares the cumulative total stockholder return on our common stock with the cumulative total return on the NYSE ARCA Airline Index and the S&P 500 Index for the period beginning on December 31, 2018 and ending on December 31, 2023.",
+   "supports": "Spirit Airlines table base December 31, 2018"
+  },
+  {
+   "id": "x082",
+   "form": "10-K",
+   "accession": "0001498710-24-000117",
+   "filing_date": "2024-02-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1498710/000149871024000117/save-20231231.htm",
+   "quote": "12/31/2018 12/31/2019 12/31/2020 12/31/2021 12/31/2022 12/31/2023 Spirit $ 100.00 $ 69.60 $ 42.21 $ 37.72 $ 33.63 $ 28.30 NYSE ARCA Airline Index $ 100.00 $ 122.74 $ 93.00 $ 91.37 $ 59.45 $ 76.93 S&P 500 Index $ 100.00 $ 131.47 $ 155.65 $ 200.29 $ 163.98 $ 207.04",
+   "supports": "Spirit Airlines $100 -> $28.30 vs S&P 500 $207.04 (Dec 2018 - Dec 2023)"
+  },
+  {
+   "id": "x083",
+   "form": "8-K",
+   "accession": "0001498710-18-000158",
+   "filing_date": "2018-10-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1498710/000149871018000158/form8k.htm",
+   "quote": "appointed Scott M. Haralson as Senior Vice President and Chief Financial Officer of the Company, effective October 16, 2018.",
+   "supports": "Haralson became Spirit CFO October 16, 2018"
+  },
+  {
+   "id": "x084",
+   "form": "8-K (Ex. 99.1)",
+   "accession": "0001498710-24-000168",
+   "filing_date": "2024-06-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/1498710/000149871024000168/cfotransition-pressrelea.htm",
+   "quote": "McMenamy succeeds Scott Haralson, Executive Vice President and Chief Financial Officer, who is departing to become CFO of a larger, publicly traded company outside of the airline industry. Haralson will continue in his role through June 14, 2024",
+   "supports": "Haralson left Spirit June 14, 2024 to become CFO of another public company"
+  },
+  {
+   "id": "x085",
+   "form": "DEF 14A",
+   "accession": "0001104659-26-044356",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1657853/000110465926044356/tm261527-1_def14a.htm",
+   "quote": "Mr. Haralson and the Company entered into a standard offer letter on May 29, 2024, in connection with his being hired as the Company's Executive Vice President and CFO, effective June 17, 2024.",
+   "supports": "Haralson became Hertz CFO June 17, 2024"
+  },
+  {
+   "id": "x086",
+   "form": "DEF 14A",
+   "accession": "0001104659-26-044356",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1657853/000110465926044356/tm261527-1_def14a.htm",
+   "quote": "Scott Haralson EVP and Chief Financial Officer 2025 750,000 - 1,666,666 1,001,250 56,804 3,474,720 2024 403,846 500,000 7,500,002 121,721 203,659 8,729,228",
+   "supports": "Hertz Summary Compensation Table: Haralson 2025 $3,474,720; 2024 $8,729,228"
+  },
+  {
+   "id": "x087",
+   "form": "10-K",
+   "accession": "0000950170-23-004264",
+   "filing_date": "2023-02-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1136869/000095017023004264/zbh-20221231.htm",
+   "quote": "The chart assumes $100 was invested on December 31, 2017 in Zimmer Biomet common stock and each index and that dividends were reinvested.",
+   "supports": "Zimmer Biomet table base December 31, 2017"
+  },
+  {
+   "id": "x088",
+   "form": "10-K",
+   "accession": "0000950170-23-004264",
+   "filing_date": "2023-02-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1136869/000095017023004264/zbh-20221231.htm",
+   "quote": "Company/Index 2017 2018 2019 2020 2021 2022 Zimmer Biomet Holdings, Inc. $ 100.00 $ 86.69 $ 126.03 $ 130.77 $ 108.51 $ 113.18 S&P 500 Stock Index 100.00 95.62 125.72 148.85 191.58 156.88 S&P 500 Health Care Equipment Index 100.00 116.24 150.32 176.83 211.05 171.25 Peer Group 100.00 112.39 147.56 171.63 208.11 165.99",
+   "supports": "Zimmer Biomet $100 -> $113.18 vs S&P 500 Health Care Equipment $171.25 and peer group $165.99 (Dec 2017 - Dec 2022)"
+  },
+  {
+   "id": "x089",
+   "form": "8-K",
+   "accession": "0001193125-17-376624",
+   "filing_date": "2017-12-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/1136869/000119312517376624/d520208d8k.htm",
+   "quote": "appointed Bryan C. Hanson as the Company's President and Chief Executive Officer and elected him as a member of the Board, effective December 19, 2017.",
+   "supports": "Hanson became Zimmer Biomet CEO December 19, 2017"
+  },
+  {
+   "id": "x090",
+   "form": "8-K",
+   "accession": "0001193125-23-217504",
+   "filing_date": "2023-08-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1136869/000119312523217504/d535846d8k.htm",
+   "quote": "On August 17, 2023, Bryan C. Hanson notified the Company that he planned to step down as Chairman of the Board, President and Chief Executive Officer of the Company and as a member of the Company's Board, all effective as of August 22, 2023. Mr. Hanson will remain with the Company as an employee in an advisory capacity at the same level of compensation through August 31, 2023. The Company did not enter into, amend or modify any material compensatory plans, arrangements or agreements in connection with Mr. Hanson's departure. Mr. Hanson's voluntary resignation will not trigger a right to receive any severance compensation or benefits",
+   "supports": "Hanson left Zimmer Biomet August 22, 2023; voluntary resignation, no severance"
+  },
+  {
+   "id": "x091",
+   "form": "8-K",
+   "accession": "0000066740-23-000069",
+   "filing_date": "2023-08-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/66740/000006674023000069/mmm-20230821.htm",
+   "quote": "announcing the appointment of Bryan C. Hanson as the chief executive officer of the Company's health care business group, effective September 1, 2023, and as the chief executive officer of the independent health care company when it is spun off from 3M.",
+   "supports": "3M hired Hanson as CEO of its health care business (and of the planned spin-off) effective September 1, 2023"
+  },
+  {
+   "id": "x092",
+   "form": "DEF 14A",
+   "accession": "0000066740-24-000037",
+   "filing_date": "2024-03-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/66740/000006674024000037/mmm-20240326.htm",
+   "quote": "Bryan C. Hanson(9)(10) 2023 450,000 9,200,000 13,556,340 - 578,558 - 111,333 23,896,231",
+   "supports": "3M Summary Compensation Table: Hanson 2023 $23,896,231"
+  },
+  {
+   "id": "x093",
+   "form": "DEF 14A",
+   "accession": "0001964738-26-000017",
+   "filing_date": "2026-03-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1964738/000196473826000017/solv-20260327.htm",
+   "quote": "Solventum Corporation •Chief Executive Officer (2024 - present) 3M - Health Care Business Group •Chief Executive Officer (2023 - 2024) Zimmer Biomet Holdings, Inc. •President and Chief Executive Officer (2017 - 2023)",
+   "supports": "Hanson: Solventum CEO from 2024; 3M Health Care CEO 2023-2024; Zimmer Biomet CEO 2017-2023"
+  },
+  {
+   "id": "x094",
+   "form": "DEF 14A",
+   "accession": "0001964738-26-000017",
+   "filing_date": "2026-03-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1964738/000196473826000017/solv-20260327.htm",
+   "quote": "In connection with the separation from 3M on April 1, 2024",
+   "supports": "Solventum separated from 3M on April 1, 2024"
+  },
+  {
+   "id": "x095",
+   "form": "DEF 14A",
+   "accession": "0001964738-26-000017",
+   "filing_date": "2026-03-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1964738/000196473826000017/solv-20260327.htm",
+   "quote": "Bryan C. Hanson Chief Executive Officer 2025 1,350,000 - 15,209,022 2,988,900 592,058 20,139,981 2024 1,350,000 6,500,000 29,589,286 2,231,550 288,931 39,959,767",
+   "supports": "Solventum Summary Compensation Table: Hanson 2025 $20,139,981; 2024 $39,959,767"
+  },
+  {
+   "id": "x096",
+   "form": "10-K",
+   "accession": "0002041610-26-000011",
+   "filing_date": "2026-02-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/2041610/000204161026000011/psky-20251231.htm",
+   "quote": "The performance graph assumes $100 invested on December 31, 2020 in Paramount Global Class B Common Stock and that the shares converted to Paramount Skydance Corporation Class B Common Stock on August 7, 2025 in connection with the Transactions and were held through December 31, 2025",
+   "supports": "Paramount table base December 31, 2020 (Paramount Global Class B, converted to Paramount Skydance in August 2025)"
+  },
+  {
+   "id": "x097",
+   "form": "10-K",
+   "accession": "0002041610-26-000011",
+   "filing_date": "2026-02-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/2041610/000204161026000011/psky-20251231.htm",
+   "quote": "December 31, 2020 2021 2022 2023 2024 2025 Class B Common Stock $100 $83 $48 $43 $31 $40 S&P 500 $100 $129 $105 $133 $166 $196 S&P 500 Media & Entertainment Index $100 $127 $71 $117 $165 $224",
+   "supports": "Paramount Class B $100 -> $31 vs S&P 500 $166 at Dec 31, 2024"
+  },
+  {
+   "id": "x098",
+   "form": "8-K",
+   "accession": "0000813828-20-000032",
+   "filing_date": "2020-07-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/813828/000081382820000032/form-8k063020.htm",
+   "quote": "announced that Naveen Chopra has been appointed Executive Vice President, Chief Financial Officer, effective August 10, 2020",
+   "supports": "Chopra became ViacomCBS/Paramount CFO August 10, 2020"
+  },
+  {
+   "id": "x099",
+   "form": "8-K",
+   "accession": "0000813828-25-000015",
+   "filing_date": "2025-06-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/813828/000081382825000015/para-20250603.htm",
+   "quote": "On June 3, 2025, Naveen Chopra, the Executive Vice President, Chief Financial Officer of Paramount Global (the \"Company\"), notified the Company of his decision to resign from his position, effective June 27, 2025. Mr. Chopra's resignation is not the result of any disagreement with the Company",
+   "supports": "Chopra resigned from Paramount effective June 27, 2025"
+  },
+  {
+   "id": "x100",
+   "form": "8-K",
+   "accession": "0001315098-25-000199",
+   "filing_date": "2025-06-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1315098/000131509825000199/rblx-20250604.htm",
+   "quote": "On June 4, 2025, the Company executed an offer letter with Naveen Chopra for the position of Chief Financial Officer, with an expected start date of June 30, 2025.",
+   "supports": "Chopra to become Roblox CFO June 30, 2025"
+  },
+  {
+   "id": "x101",
+   "form": "DEF 14A",
+   "accession": "0001104659-26-044362",
+   "filing_date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1315098/000110465926044362/rblx-20260528xdef14a.htm",
+   "quote": "Naveen Chopra, 2025 370,284 (4) 3,333,333 (5) 40,094,621 15,500 (6) 43,813,738",
+   "supports": "Roblox Summary Compensation Table: Chopra 2025 $43,813,738"
+  },
+  {
+   "id": "x102",
+   "form": "10-K",
+   "accession": "0000813828-25-000005",
+   "filing_date": "2025-02-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/813828/000081382825000005/para-20241231.htm",
+   "quote": "December 31, 2019 2020 2021 2022 2023 2024 Class A Common Stock $100 $87 $79 $48 $49 $56 Class B Common Stock $100 $92 $77 $45 $40 $29 S&P 500 $100 $118 $152 $125 $158 $197 S&P 500 Media & Entertainment Index $100 $131 $166 $93 $154 $217",
+   "supports": "Earlier Paramount table (base Dec 2019, before Chopra's tenure)"
+  },
+  {
+   "id": "x103",
+   "form": "10-K",
+   "accession": "0000950170-23-010285",
+   "filing_date": "2023-03-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1826470/000095017023010285/woof-20230128.htm",
+   "quote": "The graph below compares the cumulative total return on our Class A common stock with the cumulative total returns of the Nasdaq Composite index and S&P Retail index from January14, 2021 (the initial day of trading for our Class A common stock) through January 28, 2023. The graph assumes that the value of the investment in our Class A common stock, in each index, and in the peer group (including reinvestment of dividends) was $100 on January 14, 2021 and tracks it through January 28, 2023.",
+   "supports": "Petco table base January 14, 2021, its first day of trading"
+  },
+  {
+   "id": "x104",
+   "form": "10-K",
+   "accession": "0000950170-23-010285",
+   "filing_date": "2023-03-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1826470/000095017023010285/woof-20230128.htm",
+   "quote": "1/14/21 1/21 4/21 7/21 10/21 1/22 4/22 7/22 10/22 1/23 Petco Health and Wellness Company Inc. 100.00 88.54 80.34 70.17 84.12 62.24 65.51 47.35 35.82 39.93 NASDAQ Composite 100.00 101.44 108.55 114.26 120.88 111.23 96.52 97.17 86.35 91.27 S&P Retail 100.00 99.36 112.41 111.83 117.11 105.22 93.07 96.00 84.47 87.14",
+   "supports": "Petco $100 -> $47.35 vs Nasdaq Composite $97.17 at the 7/22 point"
+  },
+  {
+   "id": "x105",
+   "form": "10-K",
+   "accession": "0001564590-22-011685",
+   "filing_date": "2022-03-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1826470/000156459022011685/woof-10k_20220129.htm",
+   "quote": "The aggregate market value of the voting and non-voting common equity held by non-affiliates of the registrant, based on the closing price of the Common Stock on The Nasdaq Global Select Market on July 30, 2021, the last business day of the registrant's most recently completed second fiscal quarter, was approximately $1.66 billion.",
+   "supports": "Petco public float about $1.66 billion at July 30, 2021"
+  },
+  {
+   "id": "x106",
+   "form": "10-K",
+   "accession": "0001564590-22-011685",
+   "filing_date": "2022-03-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1826470/000156459022011685/woof-10k_20220129.htm",
+   "quote": "1/14/21 1/21 2/21 3/21 4/21 5/21 6/21 7/21 8/21 9/21 10/21 Petco Health and Wellness Company Inc. 100.00 88.54 67.79 75.37 80.34 77.04 76.22 70.17 73.23 71.77 84.12 NASDAQ Composite 100.00 101.44 102.47 102.95 108.55 106.98 112.92 114.26 118.92 112.66 120.88 S&P Retail Index 100.00 99.27 97.20 101.76 111.17 105.99 111.38 110.21 113.41 108.62 114.93 11/21 12/21 1/22 65.20 67.31 62.24 121.28 122.18 111.23 119.06 117.30 105.55",
+   "supports": "Earlier Petco table with the same base: $62.24 vs Nasdaq $111.23 at January 2022"
+  },
+  {
+   "id": "x107",
+   "form": "DEF 14A",
+   "accession": "0001193125-22-141405",
+   "filing_date": "2022-05-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/1826470/000119312522141405/d240334ddef14a.htm",
+   "quote": "Michael Nuzzo has served as our Chief Operating Officer and President of Petco Services since July 2019, and as Chief Financial Officer from May 2015 to August 2021.",
+   "supports": "Nuzzo: Petco CFO May 2015 - Aug 2021; COO and President of Petco Services from July 2019"
+  },
+  {
+   "id": "x108",
+   "form": "DEF 14A",
+   "accession": "0001193125-22-141405",
+   "filing_date": "2022-05-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/1826470/000119312522141405/d240334ddef14a.htm",
+   "quote": "Michael Nuzzo (2) 2021 $ 664,625 $ 1,000,000 - - $ 950,122 $ 47,173 $ 2,661,920",
+   "supports": "Nuzzo was a Petco named executive officer for fiscal 2021"
+  },
+  {
+   "id": "x109",
+   "form": "8-K",
+   "accession": "0001193125-22-216284",
+   "filing_date": "2022-08-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1826470/000119312522216284/d388403d8k.htm",
+   "quote": "Mr. Nuzzo stepped down from his current role on August 8, 2022 and will be leaving the Company, effective as of August 13, 2022.",
+   "supports": "Nuzzo left Petco August 13, 2022"
+  },
+  {
+   "id": "x110",
+   "form": "8-K/A",
+   "accession": "0001564590-22-030957",
+   "filing_date": "2022-09-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1826470/000156459022030957/woof-8ka_20220808.htm",
+   "quote": "(i) a lump sum cash payment of $1,318,015, representing 18 months of Mr. Nuzzo's base salary, 18 months of group health plan continuation premiums, and 50% of Mr. Nuzzo's target fiscal 2022 bonus; (ii) accelerated vesting of 2,472,055 Common Series C Units in Scooby LP;",
+   "supports": "Nuzzo separation lump sum $1,318,015"
+  },
+  {
+   "id": "x111",
+   "form": "8-K",
+   "accession": "0001193125-25-175028",
+   "filing_date": "2025-08-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/1802156/000119312525175028/d92478d8k.htm",
+   "quote": "appointed Mr. Mike Nuzzo, age 54, as Chief Executive Officer of the Company and as a Class III director of the Company, effective as of August 7, 2025. Mr. Nuzzo will not join any of the Board committees. Mr. Nuzzo most recently was the Chief Executive Officer of Eyemart Express, a national eyewear retailer, from October 2022 to July 2025.",
+   "supports": "Nuzzo became Xponential CEO August 7, 2025"
+  },
+  {
+   "id": "x112",
+   "form": "DEF 14A",
+   "accession": "0001140361-26-016695",
+   "filing_date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1802156/000114036126016695/ny20067080x1_def14a.htm",
+   "quote": "Michael Nuzzo(4) Chief Executive Officer 2025 324,627 800,000 3,566,482 - 4,691,109",
+   "supports": "Xponential Summary Compensation Table: Nuzzo 2025 $4,691,109"
+  },
+  {
+   "id": "x113",
+   "form": "DEF 14A",
+   "accession": "0001308179-23-001069",
+   "filing_date": "2023-12-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1618921/000130817923001069/wba4243631-def14a.htm",
+   "quote": "2023 14,134,190 - (7) (5,623,734 ) - (7) 6,435,561 1,783,258 76.73 127.30 (3,507 ) 4,054 2022 17,287,489 - (7) 9,417,343 - (7) 7,339,090 2,893,927 100.30 117.82",
+   "supports": "Walgreens PvP: TSR 100.30 vs peer 117.82 at fiscal 2022 (Aug 31, 2022); 76.73 vs 127.30 at fiscal 2023"
+  },
+  {
+   "id": "x114",
+   "form": "8-K (Ex. 99.1)",
+   "accession": "0001193125-23-196159",
+   "filing_date": "2023-07-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1618921/000119312523196159/d532458dex991.htm",
+   "quote": "Mr. Kehoe will leave WBA in mid-August to pursue an opportunity in the technology sector.",
+   "supports": "Kehoe left Walgreens in mid-August 2023"
+  },
+  {
+   "id": "x115",
+   "form": "8-K",
+   "accession": "0001193125-18-075350",
+   "filing_date": "2018-03-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1618921/000119312518075350/d560994d8k.htm",
+   "quote": "elected James Kehoe as Executive Vice President and Global Chief Financial Officer of the Company, effective June 1, 2018.",
+   "supports": "Kehoe became Walgreens CFO June 1, 2018"
+  },
+  {
+   "id": "x116",
+   "form": "10-K",
+   "accession": "0001104659-22-024701",
+   "filing_date": "2022-02-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/5272/000110465922024701/aig-20211231.htm",
+   "quote": "As of December 31, 2016 2017 2018 2019 2020 2021 AIG $ 100.00 $ 93.14 $ 63.25 $ 84.49 $ 64.84 $ 99.81 S&P 500 100.00 121.83 116.49 153.17 181.35 233.41",
+   "supports": "AIG $93.14 vs S&P 500 $121.83 at Dec 2017; $63.25 vs $116.49 at Dec 2018"
+  },
+  {
+   "id": "x117",
+   "form": "8-K",
+   "accession": "0001144204-18-063621",
+   "filing_date": "2018-12-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/5272/000114420418063621/tv508499_8k.htm",
+   "quote": "is succeeding Siddhartha Sankaran as Executive Vice President and Chief Financial Officer effective December 4, 2018.",
+   "supports": "Sankaran ceased to be AIG CFO December 4, 2018"
+  },
+  {
+   "id": "x118",
+   "form": "10-K",
+   "accession": "0001018840-20-000021",
+   "filing_date": "2020-03-31",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018840/000101884020000021/a201910-k.htm",
+   "quote": "1/31/15 1/30/16 1/28/17 2/3/18 2/2/19 2/1/20 Abercrombie & Fitch Co. $ 100.00 $ 106.55 $ 48.10 $ 92.28 $ 99.60 $ 79.77 S&P 500 $ 100.00 $ 99.33 $ 119.24 $ 150.73 $ 147.24 $ 179.17",
+   "supports": "Abercrombie $99.60 vs S&P 500 $147.24 at Feb 2, 2019"
+  },
+  {
+   "id": "x119",
+   "form": "10-K",
+   "accession": "0000028823-19-000069",
+   "filing_date": "2019-03-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/28823/000002882319000069/dbd12312018-10k.htm",
+   "quote": "An investment of $100 (with reinvestment of all dividends) is assumed to have been made in the Company's common shares, in each index and in each of the peer groups on December 31, 2013 and its relative performance is tracked through December 31, 2018.",
+   "supports": "Diebold Nixdorf's only table with an in-tenure base (Dec 2013) is a graph without tabulated values"
+  },
+  {
+   "id": "x120",
+   "form": "8-K",
+   "accession": "0000028823-18-000014",
+   "filing_date": "2018-02-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/28823/000002882318000014/a8-k2018andysresignationch.htm",
+   "quote": "As previously announced, Andreas W. Mattes stepped down as Chief Executive Officer and President of Diebold Nixdorf, Incorporated (the \"Company\") on December 13, 2017.",
+   "supports": "Mattes stepped down as Diebold Nixdorf CEO December 13, 2017"
+  },
+  {
+   "id": "x121",
+   "form": "10-K",
+   "accession": "0001320695-22-000009",
+   "filing_date": "2022-02-15",
+   "url": "https://www.sec.gov/Archives/edgar/data/1320695/000132069522000009/ths-20211231.htm",
+   "quote": "Company Name/Index 12/31/2016 12/31/2017 12/31/2018 12/31/2019 12/31/2020 12/31/2021 TreeHouse Foods, Inc. 100 $ 68.51 $ 70.25 $ 67.18 $ 58.86 $ 56.14 S&P SmallCap 600 Index 100 113.23 103.63 127.24 141.60 179.58 S&P MidCap 400 Index 100 116.24 103.36 130.44 148.26 184.97 S&P Food & Beverage Select Index 100 111.79 101.51 124.15 148.68 172.11",
+   "supports": "TreeHouse $70.25 vs S&P MidCap 400 $103.36 at Dec 2018"
+  },
+  {
+   "id": "x122",
+   "form": "8-K",
+   "accession": "0001752836-20-000133",
+   "filing_date": "2020-06-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/1752836/000175283620000133/cvet_20200601x8kax502.htm",
+   "quote": "Mr. Foulston, age 56, most recently served as the Executive Vice President and Chief Financial Officer of Treehouse Foods, a leading manufacturer and distributor of private label packaged food and beverages, from 2016 through 2019.",
+   "supports": "Foulston was TreeHouse CFO 2016-2019, then Covetrus CFO"
+  },
+  {
+   "id": "x123",
+   "form": "8-K",
+   "accession": "0001193125-22-010541",
+   "filing_date": "2022-01-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/910406/000119312522010541/d243026d8k.htm",
+   "quote": "Mr. Bellairs, age 61, served as Chief Financial Officer of Stone Brewing, a California-based craft brewery with nationwide and international distribution, from September 2018 to September 2020 with responsibility for the company's financial organization. Prior to that he was an independent dairy consultant from October 2017 to August 2018. Prior to that he served as Executive Vice President and Chief Financial Officer of Dean Foods Company, a food and beverage company, from March 2013 to September 2017",
+   "supports": "Bellairs left Dean Foods September 2017; Hain CFO appointment January 2022"
+  },
+  {
+   "id": "x124",
+   "form": "8-K",
+   "accession": "0000950170-23-072257",
+   "filing_date": "2023-12-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/1823794/000095017023072257/arko-20231219.htm",
+   "quote": "appointed Mr. Robb Giammatteo, as Executive Vice President and Chief Financial Officer (principal financial and accounting officer), effective January 2, 2024. Mr. Giammatteo, age 51, brings more than two decades of experience in financial leadership roles in the retail and convenience stores industries. Mr. Giammatteo most recently served as Chief Financial Officer and Chief Transformation Officer of Giant Eagle Inc. from September 2019 through July 2023. Mr. Giammatteo previously served as Chief Financial Officer of Ascena Retail Group from February 2015 through July 2019.",
+   "supports": "Giammatteo left Ascena July 2019; ARKO CFO from January 2024"
+  },
+  {
+   "id": "x125",
+   "form": "8-K",
+   "accession": "0001558370-19-002322",
+   "filing_date": "2019-03-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/1121142/000155837019002322/f8-k.htm",
+   "quote": "Mr. Porter joined the Company in August 2018 as our Executive Vice President and Chief Financial Officer. Prior to joining Maxar, Mr. Porter served as Executive Vice President and Chief Financial Officer of Fluor Corporation from 2012 until 2017.",
+   "supports": "Porter: Fluor CFO 2012-2017, Maxar CFO from August 2018"
+  },
+  {
+   "id": "x126",
+   "form": "10-K",
+   "accession": "0000078814-22-000004",
+   "filing_date": "2022-02-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/78814/000007881422000004/pbi-20211231.htm",
+   "quote": "On a total return basis, a $100 investment on December 31, 2016 in Pitney Bowes Inc., the S&P 500 Composite Index, the S&P SmallCap 600 Composite Index, the old peer group and our new peer group would have been worth $57, $233, $180, $173 and $147 respectively, on December 31, 2021.",
+   "supports": "Pitney Bowes 10-K states only the five-year end values"
+  },
+  {
+   "id": "x127",
+   "form": "8-K (Ex. 99.1)",
+   "accession": "0001157523-20-001399",
+   "filing_date": "2020-10-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/21665/000115752320001399/a52317130ex99_1.htm",
+   "quote": "announced today the appointment of Stanley J. Sutula, currently Executive Vice President and Chief Financial Officer of Pitney Bowes Inc.",
+   "supports": "Sutula moved from Pitney Bowes CFO to Colgate CFO (October 2020)"
+  },
+  {
+   "id": "x128",
+   "form": "10-K",
+   "accession": "0001193125-13-072858",
+   "filing_date": "2013-02-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1439404/000119312513072858/d489727d10k.htm",
+   "quote": "The measurement points in the graph below are December 16, 2011 (the first trading day of our Class A common stock on the NASDAQ Global Select Market) and the last trading day of the fiscal year ended December 31, 2012.",
+   "supports": "Zynga's FY2012 graph: Dec 16, 2011 IPO to Dec 31, 2012, no tabulated values"
+  },
+  {
+   "id": "x129",
+   "form": "8-K",
+   "accession": "0001193125-12-467399",
+   "filing_date": "2012-11-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1439404/000119312512467399/d441290d8k.htm",
+   "quote": "On November 6, 2012, David Wehner notified Zynga Inc. (the \"Company\") of his resignation from the Company, effective November 13, 2012. Mr. Wehner ceased to be the Company's Chief Financial Officer on November 7, 2012.",
+   "supports": "Wehner ceased to be Zynga CFO November 7, 2012"
+  },
+  {
+   "id": "x130",
+   "form": "10-K",
+   "accession": "0001628280-26-063365",
+   "filing_date": "2026-09-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1576942/000162828026063365/sfix-20260801.htm",
+   "quote": "An investment of $100 (with reinvestment of all dividends) is assumed to have been made in our Class A common stock and in each index on July 30, 2021, and its relative performance is tracked through August 1, 2026.",
+   "supports": "Stitch Fix's in-tenure-base graph (July 30, 2021) has no tabulated values"
+  },
+  {
+   "id": "x131",
+   "form": "10-K",
+   "accession": "0000950170-22-002280",
+   "filing_date": "2022-02-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1592058/000095017022002280/prty-20211231.htm",
+   "quote": "for the period from the completion of our initial public offering on April 16, 2015 through December 31, 2021.",
+   "supports": "Party City graphs run from the April 16, 2015 IPO"
+  },
+  {
+   "id": "x132",
+   "form": "8-K (Ex. 99.1)",
+   "accession": "0001096752-19-000008",
+   "filing_date": "2019-02-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1096752/000109675219000008/epcexhibit991022819.htm",
+   "quote": "Mr. Sullivan most recently served as Chief Financial Officer of Party City Holdco Inc. starting in August 2016",
+   "supports": "Sullivan was Party City CFO from August 2016"
+  },
+  {
+   "id": "x133",
+   "form": "DEF 14A",
+   "accession": "0001206774-20-002817",
+   "filing_date": "2020-10-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/16732/000120677420002817/cpb3773881-def14a.htm",
+   "quote": "Mr. Beekhuizen was elected as Chief Financial Officer, and Mr. DiSilvestro was removed from the same role effective September 30, 2019. As a result of his termination without cause, Mr. DiSilvestro left the Company on March 31, 2020",
+   "supports": "DiSilvestro removed as Campbell CFO September 30, 2019; termination without cause; left March 31, 2020"
+  },
+  {
+   "id": "x134",
+   "form": "8-K",
+   "accession": "0001193125-24-177070",
+   "filing_date": "2024-07-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/7084/000119312524177070/d826908d8k.htm",
+   "quote": "Mr. Patolawala, age 54, most recently served as President and Chief Financial Officer of 3M Company (\"3M\") since September 2023. Prior to that, he served as Executive Vice President, Chief Financial and Transformation Officer of 3M since October 2021 and as Senior Vice President and Chief Financial Officer of 3M since July 2020.",
+   "supports": "Patolawala's 3M roles: CFO from July 2020, CFO and Transformation Officer from October 2021, President and CFO from September 2023"
+  },
+  {
+   "id": "x135",
+   "form": "8-K (Ex. 99.1)",
+   "accession": "0001193125-23-218012",
+   "filing_date": "2023-08-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1136893/000119312523218012/d534612dex991.htm",
+   "quote": "announced the appointment of James Kehoe as Chief Financial Officer (CFO), effective August 21, 2023.",
+   "supports": "Kehoe became FIS CFO August 21, 2023"
+  },
+  {
+   "id": "x136",
+   "form": "8-K",
+   "accession": "0001576018-19-000075",
+   "filing_date": "2019-08-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/1576018/000157601819000075/form8-kaugust72019.htm",
+   "quote": "Mr. Sankaran is currently Chief Financial Officer of Oscar Health (since February 2019). He previously served as Chief Financial Officer of American International Group, Inc. (\"AIG\") from February 2016 until December 2018.",
+   "supports": "Sankaran was AIG CFO February 2016 - December 2018, then Oscar Health CFO"
+  },
+  {
+   "id": "x137",
+   "form": "8-K (Ex. 99.1)",
+   "accession": "0001558370-19-000167",
+   "filing_date": "2019-01-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1646228/000155837019000167/ex-99d1.htm",
+   "quote": "Ms. Crevoiserat is Executive Vice President, Chief Operating Officer of Abercrombie & Fitch Co., a leading, global specialty retailer of apparel and accessories for Men, Women and Kids, which operates over 850 stores under its Abercrombie & Fitch, abercrombie kids, and Hollister Co. brands across North America, Europe, Asia and the Middle East, as well as e-commerce sites. She joined Abercrombie & Fitch Co. in May 2014 as Chief Financial Officer.",
+   "supports": "Crevoiserat joined A&F as CFO in May 2014 and was its COO in January 2019"
+  },
+  {
+   "id": "x138",
+   "form": "8-K",
+   "accession": "0001193125-23-063903",
+   "filing_date": "2023-03-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1428439/000119312523063903/d466555d8k.htm",
+   "quote": "Mr. Jedda has served as the Chief Financial Officer of Stitch Fix, Inc. since December 2020 and will step down from that role in April 2023.",
+   "supports": "Jedda was Stitch Fix CFO December 2020 - April 2023, then Roku CFO"
+  }
+ ],
+ "rejected": [
+  {
+   "name": "James Kehoe (Walgreens Boots Alliance -> Fidelity National Information Services)",
+   "reason": "Walgreens' 10-Ks contain no performance graph. The only in-tenure table is pay-versus-performance with an August 31, 2020 base (he was CFO from June 1, 2018), which shows 100.30 vs peer 117.82 at fiscal 2022, short of both bars. The fiscal 2023 point (76.73 vs 127.30) is August 31, 2023, after he left in mid-August to become FIS CFO on August 21, 2023.",
+   "evidence_refs": [
+    "x113",
+    "x114",
+    "x115",
+    "x135"
+   ]
+  },
+  {
+   "name": "Siddhartha (Sid) Sankaran (AIG -> Oscar Health)",
+   "reason": "AIG CFO from February 2016 until Mark Lyons succeeded him effective December 4, 2018. The only in-tenure window in AIG's tables runs from the Dec 2016 base to Dec 2017: $93.14 vs S&P 500 $121.83, short of both bars. The Dec 2018 point ($63.25 vs $116.49) falls after he ceased to be CFO.",
+   "evidence_refs": [
+    "x116",
+    "x117",
+    "x136"
+   ]
+  },
+  {
+   "name": "Joanne Crevoiserat (Abercrombie & Fitch -> Tapestry)",
+   "reason": "A&F CFO from May 2014, COO by January 2019. The in-tenure window Jan 31, 2015 - Feb 2, 2019 shows $99.60 vs S&P 500 $147.24, a 47.6-point shortfall, below the 50-point bar.",
+   "evidence_refs": [
+    "x118",
+    "x137"
+   ]
+  },
+  {
+   "name": "Andreas (Andy) Mattes (Diebold Nixdorf -> Coherent)",
+   "reason": "Diebold's FY2018 performance graph (base Dec 31, 2013) has no tabulated values, and he stepped down as CEO on December 13, 2017, so no tabulated in-tenure window exists.",
+   "evidence_refs": [
+    "x119",
+    "x120"
+   ]
+  },
+  {
+   "name": "Biggs C. Porter (Fluor -> Maxar Technologies)",
+   "reason": "Fluor's 10-Ks from his years as CFO (2012-2017) contain no performance graph, and pay-versus-performance tables did not yet exist.",
+   "evidence_refs": [
+    "x125"
+   ]
+  },
+  {
+   "name": "Matthew Foulston (TreeHouse Foods -> Covetrus)",
+   "reason": "TreeHouse CFO 2016-2019. The in-tenure window from the Dec 2016 base to Dec 2018 shows $70.25 vs S&P MidCap 400 $103.36 (S&P SmallCap 600 $103.63), short of both bars; the Dec 2019 point falls after William Kelley became interim CFO in November 2019.",
+   "evidence_refs": [
+    "x121",
+    "x122",
+    "x055"
+   ]
+  },
+  {
+   "name": "Stanley J. Sutula (Pitney Bowes -> Colgate-Palmolive)",
+   "reason": "Pitney Bowes' 10-Ks print only five-year end values (e.g., Dec 2016 base: $57 vs S&P 500 $233 at Dec 2021, after he left for Colgate in October 2020); the yearly points are image-only, so no in-tenure window can be quoted.",
+   "evidence_refs": [
+    "x126",
+    "x127"
+   ]
+  },
+  {
+   "name": "David Wehner (Zynga -> Facebook)",
+   "reason": "Zynga's only performance graph from his tenure (Dec 16, 2011 IPO to Dec 31, 2012) is image-only and ends after he ceased to be CFO on November 7, 2012.",
+   "evidence_refs": [
+    "x128",
+    "x129"
+   ]
+  },
+  {
+   "name": "Dan Jedda (Stitch Fix -> Roku)",
+   "reason": "Stitch Fix CFO December 2020 - April 2023. Its 10-K graph with an in-tenure base (July 30, 2021) is image-only; Stitch Fix's pay-versus-performance tables were not checked.",
+   "evidence_refs": [
+    "x130",
+    "x138"
+   ]
+  },
+  {
+   "name": "Dan Sullivan (Party City -> Edgewell Personal Care)",
+   "reason": "Party City's performance graphs start at its April 16, 2015 IPO, before he became CFO in August 2016, and are image-only.",
+   "evidence_refs": [
+    "x131",
+    "x132"
+   ]
+  },
+  {
+   "name": "Brian Webb-Walsh (Conduent -> NCR Voyix)",
+   "reason": "Conduent's 10-K performance graphs (fiscal 2018-2021) are image-only, with no tabulated values.",
+   "evidence_refs": []
+  },
+  {
+   "name": "Christopher Bellairs (Dean Foods -> Hain Celestial)",
+   "reason": "B came more than three years after A: Dean Foods CFO March 2013 - September 2017, then Stone Brewing (2018-2020) before Hain named him CFO in January 2022.",
+   "evidence_refs": [
+    "x123"
+   ]
+  },
+  {
+   "name": "Robb Giammatteo (Ascena Retail Group -> ARKO)",
+   "reason": "B came more than three years after A: Ascena CFO February 2015 - July 2019, then Giant Eagle (2019-2023) before ARKO's CFO job from January 2, 2024.",
+   "evidence_refs": [
+    "x124"
+   ]
+  }
+ ]
+}
