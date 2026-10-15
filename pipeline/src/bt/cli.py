@@ -73,7 +73,7 @@ def cmd_prices_reindex(args: argparse.Namespace) -> None:
 
 
 def cmd_analytics_recompute(args: argparse.Namespace) -> None:
-    from bt.analytics import board_pay, event_study, exec_pay, insider_sales, tenure
+    from bt.analytics import board_pay, event_study, exec_pay, insider_sales, pay_asymmetry, tenure
 
     with db.session("pipeline:analytics") as conn:
         ids = None
@@ -85,6 +85,7 @@ def cmd_analytics_recompute(args: argparse.Namespace) -> None:
         print("board pay years:", board_pay.recompute(conn))
         print("board change events:", event_study.recompute(conn))
         print("executive sales windows:", insider_sales.recompute(conn))
+        print("same-CEO pay changes:", pay_asymmetry.recompute(conn))
 
 
 def cmd_seed_board(args: argparse.Namespace) -> None:
@@ -160,6 +161,16 @@ def cmd_screen_pvp(args: argparse.Namespace) -> None:
               f"per-person CEO facts: {sum(c['peo_facts'] for c in ok)}, errors: {len(cases) - len(ok)}")
 
 
+def cmd_screen_panel(args: argparse.Namespace) -> None:
+    from bt.config import settings
+    from bt.ingest import screen
+    from bt.sources.sec import Edgar
+
+    edgar = Edgar(settings().require_sec_user_agent(), max_rps=2)
+    with db.session("pipeline:screen-panel") as conn:
+        print(json.dumps(screen.load_panel(conn, edgar, args.limit, args.reverse), indent=1))
+
+
 def cmd_insiders_load(args: argparse.Namespace) -> None:
     """Forms 4/5 transactions for every named executive with pay on file at the given companies."""
     from datetime import date
@@ -209,8 +220,16 @@ def cmd_refresh(args: argparse.Namespace) -> None:
 
 def cmd_seed_all(args: argparse.Namespace) -> None:
     """Load every researched board file and prototype price file, then recompute and validate."""
-    from bt.analytics import board_pay, event_study, exec_pay, insider_sales, tenure
-    from bt.ingest import prices, reference, seed_board, seed_board_pay, seed_comp
+    from bt.analytics import board_pay, event_study, exec_pay, insider_sales, pay_asymmetry, tenure
+    from bt.ingest import (
+        prices,
+        reference,
+        seed_board,
+        seed_board_pay,
+        seed_comp,
+        seed_failing_up,
+        seed_parachutes,
+    )
     from bt.quality import checks
 
     seed_dir = Path(args.dir)
@@ -244,6 +263,14 @@ def cmd_seed_all(args: argparse.Namespace) -> None:
             conn.commit()
             print(f"{path.name}: {cst.positions} positions, {cst.comp_rows} pay rows, "
                   f"{cst.board.verified}/{cst.board.evidence} quotes verified")
+        for prefix, mod in (("golden_parachutes_", seed_parachutes), ("failing_up", seed_failing_up)):
+            for path in sorted(seed_dir.glob(f"{prefix}*.json")):
+                blocking = [f for f in mod.verify_file(path) if not f.startswith("WARN")]
+                if blocking:
+                    print(f"SKIP {path.name}: {len(blocking)} verification problem(s), first: {blocking[0]}")
+                    continue
+                print(f"{path.name}: {mod.load(conn, path)} cases")
+                conn.commit()
         src = reference.source_ids(conn)
         for csv_path in sorted((seed_dir / "prices").glob("*.csv")):
             if csv_path.stem.endswith("_actions"):
@@ -272,6 +299,7 @@ def cmd_seed_all(args: argparse.Namespace) -> None:
         print("board pay years:", board_pay.recompute(conn))
         print("board change events:", event_study.recompute(conn))
         print("executive sales windows:", insider_sales.recompute(conn))
+        print("same-CEO pay changes:", pay_asymmetry.recompute(conn))
         issues = {k: v for k, v in checks.run(conn).items() if v}
         print("quality:", json.dumps(issues))
 
@@ -309,13 +337,15 @@ def cmd_seed_board_pay(args: argparse.Namespace) -> None:
 def cmd_seed_failing_up(args: argparse.Namespace) -> None:
     from bt.ingest import seed_failing_up
 
-    path = Path(args.path)
-    problems = seed_failing_up.verify_file(path)
-    if problems:
-        print("\n".join(problems))
-        sys.exit(f"{len(problems)} verification problem(s); nothing loaded")
+    paths = [Path(args.path)] if args.path else sorted(Path(args.dir).glob("failing_up*.json"))
+    for path in paths:
+        problems = seed_failing_up.verify_file(path)
+        if problems:
+            print("\n".join(problems))
+            sys.exit(f"{path.name}: {len(problems)} verification problem(s); nothing loaded")
     with db.session("pipeline:seed-failing-up") as conn:
-        print(f"{path.name}: {seed_failing_up.load(conn, path)} cases")
+        for path in paths:
+            print(f"{path.name}: {seed_failing_up.load(conn, path)} cases")
 
 
 def cmd_seed_parachutes(args: argparse.Namespace) -> None:
@@ -385,8 +415,9 @@ def build_parser() -> argparse.ArgumentParser:
     sbp = sd.add_parser("board-pay", help="load a researched director-pay and exit-package JSON file")
     sbp.add_argument("path")
     sbp.set_defaults(fn=cmd_seed_board_pay)
-    sfu = sd.add_parser("failing-up", help="load the researched failing-up cases JSON file")
-    sfu.add_argument("path")
+    sfu = sd.add_parser("failing-up", help="load every data/seed/failing_up*.json file (or one PATH)")
+    sfu.add_argument("path", nargs="?")
+    sfu.add_argument("--dir", default=str(Path(__file__).resolve().parents[3] / "data" / "seed"))
     sfu.set_defaults(fn=cmd_seed_failing_up)
     sgp = sd.add_parser("parachutes", help="load every data/seed/golden_parachutes_*.json file")
     sgp.add_argument("--dir", default=str(Path(__file__).resolve().parents[3] / "data" / "seed"))
@@ -425,6 +456,10 @@ def build_parser() -> argparse.ArgumentParser:
     sp_pvp.add_argument("--gaps", action="store_true",
                         help="also read per-person CEO pay from the proxy of every company missing CEO years")
     sp_pvp.set_defaults(fn=cmd_screen_pvp)
+    sp_pan = scp.add_parser("panel", help="read each screened company's latest proxy into the year-by-year CEO panel")
+    sp_pan.add_argument("--limit", type=int, help="at most this many filings (default: all not yet read)")
+    sp_pan.add_argument("--reverse", action="store_true", help="work from the highest CIK down")
+    sp_pan.set_defaults(fn=cmd_screen_panel)
 
     dp = sub.add_parser("refresh", help="run the scheduled (weekly) refresh: prices, filings, analytics, checks")
     dp.add_argument("--skip-prices", action="store_true")

@@ -2,11 +2,13 @@
 import Link from "next/link";
 import { SectionHead, Signed } from "@/components/standings/primitives";
 import { compactMoney } from "@/lib/format";
-import { getAllExecPay, getPayCompaniesOverview } from "@/lib/queries-pay";
+import { getAllExecPay, getPayAsymmetry, getPayCompaniesOverview } from "@/lib/queries-pay";
 import { median } from "@/lib/track-record";
 
 export async function PayTeaser() {
-  const [companies, execs] = await Promise.all([getPayCompaniesOverview(), getAllExecPay()]);
+  const [companies, execs, asym] = await Promise.all([getPayCompaniesOverview(), getAllExecPay(), getPayAsymmetry()]);
+  const up = asym?.buckets_same.at(-1);
+  const down = asym?.buckets_same[0];
   if (companies.length === 0) return null;
   const scored = execs.filter((e) => (e.calendar_days ?? 0) >= 365 && e.annualized_excess != null);
   const topTrailed = scored.find((e) => e.annualized_excess! < 0); // rows arrive by pay per year, highest first
@@ -46,6 +48,21 @@ export async function PayTeaser() {
           </Link>
         )}
       </div>
+      {up && down && asym && (
+        <Link href="/pay/asymmetry"
+              className="mt-4 group flex flex-wrap items-baseline gap-x-6 gap-y-1 rounded-[14px] border border-line bg-surface px-5 py-4 shadow-card hover:border-line-strong">
+          <span className="text-[11px] leading-[14px] uppercase tracking-[0.08em] text-ink-3">
+            Market-wide · {asym.sample.companies.toLocaleString("en-US")} companies, same CEO year to year
+          </span>
+          <span className="text-[15px] leading-6 text-ink">
+            Stock up more than {Math.round((up.lo ?? 0) * 100)}% in a year: median CEO pay{" "}
+            <Signed value={up.median_change} kind="pct" className="font-semibold" />. Down more than{" "}
+            {Math.round(Math.abs(down.hi ?? 0) * 100)}%: <Signed value={down.median_change} kind="pct" className="font-semibold" />,
+            and {Math.round((down.share_up ?? 0) * 100)}% were still paid more.
+          </span>
+          <span className="ml-auto text-[13px] font-semibold text-ink-2 group-hover:text-ink">The test →</span>
+        </Link>
+      )}
     </section>
   );
 }

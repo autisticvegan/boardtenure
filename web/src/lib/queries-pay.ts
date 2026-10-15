@@ -243,3 +243,30 @@ export const getPersonExecPay = cache(async (personId: number) => sql<{
          epp.annualized_excess, epp.relative_return_pp
   FROM executive_pay_performance epp JOIN company c ON c.id = epp.company_id
   WHERE epp.person_id = ${personId}`);
+
+/** Market-wide: same-CEO year-over-year pay changes against the stock (pay_asymmetry_stat). */
+export type AsymTerm = {
+  up: number; up_se: number; down: number; down_se: number; diff: number; diff_se: number;
+  pay_if_up10: number; pay_if_down10: number;
+};
+export type AsymFit = { n: number; companies?: number; terms?: Record<string, AsymTerm> };
+export type AsymBucket = {
+  lo: number | null; hi: number | null; n: number;
+  median_change: number | null; share_up: number | null; median_pay: number | null;
+};
+export type PayAsymmetry = {
+  sample: { pairs: number; companies: number; first_year: number; last_year: number; panel_companies: number };
+  overall: AsymBucket;
+  buckets_same: AsymBucket[];
+  buckets_prior: AsymBucket[];
+  same_year: AsymFit;
+  both_years: AsymFit;
+  two_year: AsymFit;
+  luck: AsymFit;
+};
+
+export const getPayAsymmetry = cache(async (): Promise<PayAsymmetry | null> => {
+  const rows = await sql<{ key: string; value: unknown }[]>`SELECT key, value FROM pay_asymmetry_stat`;
+  if (rows.length === 0) return null;
+  return Object.fromEntries(rows.map((r) => [r.key, r.value])) as PayAsymmetry;
+});

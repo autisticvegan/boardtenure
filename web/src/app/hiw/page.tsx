@@ -2,10 +2,12 @@ import Link from "next/link";
 import type { ReactNode } from "react";
 import { CaseCard, ceoNames, companyLabel, span } from "@/components/hiw/case-card";
 import { Coin } from "@/components/hiw/coin";
+import { Face } from "@/components/hiw/face";
 import { FlipGame, type FlipCase } from "@/components/hiw/flip-game";
 import { hundred } from "@/components/hiw/hundred";
 import { Ticker } from "@/components/hiw/ticker";
 import { compactMoney } from "@/lib/format";
+import { getPayAsymmetry } from "@/lib/queries-pay";
 import {
   getAllChutes, getExecutiveSales, getFailingUp, getHeadsIWin, getPaidAnyway, getScreenStats,
 } from "@/lib/queries-hiw";
@@ -13,10 +15,15 @@ import {
 export const revalidate = 3600;
 
 export default async function HiwHome() {
-  const [stats, paid, deck, heads, chutes, sales, failing] = await Promise.all([
+  const [stats, paid, deck, heads, chutes, sales, failing, asym] = await Promise.all([
     getScreenStats(), getPaidAnyway(50, 24), getPaidAnyway(100, 120), getHeadsIWin(3), getAllChutes(), getExecutiveSales(),
-    getFailingUp(),
+    getFailingUp(), getPayAsymmetry(),
   ]);
+  const up = asym?.buckets_same.at(-1);
+  const down = asym?.buckets_same[0];
+  const pctAbs = (x: number | null | undefined) => `${Math.round(Math.abs((x ?? 0) * 100))}%`;
+  const signedPct = (x: number | null | undefined) =>
+    x == null ? "—" : `${x > 0 ? "+" : x < 0 ? "−" : ""}${Math.abs(Math.round(x * 100))}%`;
   const capPct = stats.lost_with_cap ? Math.round((stats.lost_cap_positive / stats.lost_with_cap) * 100) : null;
   const topChutes = chutes.filter((c) => (c.total ?? 0) > 0).sort((a, b) => (b.total ?? 0) - (a.total ?? 0)).slice(0, 3);
   const soldBefore = sales.filter((s) => s.value_at_end != null && s.proceeds > s.value_at_end)
@@ -63,6 +70,19 @@ export default async function HiwHome() {
                 sub="losing half didn't lower it any further" />
         </dl>
       </section>
+
+      {up && down && (
+        <section aria-labelledby="the-raise" className="space-y-5">
+          <Head id="the-raise" kicker="The raise" title="Heads, their pay jumps. Tails, it barely moves." href="/raise"
+                sub={`The same CEO in back-to-back years at ${asym!.sample.companies.toLocaleString("en-US")} companies: the median change in pay, by what the stock did that year.`} />
+          <div className="grid gap-4 md:grid-cols-2">
+            <Face side="Heads" tone="gain" title={`The stock rose more than ${pctAbs(up.lo)}`} value={signedPct(up.median_change)}
+                  sub={`median change in CEO pay · ${Math.round((up.share_up ?? 0) * 100)}% got a raise`} />
+            <Face side="Tails" tone="loss" title={`The stock fell more than ${pctAbs(down.hi)}`} value={signedPct(down.median_change)}
+                  sub={`median change in CEO pay · ${Math.round((down.share_up ?? 0) * 100)}% still got a raise`} />
+          </div>
+        </section>
+      )}
 
       <FlipGame cases={flipCases} />
 
@@ -127,7 +147,7 @@ export default async function HiwHome() {
         )}
         {failing.length > 0 && (
           <section aria-labelledby="failing" className="min-w-0 space-y-4">
-            <Head id="failing" kicker="Failing up" title="Next job, bigger check." href="/failing-up"
+            <Head id="failing" kicker="Failing up" title="Shareholders lost. They got hired anyway." href="/failing-up"
                   sub="Shareholders lost big by one company's own figures; another company hired them as an executive next." />
             <ol className="space-y-3">
               {failing.slice(0, 3).map((f) => (

@@ -7,8 +7,9 @@ the S&P 500 (via SPY total return), and sets reported executive pay beside it. E
 pay figure cites the SEC filing it came from.
 
 The same app also serves **Heads I Win** (`web/src/app/hiw/`), a companion site on executive pay
-when shareholders lose: a screen of every proxy's pay-versus-performance table, golden parachutes
-and executives who were rehired after large shareholder losses. Locally it answers on
+when shareholders lose: a screen of every proxy's pay-versus-performance table, how CEO pay moves in
+good years and bad ones, golden parachutes, and executives who were rehired (or given board seats)
+after large shareholder losses. Locally it answers on
 http://absurd.localhost:3107 (set `HIW_HOSTS` for other hostnames).
 
 The numbers are descriptive. They don't imply that a director or executive caused a company's
@@ -38,6 +39,15 @@ uv run bt seed board ../data/seed/lyft_board_research.json
 # prices: licensed feed in production; prototype CSVs locally (see docs/adding-a-company.md)
 uv run bt analytics recompute
 cd ../web && npm install && npm run dev
+```
+
+Market-wide data (Heads I Win and Boardtape's `/pay/asymmetry`):
+
+```bash
+uv run bt screen pvp --gaps        # every filer's pay-versus-performance facts (XBRL frames)
+uv run bt screen panel             # each screened company's latest proxy: CEO by year, pay, TSR
+uv run bt seed parachutes && uv run bt seed failing-up
+uv run bt analytics recompute      # includes the same-CEO pay-change test
 ```
 
 ## Status

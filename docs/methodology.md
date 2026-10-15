@@ -202,6 +202,37 @@ table (Item 402(v)), whose "compensation actually paid" marks equity awards to y
 quality check compares the table's cumulative shareholder return with our total-return index over
 the same dates.
 
+## Pay asymmetry
+
+The market-wide test of whether CEO pay falls with the stock as much as it rises with it. Its data
+is each company's own latest pay-versus-performance proxy (Item 402(v)), read from the filing's
+inline XBRL: the CEO's Summary Compensation Table total, compensation actually paid and cumulative
+TSR for each year the table covers, with the CEO identified by the filing's own tags (a per-person
+member, a name tagged for that year, or the only name in a filing that tags none per person).
+
+**Pairs.** Consecutive fiscal years in one table with the same CEO for the whole of both years (one
+person tagged in each, matched by member or by name). A new CEO's first year is not used as a base
+year when the table shows a different sole CEO the year before, since first years are often partial
+or carry sign-on awards. Pay under $100,000 in either year is left out, as are companies the screen
+flags for scale errors. A first full year after a mid-year change stays in the statistics, flagged;
+Heads I Win's named list of raises skips it, since a sign-on grant in the change year can leave that
+year unusually low. The return for year *t* is TSR*t* ÷ TSR*t−1* − 1 within the same table (the
+table's first year is measured from its $100 base).
+
+**Fits.** The log change in reported pay, winsorized at the 1st and 99th percentiles, is regressed on
+the stock's log return split into its positive and negative parts (so gains and losses get separate
+slopes), with fiscal-year effects; standard errors are clustered by company. The page reports the
+implied pay change for a 10% rise (ln 1.1) and a 10% fall (ln 0.9), and the gap between the two
+slopes in standard errors. Variants use the year before, both years together, and a split of the
+return into the company's chosen peer group's return and the company's return relative to it.
+Buckets show the median pay change and share of CEOs paid more, by the year's return.
+
+**Limits.** Grant-date values are set early in the year, mostly before the year's return is known, so
+the same-year result reflects bonuses and how boards size grants, not the realized value of pay.
+Compensation actually paid moves with the stock by construction and isn't tested. The tables span
+roughly fiscal 2020–2025, one market cycle. The fits describe how pay and returns moved together, not
+why.
+
 ## Board pay
 
 **Director pay** is the proxy's Director Compensation table: what each non-employee director was paid

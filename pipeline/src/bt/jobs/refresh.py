@@ -14,7 +14,7 @@ from datetime import date, timedelta
 
 import psycopg
 
-from bt.analytics import board_pay, event_study, exec_pay, insider_sales, tenure
+from bt.analytics import board_pay, event_study, exec_pay, insider_sales, pay_asymmetry, tenure
 from bt.config import settings
 from bt.ingest import prices, reference
 from bt.quality import checks
@@ -93,7 +93,8 @@ def run(conn: psycopg.Connection, *, skip_prices: bool = False, skip_sec: bool =
         ("analytics", lambda: {"tenure_rows": tenure.recompute(conn), "executive_rows": exec_pay.recompute(conn),
                                        "board_pay_years": board_pay.recompute(conn),
                                        "board_events": event_study.recompute(conn),
-                                       "executive_sales": insider_sales.recompute(conn)}),
+                                       "executive_sales": insider_sales.recompute(conn),
+                                       "pay_changes": pay_asymmetry.recompute(conn)}),
         ("quality", lambda: checks.run(conn)),
     ]
     for name, fn in stages:

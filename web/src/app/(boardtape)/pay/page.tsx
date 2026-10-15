@@ -112,6 +112,15 @@ export default async function PayOverviewPage() {
         </p>
       )}
 
+      <Link href="/pay/asymmetry"
+            className="group flex flex-wrap items-center justify-between gap-x-6 gap-y-1 rounded-[14px] border border-line bg-surface px-5 py-4 shadow-card hover:border-line-strong">
+        <span className="min-w-0">
+          <span className="block text-[11px] leading-[14px] uppercase tracking-[0.08em] text-ink-3">Market-wide · every company with a pay-versus-performance table</span>
+          <span className="block mt-0.5 text-[16px] leading-6 font-semibold text-ink group-hover:text-accent-ink">CEO pay rises with the stock. Does it fall with it?</span>
+        </span>
+        <span className="text-[13px] font-semibold text-ink-2 group-hover:text-ink">See the test →</span>
+      </Link>
+
       <section aria-labelledby="scatter">
         <SectionHead id="scatter" title="Every executive, pay per year vs the stock per year"
                      sub="Right is more pay; up is a stock that beat the S&P 500 over the same window. CEOs are labelled; hover any dot for its details. Windows under a year aren't plotted." />

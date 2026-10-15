@@ -130,7 +130,8 @@ def _ixbrl_facts(raw: bytes) -> dict:
     """Pay-versus-performance facts in an inline-XBRL proxy:
       undim:  (concept, period_end) -> [values] for undimensioned ecd facts (a figure may repeat rounded)
       dims:   (concept, period_end, member) -> value for per-person CEO facts (ecd:IndividualAxis)
-      names:  tagged CEO names in order; member_names: member -> tagged name"""
+      names:  tagged CEO names in order; member_names: member -> tagged name
+      year_names: period_end -> undimensioned CEO name tagged for that year"""
     root = etree.fromstring(raw, parser=etree.XMLParser(recover=True, huge_tree=True, resolve_entities=False,
                                                         no_network=True))
     contexts = {}
@@ -156,25 +157,32 @@ def _ixbrl_facts(raw: bytes) -> dict:
             undim.setdefault((concept, end), []).append(v)
         elif concept in PEO_CONCEPTS and len(members) == 1 and members[0][0] == "ecd:IndividualAxis":
             dims[(concept, end, members[0][1])] = v
-    names, member_names = [], {}
+    names, member_names, year_names = [], {}, {}
     for el in root.iterfind(".//ix:nonNumeric", IX):
         if el.get("name") != "ecd:PeoName":
             continue
         n = re.sub(r"\s+", " ", "".join(el.itertext())).strip()
-        _, members, _ = contexts.get(el.get("contextRef"), (None, [], False))
+        end, members, _ = contexts.get(el.get("contextRef"), (None, [], False))
         for dim, m in members:
             if dim == "ecd:IndividualAxis" and n:
                 member_names.setdefault(m, n)
+        if n and not members and end:
+            year_names.setdefault(end, n)
         if n and n not in names:
             names.append(n)
-    return {"undim": undim, "dims": dims, "names": names, "member_names": member_names}
+    return {"undim": undim, "dims": dims, "names": names, "member_names": member_names, "year_names": year_names}
+
+
+def is_viewer_page(name: str) -> bool:
+    """EDGAR's XBRL viewer pages (R1.htm, ...), not filing documents that happen to start with "r"."""
+    return re.match(r"(?i)(r\d+|fs\d*)\.html?$", name) is not None
 
 
 def _proxy_doc(edgar: Edgar, cik: int, acc: str) -> tuple[str, bytes] | None:
     folder = f"https://www.sec.gov/Archives/edgar/data/{cik}/{acc.replace('-', '')}"
     items = edgar.get_json(f"{folder}/index.json")["directory"]["item"]
     docs = sorted((i for i in items if i["name"].lower().endswith((".htm", ".html"))
-                   and not i["name"].lower().startswith(("r", "fs"))),
+                   and not is_viewer_page(i["name"])),
                   key=lambda i: -int(i.get("size") or 0))
     for d in docs[:3]:
         key = rawstore.sec_key(cik, acc, d["name"])
@@ -260,3 +268,95 @@ def check_cases(conn: psycopg.Connection, edgar: Edgar, top: int = 60, gaps: boo
         out.append({"cik": cik, "checked": len(frame_rows), "mismatches": len(mismatches),
                     "peo_facts": len(parsed["dims"])})
     return out
+
+
+def _precise(values: list[Decimal]) -> Decimal:
+    """A figure tagged twice (exact and rounded): keep the one with the most significant digits."""
+    return max(values, key=lambda v: len(str(abs(v)).replace(".", "").strip("0")))
+
+
+def panel_rows(parsed: dict) -> tuple[list[dict], list[dict]]:
+    """Per-year TSR and per-person CEO pay from one proxy's parsed facts.
+
+    A year with per-person (IndividualAxis) facts gets one row per member. Otherwise the
+    undimensioned figures belong to whoever is tagged as CEO for that year, or to the only
+    name in the filing when nobody is tagged per person."""
+    undim, dims = parsed["undim"], parsed["dims"]
+    ends = sorted({e for (c, e) in undim if c == "TotalShareholderRtnAmt"})
+    sole_names = set(parsed["year_names"].values()) | (set(parsed["names"]) if not parsed["member_names"] else set())
+    sole = next(iter(sole_names)) if len(sole_names) == 1 and not dims else None
+    years, peos = [], []
+    for end in ends:
+        members = sorted({m for (c, e, m) in dims if e == end and c in PEO_CONCEPTS})
+        if members:
+            for m in members:
+                peos.append({"period_end": end, "peo_key": m, "name_basis": "member",
+                             "peo_name": member_name(m) or parsed["member_names"].get(m),
+                             "sct": dims.get(("PeoTotalCompAmt", end, m)),
+                             "cap": dims.get(("PeoActuallyPaidCompAmt", end, m))})
+        elif undim.get(("PeoTotalCompAmt", end)):
+            name, basis = parsed["year_names"].get(end), "year"
+            if name is None and sole:
+                name, basis = sole, "sole"
+            peos.append({"period_end": end, "peo_key": "", "peo_name": name, "name_basis": basis if name else None,
+                         "sct": _precise(undim[("PeoTotalCompAmt", end)]),
+                         "cap": _precise(undim[("PeoActuallyPaidCompAmt", end)])
+                         if undim.get(("PeoActuallyPaidCompAmt", end)) else None})
+        peer = undim.get(("PeerGroupTotalShareholderRtnAmt", end))
+        years.append({"period_end": end, "tsr": _precise(undim[("TotalShareholderRtnAmt", end)]),
+                      "peer_tsr": _precise(peer) if peer else None,
+                      "peo_count": max(len(members), 1 if undim.get(("PeoTotalCompAmt", end)) else 0)})
+    return years, peos
+
+
+def load_panel(conn: psycopg.Connection, edgar: Edgar, limit: int | None = None,
+               reverse: bool = False) -> dict[str, int]:
+    """Read each screened company's latest pay-versus-performance proxy into the year-by-year panel.
+    Two runs can share the work from opposite ends (reverse=True); each skips filings already read."""
+    rows = conn.execute(
+        f"""SELECT s.cik, s.accession FROM pvp_screen s
+            LEFT JOIN pvp_panel_filing f ON f.cik = s.cik AND f.accession = s.accession
+            WHERE f.cik IS NULL ORDER BY s.cik {"DESC" if reverse else ""} LIMIT %s""", (limit,)).fetchall()
+    stats = {"filings": 0, "ok": 0, "no_ixbrl": 0, "error": 0, "peo_rows": 0}
+    for r in rows:
+        cik, acc = r["cik"], r["accession"]
+        if conn.execute("SELECT 1 FROM pvp_panel_filing WHERE cik = %s AND accession = %s", (cik, acc)).fetchone():
+            continue
+        stats["filings"] += 1
+        try:
+            doc = _proxy_doc(edgar, cik, acc)
+        except Exception as e:  # one unreadable filing shouldn't stop the batch
+            _panel_status(conn, cik, acc, None, "error", str(e)[:300])
+            stats["error"] += 1
+            continue
+        if not doc:
+            _panel_status(conn, cik, acc, None, "no_ixbrl", None)
+            stats["no_ixbrl"] += 1
+            continue
+        years, peos = panel_rows(_ixbrl_facts(doc[1]))
+        conn.execute("DELETE FROM pvp_panel_year WHERE cik = %s", (cik,))
+        conn.execute("DELETE FROM pvp_panel_peo WHERE cik = %s", (cik,))
+        for y in years:
+            conn.execute(
+                """INSERT INTO pvp_panel_year (cik, accession, period_end, tsr, peer_tsr, peo_count)
+                   VALUES (%s, %s, %s, %s, %s, %s)""",
+                (cik, acc, y["period_end"], y["tsr"], y["peer_tsr"], y["peo_count"]))
+        for p in peos:
+            conn.execute(
+                """INSERT INTO pvp_panel_peo (cik, accession, period_end, peo_key, peo_name, name_basis, sct, cap)
+                   VALUES (%s, %s, %s, %s, %s, %s, %s, %s) ON CONFLICT DO NOTHING""",
+                (cik, acc, p["period_end"], p["peo_key"], p["peo_name"], p["name_basis"], p["sct"], p["cap"]))
+        stats["peo_rows"] += len(peos)
+        _panel_status(conn, cik, acc, doc[0], "ok", None)
+        stats["ok"] += 1
+    return stats
+
+
+def _panel_status(conn: psycopg.Connection, cik: int, acc: str, url: str | None, status: str,
+                  detail: str | None) -> None:
+    conn.execute(
+        """INSERT INTO pvp_panel_filing (cik, accession, doc_url, status, detail) VALUES (%s, %s, %s, %s, %s)
+           ON CONFLICT (cik) DO UPDATE SET accession = EXCLUDED.accession, doc_url = EXCLUDED.doc_url,
+             status = EXCLUDED.status, detail = EXCLUDED.detail, parsed_at = now()""",
+        (cik, acc, url, status, detail))
+    conn.commit()

@@ -24,6 +24,12 @@ export default function About() {
         CEO figure is under $1,000, the company is held out of the lists and statistics until checked by hand.</p>
       <p>A few companies don&apos;t tag the table in a way the SEC&apos;s data captures, so they&apos;re missing from the
         screen; among the largest are Intel and Tesla, which Boardtape covers by hand from their proxies.</p>
+      <h2 className="text-[20px] leading-7 font-bold text-ink">The raise</h2>
+      <p>For year-to-year changes we open every screened company&apos;s latest pay-versus-performance proxy and read who
+        the CEO was each year from the filing&apos;s own tags. Only back-to-back years with the same CEO for both full
+        years count, a new CEO&apos;s first year isn&apos;t used as the starting year, and pay under $100,000 is left out.
+        The stock&apos;s return for a year comes from the same table&apos;s $100 figures. Boardtape publishes the full
+        test, including standard errors and the same comparison against the year before.</p>
       <h2 className="text-[20px] leading-7 font-bold text-ink">Exit pay and careers</h2>
       <p>Golden parachutes and failing-up cases are researched filing by filing: separation agreements, 8-K
         announcements, the proxy after a departure, each company&apos;s own stock-performance tables. Every number is

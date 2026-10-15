@@ -187,6 +187,7 @@ export type FailingUp = {
   to_ticker: string | null;
   to_role: string;
   to_start: string | null;
+  to_kind: "executive" | "director";
   pay: { fiscal_year: number; total: number }[];
   notes: string | null;
   source_urls: string[];
@@ -196,7 +197,8 @@ export type FailingUp = {
 export const getFailingUp = cache(async (): Promise<FailingUp[]> => sql<FailingUp[]>`
   SELECT id, person_name, from_company, from_ticker, from_role, from_start, from_end, exit_description,
          from_value_of_100, comparison_name, comparison_value_of_100, period_start::text, period_end::text,
-         exit_pay_total, exit_pay_description, to_company, to_ticker, to_role, to_start, pay, notes, source_urls
+         exit_pay_total, exit_pay_description, to_company, to_ticker, to_role, to_start, to_kind, pay, notes,
+         source_urls
   FROM failing_up_case ORDER BY comparison_value_of_100 - from_value_of_100 DESC`);
 
 export type ExecSale = {
@@ -309,3 +311,35 @@ function dedupeChutes(rows: Chute[]): Chute[] {
   }
   return [...best.values()];
 }
+
+export type RaiseAnyway = {
+  cik: number;
+  entity_name: string;
+  tickers: string | null;
+  peo_name: string;
+  fiscal_year: number;
+  ret: number;
+  sct_prev: number;
+  sct: number;
+  doc_url: string | null;
+};
+
+/** The same CEO, paid more than the year before, in a year the stock fell at least `drop`
+ *  (company's own pay-versus-performance table; well-known companies only). */
+export const getRaisesAnyway = cache(async (drop = 0.3, limit = 24): Promise<RaiseAnyway[]> => sql<RaiseAnyway[]>`
+  SELECT c.cik, s.entity_name, s.tickers, coalesce(full_name.n, c.peo_name) AS peo_name,
+         extract(year FROM c.period_end)::int AS fiscal_year, c.ret, c.sct_prev::float8 AS sct_prev,
+         c.sct::float8 AS sct, f.doc_url
+  FROM pay_change c
+  JOIN pvp_screen_ok s ON s.cik = c.cik AND s.notable AND NOT s.implausible
+  LEFT JOIN pvp_panel_filing f ON f.cik = c.cik
+  -- "Mr. Singh": the longest name the same filing tags with that surname
+  LEFT JOIN LATERAL (
+    SELECT p.peo_name AS n FROM pvp_panel_peo p
+    WHERE p.cik = c.cik AND p.peo_name IS NOT NULL
+      AND lower(regexp_replace(p.peo_name, '^.*\s', '')) = lower(regexp_replace(c.peo_name, '^.*\s', ''))
+      AND p.peo_name !~* '^(mr|ms|mrs|dr)\.?\s'
+    ORDER BY length(p.peo_name) DESC LIMIT 1) full_name ON true
+  WHERE c.ret <= ${-drop} AND c.sct > c.sct_prev AND NOT c.new_ceo_base
+  ORDER BY c.sct - c.sct_prev DESC
+  LIMIT ${limit}`);
