@@ -103,3 +103,25 @@ def test_frame_for_keeps_fiscal_years_apart():
     assert frame_for("2025-12-31") == "CY2025" and frame_for("2026-01-31") == "CY2025"
     assert frame_for("2023-04-01") == "CY2022" and frame_for("2024-03-30") == "CY2023"
     assert frame_for("2025-09-27") == "CY2025" and frame_for("2025-06-30") == "CY2025"
+
+
+def test_assign_frames_never_collides():
+    from bt.ingest.screen import assign_frames
+    f = assign_frames(["2023-04-08", "2024-03-29", "2025-03-28", "2026-04-03"])
+    assert len(set(f.values())) == 4
+    assert f["2023-04-08"] == "CY2022" and f["2024-03-29"] == "CY2023"
+
+
+def test_assign_frames_merges_transition_periods():
+    from decimal import Decimal as D
+
+    from bt.ingest.screen import assign_frames, frame_facts
+    f = assign_frames(["2021-06-30", "2021-12-31", "2022-12-31", "2023-12-31"])
+    assert [f[k] for k in sorted(f)] == ["CY2021", "CY2021", "CY2022", "CY2023"]
+    split = assign_frames(["2021-12-31", "2022-12-31", "2023-06-21", "2023-12-31", "2024-12-31"])
+    assert [split[k] for k in sorted(split)] == ["CY2021", "CY2022", "CY2023", "CY2023", "CY2024"]
+    undim = {("TotalShareholderRtnAmt", "2021-06-30"): [D(90)], ("TotalShareholderRtnAmt", "2021-12-31"): [D(95)],
+             ("PeoTotalCompAmt", "2021-06-30"): [D(1000)], ("PeoTotalCompAmt", "2021-12-31"): [D(500)]}
+    facts = frame_facts(undim)
+    assert facts[("TotalShareholderRtnAmt", "CY2021")] == ("2021-12-31", D(95))
+    assert facts[("PeoTotalCompAmt", "CY2021")] == ("2021-12-31", D(1500))

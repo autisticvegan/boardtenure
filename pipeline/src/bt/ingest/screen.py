@@ -381,6 +381,43 @@ def frame_for(period_end: str) -> str:
     return f"CY{d.year - 1 if d.month <= 3 else d.year}"
 
 
+def assign_frames(ends: list[str]) -> dict[str, str]:
+    """One frame per fiscal year: the calendar frame of each year-end, except that a full year (300+ days
+    after the last end) never shares its predecessor's frame, while a short period (a fiscal-year change
+    or a split year) shares a frame with the one before it in the same calendar year."""
+    out: dict[str, str] = {}
+    prev: tuple[date, int] | None = None
+    for e in sorted(set(ends)):
+        d, year = date.fromisoformat(e), int(frame_for(e)[2:])
+        if prev:
+            full = (d - prev[0]).days >= 300
+            year = max(year, prev[1] + 1) if full else max(year, prev[1])
+        out[e] = f"CY{year}"
+        prev = (d, year)
+    return out
+
+
+# Cumulative return is a level, so a frame keeps its latest value; pay is a flow, so it adds up.
+LEVEL_CONCEPTS = {"TotalShareholderRtnAmt", "PeerGroupTotalShareholderRtnAmt"}
+
+
+def frame_facts(undim: dict) -> dict[tuple[str, str], tuple[str, Decimal]]:
+    """(concept, frame) -> (period_end, value) for a table's undimensioned facts. A fiscal-year change
+    leaves a short transition period in the same calendar year as a full one; the two share a frame,
+    with pay summed over both and the later shareholder-return value kept."""
+    frames = assign_frames([end for (c, end) in undim if c == "TotalShareholderRtnAmt"])
+    concepts = {c for _, c, _ in PVP_CONCEPTS}
+    out: dict[tuple[str, str], tuple[str, Decimal]] = {}
+    for (concept, end), values in sorted(undim.items(), key=lambda kv: kv[0][1]):
+        if concept not in concepts or end not in frames:
+            continue
+        key, v = (concept, frames[end]), _precise(values)
+        if key in out and concept not in LEVEL_CONCEPTS:
+            v += out[key][1]
+        out[key] = (end, v)
+    return out
+
+
 def discover(conn: psycopg.Connection, edgar: Edgar, limit: int | None = None, reverse: bool = False) -> dict[str, int]:
     """Well-known companies (public float of $500M+) with no pay-versus-performance facts in the frames:
     read their latest proxy since 2023 and store its tagged table as if the frames had carried it."""
@@ -428,15 +465,13 @@ def _discover_one(conn: psycopg.Connection, edgar: Edgar, cik: int, name: str) -
         return "no_pvp", acc, "no tagged shareholder return"
     entity = sub.get("name") or name
     facts = 0
-    for (concept, end), values in undim.items():
-        if concept not in {c for _, c, _ in PVP_CONCEPTS}:
-            continue
+    for (concept, frame), (end, value) in frame_facts(undim).items():
         conn.execute(
             """INSERT INTO xbrl_frame_fact (taxonomy, concept, unit, frame, cik, entity_name, accession, period_start,
                  period_end, value, source)
                VALUES ('ecd', %s, 'USD', %s, %s, %s, %s, NULL, %s, %s, 'proxy')
                ON CONFLICT (taxonomy, concept, unit, frame, cik) DO NOTHING""",
-            (concept, frame_for(end), cik, entity, acc, end, _precise(values)))
+            (concept, frame, cik, entity, acc, end, value))
         facts += 1
     conn.execute("DELETE FROM pvp_peo_fact WHERE cik = %s AND accession = %s", (cik, acc))
     for (concept, end, member), v in parsed["dims"].items():
