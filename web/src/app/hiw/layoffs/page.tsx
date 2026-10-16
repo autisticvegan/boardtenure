@@ -64,7 +64,10 @@ function Row({ c }: { c: HiwCase }) {
         <div className="min-w-0 px-5 py-4">
           <div className="flex items-center gap-2 text-[11px] leading-[14px] uppercase tracking-[0.08em] text-ink-3">
             <Logo cik={c.cik} size={26} />
-            <span className="truncate">{c.company_name}{c.ticker && ` · ${c.ticker}`} · {c.event_date?.slice(0, 7)}</span>
+            <span className="truncate">
+              {c.cik ? <Link href={`/case/${c.cik}`} className="hover:text-ink-2 underline-offset-2 hover:underline">{c.company_name}</Link> : c.company_name}
+              {c.ticker && ` · ${c.ticker}`} · {c.event_date?.slice(0, 7)}
+            </span>
           </div>
           <div className="mt-3 flex flex-wrap items-baseline gap-x-3">
             {cut && <span className="text-[34px] leading-[38px] font-black text-loss-ink num">{people(cut.value)}</span>}

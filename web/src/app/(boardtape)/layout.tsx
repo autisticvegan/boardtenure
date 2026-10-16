@@ -6,6 +6,7 @@ import { FOOTER_DISCLAIMER } from "@/lib/copy";
 import { getLeaderboardStats } from "@/lib/queries";
 
 export const metadata: Metadata = {
+  metadataBase: new URL(process.env.SITE_URL ?? "http://localhost:3107"),
   title: { default: "Standings: board seats ranked by stock vs the S&P 500 · Boardtape", template: "%s · Boardtape" },
   description:
     "How each company's stock did against the S&P 500 while every director held a board seat, ranked. Every date cites an SEC filing.",

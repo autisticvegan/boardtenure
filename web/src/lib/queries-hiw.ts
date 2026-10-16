@@ -407,3 +407,77 @@ export const getHiwCases = cache(async (kind: HiwCase["kind"]): Promise<HiwCase[
   ORDER BY event_date DESC NULLS LAST, id`);
 
 export const fig = (c: HiwCase, key: string) => c.figures.find((f) => f.key === key);
+
+export type HubIdentity = { cik: number; name: string; tickers: string | null; implausible: boolean | null; notable: boolean | null };
+
+/** Who a CIK is, from whichever source knows it (screen first, then researched cases). */
+export const getHubIdentity = cache(async (cik: number): Promise<HubIdentity | null> => {
+  const rows = await sql<HubIdentity[]>`
+    SELECT ${cik}::bigint AS cik,
+           coalesce((SELECT entity_name FROM pvp_screen_ok WHERE cik = ${cik}),
+                    (SELECT name FROM company_logo WHERE cik = ${cik}),
+                    (SELECT company_name FROM hiw_case WHERE company_cik ~ '^[0-9]+$' AND company_cik::bigint = ${cik} LIMIT 1),
+                    (SELECT company_name FROM golden_parachute WHERE company_cik ~ '^[0-9]+$' AND company_cik::bigint = ${cik} LIMIT 1),
+                    (SELECT from_company FROM failing_up_case WHERE from_cik = ${cik} LIMIT 1),
+                    (SELECT to_company FROM failing_up_case WHERE to_cik = ${cik} LIMIT 1)) AS name,
+           coalesce((SELECT tickers FROM pvp_screen_ok WHERE cik = ${cik}),
+                    (SELECT string_agg(ticker, ', ' ORDER BY ticker) FROM sec_ticker WHERE cik = ${cik})) AS tickers,
+           (SELECT implausible FROM pvp_screen_ok WHERE cik = ${cik}) AS implausible,
+           (SELECT notable FROM pvp_screen_ok WHERE cik = ${cik}) AS notable`;
+  return rows[0]?.name ? rows[0] : null;
+});
+
+export type PanelYear = {
+  period_end: string;
+  tsr: number | null;
+  peer_tsr: number | null;
+  peos: { name: string | null; sct: number | null; cap: number | null }[];
+};
+
+/** The company's latest pay-versus-performance table as read from the filing itself. */
+export const getPanelYears = cache(async (cik: number): Promise<{ doc_url: string | null; years: PanelYear[] }> => {
+  const [f] = await sql<{ doc_url: string | null }[]>`SELECT doc_url FROM pvp_panel_filing WHERE cik = ${cik} AND status = 'ok'`;
+  const years = await sql<PanelYear[]>`
+    SELECT y.period_end::text, y.tsr::float8 AS tsr, y.peer_tsr::float8 AS peer_tsr,
+           coalesce(json_agg(json_build_object('name', p.peo_name, 'sct', p.sct::float8, 'cap', p.cap::float8)
+                    ORDER BY p.sct DESC NULLS LAST) FILTER (WHERE p.peo_key IS NOT NULL), '[]') AS peos
+    FROM pvp_panel_year y
+    LEFT JOIN pvp_panel_peo p ON p.cik = y.cik AND p.accession = y.accession AND p.period_end = y.period_end
+    WHERE y.cik = ${cik}
+    GROUP BY y.period_end, y.tsr, y.peer_tsr ORDER BY y.period_end`;
+  return { doc_url: f?.doc_url ?? null, years };
+});
+
+export type PayChangeRow = { fiscal_year: number; peo_name: string; ret: number; sct_prev: number; sct: number; new_ceo_base: boolean };
+
+export const getCompanyPayChanges = cache(async (cik: number): Promise<PayChangeRow[]> => sql<PayChangeRow[]>`
+  SELECT extract(year FROM period_end)::int AS fiscal_year, peo_name, ret, sct_prev::float8 AS sct_prev, sct::float8 AS sct,
+         new_ceo_base
+  FROM pay_change WHERE cik = ${cik} ORDER BY period_end`);
+
+export const getCompanyPayRatio = cache(async (cik: number): Promise<PayRatio | null> => {
+  const rows = await sql<PayRatio[]>`
+    SELECT r.cik, coalesce(s.entity_name, '') AS entity_name, s.tickers, r.fiscal_year, r.ratio, r.ceo_pay::float8 AS ceo_pay,
+           r.median_pay::float8 AS median_pay, r.doc_url, r.quote
+    FROM pay_ratio r LEFT JOIN pvp_screen_ok s ON s.cik = r.cik
+    WHERE r.cik = ${cik} AND r.verified AND NOT coalesce(s.implausible, false)`;
+  return rows[0] ?? null;
+});
+
+/** Search every company the site knows by name or ticker. */
+export async function searchCompanies(q: string, limit = 8) {
+  const like = `%${q.replace(/[%_\\]/g, "")}%`;
+  return sql<{ cik: number; name: string; ticker: string | null }[]>`
+    SELECT cik, name, ticker FROM (
+      SELECT s.cik, s.entity_name AS name, split_part(coalesce(s.tickers, ''), ', ', 1) AS ticker,
+             CASE WHEN upper(${q}) = ANY(string_to_array(coalesce(s.tickers, ''), ', ')) THEN 0
+                  WHEN s.entity_name ILIKE ${q + "%"} THEN 1 ELSE 2 END AS rank,
+             coalesce(s.max_float, 0) AS size
+      FROM pvp_screen_ok s
+      WHERE s.entity_name ILIKE ${like} OR upper(${q}) = ANY(string_to_array(coalesce(s.tickers, ''), ', '))
+      UNION ALL
+      SELECT l.cik, l.name, (SELECT ticker FROM sec_ticker t WHERE t.cik = l.cik LIMIT 1), 3, 0
+      FROM company_logo l
+      WHERE l.name ILIKE ${like} AND NOT EXISTS (SELECT 1 FROM pvp_screen_ok s WHERE s.cik = l.cik)
+    ) x ORDER BY rank, size DESC LIMIT ${limit}`;
+}

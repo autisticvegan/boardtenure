@@ -96,3 +96,10 @@ def test_panel_rows_assigns_names():
 def test_viewer_pages_are_not_documents_named_r():
     assert is_viewer_page("R12.htm") and is_viewer_page("FS1.htm")
     assert not is_viewer_page("rost-20260406.htm") and not is_viewer_page("regn-20260424.htm")
+
+
+def test_frame_for_keeps_fiscal_years_apart():
+    from bt.ingest.screen import frame_for
+    assert frame_for("2025-12-31") == "CY2025" and frame_for("2026-01-31") == "CY2025"
+    assert frame_for("2023-04-01") == "CY2022" and frame_for("2024-03-30") == "CY2023"
+    assert frame_for("2025-09-27") == "CY2025" and frame_for("2025-06-30") == "CY2025"

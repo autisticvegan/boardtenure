@@ -73,7 +73,7 @@ export default async function Raise() {
                       </div>
                       <div className="mt-1 flex items-center gap-2 min-w-0">
                         <Logo cik={r.cik} size={26} />
-                        <span className="text-[16px] leading-6 font-semibold text-ink truncate">{name}</span>
+                        <Link href={`/case/${r.cik}`} className="text-[16px] leading-6 font-semibold text-ink truncate hover:text-accent-ink">{name}</Link>
                       </div>
                       <div className="text-[12px] leading-4 text-ink-3 truncate">CEO: {r.peo_name}</div>
                     </div>

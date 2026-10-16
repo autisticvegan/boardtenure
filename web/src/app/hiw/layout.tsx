@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import type { CSSProperties, ReactNode } from "react";
+import { CompanySearch } from "@/components/hiw/company-search";
 import { GreedFX } from "@/components/hiw/greed-fx";
 
 export const metadata: Metadata = {
+  metadataBase: new URL(process.env.HIW_SITE_URL ?? "http://absurd.localhost:3107"),
   title: { default: "Heads I Win: executive pay when shareholders lose", template: "%s · Heads I Win" },
   description: "Executive pay at US public companies, set against what shareholders got. Every figure is from the company's own SEC filings.",
 };
@@ -48,6 +50,7 @@ export default function HiwLayout({ children }: { children: ReactNode }) {
               <Link key={href} href={href} className="inline-flex items-center max-md:min-h-11 hover:text-accent-ink">{label}</Link>
             ))}
           </nav>
+          <div className="hidden lg:block ml-auto"><CompanySearch compact /></div>
         </div>
       </header>
       <main id="main" tabIndex={-1} className="flex-1 w-full max-w-[1240px] mx-auto px-4 sm:px-6 py-6 sm:py-10 focus:outline-none">

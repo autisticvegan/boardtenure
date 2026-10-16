@@ -79,6 +79,25 @@ def update_sec(conn: psycopg.Connection) -> dict:
     return out
 
 
+def update_screen(conn: psycopg.Connection) -> dict:
+    """The market-wide screen: new frames, proxies of companies the frames miss, the year-by-year panel,
+    pay ratios and company icons. Each step only reads what's new since the last run."""
+    from bt.ingest import logos, pay_ratio, screen
+
+    edgar = Edgar(settings().require_sec_user_agent(), max_rps=2)
+    out = {"frames": sum(screen.load_frames(conn, edgar).values()), "floats": screen.load_float_frames(conn, edgar)}
+    conn.commit()
+    out["discovered"] = screen.discover(conn, edgar)
+    out["checked"] = len(screen.check_cases(conn, edgar, gaps=True))
+    out["panel"] = screen.load_panel(conn, edgar)
+    out["ratios"] = pay_ratio.extract(conn)
+    conn.commit()
+    out["logos"] = logos.fetch(conn)
+    out["logos_from_proxies"] = logos.fill_from_proxies(conn)
+    out["logo_tones"] = logos.classify(conn)
+    return out
+
+
 def run(conn: psycopg.Connection, *, skip_prices: bool = False, skip_sec: bool = False) -> dict:
     job_id = conn.execute(
         "INSERT INTO job_run (job_name, status, params) VALUES ('refresh', 'running', %s) RETURNING id",
@@ -90,6 +109,7 @@ def run(conn: psycopg.Connection, *, skip_prices: bool = False, skip_sec: bool =
     stages = [
         ("prices", lambda: None if skip_prices else update_prices(conn, date.today())),
         ("sec", lambda: None if skip_sec else update_sec(conn)),
+        ("screen", lambda: None if skip_sec else update_screen(conn)),
         ("analytics", lambda: {"tenure_rows": tenure.recompute(conn), "executive_rows": exec_pay.recompute(conn),
                                        "board_pay_years": board_pay.recompute(conn),
                                        "board_events": event_study.recompute(conn),

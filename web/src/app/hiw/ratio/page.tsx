@@ -62,7 +62,7 @@ export default async function Ratio() {
                 <span className="flex items-center gap-2 min-w-0">
                   <Logo cik={r.cik} size={24} />
                   <span className="min-w-0">
-                    <span className="block text-[14px] leading-5 font-semibold text-ink truncate">{name}</span>
+                    <Link href={`/case/${r.cik}`} className="block text-[14px] leading-5 font-semibold text-ink truncate hover:text-accent-ink">{name}</Link>
                     <span className="block text-[11px] leading-4 text-ink-3">{ticker ?? "—"} · CEO {compactMoney(r.ceo_pay)} · median worker {compactMoney(r.median_pay)}</span>
                   </span>
                 </span>

@@ -171,6 +171,16 @@ def cmd_screen_panel(args: argparse.Namespace) -> None:
         print(json.dumps(screen.load_panel(conn, edgar, args.limit, args.reverse), indent=1))
 
 
+def cmd_screen_discover(args: argparse.Namespace) -> None:
+    from bt.config import settings
+    from bt.ingest import screen
+    from bt.sources.sec import Edgar
+
+    edgar = Edgar(settings().require_sec_user_agent(), max_rps=2)
+    with db.session("pipeline:screen-discover") as conn:
+        print(json.dumps(screen.discover(conn, edgar, args.limit, args.reverse), indent=1))
+
+
 def cmd_screen_ratios(args: argparse.Namespace) -> None:
     from bt.ingest import pay_ratio
 
@@ -496,6 +506,10 @@ def build_parser() -> argparse.ArgumentParser:
     sp_pan.add_argument("--limit", type=int, help="at most this many filings (default: all not yet read)")
     sp_pan.add_argument("--reverse", action="store_true", help="work from the highest CIK down")
     sp_pan.set_defaults(fn=cmd_screen_panel)
+    sp_dis = scp.add_parser("discover", help="read proxies of well-known companies missing from the frames")
+    sp_dis.add_argument("--limit", type=int)
+    sp_dis.add_argument("--reverse", action="store_true", help="work from the highest CIK down")
+    sp_dis.set_defaults(fn=cmd_screen_discover)
     sp_rat = scp.add_parser("ratios", help="read CEO pay ratios from the cached latest proxies (run after panel)")
     sp_rat.set_defaults(fn=cmd_screen_ratios)
 

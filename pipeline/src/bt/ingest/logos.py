@@ -195,7 +195,7 @@ def fill_from_proxies(conn: psycopg.Connection) -> dict[str, int]:
         """SELECT l.cik, l.name, f.accession, f.doc_url,
                   coalesce((SELECT array_agg(ticker) FROM sec_ticker t WHERE t.cik = l.cik), '{}') AS tickers
            FROM company_logo l JOIN pvp_panel_filing f ON f.cik = l.cik AND f.status = 'ok'
-           WHERE l.source = 'none'""").fetchall()
+           WHERE l.source = 'none' AND l.website_source IS NULL""").fetchall()
     stats = {"candidates": len(rows), "favicon": 0, "no_domain": 0, "no_icon": 0}
     with httpx.Client(headers={"User-Agent": UA}, follow_redirects=True, timeout=30) as client:
         generic = client.get("https://www.google.com/s2/favicons?domain=no-such-site.invalid&sz=128").content

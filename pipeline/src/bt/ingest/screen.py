@@ -324,7 +324,7 @@ def load_panel(conn: psycopg.Connection, edgar: Edgar, limit: int | None = None,
             continue
         stats["filings"] += 1
         try:
-            doc = _proxy_doc(edgar, cik, acc)
+            doc = _cached_doc(conn, cik, acc) or _proxy_doc(edgar, cik, acc)
         except Exception as e:  # one unreadable filing shouldn't stop the batch
             _panel_status(conn, cik, acc, None, "error", str(e)[:300])
             stats["error"] += 1
@@ -352,6 +352,15 @@ def load_panel(conn: psycopg.Connection, edgar: Edgar, limit: int | None = None,
     return stats
 
 
+def _cached_doc(conn: psycopg.Connection, cik: int, acc: str) -> tuple[str, bytes] | None:
+    """The proxy document a check or discovery already stored for this filing, without refetching."""
+    row = conn.execute("SELECT doc_url FROM pvp_case WHERE cik = %s AND accession = %s", (cik, acc)).fetchone()
+    if not row:
+        return None
+    key = rawstore.sec_key(cik, acc, row["doc_url"].rsplit("/", 1)[-1])
+    return (row["doc_url"], rawstore.read(key)) if rawstore.exists(key) else None
+
+
 def _panel_status(conn: psycopg.Connection, cik: int, acc: str, url: str | None, status: str,
                   detail: str | None) -> None:
     conn.execute(
@@ -360,3 +369,87 @@ def _panel_status(conn: psycopg.Connection, cik: int, acc: str, url: str | None,
              status = EXCLUDED.status, detail = EXCLUDED.detail, parsed_at = now()""",
         (cik, acc, url, status, detail))
     conn.commit()
+
+
+def frame_for(period_end: str) -> str:
+    """The calendar frame a fiscal year belongs to: its end year, or the year before for years ending
+    in January-March or the first days of April (mostly the previous calendar year), so each fiscal
+    year gets its own frame."""
+    from datetime import timedelta
+
+    d = date.fromisoformat(period_end) - timedelta(days=10)  # 52/53-week years ending in early April
+    return f"CY{d.year - 1 if d.month <= 3 else d.year}"
+
+
+def discover(conn: psycopg.Connection, edgar: Edgar, limit: int | None = None, reverse: bool = False) -> dict[str, int]:
+    """Well-known companies (public float of $500M+) with no pay-versus-performance facts in the frames:
+    read their latest proxy since 2023 and store its tagged table as if the frames had carried it."""
+    rows = conn.execute(
+        f"""SELECT f.cik, max(f.entity_name) AS name FROM xbrl_frame_fact f
+            WHERE f.concept = 'EntityPublicFloat'
+              AND NOT EXISTS (SELECT 1 FROM xbrl_frame_fact e WHERE e.cik = f.cik AND e.taxonomy = 'ecd')
+              AND NOT EXISTS (SELECT 1 FROM pvp_discovery d WHERE d.cik = f.cik)
+            GROUP BY f.cik
+            HAVING max(f.value) FILTER (WHERE f.value <= 50000000000000) >= 500000000
+            ORDER BY f.cik {"DESC" if reverse else ""} LIMIT %s""", (limit,)).fetchall()
+    stats = {"candidates": len(rows), "ok": 0, "no_proxy": 0, "no_pvp": 0, "error": 0}
+    for r in rows:
+        cik = r["cik"]
+        if conn.execute("SELECT 1 FROM pvp_discovery WHERE cik = %s", (cik,)).fetchone():
+            continue  # the other end's run got here first
+        try:
+            status, acc, detail = _discover_one(conn, edgar, cik, r["name"])
+        except Exception as e:  # one unreadable filing shouldn't stop the batch
+            conn.rollback()
+            status, acc, detail = "error", None, str(e)[:300]
+        conn.execute(
+            """INSERT INTO pvp_discovery (cik, status, accession, detail) VALUES (%s, %s, %s, %s)
+               ON CONFLICT (cik) DO UPDATE SET status = EXCLUDED.status, accession = EXCLUDED.accession,
+                 detail = EXCLUDED.detail, checked_at = now()""", (cik, status, acc, detail))
+        conn.commit()
+        stats[status] += 1
+    return stats
+
+
+def _discover_one(conn: psycopg.Connection, edgar: Edgar, cik: int, name: str) -> tuple[str, str | None, str | None]:
+    sub = edgar.get_json(f"https://data.sec.gov/submissions/CIK{cik:010d}.json")
+    recent = sub["filings"]["recent"]
+    proxies = [(d, a) for f, d, a in zip(recent["form"], recent["filingDate"], recent["accessionNumber"], strict=True)
+               if f == "DEF 14A" and d >= "2023-01-01"]
+    if not proxies:
+        return "no_proxy", None, None
+    _, acc = max(proxies)
+    doc = _proxy_doc(edgar, cik, acc)
+    if not doc:
+        return "no_pvp", acc, "no inline XBRL document"
+    parsed = _ixbrl_facts(doc[1])
+    undim = parsed["undim"]
+    if not any(c == "TotalShareholderRtnAmt" for c, _ in undim):
+        return "no_pvp", acc, "no tagged shareholder return"
+    entity = sub.get("name") or name
+    facts = 0
+    for (concept, end), values in undim.items():
+        if concept not in {c for _, c, _ in PVP_CONCEPTS}:
+            continue
+        conn.execute(
+            """INSERT INTO xbrl_frame_fact (taxonomy, concept, unit, frame, cik, entity_name, accession, period_start,
+                 period_end, value, source)
+               VALUES ('ecd', %s, 'USD', %s, %s, %s, %s, NULL, %s, %s, 'proxy')
+               ON CONFLICT (taxonomy, concept, unit, frame, cik) DO NOTHING""",
+            (concept, frame_for(end), cik, entity, acc, end, _precise(values)))
+        facts += 1
+    conn.execute("DELETE FROM pvp_peo_fact WHERE cik = %s AND accession = %s", (cik, acc))
+    for (concept, end, member), v in parsed["dims"].items():
+        conn.execute(
+            """INSERT INTO pvp_peo_fact (cik, accession, period_end, member, peo_name, concept, value)
+               VALUES (%s, %s, %s, %s, %s, %s, %s)""",
+            (cik, acc, end, member, member_name(member) or parsed["member_names"].get(member), concept, v))
+    # The figures are the filing's own tags, so they need no separate check against the filing.
+    conn.execute(
+        """INSERT INTO pvp_case (cik, accession, doc_url, peo_names, verified, checked_facts, mismatches)
+           VALUES (%s, %s, %s, %s, true, %s, '[]')
+           ON CONFLICT (cik) DO UPDATE SET accession = EXCLUDED.accession, doc_url = EXCLUDED.doc_url,
+             peo_names = EXCLUDED.peo_names, verified = true, checked_facts = EXCLUDED.checked_facts,
+             mismatches = '[]', checked_at = now()""",
+        (cik, acc, doc[0], _display_names(parsed), facts))
+    return "ok", acc, None

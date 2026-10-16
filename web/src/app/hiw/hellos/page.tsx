@@ -96,6 +96,11 @@ export default async function Hellos() {
                     ↩ {f.label}: {compactMoney(f.value)}
                   </p>
                 ))}
+                {c.cik && (
+                  <Link href={`/case/${c.cik}`} className="block px-1 text-[12px] leading-4 text-ink-3 hover:text-ink-2 underline underline-offset-2">
+                    Everything on {c.company_name} →
+                  </Link>
+                )}
                 {c.notes && (
                   <details className="px-1 text-[12px] leading-4 text-ink-3">
                     <summary className="cursor-pointer select-none hover:text-ink-2">Notes on these figures</summary>

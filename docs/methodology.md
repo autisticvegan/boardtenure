@@ -269,7 +269,10 @@ The companion site screens every company that files Item 402(v) pay-versus-perfo
 the SEC's XBRL frames (one value per company per period, from the latest filing that reports it):
 CEO reported pay, CEO compensation actually paid, and cumulative TSR ($100 invested at the table's
 start). For each company the screen uses the latest proxy's own table, summing pay over exactly the
-years that table's TSR covers. A company is named on the site only after the proxy behind it has been
+years that table's TSR covers. Some filers' facts never reach the frames (or the company-facts API)
+though their proxies tag them; for every company with a public float of at least $500M that the
+frames miss, the screen reads its latest proxy since 2023 directly and stores the tagged table,
+marked as read from the proxy (`bt screen discover`). A company is named on the site only after the proxy behind it has been
 fetched and every figure shown has been matched to a fact in that filing. Years with two CEOs are
 tagged per person and are left out of the sums, which understates pay. Exit packages and
 "failing up" cases are researched filing by filing with machine-verified quotes, like board dates.
