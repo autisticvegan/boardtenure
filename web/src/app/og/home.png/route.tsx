@@ -1,14 +1,13 @@
+// Share card for the Heads I Win home page, at a stable path (/og/home.png) a static export can link.
 import { compactMoney } from "@/lib/format";
-import { card, OG_SIZE } from "@/lib/og";
+import { card } from "@/lib/og";
 import { getPayRatioStats, getScreenStats } from "@/lib/queries-hiw";
 import { getPayAsymmetry } from "@/lib/queries-pay";
 
-export const alt = "Heads I Win: executive pay when shareholders lose";
-export const size = OG_SIZE;
-export const contentType = "image/png";
+export const dynamic = "force-static";
 export const revalidate = 3600;
 
-export default async function Image() {
+export async function GET() {
   const [stats, ratio, asym] = await Promise.all([getScreenStats(), getPayRatioStats(), getPayAsymmetry()]);
   const down = asym?.buckets_same[0];
   return card({

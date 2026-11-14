@@ -27,7 +27,8 @@ export function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl;
   if (isHiwHost(request)) {
     if (pathname.startsWith("/admin")) return new NextResponse("Not found", { status: 404 });
-    if (pathname.startsWith("/hiw") || pathname.startsWith("/api")) return NextResponse.next();
+    if (pathname.startsWith("/hiw") || pathname.startsWith("/api") || pathname.startsWith("/logo/") || pathname.startsWith("/og/")
+        || pathname === "/search-index.json") return NextResponse.next();
     const url = request.nextUrl.clone();
     url.pathname = `/hiw${pathname === "/" ? "" : pathname}`;
     return NextResponse.rewrite(url);

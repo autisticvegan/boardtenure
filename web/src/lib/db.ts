@@ -9,7 +9,7 @@ const globalForDb = globalThis as unknown as Record<string, postgres.Sql | undef
 export const sql =
   globalForDb[POOL_KEY] ??
   postgres(process.env.DATABASE_URL ?? "postgresql:///boardtenure_dev", {
-    max: 10,
+    max: Number(process.env.DB_POOL_MAX ?? 10), // the static export runs several build workers at once
     idle_timeout: 30,
     // numeric -> number: every numeric column we read is a price or ratio that fits a double.
     types: {

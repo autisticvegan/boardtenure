@@ -3,11 +3,16 @@ import Link from "next/link";
 import type { CSSProperties, ReactNode } from "react";
 import { CompanySearch } from "@/components/hiw/company-search";
 import { GreedFX } from "@/components/hiw/greed-fx";
+import { BASE_PATH } from "@/lib/base-path";
+import { PRICE_DERIVED } from "@/lib/queries-hiw";
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.HIW_SITE_URL ?? "http://absurd.localhost:3107"),
   title: { default: "Heads I Win: executive pay when shareholders lose", template: "%s · Heads I Win" },
   description: "Executive pay at US public companies, set against what shareholders got. Every figure is from the company's own SEC filings.",
+  // metadataBase is the origin only: these paths already carry the export's base path.
+  openGraph: { images: [{ url: `${BASE_PATH}/og/home.png`, width: 1200, height: 630 }] },
+  twitter: { card: "summary_large_image", images: [`${BASE_PATH}/og/home.png`] },
 };
 
 // Same dark system as Boardtape; gold replaces violet as the chrome accent.
@@ -46,7 +51,7 @@ export default function HiwLayout({ children }: { children: ReactNode }) {
           </Link>
           <nav aria-label="Sections"
                className="flex items-center gap-x-5 text-[13px] text-ink-2 whitespace-nowrap max-md:w-full max-md:overflow-x-auto max-md:-mx-4 max-md:px-4 md:flex-wrap md:gap-y-1">
-            {NAV.map(([href, label]) => (
+            {NAV.filter(([href]) => PRICE_DERIVED || href !== "/sold").map(([href, label]) => (
               <Link key={href} href={href} className="inline-flex items-center max-md:min-h-11 hover:text-accent-ink">{label}</Link>
             ))}
           </nav>

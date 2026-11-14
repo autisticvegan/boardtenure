@@ -71,11 +71,12 @@ def load_frames(conn: psycopg.Connection, edgar: Edgar, last_year: int | None = 
 
 
 def load_float_frames(conn: psycopg.Connection, edgar: Edgar, last_year: int | None = None) -> int:
-    last_year = last_year or datetime.now(UTC).year - 1
+    last_year = last_year or datetime.now(UTC).year  # quarters not yet published are a 404, skipped
     taxonomy, concept, unit = FLOAT_CONCEPT
     n = 0
-    for year in range(FIRST_YEAR, last_year + 1):
-        frame = f"CY{year}Q2I"
+    # Public float is measured at the end of each filer's second fiscal quarter, so it lands in whichever
+    # calendar quarter that is: Apple's (March) in Q1, Microsoft's (December) in Q4.
+    for frame in (f"CY{year}Q{q}I" for year in range(FIRST_YEAR, last_year + 1) for q in (1, 2, 3, 4)):
         try:
             raw = edgar.get(f"{DATA}/{taxonomy}/{concept}/{unit}/{frame}.json")
         except Exception as e:

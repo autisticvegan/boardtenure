@@ -9,11 +9,22 @@ import { Logo } from "@/components/logo";
 import { compactMoney } from "@/lib/format";
 import {
   fig, getAllChutes, getCompanyPayChanges, getCompanyPayRatio, getExecutiveSales, getFailingUp, getHiwCases,
-  getHubIdentity, getPanelYears, getScreenCase,
+  getHubIdentity, getPanelYears, getScreenCase, getSearchIndex,
 } from "@/lib/queries-hiw";
 import { caughtUpAt, ratioLabel } from "@/lib/ratio";
 
 export const revalidate = 3600;
+
+/** The static export pre-builds a page for every company the search box or a case can link to. */
+export async function generateStaticParams() {
+  if (process.env.STATIC_EXPORT !== "1") return [];
+  const ciks = new Set((await getSearchIndex()).map(([cik]) => cik));
+  for (const f of await getFailingUp()) {
+    if (f.from_cik) ciks.add(f.from_cik);
+    if (f.to_cik) ciks.add(f.to_cik);
+  }
+  return [...ciks].map((cik) => ({ cik: String(cik) }));
+}
 
 const signed = (x: number, d = 0) => `${x > 0 ? "+" : x < 0 ? "−" : ""}${Math.abs(x * 100).toFixed(d)}%`;
 

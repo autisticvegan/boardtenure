@@ -2,6 +2,10 @@ import "server-only";
 import { cache } from "react";
 import { sql } from "./db";
 
+/** Market prices come from keyless sources not licensed for public display, so the public (Pages) build
+ *  leaves out every figure derived from them: stock sales valued at exit, and exits measured against SPY. */
+export const PRICE_DERIVED = process.env.HIW_NO_PRICES !== "1";
+
 /**
  * Heads I Win: the market-wide pay-versus-performance screen (SEC XBRL frames) and exit packages.
  * Only cases checked against their proxy (pvp_case.verified) are shown by name; the rest feed
@@ -225,7 +229,7 @@ export type ExecSale = {
 };
 
 /** Executives' open-market stock sales during their officer tenure, largest first. */
-export const getExecutiveSales = cache(async (): Promise<ExecSale[]> => sql<ExecSale[]>`
+export const getExecutiveSales = cache(async (): Promise<ExecSale[]> => !PRICE_DERIVED ? [] : sql<ExecSale[]>`
   SELECT c.slug AS company_slug, c.cik AS company_cik, c.common_name AS company_name, p.full_name, t.titles,
          s.window_start::text,
          s.window_end::text, t.is_current, s.filings, s.proceeds, s.avg_price_adj, s.end_close_adj, s.value_at_end,
@@ -278,7 +282,7 @@ const CONTEXT_OF = sql`CASE x.exit_type WHEN 'terminated_without_cause' THEN 'te
  * Every researched exit package: the deep-research cases across US companies plus the exits of the
  * six fully researched companies (whose stock figure is our own tenure return vs SPY, as $100).
  */
-export const getAllChutes = cache(async (): Promise<Chute[]> => dedupeChutes(await sql<Chute[]>`
+export const getAllChutes = cache(async (): Promise<Chute[]> => dedupeChutes((await sql<Chute[]>`
   SELECT g.id AS key, nullif(regexp_replace(g.company_cik, '\D', '', 'g'), '')::bigint AS cik, g.company_name AS company,
          g.ticker, g.person_name AS person, g.role, g.context, g.exit_type,
          g.exit_words, g.tenure_end AS exit_date, g.tenure_start, g.basis, g.severance_cash, g.bonus, g.equity,
@@ -303,7 +307,8 @@ export const getAllChutes = cache(async (): Promise<Chute[]> => dedupeChutes(awa
   JOIN benchmark b ON b.code = 'sp500'
   LEFT JOIN executive_tenure_performance t ON t.company_id = x.company_id AND t.person_id = x.person_id
    AND t.benchmark_id = b.id AND t.window_kind = 'tenure'
-  WHERE x.basis = 'actual'`));
+  WHERE x.basis = 'actual'`).map((c) => (PRICE_DERIVED || !c.key.startsWith("x") ? c
+    : { ...c, value_of_100: null, comparison_name: null, comparison_value_of_100: null }))));
 
 /** One receipt per person and company: research slices can overlap (a CEO pushed out ahead of a merger).
  * Prefer what was actually paid over an estimate, then the more fully itemised record. */
@@ -464,20 +469,12 @@ export const getCompanyPayRatio = cache(async (cik: number): Promise<PayRatio | 
   return rows[0] ?? null;
 });
 
-/** Search every company the site knows by name or ticker. */
-export async function searchCompanies(q: string, limit = 8) {
-  const like = `%${q.replace(/[%_\\]/g, "")}%`;
-  return sql<{ cik: number; name: string; ticker: string | null }[]>`
-    SELECT cik, name, ticker FROM (
-      SELECT s.cik, s.entity_name AS name, split_part(coalesce(s.tickers, ''), ', ', 1) AS ticker,
-             CASE WHEN upper(${q}) = ANY(string_to_array(coalesce(s.tickers, ''), ', ')) THEN 0
-                  WHEN s.entity_name ILIKE ${q + "%"} THEN 1 ELSE 2 END AS rank,
-             coalesce(s.max_float, 0) AS size
-      FROM pvp_screen_ok s
-      WHERE s.entity_name ILIKE ${like} OR upper(${q}) = ANY(string_to_array(coalesce(s.tickers, ''), ', '))
-      UNION ALL
-      SELECT l.cik, l.name, (SELECT ticker FROM sec_ticker t WHERE t.cik = l.cik LIMIT 1), 3, 0
-      FROM company_logo l
-      WHERE l.name ILIKE ${like} AND NOT EXISTS (SELECT 1 FROM pvp_screen_ok s WHERE s.cik = l.cik)
-    ) x ORDER BY rank, size DESC LIMIT ${limit}`;
+/** Every company with a page: [cik, name, tickers, size] — size orders search results, largest first. */
+export async function getSearchIndex(): Promise<[number, string, string | null, number][]> {
+  const rows = await sql<{ cik: number; name: string; tickers: string | null; size: number }[]>`
+    SELECT s.cik, s.entity_name AS name, s.tickers, coalesce(s.max_float, 0)::float8 AS size FROM pvp_screen_ok s
+    UNION ALL
+    SELECT l.cik, l.name, (SELECT string_agg(ticker, ', ') FROM sec_ticker t WHERE t.cik = l.cik), 0
+    FROM company_logo l WHERE l.name IS NOT NULL AND NOT EXISTS (SELECT 1 FROM pvp_screen_ok s WHERE s.cik = l.cik)`;
+  return rows.map((r) => [r.cik, r.name, r.tickers, r.size]);
 }

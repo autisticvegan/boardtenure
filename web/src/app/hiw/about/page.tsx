@@ -29,8 +29,9 @@ export default function About() {
       <p>For year-to-year changes we open every screened company&apos;s latest pay-versus-performance proxy and read who
         the CEO was each year from the filing&apos;s own tags. Only back-to-back years with the same CEO for both full
         years count, a new CEO&apos;s first year isn&apos;t used as the starting year, and pay under $100,000 is left out.
-        The stock&apos;s return for a year comes from the same table&apos;s $100 figures. Boardtape publishes the full
-        test, including standard errors and the same comparison against the year before.</p>
+        The stock&apos;s return for a year comes from the same table&apos;s $100 figures. The full test, with standard
+        errors and the same comparison against the year before, is in the{" "}
+        <a href="https://github.com/autisticvegan/boardtenure/blob/main/docs/methodology.md#pay-asymmetry" className="underline underline-offset-2 hover:text-ink">methodology</a>.</p>
       <h2 className="text-[20px] leading-7 font-bold text-ink">The ratio</h2>
       <p>Most US public companies must report the ratio of their CEO&apos;s annual pay to their median employee&apos;s. We read
         the passage from each company&apos;s latest proxy and keep a ratio only when the CEO pay and median pay printed
@@ -46,8 +47,9 @@ export default function About() {
       <h2 className="text-[20px] leading-7 font-bold text-ink">What these numbers don&apos;t say</h2>
       <p>A falling stock has many causes: markets, industries, decisions made before a person arrived. We show what
         shareholders got while a person was paid; we don&apos;t claim that person caused it. Where a company&apos;s own peer
-        group fell too, we show that alongside. For the statistics of what boards and executives can be shown to
-        affect, see Boardtape.</p>
+        group fell too, we show that alongside. The data, code and full{" "}
+        <a href="https://github.com/autisticvegan/boardtenure/blob/main/docs/methodology.md" className="underline underline-offset-2 hover:text-ink">methodology</a> are on{" "}
+        <a href="https://github.com/autisticvegan/boardtenure" className="underline underline-offset-2 hover:text-ink">GitHub</a>.</p>
     </article>
   );
 }

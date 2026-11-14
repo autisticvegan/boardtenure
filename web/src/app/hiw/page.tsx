@@ -14,7 +14,7 @@ import { compactMoney } from "@/lib/format";
 import { getPayAsymmetry } from "@/lib/queries-pay";
 import { caughtUpAt, ratioLabel } from "@/lib/ratio";
 import {
-  getAllChutes, getExecutiveSales, getFailingUp, getHeadsIWin, getPaidAnyway, getPayRatios, getPayRatioStats, getScreenStats,
+  PRICE_DERIVED, getAllChutes, getExecutiveSales, getFailingUp, getHeadsIWin, getPaidAnyway, getPayRatios, getPayRatioStats, getScreenStats,
 } from "@/lib/queries-hiw";
 
 export const revalidate = 3600;
@@ -217,7 +217,7 @@ export default async function HiwHome() {
       <nav aria-labelledby="more-greed" className="space-y-4">
         <h2 id="more-greed" className="text-[26px] leading-8 font-extrabold tracking-[-0.02em] text-ink">More greed</h2>
         <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
-          {SECTIONS.map(([href, emoji, title, sub]) => (
+          {SECTIONS.filter(([href]) => PRICE_DERIVED || href !== "/sold").map(([href, emoji, title, sub]) => (
             <li key={href}>
               <Link href={href} className="group flex h-full items-start gap-3 rounded-[14px] border border-line bg-surface px-4 py-3 hover:border-accent/60">
                 <span aria-hidden className="text-[26px] leading-8 hiw-greedy">{emoji}</span>

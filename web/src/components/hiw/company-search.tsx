@@ -4,8 +4,33 @@
 import { useRouter } from "next/navigation";
 import { useEffect, useId, useRef, useState } from "react";
 import { Logo } from "@/components/logo";
+import { BASE_PATH } from "@/lib/base-path";
 
 type Hit = { cik: number; name: string; ticker: string | null };
+type Entry = [cik: number, name: string, tickers: string | null, size: number];
+
+// One fetch per page view: the whole index is small, and a static site has no search server.
+let index: Promise<Entry[]> | null = null;
+const loadIndex = () => (index ??= fetch(`${BASE_PATH}/search-index.json`).then((r) => r.json() as Promise<Entry[]>));
+
+const bare = (name: string) =>
+  name.toLowerCase().replace(/[.,]/g, "").replace(/\s*\/\s*[a-z]{2}\/?$/, "")
+    .replace(/\s+(inc|corp|corporation|co|company|holdings?|group|plc|ltd|sa|nv|lp)$/g, "").trim();
+
+/** Exact ticker, then exact name ("Apple" is Apple Inc.), then names starting with the query, then
+ *  names containing it; bigger companies first within each. */
+export function rankHits(entries: Entry[], q: string, limit = 8): Hit[] {
+  const s = q.trim().toLowerCase();
+  const scored: [number, number, Entry][] = [];
+  for (const e of entries) {
+    const name = e[1].toLowerCase();
+    const tickers = (e[2] ?? "").toLowerCase().split(", ");
+    const rank = tickers.includes(s) ? 0 : bare(e[1]) === s ? 1 : name.startsWith(s) ? 2 : name.includes(s) ? 3 : -1;
+    if (rank >= 0) scored.push([rank, -e[3], e]);
+  }
+  scored.sort((a, b) => a[0] - b[0] || a[1] - b[1]);
+  return scored.slice(0, limit).map(([, , e]) => ({ cik: e[0], name: e[1], ticker: e[2]?.split(", ")[0] || null }));
+}
 
 const tidy = (name: string) => {
   const n = name.replace(/\s*\/\s*[A-Z]{2}\/?$/, "").replace(/,?\s+(INC|CORP|CORPORATION|HOLDINGS?|CO)\.?$/i, "");
@@ -26,16 +51,15 @@ export function CompanySearch({ placeholder = "Look up a company…", compact = 
     if (s.length < 2) return;
     const t = window.setTimeout(async () => {
       try {
-        const res = await fetch(`/api/hiw/search?q=${encodeURIComponent(s)}`);
-        const json = (await res.json()) as { results: Hit[] };
+        const results = rankHits(await loadIndex(), s);
         if (n === seq.current) {
-          setHits(json.results);
+          setHits(results);
           setActive(0);
         }
       } catch {
-        /* offline or aborted: keep the last results */
+        index = null; // offline: try again on the next keystroke
       }
-    }, 150);
+    }, 80);
     return () => window.clearTimeout(t);
   }, [q]);
 

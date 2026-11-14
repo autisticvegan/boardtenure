@@ -2,13 +2,18 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { companyLabel } from "@/components/hiw/case-card";
 import { MakeItRain } from "@/components/hiw/greed-fx";
+import { BASE_PATH } from "@/lib/base-path";
 import { RatioPicker, type RatioRow } from "@/components/hiw/ratio-picker";
 import { Logo } from "@/components/logo";
 import { compactMoney } from "@/lib/format";
 import { getPayRatios, getPayRatioStats } from "@/lib/queries-hiw";
 import { caughtUpAt, ratioLabel, startedIn } from "@/lib/ratio";
 
-export const metadata: Metadata = { title: "The ratio" };
+export const metadata: Metadata = {
+  title: "The ratio",
+  openGraph: { images: [{ url: `${BASE_PATH}/og/ratio.png`, width: 1200, height: 630 }] },
+  twitter: { card: "summary_large_image", images: [`${BASE_PATH}/og/ratio.png`] },
+};
 export const revalidate = 3600;
 
 const TOP = 30;

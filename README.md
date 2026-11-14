@@ -53,6 +53,19 @@ uv run bt seed parachutes && uv run bt seed failing-up && uv run bt seed hiw
 uv run bt analytics recompute      # includes the same-CEO pay-change test
 ```
 
+## Publishing Heads I Win (GitHub Pages)
+
+Heads I Win is published as a static site at https://autisticvegan.github.io/boardtenure/. The export
+pre-renders every page from the local database, leaves out Boardtape, the admin and the API, and leaves
+out figures derived from the prototype price data (they aren't licensed for public display).
+
+```bash
+bash web/scripts/export-pages.sh          # prints the output directory
+bash web/scripts/deploy-pages.sh <dir>    # replaces the gh-pages branch with it
+```
+
+Re-run both after a data refresh. Boardtape stays local until there's a licensed price feed.
+
 ## Status
 
 Prototype. Lyft is fully covered: the current board is verified, and history since the IPO is
