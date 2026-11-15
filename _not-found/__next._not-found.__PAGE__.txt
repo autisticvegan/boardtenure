@@ -1,0 +1,25 @@
+1:"$Sreact.fragment"
+2:I[8802,["802","static/chunks/802-8af235dcea977a6a.js","14","static/chunks/app/(hiw)/page-b24119fbf9978f58.js"],""]
+3:I[6354,[],"OutletBoundary"]
+4:"$Sreact.suspense"
+8:I[6354,[],"ViewportBoundary"]
+9:I[6354,[],"MetadataBoundary"]
+a:I[5767,[],"IconMark"]
+c:I[8955,[],""]
+d:I[6663,[],""]
+10:I[8715,["39","static/chunks/app/error-423b11d7890bf1be.js"],"default"]
+:HL["/boardtenure/_next/static/css/a2e56c3c9d66cf82.css","style"]
+:HL["/boardtenure/_next/static/css/d8812a0a252854a9.css","style"]
+7:X
+f:X
+f:C
+0:{"buildId":"EjlLN4R7gnzVsdz9EMZK1","data":[{"rsc":["$","$1","c",{"children":[["$","div",null,{"className":"py-24 text-center","children":[["$","p",null,{"className":"text-[12px] text-ink-3 uppercase tracking-wide","children":"Not found"}],["$","h1",null,{"className":"mt-2 text-[24px] font-semibold tracking-tight","children":"We don’t have that page"}],["$","p",null,{"className":"mt-6","children":["$","$L2",null,{"href":"/","className":"text-[14px] text-accent-ink hover:underline underline-offset-2","children":"Back to Heads I Win →"}]}]]}],null,["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":"$@6","staleTime":"$7","varyParams":null},{"rsc":["$","$1","h",{"children":[["$","meta",null,{"name":"robots","content":"noindex"}],["$","$L8",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#0b0d12"}],["$","meta","3",{"name":"color-scheme","content":"dark"}]]}],["$","div",null,{"hidden":true,"children":["$","$L9",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":[["$","link","0",{"rel":"icon","href":"/boardtenure/favicon.ico?603d046c9a6fdfbb","type":"image/x-icon","sizes":"16x16"}],["$","$La","1",{}]]}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"isPartial":"$@b","staleTime":"$7","varyParams":null},{"rsc":["$","$1","c",{"children":[null,["$","$Lc",null,{"parallelRouterKey":"children","template":["$","$Ld",null,{}]}]]}],"isPartial":"$@e","staleTime":"$7","varyParams":"$f"},{"rsc":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/boardtenure/_next/static/css/a2e56c3c9d66cf82.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/boardtenure/_next/static/css/d8812a0a252854a9.css","precedence":"next"}]],["$","html",null,{"lang":"en","className":"__variable_706ca3 __variable_e42264","children":["$","body",null,{"className":"min-h-dvh flex flex-col text-[14px] leading-[22px]","children":["$","$Lc",null,{"parallelRouterKey":"children","error":"$10","errorStyles":[],"errorScripts":null,"template":["$","$Ld",null,{}],"notFound":[["$","div",null,{"className":"py-24 text-center","children":[["$","p",null,{"className":"text-[12px] text-ink-3 uppercase tracking-wide","children":"Not found"}],["$","h1",null,{"className":"mt-2 text-[24px] font-semibold tracking-tight","children":"We don’t have that page"}],["$","p",null,{"className":"mt-6","children":["$","$L2",null,{"href":"/","className":"text-[14px] text-accent-ink hover:underline underline-offset-2","children":"Back to Heads I Win →"}]}]]}],[]]}]}]}]]}],"isPartial":"$@11","staleTime":"$7","varyParams":null}],"isUpgradeableISRFallback":false,"a":"$@12","rootVaryParams":null,"needsRuntimeRequest":"$@13"}
+5:null
+7:300
+13:true
+7:C
+12:0
+b:"$undefined"
+e:"$undefined"
+11:"$undefined"
+6:"$undefined"
