@@ -10,7 +10,8 @@ import { getPayRatios, getPayRatioStats } from "@/lib/queries-hiw";
 import { caughtUpAt, ratioLabel, startedIn } from "@/lib/ratio";
 
 export const metadata: Metadata = {
-  title: "The ratio",
+  title: "The ratio — when the CEO has already earned your entire year",
+  description: "Verified CEO-to-median-worker pay ratios from US proxy statements, down to the calendar day and minute the CEO finished earning a median employee's whole year.",
   openGraph: { images: [{ url: `${BASE_PATH}/og/ratio.png`, width: 1200, height: 630 }] },
   twitter: { card: "summary_large_image", images: [`${BASE_PATH}/og/ratio.png`] },
 };

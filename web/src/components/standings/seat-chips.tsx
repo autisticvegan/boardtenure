@@ -1,7 +1,7 @@
 // Seat-level chips for the director and seat pages (docs/design/rankings-ui.md §5.2, §5.5).
 import Link from "next/link";
 import type { RankScope, SeatRef } from "@/lib/queries";
-import { seatReason, tagsFor, withScope, type Tag } from "@/lib/standings";
+import { seatReason, tagsFor, withScope, years, type Tag } from "@/lib/standings";
 import { Chip, Signed } from "./primitives";
 
 /** Lower-case reason for inline use: "under 1 yr", "dates unknown", "exec seat". */
@@ -15,7 +15,7 @@ export function shortReason(reason: string): string {
 
 const abs1 = (x: number) => Math.abs(x * 100).toFixed(1);
 
-function tagSentence(tag: Tag, sym: string, seat: { annualized_excess: number | null; max_drawdown: number | null }): string {
+function tagSentence(tag: Tag, sym: string, seat: { annualized_excess: number | null; max_drawdown: number | null; calendar_days?: number | null }): string {
   switch (tag.key) {
     case "white-knuckle":
       return `${sym} fell ${abs1(seat.max_drawdown ?? 0)}% from a peak during this seat, and still beat the S&P 500.`;
@@ -23,12 +23,16 @@ function tagSentence(tag: Tag, sym: string, seat: { annualized_excess: number | 
       return `${sym} beat the S&P 500 by ${abs1(seat.annualized_excess ?? 0)}% a year during this seat.`;
     case "rough":
       return `${sym} trailed the S&P 500 by ${abs1(seat.annualized_excess ?? 0)}% a year during this seat.`;
+    case "decade-behind":
+      return `${sym} trailed the S&P 500 across ${years(seat.calendar_days)} scored years during this seat.`;
+    case "lifer":
+      return `${sym}’s boardroom included this seat across ${years(seat.calendar_days)} scored years.`;
   }
 }
 
 /** Up to 2 rule-based tags, each with its rule in a tooltip and a plain sentence beside it. */
 export function TenureTags({ seat, sym }: {
-  seat: { annualized_excess: number | null; max_drawdown: number | null; relative_return_pp: number | null };
+  seat: { annualized_excess: number | null; max_drawdown: number | null; relative_return_pp: number | null; calendar_days?: number | null };
   sym: string;
 }) {
   const tags = tagsFor(seat, 2);

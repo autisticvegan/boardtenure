@@ -1,4 +1,5 @@
 // A golden parachute as a receipt: line items, a total, and what shareholders got meanwhile.
+import Link from "next/link";
 import { Logo } from "@/components/logo";
 import { compactMoney } from "@/lib/format";
 import { hundred } from "./hundred";
@@ -23,7 +24,11 @@ export function Receipt({ title = "Exit receipt", estimatedNote = "estimated in 
       <div className="text-center">
         {cik != null && <div className="mb-2 flex justify-center"><Logo cik={cik} size={34} /></div>}
         <div className="text-[11px] tracking-[0.2em] uppercase opacity-70">{title}</div>
-        <div className="mt-1 text-[16px] leading-6 font-bold">{company}</div>
+        <div className="mt-1 text-[16px] leading-6 font-bold">
+          {cik != null ? (
+            <Link href={`/case/${cik}`} className="hover:underline underline-offset-2">{company}</Link>
+          ) : company}
+        </div>
         <div className="text-[11px] opacity-70">{left}</div>
       </div>
       <hr />

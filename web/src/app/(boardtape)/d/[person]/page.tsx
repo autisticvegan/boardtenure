@@ -16,6 +16,7 @@ import {
   getPerson,
   type CareerSeat, type PersonHeader, type RankScope, type SeatRef,
 } from "@/lib/queries";
+import { getPersonDirectorComp } from "@/lib/queries-boards";
 import { getPersonExecPay } from "@/lib/queries-pay";
 import { getPersonSeats } from "@/lib/queries-people";
 import { primaryRole } from "@/lib/roles";
@@ -66,10 +67,10 @@ function DirectorSkeleton({ name }: { name: string }) {
 }
 
 async function DirectorBody({ person, scope }: { person: PersonHeader; scope: RankScope }) {
-  const [career, bench, otherBoards, standing, seats, rankings, dataThrough, stats, execPay] = await Promise.all([
+  const [career, bench, otherBoards, standing, seats, rankings, dataThrough, stats, execPay, boardPay] = await Promise.all([
     getCareer(person.id), getDefaultBenchmark(), getOtherBoards(person.id), getDirectorRank(person.id),
     getPersonSeats(person.id, scope), getDirectorRankings(scope), getDataThrough(), getLeaderboardStats(scope),
-    getPersonExecPay(person.id),
+    getPersonExecPay(person.id), getPersonDirectorComp(person.id),
   ]);
   const ranked = scope === "all" ? standing.all : standing.independent;
   const other = scope === "all" ? standing.independent : standing.all;
@@ -78,6 +79,8 @@ async function DirectorBody({ person, scope }: { person: PersonHeader; scope: Ra
 
   const trackedSlugs = new Set(career.map((s) => s.company_slug));
   const untracked = otherBoards.filter((b) => !b.tracked_slug || !trackedSlugs.has(b.tracked_slug));
+  const currentPublicBoards = career.filter((s) => s.status === "current").length
+    + untracked.filter((b) => b.status === "current").length;
   const benchName = bench?.name ?? "S&P 500 (SPY)";
   const currentAff = person.affiliations.find((a) => a.is_current);
   const seatHref = (s: { company_slug: string }) => withScope(`/c/${s.company_slug}/d/${person.slug}`, scope);
@@ -194,6 +197,39 @@ async function DirectorBody({ person, scope }: { person: PersonHeader; scope: Ra
         <div className="mt-3"><ChipKey /></div>
       </section>
 
+      {boardPay.length > 0 && (
+        <section aria-labelledby="board-pay">
+          <SectionHead id="board-pay" title="Paid for board seats"
+                       sub="Reported non-employee director retainers and equity grants from tracked proxies, beside the stock during the seat."
+                       action={<Link href="/boards" className="hover:text-accent-ink">All board pay →</Link>} />
+          <div className="grid gap-4 sm:grid-cols-2">
+            {boardPay.map((b) => (
+              <Link key={b.company_slug} href={seatHref(b)}
+                    className="block rounded-[14px] border border-line bg-surface px-5 py-4 shadow-card hover:border-line-strong">
+                <span className="block text-[11px] leading-[14px] uppercase tracking-[0.08em] text-ink-3">
+                  {b.company_name} · FY{b.first_year}{b.last_year !== b.first_year && <>–FY{b.last_year}</>}
+                </span>
+                <span className="mt-1 flex flex-wrap items-baseline gap-x-3">
+                  <span className="text-[24px] leading-[30px] font-bold text-ink num">{compactMoney(b.total_paid)}</span>
+                  <span className="text-[12px] text-ink-3 num">
+                    {b.cash_total > 0 && <>cash {compactMoney(b.cash_total)}</>}
+                    {b.cash_total > 0 && b.equity_total > 0 && " · "}
+                    {b.equity_total > 0 && <>equity {compactMoney(b.equity_total)}</>}
+                  </span>
+                </span>
+                <span className="mt-1 block text-[13px] leading-5 text-ink-2">
+                  Stock vs the S&amp;P 500:{" "}
+                  {b.annualized_excess != null
+                    ? <Signed value={b.annualized_excess} kind="perYear" />
+                    : <Signed value={b.relative_return_pp} kind="pp" />}
+                  <span className="text-accent-ink ml-2">Year-by-year seat pay →</span>
+                </span>
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
+
       {execPay.length > 0 && (
         <section aria-labelledby="exec-pay">
           <SectionHead id="exec-pay" title="Pay as an executive"
@@ -223,6 +259,9 @@ async function DirectorBody({ person, scope }: { person: PersonHeader; scope: Ra
       {untracked.length > 0 && (
         <section aria-labelledby="other-boards">
           <SectionHead id="other-boards" title="Other public boards named in proxy biographies"
+                       sub={currentPublicBoards >= 3 ? (
+                         <>Currently disclosed on <strong className="text-ink font-semibold num">{currentPublicBoards}</strong> public boards combined (tracked and proxy-disclosed).</>
+                       ) : undefined}
                        action={<span className="text-ink-3">not yet tracked · unverified</span>} />
           <Card pad={false}>
             <div className="p-4 sm:p-5">

@@ -9,6 +9,10 @@ import { officerTitle } from "./roles";
 export const ROCKET = 0.25;
 export const ROUGH = -0.2;
 export const WHITE_KNUCKLE_MDD = -0.8;
+export const DECADE_BEHIND_DAYS = 3652;
+export const DECADE_BEHIND_YEARS = 10;
+export const LIFER_DAYS = 5478;
+export const LIFER_YEARS = 15;
 export const SHORT_RECORD_YEARS = 5;
 export const MIN_SEAT_DAYS = 365;
 export const MIN_DIRECTOR_DAYS = 730;
@@ -99,15 +103,18 @@ export function barDomain(values: number[]): number {
 
 // ---- tags and chips --------------------------------------------------------------
 
-export type Tag = { key: "white-knuckle" | "rocket" | "rough"; label: string; hint: string };
+export type Tag = { key: "white-knuckle" | "rocket" | "rough" | "decade-behind" | "lifer"; label: string; hint: string };
+
+export const TAG_ORDER: Tag["key"][] = ["white-knuckle", "rocket", "rough", "decade-behind", "lifer"];
 
 type TaggableSeat = {
   annualized_excess: number | null;
   max_drawdown: number | null;
   relative_return_pp: number | null;
+  calendar_days?: number | null;
 };
 
-/** Seat tags in priority order White-knuckle > Rocket > Rough ride; at most `max`. */
+/** Seat tags in priority order White-knuckle > Rocket > Rough ride > Decade behind > Boardroom lifer; at most `max`. */
 export function tagsFor(seat: TaggableSeat, max = 2): Tag[] {
   const out: Tag[] = [];
   if (seat.max_drawdown != null && seat.max_drawdown <= WHITE_KNUCKLE_MDD && (seat.relative_return_pp ?? 0) > 0) {
@@ -122,6 +129,19 @@ export function tagsFor(seat: TaggableSeat, max = 2): Tag[] {
   }
   if (seat.annualized_excess != null && seat.annualized_excess <= ROUGH) {
     out.push({ key: "rough", label: "Rough ride", hint: `The stock trailed the S&P 500 by ${thresholdPct(ROUGH)} or more a year during this seat.` });
+  }
+  if ((seat.calendar_days ?? 0) >= DECADE_BEHIND_DAYS && seat.annualized_excess != null && seat.annualized_excess < -0.0005 && (seat.relative_return_pp ?? 0) < 0) {
+    out.push({
+      key: "decade-behind",
+      label: "Decade behind",
+      hint: `The stock trailed the S&P 500 over ${DECADE_BEHIND_YEARS} or more scored years during this seat.`,
+    });
+  } else if ((seat.calendar_days ?? 0) >= LIFER_DAYS) {
+    out.push({
+      key: "lifer",
+      label: "Boardroom lifer",
+      hint: `Held the seat for ${LIFER_YEARS} or more scored years.`,
+    });
   }
   return out.slice(0, max);
 }

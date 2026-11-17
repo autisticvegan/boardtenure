@@ -100,6 +100,36 @@ const TABS: { value: Tab; label: string }[] = [
   { value: "seats", label: "Seats" },
 ];
 
+type Preset = { label: string; patch: Partial<RankingsQuery>; match: (q: RankingsQuery) => boolean };
+
+const PRESETS: Preset[] = [
+  {
+    label: "Steepest lags",
+    patch: { tab: "seats", status: "all", sort: "score", dir: "asc" },
+    match: (q) => q.tab === "seats" && q.status === "all" && q.sort === "score" && q.dir === "asc" && q.co.length === 0 && !q.q,
+  },
+  {
+    label: "Boardroom lifers (10+ yrs)",
+    patch: { tab: "directors", status: "current", min: 10, multi: false, sort: "years", dir: "desc" },
+    match: (q) => q.tab === "directors" && q.status === "current" && q.min === 10 && !q.multi && q.sort === "years" && q.dir === "desc" && q.co.length === 0 && !q.q,
+  },
+  {
+    label: "Longest tenures",
+    patch: { tab: "seats", status: "all", sort: "years", dir: "desc" },
+    match: (q) => q.tab === "seats" && q.status === "all" && q.sort === "years" && q.dir === "desc" && q.co.length === 0 && !q.q,
+  },
+  {
+    label: "Deepest drops",
+    patch: { tab: "seats", status: "all", sort: "drop", dir: "asc" },
+    match: (q) => q.tab === "seats" && q.status === "all" && q.sort === "drop" && q.dir === "asc" && q.co.length === 0 && !q.q,
+  },
+  {
+    label: "Seat collectors",
+    patch: { tab: "directors", status: "all", min: 2, multi: true, sort: "seats", dir: "desc" },
+    match: (q) => q.tab === "directors" && q.status === "all" && q.min === 2 && q.multi && q.sort === "seats" && q.dir === "desc" && q.co.length === 0 && !q.q,
+  },
+];
+
 export function FilterBar({ query, companies }: { query: RankingsQuery; companies: CompanyOption[] }) {
   const { opt, apply } = useQueryNav(query);
   const ids = { co: useId(), more: useId(), q: useId(), min: useId() };
@@ -263,6 +293,29 @@ export function FilterBar({ query, companies }: { query: RankingsQuery; companie
           </Link>
         )}
       </div>
+
+      {/* Quick slices: one-click presets built purely from URL parameters */}
+      <nav aria-label="Quick slices" data-nav-links="replace"
+           className="mt-2.5 flex items-center gap-1.5 overflow-x-auto pb-0.5 text-[12px] leading-4">
+        <span className="text-ink-3 shrink-0 mr-1">Slices:</span>
+        {PRESETS.map((p) => {
+          const active = p.match(opt);
+          const href = active
+            ? clearHref(opt)
+            : rankingsHref({ ...opt, co: [], q: "" }, p.patch);
+          return (
+            <Link key={p.label} href={href} scroll={false} onClick={() => setText("")}
+                  aria-current={active ? "true" : undefined}
+                  className={`inline-flex items-center shrink-0 min-h-9 md:min-h-7 rounded-full px-3 border font-medium transition-colors ${
+                    active
+                      ? "border-accent bg-accent-wash text-accent-ink"
+                      : "border-line bg-surface text-ink-2 hover:text-ink hover:border-line-strong"
+                  }`}>
+              {p.label}
+            </Link>
+          );
+        })}
+      </nav>
     </div>
   );
 }

@@ -1,10 +1,13 @@
 import type { Metadata } from "next";
-import { CaseCard } from "@/components/hiw/case-card";
 import { hundred } from "@/components/hiw/hundred";
+import { PaidAnywayBrowser } from "@/components/hiw/paid-anyway-browser";
 import { compactMoney } from "@/lib/format";
 import { getPaidAnyway, getScreenStats } from "@/lib/queries-hiw";
 
-export const metadata: Metadata = { title: "Paid anyway" };
+export const metadata: Metadata = {
+  title: "Paid anyway — big CEO pay where $100 of stock shrank below $50",
+  description: "Public companies whose shareholders lost more than half in the proxy's own pay-versus-performance table, ranked by what the CEO collected over the same years.",
+};
 export const revalidate = 3600;
 
 export default async function PaidAnyway() {
@@ -13,21 +16,22 @@ export default async function PaidAnyway() {
   return (
     <div className="space-y-8">
       <header className="max-w-[820px]">
-        <h1 className="text-[36px] leading-[40px] sm:text-[48px] sm:leading-[52px] font-extrabold tracking-[-0.03em] text-ink">Paid anyway</h1>
+        <div className="text-[12px] font-bold uppercase tracking-[0.16em] text-accent-ink">Paid anyway</div>
+        <h1 className="mt-1 text-[36px] leading-[40px] sm:text-[52px] sm:leading-[56px] font-extrabold tracking-[-0.035em] text-ink">
+          Shareholders lost half. <span className="text-accent-ink hiw-gold-text">The checks cleared anyway.</span>
+        </h1>
         <p className="mt-3 text-[16px] leading-7 text-ink-2">
-          Companies where $100 invested at the start of their proxy&apos;s pay table was worth less than $50 at the end,
-          ranked by what the CEO was reported paid over those same years. These {cases.length} companies paid their CEOs{" "}
-          <strong className="text-accent-ink">{compactMoney(total)}</strong>. Across all {stats.lost_half.toLocaleString("en-US")} companies
-          whose shareholders lost more than half, the median CEO was still paid {compactMoney(stats.median_pay_lost_half)} a year.
+          Notable companies where $100 invested at the start of their proxy&apos;s pay table was worth less than $50 at the end,
+          ranked by what the CEO was reported paid over those same years. Together these {cases.length} companies reported{" "}
+          <strong className="text-accent-ink">{compactMoney(total)}</strong> in CEO pay. Across all {stats.lost_half.toLocaleString("en-US")} companies
+          whose shareholders lost more than half, the median CEO still collected {compactMoney(stats.median_pay_lost_half)} a year.
         </p>
         <p className="mt-2 text-[12px] leading-4 text-ink-3">
-          The peer-group line on each bar is the company&apos;s own chosen comparison; where peers fell too, part of the
+          The peer-group mark on each bar is the company&apos;s own chosen comparison; where peers fell too, part of the
           drop was the industry. Medians: shareholders kept {hundred(stats.median_tsr_lost)} of every $100 at the companies that lost money.
         </p>
       </header>
-      <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
-        {cases.map((c, i) => <CaseCard key={c.cik} c={c} rank={i + 1} />)}
-      </div>
+      <PaidAnywayBrowser cases={cases} />
     </div>
   );
 }

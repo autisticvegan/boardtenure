@@ -31,7 +31,12 @@ const signed = (x: number, d = 0) => `${x > 0 ? "+" : x < 0 ? "−" : ""}${Math.
 export async function generateMetadata({ params }: PageProps<"/hiw/case/[cik]">): Promise<Metadata> {
   const cik = Number((await params).cik);
   const who = Number.isInteger(cik) ? await getHubIdentity(cik) : null;
-  return who ? { title: `${companyLabel({ entity_name: who.name, tickers: who.tickers }).name}: pay vs shareholders` } : {};
+  if (!who) return {};
+  const { name, ticker } = companyLabel({ entity_name: who.name, tickers: who.tickers });
+  return {
+    title: `${name}${ticker ? ` (${ticker})` : ""}: CEO pay vs shareholders`,
+    description: `Reported CEO pay, compensation actually paid, pay ratios, golden parachutes, and shareholder returns from ${name}'s own SEC filings.`,
+  };
 }
 
 export default async function CompanyPage({ params }: PageProps<"/hiw/case/[cik]">) {
@@ -59,6 +64,16 @@ export default async function CompanyPage({ params }: PageProps<"/hiw/case/[cik]
   const anything = years.length || ratio || changes.length || myChutes.length || myHellos.length || myLayoffs.length
     || myFailing.length || mySales.length;
 
+  const crashRaises = changes.filter((c) => c.ret <= -0.3 && c.sct > c.sct_prev && !c.new_ceo_base);
+  const rapSheet: { emoji: string; label: string; href: string }[] = [];
+  if (last?.tsr != null && last.tsr < 50 && sct > 0) rapSheet.push({ emoji: "💸", label: "Paid anyway ($100 → <$50)", href: "/paid-anyway" });
+  if (crashRaises.length > 0) rapSheet.push({ emoji: "📈", label: "Raised in a 30%+ drop", href: "/raise" });
+  if (myHellos.length > 0) rapSheet.push({ emoji: "👋", label: `Golden hello${myHellos.length > 1 ? ` (${myHellos.length})` : ""}`, href: "/hellos" });
+  if (myChutes.length > 0) rapSheet.push({ emoji: "🪂", label: `Golden parachute${myChutes.length > 1 ? ` (${myChutes.length})` : ""}`, href: "/parachutes" });
+  if (myLayoffs.length > 0) rapSheet.push({ emoji: "✂️", label: `Layoffs${myLayoffs.length > 1 ? ` (${myLayoffs.length})` : ""}`, href: "/layoffs" });
+  if (myFailing.length > 0) rapSheet.push({ emoji: "🪜", label: `Failing up${myFailing.length > 1 ? ` (${myFailing.length})` : ""}`, href: "/failing-up" });
+  if (mySales.length > 0) rapSheet.push({ emoji: "🏦", label: "Insider stock sales", href: "/sold" });
+
   return (
     <div className="space-y-10 max-w-[1000px]">
       <div className="flex flex-wrap items-center justify-between gap-3">
@@ -68,14 +83,27 @@ export default async function CompanyPage({ params }: PageProps<"/hiw/case/[cik]
         <div className="w-full sm:w-auto lg:hidden"><CompanySearch compact placeholder="Look up another company…" /></div>
       </div>
 
-      <header className="flex items-center gap-4">
-        <Logo cik={cik} size={56} />
-        <div className="min-w-0">
-          <h1 className="text-[32px] leading-[38px] sm:text-[44px] sm:leading-[48px] font-extrabold tracking-[-0.03em] text-ink">{name}</h1>
-          <p className="mt-1 text-[14px] leading-5 text-ink-3">
-            {who.tickers ?? "—"}{ceos.length > 0 && <> · CEO{ceos.length > 1 ? "s" : ""} in the table: {ceoNames(ceos)}</>}
-          </p>
+      <header className="space-y-4">
+        <div className="flex items-center gap-4">
+          <Logo cik={cik} size={56} />
+          <div className="min-w-0">
+            <h1 className="text-[32px] leading-[38px] sm:text-[44px] sm:leading-[48px] font-extrabold tracking-[-0.03em] text-ink">{name}</h1>
+            <p className="mt-1 text-[14px] leading-5 text-ink-3">
+              {who.tickers ?? "—"}{ceos.length > 0 && <> · CEO{ceos.length > 1 ? "s" : ""} in the table: {ceoNames(ceos)}</>}
+            </p>
+          </div>
         </div>
+        {rapSheet.length > 0 && (
+          <div className="flex flex-wrap items-center gap-2">
+            <span className="text-[11px] font-bold uppercase tracking-[0.12em] text-accent-ink mr-1">On file:</span>
+            {rapSheet.map((b) => (
+              <Link key={b.label} href={b.href}
+                    className="inline-flex items-center gap-1.5 rounded-full border border-accent/40 bg-accent-wash px-3 py-1 text-[12px] font-semibold text-ink hover:border-accent">
+                <span aria-hidden>{b.emoji}</span>{b.label}
+              </Link>
+            ))}
+          </div>
+        )}
       </header>
 
       {held && (

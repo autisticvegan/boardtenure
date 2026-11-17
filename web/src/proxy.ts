@@ -23,6 +23,8 @@ function adminGate(request: NextRequest) {
   });
 }
 
+const HIW_ONLY_PREFIX = /^\/(paid-anyway|heads-i-win|raise|ratio|sold|hellos|parachutes|layoffs|failing-up|about|case)(\/|$)/;
+
 export function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl;
   if (isHiwHost(request)) {
@@ -31,6 +33,11 @@ export function proxy(request: NextRequest) {
         || pathname === "/search-index.json") return NextResponse.next();
     const url = request.nextUrl.clone();
     url.pathname = `/hiw${pathname === "/" ? "" : pathname}`;
+    return NextResponse.rewrite(url);
+  }
+  if (HIW_ONLY_PREFIX.test(pathname)) {
+    const url = request.nextUrl.clone();
+    url.pathname = `/hiw${pathname}`;
     return NextResponse.rewrite(url);
   }
   if (pathname === "/admin" || pathname.startsWith("/admin/")) return adminGate(request);

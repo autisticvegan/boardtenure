@@ -19,7 +19,7 @@ import {
 } from "@/lib/queries";
 import { getPayCompanies } from "@/lib/queries-pay";
 import { plainNote, shortTag } from "@/lib/roles";
-import { barDomain, parseScope, seatReason, withScope } from "@/lib/standings";
+import { barDomain, LIFER_DAYS, LIFER_YEARS, parseScope, seatReason, withScope } from "@/lib/standings";
 import { median } from "@/lib/track-record";
 
 // Prices are daily closes; an hour-old render is fresh enough.
@@ -184,6 +184,7 @@ async function CompanyBody({ company, scope, status }: { company: CompanyHeader;
   const former = board.filter((m) => m.status === "former");
   const tenures = current.map(approxStart).filter((d): d is string => d != null).map((d) => daysBetween(d, todayIso()));
   const avgTenure = tenures.length ? tenures.reduce((a, b) => a + b, 0) / tenures.length : null;
+  const liferCount = tenures.filter((d) => d >= LIFER_DAYS).length;
   const anyImprecise = current.some((m) => m.start_precision !== "day");
   const twoYearsAgo = `${Number(todayIso().slice(0, 4)) - 2}${todayIso().slice(4)}`;
   const recentJoins = board.filter((m) => m.start_precision === "day" && m.start_date && m.start_date >= twoYearsAgo);
@@ -271,7 +272,8 @@ async function CompanyBody({ company, scope, status }: { company: CompanyHeader;
         <Card title="Board overview">
           <div className="grid grid-cols-2 gap-x-4 gap-y-5 pt-1">
             <Stat label="Directors" value={current.length} sub={`${former.length} former tracked`} />
-            <Stat label={`Avg tenure${anyImprecise ? " (≈)" : ""}`} value={years(avgTenure)} />
+            <Stat label={`Avg tenure${anyImprecise ? " (≈)" : ""}`} value={years(avgTenure)}
+                  sub={liferCount > 0 ? `${liferCount} at ${LIFER_YEARS}+ yrs` : undefined} />
             <Stat label={`Median tenure${anyImprecise ? " (≈)" : ""}`} value={years(median(tenures))} />
             <Stat label="Independent" value={`${current.filter((m) => m.is_independent).length} / ${current.length}`}
                   sub={current.some((m) => m.is_independent == null)
@@ -283,6 +285,11 @@ async function CompanyBody({ company, scope, status }: { company: CompanyHeader;
               items={recentJoins.map((m) => ({ key: m.membership_id, href: seatHref(m.person_slug), name: m.full_name, date: fmtDate(m.start_date) }))} />
             <MiniList title="Recent departures" empty="None in the last two years"
               items={recentLeaves.map((m) => ({ key: m.membership_id, href: seatHref(m.person_slug), name: m.full_name, date: fmtDate(m.end_date, m.end_precision ?? "day") }))} />
+            <div className="pt-2 border-t border-line">
+              <Link href="/boards" className="text-[12px] text-accent-ink hover:underline underline-offset-2">
+                Board retainers &amp; stock grants vs the stock →
+              </Link>
+            </div>
           </div>
         </Card>
 

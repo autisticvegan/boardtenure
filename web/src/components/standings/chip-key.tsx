@@ -2,14 +2,14 @@
 // chips' hover hints are never the only place that information lives.
 import type { ReactNode } from "react";
 import {
-  CHIP_HINT, EXEC_SEAT_REASON, MIN_DIRECTOR_YEARS, NEW_COMPANY_DAYS, ROCKET, ROUGH, tagsFor, WHITE_KNUCKLE_MDD,
+  CHIP_HINT, DECADE_BEHIND_DAYS, EXEC_SEAT_REASON, LIFER_DAYS, MIN_DIRECTOR_YEARS, NEW_COMPANY_DAYS, ROCKET, ROUGH, tagsFor, WHITE_KNUCKLE_MDD,
 } from "@/lib/standings";
 import { Chip, type ChipKind } from "./primitives";
 
 // Tags are read back from tagsFor() so their names and rule text stay single-sourced.
 const TAGS = [
-  ...tagsFor({ annualized_excess: ROCKET, max_drawdown: WHITE_KNUCKLE_MDD, relative_return_pp: 1 }, 3),
-  ...tagsFor({ annualized_excess: ROUGH, max_drawdown: null, relative_return_pp: null }, 3),
+  ...tagsFor({ annualized_excess: ROCKET, max_drawdown: WHITE_KNUCKLE_MDD, relative_return_pp: 1, calendar_days: LIFER_DAYS }, 5),
+  ...tagsFor({ annualized_excess: ROUGH, max_drawdown: null, relative_return_pp: -1, calendar_days: DECADE_BEHIND_DAYS }, 5),
 ];
 
 const FACTS: { kind: ChipKind; label: string; text: ReactNode }[] = [

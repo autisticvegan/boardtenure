@@ -2,11 +2,10 @@
 import Link from "next/link";
 import type { ReactNode } from "react";
 import type { RankScope, ScopedDirector } from "@/lib/queries";
-import { CHIP_HINT, floorYears, shortRecord, tagsFor, topPct, withScope, type Tag } from "@/lib/standings";
+import { CHIP_HINT, floorYears, shortRecord, TAG_ORDER, tagsFor, topPct, withScope, type Tag } from "@/lib/standings";
 import { Chip, RankBadge, Signed } from "./primitives";
 
 const GLOW = "0 0 0 1px rgba(245,197,66,.40), 0 12px 32px -16px rgba(245,197,66,.35)";
-const TAG_ORDER: Tag["key"][] = ["white-knuckle", "rocket", "rough"];
 
 /** Distinct tickers of the seats counted in this scope, best seat first. */
 export function scopedTickers(d: ScopedDirector, max = 3): string[] {

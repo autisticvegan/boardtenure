@@ -29,12 +29,12 @@ export async function View({ kind: requested }: { kind: string }) {
       <header className="max-w-[860px] space-y-4">
         <div className="text-[12px] font-bold uppercase tracking-[0.16em] text-accent-ink">Failing up</div>
         <h1 className="text-[40px] leading-[44px] sm:text-[60px] sm:leading-[62px] font-extrabold tracking-[-0.035em] text-ink">
-          Shareholders came up short. They got hired anyway.
+          Shareholders took the loss. <span className="text-accent-ink hiw-gold-text">The next board wrote a check.</span>
         </h1>
         <p className="text-[17px] leading-7 text-ink-2">
           They held a top job at a public company while its shareholders lost at least 40%, or trailed the company&apos;s own chosen
-          comparison by 50 points or more. Then another public company hired them{seats > 0 && <> or put them on its board</>},
-          and paid them for it.
+          comparison by 50 points or more. Within three years another public company hired them{seats > 0 && <> or put them on its board</>},
+          and put them right back on a proxy pay table.
         </p>
       </header>
 

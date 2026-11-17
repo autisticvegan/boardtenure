@@ -12,11 +12,12 @@ import { Busy, CardSkeleton } from "@/components/standings/skeletons";
 import { firstName, SeatSummary } from "@/components/standings/seat-summary";
 import { WhiteKnuckle } from "@/components/standings/white-knuckle";
 import { Badge, Card, Confidence, Stat } from "@/components/ui";
-import { fmtDate, money, pct, tenureLength } from "@/lib/format";
+import { compactMoney, fmtDate, money, pct, tenureLength } from "@/lib/format";
 import {
   getBoard, getBoardStrips, getCompany, getDefaultBenchmark, getEvidence, getReturnSeries, getSeatRankings,
   type CompanyHeader, type Membership, type RankScope, type SeatRank, type SeatRef,
 } from "@/lib/queries";
+import { getSeatDirectorComp, type SeatDirectorCompRow } from "@/lib/queries-boards";
 import { getPersonSeats } from "@/lib/queries-people";
 import { END_REASON, plainNote, primaryRole, roleLabel } from "@/lib/roles";
 import { barDomain, parseScope, SCOPE_LABEL, withScope } from "@/lib/standings";
@@ -95,13 +96,14 @@ async function SeatBody({ company, seats, person, scope, path }: {
   const os: RankScope = scope === "all" ? "independent" : "all";
   // Bare bigint columns arrive as strings and JSON-built ones as numbers; compare as numbers.
   const ids = seats.map((s) => Number(s.membership_id));
-  const [bench, evidence, refs, strips, seatRanks, otherRanks] = await Promise.all([
+  const [bench, evidence, refs, strips, seatRanks, otherRanks, dirComp] = await Promise.all([
     getDefaultBenchmark(),
     getEvidence("board_membership", ids),
     getPersonSeats(seats[0].person_id, scope),
     getBoardStrips(scope),
     getSeatRankings(scope),
     getSeatRankings(os),
+    getSeatDirectorComp(company.id, seats[0].person_id),
   ]);
 
   const first = firstName(seats[0].full_name);
@@ -155,6 +157,8 @@ async function SeatBody({ company, seats, person, scope, path }: {
           <SeatChips seats={otherSeats} personSlug={person} scope={scope} />
         </section>
       )}
+
+      {dirComp.length > 0 && <SeatDirectorPay rows={dirComp} sym={sym} />}
 
       <Card title="Sources">
         <SourceList rows={evidence} />
@@ -348,4 +352,63 @@ function anchorNote(reason: string | null | undefined): string {
     case "leave_window": return "departure known only to a window";
     default: return "not measurable";
   }
+}
+
+function SeatDirectorPay({ rows, sym }: { rows: SeatDirectorCompRow[]; sym: string }) {
+  const boardRows = rows.filter((r) => !r.excluded_from_board_cost && r.total > 0);
+  const empExcluded = rows.some((r) => r.excluded_from_board_cost);
+  if (boardRows.length === 0) return null;
+  const totalPaid = boardRows.reduce((a, r) => a + r.total, 0);
+  const cashPaid = boardRows.reduce((a, r) => a + r.fees_cash, 0);
+  const equityPaid = boardRows.reduce((a, r) => a + r.stock_awards + r.option_awards, 0);
+  const y0 = boardRows[boardRows.length - 1].fiscal_year;
+  const y1 = boardRows[0].fiscal_year;
+  return (
+    <section aria-labelledby="seat-director-pay">
+      <SectionHead
+        id="seat-director-pay"
+        title="Paid for the seat"
+        sub={<>Reported non-employee director compensation from each proxy statement: <strong className="text-ink font-semibold num">{compactMoney(totalPaid)}</strong> across FY{y0}{y1 !== y0 && <>–FY{y1}</>} ({compactMoney(cashPaid)} cash fees · {compactMoney(equityPaid)} stock &amp; option awards).</>}
+        action={<Link href="/boards" className="hover:text-accent-ink">All board pay →</Link>}
+      />
+      <Card pad={false}>
+        <div className="relative overflow-x-auto" role="region" aria-label="Director pay by fiscal year" tabIndex={0}>
+          <table className="w-full min-w-[580px] text-[13px] leading-5 num">
+            <caption className="sr-only">Reported non-employee director compensation by fiscal year alongside the stock against the S&amp;P 500.</caption>
+            <thead className="text-[12px] leading-4 text-ink-3 text-left">
+              <tr className="border-b border-line">
+                <th scope="col" className="font-medium px-4 py-2.5">Fiscal year</th>
+                <th scope="col" className="font-medium px-3 py-2.5 text-right">Cash fees</th>
+                <th scope="col" className="font-medium px-3 py-2.5 text-right">Stock &amp; options</th>
+                <th scope="col" className="font-medium px-3 py-2.5 text-right">Reported total</th>
+                <th scope="col" className="font-medium px-4 py-2.5 text-right">{sym} vs S&amp;P that yr</th>
+              </tr>
+            </thead>
+            <tbody>
+              {boardRows.map((r) => (
+                <tr key={r.fiscal_year} className="border-b border-line last:border-0">
+                  <th scope="row" className="font-normal text-left px-4 py-2 text-ink">FY{r.fiscal_year}</th>
+                  <td className="px-3 py-2 text-right text-ink-2">{r.fees_cash > 0 ? compactMoney(r.fees_cash) : "—"}</td>
+                  <td className="px-3 py-2 text-right text-ink-2">{r.stock_awards + r.option_awards > 0 ? compactMoney(r.stock_awards + r.option_awards) : "—"}</td>
+                  <td className="px-3 py-2 text-right font-semibold text-ink">
+                    <a href={r.source_url} target="_blank" rel="noreferrer"
+                       className="hover:text-accent-ink underline decoration-line-strong underline-offset-2"
+                       title={`Filed ${fmtDate(r.filed_on)}`}>
+                      {compactMoney(r.total)}
+                    </a>
+                  </td>
+                  <td className="px-4 py-2 text-right"><Signed value={r.relative_return_pp} kind="pp" /></td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </Card>
+      {empExcluded && (
+        <p className="mt-2 text-[12px] leading-4 text-ink-3">
+          Years where the proxy&apos;s Director Compensation table reported employee pay rather than non-employee board retainers are left out above.
+        </p>
+      )}
+    </section>
+  );
 }

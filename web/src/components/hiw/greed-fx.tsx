@@ -7,7 +7,7 @@ import { useEffect, useRef, useSyncExternalStore } from "react";
 const ORBIT = ["💰", "💸", "🤑", "💎", "🪙", "💵"];
 const BURST = ["💸", "💰", "💵", "🪙", "💎", "🤑", "🛥️", "🏝️", "🍾", "📈"];
 const RAIN = ["💵", "💸", "🪙", "💰"];
-const SHOUTS = ["KA-CHING!", "+$1M", "BONUS!", "VESTED!", "STOCK AWARD!", "RETENTION GRANT!", "+$10M", "GOLDEN PARACHUTE!"];
+const SHOUTS = ["KA-CHING!", "+$1M", "BONUS!", "VESTED!", "STOCK AWARD!", "RETENTION GRANT!", "MAKE-WHOLE!", "TAX GROSS-UP!", "+$10M", "GOLDEN PARACHUTE!"];
 const STORE = "hiw-greed-mode";
 const GOLD = "#f5c542";
 

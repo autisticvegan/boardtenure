@@ -14,7 +14,8 @@ import { compactMoney } from "@/lib/format";
 import { getPayAsymmetry } from "@/lib/queries-pay";
 import { caughtUpAt, ratioLabel } from "@/lib/ratio";
 import {
-  PRICE_DERIVED, getAllChutes, getExecutiveSales, getFailingUp, getHeadsIWin, getPaidAnyway, getPayRatios, getPayRatioStats, getScreenStats,
+  PRICE_DERIVED, getAllChutes, getExecutiveSales, getFailingUp, getHeadsIWin, getPaidAnyway, getPayRatios, getPayRatioStats,
+  getRepeatOffenders, getScreenStats, type RepeatOffender,
 } from "@/lib/queries-hiw";
 
 export const revalidate = 3600;
@@ -22,9 +23,9 @@ export const revalidate = 3600;
 const TOP_PAID = 10;
 
 export default async function HiwHome() {
-  const [stats, paid, deck, heads, chutes, sales, failing, asym, ratios, ratioStats] = await Promise.all([
+  const [stats, paid, deck, heads, chutes, sales, failing, asym, ratios, ratioStats, repeats] = await Promise.all([
     getScreenStats(), getPaidAnyway(50, 24), getPaidAnyway(100, 120), getHeadsIWin(3), getAllChutes(), getExecutiveSales(),
-    getFailingUp(), getPayAsymmetry(), getPayRatios(), getPayRatioStats(),
+    getFailingUp(), getPayAsymmetry(), getPayRatios(), getPayRatioStats(), getRepeatOffenders(3, 9),
   ]);
   const up = asym?.buckets_same.at(-1);
   const down = asym?.buckets_same[0];
@@ -37,7 +38,12 @@ export default async function HiwHome() {
     .sort((a, b) => (b.proceeds - b.value_at_end!) - (a.proceeds - a.value_at_end!)).slice(0, 3);
   const flipCases: FlipCase[] = deck.map((c) => {
     const { name, ticker } = companyLabel(c);
-    return { cik: c.cik, name, ticker, ceo: ceoNames(c.ceos), pay: compactMoney(c.peo_sct_sum), tsr: hundred(c.tsr_value_of_100), span: span(c) };
+    return {
+      cik: c.cik, name, ticker, ceo: ceoNames(c.ceos),
+      pay: compactMoney(c.peo_sct_sum), payNum: c.peo_sct_sum ?? 0,
+      tsr: hundred(c.tsr_value_of_100), tsrNum: c.tsr_value_of_100,
+      span: span(c),
+    };
   });
 
   return (
@@ -48,8 +54,8 @@ export default async function HiwHome() {
             Heads, I win.<br /><span className="text-accent-ink hiw-gold-text">Tails, you lose.</span>
           </h1>
           <p className="mt-5 text-[18px] leading-8 text-ink-2 max-w-[60ch]">
-            The stock falls. The pay doesn&apos;t. A running tally of what America&apos;s public companies paid the people
-            at the top while their shareholders lost money, straight from the companies&apos; own filings.
+            The stock craters. The comp committee reloads. A running ledger of what America&apos;s public companies paid
+            the corner office while shareholders took the bath — straight from each company&apos;s own SEC filings.
           </p>
           {ratios.length > 0 && (
             <GreedMeter ceos={TOP_PAID} medianWorker={ratioStats.median_worker}
@@ -214,6 +220,24 @@ export default async function HiwHome() {
         )}
       </div>
 
+      {repeats.length > 0 && (
+        <section aria-labelledby="repeat-offenders" className="space-y-5">
+          <div>
+            <div className="text-[12px] font-bold uppercase tracking-[0.16em] text-accent-ink">The full bingo card</div>
+            <h2 id="repeat-offenders" className="mt-1 text-[26px] leading-8 sm:text-[32px] sm:leading-[36px] font-extrabold tracking-[-0.02em] text-ink">
+              One company, every way at once.
+            </h2>
+            <p className="mt-1 text-[14px] leading-5 text-ink-2 max-w-[70ch]">
+              Household names that turn up across at least 3 separate files on this site — welcome packages on the way
+              in, raises in crash years, layoffs in the middle, and golden parachutes on the way out.
+            </p>
+          </div>
+          <ul className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+            {repeats.map((r) => <RepeatCard key={r.cik} r={r} />)}
+          </ul>
+        </section>
+      )}
+
       <nav aria-labelledby="more-greed" className="space-y-4">
         <h2 id="more-greed" className="text-[26px] leading-8 font-extrabold tracking-[-0.02em] text-ink">More greed</h2>
         <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
@@ -269,5 +293,50 @@ function Head({ id, kicker, title, sub, href }: { id: string; kicker: string; ti
         See all →
       </Link>
     </div>
+  );
+}
+
+function RepeatCard({ r }: { r: RepeatOffender }) {
+  const { name, ticker } = companyLabel(r);
+  const badges: [string, string][] = [];
+  if (r.paid_anyway) badges.push(["💸", "Paid anyway"]);
+  if (r.crash_raise) badges.push(["📈", "Crash-year raise"]);
+  if (r.has_hello) badges.push(["👋", "Golden hello"]);
+  if (r.has_chute) badges.push(["🪂", "Golden parachute"]);
+  if (r.has_layoff) badges.push(["✂️", "Layoffs"]);
+  if (r.has_failing) badges.push(["🪜", "Failing up"]);
+  return (
+    <li>
+      <Link href={`/case/${r.cik}`}
+            className="group flex flex-col justify-between h-full rounded-[16px] border border-line bg-surface px-5 py-4 shadow-card hover:border-accent/60">
+        <div>
+          <div className="flex items-center justify-between gap-3">
+            <div className="flex items-center gap-2.5 min-w-0">
+              <Logo cik={r.cik} size={28} />
+              <div className="min-w-0">
+                <div className="text-[16px] leading-6 font-bold text-ink truncate group-hover:text-accent-ink">{name}</div>
+                <div className="text-[11px] leading-4 font-mono text-ink-3">{ticker ?? "—"}</div>
+              </div>
+            </div>
+            <span className="shrink-0 rounded-full bg-accent-wash border border-accent/40 px-2.5 py-0.5 text-[11px] font-extrabold text-accent-ink num">
+              {badges.length} files
+            </span>
+          </div>
+          <div className="mt-3 flex flex-wrap gap-1.5">
+            {badges.map(([emoji, label]) => (
+              <span key={label} className="inline-flex items-center gap-1 rounded-full bg-surface-3 border border-line-strong px-2.5 py-0.5 text-[11.5px] leading-4 font-medium text-ink-2">
+                <span aria-hidden>{emoji}</span>{label}
+              </span>
+            ))}
+          </div>
+        </div>
+        {r.tsr_value_of_100 != null && (
+          <div className="mt-3 pt-2.5 border-t border-line flex items-center justify-between text-[12px] leading-4 text-ink-3">
+            <span>Proxy table&apos;s $100 → <strong className={`num ${r.tsr_value_of_100 < 100 ? "text-loss-ink" : "text-gain-ink"}`}>{hundred(r.tsr_value_of_100)}</strong></span>
+            {r.peo_sct_sum != null && <span>CEO pay <strong className="num text-accent-ink">{compactMoney(r.peo_sct_sum)}</strong></span>}
+          </div>
+        )}
+      </Link>
+    </li>
   );
 }

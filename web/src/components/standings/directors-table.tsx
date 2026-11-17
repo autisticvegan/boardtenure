@@ -3,7 +3,7 @@
 import Link from "next/link";
 import type { ReactNode } from "react";
 import type { RankScope, ScopedDirector } from "@/lib/queries";
-import { CHIP_HINT, floorYears, SCOPE_LABEL, shortRecord, tagsFor, withScope, type Tag } from "@/lib/standings";
+import { CHIP_HINT, floorYears, SCOPE_LABEL, shortRecord, TAG_ORDER, tagsFor, withScope, type Tag } from "@/lib/standings";
 import { Chip, ExcessBar, RankBadge, Signed, type ChipKind } from "./primitives";
 import { scoredSeats, sortHref, type RankingsQuery, type SortKey } from "./rankings-query";
 
@@ -52,8 +52,6 @@ export function SortTh({ k, query, children, className = "", align = "left" }: {
 
 export type ChipSpec = { kind: ChipKind; label: string; hint?: string };
 
-const TAG_ORDER: Tag["key"][] = ["white-knuckle", "rocket", "rough"];
-
 export function NoteChips({ facts, tags }: { facts: ChipSpec[]; tags: Tag[] }) {
   if (facts.length === 0 && tags.length === 0) return <span className="text-ink-3">—</span>;
   return (
@@ -86,7 +84,7 @@ function directorNotes(d: ScopedDirector): { facts: ChipSpec[]; tags: Tag[]; mob
   const current: ChipSpec | null = d.has_current_scored ? { kind: "current", label: "Current", hint: CHIP_HINT.current } : null;
 
   const byKey = new Map<Tag["key"], Tag>();
-  for (const s of seats) for (const t of tagsFor(s, 3)) byKey.set(t.key, t);
+  for (const s of seats) for (const t of tagsFor(s, 5)) byKey.set(t.key, t);
   const tags = TAG_ORDER.flatMap((k) => byKey.get(k) ?? []).slice(0, 2);
 
   const facts = [short, exec, ipo, current].filter((c): c is ChipSpec => c != null);

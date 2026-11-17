@@ -478,3 +478,56 @@ export async function getSearchIndex(): Promise<[number, string, string | null, 
     FROM company_logo l WHERE l.name IS NOT NULL AND NOT EXISTS (SELECT 1 FROM pvp_screen_ok s WHERE s.cik = l.cik)`;
   return rows.map((r) => [r.cik, r.name, r.tickers, r.size]);
 }
+
+export type RepeatOffender = {
+  cik: number;
+  entity_name: string;
+  tickers: string | null;
+  paid_anyway: boolean;
+  crash_raise: boolean;
+  has_hello: boolean;
+  has_chute: boolean;
+  has_layoff: boolean;
+  has_failing: boolean;
+  peo_sct_sum: number | null;
+  tsr_value_of_100: number | null;
+  max_float: number;
+};
+
+/** Notable companies appearing across 3 or more distinct Heads I Win files at once. */
+export const getRepeatOffenders = cache(async (minCategories = 3, limit = 12): Promise<RepeatOffender[]> => {
+  const rows = await sql<RepeatOffender[]>`
+    WITH hits AS (
+      SELECT DISTINCT cik FROM pay_change WHERE ret <= -0.3 AND sct > sct_prev AND NOT new_ceo_base
+      UNION ALL
+      SELECT DISTINCT company_cik::bigint FROM hiw_case WHERE company_cik ~ '^[0-9]+$' AND kind = 'golden_hello'
+      UNION ALL
+      SELECT DISTINCT nullif(regexp_replace(company_cik, '\D', '', 'g'), '')::bigint FROM golden_parachute WHERE coalesce(total, 0) > 0
+      UNION ALL
+      SELECT DISTINCT company_cik::bigint FROM hiw_case WHERE company_cik ~ '^[0-9]+$' AND kind = 'layoffs'
+      UNION ALL
+      SELECT DISTINCT cik FROM (SELECT from_cik AS cik FROM failing_up_case UNION SELECT to_cik FROM failing_up_case) fu WHERE cik IS NOT NULL
+    ),
+    cand AS (
+      SELECT cik FROM hits WHERE cik IS NOT NULL GROUP BY cik HAVING count(*) >= ${Math.max(1, minCategories - 1)}
+    ),
+    flags AS (
+      SELECT s.cik, s.entity_name, s.tickers, s.peo_sct_sum, s.tsr_value_of_100, coalesce(s.max_float, 0)::float8 AS max_float,
+             (EXISTS (SELECT 1 FROM pvp_case pc WHERE pc.cik = s.cik AND pc.verified)
+               AND s.tsr_value_of_100 < 50 AND s.span_years >= 3 AND s.peo_sct_sum IS NOT NULL) AS paid_anyway,
+             EXISTS (SELECT 1 FROM pay_change c WHERE c.cik = s.cik AND c.ret <= -0.3 AND c.sct > c.sct_prev AND NOT c.new_ceo_base) AS crash_raise,
+             EXISTS (SELECT 1 FROM hiw_case h WHERE h.company_cik ~ '^[0-9]+$' AND h.company_cik::bigint = s.cik AND h.kind = 'golden_hello') AS has_hello,
+             EXISTS (SELECT 1 FROM golden_parachute g WHERE nullif(regexp_replace(g.company_cik, '\D', '', 'g'), '')::bigint = s.cik AND coalesce(g.total, 0) > 0) AS has_chute,
+             EXISTS (SELECT 1 FROM hiw_case h WHERE h.company_cik ~ '^[0-9]+$' AND h.company_cik::bigint = s.cik AND h.kind = 'layoffs') AS has_layoff,
+             EXISTS (SELECT 1 FROM failing_up_case f WHERE f.from_cik = s.cik OR f.to_cik = s.cik) AS has_failing
+      FROM pvp_screen_ok s
+      JOIN cand ON cand.cik = s.cik
+      WHERE s.notable AND NOT s.implausible
+    )
+    SELECT * FROM flags
+    WHERE (paid_anyway::int + crash_raise::int + has_hello::int + has_chute::int + has_layoff::int + has_failing::int) >= ${minCategories}
+    ORDER BY (paid_anyway::int + crash_raise::int + has_hello::int + has_chute::int + has_layoff::int + has_failing::int) DESC,
+             max_float DESC
+    LIMIT ${limit}`;
+  return rows;
+});

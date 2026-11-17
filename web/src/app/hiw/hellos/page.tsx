@@ -6,7 +6,10 @@ import { compactMoney } from "@/lib/format";
 import { fig, getHiwCases, type HiwCase } from "@/lib/queries-hiw";
 import { median } from "@/lib/track-record";
 
-export const metadata: Metadata = { title: "Golden hellos" };
+export const metadata: Metadata = {
+  title: "Golden hellos — paid millions just to show up",
+  description: "Sign-on cash, make-whole stock grants, inducement awards, and commuter jets handed to newly hired CEOs before day one, straight from 8-K offer letters and proxies.",
+};
 export const revalidate = 3600;
 
 const PART_ORDER = ["sign_on_cash", "make_whole_equity", "sign_on_equity", "other_perks"];

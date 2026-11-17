@@ -1,5 +1,6 @@
 // A ticker-tape band of real cases. The list is rendered twice so the loop is seamless; screen readers
 // get one copy, and hovering pauses it.
+import Link from "next/link";
 import { Logo } from "@/components/logo";
 import { compactMoney } from "@/lib/format";
 import type { ScreenCase } from "@/lib/queries-hiw";
@@ -15,19 +16,22 @@ export function Ticker({ cases }: { cases: ScreenCase[] }) {
   const row = (hidden: boolean) => (
     <ul aria-hidden={hidden || undefined} className="flex shrink-0 items-center">
       {items.map((i) => (
-        <li key={i.key} className="flex items-center gap-2 px-5 text-[13px] leading-5 whitespace-nowrap border-r border-line">
-          <Logo cik={i.key} size={20} />
-          <span className="font-mono font-bold text-ink">{i.label}</span>
-          <span className="text-ink-3">CEO</span>
-          <span className="font-mono font-semibold text-accent-ink">▲ {i.pay}</span>
-          <span className="text-ink-3">· $100 →</span>
-          <span className="font-mono font-semibold text-loss-ink">▼ {i.tsr}</span>
+        <li key={i.key} className="border-r border-line">
+          <Link href={`/case/${i.key}`} tabIndex={hidden ? -1 : undefined}
+                className="flex items-center gap-2 px-5 py-0.5 text-[13px] leading-5 whitespace-nowrap hover:bg-surface-2 transition-colors">
+            <Logo cik={i.key} size={20} />
+            <span className="font-mono font-bold text-ink">{i.label}</span>
+            <span className="text-ink-3">CEO</span>
+            <span className="font-mono font-semibold text-accent-ink">▲ {i.pay}</span>
+            <span className="text-ink-3">· $100 →</span>
+            <span className="font-mono font-semibold text-loss-ink">▼ {i.tsr}</span>
+          </Link>
         </li>
       ))}
     </ul>
   );
   return (
-    <div className="hiw-ticker overflow-hidden border-y border-line bg-surface/70 py-2.5" role="region" aria-label="Ticker of cases">
+    <div className="hiw-ticker overflow-hidden border-y border-line bg-surface/70 py-2" role="region" aria-label="Ticker of cases">
       <div className="hiw-ticker-track">{row(false)}{row(true)}</div>
     </div>
   );

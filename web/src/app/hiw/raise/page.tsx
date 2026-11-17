@@ -7,7 +7,10 @@ import { compactMoney } from "@/lib/format";
 import { getRaisesAnyway } from "@/lib/queries-hiw";
 import { getPayAsymmetry } from "@/lib/queries-pay";
 
-export const metadata: Metadata = { title: "The raise" };
+export const metadata: Metadata = {
+  title: "The raise — when the stock drops 30%+ and CEO pay still climbs",
+  description: "Same CEO, consecutive full years across thousands of proxy tables: how CEO pay jumps when the stock rises, barely budges when it craters, and who got the biggest crash-year raises.",
+};
 export const revalidate = 3600;
 
 const DROP = 0.3;

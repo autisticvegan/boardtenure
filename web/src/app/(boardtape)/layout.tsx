@@ -37,12 +37,14 @@ export default async function BoardtapeLayout({ children }: { children: React.Re
           <div className="space-y-1.5">
             <p className="text-ink-3 text-[11px] leading-[14px] font-semibold uppercase tracking-[0.08em]">Explore</p>
             <p><Link className="hover:text-ink" href="/rankings">Standings</Link></p>
+            <p><Link className="hover:text-ink" href="/boards">Board retainers</Link></p>
             <p><Link className="hover:text-ink" href="/pay">Executive pay</Link></p>
             <p><Link className="hover:text-ink" href="/companies">Companies</Link></p>
-            <p><Link className="hover:text-ink" href="/methodology">Methodology</Link></p>
+            <p><Link className="hover:text-ink" href="/hiw">Heads I Win (CEO pay)</Link></p>
           </div>
           <div className="space-y-1.5">
             <p className="text-ink-3 text-[11px] leading-[14px] font-semibold uppercase tracking-[0.08em]">About</p>
+            <p><Link className="hover:text-ink" href="/methodology">Methodology</Link></p>
             <p><Link className="hover:text-ink" href="/sources">Sources &amp; attribution</Link></p>
             <p><Link className="hover:text-ink" href="/terms">Terms of use</Link></p>
           </div>

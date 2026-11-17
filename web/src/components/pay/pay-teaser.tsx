@@ -49,19 +49,31 @@ export async function PayTeaser() {
         )}
       </div>
       {up && down && asym && (
-        <Link href="/pay/asymmetry"
-              className="mt-4 group flex flex-wrap items-baseline gap-x-6 gap-y-1 rounded-[14px] border border-line bg-surface px-5 py-4 shadow-card hover:border-line-strong">
-          <span className="text-[11px] leading-[14px] uppercase tracking-[0.08em] text-ink-3">
-            Market-wide · {asym.sample.companies.toLocaleString("en-US")} companies, same CEO year to year
-          </span>
-          <span className="text-[15px] leading-6 text-ink">
-            Stock up more than {Math.round((up.lo ?? 0) * 100)}% in a year: median CEO pay{" "}
-            <Signed value={up.median_change} kind="pct" className="font-semibold" />. Down more than{" "}
-            {Math.round(Math.abs(down.hi ?? 0) * 100)}%: <Signed value={down.median_change} kind="pct" className="font-semibold" />,
-            and {Math.round((down.share_up ?? 0) * 100)}% were still paid more.
-          </span>
-          <span className="ml-auto text-[13px] font-semibold text-ink-2 group-hover:text-ink">The test →</span>
-        </Link>
+        <div className="mt-4 grid gap-4 lg:grid-cols-[minmax(0,2fr)_minmax(0,1fr)]">
+          <Link href="/pay/asymmetry"
+                className="group flex flex-col justify-between gap-2 rounded-[14px] border border-line bg-surface px-5 py-4 shadow-card hover:border-line-strong">
+            <span className="text-[11px] leading-[14px] uppercase tracking-[0.08em] text-ink-3">
+              Market-wide · {asym.sample.companies.toLocaleString("en-US")} companies, same CEO year to year
+            </span>
+            <span className="text-[15px] leading-6 text-ink">
+              Stock up more than {Math.round((up.lo ?? 0) * 100)}% in a year: median CEO pay{" "}
+              <Signed value={up.median_change} kind="pct" className="font-semibold" />. Down more than{" "}
+              {Math.round(Math.abs(down.hi ?? 0) * 100)}%: <Signed value={down.median_change} kind="pct" className="font-semibold" />,
+              and {Math.round((down.share_up ?? 0) * 100)}% still got a raise.
+            </span>
+            <span className="text-[13px] font-semibold text-accent-ink group-hover:underline underline-offset-2">See the asymmetry test →</span>
+          </Link>
+          <Link href="/hiw"
+                className="group flex flex-col justify-between gap-2 rounded-[14px] border border-line bg-surface px-5 py-4 shadow-card hover:border-line-strong">
+            <span className="text-[11px] leading-[14px] uppercase tracking-[0.08em] text-accent-ink font-semibold">
+              Companion site · Heads I Win
+            </span>
+            <span className="text-[15px] leading-6 font-semibold text-ink">
+              Heads, I win. Tails, you lose: golden parachutes, golden hellos, layoffs, and CEOs paid anyway.
+            </span>
+            <span className="text-[13px] font-semibold text-accent-ink group-hover:underline underline-offset-2">Open Heads I Win →</span>
+          </Link>
+        </div>
       )}
     </section>
   );

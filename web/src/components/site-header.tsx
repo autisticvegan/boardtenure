@@ -25,6 +25,7 @@ export function SiteHeader() {
           <Link className="hover:text-ink transition-colors" href="/boards">Boards</Link>
           <Link className="hover:text-ink transition-colors" href="/companies">Companies</Link>
           <Link className="hover:text-ink transition-colors" href="/methodology">Methodology</Link>
+          <Link className="text-accent-ink font-semibold hover:underline underline-offset-4" href="/hiw">Heads I Win</Link>
         </nav>
       </div>
     </header>

@@ -5,11 +5,16 @@ import { SectionHead, Signed } from "@/components/standings/primitives";
 import { Card } from "@/components/ui";
 import { compactMoney } from "@/lib/format";
 import {
-  getBiggestReactions, getBoardYears, getDetectability, getReactionStats, type BigReaction, type BoardYear, type ReactionStat,
+  getBiggestReactions, getBoardYears, getDetectability, getDirectorPayLeaders, getReactionStats,
+  type BigReaction, type BoardYear, type DirectorSeatPayLeader, type ReactionStat,
 } from "@/lib/queries-boards";
+import { years as fmtYears } from "@/lib/standings";
 import { median } from "@/lib/track-record";
 
-export const metadata: Metadata = { title: "What boards cost" };
+export const metadata: Metadata = {
+  title: "What boards cost — retainers, grants, and whether bad years dent them",
+  description: "What non-employee directors were paid from each proxy's Director Compensation table, whether bad stock years dent board retainers, and who collected the most while trailing the S&P 500.",
+};
 export const revalidate = 3600;
 
 const UNTESTED = new Set(["tsla", "amzn"]);
@@ -26,8 +31,8 @@ function tinyPct(x: number | null | undefined): string {
 }
 
 export default async function BoardsPage() {
-  const [years, detect, reactions, biggest] = await Promise.all([
-    getBoardYears(), getDetectability(), getReactionStats(), getBiggestReactions(),
+  const [years, detect, reactions, biggest, payLeaders] = await Promise.all([
+    getBoardYears(), getDetectability(), getReactionStats(), getBiggestReactions(), getDirectorPayLeaders(),
   ]);
   // Left out of the pay-response test (kept in the tables): Tesla's board took no pay from 2021 under a
   // court settlement over earlier awards, and Amazon grants directors stock only every few years, so
@@ -51,15 +56,20 @@ export default async function BoardsPage() {
   const directorShare = median(years.filter((y) => y.median_paid && y.start_market_cap)
     .map((y) => y.median_paid! / y.start_market_cap!));
 
+  const paidTrailing = payLeaders.filter((d) => d.annualized_excess <= -0.0005).slice(0, 8);
+  const topPaidSeats = payLeaders.slice(0, 8);
+
   return (
     <div className="space-y-10 md:space-y-14">
       <header className="max-w-[860px]">
-        <div className="text-[11px] leading-[14px] uppercase tracking-[0.08em] text-ink-3">Board pay</div>
-        <h1 className="mt-1 text-[26px] leading-8 sm:text-[32px] sm:leading-[38px] font-bold tracking-[-0.02em] text-ink">What boards cost, and what anyone can tell about it</h1>
+        <div className="text-[11px] leading-[14px] font-semibold uppercase tracking-[0.08em] text-ink-3">Board retainers &amp; stock grants</div>
+        <h1 className="mt-1 text-[26px] leading-8 sm:text-[32px] sm:leading-[38px] font-bold tracking-[-0.02em] text-ink">
+          Nice work if you can get it: what boards cost, and whether bad years ever dent the retainer
+        </h1>
         <p className="mt-2 text-[15px] leading-6 text-ink-2">
-          What non-employee directors were paid, from each proxy&apos;s Director Compensation table, set against the stock.
-          Two questions: does director pay respond to how the stock did, and could stock data ever show whether
-          directors earn it?
+          Every proxy&apos;s Director Compensation table, set beside the stock. Non-employee board seats pay a steady
+          six-figure mix of cash retainers and annual equity grants — and when the stock trails the S&amp;P 500, the
+          retainer almost never flinches.
         </p>
       </header>
 
@@ -95,6 +105,23 @@ export default async function BoardsPage() {
           grant-date prices. A small sample: read it as &ldquo;no sign pay falls after bad years&rdquo;, not a measured effect.
         </p>
       </section>
+
+      {payLeaders.length > 0 && (
+        <div className="grid gap-6 lg:grid-cols-2 items-start">
+          <DirectorPayList
+            id="paid-trailing"
+            title="Most board pay while the stock trailed"
+            sub="Highest cumulative non-employee director pay where the stock trailed the S&P 500 per year over the scored seat."
+            rows={paidTrailing}
+          />
+          <DirectorPayList
+            id="biggest-checks"
+            title="Biggest cumulative board paychecks"
+            sub="Highest reported non-employee director totals across the proxies on file (Tesla's 2018–2020 option awards were later partly returned in a court settlement)."
+            rows={topPaidSeats}
+          />
+        </div>
+      )}
 
       <Reactions stats={reactions} biggest={biggest} directorPay={medianDirector} />
 
@@ -190,6 +217,35 @@ function Tile({ value, label }: { value: ReactNode; label: string }) {
       <dt className="mt-0.5 text-[12px] leading-4 text-ink-3">{label}</dt>
       <dd className="text-[24px] leading-[30px] font-bold tracking-[-0.01em] text-ink whitespace-nowrap">{value}</dd>
     </div>
+  );
+}
+
+function DirectorPayList({ id, title, sub, rows }: { id: string; title: string; sub: string; rows: DirectorSeatPayLeader[] }) {
+  if (rows.length === 0) return null;
+  return (
+    <section aria-labelledby={id}>
+      <SectionHead id={id} title={title} sub={sub} />
+      <Card pad={false}>
+        <ol className="divide-y divide-line">
+          {rows.map((r) => (
+            <li key={`${r.company_slug}-${r.person_slug}`} className="flex items-center justify-between gap-4 px-4 py-2.5">
+              <div className="min-w-0">
+                <Link href={`/c/${r.company_slug}/d/${r.person_slug}`} className="font-semibold text-ink hover:text-accent-ink text-[13px]">
+                  {r.full_name}
+                </Link>
+                <div className="text-[12px] leading-4 text-ink-3 truncate">
+                  {r.company_name} · FY{r.first_year}{r.last_year !== r.first_year && <>–FY{r.last_year}</>} · {fmtYears(r.calendar_days)} scored yrs
+                </div>
+              </div>
+              <div className="text-right shrink-0">
+                <div className="num text-ink font-semibold text-[13px]">{compactMoney(r.total_paid)}</div>
+                <Signed value={r.annualized_excess} kind="perYear" className="text-[12px]" />
+              </div>
+            </li>
+          ))}
+        </ol>
+      </Card>
+    </section>
   );
 }
 

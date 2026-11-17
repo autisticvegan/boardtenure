@@ -3,7 +3,10 @@ import { CaseCard } from "@/components/hiw/case-card";
 import { hundred } from "@/components/hiw/hundred";
 import { getHeadsIWin, getScreenStats } from "@/lib/queries-hiw";
 
-export const metadata: Metadata = { title: "Heads I win" };
+export const metadata: Metadata = {
+  title: "Heads I win — marked-to-market CEO pay where shareholders still lost",
+  description: "Even under the SEC's mark-to-market 'compensation actually paid' measure, most CEOs at money-losing companies came out ahead while $100 of stock shrank.",
+};
 export const revalidate = 3600;
 
 export default async function HeadsIWin() {

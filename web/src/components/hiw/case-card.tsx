@@ -53,9 +53,23 @@ export function CaseCard({ c, rank, metric = "pay" }: { c: ScreenCase; rank?: nu
           <span className={`num font-bold ${c.tsr_value_of_100 < 100 ? "text-loss-ink" : "text-gain-ink"}`}>{hundred(c.tsr_value_of_100)}</span>
         </span>
       </div>
-      {c.peer_tsr_value_of_100 != null && (
-        <div className="mt-1 text-[11px] leading-4 text-ink-3 text-right">peer group&apos;s $100: {hundred(c.peer_tsr_value_of_100)}</div>
-      )}
+      <div className="mt-1.5 flex flex-wrap items-center justify-between gap-2 text-[11px] leading-4 text-ink-3">
+        <span className="flex flex-wrap items-center gap-1.5">
+          {c.tsr_value_of_100 <= 20 && (
+            <span className="rounded-full bg-[rgba(217,89,38,0.16)] border border-loss/40 px-2 py-0.5 text-[10.5px] font-bold text-loss-ink">
+              80%+ wiped out
+            </span>
+          )}
+          {c.peer_tsr_value_of_100 != null && c.peer_tsr_value_of_100 - c.tsr_value_of_100 >= 50 && (
+            <span className="rounded-full bg-surface-3 border border-line-strong px-2 py-0.5 text-[10.5px] font-medium text-ink-2">
+              −{Math.round(c.peer_tsr_value_of_100 - c.tsr_value_of_100)} pts vs peers
+            </span>
+          )}
+        </span>
+        {c.peer_tsr_value_of_100 != null && (
+          <span className="ml-auto">peer group&apos;s $100: {hundred(c.peer_tsr_value_of_100)}</span>
+        )}
+      </div>
     </Link>
   );
 }

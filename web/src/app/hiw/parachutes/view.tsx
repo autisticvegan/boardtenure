@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { MakeItRain } from "@/components/hiw/greed-fx";
 import { Receipt } from "@/components/hiw/receipt";
 import { compactMoney } from "@/lib/format";
 import { PRICE_DERIVED, getAllChutes, type Chute } from "@/lib/queries-hiw";
@@ -51,13 +52,14 @@ export async function View({ kind: requested }: { kind: string }) {
       <header className="max-w-[860px] space-y-4">
         <div className="text-[12px] font-bold uppercase tracking-[0.16em] text-accent-ink">Golden parachutes</div>
         <h1 className="text-[40px] leading-[44px] sm:text-[60px] sm:leading-[62px] font-extrabold tracking-[-0.035em] text-ink">
-          The exit is the bonus.
+          The exit is <span className="text-accent-ink hiw-gold-text">the bonus.</span>
         </h1>
         <p className="text-[17px] leading-7 text-ink-2">
-          What executives were paid on the way out: severance, stock that kept vesting after they left, consulting
-          deals, pensions topped up, taxes covered. Every line is from the company&apos;s own filings, beside what $100 of
-          its stock did while they were in charge.
+          Pushed out, retired, or sold the company: severance checks, unvested stock that kept vesting from the couch,
+          post-departure &ldquo;advisory&rdquo; retainers, topped-up pensions, and tax gross-ups — itemized from each
+          company&apos;s own filings beside what $100 of its stock did while they served.
         </p>
+        <MakeItRain label="Pull the golden ripcord" />
       </header>
 
       <dl className="grid grid-cols-2 md:grid-cols-4 gap-px overflow-hidden rounded-[14px] border border-line bg-line shadow-card">

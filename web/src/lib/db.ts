@@ -3,13 +3,15 @@ import postgres from "postgres";
 
 // One pool per server process; reused across hot reloads in development. Bump the key when the
 // pool options change, or a hot reload keeps serving the pool built with the old ones.
-const POOL_KEY = "boardtenure.sql.v2";
+const POOL_KEY = "boardtenure.sql.v3";
 const globalForDb = globalThis as unknown as Record<string, postgres.Sql | undefined>;
+
+const defaultMax = process.env.NEXT_PHASE === "phase-production-build" ? 3 : 5;
 
 export const sql =
   globalForDb[POOL_KEY] ??
   postgres(process.env.DATABASE_URL ?? "postgresql:///boardtenure_dev", {
-    max: Number(process.env.DB_POOL_MAX ?? 10), // the static export runs several build workers at once
+    max: Number(process.env.DB_POOL_MAX ?? defaultMax), // the static export runs several build workers at once
     idle_timeout: 30,
     // numeric -> number: every numeric column we read is a price or ratio that fits a double.
     types: {
